@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant-HK">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0f19">
+  <title>日職 J1 SkyBook 2026/27</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">TVB 評述員資料庫</div>
+      <h1>日職 J1 SkyBook <span>2026/27</span></h1>
+    </div>
+    <div class="topbar-actions">
+      <button id="open-team-picker" class="secondary-button" type="button">選擇對賽</button>
+      <button id="back-to-team" class="secondary-button" type="button">球隊概覽</button>
+    </div>
+  </header>
+
+  <section id="fixture-panel" class="fixture-panel" aria-label="對賽快速切換">
+    <label>主隊<select id="home-team"></select></label>
+    <button id="home-button" class="fixture-team active" type="button"></button>
+    <div class="versus">VS</div>
+    <button id="away-button" class="fixture-team" type="button"></button>
+    <label>客隊<select id="away-team"></select></label>
+  </section>
+
+  <main class="workspace">
+    <aside class="sidebar" aria-label="球員快速目錄">
+      <div class="sidebar-tools">
+        <input id="player-search" type="search" placeholder="搜尋姓名或背號" autocomplete="off">
+        <div id="shirt-grid" class="shirt-grid" aria-label="背號捷徑"></div>
+      </div>
+      <nav id="roster-list" class="roster-list"></nav>
+    </aside>
+    <section id="detail" class="detail" aria-live="polite"></section>
+  </main>
+
+  <template id="loading-template">
+    <article class="panel loading-panel"><div class="spinner"></div><p>正在載入資料……</p></article>
+  </template>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

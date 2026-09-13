@@ -1,0 +1,2544 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-13T18:17:03.938Z",
+  "team": {
+    "id": "team_urawa",
+    "type": "team_info",
+    "club": "浦和紅鑽",
+    "club_en": "Urawa Red Diamonds",
+    "logo_url": "logos/japan_urawa-reds.football-logos.cc.svg",
+    "hometown": "埼玉縣埼玉市",
+    "hometown_population": "1,340,000人",
+    "name_history": "隊名「Red Diamonds」源自母公司三菱集團的紅色三顆鑽石標誌，象徵堅固團結與熱血霸氣。",
+    "stadium_info": {
+      "name": "Saitama Stadium 2002",
+      "year_built": 2001,
+      "year_renovated": 2017,
+      "capacity": 63700,
+      "interesting_facts": [
+        "日本最大的專用足球場之一",
+        "亞洲最具震撼力的主場聲浪，紅鑽球迷看台「熱狂南看台」聞名遐邇"
+      ]
+    },
+    "team_history": "前身為1950年成立的三菱重工足球部，1992年成為J聯賽創始球隊之一。",
+    "performance_history": [
+      "1次 J1 聯賽冠軍 (2006)",
+      "3次 亞冠盃 (ACL) 冠軍 (2007, 2017, 2022)",
+      "8次 天皇盃冠軍"
+    ],
+    "slug": "urawa",
+    "data_key": "浦和紅鑽",
+    "name_zh": "浦和紅鑽",
+    "name_ja": "浦和レッズ",
+    "name_en": "Urawa Red Diamonds",
+    "colors": {
+      "bg": "#e6002d",
+      "text": "#ffffff"
+    },
+    "season": "2026/27",
+    "season_start": "2026-08-07",
+    "roster_as_of": null,
+    "data_status": "legacy_unverified",
+    "sources": []
+  },
+  "manager": {
+    "id": "jleague_urawa_mgr",
+    "club": "浦和紅鑽",
+    "number": "HC",
+    "name_zh": "曺貴裁",
+    "name_en": "Cho Kwi-jae",
+    "position": "MANAGER",
+    "dob": "1969-01-16",
+    "age": 57,
+    "height": 177,
+    "weight": 74,
+    "foot": "右腳",
+    "nationality": "南韓",
+    "joined": 2026,
+    "prev_club": "Kyoto Sanga",
+    "registration_status": "總教練",
+    "tenure_status": "執教第1季",
+    "national_team_detail": "無",
+    "intro": "戰術風格極具侵略性的資深名帥，主張「高強度全員壓迫與極速反擊」理念。",
+    "timeline": [
+      {
+        "period": "2021–2025",
+        "team": "Kyoto Sanga",
+        "category": "J1職業隊",
+        "milestone": "率領京都不死鳥穩居J1"
+      },
+      {
+        "period": "2026–至今",
+        "team": "浦和紅鑽",
+        "category": "J1職業隊",
+        "milestone": "執掌浦和紅鑽帥印"
+      }
+    ],
+    "honors": [
+      "J.League 盃冠軍 (2018)",
+      "J2最佳總教練 (2014)"
+    ],
+    "milestones": [
+      "帶領京都不死鳥睽違12年重返J1"
+    ],
+    "tactical_traits": [
+      "全員高壓逼搶 (Gegenpressing)",
+      "極速體能對抗"
+    ],
+    "quirky_trivia": "訓練極度嚴格，被譽為激情型戰術大師。",
+    "legacy_id": "jleague_urawa_mgr",
+    "official_player_id": null,
+    "team_slug": "urawa",
+    "name_ja": "",
+    "birthplace": "",
+    "season_start_age": 57,
+    "player_image": "",
+    "career": [
+      {
+        "season": "2021–2025",
+        "team": "Kyoto Sanga",
+        "competition": "J1職業隊",
+        "appearances": null,
+        "goals": null,
+        "status": "",
+        "notes": "率領京都不死鳥穩居J1",
+        "verification_status": "legacy_unverified",
+        "sources": []
+      },
+      {
+        "season": "2026–至今",
+        "team": "浦和紅鑽",
+        "competition": "J1職業隊",
+        "appearances": null,
+        "goals": null,
+        "status": "",
+        "notes": "執掌浦和紅鑽帥印",
+        "verification_status": "legacy_unverified",
+        "sources": []
+      }
+    ],
+    "sources": [],
+    "verification_status": "legacy_unverified",
+    "verified_at": null
+  },
+  "players": [
+    {
+      "id": "jleague_urawa_1",
+      "club": "浦和紅鑽",
+      "number": "1",
+      "name_zh": "西川周作",
+      "name_en": "Shusaku Nishikawa",
+      "position": "GK",
+      "dob": "1986-06-18",
+      "age": 40,
+      "height": 183,
+      "weight": 81,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2014,
+      "prev_club": "Sanfrecce Hiroshima",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第13季",
+      "national_team_detail": "日本國家隊 (31 場)",
+      "intro": "浦和精神領袖兼功勳門將，擁有頂級的左腳長傳發動能力與門線反應速度。",
+      "timeline": [
+        {
+          "period": "2014–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "效力超過10年並打破J1連續出場紀錄"
+        }
+      ],
+      "honors": [
+        "J1 聯賽最佳陣容 (6次)",
+        "ACL 亞冠盃冠軍 (2017, 2022)"
+      ],
+      "milestones": [
+        "J1 聯賽歷史零封場次保持者"
+      ],
+      "tactical_traits": [
+        "左腳精準長傳發動進攻",
+        "門線反應救球"
+      ],
+      "quirky_trivia": "球場上標誌性的微笑與極佳的隊友溝通能力。",
+      "legacy_id": "jleague_urawa_1",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 40,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2014–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "效力超過10年並打破J1連續出場紀錄",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_2",
+      "club": "浦和紅鑽",
+      "number": "2",
+      "name_zh": "宮本優太",
+      "name_en": "Yuta Miyamoto",
+      "position": "DF",
+      "dob": "1999-12-15",
+      "age": 26,
+      "height": 171,
+      "weight": 70,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2022,
+      "prev_club": "Ryutsu Keizai University",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第5季",
+      "national_team_detail": "日本 U-23 國家隊",
+      "intro": "跑動覆蓋極強的右後衛，防守對位極度頑強，體能充沛。",
+      "timeline": [
+        {
+          "period": "2022–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "大學畢業加盟浦和紅鑽"
+        }
+      ],
+      "honors": [
+        "全日本大學足球錦標賽冠軍"
+      ],
+      "milestones": [
+        "隊內測試體能數據常居首位"
+      ],
+      "tactical_traits": [
+        "高強度一對一卡位",
+        "邊路往復衝刺"
+      ],
+      "quirky_trivia": "大學時期便擔任球隊隊長，領袖氣質優異。",
+      "legacy_id": "jleague_urawa_2",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 26,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2022–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "大學畢業加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_3",
+      "club": "浦和紅鑽",
+      "number": "3",
+      "name_zh": "丹尼路·保沙",
+      "name_en": "Danilo Boza",
+      "position": "DF",
+      "dob": "1998-05-06",
+      "age": 28,
+      "height": 184,
+      "weight": 78,
+      "foot": "右腳",
+      "nationality": "巴西",
+      "joined": 2025,
+      "prev_club": "Juventude",
+      "registration_status": "外籍球員",
+      "tenure_status": "效力第2季",
+      "national_team_detail": "無",
+      "intro": "身材高大的巴西中後衛，具備頂級高空爭頂力與出色的後場防守覆蓋面。",
+      "timeline": [
+        {
+          "period": "2022–2024",
+          "team": "Vasco da Gama",
+          "category": "Série A",
+          "milestone": "巴甲名門主力中衛"
+        },
+        {
+          "period": "2024–2025",
+          "team": "Juventude",
+          "category": "Série A",
+          "milestone": "巴甲防線防守核心"
+        },
+        {
+          "period": "2025–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和鎖定主力中衛"
+        }
+      ],
+      "honors": [
+        "巴甲最佳中衛提名"
+      ],
+      "milestones": [
+        "浦和後防爭頂成功率第一"
+      ],
+      "tactical_traits": [
+        "高空球絕對正面防禦",
+        "準確精準鏟球"
+      ],
+      "quirky_trivia": "正面搶斷極具威懾力。",
+      "legacy_id": "jleague_urawa_3",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 28,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2022–2024",
+          "team": "Vasco da Gama",
+          "competition": "Série A",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "巴甲名門主力中衛",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–2025",
+          "team": "Juventude",
+          "competition": "Série A",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "巴甲防線防守核心",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2025–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和鎖定主力中衛",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_5",
+      "club": "浦和紅鑽",
+      "number": "5",
+      "name_zh": "根本健太",
+      "name_en": "Kenta Nemoto",
+      "position": "DF",
+      "dob": "2002-12-13",
+      "age": 23,
+      "height": 184,
+      "weight": 77,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "Ryutsu Keizai University",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第2季",
+      "national_team_detail": "無",
+      "intro": "左腳中後衛新星，身材達184cm，具備良好的預判補位與左腳斜傳實力。",
+      "timeline": [
+        {
+          "period": "2025–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "名門大學加盟職業隊"
+        }
+      ],
+      "honors": [
+        "關東大學足球聯賽最佳十一人"
+      ],
+      "milestones": [
+        "完成職業聯賽首秀"
+      ],
+      "tactical_traits": [
+        "左腳斜長傳發動",
+        "正面清球解圍"
+      ],
+      "quirky_trivia": "腳下技術在同身高後衛中相當出眾。",
+      "legacy_id": "jleague_urawa_5",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 23,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2025–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "名門大學加盟職業隊",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_6",
+      "club": "浦和紅鑽",
+      "number": "6",
+      "name_zh": "山根視來",
+      "name_en": "Miki Yamane",
+      "position": "DF",
+      "dob": "1993-12-22",
+      "age": 32,
+      "height": 178,
+      "weight": 72,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Los Angeles Galaxy",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本國家隊 (16 場 2 球)",
+      "intro": "前卡達世界盃日本國腳右後衛，擁有頂級的後插上助攻與前場威脅傳中。",
+      "timeline": [
+        {
+          "period": "2020–2023",
+          "team": "Kawasaki Frontale",
+          "category": "J1職業隊",
+          "milestone": "川崎前鋒王朝主力右後衛"
+        },
+        {
+          "period": "2024–2025",
+          "team": "Los Angeles Galaxy",
+          "category": "MLS",
+          "milestone": "旅美征戰美職聯"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "重返J1加盟浦和紅鑽"
+        }
+      ],
+      "honors": [
+        "J1 聯賽冠軍 (2020, 2021)",
+        "J1 最佳陣容 (3次)"
+      ],
+      "milestones": [
+        "代表日本國家隊出戰2022卡達世界盃"
+      ],
+      "tactical_traits": [
+        "後插上攻擊爆發力",
+        "極佳的前場送球視野"
+      ],
+      "quirky_trivia": "擁有極強的進攻屬性，被譽為邊後衛位置上的進攻發動機。",
+      "legacy_id": "jleague_urawa_6",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 32,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2020–2023",
+          "team": "Kawasaki Frontale",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "川崎前鋒王朝主力右後衛",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–2025",
+          "team": "Los Angeles Galaxy",
+          "competition": "MLS",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "旅美征戰美職聯",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "重返J1加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_7",
+      "club": "浦和紅鑽",
+      "number": "7",
+      "name_zh": "金子拓郎",
+      "name_en": "Takuro Kaneko",
+      "position": "MF",
+      "dob": "1997-07-30",
+      "age": 28,
+      "height": 178,
+      "weight": 72,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "KV Kortrijk",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第2季",
+      "national_team_detail": "日本代表隊代表",
+      "intro": "旅歐邊路爆破手，具備頂級右路內切與精準傳中能力。",
+      "timeline": [
+        {
+          "period": "2020–2023",
+          "team": "Hokkaido Consadole Sapporo",
+          "category": "J1職業隊",
+          "milestone": "札幌過人王"
+        },
+        {
+          "period": "2023–2024",
+          "team": "Dinamo Zagreb",
+          "category": "SuperSport HNL",
+          "milestone": "旅歐征戰克甲豪門"
+        },
+        {
+          "period": "2024–2025",
+          "team": "KV Kortrijk",
+          "category": "Belgian Pro League",
+          "milestone": "比利時甲組主力邊鋒"
+        },
+        {
+          "period": "2025–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "回歸J1披上7號球衣"
+        }
+      ],
+      "honors": [
+        "J1 聯賽過人王",
+        "克羅埃西亞甲級聯賽冠軍 (2024)"
+      ],
+      "milestones": [
+        "2026/27賽季J1聯賽助攻榜第一 (4次助攻)"
+      ],
+      "tactical_traits": [
+        "右路魔幻內切過人",
+        "高質量內旋弧線傳中"
+      ],
+      "quirky_trivia": "極具觀賞性的1v1連續過人能力。",
+      "legacy_id": "jleague_urawa_7",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 29,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2020–2023",
+          "team": "Hokkaido Consadole Sapporo",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "札幌過人王",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2023–2024",
+          "team": "Dinamo Zagreb",
+          "competition": "SuperSport HNL",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "旅歐征戰克甲豪門",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–2025",
+          "team": "KV Kortrijk",
+          "competition": "Belgian Pro League",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "比利時甲組主力邊鋒",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2025–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "回歸J1披上7號球衣",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_8",
+      "club": "浦和紅鑽",
+      "number": "8",
+      "name_zh": "水沼宏太",
+      "name_en": "Kota Mizunuma",
+      "position": "MF",
+      "dob": "1990-02-22",
+      "age": 36,
+      "height": 177,
+      "weight": 70,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Newcastle Jets",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本國家隊 (2 場)",
+      "intro": "經驗極為豐富的右路傳中大師，擁有極高品質的右路內旋傳中能力。",
+      "timeline": [
+        {
+          "period": "2020–2024",
+          "team": "Yokohama F. Marinos",
+          "category": "J1職業隊",
+          "milestone": "水手奪冠功臣兼主力右翼"
+        },
+        {
+          "period": "2025",
+          "team": "Newcastle Jets",
+          "category": "A-League",
+          "milestone": "旅澳征戰A-League"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和紅鑽"
+        }
+      ],
+      "honors": [
+        "J1 聯賽冠軍 (2022)",
+        "EAFF E-1 足球錦標賽冠軍"
+      ],
+      "milestones": [
+        "J1 聯賽累積助攻數突破50次"
+      ],
+      "tactical_traits": [
+        "右路大師級精準傳中",
+        "高智商跑位搶點"
+      ],
+      "quirky_trivia": "傳中落點極佳，被譽為J聯賽最佳右路傳中手之一。",
+      "legacy_id": "jleague_urawa_8",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 36,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2020–2024",
+          "team": "Yokohama F. Marinos",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "水手奪冠功臣兼主力右翼",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "Newcastle Jets",
+          "competition": "A-League",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "旅澳征戰A-League",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_10",
+      "club": "浦和紅鑽",
+      "number": "10",
+      "name_zh": "馬菲奧斯·沙維奧",
+      "name_en": "Matheus Savio",
+      "position": "MF",
+      "dob": "1997-04-15",
+      "age": 29,
+      "height": 175,
+      "weight": 70,
+      "foot": "右腳",
+      "nationality": "巴西",
+      "joined": 2024,
+      "prev_club": "Kashiwa Reysol",
+      "registration_status": "外籍球員",
+      "tenure_status": "效力第3季",
+      "national_team_detail": "巴西 U-20 國家隊",
+      "intro": "10號靈魂進攻核心，擁有極具靈氣的盤帶與禁區前沿致命一傳能力。",
+      "timeline": [
+        {
+          "period": "2015–2019",
+          "team": "Flamengo",
+          "category": "Série A",
+          "milestone": "巴西豪門弗拉門戈青訓出身"
+        },
+        {
+          "period": "2019–2024",
+          "team": "Kashiwa Reysol",
+          "category": "J1職業隊",
+          "milestone": "柏太陽王絕對進攻核心"
+        },
+        {
+          "period": "2024–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "披上浦和10號戰袍"
+        }
+      ],
+      "honors": [
+        "J1 聯賽助攻榜前列",
+        "J1 聯賽單月 MVP"
+      ],
+      "milestones": [
+        "J1 聯賽單季助攻雙位數紀錄"
+      ],
+      "tactical_traits": [
+        "前場自由人威脅傳球",
+        "內切遠射與定位球專家"
+      ],
+      "quirky_trivia": "盤帶風格極具個人特色，深受球迷喜愛。",
+      "legacy_id": "jleague_urawa_10",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 29,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2015–2019",
+          "team": "Flamengo",
+          "competition": "Série A",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "巴西豪門弗拉門戈青訓出身",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2019–2024",
+          "team": "Kashiwa Reysol",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "柏太陽王絕對進攻核心",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "披上浦和10號戰袍",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_11",
+      "club": "浦和紅鑽",
+      "number": "11",
+      "name_zh": "古斯達臣",
+      "name_en": "Samuel Gustafson",
+      "position": "MF",
+      "dob": "1995-01-11",
+      "age": 31,
+      "height": 187,
+      "weight": 80,
+      "foot": "右腳",
+      "nationality": "瑞典",
+      "joined": 2024,
+      "prev_club": "BK Häcken",
+      "registration_status": "外籍球員",
+      "tenure_status": "效力第3季",
+      "national_team_detail": "瑞典國家隊 (13 場)",
+      "intro": "瑞典國腳防守中場，具備優異的攻守樞紐轉向能力與精準的中長傳球。",
+      "timeline": [
+        {
+          "period": "2021–2023",
+          "team": "BK Häcken",
+          "category": "Allsvenskan",
+          "milestone": "率隊勇奪瑞典超冠軍"
+        },
+        {
+          "period": "2024–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "鎖定中場主力大腦"
+        }
+      ],
+      "honors": [
+        "瑞典足球超級聯賽冠軍 (2022)"
+      ],
+      "milestones": [
+        "代表瑞典國家隊出戰歐洲國家聯賽"
+      ],
+      "tactical_traits": [
+        "後腰攻守節奏掌控",
+        "精準長傳轉移"
+      ],
+      "quirky_trivia": "身材高大且具備絕佳視野。",
+      "legacy_id": "jleague_urawa_11",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 31,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2021–2023",
+          "team": "BK Häcken",
+          "competition": "Allsvenskan",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "率隊勇奪瑞典超冠軍",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "鎖定中場主力大腦",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_12",
+      "club": "浦和紅鑽",
+      "number": "12",
+      "name_zh": "瀨古樹",
+      "name_en": "Tatsuki Seko",
+      "position": "MF",
+      "dob": "1997-12-22",
+      "age": 28,
+      "height": 175,
+      "weight": 69,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "StOKE City",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "中場全能型悍將，具備優異的遠射能力與大範圍跑動攔截。",
+      "timeline": [
+        {
+          "period": "2022–2024",
+          "team": "Yokohama FC",
+          "category": "J1/J2職業隊",
+          "milestone": "橫濱FC隊長兼中場大腦"
+        },
+        {
+          "period": "2024–2025",
+          "team": "Stoke City",
+          "category": "Championship",
+          "milestone": "旅英征戰英冠聯賽"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "回歸J1加盟浦和紅鑽"
+        }
+      ],
+      "honors": [
+        "J2 聯賽最佳陣容"
+      ],
+      "milestones": [
+        "J1/J2登場數突破150場"
+      ],
+      "tactical_traits": [
+        "中場遠射重炮",
+        "大範圍跑動攔截"
+      ],
+      "quirky_trivia": "遠射世界波往往極具威脅。",
+      "legacy_id": "jleague_urawa_12",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 28,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2022–2024",
+          "team": "Yokohama FC",
+          "competition": "J1/J2職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "橫濱FC隊長兼中場大腦",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–2025",
+          "team": "Stoke City",
+          "competition": "Championship",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "旅英征戰英冠聯賽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "回歸J1加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_13",
+      "club": "浦和紅鑽",
+      "number": "13",
+      "name_zh": "渡邊凌磨",
+      "name_en": "Ryoma Watanabe",
+      "position": "MF",
+      "dob": "1996-10-02",
+      "age": 29,
+      "height": 176,
+      "weight": 70,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2024,
+      "prev_club": "FC Tokyo",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第3季",
+      "national_team_detail": "日本 U-23 國家隊",
+      "intro": "前場全能多面手，插上搶點意識極佳，技術全面。",
+      "timeline": [
+        {
+          "period": "2021–2023",
+          "team": "FC Tokyo",
+          "category": "J1職業隊",
+          "milestone": "FC東京主力攻擊手"
+        },
+        {
+          "period": "2024–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和穿上13號球衣"
+        }
+      ],
+      "honors": [
+        "J1 聯賽單月最佳進球 (2022)"
+      ],
+      "milestones": [
+        "J1聯賽代表登場超100場"
+      ],
+      "tactical_traits": [
+        "前場多位置勝任",
+        "第二點門前插頭射門"
+      ],
+      "quirky_trivia": "曾旅歐效力因哥爾斯泰特青年隊。",
+      "legacy_id": "jleague_urawa_13",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 29,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2021–2023",
+          "team": "FC Tokyo",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "FC東京主力攻擊手",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和穿上13號球衣",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_15",
+      "club": "浦和紅鑽",
+      "number": "15",
+      "name_zh": "工藤孝太",
+      "name_en": "Kota Kudo",
+      "position": "DF",
+      "dob": "2003-08-13",
+      "age": 23,
+      "height": 180,
+      "weight": 74,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Fagiano Okayama",
+      "registration_status": "本國球員",
+      "tenure_status": "外借回歸",
+      "national_team_detail": "日本 U-20 國家隊",
+      "intro": "浦和青訓出身的後防新星，外借歷練後重返球隊，搶斷果斷且出球穩健。",
+      "timeline": [
+        {
+          "period": "2023–2025",
+          "team": "Fagiano Okayama",
+          "category": "J2職業隊",
+          "milestone": "外借岡山綠雉主力積累經驗"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "結束外借重返浦和一隊"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "代表日本國青隊出戰亞青賽"
+      ],
+      "tactical_traits": [
+        "防守預判卡位",
+        "後場傳球鏈接"
+      ],
+      "quirky_trivia": "浦和自家青訓體系重點培育的後防棟樑。",
+      "legacy_id": "jleague_urawa_15",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 22,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2023–2025",
+          "team": "Fagiano Okayama",
+          "competition": "J2職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "外借岡山綠雉主力積累經驗",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "結束外借重返浦和一隊",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_17",
+      "club": "浦和紅鑽",
+      "number": "17",
+      "name_zh": "小森飛絢",
+      "name_en": "Hiiro Komori",
+      "position": "FW",
+      "dob": "2000-08-06",
+      "age": 26,
+      "height": 178,
+      "weight": 73,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "JEF United Chiba",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第2季",
+      "national_team_detail": "無",
+      "intro": "門前嗅覺極度敏銳的神射手，禁區內把握機會能力極強。",
+      "timeline": [
+        {
+          "period": "2023–2024",
+          "team": "JEF United Chiba",
+          "category": "J2職業隊",
+          "milestone": "千葉市原神射手"
+        },
+        {
+          "period": "2025–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和紅鑽"
+        }
+      ],
+      "honors": [
+        "J2 聯賽金靴獎 (2024)"
+      ],
+      "milestones": [
+        "J2聯賽單季攻入超過20球"
+      ],
+      "tactical_traits": [
+        "門前禁區搶點",
+        "極高射門轉化率"
+      ],
+      "quirky_trivia": "被譽為近年J2輸出的最強本土神射手。",
+      "legacy_id": "jleague_urawa_17",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 26,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2023–2024",
+          "team": "JEF United Chiba",
+          "competition": "J2職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "千葉市原神射手",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2025–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_18",
+      "club": "浦和紅鑽",
+      "number": "18",
+      "name_zh": "林幸多郎",
+      "name_en": "Kotaro Hayashi",
+      "position": "DF",
+      "dob": "2000-11-16",
+      "age": 25,
+      "height": 170,
+      "weight": 66,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Machida Zelvia",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "頑強的左後衛，防守對位韌性強，邊路跑動能力極佳。",
+      "timeline": [
+        {
+          "period": "2024–2025",
+          "team": "Machida Zelvia",
+          "category": "J1職業隊",
+          "milestone": "町田澤維亞黑馬防線主力"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "轉投浦和紅鑽"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "隨町田創造升班馬首季爭冠奇蹟"
+      ],
+      "tactical_traits": [
+        "邊路高壓一對一",
+        "體能跑動拉滿"
+      ],
+      "quirky_trivia": "防守端逼搶態度極為嚴謹。",
+      "legacy_id": "jleague_urawa_18",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 25,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2024–2025",
+          "team": "Machida Zelvia",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "町田澤維亞黑馬防線主力",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "轉投浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_23",
+      "club": "浦和紅鑽",
+      "number": "23",
+      "name_zh": "福井光輝",
+      "name_en": "Koki Fukui",
+      "position": "GK",
+      "dob": "1995-11-04",
+      "age": 30,
+      "height": 184,
+      "weight": 78,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Cerezo Osaka",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "經驗豐富的實戰型門將，門線反應快，出擊果斷。",
+      "timeline": [
+        {
+          "period": "2018–2025",
+          "team": "Machida Zelvia / Cerezo Osaka",
+          "category": "J1/J2職業隊",
+          "milestone": "多年職業門將經驗"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和鞏固門將組"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "職業生涯零封場次超30場"
+      ],
+      "tactical_traits": [
+        "門線反應救球",
+        "快速手拋球發動"
+      ],
+      "quirky_trivia": "更衣室內的溝通潤滑劑。",
+      "legacy_id": "jleague_urawa_23",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 30,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2018–2025",
+          "team": "Machida Zelvia / Cerezo Osaka",
+          "competition": "J1/J2職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "多年職業門將經驗",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和鞏固門將組",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_25",
+      "club": "浦和紅鑽",
+      "number": "25",
+      "name_zh": "安居海渡",
+      "name_en": "Kaito Yasui",
+      "position": "MF",
+      "dob": "2000-02-09",
+      "age": 26,
+      "height": 174,
+      "weight": 69,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2022,
+      "prev_club": "Ryutsu Keizai University",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第5季",
+      "national_team_detail": "無",
+      "intro": "中場鐵閘，覆蓋面廣，逼搶凶悍且具備第二點前插射門實力。",
+      "timeline": [
+        {
+          "period": "2022–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "隨隊勇奪2022亞冠冠軍"
+        }
+      ],
+      "honors": [
+        "ACL 亞冠盃冠軍 (2022)"
+      ],
+      "milestones": [
+        "亞冠淘汰賽關鍵進球者"
+      ],
+      "tactical_traits": [
+        "中場高強度逼搶",
+        "第二線遠射前插"
+      ],
+      "quirky_trivia": "場上戰鬥作風極其硬朗。",
+      "legacy_id": "jleague_urawa_25",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 26,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2022–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "隨隊勇奪2022亞冠冠軍",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_28",
+      "club": "浦和紅鑽",
+      "number": "28",
+      "name_zh": "田中義峯",
+      "name_en": "Yoshitaka Tanaka",
+      "position": "DF",
+      "dob": "2007-08-10",
+      "age": 19,
+      "height": 186,
+      "weight": 76,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Urawa Red Diamonds Youth",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本 U-18 國家隊",
+      "intro": "浦和青訓親自培養的高大中後衛，高空爭頂優異，出球冷靜。",
+      "timeline": [
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "青訓升入一隊"
+        }
+      ],
+      "honors": [
+        "高円宮盃 U-18 聯賽優秀選手"
+      ],
+      "milestones": [
+        "青訓梯隊隊長"
+      ],
+      "tactical_traits": [
+        "制空球解圍",
+        "後場穩定出球"
+      ],
+      "quirky_trivia": "身高達到186cm，被寄予厚望的後防新星。",
+      "legacy_id": "jleague_urawa_28",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 18,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "青訓升入一隊",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_29",
+      "club": "浦和紅鑽",
+      "number": "29",
+      "name_zh": "堀內陽太",
+      "name_en": "Yota Horiuchi",
+      "position": "MF",
+      "dob": "2004-07-08",
+      "age": 22,
+      "height": 171,
+      "weight": 65,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "FC Ryukyu",
+      "registration_status": "本國球員",
+      "tenure_status": "外借回歸",
+      "national_team_detail": "無",
+      "intro": "控球型中場小將，外借磨練後回歸，短傳過渡能力出色。",
+      "timeline": [
+        {
+          "period": "2024–2025",
+          "team": "FC Ryukyu",
+          "category": "J3職業隊",
+          "milestone": "外借琉球FC主力中場"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "重返浦和一隊"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "完成職業聯賽單季30+出場"
+      ],
+      "tactical_traits": [
+        "中場節奏過渡",
+        "短傳連貫性"
+      ],
+      "quirky_trivia": "控球節奏感十分細膩。",
+      "legacy_id": "jleague_urawa_29",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 22,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2024–2025",
+          "team": "FC Ryukyu",
+          "competition": "J3職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "外借琉球FC主力中場",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "重返浦和一隊",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_31",
+      "club": "浦和紅鑽",
+      "number": "31",
+      "name_zh": "稻垣篤志",
+      "name_en": "Atsushi Inagaki",
+      "position": "DF",
+      "dob": "2007-11-03",
+      "age": 18,
+      "height": 176,
+      "weight": 68,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Urawa Red Diamonds Youth",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本 U-18 國家隊",
+      "intro": "浦和梯隊提拔的年輕邊後衛，速度快且助攻積極。",
+      "timeline": [
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "青訓晉升一隊"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "入選國青隊集訓"
+      ],
+      "tactical_traits": [
+        "邊路衝刺套邊",
+        "回追搶斷"
+      ],
+      "quirky_trivia": "速度型邊後衛潛力股。",
+      "legacy_id": "jleague_urawa_31",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 18,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "青訓晉升一隊",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_32",
+      "club": "浦和紅鑽",
+      "number": "32",
+      "name_zh": "片山瑛一",
+      "name_en": "Eiichi Katayama",
+      "position": "DF",
+      "dob": "1991-11-30",
+      "age": 34,
+      "height": 181,
+      "weight": 75,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Kashiwa Reysol",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "老練的防線多面手，擁有標誌性的「手拋界外球重炮」特技。",
+      "timeline": [
+        {
+          "period": "2021–2022",
+          "team": "Shimizu S-Pulse",
+          "category": "J1職業隊",
+          "milestone": "清水心跳主力後衛"
+        },
+        {
+          "period": "2023–2025",
+          "team": "Kashiwa Reysol",
+          "category": "J1職業隊",
+          "milestone": "柏太陽王防線功臣"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和紅鑽"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "J1登場突破200場"
+      ],
+      "tactical_traits": [
+        "大力手拋球威脅",
+        "防線多位置覆蓋"
+      ],
+      "quirky_trivia": "界外球手投距離可直接送入小禁區，堪稱手動角球。",
+      "legacy_id": "jleague_urawa_32",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 34,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2021–2022",
+          "team": "Shimizu S-Pulse",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "清水心跳主力後衛",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2023–2025",
+          "team": "Kashiwa Reysol",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "柏太陽王防線功臣",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_33",
+      "club": "浦和紅鑽",
+      "number": "33",
+      "name_zh": "笹修大",
+      "name_en": "Shuta Sasa",
+      "position": "MF",
+      "dob": "2006-08-20",
+      "age": 20,
+      "height": 181,
+      "weight": 71,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "FC Imabari",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "年輕的跑動型中場，對抗積極，中場防守轉移處理冷靜。",
+      "timeline": [
+        {
+          "period": "2025",
+          "team": "FC Imabari",
+          "category": "J3職業隊",
+          "milestone": "今治FC主力新星"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "轉投浦和紅鑽"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "J3最佳青年球員提名"
+      ],
+      "tactical_traits": [
+        "中場積極攔截",
+        "攻守連貫過渡"
+      ],
+      "quirky_trivia": "身材達181cm的中場跑將。",
+      "legacy_id": "jleague_urawa_33",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 19,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2025",
+          "team": "FC Imabari",
+          "competition": "J3職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "今治FC主力新星",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "轉投浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_34",
+      "club": "浦和紅鑽",
+      "number": "34",
+      "name_zh": "田中央音",
+      "name_en": "Reon Tanaka",
+      "position": "FW",
+      "dob": "2007-04-18",
+      "age": 19,
+      "height": 178,
+      "weight": 70,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Urawa Red Diamonds Youth",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本 U-18 國家隊",
+      "intro": "浦和梯隊提拔的鋒線新星，門前跑位靈活，具備極佳的搶點得分意識與前場逼搶衝勁。",
+      "timeline": [
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "由青訓梯隊提拔升入一隊"
+        }
+      ],
+      "honors": [
+        "高円宮盃 U-18 聯賽優秀選手"
+      ],
+      "milestones": [
+        "浦和青訓主力前鋒代表"
+      ],
+      "tactical_traits": [
+        "靈敏禁區門前跑位",
+        "第一時間快速抽射"
+      ],
+      "quirky_trivia": "青年隊時期便展現出極強的禁區門前得分嗅覺。",
+      "legacy_id": "jleague_urawa_34",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 19,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "由青訓梯隊提拔升入一隊",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_36",
+      "club": "浦和紅鑽",
+      "number": "36",
+      "name_zh": "肥田野蓮治",
+      "name_en": "Renji Hidano",
+      "position": "FW",
+      "dob": "2004-05-18",
+      "age": 22,
+      "height": 181,
+      "weight": 74,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Toin University of Yokohama",
+      "registration_status": "特別指定球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "桐蔭橫濱大學出品的大學中鋒，身高181cm，對抗與支點能力兼備。",
+      "timeline": [
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "大學特別指定加盟"
+        }
+      ],
+      "honors": [
+        "全日本大學錦標賽最佳陣容"
+      ],
+      "milestones": [
+        "內定加盟浦和紅鑽"
+      ],
+      "tactical_traits": [
+        "禁區對抗做球",
+        "第一點頭鎚搶點"
+      ],
+      "quirky_trivia": "大學比賽中表現亮眼被浦和球探鎖定。",
+      "legacy_id": "jleague_urawa_36",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 22,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "大學特別指定加盟",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_37",
+      "club": "浦和紅鑽",
+      "number": "37",
+      "name_zh": "植木颯",
+      "name_en": "Hayate Ueki",
+      "position": "MF",
+      "dob": "2004-03-24",
+      "age": 22,
+      "height": 173,
+      "weight": 67,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Nihon University",
+      "registration_status": "特別指定球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "日本大學出品的技術型中場，盤帶推進能力強，前場視野廣闊。",
+      "timeline": [
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "特別指定加盟浦和"
+        }
+      ],
+      "honors": [
+        "關東大學聯賽助攻王"
+      ],
+      "milestones": [
+        "大學聯賽單季雙位數助攻"
+      ],
+      "tactical_traits": [
+        "前場帶球推進",
+        "威脅直塞傳球"
+      ],
+      "quirky_trivia": "腳下技術極其細膩。",
+      "legacy_id": "jleague_urawa_37",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 22,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "特別指定加盟浦和",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_39",
+      "club": "浦和紅鑽",
+      "number": "39",
+      "name_zh": "早川隼平",
+      "name_en": "Jumpei Hayakawa",
+      "position": "MF",
+      "dob": "2005-12-05",
+      "age": 20,
+      "height": 163,
+      "weight": 60,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2023,
+      "prev_club": "Urawa Red Diamonds Youth",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第4季",
+      "national_team_detail": "日本 U-20 國家隊",
+      "intro": "小巧靈動的天才左腳中場，突破重心低，具備極強的穿透射門力。",
+      "timeline": [
+        {
+          "period": "2023–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "打破浦和隊史最年輕進球紀錄"
+        }
+      ],
+      "honors": [
+        "ACL 亞冠盃冠軍 (2022)"
+      ],
+      "milestones": [
+        "浦和隊史亞冠最年輕出場球員"
+      ],
+      "tactical_traits": [
+        "低重心盤帶突破",
+        "左腳快速抽射"
+      ],
+      "quirky_trivia": "年僅17歲便在亞冠賽場代表浦和首發登場。",
+      "legacy_id": "jleague_urawa_39",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 20,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2023–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "打破浦和隊史最年輕進球紀錄",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_40",
+      "club": "浦和紅鑽",
+      "number": "40",
+      "name_zh": "盧卡·迪杜歷卡",
+      "name_en": "Luka Didulica",
+      "position": "DF",
+      "dob": "2007-11-15",
+      "age": 18,
+      "height": 200,
+      "weight": 88,
+      "foot": "右腳",
+      "nationality": "澳洲",
+      "joined": 2025,
+      "prev_club": "Melbourne Victory U-21",
+      "registration_status": "外籍球員",
+      "tenure_status": "效力第2季",
+      "national_team_detail": "澳洲 U-20 國家隊",
+      "intro": "200cm身材的巨塔型中後衛新星，具備絕對制空權與前途限量的後防對抗天賦。",
+      "timeline": [
+        {
+          "period": "2023–2024",
+          "team": "Melbourne Victory U-21",
+          "category": "NPL Victoria",
+          "milestone": "墨爾本勝利青訓新星"
+        },
+        {
+          "period": "2025–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和紅鑽"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "浦和隊史最高球員之一 (200cm)"
+      ],
+      "tactical_traits": [
+        "高空球絕對正面解圍",
+        "禁區封堵"
+      ],
+      "quirky_trivia": "2米身高在J聯賽看台極具話題性。",
+      "legacy_id": "jleague_urawa_40",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 18,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2023–2024",
+          "team": "Melbourne Victory U-21",
+          "competition": "NPL Victoria",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "墨爾本勝利青訓新星",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2025–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_42",
+      "club": "浦和紅鑽",
+      "number": "42",
+      "name_zh": "南野遙海",
+      "name_en": "Harumi Minamino",
+      "position": "FW",
+      "dob": "2004-05-13",
+      "age": 22,
+      "height": 176,
+      "weight": 68,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Gamba Osaka",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本 U-20 國家隊",
+      "intro": "爆發力強的年輕前鋒，左腳射門力量大，反擊速度極快。",
+      "timeline": [
+        {
+          "period": "2023–2025",
+          "team": "Tochigi SC / Gamba Osaka",
+          "category": "J2/J1職業隊",
+          "milestone": "外借栃雲SC單季攻入雙位數進球"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和紅鑽"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "J2單季攻入10球以上"
+      ],
+      "tactical_traits": [
+        "左腳爆射",
+        "極速前插衝刺"
+      ],
+      "quirky_trivia": "與前國腳南野拓實同姓，射門風格同樣極具侵略性。",
+      "legacy_id": "jleague_urawa_42",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 22,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2023–2025",
+          "team": "Tochigi SC / Gamba Osaka",
+          "competition": "J2/J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "外借栃雲SC單季攻入雙位數進球",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_43",
+      "club": "浦和紅鑽",
+      "number": "43",
+      "name_zh": "和田武士",
+      "name_en": "Takeshi Wada",
+      "position": "MF",
+      "dob": "2008-09-15",
+      "age": 17,
+      "height": 170,
+      "weight": 62,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Urawa Red Diamonds Youth",
+      "registration_status": "二種登錄球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本 U-17 國家隊",
+      "intro": "年僅17歲的浦和青年隊中場天才，入選日本U-17代表隊，傳球節奏感出色。",
+      "timeline": [
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "二種登錄跟隨一隊參賽"
+        }
+      ],
+      "honors": [
+        "U-17 亞洲盃國腳代表"
+      ],
+      "milestones": [
+        "一隊最年輕登錄球員"
+      ],
+      "tactical_traits": [
+        "靈敏一觸即傳",
+        "視野開闊"
+      ],
+      "quirky_trivia": "年僅17歲便展現超越同齡人的冷靜沉著。",
+      "legacy_id": "jleague_urawa_43",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 17,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "二種登錄跟隨一隊參賽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_44",
+      "club": "浦和紅鑽",
+      "number": "44",
+      "name_zh": "新井榮聰",
+      "name_en": "Yoshiaki Arai",
+      "position": "GK",
+      "dob": "1995-09-27",
+      "age": 30,
+      "height": 189,
+      "weight": 84,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Machida Zelvia",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "無",
+      "intro": "189cm身材的實力派門將，制空實力強，補強門將組深度。",
+      "timeline": [
+        {
+          "period": "2021–2025",
+          "team": "Omiya Ardija / Machida Zelvia",
+          "category": "J1/J2職業隊",
+          "milestone": "豐富的J聯賽門將經驗"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和紅鑽"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "J聯賽零封場次突破20場"
+      ],
+      "tactical_traits": [
+        "189cm高空爭頂摘球",
+        "門線卡位"
+      ],
+      "quirky_trivia": "態度極為勤奮，練球極具感染力。",
+      "legacy_id": "jleague_urawa_44",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 30,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2021–2025",
+          "team": "Omiya Ardija / Machida Zelvia",
+          "competition": "J1/J2職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "豐富的J聯賽門將經驗",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_45",
+      "club": "浦和紅鑽",
+      "number": "45",
+      "name_zh": "奧拿爾阿道",
+      "name_en": "Ado Onaiwu",
+      "position": "FW",
+      "dob": "1995-11-08",
+      "age": 30,
+      "height": 180,
+      "weight": 75,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Magdeburg",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "日本國家隊 (3 場 3 球)",
+      "intro": "旅歐回歸強攻型前鋒，爆發力與門前搶點嗅覺兼備，能勝任中鋒與翼鋒。",
+      "timeline": [
+        {
+          "period": "2020–2021",
+          "team": "Yokohama F. Marinos",
+          "category": "J1職業隊",
+          "milestone": "水手主力衝鋒箭頭"
+        },
+        {
+          "period": "2021–2023",
+          "team": "Toulouse",
+          "category": "Ligue 1",
+          "milestone": "旅法奪得法國盃冠軍"
+        },
+        {
+          "period": "2023–2025",
+          "team": "Magdeburg",
+          "category": "2. Bundesliga",
+          "milestone": "德乙聯賽主力前鋒"
+        },
+        {
+          "period": "2026–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "重返J1加盟浦和紅鑽"
+        }
+      ],
+      "honors": [
+        "法國盃冠軍 (2023)",
+        "J1 聯賽冠軍 (2019)"
+      ],
+      "milestones": [
+        "日本國家隊首發達成帽子戲法 (3場3球)"
+      ],
+      "tactical_traits": [
+        "爆發力搶點射門",
+        "前場高強度逼搶"
+      ],
+      "quirky_trivia": "門前嗅覺極為敏銳。",
+      "legacy_id": "jleague_urawa_45",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 30,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2020–2021",
+          "team": "Yokohama F. Marinos",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "水手主力衝鋒箭頭",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2021–2023",
+          "team": "Toulouse",
+          "competition": "Ligue 1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "旅法奪得法國盃冠軍",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2023–2025",
+          "team": "Magdeburg",
+          "competition": "2. Bundesliga",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "德乙聯賽主力前鋒",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2026–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "重返J1加盟浦和紅鑽",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    },
+    {
+      "id": "jleague_urawa_88",
+      "club": "浦和紅鑽",
+      "number": "88",
+      "name_zh": "長沼洋一",
+      "name_en": "Yoichi Naganuma",
+      "position": "MF",
+      "dob": "1997-04-14",
+      "age": 29,
+      "height": 178,
+      "weight": 70,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2024,
+      "prev_club": "Sagan Tosu",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第3季",
+      "national_team_detail": "日本 U-23 國家隊",
+      "intro": "萬能邊路跑將，能勝任左右邊後衛與翼鋒，體能充沛且下底傳中質量極高。",
+      "timeline": [
+        {
+          "period": "2022–2024",
+          "team": "Sagan Tosu",
+          "category": "J1職業隊",
+          "milestone": "鳥棲砂岩邊路絕對核心"
+        },
+        {
+          "period": "2024–至今",
+          "team": "浦和紅鑽",
+          "category": "J1職業隊",
+          "milestone": "加盟浦和穿上88號球衣"
+        }
+      ],
+      "honors": [
+        "亞運會男足銀牌 (2018)"
+      ],
+      "milestones": [
+        "J1單季攻入雙位數進球的萬能邊後衛"
+      ],
+      "tactical_traits": [
+        "邊路極速套邊插上",
+        "兩腳傳中門前威脅"
+      ],
+      "quirky_trivia": "得分能力強悍，常在邊路後插上爆射破門。",
+      "legacy_id": "jleague_urawa_88",
+      "official_player_id": null,
+      "team_slug": "urawa",
+      "name_ja": "",
+      "birthplace": "",
+      "season_start_age": 29,
+      "player_image": "",
+      "career": [
+        {
+          "season": "2022–2024",
+          "team": "Sagan Tosu",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "鳥棲砂岩邊路絕對核心",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        },
+        {
+          "season": "2024–至今",
+          "team": "浦和紅鑽",
+          "competition": "J1職業隊",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "加盟浦和穿上88號球衣",
+          "verification_status": "legacy_unverified",
+          "sources": []
+        }
+      ],
+      "sources": [],
+      "verification_status": "legacy_unverified",
+      "verified_at": null
+    }
+  ]
+}
