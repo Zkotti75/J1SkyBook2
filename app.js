@@ -115,7 +115,7 @@ function renderSources(sources = []) {
 
 function renderSeasonStats(stats = []) {
   if (!stats.length) return '';
-  return `<section class="section"><h3>近季數據比較</h3><div class="table-wrap"><table class="stats-table"><thead><tr><th>球季</th><th>賽事</th><th>上陣</th><th>入球</th><th>分鐘</th><th>資料截至</th></tr></thead><tbody>${stats.map(row => `<tr><td>${valueOrBlank(row.season)}</td><td>${valueOrBlank(row.competition)}</td><td class="numeric">${valueOrBlank(row.appearances)}</td><td class="numeric">${valueOrBlank(row.goals)}</td><td class="numeric">${valueOrBlank(row.minutes)}</td><td>${valueOrBlank(row.as_of)}</td></tr>`).join('')}</tbody></table></div></section>`;
+  return `<section class="section"><h3>近季數據比較</h3><div class="table-wrap"><table class="stats-table"><thead><tr><th>球季</th><th>賽事</th><th>上陣</th><th>入球</th><th>助攻</th><th>分鐘</th><th>資料截至</th></tr></thead><tbody>${stats.map(row => `<tr><td>${valueOrBlank(row.season)}</td><td>${valueOrBlank(row.competition)}</td><td class="numeric">${valueOrBlank(row.appearances)}</td><td class="numeric">${valueOrBlank(row.goals)}</td><td class="numeric">${valueOrBlank(row.assists)}</td><td class="numeric">${valueOrBlank(row.minutes)}</td><td>${valueOrBlank(row.as_of)}</td></tr>`).join('')}</tbody></table></div></section>`;
 }
 
 function renderTeam(data) {
