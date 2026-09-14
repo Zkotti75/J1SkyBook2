@@ -113,6 +113,11 @@ function renderSources(sources = []) {
   return `<section class="section"><h3>資料來源</h3><div class="source-list">${sources.map((s,i) => s.url ? `<a class="source-link" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || s.title || `來源 ${i+1}`)}</a>` : `<span class="source-link">${esc(s.label || s.title || `來源 ${i+1}`)}</span>`).join('')}</div></section>`;
 }
 
+function renderSeasonStats(stats = []) {
+  if (!stats.length) return '';
+  return `<section class="section"><h3>近季數據比較</h3><div class="table-wrap"><table class="stats-table"><thead><tr><th>球季</th><th>賽事</th><th>上陣</th><th>入球</th><th>分鐘</th><th>資料截至</th></tr></thead><tbody>${stats.map(row => `<tr><td>${valueOrBlank(row.season)}</td><td>${valueOrBlank(row.competition)}</td><td class="numeric">${valueOrBlank(row.appearances)}</td><td class="numeric">${valueOrBlank(row.goals)}</td><td class="numeric">${valueOrBlank(row.minutes)}</td><td>${valueOrBlank(row.as_of)}</td></tr>`).join('')}</tbody></table></div></section>`;
+}
+
 function renderTeam(data) {
   const t = data.team;
   const stadium = t.stadium_info || {};
@@ -160,6 +165,7 @@ function renderPerson(data, item) {
         <div class="vital"><label>代表隊</label><strong>${valueOrBlank(item.national_team_detail)}</strong></div>
       </div>
       ${item.intro ? `<section class="section"><h3>球員簡介</h3><p>${esc(item.intro)}</p></section>` : ''}
+      ${renderSeasonStats(item.season_stats)}
       ${honors.length ? `<section class="section"><h3>獎項與主要成就</h3><div class="achievement-grid">${honors.map(h => `<div class="achievement">${esc(h)}</div>`).join('')}</div></section>` : ''}
       ${milestones.length ? `<section class="section"><h3>紀錄與里程碑</h3><ul class="fact-list">${milestones.map(m => `<li>${esc(m)}</li>`).join('')}</ul></section>` : ''}
       ${item.quirky_trivia ? `<section class="section"><h3>背景與趣聞</h3><p>${esc(item.quirky_trivia)}</p></section>` : ''}
