@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-18T15:40:08.058Z",
+  "generated_at": "2026-09-18T15:42:39.592Z",
   "team": {
     "id": "team_mito",
     "type": "team_info",
@@ -165,7 +165,13 @@
       "japanese_clubs": "Traditional Chinese established names where available; otherwise retain official name.",
       "japanese_schools": "Traditional Chinese names where a reliable/straightforward Chinese form is available.",
       "foreign_clubs_and_leagues": "English."
-    }
+    },
+    "roster_notes": [
+      "現役34名，以2026-09-18水戶官方現役名單及最新轉會公告為準。",
+      "外借及已離隊球員不列入current squad：牛澤健、沖田空、嵯峨康太、碇明日麻、森村俊太、內田優晟、春名竜聖、佐々木輝大、早川ウワブライト、大森渚生、川上航立、Matheus Leiria、飯田貴敬。",
+      "9月新增：#30 奧村仁、#6 岡本一真；#16 田村遊吏由特別指定提前轉正式職業合約；#38 Hugo Leonardo為夏季外借新援。",
+      "#2 官方現役為Malick Fofana；TVB舊表#2 Danilo Cardoso屬過期名單，不採用。"
+    ]
   },
   "manager": {
     "id": "mito_mgr_kimori",
@@ -937,5 +943,6896 @@
     "verification_status": "verified",
     "verified_at": "2026-09-18"
   },
-  "players": []
+  "players": [
+    {
+      "id": "mito_2",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "2",
+      "name_zh": "Malick Fofana",
+      "name_ja": "フォファナ マリック",
+      "name_en": "Malick Fofana",
+      "position": "DF",
+      "dob": "2000-05-02",
+      "season_start_age": 26,
+      "birthplace": "東京都",
+      "height": 185,
+      "weight": 80,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "FC TIAMO枚方",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "185厘米後衛。東京出生，經尚志高中、山梨學院大學及日本低級別聯賽後加入水戶；2026/27仍為後防輪換。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "町田相原FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "尚志高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "山梨學院大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC TIAMO枚方",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC大阪",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "FC TIAMO枚方",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "町田相原FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-fofana/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "尚志高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-fofana/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "山梨學院大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-fofana/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC TIAMO枚方",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-fofana/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC大阪",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-fofana/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC TIAMO枚方",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-fofana/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/m-fofana/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "官方註冊名（TVB主資料庫尚未有最新對應項）",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_3",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "3",
+      "name_zh": "大崎航詩",
+      "name_ja": "大崎 航詩",
+      "name_en": "Koshi Osaki",
+      "position": "MF",
+      "dob": "1998-06-30",
+      "season_start_age": 28,
+      "birthplace": "大阪府",
+      "height": 178,
+      "weight": 73,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2021,
+      "prev_club": "大阪體育大學",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "左腳中場／後衛。大阪體育大學畢業後職業生涯一直效力水戶，是2025 J2冠軍及首次升J1的重要成員。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "STAY COOL FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "大阪Central FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "東海大學附屬大阪仰星高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "大阪體育大學",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2優秀選手獎",
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "STAY COOL FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/3-osaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大阪Central FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/3-osaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "東海大學附屬大阪仰星高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/3-osaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大阪體育大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/3-osaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/3-osaki/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_4",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "4",
+      "name_zh": "河面旺成",
+      "name_ja": "河面 旺成",
+      "name_en": "Akinari Kawazura",
+      "position": "DF",
+      "dob": "1994-05-03",
+      "season_start_age": 32,
+      "birthplace": "京都府",
+      "height": 184,
+      "weight": 80,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "名古屋鯨魚",
+      "registration_status": "外借加盟",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "184厘米左腳後衛／中堅。2026夏季由名古屋鯨魚外借加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "大阪櫻花U-12",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "大阪櫻花U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "作陽高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "明治大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "大宮松鼠",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "名古屋鯨魚",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "大阪櫻花U-12",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kawazura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大阪櫻花U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kawazura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "作陽高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kawazura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "明治大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kawazura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大宮松鼠",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kawazura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "名古屋鯨魚",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kawazura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/kawazura/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方加盟公告",
+          "url": "https://www.mito-hollyhock.net/news/p=52815/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_5",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "5",
+      "name_zh": "岩崎博",
+      "name_ja": "岩﨑 博",
+      "name_en": "Hiroshi Iwasaki",
+      "position": "DF",
+      "dob": "2002-10-11",
+      "season_start_age": 23,
+      "birthplace": "山梨縣",
+      "height": 186,
+      "weight": 82,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "櫪木SC",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "186厘米中堅。甲府風林青訓、桐蔭橫濱大學及櫪木SC出身。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "U Sports Club",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "甲府風林U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "甲府風林U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "桐蔭橫濱大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "櫪木SC",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "U Sports Club",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/iwasaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "甲府風林U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/iwasaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "甲府風林U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/iwasaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "桐蔭橫濱大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/iwasaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "櫪木SC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/iwasaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/iwasaki/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_6",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "6",
+      "name_zh": "岡本一真",
+      "name_ja": "岡本 一真",
+      "name_en": "Kazuma Okamoto",
+      "position": "DF",
+      "dob": "2003-09-19",
+      "season_start_age": 22,
+      "birthplace": "神奈川縣",
+      "height": 174,
+      "weight": 70,
+      "foot": "",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "山形山神",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "右路後衛。2026年9月17日由山形山神完全轉會水戶，接過空出的6號球衣。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Buddy SC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "橫濱水手U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "前橋育英高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "群馬草津溫泉",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "山形山神",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "加盟前J2通算81場8球（官方加盟公告）。"
+      ],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Buddy SC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54641/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱水手U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54641/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "前橋育英高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54641/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "群馬草津溫泉",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54641/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "山形山神",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54641/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/news/p=54641/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "官方註冊名（TVB主資料庫尚未有最新對應項）",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_8",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "8",
+      "name_zh": "加藤千尋",
+      "name_ja": "加藤 千尋",
+      "name_en": "Chihiro Kato",
+      "position": "MF",
+      "dob": "1998-12-12",
+      "season_start_age": 27,
+      "birthplace": "東京都",
+      "height": 175,
+      "weight": 72,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "山形山神",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "技術型中場／翼鋒。2025加盟即參與球會史上首次J2冠軍及升班。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "尾山台SC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Vitória Meguro FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Verdy S.S. Ajunto",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "流通經濟大學附屬柏高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "流通經濟大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "仙台維加泰",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "山形山神",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "尾山台SC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Vitória Meguro FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Verdy S.S. Ajunto",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "流通經濟大學附屬柏高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "流通經濟大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "仙台維加泰",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "山形山神",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/8-kato/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_9",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "9",
+      "name_zh": "根本凌",
+      "name_ja": "根本 凌",
+      "name_en": "Ryo Nemoto",
+      "position": "FW",
+      "dob": "2000-02-03",
+      "season_start_age": 26,
+      "birthplace": "神奈川縣",
+      "height": 184,
+      "weight": 83,
+      "foot": "雙腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "湘南比馬",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "184厘米前鋒，官方登記左右腳均可使用。經湘南比馬及櫪木SC後加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "小和田FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Shoot Junior Youth FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "上田西高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "鹿屋體育大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "湘南比馬",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "櫪木SC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "湘南比馬",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "小和田FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Shoot Junior Youth FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "上田西高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鹿屋體育大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "湘南比馬",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "櫪木SC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "湘南比馬",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/r-nemoto/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_10",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "10",
+      "name_zh": "渡邉新太",
+      "name_ja": "渡邉 新太",
+      "name_en": "Arata Watanabe",
+      "position": "FW",
+      "dob": "1995-08-05",
+      "season_start_age": 31,
+      "birthplace": "新潟縣",
+      "height": 171,
+      "weight": 67,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "大分三神",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026/27隊長",
+      "national_team_detail": "",
+      "intro": "前鋒／影子前鋒。2025加盟後在J2攻入13球，協助水戶首奪J2並升J1；2026/27出任隊長。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "FC五十嵐U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "新潟天鵝U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "流通經濟大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "新潟天鵝",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "大分三神",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [
+        "2025 J2 31場13球。",
+        "2026/27出任水戶隊長。"
+      ],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "FC五十嵐U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/a-watanabe/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "新潟天鵝U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/a-watanabe/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "流通經濟大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/a-watanabe/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "新潟天鵝",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/a-watanabe/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大分三神",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/a-watanabe/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/a-watanabe/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_11",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "11",
+      "name_zh": "鳥海芳樹",
+      "name_ja": "鳥海 芳樹",
+      "name_en": "Yoshiki Torikai",
+      "position": "MF",
+      "dob": "1998-08-01",
+      "season_start_age": 28,
+      "birthplace": "神奈川縣",
+      "height": 165,
+      "weight": 62,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "甲府風林",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026/27副隊長",
+      "national_team_detail": "",
+      "intro": "165厘米進攻中場。甲府風林效力多年後於2026加盟水戶，2026/27任副隊長。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "村岡Kickers",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "村岡中學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "桐光學園高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "桐蔭橫濱大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "甲府風林",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "村岡Kickers",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-torikai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "村岡中學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-torikai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "桐光學園高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-torikai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "桐蔭橫濱大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-torikai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "甲府風林",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-torikai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/y-torikai/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_14",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "14",
+      "name_zh": "新井瑞希",
+      "name_ja": "新井 瑞希",
+      "name_en": "Mizuki Arai",
+      "position": "MF",
+      "dob": "1997-04-14",
+      "season_start_age": 29,
+      "birthplace": "埼玉縣",
+      "height": 170,
+      "weight": 64,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "橫濱FC",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "170厘米攻擊中場／翼鋒。曾旅奧地利及葡萄牙，回日後效力多支J.League球隊。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "伊奈小針SSS",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "柏太陽王U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "浦和紅鑽U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "SV Horn",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "SC相模原",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "富山勝利",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "東京綠茵",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Gil Vicente FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "東京綠茵",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "橫濱FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "神戶勝利船",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "橫濱FC",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "伊奈小針SSS",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "柏太陽王U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "浦和紅鑽U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "SV Horn",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "SC相模原",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "富山勝利",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "東京綠茵",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Gil Vicente FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "東京綠茵",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "神戶勝利船",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/m-arai/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_15",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "15",
+      "name_zh": "木本恭生",
+      "name_ja": "木本 恭生",
+      "name_en": "Yasuki Kimoto",
+      "position": "DF",
+      "dob": "1993-08-06",
+      "season_start_age": 33,
+      "birthplace": "靜岡縣",
+      "height": 184,
+      "weight": 78,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "FC東京",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026/27副隊長",
+      "national_team_detail": "",
+      "intro": "184厘米中堅／防守中場，J1經驗豐富。2026加盟水戶後獲任副隊長。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "富士見台少年隊",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "靜岡學園中學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "靜岡學園高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "福岡大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "大阪櫻花",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "名古屋鯨魚",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC東京",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "鳥栖砂岩",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "FC東京",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2017 J.League Cup冠軍（大阪櫻花）",
+        "2017天皇盃冠軍（大阪櫻花）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "富士見台少年隊",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "靜岡學園中學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "靜岡學園高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "福岡大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大阪櫻花",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "名古屋鯨魚",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC東京",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鳥栖砂岩",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC東京",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/kimoto/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_16",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "16",
+      "name_zh": "田村遊吏",
+      "name_ja": "田村 遊吏",
+      "name_en": "Yuri Tamura",
+      "position": "DF",
+      "dob": "2005-10-20",
+      "season_start_age": 20,
+      "birthplace": "德島縣",
+      "height": 176,
+      "weight": 70,
+      "foot": "",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "桃山學院大學",
+      "registration_status": "職業合約／U-21",
+      "registration_tags": [
+        "U21"
+      ],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "大學在學後衛。原先以特別指定身份參與水戶，球會於2026年9月17日提前其正式加盟時程，轉為職業合約。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "RIPACE Jr",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "RIPACE Junior Youth",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "履正社高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "桃山學院大學",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "RIPACE Jr",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/%E7%94%B0%E6%9D%91-%E9%81%8A%E5%90%8F/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "RIPACE Junior Youth",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/%E7%94%B0%E6%9D%91-%E9%81%8A%E5%90%8F/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "履正社高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/%E7%94%B0%E6%9D%91-%E9%81%8A%E5%90%8F/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "桃山學院大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/%E7%94%B0%E6%9D%91-%E9%81%8A%E5%90%8F/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/%E7%94%B0%E6%9D%91-%E9%81%8A%E5%90%8F/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方加盟公告",
+          "url": "https://www.mito-hollyhock.net/news/p=54617/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "官方註冊名（TVB主資料庫尚未有最新對應項）",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_17",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "17",
+      "name_zh": "板倉健太",
+      "name_ja": "板倉 健太",
+      "name_en": "Kenta Itakura",
+      "position": "DF",
+      "dob": "2002-06-15",
+      "season_start_age": 24,
+      "birthplace": "埼玉縣",
+      "height": 182,
+      "weight": 78,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "東京國際大學",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026/27副隊長",
+      "national_team_detail": "",
+      "intro": "182厘米後衛。大學畢業後加盟水戶，第二季已成為副隊長之一。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Regista FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "CA Alegre",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "山梨學院高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "東京國際大學",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Regista FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-itakura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "CA Alegre",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-itakura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "山梨學院高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-itakura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "東京國際大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-itakura/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/k-itakura/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_18",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "18",
+      "name_zh": "內野航太郎",
+      "name_ja": "内野 航太郎",
+      "name_en": "Kotaro Uchino",
+      "position": "FW",
+      "dob": "2004-06-19",
+      "season_start_age": 22,
+      "birthplace": "神奈川縣",
+      "height": 186,
+      "weight": 78,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Brøndby IF",
+      "registration_status": "外借加盟",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "186厘米中鋒。橫濱水手青訓及筑波大學出身，之後加盟丹麥Brøndby IF；曾外借神戶勝利船，再於2026加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "SCH.FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "橫濱水手U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "橫濱水手U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "筑波大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Brøndby IF",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "神戶勝利船",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "SCH.FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/uchino/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱水手U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/uchino/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱水手U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/uchino/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "筑波大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/uchino/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Brøndby IF",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/uchino/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "神戶勝利船",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/uchino/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/uchino/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_19",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "19",
+      "name_zh": "仙波大志",
+      "name_ja": "仙波 大志",
+      "name_en": "Taishi Semba",
+      "position": "MF",
+      "dob": "1999-08-19",
+      "season_start_age": 26,
+      "birthplace": "廣島縣",
+      "height": 164,
+      "weight": 62,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "廣島三箭",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "164厘米技術型中場。廣島青訓出身，經岡山與群馬外借／效力後於2026加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "廣島三箭U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "流通經濟大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "廣島三箭",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "岡山綠雉",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "群馬草津溫泉",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "廣島三箭",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "廣島三箭U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-semba/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "流通經濟大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-semba/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "廣島三箭",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-semba/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "岡山綠雉",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-semba/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "群馬草津溫泉",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-semba/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "廣島三箭",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-semba/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/t-semba/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_20",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "20",
+      "name_zh": "舩橋佑",
+      "name_ja": "舩橋 佑",
+      "name_en": "Yu Funabashi",
+      "position": "MF",
+      "dob": "2002-07-12",
+      "season_start_age": 24,
+      "birthplace": "茨城縣古河市",
+      "height": 175,
+      "weight": 67,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "鹿島鹿角",
+      "registration_status": "外借加盟",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "茨城縣古河市出身中場。鹿島鹿角Academy一路升上一隊，2026由鹿島外借加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "鹿島鹿角筑波少年隊",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "鹿島鹿角筑波U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "鹿島鹿角U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "鹿島鹿角",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "鹿島鹿角筑波少年隊",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/funabashi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鹿島鹿角筑波U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/funabashi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鹿島鹿角U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/funabashi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鹿島鹿角",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/funabashi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/funabashi/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_21",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "21",
+      "name_zh": "松原修平",
+      "name_ja": "松原 修平",
+      "name_en": "Shuhei Matsubara",
+      "position": "GK",
+      "dob": "1992-08-11",
+      "season_start_age": 33,
+      "birthplace": "北海道",
+      "height": 185,
+      "weight": 87,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2024,
+      "prev_club": "北海道札幌岡薩多",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "185厘米門將。北海道札幌岡薩多青訓出身，職業生涯走過多支J.League球會，2024加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "函館シーガル",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "北海道札幌岡薩多U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "北海道札幌岡薩多U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "岡山綠雉",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "岡山綠雉Next",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "讚岐釜玉海",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "群馬草津溫泉",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "湘南比馬",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "群馬草津溫泉",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "京都不死鳥",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "北海道札幌岡薩多",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "函館シーガル",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "北海道札幌岡薩多U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "北海道札幌岡薩多U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "岡山綠雉",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "岡山綠雉Next",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "讚岐釜玉海",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "群馬草津溫泉",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "湘南比馬",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "群馬草津溫泉",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "京都不死鳥",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "北海道札幌岡薩多",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/s-matsubara/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_22",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "22",
+      "name_zh": "谷口海斗",
+      "name_ja": "谷口 海斗",
+      "name_en": "Kaito Taniguchi",
+      "position": "FW",
+      "dob": "1995-09-07",
+      "season_start_age": 30,
+      "birthplace": "三重縣",
+      "height": 177,
+      "weight": 72,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "Central Coast Mariners FC",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "177厘米前鋒。日本多級別聯賽累積入球經驗後赴澳洲效力Central Coast Mariners FC，2026回日本加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "海山FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "紀州Esforso FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "四日市中央工業高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "岐阜經濟大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "岩手盛岡仙鶴",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "熊本深紅",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "新潟天鵝",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "Central Coast Mariners FC",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "海山FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "紀州Esforso FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "四日市中央工業高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "岐阜經濟大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "岩手盛岡仙鶴",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "熊本深紅",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "新潟天鵝",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Central Coast Mariners FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/taniguchi/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_24",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "24",
+      "name_zh": "山崎希一",
+      "name_ja": "山﨑 希一",
+      "name_en": "Kiichi Yamasaki",
+      "position": "MF",
+      "dob": "2001-10-12",
+      "season_start_age": 24,
+      "birthplace": "和歌山縣",
+      "height": 167,
+      "weight": 60,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2024,
+      "prev_club": "中央大學",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "167厘米中場。興國高中、中央大學後加盟水戶。TVB顯示名採用常用字「山崎希一」。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "富田SSS",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Canarinho FC Rio",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "興國高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "中央大學",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "富田SSS",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-yamazaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Canarinho FC Rio",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-yamazaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "興國高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-yamazaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "中央大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-yamazaki/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/k-yamazaki/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_25",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "25",
+      "name_zh": "真瀨拓海",
+      "name_ja": "真瀬 拓海",
+      "name_en": "Takumi Mase",
+      "position": "DF",
+      "dob": "1998-05-03",
+      "season_start_age": 28,
+      "birthplace": "千葉縣",
+      "height": 175,
+      "weight": 70,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "仙台維加泰",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "右路後衛。市立船橋高中、阪南大學後長期效力仙台維加泰，2026加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "南市川JFC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "JSC Chiba",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "市立船橋高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "阪南大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "仙台維加泰",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "南市川JFC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-mase/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "JSC Chiba",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-mase/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "市立船橋高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-mase/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "阪南大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-mase/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "仙台維加泰",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/t-mase/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/t-mase/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_27",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "27",
+      "name_zh": "史路域",
+      "name_ja": "ヤクブ スウォビィク",
+      "name_en": "Jakub Słowik",
+      "position": "GK",
+      "dob": "1991-08-31",
+      "season_start_age": 34,
+      "birthplace": "波蘭",
+      "height": 190,
+      "weight": 85,
+      "foot": "右腳",
+      "nationality": "波蘭",
+      "joined": 2026,
+      "prev_club": "橫濱FC",
+      "registration_status": "外籍球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "190厘米波蘭門將。多年波蘭頂級聯賽及J1經驗，曾效力仙台、FC東京、Konyaspor與橫濱FC。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Sparta Zamość",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Sparta Oborniki",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Jagiellonia Białystok",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Warta Poznań",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Jagiellonia Białystok",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Pogoń Szczecin",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Śląsk Wrocław",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "仙台維加泰",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC東京",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Konyaspor",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "橫濱FC",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Sparta Zamość",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Sparta Oborniki",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Jagiellonia Białystok",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Warta Poznań",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Jagiellonia Białystok",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Pogoń Szczecin",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Śląsk Wrocław",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "仙台維加泰",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC東京",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Konyaspor",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/jakub-slowik/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_29",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "29",
+      "name_zh": "多田圭佑",
+      "name_ja": "多田 圭佑",
+      "name_en": "Keisuke Tada",
+      "position": "FW",
+      "dob": "2002-09-27",
+      "season_start_age": 23,
+      "birthplace": "茨城縣日立市",
+      "height": 175,
+      "weight": 72,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "立正大學",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "茨城縣日立市出身前鋒。立正大學畢業後加盟水戶，首季即經歷J2冠軍與升班。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "坂本少年隊",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "日立市立坂本中學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "矢板中央高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "立正大學",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "坂本少年隊",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-tada/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "日立市立坂本中學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-tada/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "矢板中央高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-tada/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "立正大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-tada/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/k-tada/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_30",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "30",
+      "name_zh": "奧村仁",
+      "name_ja": "奥村 仁",
+      "name_en": "Jin Okumura",
+      "position": "MF",
+      "dob": "2001-04-03",
+      "season_start_age": 25,
+      "birthplace": "大阪府",
+      "height": 168,
+      "weight": 62,
+      "foot": "",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "新潟天鵝",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "168厘米中場。大阪櫻花青訓、關西福祉大學出身；2026年9月5日由新潟天鵝完全轉會水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "塚原サンクラブ",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "大阪櫻花U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "大阪櫻花U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "關西福祉大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "新潟天鵝",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "轉會前2026/27 J2上陣4場、1球（官方加盟公告）。"
+      ],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "塚原サンクラブ",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54315/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大阪櫻花U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54315/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大阪櫻花U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54315/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "關西福祉大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54315/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "新潟天鵝",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=54315/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/news/p=54315/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "官方註冊名（TVB主資料庫尚未有最新對應項）",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_33",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "33",
+      "name_zh": "柏德歷",
+      "name_ja": "パトリッキ",
+      "name_en": "Patryck",
+      "position": "FW",
+      "dob": "1998-09-05",
+      "season_start_age": 27,
+      "birthplace": "巴西",
+      "height": 180,
+      "weight": 88,
+      "foot": "",
+      "nationality": "巴西",
+      "joined": 2026,
+      "prev_club": "Madureira EC",
+      "registration_status": "外籍球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "巴西前鋒。職業生涯曾在巴西、韓國、洪都拉斯及越南發展，2026加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Inter de Bebedouro",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Internacional",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Gimhae FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "EC União Suzano",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Social Vida",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "São Cristóvão",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Madureira EC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Brasiliense FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Petrópolis",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "São Cristóvão",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Ho Chi Minh City FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Bangu",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "São Cristóvão",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Bangu",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "Madureira EC",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Inter de Bebedouro",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Internacional",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Gimhae FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "EC União Suzano",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Social Vida",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "São Cristóvão",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Madureira EC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Brasiliense FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Petrópolis",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "São Cristóvão",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Ho Chi Minh City FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Bangu",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "São Cristóvão",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Bangu",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Madureira EC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/patryck/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_34",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "34",
+      "name_zh": "西川幸之介",
+      "name_ja": "西川 幸之介",
+      "name_en": "Konosuke Nishikawa",
+      "position": "GK",
+      "dob": "2002-09-11",
+      "season_start_age": 23,
+      "birthplace": "愛知縣",
+      "height": 181,
+      "weight": 78,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "大分三神",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "181厘米門將。藤枝東高中後加盟大分三神，2025轉投水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Granpas Miyoshi",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Sylphid FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "藤枝東高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "大分三神",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Granpas Miyoshi",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-nishikawa/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Sylphid FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-nishikawa/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "藤枝東高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-nishikawa/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "大分三神",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-nishikawa/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/k-nishikawa/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_37",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "37",
+      "name_zh": "上山海翔",
+      "name_ja": "上山 海翔",
+      "name_en": "Minato Kamiyama",
+      "position": "GK",
+      "dob": "2007-09-10",
+      "season_start_age": 18,
+      "birthplace": "茨城縣",
+      "height": 203,
+      "weight": 98,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "水戶蜀葵U-18",
+      "registration_status": "本國球員／Home Grown／U-21",
+      "registration_tags": [
+        "HG",
+        "U21"
+      ],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "203厘米Academy門將。茨城出身，由水戶U-15、U-18升上一隊，是隊內身高最高的門將。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "FC Velen Oarai",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "水戶蜀葵U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "水戶蜀葵U-18",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "FC Velen Oarai",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-kamiyama/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "水戶蜀葵U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-kamiyama/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "水戶蜀葵U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/m-kamiyama/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/m-kamiyama/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_38",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "38",
+      "name_zh": "Hugo Leonardo",
+      "name_ja": "ウーゴ",
+      "name_en": "Hugo Leonardo",
+      "position": "MF",
+      "dob": "2004-01-19",
+      "season_start_age": 22,
+      "birthplace": "巴西",
+      "height": 177,
+      "weight": 76,
+      "foot": "",
+      "nationality": "巴西",
+      "joined": 2026,
+      "prev_club": "São Paulo FC",
+      "registration_status": "外籍球員／外借加盟",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "巴西中場。Santos FC青訓背景，之後效力FC SKA Brasil與São Paulo FC；2026年8月27日由São Paulo FC外借加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Santos FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC SKA Brasil",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "São Paulo FC",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Santos FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=53985/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC SKA Brasil",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=53985/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "São Paulo FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/news/p=53985/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/news/p=53985/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "官方註冊名（TVB主資料庫尚未有最新對應項）",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_39",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "39",
+      "name_zh": "山本隼大",
+      "name_ja": "山本 隼大",
+      "name_en": "Hayata Yamamoto",
+      "position": "MF",
+      "dob": "2003-02-12",
+      "season_start_age": 23,
+      "birthplace": "愛知縣",
+      "height": 180,
+      "weight": 74,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "專修大學",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "180厘米中場。名古屋高中、專修大學後加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Aichi FC U-12",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Hopeiro Kariya",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "名古屋高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "專修大學",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [
+        "2025 J2冠軍（水戶蜀葵）"
+      ],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Aichi FC U-12",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/h-yamamoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Hopeiro Kariya",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/h-yamamoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "名古屋高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/h-yamamoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "專修大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/h-yamamoto/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/h-yamamoto/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_41",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "41",
+      "name_zh": "島谷義進",
+      "name_ja": "島谷 義進",
+      "name_en": "Kishin Shimatani",
+      "position": "MF",
+      "dob": "2008-03-23",
+      "season_start_age": 18,
+      "birthplace": "愛知縣",
+      "height": 176,
+      "weight": 67,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "流通經濟大學附屬柏高中",
+      "registration_status": "本國球員／U-21",
+      "registration_tags": [
+        "U21"
+      ],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "2008年出生中場。流通經濟大學附屬柏高中から水戶加入，屬球會U-21發展組。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "東海Sports",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC.VIDA",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "東海Sports",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC Fervor Aichi",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "流通經濟大學附屬柏高中",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "東海Sports",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/g-shimatani/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC.VIDA",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/g-shimatani/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "東海Sports",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/g-shimatani/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC Fervor Aichi",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/g-shimatani/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "流通經濟大學附屬柏高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/g-shimatani/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/g-shimatani/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_44",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "44",
+      "name_zh": "西原源樹",
+      "name_ja": "西原 源樹",
+      "name_en": "Motoki Nishihara",
+      "position": "MF",
+      "dob": "2006-12-16",
+      "season_start_age": 19,
+      "birthplace": "群馬縣",
+      "height": 180,
+      "weight": 74,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "清水心跳",
+      "registration_status": "外借加盟／U-21",
+      "registration_tags": [
+        "U21"
+      ],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "清水心跳Academy出身的年輕中場，2026由清水外借加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Fanaticos",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "清水心跳U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "清水心跳U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "清水心跳",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Fanaticos",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/nishihara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "清水心跳U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/nishihara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "清水心跳U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/nishihara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "清水心跳",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/nishihara/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/nishihara/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_48",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "48",
+      "name_zh": "山下優人",
+      "name_ja": "山下 優人",
+      "name_en": "Yuto Yamashita",
+      "position": "MF",
+      "dob": "1996-05-24",
+      "season_start_age": 30,
+      "birthplace": "千葉縣",
+      "height": 174,
+      "weight": 73,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "磐城FC",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "左腳中場。千葉市原JEF聯青訓、青森山田高中、桐蔭橫濱大學を経て磐城FCで長くプレーし、2026加盟水戶。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "千城台FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "千葉市原JEF聯U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "青森山田高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "桐蔭橫濱大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "磐城FC",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "千城台FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-yamashita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "千葉市原JEF聯U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-yamashita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "青森山田高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-yamashita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "桐蔭橫濱大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-yamashita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "磐城FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/y-yamashita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/y-yamashita/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_50",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "50",
+      "name_zh": "家泉憐",
+      "name_ja": "家泉 怜依",
+      "name_en": "Rei Ieizumi",
+      "position": "DF",
+      "dob": "2000-01-20",
+      "season_start_age": 26,
+      "birthplace": "香川縣",
+      "height": 185,
+      "weight": 85,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "北海道札幌岡薩多",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "185厘米中堅。磐城FC與北海道札幌岡薩多累積職業經驗後加盟水戶；TVB顯示名採「家泉憐」。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Taiyo SC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "古高松FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "小倉南FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "FC DIAMO",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "藤井學園寒川高中",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "流通經濟大學",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "磐城FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "北海道札幌岡薩多",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Taiyo SC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "古高松FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "小倉南FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "FC DIAMO",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "藤井學園寒川高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "流通經濟大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "磐城FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "北海道札幌岡薩多",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/ieizumi/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_53",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "53",
+      "name_zh": "山下翔大",
+      "name_ja": "山下 翔大",
+      "name_en": "Shota Yamashita",
+      "position": "MF",
+      "dob": "2008-02-29",
+      "season_start_age": 18,
+      "birthplace": "愛知縣",
+      "height": 173,
+      "weight": 73,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "名古屋高中",
+      "registration_status": "本國球員／U-21",
+      "registration_tags": [
+        "U21"
+      ],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "2008年閏日出生的年輕中場，名古屋高中畢業後直接加入水戶一隊。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "Nagoya S.S.",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "名古屋高中足球部",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Nagoya S.S.",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-yamashita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "名古屋高中足球部",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/s-yamashita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/s-yamashita/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "id": "mito_87",
+      "club": "水戶蜀葵",
+      "team_slug": "mito",
+      "number": "87",
+      "name_zh": "五木田季晋",
+      "name_ja": "五木田 季晋",
+      "name_en": "Kishin Gokita",
+      "position": "FW",
+      "dob": "2004-07-12",
+      "season_start_age": 22,
+      "birthplace": "兵庫縣",
+      "height": 184,
+      "weight": 78,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "日本大學",
+      "registration_status": "JFA・J.League特別指定",
+      "registration_tags": [
+        "特別指定",
+        "U21"
+      ],
+      "tenure_status": "",
+      "national_team_detail": "",
+      "intro": "184厘米前鋒，日本大學在學。川崎前鋒青訓出身，2026/27以JFA・J.League特別指定身份參與水戶一隊。",
+      "timeline": [
+        {
+          "period": "育成／職業",
+          "team": "西神中央FC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "Haruhino BSC",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "川崎前鋒U-15",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "育成／職業",
+          "team": "川崎前鋒U-18",
+          "category": "履歷",
+          "milestone": ""
+        },
+        {
+          "period": "職業／近期",
+          "team": "日本大學",
+          "category": "履歷",
+          "milestone": "加盟水戶前最後所屬階段。"
+        }
+      ],
+      "honors": [],
+      "milestones": [],
+      "tactical_traits": [],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "西神中央FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-gokita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "Haruhino BSC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-gokita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "川崎前鋒U-15",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-gokita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "川崎前鋒U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-gokita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "日本大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "官方履歷按先後次序列出；無可靠年度拆分者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方球員履歷",
+              "url": "https://www.mito-hollyhock.net/team/player/k-gokita/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "水戶蜀葵",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "2026/27現役名單；資料截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "水戶官方現役名單",
+              "url": "https://www.mito-hollyhock.net/team/player/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "水戶蜀葵官方現役名單",
+          "url": "https://www.mito-hollyhock.net/team/player/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "水戶官方球員／加盟資料",
+          "url": "https://www.mito-hollyhock.net/team/player/k-gokita/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    }
+  ]
 }
