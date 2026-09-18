@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-18T15:07:28.069Z",
+  "generated_at": "2026-09-18T15:12:08.863Z",
   "team": {
     "id": "team_fukuoka",
     "type": "team_info",
@@ -192,7 +192,12 @@
       ],
       "as_of": "2026-07-26"
     },
-    "verified_at": "2026-09-18"
+    "verified_at": "2026-09-18",
+    "roster_notes": [
+      "現役39名＝一隊36名＋2026/27 JFA/J.League特別指定3名（前田快、坂井悠飛、北濱琉星）。",
+      "奈良龍樹於2026-09-03外借Macarthur FC，已不列入現役名單。",
+      "其他官方列明外借球員亦不列入現役39人。"
+    ]
   },
   "manager": {
     "id": "fukuoka_mgr_tsukahara",
@@ -919,572 +924,8 @@
       "team_slug": "fukuoka",
       "season_start_age": 30,
       "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "24",
-      "name_zh": "小畑裕馬",
-      "name_ja": "小畑 裕馬",
-      "name_en": "Yuma Obata",
-      "position": "GK",
-      "dob": "2001-11-07",
-      "birthplace": "宮城縣",
-      "height": 185,
-      "weight": 80,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2025,
-      "prev_club": "ベガルタ仙台",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "效力福岡第2季",
-      "national_team_detail": "日本U-18、U-22代表經歷",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/gk_26-27_no24_obata.webp",
-      "official_player_id": "1613335",
-      "intro": "仙台青訓出身門將，2020升上一隊，2025轉投福岡。2026/27在9月12日對清水首次聯賽正選。",
-      "timeline": [
-        {
-          "period": "青訓",
-          "team": "仙台青訓",
-          "category": "Academy",
-          "milestone": "由Junior Youth升至Youth。"
-        },
-        {
-          "period": "2020–2024",
-          "team": "仙台維加泰",
-          "category": "J1/J2",
-          "milestone": "職業生涯首站。"
-        },
-        {
-          "period": "2025–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "完全轉會。"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2020年7月4日完成J.League首戰。"
-      ],
-      "tactical_traits": [
-        "185厘米門將。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "ベガルタ仙台Jrユース／ユース",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2020",
-          "team": "ベガルタ仙台",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "ベガルタ仙台",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "ベガルタ仙台",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "ベガルタ仙台",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "ベガルタ仙台",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 1,
-          "goals": 0,
-          "status": "現役",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 1,
-          "goals": 0,
-          "assists": null,
-          "minutes": 90,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1613335/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1613335/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_24",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 24,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "41",
-      "name_zh": "藤田和輝",
-      "name_ja": "藤田 和輝",
-      "name_en": "Kazuki Fujita",
-      "position": "GK",
-      "dob": "2001-02-19",
-      "birthplace": "新潟縣",
-      "height": 186,
-      "weight": 85,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "アルビレックス新潟",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "2026/27加盟",
-      "national_team_detail": "日本各級青年代表經歷",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/gk_26-27_no41_fujita.webp",
-      "official_player_id": "1621166",
-      "intro": "新潟青訓出身門將，先後外借栃木及千葉累積一隊經驗，2026/27轉投福岡。",
-      "timeline": [
-        {
-          "period": "青訓",
-          "team": "新潟U-12／U-15／U-18",
-          "category": "Academy",
-          "milestone": "一路由新潟青訓升上一隊。"
-        },
-        {
-          "period": "2019–2025",
-          "team": "新潟／栃木／千葉",
-          "category": "J1/J2",
-          "milestone": "以多次外借累積門將比賽時間。"
-        },
-        {
-          "period": "2026/27–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "加盟福岡。"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2020年6月27日完成J.League首戰。"
-      ],
-      "tactical_traits": [
-        "186厘米門將。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "アルビレックス新潟U-12／U-15／U-18",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "アルビレックス新潟",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2020",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "アルビレックス新潟",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "回歸",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "アルビレックス新潟",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "ジェフユナイテッド千葉",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "アルビレックス新潟",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "回歸",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 2,
-          "goals": 0,
-          "status": "完全轉會",
-          "notes": "截至2026-09-18。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 2,
-          "goals": 0,
-          "assists": null,
-          "minutes": 180,
-          "as_of": "2026-09-18",
-          "source": "https://www.jleague.jp/player/1621166/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1621166/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_41",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 25,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "99",
-      "name_zh": "奧比·鮑威爾·奧賓拿",
-      "name_ja": "オビ パウエル オビンナ",
-      "name_en": "Powell Obinna Obi",
-      "position": "GK",
-      "dob": "1997-12-18",
-      "birthplace": "埼玉縣",
-      "height": 193,
-      "weight": 87,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "ヴィッセル神戸",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "2026加盟",
-      "national_team_detail": "日本U-16、U-17、U-20、U-23代表經歷",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/gk_26-27_no99_obi.webp",
-      "official_player_id": "1615528",
-      "intro": "193厘米門將，JFA Academy福島及流通經濟大學出身。橫濱水手簽下後曾兩度外借栃木，2024轉投神戶，2026加盟福岡。",
-      "timeline": [
-        {
-          "period": "育成",
-          "team": "JFA Academy福島",
-          "category": "青訓",
-          "milestone": "U-15至U-18。"
-        },
-        {
-          "period": "2016–2019",
-          "team": "流通經濟大學",
-          "category": "大學足球",
-          "milestone": "其後加盟橫濱水手。"
-        },
-        {
-          "period": "2019–2025",
-          "team": "橫濱水手／栃木／神戶",
-          "category": "J1/J2",
-          "milestone": "職業門將歷練。"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2020年9月6日完成J.League首戰。"
-      ],
-      "tactical_traits": [
-        "193厘米高大門將。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "JFAアカデミー福島U-15／U-18",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": null,
-          "team": "流通経済大",
-          "competition": "大學足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "横浜F・マリノス",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2020",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "横浜F・マリノス",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "回歸",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "横浜F・マリノス",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "ヴィッセル神戸",
-          "competition": "J1",
-          "appearances": 0,
-          "goals": 0,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "ヴィッセル神戸",
-          "competition": "J1",
-          "appearances": 0,
-          "goals": 0,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 0,
-          "goals": 0,
-          "status": "現役",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 0,
-          "goals": 0,
-          "assists": null,
-          "minutes": 0,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1615528/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1615528/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_99",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 28,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     },
     {
       "number": "2",
@@ -1724,7 +1165,8 @@
       "team_slug": "fukuoka",
       "season_start_age": 32,
       "verification_status": "verified",
-      "verified_at": "2026-09-18"
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     },
     {
       "number": "5",
@@ -1954,1819 +1396,8 @@
       "team_slug": "fukuoka",
       "season_start_age": 29,
       "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "15",
-      "name_zh": "辻岡佑真",
-      "name_ja": "辻岡 佑真",
-      "name_en": "Yuma Tsujioka",
-      "position": "DF",
-      "dob": "2001-12-09",
-      "birthplace": "香川縣",
-      "height": 183,
-      "weight": 83,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "いわきFC",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "2026加盟",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no15_yuma.webp",
-      "official_player_id": "1641019",
-      "intro": "183厘米後衛，環太平洋大學畢業後加入磐城，外借宮崎、北九州累積J3經驗；2025入選J3 Best XI，2026加盟福岡後直接進入J1正選。",
-      "timeline": [
-        {
-          "period": "2023–2025",
-          "team": "磐城／宮崎／北九州",
-          "category": "J2/J3",
-          "milestone": "外借期間成長為J3優秀後衛。"
-        },
-        {
-          "period": "2026–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "加盟後成為主力。"
-        }
-      ],
-      "honors": [
-        "2025 J3 Best XI"
-      ],
-      "milestones": [
-        "2023年4月2日J.League首戰。",
-        "2024年9月22日J.League首球。",
-        "2026/27首6戰全正選並入1球。"
-      ],
-      "tactical_traits": [
-        "183厘米後衛。",
-        "可參與後場推進並後上攻門。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "高松工芸高／IPU環太平洋大",
-          "competition": "學生足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "いわきFC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "テゲバジャーロ宮崎",
-          "competition": "J3",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "ギラヴァンツ北九州",
-          "competition": "J3",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "J3 Best XI。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "いわきFC",
-          "competition": "J2・J3百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "回歸",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 1,
-          "status": "完全轉會",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 1,
-          "assists": 0,
-          "minutes": null,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1641019/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1641019/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_15",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 24,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "16",
-      "name_zh": "岡哲平",
-      "name_ja": "岡 哲平",
-      "name_en": "Teppei Oka",
-      "position": "DF",
-      "dob": "2001-09-06",
-      "birthplace": "東京都",
-      "height": 186,
-      "weight": 83,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "FC東京",
-      "registration_status": "本國球員／外借加盟",
-      "registration_tags": [],
-      "tenure_status": "由FC東京外借；租期延長至2027-06-30",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no16_teppei.webp",
-      "official_player_id": "1625427",
-      "intro": "FC東京青訓出身中堅，2019已代表FC東京U-23踢J3，之後升讀明治大學再回母會。2026外借福岡後成為主力後衛。",
-      "timeline": [
-        {
-          "period": "2019",
-          "team": "FC東京U-23",
-          "category": "J3",
-          "milestone": "18場0球。"
-        },
-        {
-          "period": "2020–2023",
-          "team": "明治大學",
-          "category": "大學足球",
-          "milestone": "大學磨練。"
-        },
-        {
-          "period": "2024–2025",
-          "team": "FC東京",
-          "category": "J1",
-          "milestone": "回歸母會一隊。"
-        },
-        {
-          "period": "2026–",
-          "team": "福岡黃蜂",
-          "category": "J1外借",
-          "milestone": "租期至2027年6月。"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2019年3月23日J.League首戰。",
-        "2024年7月6日J.League首球。"
-      ],
-      "tactical_traits": [
-        "186厘米中堅。",
-        "高空球與後場推進。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "FC東京U-15深川／U-18",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "FC東京U-23",
-          "competition": "J3",
-          "appearances": 18,
-          "goals": 0,
-          "status": "青訓／一隊登錄",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": null,
-          "team": "明治大",
-          "competition": "大學足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "FC東京",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "FC東京",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": 19,
-          "goals": 1,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
-          "status": "外借",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026",
-          "competition": "J1百年構想聯賽",
-          "appearances": 19,
-          "goals": 1,
-          "assists": null,
-          "minutes": null,
-          "as_of": "2026-06-06",
-          "source": "https://www.jleague.jp/player/1625427/"
-        },
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
-          "assists": 0,
-          "minutes": null,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1625427/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1625427/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_16",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 24,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "20",
-      "name_zh": "三國肯尼迪艾布斯",
-      "name_ja": "三國 ケネディエブス",
-      "name_en": "KennedyEgbus Mikuni",
-      "position": "DF",
-      "dob": "2000-06-23",
-      "birthplace": "美國",
-      "height": 193,
-      "weight": 85,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "名古屋グランパス",
-      "registration_status": "本國球員／Home Grown／外借加盟",
-      "registration_tags": [
-        "HG"
-      ],
-      "tenure_status": "2026夏季由名古屋外借回歸福岡",
-      "national_team_detail": "日本U-19、U-20代表；2019 FIFA U-20世界盃日本代表",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no20_kennedy.webp",
-      "official_player_id": "1617705",
-      "intro": "193厘米中堅，青森山田出身。2019在福岡開始職業生涯，曾兩度外借栃木；2024轉投名古屋後於2026夏季外借回到福岡。",
-      "timeline": [
-        {
-          "period": "2019–2023",
-          "team": "福岡／栃木",
-          "category": "J2/J1",
-          "milestone": "福岡職業出道、外借栃木。"
-        },
-        {
-          "period": "2024–2026",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "2024 Levain Cup冠軍。"
-        },
-        {
-          "period": "2026/27–",
-          "team": "福岡黃蜂",
-          "category": "J1外借",
-          "milestone": "回歸母隊。"
-        }
-      ],
-      "honors": [
-        "2024 YBC Levain Cup冠軍（名古屋）"
-      ],
-      "milestones": [
-        "2019年2月24日J.League首戰。",
-        "2020年7月29日J.League首球。"
-      ],
-      "tactical_traits": [
-        "193厘米中堅，空中戰優勢明顯。",
-        "可利用長腿覆蓋防線身後。"
-      ],
-      "quirky_trivia": "職業生涯由福岡開始，離隊兩年多後於2026再次穿上福岡球衣。",
-      "career": [
-        {
-          "season": null,
-          "team": "青森山田中／高",
-          "competition": "學生足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "アビスパ福岡",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2020",
-          "team": "アビスパ福岡",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "升J1。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "回歸",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "名古屋グランパス",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "Levain Cup冠軍。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "名古屋グランパス",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "名古屋グランパス",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 2,
-          "goals": 0,
-          "status": "外借",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 2,
-          "goals": 0,
-          "assists": 0,
-          "minutes": 174,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1617705/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1617705/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_20",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 26,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "23",
-      "name_zh": "深澤大輝",
-      "name_ja": "深澤 大輝",
-      "name_en": "Daiki Fukazawa",
-      "position": "DF",
-      "dob": "1998-08-21",
-      "birthplace": "東京都",
-      "height": 174,
-      "weight": 70,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "東京ヴェルディ",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "2026年6月30日完全轉會加盟",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no23_daiki.webp",
-      "official_player_id": "1629919",
-      "intro": "東京綠茵青訓出身邊後衛，中央大學後回到綠茵展開職業生涯。2026夏季完全轉會福岡，開季前6場已交出2次助攻。",
-      "timeline": [
-        {
-          "period": "青訓",
-          "team": "東京綠茵Junior／Youth",
-          "category": "Academy",
-          "milestone": "長期綠茵青訓。"
-        },
-        {
-          "period": "2021–2026",
-          "team": "東京綠茵",
-          "category": "J2/J1",
-          "milestone": "升班後繼續踢J1。"
-        },
-        {
-          "period": "2026/27–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "夏季完全轉會。"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2021年5月16日J.League首戰。",
-        "2021年12月5日J.League首球。"
-      ],
-      "tactical_traits": [
-        "邊後衛。",
-        "2026/27前6場2助攻，具前場支援能力。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "東京ヴェルディJunior／Jr Youth／Youth",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": null,
-          "team": "中央大",
-          "competition": "大學足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "東京ヴェルディ",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "東京ヴェルディ",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "東京ヴェルディ",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "升上J1。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "東京ヴェルディ",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "東京ヴェルディ",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "東京ヴェルディ",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
-          "status": "完全轉會",
-          "notes": "2助攻；截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
-          "assists": 2,
-          "minutes": null,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1629919/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1629919/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_23",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 27,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "29",
-      "name_zh": "前嶋洋太",
-      "name_ja": "前嶋 洋太",
-      "name_en": "Yota Maejima",
-      "position": "DF",
-      "dob": "1997-08-12",
-      "birthplace": "神奈川縣",
-      "height": 178,
-      "weight": 67,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2022,
-      "prev_club": "横浜FC",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "效力福岡第5季",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no29_maejima.webp",
-      "official_player_id": "1600179",
-      "intro": "橫濱FC青訓出身右路球員，可踢右閘或翼衛。經富山、水戶累積經驗後加盟福岡，是邊路高工作率球員。",
-      "timeline": [
-        {
-          "period": "2016–2021",
-          "team": "橫濱FC／富山／水戶",
-          "category": "J2/J3",
-          "milestone": "外借與轉會累積經驗。"
-        },
-        {
-          "period": "2022–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "長期右路成員。"
-        }
-      ],
-      "honors": [
-        "2023 YBC Levain Cup冠軍（福岡）"
-      ],
-      "milestones": [
-        "2017年3月25日J.League首戰。",
-        "2018年6月9日J.League首球。"
-      ],
-      "tactical_traits": [
-        "右閘／翼衛。",
-        "邊路推進及傳中。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "横浜FC Jr Youth／Youth",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2016",
-          "team": "横浜FC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2017",
-          "team": "横浜FC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2018",
-          "team": "カターレ富山",
-          "competition": "J3",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "カターレ富山",
-          "competition": "J3",
-          "appearances": null,
-          "goals": null,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2020",
-          "team": "横浜FC",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "回歸",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "水戸ホーリーホック",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "Levain Cup冠軍。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
-          "status": "現役",
-          "notes": "1助攻；截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
-          "assists": 1,
-          "minutes": null,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1600179/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1600179/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_29",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 28,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "33",
-      "name_zh": "山脇樺織",
-      "name_ja": "山脇 樺織",
-      "name_en": "Kaoru Yamawaki",
-      "position": "DF",
-      "dob": "2000-12-17",
-      "birthplace": "東京都",
-      "height": 179,
-      "weight": 71,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "ギラヴァンツ北九州",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "2026加盟",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no33_kaoru.webp",
-      "official_player_id": "1640642",
-      "intro": "同志社大學出身後衛，北九州踢了三季，2025獲J3優秀選手獎後升上J1加盟福岡。",
-      "timeline": [
-        {
-          "period": "大學",
-          "team": "同志社大學",
-          "category": "大學足球",
-          "milestone": "其後加盟北九州。"
-        },
-        {
-          "period": "2023–2025",
-          "team": "北九州向日葵",
-          "category": "J3",
-          "milestone": "2025優秀選手獎。"
-        },
-        {
-          "period": "2026–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "加盟J1。"
-        }
-      ],
-      "honors": [
-        "2025 J3優秀選手獎"
-      ],
-      "milestones": [
-        "2023年4月15日J.League首戰。",
-        "2024年7月6日J.League首球。"
-      ],
-      "tactical_traits": [
-        "右路／中堅防守。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "関東第一高／同志社大",
-          "competition": "學生足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "ギラヴァンツ北九州",
-          "competition": "J3",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "ギラヴァンツ北九州",
-          "competition": "J3",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "ギラヴァンツ北九州",
-          "competition": "J3",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "J3優秀選手獎。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 1,
-          "goals": 0,
-          "status": "現役",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 1,
-          "goals": 0,
-          "assists": 0,
-          "minutes": 13,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1640642/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1640642/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_33",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 25,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "37",
-      "name_zh": "田代雅也",
-      "name_ja": "田代 雅也",
-      "name_en": "Masaya Tashiro",
-      "position": "DF",
-      "dob": "1993-05-01",
-      "birthplace": "埼玉縣",
-      "height": 185,
-      "weight": 80,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2023,
-      "prev_club": "サガン鳥栖",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "效力福岡第4季",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no37_tashiro.webp",
-      "official_player_id": "1600197",
-      "intro": "185厘米中堅，法政大學後由FC岐阜開始職業生涯，經栃木、鳥栖後加盟福岡。以空中球和禁區防守見長。",
-      "timeline": [
-        {
-          "period": "2016–2019",
-          "team": "FC岐阜",
-          "category": "J2",
-          "milestone": "職業生涯起點。"
-        },
-        {
-          "period": "2020–2022",
-          "team": "栃木／鳥栖",
-          "category": "J2/J1",
-          "milestone": "升上J1。"
-        },
-        {
-          "period": "2023–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "參與2023盃賽冠軍年代。"
-        }
-      ],
-      "honors": [
-        "2023 YBC Levain Cup冠軍（福岡）"
-      ],
-      "milestones": [
-        "2016年3月6日J.League首戰。",
-        "2016年6月26日J.League首球。"
-      ],
-      "tactical_traits": [
-        "185厘米中堅。",
-        "空中球和禁區防守。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "武南高／法政大",
-          "competition": "學生足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2016",
-          "team": "FC岐阜",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2017",
-          "team": "FC岐阜",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2018",
-          "team": "FC岐阜",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "FC岐阜",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2020",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "栃木SC",
-          "competition": "J2",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "サガン鳥栖",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "Levain Cup冠軍。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 3,
-          "goals": 0,
-          "status": "現役",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 3,
-          "goals": 0,
-          "assists": 0,
-          "minutes": 270,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1600197/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1600197/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_37",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 33,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "38",
-      "name_zh": "宮大樹",
-      "name_ja": "宮 大樹",
-      "name_en": "Daiki Miya",
-      "position": "DF",
-      "dob": "1996-04-01",
-      "birthplace": "大阪府",
-      "height": 186,
-      "weight": 82,
-      "nationality": "日本",
-      "foot": "左腳",
-      "joined": 2026,
-      "prev_club": "名古屋グランパス",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "2026回歸福岡",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no38_daiki.webp",
-      "official_player_id": "1604991",
-      "intro": "186厘米左腳中堅，琵琶湖成蹊Sports大學出身。2021至2024曾長期效力福岡，2025轉投名古屋並外借札幌，2026再次回歸。",
-      "timeline": [
-        {
-          "period": "2018–2020",
-          "team": "神戶／水戶／鳥栖",
-          "category": "J1/J2",
-          "milestone": "職業初期。"
-        },
-        {
-          "period": "2021–2024",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "四季主力中堅。"
-        },
-        {
-          "period": "2025",
-          "team": "名古屋／札幌",
-          "category": "J1/J2",
-          "milestone": "離隊一年。"
-        },
-        {
-          "period": "2026–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "回歸。"
-        }
-      ],
-      "honors": [
-        "2023 YBC Levain Cup冠軍（福岡）"
-      ],
-      "milestones": [
-        "2018年4月11日J.League首戰。",
-        "2019年10月6日J.League首球。"
-      ],
-      "tactical_traits": [
-        "左腳中堅。",
-        "186厘米高空球與正面防守。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "清明学院高／びわこ成蹊スポーツ大",
-          "competition": "學生足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2018",
-          "team": "ヴィッセル神戸",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "ヴィッセル神戸",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "季中外借水戶。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2019",
-          "team": "水戸ホーリーホック",
-          "competition": "J2",
-          "appearances": 12,
-          "goals": 2,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2020",
-          "team": "サガン鳥栖",
-          "competition": "J1",
-          "appearances": 14,
-          "goals": 0,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2021",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2022",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2023",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "Levain Cup冠軍。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2024",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "名古屋グランパス",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "完全轉會",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "北海道コンサドーレ札幌",
-          "competition": "J2",
-          "appearances": 9,
-          "goals": 0,
-          "status": "外借",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "回歸",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 2,
-          "goals": 0,
-          "status": "現役",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 2,
-          "goals": 0,
-          "assists": 0,
-          "minutes": null,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1604991/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1604991/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡2026/27契約更新",
-          "url": "https://www.avispa.co.jp/news/post-87221",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_38",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 30,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "47",
-      "name_zh": "橋本悠",
-      "name_ja": "橋本 悠",
-      "name_en": "Yu Hashimoto",
-      "position": "DF",
-      "dob": "2002-06-07",
-      "birthplace": "佐賀縣",
-      "height": 171,
-      "weight": 64,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2025,
-      "prev_club": "福岡大",
-      "registration_status": "本國球員",
-      "registration_tags": [],
-      "tenure_status": "2026/27副隊長",
-      "national_team_detail": "",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no47_hashimoto.webp",
-      "official_player_id": "1646125",
-      "intro": "鳥栖青訓、福岡大學出身的右路球員。2025加盟後快速取得J1出場，2026百年構想聯賽獲Playoff Round Player of the Match，2026/27升任副隊長。",
-      "timeline": [
-        {
-          "period": "青訓",
-          "team": "鳥栖U-12／U-15／U-18",
-          "category": "Academy",
-          "milestone": "鳥栖青訓。"
-        },
-        {
-          "period": "2021–2024",
-          "team": "福岡大學",
-          "category": "大學足球",
-          "milestone": "留在九州發展。"
-        },
-        {
-          "period": "2025–",
-          "team": "福岡黃蜂",
-          "category": "J1",
-          "milestone": "一隊右路主力。"
-        }
-      ],
-      "honors": [
-        "2026 J1百年構想聯賽Playoff Round Player of the Match"
-      ],
-      "milestones": [
-        "2025年3月15日J.League首戰。",
-        "2026/27出任副隊長。"
-      ],
-      "tactical_traits": [
-        "右路高強度跑動。",
-        "2026/27前7輪101次衝刺為隊內最高。"
-      ],
-      "quirky_trivia": "",
-      "career": [
-        {
-          "season": null,
-          "team": "サガン鳥栖U-12／U-15／U-18",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": null,
-          "team": "福岡大",
-          "competition": "大學足球",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2025",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "職業加盟",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "Playoff Round Player of the Match。",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 7,
-          "goals": 0,
-          "status": "副隊長",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 7,
-          "goals": 0,
-          "assists": 0,
-          "minutes": null,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1646125/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1646125/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡官方隊長公告",
-          "url": "https://www.avispa.co.jp/news/post-88933",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_47",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 24,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
-    },
-    {
-      "number": "58",
-      "name_zh": "藤川虎三",
-      "name_ja": "藤川 虎三",
-      "name_en": "Takezo Fujikawa",
-      "position": "DF",
-      "dob": "2008-07-29",
-      "birthplace": "福岡縣",
-      "height": 183,
-      "weight": 82,
-      "nationality": "日本",
-      "foot": "右腳",
-      "joined": 2026,
-      "prev_club": "福岡U-18",
-      "registration_status": "二種註冊→職業合約／Home Grown／U-21",
-      "registration_tags": [
-        "HG",
-        "U21"
-      ],
-      "tenure_status": "福岡U-18在籍；2026年6月30日簽職業合約",
-      "national_team_detail": "日本U-17代表",
-      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no58_fujikawa.webp",
-      "official_player_id": "1656040",
-      "intro": "福岡Academy出身的183厘米青年後衛。守備強度與頭槌是本人公開列出的主要武器；2026先以二種註冊參與一隊，6月30日簽職業合約。",
-      "timeline": [
-        {
-          "period": "Academy",
-          "team": "福岡U-12／U-15／U-18",
-          "category": "青訓",
-          "milestone": "本地Academy成長。"
-        },
-        {
-          "period": "2026–",
-          "team": "福岡黃蜂",
-          "category": "二種註冊／職業",
-          "milestone": "17歲簽職業合約。"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2025、2026獲日本U-17及J.League選拔相關徵召。",
-        "2026年6月30日簽職業合約。"
-      ],
-      "tactical_traits": [
-        "本人把守備強度和頭槌高度列為主要武器。"
-      ],
-      "quirky_trivia": "仍就讀九州產業大學附屬九州高校，同時進入職業一隊環境。",
-      "career": [
-        {
-          "season": null,
-          "team": "ACファルベン／福岡U-12／U-15／U-18",
-          "competition": "青訓",
-          "appearances": null,
-          "goals": null,
-          "status": "育成年代",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026",
-          "team": "アビスパ福岡",
-          "competition": "J1百年構想聯賽",
-          "appearances": 0,
-          "goals": 0,
-          "status": "二種註冊→職業合約",
-          "notes": "",
-          "verification_status": "verified",
-          "sources": []
-        },
-        {
-          "season": "2026/27",
-          "team": "アビスパ福岡",
-          "competition": "J1",
-          "appearances": 0,
-          "goals": 0,
-          "status": "職業／U-21",
-          "notes": "截至2026-09-17。",
-          "verification_status": "verified",
-          "sources": []
-        }
-      ],
-      "season_stats": [
-        {
-          "season": "2026/27",
-          "competition": "J1",
-          "appearances": 0,
-          "goals": 0,
-          "assists": 0,
-          "minutes": 0,
-          "as_of": "2026-09-17",
-          "source": "https://www.jleague.jp/player/1656040/"
-        }
-      ],
-      "sources": [
-        {
-          "label": "J.League官方球員檔案",
-          "url": "https://www.jleague.jp/player/1656040/",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡黃蜂官方2026/27名單",
-          "url": "https://www.avispa.co.jp/team/topteam",
-          "accessed_at": "2026-09-18"
-        },
-        {
-          "label": "福岡Academy日本U-17選出",
-          "url": "https://www.avispa.co.jp/academy/post-83852",
-          "accessed_at": "2026-09-18"
-        }
-      ],
-      "id": "fukuoka_58",
-      "club": "福岡黃蜂",
-      "team_slug": "fukuoka",
-      "season_start_age": 18,
-      "verification_status": "verified",
-      "verified_at": "2026-09-18"
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     },
     {
       "number": "6",
@@ -3912,6 +1543,169 @@
       "club": "福岡黃蜂",
       "team_slug": "fukuoka",
       "season_start_age": 24,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "7",
+      "name_zh": "碓井聖生",
+      "name_ja": "碓井 聖生",
+      "name_en": "Shosei Usui",
+      "position": "FW",
+      "dob": "2001-07-20",
+      "birthplace": "富山縣",
+      "height": 183,
+      "weight": 75,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "カターレ富山",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "效力福岡第2季",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no7_shosei.webp",
+      "official_player_id": "1644286",
+      "intro": "183厘米前鋒，中京大學後由家鄉富山勝利展開職業生涯，再升上J1加盟福岡。官方Q&A把左右腳射門列為自身最大武器；2026/27開季前4場已攻入2球。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "FCひがしJr Youth／富山第一高／中京大",
+          "category": "學生足球",
+          "milestone": "富山出身。"
+        },
+        {
+          "period": "2023–2024",
+          "team": "カターレ富山",
+          "category": "J3",
+          "milestone": "職業起步。"
+        },
+        {
+          "period": "2025–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "升上J1。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2023年8月19日完成J.League首戰。",
+        "2024年2月25日取得J.League首球。",
+        "2026/27前4場2球。"
+      ],
+      "tactical_traits": [
+        "左右腳都可完成射門。",
+        "183厘米身形可作中路衝擊。"
+      ],
+      "quirky_trivia": "兒時憧憬Fernando Torres；本人把『左右的射門』列作最大武器。",
+      "career": [
+        {
+          "season": null,
+          "team": "FCひがしJrユース／富山第一高／中京大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "カターレ富山",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "カターレ富山",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 4,
+          "goals": 2,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 4,
+          "goals": 2,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1644286/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1644286/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡官方球員Profile",
+          "url": "https://www.avispa.co.jp/player/fw_usui_2026-27",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡2026/27契約更新",
+          "url": "https://www.avispa.co.jp/news/post-87221",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_7",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 25,
+      "name_source": "TVB J1 球員評述主資料庫",
       "verification_status": "verified",
       "verified_at": "2026-09-18"
     },
@@ -4144,6 +1938,533 @@
       "team_slug": "fukuoka",
       "season_start_age": 26,
       "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "9",
+      "name_zh": "韋歷・波波",
+      "name_ja": "ウェリック ポポ",
+      "name_en": "Werik Popó",
+      "position": "FW",
+      "dob": "2001-10-17",
+      "birthplace": "巴西",
+      "height": 190,
+      "weight": 94,
+      "nationality": "巴西",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "Red Bull Bragantino",
+      "registration_status": "外籍球員",
+      "registration_tags": [],
+      "tenure_status": "2026年6月完全轉會加盟",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no9_werik_popo.webp",
+      "official_player_id": "1652453",
+      "intro": "190厘米、94公斤的巴西中鋒。職業生涯在巴西多間球會累積經驗，亦曾效力Suwon Samsung Bluewings；2025到岡山踢J1後再由Bragantino於2026夏季完全轉會福岡。",
+      "timeline": [
+        {
+          "period": "巴西／韓國",
+          "team": "Águia de Marabá／Oeste／Bragantino／Suwon等",
+          "category": "海外足球",
+          "milestone": "在巴西及韓國累積職業經驗。"
+        },
+        {
+          "period": "2025–2026",
+          "team": "岡山綠雉",
+          "category": "J1",
+          "milestone": "首次日本足球經驗。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "完全轉會。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2025年6月15日完成J.League首戰。",
+        "2026年8月15日取得J.League首球。"
+      ],
+      "tactical_traits": [
+        "190厘米、94公斤中鋒，背身及禁區身體對抗是天然武器。",
+        "可成為直接傳送及第二點進攻支點。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "Águia de Marabá",
+          "competition": "Brazil",
+          "appearances": null,
+          "goals": null,
+          "status": "職業初期",
+          "notes": "J.League履歷列為早期所屬球會。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "Oeste FC",
+          "competition": "Brazil",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "Red Bull Bragantino",
+          "competition": "Brazil",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "多次回到母會。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "Suwon Samsung Bluewings",
+          "competition": "Korea",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "EC Juventude",
+          "competition": "Brazil",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "Criciúma EC",
+          "competition": "Brazil",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "ファジアーノ岡山",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "完成J.League首戰。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "ファジアーノ岡山",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "其後返回Bragantino。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 1,
+          "status": "完全轉會",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 1,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1652453/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1652453/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_9",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 24,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "number": "10",
+      "name_zh": "城後壽",
+      "name_ja": "城後 寿",
+      "name_en": "Hisashi Jogo",
+      "position": "FW",
+      "dob": "1986-04-16",
+      "birthplace": "福岡縣",
+      "height": 183,
+      "weight": 77,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2005,
+      "prev_club": "国見高",
+      "registration_status": "本國球員／Home Grown",
+      "registration_tags": [
+        "HG"
+      ],
+      "tenure_status": "一隊第22季；職業生涯只效力福岡",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no10_jogo.webp",
+      "official_player_id": "500345",
+      "intro": "福岡最具代表性的one-club man。2005年由國見高校加盟後從未轉會，經歷J1與J2多次升降、2020再升J1及2023球會首個主要冠軍；可由前鋒踢至中場多個位置。",
+      "timeline": [
+        {
+          "period": "高校",
+          "team": "国見高",
+          "category": "高校足球",
+          "milestone": "長崎名門畢業。"
+        },
+        {
+          "period": "2005–",
+          "team": "福岡黃蜂",
+          "category": "J1/J2",
+          "milestone": "超過20年只效力同一職業球會。"
+        }
+      ],
+      "honors": [
+        "2023 YBC Levain Cup冠軍（福岡）"
+      ],
+      "milestones": [
+        "2006年4月2日完成J.League首戰。",
+        "2006年4月29日取得J.League首球。",
+        "職業生涯從2005至2026/27全部效力福岡。"
+      ],
+      "tactical_traits": [
+        "前鋒／攻擊中場多位置。",
+        "老將經驗及禁區後上。"
+      ],
+      "quirky_trivia": "福岡隊內最資深球員；由J2年代、數次升降班一直效力至球會首奪Levain Cup。",
+      "career": [
+        {
+          "season": "2005",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2006",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "完成J.League首戰與首球。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2007",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2008",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2009",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2010",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2011",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2012",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2013",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2014",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2015",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2016",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2017",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2018",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "升上J1。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "Levain Cup冠軍。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/500345/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/500345/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡2026/27契約更新",
+          "url": "https://www.avispa.co.jp/news/post-87221",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_10",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 40,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
       "verified_at": "2026-09-18"
     },
     {
@@ -4346,6 +2667,179 @@
       "club": "福岡黃蜂",
       "team_slug": "fukuoka",
       "season_start_age": 28,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "13",
+      "name_zh": "師岡柊生",
+      "name_ja": "師岡 柊生",
+      "name_en": "Shu Morooka",
+      "position": "FW",
+      "dob": "2000-12-09",
+      "birthplace": "東京都",
+      "height": 174,
+      "weight": 69,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "鹿島アントラーズ",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026年6月完全轉會加盟",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/07/fw_26-27_no13_morooka-index.webp",
+      "official_player_id": "1637049",
+      "intro": "174厘米前鋒／邊路攻擊手。東京國際大學後加盟鹿島，特色不是單純技術，而是本人官方Q&A所說的『戰鬥姿態』；2026夏季加盟福岡後前7輪已入3球。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "大和田SC／FC多摩／日本航空高／東京國際大",
+          "category": "學生足球",
+          "milestone": "東京都出身。"
+        },
+        {
+          "period": "2023–2026",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "J1通算47場5球後轉會。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "完全轉會。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2023年4月9日完成J.League首戰。",
+        "2024年7月6日取得J.League首球。",
+        "加盟時官方列J1通算47場5球、百年構想聯賽11場3球。"
+      ],
+      "tactical_traits": [
+        "前場壓迫與戰鬥性。",
+        "可踢中鋒或邊路，向禁區斜插。"
+      ],
+      "quirky_trivia": "本人官方Q&A把最大武器直接寫成『戦う姿勢』，兒時憧憬Neymar。",
+      "career": [
+        {
+          "season": null,
+          "team": "大和田SC／FC多摩Jr Youth／日本航空高／東京国際大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "鹿島アントラーズ",
+          "competition": "J1",
+          "appearances": 4,
+          "goals": 0,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "鹿島アントラーズ",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "鹿島アントラーズ",
+          "competition": "J1",
+          "appearances": 11,
+          "goals": 2,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "鹿島アントラーズ",
+          "competition": "J1百年構想聯賽",
+          "appearances": 11,
+          "goals": 3,
+          "status": "",
+          "notes": "夏季離隊。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 3,
+          "status": "完全轉會",
+          "notes": "1助攻；截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026",
+          "competition": "J1百年構想聯賽（鹿島）",
+          "appearances": 11,
+          "goals": 3,
+          "assists": null,
+          "minutes": null,
+          "as_of": "2026-06-06",
+          "source": "https://www.avispa.co.jp/news/post-87199"
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1（福岡）",
+          "appearances": 7,
+          "goals": 3,
+          "assists": 1,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1637049/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1637049/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡加盟公告",
+          "url": "https://www.avispa.co.jp/news/post-87199",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡官方球員Profile",
+          "url": "https://www.avispa.co.jp/player/fw_morooka_2026-27",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_13",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 25,
+      "name_source": "TVB J1 球員評述主資料庫",
       "verification_status": "verified",
       "verified_at": "2026-09-18"
     },
@@ -4552,7 +3046,334 @@
       "team_slug": "fukuoka",
       "season_start_age": 30,
       "verification_status": "verified",
-      "verified_at": "2026-09-18"
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "15",
+      "name_zh": "辻岡佑真",
+      "name_ja": "辻岡 佑真",
+      "name_en": "Yuma Tsujioka",
+      "position": "DF",
+      "dob": "2001-12-09",
+      "birthplace": "香川縣",
+      "height": 183,
+      "weight": 83,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "いわきFC",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026加盟",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no15_yuma.webp",
+      "official_player_id": "1641019",
+      "intro": "183厘米後衛，環太平洋大學畢業後加入磐城，外借宮崎、北九州累積J3經驗；2025入選J3 Best XI，2026加盟福岡後直接進入J1正選。",
+      "timeline": [
+        {
+          "period": "2023–2025",
+          "team": "磐城／宮崎／北九州",
+          "category": "J2/J3",
+          "milestone": "外借期間成長為J3優秀後衛。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "加盟後成為主力。"
+        }
+      ],
+      "honors": [
+        "2025 J3 Best XI"
+      ],
+      "milestones": [
+        "2023年4月2日J.League首戰。",
+        "2024年9月22日J.League首球。",
+        "2026/27首6戰全正選並入1球。"
+      ],
+      "tactical_traits": [
+        "183厘米後衛。",
+        "可參與後場推進並後上攻門。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "高松工芸高／IPU環太平洋大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "いわきFC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "テゲバジャーロ宮崎",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "ギラヴァンツ北九州",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "J3 Best XI。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "いわきFC",
+          "competition": "J2・J3百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 1,
+          "status": "完全轉會",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 1,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1641019/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1641019/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_15",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 24,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "16",
+      "name_zh": "岡哲平",
+      "name_ja": "岡 哲平",
+      "name_en": "Teppei Oka",
+      "position": "DF",
+      "dob": "2001-09-06",
+      "birthplace": "東京都",
+      "height": 186,
+      "weight": 83,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "FC東京",
+      "registration_status": "本國球員／外借加盟",
+      "registration_tags": [],
+      "tenure_status": "由FC東京外借；租期延長至2027-06-30",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no16_teppei.webp",
+      "official_player_id": "1625427",
+      "intro": "FC東京青訓出身中堅，2019已代表FC東京U-23踢J3，之後升讀明治大學再回母會。2026外借福岡後成為主力後衛。",
+      "timeline": [
+        {
+          "period": "2019",
+          "team": "FC東京U-23",
+          "category": "J3",
+          "milestone": "18場0球。"
+        },
+        {
+          "period": "2020–2023",
+          "team": "明治大學",
+          "category": "大學足球",
+          "milestone": "大學磨練。"
+        },
+        {
+          "period": "2024–2025",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": "回歸母會一隊。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "J1外借",
+          "milestone": "租期至2027年6月。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2019年3月23日J.League首戰。",
+        "2024年7月6日J.League首球。"
+      ],
+      "tactical_traits": [
+        "186厘米中堅。",
+        "高空球與後場推進。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "FC東京U-15深川／U-18",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "FC東京U-23",
+          "competition": "J3",
+          "appearances": 18,
+          "goals": 0,
+          "status": "青訓／一隊登錄",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "明治大",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": 19,
+          "goals": 1,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "status": "外借",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026",
+          "competition": "J1百年構想聯賽",
+          "appearances": 19,
+          "goals": 1,
+          "assists": null,
+          "minutes": null,
+          "as_of": "2026-06-06",
+          "source": "https://www.jleague.jp/player/1625427/"
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1625427/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1625427/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_16",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 24,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     },
     {
       "number": "17",
@@ -4828,11 +3649,340 @@
       "team_slug": "fukuoka",
       "season_start_age": 31,
       "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "18",
+      "name_zh": "佐藤颯之介",
+      "name_ja": "佐藤 颯之介",
+      "name_en": "Sonosuke Sato",
+      "position": "FW",
+      "dob": "2003-07-06",
+      "birthplace": "宮崎縣",
+      "height": 175,
+      "weight": 70,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "宮崎産業経営大",
+      "registration_status": "本國球員／U-21",
+      "registration_tags": [
+        "U21"
+      ],
+      "tenure_status": "效力福岡第2季",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no18_sonosuke.webp",
+      "official_player_id": "1651493",
+      "intro": "宮崎產業經營大學出身前鋒。2025加入福岡並於4月完成J.League首戰；2026/27仍屬U-21發展組。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "Central FC宮崎／鵬翔高／宮崎産業経営大",
+          "category": "學生足球",
+          "milestone": "宮崎本地成長。"
+        },
+        {
+          "period": "2025–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "大學後職業加盟。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2025年4月29日完成J.League首戰。"
+      ],
+      "tactical_traits": [
+        "175厘米前鋒。",
+        "前場跑動與禁區衝擊。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "セントラルFC宮崎Jr／Jr Youth／鵬翔高／宮崎産業経営大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "U-21",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1651493/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1651493/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡2026/27契約更新",
+          "url": "https://www.avispa.co.jp/news/post-87221",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_18",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 23,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
       "verified_at": "2026-09-18"
     },
     {
+      "number": "20",
+      "name_zh": "三國肯尼迪艾布斯",
+      "name_ja": "三國 ケネディエブス",
+      "name_en": "KennedyEgbus Mikuni",
+      "position": "DF",
+      "dob": "2000-06-23",
+      "birthplace": "美國",
+      "height": 193,
+      "weight": 85,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "名古屋グランパス",
+      "registration_status": "本國球員／Home Grown／外借加盟",
+      "registration_tags": [
+        "HG"
+      ],
+      "tenure_status": "2026夏季由名古屋外借回歸福岡",
+      "national_team_detail": "日本U-19、U-20代表；2019 FIFA U-20世界盃日本代表",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no20_kennedy.webp",
+      "official_player_id": "1617705",
+      "intro": "193厘米中堅，青森山田出身。2019在福岡開始職業生涯，曾兩度外借栃木；2024轉投名古屋後於2026夏季外借回到福岡。",
+      "timeline": [
+        {
+          "period": "2019–2023",
+          "team": "福岡／栃木",
+          "category": "J2/J1",
+          "milestone": "福岡職業出道、外借栃木。"
+        },
+        {
+          "period": "2024–2026",
+          "team": "名古屋鯨魚",
+          "category": "J1",
+          "milestone": "2024 Levain Cup冠軍。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "福岡黃蜂",
+          "category": "J1外借",
+          "milestone": "回歸母隊。"
+        }
+      ],
+      "honors": [
+        "2024 YBC Levain Cup冠軍（名古屋）"
+      ],
+      "milestones": [
+        "2019年2月24日J.League首戰。",
+        "2020年7月29日J.League首球。"
+      ],
+      "tactical_traits": [
+        "193厘米中堅，空中戰優勢明顯。",
+        "可利用長腿覆蓋防線身後。"
+      ],
+      "quirky_trivia": "職業生涯由福岡開始，離隊兩年多後於2026再次穿上福岡球衣。",
+      "career": [
+        {
+          "season": null,
+          "team": "青森山田中／高",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "アビスパ福岡",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "升J1。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "名古屋グランパス",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "Levain Cup冠軍。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "名古屋グランパス",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "名古屋グランパス",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "status": "外借",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 174,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1617705/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1617705/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_20",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 26,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
       "number": "21",
-      "name_zh": "奧利奧爾·羅美奧",
+      "name_zh": "奧里奧爾・羅美奧",
       "name_ja": "オリオール ロメウ",
       "name_en": "Oriol Romeu",
       "position": "MF",
@@ -5106,7 +4256,564 @@
       "team_slug": "fukuoka",
       "season_start_age": 34,
       "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "22",
+      "name_zh": "藤本一輝",
+      "name_ja": "藤本 一輝",
+      "name_en": "Kazuki Fujimoto",
+      "position": "FW",
+      "dob": "1998-07-29",
+      "birthplace": "福岡縣",
+      "height": 180,
+      "weight": 70,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "FC町田ゼルビア",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "效力福岡第2季",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no22_fujimoto.webp",
+      "official_player_id": "1630138",
+      "intro": "福岡縣出身的左翼／前鋒。鳥栖U-15後走高校、大學路線，職業初期效力大分，再到町田；2025回到福岡縣加盟Avispa。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "油山カメリア／鳥栖U-15／藤枝明誠高／鹿屋體育大",
+          "category": "學生足球",
+          "milestone": "福岡出生。"
+        },
+        {
+          "period": "2020–2022",
+          "team": "大分三神",
+          "category": "J1/J2",
+          "milestone": "特別指定後正式加盟。"
+        },
+        {
+          "period": "2023–2024",
+          "team": "町田澤維亞",
+          "category": "J2/J1",
+          "milestone": "隨隊升J1。"
+        },
+        {
+          "period": "2025–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "回福岡效力。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2020年7月18日完成J.League首戰。",
+        "2022年4月30日取得J.League首球。"
+      ],
+      "tactical_traits": [
+        "左翼／前鋒。",
+        "直接盤帶與禁區外圍切入。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "油山カメリアFC／鳥栖U-15／藤枝明誠高／鹿屋体育大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "大分トリニータ",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "特別指定",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "大分トリニータ",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "正式加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "大分トリニータ",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "FC町田ゼルビア",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "升J1。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "FC町田ゼルビア",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 5,
+          "goals": 1,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 5,
+          "goals": 1,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1630138/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1630138/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_22",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 28,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
       "verified_at": "2026-09-18"
+    },
+    {
+      "number": "23",
+      "name_zh": "深澤大輝",
+      "name_ja": "深澤 大輝",
+      "name_en": "Daiki Fukazawa",
+      "position": "DF",
+      "dob": "1998-08-21",
+      "birthplace": "東京都",
+      "height": 174,
+      "weight": 70,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "東京ヴェルディ",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026年6月30日完全轉會加盟",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no23_daiki.webp",
+      "official_player_id": "1629919",
+      "intro": "東京綠茵青訓出身邊後衛，中央大學後回到綠茵展開職業生涯。2026夏季完全轉會福岡，開季前6場已交出2次助攻。",
+      "timeline": [
+        {
+          "period": "青訓",
+          "team": "東京綠茵Junior／Youth",
+          "category": "Academy",
+          "milestone": "長期綠茵青訓。"
+        },
+        {
+          "period": "2021–2026",
+          "team": "東京綠茵",
+          "category": "J2/J1",
+          "milestone": "升班後繼續踢J1。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "夏季完全轉會。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2021年5月16日J.League首戰。",
+        "2021年12月5日J.League首球。"
+      ],
+      "tactical_traits": [
+        "邊後衛。",
+        "2026/27前6場2助攻，具前場支援能力。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "東京ヴェルディJunior／Jr Youth／Youth",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "中央大",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "東京ヴェルディ",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "東京ヴェルディ",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "東京ヴェルディ",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "升上J1。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "東京ヴェルディ",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "東京ヴェルディ",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "東京ヴェルディ",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "2助攻；截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "assists": 2,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1629919/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1629919/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_23",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 27,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "24",
+      "name_zh": "小畑裕馬",
+      "name_ja": "小畑 裕馬",
+      "name_en": "Yuma Obata",
+      "position": "GK",
+      "dob": "2001-11-07",
+      "birthplace": "宮城縣",
+      "height": 185,
+      "weight": 80,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "ベガルタ仙台",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "效力福岡第2季",
+      "national_team_detail": "日本U-18、U-22代表經歷",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/gk_26-27_no24_obata.webp",
+      "official_player_id": "1613335",
+      "intro": "仙台青訓出身門將，2020升上一隊，2025轉投福岡。2026/27在9月12日對清水首次聯賽正選。",
+      "timeline": [
+        {
+          "period": "青訓",
+          "team": "仙台青訓",
+          "category": "Academy",
+          "milestone": "由Junior Youth升至Youth。"
+        },
+        {
+          "period": "2020–2024",
+          "team": "仙台維加泰",
+          "category": "J1/J2",
+          "milestone": "職業生涯首站。"
+        },
+        {
+          "period": "2025–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "完全轉會。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2020年7月4日完成J.League首戰。"
+      ],
+      "tactical_traits": [
+        "185厘米門將。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "ベガルタ仙台Jrユース／ユース",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "ベガルタ仙台",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "ベガルタ仙台",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "ベガルタ仙台",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "ベガルタ仙台",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "ベガルタ仙台",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "assists": null,
+          "minutes": 90,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1613335/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1613335/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_24",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 24,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     },
     {
       "number": "25",
@@ -5315,7 +5022,705 @@
       "team_slug": "fukuoka",
       "season_start_age": 26,
       "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "28",
+      "name_zh": "鶴野怜樹",
+      "name_ja": "鶴野 怜樹",
+      "name_en": "Reiju Tsuruno",
+      "position": "FW",
+      "dob": "2001-01-26",
+      "birthplace": "熊本縣",
+      "height": 168,
+      "weight": 62,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2023,
+      "prev_club": "福岡大",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2025外借愛媛後2026回歸",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no28_reiju.webp",
+      "official_player_id": "1633865",
+      "intro": "168厘米快速前鋒／翼鋒，福岡大學出身。大學期間已獲福岡特別指定，2023正式加盟；2025外借愛媛後回歸。",
+      "timeline": [
+        {
+          "period": "學生",
+          "team": "立正大淞南高／福岡大",
+          "category": "學生足球",
+          "milestone": "大學期間特別指定。"
+        },
+        {
+          "period": "2021–2024",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "2023正式加盟。"
+        },
+        {
+          "period": "2025",
+          "team": "愛媛FC",
+          "category": "J2",
+          "milestone": "外借22場1球。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "回歸。"
+        }
+      ],
+      "honors": [
+        "2023 YBC Levain Cup冠軍成員（福岡）"
+      ],
+      "milestones": [
+        "2023年3月19日完成J.League首戰。",
+        "2023年4月29日取得J.League首球。"
+      ],
+      "tactical_traits": [
+        "168厘米低重心前鋒。",
+        "速度與無球跑動。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "立正大淞南高／福岡大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 17,
+          "goals": 1,
+          "status": "正式加盟",
+          "notes": "Levain Cup冠軍。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 12,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "愛媛FC",
+          "competition": "J2",
+          "appearances": 22,
+          "goals": 1,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J2（愛媛）",
+          "appearances": 22,
+          "goals": 1,
+          "assists": null,
+          "minutes": null,
+          "as_of": "2025-12-31",
+          "source": "https://www.jleague.jp/player/1633865/"
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1633865/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1633865/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡2026/27契約更新",
+          "url": "https://www.avispa.co.jp/news/post-87221",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_28",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 25,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
       "verified_at": "2026-09-18"
+    },
+    {
+      "number": "29",
+      "name_zh": "前嶋洋太",
+      "name_ja": "前嶋 洋太",
+      "name_en": "Yota Maejima",
+      "position": "DF",
+      "dob": "1997-08-12",
+      "birthplace": "神奈川縣",
+      "height": 178,
+      "weight": 67,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2022,
+      "prev_club": "横浜FC",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "效力福岡第5季",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no29_maejima.webp",
+      "official_player_id": "1600179",
+      "intro": "橫濱FC青訓出身右路球員，可踢右閘或翼衛。經富山、水戶累積經驗後加盟福岡，是邊路高工作率球員。",
+      "timeline": [
+        {
+          "period": "2016–2021",
+          "team": "橫濱FC／富山／水戶",
+          "category": "J2/J3",
+          "milestone": "外借與轉會累積經驗。"
+        },
+        {
+          "period": "2022–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "長期右路成員。"
+        }
+      ],
+      "honors": [
+        "2023 YBC Levain Cup冠軍（福岡）"
+      ],
+      "milestones": [
+        "2017年3月25日J.League首戰。",
+        "2018年6月9日J.League首球。"
+      ],
+      "tactical_traits": [
+        "右閘／翼衛。",
+        "邊路推進及傳中。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "横浜FC Jr Youth／Youth",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2016",
+          "team": "横浜FC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2017",
+          "team": "横浜FC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2018",
+          "team": "カターレ富山",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "カターレ富山",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "横浜FC",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "水戸ホーリーホック",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "Levain Cup冠軍。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "status": "現役",
+          "notes": "1助攻；截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "assists": 1,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1600179/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1600179/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_29",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 28,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "32",
+      "name_zh": "辛尼布朗・哈南",
+      "name_ja": "サニブラウン ハナン",
+      "name_en": "Abdul Hanan Sani Brown",
+      "position": "FW",
+      "dob": "2006-07-03",
+      "birthplace": "東京都",
+      "height": 187,
+      "weight": 80,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "福岡U-18",
+      "registration_status": "本國球員／Home Grown／U-21",
+      "registration_tags": [
+        "HG",
+        "U21"
+      ],
+      "tenure_status": "福岡Academy出身；職業第2季",
+      "national_team_detail": "日本U-18代表經歷",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/07/fw_26-27_no32_sani-index.webp",
+      "official_player_id": "1650538",
+      "intro": "187厘米Academy前鋒。Soltilo Chiba後加入福岡U-18，2025升上一隊；同年9月J.League首戰即取得首球。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "江東FRIENDLY／Soltilo Chiba／福岡U-18",
+          "category": "青訓",
+          "milestone": "福岡Academy後期培養。"
+        },
+        {
+          "period": "2025–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "U-21前鋒。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2025年9月27日J.League首戰同場取得首球。"
+      ],
+      "tactical_traits": [
+        "187厘米中鋒。",
+        "長身材配合身後跑動。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "江東FRIENDLY FC／Soltilo Chiba／福岡U-18",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "首戰首球。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "status": "U-21",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1650538/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1650538/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_32",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 20,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "number": "33",
+      "name_zh": "山脇樺織",
+      "name_ja": "山脇 樺織",
+      "name_en": "Kaoru Yamawaki",
+      "position": "DF",
+      "dob": "2000-12-17",
+      "birthplace": "東京都",
+      "height": 179,
+      "weight": 71,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "ギラヴァンツ北九州",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026加盟",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no33_kaoru.webp",
+      "official_player_id": "1640642",
+      "intro": "同志社大學出身後衛，北九州踢了三季，2025獲J3優秀選手獎後升上J1加盟福岡。",
+      "timeline": [
+        {
+          "period": "大學",
+          "team": "同志社大學",
+          "category": "大學足球",
+          "milestone": "其後加盟北九州。"
+        },
+        {
+          "period": "2023–2025",
+          "team": "北九州向日葵",
+          "category": "J3",
+          "milestone": "2025優秀選手獎。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "加盟J1。"
+        }
+      ],
+      "honors": [
+        "2025 J3優秀選手獎"
+      ],
+      "milestones": [
+        "2023年4月15日J.League首戰。",
+        "2024年7月6日J.League首球。"
+      ],
+      "tactical_traits": [
+        "右路／中堅防守。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "関東第一高／同志社大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "ギラヴァンツ北九州",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "ギラヴァンツ北九州",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "ギラヴァンツ北九州",
+          "competition": "J3",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "J3優秀選手獎。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 13,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1640642/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1640642/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_33",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 25,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     },
     {
       "number": "34",
@@ -5565,7 +5970,661 @@
       "team_slug": "fukuoka",
       "season_start_age": 29,
       "verification_status": "verified",
-      "verified_at": "2026-09-18"
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "37",
+      "name_zh": "田代雅也",
+      "name_ja": "田代 雅也",
+      "name_en": "Masaya Tashiro",
+      "position": "DF",
+      "dob": "1993-05-01",
+      "birthplace": "埼玉縣",
+      "height": 185,
+      "weight": 80,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2023,
+      "prev_club": "サガン鳥栖",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "效力福岡第4季",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no37_tashiro.webp",
+      "official_player_id": "1600197",
+      "intro": "185厘米中堅，法政大學後由FC岐阜開始職業生涯，經栃木、鳥栖後加盟福岡。以空中球和禁區防守見長。",
+      "timeline": [
+        {
+          "period": "2016–2019",
+          "team": "FC岐阜",
+          "category": "J2",
+          "milestone": "職業生涯起點。"
+        },
+        {
+          "period": "2020–2022",
+          "team": "栃木／鳥栖",
+          "category": "J2/J1",
+          "milestone": "升上J1。"
+        },
+        {
+          "period": "2023–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "參與2023盃賽冠軍年代。"
+        }
+      ],
+      "honors": [
+        "2023 YBC Levain Cup冠軍（福岡）"
+      ],
+      "milestones": [
+        "2016年3月6日J.League首戰。",
+        "2016年6月26日J.League首球。"
+      ],
+      "tactical_traits": [
+        "185厘米中堅。",
+        "空中球和禁區防守。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "武南高／法政大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2016",
+          "team": "FC岐阜",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2017",
+          "team": "FC岐阜",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2018",
+          "team": "FC岐阜",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "FC岐阜",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "Levain Cup冠軍。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 270,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1600197/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1600197/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_37",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 33,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "38",
+      "name_zh": "宮大樹",
+      "name_ja": "宮 大樹",
+      "name_en": "Daiki Miya",
+      "position": "DF",
+      "dob": "1996-04-01",
+      "birthplace": "大阪府",
+      "height": 186,
+      "weight": 82,
+      "nationality": "日本",
+      "foot": "左腳",
+      "joined": 2026,
+      "prev_club": "名古屋グランパス",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026回歸福岡",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no38_daiki.webp",
+      "official_player_id": "1604991",
+      "intro": "186厘米左腳中堅，琵琶湖成蹊Sports大學出身。2021至2024曾長期效力福岡，2025轉投名古屋並外借札幌，2026再次回歸。",
+      "timeline": [
+        {
+          "period": "2018–2020",
+          "team": "神戶／水戶／鳥栖",
+          "category": "J1/J2",
+          "milestone": "職業初期。"
+        },
+        {
+          "period": "2021–2024",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "四季主力中堅。"
+        },
+        {
+          "period": "2025",
+          "team": "名古屋／札幌",
+          "category": "J1/J2",
+          "milestone": "離隊一年。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "回歸。"
+        }
+      ],
+      "honors": [
+        "2023 YBC Levain Cup冠軍（福岡）"
+      ],
+      "milestones": [
+        "2018年4月11日J.League首戰。",
+        "2019年10月6日J.League首球。"
+      ],
+      "tactical_traits": [
+        "左腳中堅。",
+        "186厘米高空球與正面防守。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "清明学院高／びわこ成蹊スポーツ大",
+          "competition": "學生足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2018",
+          "team": "ヴィッセル神戸",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "ヴィッセル神戸",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "季中外借水戶。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "水戸ホーリーホック",
+          "competition": "J2",
+          "appearances": 12,
+          "goals": 2,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 14,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "Levain Cup冠軍。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "名古屋グランパス",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "北海道コンサドーレ札幌",
+          "competition": "J2",
+          "appearances": 9,
+          "goals": 0,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1604991/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1604991/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡2026/27契約更新",
+          "url": "https://www.avispa.co.jp/news/post-87221",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_38",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 30,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "41",
+      "name_zh": "藤田和輝",
+      "name_ja": "藤田 和輝",
+      "name_en": "Kazuki Fujita",
+      "position": "GK",
+      "dob": "2001-02-19",
+      "birthplace": "新潟縣",
+      "height": 186,
+      "weight": 85,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "アルビレックス新潟",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026/27加盟",
+      "national_team_detail": "日本各級青年代表經歷",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/gk_26-27_no41_fujita.webp",
+      "official_player_id": "1621166",
+      "intro": "新潟青訓出身門將，先後外借栃木及千葉累積一隊經驗，2026/27轉投福岡。",
+      "timeline": [
+        {
+          "period": "青訓",
+          "team": "新潟U-12／U-15／U-18",
+          "category": "Academy",
+          "milestone": "一路由新潟青訓升上一隊。"
+        },
+        {
+          "period": "2019–2025",
+          "team": "新潟／栃木／千葉",
+          "category": "J1/J2",
+          "milestone": "以多次外借累積門將比賽時間。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "加盟福岡。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2020年6月27日完成J.League首戰。"
+      ],
+      "tactical_traits": [
+        "186厘米門將。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "アルビレックス新潟U-12／U-15／U-18",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "アルビレックス新潟",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "アルビレックス新潟",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "アルビレックス新潟",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "ジェフユナイテッド千葉",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アルビレックス新潟",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "截至2026-09-18。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "assists": null,
+          "minutes": 180,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1621166/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1621166/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_41",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 25,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     },
     {
       "number": "46",
@@ -5679,6 +6738,291 @@
       "team_slug": "fukuoka",
       "season_start_age": 19,
       "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "47",
+      "name_zh": "橋本悠",
+      "name_ja": "橋本 悠",
+      "name_en": "Yu Hashimoto",
+      "position": "DF",
+      "dob": "2002-06-07",
+      "birthplace": "佐賀縣",
+      "height": 171,
+      "weight": 64,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "福岡大",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026/27副隊長",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no47_hashimoto.webp",
+      "official_player_id": "1646125",
+      "intro": "鳥栖青訓、福岡大學出身的右路球員。2025加盟後快速取得J1出場，2026百年構想聯賽獲Playoff Round Player of the Match，2026/27升任副隊長。",
+      "timeline": [
+        {
+          "period": "青訓",
+          "team": "鳥栖U-12／U-15／U-18",
+          "category": "Academy",
+          "milestone": "鳥栖青訓。"
+        },
+        {
+          "period": "2021–2024",
+          "team": "福岡大學",
+          "category": "大學足球",
+          "milestone": "留在九州發展。"
+        },
+        {
+          "period": "2025–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "一隊右路主力。"
+        }
+      ],
+      "honors": [
+        "2026 J1百年構想聯賽Playoff Round Player of the Match"
+      ],
+      "milestones": [
+        "2025年3月15日J.League首戰。",
+        "2026/27出任副隊長。"
+      ],
+      "tactical_traits": [
+        "右路高強度跑動。",
+        "2026/27前7輪101次衝刺為隊內最高。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "サガン鳥栖U-12／U-15／U-18",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "福岡大",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "Playoff Round Player of the Match。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 0,
+          "status": "副隊長",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 0,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1646125/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1646125/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡官方隊長公告",
+          "url": "https://www.avispa.co.jp/news/post-88933",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_47",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 24,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "49",
+      "name_zh": "前田一翔",
+      "name_ja": "前田 一翔",
+      "name_en": "Ichika Maeda",
+      "position": "FW",
+      "dob": "2006-06-16",
+      "birthplace": "福岡縣",
+      "height": 175,
+      "weight": 76,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "福岡U-18",
+      "registration_status": "本國球員／Home Grown／U-21",
+      "registration_tags": [
+        "HG",
+        "U21"
+      ],
+      "tenure_status": "福岡Academy出身；2026上半年外借富山後回歸",
+      "national_team_detail": "",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no49_ichika.webp",
+      "official_player_id": "1641374",
+      "intro": "福岡Academy出身前鋒，2025升一隊並完成J.League首戰。2026百年構想聯賽期間外借富山累積實戰，2026/27回到福岡。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "ZYG FC／Leuven福岡／福岡U-18",
+          "category": "青訓",
+          "milestone": "福岡縣內成長。"
+        },
+        {
+          "period": "2025",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "升上一隊。"
+        },
+        {
+          "period": "2026",
+          "team": "富山勝利",
+          "category": "J2/J3百年構想",
+          "milestone": "外借。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "回歸。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2025年5月24日完成J.League首戰。"
+      ],
+      "tactical_traits": [
+        "前鋒。",
+        "身體對抗與禁區跑位。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "ZYG FC／ルーヴェン福岡／福岡U-18",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "カターレ富山",
+          "competition": "J2・J3百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "回歸／U-21",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1641374/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1641374/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_49",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 20,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
       "verified_at": "2026-09-18"
     },
     {
@@ -5786,7 +7130,804 @@
       "team_slug": "fukuoka",
       "season_start_age": 18,
       "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "53",
+      "name_zh": "前田陽輝",
+      "name_ja": "前田 陽輝",
+      "name_en": "Hikaru Maeda",
+      "position": "FW",
+      "dob": "2008-10-25",
+      "birthplace": "福岡縣",
+      "height": 176,
+      "weight": 71,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2025,
+      "prev_club": "福岡U-18",
+      "registration_status": "二種註冊→一隊／Home Grown／U-21",
+      "registration_tags": [
+        "HG",
+        "U21"
+      ],
+      "tenure_status": "福岡Academy出身；2025已完成J1首戰",
+      "national_team_detail": "日本青年代表經歷",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/fw_26-27_no53_hikaru.webp",
+      "official_player_id": "1651799",
+      "intro": "2008年出生的福岡Academy前鋒。由美和台JSC、CA Granrossa進入球會青訓，2025年12月已完成J.League首戰；2026/27仍屬U-21發展組。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "美和台JSC／CA Granrossa／福岡Academy",
+          "category": "青訓",
+          "milestone": "福岡本地成長。"
+        },
+        {
+          "period": "2025–",
+          "team": "福岡黃蜂",
+          "category": "一隊",
+          "milestone": "16、17歲階段已進入一隊。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2025年12月6日完成J.League首戰。"
+      ],
+      "tactical_traits": [
+        "前鋒。",
+        "青年階段已具一隊比賽經驗。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "美和台JSC／CA Granrossa／福岡Academy",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種註冊",
+          "notes": "完成J.League首戰。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "U-21",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1651799/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1651799/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_53",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 17,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
       "verified_at": "2026-09-18"
+    },
+    {
+      "number": "55",
+      "name_zh": "前田快",
+      "name_ja": "前田 快",
+      "name_en": "Kokoro Maeda",
+      "position": "MF",
+      "dob": "2004-07-01",
+      "birthplace": "京都府",
+      "height": 178,
+      "weight": 72,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "神奈川大",
+      "registration_status": "JFA・J.League特別指定／U-21",
+      "registration_tags": [
+        "特別指定",
+        "U21"
+      ],
+      "tenure_status": "神奈川大學在學；2027正式加盟內定",
+      "national_team_detail": "",
+      "player_image": "",
+      "official_player_id": "1653372",
+      "intro": "神奈川大學在學的防守中場。京都Sanga U-15出身，2027正式加盟福岡已內定；2026以特別指定身份即進入J1正選陣容。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "京都葵FC／京都Sanga Jr Youth／大手前高松高",
+          "category": "育成",
+          "milestone": "京都青訓背景。"
+        },
+        {
+          "period": "2023–",
+          "team": "神奈川大學",
+          "category": "大學足球",
+          "milestone": "大學主力。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "特別指定",
+          "milestone": "2027正式加盟內定。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2026年2月獲JFA・J.League特別指定。",
+        "2026/27前6輪已全部上陣。"
+      ],
+      "tactical_traits": [
+        "防守中場。",
+        "大學球員身份已能在J1中場承擔正選角色。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "特別指定",
+          "notes": "神奈川大學所屬。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "神奈川大學所屬；截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "assists": 0,
+          "minutes": null,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1653372/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1653372/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡特別指定公告",
+          "url": "https://www.avispa.co.jp/news/post-84099",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_55",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 22,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "number": "56",
+      "name_zh": "坂井悠飛",
+      "name_ja": "坂井 悠飛",
+      "name_en": "Yuhi Sakai",
+      "position": "DF",
+      "dob": "2004-10-05",
+      "birthplace": "兵庫縣",
+      "height": 180,
+      "weight": 77,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "福岡大",
+      "registration_status": "JFA・J.League特別指定／U-21",
+      "registration_tags": [
+        "特別指定",
+        "U21"
+      ],
+      "tenure_status": "福岡大學在學；2027正式加盟內定",
+      "national_team_detail": "",
+      "player_image": "",
+      "official_player_id": "1656014",
+      "intro": "福岡大學在學後衛。長洲SC、伊丹FC、立正大淞南高校出身；2027正式加盟已內定，2026/27以特別指定身份註冊。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "長洲SC／伊丹FC／立正大淞南高",
+          "category": "育成",
+          "milestone": "兵庫至島根的育成路線。"
+        },
+        {
+          "period": "大學",
+          "team": "福岡大學",
+          "category": "大學足球",
+          "milestone": "福岡本地大學。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "特別指定",
+          "milestone": "2027正式加盟內定。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2026年2月首次獲特別指定；2026/27再獲特別指定承認。"
+      ],
+      "tactical_traits": [
+        "180厘米後衛。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "福岡大學所屬。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "福岡大學所屬；截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1656014/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1656014/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡2026/27特別指定公告",
+          "url": "https://www.avispa.co.jp/news/post-88415",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡2026特別指定公告",
+          "url": "https://www.avispa.co.jp/news/post-84099",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_56",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 21,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "number": "57",
+      "name_zh": "北濱琉星",
+      "name_ja": "北浜 琉星",
+      "name_en": "Ryusei Kitahama",
+      "position": "FW",
+      "dob": "2004-07-15",
+      "birthplace": "福岡縣福岡市",
+      "height": 180,
+      "weight": 75,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "中央大",
+      "registration_status": "JFA・J.League特別指定／Home Grown／U-21",
+      "registration_tags": [
+        "特別指定",
+        "HG",
+        "U21"
+      ],
+      "tenure_status": "中央大學在學；2027正式加盟內定",
+      "national_team_detail": "",
+      "player_image": "",
+      "official_player_id": "1641620",
+      "intro": "福岡Academy出身、中央大學在學前鋒。長住SSCから福岡U-15、U-18を経て大學へ進み、2027正式回歸母會已內定；2026先以特別指定身份註冊。",
+      "timeline": [
+        {
+          "period": "Academy",
+          "team": "長住SSC／福岡U-15／U-18",
+          "category": "青訓",
+          "milestone": "福岡本地Academy。"
+        },
+        {
+          "period": "大學",
+          "team": "中央大學",
+          "category": "大學足球",
+          "milestone": "大學階段持續發展。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "特別指定",
+          "milestone": "2027正式回歸內定。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2026年2月獲JFA・J.League特別指定。"
+      ],
+      "tactical_traits": [
+        "180厘米前鋒。",
+        "熟悉福岡Academy體系。"
+      ],
+      "quirky_trivia": "由福岡U-15、U-18離隊升學後，將於2027以大學新卒身份正式回到母會。",
+      "career": [
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "中央大學所屬。",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "中央大學所屬；截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1641620/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1641620/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡特別指定公告",
+          "url": "https://www.avispa.co.jp/news/post-84415",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_57",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 22,
+      "name_source": "TVB J1 球員評述主資料庫",
+      "verification_status": "verified",
+      "verified_at": "2026-09-18"
+    },
+    {
+      "number": "58",
+      "name_zh": "藤川虎三",
+      "name_ja": "藤川 虎三",
+      "name_en": "Takezo Fujikawa",
+      "position": "DF",
+      "dob": "2008-07-29",
+      "birthplace": "福岡縣",
+      "height": 183,
+      "weight": 82,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "福岡U-18",
+      "registration_status": "二種註冊→職業合約／Home Grown／U-21",
+      "registration_tags": [
+        "HG",
+        "U21"
+      ],
+      "tenure_status": "福岡U-18在籍；2026年6月30日簽職業合約",
+      "national_team_detail": "日本U-17代表",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/df_26-27_no58_fujikawa.webp",
+      "official_player_id": "1656040",
+      "intro": "福岡Academy出身的183厘米青年後衛。守備強度與頭槌是本人公開列出的主要武器；2026先以二種註冊參與一隊，6月30日簽職業合約。",
+      "timeline": [
+        {
+          "period": "Academy",
+          "team": "福岡U-12／U-15／U-18",
+          "category": "青訓",
+          "milestone": "本地Academy成長。"
+        },
+        {
+          "period": "2026–",
+          "team": "福岡黃蜂",
+          "category": "二種註冊／職業",
+          "milestone": "17歲簽職業合約。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2025、2026獲日本U-17及J.League選拔相關徵召。",
+        "2026年6月30日簽職業合約。"
+      ],
+      "tactical_traits": [
+        "本人把守備強度和頭槌高度列為主要武器。"
+      ],
+      "quirky_trivia": "仍就讀九州產業大學附屬九州高校，同時進入職業一隊環境。",
+      "career": [
+        {
+          "season": null,
+          "team": "ACファルベン／福岡U-12／U-15／U-18",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "二種註冊→職業合約",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業／U-21",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1656040/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1656040/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡Academy日本U-17選出",
+          "url": "https://www.avispa.co.jp/academy/post-83852",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_58",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 18,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
+    },
+    {
+      "number": "99",
+      "name_zh": "奧比・鮑維爾・奧賓拿",
+      "name_ja": "オビ パウエル オビンナ",
+      "name_en": "Powell Obinna Obi",
+      "position": "GK",
+      "dob": "1997-12-18",
+      "birthplace": "埼玉縣",
+      "height": 193,
+      "weight": 87,
+      "nationality": "日本",
+      "foot": "右腳",
+      "joined": 2026,
+      "prev_club": "ヴィッセル神戸",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026加盟",
+      "national_team_detail": "日本U-16、U-17、U-20、U-23代表經歷",
+      "player_image": "https://www.avispa.co.jp/wp-content/uploads/2026/06/gk_26-27_no99_obi.webp",
+      "official_player_id": "1615528",
+      "intro": "193厘米門將，JFA Academy福島及流通經濟大學出身。橫濱水手簽下後曾兩度外借栃木，2024轉投神戶，2026加盟福岡。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "JFA Academy福島",
+          "category": "青訓",
+          "milestone": "U-15至U-18。"
+        },
+        {
+          "period": "2016–2019",
+          "team": "流通經濟大學",
+          "category": "大學足球",
+          "milestone": "其後加盟橫濱水手。"
+        },
+        {
+          "period": "2019–2025",
+          "team": "橫濱水手／栃木／神戶",
+          "category": "J1/J2",
+          "milestone": "職業門將歷練。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2020年9月6日完成J.League首戰。"
+      ],
+      "tactical_traits": [
+        "193厘米高大門將。"
+      ],
+      "quirky_trivia": "",
+      "career": [
+        {
+          "season": null,
+          "team": "JFAアカデミー福島U-15／U-18",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": null,
+          "team": "流通経済大",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2019",
+          "team": "横浜F・マリノス",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2020",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2021",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2022",
+          "team": "横浜F・マリノス",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2023",
+          "team": "横浜F・マリノス",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2024",
+          "team": "ヴィッセル神戸",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2025",
+          "team": "ヴィッセル神戸",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026",
+          "team": "アビスパ福岡",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": []
+        },
+        {
+          "season": "2026/27",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-09-17。",
+          "verification_status": "verified",
+          "sources": []
+        }
+      ],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "assists": null,
+          "minutes": 0,
+          "as_of": "2026-09-17",
+          "source": "https://www.jleague.jp/player/1615528/"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League官方球員檔案",
+          "url": "https://www.jleague.jp/player/1615528/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "福岡黃蜂官方2026/27名單",
+          "url": "https://www.avispa.co.jp/team/topteam",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "id": "fukuoka_99",
+      "club": "福岡黃蜂",
+      "team_slug": "fukuoka",
+      "season_start_age": 28,
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "name_source": "TVB J1 球員評述主資料庫"
     }
   ]
 }
