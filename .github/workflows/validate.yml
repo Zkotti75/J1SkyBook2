@@ -23,3 +23,5 @@ jobs:
       - run: node scripts/validate-data.mjs --strict --club=machida
       - run: node scripts/validate-data.mjs --strict --club=fc-tokyo
       - run: node scripts/validate-data.mjs --strict --club=chiba
+      - run: node scripts/validate-data.mjs --strict --club=cerezo-osaka
+      - run: node scripts/validate-data.mjs --strict --club=gamba-osaka
