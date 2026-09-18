@@ -1,133 +1,447 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T18:17:03.934Z",
+  "generated_at": "2026-09-19T10:05:00+09:00",
   "team": {
     "id": "team_kashima",
     "type": "team_info",
-    "club": "鹿島鹿角",
-    "club_en": "Kashima Antlers",
-    "logo_url": "logos/japan_kashima-antlers.football-logos.cc.svg",
-    "hometown": "茨城縣鹿嶋市、潮來市、神栖市、行方市、鉾田市",
-    "hometown_population": "270,000人",
-    "name_history": "「Antlers」為英文「鹿角」之意，源自主場所在地鹿嶋市的「鹿」以及歷史悠久的鹿島神宮。鹿角象徵強悍的武器與堅韌的生命力，隊徽設計融合鹿角形狀與王冠意象。",
-    "stadium_info": {
-      "name": "茨城縣立鹿島足球場（茨城県立カシマサッカースタジアム）",
-      "year_built": 1993,
-      "year_renovated": 2001,
-      "capacity": 40728,
-      "geo_location": "茨城縣鹿嶋市神向寺（北緯35.9924°，東經140.6403°）",
-      "interesting_facts": [
-        "2002年韓日世界盃與 2020 東京奧運男/女足賽事專用場館之一。",
-        "全日本首座專用足球場之一，以極度濃烈的主場狂熱氛圍與「鹿島常勝魂」著稱。",
-        "球場美食著名的「鹿島烤內臟（モツ煮）」為 J 聯賽球迷公認的全日本第一名球場美食。"
-      ]
-    },
-    "team_history": "前身為1947年成立的住友金屬工業蹴球團，1993年 J 聯賽創始創始十家球會（Original 10）之一。在傳奇球星薛高的建隊理念下，創下奪得 8 次 J1 聯賽冠軍、合計 20 座各項賽事金杯的「常勝軍團」傳奇紀錄。",
-    "performance_history": [
-      "8次 J1 聯賽冠軍 (1996, 1998, 2000, 2001, 2007, 2008, 2009, 2016)",
-      "5次 天皇盃冠軍 (1997, 2000, 2007, 2010, 2016)",
-      "6次 J.League 聯賽盃冠軍 (1997, 2000, 2002, 2011, 2012, 2015)",
-      "1次 亞冠盃（ACL）冠軍 (2018)"
-    ],
     "slug": "kashima",
     "data_key": "鹿島鹿角",
     "name_zh": "鹿島鹿角",
     "name_ja": "鹿島アントラーズ",
     "name_en": "Kashima Antlers",
+    "club": "鹿島鹿角",
+    "club_en": "Kashima Antlers",
+    "logo_url": "logos/japan_kashima-antlers.football-logos.cc.svg",
     "colors": {
       "bg": "#b8193f",
-      "text": "#ffffff"
+      "text": "#fff"
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "legacy_unverified",
-    "sources": []
+    "roster_as_of": "2026-09-19",
+    "data_status": "verified",
+    "established": 1991,
+    "roots": "前身住友金屬工業蹴球團；1991職業化建隊，1993成為J.League Original 10。Zico的建隊理念長期塑造『常勝軍團』文化。",
+    "corporation": "株式会社鹿島アントラーズ・エフ・シー",
+    "club_color": "Antlers Red／Navy",
+    "hometown": "鹿嶋市、潮來市、神栖市、行方市、鉾田市",
+    "name_history": "Antlers即鹿角，呼應鹿嶋地名與鹿島神宮的鹿；亦象徵鹿角作為戰鬥武器。",
+    "stadium_info": {
+      "name": "メルカリスタジアム",
+      "name_zh": "Mercari Stadium",
+      "capacity": 39095,
+      "jleague_match_capacity": 39095,
+      "address": "茨城県鹿嶋市神向寺後山26-2",
+      "interesting_facts": [
+        "日本早期專用足球場代表之一。",
+        "2026/27起使用Mercari Stadium名稱；J.League現行容量39,095。"
+      ]
+    },
+    "team_history": "Original 10中最成功球會之一。1996首奪J1，2000完成聯賽、League Cup、天皇盃三冠；2007–09三連霸，2018奪ACL。鬼木達2025回到球員生涯起點，首季即拿下球會第9次J1冠軍。",
+    "history_timeline": [
+      {
+        "year": "1993",
+        "event": "Original 10；Zico成為建隊象徵。"
+      },
+      {
+        "year": "1996",
+        "event": "首奪J1。"
+      },
+      {
+        "year": "2000",
+        "event": "本土三冠。"
+      },
+      {
+        "year": "2007",
+        "event": "展開J1三連霸。"
+      },
+      {
+        "year": "2016",
+        "event": "第8次J1冠軍。"
+      },
+      {
+        "year": "2018",
+        "event": "ACL冠軍。"
+      },
+      {
+        "year": "2025",
+        "event": "鬼木達首季執教，第9次J1冠軍。"
+      }
+    ],
+    "performance_history": [
+      "J1冠軍9次（1996、1998、2000、2001、2007、2008、2009、2016、2025）",
+      "J.League Cup冠軍6次",
+      "天皇盃冠軍5次",
+      "ACL冠軍1次（2018）"
+    ],
+    "recent_seasons": [
+      {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "冠軍"
+      },
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第8（4勝0和3負；截至9/17）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "J1",
+      "manager": "鬼木達",
+      "matches": 7,
+      "wins": 4,
+      "draws": 0,
+      "losses": 3,
+      "points": 12,
+      "goals_for": 14,
+      "goals_against": 13,
+      "goal_difference": 1,
+      "rank": 8,
+      "as_of": "2026-09-17"
+    },
+    "leadership": {
+      "captain": "柴崎岳",
+      "note": "2026/27官方隊長；其餘領袖不在未核對下推定。"
+    },
+    "roster_notes": [
+      "Current registered pool 38人，包含8月21日7名Youth二種登錄。",
+      "濃野公人7月末完全轉會D.C. United，已移除。",
+      "7月20日加入Yan Matheus、廣瀨陸斗。",
+      "9月16日#19大森渚生由水戶完全加盟。",
+      "#42大貫琉偉、#43福岡勇和、#44平島大悟雖已確定2027年1月正式升格，現階段仍按2026/27 Youth二種身份標示。"
+    ],
+    "commentary_notes": [
+      "前7輪Léo Ceará 8球；小川諒也2助攻；三竿健斗17次duel won。",
+      "松村優太121次衝刺與35.1km/h最高速雙料第一。",
+      "開季4連勝後連輸水戶、浦和、神戶，9/15 ACL Elite 7–1大勝Newcastle Jets即時反彈。"
+    ],
+    "sources": [
+      {
+        "label": "鹿島官方Top Team名單",
+        "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "鹿島Youth二種公告",
+        "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "J.League鹿島",
+        "url": "https://www.jleague.jp/club/kashima/",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verified_at": "2026-09-19",
+    "naming_policy": {
+      "japanese_clubs": "繁中",
+      "japanese_schools": "繁中",
+      "foreign_clubs_and_leagues": "English",
+      "player_display_names": "TVB優先；新登錄用官方名。"
+    }
   },
   "manager": {
-    "id": "jleague_kashima_hc",
+    "id": "kashima_mgr_oniki",
     "club": "鹿島鹿角",
     "number": "HC",
-    "name_zh": "鬼木 達",
+    "name_zh": "鬼木達",
+    "name_ja": "鬼木 達",
     "name_en": "Toru Oniki",
     "position": "MANAGER",
     "dob": "1974-04-20",
-    "age": 52,
-    "height": 178,
-    "weight": 72,
-    "foot": "右腳",
+    "season_start_age": 52,
+    "birthplace": "千葉縣",
     "nationality": "日本",
+    "height": null,
+    "weight": null,
+    "foot": "",
     "joined": 2025,
     "prev_club": "川崎前鋒",
-    "registration_status": "總教練",
-    "tenure_status": "執教第2季",
-    "national_team_detail": "無",
-    "intro": "J 聯賽歷史級功勳名帥，曾率川崎前鋒勇奪 4 次 J1 聯賽冠軍，打造全日本最具壓迫感的傳控攻勢王朝。",
+    "registration_status": "監督",
+    "registration_tags": [],
+    "tenure_status": "2025起執教",
+    "license": "",
+    "national_team_detail": "",
+    "intro": "球員年代1993已在鹿島展開職業生涯，教練年代則在川崎建立王朝。2017升任川崎監督後四奪J1，2025回到職業起點鹿島並首季奪得2025 J1冠軍。",
     "timeline": [
+      {
+        "period": "2007–2016",
+        "team": "川崎前鋒",
+        "category": "育成／一隊Coach",
+        "milestone": "由U-12、U-18逐步進入Top Team。"
+      },
       {
         "period": "2017–2024",
         "team": "川崎前鋒",
-        "category": "J1職業隊",
-        "milestone": "執教川崎 8 季勇奪 4 次 J1 聯賽冠軍、2 次天皇盃冠軍與 1 次聯賽盃冠軍"
+        "category": "監督",
+        "milestone": "四奪J1，建立高壓傳控王朝。"
       },
       {
-        "period": "2025–至今",
+        "period": "2025–",
         "team": "鹿島鹿角",
-        "category": "J1職業隊",
-        "milestone": "2025年執掌鹿島鹿角教鞭，重塑常勝軍團體系"
+        "category": "監督",
+        "milestone": "2025 J1冠軍；2026/27續任。"
       }
     ],
     "honors": [
-      "4次 J1 聯賽年度最佳監督 / Manager of the Year (2017, 2018, 2020, 2021)",
-      "4次 J1 聯賽冠軍 (2017, 2018, 2020, 2021 [川崎前鋒])",
-      "2次 天皇盃冠軍 (2020, 2023 [川崎前鋒])"
+      "J1冠軍：2017、2018、2020、2021（川崎前鋒）、2025（鹿島鹿角）",
+      "天皇盃冠軍：2020、2023（川崎前鋒）",
+      "J.League Cup冠軍：2019（川崎前鋒）"
     ],
     "milestones": [
-      "J 聯賽歷史上奪得 J1 冠軍次數最多的日籍總教練"
+      "2025回鹿島首季奪J1，球會第9次聯賽冠軍。",
+      "2026百年構想聯賽J1 EAST優秀監督獎。",
+      "2026/27前7輪4勝0和3負、第8。"
     ],
     "tactical_traits": [
-      "極致攻守兼備體系",
-      "高位逼搶與快節奏推進"
+      "以主動控球配合高位逼搶；前7輪平均控球56.4%、每場約593次傳球。",
+      "前鋒鈴木優磨、Léo Ceará也必須參與無球壓迫，令球隊不是純技術型possession。",
+      "邊路靠小川、松村的高跑動與速度拉開場地；中場三竿負責duel與平衡。"
     ],
-    "quirky_trivia": "球員時期曾效力鹿島鹿角，作為教練重返母會執教被視為鹿島重奪冠軍的最佳掌舵人。",
-    "legacy_id": "jleague_kashima_hc",
-    "official_player_id": null,
-    "team_slug": "kashima",
-    "name_ja": "",
-    "birthplace": "",
-    "season_start_age": 52,
-    "player_image": "",
+    "quirky_trivia": "他是1993 J.League元年鹿島球員，三十多年後以監督身份回到同一球會並在2025奪冠，『球員起點→冠軍監督』故事完整。",
     "career": [
       {
-        "season": "2017–2024",
-        "team": "川崎前鋒",
-        "competition": "J1職業隊",
+        "season": null,
+        "team": "川崎前鋒Academy",
+        "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "執教川崎 8 季勇奪 4 次 J1 聯賽冠軍、2 次天皇盃冠軍與 1 次聯賽盃冠軍",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Coach",
+        "notes": "2007–09育成教練。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       },
       {
-        "season": "2025–至今",
-        "team": "鹿島鹿角",
-        "competition": "J1職業隊",
+        "season": null,
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "2025年執掌鹿島鹿角教鞭，重塑常勝軍團體系",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Top Team Coach",
+        "notes": "2010–16。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2017",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2018",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2019",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J.League Cup冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2020",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1＋天皇盃。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2021",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2022",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2023",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "天皇盃冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2024",
+        "team": "川崎前鋒",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "team": "鹿島鹿角",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "team": "鹿島鹿角",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "百年構想聯賽。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "鹿島鹿角",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1／ACL Elite。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "鬼木達就任公告",
+            "url": "https://www.antlers.co.jp/blogs/news/104318",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       }
     ],
-    "sources": [],
-    "verification_status": "legacy_unverified",
-    "verified_at": null
+    "sources": [
+      {
+        "label": "鬼木達就任公告",
+        "url": "https://www.antlers.co.jp/blogs/news/104318",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "鹿島2026/27 staff",
+        "url": "https://www.antlers.co.jp/blogs/news/260705mi4g6y",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-19"
   },
   "players": [
     {
-      "id": "jleague_kashima_1",
+      "id": "kashima_1",
       "club": "鹿島鹿角",
       "number": "1",
       "name_zh": "早川 友基",
@@ -147,23 +461,29 @@
       "intro": "187公分明治大學出身的鹿島主力門將，門線反應迅速且高空球摘球預判極佳。",
       "timeline": [
         {
-          "period": "2021–至今",
+          "period": "履歷",
+          "team": "明治大學",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "明治大學畢業加盟，憑藉極高門線穩定度躍升第一主力門將"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全日本大學錦標賽最優秀門將 (2020)"
       ],
       "milestones": [
-        "J1 聯賽登場突破 100 場"
+        "2026/27列入鹿島現役登錄（#1）。"
       ],
       "tactical_traits": [
-        "門線神勇反應撲救",
-        "高空球摘球穩定度高"
+        "門線反應與禁區指揮是基本價值。",
+        "鬼木要求後場主動控球，門將第一傳需幫球隊避開第一線press。"
       ],
-      "quirky_trivia": "明治大學名門門將出身，賽前習慣在門線前進行特有的專注儀式。",
+      "quirky_trivia": "2026百年構想聯賽獲J1 EAST最優秀撲救獎；同年All-Star票選亦是J1全體門將高人氣代表。",
       "legacy_id": "jleague_kashima_1",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -173,23 +493,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "明治大學",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "明治大學畢業加盟，憑藉極高門線穩定度躍升第一主力門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_2",
+      "id": "kashima_2",
       "club": "鹿島鹿角",
       "number": "2",
       "name_zh": "安西 幸輝",
@@ -209,41 +576,29 @@
       "intro": "國腳級兩翼衛，高速邊路插上盤帶與攻守往返體能極度強悍。",
       "timeline": [
         {
-          "period": "2014–2017",
-          "team": "東京綠城",
-          "category": "J2職業隊",
-          "milestone": "綠城青訓升格主力邊後衛"
-        },
-        {
-          "period": "2018–2019",
-          "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "主力邊後衛率隊勇奪 2018 亞冠盃 (ACL) 冠軍"
-        },
-        {
-          "period": "2019–2021",
+          "period": "履歷",
           "team": "Portimonense",
-          "category": "葡超聯賽",
-          "milestone": "旅歐征戰葡萄牙超級聯賽"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2021–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "重返鹿島鎮守邊路"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 亞冠盃（ACL）冠軍 (2018 [鹿島鹿角])"
       ],
       "milestones": [
-        "J1/J2 登場突破 250 場里程碑"
+        "2026/27列入鹿島現役登錄（#2）。"
       ],
       "tactical_traits": [
-        "兩翼攻守往返體能狂人",
-        "邊路內切起腳"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "擁有極強的休息室感染力，與隊友關係極佳。",
+      "quirky_trivia": "安西 幸輝的直播辨識點是#2與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_2",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -253,56 +608,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2014–2017",
-          "team": "東京綠城",
-          "competition": "J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "綠城青訓升格主力邊後衛",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2018–2019",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "主力邊後衛率隊勇奪 2018 亞冠盃 (ACL) 冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2019–2021",
+          "season": null,
           "team": "Portimonense",
-          "competition": "葡超聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "旅歐征戰葡萄牙超級聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2021–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返鹿島鎮守邊路",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_3",
+      "id": "kashima_3",
       "club": "鹿島鹿角",
       "number": "3",
       "name_zh": "金泰賢",
@@ -322,29 +691,29 @@
       "intro": "187公分韓國國奧級左腳中後衛，身材魁梧，正面對抗與高空頭球解圍強悍。",
       "timeline": [
         {
-          "period": "2019–2024",
-          "team": "Ulsan HD / Gimcheon Sangmu / Vegalta Sendai",
-          "category": "K聯賽/J2",
-          "milestone": "蔚山 HD 青訓核心，曾外借仙台大放異彩"
+          "period": "履歷",
+          "team": "Ulsan HD",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島築起韓國鐵壁"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 亞冠盃（ACL）冠軍 (2020 [Ulsan HD])"
       ],
       "milestones": [
-        "K聯賽與 J1 雙棲高大中後衛"
+        "2026/27列入鹿島現役登錄（#3）。"
       ],
       "tactical_traits": [
-        "左腳後場精準長傳",
-        "正面身體肉搏解圍"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "空中爭頂勝率極高，腳下具備現代中後衛稀缺的左腳出球能力。",
+      "quirky_trivia": "金泰賢的直播辨識點是#3與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_3",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -354,34 +723,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–2024",
-          "team": "Ulsan HD / Gimcheon Sangmu / Vegalta Sendai",
-          "competition": "K聯賽/J2",
+          "season": null,
+          "team": "Ulsan HD",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "蔚山 HD 青訓核心，曾外借仙台大放異彩",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島築起韓國鐵壁",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_4",
+      "id": "kashima_4",
       "club": "鹿島鹿角",
       "number": "4",
       "name_zh": "千田 海人",
@@ -401,35 +806,29 @@
       "intro": "高大正面封堵型中後衛，高空頭球爭頂落點判斷精準，具備優異的定位球攻擊威脅。",
       "timeline": [
         {
-          "period": "2017–2022",
-          "team": "秋田藍閃電",
-          "category": "J2/J3職業隊",
-          "milestone": "神奈川大學畢業加盟秋田，防線隊長率隊奪得 2020 J3 冠軍"
-        },
-        {
-          "period": "2023–2024",
+          "period": "履歷",
           "team": "東京綠城",
-          "category": "J1/J2職業隊",
-          "milestone": "綠城升甲防線核心"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島充實後防空霸權"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 J3 聯賽冠軍 (2020 [秋田藍閃電])"
       ],
       "milestones": [
-        "J2/J3 登場突破 200 場"
+        "2026/27列入鹿島現役登錄（#4）。"
       ],
       "tactical_traits": [
-        "186cm 高空頭球解圍",
-        "正面下腳搶斷"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "從 J3 聯賽一路靠實力拼搏攻入 J1 豪門鹿島鹿角，為本土後衛勵志典範。",
+      "quirky_trivia": "千田 海人的直播辨識點是#4與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_4",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -439,45 +838,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2017–2022",
-          "team": "秋田藍閃電",
-          "competition": "J2/J3職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "神奈川大學畢業加盟秋田，防線隊長率隊奪得 2020 J3 冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–2024",
+          "season": null,
           "team": "東京綠城",
-          "competition": "J1/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "綠城升甲防線核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島充實後防空霸權",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_5",
+      "id": "kashima_5",
       "club": "鹿島鹿角",
       "number": "5",
       "name_zh": "關川 郁萬",
@@ -497,10 +921,16 @@
       "intro": "鹿島鹿角當家主力中後衛，以極度剽悍的下腳搶斷與霸道高空爭頂著稱，具備王者常勝軍團風範。",
       "timeline": [
         {
-          "period": "2019–至今",
+          "period": "履歷",
+          "team": "流通經濟大學附屬柏高中",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "流經大柏高中名門畢業加盟鹿島，成長為鹿島防線不可或缺的司令塔"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -508,13 +938,13 @@
         "1次 J1 聯賽優秀選手賞"
       ],
       "milestones": [
-        "J1 聯賽登場突破 150 場"
+        "2026/27列入鹿島現役登錄（#5）。"
       ],
       "tactical_traits": [
-        "霸道高空搶點頭球",
-        "剽悍迎面攔截搶斷"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "高中時期便以霸氣十足的防守風格聞名，被鹿島球迷稱為「新世代的鹿島鐵壁」。",
+      "quirky_trivia": "關川 郁萬的直播辨識點是#5與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_5",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -524,23 +954,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "流通經濟大學附屬柏高中",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "流經大柏高中名門畢業加盟鹿島，成長為鹿島防線不可或缺的司令塔",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_6",
+      "id": "kashima_6",
       "club": "鹿島鹿角",
       "number": "6",
       "name_zh": "三竿 健斗",
@@ -560,22 +1037,16 @@
       "intro": "前鹿島隊長國腳級中場屏障，中場搶斷與位置卡位能力極佳，具備歐洲聯賽旅歐資歷。",
       "timeline": [
         {
-          "period": "2016–2022",
-          "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "鹿島主力隊長，率隊勇奪 2016 J1 冠軍與 2018 亞冠盃 (ACL) 冠軍"
+          "period": "履歷",
+          "team": "OH Leuven",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2023–2024",
-          "team": "Santa Clara / OH Leuven",
-          "category": "葡超/比甲",
-          "milestone": "旅歐征戰葡萄牙與比利時超級聯賽"
-        },
-        {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "重返鹿島鎮守中場大門"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -584,13 +1055,13 @@
         "1次 天皇盃冠軍 (2016 [鹿島鹿角])"
       ],
       "milestones": [
-        "鹿島鹿角隊史最年輕隊長之一"
+        "2026/27列入鹿島現役登錄（#6）。"
       ],
       "tactical_traits": [
-        "中場掃蕩搶斷屏障",
-        "防線前位置補位卡位"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "哥哥三竿雄斗亦為 J 聯賽職業球員，兄弟倆在足壇傳為佳話。",
+      "quirky_trivia": "前7輪17次duel won隊內第一，是鹿島中場對抗核心。",
       "legacy_id": "jleague_kashima_6",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -600,45 +1071,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2016–2022",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "OH Leuven",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "鹿島主力隊長，率隊勇奪 2016 J1 冠軍與 2018 亞冠盃 (ACL) 冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–2024",
-          "team": "Santa Clara / OH Leuven",
-          "competition": "葡超/比甲",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐征戰葡萄牙與比利時超級聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返鹿島鎮守中場大門",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_7",
+      "id": "kashima_7",
       "club": "鹿島鹿角",
       "number": "7",
       "name_zh": "小川 諒也",
@@ -658,35 +1154,30 @@
       "intro": "183公分左腳國腳級左後衛，高空爭頂、身體對抗與弧線傳中極具殺傷力。",
       "timeline": [
         {
-          "period": "2015–2022",
-          "team": "FC東京",
-          "category": "J1職業隊",
-          "milestone": "FC東京主力左後衛，勇奪 2020 聯賽盃冠軍"
+          "period": "履歷",
+          "team": "Sint-Truiden",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2022–2024",
-          "team": "Vitoria Guimaraes / Sint-Truiden",
-          "category": "葡超/比甲",
-          "milestone": "旅歐征戰葡萄牙與比利時超級聯賽"
-        },
-        {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島鞏固左路防線"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x J.League 聯賽盃冠軍 (2020 [FC東京])"
       ],
       "milestones": [
-        "J1 聯賽登場突破 180 場"
+        "2026/27列入鹿島現役登錄（#7）。",
+        "前7輪2助攻、71.6km跑動。"
       ],
       "tactical_traits": [
-        "左腳定位球與高弧線傳中",
-        "183cm 身體肉搏對抗"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "左腳重炮遠射威力十足，在葡超與比甲磨練出更強悍的軀幹對抗。",
+      "quirky_trivia": "前7輪71.6km跑動、110次衝刺，並有2次助攻；左閘的攻守輸出極高。",
       "legacy_id": "jleague_kashima_7",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -696,45 +1187,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2015–2022",
-          "team": "FC東京",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Sint-Truiden",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "FC東京主力左後衛，勇奪 2020 聯賽盃冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2022–2024",
-          "team": "Vitoria Guimaraes / Sint-Truiden",
-          "competition": "葡超/比甲",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐征戰葡萄牙與比利時超級聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島鞏固左路防線",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_8",
+      "id": "kashima_8",
       "club": "鹿島鹿角",
       "number": "8",
       "name_zh": "般奴",
@@ -754,41 +1270,29 @@
       "intro": "巴西籍全能型中場，節奏掌控、攻守轉換傳球與中場擺脫能力優秀。",
       "timeline": [
         {
-          "period": "2018–2021",
-          "team": "Coritiba",
-          "category": "巴甲/巴乙",
-          "milestone": "古列提巴青訓升格主力"
-        },
-        {
-          "period": "2021–2023",
-          "team": "Gil Vicente",
-          "category": "葡超聯賽",
-          "milestone": "旅歐征戰葡萄牙超級聯賽"
-        },
-        {
-          "period": "2023–2025",
+          "period": "履歷",
           "team": "清水心跳",
-          "category": "J1/J2職業隊",
-          "milestone": "清水中場樞紐，助隊奪得 2024 J2 冠軍升甲"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年重磅加盟鹿島鹿角"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 J2 聯賽冠軍 (2024 [清水心跳])"
       ],
       "milestones": [
-        "葡超與 J 聯賽雙棲巴西中場"
+        "2026/27列入鹿島現役登錄（#8）。"
       ],
       "tactical_traits": [
-        "攻守轉換推進出球",
-        "中場擺脫護球"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "在球場上具備極佳的巴西式傳球靈性與大範圍跑動能力。",
+      "quirky_trivia": "般奴的直播辨識點是#8與MF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_8",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -798,56 +1302,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2018–2021",
-          "team": "Coritiba",
-          "competition": "巴甲/巴乙",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "古列提巴青訓升格主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2021–2023",
-          "team": "Gil Vicente",
-          "competition": "葡超聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐征戰葡萄牙超級聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–2025",
+          "season": null,
           "team": "清水心跳",
-          "competition": "J1/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "清水中場樞紐，助隊奪得 2024 J2 冠軍升甲",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年重磅加盟鹿島鹿角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_9",
+      "id": "kashima_9",
       "club": "鹿島鹿角",
       "number": "9",
       "name_zh": "李奧施亞拉",
@@ -867,22 +1385,16 @@
       "intro": "J1 頂級巴西神射手金靴中鋒，爆發力強、禁區點球與搶點頭球效率高。",
       "timeline": [
         {
-          "period": "2021–2022",
-          "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "水手神射手，勇奪 2022 J1 聯賽冠軍"
-        },
-        {
-          "period": "2023–2024",
+          "period": "履歷",
           "team": "大阪櫻花",
-          "category": "J1職業隊",
-          "milestone": "櫻花第一火力點，單季攻入 21 球高居 J1 射手榜第二"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島扛起 9 號中鋒重炮"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -890,14 +1402,14 @@
         "2次 J1 聯賽優秀選手賞 (2022, 2024)"
       ],
       "milestones": [
-        "J1 聯賽連續 3 季進球雙位數",
-        "J1 生涯累計進球突破 60 球"
+        "2026/27列入鹿島現役登錄（#9）。",
+        "前7輪J1攻入8球，隊內第一。"
       ],
       "tactical_traits": [
-        "禁區內爆炸性起腳抽射",
-        "高空爭頂頭球搶點"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "在 J1 賽場以極高得分效率著稱，十二碼點球把握度極高。",
+      "quirky_trivia": "前7輪8球，8月KONAMI月間MVP；是目前鹿島最直接的得分核心。",
       "legacy_id": "jleague_kashima_9",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -907,45 +1419,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2022",
-          "team": "橫濱水手",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "水手神射手，勇奪 2022 J1 聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–2024",
+          "season": null,
           "team": "大阪櫻花",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "櫻花第一火力點，單季攻入 21 球高居 J1 射手榜第二",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島扛起 9 號中鋒重炮",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_10",
+      "id": "kashima_10",
       "club": "鹿島鹿角",
       "number": "10",
       "name_zh": "柴崎 岳",
@@ -962,25 +1499,19 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第4季",
       "national_team_detail": "60次 代表日本國家隊大國腳 🇯🇵（3 球，2018 世界盃日本主力大腦）",
-      "intro": "鹿島傳奇 10 號司令塔，視野極其宏大，右腳長短傳手術刀穿透力全日本頂尖。",
+      "intro": "柴崎 岳是鹿島2026/27現役MF，背號10；在鬼木達體系中以中場連接與對抗為主要任務。",
       "timeline": [
         {
-          "period": "2011–2016",
-          "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "青森山田畢業加盟，率鹿島勇奪 J1 冠軍並在世冠盃對皇家馬德里梅開二度"
+          "period": "履歷",
+          "team": "Leganés",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2017–2023",
-          "team": "Tenerife / Getafe / Deportivo La Coruña / Leganés",
-          "category": "西甲/西乙",
-          "milestone": "旅歐征戰西班牙賽場 7 季登場超過 150 場"
-        },
-        {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "落葉歸根重返鹿島接下 10 號戰袍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -990,14 +1521,13 @@
         "1次 J1 最佳陣容 / Best XI (2014)"
       ],
       "milestones": [
-        "2016 世冠盃決賽對皇家馬德里獨中兩元震撼全球",
-        "2018 俄羅斯世界盃日本先發 7 號大腦"
+        "2026/27列入鹿島現役登錄（#10）。"
       ],
       "tactical_traits": [
-        "右腳手術刀絕殺穿透直塞",
-        "頂級球場大視角大腦"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "2016 年世冠盃決賽對陣皇家馬德里獨中兩元，差點率領鹿島擊敗皇馬創下歷史奇蹟。",
+      "quirky_trivia": "柴崎 岳的直播辨識點是#10與MF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_10",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1007,45 +1537,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2011–2016",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Leganés",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青森山田畢業加盟，率鹿島勇奪 J1 冠軍並在世冠盃對皇家馬德里梅開二度",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2017–2023",
-          "team": "Tenerife / Getafe / Deportivo La Coruña / Leganés",
-          "competition": "西甲/西乙",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐征戰西班牙賽場 7 季登場超過 150 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "落葉歸根重返鹿島接下 10 號戰袍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_11",
+      "id": "kashima_11",
       "club": "鹿島鹿角",
       "number": "11",
       "name_zh": "田川 亨介",
@@ -1065,35 +1620,29 @@
       "intro": "左腳強攻爆發力前鋒，速度快，反越位衝刺與左腳射門威力十足。",
       "timeline": [
         {
-          "period": "2017–2021",
-          "team": "鳥棲砂岩 / FC東京",
-          "category": "J1職業隊",
-          "milestone": "鳥棲青訓天才前鋒，J1 賽場展露頭角"
+          "period": "履歷",
+          "team": "Hearts",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2022–2024",
-          "team": "Santa Clara / Hearts",
-          "category": "葡超/蘇超",
-          "milestone": "旅歐征戰葡萄牙與蘇格蘭超級聯賽"
-        },
-        {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島充實鋒線火力"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 J.League 聯賽盃冠軍 (2020 [FC東京])"
       ],
       "milestones": [
-        "代表日本國家隊東亞盃破門"
+        "2026/27列入鹿島現役登錄（#11）。"
       ],
       "tactical_traits": [
-        "左腳直線爆發衝刺",
-        "反越位單刀起腳"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "鳥棲青訓培養的頂級左腳快馬，擁有一瞬間甩開中後衛的加速度。",
+      "quirky_trivia": "田川 亨介的直播辨識點是#11與FW角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_11",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1103,45 +1652,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2017–2021",
-          "team": "鳥棲砂岩 / FC東京",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Hearts",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "鳥棲青訓天才前鋒，J1 賽場展露頭角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2022–2024",
-          "team": "Santa Clara / Hearts",
-          "competition": "葡超/蘇超",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐征戰葡萄牙與蘇格蘭超級聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島充實鋒線火力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_14",
+      "id": "kashima_14",
       "club": "鹿島鹿角",
       "number": "14",
       "name_zh": "樋口 雄太",
@@ -1161,29 +1735,29 @@
       "intro": "J1 頂級右腳定位球大師，角球與自由球落點精準，中場跑動傳導極順。",
       "timeline": [
         {
-          "period": "2019–2021",
+          "period": "履歷",
           "team": "鳥棲砂岩",
-          "category": "J1職業隊",
-          "milestone": "鹿屋體育大學畢業加盟，成為鳥棲 10 號大腦"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2022–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島，為隊內第一定位球主罰者與助攻利器"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J1 聯賽單季助攻榜前列 (2022, 2023)"
       ],
       "milestones": [
-        "J1 聯賽登場突破 180 場"
+        "2026/27列入鹿島現役登錄（#14）。"
       ],
       "tactical_traits": [
-        "右腳精準定位球落點",
-        "中場攻守連結穿針引線"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "右腳自由球與角球弧線極度陡峭，是鹿島後衛頭球得分的最強傳球武器。",
+      "quirky_trivia": "樋口 雄太的直播辨識點是#14與MF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_14",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1193,34 +1767,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–2021",
+          "season": null,
           "team": "鳥棲砂岩",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "鹿屋體育大學畢業加盟，成為鳥棲 10 號大腦",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2022–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島，為隊內第一定位球主罰者與助攻利器",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_17",
+      "id": "kashima_17",
       "club": "鹿島鹿角",
       "number": "17",
       "name_zh": "艾巴",
@@ -1240,16 +1850,16 @@
       "intro": "前 J1 最佳陣容巴西冠軍邊鋒，腳下踩單車盤帶過人極度犀利，邊路攻擊殺傷力極強。",
       "timeline": [
         {
-          "period": "2021–2024",
+          "period": "履歷",
           "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "水手王牌左邊鋒，勇奪 2022 J1 冠軍並入選 J1 Best XI"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島，提供邊路個人突破攻擊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -1257,13 +1867,13 @@
         "1次 J1 聯賽冠軍 (2022 [橫濱水手])"
       ],
       "milestones": [
-        "J1 聯賽單季雙位數進球與助攻"
+        "2026/27列入鹿島現役登錄（#17）。"
       ],
       "tactical_traits": [
-        "邊路踩單車一對一突破",
-        "內切右腳遠角弧線球"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "盤帶過人成功率高居全 J1 前列，是任何對方邊後衛的噩夢。",
+      "quirky_trivia": "艾巴的直播辨識點是#17與FW角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_17",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1273,34 +1883,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2024",
+          "season": null,
           "team": "橫濱水手",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "水手王牌左邊鋒，勇奪 2022 J1 冠軍並入選 J1 Best XI",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島，提供邊路個人突破攻擊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_18",
+      "id": "kashima_18",
       "club": "鹿島鹿角",
       "number": "18",
       "name_zh": "馬菲斯",
@@ -1320,35 +1966,29 @@
       "intro": "左腳逆足右邊鋒爆發力快馬，內切傳中與起腳射門頻率極快。",
       "timeline": [
         {
-          "period": "2022–2024",
-          "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "水手主力右邊鋒，助隊奪得 2022 J1 冠軍"
-        },
-        {
-          "period": "2025",
+          "period": "履歷",
           "team": "Qatar SC",
-          "category": "卡塔爾聯賽",
-          "milestone": "征戰卡塔爾星級聯賽"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年加盟鹿島鹿角增強翼側火力"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 J1 聯賽冠軍 (2022 [橫濱水手])"
       ],
       "milestones": [
-        "J1 聯賽單季 10+ 助攻翼衛"
+        "2026/27列入鹿島現役登錄（#18）。"
       ],
       "tactical_traits": [
-        "右路內切左腳傳中",
-        "高頻率爆發盤帶"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "步伐頻率極快，在右路能為中鋒創造大量優質倒三角傳中。",
+      "quirky_trivia": "7月20日由Qatar SC加入；前7輪已送2次助攻，左腳／右路創造力迅速融入。",
       "legacy_id": "jleague_kashima_18",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1358,45 +1998,189 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2024",
-          "team": "橫濱水手",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "水手主力右邊鋒，助隊奪得 2022 J1 冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2025",
+          "season": null,
           "team": "Qatar SC",
-          "competition": "卡塔爾聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "征戰卡塔爾星級聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年加盟鹿島鹿角增強翼側火力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_21",
+      "name_zh": "大森渚生",
+      "name_ja": "大森 渚生",
+      "name_en": "Sho Omori",
+      "position": "DF",
+      "dob": "1999-08-19",
+      "height": 177,
+      "weight": 75,
+      "birthplace": "東京都",
+      "prev_club": "水戶蜀葵",
+      "registration_status": "本國球員",
+      "intro": "9月16日由水戶蜀葵完全轉會加盟的後衛，背號19。7輪J1全正選後季中加盟，屬即戰力補強。",
+      "quirky_trivia": "大森渚生的直播辨識點是#19與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
+      "id": "kashima_19",
+      "club": "鹿島鹿角",
+      "team_slug": "kashima",
+      "number": "19",
+      "season_start_age": 26,
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "大森渚生加入公告",
+          "url": "https://www.antlers.co.jp/blogs/news/260916qq2nme",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "name_source": "官方日本名；TVB原表未及此季中／回歸項目時不另造譯名。",
+      "tactical_traits": [
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
+      ],
+      "milestones": [
+        "2026/27列入鹿島現役登錄（#19）。"
+      ],
+      "career": [
+        {
+          "season": null,
+          "team": "水戶蜀葵",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "大森渚生加入公告",
+              "url": "https://www.antlers.co.jp/blogs/news/260916qq2nme",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "大森渚生加入公告",
+              "url": "https://www.antlers.co.jp/blogs/news/260916qq2nme",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "period": "履歷",
+          "team": "水戶蜀葵",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
+        }
+      ],
+      "honors": [],
+      "season_stats": []
+    },
+    {
+      "id": "kashima_21",
       "club": "鹿島鹿角",
       "number": "21",
       "name_zh": "山田 大樹",
@@ -1416,23 +2200,29 @@
       "intro": "192公分鹿島自家梯隊培養的高大門將，高空球防空範圍大。",
       "timeline": [
         {
-          "period": "2020–至今",
+          "period": "履歷",
+          "team": "鹿島鹿角 Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "鹿島青訓升一隊，外借岡山歷練後重返鹿島門線"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "高円宮盃 U-18 冠軍"
       ],
       "milestones": [
-        "192cm 高大門將新星"
+        "2026/27列入鹿島現役登錄（#21）。"
       ],
       "tactical_traits": [
-        "高空球對抗摘球",
-        "長臂展門線覆蓋"
+        "門線反應與禁區指揮是基本價值。",
+        "鬼木要求後場主動控球，門將第一傳需幫球隊避開第一線press。"
       ],
-      "quirky_trivia": "鹿島青訓純血門將，身高 192 公分具備絕佳門線天賦。",
+      "quirky_trivia": "山田 大樹的直播辨識點是#21與GK角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_21",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1442,23 +2232,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "鹿島鹿角 Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "鹿島青訓升一隊，外借岡山歷練後重返鹿島門線",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_23",
+      "id": "kashima_23",
       "club": "鹿島鹿角",
       "number": "23",
       "name_zh": "津久井 佳祐",
@@ -1478,23 +2315,29 @@
       "intro": "名門昌平高中畢業的潛力中後衛，卡位閱讀敏銳，傳球出球冷靜。",
       "timeline": [
         {
-          "period": "2023–至今",
+          "period": "履歷",
+          "team": "昌平高中",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "昌平高中隊長加盟鹿島鹿角"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "高校錦標賽優秀選手"
       ],
       "milestones": [
-        "名門高校隊長升格 J1"
+        "2026/27列入鹿島現役登錄（#23）。"
       ],
       "tactical_traits": [
-        "預判站位攔截",
-        "後場冷靜出球"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "昌平高中防線核心隊長出身，傳球技術在中後衛中相當優異。",
+      "quirky_trivia": "津久井 佳祐的直播辨識點是#23與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_23",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1504,23 +2347,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2023–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "昌平高中",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "昌平高中隊長加盟鹿島鹿角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_24",
+      "id": "kashima_24",
       "club": "鹿島鹿角",
       "number": "24",
       "name_zh": "林 晴己",
@@ -1540,29 +2430,29 @@
       "intro": "明治大學名門出身的全能中場新星，體能充沛，跑動掃蕩與插上極佳。",
       "timeline": [
         {
-          "period": "2022–2025",
+          "period": "履歷",
           "team": "明治大學",
-          "category": "大學校隊",
-          "milestone": "大學名門明治大學主力中場，率隊征戰關東大學聯賽"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年大學畢業加盟鹿島鹿角"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全日本大學足球錦標賽冠軍"
       ],
       "milestones": [
-        "明治大學大腦升格 J1"
+        "2026/27列入鹿島現役登錄（#24）。"
       ],
       "tactical_traits": [
-        "中場高強度攻守往返",
-        "反搶攔截"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "名門明治大學足球部培養，戰術紀律與體能素質一流。",
+      "quirky_trivia": "林 晴己的直播辨識點是#24與MF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_24",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1572,34 +2462,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
+          "season": null,
           "team": "明治大學",
-          "competition": "大學校隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大學名門明治大學主力中場，率隊征戰關東大學聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年大學畢業加盟鹿島鹿角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_25",
+      "id": "kashima_25",
       "club": "鹿島鹿角",
       "number": "25",
       "name_zh": "小池 龍太",
@@ -1619,28 +2545,16 @@
       "intro": "國腳級萬能邊後衛，可勝任左右兩邊後衛與後腰，戰術智慧與跑動覆蓋極佳。",
       "timeline": [
         {
-          "period": "2014–2018",
-          "team": "雷法山口 / 柏太陽王",
-          "category": "J1/J2職業隊",
-          "milestone": "從 J3 一路殺入 J1 的勵志邊後衛"
-        },
-        {
-          "period": "2019–2020",
-          "team": "Lokeren",
-          "category": "比乙聯賽",
-          "milestone": "旅歐征戰比利時聯賽"
-        },
-        {
-          "period": "2020–2024",
+          "period": "履歷",
           "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "水手主力邊後衛，勇奪 2022 J1 冠軍並入選 Best XI"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島鎮守後防多面手位置"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -1649,13 +2563,13 @@
         "1次 東亞足球錦標賽冠軍 (2022 [日本國家隊])"
       ],
       "milestones": [
-        "從 J3 到日本國家隊冠軍的極致勵志歷程"
+        "2026/27列入鹿島現役登錄（#25）。"
       ],
       "tactical_traits": [
-        "極高足球智商跑位內切",
-        "左右兩邊後衛全能適應"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "無球跑位與戰術理解力被譽為日本邊後衛教科書。",
+      "quirky_trivia": "小池 龍太的直播辨識點是#25與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_25",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1665,56 +2579,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2014–2018",
-          "team": "雷法山口 / 柏太陽王",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "從 J3 一路殺入 J1 的勵志邊後衛",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2019–2020",
-          "team": "Lokeren",
-          "competition": "比乙聯賽",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐征戰比利時聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2020–2024",
+          "season": null,
           "team": "橫濱水手",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "水手主力邊後衛，勇奪 2022 J1 冠軍並入選 Best XI",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島鎮守後防多面手位置",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_27",
+      "id": "kashima_27",
       "club": "鹿島鹿角",
       "number": "27",
       "name_zh": "松村 優太",
@@ -1734,23 +2662,30 @@
       "intro": "靜岡學園出身的快馬邊鋒，瞬間爆發力突破與踩單車盤帶極強。",
       "timeline": [
         {
-          "period": "2020–至今",
+          "period": "履歷",
+          "team": "靜岡學園高中",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "靜岡學園全國冠軍 10 號加盟鹿島，曾外借德島歷練後回歸"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 高校錦標賽冠軍 (靜岡學園)"
       ],
       "milestones": [
-        "50m 衝刺 5.8 秒的邊路快馬"
+        "2026/27列入鹿島現役登錄（#27）。",
+        "前7輪121次衝刺、最高速35.1km/h，兩項隊內第一。"
       ],
       "tactical_traits": [
-        "靜學派絕活盤帶過人",
-        "直線瞬間加速度"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "靜岡學園奪得全國冠軍時的當家 10 號，極速爆發力驚人。",
+      "quirky_trivia": "前7輪121次衝刺及35.1km/h最高速均隊內第一，是最純粹的速度威脅。",
       "legacy_id": "jleague_kashima_27",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1760,23 +2695,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "靜岡學園高中",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "靜岡學園全國冠軍 10 號加盟鹿島，曾外借德島歷練後回歸",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_28",
+      "id": "kashima_28",
       "club": "鹿島鹿角",
       "number": "28",
       "name_zh": "大川 佑梧",
@@ -1796,23 +2778,29 @@
       "intro": "鹿島梯隊培養的 185 公分左腳中後衛新星，防防空與左腳傳線路佳。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "鹿島鹿角 Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年由青訓升入一線隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "日本 U-18 國青隊代表"
       ],
       "milestones": [
-        "18歲完成一隊職業簽約"
+        "2026/27列入鹿島現役登錄（#28）。"
       ],
       "tactical_traits": [
-        "左腳後場出球",
-        "正面高空爭頂"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "鹿島青訓重點培育的下一代左腳中後衛。",
+      "quirky_trivia": "大川 佑梧的直播辨識點是#28與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_28",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1822,23 +2810,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "鹿島鹿角 Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "2026年由青訓升入一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_29",
+      "id": "kashima_29",
       "club": "鹿島鹿角",
       "number": "29",
       "name_zh": "梶川 裕嗣",
@@ -1858,29 +2893,29 @@
       "intro": "經驗豐富的穩健型門將，門線反應冷靜，指揮後防線站位經驗豐富。",
       "timeline": [
         {
-          "period": "2014–2023",
-          "team": "湘南 / 德島 / 橫濱F水手 / 磐田",
-          "category": "J1/J2職業隊",
-          "milestone": "征戰 J 聯賽多年，經驗豐富"
+          "period": "履歷",
+          "team": "磐田山葉",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島提供門線經驗保險"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J2 聯賽冠軍成員"
       ],
       "milestones": [
-        "職業生涯登場突破 120 場"
+        "2026/27列入鹿島現役登錄（#29）。"
       ],
       "tactical_traits": [
-        "門線反應穩定",
-        "指揮後防交代落點"
+        "門線反應與禁區指揮是基本價值。",
+        "鬼木要求後場主動控球，門將第一傳需幫球隊避開第一線press。"
       ],
-      "quirky_trivia": "在多家 J 聯賽球會效力過，是休息室極具親和力的老將。",
+      "quirky_trivia": "梶川 裕嗣的直播辨識點是#29與GK角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_29",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1890,34 +2925,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2014–2023",
-          "team": "湘南 / 德島 / 橫濱F水手 / 磐田",
-          "competition": "J1/J2職業隊",
+          "season": null,
+          "team": "磐田山葉",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "征戰 J 聯賽多年，經驗豐富",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島提供門線經驗保險",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_30",
+      "id": "kashima_30",
       "club": "鹿島鹿角",
       "number": "30",
       "name_zh": "吉田 湊海",
@@ -1937,23 +3008,29 @@
       "intro": "鹿島青訓神射手妖星，門前搶点敏捷，起腳決斷力驚人。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "鹿島鹿角 Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年年僅 17 歲破格提拔升入一線隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "高円宮盃 U-18 聯賽神射手"
       ],
       "milestones": [
-        "17歲簽署職業合約升格一隊"
+        "2026/27列入鹿島現役登錄（#30）。"
       ],
       "tactical_traits": [
-        "靈敏門前得分嗅覺",
-        "第一時間抽射"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "梯隊時期展現驚人進球天賦，被視為鹿島鋒線未來的本土王牌。",
+      "quirky_trivia": "吉田 湊海的直播辨識點是#30與FW角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_30",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -1963,23 +3040,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "鹿島鹿角 Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "2026年年僅 17 歲破格提拔升入一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_31",
+      "id": "kashima_31",
       "club": "鹿島鹿角",
       "number": "31",
       "name_zh": "藤井 陽登",
@@ -1999,29 +3123,29 @@
       "intro": "明治大學名門門將，門線反應快，高空球處置冷靜。",
       "timeline": [
         {
-          "period": "2022–2025",
+          "period": "履歷",
           "team": "明治大學",
-          "category": "大學校隊",
-          "milestone": "名門明治大學主力門將"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年大學畢業加盟鹿島鹿角"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全日本大學錦標賽最優秀門將"
       ],
       "milestones": [
-        "明治名門門將加盟 J1"
+        "2026/27列入鹿島現役登錄（#31）。"
       ],
       "tactical_traits": [
-        "門線反應敏捷",
-        "高空摘球落點判斷"
+        "門線反應與禁區指揮是基本價值。",
+        "鬼木要求後場主動控球，門將第一傳需幫球隊避開第一線press。"
       ],
-      "quirky_trivia": "出自矢板中央高中與明治大學，防守基本功扎實。",
+      "quirky_trivia": "藤井 陽登的直播辨識點是#31與GK角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_31",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2031,34 +3155,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
+          "season": null,
           "team": "明治大學",
-          "competition": "大學校隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "名門明治大學主力門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年大學畢業加盟鹿島鹿角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_34",
+      "id": "kashima_34",
       "club": "鹿島鹿角",
       "number": "34",
       "name_zh": "德田 譽",
@@ -2078,23 +3238,29 @@
       "intro": "186公分高大中鋒妖星，軀幹對抗強，高空頭球與背身做球天賦異稟。",
       "timeline": [
         {
-          "period": "2025–至今",
+          "period": "履歷",
+          "team": "鹿島鹿角 Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "鹿島青訓破格提拔升一隊，17 歲即完成 J1 聯賽破門"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "日本 U-19 國青隊主力中鋒"
       ],
       "milestones": [
-        "17 歲完成 J1 聯賽職業首球"
+        "2026/27列入鹿島現役登錄（#34）。"
       ],
       "tactical_traits": [
-        "186cm 背身單打做球",
-        "高空搶點頭球破門"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "鹿島梯隊極力栽培的新世代 9 號中鋒，未滿 18 歲已在 J1 賽場破門。",
+      "quirky_trivia": "德田 譽的直播辨識點是#34與FW角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_34",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2104,23 +3270,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2025–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "鹿島鹿角 Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "鹿島青訓破格提拔升一隊，17 歲即完成 J1 聯賽破門",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_35",
+      "id": "kashima_35",
       "club": "鹿島鹿角",
       "number": "35",
       "name_zh": "元砂晏翔仁・烏迪巴",
@@ -2140,23 +3353,29 @@
       "intro": "身高 192 公分的混血巨無霸中後衛，高空爭頂霸權，身體對抗極具毀滅力。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "鹿島鹿角 Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年年僅 16 歲破格由梯隊升格入一線隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "日本 U-17 國青隊代表"
       ],
       "milestones": [
-        "16歲獲得一線隊職業合約"
+        "2026/27列入鹿島現役登錄（#35）。"
       ],
       "tactical_traits": [
-        "192cm 怪獸級高空頭球",
-        "正面強悍肢體肉搏"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "擁有混血血統，身高達 192 公分，被視為日本足壇未來門面級高大中後衛。",
+      "quirky_trivia": "元砂晏翔仁・烏迪巴的直播辨識點是#35與DF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_35",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2166,23 +3385,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "鹿島鹿角 Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "2026年年僅 16 歲破格由梯隊升格入一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "U-21 青年球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_37",
+      "id": "kashima_37",
       "club": "鹿島鹿角",
       "number": "37",
       "name_zh": "廣瀨 陸斗",
@@ -2202,41 +3468,29 @@
       "intro": "傳中精準度極佳的右後衛，邊路弧線球質高，戰術執行力強。",
       "timeline": [
         {
-          "period": "2014–2019",
-          "team": "水戶 / 德島 / 橫濱FC",
-          "category": "J1/J2職業隊",
-          "milestone": "邊路主力傳中手"
-        },
-        {
-          "period": "2020–2023",
-          "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "鹿島右路主力傳中大師"
-        },
-        {
-          "period": "2024–2025",
+          "period": "履歷",
           "team": "神戶勝利船",
-          "category": "J1職業隊",
-          "milestone": "神戶右路主力，隨隊勇奪 2024 天皇盃冠軍"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "2026年重磅重返鹿島鹿角"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "J1 聯賽登場超過 150 場"
+        "2026/27列入鹿島現役登錄（#37）。"
       ],
       "tactical_traits": [
-        "右腳精準邊路斜傳中",
-        "高速攻守往返"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "父親廣瀨治亦曾為 J 聯賽職業名將，傳中球落點控制能力極度優異。",
+      "quirky_trivia": "7月20日由神戶回歸鹿島；前7輪12次duel won，右路防守強度非常實用。",
       "legacy_id": "jleague_kashima_37",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2246,56 +3500,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2014–2019",
-          "team": "水戶 / 德島 / 橫濱FC",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "邊路主力傳中手",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2020–2023",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "鹿島右路主力傳中大師",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–2025",
+          "season": null,
           "team": "神戶勝利船",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "神戶右路主力，隨隊勇奪 2024 天皇盃冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年重磅重返鹿島鹿角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_40",
+      "id": "kashima_40",
       "club": "鹿島鹿角",
       "number": "40",
       "name_zh": "鈴木 優磨",
@@ -2315,22 +3583,16 @@
       "intro": "鹿島鹿角的精神領袖與第一王牌，鬥志昂揚、肉搏護球與門前起腳威力霸氣無比。",
       "timeline": [
         {
-          "period": "2015–2019",
-          "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "青訓核心，率隊勇奪 2018 亞冠盃 (ACL) 冠軍並榮獲大會 MVP"
-        },
-        {
-          "period": "2019–2021",
+          "period": "履歷",
           "team": "Sint-Truiden",
-          "category": "比甲聯賽",
-          "milestone": "旅歐征戰比利時，單季狂轟 17 球名震比甲"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2022–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "重返鹿島扛起 40 號精神領袖戰袍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -2340,14 +3602,13 @@
         "2次 J1 最佳陣容 / Best XI (2022, 2023)"
       ],
       "milestones": [
-        "比甲單季 17 球神射手",
-        "J1 生涯累計進球突破 70 球"
+        "2026/27列入鹿島現役登錄（#40）。"
       ],
       "tactical_traits": [
-        "極致狼性精神領袖",
-        "背身單打肉搏與門前致命一擊"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "2016 年世冠盃對國民體育會進球後模仿克里斯蒂亞諾·羅納度（C朗）慶祝動作，名震全球。",
+      "quirky_trivia": "球隊進攻精神領袖之一，前7輪67.6km跑動、98次衝刺且2助攻；中鋒工作量非常高。",
       "legacy_id": "jleague_kashima_40",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2357,45 +3618,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2015–2019",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "青訓核心，率隊勇奪 2018 亞冠盃 (ACL) 冠軍並榮獲大會 MVP",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2019–2021",
+          "season": null,
           "team": "Sint-Truiden",
-          "competition": "比甲聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "旅歐征戰比利時，單季狂轟 17 球名震比甲",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2022–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返鹿島扛起 40 號精神領袖戰袍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_42",
+      "id": "kashima_42",
       "club": "鹿島鹿角",
       "number": "42",
       "name_zh": "大貫 琉偉",
@@ -2409,29 +3695,35 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Kashima Antlers Junior Youth",
-      "registration_status": "2種登錄 (青年球員)",
+      "registration_status": "二種登錄",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
       "intro": "鹿島青訓體系培養的靈動中場，獲得一隊 2種登錄 資格，控球擺脫與短傳連貫性優異。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Kashima Antlers Junior Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得一隊 2種登錄 隨隊訓練比賽"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "鹿島青訓梯隊主力中場"
       ],
       "milestones": [
-        "17歲獲得一隊 2種登錄 資格"
+        "2026/27列入鹿島現役登錄（#42）。"
       ],
       "tactical_traits": [
-        "中場靈巧轉身",
-        "一腳短傳傳導"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "茨城縣在地出身，從小即在鹿島青訓梯隊體系接受訓練。",
+      "quirky_trivia": "2027年1月正式升格內定，但2026/27先以Youth二種登錄；官方特點是搶球、推進與精準傳球。",
       "legacy_id": "jleague_kashima_42",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2441,23 +3733,89 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "俱樂部梯隊/一隊",
+          "season": null,
+          "team": "Kashima Antlers Junior Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得一隊 2種登錄 隨隊訓練比賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "鹿島Youth二種登錄公告",
+          "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "U-18",
+        "2種",
+        "Home Grown"
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_43",
+      "id": "kashima_43",
       "club": "鹿島鹿角",
       "number": "43",
       "name_zh": "福岡 勇和",
@@ -2471,29 +3829,35 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Kashima Antlers Tsukuba Junior Youth",
-      "registration_status": "2種登錄 (青年球員)",
+      "registration_status": "二種登錄",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
       "intro": "鹿島筑波梯隊培育的中場工蜂，防守逼搶態度積極，具備強烈的邊路反搶能力。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Kashima Antlers Tsukuba Junior Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得一隊 2種登錄 資格"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "鹿島筑波梯隊優秀選手"
       ],
       "milestones": [
-        "獲得一隊 2種登錄 資格"
+        "2026/27列入鹿島現役登錄（#43）。"
       ],
       "tactical_traits": [
-        "中場跑動逼搶",
-        "邊路防守下腳"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "來自鹿島筑波梯隊，逼搶熱情與訓練態度深獲青年隊教練肯定。",
+      "quirky_trivia": "2027正式升格內定、現為Youth二種；官方特點是高運動量與守備能力的防中。",
       "legacy_id": "jleague_kashima_43",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2503,23 +3867,89 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "俱樂部梯隊/一隊",
+          "season": null,
+          "team": "Kashima Antlers Tsukuba Junior Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得一隊 2種登錄 資格",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "鹿島Youth二種登錄公告",
+          "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "U-18",
+        "2種",
+        "Home Grown"
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_44",
+      "id": "kashima_44",
       "club": "鹿島鹿角",
       "number": "44",
       "name_zh": "平島 大悟",
@@ -2533,29 +3963,35 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Kashima Antlers Junior Youth",
-      "registration_status": "2種登錄 (青年球員)",
+      "registration_status": "二種登錄",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
       "intro": "低重心靈巧中場新星，節奏變幻快，肋部插上與短傳組合度高。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Kashima Antlers Junior Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得 2種登錄 資格隨一線隊運作"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "鹿島青訓主力中場"
       ],
       "milestones": [
-        "18歲獲得一隊 2種登錄 資格"
+        "2026/27列入鹿島現役登錄（#44）。"
       ],
       "tactical_traits": [
-        "低重心節奏擺脫",
-        "狹小空間傳切"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "茨城在地青訓好手，腳步傳導頻率極快。",
+      "quirky_trivia": "2027正式升格內定、現為Youth二種；官方特點是技術、跑力、dribble與射門。",
       "legacy_id": "jleague_kashima_44",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2565,23 +4001,89 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "俱樂部梯隊/一隊",
+          "season": null,
+          "team": "Kashima Antlers Junior Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得 2種登錄 資格隨一線隊運作",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "鹿島Youth二種登錄公告",
+          "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "U-18",
+        "2種",
+        "Home Grown"
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_45",
+      "id": "kashima_45",
       "club": "鹿島鹿角",
       "number": "45",
       "name_zh": "倉橋 幸暉",
@@ -2595,29 +4097,35 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Kashima Antlers Junior Youth",
-      "registration_status": "2種登錄 (青年球員)",
+      "registration_status": "二種登錄",
       "tenure_status": "加盟第1季",
       "national_team_detail": "日本 U-17 國家代表隊",
       "intro": "184公分高大後防新星，獲得 2種登錄 隨隊，高空爭頂頭球解圍能力出色。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Kashima Antlers Junior Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得一隊 2種登錄 資格"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "日本 U-17 國青隊代表"
       ],
       "milestones": [
-        "17歲獲得 2種登錄 隨一隊訓練"
+        "2026/27列入鹿島現役登錄（#45）。"
       ],
       "tactical_traits": [
-        "正面頭球解圍",
-        "後防卡位爭頂"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "鹿島青訓重點栽培的高大中後衛苗子。",
+      "quirky_trivia": "仍屬鹿島Youth二種登錄，能提前參加JLeague正式賽；不是一般職業新人。",
       "legacy_id": "jleague_kashima_45",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2627,23 +4135,89 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "俱樂部梯隊/一隊",
+          "season": null,
+          "team": "Kashima Antlers Junior Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得一隊 2種登錄 資格",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "鹿島Youth二種登錄公告",
+          "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "U-18",
+        "2種",
+        "Home Grown"
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_46",
+      "id": "kashima_46",
       "club": "鹿島鹿角",
       "number": "46",
       "name_zh": "岩土 そら",
@@ -2657,29 +4231,35 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Kashima Antlers Junior Youth",
-      "registration_status": "2種登錄 (青年球員)",
+      "registration_status": "二種登錄",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
       "intro": "廣島出身的技巧型中場，獲得一隊 2種登錄，視野開闊且大範圍傳導順暢。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Kashima Antlers Junior Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得 2種登錄 隨一線隊培訓"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "鹿島梯隊優秀中場"
       ],
       "milestones": [
-        "17歲獲得 2種登錄 資格"
+        "2026/27列入鹿島現役登錄（#46）。"
       ],
       "tactical_traits": [
-        "大範圍視角傳遞",
-        "中場靈巧持球"
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
       ],
-      "quirky_trivia": "國中時期即加盟鹿島青訓體系，控球能力佳。",
+      "quirky_trivia": "仍屬鹿島Youth二種登錄，現階段重點是把青年比賽速度轉成成人節奏。",
       "legacy_id": "jleague_kashima_46",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2689,23 +4269,89 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "俱樂部梯隊/一隊",
+          "season": null,
+          "team": "Kashima Antlers Junior Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得 2種登錄 隨一線隊培訓",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "鹿島Youth二種登錄公告",
+          "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "U-18",
+        "2種",
+        "Home Grown"
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_47",
+      "id": "kashima_47",
       "club": "鹿島鹿角",
       "number": "47",
       "name_zh": "髙木 瑛人",
@@ -2719,29 +4365,35 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Kashima Antlers Junior Youth",
-      "registration_status": "2種登錄 (青年球員)",
+      "registration_status": "二種登錄",
       "tenure_status": "加盟第1季",
       "national_team_detail": "日本 U-17 國家代表隊",
       "intro": "爆發力強悍的前鋒新星，門前起腳果斷，強烈的高位壓迫意識。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Kashima Antlers Junior Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得 2種登錄 資格隨一線隊運作"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "日本 U-17 國青隊代表"
       ],
       "milestones": [
-        "17歲獲得一隊 2種登錄 資格"
+        "2026/27列入鹿島現役登錄（#47）。"
       ],
       "tactical_traits": [
-        "門前第一時間起腳",
-        "前場爆發力壓迫"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "身體素質與門前嗅覺極佳的前鋒苗子。",
+      "quirky_trivia": "鹿島Youth二種前鋒，官方登錄讓他可越級接觸一隊比賽。",
       "legacy_id": "jleague_kashima_47",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2751,23 +4403,89 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "俱樂部梯隊/一隊",
+          "season": null,
+          "team": "Kashima Antlers Junior Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得 2種登錄 資格隨一線隊運作",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "鹿島Youth二種登錄公告",
+          "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "U-18",
+        "2種",
+        "Home Grown"
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_48",
+      "id": "kashima_48",
       "club": "鹿島鹿角",
       "number": "48",
       "name_zh": "滝澤 周生",
@@ -2781,29 +4499,35 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Kashima Antlers Junior Youth",
-      "registration_status": "2種登錄 (青年球員)",
+      "registration_status": "二種登錄",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
       "intro": "岩手縣出身的衝刺型前鋒，獲得一隊 2種登錄，跑位靈敏且抗壓性強。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Kashima Antlers Junior Youth",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得 2種登錄 隨隊訓練"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "鹿島梯隊主力攻擊手"
       ],
       "milestones": [
-        "17歲獲得 2種登錄 資格"
+        "2026/27列入鹿島現役登錄（#48）。"
       ],
       "tactical_traits": [
-        "靈敏無球跑位",
-        "直線衝刺逼搶"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "遠從岩手前往鹿島青訓體系發展，展現出極強的職業追求。",
+      "quirky_trivia": "鹿島Youth二種前鋒，與同批二年級球員一同提早進入Top Team註冊。",
       "legacy_id": "jleague_kashima_48",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2813,23 +4537,89 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "鹿島鹿角",
-          "competition": "俱樂部梯隊/一隊",
+          "season": null,
+          "team": "Kashima Antlers Junior Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得 2種登錄 隨隊訓練",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "鹿島Youth二種登錄公告",
+              "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "鹿島Youth二種登錄公告",
+          "url": "https://www.antlers.co.jp/blogs/news/26082198iatt",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "U-18",
+        "2種",
+        "Home Grown"
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_55",
+      "id": "kashima_55",
       "club": "鹿島鹿角",
       "number": "55",
       "name_zh": "植田 直通",
@@ -2849,22 +4639,16 @@
       "intro": "186公分國腳級悍將中後衛，肢體對抗、高空頭球對抗與後防領袖氣場極強。",
       "timeline": [
         {
-          "period": "2013–2018",
-          "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "大津高中畢業加盟，率鹿島勇奪 2016 J1 冠軍"
+          "period": "履歷",
+          "team": "Nîmes",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2018–2022",
-          "team": "Cercle Brugge / Nîmes",
-          "category": "比甲/法甲",
-          "milestone": "旅歐征戰比利時與法國甲組聯賽"
-        },
-        {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "重返鹿島鎮守後防防空屏障"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -2873,13 +4657,13 @@
         "1次 亞冠盃（ACL）冠軍 (2018 [鹿島鹿角])"
       ],
       "milestones": [
-        "J1 聯賽登場突破 180 場"
+        "2026/27列入鹿島現役登錄（#55）。"
       ],
       "tactical_traits": [
-        "186cm 頂級高空爭頂防空",
-        "正面強悍體魄肉搏"
+        "鹿島高位主動防守要求後衛敢前頂，同時保護身後空間。",
+        "奪回球後快速找到中場／邊路，是由守轉攻第一步。"
       ],
-      "quirky_trivia": "高中時期兼練跆拳道並獲得赤帶（紅帶），在場上以不可動搖的身體對抗著稱。",
+      "quirky_trivia": "2026百年構想聯賽獲Fair Play個人獎；前7輪64.8km跑動，是後防穩定核心。",
       "legacy_id": "jleague_kashima_55",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2889,45 +4673,176 @@
       "player_image": "",
       "career": [
         {
-          "season": "2013–2018",
-          "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Nîmes",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大津高中畢業加盟，率鹿島勇奪 2016 J1 冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2018–2022",
-          "team": "Cercle Brugge / Nîmes",
-          "competition": "比甲/法甲",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐征戰比利時與法國甲組聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返鹿島鎮守後防防空屏障",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_kashima_77",
+      "name_zh": "荒木遼太郎",
+      "name_ja": "荒木 遼太郎",
+      "name_en": "Ryotaro Araki",
+      "position": "MF",
+      "dob": "2002-01-29",
+      "height": 170,
+      "weight": 60,
+      "birthplace": "熊本縣",
+      "prev_club": "FC東京",
+      "registration_status": "本國球員",
+      "registration_tags": [
+        "Home Grown"
+      ],
+      "intro": "鹿島青年前場核心回歸，170cm技術型中場，可在兩線之間接球、盤帶與送最後一傳。",
+      "quirky_trivia": "荒木遼太郎的直播辨識點是#71與MF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
+      "id": "kashima_71",
+      "club": "鹿島鹿角",
+      "team_slug": "kashima",
+      "number": "71",
+      "season_start_age": 24,
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "name_source": "官方日本名；TVB原表未及此季中／回歸項目時不另造譯名。",
+      "tactical_traits": [
+        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
+        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
+      ],
+      "milestones": [
+        "2026/27列入鹿島現役登錄（#71）。"
+      ],
+      "career": [
+        {
+          "season": null,
+          "team": "FC東京",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "period": "履歷",
+          "team": "FC東京",
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
+        }
+      ],
+      "honors": [],
+      "season_stats": []
+    },
+    {
+      "id": "kashima_77",
       "club": "鹿島鹿角",
       "number": "77",
       "name_zh": "卡夫歷",
@@ -2947,16 +4862,16 @@
       "intro": "186公分高大衝鋒型前鋒，速度快，頭球爭頂與反擊爆發力極強。",
       "timeline": [
         {
-          "period": "2016–2023",
+          "period": "履歷",
           "team": "Slovan Bratislava",
-          "category": "斯洛伐克聯賽",
-          "milestone": "布拉迪斯拉發王牌中鋒，勇奪 5 次聯賽冠軍"
+          "category": "育成／職業履歷",
+          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "加盟鹿島，擔任前場撞錘重炮"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -2964,13 +4879,13 @@
         "4次 斯洛伐克盃冠軍 (Slovan Bratislava)"
       ],
       "milestones": [
-        "歐協聯（UECL）單季 4 球神射手前列"
+        "2026/27列入鹿島現役登錄（#77）。"
       ],
       "tactical_traits": [
-        "186cm 高速衝刺反擊",
-        "禁區高空爭頂支點"
+        "前場需要參與第一線press，不只等待射門。",
+        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
       ],
-      "quirky_trivia": "在斯洛伐克豪門效力多年捧盃無數，具備極強的歐洲賽場經驗。",
+      "quirky_trivia": "卡夫歷的直播辨識點是#77與FW角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
       "legacy_id": "jleague_kashima_77",
       "official_player_id": null,
       "team_slug": "kashima",
@@ -2980,31 +4895,67 @@
       "player_image": "",
       "career": [
         {
-          "season": "2016–2023",
+          "season": null,
           "team": "Slovan Bratislava",
-          "competition": "斯洛伐克聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "布拉迪斯拉發王牌中鋒，勇奪 5 次聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "鹿島鹿角",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟鹿島，擔任前場撞錘重炮",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27現役名單",
+              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League鹿島",
+              "url": "https://www.jleague.jp/club/kashima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "鹿島2026/27現役名單",
+          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League鹿島",
+          "url": "https://www.jleague.jp/club/kashima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     }
   ]
 }
