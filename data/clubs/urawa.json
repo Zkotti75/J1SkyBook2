@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-18T14:20:57.747Z",
+  "generated_at": "2026-09-18T14:26:38.084Z",
   "team": {
     "id": "team_urawa",
     "type": "team_info",
@@ -8,23 +8,37 @@
     "club_en": "Urawa Red Diamonds",
     "logo_url": "logos/japan_urawa-reds.football-logos.cc.svg",
     "hometown": "埼玉縣埼玉市",
-    "hometown_population": "1,340,000人",
-    "name_history": "隊名「Red Diamonds」源自母公司三菱集團的紅色三顆鑽石標誌，象徵堅固團結與熱血霸氣。",
+    "hometown_population": "1,360,813人（2026-09-01）",
+    "name_history": "『Red Diamonds』把球會色紅色（Red）與象徵最高光芒及堅固團結的Diamond結合。2001年主場城市由浦和市合併成埼玉市後，球會仍保留『浦和』名稱。",
     "stadium_info": {
-      "name": "Saitama Stadium 2002",
+      "name": "埼玉スタジアム2002",
+      "name_zh": "埼玉2002體育場",
       "year_built": 2001,
-      "year_renovated": 2017,
+      "opening_date": "2001-10-13",
       "capacity": 63700,
+      "jleague_match_capacity": 62040,
+      "address": "埼玉縣埼玉市綠區美園2-1",
+      "nearest_station": "埼玉高速鐵道 浦和美園站",
+      "walking_time": "約15–20分鐘",
+      "secondary_stadium": {
+        "name": "浦和駒場スタジアム",
+        "capacity": 21481
+      },
       "interesting_facts": [
-        "日本最大的專用足球場之一",
-        "亞洲最具震撼力的主場聲浪，紅鑽球迷看台「熱狂南看台」聞名遐邇"
+        "為2002 FIFA世界盃興建的足球專用球場；場館官方列63,700個座位，是日本最大、亞洲最大級的足球專用球場之一。",
+        "J.League目前登記的比賽入場可能數為62,040人；這與場館本身63,700個座位的物理容量不同。",
+        "2001年10月13日由浦和對橫濱水手作開幕戰，當日共有60,533名觀眾入場。",
+        "最近車站為浦和美園站，沿1.2公里步行專用道路前往球場約15–20分鐘；大型比賽日官方建議使用公共交通。"
       ]
     },
-    "team_history": "前身為1950年成立的三菱重工足球部，1992年成為J聯賽創始球隊之一。",
+    "team_history": "球會源流可追溯至1950年創立的中日本重工業足球部。1958年球隊移至東京，1964年成為三菱重工業足球部，1990年改稱三菱自動車工業足球部；1992年成立三菱浦和Football Club，翌年成為J.League創始球會之一。1996年正式採用『浦和Red Diamonds』名稱。2000年曾降落J2但一年後回升；2000年代中期進入首個黃金期，2006首奪J1，2007成為亞洲冠軍。其後再於2017及2022兩奪ACL，成為三度亞洲冠軍球會。",
     "performance_history": [
-      "1次 J1 聯賽冠軍 (2006)",
-      "3次 亞冠盃 (ACL) 冠軍 (2007, 2017, 2022)",
-      "8次 天皇盃冠軍"
+      "J1聯賽冠軍：1次（2006）",
+      "AFC Champions League冠軍：3次（2007、2017、2022）",
+      "J.League Cup／Levain Cup冠軍：2次（2003、2016）",
+      "天皇盃冠軍：4次（2005、2006、2018、2021）",
+      "日本Super Cup冠軍：2次（2006、2022）",
+      "FIFA Club World Cup最佳成績：第3名（2007）"
     ],
     "slug": "urawa",
     "data_key": "浦和紅鑽",
@@ -37,89 +51,922 @@
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "legacy_unverified",
-    "sources": []
+    "roster_as_of": "2026-09-18",
+    "data_status": "verified",
+    "sources": [
+      {
+        "label": "浦和紅鑽官方：球會Profile及歷史年表",
+        "url": "https://www.urawa-reds.co.jp/club/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "浦和紅鑽官方：This is REDS／主要榮譽",
+        "url": "https://www.urawa-reds.co.jp/club/this_is_reds/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League官方：球會Profile、球場及主要冠軍",
+        "url": "https://www.jleague.jp/club/urawa/profile/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League官方：歷季聯賽排名",
+        "url": "https://www.jleague.jp/club/urawa/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "埼玉2002體育場官方：場館規格",
+        "url": "https://www.stadium2002.com/stadium_10.html",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "埼玉2002體育場官方：交通資訊",
+        "url": "https://www.stadium2002.com/access.html",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "浦和紅鑽官方：埼玉球場開幕10周年回顧",
+        "url": "https://www.urawa-reds.co.jp/clubinfo/5872/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "埼玉市官方：2026年9月人口",
+        "url": "https://www.city.saitama.lg.jp/006/014/008/003/015/006/p133126.html",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "浦和紅鑽官方：2026/27順位表",
+        "url": "https://www.urawa-reds.co.jp/ranking/",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "established": 1950,
+    "corporation": "浦和レッドダイヤモンズ株式会社",
+    "president": "田口 誠",
+    "club_color": "紅色",
+    "hometown_population_as_of": "2026-09-01",
+    "history_timeline": [
+      {
+        "year": "1950",
+        "event": "中日本重工業足球部創立。"
+      },
+      {
+        "year": "1964",
+        "event": "改稱三菱重工業足球部。"
+      },
+      {
+        "year": "1992",
+        "event": "三菱浦和Football Club成立。"
+      },
+      {
+        "year": "1993",
+        "event": "J.League開幕；浦和為創始球會之一。"
+      },
+      {
+        "year": "1996",
+        "event": "正式採用浦和Red Diamonds名稱。"
+      },
+      {
+        "year": "2006",
+        "event": "首奪J1冠軍，並同季贏得天皇盃。"
+      },
+      {
+        "year": "2007",
+        "event": "首奪AFC Champions League；FIFA Club World Cup取得第3名。"
+      },
+      {
+        "year": "2017",
+        "event": "第二度奪得AFC Champions League。"
+      },
+      {
+        "year": "2022",
+        "event": "第三度奪得AFC Champions League（決賽於2023完成）。"
+      },
+      {
+        "year": "2026/27",
+        "event": "J.League轉秋春制首季，由曺貴裁執教。"
+      }
+    ],
+    "recent_seasons": [
+      {
+        "season": "2023",
+        "competition": "J1",
+        "finish": "第4名"
+      },
+      {
+        "season": "2024",
+        "competition": "J1",
+        "finish": "第13名"
+      },
+      {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "第7名"
+      },
+      {
+        "season": "2026特別",
+        "competition": "J1百年構想聯賽",
+        "finish": "最終第12名"
+      },
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第12名（7戰3勝0和4負、9分；截至2026-09-13）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "明治安田J1 League",
+      "manager": "曺貴裁",
+      "matches": 7,
+      "wins": 3,
+      "draws": 0,
+      "losses": 4,
+      "points": 9,
+      "rank": 12,
+      "goal_difference": -4,
+      "as_of": "2026-09-13"
+    },
+    "verified_at": "2026-09-18"
   },
   "manager": {
     "id": "jleague_urawa_mgr",
     "club": "浦和紅鑽",
     "number": "HC",
     "name_zh": "曺貴裁",
-    "name_en": "Cho Kwi-jae",
+    "name_en": "Kwi Jae Cho",
     "position": "MANAGER",
     "dob": "1969-01-16",
     "age": 57,
-    "height": 177,
-    "weight": 74,
-    "foot": "右腳",
-    "nationality": "南韓",
+    "height": null,
+    "weight": null,
+    "foot": "",
+    "nationality": "韓國",
     "joined": 2026,
-    "prev_club": "Kyoto Sanga",
-    "registration_status": "總教練",
-    "tenure_status": "執教第1季",
-    "national_team_detail": "無",
-    "intro": "戰術風格極具侵略性的資深名帥，主張「高強度全員壓迫與極速反擊」理念。",
+    "prev_club": "京都サンガF.C.",
+    "registration_status": "監督",
+    "tenure_status": "2026/27為執教浦和第1季；1994–1995曾以球員身份效力浦和",
+    "national_team_detail": "",
+    "intro": "京都府出生的韓國籍教練。球員年代曾效力浦和，退役後由青訓與助教工作累積經驗；2012至2019長期執教湘南，兩奪J2冠軍並在2018贏得J.League Cup。2021接掌京都後首季即帶隊相隔12個球季重返J1，2025再帶隊取得球會史上最佳的J1第3名。2026/27回到浦和出任主教練。",
     "timeline": [
       {
-        "period": "2021–2025",
-        "team": "Kyoto Sanga",
-        "category": "J1職業隊",
-        "milestone": "率領京都不死鳥穩居J1"
+        "period": "1991–1997",
+        "team": "日立製作所／柏、浦和、神戶",
+        "category": "球員",
+        "milestone": "1994–1995曾穿上浦和球衣。"
       },
       {
-        "period": "2026–至今",
+        "period": "2000–2011",
+        "team": "川崎／大阪櫻花／湘南",
+        "category": "教練及青訓",
+        "milestone": "由助教、U-15、U-18及Head Coach逐級累積執教經驗。"
+      },
+      {
+        "period": "2012–2019",
+        "team": "湘南ベルマーレ",
+        "category": "監督",
+        "milestone": "建立高能量『湘南Style』，2014、2017兩奪J2冠軍，2018贏得League Cup。"
+      },
+      {
+        "period": "2020",
+        "team": "流通經濟大學",
+        "category": "Coach",
+        "milestone": "大學足球教練。"
+      },
+      {
+        "period": "2021–2026.5",
+        "team": "京都サンガF.C.",
+        "category": "監督",
+        "milestone": "首季升J1；2025取得J1第3名。"
+      },
+      {
+        "period": "2026/27–",
         "team": "浦和紅鑽",
-        "category": "J1職業隊",
-        "milestone": "執掌浦和紅鑽帥印"
+        "category": "監督",
+        "milestone": "回歸昔日效力球會執教。"
       }
     ],
     "honors": [
-      "J.League 盃冠軍 (2018)",
-      "J2最佳總教練 (2014)"
+      "J2冠軍：2014、2017（湘南ベルマーレ）",
+      "J.League Cup冠軍：2018（湘南ベルマーレ）",
+      "J2優秀監督獎：2017（湘南ベルマーレ）",
+      "J2優秀監督獎：2021（京都サンガF.C.）",
+      "京都サンガF.C.球會史上最佳J1名次：2025第3名"
     ],
     "milestones": [
-      "帶領京都不死鳥睽違12年重返J1"
+      "2012年首次成為J.League一隊主教練，接掌湘南ベルマーレ。",
+      "2014與2017兩度帶湘南贏得J2冠軍並升班。",
+      "2018帶湘南贏得球會首個J.League Cup冠軍。",
+      "2021接掌京都首季即帶隊相隔12個球季重返J1。",
+      "2025京都取得J1第3名，創球會頂級聯賽最佳成績。",
+      "2026年6月16日獲浦和宣布為2026/27主教練。"
     ],
     "tactical_traits": [
-      "全員高壓逼搶 (Gegenpressing)",
-      "極速體能對抗"
+      "核心不是固定單一陣式，而是要求球員保持能量與主動性；季前初段刻意減少過度戰術限制，再逐步加入位置與距離要求。",
+      "強調前場施壓、奪球後向前推進，以及全隊在攻守轉換時同步反應；這些特徵延續其湘南與京都時期的高強度風格。",
+      "2026浦和季前特別強調『情熱與理論共存』；比賽中亦願意因人數與局面改變系統，而不犧牲球員的躍動感。",
+      "重視與球員對話及建立信任，目標是讓球員在場上主動作決定，而非只執行預設指令。"
     ],
-    "quirky_trivia": "訓練極度嚴格，被譽為激情型戰術大師。",
+    "quirky_trivia": "這次並非首次以浦和一員身份站在埼玉：1994至1995球員年代已效力浦和。2026年回歸時，他把目標形容為讓『球員躍動、支持者熱狂』的足球重新出現在浦和。",
     "legacy_id": "jleague_urawa_mgr",
     "official_player_id": null,
     "team_slug": "urawa",
-    "name_ja": "",
-    "birthplace": "",
+    "name_ja": "曺 貴裁",
+    "birthplace": "京都府",
     "season_start_age": 57,
     "player_image": "",
     "career": [
       {
-        "season": "2021–2025",
-        "team": "Kyoto Sanga",
-        "competition": "J1職業隊",
+        "season": "1991",
+        "team": "日立製作所サッカー部",
+        "competition": "日本職業／企業足球",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "率領京都不死鳥穩居J1",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "球員",
+        "notes": "1991–1993效力日立製作所／柏。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
       },
       {
-        "season": "2026–至今",
-        "team": "浦和紅鑽",
-        "competition": "J1職業隊",
+        "season": "1992",
+        "team": "柏レイソル",
+        "competition": "日本職業／企業足球",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "執掌浦和紅鑽帥印",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "球員",
+        "notes": "1991–1993效力日立製作所／柏。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1993",
+        "team": "柏レイソル",
+        "competition": "日本職業／企業足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "1991–1993效力日立製作所／柏。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1994",
+        "team": "浦和レッズ",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "球員年代曾效力浦和。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1995",
+        "team": "浦和レッズ",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "球員年代曾效力浦和。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1996",
+        "team": "ヴィッセル神戸",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "球員生涯末段。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1997",
+        "team": "ヴィッセル神戸",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "球員生涯末段。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1998",
+        "team": "德國科隆體育大學",
+        "competition": "海外研修",
+        "appearances": null,
+        "goals": null,
+        "status": "留學",
+        "notes": "教練生涯前赴德國留學。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "京都官方履歷",
+            "url": "https://www.sanga-fc.jp/news/detail/20586",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1999",
+        "team": "德國科隆體育大學",
+        "competition": "海外研修",
+        "appearances": null,
+        "goals": null,
+        "status": "留學",
+        "notes": "教練生涯前赴德國留學。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "京都官方履歷",
+            "url": "https://www.sanga-fc.jp/news/detail/20586",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2000",
+        "team": "川崎フロンターレ",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "助教",
+        "notes": "一隊Assistant Coach。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2001",
+        "team": "川崎フロンターレU-15",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-15監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2002",
+        "team": "川崎フロンターレU-15",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-15監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2003",
+        "team": "川崎フロンターレU-15",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-15監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2004",
+        "team": "セレッソ大阪",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "Head Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2005",
+        "team": "湘南ベルマーレU-15",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-15監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2006",
+        "team": "湘南ベルマーレU-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2007",
+        "team": "湘南ベルマーレU-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2008",
+        "team": "湘南ベルマーレU-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2009",
+        "team": "湘南ベルマーレ",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "Head Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2010",
+        "team": "湘南ベルマーレ",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "Head Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2011",
+        "team": "湘南ベルマーレ",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "Head Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2012",
+        "team": "湘南ベルマーレ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2013",
+        "team": "湘南ベルマーレ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2014",
+        "team": "湘南ベルマーレ",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J2冠軍並升上J1。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2015",
+        "team": "湘南ベルマーレ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2016",
+        "team": "湘南ベルマーレ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2017",
+        "team": "湘南ベルマーレ",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J2冠軍；J2優秀監督獎。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          },
+          {
+            "label": "J.League：2017 J2冠軍",
+            "url": "https://www.jleague.jp/news/article/10488/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2018",
+        "team": "湘南ベルマーレ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J.League Cup冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          },
+          {
+            "label": "J.League：2018 League Cup冠軍",
+            "url": "https://www.jleague.jp/news/article/13162/?mode=pc",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2019",
+        "team": "湘南ベルマーレ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "執教至10月。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2020",
+        "team": "流通經濟大學",
+        "competition": "大學足球",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "3月至12月。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2021",
+        "team": "京都サンガF.C.",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J2第2名，帶隊相隔12個球季重返J1。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "京都官方履歷",
+            "url": "https://www.sanga-fc.jp/news/detail/20586",
+            "accessed_at": "2026-09-18"
+          },
+          {
+            "label": "京都官方：J1升班",
+            "url": "https://www.sanga-fc.jp/news/detail/16434",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2022",
+        "team": "京都サンガF.C.",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "京都官方履歷",
+            "url": "https://www.sanga-fc.jp/news/detail/20586",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2023",
+        "team": "京都サンガF.C.",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "京都官方履歷",
+            "url": "https://www.sanga-fc.jp/news/detail/20586",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2024",
+        "team": "京都サンガF.C.",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "京都官方履歷",
+            "url": "https://www.sanga-fc.jp/news/detail/20586",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "team": "京都サンガF.C.",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1第3名，京都球會史上最佳J1名次。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "京都官方履歷",
+            "url": "https://www.sanga-fc.jp/news/detail/20586",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "team": "京都サンガF.C.",
+        "competition": "J1百年構想聯賽",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "執教至2026年5月。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "浦和紅鑽",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "2026年8月起執掌浦和。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "浦和監督就任公告",
+            "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
       }
     ],
-    "sources": [],
-    "verification_status": "legacy_unverified",
-    "verified_at": null
+    "sources": [
+      {
+        "label": "浦和紅鑽官方監督檔案",
+        "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=569",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "浦和紅鑽：監督就任公告及完整履歷",
+        "url": "https://www.urawa-reds.co.jp/topteamtopics/242566/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "浦和紅鑽：2026夏季訓練營記者會",
+        "url": "https://www.urawa-reds.co.jp/topteamtopics/244241/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "浦和紅鑽：2026/27開幕戰賽後記者會",
+        "url": "https://www.urawa-reds.co.jp/topteamtopics/244828/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "京都官方：2025後續約公告及完整履歷",
+        "url": "https://www.sanga-fc.jp/news/detail/20586",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "京都官方：2021帶隊升上J1",
+        "url": "https://www.sanga-fc.jp/news/detail/16434",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League：2017湘南J2冠軍",
+        "url": "https://www.jleague.jp/news/article/10488/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League：2018湘南League Cup冠軍",
+        "url": "https://www.jleague.jp/news/article/13162/?mode=pc",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-18",
+    "registration_tags": [],
+    "license": "日本足球協會公認S級教練牌照"
   },
   "players": [
     {
