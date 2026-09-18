@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T18:17:03.944Z",
+  "generated_at": "2026-09-19T08:20:00+09:00",
   "team": {
     "id": "team_yokohama-fm",
     "type": "team_info",
@@ -18,109 +18,374 @@
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "legacy_unverified",
-    "sources": []
+    "roster_as_of": "2026-09-19",
+    "data_status": "verified",
+    "established": 1972,
+    "roots": "1972日產自動車足球部成立；1992職業營運公司成立；1993 J.League Original 10。1999與橫濱Flügels整合成現時橫濱F・Marinos。",
+    "corporation": "横浜マリノス株式会社",
+    "president": "芦澤俊介",
+    "club_color": "藍、紅、白",
+    "hometown": "橫濱市、橫須賀市、大和市",
+    "name_history": "Marinos是西班牙語『水手』，呼應港都橫濱；1999整合橫濱Flügels後加入『F』。",
+    "stadium_info": {
+      "name": "Nissan Stadium",
+      "name_zh": "日產體育場",
+      "capacity": 71624,
+      "jleague_match_capacity": 71624,
+      "address": "神奈川県横浜市港北区小机町3300",
+      "interesting_facts": [
+        "J.League現行容量71,624。",
+        "亦使用Nippatsu Mitsuzawa Football Stadium舉行部分主場賽。",
+        "日產體育場曾舉行2002 FIFA World Cup決賽。"
+      ]
+    },
+    "team_history": "日本職業足球代表性豪門。1995首奪J.League冠軍，2003、2004連霸，2019及2022再奪冠；2024打入AFC Champions League決賽。2026/27由Steve Corica接掌。",
+    "history_timeline": [
+      {
+        "year": "1972",
+        "event": "日產自動車足球部成立。"
+      },
+      {
+        "year": "1992",
+        "event": "職業營運公司成立。"
+      },
+      {
+        "year": "1993",
+        "event": "Original 10。"
+      },
+      {
+        "year": "1995",
+        "event": "首次J.League冠軍。"
+      },
+      {
+        "year": "1999",
+        "event": "與橫濱Flügels整合。"
+      },
+      {
+        "year": "2003",
+        "event": "兩Stage皆冠軍。"
+      },
+      {
+        "year": "2004",
+        "event": "J1連霸。"
+      },
+      {
+        "year": "2019",
+        "event": "第四次J1冠軍。"
+      },
+      {
+        "year": "2022",
+        "event": "第五次J1冠軍。"
+      },
+      {
+        "year": "2024",
+        "event": "ACL亞軍。"
+      }
+    ],
+    "performance_history": [
+      "J1冠軍5次（1995、2003、2004、2019、2022）",
+      "J.League Cup冠軍1次（2001）",
+      "天皇盃：職業化後2013冠軍；前身日產時代另有多次冠軍",
+      "2024 AFC Champions League亞軍"
+    ],
+    "recent_seasons": [
+      {
+        "season": "2021",
+        "competition": "J1",
+        "finish": "第2"
+      },
+      {
+        "season": "2022",
+        "competition": "J1",
+        "finish": "冠軍"
+      },
+      {
+        "season": "2023",
+        "competition": "J1",
+        "finish": "第2"
+      },
+      {
+        "season": "2024",
+        "competition": "J1",
+        "finish": "第9／ACL亞軍"
+      },
+      {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "第15"
+      },
+      {
+        "season": "2026",
+        "competition": "J1百年構想聯賽",
+        "finish": "第13"
+      },
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第9（3勝2和2負；截至9/17）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "明治安田J1 League",
+      "manager": "Steve Corica",
+      "matches": 7,
+      "wins": 3,
+      "draws": 2,
+      "losses": 2,
+      "points": 11,
+      "goals_for": 11,
+      "goals_against": 9,
+      "goal_difference": 2,
+      "rank": 9,
+      "as_of": "2026-09-17"
+    },
+    "leadership": {
+      "captain": "喜田拓也",
+      "vice_captains": [
+        "佐迪・確斯",
+        "角田涼太朗"
+      ],
+      "note": "喜田2019起連續8季任隊長，球會最長。"
+    },
+    "roster_notes": [
+      "Current pool 35人：31名regular＋2名特別指定＋2名Youth二種。",
+      "#29樋口有斗9/11外借福島聯，不列current squad。",
+      "#47三井寺眞現已列官方Top Team一般MF。",
+      "#55平野遼生日修正為2008-09-23。"
+    ],
+    "commentary_notes": [
+      "前7輪3勝2和2負第9；谷村海那6球。",
+      "Corica核心為高位press；若被破，快速後衛需處理大空間。",
+      "知念慶32次duel won第一。",
+      "松村晃助73.8km跑動第一，仍是法政大學特別指定。",
+      "近藤友喜93次衝刺第一；井上、角田、情滋奧拿爾最高速33.7km/h。"
+    ],
+    "sources": [
+      {
+        "label": "橫濱水手官方歷史",
+        "url": "https://www.f-marinos.com/en/club/history",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "橫濱水手現役名單",
+        "url": "https://www.f-marinos.com/team/player/",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "J.League橫濱水手",
+        "url": "https://www.jleague.jp/club/yokohamafm/",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verified_at": "2026-09-19",
+    "naming_policy": {
+      "japanese_clubs": "有可靠香港／繁中譯名時使用繁體中文。",
+      "japanese_schools": "有可靠中文形式時使用繁體中文。",
+      "foreign_clubs_and_leagues": "English.",
+      "player_display_names": "TVB主資料庫為香港中文名authority；TVB未確認者使用官方日文／英文名。"
+    }
   },
   "manager": {
-    "id": "jleague_yokohama_hc",
+    "id": "yokohama_mgr_corica",
     "club": "橫濱水手",
     "number": "HC",
-    "name_zh": "哥列卡",
+    "name_zh": "Steve Corica",
+    "name_ja": "スティーブ コリカ",
     "name_en": "Steve Corica",
     "position": "MANAGER",
     "dob": "1973-03-24",
-    "age": 53,
-    "height": 178,
-    "weight": 74,
-    "foot": "右腳",
+    "season_start_age": 53,
+    "birthplace": "Innisfail, Australia",
     "nationality": "澳洲",
+    "height": null,
+    "weight": null,
+    "foot": "",
     "joined": 2026,
     "prev_club": "Auckland FC",
-    "registration_status": "教練組",
-    "tenure_status": "執教第1季",
-    "national_team_detail": "澳洲國家隊 (32 Caps / 5 Goals)",
-    "intro": "前澳洲國腳與雪梨FC功勳教頭，擅長打造極具侵略性的前場壓迫與快速縱向傳導體系。",
+    "registration_status": "監督",
+    "registration_tags": [],
+    "tenure_status": "2026-06-21就任",
+    "license": "AFC Pro License",
+    "national_team_detail": "球員年代澳洲成年代表",
+    "intro": "澳洲前國腳。Sydney FC由Youth／Assistant逐級升任監督，2024成為Auckland FC創會首任監督，2026年6月接掌水手。",
     "timeline": [
       {
-        "period": "2018–2023",
+        "period": "Sydney FC",
         "team": "Sydney FC",
-        "category": "澳職領隊",
-        "milestone": "率領雪梨FC奪得多次澳職總冠軍與例行賽冠軍"
+        "category": "Youth／Assistant→監督",
+        "milestone": "2018/19 Championship；2019/20雙冠。"
       },
       {
-        "period": "2023–2025",
+        "period": "2024–2026",
         "team": "Auckland FC",
-        "category": "澳職領隊",
-        "milestone": "執教奧克蘭FC打出穩定競爭力"
+        "category": "監督",
+        "milestone": "2024/25 Premiership、2025/26 Championship。"
       },
       {
-        "period": "2026–至今",
+        "period": "2026/27",
         "team": "橫濱水手",
-        "category": "J1領隊",
-        "milestone": "接掌橫濱水手挑戰J1錦標"
+        "category": "監督",
+        "milestone": "前7輪3勝2和2負。"
       }
     ],
     "honors": [
-      "2x A-League 總冠軍 (2019, 2020 [Sydney FC])"
+      "2018/19 A-League Championship",
+      "2019/20 A-League Premiership",
+      "2019/20 A-League Championship",
+      "2024/25 A-League Premiership",
+      "2025/26 A-League Championship"
     ],
     "milestones": [
-      "澳洲籍總教練闖蕩J1聯賽代表人物"
+      "2024/25獲A-League及PFA年度最佳教練。",
+      "2026-06-21任橫濱水手監督。"
     ],
     "tactical_traits": [
-      "高位壓迫與快速攻防轉換",
-      "注重邊路雙翼齊飛的戰術配置"
+      "核心為前場高位press，力求在對手後場奪回後快速射門。",
+      "不拘泥單一陣式；SD公開強調其按陣容彈性調整能力。",
+      "雙翼／邊路提供寬度，中場負責第二點與再進攻。",
+      "高位壓迫背後依賴中堅速度處理大空間。"
     ],
-    "quirky_trivia": "球員時代曾效力李斯特城、屈福特及日本J1烏魯斯，具備深厚的亞洲足球淵源。",
-    "legacy_id": "jleague_yokohama_hc",
-    "official_player_id": null,
-    "team_slug": "yokohama-fm",
-    "name_ja": "",
-    "birthplace": "",
-    "season_start_age": 53,
-    "player_image": "",
+    "quirky_trivia": "球員年代2000/01曾效力廣島三箭；二十多年後以監督身份重返J1。",
     "career": [
       {
-        "season": "2018–2023",
+        "season": "2010",
+        "team": "Sydney FC Youth",
+        "competition": "A-League Academy",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "退役後展開教練生涯。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Corica就任公告",
+            "url": "https://www.f-marinos.com/news/team/10188",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": null,
         "team": "Sydney FC",
-        "competition": "澳職領隊",
+        "competition": "A-League",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "率領雪梨FC奪得多次澳職總冠軍與例行賽冠軍",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Youth／Assistant",
+        "notes": "2011至2018先後任Assistant及Youth監督。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Corica就任公告",
+            "url": "https://www.f-marinos.com/news/team/10188",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       },
       {
-        "season": "2023–2025",
+        "season": "2018/19",
+        "team": "Sydney FC",
+        "competition": "A-League",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "Championship冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Corica就任公告",
+            "url": "https://www.f-marinos.com/news/team/10188",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2019/20",
+        "team": "Sydney FC",
+        "competition": "A-League",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "Premiership＋Championship。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Corica就任公告",
+            "url": "https://www.f-marinos.com/news/team/10188",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2024/25",
         "team": "Auckland FC",
-        "competition": "澳職領隊",
+        "competition": "A-League",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "執教奧克蘭FC打出穩定競爭力",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "監督",
+        "notes": "Premiership；年度最佳教練。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Corica就任公告",
+            "url": "https://www.f-marinos.com/news/team/10188",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       },
       {
-        "season": "2026–至今",
-        "team": "橫濱水手",
-        "competition": "J1領隊",
+        "season": "2025/26",
+        "team": "Auckland FC",
+        "competition": "A-League",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "接掌橫濱水手挑戰J1錦標",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "監督",
+        "notes": "Championship。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Corica就任公告",
+            "url": "https://www.f-marinos.com/news/team/10188",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "橫濱水手",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "2026-06-21就任。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Corica就任公告",
+            "url": "https://www.f-marinos.com/news/team/10188",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       }
     ],
-    "sources": [],
-    "verification_status": "legacy_unverified",
-    "verified_at": null
+    "sources": [
+      {
+        "label": "Corica就任公告",
+        "url": "https://www.f-marinos.com/news/team/10188",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "2026/27新體制",
+        "url": "https://www.f-marinos.com/news/club/10220",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-19"
   },
   "players": [
     {
-      "id": "jleague_yokohama_1",
+      "id": "yokohama_1",
       "club": "橫濱水手",
       "number": "1",
       "name_zh": "朴一圭",
@@ -129,7 +394,7 @@
       "dob": "1989-12-22",
       "age": 36,
       "height": 180,
-      "weight": 72,
+      "weight": 74,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2025,
@@ -172,51 +437,99 @@
       "legacy_id": "jleague_yokohama_1",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "朴 一圭",
+      "birthplace": "埼玉縣",
       "season_start_age": 36,
       "player_image": "",
       "career": [
         {
-          "season": "2019–2020",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "作為主力門將奪得 2019 年 J1 聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2021–2024",
+          "season": null,
           "team": "Sagan Tosu",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "鳥栖砂岩後防核心守護神",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "重返橫濱水手把守大門",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_7",
+      "id": "yokohama_7",
       "club": "橫濱水手",
       "number": "7",
       "name_zh": "遠野大彌",
@@ -225,7 +538,7 @@
       "dob": "1999-03-14",
       "age": 27,
       "height": 166,
-      "weight": 63,
+      "weight": 66,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2025,
@@ -263,40 +576,82 @@
       "legacy_id": "jleague_yokohama_7",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "遠野 大弥",
+      "birthplace": "靜岡縣",
       "season_start_age": 27,
       "player_image": "",
       "career": [
         {
-          "season": "2020–2024",
+          "season": null,
           "team": "Kawasaki Frontale",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力川崎前鋒期間多次攻入關鍵進球",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投橫濱水手強化進攻活力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_8",
+      "id": "yokohama_8",
       "club": "橫濱水手",
       "number": "8",
       "name_zh": "喜田拓也",
@@ -305,7 +660,7 @@
       "dob": "1994-08-23",
       "age": 31,
       "height": 170,
-      "weight": 60,
+      "weight": 65,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2013,
@@ -327,39 +682,78 @@
         "1x J1 聯賽最佳陣容 (2019)"
       ],
       "milestones": [
-        "橫濱水手隊史最核心的冠軍隊長之一"
+        "2019起連續8季擔任橫濱水手隊長，為球會最長紀錄。"
       ],
       "tactical_traits": [
         "精準的位置感與中場攔截",
         "快速出球與節奏調度"
       ],
-      "quirky_trivia": "從小就是水手忠實球迷，是俱樂部歷史上極具代表性的「One-Club Man」象徵之一（除青訓外終特效力一隊）。",
+      "quirky_trivia": "真正的One-Club Man：由Youth升上一隊後未曾代表其他職業球會，並把2019、2022兩次冠軍文化帶入新一代。",
       "legacy_id": "jleague_yokohama_8",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "喜田 拓也",
+      "birthplace": "神奈川縣",
       "season_start_age": 31,
       "player_image": "",
       "career": [
         {
-          "season": "2013–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青訓出身並長期擔任球隊隊長",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Captain",
+        "Home Grown"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_9",
+      "id": "yokohama_9",
       "club": "橫濱水手",
       "number": "9",
       "name_zh": "谷村海那",
@@ -368,7 +762,7 @@
       "dob": "1998-03-05",
       "age": 28,
       "height": 183,
-      "weight": 76,
+      "weight": 81,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2025,
@@ -393,50 +787,92 @@
       ],
       "honors": [],
       "milestones": [
-        "從J2奮鬥至J1頂級豪門的勵志鋒線代表"
+        "2026/27前7輪攻入6球，隊內首席射手。"
       ],
       "tactical_traits": [
         "禁區內強力背身拿球",
         "高空頭槌爭頂與支點牽制"
       ],
-      "quirky_trivia": "在低組別聯賽以強悍的跑動與對抗著名，加盟水手後為鋒線提供不同的支點打法。",
+      "quirky_trivia": "從磐城FC一路打到J1豪門後，本季前7輪已入6球，得分爆發成為Corica時代最清楚的前場主線。",
       "legacy_id": "jleague_yokohama_9",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "谷村 海那",
+      "birthplace": "岩手縣",
       "season_start_age": 28,
       "player_image": "",
       "career": [
         {
-          "season": "2022–2024",
+          "season": null,
           "team": "Iwaki FC",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "作為磐城FC主力射手展現強大衝擊力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "挑戰J1頂級賽場加盟水手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_11",
+      "id": "yokohama_11",
       "club": "橫濱水手",
       "number": "11",
       "name_zh": "佐迪・確斯",
@@ -445,7 +881,7 @@
       "dob": "1994-01-15",
       "age": 32,
       "height": 173,
-      "weight": 68,
+      "weight": 70,
       "foot": "左腳",
       "nationality": "比利時",
       "joined": 2024,
@@ -488,51 +924,101 @@
       "legacy_id": "jleague_yokohama_11",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "ジョルディ クルークス",
+      "birthplace": "比利時",
       "season_start_age": 32,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
+          "season": null,
           "team": "Avispa Fukuoka",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "作為福岡黃蜂主力邊路創造大量進攻機會",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023",
+          "season": null,
           "team": "Cerezo Osaka",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力大阪櫻花",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投橫濱水手加強邊路組織",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Vice Captain"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_13",
+      "id": "yokohama_13",
       "club": "橫濱水手",
       "number": "13",
       "name_zh": "井上太聖",
@@ -541,7 +1027,7 @@
       "dob": "2002-10-01",
       "age": 23,
       "height": 184,
-      "weight": 77,
+      "weight": 83,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
@@ -566,7 +1052,7 @@
       ],
       "honors": [],
       "milestones": [
-        "J1青年中衛潛力股"
+        "2026/27前7輪跑動71.6km、86次衝刺，最高速33.7km/h。"
       ],
       "tactical_traits": [
         "正面一對一防守干擾",
@@ -576,49 +1062,91 @@
       "legacy_id": "jleague_yokohama_13",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "井上 太聖",
+      "birthplace": "東京都",
       "season_start_age": 23,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
+          "season": null,
           "team": "Sagan Tosu",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "鳥栖砂岩後防新秀獲得穩定出場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投橫濱水手提升防線板凳深度",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_14",
+      "id": "yokohama_14",
       "club": "橫濱水手",
       "number": "14",
       "name_zh": "知念慶",
       "name_en": "KEI CHINEN",
-      "position": "FW",
+      "position": "MF",
       "dob": "1995-03-17",
       "age": 31,
       "height": 177,
-      "weight": 72,
+      "weight": 73,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
@@ -652,61 +1180,109 @@
         "1x 天皇盃冠軍 (2023 [川崎前鋒])"
       ],
       "milestones": [
-        "同時勝任前鋒與防守中場的稀有全能悍將"
+        "2026/27前7輪duel won 32次，隊內第一。"
       ],
       "tactical_traits": [
         "強力背身護球與頭槌爭頂",
         "中前場不惜體力的瘋狂逼搶"
       ],
-      "quirky_trivia": "曾被教練成功改造為防守中場，展現出驚人的戰術執行力與硬朗對抗風格。",
+      "quirky_trivia": "鹿島年代曾由前鋒改造為中場；來到水手後，這份對抗與第二點能力成為中場武器。",
       "legacy_id": "jleague_yokohama_14",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "知念 慶",
+      "birthplace": "沖繩縣",
       "season_start_age": 31,
       "player_image": "",
       "career": [
         {
-          "season": "2019–2022",
+          "season": null,
           "team": "Kawasaki Frontale",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "隨川崎前鋒多次奪得聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–2025",
+          "season": null,
           "team": "Kashima Antlers",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力鹿島鹿角並成功轉能改造中場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟橫濱水手強化戰術多樣性",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_15",
+      "id": "yokohama_15",
       "club": "橫濱水手",
       "number": "15",
       "name_zh": "渡邊泰基",
@@ -715,7 +1291,7 @@
       "dob": "1999-04-22",
       "age": 27,
       "height": 181,
-      "weight": 74,
+      "weight": 80,
       "foot": "左腳",
       "nationality": "日本",
       "joined": 2024,
@@ -752,40 +1328,82 @@
       "legacy_id": "jleague_yokohama_15",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "渡邊 泰基",
+      "birthplace": "新潟縣",
       "season_start_age": 27,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
+          "season": null,
           "team": "Albirex Niigata",
-          "competition": "J2/J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "隨新潟天鵝成功升上 J1 並成為主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投橫濱水手強化左路防線與出球",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_17",
+      "id": "yokohama_17",
       "club": "橫濱水手",
       "number": "17",
       "name_zh": "昆奴尼斯",
@@ -829,40 +1447,82 @@
       "legacy_id": "jleague_yokohama_17",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "ジェイソン キニョーネス",
+      "birthplace": "哥倫比亞",
       "season_start_age": 28,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2024",
+          "season": null,
           "team": "Águilas Doradas",
-          "competition": "哥超",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "南美頂級聯賽主力鐵閘",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "跨海加盟橫濱水手鎮守後防",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_18",
+      "id": "yokohama_18",
       "club": "橫濱水手",
       "number": "18",
       "name_zh": "情滋奧拿爾",
@@ -902,44 +1562,86 @@
         "閃電般的邊路無球前插",
         "禁區前的強勢突破"
       ],
-      "quirky_trivia": "為前日本國腳奧拿爾阿道（Ado Onaiwu）的同宗親屬，同樣擁有出色的混血爆發力。",
+      "quirky_trivia": "速度與爆發力鮮明，最適合由側面或第二線衝擊身後；舊檔未經證實的親屬關係描述已移除。",
       "legacy_id": "jleague_yokohama_18",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "オナイウ 情滋",
+      "birthplace": "埼玉縣",
       "season_start_age": 25,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2024",
+          "season": null,
           "team": "Vegalta Sendai",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "仙台維加泰展現極速突破能力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟橫濱水手強化鋒線衝擊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_19",
+      "id": "yokohama_19",
       "club": "橫濱水手",
       "number": "19",
       "name_zh": "泰維斯",
@@ -948,12 +1650,12 @@
       "dob": "2006-01-28",
       "age": 20,
       "height": 179,
-      "weight": 72,
+      "weight": 77,
       "foot": "右腳",
       "nationality": "巴西",
       "joined": 2026,
       "prev_club": "Cruzeiro",
-      "registration_status": "外援名額",
+      "registration_status": "期限付き移籍",
       "tenure_status": "加盟第1季",
       "national_team_detail": "巴西 U-20 國家隊",
       "intro": "巴西高士路青訓出品的天才前鋒新星，盤帶極具森巴靈性且門前嗅覺敏銳。",
@@ -983,40 +1685,82 @@
       "legacy_id": "jleague_yokohama_19",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "テヴィス",
+      "birthplace": "巴西",
       "season_start_age": 20,
       "player_image": "",
       "career": [
         {
-          "season": "2024–2025",
+          "season": null,
           "team": "Cruzeiro",
-          "competition": "巴甲",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "高士路梯隊耀眼新星",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "登陸亞洲加盟橫濱水手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_20",
+      "id": "yokohama_20",
       "club": "橫濱水手",
       "number": "20",
       "name_zh": "坪井湧也",
@@ -1025,7 +1769,7 @@
       "dob": "1999-08-23",
       "age": 26,
       "height": 183,
-      "weight": 78,
+      "weight": 79,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
@@ -1062,40 +1806,82 @@
       "legacy_id": "jleague_yokohama_20",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "坪井 湧也",
       "birthplace": "",
       "season_start_age": 26,
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
+          "season": null,
           "team": "Vissel Kobe",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "隨神戶勝利船獲得J1冠軍榮譽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投橫濱水手增強門將陣容",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_21",
+      "id": "yokohama_21",
       "club": "橫濱水手",
       "number": "21",
       "name_zh": "飯倉大樹",
@@ -1104,7 +1890,7 @@
       "dob": "1986-06-01",
       "age": 40,
       "height": 181,
-      "weight": 74,
+      "weight": 75,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2023,
@@ -1148,51 +1934,101 @@
       "legacy_id": "jleague_yokohama_21",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "飯倉 大樹",
+      "birthplace": "神奈川縣",
       "season_start_age": 40,
       "player_image": "",
       "career": [
         {
-          "season": "2005–2019",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "長期作為水手絕對主力並奪得 2019 聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2020–2022",
+          "season": null,
           "team": "Vissel Kobe",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力神戶勝利船並出戰亞冠",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "回歸橫濱水手傳承精神與擔任更衣室領袖",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Home Grown"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_22",
+      "id": "yokohama_22",
       "club": "橫濱水手",
       "number": "22",
       "name_zh": "角田涼太朗",
@@ -1201,7 +2037,7 @@
       "dob": "1999-06-27",
       "age": 27,
       "height": 185,
-      "weight": 78,
+      "weight": 80,
       "foot": "左腳",
       "nationality": "日本",
       "joined": 2025,
@@ -1241,55 +2077,105 @@
         "左腳流暢的後場長傳調度",
         "預判精準的地面搶斷"
       ],
-      "quirky_trivia": "筑波大學高學歷球員出身，場上踢球風格冷靜儒雅，被視為日本新一代模範中衛。",
+      "quirky_trivia": "左腳中堅兼左閘，旅歐背景增加其處理大空間與後場出球的經驗。",
       "legacy_id": "jleague_yokohama_22",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "角田 涼太朗",
       "birthplace": "",
       "season_start_age": 27,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "作為主力奪得 2022 J1 聯賽冠軍並入選國家隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024",
+          "season": null,
           "team": "Cardiff City",
-          "competition": "英冠",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉戰英國足壇挑戰英冠聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "回歸水手重掌後防核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Vice Captain"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_23",
+      "id": "yokohama_23",
       "club": "橫濱水手",
       "number": "23",
       "name_zh": "宮市亮",
@@ -1298,7 +2184,7 @@
       "dob": "1992-12-14",
       "age": 33,
       "height": 183,
-      "weight": 76,
+      "weight": 78,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2021,
@@ -1342,51 +2228,99 @@
       "legacy_id": "jleague_yokohama_23",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "宮市 亮",
       "birthplace": "",
       "season_start_age": 33,
       "player_image": "",
       "career": [
         {
-          "season": "2011–2015",
+          "season": null,
           "team": "Arsenal",
-          "competition": "英超",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟阿仙奴並外租歐洲多隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2015–2021",
+          "season": null,
           "team": "St. Pauli",
-          "competition": "德乙",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力德國聖保利成為邊路主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2021–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "回歸日本加盟水手並克服大傷重返國家隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_24",
+      "id": "yokohama_24",
       "club": "橫濱水手",
       "number": "24",
       "name_zh": "近藤友喜",
@@ -1395,7 +2329,7 @@
       "dob": "2001-03-21",
       "age": 25,
       "height": 174,
-      "weight": 68,
+      "weight": 67,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
@@ -1420,7 +2354,7 @@
       ],
       "honors": [],
       "milestones": [
-        "J1聯賽高強度邊路折返跑動佼佼者"
+        "2026/27前7輪93次衝刺，隊內第一。"
       ],
       "tactical_traits": [
         "右路上下來回奔跑體能",
@@ -1430,40 +2364,82 @@
       "legacy_id": "jleague_yokohama_24",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "近藤 友喜",
       "birthplace": "",
       "season_start_age": 25,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
+          "season": null,
           "team": "Hokkaido Consadole Sapporo",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "北海道札幌岡薩多主力邊路悍將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投橫濱水手加強右路深度",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_25",
+      "id": "yokohama_25",
       "club": "橫濱水手",
       "number": "25",
       "name_zh": "鈴木冬一",
@@ -1472,7 +2448,7 @@
       "dob": "2000-05-30",
       "age": 26,
       "height": 165,
-      "weight": 62,
+      "weight": 65,
       "foot": "左腳",
       "nationality": "日本",
       "joined": 2025,
@@ -1513,51 +2489,99 @@
       "legacy_id": "jleague_yokohama_25",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "鈴木 冬一",
       "birthplace": "",
       "season_start_age": 26,
       "player_image": "",
       "career": [
         {
-          "season": "2020–2023",
+          "season": null,
           "team": "Lausanne-Sport",
-          "competition": "瑞超",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "瑞士超級聯賽歷練多年",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024",
+          "season": null,
           "team": "Kyoto Sanga",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "回歸日本效力京都不死鳥",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟橫濱水手提供左路多功能選項",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_26",
+      "id": "yokohama_26",
       "club": "橫濱水手",
       "number": "26",
       "name_zh": "甸恩大衛",
@@ -1566,7 +2590,7 @@
       "dob": "1996-03-14",
       "age": 30,
       "height": 184,
-      "weight": 77,
+      "weight": 76,
       "foot": "右腳",
       "nationality": "以色列",
       "joined": 2025,
@@ -1603,40 +2627,82 @@
       "legacy_id": "jleague_yokohama_26",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "ディーン デイビッド",
+      "birthplace": "以色列",
       "season_start_age": 30,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2024",
+          "season": null,
           "team": "Maccabi Haifa",
-          "competition": "以超/歐冠",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "海法馬卡比主力前鋒並在歐冠賽場進球",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "重金加盟橫濱水手擔綱鋒線主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_27",
+      "id": "yokohama_27",
       "club": "橫濱水手",
       "number": "27",
       "name_zh": "松原健",
@@ -1645,7 +2711,7 @@
       "dob": "1993-02-16",
       "age": 33,
       "height": 180,
-      "weight": 70,
+      "weight": 77,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2017,
@@ -1677,29 +2743,65 @@
       "legacy_id": "jleague_yokohama_27",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "松原 健",
       "birthplace": "",
       "season_start_age": 33,
       "player_image": "",
       "career": [
         {
-          "season": "2017–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力水手超過九年，作為絕對主力贏得多次聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_28",
+      "id": "yokohama_28",
       "club": "橫濱水手",
       "number": "28",
       "name_zh": "山根陸",
@@ -1708,7 +2810,7 @@
       "dob": "2003-08-17",
       "age": 22,
       "height": 174,
-      "weight": 66,
+      "weight": 65,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2022,
@@ -1739,106 +2841,67 @@
       "legacy_id": "jleague_yokohama_28",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "山根 陸",
       "birthplace": "",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2022–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青訓升入一隊並逐步成為中場常規輪換",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
-      "id": "jleague_yokohama_29",
-      "club": "橫濱水手",
-      "number": "29",
-      "name_zh": "樋口有斗",
-      "name_en": "ARUTO HIGUCHI",
-      "position": "MF",
-      "dob": "2005-03-10",
-      "age": 21,
-      "height": 174,
-      "weight": 68,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "Chubu University",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "無",
-      "intro": "中部大學培養出的技術型中場新星，傳接球基本功紮實且具備前場插上得分意識。",
-      "timeline": [
-        {
-          "period": "2023–2025",
-          "team": "Chubu University",
-          "category": "大學聯賽",
-          "milestone": "大學足球界表現優異的中場核心"
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "period": "2026–至今",
-          "team": "Yokohama F. Marinos",
-          "category": "J1職業隊",
-          "milestone": "大學畢業直接加盟橫濱水手"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "大學足壇直接跳級加盟J1豪門的新秀"
-      ],
-      "tactical_traits": [
-        "簡潔高效的短傳配合",
-        "中場無球跑動與覆蓋"
-      ],
-      "quirky_trivia": "學生時期便以極高的傳球成功率與冷靜的大局觀吸引了多支J1球會關注。",
-      "legacy_id": "jleague_yokohama_29",
-      "official_player_id": null,
-      "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 21,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2023–2025",
-          "team": "Chubu University",
-          "competition": "大學聯賽",
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "大學足球界表現優異的中場核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
         },
         {
-          "season": "2026–至今",
-          "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "大學畢業直接加盟橫濱水手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Home Grown"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_30",
+      "id": "yokohama_30",
       "club": "橫濱水手",
       "number": "30",
       "name_zh": "艾拉祖",
@@ -1847,7 +2910,7 @@
       "dob": "1996-04-13",
       "age": 30,
       "height": 170,
-      "weight": 68,
+      "weight": 69,
       "foot": "右腳",
       "nationality": "巴西",
       "joined": 2025,
@@ -1882,40 +2945,82 @@
       "legacy_id": "jleague_yokohama_30",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "ユーリ アラウージョ",
+      "birthplace": "巴西",
       "season_start_age": 30,
       "player_image": "",
       "career": [
         {
-          "season": "2022–2024",
+          "season": null,
           "team": "Académica de Viseu",
-          "competition": "葡甲",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "葡萄牙次級聯賽主力攻擊手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "登陸亞洲加盟橫濱水手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_32",
+      "id": "yokohama_32",
       "club": "橫濱水手",
       "number": "32",
       "name_zh": "田中雄大",
@@ -1959,40 +3064,82 @@
       "legacy_id": "jleague_yokohama_32",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "田中 雄大",
       "birthplace": "",
       "season_start_age": 23,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
+          "season": null,
           "team": "Keio University",
-          "competition": "大學聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "慶應大學中場核心與隊長",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大學畢業加盟橫濱水手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_33",
+      "id": "yokohama_33",
       "club": "橫濱水手",
       "number": "33",
       "name_zh": "諏訪間幸成",
@@ -2001,7 +3148,7 @@
       "dob": "2003-06-06",
       "age": 23,
       "height": 186,
-      "weight": 79,
+      "weight": 85,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2022,
@@ -2032,29 +3179,67 @@
       "legacy_id": "jleague_yokohama_33",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "諏訪間 幸成",
       "birthplace": "",
       "season_start_age": 23,
       "player_image": "",
       "career": [
         {
-          "season": "2022–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青訓升入一隊並外租磨練後重返水手防線",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Home Grown"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_34",
+      "id": "yokohama_34",
       "club": "橫濱水手",
       "number": "34",
       "name_zh": "木村卓斗",
@@ -2063,7 +3248,7 @@
       "dob": "2000-05-16",
       "age": 26,
       "height": 170,
-      "weight": 65,
+      "weight": 67,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2023,
@@ -2098,40 +3283,82 @@
       "legacy_id": "jleague_yokohama_34",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "木村 卓斗",
       "birthplace": "",
       "season_start_age": 26,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2024",
+          "season": null,
           "team": "Ventforet Kofu",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "外借甲府風林期間累積豐富職業聯賽經驗",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "外借回歸水手陣容",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_35",
+      "id": "yokohama_35",
       "club": "橫濱水手",
       "number": "35",
       "name_zh": "關富貫太",
@@ -2140,7 +3367,7 @@
       "dob": "2005-10-23",
       "age": 20,
       "height": 177,
-      "weight": 70,
+      "weight": 75,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
@@ -2175,40 +3402,82 @@
       "legacy_id": "jleague_yokohama_35",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "関富 貫太",
       "birthplace": "",
       "season_start_age": 20,
       "player_image": "",
       "career": [
         {
-          "season": "2024–2025",
+          "season": null,
           "team": "桐蔭橫濱大學",
-          "competition": "大學聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "關東大學聯賽主力後衛",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟橫濱水手展開職業生涯",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_36",
+      "id": "yokohama_36",
       "club": "橫濱水手",
       "number": "36",
       "name_zh": "魯賓白蘭高",
@@ -2217,11 +3486,11 @@
       "dob": "1995-07-25",
       "age": 31,
       "height": 188,
-      "weight": 82,
+      "weight": 80,
       "foot": "右腳",
       "nationality": "西班牙",
       "joined": 2026,
-      "prev_club": "Girona",
+      "prev_club": "Girona FC",
       "registration_status": "外援名額",
       "tenure_status": "加盟第1季",
       "national_team_detail": "西班牙 U-21 國家隊",
@@ -2259,51 +3528,99 @@
       "legacy_id": "jleague_yokohama_36",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "ルベン ブランコ",
       "birthplace": "",
       "season_start_age": 31,
       "player_image": "",
       "career": [
         {
-          "season": "2013–2022",
+          "season": null,
           "team": "Celta Vigo",
-          "competition": "西甲",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "長期擔任西甲切爾達絕對主力門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2022–2025",
+          "season": null,
           "team": "Marseille / Girona",
-          "competition": "法甲/西甲",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "征戰法甲馬賽與西甲基羅納",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "重磅加盟橫濱水手鎮守龍門",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_39",
+      "id": "yokohama_39",
       "club": "橫濱水手",
       "number": "39",
       "name_zh": "高橋輝",
@@ -2316,8 +3633,8 @@
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "Toyo University",
-      "registration_status": "本國球員",
+      "prev_club": "東洋大學",
+      "registration_status": "JFA・J.League特別指定選手",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
       "intro": "東洋大學培養出的進攻球員，無球跑位靈活且禁區內具備不俗的終結能力。",
@@ -2347,40 +3664,90 @@
       "legacy_id": "jleague_yokohama_39",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "髙橋 輝",
       "birthplace": "",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
+          "season": null,
           "team": "Toyo University",
-          "competition": "大學聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "東洋大學鋒線主力得分手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大學畢業加盟橫濱水手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "JFA・J.League特別指定",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "特別指定球員公告",
+          "url": "https://www.f-marinos.com/news/team/10280",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "特別指定",
+        "大學生"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_40",
+      "id": "yokohama_40",
       "club": "橫濱水手",
       "number": "40",
       "name_zh": "天野純",
@@ -2423,7 +3790,7 @@
         "1x K聯賽冠軍 (2022 [蔚山現代])"
       ],
       "milestones": [
-        "橫濱水手標誌性的左腳定位球大師"
+        "2026/27前7輪2次助攻，隊內第一。"
       ],
       "tactical_traits": [
         "精準絕倫的直接自由球與角球傳中",
@@ -2433,51 +3800,101 @@
       "legacy_id": "jleague_yokohama_40",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "天野 純",
       "birthplace": "",
       "season_start_age": 35,
       "player_image": "",
       "career": [
         {
-          "season": "2014–2019",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "水手青訓出身並長期擔任核心及隊長",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2019–2022",
+          "season": null,
           "team": "Lokeren / Ulsan HD",
-          "competition": "海外職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "旅歐並在韓職蔚山現代奪得亞冠與聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "回歸橫濱水手貢獻關鍵中場創造力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Home Grown"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_41",
+      "id": "yokohama_41",
       "club": "橫濱水手",
       "number": "41",
       "name_zh": "松村晃助",
@@ -2490,8 +3907,8 @@
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "Hosei University",
-      "registration_status": "本國球員",
+      "prev_club": "法政大學",
+      "registration_status": "JFA・J.League特別指定選手",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
       "intro": "法政大學培養出的天才中場新星，腳下盤帶靈巧、傳球極具創造力與靈氣。",
@@ -2511,50 +3928,101 @@
       ],
       "honors": [],
       "milestones": [
-        "法政大學足球隊優秀中場代表"
+        "仍屬法政大學特別指定球員。",
+        "2026/27前7輪跑動73.8km，隊內第一。"
       ],
       "tactical_traits": [
         "狹小空間內的連續盤帶擺脫",
         "向前輸送威脅直傳"
       ],
-      "quirky_trivia": "在大學聯賽中以極具觀賞性的個人盤帶與進攻組織能力被譽為中場精靈。",
+      "quirky_trivia": "仍在法政大學讀書，卻已成為水手前7輪跑動量第一；身份仍是大學生，角色卻已接近真正一隊主力。",
       "legacy_id": "jleague_yokohama_41",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "松村 晃助",
       "birthplace": "",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
+          "season": null,
           "team": "Hosei University",
-          "competition": "大學聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "法政大學中場絕對主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大學畢業加盟橫濱水手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "JFA・J.League特別指定",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "特別指定球員公告",
+          "url": "https://www.f-marinos.com/news/team/10280",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "特別指定",
+        "大學生"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_43",
+      "id": "yokohama_43",
       "club": "橫濱水手",
       "number": "43",
       "name_zh": "二田理央",
@@ -2563,11 +4031,11 @@
       "dob": "2003-04-10",
       "age": 23,
       "height": 174,
-      "weight": 66,
+      "weight": 70,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "Urawa Red Diamonds",
+      "prev_club": "浦和紅鑽",
       "registration_status": "本國球員",
       "tenure_status": "加盟第1季",
       "national_team_detail": "日本 U-20 國家隊",
@@ -2604,51 +4072,99 @@
       "legacy_id": "jleague_yokohama_43",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "二田 理央",
       "birthplace": "",
       "season_start_age": 23,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
+          "season": null,
           "team": "Wacker Innsbruck / St. Pölten",
-          "competition": "奧地利聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "早年赴奧地利次級聯賽歷練",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–2025",
+          "season": null,
           "team": "Urawa Red Diamonds",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投橫濱水手尋求更多突破",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_44",
+      "id": "yokohama_44",
       "club": "橫濱水手",
       "number": "44",
       "name_zh": "湯馬士鄧尼",
@@ -2657,7 +4173,7 @@
       "dob": "1997-03-20",
       "age": 29,
       "height": 182,
-      "weight": 76,
+      "weight": 73,
       "foot": "右腳",
       "nationality": "澳洲",
       "joined": 2025,
@@ -2695,40 +4211,82 @@
       "legacy_id": "jleague_yokohama_44",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "トーマス デン",
       "birthplace": "",
       "season_start_age": 29,
       "player_image": "",
       "career": [
         {
-          "season": "2022–2024",
+          "season": null,
           "team": "Albirex Niigata",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "新潟天鵝後防絕對主力並入選澳洲國腳",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "重磅加盟橫濱水手鞏固後防",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_46",
+      "id": "yokohama_46",
       "club": "橫濱水手",
       "number": "46",
       "name_zh": "淺田大翔",
@@ -2762,33 +4320,72 @@
         "禁區內多樣化的終結手段",
         "積極的前場反搶與支點做球"
       ],
-      "quirky_trivia": "在俱樂部青年梯隊中屢破進球紀錄，被日本足壇視為未來的國家隊鋒線希望。",
+      "quirky_trivia": "水手Academy重點培育前鋒，2026入選日本U-19 AFC U20亞洲盃外圍賽名單。",
       "legacy_id": "jleague_yokohama_46",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "浅田 大翔",
       "birthplace": "",
       "season_start_age": 18,
       "player_image": "",
       "career": [
         {
-          "season": "2025–至今",
+          "season": null,
           "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "以極年輕之齡由青訓梯隊提拔升入一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Home Grown",
+        "U-21"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_47",
+      "id": "yokohama_47",
       "club": "橫濱水手",
       "number": "47",
       "name_zh": "三井寺眞",
@@ -2802,7 +4399,7 @@
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Yokohama F. Marinos Youth",
-      "registration_status": "2種登錄",
+      "registration_status": "本國球員",
       "tenure_status": "青訓隨隊",
       "national_team_detail": "日本 U-16 國家隊",
       "intro": "以 16 歲超低齡獲得一隊 2種登錄 資格的水手青訓天才中場，球商極高且傳球極具靈氣。",
@@ -2822,47 +4419,184 @@
         "精細的短傳組織與節奏把控",
         "冷靜的無球跑位"
       ],
-      "quirky_trivia": "年僅16歲便展現出超齡的球場成熟度，被球會視為重點保護與培育的未來大器。",
+      "quirky_trivia": "目前官方已列為Top Team一般MF，而非二種登錄；正式進入一隊競爭階段。",
       "legacy_id": "jleague_yokohama_47",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
+      "name_ja": "三井寺 眞",
       "birthplace": "",
       "season_start_age": 16,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos Youth",
-          "competition": "2種登錄",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "打破紀錄以極年輕身份隨一隊訓練",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Home Grown",
+        "U-21"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     },
     {
-      "id": "jleague_yokohama_55",
+      "id": "yokohama_54",
+      "club": "橫濱水手",
+      "team_slug": "yokohama-fm",
+      "number": "54",
+      "name_zh": "藤井翔大",
+      "name_ja": "藤井 翔大",
+      "name_en": "Shota Fujii",
+      "position": "DF",
+      "dob": "2008-08-11",
+      "season_start_age": 17,
+      "birthplace": "神奈川縣",
+      "height": 180,
+      "weight": 80,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "橫濱水手Youth",
+      "registration_status": "二種登錄",
+      "registration_tags": [
+        "Home Grown",
+        "U-18",
+        "2種"
+      ],
+      "tenure_status": "",
+      "national_team_detail": "日本U-15、U-16、U-17、U-18、U-19代表歴",
+      "intro": "2008年出生的水手Academy中堅。180cm／80kg，8月14日追加二種登錄，已可參加J.League正式賽。",
+      "timeline": [
+        {
+          "period": "育成",
+          "team": "橫濱水手Primary／Junior Youth／Youth",
+          "category": "Academy",
+          "milestone": "由Primary一路升上Youth。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2023 U-15、2024 U-16、2025 U-17、2026 U-18及U-19日本代表。",
+        "2026-08-14完成Top Team二種登錄，背號54。"
+      ],
+      "tactical_traits": [
+        "180cm／80kg在同齡中堅中已有成熟體格，正面duel與防空是基本盤。",
+        "成人階段課題是加快高壓下第一傳判斷。"
+      ],
+      "quirky_trivia": "由橫濱川和FC到Marinos Primary、Junior Youth、Youth一路在神奈川成長；2026同時跨U-18、U-19國家隊層級。",
+      "career": [
+        {
+          "season": null,
+          "team": "橫濱水手Academy",
+          "competition": "育成",
+          "appearances": null,
+          "goals": null,
+          "status": "Youth",
+          "notes": "Primary→Junior Youth→Youth。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "藤井翔大二種登錄公告",
+              "url": "https://www.f-marinos.com/news/team/10375",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "背號54。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "藤井翔大二種登錄公告",
+              "url": "https://www.f-marinos.com/news/team/10375",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "藤井翔大二種登錄公告",
+          "url": "https://www.f-marinos.com/news/team/10375",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "name_source": "TVB主資料庫未有此8月新增球員；使用官方日本漢字。",
+      "verification_status": "verified",
+      "verified_at": "2026-09-19"
+    },
+    {
+      "id": "yokohama_55",
       "club": "橫濱水手",
       "number": "55",
       "name_zh": "平野 遼",
       "name_en": "Kanata HIRANO",
       "position": "DF",
-      "dob": "2008-09-13",
+      "dob": "2008-09-23",
       "age": 17,
       "height": 180,
-      "weight": 70,
+      "weight": 67,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Yokohama F. Marinos Youth",
-      "registration_status": "2種登錄",
+      "registration_status": "二種登錄",
       "tenure_status": "青訓隨隊",
       "national_team_detail": "日本 U-17 國家隊",
       "intro": "水手青訓防線超級新星，擁有 180 公分身高並獲得 2種登錄 隨一隊征戰的年輕中衛。",
@@ -2882,30 +4616,75 @@
         "冷靜的地面一對一攔截",
         "精準的落點判斷與高空爭頂"
       ],
-      "quirky_trivia": "在U-17國家隊與俱樂部梯隊皆擔任後防核心，心理素質遠超同齡球員。",
+      "quirky_trivia": "2026年7月31日完成Youth二種登錄；官方生日為2008年9月23日，已修正舊檔。",
       "legacy_id": "jleague_yokohama_55",
       "official_player_id": null,
       "team_slug": "yokohama-fm",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "平野 遼",
+      "birthplace": "神奈川縣",
       "season_start_age": 17,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
+          "season": null,
           "team": "Yokohama F. Marinos Youth",
-          "competition": "2種登錄",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲 2種登錄 提拔至一線隊隨隊磨練",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種登錄",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手官方現役名單",
+              "url": "https://www.f-marinos.com/team/player/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "橫濱水手官方現役名單",
+          "url": "https://www.f-marinos.com/team/player/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League橫濱水手",
+          "url": "https://www.jleague.jp/club/yokohamafm/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "平野遼二種登錄公告",
+          "url": "https://www.f-marinos.com/news/team/10317",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [
+        "Home Grown",
+        "U-18",
+        "2種"
+      ],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
     }
   ]
 }
