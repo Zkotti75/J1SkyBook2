@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T18:17:03.937Z",
+  "generated_at": "2026-09-18T15:40:08.058Z",
   "team": {
     "id": "team_mito",
     "type": "team_info",
@@ -18,10 +18,924 @@
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "pending",
-    "sources": []
+    "roster_as_of": "2026-09-18",
+    "data_status": "verified",
+    "sources": [
+      {
+        "label": "水戶官方：球會概要",
+        "url": "https://www.mito-hollyhock.net/club/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "水戶官方：2025 J2冠軍及首次升J1",
+        "url": "https://www.mito-hollyhock.net/news/p=47402/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "水戶官方：2026/27一隊體制",
+        "url": "https://www.mito-hollyhock.net/news/p=52525/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "水戶官方：現役球員名鑑",
+        "url": "https://www.mito-hollyhock.net/team/player/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "水戶官方：2026/27隊長",
+        "url": "https://www.mito-hollyhock.net/news/p=53166/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "水戶官方：新主場J1使用資訊",
+        "url": "https://www.mito-hollyhock.net/news/p=51913/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League官方：水戶球會頁及歷季排名",
+        "url": "https://www.jleague.jp/club/mito/",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "established": 1994,
+    "corporation": "株式会社フットボールクラブ水戸ホーリーホック",
+    "president": "小島 耕",
+    "club_color": "藍色",
+    "hometown": "茨城縣水戶市等18個自治體",
+    "name_history": "「HollyHock」意為蜀葵／葵花，呼應水戶德川家的「葵」家紋；球會名稱把水戶的歷史身份直接放進品牌。",
+    "stadium_info": {
+      "name": "水戸信用金庫スタジアム",
+      "name_zh": "水戶信用金庫體育場",
+      "physical_capacity": 22002,
+      "capacity": 17034,
+      "jleague_match_capacity": 17034,
+      "address": "茨城縣那珂市向山1282-1",
+      "interesting_facts": [
+        "2026/27起作為水戶主要J1主場；J.League登記可入場數為17,034人。",
+        "場館本身的物理容量為22,002人，因此SkyBook分開記錄物理容量與J.League比賽容量。",
+        "2026年8月15日對大阪飛腳，是水戶在2026/27首次於此球場舉行J1主場賽事。"
+      ]
+    },
+    "team_history": "球會於1994年成立，1997年成立營運公司。長年在J2作賽，是日本職業足球最具代表性的地方型球會之一。2025年成為歷史轉折點：水戶首次贏得J2冠軍，並在創會31年後首次升上J1。2026百年構想聯賽成為球會首段J1實戰，2026/27則是轉秋春制後首個完整J1球季。",
+    "history_timeline": [
+      {
+        "year": "1994",
+        "event": "水戶HollyHock成立。"
+      },
+      {
+        "year": "1997",
+        "event": "營運公司株式会社フットボールクラブ水戸ホーリーホック成立。"
+      },
+      {
+        "year": "2000",
+        "event": "加入J.League Division 2。"
+      },
+      {
+        "year": "2025",
+        "event": "首次贏得J2冠軍，並首次升上J1。"
+      },
+      {
+        "year": "2026",
+        "event": "參加J1百年構想聯賽，迎來球會首段J1賽事。"
+      },
+      {
+        "year": "2026/27",
+        "event": "首次完整J1球季；主場轉至水戶信用金庫體育場。"
+      }
+    ],
+    "performance_history": [
+      "J2聯賽冠軍：1次（2025）",
+      "J1升班：2025（球會史上首次）"
+    ],
+    "recent_seasons": [
+      {
+        "season": "2021",
+        "competition": "J2",
+        "finish": "第10名"
+      },
+      {
+        "season": "2022",
+        "competition": "J2",
+        "finish": "第13名"
+      },
+      {
+        "season": "2023",
+        "competition": "J2",
+        "finish": "第17名"
+      },
+      {
+        "season": "2024",
+        "competition": "J2",
+        "finish": "第15名"
+      },
+      {
+        "season": "2025",
+        "competition": "J2",
+        "finish": "冠軍／第1名；首次升J1"
+      },
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第11名（2勝3和2負、9分；截至2026-09-12）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "明治安田J1 League",
+      "manager": "樹森大介",
+      "matches": 7,
+      "wins": 2,
+      "draws": 3,
+      "losses": 2,
+      "points": 9,
+      "rank": 11,
+      "as_of": "2026-09-12"
+    },
+    "leadership": {
+      "captain": "渡邉新太",
+      "vice_captains": [
+        "鳥海芳樹",
+        "木本恭生",
+        "板倉健太"
+      ],
+      "note": "飯田貴敬原獲任副隊長，但2026-07-31轉會千葉市原JEF聯，故現役名單不再列入。"
+    },
+    "verified_at": "2026-09-18",
+    "naming_policy": {
+      "japanese_clubs": "Traditional Chinese established names where available; otherwise retain official name.",
+      "japanese_schools": "Traditional Chinese names where a reliable/straightforward Chinese form is available.",
+      "foreign_clubs_and_leagues": "English."
+    }
   },
-  "manager": null,
+  "manager": {
+    "id": "mito_mgr_kimori",
+    "club": "水戶蜀葵",
+    "number": "HC",
+    "name_zh": "樹森大介",
+    "name_ja": "樹森 大介",
+    "name_en": "Daisuke Kimori",
+    "position": "MANAGER",
+    "dob": "1977-07-28",
+    "season_start_age": 49,
+    "birthplace": "埼玉縣",
+    "nationality": "日本",
+    "height": null,
+    "weight": null,
+    "foot": "",
+    "joined": 2026,
+    "prev_club": "櫪木SC Coach",
+    "registration_status": "監督",
+    "registration_tags": [],
+    "tenure_status": "2026首次執掌水戶一隊；2026/27續任第2季",
+    "license": "日本足球協會公認S級教練牌照",
+    "national_team_detail": "",
+    "intro": "埼玉縣出身。球員年代曾效力湘南比馬、水戶蜀葵、群馬草津溫泉及tonan前橋。退役前後轉入教練工作，2012至2022長期擔任水戶U-18監督，之後升上一隊教練。2025曾短期執教新潟天鵝，再任櫪木SC教練；2026回到水戶首次擔任一隊監督，2026/27續約領軍。",
+    "timeline": [
+      {
+        "period": "1993–1999",
+        "team": "前橋商業高中／專修大學",
+        "category": "球員",
+        "milestone": "高校、大學足球。"
+      },
+      {
+        "period": "2000–2008",
+        "team": "湘南比馬／水戶蜀葵／群馬草津溫泉／tonan前橋",
+        "category": "球員",
+        "milestone": "J.League及社會人足球生涯。"
+      },
+      {
+        "period": "2012–2022",
+        "team": "水戶蜀葵U-18",
+        "category": "青訓監督",
+        "milestone": "長達11季負責球會Youth。"
+      },
+      {
+        "period": "2023–2024",
+        "team": "水戶蜀葵",
+        "category": "一隊Coach",
+        "milestone": "由Academy進入一隊教練組。"
+      },
+      {
+        "period": "2025",
+        "team": "新潟天鵝／櫪木SC",
+        "category": "監督／Coach",
+        "milestone": "首次J1監督經驗後轉任櫪木教練。"
+      },
+      {
+        "period": "2026–",
+        "team": "水戶蜀葵",
+        "category": "監督",
+        "milestone": "在球會首次J1時代執教。"
+      }
+    ],
+    "honors": [],
+    "milestones": [
+      "2012至2022連續11季擔任水戶蜀葵U-18監督。",
+      "2025年1月至6月首次在J1擔任一隊監督，執教新潟天鵝。",
+      "2026回到水戶蜀葵接掌一隊。",
+      "2026年6月11日與水戶續約，正式帶隊進入2026/27 J1賽季。"
+    ],
+    "tactical_traits": [
+      "官方續約談話把百年構想聯賽視為學習J1強度的階段，強調提升成長速度，以完成J1護級目標。",
+      "長期由水戶Academy升上一隊，對球會育成路線及青年球員銜接非常熟悉。"
+    ],
+    "quirky_trivia": "他不是在2025 J2冠軍球季執教水戶；當季上半年他是新潟天鵝監督。2026才回到水戶首次接掌一隊，因此SkyBook把2025冠軍列為球會歷史，而不列作他的個人領隊榮譽。",
+    "career": [
+      {
+        "season": "1993",
+        "team": "前橋商業高中",
+        "competition": "高校足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1994",
+        "team": "前橋商業高中",
+        "competition": "高校足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1995",
+        "team": "前橋商業高中",
+        "competition": "高校足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1996",
+        "team": "專修大學",
+        "competition": "大學足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1997",
+        "team": "專修大學",
+        "competition": "大學足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1998",
+        "team": "專修大學",
+        "competition": "大學足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "1999",
+        "team": "專修大學",
+        "competition": "大學足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2000",
+        "team": "湘南比馬",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2001",
+        "team": "湘南比馬",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2002",
+        "team": "湘南比馬",
+        "competition": "J.League",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2003",
+        "team": "水戶蜀葵",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2004",
+        "team": "水戶蜀葵",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2005",
+        "team": "群馬草津溫泉",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2006",
+        "team": "tonan前橋",
+        "competition": "關東社會人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2006",
+        "team": "前橋商業高中",
+        "competition": "高校足球",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "兼任教練。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2007",
+        "team": "tonan前橋",
+        "competition": "關東社會人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2007",
+        "team": "前橋商業高中",
+        "competition": "高校足球",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "兼任教練。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2008",
+        "team": "tonan前橋",
+        "competition": "關東社會人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2008",
+        "team": "前橋商業高中",
+        "competition": "高校足球",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "兼任教練。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2008",
+        "team": "FCコルージャ",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2009",
+        "team": "FCコルージャ",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2010",
+        "team": "FCコルージャ",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2011",
+        "team": "FCコルージャ",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2012",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2013",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2014",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2015",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "期間兼任一隊Coach。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2016",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "期間兼任一隊Coach。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2017",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2018",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2019",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2020",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2021",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2022",
+        "team": "水戶蜀葵U-18",
+        "competition": "青訓",
+        "appearances": null,
+        "goals": null,
+        "status": "U-18監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2023",
+        "team": "水戶蜀葵",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "一隊教練。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2024",
+        "team": "水戶蜀葵",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "一隊教練。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "team": "新潟天鵝",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "1月至6月。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "team": "櫪木SC",
+        "competition": "J3",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "8月至12月。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方監督履歷",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "team": "水戶蜀葵",
+        "competition": "J1百年構想聯賽",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "首次執掌水戶一隊。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方續約公告",
+            "url": "https://www.mito-hollyhock.net/news/p=52191/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "水戶蜀葵",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "續任；球會首次完整J1賽季。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "水戶官方2026/27 Staff",
+            "url": "https://www.mito-hollyhock.net/news/p=52526/",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "水戶官方：2026/27 Staff及樹森履歷",
+        "url": "https://www.mito-hollyhock.net/news/p=52526/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "水戶官方：樹森續約",
+        "url": "https://www.mito-hollyhock.net/news/p=52191/",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-18"
+  },
   "players": []
 }
