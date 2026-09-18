@@ -16,3 +16,4 @@ jobs:
       - run: node --check app.js
       - run: npm test
       - run: node scripts/validate-data.mjs --strict --club=urawa
+      - run: node scripts/validate-data.mjs --strict --club=kashiwa
