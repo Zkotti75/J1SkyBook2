@@ -1,109 +1,358 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T18:17:03.948Z",
+  "generated_at": "2026-09-19T09:30:00+09:00",
   "team": {
     "id": "team_okayama",
     "type": "team_info",
-    "club": "岡山綠雉",
-    "club_en": "Fagiano Okayama",
-    "logo_url": "logos/japan_fagiano-okayama.football-logos.cc.svg",
-    "hometown": "岡山縣岡山市",
-    "hometown_population": "720,000人",
-    "name_history": "「Fagiano」源自義大利語雉雞（Fagiano），取材自岡山在地傳說桃太郎的隨從雉雞。",
-    "stadium_info": {
-      "name": "City Light Stadium",
-      "year_built": 1957,
-      "year_renovated": 2003,
-      "capacity": 20000,
-      "interesting_facts": [
-        "位於岡山運動公園內的綜合體育場",
-        "著名的木雉鳥主場加油聲浪"
-      ]
-    },
-    "team_history": "成立於2004年，代表岡山縣征戰J聯賽，以強悍的反擊體系與青訓崛起著稱。",
-    "performance_history": [
-      "J2聯賽升級附加賽參賽 (2016, 2022, 2024)"
-    ],
     "slug": "okayama",
     "data_key": "岡山綠雉",
     "name_zh": "岡山綠雉",
     "name_ja": "ファジアーノ岡山",
     "name_en": "Fagiano Okayama",
+    "club": "岡山綠雉",
+    "club_en": "Fagiano Okayama",
+    "logo_url": "logos/japan_fagiano-okayama.football-logos.cc.svg",
     "colors": {
       "bg": "#b6003d",
-      "text": "#ffffff"
+      "text": "#fff"
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "legacy_unverified",
-    "sources": []
+    "roster_as_of": "2026-09-19",
+    "data_status": "verified",
+    "established": 2006,
+    "roots": "1975年RFK成立，2003年Fagiano Okayama FC誕生，2006年營運公司成立；2009正式參加J2，2025迎來隊史首次J1球季。",
+    "corporation": "株式会社ファジアーノ岡山スポーツクラブ",
+    "president": "森井 悠",
+    "club_color": "Fagiano Red",
+    "hometown": "以岡山市、倉敷市、津山市為中心的岡山縣全域",
+    "name_history": "Fagiano為意大利語『雉雞』；雉雞是岡山縣鳥，也呼應桃太郎傳說中的雉雞。",
+    "stadium_info": {
+      "name": "JFE晴れの国スタジアム",
+      "name_zh": "JFE晴之國體育場",
+      "capacity": 20000,
+      "jleague_match_capacity": 20000,
+      "address": "岡山県岡山市北区いずみ町2-1",
+      "interesting_facts": [
+        "位於岡山縣綜合Ground內。",
+        "2026/27前三個主場聯賽入場均超過14,000。"
+      ]
+    },
+    "team_history": "由地區聯賽逐級向上：2007升JFL、2009加入J2，長期累積後在2024升班附加賽突破，2025首次出戰J1。木山隆之長期執教令球隊風格與升班文化具有延續性。",
+    "history_timeline": [
+      {
+        "year": "2003",
+        "event": "Fagiano Okayama FC誕生。"
+      },
+      {
+        "year": "2006",
+        "event": "營運公司成立。"
+      },
+      {
+        "year": "2007",
+        "event": "Regional League Finals冠軍、升JFL。"
+      },
+      {
+        "year": "2009",
+        "event": "首次J2。"
+      },
+      {
+        "year": "2024",
+        "event": "升班附加賽成功。"
+      },
+      {
+        "year": "2025",
+        "event": "隊史首次J1。"
+      }
+    ],
+    "performance_history": [
+      "2024 J1升班附加賽勝出",
+      "2025隊史首次J1"
+    ],
+    "recent_seasons": [
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第6（7場4勝1和2負、13分；截至9/13）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "J1",
+      "manager": "木山隆之",
+      "matches": 7,
+      "wins": 4,
+      "draws": 1,
+      "losses": 2,
+      "points": 13,
+      "goals_for": 10,
+      "goals_against": 8,
+      "goal_difference": 2,
+      "rank": 6,
+      "as_of": "2026-09-13"
+    },
+    "leadership": {
+      "captain": "",
+      "note": "本檔不在未核實情況推定隊長。"
+    },
+    "roster_notes": [
+      "Current squad 35人。",
+      "#22一美和成9月10日完全轉會東京綠茵，已移除。",
+      "#19佐藤凌我9月10日由磐田山葉借用加入，對磐田官方賽不能上陣。",
+      "#4小川遼也為2026/27新秀；與鹿島同名『小川諒也』不是同一人。"
+    ],
+    "commentary_notes": [
+      "前7輪4勝1和2負、第6，9月連勝千葉、廣島、浦和。",
+      "大森博74.8km跑動第一、白井康介106次衝刺第一、Lucao最高速34.2km/h第一，顯示升班隊的身體輸出並不保守。",
+      "江坂任、羅相浩等提供頂級聯賽／國際賽經驗，與小川遼也、末宗寬士郎等年輕球員形成跨度。"
+    ],
+    "sources": [
+      {
+        "label": "岡山官方球會概要",
+        "url": "https://www.fagiano-okayama.com/club_about/",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "岡山官方2026/27名單",
+        "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "J.League岡山",
+        "url": "https://www.jleague.jp/club/okayama/",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verified_at": "2026-09-19",
+    "naming_policy": {
+      "japanese_clubs": "繁中",
+      "japanese_schools": "繁中",
+      "foreign_clubs_and_leagues": "English",
+      "player_display_names": "TVB主資料庫優先；新球員用官方名。"
+    }
   },
   "manager": {
-    "id": "jleague_okayama_mgr",
+    "id": "okayama_mgr_kiyama",
     "club": "岡山綠雉",
     "number": "HC",
     "name_zh": "木山隆之",
+    "name_ja": "木山 隆之",
     "name_en": "Takashi Kiyama",
     "position": "MANAGER",
     "dob": "1972-02-18",
-    "age": 54,
-    "height": 180,
-    "weight": 75,
-    "foot": "右腳",
+    "season_start_age": 54,
+    "birthplace": "兵庫縣",
     "nationality": "日本",
+    "height": null,
+    "weight": null,
+    "foot": "",
     "joined": 2022,
-    "prev_club": "Gamba Osaka",
-    "registration_status": "總教練",
-    "tenure_status": "執教第5季",
-    "national_team_detail": "無",
-    "intro": "執教經驗豐富的實戰派教練，注重整體陣型防守紀律與極速邊路反擊。",
+    "prev_club": "大阪飛腳 Coach",
+    "registration_status": "監督",
+    "registration_tags": [],
+    "tenure_status": "2022起執教；2026/27續任",
+    "license": "",
+    "national_team_detail": "",
+    "intro": "日本資深監督，先後執教水戶、千葉、愛媛、山形、仙台等。2022接掌岡山，逐步把球隊推至隊史首次J1並在升班後保持高強度、快速轉換與整體防守。",
     "timeline": [
       {
-        "period": "2022–至今",
+        "period": "2008–2021",
+        "team": "水戶／千葉／愛媛／山形／仙台／大阪飛腳",
+        "category": "監督／Coach",
+        "milestone": "累積J1/J2多隊執教經驗。"
+      },
+      {
+        "period": "2022–",
         "team": "岡山綠雉",
-        "category": "J1/J2職業隊",
-        "milestone": "率領岡山綠雉衝擊J1升級"
+        "category": "監督",
+        "milestone": "帶領球隊完成首次J1升班並續任秋春制。"
       }
     ],
-    "honors": [
-      "J2最佳總教練提名"
-    ],
+    "honors": [],
     "milestones": [
-      "帶領岡山創下隊史聯賽最高積分紀錄"
+      "2022開始長期執教岡山。",
+      "2024經升班附加賽完成隊史首次J1升班。",
+      "2026/27前7輪4勝1和2負、13分第6。"
     ],
     "tactical_traits": [
-      "高強度陣型移動",
-      "快速攻守轉換"
+      "保持緊密陣形，靠全隊跑動與第二點競爭維持比賽強度。",
+      "奪球後迅速向兩側／前鋒縱向推進，不為控球率本身而拖慢節奏。",
+      "邊路球員需要大量衝刺；前7輪白井康介106次衝刺、Lucao最高速34.2km/h正好反映打法。"
     ],
-    "quirky_trivia": "執教風格十分熱情，場邊指揮極具感染力。",
-    "legacy_id": "jleague_okayama_mgr",
-    "official_player_id": null,
-    "team_slug": "okayama",
-    "name_ja": "",
-    "birthplace": "",
-    "season_start_age": 54,
-    "player_image": "",
+    "quirky_trivia": "木山不是短期救火式監督：從2022一路帶同一批球會文化走到首次J1，是岡山近代上升期最穩定的主線。",
     "career": [
       {
-        "season": "2022–至今",
-        "team": "岡山綠雉",
-        "competition": "J1/J2職業隊",
+        "season": null,
+        "team": "筑波大學／神戶勝利船Youth",
+        "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "率領岡山綠雉衝擊J1升級",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "監督",
+        "notes": "大學及育成教練起步。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": null,
+        "team": "水戶蜀葵／千葉市原JEF聯／愛媛FC／山形山神／仙台維加泰",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "多支J.League球會監督履歷。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2021",
+        "team": "大阪飛腳",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "9月加入教練組。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2022",
+        "team": "岡山綠雉",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "就任。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2023",
+        "team": "岡山綠雉",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J2。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2024",
+        "team": "岡山綠雉",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "升班附加賽成功。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "team": "岡山綠雉",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "首次J1球季。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "team": "岡山綠雉",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "百年構想聯賽。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "岡山綠雉",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "秋春制J1。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "岡山官方木山隆之續約／履歷",
+            "url": "https://www.fagiano-okayama.com/news/202606241500/",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       }
     ],
-    "sources": [],
-    "verification_status": "legacy_unverified",
-    "verified_at": null
+    "sources": [
+      {
+        "label": "岡山官方2026/27名單",
+        "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "岡山官方球會概要",
+        "url": "https://www.fagiano-okayama.com/club_about/",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-19"
   },
   "players": [
     {
-      "id": "jleague_okayama_1",
+      "id": "okayama_1",
       "club": "岡山綠雉",
       "number": "1",
       "name_zh": "連納特·莫沙",
@@ -123,35 +372,30 @@
       "intro": "擁有196cm身材優勢的德系門將，高空球制空權與門前反應極佳。",
       "timeline": [
         {
-          "period": "2017–2022",
-          "team": "Union Berlin",
-          "category": "Bundesliga",
-          "milestone": "德甲豪門青訓出品"
-        },
-        {
-          "period": "2022–2025",
+          "period": "履歷",
           "team": "KAS Eupen",
-          "category": "Belgian Pro League",
-          "milestone": "旅比主力門將"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟並鎖定主力門將位置"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "德國青年盃冠軍"
       ],
       "milestones": [
-        "首位加盟岡山綠雉的德系門將"
+        "2026/27列入岡山現役名單（背號1）。",
+        "加盟前最近履歷包括KAS Eupen。"
       ],
       "tactical_traits": [
-        "196cm高空球控制",
-        "門前反射神經救球"
+        "門線反應與高球判斷是門將競爭基本盤。",
+        "岡山大量轉換局面下，第一腳發動速度很重要。"
       ],
-      "quirky_trivia": "私下非常喜歡日本文化與岡山の桃子。",
+      "quirky_trivia": "196cm德國門將，身形是岡山門將組最鮮明特徵之一；由Kolding IF來日，屬少見的北歐聯賽→J1路線。",
       "legacy_id": "jleague_okayama_1",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -161,105 +405,175 @@
       "player_image": "",
       "career": [
         {
-          "season": "2017–2022",
-          "team": "Union Berlin",
-          "competition": "Bundesliga",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "德甲豪門青訓出品",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2022–2025",
+          "season": null,
           "team": "KAS Eupen",
-          "competition": "Belgian Pro League",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "旅比主力門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟並鎖定主力門將位置",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_4",
-      "club": "岡山綠雉",
-      "number": "4",
-      "name_zh": "阿部海大",
-      "name_en": "Kaito Abe",
+      "name_zh": "小川遼也",
+      "name_ja": "小川 遼也",
+      "name_en": "Ryoya Ogawa",
       "position": "DF",
-      "dob": "1999-09-18",
-      "age": 26,
-      "height": 182,
-      "weight": 75,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2018,
-      "prev_club": "Blaublitz Akita",
+      "dob": "2004-05-20",
+      "height": 184,
+      "weight": 84,
+      "birthplace": "富山縣",
+      "prev_club": "筑波大學",
+      "intro": "184cm的大學新秀中堅／後衛，2026/27正式加入。正面對抗與後場出球是基礎武器。",
+      "quirky_trivia": "官方Q&A寫明興趣是登山、喜歡親子丼與提拉米蘇，今季目標是『新人球季留下衝擊』。",
+      "id": "okayama_4",
+      "club": "岡山綠雉",
+      "team_slug": "okayama",
+      "number": "4",
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
       "registration_status": "本國球員",
-      "tenure_status": "效力第9季",
-      "national_team_detail": "日本 U-20 國家隊",
-      "intro": "防線中流砥柱，出色的對抗對位能力與後場防守覆蓋面。",
+      "registration_tags": [],
+      "season_start_age": 22,
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "name_source": "官方日本名；TVB主表未及本次季中／新秀更新時不另造譯名。",
+      "tactical_traits": [
+        "以184cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
+      ],
+      "milestones": [
+        "2026/27列入岡山現役名單（背號4）。",
+        "加盟前最近履歷包括筑波大學。"
+      ],
+      "career": [
+        {
+          "season": null,
+          "team": "筑波大學",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
       "timeline": [
         {
-          "period": "2018–至今",
+          "period": "履歷",
+          "team": "筑波大學",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "長期效力岡山後防"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
-      "milestones": [
-        "J2職業聯賽百場里程碑"
-      ],
-      "tactical_traits": [
-        "身體對抗",
-        "精準卡位"
-      ],
-      "quirky_trivia": "作風極為頑強。",
-      "legacy_id": "jleague_okayama_4",
-      "official_player_id": null,
-      "team_slug": "okayama",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 26,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2018–至今",
-          "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "長期效力岡山後防",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_5",
+      "id": "okayama_5",
       "club": "岡山綠雉",
       "number": "5",
       "name_zh": "池戶柊宇",
@@ -279,23 +593,30 @@
       "intro": "大阪體育大學出品的潛力後衛，身材達185cm，空陸制空與出球能力俱佳。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Osaka University of Health and Sport Sciences",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "大學特別指定加盟岡山綠雉"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全日本大學足球錦標賽代表"
       ],
       "milestones": [
-        "內定加盟岡山綠雉"
+        "2026/27列入岡山現役名單（背號5）。",
+        "加盟前最近履歷包括Osaka University of Health and Sport Sciences。"
       ],
       "tactical_traits": [
-        "185cm高空制空",
-        "防線冷靜出球"
+        "以185cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "出身大阪府，身體對抗天賦極優。",
+      "quirky_trivia": "池戶柊宇的直播辨識點是背號5與DF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_5",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -305,23 +626,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Osaka University of Health and Sport Sciences",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大學特別指定加盟岡山綠雉",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_6",
+      "id": "okayama_6",
       "club": "岡山綠雉",
       "number": "6",
       "name_zh": "大森博",
@@ -341,27 +709,28 @@
       "intro": "身材高大的青年後衛，防守空對空對抗與防線補位非常紮實。",
       "timeline": [
         {
-          "period": "2021–2025",
+          "period": "履歷",
           "team": "Tokushima Vortis",
-          "category": "J2職業隊",
-          "milestone": "德島漩渦防線後起之秀"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山擴充防線深度"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J2聯賽單季出場超20場"
+        "2026/27列入岡山現役名單（背號6）。",
+        "加盟前最近履歷包括Tokushima Vortis。"
       ],
       "tactical_traits": [
-        "高空球爭頂",
-        "卡位防禦"
+        "以188cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "防守作風果斷硬朗。",
+      "quirky_trivia": "前7輪跑動74.8km為隊內第一，後衛卻成為全隊跑動王，很能反映岡山整體強度。",
       "legacy_id": "jleague_okayama_6",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -371,34 +740,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2025",
+          "season": null,
           "team": "Tokushima Vortis",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "德島漩渦防線後起之秀",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山擴充防線深度",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_7",
+      "id": "okayama_7",
       "club": "岡山綠雉",
       "number": "7",
       "name_zh": "竹內涼",
@@ -418,29 +823,30 @@
       "intro": "老練的中場大腦，經驗豐富，具備極強的中場攔截與掌控進攻節奏能力。",
       "timeline": [
         {
-          "period": "2012–2023",
+          "period": "履歷",
           "team": "Shimizu S-Pulse",
-          "category": "J1職業隊",
-          "milestone": "清水心跳前隊長兼中場核心"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "接掌岡山中場樞紐"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J.League 盃亞軍"
       ],
       "milestones": [
-        "J1/J2職業聯賽累積出場突破300場"
+        "2026/27列入岡山現役名單（背號7）。",
+        "加盟前最近履歷包括Shimizu S-Pulse。"
       ],
       "tactical_traits": [
-        "中場指揮發動",
-        "精準短傳鏈接"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "場上領導能力極強，被譽為球場上的教練。",
+      "quirky_trivia": "竹內涼的直播辨識點是背號7與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_7",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -450,34 +856,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2012–2023",
+          "season": null,
           "team": "Shimizu S-Pulse",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "清水心跳前隊長兼中場核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "接掌岡山中場樞紐",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_8",
+      "id": "okayama_8",
       "club": "岡山綠雉",
       "number": "8",
       "name_zh": "江坂任",
@@ -497,28 +939,16 @@
       "intro": "經驗豐富的大腦型進攻中場，具備優異的攻守轉換節奏掌控與傳射能力。",
       "timeline": [
         {
-          "period": "2018–2021",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "隊長兼進攻核心"
-        },
-        {
-          "period": "2021–2022",
-          "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "奪得天皇盃冠軍"
-        },
-        {
-          "period": "2023–2024",
+          "period": "履歷",
           "team": "Ulsan HD",
-          "category": "K League 1",
-          "milestone": "旅韓勇奪K聯賽冠軍"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "接下8號進攻核心戰袍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -526,13 +956,14 @@
         "天皇盃冠軍 (2021)"
       ],
       "milestones": [
-        "代表日本國家隊首秀即取得進球"
+        "2026/27列入岡山現役名單（背號8）。",
+        "加盟前最近履歷包括Ulsan HD。"
       ],
       "tactical_traits": [
-        "前場自由人指揮",
-        "威脅直塞傳球"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "場上戰術智慧極高，能勝任前場多個位置。",
+      "quirky_trivia": "曾效力柏、浦和、蔚山HD並有日本代表經驗；2025到岡山後把大賽與亞洲賽經驗帶入升班隊。",
       "legacy_id": "jleague_okayama_8",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -542,56 +973,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2018–2021",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "隊長兼進攻核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2021–2022",
-          "team": "浦和紅鑽",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "奪得天皇盃冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–2024",
+          "season": null,
           "team": "Ulsan HD",
-          "competition": "K League 1",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "旅韓勇奪K聯賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "接下8號進攻核心戰袍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_9",
+      "id": "okayama_9",
       "club": "岡山綠雉",
       "number": "9",
       "name_zh": "利奧·高祖",
@@ -611,29 +1056,30 @@
       "intro": "187cm強壯型巴西前鋒，具備優異的禁區支點能力與強悍的頭鎚衝擊力。",
       "timeline": [
         {
-          "period": "2020–2025",
+          "period": "履歷",
           "team": "Operario Ferroviario",
-          "category": "Série B",
-          "milestone": "巴西乙組主力中鋒"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟並披上9號戰袍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "巴西州聯賽神射手"
       ],
       "milestones": [
-        "首次旅日加盟J1聯賽"
+        "2026/27列入岡山現役名單（背號9）。",
+        "加盟前最近履歷包括Operario Ferroviario。"
       ],
       "tactical_traits": [
-        "禁區支點做球",
-        "高空爭頂爆發力"
+        "前場無球跑動與第一線press是基本任務。",
+        "禁區內要利用跑線／身體條件把有限機會變成射門。"
       ],
-      "quirky_trivia": "身體素質極佳，對抗性極強。",
+      "quirky_trivia": "利奧·高祖的直播辨識點是背號9與FW角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_9",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -643,34 +1089,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–2025",
+          "season": null,
           "team": "Operario Ferroviario",
-          "competition": "Série B",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "巴西乙組主力中鋒",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟並披上9號戰袍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_10",
+      "id": "okayama_10",
       "club": "岡山綠雉",
       "number": "10",
       "name_zh": "羅相浩",
@@ -690,22 +1172,16 @@
       "intro": "南韓國腳翼鋒，以強悍的個人邊路盤帶突破與前場逼搶逼迫防線著稱。",
       "timeline": [
         {
-          "period": "2021–2023",
-          "team": "FC Seoul",
-          "category": "K League 1",
-          "milestone": "隊長兼進攻主力"
-        },
-        {
-          "period": "2024–2025",
+          "period": "履歷",
           "team": "Machida Zelvia",
-          "category": "J1職業隊",
-          "milestone": "町田澤維亞邊路核心"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "披上岡山10號球衣"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -713,13 +1189,14 @@
         "K League 1 最佳陣容 (2022)"
       ],
       "milestones": [
-        "代表南韓國家隊出戰2022卡達世界盃"
+        "2026/27列入岡山現役名單（背號10）。",
+        "加盟前最近履歷包括Machida Zelvia。"
       ],
       "tactical_traits": [
-        "爆發力邊路突破",
-        "前場高壓逼搶"
+        "前場無球跑動與第一線press是基本任務。",
+        "禁區內要利用跑線／身體條件把有限機會變成射門。"
       ],
-      "quirky_trivia": "跑動能力極佳，防守參與度非常高。",
+      "quirky_trivia": "南韓國腳，曾踢FC東京、FC首爾及町田；能在翼鋒與第二前鋒之間切換。",
       "legacy_id": "jleague_okayama_10",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -729,45 +1206,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
-          "team": "FC Seoul",
-          "competition": "K League 1",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "隊長兼進攻主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–2025",
+          "season": null,
           "team": "Machida Zelvia",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "町田澤維亞邊路核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "披上岡山10號球衣",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_13",
+      "id": "okayama_13",
       "club": "岡山綠雉",
       "number": "13",
       "name_zh": "松田駿",
@@ -787,23 +1289,30 @@
       "intro": "青森山田高校出品的高中名門門將，反應敏捷且高空球摘檔穩定。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Aomori Yamada High School",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "高中畢業加盟職業隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全國高校足球選手權大會優勝"
       ],
       "milestones": [
-        "入選高中選拔隊赴歐交流"
+        "2026/27列入岡山現役名單（背號13）。",
+        "加盟前最近履歷包括Aomori Yamada High School。"
       ],
       "tactical_traits": [
-        "門線快速反應",
-        "高空球摘檔"
+        "門線反應與高球判斷是門將競爭基本盤。",
+        "岡山大量轉換局面下，第一腳發動速度很重要。"
       ],
-      "quirky_trivia": "高校時代便是名門青森山田的主力門將。",
+      "quirky_trivia": "松田駿的直播辨識點是背號13與GK角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_13",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -813,23 +1322,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Aomori Yamada High School",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "高中畢業加盟職業隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_14",
+      "id": "okayama_14",
       "club": "岡山綠雉",
       "number": "14",
       "name_zh": "田部井涼",
@@ -849,27 +1405,28 @@
       "intro": "技術型左腳中場，擅長狹小空間內的傳控與攻守轉換鏈接。",
       "timeline": [
         {
-          "period": "2022",
+          "period": "履歷",
           "team": "Yokohama FC",
-          "category": "J2職業隊",
-          "milestone": "職業生涯首秀"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "副隊長兼中場主力"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "岡山副隊長任命"
+        "2026/27列入岡山現役名單（背號14）。",
+        "加盟前最近履歷包括Yokohama FC。"
       ],
       "tactical_traits": [
-        "左腳精準傳球",
-        "前場出球發動"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "擁有雙胞胎兄弟同樣從事職業足球。",
+      "quirky_trivia": "田部井涼的直播辨識點是背號14與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_14",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -879,34 +1436,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022",
+          "season": null,
           "team": "Yokohama FC",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "職業生涯首秀",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "副隊長兼中場主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_17",
+      "id": "okayama_17",
       "club": "岡山綠雉",
       "number": "17",
       "name_zh": "末吉壘",
@@ -926,27 +1519,28 @@
       "intro": "邊路速度型突擊手，具備極佳的下底傳中與突破穿透力。",
       "timeline": [
         {
-          "period": "2021–2023",
+          "period": "履歷",
           "team": "JEF United Chiba",
-          "category": "J2職業隊",
-          "milestone": "千葉市原主力邊翼"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "鎖定岡山邊路首發"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J2聯賽單季助攻前十"
+        "2026/27列入岡山現役名單（背號17）。",
+        "加盟前最近履歷包括JEF United Chiba。"
       ],
       "tactical_traits": [
-        "邊路極速突破",
-        "精準下底傳中"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "身材小巧但衝刺速度極快。",
+      "quirky_trivia": "末吉壘的直播辨識點是背號17與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_17",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -956,34 +1550,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
+          "season": null,
           "team": "JEF United Chiba",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "千葉市原主力邊翼",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "鎖定岡山邊路首發",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_18",
+      "id": "okayama_18",
       "club": "岡山綠雉",
       "number": "18",
       "name_zh": "田上大地",
@@ -1003,29 +1633,30 @@
       "intro": "後防萬能插頭，能勝任中後衛與邊後衛，經驗豐富且位置感極佳。",
       "timeline": [
         {
-          "period": "2020–2023",
+          "period": "履歷",
           "team": "Albirex Niigata",
-          "category": "J1/J2職業隊",
-          "milestone": "新潟天鵝防線功臣"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "加盟岡山擔任後防要角"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J2 聯賽冠軍 (2022)"
       ],
       "milestones": [
-        "職業生涯登場突破200場"
+        "2026/27列入岡山現役名單（背號18）。",
+        "加盟前最近履歷包括Albirex Niigata。"
       ],
       "tactical_traits": [
-        "防線多面手",
-        "位置補位頭腦"
+        "以180cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "定位球前插頭鎚具備極高得分威脅。",
+      "quirky_trivia": "田上大地的直播辨識點是背號18與DF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_18",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1035,34 +1666,175 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–2023",
+          "season": null,
           "team": "Albirex Niigata",
-          "competition": "J1/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "新潟天鵝防線功臣",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
+    },
+    {
+      "name_zh": "佐藤凌我",
+      "name_ja": "佐藤 凌我",
+      "name_en": "Ryoga Sato",
+      "position": "FW",
+      "dob": "1999-02-20",
+      "height": 178,
+      "weight": 65,
+      "birthplace": "福岡縣",
+      "prev_club": "磐田山葉",
+      "registration_status": "期限付き移籍",
+      "intro": "9月10日由磐田山葉借用加盟的前鋒。J2曾連續兩季為東京綠茵攻入13球，前場跑動與禁區終結兼備。",
+      "quirky_trivia": "官方Q&A：興趣是桑拿、喜歡燒肉與Vaundy；加盟宣言特別說會為勝利『跑、泥臭く戦う』。",
+      "id": "okayama_19",
+      "club": "岡山綠雉",
+      "team_slug": "okayama",
+      "number": "19",
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "season_start_age": 27,
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "name_source": "官方日本名；TVB主表未及本次季中／新秀更新時不另造譯名。",
+      "tactical_traits": [
+        "前場無球跑動與第一線press是基本任務。",
+        "禁區內要利用跑線／身體條件把有限機會變成射門。"
+      ],
+      "milestones": [
+        "2026/27列入岡山現役名單（背號19）。",
+        "加盟前最近履歷包括磐田山葉。"
+      ],
+      "career": [
+        {
+          "season": null,
+          "team": "磐田山葉",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟岡山擔任後防要角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "期限付き移籍",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "timeline": [
+        {
+          "period": "履歷",
+          "team": "磐田山葉",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
+          "team": "岡山綠雉",
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
+        }
+      ],
+      "honors": [],
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_20",
+      "id": "okayama_20",
       "club": "岡山綠雉",
       "number": "20",
       "name_zh": "河野孝汰",
@@ -1082,27 +1854,28 @@
       "intro": "年輕的攻擊型前鋒，爆發力優異，門前搶點反應迅速。",
       "timeline": [
         {
-          "period": "2020–2025",
+          "period": "履歷",
           "team": "Renofa Yamaguchi",
-          "category": "J2職業隊",
-          "milestone": "山口雷法青訓隊史最年輕進球者"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山衝擊首發"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "打破J2聯賽最年輕進球紀錄"
+        "2026/27列入岡山現役名單（背號20）。",
+        "加盟前最近履歷包括Renofa Yamaguchi。"
       ],
       "tactical_traits": [
-        "門前搶點",
-        "瞬間爆發突破"
+        "前場無球跑動與第一線press是基本任務。",
+        "禁區內要利用跑線／身體條件把有限機會變成射門。"
       ],
-      "quirky_trivia": "高校時期便獲得職業隊洗禮的天才前鋒。",
+      "quirky_trivia": "河野孝汰的直播辨識點是背號20與FW角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_20",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1112,111 +1885,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–2025",
+          "season": null,
           "team": "Renofa Yamaguchi",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "山口雷法青訓隊史最年輕進球者",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山衝擊首發",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_22",
-      "club": "岡山綠雉",
-      "number": "22",
-      "name_zh": "一美和成",
-      "name_en": "Kazunari Ichimi",
-      "position": "FW",
-      "dob": "1997-11-10",
-      "age": 28,
-      "height": 182,
-      "weight": 77,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2024,
-      "prev_club": "Kyoto Sanga",
-      "registration_status": "本國球員",
-      "tenure_status": "效力第3季",
-      "national_team_detail": "日本 U-23 國家隊",
-      "intro": "高大搶點型中鋒，身體對抗強烈，具備極強的背身做球能力。",
-      "timeline": [
-        {
-          "period": "2019",
-          "team": "Kyoto Sanga",
-          "category": "J2職業隊",
-          "milestone": "單季攻入17球"
-        },
-        {
-          "period": "2024–至今",
-          "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "岡山鋒線要角"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "J2單季進球數達到17球"
-      ],
-      "tactical_traits": [
-        "背身做球",
-        "禁區爭頂"
-      ],
-      "quirky_trivia": "在場上極具戰鬥精神。",
-      "legacy_id": "jleague_okayama_22",
-      "official_player_id": null,
-      "team_slug": "okayama",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 28,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2019",
-          "team": "Kyoto Sanga",
-          "competition": "J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "單季攻入17球",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–至今",
-          "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "岡山鋒線要角",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
-      "id": "jleague_okayama_23",
+      "id": "okayama_23",
       "club": "岡山綠雉",
       "number": "23",
       "name_zh": "基雲·施華",
@@ -1236,27 +1968,28 @@
       "intro": "身材高大的巴西門將，反應迅捷，高空球撲救經驗極為豐富。",
       "timeline": [
         {
-          "period": "2023–2025",
+          "period": "履歷",
           "team": "Damac FC",
-          "category": "Saudi Pro League",
-          "milestone": "沙特聯賽主力門將"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "轉會加盟岡山綠雉"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "首度登陸J1聯賽"
+        "2026/27列入岡山現役名單（背號23）。",
+        "加盟前最近履歷包括Damac FC。"
       ],
       "tactical_traits": [
-        "門前反應撲救",
-        "高空球封堵"
+        "門線反應與高球判斷是門將競爭基本盤。",
+        "岡山大量轉換局面下，第一腳發動速度很重要。"
       ],
-      "quirky_trivia": "撲救十二碼成功率相當高。",
+      "quirky_trivia": "巴西門將Kewin Silva是岡山門將組的南美選項，與德國Moser、日本本土門將形成非常國際化的競爭。",
       "legacy_id": "jleague_okayama_23",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1266,34 +1999,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
+          "season": null,
           "team": "Damac FC",
-          "competition": "Saudi Pro League",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "沙特聯賽主力門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "轉會加盟岡山綠雉",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_24",
+      "id": "okayama_24",
       "club": "岡山綠雉",
       "number": "24",
       "name_zh": "藤田息吹",
@@ -1313,27 +2082,28 @@
       "intro": "鐵血防守中場，中場跑動覆蓋面廣，鏟球攔截極具震撼力。",
       "timeline": [
         {
-          "period": "2021–2023",
+          "period": "履歷",
           "team": "Montedio Yamagata",
-          "category": "J2職業隊",
-          "milestone": "山形山神中場核心"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "加盟岡山鎮守中場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J2職業聯賽出場超250場"
+        "2026/27列入岡山現役名單（背號24）。",
+        "加盟前最近履歷包括Montedio Yamagata。"
       ],
       "tactical_traits": [
-        "中場搶斷掃蕩",
-        "補位防禦"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "球風極其硬朗頑強。",
+      "quirky_trivia": "藤田息吹的直播辨識點是背號24與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_24",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1343,34 +2113,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
+          "season": null,
           "team": "Montedio Yamagata",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "山形山神中場核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山鎮守中場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_26",
+      "id": "okayama_26",
       "club": "岡山綠雉",
       "number": "26",
       "name_zh": "本山遙",
@@ -1390,29 +2196,30 @@
       "intro": "從神戶勝利船外借加盟的後防多面手，卡位準確，腳下出球穩定。",
       "timeline": [
         {
-          "period": "2022–2024",
+          "period": "履歷",
           "team": "Vissel Kobe",
-          "category": "J1職業隊",
-          "milestone": "神戶勝利船青訓崛起"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "外借加盟岡山鎖定主力"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J1 聯賽冠軍 (2023)"
       ],
       "milestones": [
-        "隨神戶奪得隊史首座J1冠軍"
+        "2026/27列入岡山現役名單（背號26）。",
+        "加盟前最近履歷包括Vissel Kobe。"
       ],
       "tactical_traits": [
-        "卡位防守",
-        "後場穩定出球"
+        "以172cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "能夠靈活勝任後防線多個位置。",
+      "quirky_trivia": "本山遙的直播辨識點是背號26與DF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_26",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1422,34 +2229,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2024",
+          "season": null,
           "team": "Vissel Kobe",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "神戶勝利船青訓崛起",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "外借加盟岡山鎖定主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_27",
+      "id": "okayama_27",
       "club": "岡山綠雉",
       "number": "27",
       "name_zh": "木村太哉",
@@ -1469,21 +2312,28 @@
       "intro": "岡山青訓大頭目，邊路盤帶靈活，攻守端皆展現極高積極度。",
       "timeline": [
         {
-          "period": "2021–至今",
+          "period": "履歷",
+          "team": "Kannan University",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "隊史出場突破180場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "岡山綠雉隊史出場榜前列"
+        "2026/27列入岡山現役名單（背號27）。",
+        "加盟前最近履歷包括Kannan University。"
       ],
       "tactical_traits": [
-        "邊路突破內切",
-        "前場回追防守"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "效力岡山多年，深受在地球迷喜愛。",
+      "quirky_trivia": "木村太哉的直播辨識點是背號27與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_27",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1493,23 +2343,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–至今",
-          "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "season": null,
+          "team": "Kannan University",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "隊史出場突破180場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_28",
+      "id": "okayama_28",
       "club": "岡山綠雉",
       "number": "28",
       "name_zh": "松本昌也",
@@ -1529,29 +2426,30 @@
       "intro": "經驗豐富的中場邊翼，控球技術細膩，具備極佳的傳球視野。",
       "timeline": [
         {
-          "period": "2017–2024",
+          "period": "履歷",
           "team": "Jubilo Iwata",
-          "category": "J1/J2職業隊",
-          "milestone": "磐田山葉主力中場"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山豐富進攻層次"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J2 聯賽冠軍 (2021)"
       ],
       "milestones": [
-        "J1/J2職業聯賽登場超200場"
+        "2026/27列入岡山現役名單（背號28）。",
+        "加盟前最近履歷包括Jubilo Iwata。"
       ],
       "tactical_traits": [
-        "精準傳中",
-        "邊路掌控"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "傳中球落點極度精準。",
+      "quirky_trivia": "松本昌也的直播辨識點是背號28與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_28",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1561,34 +2459,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2017–2024",
+          "season": null,
           "team": "Jubilo Iwata",
-          "competition": "J1/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "磐田山葉主力中場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山豐富進攻層次",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_30",
+      "id": "okayama_30",
       "club": "岡山綠雉",
       "number": "30",
       "name_zh": "末宗寬士郎",
@@ -1608,21 +2542,28 @@
       "intro": "岡山青訓自家培養的潛力攻擊手，跑位靈活且衝擊力十足。",
       "timeline": [
         {
-          "period": "2025–至今",
+          "period": "履歷",
+          "team": "Fagiano Okayama U-18",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "青訓晉升一隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "岡山U18隊史神射手之一"
+        "2026/27列入岡山現役名單（背號30）。",
+        "加盟前最近履歷包括Fagiano Okayama U-18。"
       ],
       "tactical_traits": [
-        "靈活跑位",
-        "門前射門"
+        "前場無球跑動與第一線press是基本任務。",
+        "禁區內要利用跑線／身體條件把有限機會變成射門。"
       ],
-      "quirky_trivia": "岡山在地出身的土生土長小將。",
+      "quirky_trivia": "岡山U-18出身前鋒，從自家育成進入一隊；在多名外援與資深前鋒之間爭取時間。",
       "legacy_id": "jleague_okayama_30",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1632,23 +2573,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2025–至今",
-          "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Fagiano Okayama U-18",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青訓晉升一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_31",
+      "id": "okayama_31",
       "club": "岡山綠雉",
       "number": "31",
       "name_zh": "千田遼",
@@ -1668,21 +2656,28 @@
       "intro": "青訓出品的後防小將，搶斷果斷，具備出色的學習能力。",
       "timeline": [
         {
-          "period": "2025–至今",
+          "period": "履歷",
+          "team": "Fagiano Okayama U-18",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "提拔至一隊訓練"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "達成職業首秀代表"
+        "2026/27列入岡山現役名單（背號31）。",
+        "加盟前最近履歷包括Fagiano Okayama U-18。"
       ],
       "tactical_traits": [
-        "快速搶斷",
-        "協防補位"
+        "以174cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "訓練態度獲得教練組一致好評。",
+      "quirky_trivia": "岡山U-18背景後衛，代表球會自家Academy向一隊輸送的路線。",
       "legacy_id": "jleague_okayama_31",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1692,23 +2687,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2025–至今",
-          "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Fagiano Okayama U-18",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "提拔至一隊訓練",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_33",
+      "id": "okayama_33",
       "club": "岡山綠雉",
       "number": "33",
       "name_zh": "神谷優太",
@@ -1728,29 +2770,30 @@
       "intro": "前場進攻核心，遠射技術優異，定位球射門極具威懾力。",
       "timeline": [
         {
-          "period": "2022–2023",
-          "team": "Shimizu S-Pulse",
-          "category": "J1職業隊",
-          "milestone": "清水心跳主力進攻中場"
+          "period": "履歷",
+          "team": "Gangwon FC",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "加盟岡山擔當前場發動機"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "亞運會男足銀牌 (2018)"
       ],
       "milestones": [
-        "國奧隊進攻主力代表"
+        "2026/27列入岡山現役名單（背號33）。",
+        "加盟前最近履歷包括Gangwon FC。"
       ],
       "tactical_traits": [
-        "遠射能力",
-        "定位球弧線"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "遠射世界波經常入選單月最佳進球。",
+      "quirky_trivia": "神谷優太的直播辨識點是背號33與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_33",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1760,34 +2803,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2023",
-          "team": "Shimizu S-Pulse",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Gangwon FC",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "清水心跳主力進攻中場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山擔當前場發動機",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_40",
+      "id": "okayama_40",
       "club": "岡山綠雉",
       "number": "40",
       "name_zh": "小倉幸成",
@@ -1807,23 +2886,30 @@
       "intro": "法政大學出品的跑動型中場，覆蓋範圍極大，中場逼搶極具威懾力。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Hosei University",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "大學特別指定加盟"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全日本大學錦標賽優秀選手"
       ],
       "milestones": [
-        "代表日本U20出戰國際友誼賽"
+        "2026/27列入岡山現役名單（背號40）。",
+        "加盟前最近履歷包括Hosei University。"
       ],
       "tactical_traits": [
-        "大範圍體能覆蓋",
-        "逼搶奪球"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "體能測試成績全隊前列。",
+      "quirky_trivia": "小倉幸成的直播辨識點是背號40與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_40",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1833,23 +2919,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Hosei University",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大學特別指定加盟",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_41",
+      "id": "okayama_41",
       "club": "岡山綠雉",
       "number": "41",
       "name_zh": "宮本英治",
@@ -1869,27 +3002,28 @@
       "intro": "跑動對抗型中場，在攻守兩端皆有極高回追頻率與逼搶成功率。",
       "timeline": [
         {
-          "period": "2021–2024",
+          "period": "履歷",
           "team": "Albirex Niigata",
-          "category": "J1/J2職業隊",
-          "milestone": "新潟天鵝中場悍將"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "轉投岡山提升中場強度"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "單場對抗獲勝次數岡山隊內前三"
+        "2026/27列入岡山現役名單（背號41）。",
+        "加盟前最近履歷包括Albirex Niigata。"
       ],
       "tactical_traits": [
-        "高強度逼搶",
-        "跑動攔截"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "跑動距離經常排名全場第一。",
+      "quirky_trivia": "宮本英治的直播辨識點是背號41與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_41",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1899,34 +3033,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2024",
+          "season": null,
           "team": "Albirex Niigata",
-          "competition": "J1/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "新潟天鵝中場悍將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "轉投岡山提升中場強度",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_43",
+      "id": "okayama_43",
       "club": "岡山綠雉",
       "number": "43",
       "name_zh": "鈴木喜丈",
@@ -1946,27 +3116,28 @@
       "intro": "左腳中後衛，具備優異的左腳斜長傳轉移與防線封堵能力。",
       "timeline": [
         {
-          "period": "2020–2022",
+          "period": "履歷",
           "team": "Mito HollyHock",
-          "category": "J2職業隊",
-          "milestone": "水戶蜀葵防線核心"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "岡山左路防禦關鍵"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "職業聯賽登場次數突破150場"
+        "2026/27列入岡山現役名單（背號43）。",
+        "加盟前最近履歷包括Mito HollyHock。"
       ],
       "tactical_traits": [
-        "左腳斜長傳",
-        "防線解圍"
+        "以183cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "腳下長傳準頭極佳。",
+      "quirky_trivia": "鈴木喜丈的直播辨識點是背號43與DF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_43",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -1976,34 +3147,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–2022",
+          "season": null,
           "team": "Mito HollyHock",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "水戶蜀葵防線核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "岡山左路防禦關鍵",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_44",
+      "id": "okayama_44",
       "club": "岡山綠雉",
       "number": "44",
       "name_zh": "森壯一朗",
@@ -2023,21 +3230,28 @@
       "intro": "從名古屋鯨魚育成型外借加盟的後防小將，防守意識與回追速度俱佳。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Nagoya Grampus",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "外借岡山積累經驗"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "日本U20國青隊常客"
+        "2026/27列入岡山現役名單（背號44）。",
+        "加盟前最近履歷包括Nagoya Grampus。"
       ],
       "tactical_traits": [
-        "回追速度",
-        "防守對位"
+        "以181cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "被譽為名古屋青訓未來之星。",
+      "quirky_trivia": "森壯一朗的直播辨識點是背號44與DF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_44",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2047,23 +3261,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Nagoya Grampus",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "外借岡山積累經驗",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_48",
+      "id": "okayama_48",
       "club": "岡山綠雉",
       "number": "48",
       "name_zh": "立田悠悟",
@@ -2083,35 +3344,30 @@
       "intro": "191cm巨塔型前國腳中後衛，擁有強悍的高空球爭頂與防線防守正面對抗。",
       "timeline": [
         {
-          "period": "2017–2022",
-          "team": "Shimizu S-Pulse",
-          "category": "J1職業隊",
-          "milestone": "清水心跳後防主力"
-        },
-        {
-          "period": "2023–2024",
+          "period": "履歷",
           "team": "Kashiwa Reysol",
-          "category": "J1職業隊",
-          "milestone": "柏太陽王高空球鐵閘"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "轉投岡山擔任防線基石"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "美洲盃日本國家隊代表 (2019)"
       ],
       "milestones": [
-        "代表日本國家隊出場"
+        "2026/27列入岡山現役名單（背號48）。",
+        "加盟前最近履歷包括Kashiwa Reysol。"
       ],
       "tactical_traits": [
-        "191cm高空球爭頂",
-        "正面攔截清球"
+        "以191cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "身材魁梧且具備發控後場長傳能力。",
+      "quirky_trivia": "191cm中堅，前7輪跑動68.3km隊內第三；大型中堅仍要維持高移動量。",
       "legacy_id": "jleague_okayama_48",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2121,45 +3377,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2017–2022",
-          "team": "Shimizu S-Pulse",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "清水心跳後防主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–2024",
+          "season": null,
           "team": "Kashiwa Reysol",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "柏太陽王高空球鐵閘",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "轉投岡山擔任防線基石",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_51",
+      "id": "okayama_51",
       "club": "岡山綠雉",
       "number": "51",
       "name_zh": "白井康介",
@@ -2179,33 +3460,28 @@
       "intro": "爆發力邊路跑將，擁有極高的衝刺次數與右路攻守往復能力。",
       "timeline": [
         {
-          "period": "2021–2023",
-          "team": "Kyoto Sanga",
-          "category": "J1職業隊",
-          "milestone": "京都不死鳥邊路快馬"
-        },
-        {
-          "period": "2023–2025",
+          "period": "履歷",
           "team": "FC Tokyo",
-          "category": "J1職業隊",
-          "milestone": "FC東京主力右後衛"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山擔任邊路樞紐"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J1聯賽單季衝刺次數名列前茅"
+        "2026/27列入岡山現役名單（背號51）。",
+        "加盟前最近履歷包括FC Tokyo。"
       ],
       "tactical_traits": [
-        "極速邊路套邊",
-        "高頻率回追防守"
+        "以166cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "比賽中衝刺次數極高，體能怪人。",
+      "quirky_trivia": "前7輪106次衝刺為隊內第一，最高速34.1km/h亦居前列，邊路反覆上下非常具體。",
       "legacy_id": "jleague_okayama_51",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2215,45 +3491,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2023",
-          "team": "Kyoto Sanga",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "京都不死鳥邊路快馬",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–2025",
+          "season": null,
           "team": "FC Tokyo",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "FC東京主力右後衛",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山擔任邊路樞紐",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_52",
+      "id": "okayama_52",
       "club": "岡山綠雉",
       "number": "52",
       "name_zh": "濱田太郎",
@@ -2273,27 +3574,28 @@
       "intro": "門線技術穩健的年輕門將，臂展極長且防守反應靈敏。",
       "timeline": [
         {
-          "period": "2022–2025",
+          "period": "履歷",
           "team": "Oita Trinita",
-          "category": "J2職業隊",
-          "milestone": "大分三神輪換門將"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山補充門將位置"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "完成職業首戰零封"
+        "2026/27列入岡山現役名單（背號52）。",
+        "加盟前最近履歷包括Oita Trinita。"
       ],
       "tactical_traits": [
-        "長臂撲救",
-        "門前指揮"
+        "門線反應與高球判斷是門將競爭基本盤。",
+        "岡山大量轉換局面下，第一腳發動速度很重要。"
       ],
-      "quirky_trivia": "門前站位相當冷靜。",
+      "quirky_trivia": "濱田太郎的直播辨識點是背號52與GK角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_52",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2303,34 +3605,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
+          "season": null,
           "team": "Oita Trinita",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大分三神輪換門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山補充門將位置",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_55",
+      "id": "okayama_55",
       "club": "岡山綠雉",
       "number": "55",
       "name_zh": "藤井葉大",
@@ -2350,21 +3688,28 @@
       "intro": "年輕的左腳後衛，防守果斷，具備不錯的邊路腳下傳球技術。",
       "timeline": [
         {
-          "period": "2024–至今",
+          "period": "履歷",
+          "team": "Iizuka High School",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "高校畢業加盟岡山"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "解鎖一隊正式登場"
+        "2026/27列入岡山現役名單（背號55）。",
+        "加盟前最近履歷包括Iizuka High School。"
       ],
       "tactical_traits": [
-        "左腳傳球",
-        "防守卡位"
+        "以180cm身形與站位處理正面防守。",
+        "木山體系要求防線保持距離，奪球後快速把球送入中前場。"
       ],
-      "quirky_trivia": "訓練中表現極為刻苦。",
+      "quirky_trivia": "藤井葉大的直播辨識點是背號55與DF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_55",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2374,23 +3719,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2024–至今",
-          "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "season": null,
+          "team": "Iizuka High School",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "高校畢業加盟岡山",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "岡山綠雉",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_66",
+      "id": "okayama_66",
       "club": "岡山綠雉",
       "number": "66",
       "name_zh": "西川潤",
@@ -2407,32 +3799,33 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第1季",
       "national_team_detail": "日本 U-23 國家隊",
-      "intro": "天才左腳中場，具備極強的盤帶撕裂防線能力與前場致命直塞。",
+      "intro": "西川潤是岡山2026/27現役MF；由Cerezo Osaka路線加入／延續職業生涯。",
       "timeline": [
         {
-          "period": "2020–2025",
+          "period": "履歷",
           "team": "Cerezo Osaka",
-          "category": "J1職業隊",
-          "milestone": "高中畢業即加盟J1豪門"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "接下66號進攻核心球衣"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "U-16 亞洲盃 MVP (2018)"
       ],
       "milestones": [
-        "代表日本國奧隊出戰世青盃"
+        "2026/27列入岡山現役名單（背號66）。",
+        "加盟前最近履歷包括Cerezo Osaka。"
       ],
       "tactical_traits": [
-        "天才左腳盤帶",
-        "前場關鍵直塞傳球"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "高中時期即獲得歐洲豪門關注的天才中場。",
+      "quirky_trivia": "西川潤的直播辨識點是背號66與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_66",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2442,34 +3835,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–2025",
+          "season": null,
           "team": "Cerezo Osaka",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "高中畢業即加盟J1豪門",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "接下66號進攻核心球衣",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_77",
+      "id": "okayama_77",
       "club": "岡山綠雉",
       "number": "77",
       "name_zh": "川浪吾郎",
@@ -2489,29 +3918,30 @@
       "intro": "經驗豐富的老牌門將，制空實力強，更衣室內部更具重要領導作用。",
       "timeline": [
         {
-          "period": "2021–2024",
+          "period": "履歷",
           "team": "Sanfrecce Hiroshima",
-          "category": "J1職業隊",
-          "milestone": "廣島三箭功臣門將"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山把守最後防線"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J.League 盃冠軍 (2022)"
       ],
       "milestones": [
-        "隨廣島奪得聯賽盃冠軍"
+        "2026/27列入岡山現役名單（背號77）。",
+        "加盟前最近履歷包括Sanfrecce Hiroshima。"
       ],
       "tactical_traits": [
-        "高空球摘擋",
-        "更衣室領導力"
+        "門線反應與高球判斷是門將競爭基本盤。",
+        "岡山大量轉換局面下，第一腳發動速度很重要。"
       ],
-      "quirky_trivia": "非常受隊友信賴的老將。",
+      "quirky_trivia": "川浪吾郎的直播辨識點是背號77與GK角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_77",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2521,34 +3951,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2024",
+          "season": null,
           "team": "Sanfrecce Hiroshima",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "廣島三箭功臣門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山把守最後防線",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_79",
+      "id": "okayama_79",
       "club": "岡山綠雉",
       "number": "79",
       "name_zh": "布朗·諾亞·賢信",
@@ -2568,27 +4034,28 @@
       "intro": "身高189cm的混血攻擊手，推進步伐大，空陸作戰皆具備威脅。",
       "timeline": [
         {
-          "period": "2024",
+          "period": "履歷",
           "team": "Oita Trinita",
-          "category": "J2職業隊",
-          "milestone": "大分三神主力前鋒"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山充實前場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J2單季進球雙位數"
+        "2026/27列入岡山現役名單（背號79）。",
+        "加盟前最近履歷包括Oita Trinita。"
       ],
       "tactical_traits": [
-        "高大身材推進",
-        "前場頭鎚搶點"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "日加混血，身體天賦極出色。",
+      "quirky_trivia": "加拿大／日本背景、189cm的大型前場／中場球員，體型令岡山可增加高球與第二點選擇。",
       "legacy_id": "jleague_okayama_79",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2598,34 +4065,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2024",
+          "season": null,
           "team": "Oita Trinita",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大分三神主力前鋒",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山充實前場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_80",
+      "id": "okayama_80",
       "club": "岡山綠雉",
       "number": "80",
       "name_zh": "奧比頓",
@@ -2645,29 +4148,30 @@
       "intro": "強悍的巴西中場掃蕩者，攔截卡位果斷，傳球過渡乾淨俐落。",
       "timeline": [
         {
-          "period": "2023–2025",
-          "team": "Pohang Steelers",
-          "category": "K League 1",
-          "milestone": "韓國全北/浦項中場主力"
+          "period": "履歷",
+          "team": "Jeonbuk Hyundai Motors FC",
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山鎮守中場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "韓國足協盃冠軍 (2023)"
       ],
       "milestones": [
-        "K聯賽最佳中場提名"
+        "2026/27列入岡山現役名單（背號80）。",
+        "加盟前最近履歷包括Jeonbuk Hyundai Motors FC。"
       ],
       "tactical_traits": [
-        "中場掃蕩攔截",
-        "攻守 transition"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "在中場拚搶對抗勝率極高。",
+      "quirky_trivia": "巴西中場Oberdan前7輪11次duel won，主要價值是中場身體對抗與球權回收。",
       "legacy_id": "jleague_okayama_80",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2677,34 +4181,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
-          "team": "Pohang Steelers",
-          "competition": "K League 1",
+          "season": null,
+          "team": "Jeonbuk Hyundai Motors FC",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "韓國全北/浦項中場主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山鎮守中場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_88",
+      "id": "okayama_88",
       "club": "岡山綠雉",
       "number": "88",
       "name_zh": "山根永遠",
@@ -2724,27 +4264,28 @@
       "intro": "小巧靈動的邊路攻擊手，步頻極快，下底盤帶突破極具殺傷力。",
       "timeline": [
         {
-          "period": "2022–2025",
+          "period": "履歷",
           "team": "Yokohama FC",
-          "category": "J1/J2職業隊",
-          "milestone": "橫濱FC進攻核心"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1職業隊",
-          "milestone": "加盟岡山披上88號戰袍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J2升級功臣"
+        "2026/27列入岡山現役名單（背號88）。",
+        "加盟前最近履歷包括Yokohama FC。"
       ],
       "tactical_traits": [
-        "高步頻盤帶",
-        "邊路突破傳中"
+        "中場需要反覆爭第二點並保持攻守距離。",
+        "拿回球權後優先向前連接，支援岡山快速transition。"
       ],
-      "quirky_trivia": "父親亦為前J聯賽職業球員。",
+      "quirky_trivia": "山根永遠的直播辨識點是背號88與MF角色；岡山本季強調整隊跑動、第二點與快速轉換，他的功能可從無球工作量觀察。",
       "legacy_id": "jleague_okayama_88",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2754,34 +4295,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
+          "season": null,
           "team": "Yokohama FC",
-          "competition": "J1/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "橫濱FC進攻核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟岡山披上88號戰袍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_okayama_99",
+      "id": "okayama_99",
       "club": "岡山綠雉",
       "number": "99",
       "name_zh": "盧卡奧",
@@ -2801,29 +4378,30 @@
       "intro": "191cm衝鋒型坦克中鋒，擁有一頂三的防線破壞力與極強的衝擊速度。",
       "timeline": [
         {
-          "period": "2021–2022",
+          "period": "履歷",
           "team": "Matsumoto Yamaga",
-          "category": "J2/J3職業隊",
-          "milestone": "松本山雅主力中鋒"
+          "category": "育成／職業履歷",
+          "milestone": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。"
         },
         {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "岡山綠雉",
-          "category": "J1/J2職業隊",
-          "milestone": "隊史標誌性99號前鋒"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "J2單月最佳球員提名"
       ],
       "milestones": [
-        "岡山綠雉隊史高空爭頂次數紀錄保持者"
+        "2026/27列入岡山現役名單（背號99）。",
+        "加盟前最近履歷包括Matsumoto Yamaga。"
       ],
       "tactical_traits": [
-        "強悍對抗推進",
-        "禁區高空球霸主"
+        "前場無球跑動與第一線press是基本任務。",
+        "禁區內要利用跑線／身體條件把有限機會變成射門。"
       ],
-      "quirky_trivia": "場下個性十分親切，深受岡山球迷喜愛。",
+      "quirky_trivia": "191cm Lucao前7輪最高速34.2km/h竟是隊內第一；大型中鋒同時具速度，是直播非常好用的反差數據。",
       "legacy_id": "jleague_okayama_99",
       "official_player_id": null,
       "team_slug": "okayama",
@@ -2833,31 +4411,67 @@
       "player_image": "",
       "career": [
         {
-          "season": "2021–2022",
+          "season": null,
           "team": "Matsumoto Yamaga",
-          "competition": "J2/J3職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "松本山雅主力中鋒",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "前度球會／主要加入路線；未可靠核對逐季數字者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "岡山綠雉",
-          "competition": "J1/J2職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "隊史標誌性99號前鋒",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "岡山官方2026/27選手名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League岡山",
+              "url": "https://www.jleague.jp/club/okayama/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "岡山官方2026/27選手名單",
+          "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League岡山",
+          "url": "https://www.jleague.jp/club/okayama/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     }
   ]
 }
