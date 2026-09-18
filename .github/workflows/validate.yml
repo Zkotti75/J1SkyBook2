@@ -19,3 +19,4 @@ jobs:
       - run: node scripts/validate-data.mjs --strict --club=kashiwa
       - run: node scripts/validate-data.mjs --strict --club=fukuoka
       - run: node scripts/validate-data.mjs --strict --club=mito
+      - run: node scripts/validate-data.mjs --strict --club=kawasaki
