@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T18:17:03.939Z",
+  "generated_at": "2026-09-18T14:42:01.352Z",
   "team": {
     "id": "team_kashiwa",
     "type": "team_info",
@@ -9,25 +9,30 @@
     "logo_url": "logos/japan_kashiwa-reysol.football-logos.cc.svg",
     "hometown": "千葉縣柏市",
     "hometown_population": "433,000人",
-    "name_history": "「Reysol」是由西班牙語的「Rey」（國王）與「Sol」（太陽）組合而成的自創詞，意為「太陽王」。名稱承襲自母公司日立製作所（Hitachi）前身的足球部，象徵如太陽般熱情、光明與充滿霸氣的王者風範。",
+    "name_history": "「REYSOL」由西班牙語 REY（王）與 SOL（太陽）組合而成，意為「太陽王」。球會官方表示，名稱同時象徵王者的激烈與嚴格，以及太陽的溫暖與親和。",
     "stadium_info": {
-      "name": "三協F柏體育場（三協フロンテア柏スタジアム）",
-      "year_built": 1993,
-      "year_renovated": 2012,
-      "capacity": 15109,
-      "geo_location": "千葉縣柏市日立台（北緯35.8485°，東經139.9754°）",
+      "name": "三協フロンテア柏スタジアム",
+      "name_zh": "三協F柏體育場",
+      "former_name": "日立柏サッカー場",
+      "capacity": 15098,
+      "jleague_match_capacity": 15098,
+      "address": "千葉縣柏市日立台1-2-50",
+      "nearest_station": "JR常磐線／東武Urban Park Line 柏站",
+      "walking_time": "東口步行約20分鐘",
       "interesting_facts": [
-        "J1 聯賽極少數由球會私人完全擁有的專用足球場（日立台）。",
-        "觀眾席看台與球場草皮距離僅有數米，是全日本最具臨場感與壓迫感的「極限近距離」球場。",
-        "看台陡峭且聲音迴響強烈，客隊球員在此作賽常面臨極大的主場球迷聲浪壓力。"
+        "球場位於球會日立台基地內，官方登記入場可能數為15,098人。",
+        "柏站東口步行約20分鐘即可到達，是J1具代表性的緊湊型足球專用主場。",
+        "日立製作所足球部1986年把活動基地由東京都小平市移至柏市，日立台其後成為球會身份的重要象徵。"
       ]
     },
-    "team_history": "前身為1940年成立的日立製作所本社足球部，1995年正式升上 J 聯賽。曾創下2010年奪得 J2 冠軍後、翌年（2011年）以升班馬姿態神奇勇奪 J1 聯賽冠軍的「日立台奇蹟」。",
+    "team_history": "球會前身為1940年成立的日立製作所本社足球部。前身日立在1972年贏得日本Soccer League及天皇盃雙冠。1986年球隊由東京小平移師柏市；1992年成立管理運營公司，1993年定名日立FC柏Reysol，1994取得J.League升班資格，1995正式以柏Reysol名義加入J.League。現代球會最具代表性的高峰包括1999及2013兩奪League Cup、2011首奪J1、2012天皇盃，以及2010、2019兩度J2冠軍。2025在Ricardo Rodríguez領軍下取得J1第2名。",
     "performance_history": [
-      "2次 J1 聯賽冠軍 (1972 [日立], 2011)",
-      "3次 天皇盃冠軍 (1972, 1975, 2012)",
-      "2次 J.League 聯賽盃冠軍 (1999, 2013)",
-      "2次 J2 聯賽冠軍 (2010, 2019)"
+      "J1聯賽冠軍：1次（2011）",
+      "J2聯賽冠軍：2次（2010、2019）",
+      "J.League Cup／Levain Cup冠軍：2次（1999、2013）",
+      "天皇盃冠軍：1次（2012）",
+      "前身日立製作所：日本Soccer League冠軍（1972）",
+      "前身日立製作所：天皇盃冠軍（1972、1975）"
     ],
     "slug": "kashiwa",
     "data_key": "柏太陽王",
@@ -40,107 +45,660 @@
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "legacy_unverified",
-    "sources": []
+    "roster_as_of": "2026-09-18",
+    "data_status": "verified",
+    "sources": [
+      {
+        "label": "柏太陽王官方：球會概要及歷史",
+        "url": "https://reysol.co.jp/club/clubinfo/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏太陽王官方：英文球會概要及主要冠軍",
+        "url": "https://www.reysol.co.jp/club/clubinfo/index-e.php",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏太陽王官方：前身日立歷史",
+        "url": "https://www.reysol.co.jp/past-pages/club/history/chronology/1995.php",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏太陽王官方：2021–2026歷史年表",
+        "url": "https://reysol.co.jp/club/history/chronology/2126.php",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League官方：柏太陽王球會頁及2026/27現況",
+        "url": "https://www.jleague.jp/club/kashiwa/",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "established": 1992,
+    "predecessor_established": 1940,
+    "jleague_joined": 1995,
+    "corporation": "株式会社 日立柏レイソル",
+    "president": "山崎 和伸",
+    "club_color": "黃色",
+    "history_timeline": [
+      {
+        "year": "1940",
+        "event": "前身日立製作所本社足球部成立。"
+      },
+      {
+        "year": "1972",
+        "event": "前身日立贏得日本Soccer League及天皇盃雙冠。"
+      },
+      {
+        "year": "1986",
+        "event": "活動基地由東京都小平市遷至柏市。"
+      },
+      {
+        "year": "1992",
+        "event": "球會管理運營公司成立。"
+      },
+      {
+        "year": "1995",
+        "event": "正式加入J.League，隊名改為柏Reysol。"
+      },
+      {
+        "year": "1999",
+        "event": "首次贏得J.League Cup。"
+      },
+      {
+        "year": "2011",
+        "event": "升班後首季即奪J1冠軍。"
+      },
+      {
+        "year": "2012",
+        "event": "贏得天皇盃。"
+      },
+      {
+        "year": "2013",
+        "event": "第二度贏得J.League Cup。"
+      },
+      {
+        "year": "2019",
+        "event": "第二度贏得J2冠軍並升回J1。"
+      },
+      {
+        "year": "2025",
+        "event": "J1第2名、League Cup亞軍；古賀太陽及小泉佳穗入選Best XI。"
+      },
+      {
+        "year": "2026/27",
+        "event": "截至9月17日錄得5勝0和2負、排名J1第3。"
+      }
+    ],
+    "recent_seasons": [
+      {
+        "season": "2023",
+        "competition": "J1",
+        "finish": "第17名"
+      },
+      {
+        "season": "2024",
+        "competition": "J1",
+        "finish": "第17名"
+      },
+      {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "第2名（21勝12和5負、60入球34失球）"
+      },
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第3名（5勝0和2負；截至2026-09-17）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "明治安田J1 League",
+      "manager": "列卡度・洛迪古斯",
+      "matches": 7,
+      "wins": 5,
+      "draws": 0,
+      "losses": 2,
+      "points": 15,
+      "rank": 3,
+      "goals_per_match": 1.9,
+      "passes_per_match": 628.4,
+      "possession_percent": 58.2,
+      "as_of": "2026-09-17"
+    },
+    "verified_at": "2026-09-18"
   },
   "manager": {
     "id": "jleague_kashiwa_hc",
     "club": "柏太陽王",
     "number": "HC",
     "name_zh": "列卡度・洛迪古斯",
-    "name_en": "Ricardo Rodríguez",
+    "name_en": "Ricardo Rodriguez Suarez",
     "position": "MANAGER",
     "dob": "1974-04-03",
     "age": 52,
-    "height": 180,
-    "weight": 75,
-    "foot": "右腳",
+    "height": null,
+    "weight": null,
+    "foot": "",
     "nationality": "西班牙",
     "joined": 2025,
     "prev_club": "Wuhan Three Towns",
-    "registration_status": "總教練",
-    "tenure_status": "執教第2季",
-    "national_team_detail": "無",
-    "intro": "西班牙籍名帥，擅長打造高壓逼搶與精細 Positional Play 傳控體系，曾率浦和勇奪天皇盃冠軍並榮獲 J1 年度最佳監督。",
+    "registration_status": "監督",
+    "tenure_status": "執教柏太陽王第2個完整賽季",
+    "national_team_detail": "",
+    "intro": "西班牙籍教練。早年由西班牙球會助教、青訓管理及沙特足協技術工作累積經驗，之後在泰國、日本和中國執教。2017至2020年帶領德島漩渦建立以位置和傳球控制比賽的風格，2020贏得J2冠軍；2021至2022年執教浦和紅鑽。2025接掌柏太陽王後，首季即把球隊由2024年的J1第17名帶到第2名。",
     "timeline": [
       {
+        "period": "1998–2016",
+        "team": "Spain／Saudi Arabia／Thailand",
+        "category": "教練及管理",
+        "milestone": "由助教、Academy Director、Technical Advisor到一隊監督。"
+      },
+      {
         "period": "2017–2020",
-        "team": "德島漩渦",
-        "category": "J2職業隊",
-        "milestone": "打造傳控風暴，勇奪 2020 J2 聯賽冠軍升甲"
+        "team": "徳島ヴォルティス",
+        "category": "J2監督",
+        "milestone": "2020 J2冠軍並升班。"
       },
       {
         "period": "2021–2022",
-        "team": "浦和紅鑽",
-        "category": "J1職業隊",
-        "milestone": "率浦和奪得 2021 天皇盃冠軍與 2022 超級盃冠軍，榮獲 J1 年度最佳監督"
+        "team": "浦和レッズ",
+        "category": "J1監督",
+        "milestone": "贏得2021天皇盃及2022日本Super Cup。"
       },
       {
-        "period": "2025–至今",
-        "team": "柏太陽王",
-        "category": "J1職業隊",
-        "milestone": "執掌柏太陽王教鞭，全面升級日立台戰術體系"
+        "period": "2024",
+        "team": "Wuhan Three Towns",
+        "category": "Chinese Super League",
+        "milestone": "中國超級聯賽執教。"
+      },
+      {
+        "period": "2025–",
+        "team": "柏レイソル",
+        "category": "J1監督",
+        "milestone": "2025 J1第2、League Cup亞軍；2026/27八月獲月間監督獎。"
       }
     ],
     "honors": [
-      "1次 J1 聯賽年度最佳監督 / Manager of the Year (2021)",
-      "1次 天皇盃冠軍 (2021 [浦和紅鑽])",
-      "1次 J2 聯賽冠軍 (2020 [德島漩渦])"
+      "J2冠軍：2020（徳島ヴォルティス）",
+      "天皇盃冠軍：2021（浦和レッズ）",
+      "日本Super Cup冠軍：2022（浦和レッズ）",
+      "2025 J.League優秀監督獎（柏レイソル）",
+      "2025 J1第2名、J.League Cup亞軍（柏レイソル）",
+      "2026/27 J1八月月間監督獎"
     ],
     "milestones": [
-      "J 聯賽歷史上最成功的西班牙籍總教練之一"
+      "2017年首次來日執教德島漩渦。",
+      "2020帶德島贏得J2冠軍並取得升班資格。",
+      "2025接掌柏太陽王，球隊由前季J1第17名躍升至第2名，最終只以1分之差失落冠軍。",
+      "2025獲J.League優秀監督獎，並於2026/27賽季八月再獲月間監督獎。",
+      "截至2026年9月17日，柏太陽王在2026/27 J1錄得5勝0和2負，排名第3。"
     ],
     "tactical_traits": [
-      "西班牙 Positional Play 體系",
-      "高位逼搶與極致陣型壓制"
+      "以高控球率和大量傳球建立位置優勢；2025柏官方總結稱球隊以完成度很高的possession football長期保持聯賽前五。",
+      "要求球員在不同線之間形成短距離支援，透過中後場耐心組織吸引壓迫，再以第三人跑動向前突破。",
+      "無球時傾向主動前壓，搶回球權後迅速恢復佔位，而非單純退守。",
+      "重視技術型中場和青訓球員在狹窄空間下的判斷；古賀太陽、熊坂光希等Academy出身球員在其體系中成為核心。"
     ],
-    "quirky_trivia": "精通戰術分析，在德島與浦和時期均憑藉充滿魅力的攻勢足球贏得球迷極高推崇。",
+    "quirky_trivia": "2025年帶柏完成劇烈反彈後，他把個人獎項多次歸功於球員與工作人員；2026/27八月月間監督獎致辭亦強調獎項代表整個球會團隊的工作。",
     "legacy_id": "jleague_kashiwa_hc",
     "official_player_id": null,
     "team_slug": "kashiwa",
-    "name_ja": "",
-    "birthplace": "",
+    "name_ja": "リカルド ロドリゲス",
+    "birthplace": "西班牙",
     "season_start_age": 52,
     "player_image": "",
     "career": [
       {
-        "season": "2017–2020",
-        "team": "德島漩渦",
-        "competition": "J2職業隊",
+        "season": "1998",
+        "team": "Real Oviedo B",
+        "competition": "Spain",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "打造傳控風暴，勇奪 2020 J2 聯賽冠軍升甲",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Assistant Coach",
+        "notes": "Reserve-team assistant coach.",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
       },
       {
-        "season": "2021–2022",
-        "team": "浦和紅鑽",
-        "competition": "J1職業隊",
+        "season": "2001",
+        "team": "Real Oviedo",
+        "competition": "Spain",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "率浦和奪得 2021 天皇盃冠軍與 2022 超級盃冠軍，榮獲 J1 年度最佳監督",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Assistant Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
       },
       {
-        "season": "2025–至今",
-        "team": "柏太陽王",
-        "competition": "J1職業隊",
+        "season": "2003",
+        "team": "Real Madrid Mexico Academy",
+        "competition": "Academy",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "執掌柏太陽王教鞭，全面升級日立台戰術體系",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Director",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2006",
+        "team": "Girona FC",
+        "competition": "Spain",
+        "appearances": null,
+        "goals": null,
+        "status": "Head Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2007",
+        "team": "Málaga CF",
+        "competition": "Spain",
+        "appearances": null,
+        "goals": null,
+        "status": "Assistant Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2008",
+        "team": "Málaga CF",
+        "competition": "Spain",
+        "appearances": null,
+        "goals": null,
+        "status": "Sports Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2011",
+        "team": "Saudi Arabian Football Federation",
+        "competition": "National-team structure",
+        "appearances": null,
+        "goals": null,
+        "status": "Technical Advisor",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2012",
+        "team": "Saudi Arabian Football Federation",
+        "competition": "National-team structure",
+        "appearances": null,
+        "goals": null,
+        "status": "Technical Advisor / National Team Staff",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2013",
+        "team": "Saudi Arabia U-17",
+        "competition": "International",
+        "appearances": null,
+        "goals": null,
+        "status": "Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2013",
+        "team": "Girona FC",
+        "competition": "Spain",
+        "appearances": null,
+        "goals": null,
+        "status": "Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2014",
+        "team": "Ratchaburi FC",
+        "competition": "Thailand",
+        "appearances": null,
+        "goals": null,
+        "status": "Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2014",
+        "team": "Bangkok Glass FC",
+        "competition": "Thailand",
+        "appearances": null,
+        "goals": null,
+        "status": "Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2015",
+        "team": "Bangkok Glass FC",
+        "competition": "Thailand",
+        "appearances": null,
+        "goals": null,
+        "status": "Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2016",
+        "team": "Suphanburi FC",
+        "competition": "Thailand",
+        "appearances": null,
+        "goals": null,
+        "status": "Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2017",
+        "team": "徳島ヴォルティス",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2018",
+        "team": "徳島ヴォルティス",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2019",
+        "team": "徳島ヴォルティス",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2020",
+        "team": "徳島ヴォルティス",
+        "competition": "J2",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J2冠軍並升上J1。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2021",
+        "team": "浦和レッズ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "天皇盃冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2022",
+        "team": "浦和レッズ",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "日本Super Cup冠軍。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2024",
+        "team": "Wuhan Three Towns",
+        "competition": "Chinese Super League",
+        "appearances": null,
+        "goals": null,
+        "status": "Manager",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "team": "柏レイソル",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1第2名、League Cup亞軍；獲2025 J.League優秀監督獎。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方歷史",
+            "url": "https://reysol.co.jp/club/history/chronology/2126.php",
+            "accessed_at": "2026-09-18"
+          },
+          {
+            "label": "2025 J.League優秀監督獎",
+            "url": "https://www.reysol.co.jp/news/topteam/-2025j-1.html",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "team": "柏レイソル",
+        "competition": "J1百年構想聯賽",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "延續傳控體系。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "柏官方監督檔案",
+            "url": "https://www.reysol.co.jp/team/staff/s01.php",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "柏レイソル",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "截至2026-09-17為5勝0和2負、排名第3；獲2026/27八月月間監督獎。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "J.League球會頁",
+            "url": "https://www.jleague.jp/club/kashiwa/",
+            "accessed_at": "2026-09-18"
+          },
+          {
+            "label": "八月月間監督獎",
+            "url": "https://www.reysol.co.jp/news/topteam/-8-202627j1.html",
+            "accessed_at": "2026-09-18"
+          }
+        ]
       }
     ],
-    "sources": [],
-    "verification_status": "legacy_unverified",
-    "verified_at": null
+    "sources": [
+      {
+        "label": "柏太陽王官方監督檔案",
+        "url": "https://www.reysol.co.jp/team/staff/s01.php",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏太陽王官方：2025球季歷史回顧",
+        "url": "https://reysol.co.jp/club/history/chronology/2126.php",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏太陽王官方：2025 J.League優秀監督獎",
+        "url": "https://www.reysol.co.jp/news/topteam/-2025j-1.html",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏太陽王官方：2026/27八月月間監督獎",
+        "url": "https://www.reysol.co.jp/news/topteam/-8-202627j1.html",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League官方柏太陽王頁",
+        "url": "https://www.jleague.jp/club/kashiwa/",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-18",
+    "registration_tags": []
   },
   "players": [
     {
