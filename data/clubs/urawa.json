@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-18T14:18:56.074Z",
+  "generated_at": "2026-09-18T14:20:57.747Z",
   "team": {
     "id": "team_urawa",
     "type": "team_info",
@@ -6900,72 +6900,164 @@
       "dob": "2004-07-08",
       "age": 22,
       "height": 171,
-      "weight": 65,
+      "weight": 66,
       "foot": "右腳",
       "nationality": "日本",
-      "joined": 2026,
+      "joined": 2023,
       "prev_club": "FC Ryukyu",
-      "registration_status": "本國球員",
-      "tenure_status": "外借回歸",
+      "registration_status": "本國球員／Home Grown",
+      "tenure_status": "浦和青訓出身；2026年7月由FC琉球外借回歸",
       "national_team_detail": "無",
-      "intro": "控球型中場小將，外借磨練後回歸，短傳過渡能力出色。",
+      "intro": "小巧而對抗積極的中場，擅長搶回球權及快速前插。經栃木SC與FC琉球外借後回到母會，尋求重新爭取一隊位置。",
       "timeline": [
         {
-          "period": "2024–2025",
-          "team": "FC Ryukyu",
-          "category": "J3職業隊",
-          "milestone": "外借琉球FC主力中場"
+          "period": "青訓",
+          "team": "大宮FC七里／クラブ与野／浦和Youth",
+          "category": "育成",
+          "milestone": "由浦和Youth升上一隊。"
         },
         {
-          "period": "2026–至今",
+          "period": "2023–2024",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "重返浦和一隊"
+          "category": "J1",
+          "milestone": "2024完成J1首戰。"
+        },
+        {
+          "period": "2025–2026",
+          "team": "栃木SC／FC琉球",
+          "category": "外借",
+          "milestone": "累積J3及百年構想聯賽實戰。"
+        },
+        {
+          "period": "2026–",
+          "team": "浦和紅鑽",
+          "category": "J1",
+          "milestone": "夏季回歸。"
         }
       ],
       "honors": [],
       "milestones": [
-        "完成職業聯賽單季30+出場"
+        "2023年4月5日完成正式賽首戰。",
+        "2024年6月30日完成J1首戰。",
+        "2026年7月結束FC琉球外借回歸。"
       ],
       "tactical_traits": [
-        "中場節奏過渡",
-        "短傳連貫性"
+        "球權回收。",
+        "低重心對抗。",
+        "前插支援。"
       ],
-      "quirky_trivia": "控球節奏感十分細膩。",
+      "quirky_trivia": "本人談及外借期時坦言過程並不順利，但認為足球及做人兩方面都有明顯成長。",
       "legacy_id": "jleague_urawa_29",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "堀内 陽太",
+      "birthplace": "埼玉縣",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2024–2025",
-          "team": "FC Ryukyu",
-          "competition": "J3職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "外借琉球FC主力中場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2023",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業加盟",
+          "notes": "聯賽盃1場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=557",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2024",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=557",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "栃木SC",
+          "competition": "J3",
+          "appearances": 4,
+          "goals": 0,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=557",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "FC琉球",
+          "competition": "J2・J3百年構想聯賽",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返浦和一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外借",
+          "notes": "官方頁列其他公式賽2場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=557",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "回歸",
+          "notes": "截至官方頁抓取時尚未聯賽上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=557",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=557",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "浦和回歸公告",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/242739/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "HG"
+      ]
     },
     {
       "id": "jleague_urawa_31",
@@ -6974,58 +7066,111 @@
       "name_zh": "稻垣篤志",
       "name_en": "Atsushi Inagaki",
       "position": "DF",
-      "dob": "2007-11-03",
+      "dob": "2005-03-03",
       "age": 18,
-      "height": 176,
-      "weight": 68,
+      "height": 178,
+      "weight": 78,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Urawa Red Diamonds Youth",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
+      "registration_status": "JFA・J.League特別指定／U-21",
+      "tenure_status": "明治大學在學；2027正式加盟內定",
       "national_team_detail": "日本 U-18 國家隊",
-      "intro": "浦和梯隊提拔的年輕邊後衛，速度快且助攻積極。",
+      "intro": "浦和青訓出身的後衛，離隊升讀明治大學後以特別指定身份回歸。具備對抗、守備判斷及青訓累積的後場技術。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "育成",
+          "team": "新座片山FC／浦和JY／浦和Youth",
+          "category": "青訓",
+          "milestone": "2022曾以二種註冊身份進入浦和一隊名單。"
+        },
+        {
+          "period": "2023–",
+          "team": "明治大學",
+          "category": "大學足球",
+          "milestone": "在大學繼續成長。"
+        },
+        {
+          "period": "2026/27",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "青訓晉升一隊"
+          "category": "特別指定",
+          "milestone": "2027正式加盟內定；2026/27已獲JFA・J.League特別指定。"
         }
       ],
       "honors": [],
       "milestones": [
-        "入選國青隊集訓"
+        "2022年以浦和Youth球員身份獲一隊二種註冊。",
+        "2026年8月獲特別指定並宣布2027正式加盟內定。",
+        "2026年9月對鹿島首次J1正選。"
       ],
       "tactical_traits": [
-        "邊路衝刺套邊",
-        "回追搶斷"
+        "後衛。",
+        "一對一守備。",
+        "後場出球。"
       ],
-      "quirky_trivia": "速度型邊後衛潛力股。",
+      "quirky_trivia": "離開浦和青訓升學後，透過明治大學路線再回到母會。",
       "legacy_id": "jleague_urawa_31",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 18,
+      "name_ja": "稲垣 篤志",
+      "birthplace": "大阪府",
+      "season_start_age": 21,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
+          "season": "2022",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "二種註冊",
+          "notes": "浦和Youth所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和二種註冊公告",
+              "url": "https://www.urawa-reds.co.jp/topteamtopics/183060/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "浦和紅鑽",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "青訓晉升一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "特別指定",
+          "notes": "明治大學所屬；2027正式加盟內定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和特別指定公告",
+              "url": "https://www.urawa-reds.co.jp/topteamtopics/244799/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和特別指定公告",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/244799/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "浦和現役名單",
+          "url": "https://www.urawa-reds.co.jp/topteam/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "特別指定",
+        "U21"
+      ]
     },
     {
       "id": "jleague_urawa_32",
@@ -7043,83 +7188,293 @@
       "joined": 2026,
       "prev_club": "Kashiwa Reysol",
       "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
+      "tenure_status": "2026加盟；職業第13季首次效力家鄉球會",
       "national_team_detail": "無",
-      "intro": "老練的防線多面手，擁有標誌性的「手拋界外球重炮」特技。",
+      "intro": "左右兩側均可勝任的實用型後衛，位置判斷成熟，擅長以細節協助隊友及穩定防線。",
       "timeline": [
         {
+          "period": "2014–2017",
+          "team": "岡山綠雉",
+          "category": "J2",
+          "milestone": "連續四季穩定出場。"
+        },
+        {
+          "period": "2018–2020",
+          "team": "大阪櫻花",
+          "category": "J1",
+          "milestone": "2020 J1 32場。"
+        },
+        {
           "period": "2021–2022",
-          "team": "Shimizu S-Pulse",
-          "category": "J1職業隊",
-          "milestone": "清水心跳主力後衛"
+          "team": "清水心跳",
+          "category": "J1",
+          "milestone": "兩季合共60場4球。"
         },
         {
           "period": "2023–2025",
-          "team": "Kashiwa Reysol",
-          "category": "J1職業隊",
-          "milestone": "柏太陽王防線功臣"
+          "team": "柏太陽王",
+          "category": "J1",
+          "milestone": "三季效力柏。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "加盟浦和紅鑽"
+          "category": "J1",
+          "milestone": "回到埼玉效力。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J1登場突破200場"
+        "2014完成J.League首戰。",
+        "2018完成J1首戰。",
+        "2020取得J1首球。"
       ],
       "tactical_traits": [
-        "大力手拋球威脅",
-        "防線多位置覆蓋"
+        "左右閘。",
+        "多位置。",
+        "位置判斷。"
       ],
-      "quirky_trivia": "界外球手投距離可直接送入小禁區，堪稱手動角球。",
+      "quirky_trivia": "職業第13季才首次效力家鄉埼玉的職業球會。",
       "legacy_id": "jleague_urawa_32",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "片山 瑛一",
+      "birthplace": "埼玉縣",
       "season_start_age": 34,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2022",
-          "team": "Shimizu S-Pulse",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2014",
+          "team": "ファジアーノ岡山",
+          "competition": "J2",
+          "appearances": 35,
+          "goals": 6,
           "status": "",
-          "notes": "清水心跳主力後衛",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2023–2025",
-          "team": "Kashiwa Reysol",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2015",
+          "team": "ファジアーノ岡山",
+          "competition": "J2",
+          "appearances": 40,
+          "goals": 5,
           "status": "",
-          "notes": "柏太陽王防線功臣",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2016",
+          "team": "ファジアーノ岡山",
+          "competition": "J2",
+          "appearances": 39,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "ファジアーノ岡山",
+          "competition": "J2",
+          "appearances": 32,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "セレッソ大阪",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "セレッソ大阪",
+          "competition": "J1",
+          "appearances": 19,
+          "goals": 0,
+          "status": "",
+          "notes": "另有C大阪U-23 J3 2場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "セレッソ大阪",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "清水エスパルス",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 2,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "清水エスパルス",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 2,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 26,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 11,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "加盟浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "加盟",
+          "notes": "受傷影響未有聯賽上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=558",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_urawa_33",
@@ -7128,137 +7483,215 @@
       "name_zh": "笹修大",
       "name_en": "Shuta Sasa",
       "position": "MF",
-      "dob": "2006-08-20",
+      "dob": "2006-08-31",
       "age": 20,
-      "height": 181,
-      "weight": 71,
+      "height": 183,
+      "weight": 81,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "FC Imabari",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
+      "registration_status": "本國球員／U-21",
+      "tenure_status": "2026年7月由FC今治完全轉會",
       "national_team_detail": "無",
-      "intro": "年輕的跑動型中場，對抗積極，中場防守轉移處理冷靜。",
+      "intro": "高能量型年輕中場，183厘米體格配合大範圍覆蓋、球際對抗與積極前插，可勝任多個位置。",
       "timeline": [
         {
-          "period": "2025",
-          "team": "FC Imabari",
-          "category": "J3職業隊",
-          "milestone": "今治FC主力新星"
+          "period": "育成",
+          "team": "札幌U-12／札幌大谷中高",
+          "category": "青訓／校園足球",
+          "milestone": "北海道成長。"
         },
         {
-          "period": "2026–至今",
+          "period": "2025–2026",
+          "team": "FC今治",
+          "category": "J2／百年構想聯賽",
+          "milestone": "19歲前後已累積大量正式賽經驗。"
+        },
+        {
+          "period": "2026–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "轉投浦和紅鑽"
+          "category": "J1",
+          "milestone": "夏季加盟。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J3最佳青年球員提名"
+        "2025年2月16日完成J.League首戰。",
+        "2026年8月7日完成J1首戰。"
       ],
       "tactical_traits": [
-        "中場積極攔截",
-        "攻守連貫過渡"
+        "球際對抗。",
+        "大範圍跑動。",
+        "傳中及前插。"
       ],
-      "quirky_trivia": "身材達181cm的中場跑將。",
+      "quirky_trivia": "19歲時官方已形容他為『能量團』，並指出職業約一年半已累積48場正式賽經驗。",
       "legacy_id": "jleague_urawa_33",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "笹 修大",
+      "birthplace": "北海道",
       "season_start_age": 19,
       "player_image": "",
       "career": [
         {
           "season": "2025",
-          "team": "FC Imabari",
-          "competition": "J3職業隊",
-          "appearances": null,
-          "goals": null,
+          "team": "FC今治",
+          "competition": "J2",
+          "appearances": 28,
+          "goals": 0,
           "status": "",
-          "notes": "今治FC主力新星",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "盃賽另3場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=559",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
-          "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "season": "2026",
+          "team": "FC今治",
+          "competition": "J2・J3百年構想聯賽",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "轉投浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "其他官方賽17場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=559",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "已完成J1首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=559",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=559",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "U21"
+      ]
     },
     {
       "id": "jleague_urawa_34",
       "club": "浦和紅鑽",
       "number": "34",
-      "name_zh": "田中央音",
+      "name_zh": "田中玲音",
       "name_en": "Reon Tanaka",
-      "position": "FW",
-      "dob": "2007-04-18",
+      "position": "DF",
+      "dob": "2007-02-01",
       "age": 19,
-      "height": 178,
-      "weight": 70,
+      "height": 186,
+      "weight": 82,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Urawa Red Diamonds Youth",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
+      "registration_status": "JFA・J.League特別指定／U-21",
+      "tenure_status": "東海大學在學；2029正式加盟內定",
       "national_team_detail": "日本 U-18 國家隊",
-      "intro": "浦和梯隊提拔的鋒線新星，門前跑位靈活，具備極佳的搶點得分意識與前場逼搶衝勁。",
+      "intro": "186厘米中堅型後衛，具備大學生層級的對抗能力與發展空間。2026/27以特別指定身份加入浦和，正式加盟已安排於2029年。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "育成",
+          "team": "FCレガーレ／PALAVRA FC／東京實業高校",
+          "category": "育成",
+          "milestone": "高中後升讀東海大學。"
+        },
+        {
+          "period": "2026–",
+          "team": "東海大學",
+          "category": "大學足球",
+          "milestone": "在學期間獲浦和相中。"
+        },
+        {
+          "period": "2026/27",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "由青訓梯隊提拔升入一隊"
+          "category": "特別指定",
+          "milestone": "2029正式加盟內定。"
         }
       ],
-      "honors": [
-        "高円宮盃 U-18 聯賽優秀選手"
-      ],
+      "honors": [],
       "milestones": [
-        "浦和青訓主力前鋒代表"
+        "2026年8月獲浦和宣布2029加盟內定及特別指定。"
       ],
       "tactical_traits": [
-        "靈敏禁區門前跑位",
-        "第一時間快速抽射"
+        "中堅。",
+        "空中對抗。",
+        "身體對抗。"
       ],
-      "quirky_trivia": "青年隊時期便展現出極強的禁區門前得分嗅覺。",
+      "quirky_trivia": "正式加盟時間安排在2029年，屬長期發展型簽約。",
       "legacy_id": "jleague_urawa_34",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "田中 玲音",
+      "birthplace": "神奈川縣",
       "season_start_age": 19,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "由青訓梯隊提拔升入一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "特別指定",
+          "notes": "東海大學所屬；2029正式加盟內定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和特別指定公告",
+              "url": "https://www.urawa-reds.co.jp/topteamtopics/244797/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和特別指定公告",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/244797/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "浦和現役名單",
+          "url": "https://www.urawa-reds.co.jp/topteam/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "特別指定",
+        "U21"
+      ]
     },
     {
       "id": "jleague_urawa_36",
@@ -7267,60 +7700,102 @@
       "name_zh": "肥田野蓮治",
       "name_en": "Renji Hidano",
       "position": "FW",
-      "dob": "2004-05-18",
+      "dob": "2003-12-01",
       "age": 22,
       "height": 181,
-      "weight": 74,
+      "weight": 75,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Toin University of Yokohama",
-      "registration_status": "特別指定球員",
-      "tenure_status": "加盟第1季",
+      "registration_status": "本國球員",
+      "tenure_status": "2026正式加盟；2025曾為特別指定",
       "national_team_detail": "無",
-      "intro": "桐蔭橫濱大學出品的大學中鋒，身高181cm，對抗與支點能力兼備。",
+      "intro": "大學二年級才由其他位置轉踢前鋒，最大武器是瞬間切入防線身後的速度及果斷起腳。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "育成／大學",
+          "team": "東習志野FC／FC東京U-15深川／關東第一高／桐蔭橫濱大",
+          "category": "育成",
+          "milestone": "大二轉型前鋒。"
+        },
+        {
+          "period": "2025",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "大學特別指定加盟"
+          "category": "特別指定",
+          "milestone": "J1首秀首球同場完成。"
+        },
+        {
+          "period": "2026–",
+          "team": "浦和紅鑽",
+          "category": "J1",
+          "milestone": "正式加盟並於百年構想聯賽取得4球。"
         }
       ],
-      "honors": [
-        "全日本大學錦標賽最佳陣容"
-      ],
+      "honors": [],
       "milestones": [
-        "內定加盟浦和紅鑽"
+        "2025年11月30日J1首戰即攻入首球。",
+        "2026百年構想聯賽官方列16場4球。"
       ],
       "tactical_traits": [
-        "禁區對抗做球",
-        "第一點頭鎚搶點"
+        "反越位跑動。",
+        "直線速度。",
+        "果斷射門。"
       ],
-      "quirky_trivia": "大學比賽中表現亮眼被浦和球探鎖定。",
+      "quirky_trivia": "直到大學二年級才轉任前鋒，位置年資相對短，因此官方特別強調其仍有很大成長空間。",
       "legacy_id": "jleague_urawa_36",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "肥田野 蓮治",
+      "birthplace": "千葉縣",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
+          "season": "2025",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 1,
+          "status": "特別指定",
+          "notes": "J1首戰首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=560",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "浦和紅鑽",
+          "competition": "J1百年構想聯賽",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "大學特別指定加盟",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "正式加盟",
+          "notes": "官方頁列其他官方賽16場4球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=560",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=560",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_urawa_37",
@@ -7329,60 +7804,130 @@
       "name_zh": "植木颯",
       "name_en": "Hayate Ueki",
       "position": "MF",
-      "dob": "2004-03-24",
+      "dob": "2003-10-11",
       "age": 22,
       "height": 173,
-      "weight": 67,
+      "weight": 71,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Nihon University",
-      "registration_status": "特別指定球員",
-      "tenure_status": "加盟第1季",
+      "registration_status": "本國球員",
+      "tenure_status": "2026正式加盟；2025曾為特別指定",
       "national_team_detail": "無",
-      "intro": "日本大學出品的技術型中場，盤帶推進能力強，前場視野廣闊。",
+      "intro": "左腳組織型中場，擅長閱讀比賽節奏，以短長傳控制速度，同時具穩定的防守站位與較低失誤率。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "育成",
+          "team": "八松SC／橫濱水手JY追濱／日大藤澤高／日本大學",
+          "category": "育成",
+          "milestone": "大學期間獲浦和鎖定。"
+        },
+        {
+          "period": "2025",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "特別指定加盟浦和"
+          "category": "特別指定",
+          "milestone": "未有J1上陣。"
+        },
+        {
+          "period": "2026–",
+          "team": "浦和紅鑽",
+          "category": "J1",
+          "milestone": "4月完成正式賽首戰，8月完成J1首戰。"
         }
       ],
-      "honors": [
-        "關東大學聯賽助攻王"
-      ],
+      "honors": [],
       "milestones": [
-        "大學聯賽單季雙位數助攻"
+        "2025年獲JFA・J.League特別指定。",
+        "2026年4月5日完成正式賽首戰。",
+        "2026年8月7日完成J1首戰。"
       ],
       "tactical_traits": [
-        "前場帶球推進",
-        "威脅直塞傳球"
+        "左腳傳送。",
+        "節奏控制。",
+        "低失誤率。"
       ],
-      "quirky_trivia": "腳下技術極其細膩。",
+      "quirky_trivia": "日本大學時已把『game control』及左腳傳送列作自身主要武器。",
       "legacy_id": "jleague_urawa_37",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "植木 颯",
+      "birthplace": "神奈川縣",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
+          "season": "2025",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=561",
+              "accessed_at": "2026-09-18"
+            },
+            {
+              "label": "特別指定公告",
+              "url": "https://www.urawa-reds.co.jp/topteamtopics/229223/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "浦和紅鑽",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "正式加盟",
+          "notes": "官方頁列其他官方賽6場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=561",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "浦和紅鑽",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "特別指定加盟浦和",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "已完成J1首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=561",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=561",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "新加入內定公告",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/229038/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_urawa_39",
@@ -7394,57 +7939,141 @@
       "dob": "2005-12-05",
       "age": 20,
       "height": 163,
-      "weight": 60,
+      "weight": 65,
       "foot": "左腳",
       "nationality": "日本",
       "joined": 2023,
       "prev_club": "Urawa Red Diamonds Youth",
-      "registration_status": "本國球員",
-      "tenure_status": "效力第4季",
+      "registration_status": "本國球員／Home Grown／U-21",
+      "tenure_status": "浦和青訓出身；職業第4季",
       "national_team_detail": "日本 U-20 國家隊",
-      "intro": "小巧靈動的天才左腳中場，突破重心低，具備極強的穿透射門力。",
+      "intro": "163厘米的左腳中場，以連接隊友、穩定控球及比賽閱讀見長。並非純粹保守型球員，左腳射門與最後一傳亦具威脅。",
       "timeline": [
         {
-          "period": "2023–至今",
+          "period": "青訓",
+          "team": "1FC川越水上公園／浦和JY／浦和Youth",
+          "category": "育成",
+          "milestone": "2022二種註冊。"
+        },
+        {
+          "period": "2023–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "打破浦和隊史最年輕進球紀錄"
+          "category": "J1",
+          "milestone": "2023年職業合約；其後曾外借岡山。"
         }
       ],
-      "honors": [
-        "ACL 亞冠盃冠軍 (2022)"
-      ],
+      "honors": [],
       "milestones": [
-        "浦和隊史亞冠最年輕出場球員"
+        "2023年4月完成正式賽及J.League首戰。",
+        "2024外借岡山期間取得J.League首球。",
+        "2026百年構想聯賽短時間後備出場亦交出入球與助攻。"
       ],
       "tactical_traits": [
-        "低重心盤帶突破",
-        "左腳快速抽射"
+        "左腳。",
+        "link-up。",
+        "比賽閱讀。"
       ],
-      "quirky_trivia": "年僅17歲便在亞冠賽場代表浦和首發登場。",
+      "quirky_trivia": "官方形容他的武器『不容易肉眼看見』，核心是理解球隊需要並在短時間內執行任務。",
       "legacy_id": "jleague_urawa_39",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "早川 隼平",
+      "birthplace": "埼玉縣",
       "season_start_age": 20,
       "player_image": "",
       "career": [
         {
-          "season": "2023–至今",
+          "season": "2023",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "二種註冊→職業",
+          "notes": "完成J.League首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=562",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "ファジアーノ岡山",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "5月26日取得J.League首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=562",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=562",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "浦和紅鑽",
+          "competition": "J1百年構想聯賽",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "打破浦和隊史最年輕進球紀錄",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "有限時間錄得入球及助攻。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=562",
+              "accessed_at": "2026-09-18"
+            },
+            {
+              "label": "浦和專訪",
+              "url": "https://www.urawa-reds.co.jp/topteamtopics/238366/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=562",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "浦和球員專訪",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/245179/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "HG",
+        "U21"
+      ]
     },
     {
       "id": "jleague_urawa_40",
@@ -7453,75 +8082,103 @@
       "name_zh": "盧卡·迪杜歷卡",
       "name_en": "Luka Didulica",
       "position": "DF",
-      "dob": "2007-11-15",
+      "dob": "2007-09-18",
       "age": 18,
       "height": 200,
-      "weight": 88,
+      "weight": 84,
       "foot": "右腳",
       "nationality": "澳洲",
       "joined": 2025,
       "prev_club": "Melbourne Victory U-21",
-      "registration_status": "外籍球員",
-      "tenure_status": "效力第2季",
-      "national_team_detail": "澳洲 U-20 國家隊",
-      "intro": "200cm身材的巨塔型中後衛新星，具備絕對制空權與前途限量的後防對抗天賦。",
+      "registration_status": "外籍球員／U-21",
+      "tenure_status": "2025年10月加盟",
+      "national_team_detail": "澳洲U-20代表（2026獲選）",
+      "intro": "身高2米的澳洲中堅，空中優勢顯著，同時有長步幅速度及長傳能力；除中堅外亦可踢防守中場。",
       "timeline": [
         {
-          "period": "2023–2024",
-          "team": "Melbourne Victory U-21",
-          "category": "NPL Victoria",
-          "milestone": "墨爾本勝利青訓新星"
+          "period": "澳洲",
+          "team": "North Geelong Warriors／Melbourne Victory U-21",
+          "category": "青年／NPL",
+          "milestone": "在澳洲成長。"
         },
         {
-          "period": "2025–至今",
+          "period": "2025–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "加盟浦和紅鑽"
+          "category": "J1",
+          "milestone": "2025年10月加盟。"
         }
       ],
       "honors": [],
       "milestones": [
-        "浦和隊史最高球員之一 (200cm)"
+        "2025年10月加盟浦和。",
+        "2026年8月入選澳洲U-20代表。"
       ],
       "tactical_traits": [
-        "高空球絕對正面解圍",
-        "禁區封堵"
+        "2米中堅。",
+        "空中球。",
+        "長傳及長步幅推進。"
       ],
-      "quirky_trivia": "2米身高在J聯賽看台極具話題性。",
+      "quirky_trivia": "官方形容他個性認真而害羞，但會努力講笑話令身邊人放鬆。",
       "legacy_id": "jleague_urawa_40",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "ルカ ディドゥリカ",
+      "birthplace": "澳洲",
       "season_start_age": 18,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2024",
-          "team": "Melbourne Victory U-21",
-          "competition": "NPL Victoria",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "墨爾本勝利青訓新星",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2025",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "加入",
+          "notes": "10月加盟，聯賽未上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=563",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
           "status": "",
-          "notes": "加盟浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=563",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=563",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "澳洲U-20入選公告",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/244958/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "U21"
+      ]
     },
     {
       "id": "jleague_urawa_42",
@@ -7533,72 +8190,151 @@
       "dob": "2004-05-13",
       "age": 22,
       "height": 176,
-      "weight": 68,
+      "weight": 71,
       "foot": "左腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Gamba Osaka",
       "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
+      "tenure_status": "2026年7月由大阪飛腳加盟",
       "national_team_detail": "日本 U-20 國家隊",
-      "intro": "爆發力強的年輕前鋒，左腳射門力量大，反擊速度極快。",
+      "intro": "左腳前鋒，射門快而重，對傳中與第二落點反應敏銳，也具定位球處理能力。",
       "timeline": [
         {
-          "period": "2023–2025",
-          "team": "Tochigi SC / Gamba Osaka",
-          "category": "J2/J1職業隊",
-          "milestone": "外借栃雲SC單季攻入雙位數進球"
+          "period": "育成",
+          "team": "大阪櫻花U-12／大阪飛腳JY、Youth",
+          "category": "青訓",
+          "milestone": "大阪地區雙豪門青訓經歷。"
         },
         {
-          "period": "2026–至今",
+          "period": "2022–2025",
+          "team": "大阪飛腳／宮崎／栃木SC",
+          "category": "J1／J3／J2",
+          "milestone": "透過外借累積一隊經驗。"
+        },
+        {
+          "period": "2026–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "加盟浦和紅鑽"
+          "category": "J1",
+          "milestone": "夏季加盟。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J2單季攻入10球以上"
+        "2022年5月14日完成J.League首戰。",
+        "2023年3月19日取得J.League首球。",
+        "2025年12月6日取得J1首球。"
       ],
       "tactical_traits": [
-        "左腳爆射",
-        "極速前插衝刺"
+        "左腳射門。",
+        "禁區反應。",
+        "定位球。"
       ],
-      "quirky_trivia": "與前國腳南野拓實同姓，射門風格同樣極具侵略性。",
+      "quirky_trivia": "雖身高176厘米，浦和官方形容他在場上看起來比數字更有存在感。",
       "legacy_id": "jleague_urawa_42",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "南野 遥海",
+      "birthplace": "兵庫縣",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2023–2025",
-          "team": "Tochigi SC / Gamba Osaka",
-          "competition": "J2/J1職業隊",
+          "season": "2022",
+          "team": "ガンバ大阪",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "外借栃雲SC單季攻入雙位數進球",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "職業初期",
+          "notes": "完成J.League首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=564",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
-          "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "season": "2023",
+          "team": "テゲバジャーロ宮崎",
+          "competition": "J3",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外借",
+          "notes": "取得J.League首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=564",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "栃木SC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=564",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "ガンバ大阪",
+          "competition": "J1",
+          "appearances": 10,
+          "goals": null,
+          "status": "回歸",
+          "notes": "12月取得J1首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=564",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "夏季加盟。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=564",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=564",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_urawa_43",
@@ -7607,60 +8343,111 @@
       "name_zh": "和田武士",
       "name_en": "Takeshi Wada",
       "position": "MF",
-      "dob": "2008-09-15",
+      "dob": "2009-06-05",
       "age": 17,
       "height": 170,
-      "weight": 62,
+      "weight": 65,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Urawa Red Diamonds Youth",
-      "registration_status": "二種登錄球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "日本 U-17 國家隊",
-      "intro": "年僅17歲的浦和青年隊中場天才，入選日本U-17代表隊，傳球節奏感出色。",
+      "registration_status": "二種註冊／U-21／職業合約",
+      "tenure_status": "16歲簽職業合約；仍屬浦和Youth",
+      "national_team_detail": "日本U-15、U-16、U-17代表；2026 U-17亞洲盃冠軍成員",
+      "intro": "視野廣、可向前插入的綜合型防守中場。16歲已簽職業合約，仍保持Youth註冊，兼具青訓比賽及一隊訓練環境。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "青訓",
+          "team": "東川口FC Junior／浦和Junior、JY、Youth",
+          "category": "育成",
+          "milestone": "一路在浦和青訓成長。"
+        },
+        {
+          "period": "2026–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "二種登錄跟隨一隊參賽"
+          "category": "職業合約／二種註冊",
+          "milestone": "16歲簽職業合約。"
         }
       ],
       "honors": [
-        "U-17 亞洲盃國腳代表"
+        "2026 AFC U-17 Asian Cup冠軍（日本U-17）"
       ],
       "milestones": [
-        "一隊最年輕登錄球員"
+        "2026年1月、16歲簽浦和職業合約。",
+        "2026年5月隨日本U-17贏得亞洲盃。"
       ],
       "tactical_traits": [
-        "靈敏一觸即傳",
-        "視野開闊"
+        "防守中場。",
+        "廣闊視野。",
+        "後上插入。"
       ],
-      "quirky_trivia": "年僅17歲便展現超越同齡人的冷靜沉著。",
+      "quirky_trivia": "雖已簽職業合約，仍以二種註冊身份保留Youth所屬資格。",
       "legacy_id": "jleague_urawa_43",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "和田 武士",
+      "birthplace": "埼玉縣",
       "season_start_age": 17,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
+          "season": "2025",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "二種登錄跟隨一隊參賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "二種註冊",
+          "notes": "球衣46號。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=565",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "浦和紅鑽",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業合約／二種註冊",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=565",
+              "accessed_at": "2026-09-18"
+            },
+            {
+              "label": "職業合約公告",
+              "url": "https://www.urawa-reds.co.jp/topteamtopics/235246/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=565",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "職業合約公告",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/235246/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "二種註冊",
+        "U21"
+      ]
     },
     {
       "id": "jleague_urawa_44",
@@ -7672,72 +8459,260 @@
       "dob": "1995-09-27",
       "age": 30,
       "height": 189,
-      "weight": 84,
+      "weight": 85,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "Machida Zelvia",
       "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
+      "tenure_status": "2026年7月由町田加盟；浦和為職業第6會",
       "national_team_detail": "無",
-      "intro": "189cm身材的實力派門將，制空實力強，補強門將組深度。",
+      "intro": "189厘米門將，聯賽上陣數不算多，但經歷多個球會環境，指揮防線能力及更衣室氣氛作用被浦和特別看重。",
       "timeline": [
         {
-          "period": "2021–2025",
-          "team": "Omiya Ardija / Machida Zelvia",
-          "category": "J1/J2職業隊",
-          "milestone": "豐富的J聯賽門將經驗"
+          "period": "2017–2020",
+          "team": "清水／金澤",
+          "category": "J1／J2",
+          "milestone": "職業生涯初段。"
         },
         {
-          "period": "2026–至今",
+          "period": "2021–2022",
+          "team": "秋田",
+          "category": "J2",
+          "milestone": "2021完成J.League首戰。"
+        },
+        {
+          "period": "2023–2026",
+          "team": "大分／町田",
+          "category": "J2／J1",
+          "milestone": "持續累積門將經驗。"
+        },
+        {
+          "period": "2026–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "加盟浦和紅鑽"
+          "category": "J1",
+          "milestone": "夏季加盟。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "大學四年級全日本大學足球選手權 最優秀GK"
+      ],
       "milestones": [
-        "J聯賽零封場次突破20場"
+        "2021年4月21日完成J.League首戰。",
+        "2026年7月加盟浦和。"
       ],
       "tactical_traits": [
-        "189cm高空爭頂摘球",
-        "門線卡位"
+        "門線撲救。",
+        "防線指揮。",
+        "團隊溝通。"
       ],
-      "quirky_trivia": "態度極為勤奮，練球極具感染力。",
+      "quirky_trivia": "官方特別提及他是隊內氣氛製造者。",
       "legacy_id": "jleague_urawa_44",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "新井 栄聡",
+      "birthplace": "埼玉縣",
       "season_start_age": 30,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2025",
-          "team": "Omiya Ardija / Machida Zelvia",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2017",
+          "team": "清水エスパルス",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
           "status": "",
-          "notes": "豐富的J聯賽門將經驗",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
-          "team": "浦和紅鑽",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2018",
+          "team": "清水エスパルス",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
           "status": "",
-          "notes": "加盟浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "ツエーゲン金沢",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "清水エスパルス",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "ブラウブリッツ秋田",
+          "competition": "J2",
+          "appearances": 5,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "ブラウブリッツ秋田",
+          "competition": "J2",
+          "appearances": 10,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "大分トリニータ",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "大分トリニータ",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "同年轉投町田。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "FC町田ゼルビア",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "FC町田ゼルビア",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "FC町田ゼルビア",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "夏季轉投浦和。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=566",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_urawa_45",
@@ -7755,103 +8730,304 @@
       "joined": 2026,
       "prev_club": "Magdeburg",
       "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "日本國家隊 (3 場 3 球)",
-      "intro": "旅歐回歸強攻型前鋒，爆發力與門前搶點嗅覺兼備，能勝任中鋒與翼鋒。",
+      "tenure_status": "2026年2月加盟；相隔9年重返浦和",
+      "national_team_detail": "日本代表3場3球（截至2026年7月1日）",
+      "intro": "身體能力強、能背身護球的中鋒，善於利用對抗與跑位做支點；亦可拉到邊路或第二線，並具突然的第一時間射門。",
       "timeline": [
         {
-          "period": "2020–2021",
-          "team": "Yokohama F. Marinos",
-          "category": "J1職業隊",
-          "milestone": "水手主力衝鋒箭頭"
+          "period": "2014–2020",
+          "team": "千葉／浦和／山口／大分／橫濱水手",
+          "category": "J2／J1",
+          "milestone": "2018山口J2 42場22球；2019大分J1 31場10球。"
         },
         {
-          "period": "2021–2023",
-          "team": "Toulouse",
-          "category": "Ligue 1",
-          "milestone": "旅法奪得法國盃冠軍"
+          "period": "2021–2026",
+          "team": "Toulouse／Auxerre／Magdeburg",
+          "category": "法國／德國",
+          "milestone": "赴歐多年。"
         },
         {
-          "period": "2023–2025",
-          "team": "Magdeburg",
-          "category": "2. Bundesliga",
-          "milestone": "德乙聯賽主力前鋒"
-        },
-        {
-          "period": "2026–至今",
+          "period": "2026–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "重返J1加盟浦和紅鑽"
+          "category": "J1",
+          "milestone": "相隔9年回歸。"
         }
       ],
-      "honors": [
-        "法國盃冠軍 (2023)",
-        "J1 聯賽冠軍 (2019)"
-      ],
+      "honors": [],
       "milestones": [
-        "日本國家隊首發達成帽子戲法 (3場3球)"
+        "2018山口J2 42場22球。",
+        "2019大分J1 31場10球。",
+        "2021橫濱水手J1 20場12球。",
+        "日本代表3場3球。"
       ],
       "tactical_traits": [
-        "爆發力搶點射門",
-        "前場高強度逼搶"
+        "支點中鋒。",
+        "空中及身體對抗。",
+        "可踢邊路／第二線。"
       ],
-      "quirky_trivia": "門前嗅覺極為敏銳。",
+      "quirky_trivia": "2017曾短暫效力浦和，2026重返球會，間隔9年。",
       "legacy_id": "jleague_urawa_45",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "オナイウ 阿道",
+      "birthplace": "埼玉縣",
       "season_start_age": 30,
       "player_image": "",
       "career": [
         {
-          "season": "2020–2021",
-          "team": "Yokohama F. Marinos",
-          "competition": "J1職業隊",
+          "season": "2014",
+          "team": "ジェフユナイテッド千葉",
+          "competition": "J2",
+          "appearances": 6,
+          "goals": 1,
+          "status": "",
+          "notes": "另J-22 J3 2場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "ジェフユナイテッド千葉",
+          "competition": "J2",
+          "appearances": 33,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "ジェフユナイテッド千葉",
+          "competition": "J2",
+          "appearances": 23,
+          "goals": 6,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "レノファ山口FC",
+          "competition": "J2",
+          "appearances": 42,
+          "goals": 22,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "大分トリニータ",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 10,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "横浜F・マリノス",
+          "competition": "J1",
+          "appearances": 24,
+          "goals": 4,
+          "status": "",
+          "notes": "ACL另6場4球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "横浜F・マリノス",
+          "competition": "J1",
+          "appearances": 20,
+          "goals": 12,
+          "status": "",
+          "notes": "季中赴法。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021/22",
+          "team": "Toulouse FC",
+          "competition": "法國職業足球",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "水手主力衝鋒箭頭",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "浦和官方未列海外逐季數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2021–2023",
-          "team": "Toulouse",
-          "competition": "Ligue 1",
+          "season": "2022/23",
+          "team": "Toulouse FC",
+          "competition": "法國職業足球",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "旅法奪得法國盃冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2023–2025",
-          "team": "Magdeburg",
+          "season": "2023/24",
+          "team": "AJ Auxerre",
+          "competition": "法國職業足球",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024/25",
+          "team": "AJ Auxerre",
+          "competition": "法國職業足球",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025/26",
+          "team": "1. FC Magdeburg",
           "competition": "2. Bundesliga",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "德乙聯賽主力前鋒",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1百年構想聯賽",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返J1加盟浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "完全轉會",
+          "notes": "官方頁列其他公式賽15場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=567",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "加盟公告",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/237456/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_urawa_88",
@@ -7869,68 +9045,304 @@
       "joined": 2024,
       "prev_club": "Sagan Tosu",
       "registration_status": "本國球員",
-      "tenure_status": "效力第3季",
+      "tenure_status": "效力浦和第3季",
       "national_team_detail": "日本 U-23 國家隊",
-      "intro": "萬能邊路跑將，能勝任左右邊後衛與翼鋒，體能充沛且下底傳中質量極高。",
+      "intro": "可由邊後衛推進至中前場的多功能球員，擅長利用靈活站位破解壓迫，並在build-up至最後一擊各環節提供支援。",
       "timeline": [
         {
-          "period": "2022–2024",
-          "team": "Sagan Tosu",
-          "category": "J1職業隊",
-          "milestone": "鳥棲砂岩邊路絕對核心"
+          "period": "2016–2021",
+          "team": "廣島／山形／岐阜／愛媛",
+          "category": "J1／J2",
+          "milestone": "多次外借累積實戰。"
         },
         {
-          "period": "2024–至今",
+          "period": "2022–2024",
+          "team": "鳥栖砂岩",
+          "category": "J1",
+          "milestone": "2023 J1 32場10球。"
+        },
+        {
+          "period": "2024–",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "加盟浦和穿上88號球衣"
+          "category": "J1",
+          "milestone": "2024夏季加盟。"
         }
       ],
-      "honors": [
-        "亞運會男足銀牌 (2018)"
-      ],
+      "honors": [],
       "milestones": [
-        "J1單季攻入雙位數進球的萬能邊後衛"
+        "2017完成J.League首戰。",
+        "2020取得J.League首球。",
+        "2022取得J1首球。",
+        "2023鳥栖J1 32場10球。"
       ],
       "tactical_traits": [
-        "邊路極速套邊插上",
-        "兩腳傳中門前威脅"
+        "可踢邊後衛／翼位。",
+        "靈活站位。",
+        "破解壓迫。"
       ],
-      "quirky_trivia": "得分能力強悍，常在邊路後插上爆射破門。",
+      "quirky_trivia": "2026/27對橫濱水手的致勝攻勢由他預判並截下轉邊球後直接向前傳送開始。",
       "legacy_id": "jleague_urawa_88",
       "official_player_id": null,
       "team_slug": "urawa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "長沼 洋一",
+      "birthplace": "山梨縣",
       "season_start_age": 29,
       "player_image": "",
       "career": [
         {
-          "season": "2022–2024",
-          "team": "Sagan Tosu",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2016",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
           "status": "",
-          "notes": "鳥棲砂岩邊路絕對核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2017",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "盃賽6場1球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "モンテディオ山形",
+          "competition": "J2",
+          "appearances": 3,
+          "goals": 0,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "FC岐阜",
+          "competition": "J2",
+          "appearances": 17,
+          "goals": 0,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "愛媛FC",
+          "competition": "J2",
+          "appearances": 33,
+          "goals": 0,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "愛媛FC",
+          "competition": "J2",
+          "appearances": 39,
+          "goals": 2,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 15,
+          "goals": 0,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "status": "",
+          "notes": "季中轉鳥栖。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 13,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 10,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 23,
+          "goals": 4,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "J1",
+          "appearances": 11,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "浦和紅鑽",
+          "competition": "J1",
+          "appearances": 26,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "浦和紅鑽",
+          "competition": "J1百年構想聯賽",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟浦和穿上88號球衣",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "浦和官方",
+              "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "浦和紅鑽官方球員檔案",
+          "url": "https://www.urawa-reds.co.jp/topteam/detail/?id=568",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "浦和球員專訪",
+          "url": "https://www.urawa-reds.co.jp/topteamtopics/245435/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     }
   ]
 }
