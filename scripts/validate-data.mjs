@@ -14,14 +14,14 @@ if (manifest.teams?.length !== 20) errors.push(`Expected 20 J1 clubs; found ${ma
 
 const slugs = new Set();
 for (const listed of manifest.teams || []) {
+  if (slugs.has(listed.slug)) errors.push(`Duplicate team slug: ${listed.slug}`);
+  slugs.add(listed.slug);
 }
 
 const selectedTeams = clubSlug ? (manifest.teams || []).filter(team => team.slug === clubSlug) : (manifest.teams || []);
 if (clubSlug && !selectedTeams.length) errors.push(`Unknown club slug: ${clubSlug}.`);
 
 for (const listed of selectedTeams) {
-  if (slugs.has(listed.slug)) errors.push(`Duplicate team slug: ${listed.slug}`);
-  slugs.add(listed.slug);
   let data;
   try {
     data = JSON.parse(await readFile(resolve('data/clubs', `${listed.slug}.json`), 'utf8'));
