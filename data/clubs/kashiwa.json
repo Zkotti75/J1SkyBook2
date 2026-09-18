@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-18T14:47:21.540Z",
+  "generated_at": "2026-09-18T14:52:00.096Z",
   "team": {
     "id": "team_kashiwa",
     "type": "team_info",
@@ -71,6 +71,16 @@
       {
         "label": "J.League官方：柏太陽王球會頁及2026/27現況",
         "url": "https://www.jleague.jp/club/kashiwa/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏官方：野田裕喜轉會松本山雅FC",
+        "url": "https://www.reysol.co.jp/news/topteam/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "柏官方：古澤ナベル慈宇外借Tampines Rovers FC",
+        "url": "https://www.reysol.co.jp/news/topteam/-fc-49.html",
         "accessed_at": "2026-09-18"
       }
     ],
@@ -167,7 +177,11 @@
       "possession_percent": 58.2,
       "as_of": "2026-09-17"
     },
-    "verified_at": "2026-09-18"
+    "verified_at": "2026-09-18",
+    "roster_notes": [
+      "野田裕喜：2026-08-17完全轉會松本山雅FC，已自現役名單移除。",
+      "古澤ナベル慈宇：2026-09-18外借Tampines Rovers FC，已自現役名單移除。"
+    ]
   },
   "manager": {
     "id": "jleague_kashiwa_hc",
@@ -5927,102 +5941,6 @@
       "registration_tags": []
     },
     {
-      "id": "jleague_kashiwa_22",
-      "club": "柏太陽王",
-      "number": "22",
-      "name_zh": "野田 裕喜",
-      "name_en": "Hiroki Noda",
-      "position": "DF",
-      "dob": "1997-07-27",
-      "age": 29,
-      "height": 181,
-      "weight": 76,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2024,
-      "prev_club": "山形山神",
-      "registration_status": "本國球員",
-      "tenure_status": "效力第3季",
-      "national_team_detail": "日本 U-20 國家代表隊",
-      "intro": "正面防守解圍極度悍勇的中後衛，高空爭頂落點判斷精準，戰術執行力極高。",
-      "timeline": [
-        {
-          "period": "2016–2019",
-          "team": "大阪飛腳",
-          "category": "J1職業隊",
-          "milestone": "飛腳青訓提拔，進行職業歷練"
-        },
-        {
-          "period": "2019–2023",
-          "team": "山形山神",
-          "category": "J2職業隊",
-          "milestone": "山形防線司令塔，登場超過 130 場"
-        },
-        {
-          "period": "2024–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "加盟柏太陽王鞏固後防正面屏障"
-        }
-      ],
-      "honors": [
-        "高校錦標賽優秀選手"
-      ],
-      "milestones": [
-        "J1/J2 登場突破 180 場"
-      ],
-      "tactical_traits": [
-        "正面強攻卡位解圍",
-        "防空爭頂穩健"
-      ],
-      "quirky_trivia": "高中時期為熊本大津高中防線隊長，以極高精神韌性著稱。",
-      "legacy_id": "jleague_kashiwa_22",
-      "official_player_id": null,
-      "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 29,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2016–2019",
-          "team": "大阪飛腳",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "飛腳青訓提拔，進行職業歷練",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2019–2023",
-          "team": "山形山神",
-          "competition": "J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "山形防線司令塔，登場超過 130 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "加盟柏太陽王鞏固後防正面屏障",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
       "id": "jleague_kashiwa_23",
       "club": "柏太陽王",
       "number": "23",
@@ -7663,352 +7581,528 @@
       "id": "jleague_kashiwa_30",
       "club": "柏太陽王",
       "number": "30",
-      "name_zh": "古谷 柊介",
+      "name_zh": "古谷柊介",
       "name_en": "Shusuke Furuya",
-      "position": "FW",
-      "dob": "2007-01-26",
+      "position": "MF",
+      "dob": "2005-01-26",
       "age": 19,
-      "height": 177,
-      "weight": 71,
+      "height": 174,
+      "weight": 73,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "U-21 青年球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "日本 U-18 國家代表隊",
-      "intro": "柏太陽王青訓提拔的門前搶點前鋒，跑位靈敏，起腳果斷。",
+      "prev_club": "東京國際大學",
+      "registration_status": "JFA・J.League特別指定／U-21",
+      "tenure_status": "東京國際大學在學；2026年3月起特別指定",
+      "national_team_detail": "日本U-21、U-22代表",
+      "intro": "東京國際大學在學的特別指定中場。千葉縣出身，少年年代亦曾在柏系統周邊成長；右腳、174厘米，現階段以大學足球與柏一隊環境並行累積經驗。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2026年由青訓梯隊升格入一線隊"
+          "period": "育成",
+          "team": "フォルテ野田SC／柏レイソルA.A.TOR'82／日本體育大柏高",
+          "category": "育成",
+          "milestone": "千葉縣內成長。"
+        },
+        {
+          "period": "2023–",
+          "team": "東京國際大學",
+          "category": "大學足球",
+          "milestone": "大學期間入選日本U-21、U-22。"
+        },
+        {
+          "period": "2026–",
+          "team": "柏レイソル",
+          "category": "特別指定",
+          "milestone": "2026年3月獲特別指定。"
         }
       ],
-      "honors": [
-        "高円宮盃 U-18 聯賽隊內神射手"
-      ],
+      "honors": [],
       "milestones": [
-        "18歲簽署職業合約升格"
+        "2026年3月獲柏太陽王JFA・J.League特別指定。"
       ],
       "tactical_traits": [
-        "靈敏門前嗅覺",
-        "第一時間抽射"
+        "中場。",
+        "右腳。"
       ],
-      "quirky_trivia": "青年隊時期便展現出極強的門前起腳決斷力。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_30",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 19,
+      "name_ja": "古谷 柊介",
+      "birthplace": "千葉縣",
+      "season_start_age": 21,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "東京國際大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/30.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年由青訓梯隊升格入一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "特別指定",
+          "notes": "東京國際大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/30.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/30.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "特別指定",
+        "U21"
+      ]
     },
     {
       "id": "jleague_kashiwa_32",
       "club": "柏太陽王",
       "number": "32",
-      "name_zh": "山之內 佑成",
+      "name_zh": "山之內佑成",
       "name_en": "Yusei Yamanouchi",
       "position": "DF",
-      "dob": "2003-09-17",
+      "dob": "2003-09-01",
       "age": 22,
-      "height": 185,
+      "height": 179,
       "weight": 78,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
       "prev_club": "東洋大學",
-      "registration_status": "U-21 青年球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "全日本大學選拔代表",
-      "intro": "185公分的高大中後衛新星，身體對抗強悍，正面制空解圍能力出色。",
+      "registration_status": "本國球員",
+      "tenure_status": "2024–25特別指定；2026正式加盟",
+      "national_team_detail": "",
+      "intro": "JFA Academy福島出身的後衛。東洋大學期間連續兩季成為柏特別指定球員，2025年10月完成J1首戰，2026正式加入一隊。",
       "timeline": [
+        {
+          "period": "育成",
+          "team": "JFA Academy福島U-15／U-18",
+          "category": "育成",
+          "milestone": "JFA Academy體系成長。"
+        },
         {
           "period": "2022–2025",
           "team": "東洋大學",
-          "category": "大學校隊",
-          "milestone": "大學名門防線核心，關東大學聯賽最佳中後衛候補"
+          "category": "大學足球",
+          "milestone": "2024、2025兩季柏特別指定。"
         },
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2026年大學畢業加盟柏太陽王"
+          "period": "2026–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "正式加盟。"
         }
       ],
-      "honors": [
-        "全日本大學錦標賽優秀選手"
-      ],
+      "honors": [],
       "milestones": [
-        "東洋大學防線核心升格 J1"
+        "2025年10月4日完成J1首戰。",
+        "2025特別指定身份J1上陣5場。"
       ],
       "tactical_traits": [
-        "正面高空頭球解圍",
-        "強悍肢體卡位"
+        "後衛。",
+        "右腳。"
       ],
-      "quirky_trivia": "東洋大學體育系高材生，對防守對抗數據有極高的研究興趣。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_32",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "山之内 佑成",
+      "birthplace": "愛知縣",
       "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
-          "team": "東洋大學",
-          "competition": "大學校隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "大學名門防線核心，關東大學聯賽最佳中後衛候補",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2024",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "東洋大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/32.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2025",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 5,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "東洋大學所屬；完成J1首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/32.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 16,
+          "goals": 0,
+          "status": "正式加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/32.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年大學畢業加盟柏太陽王",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/32.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_33",
       "club": "柏太陽王",
       "number": "33",
-      "name_zh": "岩永 創太",
+      "name_zh": "岩永創太",
       "name_en": "Sota Iwanaga",
       "position": "MF",
-      "dob": "2007-06-28",
+      "dob": "2005-10-07",
       "age": 19,
-      "height": 173,
-      "weight": 66,
-      "foot": "右腳",
+      "height": 166,
+      "weight": 65,
+      "foot": "左腳",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "U-21 青年球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "無",
-      "intro": "柏太陽王梯隊培育的攻守兼備中場，逼搶覆蓋面廣，腳下短傳鏈接順暢。",
+      "prev_club": "九州產業大學",
+      "registration_status": "特別指定後正式加入2026/27名單",
+      "tenure_status": "2026年3月特別指定；2026/27一隊名單",
+      "national_team_detail": "",
+      "intro": "166厘米左腳中場。福岡U-18時已有二種註冊經驗，升讀九州產業大學後於2026年3月成為柏特別指定球員，2026/27進入正式一隊名單。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2026年青訓升入一線隊"
+          "period": "育成",
+          "team": "アビスパ福岡U-18",
+          "category": "Youth",
+          "milestone": "2023福岡一隊二種註冊。"
+        },
+        {
+          "period": "大學",
+          "team": "九州產業大學",
+          "category": "大學足球",
+          "milestone": "2026年3月柏特別指定。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "一隊名單。"
         }
       ],
-      "honors": [
-        "柏太陽王青訓升格"
-      ],
+      "honors": [],
       "milestones": [
-        "18歲完成職業登錄"
+        "2023年福岡二種註冊、J1出場0。",
+        "2026百年構想聯賽柏0場0球。"
       ],
       "tactical_traits": [
-        "中場跑動連貫",
-        "一腳短傳傳導"
+        "左腳中場。",
+        "低重心控球。"
       ],
-      "quirky_trivia": "土生土長千葉縣柏市人，從小就是柏太陽王的死忠球迷。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_33",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 19,
+      "name_ja": "岩永 創太",
+      "birthplace": "熊本縣",
+      "season_start_age": 20,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2023",
+          "team": "アビスパ福岡",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "二種註冊",
+          "notes": "福岡U-18所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/33.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "九州產業大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/33.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年青訓升入一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "一隊名單",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/33.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
-      "id": "jleague_kashiwa_36",
-      "club": "柏太陽王",
-      "number": "36",
-      "name_zh": "古澤 拿比爾慈宇",
-      "name_en": "Naberu Yoshitaka Furusawa",
-      "position": "FW",
-      "dob": "2007-03-11",
-      "age": 19,
-      "height": 188,
-      "weight": 82,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2025,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "U-21 青年球員",
-      "tenure_status": "效力第2季",
-      "national_team_detail": "日本 U-18 國家代表隊",
-      "intro": "188公分爆發力型混血前鋒，身體天賦驚人，具備極強的直線衝刺與禁區打擊力。",
-      "timeline": [
+      "sources": [
         {
-          "period": "2025–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "柏梯隊升一隊，簽署職業合約"
-        }
-      ],
-      "honors": [
-        "日本 U-18 國青隊代表"
-      ],
-      "milestones": [
-        "18歲完成 J1 聯賽登場"
-      ],
-      "tactical_traits": [
-        "怪獸級身體天賦衝刺",
-        "高空爭頂霸權"
-      ],
-      "quirky_trivia": "擁有混血血統，衝刺爆發力在青訓體系測試中名列前茅。",
-      "legacy_id": "jleague_kashiwa_36",
-      "official_player_id": null,
-      "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 19,
-      "player_image": "",
-      "career": [
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/202627/33.php",
+          "accessed_at": "2026-09-18"
+        },
         {
-          "season": "2025–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "柏梯隊升一隊，簽署職業合約",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "U21"
+      ]
     },
     {
       "id": "jleague_kashiwa_39",
       "club": "柏太陽王",
       "number": "39",
-      "name_zh": "中川 敦瑛",
+      "name_zh": "中川敦瑛",
       "name_en": "Nobuteru Nakagawa",
       "position": "MF",
       "dob": "2002-05-15",
       "age": 24,
-      "height": 172,
-      "weight": 67,
+      "height": 173,
+      "weight": 71,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2025,
       "prev_club": "法政大學",
       "registration_status": "本國球員",
-      "tenure_status": "效力第2季",
-      "national_team_detail": "全日本大學選拔代表 🇯🇵",
-      "intro": "中川敦瑛為柏太陽王中場的體能跑動核心，本賽季以高達 69.8 公里的總跑動距離高居 J1 全聯賽第一名，具備極強的大範圍覆蓋與攻守轉接能力。",
+      "tenure_status": "2024特別指定；2025正式加盟",
+      "national_team_detail": "日本U-15代表",
+      "intro": "法政大學出身的中場。2024先以特別指定身份加入，2025正式加盟後迅速取得一隊位置，首季J1 21場3球，2026百年構想聯賽再上陣20場入2球。",
       "timeline": [
+        {
+          "period": "育成",
+          "team": "橫濱FC Junior Youth／Youth",
+          "category": "育成",
+          "milestone": "橫濱FC青訓。"
+        },
         {
           "period": "2021–2024",
           "team": "法政大學",
-          "category": "大學校隊",
-          "milestone": "大學足球名門法政大學主力中場，率隊征戰關東大學聯賽"
+          "category": "大學足球",
+          "milestone": "2024柏特別指定。"
         },
         {
-          "period": "2025–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2025年加盟柏太陽王，迅速憑藉跑動天賦鎖定主力位置"
+          "period": "2025–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "正式加盟並快速成為主力輪換。"
         }
       ],
-      "honors": [
-        "1x J1 全聯賽總跑動距離榜首 (69.8km—2026/27賽季進行中)",
-        "1x 關東大學足球聯賽最佳陣容 (2024 [法政大學])"
-      ],
+      "honors": [],
       "milestones": [
-        "2026/27 賽季目前以 69.8 公里高居 J1 全聯賽跑動距離第一名"
+        "2025年5月10日完成J1首戰。",
+        "2025年8月10日取得J1首球。"
       ],
       "tactical_traits": [
-        "跑動魔王",
-        "法政大學體系養成"
+        "中場大範圍跑動。",
+        "右腳後上與禁區外連接。"
       ],
-      "quirky_trivia": "大學時期心肺能力測試打破法政大學體育系歷來紀錄，被教練組稱為「擁有兩個肺的跑動機器」。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_39",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "中川 敦瑛",
+      "birthplace": "神奈川縣",
       "season_start_age": 24,
       "player_image": "",
       "career": [
         {
-          "season": "2021–2024",
-          "team": "法政大學",
-          "competition": "大學校隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "大學足球名門法政大學主力中場，率隊征戰關東大學聯賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2024",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "法政大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/39.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2025",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 21,
+          "goals": 3,
+          "status": "正式加盟",
+          "notes": "League Cup另7場2球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/39.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 20,
+          "goals": 2,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/39.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2025年加盟柏太陽王，迅速憑藉跑動天賦鎖定主力位置",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/39.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_40",
       "club": "柏太陽王",
       "number": "40",
-      "name_zh": "原川 力",
+      "name_zh": "原川力",
       "name_en": "Riki Harakawa",
       "position": "MF",
       "dob": "1993-08-18",
@@ -8017,835 +8111,2021 @@
       "weight": 72,
       "foot": "右腳",
       "nationality": "日本",
-      "joined": 2024,
+      "joined": 2025,
       "prev_club": "FC東京",
       "registration_status": "本國球員",
-      "tenure_status": "效力第3季",
-      "national_team_detail": "日本 U-23 國家代表隊（2016 里約奧運成員）",
-      "intro": "J1 聯賽經驗豐富的中場節奏大腦，右腳定位球與中長傳調度極具大將之風。",
+      "tenure_status": "效力柏第2季",
+      "national_team_detail": "日本代表；日本U-18、U-19、U-20、U-21、U-22、U-23代表",
+      "intro": "經驗豐富的中場組織者，具定位球及中長傳能力。京都青訓出身，曾效力愛媛、川崎、鳥栖、大阪櫻花及FC東京，2025加入柏。",
       "timeline": [
         {
-          "period": "2012–2020",
-          "team": "京都 / 川崎 / 鳥棲 / 山口",
-          "category": "J1/J2職業隊",
-          "milestone": "里約奧運日籍中場核心，征戰 J1 登場超過 200 場"
+          "period": "2012–2015",
+          "team": "京都／愛媛",
+          "category": "J2",
+          "milestone": "職業生涯初期。"
         },
         {
-          "period": "2021–2023",
-          "team": "大阪櫻花 / FC東京",
-          "category": "J1職業隊",
-          "milestone": "豪門主力後腰"
+          "period": "2016–2020",
+          "team": "川崎／鳥栖",
+          "category": "J1",
+          "milestone": "鳥栖四季成為中場主力。"
         },
         {
-          "period": "2024–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "加盟柏太陽王梳理中場傳控"
+          "period": "2021–2024",
+          "team": "大阪櫻花／FC東京",
+          "category": "J1",
+          "milestone": "持續J1核心經驗。"
+        },
+        {
+          "period": "2025–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "加入Ricardo體系。"
         }
       ],
-      "honors": [
-        "1次 U-23 亞洲盃冠軍 (2016 [日本 U-23])"
-      ],
+      "honors": [],
       "milestones": [
-        "J1 聯賽登場超過 250 場"
+        "2012年完成J.League首戰。",
+        "2014年效力愛媛取得J.League首球。"
       ],
       "tactical_traits": [
-        "右腳精準長傳轉移",
-        "定位球大師"
+        "中場節奏控制。",
+        "定位球與中長傳。"
       ],
-      "quirky_trivia": "2016 年 U-23 亞洲盃準決賽對陣伊拉克攻入壓哨致勝世界波，將日本送入里奧奧運。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_40",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "原川 力",
+      "birthplace": "山口縣",
       "season_start_age": 32,
       "player_image": "",
       "career": [
         {
-          "season": "2012–2020",
-          "team": "京都 / 川崎 / 鳥棲 / 山口",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "里約奧運日籍中場核心，征戰 J1 登場超過 200 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2012",
+          "team": "京都サンガF.C.",
+          "competition": "J2",
+          "appearances": 3,
+          "goals": 0,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2021–2023",
-          "team": "大阪櫻花 / FC東京",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2013",
+          "team": "京都サンガF.C.",
+          "competition": "J2",
+          "appearances": 7,
+          "goals": 0,
           "status": "",
-          "notes": "豪門主力後腰",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2014",
+          "team": "愛媛FC",
+          "competition": "J2",
+          "appearances": 32,
+          "goals": 1,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "京都サンガF.C.",
+          "competition": "J2",
+          "appearances": 29,
+          "goals": 0,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "川崎フロンターレ",
+          "competition": "J1",
+          "appearances": 4,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 33,
+          "goals": 7,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 4,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 28,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "セレッソ大阪",
+          "competition": "J1",
+          "appearances": 26,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "セレッソ大阪",
+          "competition": "J1",
+          "appearances": 18,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "セレッソ大阪",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 0,
+          "status": "",
+          "notes": "7月FC東京へ外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 10,
+          "goals": 1,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 25,
+          "goals": 1,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 15,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 9,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟柏太陽王梳理中場傳控",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/40.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_42",
       "club": "柏太陽王",
       "number": "42",
-      "name_zh": "原田 亘",
+      "name_zh": "原田亘",
       "name_en": "Wataru Harada",
       "position": "DF",
       "dob": "1996-07-22",
       "age": 30,
       "height": 178,
-      "weight": 73,
+      "weight": 77,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2025,
-      "prev_club": "鳥棲砂岩",
+      "prev_club": "サガン鳥栖",
       "registration_status": "本國球員",
-      "tenure_status": "效力第2季",
-      "national_team_detail": "無",
-      "intro": "作風悍勇的右後衛／邊翼衛，體能充沛，邊路一對一防守對抗成功率極高。",
+      "tenure_status": "效力柏第2季",
+      "national_team_detail": "",
+      "intro": "右腳後衛，可踢右閘或三中堅右側。由JFL今治一路升到J1，2025加盟柏即成為穩定主力並獲J.League優秀選手獎。",
       "timeline": [
         {
           "period": "2019–2021",
           "team": "FC今治",
-          "category": "J3/JFL",
-          "milestone": "日本體育大學畢業加盟今治，成為後防鐵閘"
+          "category": "JFL／J3",
+          "milestone": "由JFL升至J3並成為主力。"
         },
         {
           "period": "2022–2024",
           "team": "鳥棲砂岩",
-          "category": "J1職業隊",
-          "milestone": "躍升 J1 主力右後衛，登場超過 70 場"
+          "category": "J1",
+          "milestone": "J1三季累積穩定出場。"
         },
         {
-          "period": "2025–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "加盟柏太陽王，鎮守右路防線"
+          "period": "2025–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "2025優秀選手獎。"
         }
       ],
       "honors": [
-        "J3 全聯賽最佳邊後衛候補"
+        "2025 J.League優秀選手獎"
       ],
       "milestones": [
-        "從 JFL 一路打到 J1 的勵志後衛"
+        "2020年完成J.League首戰及首球。"
       ],
       "tactical_traits": [
-        "邊路強悍肉搏搶斷",
-        "高速攻守往返"
+        "右閘／右中堅。",
+        "前插與傳中。"
       ],
-      "quirky_trivia": "出身日本體育大學，體能素質極其強悍，單場搶斷數據常年名列前茅。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_42",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "原田 亘",
+      "birthplace": "兵庫縣",
       "season_start_age": 30,
       "player_image": "",
       "career": [
         {
-          "season": "2019–2021",
+          "season": "2019",
           "team": "FC今治",
-          "competition": "J3/JFL",
-          "appearances": null,
-          "goals": null,
+          "competition": "JFL",
+          "appearances": 30,
+          "goals": 4,
           "status": "",
-          "notes": "日本體育大學畢業加盟今治，成為後防鐵閘",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2022–2024",
-          "team": "鳥棲砂岩",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2020",
+          "team": "FC今治",
+          "competition": "J3",
+          "appearances": 28,
+          "goals": 3,
           "status": "",
-          "notes": "躍升 J1 主力右後衛，登場超過 70 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2021",
+          "team": "FC今治",
+          "competition": "J3",
+          "appearances": 25,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "サガン鳥栖",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "優秀選手獎。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 13,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟柏太陽王，鎮守右路防線",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/42.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_43",
       "club": "柏太陽王",
       "number": "43",
-      "name_zh": "加茂 結斗",
+      "name_zh": "加茂結斗",
       "name_en": "Yuito Kamo",
       "position": "MF",
-      "dob": "2007-10-18",
+      "dob": "2008-10-18",
       "age": 18,
-      "height": 174,
-      "weight": 65,
-      "foot": "右腳",
+      "height": 171,
+      "weight": 67,
+      "foot": "",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "U-21 青年球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "無",
-      "intro": "柏太陽王梯隊提拔的邊路靈巧中場，盤帶腳頻快，傳中路數陡峭。",
+      "prev_club": "柏レイソルU-18",
+      "registration_status": "二種トップ可（アマチュア）／Home Grown／U-21",
+      "tenure_status": "柏U-18在學；2026年8月一隊註冊",
+      "national_team_detail": "",
+      "intro": "柏Academy出身的U-18中場。2026年8月與佐藤桜久、五十嵐陵一同獲二種トップ可註冊，可代表一隊出戰J.League。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2026年青訓升入一線隊"
+          "period": "Academy",
+          "team": "柏U-12／U-15／U-18",
+          "category": "青訓",
+          "milestone": "由小學年代一路在柏成長。"
+        },
+        {
+          "period": "2026/27",
+          "team": "柏レイソル",
+          "category": "二種註冊",
+          "milestone": "8月正式一隊註冊。"
         }
       ],
-      "honors": [
-        "柏太陽王青訓升格"
-      ],
+      "honors": [],
       "milestones": [
-        "18歲完成職業登錄"
+        "2026年8月7日獲二種トップ可（アマチュア）註冊。"
       ],
       "tactical_traits": [
-        "邊路靈巧過人",
-        "傳中球落點準"
+        "中場。"
       ],
-      "quirky_trivia": "梯隊時期便以突破速度著稱。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_43",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 18,
+      "name_ja": "加茂 結斗",
+      "birthplace": "千葉縣",
+      "season_start_age": 17,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年青訓升入一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "二種註冊",
+          "notes": "柏U-18所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏二種註冊公告",
+              "url": "https://www.reysol.co.jp/news/topteam/u-18-2101.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏二種註冊公告",
+          "url": "https://www.reysol.co.jp/news/topteam/u-18-2101.html",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "二種註冊",
+        "HG",
+        "U21"
+      ]
     },
     {
       "id": "jleague_kashiwa_44",
       "club": "柏太陽王",
       "number": "44",
-      "name_zh": "弓場 堅真",
+      "name_zh": "弓場堅真",
       "name_en": "Kenshin Yuba",
       "position": "MF",
-      "dob": "2007-12-05",
+      "dob": "2000-10-12",
       "age": 18,
-      "height": 176,
-      "weight": 67,
-      "foot": "右腳",
+      "height": 163,
+      "weight": 61,
+      "foot": "",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "U-21 青年球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "無",
-      "intro": "柏梯隊培養的工蜂型後腰，攔截搶斷極度硬朗，逼搶體能耐受度高。",
+      "prev_club": "サガン鳥栖",
+      "registration_status": "本國球員",
+      "tenure_status": "2026年6月完全轉會加盟",
+      "national_team_detail": "",
+      "intro": "163厘米機動型中場。國士舘大學後由JFL Honda FC起步，再經今治升上J3、J2，2026先效力鳥栖，再於夏季加盟柏。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2026年由梯隊升入一線隊"
+          "period": "2023",
+          "team": "Honda FC",
+          "category": "JFL",
+          "milestone": "20場1球。"
+        },
+        {
+          "period": "2024–2025",
+          "team": "FC今治",
+          "category": "J3／J2",
+          "milestone": "隨球會升級並保持主力出場。"
+        },
+        {
+          "period": "2026",
+          "team": "サガン鳥栖",
+          "category": "百年構想聯賽",
+          "milestone": "20場2球。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "完全轉會。"
         }
       ],
-      "honors": [
-        "柏太陽王青訓一線隊升格"
-      ],
+      "honors": [],
       "milestones": [
-        "18歲簽署職業合約"
+        "2024今治J3 25場1球。",
+        "2025今治J2 34場2球。",
+        "2026百年構想聯賽鳥栖20場2球。"
       ],
       "tactical_traits": [
-        "中場硬朗逼搶",
-        "卡位防守下腳"
+        "低重心中場。",
+        "機動力與前插。"
       ],
-      "quirky_trivia": "作風頑強，是青訓教練眼中防守態度極佳的中場屏障。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_44",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 18,
+      "name_ja": "弓場 堅真",
+      "birthplace": "大阪府",
+      "season_start_age": 25,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2023",
+          "team": "Honda FC",
+          "competition": "JFL",
+          "appearances": 20,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏加盟公告",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1082.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "FC今治",
+          "competition": "J3",
+          "appearances": 25,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏加盟公告",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1082.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "FC今治",
+          "competition": "J2",
+          "appearances": 34,
+          "goals": 2,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏加盟公告",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1082.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "サガン鳥栖",
+          "competition": "J2・J3百年構想聯賽",
+          "appearances": 20,
+          "goals": 2,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏加盟公告",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1082.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年由梯隊升入一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏加盟公告",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1082.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏加盟公告",
+          "url": "https://www.reysol.co.jp/news/topteam/post-1082.html",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_45",
       "club": "柏太陽王",
       "number": "45",
-      "name_zh": "佐藤 櫻久",
+      "name_zh": "佐藤櫻久",
       "name_en": "Raku Sato",
       "position": "DF",
-      "dob": "2007-07-03",
+      "dob": "2008-04-05",
       "age": 19,
-      "height": 181,
-      "weight": 72,
-      "foot": "右腳",
+      "height": 173,
+      "weight": 68,
+      "foot": "",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "2種登錄 (青年球員)",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "日本 U-18 國家代表隊",
-      "intro": "獲得一隊 2種登錄 的後防新星，可勝任中後衛與邊後衛，防守意識敏銳。",
+      "prev_club": "柏レイソルU-18",
+      "registration_status": "二種トップ可（アマチュア）／Home Grown／U-21",
+      "tenure_status": "柏U-18在學；2026年8月一隊註冊",
+      "national_team_detail": "",
+      "intro": "柏Academy出身的U-18後衛。柏Effort FC後加入柏U-12，經U-15、U-18一路成長，2026年8月獲一隊二種註冊。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得一隊 2種登錄 資格"
+          "period": "Academy",
+          "team": "柏U-12／U-15／U-18",
+          "category": "青訓",
+          "milestone": "柏育成。"
+        },
+        {
+          "period": "2026/27",
+          "team": "柏レイソル",
+          "category": "二種註冊",
+          "milestone": "一隊出場資格。"
         }
       ],
-      "honors": [
-        "日本 U-18 國青隊代表"
-      ],
+      "honors": [],
       "milestones": [
-        "獲得 2種登錄 隨一隊征戰"
+        "2026年8月7日獲二種トップ可（アマチュア）註冊。"
       ],
       "tactical_traits": [
-        "後防卡位閱讀",
-        "冷靜解圍"
+        "後衛。"
       ],
-      "quirky_trivia": "柏梯隊重點培養的高中生後衛。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_45",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 19,
+      "name_ja": "佐藤 桜久",
+      "birthplace": "千葉縣",
+      "season_start_age": 18,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "俱樂部梯隊/一隊",
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "獲得一隊 2種登錄 資格",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "二種註冊",
+          "notes": "柏U-18所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏二種註冊公告",
+              "url": "https://www.reysol.co.jp/news/topteam/u-18-2101.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏二種註冊公告",
+          "url": "https://www.reysol.co.jp/news/topteam/u-18-2101.html",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "二種註冊",
+        "HG",
+        "U21"
+      ]
     },
     {
       "id": "jleague_kashiwa_46",
       "club": "柏太陽王",
       "number": "46",
-      "name_zh": "松本 健太",
+      "name_zh": "松本健太",
       "name_en": "Kenta Matsumoto",
       "position": "GK",
       "dob": "1997-05-04",
       "age": 29,
-      "height": 185,
+      "height": 186,
       "weight": 83,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2020,
       "prev_club": "東洋大學",
-      "registration_status": "本國球員",
-      "tenure_status": "效力第7季",
-      "national_team_detail": "無",
-      "intro": "松本健太為柏太陽王自家青訓培養的實力派門將，身高 185 公分，具備極佳的門線反應與高空球沒收能力。",
+      "registration_status": "本國球員／Home Grown",
+      "tenure_status": "柏青訓出身；2020職業加盟",
+      "national_team_detail": "日本U-17代表",
+      "intro": "柏U-15、U-18出身門將。東洋大學後回到母會，2023、2024兩季曾擔任聯賽主力；2025小島亨介加盟後成為門將組重要競爭者。",
       "timeline": [
         {
-          "period": "2010–2015",
-          "team": "柏太陽王 Youth",
-          "category": "俱樂部梯隊",
-          "milestone": "柏太陽王青訓培養，高中畢業後前往東洋大學進修"
+          "period": "青訓",
+          "team": "柏U-15／U-18",
+          "category": "Academy",
+          "milestone": "柏育成。"
         },
         {
-          "period": "2020–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "大學畢業重返母會簽署職業合約，作為主力門將輪換力量"
+          "period": "2019",
+          "team": "東洋大學／柏",
+          "category": "大學／特別指定",
+          "milestone": "8月成為特別指定。"
+        },
+        {
+          "period": "2020–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "2020短暫外借大宮。"
         }
       ],
-      "honors": [
-        "1次 天皇盃亞軍 (2023 [柏太陽王])"
-      ],
+      "honors": [],
       "milestones": [
-        "2023 天皇盃決賽先發門將"
+        "2022年6月18日完成J1首戰。",
+        "2023 J1上陣28場；2024上陣32場。"
       ],
       "tactical_traits": [
-        "日立台梯隊基因",
-        "高空球處置冷靜"
+        "186厘米門將。",
+        "門線反應與高空球。"
       ],
-      "quirky_trivia": "出生於千葉縣柏市在地，是純正的柏太陽王青訓子弟兵。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_46",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "松本 健太",
+      "birthplace": "千葉縣",
       "season_start_age": 29,
       "player_image": "",
       "career": [
         {
-          "season": "2010–2015",
-          "team": "柏太陽王 Youth",
-          "competition": "俱樂部梯隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "柏太陽王青訓培養，高中畢業後前往東洋大學進修",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2019",
+          "team": "柏レイソル",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "東洋大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2020–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2020",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "正式加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "大宮アルディージャ",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "育成型外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "回歸",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 28,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "大學畢業重返母會簽署職業合約，作為主力門將輪換力量",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/46.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "HG"
+      ]
     },
     {
       "id": "jleague_kashiwa_51",
       "club": "柏太陽王",
       "number": "51",
-      "name_zh": "滿田 誠",
+      "name_zh": "滿田誠",
       "name_en": "Makoto Mitsuta",
       "position": "FW",
       "dob": "1999-07-20",
       "age": 27,
       "height": 170,
-      "weight": 65,
+      "weight": 63,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "廣島三箭",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "2次 代表日本國家隊大國腳 🇯🇵（2022 東亞盃冠軍）",
-      "intro": "日本現役國腳級全能攻擊手，具備頂級的右腳重炮遠射、定位球弧線與高強度前壓逼搶體能。",
+      "prev_club": "ガンバ大阪",
+      "registration_status": "本國球員／外借加盟",
+      "tenure_status": "2026/27由大阪飛腳外借加盟",
+      "national_team_detail": "日本代表",
+      "intro": "可踢前鋒、進攻中場及邊路的高活動量攻擊手。2022在廣島新人季即J1 29場9球，其後效力大阪飛腳，2026春季短暫外借神戶，2026/27再由大阪飛腳外借至柏。",
       "timeline": [
         {
-          "period": "2022–2025",
+          "period": "2022–2024",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "流通經濟大學畢業加盟廣島大爆發，首季 9 球 8 助攻勇奪 2022 聯賽盃冠軍"
+          "category": "J1",
+          "milestone": "2022新人季29場9球。"
         },
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2026年重磅加盟柏太陽王，接下前場進攻核心王牌重任"
+          "period": "2025–2026",
+          "team": "大阪飛腳",
+          "category": "J1",
+          "milestone": "2025 J1 35場2球。"
+        },
+        {
+          "period": "2026",
+          "team": "神戶勝利船",
+          "category": "百年構想聯賽／ACLE",
+          "milestone": "4月起短期外借。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "由大阪飛腳外借加盟。"
         }
       ],
       "honors": [
-        "1次 J.League 聯賽盃冠軍 (2022 [廣島三箭])",
-        "1次 東亞足球錦標賽冠軍 (2022 [日本國家隊])",
-        "1次 J1 聯賽優秀選手賞 (2022)"
+        "日本代表"
       ],
       "milestones": [
-        "職業首季即入選日本國家隊並奪冠"
+        "2022年3月6日完成J1首戰。",
+        "2022年4月2日取得J1首球。"
       ],
       "tactical_traits": [
-        "右腳穿雲箭重炮遠射",
-        "全場狂暴高位逼搶"
+        "前場多位置。",
+        "高活動量壓迫及攻守連接。"
       ],
-      "quirky_trivia": "廣島三箭青訓出身，大學畢業回歸即震撼 J1 聯賽，遠射弧度極其暴力。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_51",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "満田 誠",
+      "birthplace": "熊本縣",
       "season_start_age": 27,
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "流通經濟大學畢業加盟廣島大爆發，首季 9 球 8 助攻勇奪 2022 聯賽盃冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2022",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 9,
+          "status": "職業加盟",
+          "notes": "League Cup另12場2球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2023",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 23,
+          "goals": 4,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 35,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "サンフレッチェ広島",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "2月大阪飛腳へ。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "ガンバ大阪",
+          "competition": "J1",
+          "appearances": 35,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "ガンバ大阪",
+          "competition": "J1百年構想聯賽",
+          "appearances": 1,
+          "goals": 0,
+          "status": "",
+          "notes": "4月神戶外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "ヴィッセル神戸",
+          "competition": "J1百年構想聯賽",
+          "appearances": 6,
+          "goals": 0,
+          "status": "外借",
+          "notes": "ACLE另2場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年重磅加盟柏太陽王，接下前場進攻核心王牌重任",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外借",
+          "notes": "大阪飛腳から期限付き。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/202627/51.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_56",
       "club": "柏太陽王",
       "number": "56",
-      "name_zh": "常藤 奏",
+      "name_zh": "常藤奏",
       "name_en": "Kanade Tsuneto",
-      "position": "MF",
-      "dob": "2007-11-14",
+      "position": "DF",
+      "dob": "2004-07-13",
       "age": 18,
-      "height": 172,
-      "weight": 64,
+      "height": 183,
+      "weight": 78,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "U-21 青年球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "無",
-      "intro": "柏梯隊培育的中場新星，節奏變幻靈敏，短傳掌控順暢。",
+      "prev_club": "中央大學",
+      "registration_status": "JFA・J.League特別指定",
+      "tenure_status": "中央大學在學；2027正式加盟內定",
+      "national_team_detail": "",
+      "intro": "183厘米後衛，中央大學在學。2027正式加盟柏已內定，2026先以特別指定身份參與一隊；右腳、具身體條件與後場對抗能力。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "2026年青訓升格一線隊"
+          "period": "育成",
+          "team": "FCバイエルンツネイシ／興國高",
+          "category": "育成",
+          "milestone": "廣島出身。"
+        },
+        {
+          "period": "2023–",
+          "team": "中央大學",
+          "category": "大學足球",
+          "milestone": "大學期間獲柏鎖定。"
+        },
+        {
+          "period": "2026–",
+          "team": "柏レイソル",
+          "category": "特別指定",
+          "milestone": "2027正式加盟內定。"
         }
       ],
-      "honors": [
-        "柏太陽王青訓升格"
-      ],
+      "honors": [],
       "milestones": [
-        "18歲簽署職業合約"
+        "2026年2月宣布2027加盟內定。",
+        "2026年3月獲JFA・J.League特別指定。"
       ],
       "tactical_traits": [
-        "中場靈巧轉身",
-        "短傳連貫"
+        "183厘米後衛。",
+        "右腳。"
       ],
-      "quirky_trivia": "梯隊期間控球節奏感深受讚賞。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_56",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 18,
+      "name_ja": "常藤 奏",
+      "birthplace": "廣島縣",
+      "season_start_age": 22,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "中央大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/56.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "2026年青訓升格一線隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "特別指定",
+          "notes": "中央大學所屬；2027正式加盟內定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏特別指定公告",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1057.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/56.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "2027新加入內定",
+          "url": "https://www.reysol.co.jp/news/topteam/post-1050.html",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "特別指定公告",
+          "url": "https://www.reysol.co.jp/news/topteam/post-1057.html",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "特別指定",
+        "U21"
+      ]
     },
     {
       "id": "jleague_kashiwa_64",
       "club": "柏太陽王",
       "number": "64",
-      "name_zh": "五十嵐 陵",
+      "name_zh": "五十嵐陵",
       "name_en": "Ryo Igarashi",
-      "position": "FW",
-      "dob": "2008-01-22",
+      "position": "MF",
+      "dob": "2009-12-19",
       "age": 18,
-      "height": 179,
+      "height": 174,
       "weight": 70,
-      "foot": "右腳",
+      "foot": "",
       "nationality": "日本",
       "joined": 2026,
-      "prev_club": "柏太陽王 Youth",
-      "registration_status": "2種登錄 (青年球員)",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "日本 U-17 國家代表隊",
-      "intro": "獲得 2種登錄 的前鋒妖星，爆發力佳，跑位衝擊力強。",
+      "prev_club": "柏レイソルU-18",
+      "registration_status": "二種トップ可（アマチュア）／Home Grown／U-21",
+      "tenure_status": "柏U-18在學；2026年8月一隊註冊",
+      "national_team_detail": "日本U-17代表（2026年9月選出）",
+      "intro": "2009年出生的柏U-18中場。Regista FCから柏U-15、U-18へ進み、2026年8月獲一隊二種註冊；9月再入選日本U-17代表。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "柏太陽王",
-          "category": "俱樂部梯隊/一隊",
-          "milestone": "獲得一隊 2種登錄 隨隊訓練比賽"
+          "period": "Academy",
+          "team": "柏U-15／U-18",
+          "category": "青訓",
+          "milestone": "埼玉出身。"
+        },
+        {
+          "period": "2026/27",
+          "team": "柏レイソル",
+          "category": "二種註冊",
+          "milestone": "16歲一隊註冊。"
         }
       ],
-      "honors": [
-        "日本 U-17 國青隊代表"
-      ],
+      "honors": [],
       "milestones": [
-        "17歲獲得 2種登錄 資格"
+        "2026年8月7日獲二種トップ可（アマチュア）註冊。",
+        "2026年9月入選日本U-17代表。"
       ],
       "tactical_traits": [
-        "前場爆發力衝刺",
-        "門前起腳決斷"
+        "中場。"
       ],
-      "quirky_trivia": "青訓體系極受關注的鋒線新星。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_64",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 18,
+      "name_ja": "五十嵐 陵",
+      "birthplace": "埼玉縣",
+      "season_start_age": 16,
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "柏太陽王",
-          "competition": "俱樂部梯隊/一隊",
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "獲得一隊 2種登錄 隨隊訓練比賽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "二種註冊",
+          "notes": "柏U-18所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏二種註冊公告",
+              "url": "https://www.reysol.co.jp/news/topteam/u-18-2101.html",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏二種註冊公告",
+          "url": "https://www.reysol.co.jp/news/topteam/u-18-2101.html",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "日本U-17入選",
+          "url": "https://www.reysol.co.jp/news/academy/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": [
+        "二種註冊",
+        "HG",
+        "U21"
+      ]
     },
     {
       "id": "jleague_kashiwa_77",
       "club": "柏太陽王",
       "number": "77",
-      "name_zh": "若原 智哉",
+      "name_zh": "若原智哉",
       "name_en": "Tomoya Wakahara",
       "position": "GK",
       "dob": "1999-12-28",
       "age": 26,
-      "height": 185,
-      "weight": 83,
+      "height": 186,
+      "weight": 84,
       "foot": "右腳",
       "nationality": "日本",
-      "joined": 2025,
-      "prev_club": "V-Varen長崎",
+      "joined": 2026,
+      "prev_club": "ジェフユナイテッド千葉",
       "registration_status": "本國球員",
-      "tenure_status": "效力第2季",
-      "national_team_detail": "日本 U-20 國家代表隊（2019 世青盃主力門將）",
-      "intro": "前世青盃日本國青主力門將，門線反應極度爆發，制空摘球穩健。",
+      "tenure_status": "2026/27新加盟",
+      "national_team_detail": "日本U-15、U-16、U-17、U-18、U-19、U-20代表",
+      "intro": "京都青訓出身門將。2018京都一隊開始職業生涯，2024外借長崎、2025轉投千葉，2026/27加盟柏，為門將組增加實戰經驗。",
       "timeline": [
         {
           "period": "2018–2023",
-          "team": "京都市死鳥",
-          "category": "J1/J2職業隊",
-          "milestone": "京都青訓核心門將，隨隊成功升上 J1"
+          "team": "京都サンガF.C.",
+          "category": "J2／J1",
+          "milestone": "青訓升上一隊。"
         },
         {
           "period": "2024",
           "team": "V-Varen長崎",
-          "category": "J2職業隊",
-          "milestone": "外借長崎擔任門線主力"
+          "category": "J2",
+          "milestone": "外借。"
         },
         {
-          "period": "2025–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "加盟柏太陽王充實實力派門將陣容"
+          "period": "2025",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "完全轉會。"
+        },
+        {
+          "period": "2026/27–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "新加盟。"
         }
       ],
-      "honors": [
-        "1次 世青盃（U-20 World Cup）日本隊先發門將 (2019)"
-      ],
+      "honors": [],
       "milestones": [
-        "J1/J2 登場突破 70 場"
+        "2018年5月12日完成J.League首戰。"
       ],
       "tactical_traits": [
-        "極快反應撲救",
-        "一對一門線封堵"
+        "186厘米門將。"
       ],
-      "quirky_trivia": "京都青訓名將，在 2019 年世青盃賽場屢救險球大放異彩。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_77",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "若原 智哉",
+      "birthplace": "滋賀縣",
       "season_start_age": 26,
       "player_image": "",
       "career": [
         {
-          "season": "2018–2023",
-          "team": "京都市死鳥",
-          "competition": "J1/J2職業隊",
+          "season": "2018",
+          "team": "京都サンガF.C.",
+          "competition": "J2",
+          "appearances": 12,
+          "goals": 0,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "京都サンガF.C.",
+          "competition": "J2",
           "appearances": null,
-          "goals": null,
+          "goals": 0,
           "status": "",
-          "notes": "京都青訓核心門將，隨隊成功升上 J1",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "京都サンガF.C.",
+          "competition": "J2",
+          "appearances": null,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "京都サンガF.C.",
+          "competition": "J2",
+          "appearances": null,
+          "goals": 0,
+          "status": "",
+          "notes": "升上J1。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "京都サンガF.C.",
+          "competition": "J1",
+          "appearances": null,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "京都サンガF.C.",
+          "competition": "J1",
+          "appearances": null,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
           "season": "2024",
-          "team": "V-Varen長崎",
-          "competition": "J2職業隊",
+          "team": "V・ファーレン長崎",
+          "competition": "J2",
           "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "外借長崎擔任門線主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "goals": 0,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2025",
+          "team": "ジェフユナイテッド千葉",
+          "competition": "J2",
           "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "加盟柏太陽王充實實力派門將陣容",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": null,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/202627/77.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_87",
       "club": "柏太陽王",
       "number": "87",
-      "name_zh": "山內 日向汰",
+      "name_zh": "山內日向汰",
       "name_en": "Hinata Yamauchi",
       "position": "MF",
       "dob": "2001-05-30",
       "age": 25,
       "height": 170,
-      "weight": 65,
+      "weight": 66,
       "foot": "右腳",
       "nationality": "日本",
-      "joined": 2024,
-      "prev_club": "桐蔭橫濱大學",
+      "joined": 2026,
+      "prev_club": "川崎フロンターレ",
       "registration_status": "本國球員",
-      "tenure_status": "效力第3季",
-      "national_team_detail": "全日本大學選拔代表",
-      "intro": "川崎前鋒青訓出身、桐蔭橫濱大學培養的攻擊型中場，節奏變幻靈動，直塞與盤帶俱佳。",
+      "tenure_status": "2026加盟",
+      "national_team_detail": "",
+      "intro": "川崎青訓出身的技術型中場。桐蔭橫濱大學後回川崎，2025夏季外借仙台累積實戰，再於2026轉投柏。",
       "timeline": [
         {
-          "period": "2020–2023",
-          "team": "桐蔭橫濱大學",
-          "category": "大學校隊",
-          "milestone": "率隊勇奪 2022 全日本大學錦標賽冠軍"
+          "period": "青訓",
+          "team": "川崎U-10／U-12／U-15／U-18",
+          "category": "Academy",
+          "milestone": "川崎青訓。"
         },
         {
-          "period": "2024–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "加盟柏太陽王，擔任前場靈動攻擊手"
+          "period": "2023–2025",
+          "team": "川崎前鋒",
+          "category": "J1",
+          "milestone": "2023特別指定、2024正式加盟。"
+        },
+        {
+          "period": "2025",
+          "team": "仙台維加泰",
+          "category": "J2",
+          "milestone": "夏季外借8場2球。"
+        },
+        {
+          "period": "2026–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "完全轉會。"
         }
       ],
-      "honors": [
-        "1次 全日本大學足球錦標賽冠軍 (2022 [桐蔭橫濱大])"
-      ],
+      "honors": [],
       "milestones": [
-        "大學錦標賽 MVP / 最優秀選手候補"
+        "2024年3月30日完成J1首戰。",
+        "2025年2月15日取得J1首球。"
       ],
       "tactical_traits": [
-        "狹小空間腳下扣球過人",
-        "前場肋部關鍵傳球"
+        "技術型中場。",
+        "右腳、狹窄空間接球。"
       ],
-      "quirky_trivia": "川崎前鋒 Youth 出身，大學時期大放異彩後加盟柏太陽王。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_87",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "山内 日向汰",
+      "birthplace": "神奈川縣",
       "season_start_age": 25,
       "player_image": "",
       "career": [
         {
-          "season": "2020–2023",
-          "team": "桐蔭橫濱大學",
-          "competition": "大學校隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "率隊勇奪 2022 全日本大學錦標賽冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2023",
+          "team": "川崎フロンターレ",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "桐蔭橫濱大學所屬。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/87.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2024",
+          "team": "川崎フロンターレ",
+          "competition": "J1",
+          "appearances": 16,
+          "goals": 0,
+          "status": "正式加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/87.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "川崎フロンターレ",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 1,
+          "status": "",
+          "notes": "夏季外借仙台。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/87.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "ベガルタ仙台",
+          "competition": "J2",
+          "appearances": 8,
+          "goals": 2,
+          "status": "外借",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/87.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
+          "appearances": 15,
+          "goals": 1,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/2026/87.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟柏太陽王，擔任前場靈動攻擊手",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "現役",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/2026/87.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     },
     {
       "id": "jleague_kashiwa_88",
       "club": "柏太陽王",
       "number": "88",
-      "name_zh": "馬場 晴也",
+      "name_zh": "馬場晴也",
       "name_en": "Seiya Baba",
       "position": "DF",
       "dob": "2001-10-24",
@@ -8855,87 +10135,218 @@
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2025,
-      "prev_club": "北海道札幌岡薩多",
+      "prev_club": "北海道コンサドーレ札幌",
       "registration_status": "本國球員",
-      "tenure_status": "效力第2季",
-      "national_team_detail": "日本 U-23 國家代表隊",
-      "intro": "國奧級後防多面手，可勝任中後衛、右後衛與後腰，身體對抗強悍且具備優異的向前傳球膽識。",
+      "tenure_status": "2025年6月加盟",
+      "national_team_detail": "日本U-16、U-17、U-18、U-21、U-22、U-23代表",
+      "intro": "東京綠茵青訓出身的後衛，可踢中堅與防守中場。札幌時在J1累積主力經驗，2025夏季加入柏。",
       "timeline": [
         {
           "period": "2020–2022",
-          "team": "東京綠城",
-          "category": "J2職業隊",
-          "milestone": "綠城青訓核心，升一隊成為防線大將"
+          "team": "東京綠茵",
+          "category": "J2",
+          "milestone": "青訓升上一隊。"
         },
         {
-          "period": "2023–2024",
+          "period": "2023–2025",
           "team": "北海道札幌岡薩多",
-          "category": "J1職業隊",
-          "milestone": "札幌主力防線司令塔，入選 U-23 國奧隊"
+          "category": "J1／J2",
+          "milestone": "2024 J1 37場2球。"
         },
         {
-          "period": "2025–至今",
-          "team": "柏太陽王",
-          "category": "J1職業隊",
-          "milestone": "加盟柏太陽王，為後防與中場防守提供強悍屏障"
+          "period": "2025–",
+          "team": "柏レイソル",
+          "category": "J1",
+          "milestone": "夏季加盟。"
         }
       ],
-      "honors": [
-        "1次 U-23 亞洲盃冠軍 (2024 [日本 U-23])"
-      ],
+      "honors": [],
       "milestones": [
-        "J1 聯賽登場超過 60 場"
+        "2020年完成J.League首戰。",
+        "2024年取得J1首球。"
       ],
       "tactical_traits": [
-        "防線與後腰雙棲多面手",
-        "下腳上搶極度強硬"
+        "中堅／防守中場。",
+        "後場推進與對抗。"
       ],
-      "quirky_trivia": "東京綠城名門青訓出身，在場上以毫不畏懼的高強度肢體對抗著名。",
+      "quirky_trivia": "",
       "legacy_id": "jleague_kashiwa_88",
       "official_player_id": null,
       "team_slug": "kashiwa",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "馬場 晴也",
+      "birthplace": "千葉縣",
       "season_start_age": 24,
       "player_image": "",
       "career": [
         {
-          "season": "2020–2022",
-          "team": "東京綠城",
-          "competition": "J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "綠城青訓核心，升一隊成為防線大將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "season": "2020",
+          "team": "東京ヴェルディ",
+          "competition": "J2",
+          "appearances": 3,
+          "goals": 0,
+          "status": "職業加盟",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2023–2024",
-          "team": "北海道札幌岡薩多",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
+          "season": "2021",
+          "team": "東京ヴェルディ",
+          "competition": "J2",
+          "appearances": 13,
+          "goals": 0,
           "status": "",
-          "notes": "札幌主力防線司令塔，入選 U-23 國奧隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
-          "team": "柏太陽王",
-          "competition": "J1職業隊",
+          "season": "2022",
+          "team": "東京ヴェルディ",
+          "competition": "J2",
+          "appearances": 31,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "北海道コンサドーレ札幌",
+          "competition": "J1",
+          "appearances": 21,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "北海道コンサドーレ札幌",
+          "competition": "J1",
+          "appearances": 37,
+          "goals": 2,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "北海道コンサドーレ札幌",
+          "competition": "J2",
+          "appearances": 9,
+          "goals": 0,
+          "status": "",
+          "notes": "6月柏へ。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": 10,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏官方",
+              "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "柏レイソル",
+          "competition": "J1百年構想聯賽",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟柏太陽王，為後防與中場防守提供強悍屏障",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "柏レイソル",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "柏現役名單",
+              "url": "https://www.reysol.co.jp/team/players/",
+              "accessed_at": "2026-09-18"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "柏太陽王官方球員檔案",
+          "url": "https://www.reysol.co.jp/team/players/202627/88.php",
+          "accessed_at": "2026-09-18"
+        },
+        {
+          "label": "柏太陽王現役名單",
+          "url": "https://www.reysol.co.jp/team/players/",
+          "accessed_at": "2026-09-18"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-18",
+      "registration_tags": []
     }
   ]
 }
