@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T10:40:00+09:00",
+  "generated_at": "2026-09-19T10:30:00+09:00",
   "team": {
     "id": "team_kobe",
     "type": "team_info",
@@ -21,11 +21,11 @@
     "roster_as_of": "2026-09-19",
     "data_status": "verified",
     "established": 1995,
-    "roots": "前身川崎製鐵水島足球部；1995搬遷神戶並成立Vissel Kobe，1997升上J.League。",
+    "roots": "前身川崎製鐵水島足球部。1995搬遷神戶並以Vissel Kobe成立，1997加入J.League。",
     "corporation": "楽天ヴィッセル神戸株式会社",
     "club_color": "Crimson Red",
     "hometown": "神戶市",
-    "name_history": "Vissel由Victory＋Vessel組成，將『勝利』與港都神戶的『船』結合。",
+    "name_history": "Vissel由Victory與Vessel組合，結合勝利與港都神戶的船舶意象。",
     "stadium_info": {
       "name": "Noevir Stadium Kobe",
       "name_zh": "Noevir Stadium Kobe",
@@ -33,11 +33,11 @@
       "jleague_match_capacity": 27974,
       "address": "兵庫県神戸市兵庫区御崎町1-2-2",
       "interesting_facts": [
-        "足球專用場、2002 World Cup場館之一。",
-        "看台貼近草地，封閉式屋頂結構令聲浪集中。"
+        "2002 World Cup場館之一。",
+        "J.League現行入場可能數27,974。"
       ]
     },
-    "team_history": "1995以神戶為基地成立，長期在J1/J2之間成長；Rakuten時代引入Iniesta、Villa等世界級球星，2019天皇盃帶來首個主要冠軍。2023首奪J1、2024完成J1連霸並再奪天皇盃；2026再贏J1百年構想聯賽。",
+    "team_history": "1990年代加入J.League後長期尋找突破；Rakuten年代引入Iniesta等世界級球星，2019首奪天皇盃，2023首奪J1，2024完成J1連霸兼天皇盃冠軍。2026換Skibbe後再贏百年構想聯賽。",
     "history_timeline": [
       {
         "year": "1995",
@@ -45,11 +45,11 @@
       },
       {
         "year": "1997",
-        "event": "升J.League。"
+        "event": "加入J.League。"
       },
       {
         "year": "2019",
-        "event": "天皇盃冠軍，首個主要錦標。"
+        "event": "首奪天皇盃。"
       },
       {
         "year": "2023",
@@ -67,7 +67,6 @@
     "performance_history": [
       "J1冠軍：2023、2024",
       "天皇盃：2019、2024",
-      "Super Cup：2020",
       "J1百年構想聯賽：2026"
     ],
     "recent_seasons": [
@@ -82,6 +81,11 @@
         "finish": "冠軍"
       },
       {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "上位爭冠集團"
+      },
+      {
         "season": "2026",
         "competition": "J1百年構想聯賽",
         "finish": "冠軍"
@@ -89,7 +93,7 @@
       {
         "season": "2026/27",
         "competition": "J1",
-        "finish": "第2（5勝1和1負；截至9/17）"
+        "finish": "第2（5勝1和1負；截至9/13）"
       }
     ],
     "current_season": {
@@ -105,39 +109,38 @@
       "goals_against": 5,
       "goal_difference": 6,
       "rank": 2,
-      "as_of": "2026-09-17"
+      "as_of": "2026-09-13"
     },
     "leadership": {
       "captain": "酒井高德",
-      "note": "2026百年構想聯賽冠軍決勝局由酒井高德擔任game captain；現檔以其領袖角色標示。"
+      "note": "2026百年構想聯賽官方game captain；2026/27領袖核心仍以其為主。"
     },
     "roster_notes": [
-      "Current numbered pool 39人。",
-      "7月20日廣瀨陸斗完全轉會鹿島；7月29日相澤David外借大分；9月14日瀨口大翔外借FC Košice；9月16日Nduka Boniface外借JEF，均移除。",
-      "7月28日#17髙橋壹晟由JEF加盟，官方身高體重180/81。",
-      "9月9日#94 Erik由町田完全加盟。",
-      "#57入江羚介仍按JFA・J.League特別指定身份管理。"
+      "Current pool 39人。",
+      "7月初名單#23廣瀨陸斗其後轉鹿島；#51瀨口大翔9/14外借FC Košice；#80 Nduka Boniface 9/16外借JEF，均已移除。",
+      "#94 Erik 9/9由町田完全轉會加入。",
+      "舊檔#17髙橋壹晟不在2026/27官方名單，已移除；官方#45相澤David已補入。"
     ],
     "commentary_notes": [
-      "前7輪5勝1和1負、第2，僅失5球。",
-      "井手口陽介66.3km跑動、113次衝刺、16duels won，是中場強度代表。",
-      "Thuler最高速34.3km/h，說明神戶高位防線需要中堅具回追速度。",
-      "夏末連續調整年輕球員外借，同時補入髙橋壹晟與Erik，陣容方向偏即戰力。"
+      "前7輪5勝1和1負、第2，只失5球。",
+      "8/22輸橫濱後取得4連勝，包括9/11 2–1擊敗衛冕冠軍鹿島。",
+      "9/16 ACL Elite作客Port FC 2–1勝，國內與亞洲雙線維持競爭力。",
+      "大迫、Anderson Lopes、武藤、Erik令前場同時有支點、終結、跑動與反擊速度。"
     ],
     "sources": [
       {
         "label": "神戶2026/27官方名單",
-        "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
-        "accessed_at": "2026-09-19"
-      },
-      {
-        "label": "Erik加盟",
-        "url": "https://www.vissel-kobe.co.jp/news/article/26911.html",
+        "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
         "accessed_at": "2026-09-19"
       },
       {
         "label": "J.League神戶",
         "url": "https://www.jleague.jp/club/kobe/",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "Skibbe就任公告",
+        "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
         "accessed_at": "2026-09-19"
       }
     ],
@@ -146,7 +149,7 @@
       "japanese_clubs": "繁中",
       "japanese_schools": "繁中",
       "foreign_clubs_and_leagues": "English",
-      "player_display_names": "TVB優先；新球員官方名。"
+      "player_display_names": "TVB優先；官方新項目用正式名。"
     }
   },
   "manager": {
@@ -159,7 +162,7 @@
     "position": "MANAGER",
     "dob": "1965-08-04",
     "season_start_age": 61,
-    "birthplace": "Germany",
+    "birthplace": "德國北萊茵-西法倫",
     "nationality": "德國",
     "height": null,
     "weight": null,
@@ -169,58 +172,110 @@
     "registration_status": "監督",
     "registration_tags": [],
     "tenure_status": "2026起執教",
-    "license": "",
-    "national_team_detail": "前德國國家隊教練團成員",
-    "intro": "德國資深監督，曾執教Borussia Dortmund、Bayer Leverkusen、Hertha BSC、希臘國家隊等。2022–25在廣島建立高強度三後衛足球，2026接掌神戶並首個短期賽季即贏J1百年構想聯賽。",
+    "license": "UEFA Pro",
+    "national_team_detail": "曾任德國國家隊助教／實質共同教練體制成員",
+    "intro": "德國資深教練，曾執教Borussia Dortmund、Bayer Leverkusen、Eintracht Frankfurt、Hertha BSC、希臘國家隊等。2022–25在廣島建立高壓3-back體系，2026轉投神戶並贏得J1百年構想聯賽。",
     "timeline": [
       {
-        "period": "歐洲／國家隊",
-        "team": "Dortmund／Germany／Leverkusen／Turkey等",
-        "category": "監督／國家隊教練",
-        "milestone": "長期歐洲頂級經驗。"
+        "period": "Germany／Europe",
+        "team": "Borussia Dortmund／Germany NT／Bayer Leverkusen等",
+        "category": "監督／國家隊Staff",
+        "milestone": "Bundesliga及國家隊長期經驗。"
       },
       {
         "period": "2022–2025",
         "team": "廣島三箭",
         "category": "監督",
-        "milestone": "2022 League Cup冠軍；多季維持J1前列。"
+        "milestone": "2022 League Cup冠軍、2025 League Cup冠軍。"
       },
       {
         "period": "2026–",
         "team": "神戶勝利船",
         "category": "監督",
-        "milestone": "首季J1百年構想聯賽冠軍。"
+        "milestone": "2026百年構想聯賽冠軍；2026/27前7輪第2。"
       }
     ],
     "honors": [
-      "2022 J.League Cup冠軍（廣島三箭）",
+      "2022、2025 J.League Cup冠軍（廣島三箭）",
       "2026 J1百年構想聯賽冠軍（神戶勝利船）"
     ],
     "milestones": [
-      "2026接任神戶。",
-      "2026短期百年構想聯賽即奪冠。",
+      "2025-12-14公布2026起接掌神戶。",
+      "2026百年構想聯賽奪冠。",
       "2026/27前7輪5勝1和1負、16分第2。"
     ],
     "tactical_traits": [
-      "高位press與快速transition是核心，前線開始集體壓迫。",
-      "偏好高強度跑動與duel，中場井手口是這種風格最明顯執行者。",
-      "有大迫、Anderson Lopes等不同中鋒profile，可在直接球與地面連接之間切換。"
+      "高位press配合快速直線進攻，強調奪回後第一時間攻擊。",
+      "可延續廣島時期的三後衛／翼衛概念，也能按神戶人才使用四後衛；不拘泥單一陣式。",
+      "大迫支點、Anderson Lopes終結、武藤跑動令前場有多種解法。",
+      "前7輪只失5球，說明壓迫之外後場保護與整體距離同樣成熟。"
     ],
-    "quirky_trivia": "從廣島轉到神戶後第一個短期賽季就奪冠，等於把自己熟悉的J1高強度足球直接移植到一支已連冠的冠軍班底。",
+    "quirky_trivia": "他2025還在廣島，2026就轉投同屬爭冠集團的神戶並立即拿到特別賽冠軍；J1近年少見如此直接的強隊→強隊監督轉會。",
     "career": [
       {
         "season": null,
-        "team": "Borussia Dortmund／Germany／Bayer Leverkusen／Hertha BSC／Turkey clubs",
+        "team": "Schalke 04／Borussia Dortmund Academy",
         "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "監督／Coach",
-        "notes": "歐洲及國家隊長期履歷。",
+        "status": "Youth Coach",
+        "notes": "1980s–1990s青年教練起步。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "神戶2026/27名單及Skibbe監督",
-            "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": null,
+        "team": "Germany NT",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "Assistant Coach",
+        "notes": "2000s國家隊Staff。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": null,
+        "team": "Borussia Dortmund／Bayer Leverkusen／Eintracht Frankfurt／Hertha BSC",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "Bundesliga多隊。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": null,
+        "team": "Greece NT／Eskişehirspor／Grasshopper Club Zürich／Al-Ain FC",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "國家隊及海外多國。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -232,12 +287,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "J.League Cup冠軍。",
+        "notes": "League Cup冠軍。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "神戶2026/27名單及Skibbe監督",
-            "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -253,8 +308,8 @@
         "verification_status": "verified",
         "sources": [
           {
-            "label": "神戶2026/27名單及Skibbe監督",
-            "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -266,12 +321,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "J1第2。",
+        "notes": "J1。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "神戶2026/27名單及Skibbe監督",
-            "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -283,12 +338,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "J1。",
+        "notes": "League Cup冠軍。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "神戶2026/27名單及Skibbe監督",
-            "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -300,12 +355,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "J1百年構想聯賽冠軍。",
+        "notes": "百年構想聯賽冠軍。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "神戶2026/27名單及Skibbe監督",
-            "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -321,8 +376,8 @@
         "verification_status": "verified",
         "sources": [
           {
-            "label": "神戶2026/27名單及Skibbe監督",
-            "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+            "label": "Skibbe就任公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -330,8 +385,13 @@
     ],
     "sources": [
       {
-        "label": "神戶2026/27名單及Skibbe監督",
-        "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+        "label": "Skibbe就任公告",
+        "url": "https://www.vissel-kobe.co.jp/news/article/25890.html",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "神戶2026/27 staff",
+        "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
         "accessed_at": "2026-09-19"
       }
     ],
@@ -363,12 +423,12 @@
           "period": "履歷",
           "team": "關西大學",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -378,17 +438,17 @@
         "1次 J1 聯賽優秀選手賞 (2023)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#1）。"
+        "2026/27列入神戶current squad（#1）。"
       ],
       "tactical_traits": [
-        "禁區控制與門線反應是門將組競爭核心。",
-        "神戶高位壓迫後防線會拉高，門將需主動處理身後球。"
+        "門線反應與後場長短傳選擇是Skibbe體系第一步。",
+        "神戶可高位壓迫，因此門將也需處理防線身後空間。"
       ],
-      "quirky_trivia": "父親前川和也亦是日本代表門將；前川黛也自己已成為神戶連冠年代主力門將。",
+      "quirky_trivia": "日本代表門將，前7輪多場把失球控制在低水平；父親前川和也同為前日本代表門將，是J.League知名父子門將故事。",
       "legacy_id": "jleague_kobe_1",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "前川黛也",
       "birthplace": "",
       "season_start_age": 31,
       "player_image": "",
@@ -400,12 +460,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -418,16 +478,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -440,8 +500,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -480,12 +540,12 @@
           "period": "履歷",
           "team": "鳥棲砂岩",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -494,17 +554,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#2）。"
+        "2026/27列入神戶current squad（#2）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "飯野七聖在本季的辨識點是#2與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_2",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "飯野七聖",
       "birthplace": "",
       "season_start_age": 29,
       "player_image": "",
@@ -516,12 +576,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -534,16 +594,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -556,8 +616,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -596,12 +656,12 @@
           "period": "履歷",
           "team": "Flamengo",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -611,17 +671,17 @@
         "1次 巴甲聯賽冠軍 (2019 [Flamengo])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#3）。"
+        "2026/27列入神戶current squad（#3）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
-      "quirky_trivia": "巴西中堅Thuler是神戶近年冠軍防線核心之一，前7輪最高速34.3km/h，對中堅而言速度非常突出。",
+      "quirky_trivia": "巴西中堅Matheus Thuler是後場對抗核心之一，能以身體處理大型前鋒。",
       "legacy_id": "jleague_kobe_3",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "馬菲奧斯・圖拿",
       "birthplace": "",
       "season_start_age": 27,
       "player_image": "",
@@ -633,12 +693,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -651,16 +711,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "外援球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -673,8 +733,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -713,12 +773,12 @@
           "period": "履歷",
           "team": "筑波大學",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -728,17 +788,17 @@
         "1次 J1 聯賽優秀選手賞 (2023)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#4）。"
+        "2026/27列入神戶current squad（#4）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
       "quirky_trivia": "山川哲史在本季的辨識點是#4與DF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_4",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "山川哲史",
       "birthplace": "",
       "season_start_age": 28,
       "player_image": "",
@@ -750,12 +810,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -768,16 +828,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -790,8 +850,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -830,12 +890,12 @@
           "period": "履歷",
           "team": "仙台維加泰",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -844,17 +904,17 @@
         "1次 高校錦標賽冠軍 (青森山田)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#5）。"
+        "2026/27列入神戶current squad（#5）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
-      "quirky_trivia": "神戶Academy出身、曾離隊到仙台再回巢，Home Grown身份和外部歷練同時存在。",
+      "quirky_trivia": "神戶Academy出身後曾去仙台，再回母會；是Home Grown離隊成長再回巢的典型。",
       "legacy_id": "jleague_kobe_5",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "鄉家友太",
       "birthplace": "",
       "season_start_age": 27,
       "player_image": "",
@@ -866,12 +926,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -884,16 +944,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -906,8 +966,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -946,12 +1006,12 @@
           "period": "履歷",
           "team": "橫濱水手",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -960,17 +1020,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#6）。"
+        "2026/27列入神戶current squad（#6）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "扇原貴宏在本季的辨識點是#6與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_6",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "扇原貴宏",
       "birthplace": "",
       "season_start_age": 34,
       "player_image": "",
@@ -982,12 +1042,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1000,16 +1060,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1022,8 +1082,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1062,12 +1122,12 @@
           "period": "履歷",
           "team": "Celtic",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -1077,18 +1137,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#7）。",
-        "前7輪66.3km跑動、113次衝刺、16次duel won。"
+        "2026/27列入神戶current squad（#7）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
-      "quirky_trivia": "前7輪66.3km跑動、113次衝刺、16次duel won均屬隊內頂級，是Skibbe高強度中場最具體的數據代表。",
+      "quirky_trivia": "日本代表級中場，跑動與press非常符合Skibbe的高強度足球；曾在Europe效力Leeds、Greuther Fürth、Celtic。",
       "legacy_id": "jleague_kobe_7",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "井手口陽介",
       "birthplace": "",
       "season_start_age": 29,
       "player_image": "",
@@ -1100,12 +1159,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1118,16 +1177,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1140,8 +1199,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1180,12 +1239,12 @@
           "period": "履歷",
           "team": "橫濱水手",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -1195,17 +1254,17 @@
         "1次 J1 聯賽冠軍 (2022 [橫濱水手])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#9）。"
+        "2026/27列入神戶current squad（#9）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "連續多年在橫濱水手證明J1得分能力後轉投神戶，與大迫形成兩種不同的中鋒終結方式。",
+      "quirky_trivia": "兩屆J1神射手級得分手由橫濱轉到神戶後，與大迫形成極豪華中鋒組合。",
       "legacy_id": "jleague_kobe_9",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "安達臣・盧比斯",
       "birthplace": "",
       "season_start_age": 32,
       "player_image": "",
@@ -1217,12 +1276,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1235,16 +1294,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "外援球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1257,8 +1316,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1297,12 +1356,12 @@
           "period": "履歷",
           "team": "Werder Bremen",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -1314,17 +1373,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#10）。"
+        "2026/27列入神戶current squad（#10）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "日本代表老牌中鋒，背身、做牆與空中第一點仍是神戶前場結構核心。",
+      "quirky_trivia": "大迫勇也既是支點也是前場組織者；神戶近年連續冠軍文化的重要核心之一。",
       "legacy_id": "jleague_kobe_10",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "大迫勇也",
       "birthplace": "",
       "season_start_age": 36,
       "player_image": "",
@@ -1336,12 +1395,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1354,16 +1413,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1376,8 +1435,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1416,12 +1475,12 @@
           "period": "履歷",
           "team": "Newcastle United",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -1431,17 +1490,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#11）。"
+        "2026/27列入神戶current squad（#11）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "曾效力Mainz 05、Newcastle United等歐洲球會，回日本後以衝刺與禁區跑位延續高強度風格。",
+      "quirky_trivia": "武藤嘉紀在Newcastle United等海外經驗後回J1，現階段最大價值是速度、press與禁區跑位的綜合。",
       "legacy_id": "jleague_kobe_11",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "武藤嘉紀",
       "birthplace": "",
       "season_start_age": 34,
       "player_image": "",
@@ -1453,12 +1512,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1471,16 +1530,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1493,8 +1552,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1533,12 +1592,12 @@
           "period": "履歷",
           "team": "Palmeiras",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -1548,17 +1607,17 @@
         "1次 J1 聯賽優秀選手賞 (2023)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#13）。"
+        "2026/27列入神戶current squad（#13）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
       "quirky_trivia": "佐佐木大樹在本季的辨識點是#13與FW功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_13",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "佐佐木大樹",
       "birthplace": "",
       "season_start_age": 26,
       "player_image": "",
@@ -1570,12 +1629,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1588,16 +1647,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1610,8 +1669,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1650,12 +1709,12 @@
           "period": "履歷",
           "team": "柏太陽王",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -1663,17 +1722,17 @@
         "J1 聯賽單季先發超過 25 場"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#15）。"
+        "2026/27列入神戶current squad（#15）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
       "quirky_trivia": "迪亞高在本季的辨識點是#15與DF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_15",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "迪亞高",
       "birthplace": "",
       "season_start_age": 30,
       "player_image": "",
@@ -1685,12 +1744,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1703,16 +1762,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "外援球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1725,8 +1784,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1765,12 +1824,12 @@
           "period": "履歷",
           "team": "Corinthians",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -1778,17 +1837,17 @@
         "巴甲聯賽登場中後衛"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#16）。"
+        "2026/27列入神戶current squad（#16）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
       "quirky_trivia": "卡坦奴在本季的辨識點是#16與DF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_16",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "卡坦奴",
       "birthplace": "",
       "season_start_age": 27,
       "player_image": "",
@@ -1800,12 +1859,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1818,16 +1877,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "外援球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1840,144 +1899,13 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
           "label": "J.League神戶",
           "url": "https://www.jleague.jp/club/kobe/",
-          "accessed_at": "2026-09-19"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-09-19",
-      "registration_tags": [],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": []
-    },
-    {
-      "id": "kobe_17",
-      "club": "神戶勝利船",
-      "number": "17",
-      "name_zh": "髙橋壹晟",
-      "name_en": "Issei Takahashi",
-      "position": "MF",
-      "dob": "1998-04-20",
-      "age": 28,
-      "height": 180,
-      "weight": 81,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "千葉市原JEF聯",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "日本 U-19 國家代表隊",
-      "intro": "髙橋壹晟是神戶2026/27現役MF，背號17。在Skibbe高強度體系中，主要任務是中場搶壓、第二點與快速向前。",
-      "timeline": [
-        {
-          "period": "履歷",
-          "team": "千葉市原JEF聯",
-          "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
-        },
-        {
-          "period": "2026/27",
-          "team": "神戶勝利船",
-          "category": "J1",
-          "milestone": "資料截至2026-09-19。"
-        }
-      ],
-      "honors": [
-        "1次 高校錦標賽冠軍 (青森山田)"
-      ],
-      "milestones": [
-        "2026/27列入神戶現役名單（#17）。",
-        "2025 J2 Best XI；2026年7月加盟神戶。"
-      ],
-      "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
-      ],
-      "quirky_trivia": "7月28日由JEF加盟；官方資料修正為180cm／81kg。2025 J2 Best XI，加盟後前6輪已迅速取得主力分鐘。",
-      "legacy_id": "jleague_kobe_17",
-      "official_player_id": null,
-      "team_slug": "kobe",
-      "name_ja": "髙橋 壱晟",
-      "birthplace": "青森縣",
-      "season_start_age": 28,
-      "player_image": "",
-      "career": [
-        {
-          "season": null,
-          "team": "千葉市原JEF聯",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League神戶",
-              "url": "https://www.jleague.jp/club/kobe/",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "髙橋壹晟神戶profile",
-              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail&source=visselapp",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        },
-        {
-          "season": "2026/27",
-          "team": "神戶勝利船",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "現役",
-          "notes": "資料截至2026-09-19。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League神戶",
-              "url": "https://www.jleague.jp/club/kobe/",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "髙橋壹晟神戶profile",
-              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail&source=visselapp",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League神戶",
-          "url": "https://www.jleague.jp/club/kobe/",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "髙橋壹晟神戶profile",
-          "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail&source=visselapp",
           "accessed_at": "2026-09-19"
         }
       ],
@@ -2011,12 +1939,12 @@
           "period": "履歷",
           "team": "東京綠城",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2025,17 +1953,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#18）。"
+        "2026/27列入神戶current squad（#18）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "井出遙也在本季的辨識點是#18與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_18",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "井出遙也",
       "birthplace": "",
       "season_start_age": 32,
       "player_image": "",
@@ -2047,12 +1975,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2065,16 +1993,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2087,8 +2015,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2127,12 +2055,12 @@
           "period": "履歷",
           "team": "橫濱水手",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2141,17 +2069,17 @@
         "1次 J1 聯賽優秀選手賞 (2023)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#20）。"
+        "2026/27列入神戶current squad（#20）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "由橫濱水手加盟的165cm技術型中場，小空間轉身與一腳出球可為神戶高強度足球增加細膩度。",
       "legacy_id": "jleague_kobe_20",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "渡邊皓太",
       "birthplace": "",
       "season_start_age": 27,
       "player_image": "",
@@ -2163,12 +2091,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2181,16 +2109,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2203,8 +2131,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2243,12 +2171,12 @@
           "period": "履歷",
           "team": "千葉市原",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2258,17 +2186,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#21）。"
+        "2026/27列入神戶current squad（#21）。"
       ],
       "tactical_traits": [
-        "禁區控制與門線反應是門將組競爭核心。",
-        "神戶高位壓迫後防線會拉高，門將需主動處理身後球。"
+        "門線反應與後場長短傳選擇是Skibbe體系第一步。",
+        "神戶可高位壓迫，因此門將也需處理防線身後空間。"
       ],
       "quirky_trivia": "新井章太在本季的辨識點是#21與GK功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_21",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "新井章太",
       "birthplace": "",
       "season_start_age": 37,
       "player_image": "",
@@ -2280,12 +2208,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2298,16 +2226,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2320,8 +2248,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2360,12 +2288,12 @@
           "period": "履歷",
           "team": "Hamburger SV",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2375,17 +2303,17 @@
         "2次 J1 最佳陣容 / Best XI (2021, 2023)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#24）。"
+        "2026/27列入神戶current squad（#24）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
-      "quirky_trivia": "德國長期旅歐、日本代表背景兼具；2026百年構想聯賽決賽圈擔任game captain，是更衣室領袖。",
+      "quirky_trivia": "酒井高德是2026百年構想聯賽game captain；Germany長期經驗和球隊領袖身份都非常明確。",
       "legacy_id": "jleague_kobe_24",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "酒井高德",
       "birthplace": "",
       "season_start_age": 35,
       "player_image": "",
@@ -2397,12 +2325,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2415,16 +2343,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2437,8 +2365,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2477,12 +2405,12 @@
           "period": "履歷",
           "team": "長崎成功丸",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2490,17 +2418,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#25）。"
+        "2026/27列入神戶current squad（#25）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "鍬先祐彌在本季的辨識點是#25與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_25",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "鍬先祐彌",
       "birthplace": "",
       "season_start_age": 28,
       "player_image": "",
@@ -2512,12 +2440,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2530,16 +2458,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2552,8 +2480,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2592,12 +2520,12 @@
           "period": "履歷",
           "team": "大阪櫻花",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2606,17 +2534,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#26）。"
+        "2026/27列入神戶current squad（#26）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
       "quirky_trivia": "巴西速度型前鋒，替補登場時可用爆發力把比賽節奏突然拉快。",
       "legacy_id": "jleague_kobe_26",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "真・柏德歷",
       "birthplace": "",
       "season_start_age": 29,
       "player_image": "",
@@ -2628,12 +2556,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2646,16 +2574,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "外援球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2668,8 +2596,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2708,12 +2636,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2721,17 +2649,17 @@
         "日本 U-17 國青隊代表"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#28）。"
+        "2026/27列入神戶current squad（#28）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
-      "quirky_trivia": "2007年出生的自家Youth中場，正式升上一隊後直接置身冠軍班底，成人級press決策是主要成長課題。",
+      "quirky_trivia": "2007年出生Academy中場，正式進入Top Team；與老將扇原、井手口等同訓本身就是成長資源。",
       "legacy_id": "jleague_kobe_28",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "濱崎健斗",
       "birthplace": "",
       "season_start_age": 19,
       "player_image": "",
@@ -2743,12 +2671,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2761,16 +2689,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2783,8 +2711,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2823,12 +2751,12 @@
           "period": "履歷",
           "team": "讚岐卡馬達馬尼",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2836,17 +2764,17 @@
         "1次 J3 聯賽神射手金靴賞 (2023 - 24球)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#29）。"
+        "2026/27列入神戶current squad（#29）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
       "quirky_trivia": "小松蓮在本季的辨識點是#29與FW功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_29",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "小松蓮",
       "birthplace": "",
       "season_start_age": 27,
       "player_image": "",
@@ -2858,12 +2786,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2876,16 +2804,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2898,8 +2826,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2938,12 +2866,12 @@
           "period": "履歷",
           "team": "浦和紅鑽",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -2952,17 +2880,17 @@
         "2次 天皇盃冠軍 (2021 [浦和], 2024 [神戶])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#31）。"
+        "2026/27列入神戶current squad（#31）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
       "quirky_trivia": "岩波拓也在本季的辨識點是#31與DF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_31",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "岩波拓也",
       "birthplace": "",
       "season_start_age": 32,
       "player_image": "",
@@ -2974,12 +2902,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2992,16 +2920,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3014,8 +2942,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3054,12 +2982,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3067,17 +2995,17 @@
         "神戶青訓一線隊升格"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#32）。"
+        "2026/27列入神戶current squad（#32）。"
       ],
       "tactical_traits": [
-        "禁區控制與門線反應是門將組競爭核心。",
-        "神戶高位壓迫後防線會拉高，門將需主動處理身後球。"
+        "門線反應與後場長短傳選擇是Skibbe體系第一步。",
+        "神戶可高位壓迫，因此門將也需處理防線身後空間。"
       ],
-      "quirky_trivia": "2007年出生門將、189cm；名字與背景很國際化，但實際是神戶Youth培養的Home Grown門將。",
+      "quirky_trivia": "189cm青年門將，名字與外貌背景非常有辨識度；神戶Academy自家培養。",
       "legacy_id": "jleague_kobe_32",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "烏邦・李察・文迪",
       "birthplace": "",
       "season_start_age": 19,
       "player_image": "",
@@ -3089,12 +3017,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3107,16 +3035,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3129,8 +3057,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3169,12 +3097,12 @@
           "period": "履歷",
           "team": "東京綠城",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3182,17 +3110,17 @@
         "J2 歷史最年輕出場球員之一 (15歲10個月)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#33）。"
+        "2026/27列入神戶current squad（#33）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "橋本陸斗在本季的辨識點是#33與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_33",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "橋本陸斗",
       "birthplace": "",
       "season_start_age": 21,
       "player_image": "",
@@ -3204,12 +3132,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3222,16 +3150,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3244,8 +3172,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3284,12 +3212,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3297,17 +3225,17 @@
         "1次 J1 聯賽冠軍 (2023 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#35）。"
+        "2026/27列入神戶current squad（#35）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "富永虹七在本季的辨識點是#35與FW功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
+      "quirky_trivia": "Academy出身前鋒，仍在U-23年齡層；神戶前線老將密集，爭取分鐘尤其困難。",
       "legacy_id": "jleague_kobe_35",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "富永虹七",
       "birthplace": "",
       "season_start_age": 22,
       "player_image": "",
@@ -3319,12 +3247,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3337,16 +3265,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3359,8 +3287,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3399,12 +3327,12 @@
           "period": "履歷",
           "team": "東福岡高中",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3412,17 +3340,17 @@
         "高校錦標賽優秀選手 (東福岡)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#38）。"
+        "2026/27列入神戶current squad（#38）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "浦十藏在本季的辨識點是#38與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_38",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "浦十藏",
       "birthplace": "",
       "season_start_age": 22,
       "player_image": "",
@@ -3434,12 +3362,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3452,16 +3380,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3474,8 +3402,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3514,12 +3442,12 @@
           "period": "履歷",
           "team": "筑波大學",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3527,17 +3455,17 @@
         "全日本大學錦標賽優秀門將"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#39）。"
+        "2026/27列入神戶current squad（#39）。"
       ],
       "tactical_traits": [
-        "禁區控制與門線反應是門將組競爭核心。",
-        "神戶高位壓迫後防線會拉高，門將需主動處理身後球。"
+        "門線反應與後場長短傳選擇是Skibbe體系第一步。",
+        "神戶可高位壓迫，因此門將也需處理防線身後空間。"
       ],
       "quirky_trivia": "高山汐生在本季的辨識點是#39與GK功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_39",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "高山汐生",
       "birthplace": "",
       "season_start_age": 25,
       "player_image": "",
@@ -3549,12 +3477,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3567,16 +3495,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3589,8 +3517,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3629,12 +3557,12 @@
           "period": "履歷",
           "team": "橫濱水手",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3644,17 +3572,17 @@
         "1次 J1 聯賽冠軍 (2022 [橫濱水手])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#41）。"
+        "2026/27列入神戶current squad（#41）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
       "quirky_trivia": "永戶勝也在本季的辨識點是#41與DF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_41",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "永戶勝也",
       "birthplace": "",
       "season_start_age": 31,
       "player_image": "",
@@ -3666,12 +3594,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3684,16 +3612,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3706,8 +3634,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3746,12 +3674,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3759,17 +3687,17 @@
         "1次 天皇盃冠軍 (2024 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#42）。"
+        "2026/27列入神戶current squad（#42）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
-      "quirky_trivia": "神戶Youth出身後衛，182cm。青訓路線完整，正在由Youth身體對抗轉成J1判斷速度。",
+      "quirky_trivia": "本間Justin是神戶Academy後衛，182cm，已正式進Top Team而非單純二種登錄。",
       "legacy_id": "jleague_kobe_42",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "本間積斯甸",
       "birthplace": "",
       "season_start_age": 20,
       "player_image": "",
@@ -3781,12 +3709,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3799,16 +3727,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3821,8 +3749,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3861,12 +3789,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3874,17 +3802,17 @@
         "神戶青訓一線隊升格"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#43）。"
+        "2026/27列入神戶current squad（#43）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
-      "quirky_trivia": "山田海斗在本季的辨識點是#43與DF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
+      "quirky_trivia": "2006年出生Academy中堅，184cm；代表神戶近年把U-18直接拉進一隊深度。",
       "legacy_id": "jleague_kobe_43",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "山田海斗",
       "birthplace": "",
       "season_start_age": 19,
       "player_image": "",
@@ -3896,12 +3824,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3914,16 +3842,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -3936,8 +3864,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -3976,12 +3904,12 @@
           "period": "履歷",
           "team": "相生學院高中",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -3989,17 +3917,17 @@
         "1次 J1 聯賽冠軍 (2023 [神戶勝利船])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#44）。"
+        "2026/27列入神戶current squad（#44）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
       "quirky_trivia": "日高光輝在本季的辨識點是#44與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
       "legacy_id": "jleague_kobe_44",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "日高光輝",
       "birthplace": "",
       "season_start_age": 23,
       "player_image": "",
@@ -4011,12 +3939,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4029,16 +3957,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4051,8 +3979,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4065,6 +3993,113 @@
       "verified_at": "2026-09-19",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
+    },
+    {
+      "name_zh": "相澤David",
+      "name_ja": "相澤 デイビッド",
+      "name_en": "David Aizawa",
+      "position": "FW",
+      "dob": "2006-02-15",
+      "height": 190,
+      "weight": 82,
+      "birthplace": "",
+      "prev_club": "神戶勝利船U-18",
+      "registration_status": "本國球員／U-21",
+      "registration_tags": [
+        "Home Grown",
+        "U-21"
+      ],
+      "intro": "190cm的神戶Academy大型前鋒，2026/27正式進入Top Team。高空支點與禁區存在感是最直接武器。",
+      "quirky_trivia": "官方7月名單有他、舊SkyBook卻漏掉；190cm體格讓他成為大迫勇也之外另一種中鋒profile。",
+      "id": "kobe_45",
+      "club": "神戶勝利船",
+      "team_slug": "kobe",
+      "number": "45",
+      "season_start_age": 20,
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "sources": [
+        {
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League神戶",
+          "url": "https://www.jleague.jp/club/kobe/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "name_source": "TVB主資料庫未覆蓋舊檔漏項；使用官方日本註冊名。",
+      "tactical_traits": [
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
+      ],
+      "milestones": [
+        "2026/27列入神戶current squad（#45）。"
+      ],
+      "career": [
+        {
+          "season": null,
+          "team": "神戶勝利船U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League神戶",
+              "url": "https://www.jleague.jp/club/kobe/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "神戶勝利船",
+          "competition": "J1／ACL Elite",
+          "appearances": null,
+          "goals": null,
+          "status": "本國球員／U-21",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League神戶",
+              "url": "https://www.jleague.jp/club/kobe/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "period": "履歷",
+          "team": "神戶勝利船U-18",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
+        },
+        {
+          "period": "2026/27",
+          "team": "神戶勝利船",
+          "category": "J1／ACL Elite",
+          "milestone": "資料截至2026-09-19。"
+        }
+      ],
+      "honors": [],
       "season_stats": []
     },
     {
@@ -4091,12 +4126,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -4104,17 +4139,17 @@
         "神戶青訓升格"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#46）。"
+        "2026/27列入神戶current squad（#46）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "2007年出生的神戶Youth前鋒，前場press與跑身後是爭取成人分鐘最直接的途徑。",
+      "quirky_trivia": "2007年出生Academy前鋒，與相澤David、渡邊隼斗形成一批同世代前場人才。",
       "legacy_id": "jleague_kobe_46",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "伊藤湊太",
       "birthplace": "",
       "season_start_age": 19,
       "player_image": "",
@@ -4126,12 +4161,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4144,16 +4179,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4166,8 +4201,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4206,12 +4241,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -4219,17 +4254,17 @@
         "高円宮盃 U-18 優秀選手"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#53）。"
+        "2026/27列入神戶current squad（#53）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "渡邊隼斗在本季的辨識點是#53與FW功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
+      "quirky_trivia": "2007年出生Academy前鋒，正式列入一隊名單；目標是在大迫、武藤等名將身旁學習成人跑位。",
       "legacy_id": "jleague_kobe_53",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "渡邊隼斗",
       "birthplace": "",
       "season_start_age": 18,
       "player_image": "",
@@ -4241,12 +4276,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4259,16 +4294,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "2種登錄 (青年球員)",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4281,8 +4316,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4321,12 +4356,12 @@
           "period": "履歷",
           "team": "流通經濟大學附屬柏高中",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -4334,17 +4369,17 @@
         "高校錦標賽優秀選手"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#55）。"
+        "2026/27列入神戶current squad（#55）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "宮原勇太在本季的辨識點是#55與FW功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
+      "quirky_trivia": "流通經濟大學附屬柏高中出身，非神戶Academy直升；年輕前鋒路線與同齡Home Grown不同。",
       "legacy_id": "jleague_kobe_55",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "宮原勇太",
       "birthplace": "",
       "season_start_age": 20,
       "player_image": "",
@@ -4356,12 +4391,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4374,16 +4409,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "U-21 青年球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4396,8 +4431,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4436,12 +4471,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -4449,17 +4484,17 @@
         "日本 U-18 國青隊代表"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#57）。"
+        "2026/27列入神戶current squad（#57）。"
       ],
       "tactical_traits": [
-        "高位防線要求後衛主動前頂，同時有能力處理身後大空間。",
-        "奪球後第一傳要迅速連接中場，避免壓迫後又立即失去球權。"
+        "防線需要主動前頂支援高壓，失去第一點後要立即回收。",
+        "有球時快速找到中場或邊路，不讓對手重新落位。"
       ],
-      "quirky_trivia": "仍屬大學生／JFA・J.League特別指定身份，不應誤列為一般正式職業新人。",
+      "quirky_trivia": "JFA・J.League特別指定身份，並非普通正式一隊合約；必須與Academy正式升格球員區分。",
       "legacy_id": "jleague_kobe_57",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "入江羚介",
       "birthplace": "",
       "season_start_age": 19,
       "player_image": "",
@@ -4471,12 +4506,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4489,16 +4524,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "特別指定",
+          "status": "JFA・J.League特別指定選手",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4511,8 +4546,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4554,12 +4589,12 @@
           "period": "履歷",
           "team": "神戶勝利船 Youth",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -4567,17 +4602,17 @@
         "神戶梯隊優秀中場"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#58）。"
+        "2026/27列入神戶current squad（#58）。"
       ],
       "tactical_traits": [
-        "中場需要同時負責press、第二點與縱向推進。",
-        "Skibbe體系節奏快，接球前判斷與一腳向前非常重要。"
+        "中場核心是高強度逼搶、第二點與快速向前。",
+        "Skibbe容許中場輪換位置，無球跑動和縱向支援非常重要。"
       ],
-      "quirky_trivia": "大西湊太在本季的辨識點是#58與MF功能；神戶前7輪平均每場約130次衝刺，無球強度是評估他表現的重要角度。",
+      "quirky_trivia": "2008年出生Academy中場，仍屬極年輕年齡層卻已進入Top Team環境。",
       "legacy_id": "jleague_kobe_58",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "大西湊太",
       "birthplace": "",
       "season_start_age": 18,
       "player_image": "",
@@ -4589,12 +4624,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4607,16 +4642,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "2種登錄 (青年球員)",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4629,8 +4664,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4669,12 +4704,12 @@
           "period": "履歷",
           "team": "清水心跳",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -4684,17 +4719,17 @@
         "1次 J1 聯賽優秀選手賞 (2021)"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#71）。"
+        "2026/27列入神戶current squad（#71）。"
       ],
       "tactical_traits": [
-        "禁區控制與門線反應是門將組競爭核心。",
-        "神戶高位壓迫後防線會拉高，門將需主動處理身後球。"
+        "門線反應與後場長短傳選擇是Skibbe體系第一步。",
+        "神戶可高位壓迫，因此門將也需處理防線身後空間。"
       ],
-      "quirky_trivia": "日本代表World Cup門將，加入後把國際賽與長期J1經驗帶入門將組。",
+      "quirky_trivia": "日本代表World Cup門將權田修一，2026加入後讓門將組同時擁有前川黛也；經驗密度非常高。",
       "legacy_id": "jleague_kobe_71",
       "official_player_id": null,
       "team_slug": "kobe",
-      "name_ja": "",
+      "name_ja": "權田修一",
       "birthplace": "",
       "season_start_age": 37,
       "player_image": "",
@@ -4706,12 +4741,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4724,16 +4759,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "本國球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4746,8 +4781,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4777,21 +4812,21 @@
       "nationality": "巴西",
       "joined": 2026,
       "prev_club": "町田澤維亞",
-      "registration_status": "外援球員",
+      "registration_status": "外籍球員",
       "tenure_status": "加盟第1季",
       "national_team_detail": "巴西 U-23 國家代表隊",
-      "intro": "艾歷斯是神戶2026/27現役FW，背號94。在Skibbe高強度體系中，主要任務是前場壓迫、跑身後與禁區終結。",
+      "intro": "9月9日由町田完全轉會回到神戶的巴西前鋒。2025曾以借將身份效力神戶，因此不是完全陌生的新援。",
       "timeline": [
         {
           "period": "履歷",
           "team": "町田澤維亞",
           "category": "育成／職業履歷",
-          "milestone": "主要前度球會；逐季數字未可靠核對者不推算。"
+          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
         },
         {
           "period": "2026/27",
           "team": "神戶勝利船",
-          "category": "J1",
+          "category": "J1／ACL Elite",
           "milestone": "資料截至2026-09-19。"
         }
       ],
@@ -4800,14 +4835,13 @@
         "1次 J2 聯賽冠軍 (2023 [町田澤維亞])"
       ],
       "milestones": [
-        "2026/27列入神戶現役名單（#94）。",
-        "2026-09-09由町田完全轉會神戶。"
+        "2026/27列入神戶current squad（#94）。"
       ],
       "tactical_traits": [
-        "第一線press是前鋒的戰術責任之一。",
-        "奪回球權後要立即跑入禁區／身後，把高位搶回轉成射門。"
+        "前場除了終結，也要做第一線逼搶與縱深跑動。",
+        "大迫等支點與高速翼鋒／第二前鋒形成不同進攻層次。"
       ],
-      "quirky_trivia": "9月9日由町田完全加盟。2019曾隨橫濱水手奪J1、2023隨町田奪J2；這次是第二度效力神戶（2025曾借用）。",
+      "quirky_trivia": "2025借效神戶、2026回町田，再於9月9日被神戶完全買斷；真正的季中回歸。",
       "legacy_id": "jleague_kobe_94",
       "official_player_id": null,
       "team_slug": "kobe",
@@ -4823,12 +4857,12 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度球會；逐季數字未可靠核對者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4837,7 +4871,7 @@
               "accessed_at": "2026-09-19"
             },
             {
-              "label": "Erik加盟公告",
+              "label": "Erik完全轉會加入",
               "url": "https://www.vissel-kobe.co.jp/news/article/26911.html",
               "accessed_at": "2026-09-19"
             }
@@ -4846,16 +4880,16 @@
         {
           "season": "2026/27",
           "team": "神戶勝利船",
-          "competition": "J1",
+          "competition": "J1／ACL Elite",
           "appearances": null,
           "goals": null,
-          "status": "現役",
+          "status": "外籍球員",
           "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶2026/27名單",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+              "label": "神戶2026/27官方名單",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
               "accessed_at": "2026-09-19"
             },
             {
@@ -4864,7 +4898,7 @@
               "accessed_at": "2026-09-19"
             },
             {
-              "label": "Erik加盟公告",
+              "label": "Erik完全轉會加入",
               "url": "https://www.vissel-kobe.co.jp/news/article/26911.html",
               "accessed_at": "2026-09-19"
             }
@@ -4873,8 +4907,8 @@
       ],
       "sources": [
         {
-          "label": "神戶2026/27名單",
-          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html?source=visselapp",
+          "label": "神戶2026/27官方名單",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
           "accessed_at": "2026-09-19"
         },
         {
@@ -4883,7 +4917,7 @@
           "accessed_at": "2026-09-19"
         },
         {
-          "label": "Erik加盟公告",
+          "label": "Erik完全轉會加入",
           "url": "https://www.vissel-kobe.co.jp/news/article/26911.html",
           "accessed_at": "2026-09-19"
         }
