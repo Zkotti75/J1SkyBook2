@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T11:45:00+09:00",
+  "generated_at": "2026-09-19T11:15:00+09:00",
   "team": {
     "id": "team_tokyo-verdy",
     "type": "team_info",
@@ -21,11 +21,11 @@
     "roster_as_of": "2026-09-19",
     "data_status": "verified",
     "established": 1969,
-    "roots": "前身讀賣足球俱樂部，1993以Verdy Kawasaki成為J.League Original 10；2001移至東京並成為Tokyo Verdy。",
+    "roots": "1969讀賣足球俱樂部成立，以日本首支真正職業化club team為目標；1993以Verdy Kawasaki成為Original 10，2001主場移至東京。",
     "corporation": "東京ヴェルディ株式会社",
     "club_color": "Green",
-    "hometown": "東京都",
-    "name_history": "Verdy取自葡萄牙語／相關語源中『綠』的意象，球會傳統色亦為綠色。",
+    "hometown": "東京",
+    "name_history": "Verdy源自葡萄牙語／西班牙語系『綠』的意象，延續讀賣時代代表色；2001由川崎移到東京。",
     "stadium_info": {
       "name": "Ajinomoto Stadium",
       "name_zh": "味之素體育場",
@@ -33,51 +33,52 @@
       "jleague_match_capacity": 47851,
       "address": "東京都調布市西町376-3",
       "interesting_facts": [
-        "與FC東京共用主場，形成Tokyo Derby。",
-        "J.League現行容量47,851。"
+        "與FC東京共用主場，是東京打吡核心場地。",
+        "球會歷史遠早於J.League，本身由1969讀賣SC延伸。"
       ]
     },
-    "team_history": "日本職業足球初期最具象徵性的豪門之一，1993、1994連奪J1，1992–94連贏三屆League Cup。後來長期陷入J2，直到2023升班附加賽成功、2024相隔16年重返J1。",
+    "team_history": "日本職業足球先驅。1993、1994成為J.League最初兩屆總冠軍，1992–94 League Cup三連霸；其後財務與競技低潮，2008降J2後長達15年未返J1。2023城福浩帶隊升班，2024回J1首季即第6。",
     "history_timeline": [
       {
         "year": "1969",
-        "event": "讀賣足球俱樂部成立。"
+        "event": "讀賣SC成立。"
       },
       {
         "year": "1993",
-        "event": "Original 10；首屆J1冠軍。"
+        "event": "Original 10、首屆JLeague總冠軍。"
       },
       {
         "year": "1994",
-        "event": "J1連霸。"
+        "event": "JLeague連霸。"
       },
       {
         "year": "2001",
-        "event": "基地移至東京。"
+        "event": "主場移至東京。"
       },
       {
-        "year": "2004",
-        "event": "天皇盃冠軍。"
+        "year": "2008",
+        "event": "降J2。"
       },
       {
         "year": "2023",
-        "event": "升班附加賽成功。"
+        "event": "相隔16年再升J1。"
       },
       {
         "year": "2024",
-        "event": "相隔16年回J1。"
+        "event": "回J1首季第6。"
       }
     ],
     "performance_history": [
-      "J1冠軍：1993、1994",
+      "JLeague冠軍：1993、1994",
       "J.League Cup：1992、1993、1994",
-      "天皇盃：1996、2004"
+      "天皇盃：1996、2004（職業化後）",
+      "Asian Club Championship前身冠軍：1987/88（讀賣SC）"
     ],
     "recent_seasons": [
       {
         "season": "2023",
         "competition": "J2",
-        "finish": "第3／升班成功"
+        "finish": "升班附加賽成功"
       },
       {
         "season": "2024",
@@ -85,9 +86,19 @@
         "finish": "第6"
       },
       {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "留級"
+      },
+      {
+        "season": "2026",
+        "competition": "J1百年構想聯賽",
+        "finish": "第10"
+      },
+      {
         "season": "2026/27",
         "competition": "J1",
-        "finish": "第19（0勝4和3負；截至9/13）"
+        "finish": "第19（1勝1和5負；截至9/13）"
       }
     ],
     "current_season": {
@@ -95,40 +106,41 @@
       "competition": "J1",
       "manager": "城福浩",
       "matches": 7,
-      "wins": 0,
-      "draws": 4,
-      "losses": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 5,
       "points": 4,
-      "goals_for": 3,
-      "goals_against": 9,
+      "goals_for": null,
+      "goals_against": null,
       "goal_difference": -6,
       "rank": 19,
       "as_of": "2026-09-13"
     },
     "leadership": {
       "captain": "森田晃樹",
-      "note": "Academy出身中場核心；其餘領袖不在未核對下推定。"
+      "note": "Academy出身中場為球隊長期領袖核心；本檔不擴大推定副隊長名單。"
     },
     "roster_notes": [
-      "Current numbered pool 37人：原Top Team 35＋9月加入#33一美和成＋#71平尾勇人特別指定。",
-      "#71平尾仍屬日本大學、2027正式加入內定，但今季特別指定可出場，9/13對JEF已正選。",
-      "無背號的多久島良紀為未來加入內定，未建立current shirt-number card。"
+      "Current numbered pool 36人。",
+      "#71平尾勇人屬2027年加入內定、日本大在籍，未列current squad；無背號多久島良紀亦為2027內定。",
+      "#33一美和成9/10由岡山完全加盟。",
+      "#2柴戶海已列官方current team。"
     ],
     "commentary_notes": [
-      "前7輪0勝4和3負、只入3球，但已有2場clean sheet；問題集中在終結。",
-      "林尚輝2球反而是隊內首席射手。",
-      "平川怜71.7km跑動、15duels won雙第一；染野97次衝刺；新井悠太最高速34.3km/h。",
-      "9月補一美和成，目的非常直接：增加禁區支點、post play與入球。"
+      "前7輪1勝1和5負、第19，城福體系面對最大問題是高強度足球未轉化成足夠得分。",
+      "森田晃樹是2026百年構想聯賽J1 EAST Best XI，仍是中場技術＋守備核心。",
+      "一美和成季中加入，直接增加182cm／81kg的前場力量。",
+      "Academy現役包括森田、仲山、白井、山本、川村、今井等，青訓比重仍非常高。"
     ],
     "sources": [
       {
-        "label": "東京綠茵2026/27官方名單",
+        "label": "東京綠茵官方team",
         "url": "https://www.verdy.co.jp/content/team/",
         "accessed_at": "2026-09-19"
       },
       {
-        "label": "一美和成加入",
-        "url": "https://verdy.co.jp/news/15209",
+        "label": "球會歷史",
+        "url": "https://www.verdy.co.jp/content/clubstadium/history/",
         "accessed_at": "2026-09-19"
       },
       {
@@ -142,11 +154,11 @@
       "japanese_clubs": "繁中",
       "japanese_schools": "繁中",
       "foreign_clubs_and_leagues": "English",
-      "player_display_names": "TVB優先；最新新增按官方。"
+      "player_display_names": "TVB優先；季中轉會沿用既有TVB名或官方日本名。"
     }
   },
   "manager": {
-    "id": "tokyov_mgr_jofuku",
+    "id": "verdy_mgr_jofuku",
     "club": "東京綠茵",
     "number": "HC",
     "name_zh": "城福浩",
@@ -164,52 +176,52 @@
     "prev_club": "廣島三箭",
     "registration_status": "監督",
     "registration_tags": [],
-    "tenure_status": "2022-06起執教",
+    "tenure_status": "2022起執教",
     "license": "JFA S級",
     "national_team_detail": "",
-    "intro": "日本資深監督，曾兩度執教FC東京、帶過甲府與廣島；2022季中接掌東京綠茵，2023透過附加賽把球會帶回J1。足球理念長期強調『moving football』、人球流動與全隊高工作量。",
+    "intro": "日本資深監督，曾執教FC東京、甲府、廣島及日本U-17代表。2022接掌Verdy，2023完成相隔16年的J1升班，其後持續以高強度、育成球員與組織防守維持頂級聯賽競爭。",
     "timeline": [
       {
-        "period": "2008–2021",
+        "period": "FC東京／甲府／廣島",
         "team": "FC東京／甲府風林／廣島三箭",
         "category": "監督",
-        "milestone": "長期J1執教。"
+        "milestone": "多隊J1長期執教。"
       },
       {
         "period": "2022–",
         "team": "東京綠茵",
         "category": "監督",
-        "milestone": "2023升J1，重建傳統球會。"
+        "milestone": "2023升J1，之後連續留在頂級聯賽。"
       }
     ],
     "honors": [
-      "2023 J1升班附加賽成功（東京綠茵）"
+      "2009 J.League Cup冠軍（FC東京）"
     ],
     "milestones": [
-      "2022-06季中就任。",
-      "2023帶隊相隔16年重返J1。",
-      "2026/27前7輪0勝4和3負、第19。"
+      "2023帶Verdy經升班附加賽回到J1。",
+      "2024升班首季J1第6。",
+      "2026/27前7輪1勝1和5負、第19。"
     ],
     "tactical_traits": [
-      "以『moving football』概念讓人與球不斷流動，不把進攻鎖死在固定站位。",
-      "前場與中場集體press，跑動量高；前7輪每場平均116km、127次衝刺。",
-      "今季最大問題是終結：前7輪只入3球，故9月補入一美和成增加禁區支點。"
+      "基本結構常見3-4-2-1；強調人對人壓迫、全隊前移與攻守距離。",
+      "非常重視『成長』與年輕球員承擔責任，Academy產品不只是名單填充。",
+      "本季主要課題是把高強度逼搶轉化成入球：前7輪4分、得失差-6。"
     ],
-    "quirky_trivia": "他2012甲府、2018廣島等不同時期都帶過資源條件不同的球隊；在Verdy最具代表性的成就是把昔日豪門由J2真正帶回J1並站穩。",
+    "quirky_trivia": "城福接手時球會仍在J2；不到兩年便把Verdy帶回J1，而且2024升班首季曾衝到第6，這段重建是他執教生涯最具代表性的長周期工作之一。",
     "career": [
       {
         "season": null,
-        "team": "FC東京育成／日本年代別代表",
+        "team": "Japan U-17",
         "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "Coach／監督",
-        "notes": "1990年代末至2007。",
+        "status": "監督",
+        "notes": "年代別國家隊。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -221,12 +233,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "2008–10及2016兩段任期。",
+        "notes": "首段及後續多季執教。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -238,12 +250,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "2012–14。",
+        "notes": "J.League。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -255,12 +267,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "2018–21。",
+        "notes": "J1。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -272,12 +284,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "6月就任。",
+        "notes": "J2。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -289,12 +301,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "升班附加賽成功。",
+        "notes": "升班。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -306,12 +318,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "J1。",
+        "notes": "J1第6。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -327,8 +339,8 @@
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -344,8 +356,8 @@
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -361,8 +373,8 @@
         "verification_status": "verified",
         "sources": [
           {
-            "label": "城福浩官方profile",
-            "url": "https://www.verdy.co.jp/staff/53",
+            "label": "城福浩契約更新",
+            "url": "https://www.verdy.co.jp/news/14567",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -370,8 +382,13 @@
     ],
     "sources": [
       {
-        "label": "城福浩官方profile",
-        "url": "https://www.verdy.co.jp/staff/53",
+        "label": "城福浩契約更新",
+        "url": "https://www.verdy.co.jp/news/14567",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "2026/27官方team",
+        "url": "https://www.verdy.co.jp/content/team/",
         "accessed_at": "2026-09-19"
       }
     ],
@@ -380,13 +397,13 @@
   },
   "players": [
     {
-      "id": "tokyov_1",
+      "id": "tokyo-verdy_1",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "1",
       "name_zh": "馬菲奧斯",
       "name_ja": "マテウス",
-      "name_en": "Matheus",
+      "name_en": "Matheus Vidotto",
       "position": "GK",
       "dob": "1993-04-10",
       "season_start_age": 33,
@@ -401,30 +418,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "馬菲奧斯是東京綠茵2026/27現役GK，背號1。城福浩體系重視流動、跑動與集體press，他的主要任務是門線穩定與後場發動。",
+      "intro": "馬菲奧斯是東京綠茵2026/27現役GK，背號1。在城福浩的高強度3-back／可變體系中，主要任務是門線及高位防線身後保護。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "Figueirense FC",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#1）。"
+        "2026/27列入東京綠茵current squad（#1）。"
       ],
       "tactical_traits": [
-        "守門之外需處理高位防線身後及快速發動。",
-        "城福球隊控球不高，門將需承受較多轉換及第二波攻擊。"
+        "門將需在三後衛身後處理長球並參與短傳build-up。",
+        "城福要求整體前移，門將站位與第一腳選擇很重要。"
       ],
-      "quirky_trivia": "190cm巴西門將，長年效力東京綠茵；球會在低控球、被射門壓力較高時尤其依賴他的禁區控制。",
+      "quirky_trivia": "Brazil出身門將，自2020起長期效力Verdy，是升班前後少數一直留隊的外援核心。",
       "career": [
         {
           "season": null,
@@ -433,7 +444,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -484,12 +495,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_2",
+      "id": "tokyo-verdy_2",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "2",
@@ -510,30 +521,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "柴戶海是東京綠茵2026/27現役MF，背號2。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "柴戶海是東京綠茵2026/27現役MF，背號2。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "浦和紅鑽",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#2）。"
+        "2026/27列入東京綠茵current squad（#2）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "柴戶海的直播辨識點是#2與MF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "9月前已進current roster的浦和出身中場，強項是球權回收與中場壓迫，正好補足城福體系的強度。",
       "career": [
         {
           "season": null,
@@ -542,7 +547,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -593,12 +598,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_4",
+      "id": "tokyo-verdy_4",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "4",
@@ -619,30 +624,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "林尚輝是東京綠茵2026/27現役DF，背號4。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "林尚輝是東京綠茵2026/27現役DF，背號4。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "鹿島鹿角",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#4）。"
+        "2026/27列入東京綠茵current squad（#4）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "前7輪攻入2球，是目前球隊聯賽首席射手；一名中堅成為得分第一反映綠茵進攻困境。",
+      "quirky_trivia": "林尚輝的直播辨識點是#4與DF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -651,7 +650,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -702,12 +701,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_5",
+      "id": "tokyo-verdy_5",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "5",
@@ -728,30 +727,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "井上龍太是東京綠茵2026/27現役DF，背號5。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "井上龍太是東京綠茵2026/27現役DF，背號5。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "秋田藍閃電",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#5）。"
+        "2026/27列入東京綠茵current squad（#5）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "井上龍太的直播辨識點是#5與DF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "井上龍太的直播辨識點是#5與DF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -760,7 +753,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -811,12 +804,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_6",
+      "id": "tokyo-verdy_6",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "6",
@@ -837,30 +830,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "宮原和也是東京綠茵2026/27現役DF，背號6。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "宮原和也是東京綠茵2026/27現役DF，背號6。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "名古屋鯨魚",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#6）。"
+        "2026/27列入東京綠茵current squad（#6）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "宮原和也的直播辨識點是#6與DF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "可踢右閘、右中堅與wing-back，戰術彈性是城福三後衛體系重要保險。",
       "career": [
         {
           "season": null,
@@ -869,7 +856,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -920,12 +907,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_7",
+      "id": "tokyo-verdy_7",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "7",
@@ -946,30 +933,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "松橋優安是東京綠茵2026/27現役MF，背號7。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "松橋優安是東京綠茵2026/27現役MF，背號7。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "山口雷法",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#7）。"
+        "2026/27列入東京綠茵current squad（#7）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "松橋優安的直播辨識點是#7與MF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "松橋優安的直播辨識點是#7與MF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -978,7 +959,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1029,12 +1010,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_8",
+      "id": "tokyo-verdy_8",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "8",
@@ -1055,30 +1036,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "齋藤功佑是東京綠茵2026/27現役MF，背號8。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "齋藤功佑是東京綠茵2026/27現役MF，背號8。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "橫濱FC",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#8）。"
+        "2026/27列入東京綠茵current squad（#8）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "齋藤功佑的直播辨識點是#8與MF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "齋藤功佑的直播辨識點是#8與MF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -1087,7 +1062,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1138,12 +1113,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_9",
+      "id": "tokyo-verdy_9",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "9",
@@ -1164,30 +1139,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "染野唯月是東京綠茵2026/27現役FW，背號9。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "染野唯月是東京綠茵2026/27現役FW，背號9。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "鹿島鹿角",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#9）。"
+        "2026/27列入東京綠茵current squad（#9）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "前7輪68.2km跑動、97次衝刺，兩項均在隊內前列；中鋒在城福體系要大量無球工作。",
+      "quirky_trivia": "由鹿島借用、再完全轉會後成為前場核心；背身、禁區走位與press都是Verdy進攻支點。",
       "career": [
         {
           "season": null,
@@ -1196,7 +1165,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1247,12 +1216,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_10",
+      "id": "tokyo-verdy_10",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "10",
@@ -1275,30 +1244,24 @@
       ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "森田晃樹是東京綠茵2026/27現役MF，背號10。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "森田晃樹是東京綠茵2026/27現役MF，背號10。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "東京綠茵Youth",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#10）。"
+        "2026/27列入東京綠茵current squad（#10）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "Verdy Academy出身、隊長級中場，代表球會近年『育成＋一隊核心』的身份。",
+      "quirky_trivia": "One-Club Man級Academy產品；2026百年構想聯賽J1 EAST Best XI。官方Q&A把武器寫成『技術、守備』。",
       "career": [
         {
           "season": null,
@@ -1307,7 +1270,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1358,12 +1321,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_11",
+      "id": "tokyo-verdy_11",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "11",
@@ -1384,30 +1347,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "山見大登是東京綠茵2026/27現役FW，背號11。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "山見大登是東京綠茵2026/27現役FW，背號11。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "大阪飛腳",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#11）。"
+        "2026/27列入東京綠茵current squad（#11）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "山見大登的直播辨識點是#11與FW角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "166cm但爆發力高，從左側內切起腳是最具辨識度動作。",
       "career": [
         {
           "season": null,
@@ -1416,7 +1373,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1467,12 +1424,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_13",
+      "id": "tokyo-verdy_13",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "13",
@@ -1493,30 +1450,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "山田剛綺是東京綠茵2026/27現役FW，背號13。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "山田剛綺是東京綠茵2026/27現役FW，背號13。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "關西學院大學",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#13）。"
+        "2026/27列入東京綠茵current squad（#13）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "山田剛綺的直播辨識點是#13與FW角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "山田剛綺的直播辨識點是#13與FW角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -1525,7 +1476,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1576,12 +1527,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_14",
+      "id": "tokyo-verdy_14",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "14",
@@ -1602,30 +1553,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "福田湧矢是東京綠茵2026/27現役MF，背號14。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "福田湧矢是東京綠茵2026/27現役MF，背號14。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "大阪飛腳",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#14）。"
+        "2026/27列入東京綠茵current squad（#14）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "福田湧矢的直播辨識點是#14與MF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "福田湧矢的直播辨識點是#14與MF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -1634,7 +1579,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1685,12 +1630,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_15",
+      "id": "tokyo-verdy_15",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "15",
@@ -1711,30 +1656,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "鈴木海音是東京綠茵2026/27現役DF，背號15。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "鈴木海音是東京綠茵2026/27現役DF，背號15。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "磐田山葉",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#15）。"
+        "2026/27列入東京綠茵current squad（#15）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "鈴木海音的直播辨識點是#15與DF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "磐田育成出身的年輕中堅，年代別日本代表經驗豐富；高位防線下要處理大量大空間。",
       "career": [
         {
           "season": null,
@@ -1743,7 +1682,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1794,12 +1733,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_16",
+      "id": "tokyo-verdy_16",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "16",
@@ -1820,30 +1759,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "平川怜是東京綠茵2026/27現役MF，背號16。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "平川怜是東京綠茵2026/27現役MF，背號16。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "磐田山葉",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#16）。"
+        "2026/27列入東京綠茵current squad（#16）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "前7輪71.7km跑動、15次duel won，兩項隊內第一，是中場工作量核心。",
+      "quirky_trivia": "平川怜的直播辨識點是#16與MF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -1852,7 +1785,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -1903,12 +1836,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_17",
+      "id": "tokyo-verdy_17",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "17",
@@ -1929,30 +1862,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "金賢宇是東京綠茵2026/27現役FW，背號17。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "金賢宇是東京綠茵2026/27現役FW，背號17。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "大分三神",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#17）。"
+        "2026/27列入東京綠茵current squad（#17）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "金賢宇的直播辨識點是#17與FW角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "南韓前鋒，從大分加盟後提供180cm身形與不同的禁區profile。",
       "career": [
         {
           "season": null,
@@ -1961,7 +1888,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2012,12 +1939,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_18",
+      "id": "tokyo-verdy_18",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "18",
@@ -2038,30 +1965,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "溝口修平是東京綠茵2026/27現役DF，背號18。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "溝口修平是東京綠茵2026/27現役DF，背號18。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "鹿島鹿角",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#18）。"
+        "2026/27列入東京綠茵current squad（#18）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "前7輪1球1助攻、63.1km跑動、82次衝刺；鹿島借將很快成為左路攻守重要人物。",
+      "quirky_trivia": "鹿島育成左閘／wing-back，174cm、速度與左腳傳中為主要武器。",
       "career": [
         {
           "season": null,
@@ -2070,7 +1991,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2121,12 +2042,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_20",
+      "id": "tokyo-verdy_20",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "20",
@@ -2144,33 +2065,29 @@
       "joined": null,
       "prev_club": "栃木SC",
       "registration_status": "現役",
-      "registration_tags": [],
+      "registration_tags": [
+        "Home Grown"
+      ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "食野壯磨是東京綠茵2026/27現役MF，背號20。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "食野壯磨是東京綠茵2026/27現役MF，背號20。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "栃木SC",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#20）。"
+        "2026/27列入東京綠茵current squad（#20）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "食野壯磨的直播辨識點是#20與MF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "Verdy Academy出身後外借栃木再回歸，屬典型『出去累積成人賽再回母會』路線。",
       "career": [
         {
           "season": null,
@@ -2179,7 +2096,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2230,12 +2147,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_21",
+      "id": "tokyo-verdy_21",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "21",
@@ -2251,44 +2168,38 @@
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "Azul Claro Numazu",
+      "prev_club": "沼津青藍",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "長澤祐彌是東京綠茵2026/27現役GK，背號21。城福浩體系重視流動、跑動與集體press，他的主要任務是門線穩定與後場發動。",
+      "intro": "長澤祐彌是東京綠茵2026/27現役GK，背號21。在城福浩的高強度3-back／可變體系中，主要任務是門線及高位防線身後保護。",
       "timeline": [
         {
-          "period": "前履歷",
-          "team": "Azul Claro Numazu",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "沼津青藍",
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#21）。"
+        "2026/27列入東京綠茵current squad（#21）。"
       ],
       "tactical_traits": [
-        "守門之外需處理高位防線身後及快速發動。",
-        "城福球隊控球不高，門將需承受較多轉換及第二波攻擊。"
+        "門將需在三後衛身後處理長球並參與短傳build-up。",
+        "城福要求整體前移，門將站位與第一腳選擇很重要。"
       ],
-      "quirky_trivia": "長澤祐彌的直播辨識點是#21與GK角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "長澤祐彌的直播辨識點是#21與GK角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
-          "team": "Azul Claro Numazu",
+          "team": "沼津青藍",
           "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2339,12 +2250,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_22",
+      "id": "tokyo-verdy_22",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "22",
@@ -2365,30 +2276,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "內田陽介是東京綠茵2026/27現役DF，背號22。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "內田陽介是東京綠茵2026/27現役DF，背號22。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "明治大學",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#22）。"
+        "2026/27列入東京綠茵current squad（#22）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "前7輪94次衝刺隊內第二；167cm邊路後衛靠的是反覆折返與速度。",
+      "quirky_trivia": "內田陽介的直播辨識點是#22與DF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -2397,7 +2302,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2448,19 +2353,19 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_24",
+      "id": "tokyo-verdy_24",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "24",
       "name_zh": "仲山獅恩",
       "name_ja": "仲山 獅恩",
       "name_en": "Shion Nakayama",
-      "position": "FW",
+      "position": "MF",
       "dob": "2007-10-16",
       "season_start_age": 18,
       "birthplace": "",
@@ -2476,30 +2381,24 @@
       ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "仲山獅恩是東京綠茵2026/27現役FW，背號24。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "仲山獅恩是東京綠茵2026/27現役MF，背號24。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "東京綠茵Youth",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#24）。"
+        "2026/27列入東京綠茵current squad（#24）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "2007年出生的Verdy Youth前鋒，已進入成人輪換，典型的自家青訓越級培養。",
+      "quirky_trivia": "2007年出生Academy升格球員，已列正式Top Team，不是未來內定名單。",
       "career": [
         {
           "season": null,
@@ -2508,7 +2407,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2559,12 +2458,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_25",
+      "id": "tokyo-verdy_25",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "25",
@@ -2585,30 +2484,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "熊取谷一星是東京綠茵2026/27現役FW，背號25。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "熊取谷一星是東京綠茵2026/27現役FW，背號25。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "明治大學",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#25）。"
+        "2026/27列入東京綠茵current squad（#25）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "熊取谷一星的直播辨識點是#25與FW角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "熊取谷一星的直播辨識點是#25與FW角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -2617,7 +2510,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2668,12 +2561,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_27",
+      "id": "tokyo-verdy_27",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "27",
@@ -2696,30 +2589,24 @@
       ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "白井亮丞是東京綠茵2026/27現役FW，背號27。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "白井亮丞是東京綠茵2026/27現役FW，背號27。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "東京綠茵Youth",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#27）。"
+        "2026/27列入東京綠茵current squad（#27）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "白井亮丞的直播辨識點是#27與FW角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "185cm Academy前鋒，與小型技術型球員並存，令Verdy前線可切換高球方案。",
       "career": [
         {
           "season": null,
@@ -2728,7 +2615,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2779,12 +2666,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_28",
+      "id": "tokyo-verdy_28",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "28",
@@ -2807,30 +2694,24 @@
       ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "山本丈偉是東京綠茵2026/27現役MF，背號28。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "山本丈偉是東京綠茵2026/27現役MF，背號28。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "東京綠茵Youth",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#28）。"
+        "2026/27列入東京綠茵current squad（#28）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "187cm、2006年出生的Academy中場，高大身形與技術兼備，和傳統小個技術型Verdy中場形成反差。",
+      "quirky_trivia": "187cm的2006年Academy中場，身高在技術型Verdy中場中非常突出。",
       "career": [
         {
           "season": null,
@@ -2839,7 +2720,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2890,12 +2771,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_29",
+      "id": "tokyo-verdy_29",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "29",
@@ -2916,30 +2797,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "佐古真禮是東京綠茵2026/27現役DF，背號29。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "佐古真禮是東京綠茵2026/27現役DF，背號29。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "岩手盛岡仙鶴",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#29）。"
+        "2026/27列入東京綠茵current squad（#29）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "佐古真禮的直播辨識點是#29與DF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "193cm大型中堅，是current squad最高後衛之一；防空與定位球存在感直接。",
       "career": [
         {
           "season": null,
@@ -2948,7 +2823,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -2999,12 +2874,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_30",
+      "id": "tokyo-verdy_30",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "30",
@@ -3027,30 +2902,24 @@
       ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "川村樂人是東京綠茵2026/27現役MF，背號30。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "川村樂人是東京綠茵2026/27現役MF，背號30。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "東京綠茵Youth",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#30）。"
+        "2026/27列入東京綠茵current squad（#30）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "川村樂人的直播辨識點是#30與MF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "2006年Academy中場，代表Verdy持續把育成球員推進一隊。",
       "career": [
         {
           "season": null,
@@ -3059,7 +2928,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3110,12 +2979,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_31",
+      "id": "tokyo-verdy_31",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "31",
@@ -3136,30 +3005,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "馬渡洋樹是東京綠茵2026/27現役GK，背號31。城福浩體系重視流動、跑動與集體press，他的主要任務是門線穩定與後場發動。",
+      "intro": "馬渡洋樹是東京綠茵2026/27現役GK，背號31。在城福浩的高強度3-back／可變體系中，主要任務是門線及高位防線身後保護。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "湘南比馬",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#31）。"
+        "2026/27列入東京綠茵current squad（#31）。"
       ],
       "tactical_traits": [
-        "守門之外需處理高位防線身後及快速發動。",
-        "城福球隊控球不高，門將需承受較多轉換及第二波攻擊。"
+        "門將需在三後衛身後處理長球並參與短傳build-up。",
+        "城福要求整體前移，門將站位與第一腳選擇很重要。"
       ],
-      "quirky_trivia": "馬渡洋樹的直播辨識點是#31與GK角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "馬渡洋樹的直播辨識點是#31與GK角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -3168,7 +3031,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3219,12 +3082,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_33",
+      "id": "tokyo-verdy_33",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "33",
@@ -3245,30 +3108,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "一美和成是東京綠茵2026/27現役FW，背號33。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "一美和成是東京綠茵2026/27現役FW，背號33。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "岡山綠雉",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#33）。"
+        "2026/27列入東京綠茵current squad（#33）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "9月10日由岡山完全加盟，選擇#33——也是他職業生涯初期穿過、自己很有感情的號碼；自稱暱稱『Ichi』。",
+      "quirky_trivia": "9月10日才由岡山完全加盟，理由之一是希望增加上陣、提升自身價值；182cm／81kg為前場增加力量。",
       "career": [
         {
           "season": null,
@@ -3277,7 +3134,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3291,8 +3148,8 @@
               "accessed_at": "2026-09-19"
             },
             {
-              "label": "一美和成加入",
-              "url": "https://verdy.co.jp/news/15209",
+              "label": "一美和成加入公告",
+              "url": "https://www.verdy.co.jp/news/15209",
               "accessed_at": "2026-09-19"
             }
           ]
@@ -3318,8 +3175,8 @@
               "accessed_at": "2026-09-19"
             },
             {
-              "label": "一美和成加入",
-              "url": "https://verdy.co.jp/news/15209",
+              "label": "一美和成加入公告",
+              "url": "https://www.verdy.co.jp/news/15209",
               "accessed_at": "2026-09-19"
             }
           ]
@@ -3338,17 +3195,17 @@
           "accessed_at": "2026-09-19"
         },
         {
-          "label": "一美和成加入",
-          "url": "https://verdy.co.jp/news/15209",
+          "label": "一美和成加入公告",
+          "url": "https://www.verdy.co.jp/news/15209",
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "官方日本名；TVB主資料庫未及最新季中身份時按官方更新。",
+      "name_source": "TVB既有岡山時香港繁中名沿用；現球會身份按9/10官方轉會更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_35",
+      "id": "tokyo-verdy_35",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "35",
@@ -3369,30 +3226,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "田邊秀斗是東京綠茵2026/27現役DF，背號35。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "田邊秀斗是東京綠茵2026/27現役DF，背號35。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "川崎前鋒",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#35）。"
+        "2026/27列入東京綠茵current squad（#35）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "田邊秀斗的直播辨識點是#35與DF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "田邊秀斗的直播辨識點是#35與DF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -3401,7 +3252,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3452,12 +3303,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_36",
+      "id": "tokyo-verdy_36",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "36",
@@ -3478,30 +3329,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "松田陸是東京綠茵2026/27現役DF，背號36。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "松田陸是東京綠茵2026/27現役DF，背號36。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "千葉市原JEF聯",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#36）。"
+        "2026/27列入東京綠茵current squad（#36）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "松田陸的直播辨識點是#36與DF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "松田陸的直播辨識點是#36與DF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -3510,7 +3355,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3561,12 +3406,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_38",
+      "id": "tokyo-verdy_38",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "38",
@@ -3587,30 +3432,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "神田奏真是東京綠茵2026/27現役FW，背號38。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "神田奏真是東京綠茵2026/27現役FW，背號38。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "川崎前鋒",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#38）。"
+        "2026/27列入東京綠茵current squad（#38）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "神田奏真的直播辨識點是#38與FW角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "川崎前鋒借將，2005年出生；以速度與禁區前衝擊力爭取成人賽時間。",
       "career": [
         {
           "season": null,
@@ -3619,7 +3458,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3670,12 +3509,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_40",
+      "id": "tokyo-verdy_40",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "40",
@@ -3696,30 +3535,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "新井悠太是東京綠茵2026/27現役MF，背號40。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "新井悠太是東京綠茵2026/27現役MF，背號40。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "東洋大學",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#40）。"
+        "2026/27列入東京綠茵current squad（#40）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "前7輪最高速34.3km/h隊內第一；166cm低重心中場卻擁有全隊最快瞬間速度。",
+      "quirky_trivia": "新井悠太的直播辨識點是#40與MF角色；目前Verdy前7輪只得4分，球員在高壓逼搶後能否把奪回轉成真正射門，是整隊共同課題。",
       "career": [
         {
           "season": null,
@@ -3728,7 +3561,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3779,12 +3612,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_41",
+      "id": "tokyo-verdy_41",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "41",
@@ -3805,30 +3638,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "中村圭佑是東京綠茵2026/27現役GK，背號41。城福浩體系重視流動、跑動與集體press，他的主要任務是門線穩定與後場發動。",
+      "intro": "中村圭佑是東京綠茵2026/27現役GK，背號41。在城福浩的高強度3-back／可變體系中，主要任務是門線及高位防線身後保護。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "靜岡學園高中",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#41）。"
+        "2026/27列入東京綠茵current squad（#41）。"
       ],
       "tactical_traits": [
-        "守門之外需處理高位防線身後及快速發動。",
-        "城福球隊控球不高，門將需承受較多轉換及第二波攻擊。"
+        "門將需在三後衛身後處理長球並參與短傳build-up。",
+        "城福要求整體前移，門將站位與第一腳選擇很重要。"
       ],
-      "quirky_trivia": "中村圭佑的直播辨識點是#41與GK角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "靜岡學園高中直升的年輕門將，187cm；在Matheus與長澤身旁累積職業門將經驗。",
       "career": [
         {
           "season": null,
@@ -3837,7 +3664,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3888,12 +3715,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_42",
+      "id": "tokyo-verdy_42",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "42",
@@ -3916,30 +3743,24 @@
       ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "今井健人是東京綠茵2026/27現役MF，背號42。城福浩體系重視流動、跑動與集體press，他的主要任務是中場連接與無球覆蓋。",
+      "intro": "今井健人是東京綠茵2026/27現役MF，背號42。在城福浩的高強度3-back／可變體系中，主要任務是中場連接、壓迫與第二點。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "東京綠茵Youth",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#42）。"
+        "2026/27列入東京綠茵current squad（#42）。"
       ],
       "tactical_traits": [
-        "城福強調人與球流動，中場接球前掃描與換位是核心。",
-        "無球時需要高跑動與逼搶，維持全隊116km級平均跑量。"
+        "中場重點是壓迫、第二點與快速向前連接。",
+        "無球跑動要維持3-4-2-1的層次與兩線距離。"
       ],
-      "quirky_trivia": "今井健人的直播辨識點是#42與MF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "2007年出生Verdy Youth中場，已正式升Top Team，是球會青訓傳統的最新一代。",
       "career": [
         {
           "season": null,
@@ -3948,7 +3769,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -3999,18 +3820,18 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_45",
+      "id": "tokyo-verdy_45",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "45",
       "name_zh": "寺沼星文",
       "name_ja": "寺沼 星文",
-      "name_en": "Shimon Teranuma",
+      "name_en": "Seimon Teranuma",
       "position": "FW",
       "dob": "2001-03-08",
       "season_start_age": 25,
@@ -4025,30 +3846,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "寺沼星文是東京綠茵2026/27現役FW，背號45。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "寺沼星文是東京綠茵2026/27現役FW，背號45。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "水戶蜀葵",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#45）。"
+        "2026/27列入東京綠茵current squad（#45）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "寺沼星文的直播辨識點是#45與FW角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "188cm／88kg大型中鋒，水戶累積成人比賽後加入；城福若需要直接進攻可立即改變前場打法。",
       "career": [
         {
           "season": null,
@@ -4057,7 +3872,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -4108,12 +3923,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_51",
+      "id": "tokyo-verdy_51",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "51",
@@ -4134,30 +3949,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "大藤颯太是東京綠茵2026/27現役FW，背號51。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
+      "intro": "大藤颯太是東京綠茵2026/27現役FW，背號51。在城福浩的高強度3-back／可變體系中，主要任務是前場壓迫、跑動與終結。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "流通經濟大學附屬柏高中",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#51）。"
+        "2026/27列入東京綠茵current squad（#51）。"
       ],
       "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
+        "前鋒第一任務包含press與跑身後，不只是禁區等待。",
+        "支點、速度與第二線插上要互補，才能提升低入球產量。"
       ],
-      "quirky_trivia": "190cm、2007年出生的高中前鋒，直接由流通經濟大學附屬柏高中進入一隊名單，是非常鮮明的大型新生代9號profile。",
+      "quirky_trivia": "190cm高中前鋒，流通經濟大學附屬柏高中直升；身形是同齡球員最明顯武器。",
       "career": [
         {
           "season": null,
@@ -4166,7 +3975,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -4217,12 +4026,12 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
     {
-      "id": "tokyov_55",
+      "id": "tokyo-verdy_55",
       "club": "東京綠茵",
       "team_slug": "tokyo-verdy",
       "number": "55",
@@ -4243,30 +4052,24 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "吉田泰授是東京綠茵2026/27現役DF，背號55。城福浩體系重視流動、跑動與集體press，他的主要任務是防守站位與由守轉攻第一傳。",
+      "intro": "吉田泰授是東京綠茵2026/27現役DF，背號55。在城福浩的高強度3-back／可變體系中，主要任務是後場對抗、前頂與出球。",
       "timeline": [
         {
-          "period": "前履歷",
+          "period": "加入前",
           "team": "山形山神",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "category": "主要履歷",
+          "milestone": "加入東京綠茵前最近主要球隊／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入東京綠茵登錄（#55）。"
+        "2026/27列入東京綠茵current squad（#55）。"
       ],
       "tactical_traits": [
-        "三／四後衛切換時保持站位與前頂時機。",
-        "奪球後需快速向邊路或中場送出第一傳。"
+        "三後衛／翼衛體系要求防守者敢前頂並保持橫向距離。",
+        "奪球後優先向前，不讓對手重新建立防守。"
       ],
-      "quirky_trivia": "吉田泰授的直播辨識點是#55與DF角色；綠茵前7輪平均每場116km、127次衝刺，個人無球貢獻是評估表現的重要角度。",
+      "quirky_trivia": "山形來的左路後衛，邊路傳中與反覆跑動可支援3-back wing-back角色。",
       "career": [
         {
           "season": null,
@@ -4275,7 +4078,7 @@
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
           "verification_status": "verified",
           "sources": [
             {
@@ -4326,134 +4129,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役資料按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
-    },
-    {
-      "id": "tokyov_71",
-      "club": "東京綠茵",
-      "team_slug": "tokyo-verdy",
-      "number": "71",
-      "name_zh": "平尾勇人",
-      "name_ja": "平尾 勇人",
-      "name_en": "Hayato Hirao",
-      "position": "FW",
-      "dob": "2005-01-06",
-      "season_start_age": 21,
-      "birthplace": "",
-      "height": 178,
-      "weight": 76,
-      "foot": "",
-      "nationality": "日本",
-      "joined": null,
-      "prev_club": "日本大學",
-      "registration_status": "JFA・J.League特別指定選手",
-      "registration_tags": [
-        "特別指定",
-        "大學生"
-      ],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "平尾勇人是東京綠茵2026/27現役FW，背號71。城福浩體系重視流動、跑動與集體press，他的主要任務是前場壓迫與禁區跑位。",
-      "timeline": [
-        {
-          "period": "前履歷",
-          "team": "日本大學",
-          "category": "育成／職業",
-          "milestone": "主要前度／育成來源。"
-        },
-        {
-          "period": "2026/27",
-          "team": "東京綠茵",
-          "category": "J1",
-          "milestone": "現役登錄。"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2026/27列入東京綠茵登錄（#71）。"
-      ],
-      "tactical_traits": [
-        "前鋒要主動press並大量跑身後。",
-        "低控球比賽中每次禁區觸球都要提高終結效率。"
-      ],
-      "quirky_trivia": "仍屬日本大學在籍特別指定，但9月13日對JEF已直接正選；『未正式入團卻已踢J1正選』是最值得講的身份故事。",
-      "career": [
-        {
-          "season": null,
-          "team": "日本大學",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "主要前度／育成來源；未可靠核對逐季數字者不推算。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "東京綠茵官方2026/27名單",
-              "url": "https://www.verdy.co.jp/content/team/",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League東京綠茵",
-              "url": "https://www.jleague.jp/club/tokyov/",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "平尾勇人特別指定",
-              "url": "https://www.verdy.co.jp/news/15124",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        },
-        {
-          "season": "2026/27",
-          "team": "東京綠茵",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "JFA・J.League特別指定選手",
-          "notes": "資料截至2026-09-19。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "東京綠茵官方2026/27名單",
-              "url": "https://www.verdy.co.jp/content/team/",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League東京綠茵",
-              "url": "https://www.jleague.jp/club/tokyov/",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "平尾勇人特別指定",
-              "url": "https://www.verdy.co.jp/news/15124",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        }
-      ],
-      "season_stats": [],
-      "sources": [
-        {
-          "label": "東京綠茵官方2026/27名單",
-          "url": "https://www.verdy.co.jp/content/team/",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League東京綠茵",
-          "url": "https://www.jleague.jp/club/tokyov/",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "平尾勇人特別指定",
-          "url": "https://www.verdy.co.jp/news/15124",
-          "accessed_at": "2026-09-19"
-        }
-      ],
-      "name_source": "官方日本名；TVB主資料庫未及最新季中身份時按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役資料以官方更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     }
