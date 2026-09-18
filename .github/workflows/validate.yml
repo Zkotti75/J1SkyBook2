@@ -27,3 +27,11 @@ jobs:
       - run: node scripts/validate-data.mjs --strict --club=gamba-osaka
       - run: node scripts/validate-data.mjs --strict --club=yokohama-fm
       - run: node scripts/validate-data.mjs --strict --club=nagasaki
+      - run: node scripts/validate-data.mjs --strict --club=okayama
+      - run: node scripts/validate-data.mjs --strict --club=kashima
+      - run: node scripts/validate-data.mjs --strict --club=kobe
+      - run: node scripts/validate-data.mjs --strict --club=hiroshima
+      - run: node scripts/validate-data.mjs --strict --club=tokyo-verdy
+      - run: node scripts/validate-data.mjs --strict --club=nagoya
+      - run: node scripts/validate-data.mjs --strict --club=shimizu
+      - run: node scripts/validate-data.mjs --strict --club=kyoto
