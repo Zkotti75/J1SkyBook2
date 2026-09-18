@@ -2,6 +2,8 @@ import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
 const strict = process.argv.includes('--strict');
+const clubArg = process.argv.find(arg => arg.startsWith('--club='));
+const clubSlug = clubArg ? clubArg.slice('--club='.length) : null;
 const errors = [];
 const warnings = [];
 const requiredCareerKeys = ['season', 'team', 'competition', 'appearances', 'goals', 'status', 'notes'];
@@ -12,6 +14,12 @@ if (manifest.teams?.length !== 20) errors.push(`Expected 20 J1 clubs; found ${ma
 
 const slugs = new Set();
 for (const listed of manifest.teams || []) {
+}
+
+const selectedTeams = clubSlug ? (manifest.teams || []).filter(team => team.slug === clubSlug) : (manifest.teams || []);
+if (clubSlug && !selectedTeams.length) errors.push(`Unknown club slug: ${clubSlug}.`);
+
+for (const listed of selectedTeams) {
   if (slugs.has(listed.slug)) errors.push(`Duplicate team slug: ${listed.slug}`);
   slugs.add(listed.slug);
   let data;
@@ -27,6 +35,14 @@ for (const listed of manifest.teams || []) {
   if (!Array.isArray(data.players)) errors.push(`${listed.slug}: players must be an array.`);
   if (data.team?.data_status !== 'verified') warnings.push(`${listed.slug}: team data is ${data.team?.data_status || 'unlabelled'}.`);
   if (!data.manager) warnings.push(`${listed.slug}: manager has not been added.`);
+  else {
+    if (data.manager.verification_status !== 'verified') warnings.push(`${listed.slug}: manager still requires verification.`);
+    if (!Array.isArray(data.manager.career)) errors.push(`${listed.slug}: manager career must be an array.`);
+    for (const [index, row] of (data.manager.career || []).entries()) {
+      for (const key of requiredCareerKeys) if (!(key in row)) errors.push(`${listed.slug} manager career row ${index + 1}: missing ${key}.`);
+      if (/[–—-].*\d{4}|至今|present/i.test(row.season || '')) warnings.push(`${listed.slug} manager career row ${index + 1}: season is not a single-season entry (${row.season}).`);
+    }
+  }
   if (!(data.players || []).length) warnings.push(`${listed.slug}: roster has not been added.`);
 
   const numbers = new Set();
@@ -49,7 +65,7 @@ for (const listed of manifest.teams || []) {
   }
 }
 
-console.log(`Validated ${manifest.teams?.length || 0} club files.`);
+console.log(`Validated ${selectedTeams.length} club file${selectedTeams.length === 1 ? '' : 's'}${clubSlug ? ` (${clubSlug})` : ''}.`);
 console.log(`${errors.length} error(s), ${warnings.length} warning(s).`);
 for (const line of errors) console.error(`ERROR: ${line}`);
 for (const line of warnings.slice(0, 100)) console.warn(`WARN: ${line}`);
