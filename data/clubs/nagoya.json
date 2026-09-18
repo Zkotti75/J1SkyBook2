@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T12:10:00+09:00",
+  "generated_at": "2026-09-19T12:30:00+09:00",
   "team": {
     "id": "team_nagoya",
     "type": "team_info",
@@ -13,7 +13,7 @@
     "club_en": "Nagoya Grampus",
     "logo_url": "logos/japan_nagoya-grampus.football-logos.cc.svg",
     "colors": {
-      "bg": "#d71920",
+      "bg": "#d70c18",
       "text": "#fff"
     },
     "season": "2026/27",
@@ -21,12 +21,11 @@
     "roster_as_of": "2026-09-19",
     "data_status": "verified",
     "established": 1991,
-    "roots": "Toyota Motor足球部脈絡，1991以Nagoya Grampus Eight成立並成為J.League Original 10。",
+    "roots": "母體為Toyota Motor足球部。1990決定參與職業聯賽，1991公司成立，1993成為J.League Original 10。",
     "corporation": "株式会社名古屋グランパスエイト",
-    "president": "清水克洋",
-    "club_color": "Red",
-    "hometown": "名古屋市、豐田市、三好市為中心的愛知縣全域",
-    "name_history": "Grampus意指名古屋象徵『鯱』；原名中的Eight亦呼應名古屋市章及吉祥數字。",
+    "club_color": "Red／Yellow",
+    "hometown": "名古屋市、豐田市、三好市等愛知縣",
+    "name_history": "Grampus指虎鯨／鯨類意象，源自名古屋城金鯱文化；1990最初定名Nagoya Grampus Eight，現以Nagoya Grampus為品牌。",
     "stadium_info": {
       "name": "Toyota Stadium",
       "name_zh": "豐田體育場",
@@ -35,25 +34,25 @@
       "address": "愛知県豊田市千石町7-2",
       "interesting_facts": [
         "J.League現行入場可能數42,753。",
-        "2026翻新後Paloma Mizuho Stadium亦重新成為重要主場選項。"
+        "2026改建後Paloma Mizuho Stadium亦重新啟用，球會擁有兩個重要主場據點。"
       ]
     },
-    "team_history": "Original 10之一。1995、1999兩奪天皇盃，2010在Dragan Stojković帶領下首次贏J1；2021、2024兩奪League Cup。2026邀請Petrović進行大幅戰術轉型。",
+    "team_history": "Original 10。1995/96首次天皇盃冠軍，2000再奪天皇盃；2010在Stojković帶領下首次J1冠軍。2016首次降J2但一年回升。2021及2024兩奪League Cup。2026由Petrović展開大幅戰術重建。",
     "history_timeline": [
       {
         "year": "1991",
-        "event": "Nagoya Grampus Eight成立。"
+        "event": "營運公司成立。"
       },
       {
         "year": "1993",
         "event": "Original 10。"
       },
       {
-        "year": "1995",
-        "event": "天皇盃冠軍。"
+        "year": "1996",
+        "event": "首次天皇盃冠軍。"
       },
       {
-        "year": "1999",
+        "year": "2000",
         "event": "第二次天皇盃。"
       },
       {
@@ -61,34 +60,53 @@
         "event": "首次J1冠軍。"
       },
       {
+        "year": "2016",
+        "event": "首次降J2。"
+      },
+      {
+        "year": "2017",
+        "event": "一年後升回J1。"
+      },
+      {
         "year": "2021",
-        "event": "首次League Cup冠軍。"
+        "event": "League Cup冠軍。"
       },
       {
         "year": "2024",
-        "event": "第二次League Cup冠軍。"
+        "event": "League Cup第二冠。"
       },
       {
         "year": "2026",
-        "event": "Petrović接掌。"
+        "event": "Petrović就任。"
       }
     ],
     "performance_history": [
       "J1冠軍：2010",
+      "天皇盃：1995年度、1999年度",
       "J.League Cup：2021、2024",
-      "天皇盃：1995、1999"
+      "Super Cup：1996、2011"
     ],
     "recent_seasons": [
       {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "第16"
+      },
+      {
+        "season": "2026",
+        "competition": "J1百年構想聯賽",
+        "finish": "WEST上位中段"
+      },
+      {
         "season": "2026/27",
         "competition": "J1",
-        "finish": "第16（2勝0和5負；截至9/13）"
+        "finish": "第16（2勝0和5負；截至9/12）"
       }
     ],
     "current_season": {
       "season": "2026/27",
       "competition": "J1",
-      "manager": "米哈伊洛・柏杜域",
+      "manager": "米哈伊洛・彼德洛域",
       "matches": 7,
       "wins": 2,
       "draws": 0,
@@ -98,7 +116,7 @@
       "goals_against": 13,
       "goal_difference": -6,
       "rank": 16,
-      "as_of": "2026-09-13"
+      "as_of": "2026-09-12"
     },
     "leadership": {
       "captain": "稻垣祥",
@@ -109,29 +127,31 @@
       "note": "2026/27官方隊長團。"
     },
     "roster_notes": [
-      "Current pool 27人。",
-      "#6河面旺成7/12外借水戶，#60山中亮輔6/30外借京都，均移除。",
-      "早前吉田温紀、鈴木陽人等亦已外借，不列current pool。"
+      "Current numbered Top Team 27人，以9/19官方current page為準。",
+      "#60山中亮輔6/30外借京都至2027-06-30；#6河面旺成7/12外借水戶至2027-06-30，均不列current squad。",
+      "早季名單中的三國Kennedy Egbus、森壯一朗、吉田溫紀、鈴木陽人、榊原杏太等已不在current Top Team頁，按現況不列。",
+      "9/18足立惺洋、宮本新、瀧上晄史三名U-18球員完成二種登錄，9/19起可出賽；公告未給一隊背號，因此只保留在roster notes，不虛構shirt number。"
     ],
     "commentary_notes": [
-      "前7輪2勝0和5負、第16，平均控球56.7%但仍失13球，顯示控球與結果尚未接軌。",
-      "稻垣祥80.9km跑動、26duels won雙第一；中山克廣130次衝刺第一；永井謙佑34.2km/h最高速第一。",
-      "2026短期賽季山岸、木村、中山、藤井均入選WEST Best XI，證明陣容個體質素高於目前聯賽排名。"
+      "前7輪2勝5負、第16，平均控球56.7%、每場545.4傳球：控球量與結果之間反差是最大直播主線。",
+      "稻垣祥80.9km跑動＋26 duels won均隊內第一；中山克廣130 sprints第一；永井謙佑34.2km/h最高速第一。",
+      "山岸祐也是2026百年構想聯賽J1 WEST神射手／Best XI，卻需要把春季效率延續至新季。",
+      "三名9月18日Youth二種令Academy深度再增加，但目前不強行建立無背號player card。"
     ],
     "sources": [
       {
-        "label": "名古屋2026/27背號",
-        "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+        "label": "名古屋current Top Team",
+        "url": "https://www.nagoya-grampus.jp/team/top/player/",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "名古屋官方History",
+        "url": "https://nagoya-grampus.jp/club/history/",
         "accessed_at": "2026-09-19"
       },
       {
         "label": "J.League名古屋",
         "url": "https://www.jleague.jp/club/nagoya/",
-        "accessed_at": "2026-09-19"
-      },
-      {
-        "label": "名古屋官方history",
-        "url": "https://www.nagoya-grampus.jp/club/history/",
         "accessed_at": "2026-09-19"
       }
     ],
@@ -140,21 +160,21 @@
       "japanese_clubs": "繁中",
       "japanese_schools": "繁中",
       "foreign_clubs_and_leagues": "English",
-      "player_display_names": "TVB優先。"
+      "player_display_names": "TVB優先；current status以官方覆蓋。"
     }
   },
   "manager": {
     "id": "nagoya_mgr_petrovic",
     "club": "名古屋鯨魚",
     "number": "HC",
-    "name_zh": "米哈伊洛・柏杜域",
+    "name_zh": "米哈伊洛・彼德洛域",
     "name_ja": "ミハイロ ペトロヴィッチ",
     "name_en": "Mihailo Petrović",
     "position": "MANAGER",
     "dob": "1957-10-18",
     "season_start_age": 68,
     "birthplace": "Loznica",
-    "nationality": "奧地利",
+    "nationality": "塞爾維亞",
     "height": null,
     "weight": null,
     "foot": "",
@@ -162,64 +182,105 @@
     "prev_club": "北海道札幌岡薩多",
     "registration_status": "監督",
     "registration_tags": [],
-    "tenure_status": "2026就任；2026/27續任",
-    "license": "",
+    "tenure_status": "2026起執教",
+    "license": "UEFA Pro",
     "national_team_detail": "",
-    "intro": "J.League最具辨識度的戰術老帥之一。廣島、浦和、札幌都留下3-4-2-1、位置流動與大量進攻輪轉的『Misha式』烙印；2026接掌名古屋，百年構想聯賽後獲續約。",
+    "intro": "J.League最具辨識度的攻擊型監督之一。2006來日執教廣島，之後浦和、札幌，2026接掌名古屋；著名的3-4-2-1、後場輪轉與多名球員同時前插常被稱為『Misha式』。",
     "timeline": [
       {
-        "period": "2006–2011",
+        "period": "Austria",
+        "team": "SV Pöllau／Sturm Graz Amateure",
+        "category": "監督",
+        "milestone": "奧地利教練生涯。"
+      },
+      {
+        "period": "廣島",
         "team": "廣島三箭",
         "category": "監督",
-        "milestone": "建立日本版3-back位置流動體系。"
+        "milestone": "建立JLeague著名三後衛進攻體系。"
       },
       {
-        "period": "2012–2017",
+        "period": "浦和",
         "team": "浦和紅鑽",
         "category": "監督",
-        "milestone": "長期J1爭冠並取得主要錦標。"
+        "milestone": "2016年間成績與攻擊足球高峰。"
       },
       {
-        "period": "2018–2024",
+        "period": "札幌",
         "team": "北海道札幌岡薩多",
         "category": "監督",
-        "milestone": "把高風險進攻足球植入札幌。"
+        "milestone": "2018–24長期執教。"
       },
       {
         "period": "2026–",
         "team": "名古屋鯨魚",
         "category": "監督",
-        "milestone": "新一輪Misha-style重建。"
+        "milestone": "以攻擊型positional rotations重建名古屋。"
       }
     ],
     "honors": [
-      "2016 J.League Cup（浦和紅鑽）"
+      "J.League Cup冠軍：2016（浦和紅鑽）"
     ],
     "milestones": [
-      "2025-12確定2026接掌名古屋。",
-      "2026-06獲續約至2026/27。",
+      "在JLeague連續執教廣島、浦和、札幌、名古屋，累積約20年日本經驗。",
+      "2025-12-18公布2026起任名古屋監督。",
       "2026/27前7輪2勝0和5負、第16。"
     ],
     "tactical_traits": [
-      "基本形是3-4-2-1，透過CB、wing-back、雙影鋒不停換位製造自由人。",
-      "希望主動控球；前7輪平均56.7%控球、545.4次傳球。",
-      "風險在失球後身後空間；若counter-press失敗，三中堅要處理大範圍反擊。"
+      "基礎常為3-4-2-1，但有球時防中落位、外側CB推進、wing-back拉寬，形成大量位置交換。",
+      "主動控球：前7輪平均56.7%控球、545.4傳球。",
+      "高位失球後反搶，若第一線被破解則三後衛身後空間是風險。",
+      "高嶺朋樹等曾跟他合作的球員可充當場上戰術翻譯者。"
     ],
-    "quirky_trivia": "他在廣島、浦和、札幌三個不同地區都把同一套高度個人化的足球哲學留下烙印；到了68歲仍在J1展開第四段大型重建。",
+    "quirky_trivia": "他在JLeague的『Misha式』影響非常深，甚至不少後來三後衛教練都曾直接或間接受其體系影響；68歲仍在名古屋重做一套全新的攻擊足球。",
     "career": [
       {
         "season": null,
-        "team": "Austria clubs",
+        "team": "SV Pöllau",
         "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "監督／Coach",
-        "notes": "1990年代至2005。",
+        "status": "監督",
+        "notes": "Austria。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "Petrović續約及完整履歷",
-            "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0616post-2756.php",
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": null,
+        "team": "Sturm Graz Amateure",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "Austria。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": null,
+        "team": "Sturm Graz",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "Assistant／監督",
+        "notes": "Austria Bundesliga。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -231,12 +292,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "2006–11。",
+        "notes": "2006起JLeague。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "Petrović續約及完整履歷",
-            "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0616post-2756.php",
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -248,12 +309,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "2012–17。",
+        "notes": "2012起。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "Petrović續約及完整履歷",
-            "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0616post-2756.php",
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -265,12 +326,12 @@
         "appearances": null,
         "goals": null,
         "status": "監督",
-        "notes": "2018–24。",
+        "notes": "2018起。",
         "verification_status": "verified",
         "sources": [
           {
-            "label": "Petrović續約及完整履歷",
-            "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0616post-2756.php",
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -286,8 +347,8 @@
         "verification_status": "verified",
         "sources": [
           {
-            "label": "Petrović續約及完整履歷",
-            "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0616post-2756.php",
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -303,8 +364,8 @@
         "verification_status": "verified",
         "sources": [
           {
-            "label": "Petrović續約及完整履歷",
-            "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0616post-2756.php",
+            "label": "Petrović就任公告",
+            "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
             "accessed_at": "2026-09-19"
           }
         ]
@@ -312,13 +373,13 @@
     ],
     "sources": [
       {
-        "label": "Petrović續約及完整履歷",
-        "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0616post-2756.php",
+        "label": "Petrović就任公告",
+        "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
         "accessed_at": "2026-09-19"
       },
       {
-        "label": "Petrović就任公告",
-        "url": "https://nagoya-grampus.jp/news/pressrelease/2025/1218post-2612.php",
+        "label": "2026/27 Top Team體制",
+        "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0630post-2771.php",
         "accessed_at": "2026-09-19"
       }
     ],
@@ -339,34 +400,56 @@
       "season_start_age": 34,
       "birthplace": "",
       "height": 197,
-      "weight": null,
+      "weight": 88,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "KAA Gent",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "舒密特・丹尼爾是名古屋2026/27現役GK，背號1。Petrović的3-back／位置流動體系要求後場發動與高位防線管理。",
+      "intro": "舒密特・丹尼爾是名古屋2026/27現役GK，#1。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責門線及build-up第一傳。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "KAA Gent",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#1）。"
+        "2026/27列入名古屋current squad（#1）。"
       ],
       "tactical_traits": [
-        "Petrović要求由後場主動組織，門將需成為額外傳球點。",
-        "高位站位下亦要處理防線身後及快速轉換。"
+        "Petrović體系門將是build-up第一人，需敢用短傳引出press。",
+        "三後衛站位較高，門將亦須處理防線身後長球。"
       ],
-      "quirky_trivia": "日本代表World Cup経験門將，197cm；大型身材同時具腳下出球，是Petrović後場build-up的自然起點。",
+      "quirky_trivia": "197cm日本代表門將，兼具高空控制與腳下；前7輪已送出1次assist，門將直接製造入球非常罕見。",
       "career": [
+        {
+          "season": null,
+          "team": "KAA Gent",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -374,12 +457,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -393,8 +476,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -403,7 +486,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -420,34 +503,56 @@
       "season_start_age": 39,
       "birthplace": "",
       "height": 189,
-      "weight": null,
+      "weight": 86,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "大分三神",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "武田洋平是名古屋2026/27現役GK，背號16。Petrović的3-back／位置流動體系要求後場發動與高位防線管理。",
+      "intro": "武田洋平是名古屋2026/27現役GK，#16。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責門線及build-up第一傳。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "大分三神",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#16）。"
+        "2026/27列入名古屋current squad（#16）。"
       ],
       "tactical_traits": [
-        "Petrović要求由後場主動組織，門將需成為額外傳球點。",
-        "高位站位下亦要處理防線身後及快速轉換。"
+        "Petrović體系門將是build-up第一人，需敢用短傳引出press。",
+        "三後衛站位較高，門將亦須處理防線身後長球。"
       ],
-      "quirky_trivia": "武田洋平的直播辨識點是#16在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "38歲門將老將，2016起長期效力名古屋；即使不是常規正選，門將組與更衣室經驗非常重要。",
       "career": [
+        {
+          "season": null,
+          "team": "大分三神",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -455,12 +560,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -474,8 +579,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -484,7 +589,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -501,34 +606,58 @@
       "season_start_age": 20,
       "birthplace": "",
       "height": 202,
-      "weight": null,
+      "weight": 90,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "名古屋鯨魚U-18",
       "registration_status": "現役",
-      "registration_tags": [],
+      "registration_tags": [
+        "Home Grown"
+      ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "比沙奴・亞歷山大幸冬堀尾是名古屋2026/27現役GK，背號35。Petrović的3-back／位置流動體系要求後場發動與高位防線管理。",
+      "intro": "比沙奴・亞歷山大幸冬堀尾是名古屋2026/27現役GK，#35。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責門線及build-up第一傳。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "名古屋鯨魚U-18",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#35）。"
+        "2026/27列入名古屋current squad（#35）。"
       ],
       "tactical_traits": [
-        "Petrović要求由後場主動組織，門將需成為額外傳球點。",
-        "高位站位下亦要處理防線身後及快速轉換。"
+        "Petrović體系門將是build-up第一人，需敢用短傳引出press。",
+        "三後衛站位較高，門將亦須處理防線身後長球。"
       ],
-      "quirky_trivia": "身高202cm的年輕門將，是J1最醒目的超大型門將profile之一。",
+      "quirky_trivia": "202cm超巨型Academy門將，是J1最具視覺衝擊的年輕門將之一；20歲已進Top Team正式競爭。",
       "career": [
+        {
+          "season": null,
+          "team": "名古屋鯨魚U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -536,12 +665,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -555,8 +684,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -565,7 +694,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -582,34 +711,58 @@
       "season_start_age": 19,
       "birthplace": "",
       "height": 189,
-      "weight": null,
+      "weight": 87,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "名古屋鯨魚U-18",
       "registration_status": "現役",
-      "registration_tags": [],
+      "registration_tags": [
+        "Home Grown"
+      ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "萩裕陽是名古屋2026/27現役GK，背號36。Petrović的3-back／位置流動體系要求後場發動與高位防線管理。",
+      "intro": "萩裕陽是名古屋2026/27現役GK，#36。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責門線及build-up第一傳。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "名古屋鯨魚U-18",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#36）。"
+        "2026/27列入名古屋current squad（#36）。"
       ],
       "tactical_traits": [
-        "Petrović要求由後場主動組織，門將需成為額外傳球點。",
-        "高位站位下亦要處理防線身後及快速轉換。"
+        "Petrović體系門將是build-up第一人，需敢用短傳引出press。",
+        "三後衛站位較高，門將亦須處理防線身後長球。"
       ],
-      "quirky_trivia": "Academy年輕門將，與197cm Schmidt、202cm Pisano同組，門將組整體身高極端突出。",
+      "quirky_trivia": "名古屋U-18升格門將，2026年8月再入選日本U-19代表AFC U20亞洲盃外圍賽名單。",
       "career": [
+        {
+          "season": null,
+          "team": "名古屋鯨魚U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -617,12 +770,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -636,8 +789,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -646,7 +799,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -663,34 +816,56 @@
       "season_start_age": 35,
       "birthplace": "",
       "height": 180,
-      "weight": null,
+      "weight": 72,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "廣島三箭",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "野上結貴是名古屋2026/27現役DF，背號2。Petrović的3-back／位置流動體系要求主動出球與前頂。",
+      "intro": "野上結貴是名古屋2026/27現役DF，#2。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責後場帶球、對抗與位置輪轉。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "廣島三箭",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#2）。"
+        "2026/27列入名古屋current squad（#2）。"
       ],
       "tactical_traits": [
-        "三後衛結構下外側CB需要帶球、前頂與補邊。",
-        "高控球球隊失球後要立即向前壓迫，避免被直接反擊。"
+        "三後衛體系要求中堅／外側後衛主動帶球向前，製造中場人數優勢。",
+        "失球後第一時間反搶，若被突破便要處理大空間回追。"
       ],
-      "quirky_trivia": "野上結貴的直播辨識點是#2在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "野上長期在廣島熟悉Petrović式三後衛概念，對Misha新體系的理解速度理論上比多數隊友快。",
       "career": [
+        {
+          "season": null,
+          "team": "廣島三箭",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -698,12 +873,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -717,8 +892,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -727,7 +902,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -744,34 +919,56 @@
       "season_start_age": 27,
       "birthplace": "",
       "height": 184,
-      "weight": null,
+      "weight": 77,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "浦和紅鑽",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "佐藤瑤大是名古屋2026/27現役DF，背號3。Petrović的3-back／位置流動體系要求主動出球與前頂。",
+      "intro": "佐藤瑤大是名古屋2026/27現役DF，#3。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責後場帶球、對抗與位置輪轉。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "浦和紅鑽",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#3）。"
+        "2026/27列入名古屋current squad（#3）。"
       ],
       "tactical_traits": [
-        "三後衛結構下外側CB需要帶球、前頂與補邊。",
-        "高控球球隊失球後要立即向前壓迫，避免被直接反擊。"
+        "三後衛體系要求中堅／外側後衛主動帶球向前，製造中場人數優勢。",
+        "失球後第一時間反搶，若被突破便要處理大空間回追。"
       ],
-      "quirky_trivia": "佐藤瑤大的直播辨識點是#3在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "佐藤瑤大的直播觀察點是#3與DF功能；名古屋平均控球56.7%、每場545.4傳球，位置輪轉是否能轉成真正禁區威脅是核心。",
       "career": [
+        {
+          "season": null,
+          "team": "浦和紅鑽",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -779,12 +976,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -798,8 +995,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -808,7 +1005,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -825,34 +1022,58 @@
       "season_start_age": 25,
       "birthplace": "",
       "height": 188,
-      "weight": null,
+      "weight": 80,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "名古屋鯨魚U-18",
       "registration_status": "現役",
-      "registration_tags": [],
+      "registration_tags": [
+        "Home Grown"
+      ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "藤井陽也是名古屋2026/27現役DF，背號13。Petrović的3-back／位置流動體系要求主動出球與前頂。",
+      "intro": "藤井陽也是名古屋2026/27現役DF，#13。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責後場帶球、對抗與位置輪轉。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "名古屋鯨魚U-18",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#13）。"
+        "2026/27列入名古屋current squad（#13）。"
       ],
       "tactical_traits": [
-        "三後衛結構下外側CB需要帶球、前頂與補邊。",
-        "高控球球隊失球後要立即向前壓迫，避免被直接反擊。"
+        "三後衛體系要求中堅／外側後衛主動帶球向前，製造中場人數優勢。",
+        "失球後第一時間反搶，若被突破便要處理大空間回追。"
       ],
-      "quirky_trivia": "名古屋Academy出身後赴KV Kortrijk再回巢；188cm中堅把Home Grown與歐洲經驗結合。2026 All-Star球迷票亦高。",
+      "quirky_trivia": "名古屋Academy出身中堅，2026百年構想聯賽J1 WEST Best XI；前7輪13次duel won隊內第三。",
       "career": [
+        {
+          "season": null,
+          "team": "名古屋鯨魚U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -860,12 +1081,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -879,8 +1100,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -889,7 +1110,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -905,35 +1126,57 @@
       "dob": "2007-06-18",
       "season_start_age": 19,
       "birthplace": "",
-      "height": 184,
-      "weight": null,
+      "height": 183,
+      "weight": 73,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "前橋育英高中",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "久保遙夢是名古屋2026/27現役DF，背號37。Petrović的3-back／位置流動體系要求主動出球與前頂。",
+      "intro": "久保遙夢是名古屋2026/27現役DF，#37。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責後場帶球、對抗與位置輪轉。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "前橋育英高中",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#37）。"
+        "2026/27列入名古屋current squad（#37）。"
       ],
       "tactical_traits": [
-        "三後衛結構下外側CB需要帶球、前頂與補邊。",
-        "高控球球隊失球後要立即向前壓迫，避免被直接反擊。"
+        "三後衛體系要求中堅／外側後衛主動帶球向前，製造中場人數優勢。",
+        "失球後第一時間反搶，若被突破便要處理大空間回追。"
       ],
-      "quirky_trivia": "2007年出生的Academy後衛，184cm；在成人球隊中是明確的長期培養資產。",
+      "quirky_trivia": "2007年出生、前橋育英高中直升；非Academy出身卻19歲已進一隊中堅輪換。",
       "career": [
+        {
+          "season": null,
+          "team": "前橋育英高中",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -941,12 +1184,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -960,8 +1203,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -970,7 +1213,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -987,34 +1230,56 @@
       "season_start_age": 30,
       "birthplace": "",
       "height": 171,
-      "weight": null,
+      "weight": 73,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "FC東京",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "德元悠平是名古屋2026/27現役DF，背號55。Petrović的3-back／位置流動體系要求主動出球與前頂。",
+      "intro": "德元悠平是名古屋2026/27現役DF，#55。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責後場帶球、對抗與位置輪轉。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "FC東京",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#55）。"
+        "2026/27列入名古屋current squad（#55）。"
       ],
       "tactical_traits": [
-        "三後衛結構下外側CB需要帶球、前頂與補邊。",
-        "高控球球隊失球後要立即向前壓迫，避免被直接反擊。"
+        "三後衛體系要求中堅／外側後衛主動帶球向前，製造中場人數優勢。",
+        "失球後第一時間反搶，若被突破便要處理大空間回追。"
       ],
-      "quirky_trivia": "德元悠平的直播辨識點是#55在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "左路防守者，前7輪65次衝刺隊內第三；171cm靠速度與侵略性補身高。",
       "career": [
+        {
+          "season": null,
+          "team": "FC東京",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1022,12 +1287,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1041,8 +1306,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1051,7 +1316,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1068,34 +1333,56 @@
       "season_start_age": 28,
       "birthplace": "",
       "height": 180,
-      "weight": null,
+      "weight": 72,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "清水心跳",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "原輝綺是名古屋2026/27現役DF，背號70。Petrović的3-back／位置流動體系要求主動出球與前頂。",
+      "intro": "原輝綺是名古屋2026/27現役DF，#70。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責後場帶球、對抗與位置輪轉。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "清水心跳",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#70）。"
+        "2026/27列入名古屋current squad（#70）。"
       ],
       "tactical_traits": [
-        "三後衛結構下外側CB需要帶球、前頂與補邊。",
-        "高控球球隊失球後要立即向前壓迫，避免被直接反擊。"
+        "三後衛體系要求中堅／外側後衛主動帶球向前，製造中場人數優勢。",
+        "失球後第一時間反搶，若被突破便要處理大空間回追。"
       ],
-      "quirky_trivia": "前7輪已有1球，後衛卻成為目前並列隊內首席射手之一，反映名古屋開季進球分散且不足。",
+      "quirky_trivia": "前7輪攻入1球，亦可踢中堅、邊閘或防中，是Misha可變站位的理想工具人。",
       "career": [
+        {
+          "season": null,
+          "team": "清水心跳",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1103,12 +1390,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1122,8 +1409,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1132,7 +1419,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1149,34 +1436,56 @@
       "season_start_age": 32,
       "birthplace": "",
       "height": 173,
-      "weight": null,
+      "weight": 71,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "鹿島鹿角",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "和泉龍司是名古屋2026/27現役MF，背號7。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "和泉龍司是名古屋2026/27現役MF，#7。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "鹿島鹿角",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#7）。"
+        "2026/27列入名古屋current squad（#7）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "副隊長；前7輪1助攻。可踢翼衛／攻中，熟悉Petrović要求的流動換位。",
+      "quirky_trivia": "2026/27副隊長；前7輪1助攻。可踢兩側、內線中場，是名古屋多位置領袖。",
       "career": [
+        {
+          "season": null,
+          "team": "鹿島鹿角",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1184,12 +1493,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1203,8 +1512,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1213,7 +1522,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1230,34 +1539,56 @@
       "season_start_age": 29,
       "birthplace": "",
       "height": 172,
-      "weight": null,
+      "weight": 71,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "北海道札幌岡薩多",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "淺野雄也是名古屋2026/27現役MF，背號9。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "淺野雄也是名古屋2026/27現役MF，#9。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "北海道札幌岡薩多",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#9）。"
+        "2026/27列入名古屋current squad（#9）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "淺野雄也的直播辨識點是#9在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "前7輪1球1助攻；弟弟是日本代表前鋒淺野拓磨，兄弟均在J1名門扮演高速攻擊手。",
       "career": [
+        {
+          "season": null,
+          "team": "北海道札幌岡薩多",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1265,12 +1596,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1284,8 +1615,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1294,7 +1625,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1311,34 +1642,56 @@
       "season_start_age": 29,
       "birthplace": "",
       "height": 175,
-      "weight": null,
+      "weight": 67,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "廣島三箭",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "森島司是名古屋2026/27現役MF，背號14。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "森島司是名古屋2026/27現役MF，#14。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "廣島三箭",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#14）。"
+        "2026/27列入名古屋current squad（#14）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "森島司的直播辨識點是#14在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "廣島出身的技術型中場，過去曾在Petrović後期廣島系統成長環境接受三後衛文化。",
       "career": [
+        {
+          "season": null,
+          "team": "廣島三箭",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1346,12 +1699,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1365,8 +1718,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1375,7 +1728,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1392,34 +1745,56 @@
       "season_start_age": 34,
       "birthplace": "",
       "height": 176,
-      "weight": null,
+      "weight": 72,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "廣島三箭",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "稻垣祥是名古屋2026/27現役MF，背號15。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "稻垣祥是名古屋2026/27現役MF，#15。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "廣島三箭",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#15）。"
+        "2026/27列入名古屋current squad（#15）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "2026/27隊長。前7輪80.9km跑動、26次duel won兩項隊內第一；是Petrović足球最具體的work-rate核心。",
+      "quirky_trivia": "2026/27隊長。前7輪80.9km跑動、26次duel won兩項隊內第一，34歲仍是體能輸出核心。",
       "career": [
+        {
+          "season": null,
+          "team": "廣島三箭",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1427,12 +1802,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1446,8 +1821,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1456,7 +1831,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1473,34 +1848,56 @@
       "season_start_age": 28,
       "birthplace": "",
       "height": 177,
-      "weight": null,
+      "weight": 71,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "FC東京",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "內田宅哉是名古屋2026/27現役MF，背號17。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "內田宅哉是名古屋2026/27現役MF，#17。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "FC東京",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#17）。"
+        "2026/27列入名古屋current squad（#17）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "內田宅哉的直播辨識點是#17在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "FC東京育成背景，多功能中場／wing-back，可在Misha陣式中填多個走廊。",
       "career": [
+        {
+          "season": null,
+          "team": "FC東京",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1508,12 +1905,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1527,8 +1924,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1537,7 +1934,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1554,34 +1951,58 @@
       "season_start_age": 22,
       "birthplace": "",
       "height": 168,
-      "weight": null,
+      "weight": 65,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "水戶蜀葵",
       "registration_status": "現役",
-      "registration_tags": [],
+      "registration_tags": [
+        "Home Grown"
+      ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "甲田英將是名古屋2026/27現役MF，背號19。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "甲田英將是名古屋2026/27現役MF，#19。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "水戶蜀葵",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#19）。"
+        "2026/27列入名古屋current squad（#19）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "甲田英將的直播辨識點是#19在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "名古屋Academy出身後外借累積經驗再回歸；速度與右路突破是年輕化元素。",
       "career": [
+        {
+          "season": null,
+          "team": "水戶蜀葵",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1589,12 +2010,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1608,8 +2029,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1618,7 +2039,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1635,34 +2056,56 @@
       "season_start_age": 30,
       "birthplace": "",
       "height": 180,
-      "weight": null,
+      "weight": 70,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "清水心跳",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "中山克廣是名古屋2026/27現役MF，背號27。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "中山克廣是名古屋2026/27現役MF，#27。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "清水心跳",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#27）。"
+        "2026/27列入名古屋current squad（#27）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "前7輪130次衝刺隊內第一、最高速34km/h；邊路縱向輸出非常突出。",
+      "quirky_trivia": "前7輪130次衝刺隊內第一、72.8km跑動第二、最高速34.0km/h第二，是全隊最清晰的跑動數據球員。",
       "career": [
+        {
+          "season": null,
+          "team": "清水心跳",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1670,12 +2113,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1689,8 +2132,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1699,7 +2142,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1716,34 +2159,56 @@
       "season_start_age": 28,
       "birthplace": "",
       "height": 178,
-      "weight": null,
+      "weight": 75,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "北海道札幌岡薩多",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "高嶺朋樹是名古屋2026/27現役MF，背號31。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "高嶺朋樹是名古屋2026/27現役MF，#31。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "北海道札幌岡薩多",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#31）。"
+        "2026/27列入名古屋current squad（#31）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "副隊長。7月正式由札幌系統之外加入名古屋後，前7輪69km跑動、18次duel won，立即成為中場硬度來源。",
+      "quirky_trivia": "2026/27副隊長。札幌時已跟Petrović合作；本人明言再與Misha合作是轉會的重要因素。",
       "career": [
+        {
+          "season": null,
+          "team": "北海道札幌岡薩多",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1751,12 +2216,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1770,8 +2235,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1780,7 +2245,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1797,34 +2262,56 @@
       "season_start_age": 27,
       "birthplace": "",
       "height": 160,
-      "weight": null,
+      "weight": 60,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "鳥栖砂岩",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "菊地泰智是名古屋2026/27現役MF，背號33。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "菊地泰智是名古屋2026/27現役MF，#33。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "鳥栖砂岩",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#33）。"
+        "2026/27列入名古屋current squad（#33）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "菊地泰智的直播辨識點是#33在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "160cm全隊最矮之一，但低重心及技術令他在狹窄區可穿梭，與大型中場形成強烈對比。",
       "career": [
+        {
+          "season": null,
+          "team": "鳥栖砂岩",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1832,12 +2319,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1851,8 +2338,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1861,7 +2348,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1878,34 +2365,56 @@
       "season_start_age": 29,
       "birthplace": "",
       "height": 172,
-      "weight": null,
+      "weight": 69,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "山形山神",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "小野雅史是名古屋2026/27現役MF，背號41。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "小野雅史是名古屋2026/27現役MF，#41。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "山形山神",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#41）。"
+        "2026/27列入名古屋current squad（#41）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "小野雅史的直播辨識點是#41在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "可踢左路多個位置，技術型而非純速度wing-back，適合控球主導場面。",
       "career": [
+        {
+          "season": null,
+          "team": "山形山神",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1913,12 +2422,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -1932,8 +2441,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -1942,7 +2451,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -1959,34 +2468,56 @@
       "season_start_age": 31,
       "birthplace": "",
       "height": 171,
-      "weight": null,
+      "weight": 68,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "柏太陽王",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "小屋松知哉是名古屋2026/27現役MF，背號58。Petrović的3-back／位置流動體系要求大量換位、控球與反搶。",
+      "intro": "小屋松知哉是名古屋2026/27現役MF，#58。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責中場流動、壓迫與向前傳遞。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "柏太陽王",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#58）。"
+        "2026/27列入名古屋current squad（#58）。"
       ],
       "tactical_traits": [
-        "位置流動與反覆換位是Petrović足球核心。",
-        "前7輪平均56.7%控球，中場既要保球亦要在失球瞬間counter-press。"
+        "Misha足球位置流動大，中場要懂得落入後場及前插half-space。",
+        "高持球率下重點不是橫傳，而是用第三人跑動與縱向傳球打破對手線。"
       ],
-      "quirky_trivia": "小屋松知哉的直播辨識點是#58在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "由柏回到名古屋的邊路球員，171cm但無球跑動很活躍；可為寬度或內收跑位服務。",
       "career": [
+        {
+          "season": null,
+          "team": "柏太陽王",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -1994,12 +2525,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2013,8 +2544,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2023,7 +2554,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -2040,34 +2571,56 @@
       "season_start_age": 31,
       "birthplace": "",
       "height": 167,
-      "weight": null,
+      "weight": 69,
       "foot": "",
       "nationality": "巴西",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "Al-Taawoun FC",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "馬菲奧斯・卡斯度是名古屋2026/27現役FW，背號10。Petrović的3-back／位置流動體系要求跑動、連接與終結。",
+      "intro": "馬菲奧斯・卡斯度是名古屋2026/27現役FW，#10。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責前場連接、跑位與終結。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "Al-Taawoun FC",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#10）。"
+        "2026/27列入名古屋current squad（#10）。"
       ],
       "tactical_traits": [
-        "前鋒不固定站位，要拉邊、回撤與攻擊身後。",
-        "名古屋目前入球偏少，每次禁區跑位和第一下終結效率特別重要。"
+        "前鋒需要頻繁回撤連接，再利用兩翼／中場跑入身後。",
+        "失球後前場即時press是維持56%+控球的重要環節。"
       ],
-      "quirky_trivia": "左腳創造力與遠射是名古屋最具個人破局能力的武器之一；由邊路內收可直接改變進攻方向。",
+      "quirky_trivia": "名古屋球迷非常熟悉的巴西攻擊核心，重新回到球會後仍是左腳創造與set-piece重要來源。",
       "career": [
+        {
+          "season": null,
+          "team": "Al-Taawoun FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -2075,12 +2628,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2094,8 +2647,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2104,7 +2657,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -2121,34 +2674,56 @@
       "season_start_age": 32,
       "birthplace": "",
       "height": 183,
-      "weight": null,
+      "weight": 80,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "福岡黃蜂",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "山岸祐也是名古屋2026/27現役FW，背號11。Petrović的3-back／位置流動體系要求跑動、連接與終結。",
+      "intro": "山岸祐也是名古屋2026/27現役FW，#11。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責前場連接、跑位與終結。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "福岡黃蜂",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#11）。"
+        "2026/27列入名古屋current squad（#11）。"
       ],
       "tactical_traits": [
-        "前鋒不固定站位，要拉邊、回撤與攻擊身後。",
-        "名古屋目前入球偏少，每次禁區跑位和第一下終結效率特別重要。"
+        "前鋒需要頻繁回撤連接，再利用兩翼／中場跑入身後。",
+        "失球後前場即時press是維持56%+控球的重要環節。"
       ],
-      "quirky_trivia": "2026百年構想聯賽J1 WEST得分王之一，成熟的禁區跑位是升降節奏間最可靠輸出。",
+      "quirky_trivia": "2026百年構想聯賽J1 WEST神射手及Best XI；是Misha新周期最成功的前場適配者之一。",
       "career": [
+        {
+          "season": null,
+          "team": "福岡黃蜂",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -2156,12 +2731,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2175,8 +2750,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2185,7 +2760,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -2202,34 +2777,56 @@
       "season_start_age": 37,
       "birthplace": "",
       "height": 177,
-      "weight": null,
+      "weight": 72,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "FC東京",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "永井謙佑是名古屋2026/27現役FW，背號18。Petrović的3-back／位置流動體系要求跑動、連接與終結。",
+      "intro": "永井謙佑是名古屋2026/27現役FW，#18。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責前場連接、跑位與終結。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "FC東京",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#18）。"
+        "2026/27列入名古屋current squad（#18）。"
       ],
       "tactical_traits": [
-        "前鋒不固定站位，要拉邊、回撤與攻擊身後。",
-        "名古屋目前入球偏少，每次禁區跑位和第一下終結效率特別重要。"
+        "前鋒需要頻繁回撤連接，再利用兩翼／中場跑入身後。",
+        "失球後前場即時press是維持56%+控球的重要環節。"
       ],
-      "quirky_trivia": "37歲仍跑出前7輪34.2km/h隊內最高速，是年齡與速度最強烈的反差故事。",
+      "quirky_trivia": "37歲仍前7輪跑出全隊最高34.2km/h；『老將但仍是最快』本身就是極佳直播反差。",
       "career": [
+        {
+          "season": null,
+          "team": "FC東京",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -2237,12 +2834,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2256,8 +2853,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2266,7 +2863,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -2283,34 +2880,56 @@
       "season_start_age": 25,
       "birthplace": "",
       "height": 185,
-      "weight": null,
+      "weight": 84,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "東京綠茵",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "木村勇大是名古屋2026/27現役FW，背號22。Petrović的3-back／位置流動體系要求跑動、連接與終結。",
+      "intro": "木村勇大是名古屋2026/27現役FW，#22。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責前場連接、跑位與終結。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "東京綠茵",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#22）。"
+        "2026/27列入名古屋current squad（#22）。"
       ],
       "tactical_traits": [
-        "前鋒不固定站位，要拉邊、回撤與攻擊身後。",
-        "名古屋目前入球偏少，每次禁區跑位和第一下終結效率特別重要。"
+        "前鋒需要頻繁回撤連接，再利用兩翼／中場跑入身後。",
+        "失球後前場即時press是維持56%+控球的重要環節。"
       ],
-      "quirky_trivia": "前7輪64.1km跑動、81次衝刺，對185cm中鋒而言無球工作量相當高。",
+      "quirky_trivia": "185cm年輕中鋒，前7輪81次衝刺第二、最高速33.6km/h第三，不只是站樁target。",
       "career": [
+        {
+          "season": null,
+          "team": "東京綠茵",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -2318,12 +2937,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2337,8 +2956,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2347,7 +2966,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -2364,34 +2983,56 @@
       "season_start_age": 28,
       "birthplace": "",
       "height": 176,
-      "weight": null,
+      "weight": 82,
       "foot": "",
       "nationality": "巴西",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "FC今治",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "馬古斯・雲尼斯奧斯是名古屋2026/27現役FW，背號25。Petrović的3-back／位置流動體系要求跑動、連接與終結。",
+      "intro": "馬古斯・雲尼斯奧斯是名古屋2026/27現役FW，#25。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責前場連接、跑位與終結。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "FC今治",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#25）。"
+        "2026/27列入名古屋current squad（#25）。"
       ],
       "tactical_traits": [
-        "前鋒不固定站位，要拉邊、回撤與攻擊身後。",
-        "名古屋目前入球偏少，每次禁區跑位和第一下終結效率特別重要。"
+        "前鋒需要頻繁回撤連接，再利用兩翼／中場跑入身後。",
+        "失球後前場即時press是維持56%+控球的重要環節。"
       ],
-      "quirky_trivia": "馬古斯・雲尼斯奧斯的直播辨識點是#25在Petrović流動體系中的站位；名古屋前7輪平均控球56.7%，因此有球時的選擇與失球後反搶同樣值得看。",
+      "quirky_trivia": "FC今治年代大量入球後升上J1，低重心力量型巴西前鋒，與山岸／木村profile不同。",
       "career": [
+        {
+          "season": null,
+          "team": "FC今治",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -2399,12 +3040,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2418,8 +3059,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2428,7 +3069,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     },
@@ -2445,34 +3086,58 @@
       "season_start_age": 20,
       "birthplace": "",
       "height": 175,
-      "weight": null,
+      "weight": 70,
       "foot": "",
       "nationality": "日本",
       "joined": null,
-      "prev_club": "",
+      "prev_club": "名古屋鯨魚U-18",
       "registration_status": "現役",
-      "registration_tags": [],
+      "registration_tags": [
+        "Home Grown"
+      ],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "杉浦駿吾是名古屋2026/27現役FW，背號30。Petrović的3-back／位置流動體系要求跑動、連接與終結。",
+      "intro": "杉浦駿吾是名古屋2026/27現役FW，#30。Petrović把球隊改造成主動控球、三後衛可變站位與高頻率前插體系，他主要負責前場連接、跑位與終結。",
       "timeline": [
         {
-          "period": "2026/27",
-          "team": "名古屋鯨魚",
-          "category": "J1",
-          "milestone": "現役登錄。"
+          "period": "加入前",
+          "team": "名古屋鯨魚U-18",
+          "category": "主要履歷",
+          "milestone": "加入名古屋前最近主要球會／育成路線。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入名古屋現役名單（#30）。"
+        "2026/27列入名古屋current squad（#30）。"
       ],
       "tactical_traits": [
-        "前鋒不固定站位，要拉邊、回撤與攻擊身後。",
-        "名古屋目前入球偏少，每次禁區跑位和第一下終結效率特別重要。"
+        "前鋒需要頻繁回撤連接，再利用兩翼／中場跑入身後。",
+        "失球後前場即時press是維持56%+控球的重要環節。"
       ],
-      "quirky_trivia": "2006年出生的年輕前鋒，2026/27正式一隊競爭；面對多名成熟前鋒，press與無球跑位是先爭分鐘的方式。",
+      "quirky_trivia": "2006年出生的名古屋Academy前鋒，2026百年構想聯賽已獲一隊分鐘，代表自家育成最新鋒線。",
       "career": [
+        {
+          "season": null,
+          "team": "名古屋鯨魚U-18",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League名古屋",
+              "url": "https://www.jleague.jp/club/nagoya/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
           "season": "2026/27",
           "team": "名古屋鯨魚",
@@ -2480,12 +3145,12 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "資料截至2026-09-19；更早逐季履歷未完整核對者不推算。",
+          "notes": "資料截至2026-09-19。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "名古屋2026/27背號名單",
-              "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+              "label": "名古屋官方current Top Team",
+              "url": "https://www.nagoya-grampus.jp/team/top/player/",
               "accessed_at": "2026-09-19"
             },
             {
@@ -2499,8 +3164,8 @@
       "season_stats": [],
       "sources": [
         {
-          "label": "名古屋2026/27背號名單",
-          "url": "https://nagoya-grampus.jp/news/pressrelease/2026/0628202627-5.php",
+          "label": "名古屋官方current Top Team",
+          "url": "https://www.nagoya-grampus.jp/team/top/player/",
           "accessed_at": "2026-09-19"
         },
         {
@@ -2509,7 +3174,7 @@
           "accessed_at": "2026-09-19"
         }
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current registration按官方更新。",
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；current identity以2026-09-19官方頁更新。",
       "verification_status": "verified",
       "verified_at": "2026-09-19"
     }
