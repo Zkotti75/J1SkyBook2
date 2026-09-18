@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T18:17:03.950Z",
+  "generated_at": "2026-09-18T15:01:59.024Z",
   "team": {
     "id": "team_fukuoka",
     "type": "team_info",
@@ -18,10 +18,691 @@
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "pending",
-    "sources": []
+    "roster_as_of": "2026-09-18",
+    "data_status": "verified",
+    "sources": [
+      {
+        "label": "福岡黃蜂官方：球會Profile及Avispa Style",
+        "url": "https://www.avispa.co.jp/team/club_profile",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：球會歷史",
+        "url": "https://www.avispa.co.jp/team/history",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：公司概要",
+        "url": "https://www.avispa.co.jp/team/company_info",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：現役球員及Staff",
+        "url": "https://www.avispa.co.jp/team/topteam",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：2026/27隊長及副隊長",
+        "url": "https://www.avispa.co.jp/news/post-88933",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "J.League官方：福岡球會頁、歷季排名及球場",
+        "url": "https://www.jleague.jp/club/fukuoka/",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：Best Denki Stadium",
+        "url": "https://www.avispa.co.jp/match/stadium",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：球場交通",
+        "url": "https://www.avispa.co.jp/match/stadiumaccess",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "established": 1994,
+    "jleague_joined": 1996,
+    "corporation": "アビスパ福岡株式会社",
+    "president": "西野 努",
+    "club_color": "Navy",
+    "hometown": "福岡縣福岡市",
+    "name_history": "AVISPA源自拉丁語AVIS（鳥／飛翔之物）衍生的西班牙語avispa（黃蜂）。球會官方把『向世界飛翔』的願景，以及蜂群的集體行動、敏捷和多樣化集體進攻，連結到球隊身份。",
+    "stadium_info": {
+      "name": "ベスト電器スタジアム",
+      "name_zh": "Best Denki Stadium",
+      "capacity": 21546,
+      "jleague_match_capacity": 21546,
+      "address": "福岡市博多區東平尾公園2丁目1番1號",
+      "interesting_facts": [
+        "J.League官方登記入場可能數21,546人。",
+        "球場位於博多區東平尾公園，與福岡機場距離相對接近，是J1少數可由主要機場快速前往的主場之一。",
+        "球會官方觀賽資訊把Best Denki Stadium作為一隊主場，周邊亦是福岡市大型綜合運動公園的一部分。"
+      ]
+    },
+    "team_history": "球會前身中央防犯Brooks原在靜岡縣藤枝市活動。1994年約50萬人聯署促成球隊移轉福岡，9月29日成立福岡Brooks運營公司並成為J.League準會員。1995贏得JFL冠軍並升上J.League，季後正式改名Avispa Fukuoka；1996開始J.League頂級聯賽生涯。球隊長年在J1/J2之間升降，2020取得第4次升上J1後終於打破『升班翌季即降班』循環。2023是球會歷史突破年：J1第7名創當時最佳、天皇盃入四強，並贏得Levain Cup——加入J.League後首個主要冠軍。",
+    "history_timeline": [
+      {
+        "year": "1994",
+        "event": "約50萬人聯署促成中央防犯Brooks由藤枝移師福岡；9月29日成立營運公司並獲J.League準會員資格。"
+      },
+      {
+        "year": "1995",
+        "event": "以福岡Brooks名義贏得JFL冠軍並升上J.League；季後改名Avispa Fukuoka。"
+      },
+      {
+        "year": "1996",
+        "event": "首次參加J.League頂級聯賽。"
+      },
+      {
+        "year": "2010",
+        "event": "J2第3名，第3次升上J1。"
+      },
+      {
+        "year": "2015",
+        "event": "透過升班Playoff，第4次取得J1資格。"
+      },
+      {
+        "year": "2020",
+        "event": "J2第2名，第5次取得J1升班。"
+      },
+      {
+        "year": "2021",
+        "event": "J1第8名，終結過往升班後翌季降班的循環。"
+      },
+      {
+        "year": "2023",
+        "event": "J1第7名、天皇盃四強，並首奪YBC Levain Cup——J.League加入後首個主要冠軍。"
+      },
+      {
+        "year": "2024",
+        "event": "J1第12名；長谷部茂利五季任期結束。"
+      },
+      {
+        "year": "2025",
+        "event": "球會創設30周年；J1第12名。"
+      },
+      {
+        "year": "2026/27",
+        "event": "由塚原真也正式領軍；截至9月12日1勝1和5負、排名第18。"
+      }
+    ],
+    "performance_history": [
+      "YBC Levain Cup冠軍：1次（2023）",
+      "JFL冠軍：1次（1995，以福岡Brooks名義）",
+      "J1最佳聯賽名次：第7名（2023）",
+      "天皇盃最佳成績：四強（2023）"
+    ],
+    "recent_seasons": [
+      {
+        "season": "2021",
+        "competition": "J1",
+        "finish": "第8名"
+      },
+      {
+        "season": "2022",
+        "competition": "J1",
+        "finish": "第14名"
+      },
+      {
+        "season": "2023",
+        "competition": "J1",
+        "finish": "第7名；Levain Cup冠軍"
+      },
+      {
+        "season": "2024",
+        "competition": "J1",
+        "finish": "第12名"
+      },
+      {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "第12名"
+      },
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第18名（1勝1和5負；截至2026-09-12）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "明治安田J1 League",
+      "manager": "塚原真也",
+      "matches": 7,
+      "wins": 1,
+      "draws": 1,
+      "losses": 5,
+      "points": 4,
+      "rank": 18,
+      "goals_per_match": 1.3,
+      "passes_per_match": 372,
+      "possession_percent": 45,
+      "as_of": "2026-09-17"
+    },
+    "tactical_identity": "球會明文化的Avispa Style要求以高控球率和主導性的zone control控制比賽，並把『取得入球』放在所有判斷的優先位置；同一方法論由U-12貫通至一隊。",
+    "leadership": {
+      "captain": "上島拓巳",
+      "vice_captains": [
+        "見木友哉",
+        "北島祐二",
+        "椎橋慧也",
+        "橋本悠"
+      ],
+      "as_of": "2026-07-26"
+    },
+    "verified_at": "2026-09-18"
   },
-  "manager": null,
+  "manager": {
+    "id": "fukuoka_mgr_tsukahara",
+    "club": "福岡黃蜂",
+    "number": "HC",
+    "name_zh": "塚原真也",
+    "name_ja": "塚原 真也",
+    "name_en": "Shinya Tsukahara",
+    "position": "MANAGER",
+    "dob": "1985-04-02",
+    "season_start_age": 41,
+    "birthplace": "京都府",
+    "nationality": "日本",
+    "height": null,
+    "weight": null,
+    "foot": "",
+    "joined": 2026,
+    "prev_club": "アビスパ福岡 Head Coach",
+    "registration_status": "監督",
+    "registration_tags": [],
+    "tenure_status": "2024加入福岡教練團；2026暫代後於2026/27正式出任監督",
+    "license": "日本足球協會公認S級教練牌照（現役J1監督登錄）",
+    "national_team_detail": "",
+    "intro": "京都府出身。球員年代由京都Purple Sanga Youth、京都產業大學至Amitie SC京都；退役前後已開始教練工作。其後在Vissel Kobe青訓、FC大阪累積監督及球會強化部經驗，2024加入福岡任Head Coach。2026年球季中段暫代領軍，同年5月29日獲正式委任為2026/27一隊監督。",
+    "timeline": [
+      {
+        "period": "2001–2007",
+        "team": "京都Purple Sanga Youth／京都產業大學",
+        "category": "球員",
+        "milestone": "完成Youth及大學足球階段。"
+      },
+      {
+        "period": "2008–2012",
+        "team": "アミティエSC京都",
+        "category": "球員／教練",
+        "milestone": "踢球同時開始School coaching。"
+      },
+      {
+        "period": "2013–2015",
+        "team": "アミティエSC京都",
+        "category": "監督",
+        "milestone": "首次一隊監督經驗。"
+      },
+      {
+        "period": "2016–2019",
+        "team": "Vissel Kobe",
+        "category": "Academy／School",
+        "milestone": "青訓及School coaching。"
+      },
+      {
+        "period": "2020–2023",
+        "team": "FC大阪",
+        "category": "監督／強化部",
+        "milestone": "2020–22任監督，2023轉球會強化部Director。"
+      },
+      {
+        "period": "2024–2026",
+        "team": "福岡黃蜂",
+        "category": "Head Coach→暫定監督",
+        "milestone": "由教練團內部升任。"
+      },
+      {
+        "period": "2026/27–",
+        "team": "福岡黃蜂",
+        "category": "監督",
+        "milestone": "正式執掌一隊。"
+      }
+    ],
+    "honors": [],
+    "milestones": [
+      "2020至2022連續三季執教FC大阪；2023轉任球會強化部Director。",
+      "2024加入福岡黃蜂擔任Head Coach。",
+      "2026在百年構想聯賽期間暫代監督。",
+      "2026年5月29日正式獲任命為2026/27福岡黃蜂監督。"
+    ],
+    "tactical_traits": [
+      "延續球會明文化的『Avispa Style』：以較高控球率和主動的zone control掌握比賽。",
+      "球會方法論明確要求以入球為所有判斷基準，主動向前進攻，而非只以低位防守維持秩序。",
+      "從Head Coach內部升任，有利延續一隊與Academy共用的球會方法論，而不是完全重置比賽原則。"
+    ],
+    "quirky_trivia": "塚原不是由外部空降：他先在福岡擔任兩季Head Coach，2026再由暫代監督轉正，是典型由現有教練團內部升任的路線。",
+    "career": [
+      {
+        "season": "2008",
+        "team": "アミティエSC京都",
+        "competition": "関西社会人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "京都產業大學畢業後加入。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2009",
+        "team": "アミティエSC京都",
+        "competition": "関西社会人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2010",
+        "team": "アミティエSC京都",
+        "competition": "関西社会人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2011",
+        "team": "アミティエSC京都",
+        "competition": "関西社会人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2012",
+        "team": "アミティエSC京都",
+        "competition": "関西社会人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "球員",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2009",
+        "team": "アミティエSC京都",
+        "competition": "足球學校",
+        "appearances": null,
+        "goals": null,
+        "status": "School Coach",
+        "notes": "兼任球員期的指導工作。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2010",
+        "team": "アミティエSC京都",
+        "competition": "足球學校",
+        "appearances": null,
+        "goals": null,
+        "status": "School Coach",
+        "notes": "兼任球員期的指導工作。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2011",
+        "team": "アミティエSC京都",
+        "competition": "足球學校",
+        "appearances": null,
+        "goals": null,
+        "status": "School Coach",
+        "notes": "兼任球員期的指導工作。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2012",
+        "team": "アミティエSC京都",
+        "competition": "關西社會人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "開始一隊教練工作。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2013",
+        "team": "アミティエSC京都",
+        "competition": "關西社會人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach→監督",
+        "notes": "5月起出任監督。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2014",
+        "team": "アミティエSC京都",
+        "competition": "關西社會人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2015",
+        "team": "アミティエSC京都",
+        "competition": "關西社會人足球",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2016",
+        "team": "ヴィッセル神戸",
+        "competition": "Academy／School",
+        "appearances": null,
+        "goals": null,
+        "status": "School Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2017",
+        "team": "ヴィッセル神戸",
+        "competition": "Academy／School",
+        "appearances": null,
+        "goals": null,
+        "status": "School Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2018",
+        "team": "ヴィッセル神戸U-15 ss UMDS",
+        "competition": "Academy",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "同時參與Vissel Kobe School coaching。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2019",
+        "team": "ヴィッセル神戸U-15 ss UMDS",
+        "competition": "Academy",
+        "appearances": null,
+        "goals": null,
+        "status": "Coach",
+        "notes": "同時參與Vissel Kobe School coaching。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2020",
+        "team": "FC大阪",
+        "competition": "JFL",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2021",
+        "team": "FC大阪",
+        "competition": "JFL",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2022",
+        "team": "FC大阪",
+        "competition": "JFL",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "帶隊取得J3升格資格。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2023",
+        "team": "FC大阪",
+        "competition": "J3",
+        "appearances": null,
+        "goals": null,
+        "status": "強化部Director",
+        "notes": "轉任球會強化部管理職。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2024",
+        "team": "アビスパ福岡",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "Head Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2025",
+        "team": "アビスパ福岡",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "Head Coach",
+        "notes": "",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "team": "アビスパ福岡",
+        "competition": "J1百年構想聯賽",
+        "appearances": null,
+        "goals": null,
+        "status": "暫定監督",
+        "notes": "季中接掌一隊。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "アビスパ福岡",
+        "competition": "J1",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "2026年5月29日正式確認為2026/27監督。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "福岡官方監督就任公告",
+            "url": "https://www.avispa.co.jp/news/post-86885",
+            "accessed_at": "2026-09-18"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "label": "福岡黃蜂官方：塚原真也監督就任公告",
+        "url": "https://www.avispa.co.jp/news/post-86885",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：Avispa Style",
+        "url": "https://www.avispa.co.jp/team/club_profile",
+        "accessed_at": "2026-09-18"
+      },
+      {
+        "label": "福岡黃蜂官方：2026/27球隊Staff",
+        "url": "https://www.avispa.co.jp/team/topteam",
+        "accessed_at": "2026-09-18"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-18"
+  },
   "players": []
 }
