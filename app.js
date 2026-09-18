@@ -122,19 +122,34 @@ function renderTeam(data) {
   const t = data.team;
   const stadium = t.stadium_info || {};
   const honors = t.performance_history || t.honors || [];
+  const current = t.current_season || {};
+  const recent = t.recent_seasons || [];
+  const history = t.history_timeline || [];
   return `<article class="panel">
-    <header class="hero"><div class="hero-main"><div><div class="hero-number">J1 CLUB PROFILE</div><h2>${esc(t.name_zh)}</h2><div class="english">${esc(t.name_en || '')}</div><div class="badges"><span class="badge ${t.data_status !== 'verified' ? 'audit-badge' : ''}">${esc(t.data_status === 'verified' ? '已核實' : '資料審核中')}</span></div></div></div>${t.logo_url ? `<img class="team-logo" src="${esc(t.logo_url)}" alt="${esc(t.name_zh)}會徽">` : ''}</header>
+    <header class="hero"><div class="hero-main"><div><div class="hero-number">J1 CLUB PROFILE</div><h2>${esc(t.name_zh)}</h2><div class="english">${esc(t.name_ja || '')}${t.name_ja && t.name_en ? ' · ' : ''}${esc(t.name_en || '')}</div><div class="badges"><span class="badge ${t.data_status !== 'verified' ? 'audit-badge' : ''}">${esc(t.data_status === 'verified' ? '已核實' : '資料審核中')}</span></div></div></div>${t.logo_url ? `<img class="team-logo" src="${esc(t.logo_url)}" alt="${esc(t.name_zh)}會徽">` : ''}</header>
     <div class="content">
       ${t.data_status !== 'verified' ? '<div class="notice">此球會資料正在逐項核實。未有來源支持的欄位不會標作已確認。</div>' : ''}
       <div class="vitals">
         <div class="vital"><label>主場城市</label><strong>${valueOrBlank(t.hometown)}</strong></div>
-        <div class="vital"><label>主場球場</label><strong>${valueOrBlank(stadium.name)}</strong></div>
-        <div class="vital"><label>容量</label><strong>${stadium.capacity ? `${Number(stadium.capacity).toLocaleString('zh-HK')} 人` : '<span class="empty">—</span>'}</strong></div>
+        <div class="vital"><label>城市人口</label><strong>${valueOrBlank(t.hometown_population)}</strong></div>
+        <div class="vital"><label>主場球場</label><strong>${valueOrBlank(stadium.name_zh || stadium.name)}</strong></div>
+        <div class="vital"><label>場館座位</label><strong>${stadium.capacity ? `${Number(stadium.capacity).toLocaleString('zh-HK')} 人` : '<span class="empty">—</span>'}</strong></div>
+        <div class="vital"><label>成立</label><strong>${valueOrBlank(t.established)}</strong></div>
         <div class="vital"><label>名單核實日期</label><strong>${valueOrBlank(t.roster_as_of || t.verified_at)}</strong></div>
       </div>
+      ${current.rank ? `<section class="section"><h3>2026/27 現況</h3><div class="vitals">
+        <div class="vital"><label>排名</label><strong>第 ${esc(current.rank)} 名</strong></div>
+        <div class="vital"><label>戰績</label><strong>${esc(current.wins)}勝 ${esc(current.draws)}和 ${esc(current.losses)}負</strong></div>
+        <div class="vital"><label>積分</label><strong>${esc(current.points)}</strong></div>
+        <div class="vital"><label>得失球差</label><strong>${current.goal_difference > 0 ? '+' : ''}${esc(current.goal_difference)}</strong></div>
+        <div class="vital"><label>監督</label><strong>${valueOrBlank(current.manager)}</strong></div>
+        <div class="vital"><label>資料截至</label><strong>${valueOrBlank(current.as_of)}</strong></div>
+      </div></section>` : ''}
       ${t.name_history ? `<section class="section"><h3>隊名由來</h3><p>${esc(t.name_history)}</p></section>` : ''}
       ${t.team_history ? `<section class="section"><h3>球會歷史</h3><p>${esc(t.team_history)}</p></section>` : ''}
+      ${history.length ? `<section class="section"><h3>歷史里程碑</h3><ul class="fact-list">${history.map(row => `<li><strong>${esc(row.year)}</strong>　${esc(row.event)}</li>`).join('')}</ul></section>` : ''}
       ${honors.length ? `<section class="section"><h3>球會主要榮譽</h3><div class="achievement-grid">${honors.map(h => `<div class="achievement">${esc(h)}</div>`).join('')}</div></section>` : ''}
+      ${recent.length ? `<section class="section"><h3>近季聯賽成績</h3><div class="table-wrap"><table><thead><tr><th>球季</th><th>賽事</th><th>成績</th></tr></thead><tbody>${recent.map(row => `<tr><td>${valueOrBlank(row.season)}</td><td>${valueOrBlank(row.competition)}</td><td>${valueOrBlank(row.finish)}</td></tr>`).join('')}</tbody></table></div></section>` : ''}
       ${stadium.interesting_facts?.length ? `<section class="section"><h3>球場資料</h3><ul class="fact-list">${stadium.interesting_facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></section>` : ''}
       ${renderSources(t.sources)}
     </div>
@@ -150,11 +165,16 @@ function renderPerson(data, item) {
   const traits = item.tactical_traits || [];
   const sources = item.sources || [];
   const isManager = item.position === 'MANAGER' || item.position === 'HC';
-  return `<article class="panel">
-    <header class="hero"><div class="hero-main">${item.player_image ? `<img class="player-photo" src="${esc(item.player_image)}" alt="${esc(item.name_zh || item.name_en)}" onerror="this.hidden=true">` : ''}<div><div class="hero-number">${isManager ? 'HEAD COACH' : `#${esc(item.number)} · ${esc(item.position)}`}</div><h2>${esc(item.name_zh || item.name_en)}</h2><div class="english">${esc(item.name_ja || '')}${item.name_ja && item.name_en ? ' · ' : ''}${esc(item.name_en || '')}</div><div class="badges">${statusBadges(item)}${item.verification_status !== 'verified' ? '<span class="badge audit-badge">待逐項核實</span>' : ''}</div></div></div>${team.logo_url ? `<img class="team-logo" src="${esc(team.logo_url)}" alt="${esc(team.name_zh)}會徽">` : ''}</header>
-    <div class="content">
-      ${item.verification_status !== 'verified' ? '<div class="notice">此卡由舊版資料遷移，現正按官方身份資料及外部生涯來源逐項審核；空白代表未能可靠核實。</div>' : ''}
-      <div class="vitals">
+  const vitalsHtml = isManager
+    ? `<div class="vitals">
+        <div class="vital"><label>出生日期</label><strong>${valueOrBlank(item.dob)}</strong></div>
+        <div class="vital"><label>開季年齡（2026-08-07）</label><strong>${calculatedAge === null ? '<span class="empty">—</span>' : `${calculatedAge} 歲`}</strong></div>
+        <div class="vital"><label>出生地 / 國籍</label><strong>${valueOrBlank(item.birthplace)} / ${valueOrBlank(item.nationality)}</strong></div>
+        <div class="vital"><label>就任</label><strong>${valueOrBlank(item.joined)} ${item.tenure_status ? `· ${esc(item.tenure_status)}` : ''}</strong></div>
+        <div class="vital"><label>前任球會</label><strong>${valueOrBlank(item.prev_club)}</strong></div>
+        <div class="vital"><label>教練牌照</label><strong>${valueOrBlank(item.license)}</strong></div>
+      </div>`
+    : `<div class="vitals">
         <div class="vital"><label>出生日期</label><strong>${valueOrBlank(item.dob)}</strong></div>
         <div class="vital"><label>開季年齡（2026-08-07）</label><strong>${calculatedAge === null ? '<span class="empty">—</span>' : `${calculatedAge} 歲`}</strong></div>
         <div class="vital"><label>出生地</label><strong>${valueOrBlank(item.birthplace)}</strong></div>
@@ -163,14 +183,19 @@ function renderPerson(data, item) {
         <div class="vital"><label>加盟 / 效力</label><strong>${valueOrBlank(item.joined)} ${item.tenure_status ? `· ${esc(item.tenure_status)}` : ''}</strong></div>
         <div class="vital"><label>前屬球會</label><strong>${valueOrBlank(item.prev_club)}</strong></div>
         <div class="vital"><label>代表隊</label><strong>${valueOrBlank(item.national_team_detail)}</strong></div>
-      </div>
-      ${item.intro ? `<section class="section"><h3>球員簡介</h3><p>${esc(item.intro)}</p></section>` : ''}
+      </div>`;
+  return `<article class="panel">
+    <header class="hero"><div class="hero-main">${item.player_image ? `<img class="player-photo" src="${esc(item.player_image)}" alt="${esc(item.name_zh || item.name_en)}" onerror="this.hidden=true">` : ''}<div><div class="hero-number">${isManager ? 'HEAD COACH' : `#${esc(item.number)} · ${esc(item.position)}`}</div><h2>${esc(item.name_zh || item.name_en)}</h2><div class="english">${esc(item.name_ja || '')}${item.name_ja && item.name_en ? ' · ' : ''}${esc(item.name_en || '')}</div><div class="badges">${statusBadges(item)}${item.verification_status !== 'verified' ? '<span class="badge audit-badge">待逐項核實</span>' : ''}</div></div></div>${team.logo_url ? `<img class="team-logo" src="${esc(team.logo_url)}" alt="${esc(team.name_zh)}會徽">` : ''}</header>
+    <div class="content">
+      ${item.verification_status !== 'verified' ? '<div class="notice">此卡由舊版資料遷移，現正按官方身份資料及外部生涯來源逐項審核；空白代表未能可靠核實。</div>' : ''}
+      ${vitalsHtml}
+      ${item.intro ? `<section class="section"><h3>${isManager ? '領隊簡介' : '球員簡介'}</h3><p>${esc(item.intro)}</p></section>` : ''}
       ${renderSeasonStats(item.season_stats)}
       ${honors.length ? `<section class="section"><h3>獎項與主要成就</h3><div class="achievement-grid">${honors.map(h => `<div class="achievement">${esc(h)}</div>`).join('')}</div></section>` : ''}
       ${milestones.length ? `<section class="section"><h3>紀錄與里程碑</h3><ul class="fact-list">${milestones.map(m => `<li>${esc(m)}</li>`).join('')}</ul></section>` : ''}
       ${item.quirky_trivia ? `<section class="section"><h3>背景與趣聞</h3><p>${esc(item.quirky_trivia)}</p></section>` : ''}
-      <section class="section"><h3>生涯履歷（逐季）</h3>${career.length ? `<div class="table-wrap"><table><thead><tr><th>球季</th><th>球會／學校</th><th>聯賽／組別</th><th>上陣</th><th>入球</th><th>身份</th><th>備註</th></tr></thead><tbody>${career.map(row => `<tr><td>${valueOrBlank(row.season || row.period)}</td><td>${valueOrBlank(row.team || row.club)}</td><td>${valueOrBlank(row.competition || row.league || row.category)}</td><td class="numeric">${valueOrBlank(row.appearances)}</td><td class="numeric">${valueOrBlank(row.goals)}</td><td>${valueOrBlank(row.status)}</td><td>${valueOrBlank(row.notes || row.milestone)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="empty">尚未有可核實的生涯履歷。</p>'}</section>
-      ${traits.length ? `<section class="section"><h3>技術及發展資料</h3><ul class="fact-list">${traits.map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>` : ''}
+      <section class="section"><h3>${isManager ? '球員／執教履歷（逐季）' : '生涯履歷（逐季）'}</h3>${career.length ? `<div class="table-wrap"><table><thead><tr><th>球季</th><th>球會／學校</th><th>聯賽／組別</th><th>上陣</th><th>入球</th><th>身份</th><th>備註</th></tr></thead><tbody>${career.map(row => `<tr><td>${valueOrBlank(row.season || row.period)}</td><td>${valueOrBlank(row.team || row.club)}</td><td>${valueOrBlank(row.competition || row.league || row.category)}</td><td class="numeric">${valueOrBlank(row.appearances)}</td><td class="numeric">${valueOrBlank(row.goals)}</td><td>${valueOrBlank(row.status)}</td><td>${valueOrBlank(row.notes || row.milestone)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="empty">尚未有可核實的生涯履歷。</p>'}</section>
+      ${traits.length ? `<section class="section"><h3>${isManager ? '戰術及執教理念' : '技術及發展資料'}</h3><ul class="fact-list">${traits.map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>` : ''}
       ${renderSources(sources)}
     </div>
   </article>`;
