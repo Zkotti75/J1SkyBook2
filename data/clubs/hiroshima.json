@@ -1,147 +1,355 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T18:17:03.949Z",
+  "generated_at": "2026-09-19T11:05:00+09:00",
   "team": {
     "id": "team_hiroshima",
     "type": "team_info",
-    "club": "廣島三箭",
-    "club_en": "Sanfrecce Hiroshima",
-    "logo_url": "logos/japan_sanfrecce-hiroshima.football-logos.cc.svg",
-    "hometown": "廣島縣廣島市",
-    "hometown_population": "1,180,000人",
-    "name_history": "「Sanfrecce」由日文數字「San」（三）與義大利文「Frecce」（箭矢）組合而成，源自廣島戰國大名毛利元就著名的「三矢之訓」典故，象徵團結一致的精神。",
-    "stadium_info": {
-      "name": "EDION PEACE WING HIROSHIMA (愛迪昂和平翼廣島體育場)",
-      "year_built": 2024,
-      "year_renovated": 2024,
-      "capacity": 28520,
-      "geo_location": "廣島縣廣島市中區基町15-1（北緯34.3997°，東經132.4549°）",
-      "interesting_facts": [
-        "2024 年正式啟用的日本最新頂級足球專用體育場，座落於廣島市中心和平紀念公園旁。",
-        "看台與球場草皮極度接近，提供全日本最頂級的視覺臨場感與震撼音響效果。",
-        "球場屋頂採用獨特的翼狀傾斜設計，象徵向世界傳遞和平與希望。"
-      ]
-    },
-    "team_history": "前身為 1938 年成立的東洋工業足球部（後改名馬自達 SC），為 J 聯賽創始「10 俱樂部」（Original Ten）之一。曾於 2012、2013、2015 年三度奪得 J1 聯賽冠軍，以極其精湛的青訓體系與戰術執行力著稱。",
-    "performance_history": [
-      "3次 J1 聯賽冠軍 (2012, 2013, 2015)",
-      "1x J.League 聯賽盃冠軍 (2022)",
-      "4x 日本超級盃冠軍 (2008, 2013, 2014, 2016)"
-    ],
     "slug": "hiroshima",
     "data_key": "廣島三箭",
     "name_zh": "廣島三箭",
     "name_ja": "サンフレッチェ広島",
     "name_en": "Sanfrecce Hiroshima",
+    "club": "廣島三箭",
+    "club_en": "Sanfrecce Hiroshima",
+    "logo_url": "logos/japan_sanfrecce-hiroshima.football-logos.cc.svg",
     "colors": {
       "bg": "#51318f",
-      "text": "#ffffff"
+      "text": "#fff"
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": null,
-    "data_status": "legacy_unverified",
-    "sources": []
+    "roster_as_of": "2026-09-19",
+    "data_status": "verified",
+    "established": 1992,
+    "roots": "前身東洋工業／Mazda足球部，職業化後成為J.League Original 10之一。",
+    "corporation": "株式会社サンフレッチェ広島",
+    "club_color": "Violet",
+    "hometown": "廣島市為核心的廣島縣",
+    "name_history": "Sanfrecce由日語San（三）＋意大利語Frecce（箭）組成，源自毛利元就『三矢之訓』。",
+    "stadium_info": {
+      "name": "EDION PEACE WING HIROSHIMA",
+      "name_zh": "EDION PEACE WING HIROSHIMA",
+      "capacity": 28413,
+      "jleague_match_capacity": 28413,
+      "address": "広島県広島市中区基町15-2-1",
+      "interesting_facts": [
+        "2024啟用的市中心足球專用場。",
+        "球場設計及球會品牌持續連結廣島的和平訊息。"
+      ]
+    },
+    "team_history": "Original 10之一。森保一年代2012、2013、2015三奪J1；2022與2025兩度贏J.League Cup。2024新球場啟用並取得J1第2，2026轉由Bartosch Gaul建立新的高位壓迫體系。",
+    "history_timeline": [
+      {
+        "year": "1993",
+        "event": "J.League Original 10。"
+      },
+      {
+        "year": "2012",
+        "event": "首奪J1。"
+      },
+      {
+        "year": "2013",
+        "event": "J1連霸。"
+      },
+      {
+        "year": "2015",
+        "event": "第三次J1。"
+      },
+      {
+        "year": "2022",
+        "event": "首次J.League Cup冠軍。"
+      },
+      {
+        "year": "2024",
+        "event": "EDION PEACE WING啟用；J1第2。"
+      },
+      {
+        "year": "2025",
+        "event": "第二次J.League Cup冠軍。"
+      },
+      {
+        "year": "2026",
+        "event": "Gaul接任。"
+      }
+    ],
+    "performance_history": [
+      "J1冠軍：2012、2013、2015",
+      "J.League Cup冠軍：2022、2025",
+      "J2冠軍：2008"
+    ],
+    "recent_seasons": [
+      {
+        "season": "2022",
+        "competition": "J1",
+        "finish": "第3"
+      },
+      {
+        "season": "2023",
+        "competition": "J1",
+        "finish": "第3"
+      },
+      {
+        "season": "2024",
+        "competition": "J1",
+        "finish": "第2"
+      },
+      {
+        "season": "2025",
+        "competition": "J1",
+        "finish": "第4／League Cup冠軍"
+      },
+      {
+        "season": "2026/27",
+        "competition": "J1",
+        "finish": "第4（4勝2和1負；截至9/17）"
+      }
+    ],
+    "current_season": {
+      "season": "2026/27",
+      "competition": "J1",
+      "manager": "巴托什・高爾",
+      "matches": 7,
+      "wins": 4,
+      "draws": 2,
+      "losses": 1,
+      "points": 14,
+      "goals_for": 19,
+      "goals_against": 6,
+      "goal_difference": 13,
+      "rank": 4,
+      "as_of": "2026-09-17"
+    },
+    "leadership": {
+      "captain": "佐佐木翔",
+      "vice_captains": [
+        "荒木隼人",
+        "川邊駿"
+      ],
+      "leadership_group": [
+        "大迫敬介"
+      ],
+      "note": "2026百年構想聯賽官方領袖組。"
+    },
+    "roster_notes": [
+      "Current Top Team pool 27人。",
+      "#16志知孝明9月7日完全轉會京都，已移除。",
+      "8月31日#9 Kusini Yengi由Aberdeen FC借用加入。",
+      "舊檔#47–50 Youth二種並非目前regular Top Team roster，已從current player cards移除。"
+    ],
+    "commentary_notes": [
+      "前7輪4勝2和1負、19入6失，得失球差+13。",
+      "9月12日6–1大勝大阪櫻花，鮎川峻帽子戲法。",
+      "球隊訓練公開內容反覆出現丟球後立即切換與高強度sprint，與Gaul戰術語言一致。",
+      "廣島Academy仍是陣容核心來源，大迫、東、中島、小林等不同年代都在一隊。"
+    ],
+    "sources": [
+      {
+        "label": "廣島官方Top Team",
+        "url": "https://www.sanfrecce.co.jp/team/top-players/",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "Gaul就任公告",
+        "url": "https://www.sanfrecce.co.jp/news/team/11797",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "J.League廣島",
+        "url": "https://www.jleague.jp/club/hiroshima/",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verified_at": "2026-09-19",
+    "naming_policy": {
+      "japanese_clubs": "繁中",
+      "japanese_schools": "繁中",
+      "foreign_clubs_and_leagues": "English",
+      "player_display_names": "TVB優先；新外援保留官方英文名。"
+    }
   },
   "manager": {
-    "id": "jleague_hiroshima_hc",
+    "id": "hiroshima_mgr_gaul",
     "club": "廣島三箭",
     "number": "HC",
     "name_zh": "巴托什・高爾",
-    "name_en": "Bartosz Gaul",
+    "name_ja": "バルトシュ・ガウル",
+    "name_en": "Bartosch Gaul",
     "position": "MANAGER",
     "dob": "1987-10-05",
-    "age": 38,
-    "height": 180,
-    "weight": 76,
-    "foot": "右腳",
-    "nationality": "波蘭",
+    "season_start_age": 38,
+    "birthplace": "Poland/Germany",
+    "nationality": "德國／波蘭",
+    "height": null,
+    "weight": null,
+    "foot": "",
     "joined": 2026,
-    "prev_club": "FSV Mainz 05",
-    "registration_status": "教練組",
-    "tenure_status": "執教第1季",
-    "national_team_detail": "無",
-    "intro": "德系德甲青訓體系出身的戰術新星，強調極致的高位逼搶（Gegenpressing）與極速攻防轉化。",
+    "prev_club": "RB Leipzig Academy management",
+    "registration_status": "監督",
+    "registration_tags": [],
+    "tenure_status": "2026就任",
+    "license": "",
+    "national_team_detail": "",
+    "intro": "德國／波蘭背景的年輕監督，20歲左右已在Schalke Academy任教，其後長期於Mainz育成與二隊工作，亦執教Górnik Zabrze。2026接掌廣島，強調高位press、快速轉換及透過反覆訓練建立自動化。",
     "timeline": [
       {
-        "period": "2018–2022",
-        "team": "FSV Mainz 05 II",
-        "category": "德甲梯隊",
-        "milestone": "長期擔任美因茨預備隊主教練，培養多位德甲主力"
+        "period": "2008–2015",
+        "team": "Schalke 04 Academy",
+        "category": "Coach／Youth監督",
+        "milestone": "早期育成教練生涯。"
+      },
+      {
+        "period": "2015–2022",
+        "team": "1. FSV Mainz 05",
+        "category": "Youth／II監督",
+        "milestone": "由育成協調到二隊監督。"
       },
       {
         "period": "2022–2023",
         "team": "Górnik Zabrze",
-        "category": "波超",
-        "milestone": "執教波蘭頂級聯賽豪門 Górnik Zabrze"
+        "category": "監督",
+        "milestone": "首次頂級成人一隊監督。"
       },
       {
-        "period": "2026–至今",
+        "period": "2026–",
         "team": "廣島三箭",
-        "category": "J1領隊",
-        "milestone": "接替帥印執教廣島三箭"
+        "category": "監督",
+        "milestone": "J1新時代。"
       }
     ],
-    "honors": [
-      "德國足協最高級別 Coaching License 執照"
-    ],
+    "honors": [],
     "milestones": [
-      "德系高壓體系的新一代年輕名帥代表"
+      "2025-12獲任命為2026廣島監督。",
+      "2026短期賽季後公開表示球隊靠重複訓練逐步把戰術自動化。",
+      "2026/27前7輪4勝2和1負、14分第4。"
     ],
     "tactical_traits": [
-      "前場全員高位壓迫與即時奪搶",
-      "極度強調轉守為攻 5 秒內的直線攻門"
+      "高位全員press與失球後立即反搶。",
+      "強調訓練重複，把跑位、接應與轉換變成自動反應。",
+      "三後衛結構延續廣島傳統，但球權奪回後更強調直接向前與禁區進入。"
     ],
-    "quirky_trivia": "擁有波蘭與德國雙重背景，戰術風格受美因茨與克洛普體系影響極深。",
-    "legacy_id": "jleague_hiroshima_hc",
-    "official_player_id": null,
-    "team_slug": "hiroshima",
-    "name_ja": "",
-    "birthplace": "",
-    "season_start_age": 38,
-    "player_image": "",
+    "quirky_trivia": "38歲接掌J1強隊，卻已有接近20年教練經驗；他的職涯幾乎由育成年代一步一步做起，而不是退役名將直接轉教練。",
     "career": [
       {
-        "season": "2018–2022",
-        "team": "FSV Mainz 05 II",
-        "competition": "德甲梯隊",
+        "season": null,
+        "team": "Schalke 04 Academy",
+        "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "長期擔任美因茨預備隊主教練，培養多位德甲主力",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Coach／Youth監督",
+        "notes": "2008–15。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Gaul就任公告",
+            "url": "https://www.sanfrecce.co.jp/news/team/11797",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       },
       {
-        "season": "2022–2023",
+        "season": null,
+        "team": "1. FSV Mainz 05",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "Youth coordinator／Youth／II監督",
+        "notes": "2015–22。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Gaul就任公告",
+            "url": "https://www.sanfrecce.co.jp/news/team/11797",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2022/23",
         "team": "Górnik Zabrze",
-        "competition": "波超",
+        "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "執教波蘭頂級聯賽豪門 Górnik Zabrze",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "監督",
+        "notes": "Poland top flight。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Gaul就任公告",
+            "url": "https://www.sanfrecce.co.jp/news/team/11797",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       },
       {
-        "season": "2026–至今",
-        "team": "廣島三箭",
-        "competition": "J1領隊",
+        "season": null,
+        "team": "RB Leipzig Academy",
+        "competition": "教練履歷",
         "appearances": null,
         "goals": null,
-        "status": "",
-        "notes": "接替帥印執教廣島三箭",
-        "verification_status": "legacy_unverified",
-        "sources": []
+        "status": "Management",
+        "notes": "回德國從事育成管理。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Gaul就任公告",
+            "url": "https://www.sanfrecce.co.jp/news/team/11797",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2026",
+        "team": "廣島三箭",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "百年構想聯賽。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Gaul就任公告",
+            "url": "https://www.sanfrecce.co.jp/news/team/11797",
+            "accessed_at": "2026-09-19"
+          }
+        ]
+      },
+      {
+        "season": "2026/27",
+        "team": "廣島三箭",
+        "competition": "教練履歷",
+        "appearances": null,
+        "goals": null,
+        "status": "監督",
+        "notes": "J1／亞洲賽。",
+        "verification_status": "verified",
+        "sources": [
+          {
+            "label": "Gaul就任公告",
+            "url": "https://www.sanfrecce.co.jp/news/team/11797",
+            "accessed_at": "2026-09-19"
+          }
+        ]
       }
     ],
-    "sources": [],
-    "verification_status": "legacy_unverified",
-    "verified_at": null
+    "sources": [
+      {
+        "label": "Gaul就任公告",
+        "url": "https://www.sanfrecce.co.jp/news/team/11797",
+        "accessed_at": "2026-09-19"
+      },
+      {
+        "label": "Gaul就任會見",
+        "url": "https://www.sanfrecce.co.jp/news/team/11899",
+        "accessed_at": "2026-09-19"
+      }
+    ],
+    "verification_status": "verified",
+    "verified_at": "2026-09-19"
   },
   "players": [
     {
-      "id": "jleague_hiroshima_1",
+      "id": "hiroshima_1",
       "club": "廣島三箭",
       "number": "1",
       "name_zh": "大迫敬介",
@@ -158,13 +366,19 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第9季",
       "national_team_detail": "日本國家隊 (8 Caps)",
-      "intro": "日本國家隊頂級門將，身高 190cm 擁有無懈可擊的高空球控制力與門線極限反應力。",
+      "intro": "大迫敬介是廣島2026/27現役GK，背號1。Gaul體系下主要負責高位防線背後管理與出球。",
       "timeline": [
         {
-          "period": "2018–至今",
+          "period": "履歷",
+          "team": "Sanfrecce Hiroshima Youth",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "廣島青年隊升入一隊，迅速接班成為絕對主力門將並入選國家隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -172,14 +386,13 @@
         "1x J.League 聯賽盃冠軍 (2022 [廣島三箭])"
       ],
       "milestones": [
-        "J1 聯賽出場突破 200 場",
-        "日本國家隊常規大國腳"
+        "2026/27列入廣島現役名單（#1）。"
       ],
       "tactical_traits": [
-        "門線前驚人的極限連環撲救",
-        "出擊摘高空球精準度全聯賽頂級"
+        "高位防線背後管理與一對一撲救是門將核心工作。",
+        "Gaul要求由後場開始主動組織，門將腳下第一傳很重要。"
       ],
-      "quirky_trivia": "高中時期便隨廣島 youth 奪得全國青年錦標賽冠軍，被視為球會青訓史上最優秀門將。",
+      "quirky_trivia": "廣島Academy出身、日本代表級門將；由Youth一路成為一隊守門核心，是球會育成最成功的現役案例之一。",
       "legacy_id": "jleague_hiroshima_1",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -189,23 +402,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2018–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Sanfrecce Hiroshima Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "廣島青年隊升入一隊，迅速接班成為絕對主力門將並入選國家隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_3",
+      "id": "hiroshima_3",
       "club": "廣島三箭",
       "number": "3",
       "name_zh": "山崎大地",
@@ -222,32 +482,33 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第4季",
       "national_team_detail": "日本全體育大學選拔",
-      "intro": "廣島青訓純正血統後衛，大學磨練後回歸，身體素質強悍且具備優異的出球能力。",
+      "intro": "山崎大地是廣島2026/27現役DF，背號3。Gaul體系下主要負責三後衛站位、前頂與後場推進。",
       "timeline": [
         {
-          "period": "2019–2022",
+          "period": "履歷",
           "team": "順天堂大學",
-          "category": "大學聯賽",
-          "milestone": "大學期間成為全日本頂級大學生中後衛"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "大學畢業正回歸廣島三箭擔綱防線常規主力"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全日本大學足球錦標賽最佳陣容"
       ],
       "milestones": [
-        "廣島青訓自 Jr Youth 一路培養的嫡系後防"
+        "2026/27列入廣島現役名單（#3）。",
+        "2026-09長期傷缺，仍屬現役註冊。"
       ],
       "tactical_traits": [
-        "正面強硬一對一對抗與卡位",
-        "後場縱深長傳推進"
+        "廣島三後衛體系要求外側中堅主動前頂並能帶球推進。",
+        "丟球後立即counter-press，後衛需在大空間做一對一。"
       ],
-      "quirky_trivia": "出生於廣島縣，從小就是廣島三箭死忠球迷與梯隊隊長。",
+      "quirky_trivia": "9月11日公布重傷、預計長期離場；即使仍在註冊名單，本季實際使用要把傷情算進去。",
       "legacy_id": "jleague_hiroshima_3",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -257,34 +518,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–2022",
+          "season": null,
           "team": "順天堂大學",
-          "competition": "大學聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "大學期間成為全日本頂級大學生中後衛",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "大學畢業正回歸廣島三箭擔綱防線常規主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_4",
+      "id": "hiroshima_4",
       "club": "廣島三箭",
       "number": "4",
       "name_zh": "荒木隼人",
@@ -301,13 +598,19 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第8季",
       "national_team_detail": "日本國家隊 (1 Cap)",
-      "intro": "廣島三箭防線磐石，J1 頂級中後衛，高空球爭頂頭槌支配力極強，定位球進球能力卓著。",
+      "intro": "荒木隼人是廣島2026/27現役DF，背號4。Gaul體系下主要負責三後衛站位、前頂與後場推進。",
       "timeline": [
         {
-          "period": "2019–至今",
+          "period": "履歷",
+          "team": "關西大學",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "關西大學畢業加盟首季即鎖定三中衛核心，出場超 220 場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -316,14 +619,13 @@
         "1x EAFF E-1 足球錦標賽冠軍 (2022)"
       ],
       "milestones": [
-        "J1 聯賽 200 場出場里程碑球員",
-        "廣島三箭後防絕對不動鐵衛"
+        "2026/27列入廣島現役名單（#4）。"
       ],
       "tactical_traits": [
-        "制空權支配級的高空頭槌爭頂",
-        "角球戰術中極具威脅的門前頭槌攻門"
+        "廣島三後衛體系要求外側中堅主動前頂並能帶球推進。",
+        "丟球後立即counter-press，後衛需在大空間做一對一。"
       ],
-      "quirky_trivia": "青年隊時期曾在廣島青年隊受訓，大學畢業後回歸發揮，被譽為「廣島空中要塞」。",
+      "quirky_trivia": "2026百年構想聯賽領袖組副隊長；186cm中堅，是三後衛正面對抗核心。",
       "legacy_id": "jleague_hiroshima_4",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -333,23 +635,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "關西大學",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "關西大學畢業加盟首季即鎖定三中衛核心，出場超 220 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_5",
+      "id": "hiroshima_5",
       "club": "廣島三箭",
       "number": "5",
       "name_zh": "新井直人",
@@ -366,36 +715,30 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第3季",
       "national_team_detail": "無",
-      "intro": "全能型邊後衛/翼衛，具備極強的遠射破門天賦，曾上演驚人的帽子戲法神蹟。",
+      "intro": "新井直人是廣島2026/27現役DF，背號5。Gaul體系下主要負責三後衛站位、前頂與後場推進。",
       "timeline": [
         {
-          "period": "2019–2020",
+          "period": "履歷",
           "team": "新潟天鵝",
-          "category": "J2職業隊",
-          "milestone": "新潟經營大學畢業加盟展現帶球能力"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2021–2023",
-          "team": "大阪櫻花 / 德島 / 新潟",
-          "category": "J1/J2職業隊",
-          "milestone": "征戰 J1 聯賽並成為新潟邊路核心"
-        },
-        {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "轉投廣島三箭，首秀不久即上演帽子戲法"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J1 聯賽史上極少數以邊後衛身份上演帽子戲法的球員"
+        "2026/27列入廣島現役名單（#5）。"
       ],
       "tactical_traits": [
-        "遠距離內切高質量重炮遠射",
-        "左右兩側翼衛的高速折返跑動"
+        "廣島三後衛體系要求外側中堅主動前頂並能帶球推進。",
+        "丟球後立即counter-press，後衛需在大空間做一對一。"
       ],
-      "quirky_trivia": "2024 賽季剛加盟廣島不久便在單場比賽中轟入 3 球上演帽子戲法，震驚日本足壇。",
+      "quirky_trivia": "新井直人的直播觀察點是#5在廣島高位壓迫與快速transition中的角色；Gaul反覆強調透過訓練重複把動作『自動化』。",
       "legacy_id": "jleague_hiroshima_5",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -405,45 +748,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–2020",
+          "season": null,
           "team": "新潟天鵝",
-          "competition": "J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "新潟經營大學畢業加盟展現帶球能力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2021–2023",
-          "team": "大阪櫻花 / 德島 / 新潟",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "征戰 J1 聯賽並成為新潟邊路核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "轉投廣島三箭，首秀不久即上演帽子戲法",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_6",
+      "id": "hiroshima_6",
       "club": "廣島三箭",
       "number": "6",
       "name_zh": "川邊駿",
@@ -460,31 +828,19 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第3季 (二度效力)",
       "national_team_detail": "日本國家隊 (6 Caps / 1 Goal)",
-      "intro": "旅歐多年回流的廣島青訓王者，中場戰術大腦，擁有頂級的後插上射門與傳球節奏掌控力。",
+      "intro": "川邊駿是廣島2026/27現役MF，背號6。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2013–2021",
-          "team": "廣島三箭 / 磐田喜悅",
-          "category": "J1職業隊",
-          "milestone": "青訓升隊，成為廣島隊長並入選日本國家隊"
-        },
-        {
-          "period": "2021–2023",
-          "team": "Grasshoppers / Wolves",
-          "category": "瑞超/英超",
-          "milestone": "加盟英超狼隊並租借瑞士草蜢表現優異"
-        },
-        {
-          "period": "2023–2024",
+          "period": "履歷",
           "team": "Standard Liège",
-          "category": "比甲",
-          "milestone": "效力比利時豪門標準列日打入多球"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2024–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "重返母會廣島三箭掌管中場司令塔"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -492,14 +848,13 @@
         "1x 瑞士超級聯賽最佳陣容候補"
       ],
       "milestones": [
-        "曾簽約英超狼隊的國腳級中場大師",
-        "J1 聯賽出場超過 230 場"
+        "2026/27列入廣島現役名單（#6）。"
       ],
       "tactical_traits": [
-        "極具威脅的中路後插上禁區射門",
-        "大範圍視野的中場攻守調度"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "廣島市本土出身，從小在廣島高陽 FC 與青訓梯隊長大，是球迷心目中的「廣島之子」。",
+      "quirky_trivia": "2026領袖組副隊長；前7輪已有1球1助攻，旅歐回歸後仍是中場節奏核心。",
       "legacy_id": "jleague_hiroshima_6",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -509,56 +864,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2013–2021",
-          "team": "廣島三箭 / 磐田喜悅",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "青訓升隊，成為廣島隊長並入選日本國家隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2021–2023",
-          "team": "Grasshoppers / Wolves",
-          "competition": "瑞超/英超",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "加盟英超狼隊並租借瑞士草蜢表現優異",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2023–2024",
+          "season": null,
           "team": "Standard Liège",
-          "competition": "比甲",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "效力比利時豪門標準列日打入多球",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返母會廣島三箭掌管中場司令塔",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_7",
+      "id": "hiroshima_7",
       "club": "廣島三箭",
       "number": "7",
       "name_zh": "東俊希",
@@ -575,26 +944,32 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第9季",
       "national_team_detail": "日本 U-23 國家隊",
-      "intro": "左路重炮飛翼，左腳死球與傳中技術精湛，能完美勝任左翼衛與中場多重位置。",
+      "intro": "東俊希是廣島2026/27現役MF，背號7。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2018–至今",
+          "period": "履歷",
+          "team": "Sanfrecce Hiroshima Youth",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "青訓升隊，未滿 24 歲即完成 J1 聯賽 200 場出場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x J.League 聯賽盃冠軍 (2022)"
       ],
       "milestones": [
-        "J1 聯賽 200 場最年輕達成者之一"
+        "2026/27列入廣島現役名單（#7）。"
       ],
       "tactical_traits": [
-        "高精度的左腳傳中球與角球進攻",
-        "左路高速下底與肋部重炮遠射"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "18 歲首秀即在 J1 登場，長年佔據廣島左路主力位置。",
+      "quirky_trivia": "廣島Youth直升的左路球員，wing-back與中場都能踢，是三後衛體系長期養成的代表。",
       "legacy_id": "jleague_hiroshima_7",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -604,23 +979,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2018–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Sanfrecce Hiroshima Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青訓升隊，未滿 24 歲即完成 J1 聯賽 200 場出場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_8",
+      "id": "hiroshima_8",
       "club": "廣島三箭",
       "number": "8",
       "name_zh": "川村拓夢",
@@ -637,25 +1059,19 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第2季 (二度效力)",
       "national_team_detail": "日本國家隊 (3 Caps / 1 Goal)",
-      "intro": "旅歐回流的全能左腳重炮中場，身體素質極佳，擁有世界級的超遠距離中場吊射名場面。",
+      "intro": "川村拓夢是廣島2026/27現役MF，背號8。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2018–2024",
-          "team": "廣島三箭 / 愛媛FC",
-          "category": "J1/J2職業隊",
-          "milestone": "廣島青訓出身，外借磨練回歸後爆發並入選日本國家隊"
+          "period": "履歷",
+          "team": "FC Red Bull Salzburg",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2024–2025",
-          "team": "RB Salzburg",
-          "category": "奧超",
-          "milestone": "旅歐加盟奧地利豪門紅牛薩爾斯堡"
-        },
-        {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "重返廣島三箭身披 8 號球衣"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -663,14 +1079,13 @@
         "1x J1 聯賽年度最佳進球賞 (60米超遠吊射)"
       ],
       "milestones": [
-        "日本國家隊大國腳資歷",
-        "奧超豪門紅牛薩爾斯堡留洋經驗"
+        "2026/27列入廣島現役名單（#8）。"
       ],
       "tactical_traits": [
-        "大範圍中場掃蕩與跑動覆蓋",
-        "左腳超級重炮遠射與後插上頭槌"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "曾攻入一記 60 米之外的後場直接吊射破門，獲得全聯賽年度最佳進球。",
+      "quirky_trivia": "由廣島青訓出身、赴FC Red Bull Salzburg後回歸；183cm中場兼具carry與遠射。",
       "legacy_id": "jleague_hiroshima_8",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -680,45 +1095,190 @@
       "player_image": "",
       "career": [
         {
-          "season": "2018–2024",
-          "team": "廣島三箭 / 愛媛FC",
-          "competition": "J1/J2職業隊",
+          "season": null,
+          "team": "FC Red Bull Salzburg",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "廣島青訓出身，外借磨練回歸後爆發並入選日本國家隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2024–2025",
-          "team": "RB Salzburg",
-          "competition": "奧超",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐加盟奧地利豪門紅牛薩爾斯堡",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返廣島三箭身披 8 號球衣",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_10",
+      "name_zh": "Kusini Yengi",
+      "name_ja": "クシニ イェンギ",
+      "name_en": "Kusini Yengi",
+      "position": "FW",
+      "dob": "1999-01-15",
+      "height": 190,
+      "weight": null,
+      "birthplace": "Adelaide, Australia",
+      "nationality": "澳洲",
+      "prev_club": "Aberdeen FC",
+      "registration_status": "期限付き移籍",
+      "id": "hiroshima_9",
+      "club": "廣島三箭",
+      "team_slug": "hiroshima",
+      "number": "9",
+      "season_start_age": 27,
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "Kusini Yengi加盟公告",
+          "url": "https://www.sanfrecce.co.jp/news/team/12780",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "name_source": "TVB主資料庫未覆蓋8月31日新援；保留官方英文名Kusini Yengi。",
+      "intro": "Kusini Yengi是廣島2026/27現役FW，背號9。Gaul體系下主要負責高位壓迫、縱向跑動與禁區終結。",
+      "tactical_traits": [
+        "前鋒不只終結，也要啟動高位press。",
+        "奪回後優先攻擊禁區與身後，以少觸球完成轉換。"
+      ],
+      "milestones": [
+        "2026/27列入廣島現役名單（#9）。"
+      ],
+      "quirky_trivia": "8月31日由Aberdeen FC借用加盟的澳洲國腳中鋒，190cm。曾在Portsmouth踢英格蘭足球，與弟弟Tete Yengi同為職業前鋒。",
+      "career": [
+        {
+          "season": null,
+          "team": "Aberdeen FC",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "Kusini Yengi加盟公告",
+              "url": "https://www.sanfrecce.co.jp/news/team/12780",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "期限付き移籍",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "Kusini Yengi加盟公告",
+              "url": "https://www.sanfrecce.co.jp/news/team/12780",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "period": "履歷",
+          "team": "Aberdeen FC",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
+          "team": "廣島三箭",
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
+        }
+      ],
+      "honors": [],
+      "season_stats": []
+    },
+    {
+      "id": "hiroshima_10",
       "club": "廣島三箭",
       "number": "10",
       "name_zh": "鈴木章斗",
@@ -735,32 +1295,32 @@
       "registration_status": "本國球員",
       "tenure_status": "加盟第1季",
       "national_team_detail": "日本 U-22 國家隊",
-      "intro": "新世代 10 號天才前鋒，阪南大高名門出身，門前跑位極度精準，得分爆發力強。",
+      "intro": "鈴木章斗是廣島2026/27現役FW，背號10。Gaul體系下主要負責高位壓迫、縱向跑動與禁區終結。",
       "timeline": [
         {
-          "period": "2022–2025",
+          "period": "履歷",
           "team": "湘南比馬",
-          "category": "J1職業隊",
-          "milestone": "高中畢業加盟湘南，4 季出場超過 100 場並射入 20+ 球"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "重磅轉投廣島三箭接過 10 號戰袍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "全國高校足球選手權大會神射手 (阪南大高)"
       ],
       "milestones": [
-        "未滿 23 歲即達成 J1 百場登場的新星射手"
+        "2026/27列入廣島現役名單（#10）。"
       ],
       "tactical_traits": [
-        "禁區內極度敏銳的門前搶點與一觸即發射門",
-        "前場高位逼搶的防守執行力"
+        "前鋒不只終結，也要啟動高位press。",
+        "奪回後優先攻擊禁區與身後，以少觸球完成轉換。"
       ],
-      "quirky_trivia": "高中時期單屆高校選手權大會狂轟 7 球打響名堂，被視為日本新一代射手代表。",
+      "quirky_trivia": "湘南出身的年輕前鋒，2026/27前線高press與無球跑動非常符合Gaul足球。",
       "legacy_id": "jleague_hiroshima_10",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -770,34 +1330,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2022–2025",
+          "season": null,
           "team": "湘南比馬",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "高中畢業加盟湘南，4 季出場超過 100 場並射入 20+ 球",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重磅轉投廣島三箭接過 10 號戰袍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_11",
+      "id": "hiroshima_11",
       "club": "廣島三箭",
       "number": "11",
       "name_zh": "加藤陸次樹",
@@ -814,36 +1410,30 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第4季",
       "national_team_detail": "無",
-      "intro": "廣島青訓出品的全能前鋒，跑位勤奮，戰術回撤串聯與前場逼搶貢獻極大。",
+      "intro": "加藤陸次樹是廣島2026/27現役FW，背號11。Gaul體系下主要負責高位壓迫、縱向跑動與禁區終結。",
       "timeline": [
         {
-          "period": "2020",
-          "team": "金澤薩維根",
-          "category": "J2職業隊",
-          "milestone": "中央大學畢業加盟金澤，單季攻入 13 球爆發"
-        },
-        {
-          "period": "2021–2023",
+          "period": "履歷",
           "team": "大阪櫻花",
-          "category": "J1職業隊",
-          "milestone": "加盟櫻花成為主力前鋒征戰 J1"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "重返青訓母會廣島三箭擔綱鋒線要角"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J1/J2 職業生涯進球突破 50 球"
+        "2026/27列入廣島現役名單（#11）。"
       ],
       "tactical_traits": [
-        "高效率的前場高位逼搶壓迫",
-        "聰明的回撤串聯與門前補射"
+        "前鋒不只終結，也要啟動高位press。",
+        "奪回後優先攻擊禁區與身後，以少觸球完成轉換。"
       ],
-      "quirky_trivia": "青年隊時期曾在廣島 youth 訓練，繞經中央大學與金澤後成功以球星身分回歸。",
+      "quirky_trivia": "前7輪2球2助攻，既可做中鋒也可回撤串聯，是目前輸出最均衡前場之一。",
       "legacy_id": "jleague_hiroshima_11",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -853,45 +1443,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020",
-          "team": "金澤薩維根",
-          "competition": "J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "中央大學畢業加盟金澤，單季攻入 13 球爆發",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2021–2023",
+          "season": null,
           "team": "大阪櫻花",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟櫻花成為主力前鋒征戰 J1",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返青訓母會廣島三箭擔綱鋒線要角",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_14",
+      "id": "hiroshima_14",
       "club": "廣島三箭",
       "number": "14",
       "name_zh": "松本泰志",
@@ -908,38 +1523,32 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第2季 (二度效力)",
       "national_team_detail": "日本 U-23 國家隊",
-      "intro": "昌平高校名門出身的全能中場，無球跑位與後插上能力極強，覆蓋範圍極大。",
+      "intro": "松本泰志是廣島2026/27現役MF，背號14。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2017–2024",
-          "team": "廣島 / 福岡 / 櫻花",
-          "category": "J1/J2職業隊",
-          "milestone": "昌平高加盟廣島，外借福岡助其成功升上 J1"
-        },
-        {
-          "period": "2025",
+          "period": "履歷",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "加盟浦和紅鑽征戰一個賽季"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "重返廣島三箭回歸中場線"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x J.League 聯賽盃冠軍 (2022 [廣島三箭])"
       ],
       "milestones": [
-        "J1 聯賽出場超過 140 場"
+        "2026/27列入廣島現役名單（#14）。"
       ],
       "tactical_traits": [
-        "勤奮的大範圍中場攻防折返跑",
-        "後插上攻門與二點球搶點"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "高中時期便隨昌平高打響名堂，戰術執行力深受歷任教練信任。",
+      "quirky_trivia": "松本泰志的直播觀察點是#14在廣島高位壓迫與快速transition中的角色；Gaul反覆強調透過訓練重複把動作『自動化』。",
       "legacy_id": "jleague_hiroshima_14",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -949,45 +1558,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2017–2024",
-          "team": "廣島 / 福岡 / 櫻花",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "昌平高加盟廣島，外借福岡助其成功升上 J1",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2025",
+          "season": null,
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "加盟浦和紅鑽征戰一個賽季",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重返廣島三箭回歸中場線",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_15",
+      "id": "hiroshima_15",
       "club": "廣島三箭",
       "number": "15",
       "name_zh": "中野就斗",
@@ -1004,26 +1638,32 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第4季",
       "national_team_detail": "全日本大學選拔",
-      "intro": "右翼衛與右中後衛雙修的後防大將，身體極度強壯，對抗能力與邊路插上助攻極強。",
+      "intro": "中野就斗是廣島2026/27現役DF，背號15。Gaul體系下主要負責三後衛站位、前頂與後場推進。",
       "timeline": [
         {
-          "period": "2023–至今",
+          "period": "履歷",
+          "team": "桐蔭橫濱大學",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "桐蔭橫濱大畢業加盟，迅速鎖定廣島右路首發，出場超 110 場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x 全日本大學足球錦標賽冠軍 (桐蔭橫濱大)"
       ],
       "milestones": [
-        "大學畢業後連續三個賽季成為 J1 絕對主力的後防超新星"
+        "2026/27列入廣島現役名單（#15）。"
       ],
       "tactical_traits": [
-        "碾壓級的邊路身體對抗與護球",
-        "右路強行插上傳中與後點爭頂"
+        "廣島三後衛體系要求外側中堅主動前頂並能帶球推進。",
+        "丟球後立即counter-press，後衛需在大空間做一對一。"
       ],
-      "quirky_trivia": "大學時期率隊奪得全國冠軍，加盟廣島後第一年就迅速成長為三中衛/右翼衛的核心。",
+      "quirky_trivia": "前7輪2球1助攻；右側中堅／wing-back的前插幅度大，攻守兩端存在感很高。",
       "legacy_id": "jleague_hiroshima_15",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1033,23 +1673,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2023–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "桐蔭橫濱大學",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "桐蔭橫濱大畢業加盟，迅速鎖定廣島右路首發，出場超 110 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_18",
+      "id": "hiroshima_18",
       "club": "廣島三箭",
       "number": "18",
       "name_zh": "菅大輝",
@@ -1066,33 +1753,32 @@
       "registration_status": "本國球員",
       "tenure_status": "加盟第1季",
       "national_team_detail": "日本國家隊 (1 Cap / 1 Goal)",
-      "intro": "左路重炮大炮，長年效力札幌的隊史功勳，左腳遠射力量恐怖，邊路折返體能驚人。",
+      "intro": "菅大輝是廣島2026/27現役MF，背號18。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2016–2025",
-          "team": "札幌岡薩多",
-          "category": "J1/J2職業隊",
-          "milestone": "札幌青訓出身，效力長達 10 年，J1 出場超過 270 場"
+          "period": "履歷",
+          "team": "北海道札幌岡薩多",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "轉投廣島三箭強化左路重炮戰力"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x EAFF E-1 足球錦標賽冠軍 (2019 [日本國家隊])"
       ],
       "milestones": [
-        "J1 聯賽 270+ 場經驗的老牌左飛翼",
-        "日本國家隊首秀即進球"
+        "2026/27列入廣島現役名單（#18）。"
       ],
       "tactical_traits": [
-        "左腳離譜時速的禁區外重炮遠射",
-        "整場比賽永不停歇的邊路折返奔跑"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "大腿肌肉極度發達，其左腳遠射力量在 J 聯賽數一數二。",
+      "quirky_trivia": "菅大輝的直播觀察點是#18在廣島高位壓迫與快速transition中的角色；Gaul反覆強調透過訓練重複把動作『自動化』。",
       "legacy_id": "jleague_hiroshima_18",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1102,34 +1788,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2016–2025",
-          "team": "札幌岡薩多",
-          "competition": "J1/J2職業隊",
+          "season": null,
+          "team": "北海道札幌岡薩多",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "札幌青訓出身，效力長達 10 年，J1 出場超過 270 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "轉投廣島三箭強化左路重炮戰力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_19",
+      "id": "hiroshima_19",
       "club": "廣島三箭",
       "number": "19",
       "name_zh": "佐佐木翔",
@@ -1146,19 +1868,19 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第12季",
       "national_team_detail": "日本國家隊 (15 Caps / 2 Goals)",
-      "intro": "廣島三箭傳奇隊長與後防領袖，J1/J2 出場突破 400 場，防守卡位與精神意志力無可替代。",
+      "intro": "佐佐木翔是廣島2026/27現役DF，背號19。Gaul體系下主要負責三後衛站位、前頂與後場推進。",
       "timeline": [
         {
-          "period": "2012–2014",
+          "period": "履歷",
           "team": "甲府風林",
-          "category": "J1/J2職業隊",
-          "milestone": "神奈川大學畢業加盟甲府成為主力"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2015–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "效力廣島超過 11 年，長期佩戴隊長袖標，率隊奪得 J1 與聯賽盃冠軍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -1168,14 +1890,13 @@
         "1x J1 聯賽最佳陣容 (2022)"
       ],
       "milestones": [
-        "J1 聯賽 360+ 場出場殿堂級成員",
-        "廣島三箭隊史名留青史的功勳隊長"
+        "2026/27列入廣島現役名單（#19）。"
       ],
       "tactical_traits": [
-        "高難度的空搶爭頂與正面一對一防守",
-        "防線無與倫比的精神領袖號召力"
+        "廣島三後衛體系要求外側中堅主動前頂並能帶球推進。",
+        "丟球後立即counter-press，後衛需在大空間做一對一。"
       ],
-      "quirky_trivia": "曾克服重大的膝蓋韌帶重傷成功復出並入選國家隊，是日本足壇極致敬業的楷模。",
+      "quirky_trivia": "2026百年構想聯賽隊長；老將仍是球會後防與更衣室文化象徵。",
       "legacy_id": "jleague_hiroshima_19",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1185,34 +1906,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2012–2014",
+          "season": null,
           "team": "甲府風林",
-          "competition": "J1/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "神奈川大學畢業加盟甲府成為主力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2015–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "效力廣島超過 11 年，長期佩戴隊長袖標，率隊奪得 J1 與聯賽盃冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_21",
+      "id": "hiroshima_21",
       "club": "廣島三箭",
       "number": "21",
       "name_zh": "田中雄大",
@@ -1229,38 +1986,32 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第4季",
       "national_team_detail": "無",
-      "intro": "經驗豐富的副手門將，門線反應穩健，在 J2/J3 積累了近 160 場常規賽經驗。",
+      "intro": "田中雄大是廣島2026/27現役GK，背號21。Gaul體系下主要負責高位防線背後管理與出球。",
       "timeline": [
         {
-          "period": "2018–2019",
-          "team": "相模原SC",
-          "category": "J3職業隊",
-          "milestone": "桐蔭橫濱大畢業加盟相模原"
-        },
-        {
-          "period": "2020–2022",
+          "period": "履歷",
           "team": "秋田藍閃電",
-          "category": "J3/J2職業隊",
-          "milestone": "作為主力門將率秋田在 J3 奪冠升上 J2"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2023–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "加盟廣島三箭擔任防線優秀備頭門將"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x J3 聯賽冠軍 (2020 [秋田藍閃電])"
       ],
       "milestones": [
-        "J2/J3 出場超過 150 場的實力派門將"
+        "2026/27列入廣島現役名單（#21）。"
       ],
       "tactical_traits": [
-        "高效率的門線機敏反應",
-        "防線指揮發號施令"
+        "高位防線背後管理與一對一撲救是門將核心工作。",
+        "Gaul要求由後場開始主動組織，門將腳下第一傳很重要。"
       ],
-      "quirky_trivia": "高中時期就讀青森山田高名門，具備極強的勝利執念與精神力。",
+      "quirky_trivia": "田中雄大的直播觀察點是#21在廣島高位壓迫與快速transition中的角色；Gaul反覆強調透過訓練重複把動作『自動化』。",
       "legacy_id": "jleague_hiroshima_21",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1270,45 +2021,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2018–2019",
-          "team": "相模原SC",
-          "competition": "J3職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "桐蔭橫濱大畢業加盟相模原",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2020–2022",
+          "season": null,
           "team": "秋田藍閃電",
-          "competition": "J3/J2職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "作為主力門將率秋田在 J3 奪冠升上 J2",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟廣島三箭擔任防線優秀備頭門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_22",
+      "id": "hiroshima_22",
       "club": "廣島三箭",
       "number": "22",
       "name_zh": "賀拿",
@@ -1325,31 +2101,19 @@
       "registration_status": "外援名額",
       "tenure_status": "加盟第1季",
       "national_team_detail": "象牙海岸國家隊 (27 Caps / 10 Goals)",
-      "intro": "世界級超級神鋒！曾效力阿積士、韋斯咸與多蒙特，歐聯單季狂轟 11 球，象牙海岸奪非洲盃冠軍英雄。",
+      "intro": "賀拿是廣島2026/27現役FW，背號22。Gaul體系下主要負責高位壓迫、縱向跑動與禁區終結。",
       "timeline": [
         {
-          "period": "2017–2019",
-          "team": "Eintracht Frankfurt",
-          "category": "德甲",
-          "milestone": "與約域治、列比域組成震撼歐洲的法蘭克福三叉戟"
-        },
-        {
-          "period": "2021–2022",
-          "team": "Ajax",
-          "category": "荷甲/歐聯",
-          "milestone": "歐聯分組賽連續 5 場進球爆轟 11 球"
-        },
-        {
-          "period": "2022–2025",
+          "period": "履歷",
           "team": "Borussia Dortmund",
-          "category": "德甲",
-          "milestone": "戰勝癌症重返賽場，率象牙海岸奪得 2023 非洲國家盃冠軍"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "重磅登陸 J1 加盟廣島三箭震撼亞洲足壇"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -1359,14 +2123,13 @@
         "1x 德國盃冠軍 (2018 [法蘭克福])"
       ],
       "milestones": [
-        "歐聯歷史上首位前 6 場分組賽皆有進球的神射手",
-        "J 聯賽史上引進履歷最顯赫的歐洲頂級歐聯級中鋒之一"
+        "2026/27列入廣島現役名單（#22）。"
       ],
       "tactical_traits": [
-        "191cm / 91kg 宗師級巨塔背身拿球與分球",
-        "禁區內極具毀滅性的頭槌與起腳終結"
+        "前鋒不只終結，也要啟動高位press。",
+        "奪回後優先攻擊禁區與身後，以少觸球完成轉換。"
       ],
-      "quirky_trivia": "克服睪丸癌強勢復出並在非洲盃決賽射入致勝球奪冠，是全球足壇無人不知的抗癌勵志英雄。",
+      "quirky_trivia": "Sébastien Haller擁有Bundesliga、Champions League及科特迪瓦國家隊背景，191cm支點讓廣島可直接改變進攻方式。",
       "legacy_id": "jleague_hiroshima_22",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1376,56 +2139,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2017–2019",
-          "team": "Eintracht Frankfurt",
-          "competition": "德甲",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "與約域治、列比域組成震撼歐洲的法蘭克福三叉戟",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2021–2022",
-          "team": "Ajax",
-          "competition": "荷甲/歐聯",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "歐聯分組賽連續 5 場進球爆轟 11 球",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2022–2025",
+          "season": null,
           "team": "Borussia Dortmund",
-          "competition": "德甲",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "戰勝癌症重返賽場，率象牙海岸奪得 2023 非洲國家盃冠軍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "重磅登陸 J1 加盟廣島三箭震撼亞洲足壇",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援名額",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_23",
+      "id": "hiroshima_23",
       "club": "廣島三箭",
       "number": "23",
       "name_zh": "鮎川峻",
@@ -1442,30 +2219,31 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第7季",
       "national_team_detail": "日本 U-20 國家隊",
-      "intro": "靈巧型突擊前鋒，門前嗅覺敏銳，歷經外借大分三神磨練後回歸爭奪鋒線席位。",
+      "intro": "鮎川峻是廣島2026/27現役FW，背號23。Gaul體系下主要負責高位壓迫、縱向跑動與禁區終結。",
       "timeline": [
         {
-          "period": "2020–至今",
-          "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "廣島 youth 升一隊"
+          "period": "履歷",
+          "team": "大分三神",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2023–2025",
-          "team": "大分三神",
-          "category": "J2外借",
-          "milestone": "外借大分攻入超 10 球累積常規賽經驗"
+          "period": "2026/27",
+          "team": "廣島三箭",
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "廣島青訓培養的靈巧型前鋒"
+        "2026/27列入廣島現役名單（#23）。",
+        "2026-09-12對大阪櫻花上演帽子戲法。"
       ],
       "tactical_traits": [
-        "靈敏的門前二點球嗅覺",
-        "前場高位壓迫逼搶"
+        "前鋒不只終結，也要啟動高位press。",
+        "奪回後優先攻擊禁區與身後，以少觸球完成轉換。"
       ],
-      "quirky_trivia": "身材雖然矮小（165cm），但依靠靈敏的跑位常能跑出單刀空檔。",
+      "quirky_trivia": "9月12日6–1大勝大阪櫻花完成帽子戲法，成為本季最爆炸性的單場個人表現之一。",
       "legacy_id": "jleague_hiroshima_23",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1475,34 +2253,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2020–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "大分三神",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "廣島 youth 升一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2023–2025",
-          "team": "大分三神",
-          "competition": "J2外借",
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "外借大分攻入超 10 球累積常規賽經驗",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_29",
+      "id": "hiroshima_29",
       "club": "廣島三箭",
       "number": "29",
       "name_zh": "淺野拓磨",
@@ -1519,31 +2333,19 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第2季 (二度效力)",
       "national_team_detail": "日本國家隊 (53 Caps / 9 Goals)",
-      "intro": "「美洲豹」極速國腳回歸！世界盃絕殺德國的世界級英雄，爆發力與極速反擊能力無人能及。",
+      "intro": "淺野拓磨是廣島2026/27現役FW，背號29。Gaul體系下主要負責高位壓迫、縱向跑動與禁區終結。",
       "timeline": [
         {
-          "period": "2013–2016",
+          "period": "履歷",
+          "team": "RCD Mallorca",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "四日市中央工高加盟廣島，榮獲 J1 最優秀新人賞並奪冠"
-        },
-        {
-          "period": "2016–2021",
-          "team": "Arsenal / Stuttgart / Hannover / Partizan",
-          "category": "英超/德甲/塞超",
-          "milestone": "被溫格相中加盟阿仙奴，旅歐多國表現亮眼"
-        },
-        {
-          "period": "2021–2025",
-          "team": "VfL Bochum / RCD Mallorca",
-          "category": "德甲/西甲",
-          "milestone": "德甲波琴主力，並征戰西甲馬略卡"
-        },
-        {
-          "period": "2026–至今",
-          "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "重磅回歸母會廣島三箭"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -1552,14 +2354,13 @@
         "1x AFC U-23 亞洲盃冠軍 (2016)"
       ],
       "milestones": [
-        "2022 卡塔爾世界盃日本 2-1 逆轉擊敗德國的致勝球英雄",
-        "擁有德甲、西甲、英超合同的頂級極速國腳"
+        "2026/27列入廣島現役名單（#29）。"
       ],
       "tactical_traits": [
-        "瞬間撕裂防線的「美洲豹」閃電啟動爆發力",
-        "反越位單刀與狹小角度爆射破門"
+        "前鋒不只終結，也要啟動高位press。",
+        "奪回後優先攻擊禁區與身後，以少觸球完成轉換。"
       ],
-      "quirky_trivia": "進球後招牌動作為模仿美洲豹張牙舞爪的「Jaguar Pose」，在日本擁有超高人氣。",
+      "quirky_trivia": "日本代表World Cup前鋒回到廣島，速度與身後跑動是反擊武器；夏季亦曾有傷情公告。",
       "legacy_id": "jleague_hiroshima_29",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1569,56 +2370,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2013–2016",
+          "season": null,
+          "team": "RCD Mallorca",
+          "competition": "育成／職業履歷",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "四日市中央工高加盟廣島，榮獲 J1 最優秀新人賞並奪冠",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2016–2021",
-          "team": "Arsenal / Stuttgart / Hannover / Partizan",
-          "competition": "英超/德甲/塞超",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "被溫格相中加盟阿仙奴，旅歐多國表現亮眼",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2021–2025",
-          "team": "VfL Bochum / RCD Mallorca",
-          "competition": "德甲/西甲",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "德甲波琴主力，並征戰西甲馬略卡",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2026–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "重磅回歸母會廣島三箭",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_32",
+      "id": "hiroshima_32",
       "club": "廣島三箭",
       "number": "32",
       "name_zh": "越道草太",
@@ -1635,24 +2450,30 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第4季",
       "national_team_detail": "日本 U-20 國家隊",
-      "intro": "廣島青訓自家培養的右路新星，體能與爆發力優異，一對一突破與傳中極具威脅。",
+      "intro": "越道草太是廣島2026/27現役MF，背號32。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2023–至今",
+          "period": "履歷",
+          "team": "Sanfrecce Hiroshima Youth",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "青訓升隊，未滿 20 歲即在 J1 迎來爆發並出場超 55 場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "廣島青訓本土培育的右路潛力新星"
+        "2026/27列入廣島現役名單（#32）。"
       ],
       "tactical_traits": [
-        "右路強行爆破下底傳中",
-        "覆蓋整條右路邊線的奔跑體能"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "廣島在地出生長大，從小在佐東南 FC 與廣島梯隊接受訓練。",
+      "quirky_trivia": "越道草太的直播觀察點是#32在廣島高位壓迫與快速transition中的角色；Gaul反覆強調透過訓練重複把動作『自動化』。",
       "legacy_id": "jleague_hiroshima_32",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1662,23 +2483,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2023–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Sanfrecce Hiroshima Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青訓升隊，未滿 20 歲即在 J1 迎來爆發並出場超 55 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_33",
+      "id": "hiroshima_33",
       "club": "廣島三箭",
       "number": "33",
       "name_zh": "鹽谷司",
@@ -1695,25 +2563,19 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第6季 (二度效力)",
       "national_team_detail": "日本國家隊 (7 Caps / 1 Goal)",
-      "intro": "傳奇全能後防大師，遠射重炮手，能勝任中後衛與防守中場，世俱盃曾攻破皇家馬德里大門。",
+      "intro": "鹽谷司是廣島2026/27現役DF，背號33。Gaul體系下主要負責三後衛站位、前頂與後場推進。",
       "timeline": [
         {
-          "period": "2012–2017",
-          "team": "水戶 / 廣島三箭",
-          "category": "J1/J2職業隊",
-          "milestone": "加盟廣島建立三連冠王朝並三度入選 J1 最佳陣容"
-        },
-        {
-          "period": "2017–2021",
+          "period": "履歷",
           "team": "Al-Ain FC",
-          "category": "阿聯酋聯賽",
-          "milestone": "征戰中東豪門艾恩，率隊打入 2018 世俱盃決賽並對皇馬進球"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2021–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "回歸廣島三箭，J1 出場突破 270 場"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
@@ -1723,14 +2585,13 @@
         "1x FIFA 世俱盃亞軍 (2018 [艾恩])"
       ],
       "milestones": [
-        "世俱盃決賽對陣皇家馬德里攻入頭槌破門的日本球員",
-        "J1 聯賽出場超過 270 場的傳奇後衛"
+        "2026/27列入廣島現役名單（#33）。"
       ],
       "tactical_traits": [
-        "後場帶球前插發動進攻與重炮遠射",
-        "高難度的防守攔截與制空"
+        "廣島三後衛體系要求外側中堅主動前頂並能帶球推進。",
+        "丟球後立即counter-press，後衛需在大空間做一對一。"
       ],
-      "quirky_trivia": "在中東效力期間深受當地球迷喜愛，其遠射能力被譽為「廣島加農炮」。",
+      "quirky_trivia": "1988年出生仍能在三後衛中擔任出球核心，海外Al Ain經驗與廣島黃金年代記憶兼具。",
       "legacy_id": "jleague_hiroshima_33",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1740,45 +2601,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2012–2017",
-          "team": "水戶 / 廣島三箭",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "加盟廣島建立三連冠王朝並三度入選 J1 最佳陣容",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2017–2021",
+          "season": null,
           "team": "Al-Ain FC",
-          "competition": "阿聯酋聯賽",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "征戰中東豪門艾恩，率隊打入 2018 世俱盃決賽並對皇馬進球",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2021–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "回歸廣島三箭，J1 出場突破 270 場",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_35",
+      "id": "hiroshima_35",
       "club": "廣島三箭",
       "number": "35",
       "name_zh": "中島洋太朗",
@@ -1795,27 +2681,32 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第3季",
       "national_team_detail": "日本 U-19 國家隊",
-      "intro": "廣島青訓出品的日本頂級司令塔天才，傳球視野視野超凡，被譽為日本足壇新一代戰術大腦。",
+      "intro": "中島洋太朗是廣島2026/27現役MF，背號35。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2024–至今",
+          "period": "履歷",
+          "team": "Sanfrecce Hiroshima Youth",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "青訓梯隊提拔，17 歲即在 J1 登場並逐漸成為常規輪換核心"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x AFC U-17 亞洲盃冠軍 (2023 [MVP 最優秀選手賞])"
       ],
       "milestones": [
-        "U-17 亞洲盃 MVP 大獎得主",
-        "廣島青訓新世代技術最高代表"
+        "2026/27列入廣島現役名單（#35）。"
       ],
       "tactical_traits": [
-        "宗師級的中場傳球視野與節奏掌控",
-        "狹小空間內的優雅轉身擺脫"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "父親中島浩司亦曾效力廣島三箭並奪冠，是名副其實的「廣島名門二代」。",
+      "quirky_trivia": "2006年出生的Academy中場，已在J1持續獲分鐘；接球視野與無球跑動是球會重點培育方向。",
       "legacy_id": "jleague_hiroshima_35",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1825,23 +2716,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2024–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Sanfrecce Hiroshima Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青訓梯隊提拔，17 歲即在 J1 登場並逐漸成為常規輪換核心",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_37",
+      "id": "hiroshima_37",
       "club": "廣島三箭",
       "number": "37",
       "name_zh": "金周成",
@@ -1858,33 +2796,32 @@
       "registration_status": "外援名額",
       "tenure_status": "效力第2季",
       "national_team_detail": "韓國國家隊 (2 Caps)",
-      "intro": "韓國現役國腳級左腳中後衛，身高 189 公分，具備極強的高空爭頂與後場出球推進能力。",
+      "intro": "金周成是廣島2026/27現役DF，背號37。Gaul體系下主要負責三後衛站位、前頂與後場推進。",
       "timeline": [
         {
-          "period": "2019–2024",
-          "team": "FC Seoul / 金泉尚武",
-          "category": "K聯賽",
-          "milestone": "FC 首爾青訓出身，成為首爾後防核心並入選韓國國家隊"
+          "period": "履歷",
+          "team": "FC Seoul",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "登陸 J1 加盟廣島三箭擔綱左中衛"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x EAFF E-1 足球錦標賽亞軍 (韓國國家隊)"
       ],
       "milestones": [
-        "韓國成年大國腳資歷",
-        "K 聯賽豪門 FC 首爾隊長級中衛加盟"
+        "2026/27列入廣島現役名單（#37）。"
       ],
       "tactical_traits": [
-        "珍貴的左腳後場精準長傳發動",
-        "正面卡位與高空球對抗"
+        "廣島三後衛體系要求外側中堅主動前頂並能帶球推進。",
+        "丟球後立即counter-press，後衛需在大空間做一對一。"
       ],
-      "quirky_trivia": "身材高大且具備左腳出球屬性，加盟廣島後完美無縫接軌三中衛體系。",
+      "quirky_trivia": "189cm南韓中堅，FC Seoul背景令後防增加制空與亞洲國際賽經驗。",
       "legacy_id": "jleague_hiroshima_37",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1894,34 +2831,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–2024",
-          "team": "FC Seoul / 金泉尚武",
-          "competition": "K聯賽",
+          "season": null,
+          "team": "FC Seoul",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "FC 首爾青訓出身，成為首爾後防核心並入選韓國國家隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "登陸 J1 加盟廣島三箭擔綱左中衛",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "外援名額",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_41",
+      "id": "hiroshima_41",
       "club": "廣島三箭",
       "number": "41",
       "name_zh": "前田直輝",
@@ -1938,45 +2911,32 @@
       "registration_status": "本國球員",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
-      "intro": "左腳內切盤帶魔術師，曾遠赴荷甲聯賽效力，邊路高速內切射門極具破壞力。",
+      "intro": "前田直輝是廣島2026/27現役FW，背號41。Gaul體系下主要負責高位壓迫、縱向跑動與禁區終結。",
       "timeline": [
         {
-          "period": "2012–2021",
-          "team": "東京綠景 / 松本 / 名古屋",
-          "category": "J1/J2職業隊",
-          "milestone": "東京綠景青訓出身，在名古屋白波展現頂級邊鋒實力"
-        },
-        {
-          "period": "2022–2023",
-          "team": "FC Utrecht",
-          "category": "荷超",
-          "milestone": "旅歐加盟荷甲豪門烏德勒支"
-        },
-        {
-          "period": "2024–2025",
+          "period": "履歷",
           "team": "浦和紅鑽",
-          "category": "J1職業隊",
-          "milestone": "回流加盟浦和紅鑽"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2026–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "轉投廣島三箭注入邊路攻擊力"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [
         "1x J.League 聯賽盃冠軍 (2021 [名古屋鯨魚])"
       ],
       "milestones": [
-        "J1/J2 出場超過 300 場的資深翼鋒",
-        "荷甲聯賽留洋經驗"
+        "2026/27列入廣島現役名單（#41）。"
       ],
       "tactical_traits": [
-        "右路高速帶球內切左腳爆射",
-        "狹小空間內的連續踩單車過人"
+        "前鋒不只終結，也要啟動高位press。",
+        "奪回後優先攻擊禁區與身後，以少觸球完成轉換。"
       ],
-      "quirky_trivia": "在荷甲烏德勒支首秀時便不幸重傷，但憑藉強大毅力傷癒復出重返巔峰。",
+      "quirky_trivia": "前田直輝的直播觀察點是#41在廣島高位壓迫與快速transition中的角色；Gaul反覆強調透過訓練重複把動作『自動化』。",
       "legacy_id": "jleague_hiroshima_41",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -1986,56 +2946,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2012–2021",
-          "team": "東京綠景 / 松本 / 名古屋",
-          "competition": "J1/J2職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "東京綠景青訓出身，在名古屋白波展現頂級邊鋒實力",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2022–2023",
-          "team": "FC Utrecht",
-          "competition": "荷超",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "旅歐加盟荷甲豪門烏德勒支",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024–2025",
+          "season": null,
           "team": "浦和紅鑽",
-          "competition": "J1職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "回流加盟浦和紅鑽",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2026–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "轉投廣島三箭注入邊路攻擊力",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_43",
+      "id": "hiroshima_43",
       "club": "廣島三箭",
       "number": "43",
       "name_zh": "小川煌",
@@ -2052,24 +3026,30 @@
       "registration_status": "Homegrown",
       "tenure_status": "加盟第1季",
       "national_team_detail": "無",
-      "intro": "青年隊升上來的 192 公分巨人門將苗子，高空球範圍極大。",
+      "intro": "小川煌是廣島2026/27現役GK，背號43。Gaul體系下主要負責高位防線背後管理與出球。",
       "timeline": [
         {
-          "period": "2026–至今",
+          "period": "履歷",
+          "team": "Sanfrecce Hiroshima Youth",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "由廣島 youth 正式升入一隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "廣島青訓培育成員"
+        "2026/27列入廣島現役名單（#43）。"
       ],
       "tactical_traits": [
-        "高空摘球能力",
-        "門線反應"
+        "高位防線背後管理與一對一撲救是門將核心工作。",
+        "Gaul要求由後場開始主動組織，門將腳下第一傳很重要。"
       ],
-      "quirky_trivia": "身高達到 192cm，是廣島青訓近年身高最高大的門將之一。",
+      "quirky_trivia": "192cm、2007年出生的Academy門將，已正式進入Top Team門將組。",
       "legacy_id": "jleague_hiroshima_43",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -2079,23 +3059,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Sanfrecce Hiroshima Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "由廣島 youth 正式升入一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_45",
+      "id": "hiroshima_45",
       "club": "廣島三箭",
       "number": "45",
       "name_zh": "小林志紋",
@@ -2112,24 +3139,30 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第2季",
       "national_team_detail": "無",
-      "intro": "青訓培育的小巧靈動型中場，控球節奏佳，未滿 18 歲已在 J1 完成首秀。",
+      "intro": "小林志紋是廣島2026/27現役MF，背號45。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2025–至今",
+          "period": "履歷",
+          "team": "Sanfrecce Hiroshima Youth",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "青年隊時期獲得登場機會並升一隊"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "廣島青訓自家培養小將"
+        "2026/27列入廣島現役名單（#45）。"
       ],
       "tactical_traits": [
-        "低重心盤帶過人",
-        "前場短傳串聯"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "廣島福山出身，從小在廣島梯隊體系逐步成長。",
+      "quirky_trivia": "2008年出生Academy中場，已入選日本U-19代表；年齡與一隊註冊形成明顯越級培養。",
       "legacy_id": "jleague_hiroshima_45",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -2139,23 +3172,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2025–至今",
-          "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "season": null,
+          "team": "Sanfrecce Hiroshima Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "青年隊時期獲得登場機會並升一隊",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "Homegrown",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_46",
+      "id": "hiroshima_46",
       "club": "廣島三箭",
       "number": "46",
       "name_zh": "野口蓮斗",
@@ -2172,24 +3252,30 @@
       "registration_status": "2種登錄 / U-21",
       "tenure_status": "青訓隨隊",
       "national_team_detail": "無",
-      "intro": "熊本出身的梯隊中場新星，獲 2 種登錄隨一隊訓練。",
+      "intro": "野口蓮斗是廣島2026/27現役MF，背號46。Gaul體系下主要負責位置交換、反搶與向前連接。",
       "timeline": [
         {
-          "period": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "category": "2種登錄",
-          "milestone": "獲得 2 種登錄隨一隊出征"
+          "period": "履歷",
+          "team": "Sanfrecce Hiroshima Youth",
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
+        },
+        {
+          "period": "2026/27",
+          "team": "廣島三箭",
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "廣島青訓 2種登錄苗子"
+        "2026/27列入廣島現役名單（#46）。"
       ],
       "tactical_traits": [
-        "靈敏的無球跑位",
-        "中場短傳分球"
+        "中場／wing-back需要大量跑動、位置交換與丟球後反搶。",
+        "第二點落下後迅速再組織，是Gaul自動化進攻的重要一環。"
       ],
-      "quirky_trivia": "國小就讀熊本名門 Solresso 熊本，後被廣島青訓挖掘。",
+      "quirky_trivia": "2008年出生Academy中場，2026正式進一隊；訓練中高強度反搶是適應成人足球的重要門檻。",
       "legacy_id": "jleague_hiroshima_46",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -2199,263 +3285,70 @@
       "player_image": "",
       "career": [
         {
-          "season": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "competition": "2種登錄",
+          "season": null,
+          "team": "Sanfrecce Hiroshima Youth",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "獲得 2 種登錄隨一隊出征",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
-      "id": "jleague_hiroshima_47",
-      "club": "廣島三箭",
-      "number": "47",
-      "name_zh": "原湊士",
-      "name_en": "Minato Hara",
-      "position": "MF",
-      "dob": "2008-07-01",
-      "age": 18,
-      "height": 174,
-      "weight": 59,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "Sanfrecce Hiroshima Youth",
-      "registration_status": "2種登錄 / Homegrown",
-      "tenure_status": "青訓隨隊",
-      "national_team_detail": "無",
-      "intro": "岡山出身的青訓中場小將，視野良好，技術紮實。",
-      "timeline": [
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
+        },
         {
-          "period": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "category": "2種登錄",
-          "milestone": "登錄一隊隨隊訓練"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "廣島青訓培育成員"
-      ],
-      "tactical_traits": [
-        "傳接球基本功",
-        "戰術執行力"
-      ],
-      "quirky_trivia": "國小效力 J-Field 岡山，後進入廣島 Jr Youth 培養。",
-      "legacy_id": "jleague_hiroshima_47",
-      "official_player_id": null,
-      "team_slug": "hiroshima",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 18,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "competition": "2種登錄",
+          "season": "2026/27",
+          "team": "廣島三箭",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "登錄一隊隨隊訓練",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "2種登錄 / U-21",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     },
     {
-      "id": "jleague_hiroshima_48",
-      "club": "廣島三箭",
-      "number": "48",
-      "name_zh": "太田大翔",
-      "name_en": "Hiroto Ota",
-      "position": "DF",
-      "dob": "2008-04-08",
-      "age": 18,
-      "height": 182,
-      "weight": 67,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "Sanfrecce Hiroshima Youth",
-      "registration_status": "2種登錄 / U-21",
-      "tenure_status": "青訓隨隊",
-      "national_team_detail": "無",
-      "intro": "高大後防新星，身高 182 公分，具備良好的防守意識。",
-      "timeline": [
-        {
-          "period": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "category": "2種登錄",
-          "milestone": "獲 2 種登錄資格進入一隊名冊"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "廣島青訓後防儲備"
-      ],
-      "tactical_traits": [
-        "正面防守對抗",
-        "高空球卡位"
-      ],
-      "quirky_trivia": "出身熊本，同樣來自熊本名門 Solresso 體系。",
-      "legacy_id": "jleague_hiroshima_48",
-      "official_player_id": null,
-      "team_slug": "hiroshima",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 18,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "competition": "2種登錄",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "獲 2 種登錄資格進入一隊名冊",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
-      "id": "jleague_hiroshima_49",
-      "club": "廣島三箭",
-      "number": "49",
-      "name_zh": "森井莉人",
-      "name_en": "Leedo Morii",
-      "position": "DF",
-      "dob": "2009-01-17",
-      "age": 17,
-      "height": 194,
-      "weight": 71,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "Sanfrecce Hiroshima Youth",
-      "registration_status": "2種登錄 / U-21",
-      "tenure_status": "青訓隨隊",
-      "national_team_detail": "無",
-      "intro": "年僅 17 歲已高達 194 公分的震撼巨人中後衛，廣島青訓未來基石。",
-      "timeline": [
-        {
-          "period": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "category": "2種登錄",
-          "milestone": "以 17 歲之齡獲一隊 2 種登錄"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "廣島青訓史上身高最高的青訓中衛之一 (194cm)"
-      ],
-      "tactical_traits": [
-        "離譜的高空球絕對控制",
-        "長腿攔截防守"
-      ],
-      "quirky_trivia": "從廣島 Jr 到 Jr Youth 一路長大，17 歲身高便達 194cm，備受日本足壇關注。",
-      "legacy_id": "jleague_hiroshima_49",
-      "official_player_id": null,
-      "team_slug": "hiroshima",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 17,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "competition": "2種登錄",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "以 17 歲之齡獲一隊 2 種登錄",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
-      "id": "jleague_hiroshima_50",
-      "club": "廣島三箭",
-      "number": "50",
-      "name_zh": "髙橋成海",
-      "name_en": "Narumi Takahashi",
-      "position": "FW",
-      "dob": "2009-05-17",
-      "age": 17,
-      "height": 187,
-      "weight": 75,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "Sanfrecce Hiroshima Youth",
-      "registration_status": "2種登錄 / U-21",
-      "tenure_status": "青訓隨隊",
-      "national_team_detail": "無",
-      "intro": "187 公分高大新星前鋒，德島青訓出身後進入廣島 youth，具備優異的支點作用。",
-      "timeline": [
-        {
-          "period": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "category": "2種登錄",
-          "milestone": "獲一隊 2 種登錄名額"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "廣島青訓高大前鋒儲備"
-      ],
-      "tactical_traits": [
-        "頭槌爭頂護球",
-        "禁區內門前搶點"
-      ],
-      "quirky_trivia": "國小與國中時期皆效力德島漩渦梯隊，高中後轉入廣島 youth 發展。",
-      "legacy_id": "jleague_hiroshima_50",
-      "official_player_id": null,
-      "team_slug": "hiroshima",
-      "name_ja": "",
-      "birthplace": "",
-      "season_start_age": 17,
-      "player_image": "",
-      "career": [
-        {
-          "season": "2026–至今",
-          "team": "廣島三箭 U-18",
-          "competition": "2種登錄",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "獲一隊 2 種登錄名額",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        }
-      ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
-    },
-    {
-      "id": "jleague_hiroshima_99",
+      "id": "hiroshima_99",
       "club": "廣島三箭",
       "number": "99",
       "name_zh": "大內一生",
@@ -2472,36 +3365,30 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第2季",
       "national_team_detail": "無",
-      "intro": "意大利出生混血門將，橫濱 FC 青訓出身，在 J3 聯賽累積超過 130 場常規賽戰功。",
+      "intro": "大內一生是廣島2026/27現役GK，背號99。Gaul體系下主要負責高位防線背後管理與出球。",
       "timeline": [
         {
-          "period": "2019–2023",
-          "team": "橫濱FC / YS橫濱 / 長野",
-          "category": "J2/J3職業隊",
-          "milestone": "橫濱 FC 青訓升隊，外借 J3 多隊擔任主力門將"
-        },
-        {
-          "period": "2024",
+          "period": "履歷",
           "team": "松本山雅FC",
-          "category": "J3職業隊",
-          "milestone": "作為松本主力門將發揮出色"
+          "category": "育成／職業履歷",
+          "milestone": "主要前度／育成路線；逐季數字未完整核對者不推算。"
         },
         {
-          "period": "2025–至今",
+          "period": "2026/27",
           "team": "廣島三箭",
-          "category": "J1職業隊",
-          "milestone": "加盟廣島三箭身披 99 號戰袍"
+          "category": "J1",
+          "milestone": "資料截至2026-09-19。"
         }
       ],
       "honors": [],
       "milestones": [
-        "J3 聯賽 130+ 場登場的實力派門將"
+        "2026/27列入廣島現役名單（#99）。"
       ],
       "tactical_traits": [
-        "門線門前反應敏捷",
-        "高空出擊對抗"
+        "高位防線背後管理與一對一撲救是門將核心工作。",
+        "Gaul要求由後場開始主動組織，門將腳下第一傳很重要。"
       ],
-      "quirky_trivia": "出生於義大利，母親為義大利人，擁有獨特的混血背景與門將天賦。",
+      "quirky_trivia": "大內一生的直播觀察點是#99在廣島高位壓迫與快速transition中的角色；Gaul反覆強調透過訓練重複把動作『自動化』。",
       "legacy_id": "jleague_hiroshima_99",
       "official_player_id": null,
       "team_slug": "hiroshima",
@@ -2511,42 +3398,67 @@
       "player_image": "",
       "career": [
         {
-          "season": "2019–2023",
-          "team": "橫濱FC / YS橫濱 / 長野",
-          "competition": "J2/J3職業隊",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "橫濱 FC 青訓升隊，外借 J3 多隊擔任主力門將",
-          "verification_status": "legacy_unverified",
-          "sources": []
-        },
-        {
-          "season": "2024",
+          "season": null,
           "team": "松本山雅FC",
-          "competition": "J3職業隊",
+          "competition": "育成／職業履歷",
           "appearances": null,
           "goals": null,
           "status": "",
-          "notes": "作為松本主力門將發揮出色",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "notes": "主要前度／育成路線；逐季數字未完整核對者不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         },
         {
-          "season": "2025–至今",
+          "season": "2026/27",
           "team": "廣島三箭",
-          "competition": "J1職業隊",
+          "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "加盟廣島三箭身披 99 號戰袍",
-          "verification_status": "legacy_unverified",
-          "sources": []
+          "status": "本國球員",
+          "notes": "資料截至2026-09-19。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方Top Team",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/",
+              "accessed_at": "2026-09-19"
+            },
+            {
+              "label": "J.League廣島",
+              "url": "https://www.jleague.jp/club/hiroshima/",
+              "accessed_at": "2026-09-19"
+            }
+          ]
         }
       ],
-      "sources": [],
-      "verification_status": "legacy_unverified",
-      "verified_at": null
+      "sources": [
+        {
+          "label": "廣島官方Top Team",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/",
+          "accessed_at": "2026-09-19"
+        },
+        {
+          "label": "J.League廣島",
+          "url": "https://www.jleague.jp/club/hiroshima/",
+          "accessed_at": "2026-09-19"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-09-19",
+      "registration_tags": [],
+      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "season_stats": []
     }
   ]
 }
