@@ -120,6 +120,21 @@ h1 span { color: var(--muted); font-weight: 600; }
 .section { margin-top: 24px; }
 .section h3 { margin: 0 0 10px; color: var(--accent); font-size: 1rem; }
 .section p { margin: 0; color: #d4dbea; line-height: 1.65; }
+.section-meta { margin: -4px 0 10px; color: var(--muted); font-size: .76rem; }
+.metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 8px; }
+.metric-card, .story-card, .interview-card { padding: 11px 13px; background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; }
+.metric-card label, .metric-card span { display: block; color: var(--muted); font-size: .7rem; }
+.metric-card strong { display: block; margin: 3px 0; color: var(--text); font-size: 1.12rem; }
+.analysis-list { margin-top: 12px; }
+.story-grid, .interview-list { display: grid; gap: 8px; }
+.story-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+.story-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; color: var(--muted); font-size: .7rem; }
+.story-meta a { color: var(--accent); }
+.interview-card blockquote { margin: 10px 0; padding-left: 12px; color: #fff3c4; border-left: 3px solid var(--gold); font-size: 1rem; line-height: 1.55; }
+.interview-card details { margin: 8px 0; color: var(--muted); font-size: .78rem; }
+.interview-card .source-link { display: inline-block; margin-top: 10px; }
+.match-week { padding: 14px; background: rgba(56,189,248,.05); border: 1px solid rgba(56,189,248,.25); border-radius: 9px; }
+.selection-note { margin: 8px 0 10px; }
 .achievement-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; }
 .achievement { padding: 11px 13px; color: #fff3c4; background: rgba(246,173,40,.08); border-left: 3px solid var(--gold); border-radius: 5px; line-height: 1.45; }
 .fact-list { margin: 0; padding-left: 1.25rem; color: #d4dbea; line-height: 1.55; }
@@ -144,6 +159,8 @@ td.numeric { width: 58px; text-align: center; }
   .sidebar { height: calc(100vh - 136px); }
   .vitals { grid-template-columns: repeat(2, minmax(0,1fr)); }
   .achievement-grid { grid-template-columns: 1fr; }
+  .metric-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .story-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 650px) {

@@ -1,0 +1,48 @@
+{
+  "analytics": {
+    "competition": "J1 2026/27",
+    "as_of": "2026-09-26",
+    "minutes": 900,
+    "metrics": [
+      { "label": "預期入球", "value": 5.4, "per90": 0.54, "percentile": 88, "unit": "xG" }
+    ],
+    "insights": [
+      { "text": "例：入球威脅主要來自禁區中央；必須由所列數據來源支持。" }
+    ],
+    "sources": [
+      { "label": "數據供應者", "url": "https://example.com/player", "accessed_at": "2026-09-26" }
+    ]
+  },
+  "trivia": [
+    {
+      "text": "例：球衣號碼由來。",
+      "reliability": "confirmed",
+      "source": { "label": "球員訪問", "url": "https://example.com/interview", "published_at": "2026-09-22" }
+    }
+  ],
+  "recent_interviews": [
+    {
+      "published_at": "2026-09-22",
+      "interview_date": "2026-09-21",
+      "outlet": "媒體名稱",
+      "context": "賽前訪問",
+      "quote_type": "direct",
+      "quote_ja": "日本語の原文。",
+      "quote_zh": "繁體中文忠實翻譯。",
+      "paraphrase_zh": "適合直播使用、但不冒充直接引語的重點。",
+      "url": "https://example.com/interview"
+    }
+  ],
+  "match_week": {
+    "fixture_date": "2026-09-26",
+    "opponent": "對手",
+    "as_of": "2026-09-25",
+    "selection_status": "預計正選／上陣成疑／停賽等；必須有來源。",
+    "recent_form": ["近五場角色及數據。"],
+    "matchup_notes": ["可能直接對位及戰術重點。"],
+    "milestones": ["即將達成的里程碑。"],
+    "sources": [
+      { "label": "賽前來源", "url": "https://example.com/preview", "accessed_at": "2026-09-25" }
+    ]
+  }
+}

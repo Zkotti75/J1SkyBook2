@@ -118,6 +118,47 @@ function renderSeasonStats(stats = []) {
   return `<section class="section"><h3>近季數據比較</h3><div class="table-wrap"><table class="stats-table"><thead><tr><th>球季</th><th>賽事</th><th>上陣</th><th>入球</th><th>助攻</th><th>分鐘</th><th>資料截至</th></tr></thead><tbody>${stats.map(row => `<tr><td>${valueOrBlank(row.season)}</td><td>${valueOrBlank(row.competition)}</td><td class="numeric">${valueOrBlank(row.appearances)}</td><td class="numeric">${valueOrBlank(row.goals)}</td><td class="numeric">${valueOrBlank(row.assists)}</td><td class="numeric">${valueOrBlank(row.minutes)}</td><td>${valueOrBlank(row.as_of)}</td></tr>`).join('')}</tbody></table></div></section>`;
 }
 
+function renderAnalytics(analytics) {
+  if (!analytics || (!analytics.metrics?.length && !analytics.insights?.length)) return '';
+  const metrics = analytics.metrics || [];
+  const insights = analytics.insights || [];
+  return `<section class="section"><h3>進階數據分析</h3>
+    <div class="section-meta">${esc(analytics.competition || '賽事未註明')} · 資料截至 ${valueOrBlank(analytics.as_of)}${analytics.minutes != null ? ` · 樣本 ${esc(analytics.minutes)} 分鐘` : ''}</div>
+    ${metrics.length ? `<div class="metric-grid">${metrics.map(metric => `<div class="metric-card"><label>${esc(metric.label)}</label><strong>${valueOrBlank(metric.value)}${metric.unit ? ` ${esc(metric.unit)}` : ''}</strong>${metric.per90 != null ? `<span>每90分鐘 ${esc(metric.per90)}</span>` : ''}${metric.percentile != null ? `<span>同位置第 ${esc(metric.percentile)} 百分位</span>` : ''}</div>`).join('')}</div>` : ''}
+    ${insights.length ? `<ul class="fact-list analysis-list">${insights.map(insight => `<li>${esc(typeof insight === 'string' ? insight : insight.text)}</li>`).join('')}</ul>` : ''}
+    ${renderSources(analytics.sources)}
+  </section>`;
+}
+
+function renderTrivia(trivia = []) {
+  const rows = Array.isArray(trivia) ? trivia : [];
+  if (!rows.length) return '';
+  const labels = { confirmed: '直接確認', reported: '媒體報道', anecdotal: '軼聞' };
+  return `<section class="section"><h3>背景與趣聞</h3><div class="story-grid">${rows.map(row => {
+    const item = typeof row === 'string' ? { text: row, reliability: 'anecdotal' } : row;
+    const source = item.source?.url ? `<a href="${esc(item.source.url)}" target="_blank" rel="noopener">來源</a>` : '';
+    return `<div class="story-card"><p>${esc(item.text)}</p><div class="story-meta"><span>${esc(labels[item.reliability] || '來源待分類')}</span>${source}</div></div>`;
+  }).join('')}</div></section>`;
+}
+
+function renderInterviews(interviews = []) {
+  if (!interviews.length) return '';
+  return `<section class="section"><h3>最近一週發言</h3><div class="interview-list">${interviews.map(item => `<article class="interview-card">
+    <div class="story-meta"><span>${valueOrBlank(item.published_at)}</span><span>${esc(item.outlet || '')}</span><span>${esc(item.context || '')}</span></div>
+    ${item.quote_zh ? `<blockquote>「${esc(item.quote_zh)}」</blockquote>` : ''}
+    ${item.quote_ja ? `<details><summary>查看日文原句</summary><p lang="ja">${esc(item.quote_ja)}</p></details>` : ''}
+    ${item.paraphrase_zh ? `<p><strong>直播重點：</strong>${esc(item.paraphrase_zh)}</p>` : ''}
+    ${item.url ? `<a class="source-link" href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.outlet || '訪問來源')}</a>` : ''}
+  </article>`).join('')}</div></section>`;
+}
+
+function renderMatchWeek(matchWeek) {
+  if (!matchWeek) return '';
+  const notes = [...(matchWeek.recent_form || []), ...(matchWeek.matchup_notes || []), ...(matchWeek.milestones || [])];
+  if (!notes.length && !matchWeek.selection_status) return '';
+  return `<section class="section match-week"><h3>賽前更新</h3><div class="section-meta">${esc(matchWeek.opponent || '對手待定')} · ${valueOrBlank(matchWeek.fixture_date)} · 更新 ${valueOrBlank(matchWeek.as_of)}</div>${matchWeek.selection_status ? `<div class="notice selection-note">${esc(matchWeek.selection_status)}</div>` : ''}${notes.length ? `<ul class="fact-list">${notes.map(note => `<li>${esc(note)}</li>`).join('')}</ul>` : ''}${renderSources(matchWeek.sources)}</section>`;
+}
+
 function renderTeam(data) {
   const t = data.team;
   const stadium = t.stadium_info || {};
@@ -190,10 +231,14 @@ function renderPerson(data, item) {
       ${item.verification_status !== 'verified' ? '<div class="notice">此卡由舊版資料遷移，現正按官方身份資料及外部生涯來源逐項審核；空白代表未能可靠核實。</div>' : ''}
       ${vitalsHtml}
       ${item.intro ? `<section class="section"><h3>${isManager ? '領隊簡介' : '球員簡介'}</h3><p>${esc(item.intro)}</p></section>` : ''}
+      ${renderMatchWeek(item.match_week)}
+      ${renderInterviews(item.recent_interviews)}
       ${renderSeasonStats(item.season_stats)}
+      ${renderAnalytics(item.analytics)}
       ${honors.length ? `<section class="section"><h3>獎項與主要成就</h3><div class="achievement-grid">${honors.map(h => `<div class="achievement">${esc(h)}</div>`).join('')}</div></section>` : ''}
       ${milestones.length ? `<section class="section"><h3>紀錄與里程碑</h3><ul class="fact-list">${milestones.map(m => `<li>${esc(m)}</li>`).join('')}</ul></section>` : ''}
-      ${item.quirky_trivia ? `<section class="section"><h3>背景與趣聞</h3><p>${esc(item.quirky_trivia)}</p></section>` : ''}
+      ${renderTrivia(item.trivia)}
+      ${!item.trivia?.length && item.quirky_trivia ? `<section class="section"><h3>背景與趣聞</h3><p>${esc(item.quirky_trivia)}</p></section>` : ''}
       <section class="section"><h3>${isManager ? '球員／執教履歷（逐季）' : '生涯履歷（逐季）'}</h3>${career.length ? `<div class="table-wrap"><table><thead><tr><th>球季</th><th>球會／學校</th><th>聯賽／組別</th><th>上陣</th><th>入球</th><th>身份</th><th>備註</th></tr></thead><tbody>${career.map(row => `<tr><td>${valueOrBlank(row.season || row.period)}</td><td>${valueOrBlank(row.team || row.club)}</td><td>${valueOrBlank(row.competition || row.league || row.category)}</td><td class="numeric">${valueOrBlank(row.appearances)}</td><td class="numeric">${valueOrBlank(row.goals)}</td><td>${valueOrBlank(row.status)}</td><td>${valueOrBlank(row.notes || row.milestone)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="empty">尚未有可核實的生涯履歷。</p>'}</section>
       ${traits.length ? `<section class="section"><h3>${isManager ? '戰術及執教理念' : '技術及發展資料'}</h3><ul class="fact-list">${traits.map(t => `<li>${esc(t)}</li>`).join('')}</ul></section>` : ''}
       ${renderSources(sources)}

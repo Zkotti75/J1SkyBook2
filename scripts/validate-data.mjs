@@ -1,11 +1,13 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { auditClub } from './audit-club.mjs';
 
 const strict = process.argv.includes('--strict');
 const clubArg = process.argv.find(arg => arg.startsWith('--club='));
 const clubSlug = clubArg ? clubArg.slice('--club='.length) : null;
 const errors = [];
 const warnings = [];
+const auditSummaries = [];
 const requiredCareerKeys = ['season', 'team', 'competition', 'appearances', 'goals', 'status', 'notes'];
 
 const manifest = JSON.parse(await readFile(resolve('data/teams.json'), 'utf8'));
@@ -43,6 +45,9 @@ for (const listed of selectedTeams) {
       if (/[–—-].*\d{4}|至今|present/i.test(row.season || '')) warnings.push(`${listed.slug} manager career row ${index + 1}: season is not a single-season entry (${row.season}).`);
     }
   }
+  const audit = auditClub(data);
+  auditSummaries.push({ club: listed.slug, players: data.players?.length || 0, blockers: audit.blockers.length, coverage: audit.coverage.length });
+  for (const finding of audit.blockers) (strict ? errors : warnings).push(finding);
   if (!(data.players || []).length) warnings.push(`${listed.slug}: roster has not been added.`);
 
   const numbers = new Set();
@@ -67,6 +72,8 @@ for (const listed of selectedTeams) {
 
 console.log(`Validated ${selectedTeams.length} club file${selectedTeams.length === 1 ? '' : 's'}${clubSlug ? ` (${clubSlug})` : ''}.`);
 console.log(`${errors.length} error(s), ${warnings.length} warning(s).`);
+console.log('Club audit: ' + auditSummaries.map(s => `${s.club} ${s.players} players / ${s.blockers} blockers / ${s.coverage} coverage gaps`).join('; '));
+console.log('Coverage gaps (missing figures or images) are reported separately and are not inferred.');
 for (const line of errors) console.error(`ERROR: ${line}`);
 for (const line of warnings.slice(0, 100)) console.warn(`WARN: ${line}`);
 if (warnings.length > 100) console.warn(`WARN: ${warnings.length - 100} additional warning(s) omitted.`);
