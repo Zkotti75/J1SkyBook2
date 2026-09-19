@@ -58,8 +58,10 @@ export function auditClub(data, { asOf } = {}) {
       // A null year is an explicit unresolved career period, even if the club is known.
       if (row.season == null || row.season === '') add(blockers, rowRef, 'season unresolved');
       if (row.verification_status === 'verified' && !sourceList(row.sources)) add(blockers, rowRef, 'verified row has no linked source');
-      if (row.appearances == null) add(coverage, rowRef, 'appearances not established');
-      if (row.goals == null) add(coverage, rowRef, 'goals not established');
+      // Coaching history does not have player appearances or goals. Keeping the
+      // shared row shape is useful, but null manager figures are not coverage gaps.
+      if (person !== data.manager && row.appearances == null) add(coverage, rowRef, 'appearances not established');
+      if (person !== data.manager && row.goals == null) add(coverage, rowRef, 'goals not established');
     }
   }
   if (asOf && data.team?.current_season?.as_of < asOf) add(freshness, 'team', `current season statistics last checked ${data.team.current_season.as_of}`);
