@@ -8,6 +8,7 @@ const find = input => manifest.teams.find(t => [t.slug, t.name_zh, t.name_ja, t.
 const home = find(args.home);
 const away = find(args.away);
 const date = args.date;
+const interviewCutoff = (() => { const d = new Date(`${date}T00:00:00Z`); d.setUTCDate(d.getUTCDate() - 7); return d.toISOString().slice(0, 10); })();
 if (!home || !away || home.slug === away.slug || !isDate(date)) {
   console.error('Usage: npm run match:prep -- --home=fc-tokyo --away=machida --date=2026-09-26 [--format=json]');
   console.error('Use distinct club slugs or exact Chinese, Japanese or English names, and an ISO match date.');
@@ -21,6 +22,9 @@ async function prepare(listed) {
   const players = data.players || [];
   const stalePlayers = players.filter(p => !isDate(p.verified_at) || p.verified_at < date);
   const statsMissing = players.filter(p => !(p.season_stats || []).some(s => s.season === '2026/27' && s.as_of >= date));
+  const analyticsMissing = players.filter(p => !p.analytics?.as_of || p.analytics.as_of < interviewCutoff);
+  const interviewsToSearch = players.filter(p => !(p.recent_interviews || []).some(i => i.published_at >= interviewCutoff && i.published_at <= date));
+  const matchWeekMissing = players.filter(p => p.match_week?.fixture_date !== date);
   return {
     slug: listed.slug, name: listed.name_zh, season,
     roster_as_of: data.team.roster_as_of || null,
@@ -28,6 +32,9 @@ async function prepare(listed) {
     player_count: players.length,
     stale_players: stalePlayers.map(p => `#${p.number} ${p.name_zh}`),
     current_stats_to_check: statsMissing.map(p => `#${p.number} ${p.name_zh}`),
+    analytics_to_check: analyticsMissing.map(p => `#${p.number} ${p.name_zh}`),
+    interviews_to_search: interviewsToSearch.map(p => `#${p.number} ${p.name_zh}`),
+    match_week_to_prepare: matchWeekMissing.map(p => `#${p.number} ${p.name_zh}`),
     ...audit,
   };
 }
@@ -46,6 +53,9 @@ else {
     if (c.freshness.length) console.log('Freshness: ' + c.freshness.join('; '));
     console.log(`Profiles to recheck (${c.stale_players.length}): ${c.stale_players.join(', ') || 'none'}`);
     console.log(`Current season stats to check (${c.current_stats_to_check.length}): ${c.current_stats_to_check.join(', ') || 'none'}`);
+    console.log(`Advanced analytics to refresh (${c.analytics_to_check.length}): ${c.analytics_to_check.join(', ') || 'none'}`);
+    console.log(`Past-seven-day interviews to search (${c.interviews_to_search.length}): ${c.interviews_to_search.join(', ') || 'none'}`);
+    console.log(`Match-week notes to prepare (${c.match_week_to_prepare.length}): ${c.match_week_to_prepare.join(', ') || 'none'}`);
     console.log(`First strict blockers (${Math.min(10,c.blockers.length)}): ${c.blockers.slice(0,10).join('; ') || 'none'}`);
   }
   console.log('\nOnce both club files are updated, run npm run validate:strict. Keep unresolved career periods visible in the audit report.');
