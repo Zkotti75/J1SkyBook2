@@ -445,7 +445,7 @@
     {
       "id": "chiba-10",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 6,
       "players": [
         {
@@ -470,12 +470,16 @@
           "weight": 2
         }
       ],
-      "started_at": null,
+      "started_at": "2026-09-26",
       "completed_at": null,
       "notes": [
         {
           "date": "2026-09-26",
           "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        },
+        {
+          "date": "2026-09-26",
+          "text": "Hall lacks a third independently observed tactical trait; academy state-league seasons have only combined 2019–21 statistics. Hidaka and Erison pass."
         }
       ]
     }
