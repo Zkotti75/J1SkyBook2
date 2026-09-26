@@ -26,7 +26,7 @@ For players with limited public coverage, document what was searched and leave t
 - `scripts/migrate-legacy.mjs`: one-time compatibility migration from the original database.
 - `scripts/validate-data.mjs`: structural and coverage checks.
 
-Run `npm test` before publishing. The existing J1SkyBook repository remains the live fallback until this rebuild is fully audited.
+Run `npm test` before publishing. Publish completed, validated changes to `main` after each batch or correction so the GitHub Pages website updates promptly; unfinished players and batches retain their research-incomplete states. The existing J1SkyBook repository remains a separate fallback.
 
 Research method and remediation order are documented in [`docs/PLAYER_RESEARCH_PLAYBOOK.md`](docs/PLAYER_RESEARCH_PLAYBOOK.md) and [`docs/RESEARCH_ROADMAP.md`](docs/RESEARCH_ROADMAP.md).
 

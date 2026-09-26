@@ -26,6 +26,7 @@ Use `$skybook-player-research` for player-card research, batch execution, audits
 
 ## Batch rules
 
+- Publish completed, validated changes to `main` so GitHub Pages updates the website after each batch or correction. The user has authorized live publishing of ongoing SkyBook work. Check the Pages deployment result and provide the website URL for review. A completed player batch can go live while other batches remain open; retain accurate per-card and queue verification states.
 - Work on exactly one assigned batch. Do not continue into the next batch automatically.
 - Run `npm run research:next` to see the next unclaimed batch.
 - Run `npm run research:start -- --batch=<id>` before editing.
