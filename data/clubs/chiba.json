@@ -2297,7 +2297,7 @@
       "birthplace": "巴西",
       "height": 170,
       "weight": 69,
-      "foot": "",
+      "foot": "右腳",
       "nationality": "巴西",
       "joined": 2024,
       "prev_club": "磐田山葉",
@@ -2305,7 +2305,7 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "巴西中場，從Vila Nova青年隊起步；2018至2020多次轉隊，曾在州聯賽改踢防守中場。2024由磐田永久轉投千葉。",
+      "intro": "巴西Manacapuru出身的防守中場，於Vila Nova青訓成長，2016轉至Grêmio，之後經Remo、Votuporanguense及Jaraguá，2020回Vila Nova隨隊贏Série C；2023在磐田J2踢39場入9球，2024轉投千葉。巴西早期數字跨州賽及盃賽，不能當作全國聯賽數。",
       "timeline": [
         {
           "period": "2013",
@@ -2448,10 +2448,28 @@
       ],
       "tactical_traits": [
         "早期踢進攻中場；2020巴西訪問指出轉踢防守中場後感覺更自在。",
-        "可踢第一或第二防守中場，位置偏好由球員本人於2020年說明；當前場上用法須另按比賽核對。"
+        "可踢第一或第二防守中場，位置偏好由球員本人於2020年說明；當前場上用法須另按比賽核對。",
+        "2020 Série C在Vila Nova中場與Pablo Roberto組成搭檔，Sagres 2021報道其24場出場；這是當時雙防中配置的實例。（2021年3月，Sagres Online）"
       ],
       "quirky_trivia": "巴西時期曾在進攻中場與防守中場之間轉型；2020年受訪說自己更喜歡踢第一或第二防守中場。",
       "career": [
+        {
+          "season": null,
+          "team": "Vila Nova FC 青訓",
+          "competition": "巴西青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "資料確認所屬球隊；確切年份及出場數未見可靠紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Sagres 2021：Vila Nova青訓出身",
+              "url": "https://sagresonline.com.br/destaque-na-campanha-da-serie-c-volante-tem-contrato-renovado-com-o-vila-nova/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
         {
           "season": "2013",
           "team": "Vila Nova FC U-17／U-20",
@@ -2841,23 +2859,27 @@
           "appearances": 2,
           "goals": 0,
           "status": "現役",
-          "notes": "截至2026-09-19賽果；來源頁可能於其後更新。",
+          "notes": "J.League Data Site隊別出場表截至2026-09-19已完成第8輪：2場、17分鐘、0球；賽後需更新。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Sports Navi逐季日本聯賽紀錄",
-              "url": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/121/players/1636316?gk=2",
-              "accessed_at": "2026-09-26"
-            },
-            {
-              "label": "JEF 2026/27 登錄",
-              "url": "https://jefunited.co.jp/news/detail/5234",
+              "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
               "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "as_of": "2026-09-19",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2"
+        }
+      ],
       "sources": [
         {
           "label": "JEF官方2026/27 Top Team",
@@ -2893,14 +2915,29 @@
           "label": "Sagres 2020訪問",
           "url": "https://sagresonline.com.br/dudu-destaca-desejo-de-seguir-crescimento-em-nova-funcao-em-retorno-ao-vila-nova/",
           "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Transfermarkt巴西版：Luiz Eduardo Fleuri Pacheco，慣用右腳",
+          "url": "https://www.transfermarkt.com.br/eduardo/profil/spieler/415728",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Sagres 2021：Vila Nova青訓、Série C 24場及中場搭檔",
+          "url": "https://sagresonline.com.br/destaque-na-campanha-da-serie-c-volante-tem-contrato-renovado-com-o-vila-nova/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」既有香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "research_incomplete",
       "career_audit": {
-        "earliest_known_year": "2013",
+        "earliest_known_year": null,
         "reviewed_at": "2026-09-26",
-        "scope": "Vila Nova U-17起；2014–2021巴西多賽事及貸借逐年分開。2013以前青訓入隊年份、巴西全國聯賽逐季分項待核。",
+        "scope": "Vila Nova青訓出身有2021 Sagres報道；入隊年份未知，另列未定年早期青訓。2013起逐季列出；巴西全國聯賽、州賽及盃賽不得混算，若未能分項仍留空。",
         "sources": [
           {
             "label": "巴西早期逐季及青訓紀錄",
@@ -2911,9 +2948,17 @@
             "label": "FotMob轉會時間線",
             "url": "https://www.fotmob.com/ja/players/1263669/dudu",
             "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "Sagres 2021 Vila Nova青訓及外借路線",
+            "url": "https://sagresonline.com.br/destaque-na-campanha-da-serie-c-volante-tem-contrato-renovado-com-o-vila-nova/",
+            "accessed_at": "2026-09-26"
           }
         ]
-      }
+      },
+      "research_gaps": [
+        "2014–2021巴西成年賽事混合全國聯賽、州賽和盃賽，逐年同口徑統計及部分轉會性質待進一步核實。"
+      ]
     },
     {
       "id": "chiba_7",
@@ -2929,7 +2974,7 @@
       "birthplace": "栃木縣",
       "height": 173,
       "weight": 67,
-      "foot": "",
+      "foot": "右腳",
       "nationality": "日本",
       "joined": 2023,
       "prev_club": "京都不死鳥",
@@ -2937,7 +2982,7 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "浦和學院高中出身，2017以特別指定身份先踢J3，後經法政大學、京都來到千葉。2024獲J2最佳十一人。",
+      "intro": "栃木縣出身右路球員，經Pal SC、Verdy SS Oyama、浦和學院及法政大學；高中時獲FC東京特別指定並踢J3，2023由京都外借千葉，2024轉會後憑33場5球入選J2最佳十一人。2023年的JEF球迷分析特別留意其逼搶、邊線上下衝刺與直線推進；這是該季觀察，不當成現在每場的固定角色。",
       "timeline": [
         {
           "period": "2012",
@@ -3051,11 +3096,29 @@
         "2024獲J2 Best XI；當季聯賽33場5球。"
       ],
       "tactical_traits": [
-        "拿球第一選擇常是向前，而不是停下等待支援。",
-        "可由邊路斜插中堅與閘位之間，拉開反擊通道。"
+        "2023球迷分析指他能向對手貼身施壓、在球權爭奪中積極逼搶，適合該季JEF的高位壓迫。（2023年12月，ゆっくりいこう／Hatena Blog）",
+        "同篇分析指出他可在右路作長距離縱向衝刺，拉開進攻闊度；這是2023季的觀察。（2023年12月，ゆっくりいこう／Hatena Blog）",
+        "該作者認為其傳中及射門的選擇仍有提升空間；屬球迷評述而非量化評級。（2023年12月，ゆっくりいこう／Hatena Blog）"
       ],
       "quirky_trivia": "法政大學2020年專訪以「後備奇兵」形容他；高中時已在FC東京U-23正式聯賽登場。",
       "career": [
+        {
+          "season": null,
+          "team": "Pal SC",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "資料確認所屬球隊；確切年份及出場數未見可靠紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "JEF 2022轉會公告早期球隊路線",
+              "url": "https://jefunited.co.jp/news/detail/1120",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
         {
           "season": "2012",
           "team": "Verdy SS Oyama",
@@ -3350,23 +3413,27 @@
           "appearances": 5,
           "goals": 3,
           "status": "現役",
-          "notes": "截至2026-09-25 J.League球員頁。",
+          "notes": "J.League Data Site隊別出場表截至2026-09-19已完成第8輪：5場、296分鐘、3球；賽後需更新。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League球員頁",
-              "url": "https://www.jleague.jp/player/1612122/",
-              "accessed_at": "2026-09-26"
-            },
-            {
-              "label": "JEF 2026/27 登錄",
-              "url": "https://jefunited.co.jp/news/detail/5234",
+              "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
               "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 5,
+          "goals": 3,
+          "as_of": "2026-09-19",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2"
+        }
+      ],
       "sources": [
         {
           "label": "JEF官方2026/27 Top Team",
@@ -3402,14 +3469,29 @@
           "label": "法政大訪問",
           "url": "https://4years.asahi.com/article/13710997",
           "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Transfermarkt田中和樹球員頁：慣用右腳",
+          "url": "https://www.transfermarkt.com/kazuki-tanaka/profil/spieler/509452",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "2023 JEF球迷分析：逼搶、右路衝刺及攻擊決策",
+          "url": "https://yukkuriikou.hatenablog.com/entry/2023/12/13/060000",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」既有香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
-      "verification_status": "research_incomplete",
+      "verification_status": "verified",
       "career_audit": {
-        "earliest_known_year": "2012",
+        "earliest_known_year": null,
         "reviewed_at": "2026-09-26",
-        "scope": "Verdy SS Oyama 2012.4起有明確記錄；更早Pal SC之逐年起訖尚未找到，須補上才可完結。",
+        "scope": "JEF 2022公告確認Pal SC在Verdy SS Oyama前；Pal SC年份未知，獨列不定年少年球隊。Verdy 2012.4–2015.3、高中2015–17、大學2018–21及其後各職業球季已逐一核對。",
         "sources": [
           {
             "label": "FC東京2017特別指定公告",
@@ -3420,9 +3502,15 @@
             "label": "J.League球員頁",
             "url": "https://www.jleague.jp/player/1612122/",
             "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "JEF 2022：Pal SC為第一支記載的少年隊",
+            "url": "https://jefunited.co.jp/news/detail/1120",
+            "accessed_at": "2026-09-26"
           }
         ]
-      }
+      },
+      "verified_at": "2026-09-26"
     },
     {
       "id": "chiba_8",
@@ -3438,7 +3526,7 @@
       "birthplace": "群馬縣",
       "height": 180,
       "weight": 75,
-      "foot": "",
+      "foot": "右腳",
       "nationality": "日本",
       "joined": 2025,
       "prev_club": "RB大宮松鼠",
@@ -3446,7 +3534,7 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "橫濱水手2020公告列出2018日本U-16、2019日本U-17及U-18代表資歷；上陣及入球數待JFA逐項核實。",
-      "intro": "橫濱水手青訓出身，2020年7月簽職業合約；先後外借青森與沼津，在JFL和J3累積出場後升至J2，再轉千葉。",
+      "intro": "群馬縣太田市出身，少年時先後效力太田南、江南南及クマガヤSC，2018入橫濱水手青年隊。簽職業合約後在青森JFL、沼津J3、水戶及大宮J2逐級累積比賽，2026來到千葉；2018年自述喜歡主動盤扭攻門，並視原口元氣為前輩榜樣。（2018年，J.League青年問卷）",
       "timeline": [
         {
           "period": "2017",
@@ -3538,10 +3626,44 @@
       "tactical_traits": [
         "2018水手青年訪問中本人形容自己積極帶球攻擊與尋找入球。",
         "同篇訪問中本人特別提出比賽末段仍保持活動量。",
-        "JFL與J3逐級出場：2023沼津29場2球，2024增至38場9球；解說可觀察其後插上的時機。"
+        "2018青年問卷自述以主動盤扭及尋找射門為強項，當時希望藉入球及助攻帶領球隊；屬青年時期自我定位，現時要按實戰核對。（2018年，J.League青年問卷）"
       ],
       "quirky_trivia": "2018年青年隊問卷說最初受踢足球的父親影響，賽前會聽ONE OK ROCK及WANIMA。",
       "career": [
+        {
+          "season": null,
+          "team": "太田南サッカー少年団",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "資料確認所屬球隊；確切年份及出場數未見可靠紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League前球會履歷：太田南先於江南南",
+              "url": "https://www.jleague.jp/club/mito/player/detail/1622683/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "江南南サッカー少年団",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "資料確認所屬球隊；確切年份及出場數未見可靠紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League 2018水手青年本人問卷",
+              "url": "https://www.jleague.jp/jyouth/2018/enquete/yokohamafm.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
         {
           "season": "2017",
           "team": "Kumagaya SC",
@@ -3790,21 +3912,30 @@
           "season": "2026/27",
           "team": "千葉市原JEF聯",
           "competition": "J1",
-          "appearances": 6,
+          "appearances": 7,
           "goals": 1,
           "status": "現役",
-          "notes": "截至2026-09-12 Sports Navi列6場1球；J.League Data Site檢索快照仍顯示較早5場0球，須刷新同口徑紀錄。",
+          "notes": "J.League Data Site隊別出場表截至2026-09-19已完成第8輪：7場、570分鐘、1球；賽後需更新。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Sports Navi 2026/27賽事表",
-              "url": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/121/players/1622683?gk=2",
+              "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
               "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 1,
+          "as_of": "2026-09-19",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2"
+        }
+      ],
       "sources": [
         {
           "label": "JEF官方2026/27 Top Team",
@@ -3840,14 +3971,24 @@
           "label": "橫濱水手轉會公告",
           "url": "https://www.f-marinos.com/news/team/6418",
           "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Transfermarkt津久井匠海球員頁：慣用右腳",
+          "url": "https://www.transfermarkt.com/takumi-tsukui/profil/spieler/786986",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」既有香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
-      "verification_status": "research_incomplete",
+      "verification_status": "verified",
       "career_audit": {
-        "earliest_known_year": "2017",
+        "earliest_known_year": null,
         "reviewed_at": "2026-09-26",
-        "scope": "少年團太田南→江南南及Kumagaya先後已確認；各隊確切轉隊年份未證實。2017 Kumagaya及2018–20水手Youth有原始名單／公告。",
+        "scope": "前球會J.League頁列太田南→江南南→クマガヤSC，2018水手青年問卷核對後兩隊；早年所屬年份未確定，分別列無年份少年隊；2017起已有逐年記錄。",
         "sources": [
           {
             "label": "橫濱水手2020專業合約公告",
@@ -3858,9 +3999,15 @@
             "label": "J.League青年問卷",
             "url": "https://www.jleague.jp/jyouth/2018/enquete/yokohamafm.html",
             "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "J.League前球會頁：太田南至江南南次序",
+            "url": "https://www.jleague.jp/club/mito/player/detail/1622683/",
+            "accessed_at": "2026-09-26"
           }
         ]
-      }
+      },
+      "verified_at": "2026-09-26"
     },
     {
       "id": "chiba_9",
@@ -3876,7 +4023,7 @@
       "birthplace": "大阪府",
       "height": 179,
       "weight": 73,
-      "foot": "",
+      "foot": "右腳",
       "nationality": "日本",
       "joined": 2023,
       "prev_club": "大分三神",
@@ -3884,7 +4031,7 @@
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "關西學院大學前鋒，2019外借長崎時36場J2攻入22球；2021賽季由柏永久轉投大分，2023起效力千葉。",
+      "intro": "大阪府出身的前鋒，因小學鄰居邀請而在ケヤキFC開始踢球；神戶勝利船Junior Youth未獲升上青年隊時，選擇遠赴流通經濟大柏高中，後在關西學院大學成為射手。2019外借長崎踢36場J2入22球，2023加盟千葉。本人說重視提前走位及與邊路球員溝通接應時機。（2015年專訪，Soccer King；2017年專訪，Starform）",
       "timeline": [
         {
           "period": "2009",
@@ -4032,11 +4179,47 @@
         "2021季中由柏轉投大分，該季兩隊各有J1入球。"
       ],
       "tactical_traits": [
-        "關西學院大學2015公告形容其大學初期的帶球突破與射門。",
-        "2019長崎36場22球反映該季得分效率，不能直接推作現季射門水平。"
+        "本人指最強的一環是提前一步啟動到球門前，靠跑動預備接應，而非單靠腳下持球。（2015年12月，Soccer King專訪）",
+        "在大學時主動向翼鋒要求傳中落點、向中場說明交球時機，以隊友配合創造射門。（2015年12月，Soccer King專訪）",
+        "2024年JEF比賽報道觀察到他可接應前場直傳作支點，並會由前線逼搶和滑鏟支援防守。（2024年8月，Js LINK）",
+        "同一報道以2024天皇盃對FC東京加時補射致勝球說明其門前嗅覺；這一例子屬2024年賽事，不等於目前狀態。（2024年8月，Js LINK）"
       ],
-      "quirky_trivia": "2015年在關西學院大學足球部部員博客寫下與流通經濟大的宿敵心結；高中時亦就讀流通經濟大附屬柏。",
+      "quirky_trivia": "小學一年級時因鄰居邀請，為了交朋友才開始踢足球；神戶Junior Youth未獲升上Youth後，返家途中曾哭泣，並自行選擇遠赴柏市升學。（2017年8月，Starform本人訪談）",
       "career": [
+        {
+          "season": null,
+          "team": "ケヤキFC",
+          "competition": "小學少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "資料確認所屬球隊；確切年份及出場數未見可靠紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "2017年本人回顧小學時開始在ケヤキFC踢球",
+              "url": "https://starform.jp/interview/57/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "神戶勝利船Junior Youth",
+          "competition": "中學青年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "資料確認所屬球隊；確切年份及出場數未見可靠紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "2017年本人回顧六年級獲球探邀請升Junior Youth",
+              "url": "https://starform.jp/interview/57/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
         {
           "season": "2009",
           "team": "流通經濟大附屬柏高中",
@@ -4435,26 +4618,30 @@
           "season": "2026/27",
           "team": "千葉市原JEF聯",
           "competition": "J1",
-          "appearances": 3,
+          "appearances": 2,
           "goals": 0,
           "status": "現役",
-          "notes": "來源逐季資料更新日須於下次核對。",
+          "notes": "J.League Data Site隊別出場表截至2026-09-19已完成第8輪：2場、36分鐘、0球；賽後需更新。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "逐季聯賽及百年構想紀錄",
-              "url": "https://fansaka.info/player/J44120/",
-              "accessed_at": "2026-09-26"
-            },
-            {
-              "label": "JEF 2026/27 登錄",
-              "url": "https://jefunited.co.jp/news/detail/5234",
+              "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
               "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "as_of": "2026-09-19",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2"
+        }
+      ],
       "sources": [
         {
           "label": "JEF官方2026/27 Top Team",
@@ -4485,14 +4672,39 @@
           "label": "大學隊個人文章",
           "url": "https://kgusoccer.blog/blog/archives/326",
           "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Transfermarkt吳屋大翔球員頁：慣用右腳",
+          "url": "https://www.transfermarkt.com/hiroto-goya/profil/spieler/417609",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Soccer King 2015長篇專訪：走位、傳中接應及神戶青年轉折",
+          "url": "https://www.soccer-king.jp/sk_column/article/394355.html",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Starform 2017本人訪談：小學足球及神戶青年落選",
+          "url": "https://starform.jp/interview/57/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Js LINK 2024天皇盃報道：前場支點、逼搶、走位",
+          "url": "https://www.jslink.jp/news/jslink/n-00375521/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League Data Site 2026/27千葉球員出場表（截至9月19日第8輪）",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E5%8D%83%E8%91%89&team_id=2&team_id_ex=2",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」既有香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
-      "verification_status": "research_incomplete",
+      "verification_status": "verified",
       "career_audit": {
-        "earliest_known_year": "2009",
+        "earliest_known_year": null,
         "reviewed_at": "2026-09-26",
-        "scope": "高中2009–11與大學2012–15；較早ケヤキFC、神戶Junior Youth的逐年日期及一手資料仍待確認。",
+        "scope": "2017本人訪問核實小學在ケヤキFC、六年級獲邀加入神戶Junior Youth，早期年份未直接發表；以兩個無年份少年隊列入，2009高中起逐季有來源。",
         "sources": [
           {
             "label": "柏雷素爾逐季紀錄",
@@ -4503,9 +4715,15 @@
             "label": "高中校隊2011畢業生",
             "url": "https://www.ryukei-kashiwa.org/%E3%83%81%E3%83%BC%E3%83%A0%E7%B4%B9%E4%BB%8B/2011%E5%B9%B4%E5%BA%A6%E5%8D%92%E6%A5%AD%E7%94%9F-25%E6%9C%9F%E7%94%9F/",
             "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "Starform 2017本人訪談：ケヤキFC和神戶Junior Youth",
+            "url": "https://starform.jp/interview/57/",
+            "accessed_at": "2026-09-26"
           }
         ]
-      }
+      },
+      "verified_at": "2026-09-26"
     },
     {
       "id": "chiba_11",
