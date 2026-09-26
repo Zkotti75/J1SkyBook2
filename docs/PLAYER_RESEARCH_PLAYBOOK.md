@@ -32,6 +32,8 @@ Baidu Baike is also an approved outside source for career history. Record the ex
 
 Soccerway player pages are approved for historical season statistics. Capture the access/update date and competition scope and annotate differences from other databases; a user-selected statistical source remains the card's working convention. Injury reports must retain their announcement and injury dates and may explain only the relevant period, not a later season without new evidence.
 
+Gekisaka (ゲキサカ) is an approved specialist Japanese football outlet for transfer reporting, interviews, youth coverage and match context. Link the exact story, date and relevant club notice when checking a move.
+
 ## Research sequence
 
 1. Lock the identity record from the current club: current registration, number, position, vitals and portrait.
