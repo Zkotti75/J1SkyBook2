@@ -1,3 +1,5 @@
+import { isUndatedYouthRow } from './career-youth.mjs';
+
 const officialHosts = {
   'cerezo-osaka': ['cerezo.jp'],
   chiba: ['jefunited.co.jp'],
@@ -66,20 +68,22 @@ export function evaluatePlayerCard(player, slug) {
   if ((player.intro || '').trim().length < 60) issues.push(`${ref}: commentary introduction is too thin`);
   if ((player.career || []).length < 3) issues.push(`${ref}: career table is a summary, not a season-by-season history`);
   const audit = player.career_audit;
-  if (!audit || !isDate(audit.reviewed_at) || !Number.isInteger(audit.earliest_known_year) || !(audit.sources || []).some(hasUrl)) {
+  const undatedFirstYouth = isUndatedYouthRow(player.career?.[0]);
+  if (!audit || !isDate(audit.reviewed_at) || !(audit.sources || []).some(hasUrl) ||
+      !(Number.isInteger(audit.earliest_known_year) || (undatedFirstYouth && audit.earliest_known_year == null))) {
     issues.push(`${ref}: full career route has not been explicitly audited against an early-youth source`);
-  } else if (Number(player.career?.[0]?.season) !== audit.earliest_known_year) {
+  } else if (!undatedFirstYouth && Number(player.career?.[0]?.season) !== audit.earliest_known_year) {
     issues.push(`${ref}: first career row does not match the audited earliest known season`);
   }
   const years = new Set((player.career || []).map(row => /^\d{4}/.exec(String(row.season || ''))?.[0]).filter(Boolean));
-  const firstYear = Number(player.career?.[0]?.season);
+  const firstYear = Number((player.career || []).find(row => /^\d{4}/.test(String(row.season || '')))?.season?.slice(0, 4));
   if (Number.isInteger(firstYear) && firstYear >= 1900 && firstYear <= 2026) {
     for (let year = firstYear; year <= 2026; year++) {
       if (!years.has(String(year))) issues.push(`${ref}: career table omits ${year}`);
     }
   }
   for (const [index, row] of (player.career || []).entries()) {
-    if (row.season == null || row.season === '') issues.push(`${ref}: career row ${index + 1} has no season`);
+    if ((row.season == null || row.season === '') && !isUndatedYouthRow(row)) issues.push(`${ref}: career row ${index + 1} has no season`);
     if (/[–—-].*\d{4}|至今|present/i.test(row.season || '')) issues.push(`${ref}: career row ${index + 1} is not a single-season entry`);
     if (/\s[／/]\s|大學／|高校／/.test(row.team || '')) issues.push(`${ref}: career row ${index + 1} conflates separate clubs or schools`);
     if (row.verification_status === 'verified' && !(row.sources || []).some(hasUrl)) issues.push(`${ref}: verified career row ${index + 1} has no linked source`);
