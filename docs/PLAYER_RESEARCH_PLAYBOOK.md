@@ -28,6 +28,8 @@ Transfermarkt's competition-filtered season tables are useful for cross-checking
 
 The current J.League club roster is an approved source for player headshots, including the small roster image, and for listed vitals. A larger image from the player's page is optional. Transfermarkt player profiles and 24live player pages are approved preferred-foot sources for any player when the exact identity and foot value are visible. Cite the page and date; do not infer a foot from playing position.
 
+Baidu Baike is also an approved outside source for career history. Record the exact player URL and check current or disputed facts against other sources when available. Use the J.League Data Site for dated current-season league appearances and goals. If credible non-league statistics cannot be located, leave them null or omit unsupported cup figures; that alone is not a card failure. Clearly distinguish an explicit zero from a dash and label any inference from cumulative league totals.
+
 ## Research sequence
 
 1. Lock the identity record from the current club: current registration, number, position, vitals and portrait.
@@ -47,7 +49,7 @@ The current J.League club roster is an approved source for player headshots, inc
 - At least two distinct non-current-club source domains; Wikipedia can contribute one domain, regardless of how many language editions are consulted.
 - All documented school/youth teams listed; undated, stat-free school/youth rows are valid when dates or figures are unavailable. Every professional season remains individually dated.
 - Earliest-known football school/club researched and recorded; unknown youth years need no fabricated dates or completion blocker. Check professional-year continuity and avoid conflated clubs.
-- Current and former clubs cross-checked against the preferred Wikipedia edition and primary records; loans and special registration identified.
+- Current and former clubs cross-checked against the preferred Wikipedia edition, Baidu Baike where useful, and primary records; loans and special registration identified.
 - National-team levels, caps/goals and tournaments checked.
 - Concrete honours, milestones and record context checked.
 - At least three player-specific tactical observations.
