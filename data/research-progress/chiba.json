@@ -10,7 +10,7 @@
     {
       "id": "chiba-01",
       "kind": "player_research",
-      "status": "completed",
+      "status": "needs_review",
       "capacity_points": 6,
       "players": [
         {
@@ -43,13 +43,18 @@
         }
       ],
       "started_at": "2026-09-25",
-      "completed_at": "2026-09-25",
-      "notes": []
+      "completed_at": null,
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit reopens previously completed cards: #2–5 lack early-youth career_audit. Review these before restoring completed status."
+        }
+      ]
     },
     {
       "id": "chiba-02",
       "kind": "player_research",
-      "status": "validation_failed",
+      "status": "needs_review",
       "capacity_points": 6,
       "players": [
         {
@@ -96,6 +101,10 @@
         {
           "date": "2026-09-26",
           "text": "2026-09-26: #7 Tanaka, #8 Tsukui, #9 Goya source-audited and verified with undated named early-youth rows and J.League Data Site 2026/27 stats through round 8 (Sep 19); #9 corrected from 3/0 to official 2/0, #8 from 6/1 to 7/1. #6 Eduardo remains research_incomplete: 2014-21 Brazilian national/state/cup totals and loan chronology are not reconciled to reliable competition-specific rows. Batch gate 3/4; do not advance queue. Portraits and status tags remain separate coverage work."
+        },
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit: #6 Eduardo has unresolved Brazilian competition and loan chronology; #7–9 pass. Park this batch for targeted research and continue through the remaining JEF squad at user request."
         }
       ]
     },
@@ -193,7 +202,12 @@
       ],
       "started_at": null,
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        }
+      ]
     },
     {
       "id": "chiba-05",
@@ -225,7 +239,12 @@
       ],
       "started_at": null,
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        }
+      ]
     },
     {
       "id": "chiba-06",
@@ -264,7 +283,12 @@
       ],
       "started_at": null,
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        }
+      ]
     },
     {
       "id": "chiba-07",
@@ -303,7 +327,12 @@
       ],
       "started_at": null,
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        }
+      ]
     },
     {
       "id": "chiba-08",
@@ -342,7 +371,12 @@
       ],
       "started_at": null,
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        }
+      ]
     },
     {
       "id": "chiba-09",
@@ -381,7 +415,12 @@
       ],
       "started_at": null,
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        }
+      ]
     },
     {
       "id": "chiba-10",
@@ -413,12 +452,341 @@
       ],
       "started_at": null,
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        }
+      ]
     }
   ],
   "status_tag_stage": {
     "status": "scheduled",
     "reviewed_players": 0,
     "total_players": 37
-  }
+  },
+  "review_queue": [
+    {
+      "player_id": "chiba_2",
+      "number": "2",
+      "batch": "chiba-01",
+      "gaps": [
+        "最早足球學校及青年隊路線仍需來源逐項審核，補錄 career_audit"
+      ]
+    },
+    {
+      "player_id": "chiba_3",
+      "number": "3",
+      "batch": "chiba-01",
+      "gaps": [
+        "最早足球學校及青年隊路線仍需來源逐項審核，補錄 career_audit"
+      ]
+    },
+    {
+      "player_id": "chiba_4",
+      "number": "4",
+      "batch": "chiba-01",
+      "gaps": [
+        "最早足球學校及青年隊路線仍需來源逐項審核，補錄 career_audit"
+      ]
+    },
+    {
+      "player_id": "chiba_5",
+      "number": "5",
+      "batch": "chiba-01",
+      "gaps": [
+        "最早足球學校及青年隊路線仍需來源逐項審核，補錄 career_audit"
+      ]
+    },
+    {
+      "player_id": "chiba_6",
+      "number": "6",
+      "batch": "chiba-02",
+      "gaps": [
+        "巴西各季聯賽與州賽數字、外借及轉會時序仍有衝突，待逐項對證"
+      ]
+    },
+    {
+      "player_id": "chiba_15",
+      "number": "15",
+      "batch": "chiba-04",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_18",
+      "number": "18",
+      "batch": "chiba-04",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_19",
+      "number": "19",
+      "batch": "chiba-04",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_20",
+      "number": "20",
+      "batch": "chiba-04",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_21",
+      "number": "21",
+      "batch": "chiba-05",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_22",
+      "number": "22",
+      "batch": "chiba-05",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_23",
+      "number": "23",
+      "batch": "chiba-05",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_24",
+      "number": "24",
+      "batch": "chiba-06",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_25",
+      "number": "25",
+      "batch": "chiba-06",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證"
+      ]
+    },
+    {
+      "player_id": "chiba_26",
+      "number": "26",
+      "batch": "chiba-06",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_28",
+      "number": "28",
+      "batch": "chiba-06",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_29",
+      "number": "29",
+      "batch": "chiba-07",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_30",
+      "number": "30",
+      "batch": "chiba-07",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_31",
+      "number": "31",
+      "batch": "chiba-07",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_37",
+      "number": "37",
+      "batch": "chiba-07",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證"
+      ]
+    },
+    {
+      "player_id": "chiba_38",
+      "number": "38",
+      "batch": "chiba-08",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證"
+      ]
+    },
+    {
+      "player_id": "chiba_39",
+      "number": "39",
+      "batch": "chiba-08",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_40",
+      "number": "40",
+      "batch": "chiba-08",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證"
+      ]
+    },
+    {
+      "player_id": "chiba_41",
+      "number": "41",
+      "batch": "chiba-08",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_42",
+      "number": "42",
+      "batch": "chiba-09",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_44",
+      "number": "44",
+      "batch": "chiba-09",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_45",
+      "number": "45",
+      "batch": "chiba-09",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_55",
+      "number": "55",
+      "batch": "chiba-09",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_66",
+      "number": "66",
+      "batch": "chiba-10",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_67",
+      "number": "67",
+      "batch": "chiba-10",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    },
+    {
+      "player_id": "chiba_99",
+      "number": "99",
+      "batch": "chiba-10",
+      "gaps": [
+        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
+        "欠缺足夠獨立來源及最早青年隊審核",
+        "球員專屬戰術觀察仍需補證",
+        "球員簡介仍過於簡略"
+      ]
+    }
+  ]
 }

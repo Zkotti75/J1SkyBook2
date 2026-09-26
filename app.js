@@ -228,7 +228,7 @@ function renderPerson(data, item) {
   return `<article class="panel">
     <header class="hero"><div class="hero-main">${item.player_image ? `<img class="player-photo" src="${esc(item.player_image)}" alt="${esc(item.name_zh || item.name_en)}" onerror="this.hidden=true">` : ''}<div><div class="hero-number">${isManager ? 'HEAD COACH' : `#${esc(item.number)} · ${esc(item.position)}`}</div><h2>${esc(item.name_zh || item.name_en)}</h2><div class="english">${esc(item.name_ja || '')}${item.name_ja && item.name_en ? ' · ' : ''}${esc(item.name_en || '')}</div><div class="badges">${statusBadges(item)}${item.verification_status !== 'verified' ? '<span class="badge audit-badge">待逐項核實</span>' : ''}</div></div></div>${team.logo_url ? `<img class="team-logo" src="${esc(team.logo_url)}" alt="${esc(team.name_zh)}會徽">` : ''}</header>
     <div class="content">
-      ${item.verification_status !== 'verified' ? '<div class="notice">此卡尚未達到西川周作基準，現正按官方身份資料及多個外部生涯、訪問與數據來源逐項重建；空白代表未能可靠核實。</div>' : ''}
+      ${item.verification_status !== 'verified' ? `<div class="notice">此卡尚未完成逐項核實；現有生涯資料只供研究參考，空白代表未能可靠核實。${item.research_gaps?.length ? `<strong>待補：</strong>${item.research_gaps.map(esc).join('；')}。` : ''}</div>` : ''}
       ${vitalsHtml}
       ${item.intro ? `<section class="section"><h3>${isManager ? '領隊簡介' : '球員簡介'}</h3><p>${esc(item.intro)}</p></section>` : ''}
       ${renderMatchWeek(item.match_week)}
