@@ -98,7 +98,7 @@
     {
       "id": "chiba-03",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 5,
       "players": [
         {
@@ -123,9 +123,14 @@
           "weight": 1
         }
       ],
-      "started_at": null,
+      "started_at": "2026-09-26",
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-09-26",
+          "text": "Three careers rebuilt; unresolved youth dates, Suzuki 2017/18 Segunda appearance conflict, current season verification and portrait/stat coverage. Batch validation 0/3."
+        }
+      ]
     },
     {
       "id": "chiba-04",
