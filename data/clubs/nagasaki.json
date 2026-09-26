@@ -1201,72 +1201,657 @@
       "season_start_age": 28,
       "birthplace": "東京都",
       "height": 198,
-      "weight": null,
-      "foot": "",
+      "weight": 100,
+      "foot": "右腳",
       "nationality": "日本",
-      "joined": null,
+      "joined": 2026,
       "prev_club": "FC東京",
       "registration_status": "本國球員",
       "registration_tags": [],
       "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "198cm巨型門將，由FC東京加盟。禁區制空及一對一封角非常鮮明。",
+      "national_team_detail": "2013日本U-16；2017日本U-20世界盃韓國站代表名單、U-21及U-23；2018 U-21、2019 U-22代表經歷。成年國家隊出場未查得。（FC東京官方）",
+      "intro": "武藏村山長大的198厘米門將，從當地少年團升到FC東京青訓及一隊，2023曾外借長崎並在J2全42輪上陣，2024、2025回東京後於2026年1月永久加盟長崎。曾列入日本U-20世界盃及多級青年代表名單。（FC東京官方，2026；J.League）",
       "timeline": [
         {
-          "period": "育成／職業",
+          "period": "2005",
+          "team": "武蔵村山1FC",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2006",
+          "team": "武蔵村山1FC",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2007",
+          "team": "武蔵村山1FC",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2008",
+          "team": "武蔵村山1FC",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2009",
+          "team": "武蔵村山1FC",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2010",
+          "team": "武蔵村山1FC",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2011",
+          "team": "FC東京U-15むさし",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2012",
+          "team": "FC東京U-15むさし",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2013",
+          "team": "FC東京U-15むさし",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2014",
+          "team": "FC東京U-18",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2015",
+          "team": "FC東京U-18",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2016",
+          "team": "FC東京U-18",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2015",
           "team": "FC東京",
-          "category": "履歷",
+          "category": "J1",
+          "milestone": "二種登錄"
+        },
+        {
+          "period": "2016",
+          "team": "FC東京U-23",
+          "category": "J3",
           "milestone": ""
         },
         {
-          "period": "育成／職業",
-          "team": "長崎成功丸",
-          "category": "履歷",
+          "period": "2017",
+          "team": "FC東京U-23",
+          "category": "J3",
           "milestone": ""
+        },
+        {
+          "period": "2018",
+          "team": "FC東京U-23",
+          "category": "J3",
+          "milestone": ""
+        },
+        {
+          "period": "2019",
+          "team": "FC東京U-23",
+          "category": "J3",
+          "milestone": ""
+        },
+        {
+          "period": "2017",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2018",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2019",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2020",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2021",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2022",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2023",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": "東京外借"
+        },
+        {
+          "period": "2024",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2025",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": ""
+        },
+        {
+          "period": "2026特別",
+          "team": "長崎成功丸",
+          "category": "J1百年構想聯賽",
+          "milestone": "2026年1月永久加盟"
+        },
+        {
+          "period": "2026/27",
+          "team": "長崎成功丸",
+          "category": "J1",
+          "milestone": "現役"
         }
       ],
-      "honors": [],
+      "honors": [
+        "2016 日本球會青年錦標賽U-18冠軍（FC東京U-18）；2020 J.League盃冠軍（FC東京）"
+      ],
       "milestones": [
-        "FC東京Academy出身。",
-        "2026加盟長崎，身高198cm為隊內最高門將之一。"
+        "FC東京官方列出2005–10武藏村山1FC、2011–13 U-15武藏、2014–16 U-18；2016隨U-18贏全日本球會青年錦標賽。（FC東京）",
+        "2016至2019另為FC東京U-23在J3逐季上陣；2020開始為一隊在J1登場，2021聯賽31場。（逐季賽事記錄）",
+        "2023外借長崎踢滿42場J2，2026永久轉會重返球會。（FC東京2026轉會公告）"
       ],
       "tactical_traits": [
-        "出擊範圍大，對高球有壓倒性視野。",
-        "一對一時能用巨大身形快速縮窄角度。"
+        "198厘米身高令他在門前接高球有覆蓋範圍，須配合出擊時機；2023長崎全42輪的守門負荷是具體樣本。（FC東京紀錄）",
+        "大型門將仍可選擇前壓縮窄單刀射門角度；屬其身形與守門站位的觀察，不能推定全部比賽採高位。（逐場錄像觀察）",
+        "長距離開球可迅速把球送往前場，球員2026的私人足球目標甚至寫下三次助攻；這是目標非已實現紀錄。（長崎官方問答）"
       ],
-      "quirky_trivia": "198cm令他即使站位不動也能改變射手視覺；與199cm Radotic形成極罕見的雙『近兩米』門將組。",
+      "quirky_trivia": "官方球員問答把「吹泡泡」列為當下興趣，又說長崎的魚太好吃；足球目標填了三次助攻。（長崎官方）",
       "career": [
         {
-          "season": null,
-          "team": "FC東京",
-          "competition": "育成／職業履歷",
+          "season": "2005",
+          "team": "武蔵村山1FC",
+          "competition": "青訓／學校",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
         {
-          "season": null,
-          "team": "長崎成功丸",
-          "competition": "育成／職業履歷",
+          "season": "2006",
+          "team": "武蔵村山1FC",
+          "competition": "青訓／學校",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2007",
+          "team": "武蔵村山1FC",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2008",
+          "team": "武蔵村山1FC",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2009",
+          "team": "武蔵村山1FC",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2010",
+          "team": "武蔵村山1FC",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2011",
+          "team": "FC東京U-15むさし",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "FC東京U-15むさし",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "FC東京U-15むさし",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "FC東京U-18",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "FC東京U-18",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "FC東京U-18",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.fctokyo.co.jp/news/details/318902/",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "二種登錄",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "FC東京U-23",
+          "competition": "J3",
+          "appearances": 2,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "FC東京U-23",
+          "competition": "J3",
+          "appearances": 15,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "FC東京U-23",
+          "competition": "J3",
+          "appearances": 11,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "FC東京U-23",
+          "competition": "J3",
+          "appearances": 23,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 10,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 42,
+          "goals": 0,
+          "status": "外借",
+          "notes": "東京外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 13,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "長崎成功丸",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "2026年1月永久加盟",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.jleague.jp/player/1501611/",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
@@ -1277,33 +1862,75 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "Current numbered squad；資料截至2026-09-19。",
+          "notes": "現役",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League長崎現役登録",
-              "url": "https://www.jleague.jp/club/nagasaki/",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.jleague.jp/player/1501611/",
+              "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 0,
+          "as_of": "2026-09-26",
+          "source": "https://en.wikipedia.org/wiki/Go_Hatano"
+        }
+      ],
       "sources": [
         {
-          "label": "長崎官方2026/27選手頁",
-          "url": "https://www.v-varen.com/club",
-          "accessed_at": "2026-09-19"
+          "label": "長崎官方現役資料與完整路線",
+          "url": "https://www.v-varen.com/club/233120.html",
+          "accessed_at": "2026-09-26"
         },
         {
-          "label": "J.League長崎",
-          "url": "https://www.jleague.jp/club/nagasaki/",
-          "accessed_at": "2026-09-19"
+          "label": "逐季聯賽及生涯紀錄",
+          "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League官方統計",
+          "url": "https://www.jleague.jp/player/1501611/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "FC東京2026轉會公告及育成年表",
+          "url": "https://www.fctokyo.co.jp/news/details/318902/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "FC東京2023外借後回歸",
+          "url": "https://www.fctokyo.co.jp/news/details/315441/",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-26",
+      "player_image": "https://www.v-varen.com/wp-content/uploads/2026/01/%E9%81%B8%E6%89%8B_13_%E6%B3%A2%E5%A4%9A%E9%87%8E.jpg",
+      "career_audit": {
+        "earliest_known_year": 2005,
+        "reviewed_at": "2026-09-26",
+        "scope": "FC東京官方逐年列2005起少年團、2011–13 U15、2014–16 U18；二種登錄、U23 J3及一隊J1並列以免遺漏，2023外借。",
+        "sources": [
+          {
+            "label": "長崎官方",
+            "url": "https://www.v-varen.com/club/233120.html",
+            "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "逐季資料",
+            "url": "https://en.wikipedia.org/wiki/Go_Hatano",
+            "accessed_at": "2026-09-26"
+          }
+        ]
+      }
     },
     {
       "id": "nagasaki_26",
@@ -5282,74 +5909,498 @@
       "season_start_age": 29,
       "birthplace": "巴西",
       "height": 187,
-      "weight": null,
-      "foot": "",
+      "weight": 80,
+      "foot": "左腳",
       "nationality": "巴西",
-      "joined": null,
-      "prev_club": "柏太陽王",
+      "joined": 2023,
+      "prev_club": "AA Ponte Preta",
       "registration_status": "外籍球員",
       "registration_tags": [
         "Vice Captain"
       ],
       "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "187cm巴西中場，能帶球推進、後上入禁區，也具對抗。現已加入副隊長組。",
+      "national_team_detail": "2016巴西U-20友賽英格蘭上陣一次；未查得巴西成年代表出場。（賽事回顧）",
+      "intro": "巴西薩爾瓦多出生，在法林明高及邦迪比達青訓成長，曾短暫赴葡萄牙、日本大阪及多支巴西隊效力。2023加盟長崎後，2024年J2入18球、2025年入19球，從中場位置成為球隊主要得分點；2026/27獲增任副隊長。（J.League Data Site；長崎2026年9月公告）",
       "timeline": [
         {
-          "period": "育成／職業",
-          "team": "柏太陽王",
-          "category": "履歷",
+          "period": "年份未公開",
+          "team": "Flamengo青年隊",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2015",
+          "team": "Ponte Preta U-20",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2016",
+          "team": "Ponte Preta",
+          "category": "巴西甲組",
           "milestone": ""
         },
         {
-          "period": "育成／職業",
-          "team": "長崎成功丸",
-          "category": "履歷",
+          "period": "2017",
+          "team": "Ponte Preta",
+          "category": "巴西州聯賽",
           "milestone": ""
+        },
+        {
+          "period": "2017",
+          "team": "Santos",
+          "category": "巴西甲組",
+          "milestone": "Estoril簽約後外借"
+        },
+        {
+          "period": "2017/18",
+          "team": "Estoril",
+          "category": "葡超",
+          "milestone": "母會登錄期，實際外借山度士"
+        },
+        {
+          "period": "2018",
+          "team": "Santos",
+          "category": "巴西州聯賽",
+          "milestone": "上半年外借"
+        },
+        {
+          "period": "2018",
+          "team": "大阪飛腳",
+          "category": "J1",
+          "milestone": "外借"
+        },
+        {
+          "period": "2018/19",
+          "team": "Portimonense",
+          "category": "葡超",
+          "milestone": "大阪借期提前結束後再借葡萄牙"
+        },
+        {
+          "period": "2019",
+          "team": "Oeste",
+          "category": "巴西州聯賽",
+          "milestone": "季初"
+        },
+        {
+          "period": "2019",
+          "team": "Corinthians",
+          "category": "巴西甲組",
+          "milestone": "季中加盟"
+        },
+        {
+          "period": "2020",
+          "team": "Red Bull Bragantino",
+          "category": "巴西甲組",
+          "milestone": "外借"
+        },
+        {
+          "period": "2021",
+          "team": "Juventude",
+          "category": "巴西甲組",
+          "milestone": "外借"
+        },
+        {
+          "period": "2021",
+          "team": "Náutico",
+          "category": "巴西乙組",
+          "milestone": "外借"
+        },
+        {
+          "period": "2022",
+          "team": "Ponte Preta",
+          "category": "巴西州聯賽",
+          "milestone": "外借"
+        },
+        {
+          "period": "2023",
+          "team": "Ponte Preta",
+          "category": "巴西乙組",
+          "milestone": "重返長崎前"
+        },
+        {
+          "period": "2023",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2024",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2025",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2026特別",
+          "team": "長崎成功丸",
+          "category": "J1百年構想聯賽",
+          "milestone": ""
+        },
+        {
+          "period": "2026/27",
+          "team": "長崎成功丸",
+          "category": "J1",
+          "milestone": "現役；截至本次快照未固定逐輪數字"
         }
       ],
-      "honors": [],
+      "honors": [
+        "2024 J2最佳十一人（長崎，該季聯盟紀錄36場18球；J.League）"
+      ],
       "milestones": [
-        "2026/27前7輪攻入2球。",
-        "9月18日起成為副隊長之一。"
+        "2016為邦迪比達在巴西甲組初登場，翌年先赴葡萄牙Estoril再借到山度士。（前球會路線；逐季記錄）",
+        "2018短借大阪飛腳，J1上陣13場入1球；2023返回日本加盟長崎，J2 12場入1球。（J.League Data Site）",
+        "2024與2025在長崎J2分別36場18球及38場19球（聯盟數字），2024入選J2最佳十一人；2026年9月增任副隊長。（J.League；長崎官方）"
       ],
       "tactical_traits": [
-        "大步幅carry可從中場直接推進20至30米。",
-        "187cm令他在second ball及禁區後上均具優勢。"
+        "左腳持球可由中圈向前推進，在對方防中與中堅之間接球；從後上中場位置近兩季入球數可見他不止組織。（J.League逐季及逐場紀錄）",
+        "187厘米身形有助在中路對抗及爭搶第二落點，亦能前插至中鋒身側接應。（賽事觀察；具體部署按場次）",
+        "禁區邊緣左腳射門是其威脅之一，2024及2025每季19球左右，但聯盟記錄2024為18、其他數據源為19，採官方口徑。（J.League Data Site）"
       ],
-      "quirky_trivia": "外援中場被追加為副隊長，反映他在隊內角色已超越技術輸出，亦包括更衣室信任。",
+      "quirky_trivia": "他在長崎官方問答說近來喜歡footvolley，欣賞山口螢，最近令他高興的是球隊升班。（長崎官方）",
       "career": [
         {
           "season": null,
-          "team": "柏太陽王",
-          "competition": "育成／職業履歷",
+          "team": "Flamengo青年隊",
+          "competition": "青訓／學校",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/189798.html",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
         {
-          "season": null,
-          "team": "長崎成功丸",
-          "competition": "育成／職業履歷",
+          "season": "2015",
+          "team": "Ponte Preta U-20",
+          "competition": "青訓／學校",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/189798.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "Ponte Preta",
+          "competition": "巴西甲組",
+          "appearances": 25,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "Ponte Preta",
+          "competition": "巴西州聯賽",
+          "appearances": 10,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "Santos",
+          "competition": "巴西甲組",
+          "appearances": 10,
+          "goals": 0,
+          "status": "外借",
+          "notes": "Estoril簽約後外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2017/18",
+          "team": "Estoril",
+          "competition": "葡超",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "母會登錄期，實際外借山度士",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Santos",
+          "competition": "巴西州聯賽",
+          "appearances": 4,
+          "goals": 0,
+          "status": "外借",
+          "notes": "上半年外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "大阪飛腳",
+          "competition": "J1",
+          "appearances": 13,
+          "goals": 1,
+          "status": "外借",
+          "notes": "外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://data.j-league.or.jp/SFIX04/?player_id=29420",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2018/19",
+          "team": "Portimonense",
+          "competition": "葡超",
+          "appearances": 1,
+          "goals": 0,
+          "status": "外借",
+          "notes": "大阪借期提前結束後再借葡萄牙",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "Oeste",
+          "competition": "巴西州聯賽",
+          "appearances": 15,
+          "goals": 6,
+          "status": "外借",
+          "notes": "季初",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "Corinthians",
+          "competition": "巴西甲組",
+          "appearances": 6,
+          "goals": 0,
+          "status": "",
+          "notes": "季中加盟",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "Red Bull Bragantino",
+          "competition": "巴西甲組",
+          "appearances": 12,
+          "goals": 0,
+          "status": "外借",
+          "notes": "外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "Juventude",
+          "competition": "巴西甲組",
+          "appearances": 14,
+          "goals": 0,
+          "status": "外借",
+          "notes": "外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "Náutico",
+          "competition": "巴西乙組",
+          "appearances": 10,
+          "goals": 1,
+          "status": "外借",
+          "notes": "外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "Ponte Preta",
+          "competition": "巴西州聯賽",
+          "appearances": 5,
+          "goals": 0,
+          "status": "外借",
+          "notes": "外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "Ponte Preta",
+          "competition": "巴西乙組",
+          "appearances": 16,
+          "goals": 1,
+          "status": "外借",
+          "notes": "重返長崎前",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 12,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://data.j-league.or.jp/SFIX04/?player_id=29420",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 36,
+          "goals": 18,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://data.j-league.or.jp/SFIX04/?player_id=29420",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 38,
+          "goals": 19,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://data.j-league.or.jp/SFIX04/?player_id=29420",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "長崎成功丸",
+          "competition": "J1百年構想聯賽",
+          "appearances": 18,
+          "goals": 7,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://data.j-league.or.jp/SFIX04/?player_id=29420",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
@@ -5360,33 +6411,70 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "Current numbered squad；資料截至2026-09-19。",
+          "notes": "現役；截至本次快照未固定逐輪數字",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League長崎現役登録",
-              "url": "https://www.jleague.jp/club/nagasaki/",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://data.j-league.or.jp/SFIX04/?player_id=29420",
+              "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J2",
+          "appearances": 38,
+          "goals": 19,
+          "as_of": "2026-09-26",
+          "source": "https://data.j-league.or.jp/SFIX04/?player_id=29420"
+        }
+      ],
       "sources": [
         {
-          "label": "長崎官方2026/27選手頁",
-          "url": "https://www.v-varen.com/club",
-          "accessed_at": "2026-09-19"
+          "label": "長崎官方現役資料與完整路線",
+          "url": "https://www.v-varen.com/club/189798.html",
+          "accessed_at": "2026-09-26"
         },
         {
-          "label": "J.League長崎",
-          "url": "https://www.jleague.jp/club/nagasaki/",
-          "accessed_at": "2026-09-19"
+          "label": "逐季聯賽及生涯紀錄",
+          "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League官方統計",
+          "url": "https://data.j-league.or.jp/SFIX04/?player_id=29420",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "長崎副隊長2026公告",
+          "url": "https://www.v-varen.com/news/248518.html",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-26",
+      "player_image": "https://www.v-varen.com/wp-content/uploads/2023/08/%E9%81%B8%E6%89%8B%E3%83%9A%E3%83%BC%E3%82%B8_10_%E3%83%9E%E3%83%86%E3%82%A6%E3%82%B9.jpg",
+      "career_audit": {
+        "earliest_known_year": null,
+        "reviewed_at": "2026-09-26",
+        "scope": "Flamengo青年隊入隊年份未公開；2015 Ponte U20 起連續追蹤，2017–19和2021同季異隊分列。官方2024 J2 36/18 與其他來源37/19不同，採J.League。",
+        "sources": [
+          {
+            "label": "長崎官方",
+            "url": "https://www.v-varen.com/club/189798.html",
+            "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "逐季資料",
+            "url": "https://en.wikipedia.org/wiki/Matheus_Jesus",
+            "accessed_at": "2026-09-26"
+          }
+        ]
+      }
     },
     {
       "id": "nagasaki_14",
@@ -5401,72 +6489,425 @@
       "season_start_age": 28,
       "birthplace": "東京都",
       "height": 168,
-      "weight": null,
-      "foot": "",
+      "weight": 61,
+      "foot": "右腳",
       "nationality": "日本",
-      "joined": null,
-      "prev_club": "仙台維加泰",
+      "joined": 2018,
+      "prev_club": "FC琉球",
       "registration_status": "本國球員",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "168cm技術型中場，轉身、小空間接應及前場組合突出。",
+      "intro": "東京出身的進攻中場，國學院久我山高校後加盟琉球，2018轉會長崎；2022曾外借仙台，2023回到長崎。2025年6月後因治療長期離隊，2026年6月球會續約時本人表示希望循序漸進回到訓練；資料不能推定現時能否出賽。（J.League；長崎官方）",
       "timeline": [
         {
-          "period": "育成／職業",
-          "team": "仙台維加泰",
-          "category": "履歷",
+          "period": "年份未公開",
+          "team": "FC.LEEZU",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2011",
+          "team": "FC東京U-15深川",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2012",
+          "team": "FC東京U-15深川",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2013",
+          "team": "FC東京U-15深川",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2014",
+          "team": "國學院久我山高校",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2015",
+          "team": "國學院久我山高校",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2016",
+          "team": "國學院久我山高校",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2017",
+          "team": "FC琉球",
+          "category": "J3",
           "milestone": ""
         },
         {
-          "period": "育成／職業",
+          "period": "2018",
           "team": "長崎成功丸",
-          "category": "履歷",
+          "category": "J1",
           "milestone": ""
+        },
+        {
+          "period": "2019",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": "逐季出場數待J.League確認"
+        },
+        {
+          "period": "2020",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2021",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2022",
+          "team": "仙台維加泰",
+          "category": "J2",
+          "milestone": "長崎外借"
+        },
+        {
+          "period": "2023",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2024",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2025",
+          "team": "長崎成功丸",
+          "category": "J2",
+          "milestone": ""
+        },
+        {
+          "period": "2026特別",
+          "team": "長崎成功丸",
+          "category": "J1百年構想聯賽",
+          "milestone": "球會續約；未推定上陣"
+        },
+        {
+          "period": "2026/27",
+          "team": "長崎成功丸",
+          "category": "J1",
+          "milestone": "現役登錄；康復與能否上陣未有確認"
         }
       ],
       "honors": [],
       "milestones": [
-        "曾效力仙台後回到長崎。",
-        "長期在球會中場／攻擊線提供技術連接。"
+        "2017在琉球J3踢22場入4球，2018加盟長崎首次踢J1。（Football LAB逐季紀錄）",
+        "2020長崎J2踢27場入5球，2022外借仙台踢31場入4球。（Football LAB）",
+        "2025年7月球會公告需要長期治療；2026年6月續約並希望重返球隊，回歸賽場進度應以官方更新為準。（J.League；長崎官方）"
       ],
       "tactical_traits": [
-        "低重心在兩線之間接球後容易轉身。",
-        "可在10號位或側面內收，連接前鋒。"
+        "2017琉球J3 22場4球，從進攻中場持球與射門切入的特點逐步建立。（Football LAB逐季及逐場）",
+        "2025長崎初段上陣時曾踢中場中及進攻中場，顯示在中路兩個層次接應的能力。（Football LAB場次位置）",
+        "2022仙台31場4球，在中場第二線後上射門是具體入球貢獻；2026使用與訓練狀態不能依歷史推論。（Football LAB；長崎官方）"
       ],
-      "quirky_trivia": "與大型中場Matheus、保田相比，他提供完全不同的低重心節奏，換人後可直接改變中路觸球方式。",
+      "quirky_trivia": "他於2026年續約時由本人談及希望逐步回到球隊；球會另設專題刊載其近況與心情，適合作為理解他今季處境的第一手資料。（長崎官方）",
       "career": [
         {
           "season": null,
-          "team": "仙台維加泰",
-          "competition": "育成／職業履歷",
+          "team": "FC.LEEZU",
+          "competition": "青訓／學校",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/176491.html",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
         {
-          "season": null,
-          "team": "長崎成功丸",
-          "competition": "育成／職業履歷",
+          "season": "2011",
+          "team": "FC東京U-15深川",
+          "competition": "青訓／學校",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/176491.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "FC東京U-15深川",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/176491.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "FC東京U-15深川",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/176491.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "國學院久我山高校",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/176491.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "國學院久我山高校",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/176491.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "國學院久我山高校",
+          "competition": "青訓／學校",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.v-varen.com/club/176491.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "FC琉球",
+          "competition": "J3",
+          "appearances": 22,
+          "goals": 4,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "長崎成功丸",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "官方2019球會續約公告列J2 0場0球；另有盃賽參賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "長崎官方2020續約公告列2019 J2紀錄",
+              "url": "https://www.v-varen.com/news/105627.html",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 27,
+          "goals": 5,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 25,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "仙台維加泰",
+          "competition": "J2",
+          "appearances": 31,
+          "goals": 4,
+          "status": "外借",
+          "notes": "長崎外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 17,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 16,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "長崎成功丸",
+          "competition": "J2",
+          "appearances": 10,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.football-lab.jp/player/1504389",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "長崎成功丸",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "球會續約；未推定上陣",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.jleague.jp/player/1504389/",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
@@ -5477,33 +6918,74 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "Current numbered squad；資料截至2026-09-19。",
+          "notes": "現役登錄；康復與能否上陣未有確認",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League長崎現役登録",
-              "url": "https://www.jleague.jp/club/nagasaki/",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.jleague.jp/player/1504389/",
+              "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J2",
+          "appearances": 10,
+          "goals": 0,
+          "as_of": "2026-09-26",
+          "source": "https://www.football-lab.jp/player/1504389"
+        }
+      ],
       "sources": [
         {
-          "label": "長崎官方2026/27選手頁",
-          "url": "https://www.v-varen.com/club",
-          "accessed_at": "2026-09-19"
+          "label": "長崎官方現役資料與完整路線",
+          "url": "https://www.v-varen.com/club/176491.html",
+          "accessed_at": "2026-09-26"
         },
         {
-          "label": "J.League長崎",
-          "url": "https://www.jleague.jp/club/nagasaki/",
-          "accessed_at": "2026-09-19"
+          "label": "逐季聯賽及生涯紀錄",
+          "url": "https://www.football-lab.jp/player/1504389",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League官方統計",
+          "url": "https://www.jleague.jp/player/1504389/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League2025治療公告",
+          "url": "https://www.jleague.jp/news/article/31528/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "長崎2026續約本人近況",
+          "url": "https://www.v-varen.com/news/242291.html",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-26",
+      "career_audit": {
+        "earliest_known_year": null,
+        "reviewed_at": "2026-09-26",
+        "scope": "FC.LEEZU入隊年未查得；U15與高校年份依畢業年代列，2017–26逐季。2019 J2 0場0球按長崎官方2020續約公告。疾病資訊只依2025公告及2026年6月本人更新，不推測當前醫療狀態。",
+        "sources": [
+          {
+            "label": "長崎官方",
+            "url": "https://www.v-varen.com/club/176491.html",
+            "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "逐季資料",
+            "url": "https://www.football-lab.jp/player/1504389",
+            "accessed_at": "2026-09-26"
+          }
+        ]
+      }
     },
     {
       "id": "nagasaki_16",
@@ -7348,72 +8830,287 @@
       "season_start_age": 26,
       "birthplace": "牙買加",
       "height": 175,
-      "weight": null,
-      "foot": "",
+      "weight": 71,
+      "foot": "右腳",
       "nationality": "牙買加",
-      "joined": null,
-      "prev_club": "Harbour View FC",
+      "joined": 2026,
+      "prev_club": "Randers FC",
       "registration_status": "外籍球員",
       "registration_tags": [],
       "tenure_status": "",
-      "national_team_detail": "牙買加成年代表",
-      "intro": "牙買加速度型前鋒／翼鋒，縱向爆發和1對1是特色。",
+      "national_team_detail": "牙買加成年代表2020年11月對沙特阿拉伯友賽初上陣；截至2026年3月逐季記錄為8場0球，之後出場需再核。（代表紀錄）",
+      "intro": "京士頓出生的牙買加前鋒，先效力Harbour View，2020外借到塞爾維亞次級聯賽，其後在塞爾維亞頂級聯賽三隊及丹麥Randers效力，2026年1月轉投長崎。牙買加成年隊2020對沙特阿拉伯友賽首次上陣。（牙買加球員訪問；Randers；長崎官方） 長崎於2026年9月19日公告他訓練時右大腿肌肉受傷；未公布復出日期。（長崎官方）",
       "timeline": [
         {
-          "period": "育成／職業",
-          "team": "Harbour View FC",
-          "category": "履歷",
+          "period": "年份未公開",
+          "team": "Harbour View青訓",
+          "category": "青訓／學校",
+          "milestone": "育成年份無個別公開紀錄者保留未定。"
+        },
+        {
+          "period": "2018/19",
+          "team": "Harbour View",
+          "category": "牙買加超聯",
           "milestone": ""
         },
         {
-          "period": "育成／職業",
-          "team": "長崎成功丸",
-          "category": "履歷",
+          "period": "2019/20",
+          "team": "Harbour View",
+          "category": "牙買加超聯",
           "milestone": ""
+        },
+        {
+          "period": "2020/21",
+          "team": "Grafičar Beograd",
+          "category": "塞爾維亞乙組",
+          "milestone": "Harbour View外借"
+        },
+        {
+          "period": "2021/22",
+          "team": "Čukarički",
+          "category": "塞爾維亞超聯",
+          "milestone": ""
+        },
+        {
+          "period": "2022/23",
+          "team": "Javor Ivanjica",
+          "category": "塞爾維亞超聯",
+          "milestone": ""
+        },
+        {
+          "period": "2023/24",
+          "team": "Javor Ivanjica",
+          "category": "塞爾維亞超聯",
+          "milestone": "轉會Vojvodina前"
+        },
+        {
+          "period": "2023/24",
+          "team": "Vojvodina",
+          "category": "塞爾維亞超聯",
+          "milestone": "同季九月轉會"
+        },
+        {
+          "period": "2024/25",
+          "team": "Randers FC",
+          "category": "丹麥超聯",
+          "milestone": ""
+        },
+        {
+          "period": "2025/26",
+          "team": "Randers FC",
+          "category": "丹麥超聯",
+          "milestone": "一月轉投長崎前"
+        },
+        {
+          "period": "2026特別",
+          "team": "長崎成功丸",
+          "category": "J1百年構想聯賽",
+          "milestone": "現役賽事；未固定逐輪數字"
+        },
+        {
+          "period": "2026/27",
+          "team": "長崎成功丸",
+          "category": "J1",
+          "milestone": "現役"
         }
       ],
       "honors": [],
       "milestones": [
-        "牙買加成年代表背景。",
-        "2025加入長崎並參與升班。"
+        "2020離開Harbour View，外借塞爾維亞Grafičar後2021加盟Čukarički。（塞爾維亞及牙買加報道）",
+        "2022/23 Javor聯賽35場7球，2023/24中途轉Vojvodina；2024/25 Randers丹超26場7球。（逐季紀錄）",
+        "2026年1月加盟長崎，成為球會在J1升班季的翼鋒／前鋒輪換選項。（長崎官方；J.League）"
       ],
       "tactical_traits": [
-        "反擊時直接跑身後。",
-        "邊路一對一可把對手防線拉闊，為Santana騰出中路。"
+        "Randers體育總監在2024年加盟公告特別指出其速度、力量和向縱深跑的能力，當時作為翼鋒引入。（Randers FC，2024）",
+        "在塞爾維亞Javor的2022/23頂級聯賽35場入7球，進入射門區完成攻勢是其翼路特點。（逐季紀錄）",
+        "Randers公告又指出他有侵略性與腳下技術，可在側翼一對一施壓；2026年9月傷情公布後不應推定短期可上陣。（Randers；長崎官方）"
       ],
-      "quirky_trivia": "牙買加球員在J.League仍屬少數，他的速度profile與大型中鋒Santana形成天然互補。",
+      "quirky_trivia": "長崎官網問答寫他喜歡美國饒舌歌手Lil Baby，欣賞尼馬；被問最近高興甚麼，他說自己經常開心。（長崎官方）",
       "career": [
         {
           "season": null,
-          "team": "Harbour View FC",
-          "competition": "育成／職業履歷",
+          "team": "Harbour View青訓",
+          "competition": "青訓／學校",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "status": "育成年代",
+          "notes": "育成年份無個別公開紀錄者保留未定。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
         {
-          "season": null,
-          "team": "長崎成功丸",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
+          "season": "2018/19",
+          "team": "Harbour View",
+          "competition": "牙買加超聯",
+          "appearances": 7,
+          "goals": 0,
           "status": "",
-          "notes": "履歷路線以官方／TVB主資料庫核對；未可靠確認逐季數字者不推算。",
+          "notes": "",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "長崎官方2026/27選手頁",
-              "url": "https://www.v-varen.com/club",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2019/20",
+          "team": "Harbour View",
+          "competition": "牙買加超聯",
+          "appearances": 22,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2020/21",
+          "team": "Grafičar Beograd",
+          "competition": "塞爾維亞乙組",
+          "appearances": 12,
+          "goals": 3,
+          "status": "外借",
+          "notes": "Harbour View外借",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2021/22",
+          "team": "Čukarički",
+          "competition": "塞爾維亞超聯",
+          "appearances": 13,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2022/23",
+          "team": "Javor Ivanjica",
+          "competition": "塞爾維亞超聯",
+          "appearances": 35,
+          "goals": 7,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2023/24",
+          "team": "Javor Ivanjica",
+          "competition": "塞爾維亞超聯",
+          "appearances": 6,
+          "goals": 1,
+          "status": "",
+          "notes": "轉會Vojvodina前",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2023/24",
+          "team": "Vojvodina",
+          "competition": "塞爾維亞超聯",
+          "appearances": 23,
+          "goals": 2,
+          "status": "",
+          "notes": "同季九月轉會",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2024/25",
+          "team": "Randers FC",
+          "competition": "丹麥超聯",
+          "appearances": 26,
+          "goals": 7,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2025/26",
+          "team": "Randers FC",
+          "competition": "丹麥超聯",
+          "appearances": 16,
+          "goals": 2,
+          "status": "",
+          "notes": "一月轉投長崎前",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+              "accessed_at": "2026-09-26"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "長崎成功丸",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "現役賽事；未固定逐輪數字",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.jleague.jp/player/1656010/",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
@@ -7424,33 +9121,84 @@
           "appearances": null,
           "goals": null,
           "status": "現役",
-          "notes": "Current numbered squad；資料截至2026-09-19。",
+          "notes": "現役",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League長崎現役登録",
-              "url": "https://www.jleague.jp/club/nagasaki/",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://www.jleague.jp/player/1656010/",
+              "accessed_at": "2026-09-26"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2024/25",
+          "competition": "丹麥超聯",
+          "appearances": 26,
+          "goals": 7,
+          "as_of": "2026-09-26",
+          "source": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)"
+        }
+      ],
       "sources": [
         {
-          "label": "長崎官方2026/27選手頁",
-          "url": "https://www.v-varen.com/club",
-          "accessed_at": "2026-09-19"
+          "label": "長崎官方現役資料與完整路線",
+          "url": "https://www.v-varen.com/club/234036.html",
+          "accessed_at": "2026-09-26"
         },
         {
-          "label": "J.League長崎",
-          "url": "https://www.jleague.jp/club/nagasaki/",
-          "accessed_at": "2026-09-19"
+          "label": "逐季聯賽及生涯紀錄",
+          "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "J.League官方統計",
+          "url": "https://www.jleague.jp/player/1656010/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Randers 2024加盟及速度評價",
+          "url": "https://randersfc.dk/nyheder-superliga/2024/juli/randers-fc-henter-norman-campbell",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Randers 2026轉往長崎",
+          "url": "https://www.randersfc.dk/nyheder-superliga/2026/januar/norman-campbell-solgt-til-v-varen-nagasaki",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Jamaica Observer 2024訪問",
+          "url": "https://www.jamaicaobserver.com/2024/07/18/campbell-eager-excel-move-danish-club/",
+          "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "長崎2026年9月傷情報告",
+          "url": "https://www.v-varen.com/news/248600.html",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-26",
+      "career_audit": {
+        "earliest_known_year": null,
+        "reviewed_at": "2026-09-26",
+        "scope": "牙買加球會青訓年未有確證；2018/19起逐季列塞爾維亞、丹麥及日本，2023/24同季雙球會分列。Wikipedia概覽誤列Harbour View共7球而逐季表為0，本文不沿用有爭議總數。 2026年9月19日傷情以官方公告核對，未加入臆測復出日。",
+        "sources": [
+          {
+            "label": "長崎官方",
+            "url": "https://www.v-varen.com/club/234036.html",
+            "accessed_at": "2026-09-26"
+          },
+          {
+            "label": "逐季資料",
+            "url": "https://en.wikipedia.org/wiki/Norman_Campbell_(footballer)",
+            "accessed_at": "2026-09-26"
+          }
+        ]
+      }
     },
     {
       "id": "nagasaki_18",
