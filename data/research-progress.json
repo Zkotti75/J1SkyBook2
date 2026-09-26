@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "standard": "nishikawa-player-card",
+  "generated_at": "2026-09-21",
+  "max_batch_players": 4,
+  "max_capacity_points": 6,
+  "priority_note": "2026-09-26 user direction: finish JEF United Chiba, then V-Varen Nagasaki, before resuming Shimizu. Shimizu-03 has corrected career tables; shimizu-01 and -02 require early-youth audits, and shimizu-04 through -10 remain queued.",
+  "club_order": [
+    "chiba",
+    "nagasaki",
+    "shimizu",
+    "hiroshima",
+    "kobe",
+    "kyoto",
+    "nagoya",
+    "tokyo-verdy",
+    "kashima",
+    "okayama",
+    "mito",
+    "urawa",
+    "kashiwa",
+    "fc-tokyo",
+    "machida",
+    "kawasaki",
+    "yokohama-fm",
+    "gamba-osaka",
+    "cerezo-osaka",
+    "fukuoka"
+  ],
+  "progress_directory": "data/research-progress",
+  "future_stages": [
+    {
+      "id": "status-tags",
+      "status": "scheduled",
+      "description": "Normalise and source permanent player status tags across all 20 clubs."
+    },
+    {
+      "id": "portraits-and-coverage",
+      "status": "scheduled",
+      "description": "Fill official portraits and documented coverage gaps after player research."
+    }
+  ]
+}

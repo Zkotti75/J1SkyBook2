@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "club": "chiba",
+  "club_name_zh": "千葉市原JEF聯",
+  "player_research_status": "in_progress",
+  "updated_at": "2026-09-26",
+  "roster_players": 37,
+  "baseline_complete_players": [],
+  "batches": [
+    {
+      "id": "chiba-01",
+      "kind": "player_research",
+      "status": "completed",
+      "capacity_points": 6,
+      "players": [
+        {
+          "id": "chiba_2",
+          "number": "2",
+          "name_zh": "恩杜卡・邦費斯",
+          "name_en": "Nduka Boniface",
+          "weight": 1
+        },
+        {
+          "id": "chiba_3",
+          "number": "3",
+          "name_zh": "久保庭良太",
+          "name_en": "Ryota Kuboniwa",
+          "weight": 1
+        },
+        {
+          "id": "chiba_4",
+          "number": "4",
+          "name_zh": "田口泰士",
+          "name_en": "Taishi Taguchi",
+          "weight": 2
+        },
+        {
+          "id": "chiba_5",
+          "number": "5",
+          "name_zh": "小林祐介",
+          "name_en": "Yusuke Kobayashi",
+          "weight": 2
+        }
+      ],
+      "started_at": "2026-09-25",
+      "completed_at": "2026-09-25",
+      "notes": []
+    },
+    {
+      "id": "chiba-02",
+      "kind": "player_research",
+      "status": "validation_failed",
+      "capacity_points": 6,
+      "players": [
+        {
+          "id": "chiba_6",
+          "number": "6",
+          "name_zh": "伊度亞度",
+          "name_en": "Eduardo",
+          "weight": 2
+        },
+        {
+          "id": "chiba_7",
+          "number": "7",
+          "name_zh": "田中和樹",
+          "name_en": "Kazuki Tanaka",
+          "weight": 1
+        },
+        {
+          "id": "chiba_8",
+          "number": "8",
+          "name_zh": "津久井匠海",
+          "name_en": "Takumi Tsukui",
+          "weight": 1
+        },
+        {
+          "id": "chiba_9",
+          "number": "9",
+          "name_zh": "吳屋大翔",
+          "name_en": "Hiroto Goya",
+          "weight": 2
+        }
+      ],
+      "started_at": "2026-09-26",
+      "completed_at": null,
+      "notes": [
+        "Priority after user reorder: JEF before Nagasaki; career tables need dated season and youth rows before completion.",
+        "Source leads for #7: https://www.jfa.jp/youth_development/news/00013612/ and https://www.jfa.jp/youth_development/news/00026953/ document Pal SC, Verdy SS Oyama, Urawa Gakuin and Hosei; https://4years.asahi.com/article/13710997 covers his university role.",
+        "Source leads for #8: https://www.jleague.jp/club/mito/player/detail/1622683/ and https://www.rbomiya.com/news/?id=45492 trace youth and club moves; https://jebentertainment.jp/leaguer/tsukui/ has yearly senior statistics.",
+        "Source leads for #9: https://soccer.yahoo.co.jp/jleague/category/j2/teams/121/players/1503479?gk=6 and https://www.oita-trinita.co.jp/news/20221292124/ trace youth and senior clubs; verify dated Gamba and loan rows separately.",
+        "#6 Eduardo requires independent identity and season-by-season verification before any dated career rows are written; no card in this batch is validated yet.",
+        {
+          "date": "2026-09-26",
+          "text": "2026-09-26 checkpoint: four dated tables rebuilt; all research_incomplete. #6 pre-2013 youth and Brazilian competition splits; #7 pre-2012 Pal SC dates; #8 early Ota Minami/Kounan/Kumagaya dates; #9 Keyaki FC/Vissel junior youth dates. Portraits, current vitals source extraction, statistics and commentary gate remain unresolved. See career_audit and validation."
+        }
+      ]
+    },
+    {
+      "id": "chiba-03",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "chiba_11",
+          "number": "11",
+          "name_zh": "米倉恒貴",
+          "name_en": "Koki Yonekura",
+          "weight": 2
+        },
+        {
+          "id": "chiba_13",
+          "number": "13",
+          "name_zh": "鈴木大輔",
+          "name_en": "Daisuke Suzuki",
+          "weight": 2
+        },
+        {
+          "id": "chiba_14",
+          "number": "14",
+          "name_zh": "椿直起",
+          "name_en": "Naoki Tsubaki",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "chiba-04",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 6,
+      "players": [
+        {
+          "id": "chiba_15",
+          "number": "15",
+          "name_zh": "前貴之",
+          "name_en": "Takayuki Mae",
+          "weight": 2
+        },
+        {
+          "id": "chiba_18",
+          "number": "18",
+          "name_zh": "杉山直宏",
+          "name_en": "Naohiro Sugiyama",
+          "weight": 1
+        },
+        {
+          "id": "chiba_19",
+          "number": "19",
+          "name_zh": "蘇亞雷斯",
+          "name_en": "Jose Aurelio Suarez",
+          "weight": 2
+        },
+        {
+          "id": "chiba_20",
+          "number": "20",
+          "name_zh": "石川大地",
+          "name_en": "Daichi Ishikawa",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "chiba-05",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "chiba_21",
+          "number": "21",
+          "name_zh": "薄井覇斗",
+          "name_en": "Haruto Usui",
+          "weight": 1
+        },
+        {
+          "id": "chiba_22",
+          "number": "22",
+          "name_zh": "飯田貴敬",
+          "name_en": "Takahiro Iida",
+          "weight": 2
+        },
+        {
+          "id": "chiba_23",
+          "number": "23",
+          "name_zh": "鈴木椋大",
+          "name_en": "Ryota Suzuki",
+          "weight": 2
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "chiba-06",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "chiba_24",
+          "number": "24",
+          "name_zh": "鳥海晃司",
+          "name_en": "Koji Toriumi",
+          "weight": 2
+        },
+        {
+          "id": "chiba_25",
+          "number": "25",
+          "name_zh": "Matheus Indio",
+          "name_en": "Matheus Indio",
+          "weight": 1
+        },
+        {
+          "id": "chiba_26",
+          "number": "26",
+          "name_zh": "植田悠太",
+          "name_en": "Yuta Ueda",
+          "weight": 1
+        },
+        {
+          "id": "chiba_28",
+          "number": "28",
+          "name_zh": "河野貴志",
+          "name_en": "Takashi Kawano",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "chiba-07",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "chiba_29",
+          "number": "29",
+          "name_zh": "矢村健",
+          "name_en": "Ken Yamura",
+          "weight": 1
+        },
+        {
+          "id": "chiba_30",
+          "number": "30",
+          "name_zh": "松村拓實",
+          "name_en": "Takumi Matsumura",
+          "weight": 1
+        },
+        {
+          "id": "chiba_31",
+          "number": "31",
+          "name_zh": "岡本享也",
+          "name_en": "Michiya Okamoto",
+          "weight": 2
+        },
+        {
+          "id": "chiba_37",
+          "number": "37",
+          "name_zh": "姬野誠",
+          "name_en": "Makoto Himeno",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "chiba-08",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 4,
+      "players": [
+        {
+          "id": "chiba_38",
+          "number": "38",
+          "name_zh": "天笠泰輝",
+          "name_en": "Taiki Amagasa",
+          "weight": 1
+        },
+        {
+          "id": "chiba_39",
+          "number": "39",
+          "name_zh": "石尾陸登",
+          "name_en": "Rikuto Ishio",
+          "weight": 1
+        },
+        {
+          "id": "chiba_40",
+          "number": "40",
+          "name_zh": "佐藤柚太",
+          "name_en": "Yuzuta Sato",
+          "weight": 1
+        },
+        {
+          "id": "chiba_41",
+          "number": "41",
+          "name_zh": "安井拓也",
+          "name_en": "Takuya Yasui",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "chiba-09",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "chiba_42",
+          "number": "42",
+          "name_zh": "伊沙卡・辛恩",
+          "name_en": "Zain Issaka",
+          "weight": 1
+        },
+        {
+          "id": "chiba_44",
+          "number": "44",
+          "name_zh": "品田愛斗",
+          "name_en": "Manato Shinada",
+          "weight": 1
+        },
+        {
+          "id": "chiba_45",
+          "number": "45",
+          "name_zh": "李安納度・洛查",
+          "name_en": "Leonardo Rocha",
+          "weight": 2
+        },
+        {
+          "id": "chiba_55",
+          "number": "55",
+          "name_zh": "喜田陽",
+          "name_en": "Hinata Kida",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "chiba-10",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 6,
+      "players": [
+        {
+          "id": "chiba_66",
+          "number": "66",
+          "name_zh": "丹尼爾・賀爾",
+          "name_en": "Daniel Hall",
+          "weight": 2
+        },
+        {
+          "id": "chiba_67",
+          "number": "67",
+          "name_zh": "日高大",
+          "name_en": "Masaru Hidaka",
+          "weight": 2
+        },
+        {
+          "id": "chiba_99",
+          "number": "99",
+          "name_zh": "艾利臣",
+          "name_en": "Erison Danilo de Souza",
+          "weight": 2
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    }
+  ],
+  "status_tag_stage": {
+    "status": "scheduled",
+    "reviewed_players": 0,
+    "total_players": 37
+  }
+}

@@ -3,6 +3,53 @@ export const isDate = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$
 const hasUrl = source => typeof source?.url === 'string' && /^https?:\/\/\S+$/.test(source.url);
 const sourceList = value => Array.isArray(value) && value.some(hasUrl);
 const datedWithin = (value, start, end) => isDate(value) && value >= start && value <= end;
+const normalizeHost = url => {
+  try {
+    return new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+  } catch {
+    return '';
+  }
+};
+
+// Club pages are authoritative for identity, registration, shirt number, vitals
+// and portraits. They are not sufficient as the main source for commentary copy.
+const clubOfficialHosts = {
+  'cerezo-osaka': ['cerezo.jp'],
+  chiba: ['jefunited.co.jp'],
+  'fc-tokyo': ['fctokyo.co.jp'],
+  fukuoka: ['avispa.co.jp'],
+  'gamba-osaka': ['gamba-osaka.net'],
+  hiroshima: ['sanfrecce.co.jp'],
+  kashima: ['antlers.co.jp'],
+  kashiwa: ['reysol.co.jp'],
+  kawasaki: ['frontale.co.jp'],
+  kobe: ['vissel-kobe.co.jp'],
+  kyoto: ['sanga-fc.jp'],
+  machida: ['zelvia.co.jp'],
+  mito: ['mito-hollyhock.net'],
+  nagasaki: ['v-varen.com'],
+  nagoya: ['nagoya-grampus.jp'],
+  okayama: ['fagiano-okayama.com'],
+  shimizu: ['s-pulse.co.jp'],
+  'tokyo-verdy': ['verdy.co.jp'],
+  urawa: ['urawa-reds.co.jp'],
+  'yokohama-fm': ['f-marinos.com']
+};
+
+const genericPlayerCopy = [
+  /加入前主要球隊[／/]育成路線/,
+  /主要前度[／/]加入路線/,
+  /現役(?:GK|DF|MF|FW)，#\d+/,
+  /直播上的主要觀察點是#\d+與(?:GK|DF|MF|FW)功能/
+];
+
+function nonClubSourceHosts(person, slug) {
+  const clubHosts = new Set(clubOfficialHosts[slug] || []);
+  return new Set((person.sources || [])
+    .filter(hasUrl)
+    .map(source => normalizeHost(source.url))
+    .filter(host => host && !clubHosts.has(host)));
+}
 
 function daysBefore(date, days) {
   const value = new Date(`${date}T00:00:00Z`);
@@ -22,11 +69,16 @@ export function auditClub(data, { asOf } = {}) {
   if (asOf && data.team?.roster_as_of < asOf) add(freshness, 'team', `roster last checked ${data.team.roster_as_of}`);
   if (!data.manager) add(blockers, 'manager', 'missing manager');
 
+  const repeatedCommentary = new Map();
+
   for (const person of [data.manager, ...(data.players || [])].filter(Boolean)) {
     const ref = person === data.manager ? 'manager' : `#${person.number} ${person.name_zh || ''}`;
     if (person.verification_status === 'verified') {
       if (!sourceList(person.sources)) add(blockers, ref, 'verified profile has no linked source');
       if (!isDate(person.verified_at)) add(blockers, ref, 'verified profile has no valid verified_at');
+      if (person !== data.manager && nonClubSourceHosts(person, slug).size < 2) {
+        add(blockers, ref, 'verified commentary profile needs at least two distinct non-club source domains');
+      }
     }
     if (!person.player_image) add(coverage, ref, 'image missing');
     if (person.analytics) {
@@ -40,6 +92,26 @@ export function auditClub(data, { asOf } = {}) {
       if (trivia.reliability !== 'anecdotal' && !hasUrl(trivia.source)) add(blockers, `${ref} trivia ${index + 1}`, 'confirmed/reported trivia has no linked source');
     }
     if (!(person.trivia || []).length && !person.quirky_trivia && person !== data.manager) add(coverage, ref, 'sourced trivia not researched');
+    if (person !== data.manager) {
+      const serialized = JSON.stringify(person);
+      if (genericPlayerCopy.some(pattern => pattern.test(serialized))) add(blockers, ref, 'contains generated placeholder or generic position copy');
+      if ((person.intro || '').trim().length < 60) add(coverage, ref, 'commentary introduction is too thin');
+      if ((person.timeline || []).length < 3) add(coverage, ref, 'career narrative has fewer than three dated stages');
+      if ((person.milestones || []).length < 3) add(coverage, ref, 'fewer than three verified commentary milestones');
+      if ((person.tactical_traits || []).length < 3) add(coverage, ref, 'fewer than three player-specific tactical observations');
+      if (!(person.trivia || []).length && (person.quirky_trivia || '').trim().length < 35) add(coverage, ref, 'human-interest story not researched');
+      if ((person.career || []).length < 3) add(blockers, ref, 'career table is a summary rather than a season-by-season history');
+      if (!isDate(person.status_tags_reviewed_at)) add(coverage, ref, 'player status tags have not been reviewed');
+      if (person.status_tags_reviewed_at && !sourceList(person.status_tag_sources)) add(blockers, ref, 'reviewed player status tags have no linked source');
+
+      for (const text of [person.intro, ...(person.tactical_traits || [])]) {
+        const normalized = (text || '').replace(/\s+/g, ' ').trim();
+        if (normalized.length < 35) continue;
+        const refs = repeatedCommentary.get(normalized) || [];
+        refs.push(ref);
+        repeatedCommentary.set(normalized, refs);
+      }
+    }
     for (const [index, interview] of (person.recent_interviews || []).entries()) {
       const interviewRef = `${ref} interview ${index + 1}`;
       if (!isDate(interview.published_at)) add(blockers, interviewRef, 'missing valid published_at');
@@ -62,6 +134,11 @@ export function auditClub(data, { asOf } = {}) {
       // shared row shape is useful, but null manager figures are not coverage gaps.
       if (person !== data.manager && row.appearances == null) add(coverage, rowRef, 'appearances not established');
       if (person !== data.manager && row.goals == null) add(coverage, rowRef, 'goals not established');
+    }
+  }
+  for (const refs of repeatedCommentary.values()) {
+    if (refs.length > 1) {
+      for (const ref of refs) add(blockers, ref, `commentary copy is duplicated across ${refs.length} player profiles`);
     }
   }
   if (asOf && data.team?.current_season?.as_of < asOf) add(freshness, 'team', `current season statistics last checked ${data.team.current_season.as_of}`);

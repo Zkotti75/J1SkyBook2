@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T11:50:00+09:00",
+  "generated_at": "2026-09-21T00:00:00Z",
   "team": {
     "id": "team_shimizu",
     "type": "team_info",
@@ -454,55 +454,377 @@
       "position": "GK",
       "dob": "1999-08-22",
       "season_start_age": 26,
-      "birthplace": "",
-      "height": 185,
-      "weight": 82,
-      "foot": "",
+      "birthplace": "茨城縣鹿嶋市",
+      "height": 186,
+      "weight": 83,
+      "foot": "右腳",
       "nationality": "日本",
-      "joined": null,
+      "joined": 2024,
       "prev_club": "鹿島鹿角",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "沖悠哉是清水2026/27現役GK，#1。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於門線穩定與高位防線身後保護。",
+      "national_team_detail": "日本U-15至U-24代表／候補；曾參加2017土倫盃及2021 SAISON CARD CUP",
+      "intro": "鹿嶋出生、由鹿島Junior一路升上一隊的現代型門將。沖悠哉2020年J1初登場即零封，首八戰取得7勝1和；強項不只反應撲救，更是能以準確長傳直接越過第一線壓迫。2026年他正調整過多的小碎步，務求把站位、出擊與最後一下撲救變得更省力、更穩定。",
       "timeline": [
         {
-          "period": "加入前",
+          "period": "2008–2017",
+          "team": "鹿島鹿角Academy",
+          "category": "Junior至U-18",
+          "milestone": "由小學年代一路升級；2014贏日本Club Youth U-15並獲賽事MVP。"
+        },
+        {
+          "period": "2018–2023",
           "team": "鹿島鹿角",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "category": "J1",
+          "milestone": "2020首度上陣後搶得正選，六季聯賽59場。"
+        },
+        {
+          "period": "2024–至今",
+          "team": "清水心跳",
+          "category": "J2／J1",
+          "milestone": "2024季尾連續零封助球隊奪J2冠軍；2025回到J1踢24場。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "AFC Champions League冠軍：2018（鹿島鹿角）",
+        "J2冠軍：2024（清水心跳）",
+        "日本Club Youth U-15冠軍及MVP：2014（鹿島鹿角Junior Youth）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#1）。"
+        "2020年8月8日對鳥栖完成J1首戰並零封；職業首八場取得7勝1和。",
+        "2020球季由鹿島第三門將躍升為正選，聯賽上陣24場。",
+        "2024年10月27日清水聯賽首度正選，季尾對栃木及磐城連續零封，協助鎖定升班與J2冠軍。",
+        "截至2026年7月，職業聯賽累計92場；另曾由U-15一路入選日本各級青年代表。"
       ],
       "tactical_traits": [
-        "吉田孝行要求球隊更tough、aggressive，門將需在高位防線身後保持果斷。",
-        "第一傳要能在對手press下選短傳或直接找大型前鋒。"
+        "最鮮明武器是長距離傳送：可用低平或高弧度長傳越過壓迫，直接找邊路或中鋒，令門將成為反擊第一傳。",
+        "撲救時反應快、敢封窄角；2020的專門分析同時指出他在近距離攻門前能保持身體直立，延遲落地以擴大擋球面積。",
+        "出球判斷不只追求短傳：他會按比賽時段選擇後場組織、直接長傳或先讓防線推高，再爭第二點。",
+        "2026在新GK教練指導下修正『動得太多』問題，以更少預備步保存力量，避免指揮防線時分散自身接球與撲救專注。"
       ],
-      "quirky_trivia": "鹿島Academy出身門將，J1已有大量上陣；清水需要他把穩定撲救與較主動的後場發動結合。",
+      "quirky_trivia": "小時候在游泳與足球之間選了足球，最初其實踢前鋒；小四左右才逐漸固定把關。2008年鹿島ACL主場賽事，他曾以escort kid身份牽着小笠原滿男入場；多年後真正穿上鹿島一隊球衣。",
       "career": [
         {
-          "season": null,
-          "team": "鹿島鹿角",
-          "competition": "育成／職業履歷",
+          "season": "2008",
+          "team": "鹿島鹿角Junior",
+          "competition": "小學／少年足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "Academy",
+          "notes": "ACL主場賽事擔任escort kid。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
+              "label": "沖悠哉專訪",
+              "url": "https://sports.yahoo.co.jp/column/detail/202010300070-spnaviow",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2009",
+          "team": "鹿島鹿角Junior",
+          "competition": "小學／少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "鹿島Academy履歷",
+              "url": "https://www.antlers.co.jp/en/pages/academy-all-time-players",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2010",
+          "team": "鹿島鹿角Junior",
+          "competition": "小學／少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島Academy履歷",
+              "url": "https://www.antlers.co.jp/en/pages/academy-all-time-players",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2011",
+          "team": "鹿島鹿角Junior",
+          "competition": "小學／少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島Academy履歷",
+              "url": "https://www.antlers.co.jp/en/pages/academy-all-time-players",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "鹿島鹿角Junior Youth",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島Academy履歷",
+              "url": "https://www.antlers.co.jp/en/pages/academy-all-time-players",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "鹿島鹿角Junior Youth",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島Academy履歷",
+              "url": "https://www.antlers.co.jp/en/pages/academy-all-time-players",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "鹿島鹿角Junior Youth",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "日本U-15代表",
+          "notes": "日本Club Youth U-15冠軍兼MVP。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯及錦標履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "鹿島鹿角Youth",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "日本U-16代表",
+          "notes": "參加U-16 International Dream Cup。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯及代表履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "鹿島鹿角Youth",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "日本U-17代表",
+          "notes": "參加Václav Ježek國際青年賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯及代表履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "鹿島鹿角Youth",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "日本U-18／U-19代表",
+          "notes": "入選SBS Cup及土倫盃陣容；8月獲一隊升格內定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島升格公告",
+              "url": "https://www.antlers.co.jp/blogs/news/61545",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "一隊首季；球隊贏得ACL。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "盃賽亦未上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 24,
+          "goals": 0,
+          "status": "正選門將",
+          "notes": "8月完成J1首戰；首八戰7勝1和。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 33,
+          "goals": 0,
+          "status": "正選門將",
+          "notes": "另有3場聯賽盃及2場天皇盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 2,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "正選位置競爭下聯賽上陣減少。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "盃賽8場；季後完全轉會清水。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "清水心跳",
+          "competition": "J2",
+          "appearances": 2,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "季尾兩次聯賽正選均零封，協助奪冠升班。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "清水心跳",
+          "competition": "J1",
+          "appearances": 24,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "重返J1後擔任大部分球季正選。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "清水心跳",
+          "competition": "J1百年構想聯賽",
+          "appearances": 7,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "短期春季賽事。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -510,41 +832,68 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 0,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至2026-09-18未有聯賽上陣。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1603857/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 0,
+          "starts": 0,
+          "minutes": 0,
+          "goals": 0,
+          "assists": 0,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1603857/"
+        }
+      ],
       "sources": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
+          "label": "清水官方球員檔案",
+          "url": "https://www.s-pulse.co.jp/top_teams/profile/2026/01",
+          "accessed_at": "2026-09-25"
         },
         {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1603857/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "生涯及逐季紀錄",
+          "url": "https://ja.wikipedia.org/wiki/%E6%B2%96%E6%82%A0%E5%93%89",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Footballista門將技術分析",
+          "url": "https://www.footballista.jp/special/97184",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Soccer Digest訪問",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=83458",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "人文訪問",
+          "url": "https://note.com/slowcal_shizuoka/n/n9865e249497f",
+          "accessed_at": "2026-09-25"
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_16",
@@ -648,8 +997,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_22",
@@ -751,8 +1100,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_30",
@@ -856,8 +1205,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_71",
@@ -974,8 +1323,8 @@
         }
       ],
       "name_source": "官方日本漢字；TVB原表仍列其外借狀態，current status按9/10官方回歸覆蓋。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_3",
@@ -988,55 +1337,467 @@
       "position": "DF",
       "dob": "1993-04-11",
       "season_start_age": 33,
-      "birthplace": "",
+      "birthplace": "滋賀縣大津市",
       "height": 187,
-      "weight": null,
-      "foot": "",
+      "weight": 80,
+      "foot": "右腳",
       "nationality": "日本",
-      "joined": null,
+      "joined": 2023,
       "prev_club": "柏太陽王",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "高橋祐治是清水2026/27現役DF，#3。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於正面對抗與後場支援。",
+      "national_team_detail": "日本U-18、U-19、U-20及U-22代表；參加2013東亞運動會",
+      "intro": "187cm的右腳中堅，職業生涯先後經歷京都青訓、澳洲外借、讚岐、鳥栖與柏，2023轉投清水後成為升班防線核心。高橋祐治的價值在禁區防空、正面對抗和穩健第一傳；2025遭遇嚴重傷患後，2026/27球季初逐步重返正選，前三場全部踢足90分鐘。",
       "timeline": [
         {
-          "period": "加入前",
-          "team": "柏太陽王",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "period": "2003–2011",
+          "team": "京都紫光／京都Sanga Academy",
+          "category": "少年足球至U-18",
+          "milestone": "U-18擔任隊長，2011以二種註冊進入一隊。"
+        },
+        {
+          "period": "2012–2017",
+          "team": "京都Sanga（外借Brisbane及讚岐）",
+          "category": "J2／A-League",
+          "milestone": "19歲赴澳；2015在讚岐踢32場並取得職業聯賽首球。"
+        },
+        {
+          "period": "2018–2022",
+          "team": "鳥栖砂岩／柏太陽王",
+          "category": "J1",
+          "milestone": "鳥栖兩季59場；柏三季53場，2022聯賽29場1球。"
+        },
+        {
+          "period": "2023–至今",
+          "team": "清水心跳",
+          "category": "J2／J1",
+          "milestone": "2023及24兩季聯賽67場，2024贏J2；大傷後於2026/27開季復出。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "J2冠軍：2024（清水心跳）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#3）。"
+        "2012年未替京都一隊上陣前即獲Brisbane Roar賞識，19歲外借澳洲並於10月21日完成A-League首戰。",
+        "2014年3月9日代表J.League U-22選拔完成J.League首戰；同年7月20日取得首球。",
+        "2018加盟鳥栖首季J1上陣30場入1球，另於盃賽共入2球。",
+        "2023加盟清水即在J2踢37場1球；2024再踢30場並協助球隊奪冠升班。",
+        "2026/27球季傷癒後首三場聯賽全部正選踢足90分鐘。"
       ],
       "tactical_traits": [
-        "防線重點是主動對抗與前頂，不能被對手輕易轉身。",
-        "邊後衛／外側中堅要支援前場壓迫，同時保護transition。"
+        "187cm身高令他成為禁區第一點主要處理者；2026/27頭三場已錄得10次空中球成功。",
+        "防守選擇以保持身位及延遲對手為先，配合約58%的空中對抗成功率，適合低位守禁區與處理長傳。",
+        "不是只會解圍的中堅：2025數據每場自陣傳球32.9次、長傳4.1次，能在壓迫下承擔後場第一傳。",
+        "經歷膝部大傷後現階段最重要觀察是橫移與轉身速度；清水以連續完整90分鐘逐步恢復其比賽負荷。"
       ],
-      "quirky_trivia": "187cm資深中堅，曾效力柏等J1球會；防空與更衣室經驗是價值。",
+      "quirky_trivia": "他童年最初想當職業鼓手，2002世界盃後才迷上足球；家境轉差時不敢開口要求上足球班，只在家門前把皮球踢至破爛。父親最後主動帶他試堂，開啟由滋賀每天乘車約90分鐘到京都受訓的道路。",
       "career": [
         {
-          "season": null,
-          "team": "柏太陽王",
-          "competition": "育成／職業履歷",
+          "season": "2003",
+          "team": "藤尾SSS／京都紫光SC",
+          "competition": "小學足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "育成年代",
+          "notes": "小四開始正式參加少年團，其後轉入京都紫光。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
+              "label": "Football Zone半生訪問",
+              "url": "https://www.football-zone.net/archives/581151",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2004",
+          "team": "京都紫光SC",
+          "competition": "小學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "由滋賀乘公共交通往京都受訓。",
+          "verification_status": "verified",
+          "sources": [
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "Football Zone半生訪問",
+              "url": "https://www.football-zone.net/archives/581151",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2005",
+          "team": "京都紫光SC",
+          "competition": "小學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2006",
+          "team": "京都Sanga U-15",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League履歷",
+              "url": "https://www.jleague.jp/player/900641/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2007",
+          "team": "京都Sanga U-15",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League履歷",
+              "url": "https://www.jleague.jp/player/900641/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2008",
+          "team": "京都Sanga U-15",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League履歷",
+              "url": "https://www.jleague.jp/player/900641/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2009",
+          "team": "京都Sanga U-18",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2010",
+          "team": "京都Sanga U-18",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2011",
+          "team": "京都Sanga U-18／一隊",
+          "competition": "U-18／J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "二種註冊",
+          "notes": "U-18隊長；4月起二種註冊。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "京都Sanga／Brisbane Roar",
+          "competition": "J2／A-League",
+          "appearances": 4,
+          "goals": 0,
+          "status": "外借",
+          "notes": "京都未上陣；9月外借澳洲並取得4場聯賽機會。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "京都Sanga",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "1月由Brisbane回歸。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "京都Sanga／J.League U-22選拔",
+          "competition": "J2／J3",
+          "appearances": 12,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "京都J2 1場；J-22選拔J3 11場1球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "讚岐釜玉海",
+          "competition": "J2",
+          "appearances": 32,
+          "goals": 1,
+          "status": "外借",
+          "notes": "取得穩定正選經驗。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "京都Sanga",
+          "competition": "J2",
+          "appearances": 15,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "外借期滿回歸。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "京都Sanga",
+          "competition": "J2",
+          "appearances": 23,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "季後轉投鳥栖。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "鳥栖砂岩",
+          "competition": "J1",
+          "appearances": 30,
+          "goals": 1,
+          "status": "主力",
+          "notes": "另有6場聯賽盃及4場天皇盃，盃賽合計2球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "鳥栖砂岩",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 0,
+          "status": "主力",
+          "notes": "兩季聯賽合計59場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "柏太陽王",
+          "competition": "J1",
+          "appearances": 10,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "加盟柏首季。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "柏太陽王",
+          "competition": "J1",
+          "appearances": 14,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "由大傷復出。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "柏太陽王",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 1,
+          "status": "主力",
+          "notes": "各項賽事32場2球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "清水心跳",
+          "competition": "J2",
+          "appearances": 37,
+          "goals": 1,
+          "status": "主力",
+          "notes": "加盟首季幾乎全勤。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "清水心跳",
+          "competition": "J2",
+          "appearances": 30,
+          "goals": 0,
+          "status": "主力",
+          "notes": "協助球隊贏得J2冠軍。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "清水心跳",
+          "competition": "J1",
+          "appearances": 15,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "球季中遭遇重大傷患。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "清水心跳",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "復康",
+          "notes": "繼續由上季大傷復康。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "清水復出訪問",
+              "url": "https://www.s-pulse.co.jp/news/detail/57202",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -1044,41 +1805,66 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 3,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至9月18日三場全正選並踢足90分鐘。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/900641/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 3,
+          "starts": 3,
+          "minutes": 270,
+          "goals": 0,
+          "assists": 0,
+          "total_distance_km": 28.8,
+          "duels_won": 1,
+          "aerial_duels_won": 10,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/900641/"
+        }
+      ],
       "sources": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
+          "label": "清水官方球員檔案",
+          "url": "https://www.s-pulse.co.jp/top_teams/profile/2026/03",
+          "accessed_at": "2026-09-25"
         },
         {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "label": "J.League球員頁及現季數據",
+          "url": "https://www.jleague.jp/player/900641/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "生涯及逐季紀錄",
+          "url": "https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E7%A5%90%E6%B2%BB",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Football Zone半生訪問",
+          "url": "https://www.football-zone.net/archives/581151",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "人文訪問",
+          "url": "https://note.com/slowcal_shizuoka/n/nec02d5b9acf3",
+          "accessed_at": "2026-09-25"
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_4",
@@ -1091,55 +1877,438 @@
       "position": "DF",
       "dob": "1998-06-27",
       "season_start_age": 28,
-      "birthplace": "",
+      "birthplace": "東京都足立區",
       "height": 182,
-      "weight": null,
-      "foot": "",
+      "weight": 82,
+      "foot": "右腳",
       "nationality": "日本",
-      "joined": null,
+      "joined": 2024,
       "prev_club": "FC東京",
-      "registration_status": "現役",
+      "registration_status": "完全移籍",
       "registration_tags": [],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "蓮川壯大是清水2026/27現役DF，#4。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於正面對抗與後場支援。",
+      "tenure_status": "2024借用加盟、2025完全轉會；2026起任副隊長",
+      "national_team_detail": "2020全日本大學選拔",
+      "intro": "FC東京Academy出身、明治大學2019全國大學錦標賽MVP的速度型中堅。蓮川壯大經岩手與甲府兩次外借累積實戰，2024加盟清水後以高位防線身後補位、一對一和主動帶球打入主力；2025完全轉會，2026獲任副隊長。",
       "timeline": [
         {
-          "period": "加入前",
-          "team": "FC東京",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "period": "2005–2016",
+          "team": "Regista FC／FC東京Academy",
+          "category": "少年足球至U-18",
+          "milestone": "2016任U-18隊長，贏Club Youth U-18及J Youth Cup雙冠。"
+        },
+        {
+          "period": "2017–2020",
+          "team": "明治大學",
+          "category": "大學足球",
+          "milestone": "2019包辦總理大臣盃、關東一部與全國大學錦標賽；決賽入致勝球並獲MVP。"
+        },
+        {
+          "period": "2021–2023",
+          "team": "FC東京（外借岩手、甲府）",
+          "category": "J1／J2",
+          "milestone": "2023為甲府J2上陣31場，另踢4場ACL。"
+        },
+        {
+          "period": "2024–至今",
+          "team": "清水心跳",
+          "category": "J2／J1",
+          "milestone": "2024借用加盟並取得職業首球、協助J2奪冠；2025完全轉會，2026任副隊長。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "日本Club Youth U-18冠軍：2016（FC東京U-18）",
+        "J Youth Cup冠軍：2016（FC東京U-18）",
+        "總理大臣盃、全日本大學錦標賽冠軍：2019（明治大學）",
+        "關東大學聯賽一部冠軍：2019、2020（明治大學）",
+        "全日本大學錦標賽MVP：2019；關東大學聯賽最佳十一人：2020",
+        "J2冠軍：2024（清水心跳）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#4）。"
+        "2016年以FC東京U-18隊長身份贏兩項全國盃賽，並以二種註冊在J3完成J.League首戰。",
+        "2019全日本大學錦標賽決賽射入致勝球，助明治大學奪冠並獲賽事MVP。",
+        "2023外借甲府時J2上陣31場，並在球會首次ACL旅程出賽4場。",
+        "2024年11月3日對磐城取得J.League首球，清水同季贏J2升班。",
+        "2026年獲任清水副隊長；新球季頭兩次上陣均由後備入替。"
       ],
       "tactical_traits": [
-        "防線重點是主動對抗與前頂，不能被對手輕易轉身。",
-        "邊後衛／外側中堅要支援前場壓迫，同時保護transition。"
+        "速度及轉身是高位防線的保險：他能在中堅身後大範圍追跑，讓防線貼近中場維持隊形緊湊。",
+        "正面球權爭奪侵略性高，自己亦強調一對一不能輸；2026正練習在保持強度之餘不犯規地完成攔截。",
+        "有球時會在對手不壓迫的瞬間自行帶球越線，將後場人數優勢轉化成中場推進，而非每次直接長傳。",
+        "182cm並非超高型中堅，但2025空中對抗成功率61.1%；靠起跳時機、身體接觸與提前站位處理第一點。"
       ],
-      "quirky_trivia": "蓮川壯大在直播上的主要觀察點是#4與DF功能；清水前7輪場均僅0.6球，如何把跑動和推進真正變成chance是共同課題。",
+      "quirky_trivia": "三歲受哥哥雄大影響開始踢球；兩兄弟同走FC東京青訓與大學足球道路。家中愛犬『茶々』在2026愚人節更被清水官方製作成『職業球員簽約公告』，履歷完全沿用蓮川本人曾效力的球隊。",
       "career": [
         {
-          "season": null,
-          "team": "FC東京",
-          "competition": "育成／職業履歷",
+          "season": "2005",
+          "team": "Regista FC",
+          "competition": "小學足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "育成年代",
+          "notes": "三歲開始踢球後加入少年隊。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2006",
+          "team": "Regista FC",
+          "competition": "小學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2007",
+          "team": "Regista FC",
+          "competition": "小學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2008",
+          "team": "Regista FC",
+          "competition": "小學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2009",
+          "team": "Regista FC",
+          "competition": "小學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2010",
+          "team": "Regista FC",
+          "competition": "小學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "育成年代",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2011",
+          "team": "FC東京U-15深川",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "FC東京U-15深川",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "FC東京U-15深川",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "FC東京履歷",
+              "url": "https://www.fctokyo.co.jp/news/details/310979/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "FC東京U-18",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "FC東京U-18",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "FC東京U-18／FC東京U-23",
+          "competition": "U-18／J3",
+          "appearances": 5,
+          "goals": 0,
+          "status": "二種註冊",
+          "notes": "U-18隊長兼兩項盃賽冠軍；5月完成J.League首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯及逐季紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "明治大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "由FC東京U-18升學。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "明大年代訪問",
+              "url": "https://4years.asahi.com/article/13797046",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "明治大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "明治大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "贏總理大臣盃、關東一部及全日本大學錦標賽；錦標賽MVP。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯及錦標履歷",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "明治大學／FC東京",
+          "competition": "大學足球／J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "全日本大學選拔；10月4日J1首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯及逐季紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 5,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "另踢7場聯賽盃及1場天皇盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "FC東京／岩手盛岡仙鶴",
+          "competition": "J1／J2",
+          "appearances": 11,
+          "goals": 0,
+          "status": "育成型外借",
+          "notes": "5月底外借岩手，J2上陣11場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "甲府風林",
+          "competition": "J2／ACL",
+          "appearances": 31,
+          "goals": 0,
+          "status": "外借",
+          "notes": "另踢3場天皇盃及4場ACL。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季及ACL紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "清水心跳",
+          "competition": "J2",
+          "appearances": 18,
+          "goals": 1,
+          "status": "外借",
+          "notes": "4月腿後肌受傷缺陣；季尾復出並取得職業首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "清水心跳",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "完全轉會後成為主力中堅。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "清水心跳",
+          "competition": "J1百年構想聯賽",
+          "appearances": 4,
+          "goals": 0,
+          "status": "副隊長",
+          "notes": "新季獲任副隊長。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -1147,41 +2316,71 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "appearances": 2,
+          "goals": 0,
+          "status": "副隊長",
+          "notes": "截至9月18日兩次後備入替，共29分鐘。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1603088/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "starts": 0,
+          "minutes": 29,
+          "goals": 0,
+          "assists": 0,
+          "total_distance_km": 4.4,
+          "duels_won": 0,
+          "aerial_duels_won": 1,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1603088/"
+        }
+      ],
       "sources": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
+          "label": "清水官方球員檔案",
+          "url": "https://www.s-pulse.co.jp/top_teams/profile/2026/04",
+          "accessed_at": "2026-09-25"
         },
         {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "label": "J.League球員頁及現季數據",
+          "url": "https://www.jleague.jp/player/1603088/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "生涯及逐季紀錄",
+          "url": "https://ja.wikipedia.org/wiki/%E8%93%AE%E5%B7%9D%E5%A3%AE%E5%A4%A7",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "4years明大年代訪問",
+          "url": "https://4years.asahi.com/article/13797046",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "靜岡新聞戰術訪問",
+          "url": "https://www.at-s.com/life/article/ats/1818807.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Soccer King青年年代訪問",
+          "url": "https://www.soccer-king.jp/news/youthstudent/20170419/578155.html",
+          "accessed_at": "2026-09-25"
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_14",
@@ -1194,55 +2393,346 @@
       "position": "DF",
       "dob": "1997-05-07",
       "season_start_age": 29,
-      "birthplace": "",
+      "birthplace": "南韓慶尚南道梁山市",
       "height": 184,
-      "weight": null,
-      "foot": "",
+      "weight": 78,
+      "foot": "右腳",
       "nationality": "南韓",
-      "joined": null,
-      "prev_club": "Pohang Steelers",
+      "joined": 2026,
+      "prev_club": "浦項製鐵人",
       "registration_status": "現役",
       "registration_tags": [],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "朴承旭是清水2026/27現役DF，#14。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於正面對抗與後場支援。",
+      "tenure_status": "季前完全轉會",
+      "national_team_detail": "南韓大國腳5場；2024年6月對新加坡首戰並送出助攻",
+      "intro": "朴承旭的履歷由半職業K3一路爬到南韓代表隊：大學畢業未獲K League合約，先在釜山交通公社踢足兩年半，2021季中才被浦項相中。他能踢中堅、左右閘及防中，強項是貼身對抗後仍可冷靜把球送過第一線；2024效力金泉尚武時入選K League 1最佳十一人。清水可把他視為三後衛右中堅，也可在四後衛移到邊路。",
       "timeline": [
         {
-          "period": "加入前",
-          "team": "Pohang Steelers",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "period": "2013–2018",
+          "team": "鶴城高中／東義大學",
+          "category": "高中／大學",
+          "milestone": "未循精英代表隊路線，畢業時亦未獲K League球會錄用。"
+        },
+        {
+          "period": "2019–2021",
+          "team": "釜山交通公社",
+          "category": "KNL／K3",
+          "milestone": "在半職業環境從前輩學比賽管理，60場聯賽零入球卻建立全能守備定位。"
+        },
+        {
+          "period": "2021–2025",
+          "team": "浦項／金泉尚武",
+          "category": "K League 1",
+          "milestone": "季中直升頂級聯賽即站穩；兵役期間成為金泉主力並入選2024最佳十一人。"
+        },
+        {
+          "period": "2026–至今",
+          "team": "清水心跳",
+          "category": "J1",
+          "milestone": "由浦項完全轉會，首季在中堅與邊後衛之間切換。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "韓國足總盃冠軍：2023（浦項製鐵人）",
+        "AFC Champions League亞軍：2021（浦項製鐵人）",
+        "K League 1最佳十一人：2024（金泉尚武）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#14）。"
+        "2021年7月由K3釜山交通公社跳升浦項，半季即踢19場並入一球。",
+        "2024年6月6日南韓7:0勝新加坡完成大國腳首戰，後備登場後以傳中助攻裴峻浩。",
+        "2024效力金泉尚武32場，首次入選K League 1年度最佳十一人。",
+        "2026/27截至9月18日J1六場、四次正選；能在四後衛與三後衛體系補多個位置。"
       ],
       "tactical_traits": [
-        "防線重點是主動對抗與前頂，不能被對手輕易轉身。",
-        "邊後衛／外側中堅要支援前場壓迫，同時保護transition。"
+        "真正賣點是位置兼容性：中堅、左右閘及防中均有正式比賽經驗，教練可在不換人的情況下由四後衛切換三後衛。",
+        "對抗時喜歡提早貼身、用肩膊和下盤阻止前鋒轉身；若身後有保護，他可主動前頂壓縮對手接球空間。",
+        "K3年代向資深中堅學到的是節奏管理與安全處理；搶回球後不只解圍，也能用直線傳球或帶球把防線推前。",
+        "邊路出任右閘時傳中具威脅，代表隊首戰便助攻；但他更像守備型邊閘，進攻寬度通常需要翼鋒共同提供。"
       ],
-      "quirky_trivia": "南韓後衛，Pohang Steelers背景，能帶來K League高強度對抗與ACL經驗。",
+      "quirky_trivia": "南韓媒體稱他為「人間勝利者」：沒有青年國腳光環，也沒有一畢業就進K League；他在釜山交通公社一邊踢半職業聯賽，一邊向臨近退役的前輩追問站位、處理球與生活習慣，兩年後才被浦項教練金基東從熱身賽中看中。",
       "career": [
+        {"season":"2004","team":"首爾東山小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"青年球會履歷所載的首間小學（2004–06）；逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
+        {"season":"2005","team":"首爾東山小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
+        {"season":"2006","team":"首爾東山小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
+        {"season":"2007","team":"梁山小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"由首爾東山小學校轉到梁山。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"},{"label":"梁山市返鄉報道","url":"https://v.daum.net/v/20250617222849312","accessed_at":"2026-09-25"}]},
+        {"season":"2008","team":"梁山小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
+        {"season":"2009","team":"梁山小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"小學育成最後一年。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
+        {"season":"2010","team":"梁山中學校","competition":"中學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"中學育成首年。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
+        {"season":"2011","team":"梁山中學校","competition":"中學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
+        {"season":"2012","team":"梁山中學校","competition":"中學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"翌年升讀鶴城高中。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"}]},
         {
-          "season": null,
-          "team": "Pohang Steelers",
-          "competition": "育成／職業履歷",
+          "season": "2013",
+          "team": "鶴城高中",
+          "competition": "高中足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "高中一年級",
+          "notes": "由梁山地區育成路線升上鶴城高中。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "鶴城高中",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "高中二年級",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "鶴城高中",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "高中三年級",
+          "notes": "畢業後升讀東義大學。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "東義大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學一年級",
+          "notes": "大學育成首季。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "東義大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學二年級",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "東義大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學三年級／提前投身成人隊",
+          "notes": "未獲K League球會錄用，轉往釜山交通公社。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "MK Sports生涯專訪",
+              "url": "https://www.mk.co.kr/jp/sports/11030535",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "釜山交通公社",
+          "competition": "韓國National League",
+          "appearances": 23,
+          "goals": 0,
+          "status": "半職業球員",
+          "notes": "成人聯賽首季；另踢足總盃1場及聯賽錦標賽4場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "釜山交通公社",
+          "competition": "K3 League",
+          "appearances": 21,
+          "goals": 0,
+          "status": "半職業球員",
+          "notes": "球隊改制後續任主力；另有1場足總盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "釜山交通公社",
+          "competition": "K3 League",
+          "appearances": 16,
+          "goals": 0,
+          "status": "季中離隊",
+          "notes": "足總盃3場1球；7月獲浦項羅致。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "MK Sports生涯專訪",
+              "url": "https://www.mk.co.kr/jp/sports/11030535",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "浦項製鐵人",
+          "competition": "K League 1",
+          "appearances": 19,
+          "goals": 1,
+          "status": "季中加盟",
+          "notes": "直升頂級聯賽即成主力，另踢4場ACL並取得亞軍。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "MK Sports戰術專訪",
+              "url": "https://www.mk.co.kr/jp/sports/11030535",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "浦項製鐵人",
+          "competition": "K League 1",
+          "appearances": 29,
+          "goals": 0,
+          "status": "主力後衛",
+          "notes": "錄得2次助攻。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "MK Sports逐季紀錄",
+              "url": "https://www.mk.co.kr/jp/sports/11030535",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "浦項製鐵人",
+          "competition": "K League 1",
+          "appearances": 32,
+          "goals": 1,
+          "status": "主力後衛",
+          "notes": "1球1助攻；贏得韓國足總盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "MK Sports逐季紀錄",
+              "url": "https://www.mk.co.kr/jp/sports/11030535",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "金泉尚武",
+          "competition": "K League 1",
+          "appearances": 32,
+          "goals": 0,
+          "status": "兵役／年度最佳十一人",
+          "notes": "成為中堅主力並首次入選南韓代表。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "K League最佳十一人報道",
+              "url": "https://www.mk.co.kr/news/sports/11181720",
+              "accessed_at": "2026-09-25"
             },
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "南韓代表首戰報道",
+              "url": "https://www.kfa.or.kr/layer_popup/popup_live.php?act=news_tv_detail&div_code=news&idx=26338&lang=KOR",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "金泉尚武",
+          "competition": "K League 1",
+          "appearances": 16,
+          "goals": 0,
+          "status": "兵役",
+          "notes": "夏季退伍返回浦項。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "浦項製鐵人",
+          "competition": "K League 1",
+          "appearances": 18,
+          "goals": 1,
+          "status": "季中回歸",
+          "notes": "另有2場ACL2上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "清水心跳",
+          "competition": "J1百年構想聯賽",
+          "appearances": 11,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "9次正選、778分鐘，主要任中堅。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Football LAB逐季數據",
+              "url": "https://www.football-lab.jp/player/1635312",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -1250,41 +2740,84 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 6,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至2026-09-18；4次正選、393分鐘。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1635312/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "career_audit": {"reviewed_at":"2026-09-25","earliest_known_year":2004,"scope":"首爾東山小學校起逐年核對至2026/27；2021及2025轉隊分行。青年隊逐季出場數未公開。","sources":[{"label":"Transfermarkt早期學校及年份","url":"https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776","accessed_at":"2026-09-25"},{"label":"梁山市返鄉報道","url":"https://v.daum.net/v/20250617222849312","accessed_at":"2026-09-25"}]},
+      "season_stats": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "starts": 4,
+          "minutes": 393,
+          "goals": 0,
+          "assists": 0,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1635312/"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "sources": [
+        {
+          "label": "清水2026球員資料",
+          "url": "https://www.s-pulse.co.jp/top_teams/profile/2026/14",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1635312/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "MK Sports生涯及戰術專訪",
+          "url": "https://www.mk.co.kr/jp/sports/11030535",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "KFA南韓代表首戰報道",
+          "url": "https://www.kfa.or.kr/layer_popup/popup_live.php?act=news_tv_detail&div_code=news&idx=26338&lang=KOR",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "K League最佳十一人報道",
+          "url": "https://www.mk.co.kr/news/sports/11181720",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Football LAB本季數據",
+          "url": "https://www.football-lab.jp/player/1635312",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "生涯逐季紀錄",
+          "url": "https://en.wikipedia.org/wiki/Park_Seung-wook",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Transfermarkt早期學校及年份",
+          "url": "https://www.transfermarkt.com/seung-wook-park/profil/spieler/658776",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "梁山市返鄉報道",
+          "url": "https://v.daum.net/v/20250617222849312",
+          "accessed_at": "2026-09-25"
+        }
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；日／英姓名及現役身份按清水與J.League更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_15",
@@ -1386,8 +2919,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_20",
@@ -1489,8 +3022,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_24",
@@ -1592,8 +3125,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_25",
@@ -1695,8 +3228,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_28",
@@ -1798,8 +3331,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_39",
@@ -1901,8 +3434,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_51",
@@ -2004,8 +3537,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_70",
@@ -2107,8 +3640,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_2",
@@ -2121,55 +3654,297 @@
       "position": "MF",
       "dob": "1995-03-31",
       "season_start_age": 31,
-      "birthplace": "",
+      "birthplace": "巴西里約熱內盧州Macaé",
       "height": 175,
-      "weight": null,
-      "foot": "",
+      "weight": 68,
+      "foot": "右腳",
       "nationality": "巴西",
-      "joined": null,
+      "joined": 2026,
       "prev_club": "Ceará SC",
       "registration_status": "現役",
       "registration_tags": [],
       "tenure_status": "",
       "national_team_detail": "",
-      "intro": "迪古恩奴是清水2026/27現役MF，#2。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於中場強度、第二點與推進。",
+      "intro": "31歲才首次出國的巴西多功能中場，職業起步比一般人遲得多：試腳屢次落選後一度當理髮師，22歲才由Barcelona-RJ踏入職業圈。迪古恩奴可踢防守中場及右閘，以不犯規的攔截、簡潔轉球、帶球推進和長界外球見稱；2025在Ceará成為主力並贏州聯賽後轉投清水。",
       "timeline": [
         {
-          "period": "加入前",
+          "period": "2017–2020",
+          "team": "里約州及低組別球會",
+          "category": "州聯賽／Série C-D",
+          "milestone": "22歲由理髮師身份得到Barcelona-RJ機會，經Resende、Friburguense、Portuguesa-RJ及Boa累積職業經驗。"
+        },
+        {
+          "period": "2021–2024",
+          "team": "Goiás EC",
+          "category": "Série B／Série A",
+          "milestone": "加盟首季協助升班，其後在巴甲站穩；四季聯賽135場5球。"
+        },
+        {
+          "period": "2025–2026",
           "team": "Ceará SC",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "category": "Série A／Série B",
+          "milestone": "2025各項賽事51場2球2助攻，贏得Cearense州冠軍；2026年6月離隊。"
+        },
+        {
+          "period": "2026–至今",
+          "team": "清水心跳",
+          "category": "J1",
+          "milestone": "8月8日對名古屋完成J.League首戰；頭四輪兩次正選。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "Campeonato Carioca Série B1冠軍：2019（Friburguense）",
+        "Campeonato Cearense冠軍：2025（Ceará）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#2）。"
+        "2017年在約九次試腳失敗、一度轉做理髮師後，22歲才獲Barcelona-RJ給予首份職業機會。",
+        "2021加盟Goiás後即以主力身份協助球隊由Série B升上巴甲；2022對Flamengo取得個人巴甲首球。",
+        "2025為Ceará各項賽事51場2球2助攻，球季中39次出戰球隊首42場，自評是生涯最佳一年。",
+        "2026年8月8日對名古屋正選上陣89分鐘，完成J.League首戰並協助清水1–0取勝。"
       ],
       "tactical_traits": [
-        "中場要求intensity、第二點與向前推進。",
-        "失球後第一反應要反搶，讓球隊保持進攻區域。"
+        "可在防守中場與右閘之間轉換；Ceará簽入時正是看中他能覆蓋多個位置，讓教練可在四後衛及中場屏障之間調節。",
+        "搶截特色是先用身體卡位、盡量不犯規地奪回皮球；清水GM亦把這點視為核心武器。",
+        "得球後以少觸球橫移或向前傳送控制節奏，不只是破壞型中場；有空間時會自行帶球越過第一線。",
+        "具長界外球及定位球處理能力，在需要直接製造禁區第二點時提供額外方案。"
       ],
-      "quirky_trivia": "Brazil新援Dieguinho由Ceará SC加盟，邊路突破與1對1提供南美節奏。",
+      "quirky_trivia": "他的職業故事由理髮店重新開始：2016年International U-23試腳失敗後曾灰心停踢，但仍自行訓練；翌年朋友來電邀請他到Barcelona-RJ，才在22歲正式成為職業球員。來日本後亦主動表示『Diego』較容易讓日本隊友稱呼。",
       "career": [
         {
-          "season": null,
-          "team": "Ceará SC",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "season": "2017",
+          "team": "Barcelona EC (RJ)",
+          "competition": "Carioca Série B1",
+          "appearances": 20,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "22歲取得首份職業機會。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
+              "label": "生涯訪問",
+              "url": "https://mais.opovo.com.br/jornal/esportes/2025/08/02/de-barbeiro-a-jogador-de-serie-a-dieguinho-conta-trajetoria-e-comenta-boa-fase-no-ceara.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Resende FC",
+          "competition": "Campeonato Carioca",
+          "appearances": 5,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "球季初效力Resende。",
+          "verification_status": "verified",
+          "sources": [
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Friburguense AC",
+          "competition": "Carioca Série B1",
+          "appearances": 18,
+          "goals": 4,
+          "status": "外借",
+          "notes": "4月起由Resende外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "Resende FC",
+          "competition": "Campeonato Carioca",
+          "appearances": 8,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "州聯賽後再兩度外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "AA Portuguesa (RJ)",
+          "competition": "Série D",
+          "appearances": 6,
+          "goals": 0,
+          "status": "外借",
+          "notes": "4月至7月外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "Friburguense AC",
+          "competition": "Carioca Série B1",
+          "appearances": 17,
+          "goals": 2,
+          "status": "外借",
+          "notes": "下半年回到Friburguense並贏得州乙級。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "Resende FC",
+          "competition": "Campeonato Carioca",
+          "appearances": 9,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "7月轉投Boa。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "Boa Esporte",
+          "competition": "Série C",
+          "appearances": 11,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "另有州聯賽2場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "Boa Esporte／Goiás EC",
+          "competition": "州聯賽／Série B",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "5月加盟Goiás並協助升上Série A。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯轉折",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "Goiás EC",
+          "competition": "Série A",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "4月完成巴甲首戰；9月對Flamengo取得巴甲首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯轉折",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "Goiás EC",
+          "competition": "Série A",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "季初受膝傷影響。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯紀錄",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "Goiás EC",
+          "competition": "Série B",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "完成在Goiás的第四季；四季聯賽合計135場5球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯總表",
+              "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "Ceará SC",
+          "competition": "Série A／州聯賽及盃賽",
+          "appearances": 51,
+          "goals": 2,
+          "status": "主力",
+          "notes": "各項賽事51場、2球、2助攻並贏得州冠軍。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Ceará球季回顧",
+              "url": "https://ge.globo.com/ce/futebol/times/ceara/noticia/2026/06/11/volante-dieguinho-se-despede-e-deixa-o-ceara.ghtml",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "Ceará SC",
+          "competition": "Série B及盃賽",
+          "appearances": 15,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "巴乙8場、州聯1場、巴西盃2場及東北盃4場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "清水加盟公告",
+              "url": "https://www.s-pulse.co.jp/news/detail/56956",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -2177,41 +3952,66 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 4,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "8月8日J.League首戰；截至9月18日兩正選兩後備。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1657470/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 4,
+          "starts": 2,
+          "minutes": 211,
+          "goals": 0,
+          "assists": 0,
+          "total_distance_km": 25.2,
+          "duels_won": 3,
+          "aerial_duels_won": 6,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1657470/"
+        }
+      ],
       "sources": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
+          "label": "清水加盟公告及官方數據",
+          "url": "https://www.s-pulse.co.jp/news/detail/56956",
+          "accessed_at": "2026-09-25"
         },
         {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1657470/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "O Povo生涯訪問",
+          "url": "https://mais.opovo.com.br/jornal/esportes/2025/08/02/de-barbeiro-a-jogador-de-serie-a-dieguinho-conta-trajetoria-e-comenta-boa-fase-no-ceara.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Globo Esporte 2025訪問",
+          "url": "https://ge.globo.com/ce/futebol/times/ceara/noticia/2025/08/28/pilar-do-time-de-conde-dieguinho-considera-2025-o-melhor-ano-da-carreira.ghtml",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "生涯及逐季紀錄",
+          "url": "https://en.wikipedia.org/wiki/Diego_(footballer,_born_October_1995)",
+          "accessed_at": "2026-09-25"
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_6",
@@ -2224,55 +4024,357 @@
       "position": "MF",
       "dob": "1997-11-18",
       "season_start_age": 28,
-      "birthplace": "",
+      "birthplace": "大韓民國首爾特別市",
       "height": 187,
-      "weight": null,
-      "foot": "",
+      "weight": 80,
+      "foot": "右腳",
       "nationality": "南韓",
-      "joined": null,
-      "prev_club": "Ulsan HD",
+      "joined": 2026,
+      "prev_club": "豪爾費坎",
       "registration_status": "現役",
       "registration_tags": [],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "元斗載是清水2026/27現役MF，#6。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於中場強度、第二點與推進。",
+      "tenure_status": "季中加盟",
+      "national_team_detail": "南韓大國腳11場；2020 AFC U-23錦標賽冠軍兼賽事MVP，並出戰東京奧運",
+      "intro": "元斗載是能在防守中場與中堅之間切換的高大樞紐。2017年未讀完漢陽大學便赴福岡展開職業生涯，回國後隨蔚山贏得2020亞冠及2022 K League 1；軍旅期間又以金泉尚武中場核心身份贏得2023 K League 2。其比賽價值不在華麗數字，而在封鎖傳球線、保護兩名中堅，以及搶回球權後以長短傳把進攻推向另一側。",
       "timeline": [
         {
-          "period": "加入前",
-          "team": "Ulsan HD",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "period": "2013–2016",
+          "team": "雲湖高中／漢陽大學",
+          "category": "校園足球",
+          "milestone": "高中畢業後升讀漢陽大學，2017年中途離校赴日成為職業球員。"
+        },
+        {
+          "period": "2017–2019",
+          "team": "福岡黃蜂",
+          "category": "J2",
+          "milestone": "兩年半聯賽68場入2球，兼任防中與中堅，完成職業化磨練。"
+        },
+        {
+          "period": "2020–2022",
+          "team": "蔚山HD",
+          "category": "K League 1／ACL",
+          "milestone": "首季贏亞冠；2022再成為韓國聯賽冠軍成員。"
+        },
+        {
+          "period": "2023–2024",
+          "team": "金泉尚武",
+          "category": "兵役／K League 2、1",
+          "milestone": "以中場領袖身份助隊奪2023 K League 2，並入選該季最佳十一人。"
+        },
+        {
+          "period": "2024–2026",
+          "team": "豪爾費坎",
+          "category": "阿聯酋職業聯賽",
+          "milestone": "兩季聯賽35場，累積中東聯賽經驗。"
+        },
+        {
+          "period": "2026–至今",
+          "team": "清水心跳",
+          "category": "J1",
+          "milestone": "7月季中回到日本，穿6號補強中場與中堅深度。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "AFC Champions League冠軍：2020（蔚山HD）",
+        "K League 1冠軍：2022（蔚山HD）",
+        "K League 2冠軍：2023（金泉尚武）",
+        "AFC U-23錦標賽冠軍及MVP：2020（南韓U-23）",
+        "K League 2最佳十一人：2023"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#6）。"
+        "2017年7月29日代表福岡在J2首次上陣；9月18日對熊本取得J.League首球。",
+        "2020 AFC U-23錦標賽六戰中的後五場全部踢足，協助南韓首奪冠軍並獲選賽事MVP。",
+        "2020年加盟蔚山首季即贏亞冠，隨後入選南韓大國腳並累積11次上陣。",
+        "2023年以金泉尚武主力贏得K League 2，入選最佳十一人且在年度MVP投票排名第二。",
+        "2026年7月由豪爾費坎完全轉會清水，9月12日對福岡完成清水聯賽首戰。"
       ],
       "tactical_traits": [
-        "中場要求intensity、第二點與向前推進。",
-        "失球後第一反應要反搶，讓球隊保持進攻區域。"
+        "主要站在單防中或雙防中的較後位置，先掃描對手傳球線，再以身位與187厘米體格封住禁區前沿；也可後撤成三中堅的中央或左右中堅。",
+        "奪回球權後不只交安全橫傳：他擅長以低平直傳穿過第一線，或用大範圍長傳轉邊，讓球隊由防守立即改變進攻方向。",
+        "無球時重點是保護中路而非盲目追球；2020 U-23賽事分析特別稱許他閱讀傳球路線、截球及在壓迫失敗後用戰術犯規中止反擊。",
+        "速度並非最大賣點，因此面對快攻時要靠預判、早一步佔位及隊友縮窄距離；若被拉到邊線大空間一對一，轉身與回追會較吃力。"
       ],
-      "quirky_trivia": "南韓國腳級中場Won Du-jae，187cm；防中身材與球權回收是中場硬度來源。",
+      "quirky_trivia": "2020年在南韓U-23陣中，他因低調完成大量髒活而被稱為『無名英雄』；本人拿到賽事MVP後仍說感到難以置信，只把獎項視為繼續進步的起點。蔚山隊友亦會以他出球姿態像奇誠庸作玩笑。",
       "career": [
         {
-          "season": null,
-          "team": "Ulsan HD",
-          "competition": "育成／職業履歷",
+          "season": "2013",
+          "team": "雲湖高中",
+          "competition": "高中足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "青年球員",
+          "notes": "雲湖高中第一年。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "雲湖高中",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "青年球員",
+          "notes": "逐季賽事數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "雲湖高中",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "南韓U-20",
+          "notes": "開始進入南韓青年代表梯隊。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯及代表履歷",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "漢陽大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "翌年中途離校赴日。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "漢陽大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "季中離隊",
+          "notes": "夏季轉赴福岡展開職業生涯。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "福岡黃蜂",
+          "competition": "J2",
+          "appearances": 18,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "另踢2場升班附加賽；7月完成職業首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "福岡黃蜂",
+          "competition": "J2",
+          "appearances": 17,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "另有1場天皇盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "福岡黃蜂",
+          "competition": "J2",
+          "appearances": 33,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "季後返回南韓加盟蔚山。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季聯賽紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "蔚山HD",
+          "competition": "K League 1",
+          "appearances": 23,
+          "goals": 0,
+          "status": "南韓國腳",
+          "notes": "ACL 7場1球並奪冠；另贏AFC U-23錦標賽MVP。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
             },
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "AFC U-23 MVP公告",
+              "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/news/korea_republics_won_named_thailand_2020_mvp.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "蔚山HD",
+          "competition": "K League 1",
+          "appearances": 30,
+          "goals": 1,
+          "status": "南韓國腳",
+          "notes": "兼踢ACL及世冠盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "蔚山HD",
+          "competition": "K League 1",
+          "appearances": 21,
+          "goals": 0,
+          "status": "聯賽冠軍",
+          "notes": "隨隊贏得K League 1。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "金泉尚武",
+          "competition": "K League 2",
+          "appearances": 34,
+          "goals": 1,
+          "status": "兵役／隊長級領袖",
+          "notes": "聯賽冠軍、最佳十一人；年度MVP投票第二。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "K League年度獎項候選",
+              "url": "https://www.kleague.com/news_view.do?orderBy=seq&page=1&search=k%EB%A6%AC%EA%B7%B82&seq=89030&viewOption=album",
+              "accessed_at": "2026-09-25"
+            },
+            {
+              "label": "MVP投票結果",
+              "url": "https://www.yna.co.kr/view/AKR20231204126300007",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "金泉尚武",
+          "competition": "K League 1",
+          "appearances": 12,
+          "goals": 1,
+          "status": "兵役",
+          "notes": "夏季完成兵役並返回蔚山。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "蔚山HD",
+          "competition": "K League 1",
+          "appearances": 5,
+          "goals": 0,
+          "status": "季中回歸",
+          "notes": "退伍後短暫回隊，再轉戰阿聯酋。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024/25",
+          "team": "豪爾費坎",
+          "competition": "阿聯酋職業聯賽",
+          "appearances": 23,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "首個中東球季。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025/26",
+          "team": "豪爾費坎",
+          "competition": "阿聯酋職業聯賽",
+          "appearances": 12,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "另有1場聯賽盃及2場總統盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "清水加盟公告所載成績",
+              "url": "https://www.s-pulse.co.jp/news/detail/57042",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -2280,41 +4382,73 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 1,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至2026-09-18；23分鐘後備上陣。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1604222/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "season_stats": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "starts": 0,
+          "minutes": 23,
+          "goals": 0,
+          "assists": 0,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1604222/"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "sources": [
+        {
+          "label": "清水加盟公告／官方vitals",
+          "url": "https://www.s-pulse.co.jp/news/detail/57042",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1604222/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "AFC U-23 MVP公告",
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/news/korea_republics_won_named_thailand_2020_mvp.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "K League年度獎項候選",
+          "url": "https://www.kleague.com/news_view.do?orderBy=seq&page=1&search=k%EB%A6%AC%EA%B7%B82&seq=89030&viewOption=album",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "韓聯社：U-23賽事角色",
+          "url": "https://www.yna.co.kr/view/AKR20200127002700007",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Sports Khan戰術分析",
+          "url": "https://sports.khan.co.kr/article/202001281557003",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "生涯及逐季紀錄",
+          "url": "https://en.wikipedia.org/wiki/Won_Du-jae",
+          "accessed_at": "2026-09-25"
+        }
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；日文登錄名及現役身份按官方更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_7",
@@ -2327,55 +4461,376 @@
       "position": "MF",
       "dob": "1997-01-09",
       "season_start_age": 29,
-      "birthplace": "",
+      "birthplace": "巴西聖埃斯皮里圖州瓜拉帕里",
       "height": 170,
-      "weight": null,
-      "foot": "",
+      "weight": 64,
+      "foot": "左腳",
       "nationality": "巴西",
-      "joined": null,
+      "joined": 2025,
       "prev_club": "大阪櫻花",
       "registration_status": "現役",
       "registration_tags": [],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "卡比沙巴是清水2026/27現役MF，#7。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於中場強度、第二點與推進。",
+      "tenure_status": "第二季",
+      "national_team_detail": "未有巴西成年代表紀錄",
+      "intro": "卡比沙巴是低重心、爆發力強的左路推進器，既能沿邊線硬闖，也能以力量護球後切入禁區。由明尼路體育會青訓出身，他在巴西經歷多次外借，至尤文圖德才穩定下來，協助球隊在2020由乙組升班；2023赴大阪櫻花後迅速取得正選地位。來日後最大的進化是無球責任：除縱向突破與後柱衝頂，他願意長距離回追，令球隊可把他放在左翼或翼衛。",
       "timeline": [
         {
-          "period": "加入前",
+          "period": "2013–2017",
+          "team": "明尼路體育會",
+          "category": "青訓／巴西職業足球",
+          "milestone": "13歲加入青訓，2016年4月完成職業首戰。"
+        },
+        {
+          "period": "2017–2020",
+          "team": "巴西多隊外借",
+          "category": "州聯賽／全國聯賽",
+          "milestone": "先後效力費羅維亞里亞、美洲明尼路、查比高恩斯、維拉諾瓦、諾禾利桑天奴及科英布拉。"
+        },
+        {
+          "period": "2020–2022",
+          "team": "尤文圖德",
+          "category": "巴乙／巴甲",
+          "milestone": "先借後買；2020協助球隊相隔14年重返巴甲。"
+        },
+        {
+          "period": "2023–2024",
           "team": "大阪櫻花",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "category": "J1",
+          "milestone": "兩季聯賽54場2球，成為左路力量與速度來源。"
+        },
+        {
+          "period": "2025–至今",
+          "team": "清水心跳",
+          "category": "J1",
+          "milestone": "首季聯賽26場2球，延續左翼與翼衛雙重用途。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "巴西乙組聯賽季軍及升班：2020（尤文圖德）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#7）。"
+        "2016年4月2日代表明尼路體育會在州聯賽7比2勝Villa Nova一役完成職業首戰。",
+        "2020年協助尤文圖德取得巴乙第三名，球隊相隔14年重返巴甲。",
+        "2023年3月8日大阪櫻花首戰即在聯賽盃取得入球；6月3日射入J1首球。",
+        "2024年J1再踢27場1球，兩季大阪時期合計54場聯賽、2球。",
+        "2025年轉投清水後聯賽26場2球，當中對橫濱FC以右腳攻入致勝球。"
       ],
       "tactical_traits": [
-        "中場要求intensity、第二點與向前推進。",
-        "失球後第一反應要反搶，讓球隊保持進攻區域。"
+        "最佳起動位置是左邊線：先用左腳把球推過守衛，再以第一步爆發與上肢力量抗衡；即使對手貼身，也常能從兩人之間把球帶走。",
+        "不是只靠下底傳中。他可在左翼接球後向肋部切入，亦會無球衝向遠柱；170厘米身高下仍曾在日本靠後柱走位與彈跳以頭槌得分。",
+        "可以由左翼下移至翼衛，關鍵是願意回跑與對位；在大阪後期，他的非持球投入令教練能維持邊路寬度而不犧牲防線人數。",
+        "爆發型踢法需要空間與節奏；若對手低位雙人包夾，他要更快決定傳回、內切或傳中，否則容易在邊線把進攻拖成單打。"
       ],
-      "quirky_trivia": "Capixaba爆發力與縱向carry是清水反擊最直接武器之一。",
+      "quirky_trivia": "『Capixaba』不是姓氏，而是巴西對聖埃斯皮里圖州人的稱呼，正好標示他的家鄉。來日本後他刻意用日語與隊友溝通；休息時喜歡打機，也會與巴西隊友到咖啡店飲咖啡，常掛在嘴邊的日語是『素晴らしい』和『すごい』。",
       "career": [
         {
-          "season": null,
-          "team": "大阪櫻花",
-          "competition": "育成／職業履歷",
+          "season": "2013",
+          "team": "明尼路體育會U-17",
+          "competition": "青訓",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "Academy",
+          "notes": "加入明尼路青訓。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "明尼路體育會U-17",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "明尼路體育會U-20",
+          "competition": "青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "逐步升上U-20。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "明尼路體育會",
+          "competition": "巴西甲／州聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "職業首季",
+          "notes": "4月2日完成一隊首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "職業首戰及生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "明尼路體育會",
+          "competition": "巴西甲／州聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "同季外借費羅維亞里亞。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "大阪櫻花履歷",
+              "url": "https://www.cerezo.jp/team/players/archive/capixaba-2/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "費羅維亞里亞",
+          "competition": "巴西賽事",
+          "appearances": 8,
+          "goals": 1,
+          "status": "外借",
+          "notes": "首次離開母會累積成人賽經驗。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "美洲明尼路",
+          "competition": "巴西甲",
+          "appearances": 10,
+          "goals": 1,
+          "status": "外借",
+          "notes": "季內其中一站。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "查比高恩斯",
+          "competition": "巴西甲",
+          "appearances": 3,
+          "goals": 0,
+          "status": "外借",
+          "notes": "同年再度轉借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "維拉諾瓦",
+          "competition": "巴西乙",
+          "appearances": 34,
+          "goals": 2,
+          "status": "外借",
+          "notes": "取得較穩定的聯賽出場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "諾禾利桑天奴",
+          "competition": "巴西賽事",
+          "appearances": 8,
+          "goals": 1,
+          "status": "外借",
+          "notes": "年初效力。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "科英布拉",
+          "competition": "巴西賽事",
+          "appearances": 2,
+          "goals": 0,
+          "status": "外借",
+          "notes": "同年短暫效力。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "尤文圖德",
+          "competition": "巴西乙",
+          "appearances": null,
+          "goals": null,
+          "status": "外借／升班",
+          "notes": "季中加盟，協助球隊取得第三名升上巴甲。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "尤文圖德加盟訪問",
+              "url": "https://www.juventude.com.br/blog/capixaba-reforca-o-sistema-ofensivo-do-verdao",
+              "accessed_at": "2026-09-25"
             },
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "尤文圖德",
+          "competition": "巴西甲",
+          "appearances": null,
+          "goals": null,
+          "status": "完全轉會",
+          "notes": "2月正式由明尼路轉會。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "尤文圖德",
+          "competition": "巴西甲",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "季後完全轉會大阪櫻花。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "大阪櫻花加盟公告",
+              "url": "https://www.cerezo.jp/news/2023-0108-1800/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "大阪櫻花",
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "3月J.League首戰，6月射入首個J1入球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "大阪櫻花逐季紀錄",
+              "url": "https://www.cerezo.jp/team/players/archive/capixaba-2/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "大阪櫻花",
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "兩季後完全轉會清水。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League Data Site",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=589&competition_id_ex=589&competition_year=2024&competition_year_ex=2024&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2024%E5%B9%B4&selectedTeamName=%EF%BC%A3%E5%A4%A7%E9%98%AA&team_id=20&team_id_ex=20",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "清水心跳",
+          "competition": "J1",
+          "appearances": 26,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "清水首季；聯賽1,863分鐘。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League Data Site",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=651&competition_id_ex=651&competition_year=2025&competition_year_ex=2025&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2025%E5%B9%B4&selectedTeamName=%E6%B8%85%E6%B0%B4&team_id=7&team_id_ex=7",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "清水心跳",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "短期春季賽事；逐季數字待官方歷史頁更新。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League球員履歷",
+              "url": "https://www.jleague.jp/player/1640499/",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -2383,41 +4838,73 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 3,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至2026-09-18；三次均後備上陣，共56分鐘。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1640499/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "season_stats": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 3,
+          "starts": 0,
+          "minutes": 56,
+          "goals": 0,
+          "assists": 0,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1640499/"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "sources": [
+        {
+          "label": "清水官方球員檔案／vitals",
+          "url": "https://www.s-pulse.co.jp/top_teams/profile/2026/07",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1640499/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "大阪櫻花生涯履歷",
+          "url": "https://www.cerezo.jp/team/players/archive/capixaba-2/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Globo Esporte首季回顧",
+          "url": "https://ge.globo.com/es/futebol/noticia/2024/01/11/joao-vitor-capixaba-avalia-primeira-temporada-pelo-cerezo-osaka-do-japao.ghtml",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "LA Sports球員特點",
+          "url": "https://lasports.com.br/jogadores/capixaba/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Sponichi人文訪問",
+          "url": "https://www.sponichi.co.jp/soccer/yomimono/likecerezo/kiji/20240619s00002365002000c.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "生涯及逐季紀錄",
+          "url": "https://en.wikipedia.org/wiki/Capixaba_(footballer)",
+          "accessed_at": "2026-09-25"
+        }
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；完整葡文姓名、日文登錄名及現役身份按官方更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_8",
@@ -2430,55 +4917,459 @@
       "position": "MF",
       "dob": "1998-07-23",
       "season_start_age": 28,
-      "birthplace": "",
+      "birthplace": "日本神奈川縣橫濱市",
       "height": 172,
-      "weight": null,
-      "foot": "",
+      "weight": 72,
+      "foot": "右腳",
       "nationality": "日本",
-      "joined": null,
+      "joined": 2026,
       "prev_club": "橫濱水手",
       "registration_status": "現役",
       "registration_tags": [],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "井上健太是清水2026/27現役MF，#8。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於中場強度、第二點與推進。",
+      "tenure_status": "首季",
+      "national_team_detail": "未有日本成年代表紀錄",
+      "intro": "井上健太是以瞬間加速拉開邊路的直線型翼鋒。由橫濱地區球隊起步，經立正大淞南高中與福岡大學成長，2020年仍是大學生時已以特別指定球員身份在J1正選 debut。大分時期他學會不只見空位便衝，而要按球隊控球節奏選擇起動；轉到橫濱水手後再磨練兩側翼鋒、逼搶及肋部接應。清水可用他的速度同時威脅身後、製造一對一和帶動前場壓迫。",
       "timeline": [
         {
-          "period": "加入前",
+          "period": "小學–2013",
+          "team": "大崎SC／橫濱Junior SC",
+          "category": "少年足球",
+          "milestone": "在家鄉橫濱打好速度型邊路球員基礎。"
+        },
+        {
+          "period": "2014–2020",
+          "team": "立正大淞南高中／福岡大學",
+          "category": "校園足球",
+          "milestone": "赴島根強校升學，再獲福岡大學乾真寛教練招攬；大四成為大分特別指定球員。"
+        },
+        {
+          "period": "2020–2022",
+          "team": "大分三神",
+          "category": "J1／J2",
+          "milestone": "2020以大學生身份J1首發；2022在J2出場34次並射入職業聯賽首球。"
+        },
+        {
+          "period": "2023–2025",
           "team": "橫濱水手",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "category": "J1／ACL、ACLE",
+          "milestone": "回到家鄉球會，三季累積J1 67場1球並參與亞洲賽。"
+        },
+        {
+          "period": "2026–至今",
+          "team": "清水心跳",
+          "category": "J1",
+          "milestone": "完全轉會清水，穿8號競逐兩側中場位置。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入清水current squad（#8）。"
+        "2020年獲JFA認定為大分三神特別指定球員；7月4日仍在福岡大學就讀時即正選完成J1首戰。",
+        "2022年5月25日對秋田藍閃電射入J.League首球，該季J2上陣34場。",
+        "2023年對曼城友賽臨時出任中鋒，利用速度追入禁區取得入球。",
+        "2024年為橫濱水手踢26場J1並入1球，另在天皇盃取得兩球。",
+        "2026年轉投清水；新季首三次聯賽上陣共163分鐘，已創造兩次機會。"
       ],
       "tactical_traits": [
-        "中場要求intensity、第二點與向前推進。",
-        "失球後第一反應要反搶，讓球隊保持進攻區域。"
+        "最大武器是一兩步內升至最高速：可貼邊接球直接推過守衛，也能在隊友持球時由外線斜插後衛身後，迫使對方防線向後退。",
+        "左右翼皆可踢；右路能順足下底傳中，左路則可先拉闊再向內接應。其價值在拉伸防線，而非長時間站定腳下組織。",
+        "早期容易在球隊需要控球時仍強行突破；他在大分已把選擇時機與觀察禁區隊友列為課題，並以加操改善針對不同前鋒的傳中高度和速度。",
+        "守備時可用速度完成長距離回追與前場逼搶，但壓迫必須跟隨整體觸發點；若單人過早撲出，身後肋部會留空。"
       ],
-      "quirky_trivia": "井上健太在直播上的主要觀察點是#8與MF功能；清水前7輪場均僅0.6球，如何把跑動和推進真正變成chance是共同課題。",
+      "quirky_trivia": "他因兄長而開始踢足球，離開神奈川到島根讀足球強校，再被福岡大學教練相中。大學時最欣賞的前輩是同樣以速度見稱的永井謙佑；除訓練外，他特別重視運動科學所學的身體機制、護理與營養，認為這些知識能延長職業生涯。",
       "career": [
         {
-          "season": null,
-          "team": "橫濱水手",
-          "competition": "育成／職業履歷",
+          "season": "2005",
+          "team": "大崎SC",
+          "competition": "少年足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "少年球員",
+          "notes": "小學年代開始踢足球；確實起始月份未公開。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2006",
+          "team": "大崎SC",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "少年球員",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2007",
+          "team": "大崎SC",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "少年球員",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2008",
+          "team": "大崎SC",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "少年球員",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2009",
+          "team": "大崎SC",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "少年球員",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2010",
+          "team": "大崎SC",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "少年球員",
+          "notes": "小學最後一年。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2011",
+          "team": "橫濱Junior SC",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "青年球員",
+          "notes": "橫濱市立小田中學時期。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "橫濱Junior SC",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "青年球員",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "橫濱Junior SC",
+          "competition": "Junior Youth",
+          "appearances": null,
+          "goals": null,
+          "status": "青年球員",
+          "notes": "中學最後一年。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "橫濱水手球員履歷",
+              "url": "https://www.f-marinos.com/news/team/9461",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "立正大淞南高中",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "青年球員",
+          "notes": "由神奈川赴島根升學。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "福岡大學人物專訪",
+              "url": "https://www.fukuoka-u.ac.jp/fukudaism/sport/20/05/15725.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "立正大淞南高中",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "青年球員",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "福岡大學人物專訪",
+              "url": "https://www.fukuoka-u.ac.jp/fukudaism/sport/20/05/15725.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "立正大淞南高中",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "青年球員",
+          "notes": "畢業後獲乾真寛教練招攬入福岡大學。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "福岡大學人物專訪",
+              "url": "https://www.fukuoka-u.ac.jp/fukudaism/sport/20/05/15725.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "福岡大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "運動科學部就讀。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "福岡大學人物專訪",
+              "url": "https://www.fukuoka-u.ac.jp/fukudaism/sport/20/05/15725.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "福岡大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "逐季數字未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "福岡大學人物專訪",
+              "url": "https://www.fukuoka-u.ac.jp/fukudaism/sport/20/05/15725.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "福岡大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "大三獲大分翌季加盟內定。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "福岡大學加盟內定公告",
+              "url": "https://www.fukuoka-u.ac.jp/activity/topics/20/02/21151210.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "福岡大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學生",
+          "notes": "大四同時以特別指定球員效力大分。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "JFA特別指定公告",
+              "url": "https://www.jfa.jp/news/00024462/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "大分三神",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "status": "特別指定球員",
+          "notes": "7月4日正選完成J.League首戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "福岡大學J.League首戰報道",
+              "url": "https://www.fukuoka-u.ac.jp/fukudaism/sport/20/07/15837.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "大分三神",
+          "competition": "J1",
+          "appearances": 23,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "大卒首季；持續改善傳中與進攻判斷。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "大分合同新聞訪問",
+              "url": "https://os-oita.com/article/1870/",
+              "accessed_at": "2026-09-25"
             },
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "橫濱加盟時通算紀錄",
+              "url": "https://www.f-marinos.com/news/team/4993",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "大分三神",
+          "competition": "J2",
+          "appearances": 34,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "5月25日取得J.League首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Football LAB逐季數據",
+              "url": "https://www.football-lab.jp/player/1629905?year=2022",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 13,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "回到家鄉球會；另踢亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccer King逐季紀錄",
+              "url": "https://www.soccer-king.jp/player/article/1043639.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 26,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "聯賽958分鐘；另在天皇盃入2球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League Data Site",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=589&competition_id_ex=589&competition_year=2024&competition_year_ex=2024&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2024%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 28,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "另有聯賽盃2場、天皇盃1場及ACLE 5場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "清水加盟公告所載成績",
+              "url": "https://www.s-pulse.co.jp/news/detail/56243",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "清水心跳",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "職業球員",
+          "notes": "轉會後首項短期春季賽事；逐季數字待官方歷史頁更新。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League球員履歷",
+              "url": "https://www.jleague.jp/player/1629905/",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -2486,41 +5377,73 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 3,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至2026-09-18；兩場正選，共163分鐘。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1629905/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "season_stats": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 3,
+          "starts": 2,
+          "minutes": 163,
+          "goals": 0,
+          "assists": 0,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1629905/"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "sources": [
+        {
+          "label": "清水官方球員檔案／vitals",
+          "url": "https://www.s-pulse.co.jp/top_teams/profile/2026/08",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1629905/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "福岡大學人物專訪",
+          "url": "https://www.fukuoka-u.ac.jp/fukudaism/sport/20/05/15725.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "大分合同新聞戰術訪問",
+          "url": "https://os-oita.com/article/1870/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Football Channel橫濱時期分析",
+          "url": "https://www.footballchannel.jp/2024/11/14/post638067/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Football LAB逐季數據",
+          "url": "https://www.football-lab.jp/player/1629905",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "JFA特別指定公告",
+          "url": "https://www.jfa.jp/news/00024462/",
+          "accessed_at": "2026-09-25"
+        }
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；日文登錄名及現役身份按官方更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_17",
@@ -2622,8 +5545,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_18",
@@ -2740,8 +5663,8 @@
         }
       ],
       "name_source": "沿用TVB京都時香港繁中名；current club按9/17官方轉會更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_21",
@@ -2843,8 +5766,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_27",
@@ -2948,8 +5871,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_33",
@@ -3053,8 +5976,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_37",
@@ -3156,8 +6079,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_41",
@@ -3259,8 +6182,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_47",
@@ -3362,8 +6285,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_50",
@@ -3465,8 +6388,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_81",
@@ -3568,8 +6491,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_97",
@@ -3671,8 +6594,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_9",
@@ -3687,53 +6610,349 @@
       "season_start_age": 27,
       "birthplace": "",
       "height": 194,
-      "weight": null,
-      "foot": "",
+      "weight": 93,
+      "foot": "左腳",
       "nationality": "南韓",
-      "joined": null,
+      "joined": 2026,
       "prev_club": "町田澤維亞",
       "registration_status": "現役",
       "registration_tags": [],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "吳世勳是清水2026/27現役FW，#9。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於前場壓迫與禁區終結。",
+      "tenure_status": "回歸／完全轉會",
+      "national_team_detail": "南韓大國腳（2024首戰）；2019 U-20世界盃亞軍、2020 AFC U-23錦標賽冠軍",
+      "intro": "194cm左腳中鋒吳世勳不是只等高空傳中的站樁9號。他在町田學會先用身體卡住中堅、把第一點做給第二線，再按距離決定轉身射門或分球；2026百年構想聯賽回到清水後19場入7球並當選3月西區MVP。新季首七場再入兩球，是清水最直接的長傳出口與禁區支點。",
       "timeline": [
         {
-          "period": "加入前",
-          "team": "町田澤維亞",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "period": "2012–2017",
+          "team": "蔚山現代育成",
+          "category": "中學／高中",
+          "milestone": "原踢防中及中堅，中三因身高與門前感覺改任中鋒。"
+        },
+        {
+          "period": "2018–2021",
+          "team": "蔚山／牙山／尚州・金泉",
+          "category": "K League",
+          "milestone": "經歷外借與兵役隊後回蔚山，2021年19場7球完成突破。"
+        },
+        {
+          "period": "2022–2025",
+          "team": "清水／町田",
+          "category": "J1／J2",
+          "milestone": "來日磨練小動作與接應；2024在町田33場8球，成為爭前列主力。"
+        },
+        {
+          "period": "2026–至今",
+          "team": "清水心跳",
+          "category": "J1",
+          "milestone": "先借用回歸再轉為完全轉會；百年構想聯賽19場7球。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "FIFA U-20世界盃亞軍：2019（南韓U-20）",
+        "AFC U-23錦標賽冠軍：2020（南韓U-23）",
+        "J1百年構想聯賽3月西區月度MVP：2026（清水心跳）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#9）。"
+        "2019 U-20世界盃七場入兩球，對阿根廷及日本的頭槌助南韓歷史性打入決賽。",
+        "2020 AFC U-23錦標賽對烏茲別克梅開二度，南韓最終首次奪冠。",
+        "2024年6月6日對新加坡完成南韓大國腳首戰；同年世盃外對伊拉克取得首個A級賽入球。",
+        "2026百年構想聯賽19場7球；2026/27截至9月18日七場兩球。"
       ],
       "tactical_traits": [
-        "前鋒需要參與第一線press，同時利用清水多名大型9號的高球優勢。",
-        "禁區內終結是球隊目前最需要改善的環節。"
+        "最強武器是背身支點與空中第一點：194cm身高配合提早卡位，既可直接攻門，也可把球卸給推進中的翼鋒或進攻中場。",
+        "並非每球都強行轉身；他把處理方式按距離分層——近禁區先射，較遠位置則護球、回做或轉邊，令長傳不會變成單純五五波。",
+        "在日本特別改善中堅身前的細碎走位和身體接觸時機；清水可用他固定兩名中堅，替肋部跑手拉出第二落點。",
+        "無球時願意成為第一線壓迫者，但高大體型連續橫移的覆蓋有限；最有效做法是由隊友封內線，讓他集中逼向一側。"
       ],
-      "quirky_trivia": "194cm南韓國腳中鋒，9月15日再獲南韓代表徵召；高球target是清水最鮮明進攻選項。",
+      "quirky_trivia": "小一跟哥哥開始踢球，早年是防中／中堅；到中三已接近190cm才被教練一句『試下踢前鋒』改寫生涯。他的父親身高192cm，母親學生時代則是手球員；本人在清水的暱稱是「Ultra Se-hun」，休閒嗜好是釣魚。",
       "career": [
+        {"season":"2008","team":"仁川安南小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"青年履歷記載2008–10在此校；當時踢防守位置，逐季數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.co.kr/se-hun-oh/profil/spieler/402167","accessed_at":"2026-09-25"},{"label":"東亞日報童年報道","url":"https://www.donga.com/jp/article/all/20151022/429712/1","accessed_at":"2026-09-25"}]},
+        {"season":"2009","team":"仁川安南小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.co.kr/se-hun-oh/profil/spieler/402167","accessed_at":"2026-09-25"}]},
+        {"season":"2010","team":"仁川安南小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季數據未公開。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.co.kr/se-hun-oh/profil/spieler/402167","accessed_at":"2026-09-25"}]},
+        {"season":"2011","team":"仁川石南西小學校","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"小學最後一年轉校，翌年進入蔚山現代中學。","verification_status":"verified","sources":[{"label":"Transfermarkt青年球會履歷","url":"https://www.transfermarkt.co.kr/se-hun-oh/profil/spieler/402167","accessed_at":"2026-09-25"}]},
         {
-          "season": null,
-          "team": "町田澤維亞",
-          "competition": "育成／職業履歷",
+          "season": "2012",
+          "team": "蔚山現代中學",
+          "competition": "育成",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "Academy",
+          "notes": "仍以防中／中堅為主。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
+              "label": "Soccer King專訪",
+              "url": "https://www.soccer-king.jp/news/japan/jl/20240430/1884813.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "蔚山現代中學",
+          "competition": "育成",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "中學年代改任中鋒。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccer King專訪",
+              "url": "https://www.soccer-king.jp/news/japan/jl/20240430/1884813.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "蔚山現代中學",
+          "competition": "育成",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "以高大中鋒身份完成中學階段。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Oh_Se-hun_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "蔚山現代高中",
+          "competition": "育成／南韓U-17",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "U-17世界盃4場1球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "青年代表履歷",
+              "url": "https://www.s-pulse.co.jp/news/detail/49062",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "蔚山現代高中",
+          "competition": "育成",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "高中育成第二年。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Oh_Se-hun_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "蔚山現代高中",
+          "competition": "育成",
+          "appearances": null,
+          "goals": null,
+          "status": "Academy",
+          "notes": "畢業後升入蔚山一隊。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯履歷",
+              "url": "https://en.wikipedia.org/wiki/Oh_Se-hun_(footballer)",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "蔚山現代",
+          "competition": "K League 1",
+          "appearances": 3,
+          "goals": 0,
+          "status": "職業首季",
+          "notes": "另有1場ACL上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://jebentertainment.jp/en/leaguer/se-hun-oh/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "牙山木槿花",
+          "competition": "K League 2",
+          "appearances": 30,
+          "goals": 7,
+          "status": "外借／兵役隊",
+          "notes": "同年U-20世界盃7場2球、取得亞軍。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://jebentertainment.jp/en/leaguer/se-hun-oh/",
+              "accessed_at": "2026-09-25"
             },
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "FIFA專訪",
+              "url": "https://www.fifa.com/en/news/articles/korea-republic-striker-oh-se-hun-interview",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "尚州尚武",
+          "competition": "K League 1",
+          "appearances": 13,
+          "goals": 4,
+          "status": "兵役隊",
+          "notes": "AFC U-23錦標賽6場2球並奪冠。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://en.wikipedia.org/wiki/Oh_Se-hun_(footballer)",
+              "accessed_at": "2026-09-25"
+            },
+            {
+              "label": "AFC賽事報道",
+              "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/news/group_c_-_md3_uzbekistan_through_despite_defeat_to_korea_republic.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "金泉尚武",
+          "competition": "K League 2",
+          "appearances": 4,
+          "goals": 0,
+          "status": "兵役隊",
+          "notes": "退伍前完成四場聯賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://jebentertainment.jp/en/leaguer/se-hun-oh/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "蔚山現代",
+          "competition": "K League 1",
+          "appearances": 19,
+          "goals": 7,
+          "status": "回歸",
+          "notes": "回隊後打出生涯首個頂級聯賽突破季。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Sportiva專訪",
+              "url": "https://sportiva.shueisha.co.jp/clm/football/jleague_other/2024/05/02/j/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "清水心跳",
+          "competition": "J1",
+          "appearances": 13,
+          "goals": 1,
+          "status": "完全轉會",
+          "notes": "4月6日J聯賽首戰，4月10日取得首球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1503986/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "清水心跳",
+          "competition": "J2",
+          "appearances": 25,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "19次後備上陣，聯賽697分鐘。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Football LAB逐季數據",
+              "url": "https://www.football-lab.jp/player/1503986?year=2023",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "町田澤維亞",
+          "competition": "J1",
+          "appearances": 33,
+          "goals": 8,
+          "status": "外借",
+          "notes": "以背身支點及制空力成為町田前場主軸。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "清水轉會公告所載紀錄",
+              "url": "https://www.s-pulse.co.jp/news/detail/54469",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "町田澤維亞",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "另於天皇盃6場2球、聯賽盃2場1球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League Data Site",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=651&competition_year=2025&selectedTeamName=%E7%94%BA%E7%94%B0&team_id=45",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "清水心跳",
+          "competition": "J1百年構想聯賽",
+          "appearances": 19,
+          "goals": 7,
+          "status": "借用回歸",
+          "notes": "3月西區月度MVP；季後轉為完全轉會。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "清水完全轉會公告",
+              "url": "https://www.s-pulse.co.jp/news/detail/57015",
+              "accessed_at": "2026-09-25"
+            },
+            {
+              "label": "J.League月度MVP",
+              "url": "https://www.jleague.jp/j1/monthly_awards/2026special/03/mvp-west/",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -3741,41 +6960,84 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 7,
+          "goals": 2,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至2026-09-18；5次正選、454分鐘。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League球員頁",
+              "url": "https://www.jleague.jp/player/1503986/",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "career_audit": {"reviewed_at":"2026-09-25","earliest_known_year":2008,"scope":"仁川安南小學校起逐年核對至2026/27；2021兵役隊及蔚山分行。小學二年級以前的球會未能確認。","sources":[{"label":"Transfermarkt早期學校及年份","url":"https://www.transfermarkt.co.kr/se-hun-oh/profil/spieler/402167","accessed_at":"2026-09-25"},{"label":"東亞日報童年報道","url":"https://www.donga.com/jp/article/all/20151022/429712/1","accessed_at":"2026-09-25"}]},
+      "season_stats": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 7,
+          "starts": 5,
+          "minutes": 454,
+          "goals": 2,
+          "assists": 0,
+          "as_of": "2026-09-18",
+          "source": "https://www.jleague.jp/player/1503986/"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "sources": [
+        {
+          "label": "清水2026球員資料",
+          "url": "https://www.s-pulse.co.jp/top_teams/profile/2026/09",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1503986/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Soccer King成長及戰術專訪",
+          "url": "https://www.soccer-king.jp/news/japan/jl/20240430/1884813.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Sportiva旅日生涯專訪",
+          "url": "https://sportiva.shueisha.co.jp/clm/football/jleague_other/2024/05/02/j/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "FIFA南韓代表專訪",
+          "url": "https://www.fifa.com/en/news/articles/korea-republic-striker-oh-se-hun-interview",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "AFC U-23賽事報道",
+          "url": "https://www.the-afc.com/en/national/afc_u23_asian_cup/news/group_c_-_md3_uzbekistan_through_despite_defeat_to_korea_republic.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "逐季紀錄",
+          "url": "https://jebentertainment.jp/en/leaguer/se-hun-oh/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Transfermarkt早期學校及年份",
+          "url": "https://www.transfermarkt.co.kr/se-hun-oh/profil/spieler/402167",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "東亞日報童年報道",
+          "url": "https://www.donga.com/jp/article/all/20151022/429712/1",
+          "accessed_at": "2026-09-25"
+        }
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；日／英姓名及現役身份按清水與J.League更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_13",
@@ -3788,55 +7050,353 @@
       "position": "FW",
       "dob": "1995-04-19",
       "season_start_age": 31,
-      "birthplace": "",
+      "birthplace": "日本神奈川縣厚木市",
       "height": 182,
-      "weight": null,
-      "foot": "",
+      "weight": 82,
+      "foot": "左腳",
       "nationality": "日本",
-      "joined": null,
+      "joined": 2026,
       "prev_club": "廣島三箭",
       "registration_status": "現役",
       "registration_tags": [],
-      "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "謝明良是清水2026/27現役FW，#13。吉田孝行把新季關鍵字定為tough與aggressive，其角色集中於前場壓迫與禁區終結。",
+      "tenure_status": "季前完全轉會",
+      "national_team_detail": "日本大國腳3場5球；2025 EAFF E-1錦標賽冠軍、MVP兼神射手",
+      "intro": "謝明良是30歲才迎來代表隊首戰的遲熟型左腳前鋒。2023在磐田首次整季固定踢最前線後，他對中堅的盲側走位、接球前觀察和禁區衝刺突然成熟，翌年32場轟入19球；2025代表日本首戰更四度破網。來到清水後，他可踢9號或偏左影鋒，價值在於把前壓、串聯和直插禁區放在同一個回合完成。",
       "timeline": [
         {
-          "period": "加入前",
-          "team": "廣島三箭",
-          "category": "主要履歷",
-          "milestone": "加入清水前主要球隊／育成路線。"
+          "period": "2011–2017",
+          "team": "流通經濟大柏高／流通經濟大",
+          "category": "高中／大學",
+          "milestone": "高中未獲職業合約，大學四年視作最後機會；大一夏季升上一隊。"
+        },
+        {
+          "period": "2017–2021",
+          "team": "仙台／橫濱FC",
+          "category": "J1",
+          "milestone": "由特別指定球員出道，逐步建立能踢中鋒、影鋒及邊路的多功能性。"
+        },
+        {
+          "period": "2022–2024",
+          "team": "磐田山葉",
+          "category": "J1／J2",
+          "milestone": "2023固定最前線後突破，2024以19球並列J1射手榜第三。"
+        },
+        {
+          "period": "2025–至今",
+          "team": "廣島／清水",
+          "category": "J1／日本代表",
+          "milestone": "贏得超級盃、聯賽盃及E-1；2026年6月轉投清水。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "J1優秀選手賞：2024（磐田山葉）",
+        "日本超級盃、J.League盃冠軍：2025（廣島三箭）",
+        "EAFF E-1錦標賽冠軍、MVP及神射手：2025（日本）",
+        "夏季世界大學生運動會金牌：2017（日本大學生代表）"
+      ],
       "milestones": [
-        "2026/27列入清水current squad（#13）。"
+        "2024 J1聯賽32場19球，得分榜並列第三；對川崎一仗獨取四球。",
+        "2025年7月8日代表日本首戰對香港即入四球，之後對南韓再入致勝球。",
+        "由2017仙台特別指定球員到2024首度成為J1頂級射手，職業突破並非直線上升。",
+        "2026/27截至9月18日八場全部正選，錄得一個助攻。"
       ],
       "tactical_traits": [
-        "前鋒需要參與第一線press，同時利用清水多名大型9號的高球優勢。",
-        "禁區內終結是球隊目前最需要改善的環節。"
+        "左腳但進攻路線不單一：可在最前線背身接球，也能從左半空間斜插中堅背後，接應低平傳中或二點球。",
+        "2023固定踢中鋒後，最大進步是與守將的心理角力；他會先離開傳球線，再在傳球者抬頭一刻突然回到盲側。",
+        "高位防守時願意衝刺封鎖中堅及門將，回收後亦能在第一時間向前；這令他適合清水要求的tough、aggressive前場。",
+        "在日本代表3-4-2-1曾任得分型影鋒：比傳統組織者更早入禁區，讓中鋒拉走守衛後攻擊第二落點。"
       ],
-      "quirky_trivia": "2025在廣島後2026轉清水；速度、左腳和禁區衝擊可與大型中鋒互補。",
+      "quirky_trivia": "他因觀看2002世界盃日本對比利時、稻本潤一入球而在小一選擇足球；童年是左中場／左閘，中一才被教練一句『你是前鋒』推上最前線。高中晨操6時半開始，放學後再練至晚上7、8時，卻仍未能直接成為職業球員。",
       "career": [
+        {"season":"2002","team":"南毛利FC（厚木第二小學校）","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"觀看日韓世界盃後小一開始踢足球，先踢左中場或左閘。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"},{"label":"廣島Athlete Magazine童年專訪","url":"https://www.hiroshima-athlete.com/articles/-/5532","accessed_at":"2026-09-25"}]},
+        {"season":"2003","team":"南毛利FC（厚木第二小學校）","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"}]},
+        {"season":"2004","team":"南毛利FC（厚木第二小學校）","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"}]},
+        {"season":"2005","team":"南毛利FC（厚木第二小學校）","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"}]},
+        {"season":"2006","team":"南毛利FC（厚木第二小學校）","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"}]},
+        {"season":"2007","team":"南毛利FC（厚木第二小學校）","competition":"小學／少年足球","appearances":null,"goals":null,"status":"育成年代","notes":"小學最後一年；逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"}]},
+        {"season":"2008","team":"FC厚木Junior Youth DREAMS（厚木中學校）","competition":"Junior Youth","appearances":null,"goals":null,"status":"育成年代","notes":"中一改踢前鋒；逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"},{"label":"廣島Athlete Magazine童年專訪","url":"https://www.hiroshima-athlete.com/articles/-/5532","accessed_at":"2026-09-25"}]},
+        {"season":"2009","team":"FC厚木Junior Youth DREAMS（厚木中學校）","competition":"Junior Youth","appearances":null,"goals":null,"status":"育成年代","notes":"逐季賽事數據未公開。","verification_status":"verified","sources":[{"label":"厚木Town News育成履歷","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"}]},
+        {"season":"2010","team":"FC厚木Junior Youth DREAMS（厚木中學校）","competition":"Junior Youth","appearances":null,"goals":null,"status":"育成年代","notes":"翌年升讀流通經濟大柏高校。","verification_status":"verified","sources":[{"label":"仙台加盟公告育成路線","url":"https://www.vegalta.co.jp/backnumber/2017/news/press_release/2017/06/post-4542.html","accessed_at":"2026-09-25"}]},
         {
-          "season": null,
-          "team": "廣島三箭",
-          "competition": "育成／職業履歷",
+          "season": "2011",
+          "team": "流通經濟大柏高校",
+          "competition": "高中足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "高中一年級",
+          "notes": "在高強度訓練環境開始追逐職業目標。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
+              "label": "廣島Athlete Magazine專訪",
+              "url": "https://www.hiroshima-athlete.com/articles/-/5532",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "流通經濟大柏高校",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "高中二年級",
+          "notes": "曾被安排踢前鋒、邊中場及防中。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "高校同期對談",
+              "url": "https://news.livedoor.com/article/detail/13479935/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "流通經濟大柏高校",
+          "competition": "高中足球",
+          "appearances": null,
+          "goals": null,
+          "status": "高中三年級",
+          "notes": "畢業時未獲職業合約。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島Athlete Magazine專訪",
+              "url": "https://www.hiroshima-athlete.com/articles/-/5532",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "流通經濟大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學一年級",
+          "notes": "先踢Dragons龍崎，大一夏天升上大學一隊並贏總理大臣盃。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "JFA大學球隊專訪",
+              "url": "https://www.jfa.jp/match/emperorscup_2018/news/00017596/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "流通經濟大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "全日本大學生選拔",
+          "notes": "大學二年級起入選全日本大學生選拔。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯專訪",
+              "url": "https://www.hiroshima-athlete.com/articles/-/5532",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "流通經濟大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學三年級",
+          "notes": "在多名日後成為J.Leaguer的隊友身邊提升強度。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "生涯專訪",
+              "url": "https://www.hiroshima-athlete.com/articles/-/5532",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "流通經濟大學",
+          "competition": "大學足球",
+          "appearances": null,
+          "goals": null,
+          "status": "大學四年級",
+          "notes": "日本大學生代表參加世界大學生運動會；大學逐季出場數未在此來源公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "仙台加盟公告育成路線",
+              "url": "https://www.vegalta.co.jp/backnumber/2017/news/press_release/2017/06/post-4542.html",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {"season":"2017","team":"仙台維加泰","competition":"J1","appearances":1,"goals":0,"status":"特別指定球員","notes":"大學在學時另踢聯賽盃2場；2018正式加盟。","verification_status":"verified","sources":[{"label":"廣島加盟公告逐季紀錄","url":"https://www.sanfrecce.co.jp/news/team/10547","accessed_at":"2026-09-25"}]},
+        {
+          "season": "2018",
+          "team": "仙台維加泰",
+          "competition": "J1",
+          "appearances": 17,
+          "goals": 3,
+          "status": "職業球員",
+          "notes": "另有聯賽盃8場2球、天皇盃6場3球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.sanfrecce.co.jp/news/team/10547",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "仙台維加泰",
+          "competition": "J1",
+          "appearances": 21,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "各項本土賽事合計26場4球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.sanfrecce.co.jp/news/team/10547",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "仙台維加泰",
+          "competition": "J1",
+          "appearances": 12,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽出場受傷患及競爭影響。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.sanfrecce.co.jp/news/team/10547",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "橫濱FC",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "另有聯賽盃4場1球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.sanfrecce.co.jp/news/team/10547",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "磐田山葉",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 3,
+          "status": "完全轉會",
+          "notes": "未能固定正選，球隊降落J2。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.sanfrecce.co.jp/news/team/10547",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "磐田山葉",
+          "competition": "J2",
+          "appearances": 31,
+          "goals": 9,
+          "status": "正選中鋒",
+          "notes": "首次整季固定最前線，對守將走位與駁腳明顯成熟。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "逐季紀錄",
+              "url": "https://www.sanfrecce.co.jp/news/team/10547",
+              "accessed_at": "2026-09-25"
             },
             {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "廣島Athlete Magazine戰術專訪",
+              "url": "https://www.hiroshima-athlete.com/articles/-/5531",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "磐田山葉",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 19,
+          "status": "J1優秀選手",
+          "notes": "得分榜並列第三，對川崎單場四球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League轉會報道",
+              "url": "https://www.jleague.jp/news/article/29842/",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": 36,
+          "goals": 4,
+          "status": "日本代表",
+          "notes": "聯賽盃6場3球並奪冠；各項賽事52場8球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島離隊公告逐季紀錄",
+              "url": "https://www.sanfrecce.co.jp/news/team/12469",
+              "accessed_at": "2026-09-25"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "廣島三箭",
+          "competition": "J1百年構想聯賽",
+          "appearances": 16,
+          "goals": 3,
+          "status": "職業球員",
+          "notes": "季後於6月完全轉會清水。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "清水加盟公告",
+              "url": "https://www.s-pulse.co.jp/news/detail/56943",
+              "accessed_at": "2026-09-25"
+            },
+            {
+              "label": "Soccer Digest轉會專訪",
+              "url": "https://www.soccerdigestweb.com/news/detail/id=195015?mobileapp=1",
+              "accessed_at": "2026-09-25"
             }
           ]
         },
@@ -3844,41 +7404,84 @@
           "season": "2026/27",
           "team": "清水心跳",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 8,
+          "goals": 0,
           "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "notes": "截至2026-09-18；8次正選、667分鐘、1助攻。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "清水官方Top Team",
-              "url": "https://www.s-pulse.co.jp/top_teams/profile",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League清水",
-              "url": "https://www.jleague.jp/club/shimizu/",
-              "accessed_at": "2026-09-19"
+              "label": "Football LAB球員頁",
+              "url": "https://www.football-lab.jp/player/1503337",
+              "accessed_at": "2026-09-25"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "career_audit": {"reviewed_at":"2026-09-25","earliest_known_year":2002,"scope":"南毛利FC小一球季起逐年核對至2026/27；2017大學與仙台特別指定分行。青少年逐季上陣數未公開。","sources":[{"label":"厚木Town News早期學校及球會","url":"https://www.townnews.co.jp/0404/2017/08/04/393539.html","accessed_at":"2026-09-25"},{"label":"仙台育成路線公告","url":"https://www.vegalta.co.jp/backnumber/2017/news/press_release/2017/06/post-4542.html","accessed_at":"2026-09-25"}]},
+      "season_stats": [
         {
-          "label": "清水官方Top Team",
-          "url": "https://www.s-pulse.co.jp/top_teams/profile",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League清水",
-          "url": "https://www.jleague.jp/club/shimizu/",
-          "accessed_at": "2026-09-19"
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 8,
+          "starts": 8,
+          "minutes": 667,
+          "goals": 0,
+          "assists": 1,
+          "as_of": "2026-09-18",
+          "source": "https://www.football-lab.jp/player/1503337"
         }
       ],
-      "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
+      "sources": [
+        {
+          "label": "清水加盟公告／官方vitals",
+          "url": "https://www.s-pulse.co.jp/news/detail/56943",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "J.League球員頁",
+          "url": "https://www.jleague.jp/player/1503337/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "廣島Athlete Magazine生涯專訪",
+          "url": "https://www.hiroshima-athlete.com/articles/-/5532",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "廣島Athlete Magazine戰術專訪",
+          "url": "https://www.hiroshima-athlete.com/articles/-/5531",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Soccer Digest清水轉會專訪",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=195015?mobileapp=1",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "JFA日本代表首戰報道",
+          "url": "https://www.jfa.jp/national_team_2025/news/00035279/",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "Football LAB本季數據",
+          "url": "https://www.football-lab.jp/player/1503337",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "厚木Town News早期學校及球會",
+          "url": "https://www.townnews.co.jp/0404/2017/08/04/393539.html",
+          "accessed_at": "2026-09-25"
+        },
+        {
+          "label": "仙台育成路線公告",
+          "url": "https://www.vegalta.co.jp/backnumber/2017/news/press_release/2017/06/post-4542.html",
+          "accessed_at": "2026-09-25"
+        }
+      ],
+      "name_source": "TVB主資料庫香港繁中顯示名；日／英姓名及現役身份按清水與J.League更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-09-25"
     },
     {
       "id": "shimizu_19",
@@ -3980,8 +7583,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verification_status": "research_incomplete",
+      "verified_at": null
     },
     {
       "id": "shimizu_49",
@@ -4083,8 +7686,8 @@
         }
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verification_status": "research_incomplete",
+      "verified_at": null,
       "trivia": [
         {
           "text": "北川航也由清水心跳青訓升上一隊，2018年J1取得32場13球；2019至2022年轉戰奧地利Rapid Wien後再回到母會。",

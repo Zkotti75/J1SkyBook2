@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "club": "shimizu",
+  "club_name_zh": "清水心跳",
+  "player_research_status": "in_progress",
+  "updated_at": "2026-09-25",
+  "roster_players": 35,
+  "baseline_complete_players": [],
+  "batches": [
+    {
+      "id": "shimizu-01",
+      "kind": "player_research",
+      "status": "validation_failed",
+      "capacity_points": 6,
+      "players": [
+        {
+          "id": "shimizu_1",
+          "number": "1",
+          "name_zh": "沖悠哉",
+          "name_en": "Yuya Oki",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_2",
+          "number": "2",
+          "name_zh": "迪古恩奴",
+          "name_en": "Dieguinho",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_3",
+          "number": "3",
+          "name_zh": "高橋祐治",
+          "name_en": "Yuji Takahashi",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_4",
+          "number": "4",
+          "name_zh": "蓮川壯大",
+          "name_en": "Sodai Hasukawa",
+          "weight": 1
+        }
+      ],
+      "started_at": "2026-09-25",
+      "completed_at": null,
+      "notes": [
+        {
+          "date": "2026-09-25",
+          "text": "Retroactive career-route gate fails: no explicit earliest-youth audit for all four cards; Hasukawa also conflates two affiliations in one row. Recheck sources and correct in this named batch."
+        }
+      ]
+    },
+    {
+      "id": "shimizu-02",
+      "kind": "player_research",
+      "status": "validation_failed",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "shimizu_6",
+          "number": "6",
+          "name_zh": "元斗載",
+          "name_en": "Won Du-jae",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_7",
+          "number": "7",
+          "name_zh": "卡比沙巴",
+          "name_en": "Capixaba",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_8",
+          "number": "8",
+          "name_zh": "井上健太",
+          "name_en": "Kenta Inoue",
+          "weight": 1
+        }
+      ],
+      "started_at": "2026-09-25",
+      "completed_at": null,
+      "notes": [
+        {
+          "date": "2026-09-25",
+          "text": "Retroactive career-route gate fails: explicit earliest-youth audit absent for all three cards. Recheck documented school/club route before restoring completed status."
+        }
+      ]
+    },
+    {
+      "id": "shimizu-03",
+      "kind": "player_research",
+      "status": "completed",
+      "capacity_points": 6,
+      "players": [
+        {
+          "id": "shimizu_9",
+          "number": "9",
+          "name_zh": "吳世勳",
+          "name_en": "Oh Se-hun",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_13",
+          "number": "13",
+          "name_zh": "謝明良",
+          "name_en": "Ryo Germain",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_14",
+          "number": "14",
+          "name_zh": "朴承旭",
+          "name_en": "Park Seung-wook",
+          "weight": 2
+        }
+      ],
+      "started_at": "2026-09-25",
+      "completed_at": "2026-09-25",
+      "notes": [
+        {
+          "date": "2026-09-25",
+          "text": "Reopened after user review: career tables omit early youth clubs and conflate a 2017 university/special-designation season. Recheck the complete route before completion."
+        }
+      ]
+    },
+    {
+      "id": "shimizu-04",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "shimizu_15",
+          "number": "15",
+          "name_zh": "本多勇喜",
+          "name_en": "Yuki Honda",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_16",
+          "number": "16",
+          "name_zh": "梅田透吾",
+          "name_en": "Togo Umeda",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_17",
+          "number": "17",
+          "name_zh": "弓場將輝",
+          "name_en": "Masaki Yumiba",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_18",
+          "number": "18",
+          "name_zh": "平戶太貴",
+          "name_en": "Taiki Hirato",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "shimizu-05",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 6,
+      "players": [
+        {
+          "id": "shimizu_19",
+          "number": "19",
+          "name_zh": "木下康介",
+          "name_en": "Kosuke Kinoshita",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_20",
+          "number": "20",
+          "name_zh": "嚴柱榮",
+          "name_en": "Um Joo-young",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_21",
+          "number": "21",
+          "name_zh": "松崎快",
+          "name_en": "Kai Matsuzaki",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_22",
+          "number": "22",
+          "name_zh": "石川慧",
+          "name_en": "Kei Ishikawa",
+          "weight": 2
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "shimizu-06",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "shimizu_24",
+          "number": "24",
+          "name_zh": "須貝英大",
+          "name_en": "Hidehiro Sugai",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_25",
+          "number": "25",
+          "name_zh": "馬菲奧斯・布魯內蒂",
+          "name_en": "Mateus Brunetti",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_27",
+          "number": "27",
+          "name_zh": "針生涼太",
+          "name_en": "Ryota Hariu",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_28",
+          "number": "28",
+          "name_zh": "吉田豐",
+          "name_en": "Yutaka Yoshida",
+          "weight": 2
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "shimizu-07",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "shimizu_30",
+          "number": "30",
+          "name_zh": "佐佐木智太郎",
+          "name_en": "Tomotaro Sasaki",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_33",
+          "number": "33",
+          "name_zh": "土居佑至",
+          "name_en": "Yuji Doi",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_37",
+          "number": "37",
+          "name_zh": "小泉慶",
+          "name_en": "Kei Koizumi",
+          "weight": 2
+        },
+        {
+          "id": "shimizu_39",
+          "number": "39",
+          "name_zh": "日高華杜",
+          "name_en": "Haruto Hidaka",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "shimizu-08",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 4,
+      "players": [
+        {
+          "id": "shimizu_41",
+          "number": "41",
+          "name_zh": "鈴木奎吾",
+          "name_en": "Keigo Suzuki",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_47",
+          "number": "47",
+          "name_zh": "嶋本悠大",
+          "name_en": "Yudai Shimamoto",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_49",
+          "number": "49",
+          "name_zh": "北川航也",
+          "name_en": "Koya Kitagawa",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_50",
+          "number": "50",
+          "name_zh": "藤井智也",
+          "name_en": "Tomoya Fujii",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "shimizu-09",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 5,
+      "players": [
+        {
+          "id": "shimizu_51",
+          "number": "51",
+          "name_zh": "住吉謝拉尼利桑",
+          "name_en": "Jelani Reshaun Sumiyoshi",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_70",
+          "number": "70",
+          "name_zh": "高木踐",
+          "name_en": "Sen Takagi",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_71",
+          "number": "71",
+          "name_zh": "猪越優惟",
+          "name_en": "Yui Inokoshi",
+          "weight": 1
+        },
+        {
+          "id": "shimizu_81",
+          "number": "81",
+          "name_zh": "小塚和季",
+          "name_en": "Kazuki Kozuka",
+          "weight": 2
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    },
+    {
+      "id": "shimizu-10",
+      "kind": "player_research",
+      "status": "queued",
+      "capacity_points": 1,
+      "players": [
+        {
+          "id": "shimizu_97",
+          "number": "97",
+          "name_zh": "大畑凜生",
+          "name_en": "Rinsei Ohata",
+          "weight": 1
+        }
+      ],
+      "started_at": null,
+      "completed_at": null,
+      "notes": []
+    }
+  ],
+  "status_tag_stage": {
+    "status": "scheduled",
+    "reviewed_players": 0,
+    "total_players": 35
+  }
+}

@@ -4,12 +4,20 @@ J1 SkyBook 2 is a Traditional Chinese, Hong Kong–market reference portal for l
 
 ## Data principles
 
-- J.League Data Site or an official club profile is authoritative for current registration, shirt number, position and player vitals.
+- An official club profile is authoritative only for current registration, shirt number, position, player vitals and the official portrait.
+- Commentary content must not be built mainly from the player's current club site. Career history, records, awards, representative history, playing style, interviews, personal stories and commentary angles must be researched from outside sources such as J.League/JFA/competition records, former clubs, reputable Japanese sports media, interviews and specialist statistical databases.
+- A player card marked `verified` needs at least two distinct non-club source domains. The club page may remain as the identity/vitals source, but it does not count toward this commentary-source minimum.
 - Hong Kong Chinese screen names follow the supplied TVB spreadsheet.
 - Career rows are stored one season per row. League appearances and goals are not inferred.
 - Overseas club names use English; Japanese clubs and schools use established Traditional Chinese or Japanese names.
 - Category 2, special-designated, loan and new-season status must be dated and sourced.
 - A blank value means that the information has not been reliably verified.
+
+## Nishikawa player-card acceptance standard
+
+Shusaku Nishikawa's card is the minimum editorial benchmark, not merely a schema example. A completed card must contain a genuine season-by-season route from school/youth football to the current season; sourced national-team history; concrete awards and records with the reason or season context; player-specific tactical observations; and human-interest material that is useful during live commentary. Generic position descriptions, a two-row previous-club/current-club summary, duplicated prose, or a list of official-team-page facts are incomplete research and must never be labelled `verified`.
+
+For players with limited public coverage, document what was searched and leave the profile in a research-incomplete state. Do not manufacture colour merely to fill a section.
 
 ## Structure
 
@@ -19,6 +27,12 @@ J1 SkyBook 2 is a Traditional Chinese, Hong Kong–market reference portal for l
 - `scripts/validate-data.mjs`: structural and coverage checks.
 
 Run `npm test` before publishing. The existing J1SkyBook repository remains the live fallback until this rebuild is fully audited.
+
+Research method and remediation order are documented in [`docs/PLAYER_RESEARCH_PLAYBOOK.md`](docs/PLAYER_RESEARCH_PLAYBOOK.md) and [`docs/RESEARCH_ROADMAP.md`](docs/RESEARCH_ROADMAP.md).
+
+## ChatGPT Work production queue
+
+The repeatable Work workflow is documented in [`docs/WORK_CONTROL_ROOM.md`](docs/WORK_CONTROL_ROOM.md) and enforced by `AGENTS.md`. Run `npm run research:summary` for the 20-club dashboard or `npm run research:next` to select the next unclaimed batch. Each batch has at most four players and six capacity points. Use `research:start`, `research:validate`, and `research:complete` to preserve a reliable handoff between chats.
 
 ## Pre-match update workflow
 
