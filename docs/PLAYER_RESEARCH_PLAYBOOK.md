@@ -30,6 +30,8 @@ The current J.League club roster is an approved source for player headshots, inc
 
 Baidu Baike is also an approved outside source for career history. Record the exact player URL and check current or disputed facts against other sources when available. Use the J.League Data Site for dated current-season league appearances and goals. If credible non-league statistics cannot be located, leave them null or omit unsupported cup figures; that alone is not a card failure. Clearly distinguish an explicit zero from a dash and label any inference from cumulative league totals.
 
+Soccerway player pages are approved for historical season statistics. Capture the access/update date and competition scope and annotate differences from other databases; a user-selected statistical source remains the card's working convention. Injury reports must retain their announcement and injury dates and may explain only the relevant period, not a later season without new evidence.
+
 ## Research sequence
 
 1. Lock the identity record from the current club: current registration, number, position, vitals and portrait.
