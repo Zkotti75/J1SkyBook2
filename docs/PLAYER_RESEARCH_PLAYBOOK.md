@@ -34,6 +34,10 @@ Soccerway player pages are approved for historical season statistics. Capture th
 
 Gekisaka (ゲキサカ) is an approved specialist Japanese football outlet for transfer reporting, interviews, youth coverage and match context. Link the exact story, date and relevant club notice when checking a move.
 
+## Source notes for commentary
+
+Use reliable official records or transparent statistical databases for vital statistics, analytics, appearances, goals, match details, transfers, loans, and season-by-season career progression. Anecdotes, news and possible explanations may come from attributable independent reporting or informed fan analysis. Append a short note to the same line of commentary giving the publication date, author or outlet, and actual hosting site; keep the exact URL and access date in the structured `sources` field. For example: `第11輪後未再入選；作者推測或與狀態未達最佳有關。（2026年7月，JEF球迷賽季回顧，ゆっくりいこう／Hatena Blog）` Do not relabel a fan blog as Yahoo merely because a Yahoo statistics page is cited elsewhere. Describe a suspected injury cause or coach's decision as speculation unless a direct source confirms it.
+
 ## Research sequence
 
 1. Lock the identity record from the current club: current registration, number, position, vitals and portrait.
