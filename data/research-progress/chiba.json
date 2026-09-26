@@ -168,7 +168,7 @@
     {
       "id": "chiba-04",
       "kind": "player_research",
-      "status": "queued",
+      "status": "needs_review",
       "capacity_points": 6,
       "players": [
         {
@@ -200,12 +200,20 @@
           "weight": 1
         }
       ],
-      "started_at": null,
+      "started_at": "2026-09-26",
       "completed_at": null,
       "notes": [
         {
           "date": "2026-09-26",
           "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        },
+        {
+          "date": "2026-09-26",
+          "text": "Rebuilt dated youth and professional tables for #15 #18 #19 #20. #18 Sugiyama and #20 Ishikawa pass. #15 Mae current-season league appearance count remains to be checked. #19 Suarez Peralada/Girona 2017/18 registration, Spanish second-phase match scope and 2026/27 cutoff require reconciliation. 2/4 pass, retain incomplete cards. User-authorized sweep may continue to chiba-05 while these remain tagged."
+        },
+        {
+          "date": "2026-09-26",
+          "text": "#15 Mae 3/0 by Football LAB through Sep 19; #15 #18 #20 pass. #19 Suarez remains research_incomplete pending Spanish club registration and competition reconciliation. Park the one-player conflict per user instruction and allow chiba-05 next. Batch incomplete."
         }
       ]
     },
@@ -507,47 +515,12 @@
       ]
     },
     {
-      "player_id": "chiba_15",
-      "number": "15",
-      "batch": "chiba-04",
-      "gaps": [
-        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
-        "欠缺足夠獨立來源及最早青年隊審核",
-        "球員專屬戰術觀察仍需補證",
-        "球員簡介仍過於簡略"
-      ]
-    },
-    {
-      "player_id": "chiba_18",
-      "number": "18",
-      "batch": "chiba-04",
-      "gaps": [
-        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
-        "欠缺足夠獨立來源及最早青年隊審核",
-        "球員專屬戰術觀察仍需補證",
-        "球員簡介仍過於簡略"
-      ]
-    },
-    {
       "player_id": "chiba_19",
       "number": "19",
       "batch": "chiba-04",
       "gaps": [
-        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
-        "欠缺足夠獨立來源及最早青年隊審核",
-        "球員專屬戰術觀察仍需補證",
-        "球員簡介仍過於簡略"
-      ]
-    },
-    {
-      "player_id": "chiba_20",
-      "number": "20",
-      "batch": "chiba-04",
-      "gaps": [
-        "現有生涯表包含未定年份的職業球會，須重建逐季與外借記錄",
-        "欠缺足夠獨立來源及最早青年隊審核",
-        "球員專屬戰術觀察仍需補證",
-        "球員簡介仍過於簡略"
+        "逐年來源與相關統計已補入；尚待球員專屬戰術分析、人物訪問及完整來源審核",
+        "2017/18 CF Peralada登錄與基朗拿歸屬、2020/21 Gimnàstic 9場聯賽及6場次階段分拆尚待官方比賽簿核實"
       ]
     },
     {
