@@ -12,6 +12,7 @@ Use `$skybook-player-research` for player-card research, batch execution, audits
 
 - Current official club pages are authoritative for identity, current registration, number, position, vitals, prior affiliation and portrait.
 - Commentary biography must be based mainly on outside sources. A verified card requires at least two distinct non-current-club domains.
+- Consult the player's Wikipedia article for career-route research: Japanese players use Japanese Wikipedia first, then English, then Traditional Chinese; players of other nationalities use their home-country language edition first (for example, Portuguese for Brazil), then Japanese, English and Traditional Chinese. Record the exact article URL and access date; cross-check disputed statistics and current facts against competition and official records.
 - Build one row per school/youth and professional season. Never accept `加入前`, an undated career row, a two-row career summary or generic position prose as a completed profile.
 - Write Traditional Chinese with Hong Kong football terminology. Preserve source URLs and dates. Never invent missing facts.
 - Treat player display names supplied by the user from the TVB/J1 commentary master spreadsheet as authoritative. If a display name is absent or uncertain, ask the user instead of transliterating it.
