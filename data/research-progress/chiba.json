@@ -349,7 +349,7 @@
     {
       "id": "chiba-08",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 4,
       "players": [
         {
@@ -381,12 +381,16 @@
           "weight": 1
         }
       ],
-      "started_at": null,
+      "started_at": "2026-09-26",
       "completed_at": null,
       "notes": [
         {
           "date": "2026-09-26",
           "text": "Full-squad audit marked these legacy cards research_incomplete: undated professional-route summaries and insufficient independent career/tactical sources. This batch remains queued for source-by-source rebuilding."
+        },
+        {
+          "date": "2026-09-26",
+          "text": "3 of 4 pass; #40 lacks third supported tactical observation and birth-place confirmation"
         }
       ]
     },
