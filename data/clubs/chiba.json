@@ -6208,11 +6208,11 @@
           "season": "2015/16",
           "team": "Gimnàstic de Tarragona",
           "competition": "西班牙乙組",
-          "appearances": 15,
+          "appearances": 13,
           "goals": 0,
           "status": "",
-          "notes": "",
-          "verification_status": "verified",
+          "notes": "Transfermarkt ES2列聯賽13場；日文Wikipedia及球員代理資料列15場，差兩場，待聯賽逐場核對。",
+          "verification_status": "research_incomplete",
           "sources": [
             {
               "label": "Heroe 鈴木大輔西班牙聯賽紀錄",
@@ -6227,6 +6227,11 @@
             {
               "label": "English Wikipedia：Gimnàstic三季合計69場；截至2026-08-12，無逐季拆分",
               "url": "https://en.wikipedia.org/wiki/Daisuke_Suzuki_(footballer)",
+              "accessed_at": "2026-09-26"
+            },
+            {
+              "label": "Transfermarkt LaLiga2/ES2逐季上陣及比賽明細（2015/16 13、2016/17 34、2017/18 20；合計67）",
+              "url": "https://www.transfermarkt.com/daisuke-suzuki/leistungsdatendetails/spieler/79344/wettbewerb/ES2",
               "accessed_at": "2026-09-26"
             }
           ]
@@ -6238,7 +6243,7 @@
           "appearances": 34,
           "goals": 1,
           "status": "",
-          "notes": "",
+          "notes": "Transfermarkt ES2、日本語Wikipedia及球員代理資料均列34場1球。",
           "verification_status": "verified",
           "sources": [
             {
@@ -6255,6 +6260,11 @@
               "label": "English Wikipedia：Gimnàstic三季合計69場；截至2026-08-12，無逐季拆分",
               "url": "https://en.wikipedia.org/wiki/Daisuke_Suzuki_(footballer)",
               "accessed_at": "2026-09-26"
+            },
+            {
+              "label": "Transfermarkt LaLiga2/ES2逐季上陣及比賽明細（2015/16 13、2016/17 34、2017/18 20；合計67）",
+              "url": "https://www.transfermarkt.com/daisuke-suzuki/leistungsdatendetails/spieler/79344/wettbewerb/ES2",
+              "accessed_at": "2026-09-26"
             }
           ]
         },
@@ -6262,10 +6272,10 @@
           "season": "2017/18",
           "team": "Gimnàstic de Tarragona",
           "competition": "西班牙乙組",
-          "appearances": null,
+          "appearances": 20,
           "goals": 0,
           "status": "",
-          "notes": "英文Wikipedia列2016–18 Gimnàstic聯賽合計69場、未分季；日文Wikipedia逐季15+34+19=68場，並另列2017/18國王盃1場。故不可把英文69直接當本季場數；先前另有16場來源，待聯賽比賽紀錄核對。",
+          "notes": "Transfermarkt ES2列聯賽20場，與日文Wikipedia的聯賽19場及另列國王盃1場可能有賽事分類差異；另有來源列16場。此為Transfermarkt工作數值，仍待聯賽官方逐場核對。",
           "verification_status": "research_incomplete",
           "sources": [
             {
@@ -6286,6 +6296,11 @@
             {
               "label": "English Wikipedia：Gimnàstic三季合計69場；截至2026-08-12，無逐季拆分",
               "url": "https://en.wikipedia.org/wiki/Daisuke_Suzuki_(footballer)",
+              "accessed_at": "2026-09-26"
+            },
+            {
+              "label": "Transfermarkt LaLiga2/ES2逐季上陣及比賽明細（2015/16 13、2016/17 34、2017/18 20；合計67）",
+              "url": "https://www.transfermarkt.com/daisuke-suzuki/leistungsdatendetails/spieler/79344/wettbewerb/ES2",
               "accessed_at": "2026-09-26"
             }
           ]
@@ -6502,13 +6517,18 @@
           "label": "English Wikipedia：Gimnàstic三季合計69場；截至2026-08-12，無逐季拆分",
           "url": "https://en.wikipedia.org/wiki/Daisuke_Suzuki_(footballer)",
           "accessed_at": "2026-09-26"
+        },
+        {
+          "label": "Transfermarkt LaLiga2/ES2逐季上陣及比賽明細（2015/16 13、2016/17 34、2017/18 20；合計67）",
+          "url": "https://www.transfermarkt.com/daisuke-suzuki/leistungsdatendetails/spieler/79344/wettbewerb/ES2",
+          "accessed_at": "2026-09-26"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」既有香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "research_incomplete",
       "research_gaps": [
         "少年三隊的逐年起迄主要依賴二手年表，需原始隊籍核實。",
-        "Gimnàstic聯賽總場數衝突：英文Wikipedia列2016–18合計69場（無分季）；日文Wikipedia列2015/16 15、2016/17 34、2017/18 19，合計68。日文另列2017/18國王盃1場，而另有來源稱該季聯賽16場。需逐場或官方聯賽紀錄釐清，2017/18出場格暫留空。",
+        "Gimnàstic LaLiga2逐季數字有來源衝突：Transfermarkt ES2為13+34+20=67；日文Wikipedia為15+34+19=68（另列2017/18國王盃1場）；英文Wikipedia合計69而不分季；另有資料列2017/18為16。表內暫採Transfermarkt逐季工作數值，2015/16及2017/18仍標research_incomplete，待聯賽官方逐場核實。",
         "2026/27聯賽統計及現役身高體重／慣用腳待核；非聯賽統計及肖像授權未查。"
       ]
     },
