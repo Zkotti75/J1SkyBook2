@@ -10,7 +10,8 @@ Use `$skybook-player-research` for player-card research, batch execution, audits
 
 ## Research rules
 
-- Current official club pages are authoritative for identity, current registration, number, position, vitals, prior affiliation and portrait.
+- Current official club pages and the current J.League club/player roster are authoritative for identity, current registration, number, position, vitals, prior affiliation and portrait. The J.League roster's small player headshot is acceptable; a larger individual-page image is optional.
+- Transfermarkt player profiles and 24live player pages are acceptable sources for preferred foot. Cite the exact player page and check identity before copying the value.
 - Commentary biography must be based mainly on outside sources. A verified card requires at least two distinct non-current-club domains.
 - Consult the player's Wikipedia article for career-route research: Japanese players use Japanese Wikipedia first, then English, then Traditional Chinese; players of other nationalities use their home-country language edition first (for example, Portuguese for Brazil), then Japanese, English and Traditional Chinese. Record the exact article URL and access date; cross-check disputed statistics and current facts against competition and official records.
 - Build one row per school/youth and professional season. Never accept `加入前`, an undated career row, a two-row career summary or generic position prose as a completed profile.

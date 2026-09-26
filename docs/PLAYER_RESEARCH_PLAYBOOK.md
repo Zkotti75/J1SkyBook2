@@ -10,7 +10,7 @@ An official current-club profile is an identity record. It is not a commentary b
 
 | Card layer | What the Nishikawa card contains | Source role used in the model | Standard method for every player |
 | --- | --- | --- | --- |
-| Current identity | Name, number, position, date/place of birth, height/weight, preferred foot, portrait | Current club | Use the current club as authority for identity, vitals, registration and portrait; record the access date. |
+| Current identity | Name, number, position, date/place of birth, height/weight, preferred foot, portrait | Current club and J.League club/player roster; Transfermarkt or 24live for preferred foot | Use the current club or J.League roster for identity, vitals, registration and headshot; use a named player page for preferred foot; record access dates. |
 | Complete route | Every school/youth and professional season, including status and league appearances/goals | Wikipedia career map, J.League profile, league/competition records, former-club records, Transfermarkt competition filters | Consult the preferred Wikipedia edition first, then build one row per season and cross-check conflicts with league, club and competition-filtered statistical records. |
 | Career turning points | Debut, transfers, injury interruptions, title seasons, role changes | Long-form league feature and independent career reporting | Search the player's full Japanese name with `経歴`, `転機`, `インタビュー`, `加入`, `負傷`, `復帰` and each former club. |
 | Awards and records | Titles, Best XI selections, clean-sheet and appearance records, with years and context | J.League/JFA/AFC/FIFA award or competition pages; reputable reporting | Do not list an award without explaining the season or achievement that made it commentary-relevant. |
@@ -25,6 +25,8 @@ An official current-club profile is an identity record. It is not a commentary b
 Use Wikipedia as the first career-route lookup. For Japanese players: Japanese, English, then Traditional Chinese. For other nationalities: the player's home-country language edition first (Brazil: Portuguese), then Japanese, English, and Traditional Chinese. Skip an edition when it has no useful article. Record the exact URL, edition, access date, and any conflicting values. Consult linked citations and compare season totals, loans and transfer dates with league, federation and former-club records; do not silently pick a number when sources disagree. Current identity and vitals still come from the current club. Multiple editions of Wikipedia count as one outside domain.
 
 Transfermarkt's competition-filtered season tables are useful for cross-checking appearances and goals, especially for overseas spells. Record the exact competition filter and season, and distinguish league games from cup, promotion play-off and all-competition totals. Where sources disagree, retain the alternative counts and review status beside the selected working figure.
+
+The current J.League club roster is an approved source for player headshots, including the small roster image, and for listed vitals. A larger image from the player's page is optional. Transfermarkt player profiles and 24live player pages are approved preferred-foot sources for any player when the exact identity and foot value are visible. Cite the page and date; do not infer a foot from playing position.
 
 ## Research sequence
 
