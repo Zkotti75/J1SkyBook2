@@ -2,6 +2,8 @@
 
 ## Normal operation
 
+The published `origin/main` revision is the shared editorial baseline after fetching. Inspect other worktrees, open branches and uncommitted changes before editing rules or integrating club work. The Nishikawa benchmark is the `西川周作` entry in `data/clubs/urawa.json`; the written specification and acceptance checklist live in `docs/PLAYER_RESEARCH_PLAYBOOK.md`, with the executable gate in `scripts/research-quality.mjs`.
+
 1. Open the SkyBook project and repository.
 2. Ask: `Use $skybook-player-research and start the next SkyBook batch.`
 3. The Work chat reads the queue, starts one batch, researches only those players, validates, commits, and stops.
@@ -32,3 +34,4 @@ The progress index is normally read-only. Each club has its own mutable progress
 - A batch is complete only when every named player passes `research:validate`.
 - A club is complete only when all of its player batches are completed and full-club strict validation passes.
 - Player status tags, portraits and residual coverage gaps are later scheduled stages.
+- On changing the standard, run completed-batch validation again, log named remediation for failures, and retain the separate status-tag stage. A passing structural gate still needs editorial source review.

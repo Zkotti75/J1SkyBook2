@@ -53,6 +53,7 @@ Use reliable official records or transparent statistical databases for vital sta
 
 ## Completion checklist
 
+- Record each profile source's exact URL and valid `accessed_at` date; the current club and all its subdomains do not count toward the two outside domains, and all Wikipedia language editions together count as one. The gate checks source metadata, not whether a citation actually supports its claim: editors must inspect that link.
 - Identity/vitals/current registration checked against the current club.
 - At least two distinct non-current-club source domains; Wikipedia can contribute one domain, regardless of how many language editions are consulted.
 - All documented school/youth teams listed; undated, stat-free school/youth rows are valid when dates or figures are unavailable. Every professional season remains individually dated.
@@ -65,6 +66,10 @@ Use reliable official records or transparent statistical databases for vital sta
 - No duplicated position-level prose or generic template sentences.
 - Exact Wikipedia edition, source URLs, access dates and verification date recorded.
 - Status tags separately reviewed and sourced.
+
+For each professional year use a separate season row per club and competition scope, including loans, special registration and mid-season transfers. Give league appearances and goals when reliably documented; use null and explain a genuine gap or conflicting totals in the row notes/career audit. An explicit zero requires evidence. For youth and school affiliations, preserve every documented team, dates when supported, and null values where records do not exist. Do not promote a card merely because its file exists or its prose is long. Where no interview or human story can be found, record the search and absence rather than inventing one.
+
+When the control room changes this checklist, rerun the batch gate on every previously completed batch and the strict club gate on previously completed clubs. Name failed players and the missing evidence in the relevant club's `review_queue` or batch notes, set the affected batch to `needs_review`, and do not edit a club progress file owned by an active research chat. Preserve verified facts and source links. Publish updated shared rules before new research chats start another batch.
 
 ## Status-tag model
 

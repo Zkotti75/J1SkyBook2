@@ -35,7 +35,9 @@ export const hasUrl = source => typeof source?.url === 'string' && /^https?:\/\/
 
 export function normalizeHost(url) {
   try {
-    return new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+    const host = new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+    if (host === 'wikipedia.org' || host.endsWith('.wikipedia.org')) return 'wikipedia.org';
+    return host;
   } catch {
     return '';
   }
@@ -46,7 +48,7 @@ export function nonClubSourceHosts(player, slug) {
   return new Set((player.sources || [])
     .filter(hasUrl)
     .map(source => normalizeHost(source.url))
-    .filter(host => host && !clubHosts.has(host)));
+    .filter(host => host && ![...clubHosts].some(club => host === club || host.endsWith(`.${club}`))));
 }
 
 export function evaluatePlayerCard(player, slug) {
@@ -59,6 +61,9 @@ export function evaluatePlayerCard(player, slug) {
   if (player.verification_status !== 'verified') issues.push(`${ref}: verification_status is not verified`);
   if (!isDate(player.verified_at)) issues.push(`${ref}: verified_at is missing or invalid`);
   if (!(player.sources || []).some(hasUrl)) issues.push(`${ref}: profile has no linked sources`);
+  for (const source of player.sources || []) {
+    if (hasUrl(source) && !isDate(source.accessed_at)) issues.push(`${ref}: source ${source.url} has no valid accessed_at date`);
+  }
 
   const outsideHosts = nonClubSourceHosts(player, slug);
   if (outsideHosts.size < 2) issues.push(`${ref}: fewer than two distinct non-current-club source domains`);
@@ -87,6 +92,8 @@ export function evaluatePlayerCard(player, slug) {
     if (/[–—-].*\d{4}|至今|present/i.test(row.season || '')) issues.push(`${ref}: career row ${index + 1} is not a single-season entry`);
     if (/\s[／/]\s|大學／|高校／/.test(row.team || '')) issues.push(`${ref}: career row ${index + 1} conflates separate clubs or schools`);
     if (row.verification_status === 'verified' && !(row.sources || []).some(hasUrl)) issues.push(`${ref}: verified career row ${index + 1} has no linked source`);
+    if (row.appearances != null && (!Number.isInteger(row.appearances) || row.appearances < 0)) issues.push(`${ref}: career row ${index + 1} has invalid appearances`);
+    if (row.goals != null && (!Number.isInteger(row.goals) || row.goals < 0)) issues.push(`${ref}: career row ${index + 1} has invalid goals`);
   }
 
   const age = Number(player.season_start_age ?? player.age);

@@ -4,6 +4,7 @@ Use `$skybook-player-research` for player-card research, batch execution, audits
 
 ## Source of truth
 
+- `origin/main` after a fresh fetch is the published baseline. Compare local worktrees, unmerged branches and working changes before editing shared rules. Use a dedicated branch/worktree for control-room edits and rebase on the current published main before publication.
 - Read `data/research-progress.json` and the target file in `data/research-progress/` before choosing work.
 - Read `docs/PLAYER_RESEARCH_PLAYBOOK.md` before researching and `docs/WORK_CONTROL_ROOM.md` before changing workflow state.
 - Treat `data/clubs/<slug>.json` as the portal data source. Conversation history is not a completion record.
@@ -23,6 +24,7 @@ Use `$skybook-player-research` for player-card research, batch execution, audits
 - Write Traditional Chinese with Hong Kong football terminology. Preserve source URLs and dates. Never invent missing facts.
 - Treat player display names supplied by the user from the TVB/J1 commentary master spreadsheet as authoritative. If a display name is absent or uncertain, ask the user instead of transliterating it.
 - Status-tag remediation is a separate queued stage; transient match status belongs in `match_week`.
+- Any new control-room requirement must update the playbook and applicable validation check, audit previously completed cards, and create named remediation for failures before treating them as compliant. Preserve existing sourced research.
 
 ## Batch rules
 
@@ -38,6 +40,7 @@ Use `$skybook-player-research` for player-card research, batch execution, audits
 ## Parallel Work chats
 
 - Parallel chats must use different club files and separate branches/worktrees.
+- Refresh shared rules from published `main` before each new batch. Do not edit a club file while another chat owns that club; integrate and validate its work first.
 - Do not run two active batches for the same club.
 - Mutable progress is stored per club to reduce cross-chat conflicts. The control-room index is read-only during ordinary batch work.
 - Preserve unrelated user changes and never overwrite another active batch.
