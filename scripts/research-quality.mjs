@@ -1,4 +1,4 @@
-import { isUndatedYouthRow } from './career-youth.mjs';
+import { isUndatedYouthRow, isYouthOnlyRow, yearSpan } from './career-youth.mjs';
 
 const officialHosts = {
   'cerezo-osaka': ['cerezo.jp'],
@@ -77,10 +77,15 @@ export function evaluatePlayerCard(player, slug) {
   if (!audit || !isDate(audit.reviewed_at) || !(audit.sources || []).some(hasUrl) ||
       !(Number.isInteger(audit.earliest_known_year) || (undatedFirstYouth && audit.earliest_known_year == null))) {
     issues.push(`${ref}: full career route has not been explicitly audited against an early-youth source`);
-  } else if (!undatedFirstYouth && Number(player.career?.[0]?.season) !== audit.earliest_known_year) {
+  } else if (!undatedFirstYouth && yearSpan(player.career?.[0]?.season)?.start !== audit.earliest_known_year) {
     issues.push(`${ref}: first career row does not match the audited earliest known season`);
   }
-  const years = new Set((player.career || []).map(row => /^\d{4}/.exec(String(row.season || ''))?.[0]).filter(Boolean));
+  const years = new Set((player.career || []).flatMap(row => {
+    const span = yearSpan(row.season);
+    if (span) return Array.from({ length: span.end - span.start + 1 }, (_, i) => String(span.start + i));
+    const seasonYear = /^\d{4}/.exec(String(row.season || ''));
+    return seasonYear ? [seasonYear[0]] : [];
+  }));
   const firstYear = Number((player.career || []).find(row => /^\d{4}/.test(String(row.season || '')))?.season?.slice(0, 4));
   if (Number.isInteger(firstYear) && firstYear >= 1900 && firstYear <= 2026) {
     for (let year = firstYear; year <= 2026; year++) {
@@ -89,7 +94,15 @@ export function evaluatePlayerCard(player, slug) {
   }
   for (const [index, row] of (player.career || []).entries()) {
     if ((row.season == null || row.season === '') && !isUndatedYouthRow(row)) issues.push(`${ref}: career row ${index + 1} has no season`);
-    if (/[–—-].*\d{4}|至今|present/i.test(row.season || '')) issues.push(`${ref}: career row ${index + 1} is not a single-season entry`);
+    const span = yearSpan(row.season);
+    if (span?.end > span?.start && !isYouthOnlyRow(row)) issues.push(`${ref}: career row ${index + 1} combines professional or mixed seasons`);
+    if (!span && /[–—-].*\d{4}|至今|present/i.test(row.season || '')) issues.push(`${ref}: career row ${index + 1} has an invalid season range`);
+    const next = player.career[index + 1];
+    const nextSpan = yearSpan(next?.season);
+    if (isYouthOnlyRow(row) && isYouthOnlyRow(next) && span && nextSpan &&
+        span.end + 1 === nextSpan.start && row.team === next.team && row.competition === next.competition) {
+      issues.push(`${ref}: career rows ${index + 1}-${index + 2} repeat consecutive youth/school years for ${row.team}; combine and retain dated milestones`);
+    }
     if (/\s[／/]\s|大學／|高校／/.test(row.team || '')) issues.push(`${ref}: career row ${index + 1} conflates separate clubs or schools`);
     if (row.verification_status === 'verified' && !(row.sources || []).some(hasUrl)) issues.push(`${ref}: verified career row ${index + 1} has no linked source`);
     if (row.appearances != null && (!Number.isInteger(row.appearances) || row.appearances < 0)) issues.push(`${ref}: career row ${index + 1} has invalid appearances`);

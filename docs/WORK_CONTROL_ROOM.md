@@ -35,3 +35,4 @@ The progress index is normally read-only. Each club has its own mutable progress
 - A club is complete only when all of its player batches are completed and full-club strict validation passes.
 - Player status tags, portraits and residual coverage gaps are later scheduled stages.
 - On changing the standard, run completed-batch validation again, log named remediation for failures, and retain the separate status-tag stage. A passing structural gate still needs editorial source review.
+- The 2026-09-27 youth-range change applies retrospectively. `docs/YOUTH_RANGE_REMEDIATION.md` lists affected previously verified cards by club and batch; club chats own their JSON/progress edits. Keep these previously completed batches under review until their compressed rows pass validation. Do not merge professional or mixed registration rows.
