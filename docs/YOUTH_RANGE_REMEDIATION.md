@@ -2,7 +2,7 @@
 
 Standard changed 2026-09-27. Club research chats own their club JSON and progress files. Consolidate the named consecutive stat-free youth/school years, preserve dated achievements and all distinct source links, then rerun batch validation. Do not merge professional or mixed registration rows. These previously completed batches require review under the new gate; the queue files were left untouched to avoid colliding with active club chats.
 
-Identified 56 previously verified cards with compressible adjacent rows. Refresh after other branches merge.
+Identified 56 previously verified cards with compressible adjacent rows. Nagasaki's 29 cards were remediated on 2026-09-27; 27 cards remain in the other listed clubs. Refresh after other branches merge.
 
 ## 千葉市原JEF聯 (chiba) — 11 cards
 
@@ -18,7 +18,7 @@ Identified 56 previously verified cards with compressible adjacent rows. Refresh
 - chiba-06 · #24 鳥海晃司: FC Uno木更津 2004-2007；千葉市原JEF聯U-15 2008-2010；千葉市原JEF聯U-18 2011-2013；明治大學 2014-2017
 - chiba-06 · #28 河野貴志: 都農中學 2009-2011；鵬翔高中 2012-2014；關西大學 2015-2018
 
-## 長崎成功丸 (nagasaki) — 29 cards
+## 長崎成功丸 (nagasaki) — completed: 29 cards (2026-09-27)
 
 - nagasaki-01 · #1 後藤雅明: 國學院久我山高校 2010-2012；早稻田大學 2013-2016
 - nagasaki-03 · #13 波多野豪: 武蔵村山1FC 2005-2010；FC東京U-15むさし 2011-2013；FC東京U-18 2014-2016
