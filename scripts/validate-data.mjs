@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { auditClub } from './audit-club.mjs';
+import { isYouthOnlyRow } from './career-youth.mjs';
 
 const strict = process.argv.includes('--strict');
 const clubArg = process.argv.find(arg => arg.startsWith('--club='));
@@ -42,7 +43,7 @@ for (const listed of selectedTeams) {
     if (!Array.isArray(data.manager.career)) errors.push(`${listed.slug}: manager career must be an array.`);
     for (const [index, row] of (data.manager.career || []).entries()) {
       for (const key of requiredCareerKeys) if (!(key in row)) errors.push(`${listed.slug} manager career row ${index + 1}: missing ${key}.`);
-      if (/[–—-].*\d{4}|至今|present/i.test(row.season || '')) warnings.push(`${listed.slug} manager career row ${index + 1}: season is not a single-season entry (${row.season}).`);
+      if (!isYouthOnlyRow(row) && /[–—-].*\d{4}|至今|present/i.test(row.season || '')) warnings.push(`${listed.slug} manager career row ${index + 1}: season is not a single-season entry (${row.season}).`);
     }
   }
   const audit = auditClub(data);
@@ -65,7 +66,7 @@ for (const listed of selectedTeams) {
     if (!Array.isArray(player.career)) errors.push(`${ref}: career must be an array.`);
     for (const [index, row] of (player.career || []).entries()) {
       for (const key of requiredCareerKeys) if (!(key in row)) errors.push(`${ref} career row ${index + 1}: missing ${key}.`);
-      if (/[–—-].*\d{4}|至今|present/i.test(row.season || '')) warnings.push(`${ref} career row ${index + 1}: season is not a single-season entry (${row.season}).`);
+      if (!isYouthOnlyRow(row) && /[–—-].*\d{4}|至今|present/i.test(row.season || '')) warnings.push(`${ref} career row ${index + 1}: season is not a single-season entry (${row.season}).`);
     }
   }
 }
