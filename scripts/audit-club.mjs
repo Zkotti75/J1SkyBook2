@@ -1,5 +1,5 @@
 // Shared, deterministic checks. An audit reports gaps; it never invents data.
-import { isUndatedYouthRow } from './career-youth.mjs';
+import { isUndatedYouthRow, isYouthOnlyRow } from './career-youth.mjs';
 export const isDate = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(`${value}T00:00:00Z`));
 const hasUrl = source => typeof source?.url === 'string' && /^https?:\/\/\S+$/.test(source.url);
 const sourceList = value => Array.isArray(value) && value.some(hasUrl);
@@ -132,8 +132,10 @@ export function auditClub(data, { asOf } = {}) {
       if (row.verification_status === 'verified' && !sourceList(row.sources)) add(blockers, rowRef, 'verified row has no linked source');
       // Coaching history does not have player appearances or goals. Keeping the
       // shared row shape is useful, but null manager figures are not coverage gaps.
-      if (person !== data.manager && row.appearances == null && !isUndatedYouthRow(row)) add(coverage, rowRef, 'appearances not established');
-      if (person !== data.manager && row.goals == null && !isUndatedYouthRow(row)) add(coverage, rowRef, 'goals not established');
+      // Youth and school rows intentionally carry null stats. This includes
+      // dated multi-year ranges compressed under the published youth-range rule.
+      if (person !== data.manager && row.appearances == null && !isUndatedYouthRow(row) && !isYouthOnlyRow(row)) add(coverage, rowRef, 'appearances not established');
+      if (person !== data.manager && row.goals == null && !isUndatedYouthRow(row) && !isYouthOnlyRow(row)) add(coverage, rowRef, 'goals not established');
     }
   }
   for (const refs of repeatedCommentary.values()) {
