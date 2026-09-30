@@ -2,15 +2,15 @@
   "schema_version": 1,
   "club": "kawasaki",
   "club_name_zh": "川崎前鋒",
-  "player_research_status": "queued",
-  "updated_at": "2026-09-21",
+  "player_research_status": "in_progress",
+  "updated_at": "2026-09-30",
   "roster_players": 38,
   "baseline_complete_players": [],
   "batches": [
     {
       "id": "kawasaki-01",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 4,
       "players": [
         {
@@ -42,8 +42,8 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
+      "started_at": "2026-09-30",
+      "completed_at": "2026-09-30",
       "notes": []
     },
     {
