@@ -271,3 +271,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .foreign-roster-link { display: block; margin: 7px 0; padding: 12px; border: 1px solid var(--line); border-radius: 7px; color: var(--text); text-decoration: none; }
 .foreign-roster-link span { display: block; margin-top: 5px; font-size: .75rem; color: var(--muted); }
 .foreign-roster-link:hover { border-color: var(--accent); }
+
+.match-date-label strong { display:block; font-size:1.15rem; color:var(--text); }
+.match-date-label span { display:block; margin-top:6px; }

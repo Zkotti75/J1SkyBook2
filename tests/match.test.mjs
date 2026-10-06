@@ -30,6 +30,7 @@ test('fixture dossier cannot leak to another date or opponent order', () => {
 });
 test('quoted translations require originals and interview window excludes future/old interviews', () => {
   assert.equal(inInterviewWindow({published_at:'2026-10-01'},'2026-10-01',date),false);
+  assert.equal(inInterviewWindow({published_at:'2026-10-01',context:'post_match'},'2026-10-01',date),true);
   assert.equal(inInterviewWindow({published_at:date},'2026-10-01',date),true);
   const html=renderMatchPage({home,away,date,page:'quotes',dossier});
   assert.ok(html.includes('測試人物')); assert.ok(html.includes('日文原句')); assert.ok(!html.includes('未來訪問'));

@@ -51,8 +51,8 @@ function fillSelectors() {
   for (const select of [$('#home-team'), $('#away-team')]) {
     select.innerHTML = teams.map(t => `<option value="${esc(t.slug)}">${esc(t.name_zh)}</option>`).join('');
   }
-  $('#home-team').value = teams.some(t => t.slug === 'kashiwa') ? 'kashiwa' : teams[0].slug;
-  $('#away-team').value = teams.some(t => t.slug === 'urawa') ? 'urawa' : teams[1]?.slug || teams[0].slug;
+  $('#home-team').value = state.matchIndex.featured.home;
+  $('#away-team').value = state.matchIndex.featured.away;
   syncFixtureButtons();
 }
 
@@ -296,8 +296,9 @@ function openItemById(id) {
   if (item) location.hash = routeFor(state.activeSlug, item);
 }
 
-function currentMatchRoute(page = state.matchPage, date = state.matchDate || '') {
-  return matchRoute($('#home-team').value, $('#away-team').value, date, page);
+function currentMatchRoute(page = state.matchPage) {
+  const f = state.matchIndex.featured;
+  return matchRoute(f.home, f.away, f.date, page);
 }
 function setMode(mode) {
   state.mode = mode;
@@ -309,12 +310,11 @@ function setMode(mode) {
 }
 async function renderMatchRoute(route, renderId) {
   setMode('match');
-  const teams = state.manifest.teams;
-  const home = teams.some(t => t.slug === route.home) ? route.home : $('#home-team').value;
-  const away = teams.some(t => t.slug === route.away && t.slug !== home) ? route.away : teams.find(t => t.slug !== home && t.slug === $('#away-team').value)?.slug || teams.find(t => t.slug !== home).slug;
-  $('#home-team').value = home; $('#away-team').value = away;
+  const { home, away, date } = state.matchIndex.featured;
   state.matchPage = MATCH_PAGES.some(p => p.id === route.page) ? route.page : 'comparison';
-  state.matchDate = route.date || '';
+  state.matchDate = date;
+  if (location.hash !== currentMatchRoute()) { location.replace(currentMatchRoute()); return; }
+  $('#home-team').value = home; $('#away-team').value = away;
   syncFixtureButtons();
   document.documentElement.style.setProperty('--team', '#38bdf8');
   document.documentElement.style.setProperty('--team-text', '#091321');
@@ -322,7 +322,8 @@ async function renderMatchRoute(route, renderId) {
   $('#detail').innerHTML = $('#loading-template').innerHTML;
   try {
     const date = state.matchDate, page = state.matchPage;
-    const [homeClub, awayClub, index] = await Promise.all([loadClub(home), loadClub(away), fetchJson('data/matches/index.json')]);
+    const [homeClub, awayClub] = await Promise.all([loadClub(home), loadClub(away)]);
+    const index = state.matchIndex;
     const record = index.fixtures.find(f => f.home === home && f.away === away && f.date === date);
     const dossier = record ? await fetchJson(`data/matches/${record.file}`) : null;
     if (renderId !== state.renderId) return;
@@ -336,7 +337,7 @@ async function renderMatchRoute(route, renderId) {
 }
 
 async function init() {
-  state.manifest = await fetchJson('data/teams.json');
+  [state.manifest, state.matchIndex] = await Promise.all([fetchJson('data/teams.json'), fetchJson('data/matches/index.json')]);
   fillSelectors();
   const initial = parseRoute();
   addEventListener('hashchange', renderRoute);
@@ -350,12 +351,11 @@ async function init() {
       $(`#${other}-team`).value = state.manifest.teams.find(t => t.slug !== $(`#${slot}-team`).value).slug;
     }
     syncFixtureButtons();
-    if (state.mode === 'match') location.hash = currentMatchRoute();
+    if (state.mode === 'match') { state.slot = slot; location.hash = `#/club/${$(`#${slot}-team`).value}`; }
     else activateSlot(state.slot);
   });
   $('#match-button').addEventListener('click', () => { location.hash = currentMatchRoute(); });
   $('#match-nav').addEventListener('click', event => { const b = event.target.closest('[data-match-page]'); if (b) location.hash = currentMatchRoute(b.dataset.matchPage); });
-  $('#detail').addEventListener('change', event => { if (event.target.id === 'match-date') location.hash = currentMatchRoute(state.matchPage, event.target.value); });
   $('#back-to-team').addEventListener('click', () => { location.hash = `#/club/${state.mode === 'match' ? $('#home-team').value : state.activeSlug}`; });
   $('#open-team-picker').addEventListener('click', () => $('#home-team').focus());
   $('#player-search').addEventListener('input', () => { const data = state.clubs.get(state.activeSlug); if (data && state.mode === 'club') renderSidebar(data, state.activeItem); });

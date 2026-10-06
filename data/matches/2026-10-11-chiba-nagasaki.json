@@ -1,0 +1,2892 @@
+{
+  "schema_version": 1,
+  "home": "chiba",
+  "away": "nagasaki",
+  "date": "2026-10-11",
+  "as_of": "2026-10-06",
+  "coverage_note": "只維護這場評述任務。聯賽統計截至第8節；10月7日兩隊天皇盃尚未舉行，賽後訪問、人腳及傷停仍須再核對。未核實項目明示留白。",
+  "match_info": {
+    "kickoff_hkt": "13:00 香港（14:00 日本）",
+    "stadium": "福田電子競技場（Fukuda Denshi Arena）",
+    "referee": null,
+    "lineups_as_of": null,
+    "sources": [
+      {
+        "label": "JEF官方・第9節比賽資訊",
+        "url": "https://jefunited.co.jp/news/detail/5595",
+        "published_at": "2026-10-05",
+        "accessed_at": "2026-10-06"
+      },
+      {
+        "label": "長崎官方・全季賽程及賽果",
+        "url": "https://www.v-varen.com/match",
+        "published_at": "2026-10-06",
+        "accessed_at": "2026-10-06"
+      }
+    ]
+  },
+  "teams": {
+    "chiba": {
+      "previous_match_date": "2026-09-29",
+      "stats": {
+        "rank": 20,
+        "slug": "chiba",
+        "name_zh": "千葉市原JEF聯",
+        "played": 8,
+        "wins": 1,
+        "draws": 1,
+        "losses": 6,
+        "goals_for": 7,
+        "goals_against": 18,
+        "goal_difference": -11,
+        "points": 4,
+        "matches": 8,
+        "season": "2026/27",
+        "competition": "J1・第8節後",
+        "as_of": "2026-09-20",
+        "sources": [
+          {
+            "label": "J.League官方聯賽榜",
+            "url": "https://www.jleague.jp/j1/standings/",
+            "published_at": "2026-09-20",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "style": [
+        {
+          "text": "本季8場聯賽開局：4-4-2用5場（1勝1和3負，入6失9），3-4-2-1用3場（全敗，入1失9）。這是DataStadium按開局站位分類，不包括比賽中的變陣，也不能證明換陣必然改善戰績。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・千葉開局陣式",
+              "url": "https://www.football-lab.jp/chib/formation",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "最近的9月29日盃賽，官方陣容頁列4-4-2，石川大地與矢村健正選；杉山直宏及石川先後追至2–2，其後再失兩球。",
+          "kind": "fact",
+          "as_of": "2026-09-29",
+          "sources": [
+            {
+              "label": "J.League官方・磐田4–2千葉",
+              "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "評述可觀察：前場搶回球後能否更快製造禁區機會。這是由本季機會創造偏少的統計提出的觀察方向，並非本週操練指示。",
+          "kind": "analysis",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・千葉本季統計",
+              "url": "https://www.football-lab.jp/chib",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "formation": {
+        "shape": "4-4-2",
+        "label": "本季最常用開局陣式・非本場預測",
+        "as_of": "2026-09-21",
+        "sources": [
+          {
+            "label": "Football LAB・千葉開局陣式",
+            "url": "https://www.football-lab.jp/chib/formation",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "form": [
+        {
+          "text": "最近5場聯賽（舊→新）：負川崎2–4、負岡山1–2、勝大阪飛腳2–0、和東京綠茵1–1、負清水1–2。近兩場聯賽未勝；主場聯賽1勝2負，入3失6。",
+          "kind": "fact",
+          "as_of": "2026-10-06",
+          "sources": [
+            {
+              "label": "Football LAB・千葉全季聯賽記錄",
+              "url": "https://www.football-lab.jp/chib/match",
+              "published_at": "2026-10-06",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "Football LAB・本場對賽資料",
+              "url": "https://www.football-lab.jp/chib/preview",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "最近正式比賽：9月29日日聯盃作客磐田2–4出局。10月7日19:00日本時間天皇盃對岡山，在福田電子競技場舉行，但官方對賽編排為岡山對千葉，千葉屬客隊方。結果待賽後補。",
+          "kind": "fact",
+          "as_of": "2026-09-29",
+          "sources": [
+            {
+              "label": "J.League官方・磐田4–2千葉",
+              "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "JFA・天皇盃第三圈賽程",
+              "url": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/",
+              "published_at": "2026-09-01",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "scorers": [
+        {
+          "text": "2026/27 J1第8節後：田中和樹3球；Matheus Indio、津久井匠海、矢村健及艾利臣各1球。只計本季J1，不混入百年構想聯賽或盃賽。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・千葉球員排名",
+              "url": "https://www.football-lab.jp/chib/ranking",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "assists": [
+        {
+          "text": "Football LAB助攻：石川大地、石尾陸登及田口泰士各1次，並列隊內第一。石川另有7次最後傳球（隊內最多）。助攻按該供應商定義統計。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・千葉球員排名",
+              "url": "https://www.football-lab.jp/chib/ranking",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "text": "9月16日：恩杜卡・邦費斯由神戶勝利船借用加盟。9月29日盃賽已正選上陣；不能再只依季初陣式圖判斷中堅競爭。",
+          "kind": "fact",
+          "as_of": "2026-09-16",
+          "sources": [
+            {
+              "label": "J.League官方・恩杜卡借用加盟",
+              "url": "https://www.jleague.jp/news/article/34919/?navicode=j1",
+              "published_at": "2026-09-16",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "J.League官方・磐田4–2千葉",
+              "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "截至10月5日J.League停賽公告，J1名單沒有千葉球員；這只是當日公告結果，10月7日後需再查。",
+          "kind": "fact",
+          "as_of": "2026-10-05",
+          "sources": [
+            {
+              "label": "J.League官方・停賽公告",
+              "url": "https://www.jleague.jp/news/article/35053/?navicode=j1",
+              "published_at": "2026-10-05",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "蘇亞雷斯9月29日盃賽被逐，紀律公告指定停賽為10月7日天皇盃岡山對千葉。不可直接寫成10月11日對長崎停賽。",
+          "kind": "fact",
+          "as_of": "2026-09-30",
+          "sources": [
+            {
+              "label": "J.League紀律決定・蘇亞雷斯",
+              "url": "https://aboutj.jleague.jp/corporate/news/article/80",
+              "published_at": "2026-09-30",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "injuries": [
+        {
+          "text": "飯田貴敬：9月9日對讚岐受傷；9月12日J.League報道左股二頭肌拉傷，預計6–8星期。保留公告日期；本場能否入選仍未有新確認。",
+          "kind": "fact",
+          "as_of": "2026-09-12",
+          "sources": [
+            {
+              "label": "J.League官方・飯田傷患公告",
+              "url": "https://www.jleague.jp/news/article/34876/?navicode=j1",
+              "published_at": "2026-09-12",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "喜田陽：9月2日對岡山受傷；9月11日J.League報道右腓骨骨折。本次未取得已復出或本場缺陣的最新確認。",
+          "kind": "fact",
+          "as_of": "2026-09-11",
+          "sources": [
+            {
+              "label": "J.League官方・喜田傷患公告",
+              "url": "https://www.jleague.jp/news/article/34872/?navicode=j1",
+              "published_at": "2026-09-11",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "Football LAB 9月21日缺場資訊另列植田悠太。這是供應商觀察名單，不足以判定10月11日缺陣；需查最新操練及比賽名單。",
+          "kind": "reported",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・本場對賽資料",
+              "url": "https://www.football-lab.jp/chib/preview",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "yellow_risk": [
+        {
+          "text": "本次未取得逐名球員、經核對的J1累積黃牌及停賽邊緣名單。隊伍總警告數或盃賽黃牌不能代替聯賽個人累積；此欄待補，並不代表沒有人有風險。",
+          "kind": "analysis",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・千葉本季統計",
+              "url": "https://www.football-lab.jp/chib",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "players_to_watch": {
+        "stars": [
+          {
+            "number": 7,
+            "description": [
+              {
+                "text": "入球分布比泛稱「速度型」更有用：田中本季3球全在川崎（兩球）與岡山（一球）兩場。評述可留意他是否再次取得近門完成攻勢的位置。",
+                "kind": "reported",
+                "as_of": "2026-10-06",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉全季聯賽記錄",
+                    "url": "https://www.football-lab.jp/chib/match",
+                    "published_at": "2026-10-06",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：5場、4次正選、296分鐘、3球；5次射門。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉本季統計",
+                    "url": "https://www.football-lab.jp/chib",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "Football LAB・千葉球員排名",
+                    "url": "https://www.football-lab.jp/chib/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "description": [
+              {
+                "text": "上仗磐田戰：津久井接石川直線球後橫傳，令石川取得追平球。這段實際配合可作觀察邊路與前鋒連線的例子。",
+                "kind": "reported",
+                "as_of": "2026-09-29",
+                "sources": [
+                  {
+                    "label": "J.League官方・磐田4–2千葉",
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+                    "published_at": "2026-09-29",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：8場全正選、646分鐘、1球；攻擊CBP 8.65及盤球CBP 2.76均隊內第一。CBP為供應商貢獻指標，並非入球或xG。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉本季統計",
+                    "url": "https://www.football-lab.jp/chib",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "Football LAB・千葉球員排名",
+                    "url": "https://www.football-lab.jp/chib/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 20,
+            "description": [
+              {
+                "text": "在磐田戰46分鐘追成2–2；本季聯賽最後傳球最多，但仍未有J1入球。可觀察他在串連與禁區終結之間的分工。",
+                "kind": "reported",
+                "as_of": "2026-09-29",
+                "sources": [
+                  {
+                    "label": "J.League官方・磐田4–2千葉",
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+                    "published_at": "2026-09-29",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "Football LAB・千葉球員排名",
+                    "url": "https://www.football-lab.jp/chib/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：8場、7次正選、645分鐘；0球、1助攻、7次最後傳球。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉本季統計",
+                    "url": "https://www.football-lab.jp/chib",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "Football LAB・千葉球員排名",
+                    "url": "https://www.football-lab.jp/chib/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "foreign": [
+          {
+            "number": 99,
+            "description": [
+              {
+                "text": "外援前鋒艾利臣9月13日攻入作客東京綠茵的1–1入球。以實際射門與入球數觀察他的終結，不為本場添加未經報道的性格或能力標籤。",
+                "kind": "reported",
+                "as_of": "2026-10-06",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉全季聯賽記錄",
+                    "url": "https://www.football-lab.jp/chib/match",
+                    "published_at": "2026-10-06",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：6場、464分鐘、1球、17射門。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉本季統計",
+                    "url": "https://www.football-lab.jp/chib",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "Football LAB・千葉球員排名",
+                    "url": "https://www.football-lab.jp/chib/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 66,
+            "description": [
+              {
+                "text": "丹尼爾・賀爾在聯賽8場均正選，是本季後防常用人員；新中堅加盟及盃賽輪換後，本場是否再正選仍待官方名單。",
+                "kind": "reported",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉本季統計",
+                    "url": "https://www.football-lab.jp/chib",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "J.League官方・磐田4–2千葉",
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+                    "published_at": "2026-09-29",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：703分鐘；防守CBP 20.69居隊內第一。此值受防守工作量與供應商算法影響，不能等同防守成功率。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉本季統計",
+                    "url": "https://www.football-lab.jp/chib",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "youth": [
+          {
+            "number": 37,
+            "description": [
+              {
+                "text": "姬野誠是球會青訓出身。日刊體育1月17日訪問談到他把最後一腳的質素視為武器；J.League其後選他為百年構想聯賽5月新星。這是具體成長背景，兩個賽季的數字需分開。",
+                "kind": "reported",
+                "as_of": "2026-01-17",
+                "sources": [
+                  {
+                    "label": "日刊體育・姬野誠採訪",
+                    "url": "https://www.nikkansports.com/soccer/news/202601170001018.html",
+                    "published_at": "2026-01-17",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "J.League・百年構想聯賽5月新星獎",
+                    "url": "https://www.jleague.jp/j1/monthly_awards/2026special/05/young-player-east/",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "本季J1：4場、1次正選、141分鐘、0球。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・千葉本季統計",
+                    "url": "https://www.football-lab.jp/chib",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "storylines": [
+        {
+          "text": "恩杜卡在9月轉會後已於磐田盃賽正選，可作本場中堅選擇的最新背景；仍要看10月7日的選人及負荷。",
+          "kind": "analysis",
+          "as_of": "2026-09-16",
+          "sources": [
+            {
+              "label": "J.League官方・恩杜卡借用加盟",
+              "url": "https://www.jleague.jp/news/article/34919/?navicode=j1",
+              "published_at": "2026-09-16",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "J.League官方・磐田4–2千葉",
+              "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": [
+          {
+            "text": "開場可提：4分排20、上仗盃賽追平後仍落敗。正選公布後優先核對門將及中堅組合。",
+            "kind": "analysis",
+            "as_of": "2026-09-20",
+            "sources": [
+              {
+                "label": "J.League官方聯賽榜",
+                "url": "https://www.jleague.jp/j1/standings/",
+                "published_at": "2026-09-20",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "J.League官方・磐田4–2千葉",
+                "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+                "published_at": "2026-09-29",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      },
+      "game_log": [
+        {
+          "date": "2026-08-08",
+          "sort_date": "2026-08-08",
+          "date_display": "2026/08/8",
+          "competition": "J1 第1節",
+          "round": 1,
+          "venue": "客",
+          "opponent": "廣島三箭",
+          "opponent_slug": "hiroshima",
+          "score": "0–3",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-08-15",
+          "sort_date": "2026-08-15",
+          "date_display": "2026/08/15",
+          "competition": "J1 第2節",
+          "round": 2,
+          "venue": "主",
+          "opponent": "町田澤維亞",
+          "opponent_slug": "machida",
+          "score": "0–4",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-08-21",
+          "sort_date": "2026-08-21",
+          "date_display": "2026/08/21",
+          "competition": "J1 第3節",
+          "round": 3,
+          "venue": "客",
+          "opponent": "FC東京",
+          "opponent_slug": "fc-tokyo",
+          "score": "0–2",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "date_display": "2026/08/29",
+          "competition": "J1 第4節",
+          "round": 4,
+          "venue": "客",
+          "opponent": "川崎前鋒",
+          "opponent_slug": "kawasaki",
+          "score": "2–4",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "date_display": "2026/09/2",
+          "competition": "J1 第5節",
+          "round": 5,
+          "venue": "主",
+          "opponent": "岡山綠雉",
+          "opponent_slug": "okayama",
+          "score": "1–2",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "date_display": "2026/09/6",
+          "competition": "J1 第6節",
+          "round": 6,
+          "venue": "主",
+          "opponent": "大阪飛腳",
+          "opponent_slug": "gamba-osaka",
+          "score": "2–0",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-09-13",
+          "sort_date": "2026-09-13",
+          "date_display": "2026/09/13",
+          "competition": "J1 第7節",
+          "round": 7,
+          "venue": "客",
+          "opponent": "東京綠茵",
+          "opponent_slug": "tokyo-verdy",
+          "score": "1–1",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-09-19",
+          "sort_date": "2026-09-19",
+          "date_display": "2026/09/19",
+          "competition": "J1 第8節",
+          "round": 8,
+          "venue": "客",
+          "opponent": "清水心跳",
+          "opponent_slug": "shimizu",
+          "score": "1–2",
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-10-11",
+          "sort_date": "2026-10-11",
+          "date_display": "2026/10/11",
+          "competition": "J1 第9節",
+          "round": 9,
+          "venue": "主",
+          "opponent": "長崎成功丸",
+          "opponent_slug": "nagasaki",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-10-17",
+          "sort_date": "2026-10-17",
+          "date_display": "2026/10/17",
+          "competition": "J1 第10節",
+          "round": 10,
+          "venue": "主",
+          "opponent": "橫濱水手",
+          "opponent_slug": "yokohama-fm",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "date_display": "2026/10/21",
+          "competition": "J1 第11節",
+          "round": 11,
+          "venue": "客",
+          "opponent": "浦和紅鑽",
+          "opponent_slug": "urawa",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-10-25",
+          "sort_date": "2026-10-25",
+          "date_display": "2026/10/25",
+          "competition": "J1 第12節",
+          "round": 12,
+          "venue": "客",
+          "opponent": "大阪櫻花",
+          "opponent_slug": "cerezo-osaka",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-11-01",
+          "sort_date": "2026-11-01",
+          "date_display": "2026/11/1",
+          "competition": "J1 第13節",
+          "round": 13,
+          "venue": "主",
+          "opponent": "福岡黃蜂",
+          "opponent_slug": "fukuoka",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-11-08",
+          "sort_date": "2026-11-08",
+          "date_display": "2026/11/8",
+          "competition": "J1 第14節",
+          "round": 14,
+          "venue": "主",
+          "opponent": "水戶蜀葵",
+          "opponent_slug": "mito",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-11-20",
+          "sort_date": "2026-11-20",
+          "date_display": "2026/11/20",
+          "competition": "J1 第15節",
+          "round": 15,
+          "venue": "客",
+          "opponent": "柏太陽王",
+          "opponent_slug": "kashiwa",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-11-25",
+          "sort_date": "2026-11-25",
+          "date_display": "2026/11/25",
+          "competition": "J1 第16節",
+          "round": 16,
+          "venue": "主",
+          "opponent": "名古屋鯨魚",
+          "opponent_slug": "nagoya",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-11-28",
+          "sort_date": "2026-11-28",
+          "date_display": "2026/11/28",
+          "competition": "J1 第17節",
+          "round": 17,
+          "venue": "客",
+          "opponent": "神戶勝利船",
+          "opponent_slug": "kobe",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-12-05",
+          "sort_date": "2026-12-05",
+          "date_display": "2026/12/5",
+          "competition": "J1 第18節",
+          "round": 18,
+          "venue": "主",
+          "opponent": "鹿島鹿角",
+          "opponent_slug": "kashima",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-12-13",
+          "sort_date": "2026-12-13",
+          "date_display": "2026/12/13",
+          "competition": "J1 第19節",
+          "round": 19,
+          "venue": "客",
+          "opponent": "京都不死鳥",
+          "opponent_slug": "kyoto",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "date_display": "2026/12/19",
+          "competition": "J1 第20節",
+          "round": 20,
+          "venue": "主",
+          "opponent": "大阪櫻花",
+          "opponent_slug": "cerezo-osaka",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-02-13",
+          "sort_date": "2027-02-13",
+          "date_display": "2027/02/13（暫定）",
+          "competition": "J1 第21節",
+          "round": 21,
+          "venue": "客",
+          "opponent": "町田澤維亞",
+          "opponent_slug": "machida",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-02-20",
+          "sort_date": "2027-02-20",
+          "date_display": "2027/02/20（暫定）",
+          "competition": "J1 第22節",
+          "round": 22,
+          "venue": "主",
+          "opponent": "川崎前鋒",
+          "opponent_slug": "kawasaki",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-02-27",
+          "sort_date": "2027-02-27",
+          "date_display": "2027/02/27（暫定）",
+          "competition": "J1 第23節",
+          "round": 23,
+          "venue": "主",
+          "opponent": "FC東京",
+          "opponent_slug": "fc-tokyo",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-03-06",
+          "sort_date": "2027-03-06",
+          "date_display": "2027/03/06（暫定）",
+          "competition": "J1 第24節",
+          "round": 24,
+          "venue": "客",
+          "opponent": "鹿島鹿角",
+          "opponent_slug": "kashima",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "date_display": "2027/03/10（暫定）",
+          "competition": "J1 第25節",
+          "round": 25,
+          "venue": "主",
+          "opponent": "東京綠茵",
+          "opponent_slug": "tokyo-verdy",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-03-14",
+          "sort_date": "2027-03-14",
+          "date_display": "2027/03/14（暫定）",
+          "competition": "J1 第26節",
+          "round": 26,
+          "venue": "主",
+          "opponent": "浦和紅鑽",
+          "opponent_slug": "urawa",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-03-20",
+          "sort_date": "2027-03-20",
+          "date_display": "2027/03/20（暫定）",
+          "competition": "J1 第27節",
+          "round": 27,
+          "venue": "客",
+          "opponent": "福岡黃蜂",
+          "opponent_slug": "fukuoka",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-04-03",
+          "sort_date": "2027-04-03",
+          "date_display": "2027/04/03（暫定）",
+          "competition": "J1 第28節",
+          "round": 28,
+          "venue": "客",
+          "opponent": "水戶蜀葵",
+          "opponent_slug": "mito",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-04-10",
+          "sort_date": "2027-04-10",
+          "date_display": "2027/04/10（暫定）",
+          "competition": "J1 第29節",
+          "round": 29,
+          "venue": "主",
+          "opponent": "京都不死鳥",
+          "opponent_slug": "kyoto",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-04-17",
+          "sort_date": "2027-04-17",
+          "date_display": "2027/04/17（暫定）",
+          "competition": "J1 第30節",
+          "round": 30,
+          "venue": "客",
+          "opponent": "大阪飛腳",
+          "opponent_slug": "gamba-osaka",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-04-24",
+          "sort_date": "2027-04-24",
+          "date_display": "2027/04/24（暫定）",
+          "competition": "J1 第31節",
+          "round": 31,
+          "venue": "客",
+          "opponent": "長崎成功丸",
+          "opponent_slug": "nagasaki",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "date_display": "2027/04/29（暫定）",
+          "competition": "J1 第32節",
+          "round": 32,
+          "venue": "主",
+          "opponent": "廣島三箭",
+          "opponent_slug": "hiroshima",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-05-03",
+          "sort_date": "2027-05-03",
+          "date_display": "2027/05/03（暫定）",
+          "competition": "J1 第33節",
+          "round": 33,
+          "venue": "客",
+          "opponent": "名古屋鯨魚",
+          "opponent_slug": "nagoya",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-05-09",
+          "sort_date": "2027-05-09",
+          "date_display": "2027/05/09（暫定）",
+          "competition": "J1 第34節",
+          "round": 34,
+          "venue": "主",
+          "opponent": "清水心跳",
+          "opponent_slug": "shimizu",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-05-15",
+          "sort_date": "2027-05-15",
+          "date_display": "2027/05/15（暫定）",
+          "competition": "J1 第35節",
+          "round": 35,
+          "venue": "客",
+          "opponent": "岡山綠雉",
+          "opponent_slug": "okayama",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-05-22",
+          "sort_date": "2027-05-22",
+          "date_display": "2027/05/22（暫定）",
+          "competition": "J1 第36節",
+          "round": 36,
+          "venue": "主",
+          "opponent": "神戶勝利船",
+          "opponent_slug": "kobe",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-05-29",
+          "sort_date": "2027-05-29",
+          "date_display": "2027/05/29（暫定）",
+          "competition": "J1 第37節",
+          "round": 37,
+          "venue": "客",
+          "opponent": "橫濱水手",
+          "opponent_slug": "yokohama-fm",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "date_display": "2027/06/06（暫定）",
+          "competition": "J1 第38節",
+          "round": 38,
+          "venue": "主",
+          "opponent": "柏太陽王",
+          "opponent_slug": "kashiwa",
+          "score": null,
+          "source": "https://www.football-lab.jp/chib/match"
+        },
+        {
+          "date": "2026-08-26",
+          "sort_date": "2026-08-26",
+          "date_display": "2026/08/26",
+          "competition": "天皇盃 第二圈",
+          "round": null,
+          "venue": "主",
+          "opponent": "沼津青藍",
+          "opponent_slug": null,
+          "score": "1–1（十二碼8–7）",
+          "source": "https://mobaj.net/2026-27/club/chiba/schedule"
+        },
+        {
+          "date": "2026-09-09",
+          "sort_date": "2026-09-09",
+          "date_display": "2026/09/9",
+          "competition": "日聯盃 第一圈",
+          "round": null,
+          "venue": "客",
+          "opponent": "讚岐卡馬達馬尼",
+          "opponent_slug": null,
+          "score": "2–0",
+          "source": "https://mobaj.net/2026-27/club/chiba/schedule"
+        },
+        {
+          "date": "2026-09-29",
+          "sort_date": "2026-09-29",
+          "date_display": "2026/09/29",
+          "competition": "日聯盃 第二圈",
+          "round": null,
+          "venue": "客",
+          "opponent": "磐田山葉",
+          "opponent_slug": null,
+          "score": "2–4",
+          "source": "https://www.jleague.jp/match/leaguecup/2026/092910/"
+        },
+        {
+          "date": "2026-10-07",
+          "sort_date": "2026-10-07",
+          "date_display": "2026/10/7",
+          "competition": "天皇盃 第三圈・福田電子",
+          "round": null,
+          "venue": "客",
+          "opponent": "岡山綠雉",
+          "opponent_slug": "okayama",
+          "score": null,
+          "source": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/"
+        }
+      ],
+      "analytics": [
+        {
+          "text": "聯賽8場樣本：每場射門9.6次、被射門17.6次、禁區進入7.5次；每場xG 0.880、被xG 1.729。xG是模型估算，並非預測本場比分。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・第8節後兩軍統計",
+              "url": "https://www.football-lab.jp/chib/preview",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ]
+    },
+    "nagasaki": {
+      "previous_match_date": "2026-09-29",
+      "stats": {
+        "rank": 15,
+        "slug": "nagasaki",
+        "name_zh": "長崎成功丸",
+        "played": 8,
+        "wins": 2,
+        "draws": 2,
+        "losses": 4,
+        "goals_for": 10,
+        "goals_against": 15,
+        "goal_difference": -5,
+        "points": 8,
+        "matches": 8,
+        "season": "2026/27",
+        "competition": "J1・第8節後",
+        "as_of": "2026-09-20",
+        "sources": [
+          {
+            "label": "J.League官方聯賽榜",
+            "url": "https://www.jleague.jp/j1/standings/",
+            "published_at": "2026-09-20",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "style": [
+        {
+          "text": "8場聯賽全部以3-4-2-1開局（2勝2和4負，入10失15），翼衛及兩名中鋒身後球員的角色是觀察重點。陣式分類來自DataStadium，不是本場預測。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・長崎開局陣式",
+              "url": "https://www.football-lab.jp/ngsk/formation",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "河治良幸1月19日營地報道：球隊練習按比賽情況選擇前場搶逼或控球。這是年初建隊背景，不能當作10月的操練紀錄。",
+          "kind": "reported",
+          "as_of": "2026-01-19",
+          "sources": [
+            {
+              "label": "Soccer Digest・河治良幸營地採訪",
+              "url": "https://www.soccerdigestweb.com/news/detail/id=185128",
+              "published_at": "2026-01-19",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "9月29日賽後高木琢也認為，球隊偶爾找到進攻路線，卻未能延續攻勢；新井一耀則指出失球後轉換與風險管理需要改善。此為教練、球員的自我評價。",
+          "kind": "reported",
+          "as_of": "2026-09-29",
+          "sources": [
+            {
+              "label": "長崎官方・鳥取戰及賽後訪問",
+              "url": "https://www.v-varen.com/gamedata2/20260929",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "本季最常用開局陣式・非本場預測",
+        "as_of": "2026-09-21",
+        "sources": [
+          {
+            "label": "Football LAB・長崎開局陣式",
+            "url": "https://www.football-lab.jp/ngsk/formation",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "form": [
+        {
+          "text": "最近5場聯賽（舊→新）：負FC東京0–3、和大阪飛腳2–2、負神戶1–3、勝名古屋2–0、和大阪櫻花1–1。聯賽連續兩場不敗；作客聯賽3場全敗，入3失8。",
+          "kind": "fact",
+          "as_of": "2026-10-06",
+          "sources": [
+            {
+              "label": "長崎官方・全季賽程及賽果",
+              "url": "https://www.v-varen.com/match",
+              "published_at": "2026-10-06",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "Football LAB・本場對賽資料",
+              "url": "https://www.football-lab.jp/chib/preview",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "最近正式比賽：9月29日日聯盃作客鳥取0–2出局。10月7日作客清水踢天皇盃，之後連續作客千葉及鹿島。這次東行的體能與輪換是賽前觀察方向。",
+          "kind": "analysis",
+          "as_of": "2026-10-06",
+          "sources": [
+            {
+              "label": "長崎官方・全季賽程及賽果",
+              "url": "https://www.v-varen.com/match",
+              "published_at": "2026-10-06",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "長崎官方・鳥取戰及賽後訪問",
+              "url": "https://www.v-varen.com/gamedata2/20260929",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "scorers": [
+        {
+          "text": "2026/27 J1第8節後：馬菲奧斯・謝薩斯、堤亞高・辛坦拿各3球；松本天夢2球；保田堅心及岩崎悠人各1球。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・長崎球員排名",
+              "url": "https://www.football-lab.jp/ngsk/ranking",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "assists": [
+        {
+          "text": "Football LAB助攻：山口螢2次；長谷川元希、翁長聖及岩崎悠人各1次。長谷川15次最後傳球居隊內第一。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・長崎球員排名",
+              "url": "https://www.football-lab.jp/ngsk/ranking",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "text": "9月15日：莊拿芬・祖利亞由波蘭Stal Rzeszów加盟；9月16日：增山朝陽由町田澤維亞借用加盟。兩人均在9月29日盃賽名單，增山正選，祖利亞89分鐘入替。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・長崎轉會記錄",
+              "url": "https://www.football-lab.jp/ngsk/transfer",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "長崎官方・鳥取戰及賽後訪問",
+              "url": "https://www.v-varen.com/gamedata2/20260929",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "9月16日：関口正大轉往新潟。雖然本季陣式統計仍包含他較早的上陣紀錄，不應將他列作本場右翼衛人選。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・長崎轉會記錄",
+              "url": "https://www.football-lab.jp/ngsk/transfer",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "截至10月5日J.League停賽公告，J1名單沒有長崎球員。10月7日天皇盃之後仍需重查紀律公告。",
+          "kind": "fact",
+          "as_of": "2026-10-05",
+          "sources": [
+            {
+              "label": "J.League官方・停賽公告",
+              "url": "https://www.jleague.jp/news/article/35053/?navicode=j1",
+              "published_at": "2026-10-05",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "injuries": [
+        {
+          "text": "9月13日球會公布兩名操練傷患（J.League 9月14日轉載）：盧卡・拉多迪奇右膝內側半月板受傷；高畑奎汰左內側副韌帶及內側腿後肌受傷。未取得本場復出確認。",
+          "kind": "fact",
+          "as_of": "2026-09-14",
+          "sources": [
+            {
+              "label": "J.League官方・長崎兩名球員傷患",
+              "url": "https://www.jleague.jp/news/article/34892/",
+              "published_at": "2026-09-14",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "Football LAB 9月21日觀察名單另列名倉巧、艾度亞度、大南拓磨及諾文・甘保。名單較早，也未確認各人的10月11日選拔狀態；不能一律標作缺陣。",
+          "kind": "reported",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・本場對賽資料",
+              "url": "https://www.football-lab.jp/chib/preview",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "yellow_risk": [
+        {
+          "text": "本次未取得逐名球員、經核對的J1累積黃牌及停賽邊緣名單。隊伍總警告數或盃賽黃牌不能代替聯賽個人累積；此欄待補，並不代表沒有人有風險。",
+          "kind": "analysis",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・長崎本季統計",
+              "url": "https://www.football-lab.jp/ngsk",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "players_to_watch": {
+        "stars": [
+          {
+            "number": 41,
+            "description": [
+              {
+                "text": "河治良幸在1月營地報道觀察長谷川接球、盤球推進及帶動進攻節奏；高木亦肯定其節奏。這是有日期的媒體描述，不是本週狀態判定。",
+                "kind": "reported",
+                "as_of": "2026-01-19",
+                "sources": [
+                  {
+                    "label": "Soccer Digest・河治良幸球員觀察",
+                    "url": "https://www.soccerdigestweb.com/news/detail2/id=185128",
+                    "published_at": "2026-01-19",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：8場；1助攻、15次最後傳球、攻擊CBP 10.22（隊內第一）。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・長崎球員排名",
+                    "url": "https://www.football-lab.jp/ngsk/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 5,
+            "description": [
+              {
+                "text": "山口螢本季2次助攻居隊內第一。年初營地報道亦提到他在中場的指示幫助前鋒配合，可留意他接應後的第一腳分配。",
+                "kind": "reported",
+                "as_of": "2026-01-19",
+                "sources": [
+                  {
+                    "label": "Soccer Digest・河治良幸營地採訪",
+                    "url": "https://www.soccerdigestweb.com/news/detail/id=185128",
+                    "published_at": "2026-01-19",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：8場；2助攻、6次最後傳球。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・長崎球員排名",
+                    "url": "https://www.football-lab.jp/ngsk/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 29,
+            "description": [
+              {
+                "text": "新井一耀上仗直接指出控球沒有變成有效攻勢，並要求改善失球後轉換。比起替他寫泛泛的領袖標籤，這段自我檢討更能帶出本場觀察問題。",
+                "kind": "reported",
+                "as_of": "2026-09-29",
+                "sources": [
+                  {
+                    "label": "長崎官方・鳥取戰及賽後訪問",
+                    "url": "https://www.v-varen.com/gamedata2/20260929",
+                    "published_at": "2026-09-29",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          }
+        ],
+        "foreign": [
+          {
+            "number": 9,
+            "description": [
+              {
+                "text": "河治良幸1月營地採訪引述高木：辛坦拿的優勢是與對手競跑的速度及終結；他並非專門背向中堅的傳統支點。播述不宜只因身形就把他定義為高球柱躉。",
+                "kind": "reported",
+                "as_of": "2026-01-19",
+                "sources": [
+                  {
+                    "label": "Soccer Digest・河治良幸營地採訪",
+                    "url": "https://www.soccerdigestweb.com/news/detail/id=185128",
+                    "published_at": "2026-01-19",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：8場、3球、30射門（隊內最多）。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・長崎球員排名",
+                    "url": "https://www.football-lab.jp/ngsk/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "description": [
+              {
+                "text": "年初營地報道提到謝薩斯與辛坦拿的組合；目前兩人各3球。9月29日兩人同時正選仍未能攻破鳥取，因此配合效果需要逐場觀察。",
+                "kind": "reported",
+                "as_of": "2026-01-19",
+                "sources": [
+                  {
+                    "label": "Soccer Digest・河治良幸營地採訪",
+                    "url": "https://www.soccerdigestweb.com/news/detail/id=185128",
+                    "published_at": "2026-01-19",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "長崎官方・鳥取戰及賽後訪問",
+                    "url": "https://www.v-varen.com/gamedata2/20260929",
+                    "published_at": "2026-09-29",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：5場、3球、13射門、10次最後傳球。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・長崎球員排名",
+                    "url": "https://www.football-lab.jp/ngsk/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 99,
+            "description": [
+              {
+                "text": "近期新援莊拿芬・祖利亞9月29日89分鐘後備上陣。未找到足夠、可核對的日本媒體技術描述，保留此欄而不自行補成「強力射手」。",
+                "kind": "reported",
+                "as_of": "2026-09-29",
+                "sources": [
+                  {
+                    "label": "長崎官方・鳥取戰及賽後訪問",
+                    "url": "https://www.v-varen.com/gamedata2/20260929",
+                    "published_at": "2026-09-29",
+                    "accessed_at": "2026-10-06"
+                  },
+                  {
+                    "label": "Football LAB・長崎轉會記錄",
+                    "url": "https://www.football-lab.jp/ngsk/transfer",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          }
+        ],
+        "youth": [
+          {
+            "number": 34,
+            "description": [
+              {
+                "text": "松本天夢在本季聯賽5次上陣攻入2球，屬值得查看的年輕新晉球員；此頁不將所有年輕球員視為長崎青訓，也未補寫欠缺媒體證據的踢法。",
+                "kind": "reported",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・長崎球員排名",
+                    "url": "https://www.football-lab.jp/ngsk/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "J1：5場、2球、3射門；小樣本，不能據此預測長期把握力。",
+                "kind": "fact",
+                "as_of": "2026-09-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・長崎球員排名",
+                    "url": "https://www.football-lab.jp/ngsk/ranking",
+                    "published_at": "2026-09-21",
+                    "accessed_at": "2026-10-06"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "storylines": [
+        {
+          "text": "新井一耀曾效力千葉；其上仗對風險管理的檢討可與本場重返福田電子競技場的故事線連接。履歷可在其球員卡查看；本場是否正選待確認。",
+          "kind": "analysis",
+          "as_of": "2026-09-29",
+          "sources": [
+            {
+              "label": "長崎官方・鳥取戰及賽後訪問",
+              "url": "https://www.v-varen.com/gamedata2/20260929",
+              "published_at": "2026-09-29",
+              "accessed_at": "2026-10-06"
+            },
+            {
+              "label": "J.League官方・新井履歷",
+              "url": "https://www.jleague.jp/player/1400644/",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ],
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": [
+          {
+            "text": "開場可提：8分排15、本季聯賽客場尚未取分。核對辛坦拿與謝薩斯是否同時正選。",
+            "kind": "analysis",
+            "as_of": "2026-09-20",
+            "sources": [
+              {
+                "label": "J.League官方聯賽榜",
+                "url": "https://www.jleague.jp/j1/standings/",
+                "published_at": "2026-09-20",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "Football LAB・本場對賽資料",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      },
+      "game_log": [
+        {
+          "date": "2026-08-09",
+          "sort_date": "2026-08-09",
+          "date_display": "2026/08/9",
+          "competition": "J1 第1節",
+          "round": 1,
+          "venue": "主",
+          "opponent": "京都不死鳥",
+          "opponent_slug": "kyoto",
+          "score": "2–1",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-08-15",
+          "sort_date": "2026-08-15",
+          "date_display": "2026/08/15",
+          "competition": "J1 第2節",
+          "round": 2,
+          "venue": "客",
+          "opponent": "岡山綠雉",
+          "opponent_slug": "okayama",
+          "score": "0–1",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-08-21",
+          "sort_date": "2026-08-21",
+          "date_display": "2026/08/21",
+          "competition": "J1 第3節",
+          "round": 3,
+          "venue": "客",
+          "opponent": "柏太陽王",
+          "opponent_slug": "kashiwa",
+          "score": "2–4",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "date_display": "2026/08/29",
+          "competition": "J1 第4節",
+          "round": 4,
+          "venue": "主",
+          "opponent": "FC東京",
+          "opponent_slug": "fc-tokyo",
+          "score": "0–3",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "date_display": "2026/09/2",
+          "competition": "J1 第5節",
+          "round": 5,
+          "venue": "主",
+          "opponent": "大阪飛腳",
+          "opponent_slug": "gamba-osaka",
+          "score": "2–2",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "date_display": "2026/09/6",
+          "competition": "J1 第6節",
+          "round": 6,
+          "venue": "客",
+          "opponent": "神戶勝利船",
+          "opponent_slug": "kobe",
+          "score": "1–3",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-09-12",
+          "sort_date": "2026-09-12",
+          "date_display": "2026/09/12",
+          "competition": "J1 第7節",
+          "round": 7,
+          "venue": "主",
+          "opponent": "名古屋鯨魚",
+          "opponent_slug": "nagoya",
+          "score": "2–0",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-09-19",
+          "sort_date": "2026-09-19",
+          "date_display": "2026/09/19",
+          "competition": "J1 第8節",
+          "round": 8,
+          "venue": "主",
+          "opponent": "大阪櫻花",
+          "opponent_slug": "cerezo-osaka",
+          "score": "1–1",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-10-11",
+          "sort_date": "2026-10-11",
+          "date_display": "2026/10/11",
+          "competition": "J1 第9節",
+          "round": 9,
+          "venue": "客",
+          "opponent": "千葉市原JEF聯",
+          "opponent_slug": "chiba",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-10-17",
+          "sort_date": "2026-10-17",
+          "date_display": "2026/10/17",
+          "competition": "J1 第10節",
+          "round": 10,
+          "venue": "客",
+          "opponent": "鹿島鹿角",
+          "opponent_slug": "kashima",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "date_display": "2026/10/21",
+          "competition": "J1 第11節",
+          "round": 11,
+          "venue": "主",
+          "opponent": "廣島三箭",
+          "opponent_slug": "hiroshima",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-10-25",
+          "sort_date": "2026-10-25",
+          "date_display": "2026/10/25",
+          "competition": "J1 第12節",
+          "round": 12,
+          "venue": "客",
+          "opponent": "浦和紅鑽",
+          "opponent_slug": "urawa",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-11-01",
+          "sort_date": "2026-11-01",
+          "date_display": "2026/11/1",
+          "competition": "J1 第13節",
+          "round": 13,
+          "venue": "主",
+          "opponent": "東京綠茵",
+          "opponent_slug": "tokyo-verdy",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-11-07",
+          "sort_date": "2026-11-07",
+          "date_display": "2026/11/7",
+          "competition": "J1 第14節",
+          "round": 14,
+          "venue": "客",
+          "opponent": "福岡黃蜂",
+          "opponent_slug": "fukuoka",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-11-21",
+          "sort_date": "2026-11-21",
+          "date_display": "2026/11/21",
+          "competition": "J1 第15節",
+          "round": 15,
+          "venue": "客",
+          "opponent": "町田澤維亞",
+          "opponent_slug": "machida",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-11-25",
+          "sort_date": "2026-11-25",
+          "date_display": "2026/11/25",
+          "competition": "J1 第16節",
+          "round": 16,
+          "venue": "主",
+          "opponent": "川崎前鋒",
+          "opponent_slug": "kawasaki",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-11-29",
+          "sort_date": "2026-11-29",
+          "date_display": "2026/11/29",
+          "competition": "J1 第17節",
+          "round": 17,
+          "venue": "客",
+          "opponent": "水戶蜀葵",
+          "opponent_slug": "mito",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-12-05",
+          "sort_date": "2026-12-05",
+          "date_display": "2026/12/5",
+          "competition": "J1 第18節",
+          "round": 18,
+          "venue": "主",
+          "opponent": "清水心跳",
+          "opponent_slug": "shimizu",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-12-13",
+          "sort_date": "2026-12-13",
+          "date_display": "2026/12/13",
+          "competition": "J1 第19節",
+          "round": 19,
+          "venue": "客",
+          "opponent": "橫濱水手",
+          "opponent_slug": "yokohama-fm",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "date_display": "2026/12/19",
+          "competition": "J1 第20節",
+          "round": 20,
+          "venue": "主",
+          "opponent": "浦和紅鑽",
+          "opponent_slug": "urawa",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-02-13",
+          "date_display": "2027/02/13/14（暫定）",
+          "competition": "J1 第21節",
+          "round": 21,
+          "venue": "主",
+          "opponent": "福岡黃蜂",
+          "opponent_slug": "fukuoka",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2027-02-20",
+          "sort_date": "2027-02-20",
+          "date_display": "2027/02/20（暫定）",
+          "competition": "J1 第22節",
+          "round": 22,
+          "venue": "客",
+          "opponent": "FC東京",
+          "opponent_slug": "fc-tokyo",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-02-27",
+          "date_display": "2027/02/27/28（暫定）",
+          "competition": "J1 第23節",
+          "round": 23,
+          "venue": "主",
+          "opponent": "柏太陽王",
+          "opponent_slug": "kashiwa",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-03-06",
+          "date_display": "2027/03/6/7（暫定）",
+          "competition": "J1 第24節",
+          "round": 24,
+          "venue": "主",
+          "opponent": "水戶蜀葵",
+          "opponent_slug": "mito",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "date_display": "2027/03/10（暫定）",
+          "competition": "J1 第25節",
+          "round": 25,
+          "venue": "客",
+          "opponent": "名古屋鯨魚",
+          "opponent_slug": "nagoya",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-03-13",
+          "date_display": "2027/03/13/14（暫定）",
+          "competition": "J1 第26節",
+          "round": 26,
+          "venue": "客",
+          "opponent": "大阪飛腳",
+          "opponent_slug": "gamba-osaka",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-03-20",
+          "date_display": "2027/03/20/21（暫定）",
+          "competition": "J1 第27節",
+          "round": 27,
+          "venue": "主",
+          "opponent": "岡山綠雉",
+          "opponent_slug": "okayama",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-04-03",
+          "date_display": "2027/04/3/4（暫定）",
+          "competition": "J1 第28節",
+          "round": 28,
+          "venue": "客",
+          "opponent": "京都不死鳥",
+          "opponent_slug": "kyoto",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-04-10",
+          "date_display": "2027/04/10/11（暫定）",
+          "competition": "J1 第29節",
+          "round": 29,
+          "venue": "客",
+          "opponent": "川崎前鋒",
+          "opponent_slug": "kawasaki",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-04-17",
+          "date_display": "2027/04/17/18（暫定）",
+          "competition": "J1 第30節",
+          "round": 30,
+          "venue": "主",
+          "opponent": "神戶勝利船",
+          "opponent_slug": "kobe",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-04-24",
+          "date_display": "2027/04/24/25（暫定）",
+          "competition": "J1 第31節",
+          "round": 31,
+          "venue": "主",
+          "opponent": "千葉市原JEF聯",
+          "opponent_slug": "chiba",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "date_display": "2027/04/29（暫定）",
+          "competition": "J1 第32節",
+          "round": 32,
+          "venue": "客",
+          "opponent": "大阪櫻花",
+          "opponent_slug": "cerezo-osaka",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-05-03",
+          "date_display": "2027/05/3/4（暫定）",
+          "competition": "J1 第33節",
+          "round": 33,
+          "venue": "主",
+          "opponent": "橫濱水手",
+          "opponent_slug": "yokohama-fm",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2027-05-09",
+          "sort_date": "2027-05-09",
+          "date_display": "2027/05/9（暫定）",
+          "competition": "J1 第34節",
+          "round": 34,
+          "venue": "客",
+          "opponent": "廣島三箭",
+          "opponent_slug": "hiroshima",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-05-15",
+          "date_display": "2027/05/15/16（暫定）",
+          "competition": "J1 第35節",
+          "round": 35,
+          "venue": "主",
+          "opponent": "鹿島鹿角",
+          "opponent_slug": "kashima",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-05-22",
+          "date_display": "2027/05/22/23（暫定）",
+          "competition": "J1 第36節",
+          "round": 36,
+          "venue": "客",
+          "opponent": "東京綠茵",
+          "opponent_slug": "tokyo-verdy",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": null,
+          "sort_date": "2027-05-29",
+          "date_display": "2027/05/29/30（暫定）",
+          "competition": "J1 第37節",
+          "round": 37,
+          "venue": "主",
+          "opponent": "町田澤維亞",
+          "opponent_slug": "machida",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "date_display": "2027/06/6（暫定）",
+          "competition": "J1 第38節",
+          "round": 38,
+          "venue": "客",
+          "opponent": "清水心跳",
+          "opponent_slug": "shimizu",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-08-26",
+          "sort_date": "2026-08-26",
+          "date_display": "2026/08/26",
+          "competition": "天皇盃 第二圈",
+          "round": null,
+          "venue": "主",
+          "opponent": "愛媛FC",
+          "opponent_slug": null,
+          "score": "3–2",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-09-09",
+          "sort_date": "2026-09-09",
+          "date_display": "2026/09/9",
+          "competition": "日聯盃 第一圈",
+          "round": null,
+          "venue": "客",
+          "opponent": "高知聯",
+          "opponent_slug": null,
+          "score": "1–0",
+          "source": "https://www.v-varen.com/match"
+        },
+        {
+          "date": "2026-09-29",
+          "sort_date": "2026-09-29",
+          "date_display": "2026/09/29",
+          "competition": "日聯盃 第二圈",
+          "round": null,
+          "venue": "客",
+          "opponent": "鳥取飛翔",
+          "opponent_slug": null,
+          "score": "0–2",
+          "source": "https://www.v-varen.com/gamedata2/20260929"
+        },
+        {
+          "date": "2026-10-07",
+          "sort_date": "2026-10-07",
+          "date_display": "2026/10/7",
+          "competition": "天皇盃 第三圈",
+          "round": null,
+          "venue": "客",
+          "opponent": "清水心跳",
+          "opponent_slug": "shimizu",
+          "score": null,
+          "source": "https://www.v-varen.com/match"
+        }
+      ],
+      "analytics": [
+        {
+          "text": "聯賽8場樣本：每場射門10.8次、被射門14.3次；每場xG 1.034、被xG 1.466。小樣本數據只作觀察參考。",
+          "kind": "fact",
+          "as_of": "2026-09-21",
+          "sources": [
+            {
+              "label": "Football LAB・第8節後兩軍統計",
+              "url": "https://www.football-lab.jp/chib/preview",
+              "published_at": "2026-09-21",
+              "accessed_at": "2026-10-06"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "standings": {
+    "as_of": "2026-09-20 19:23（日本）",
+    "sources": [
+      {
+        "label": "J.League官方聯賽榜",
+        "url": "https://www.jleague.jp/j1/standings/",
+        "published_at": "2026-09-20",
+        "accessed_at": "2026-10-06"
+      }
+    ],
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "kobe",
+        "name_zh": "神戶勝利船",
+        "played": 8,
+        "wins": 6,
+        "draws": 1,
+        "losses": 1,
+        "goals_for": 12,
+        "goals_against": 5,
+        "goal_difference": 7,
+        "points": 19
+      },
+      {
+        "rank": 2,
+        "slug": "kashiwa",
+        "name_zh": "柏太陽王",
+        "played": 8,
+        "wins": 6,
+        "draws": 0,
+        "losses": 2,
+        "goals_for": 17,
+        "goals_against": 12,
+        "goal_difference": 5,
+        "points": 18
+      },
+      {
+        "rank": 3,
+        "slug": "hiroshima",
+        "name_zh": "廣島三箭",
+        "played": 8,
+        "wins": 5,
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 20,
+        "goals_against": 6,
+        "goal_difference": 14,
+        "points": 17
+      },
+      {
+        "rank": 4,
+        "slug": "machida",
+        "name_zh": "町田澤維亞",
+        "played": 8,
+        "wins": 5,
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 21,
+        "goals_against": 10,
+        "goal_difference": 11,
+        "points": 17
+      },
+      {
+        "rank": 5,
+        "slug": "fc-tokyo",
+        "name_zh": "FC東京",
+        "played": 8,
+        "wins": 5,
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 14,
+        "goals_against": 8,
+        "goal_difference": 6,
+        "points": 17
+      },
+      {
+        "rank": 6,
+        "slug": "yokohama-fm",
+        "name_zh": "橫濱水手",
+        "played": 8,
+        "wins": 4,
+        "draws": 2,
+        "losses": 2,
+        "goals_for": 13,
+        "goals_against": 9,
+        "goal_difference": 4,
+        "points": 14
+      },
+      {
+        "rank": 7,
+        "slug": "kawasaki",
+        "name_zh": "川崎前鋒",
+        "played": 8,
+        "wins": 3,
+        "draws": 4,
+        "losses": 1,
+        "goals_for": 16,
+        "goals_against": 12,
+        "goal_difference": 4,
+        "points": 13
+      },
+      {
+        "rank": 8,
+        "slug": "kashima",
+        "name_zh": "鹿島鹿角",
+        "played": 8,
+        "wins": 4,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 17,
+        "goals_against": 16,
+        "goal_difference": 1,
+        "points": 13
+      },
+      {
+        "rank": 9,
+        "slug": "okayama",
+        "name_zh": "岡山綠雉",
+        "played": 8,
+        "wins": 4,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 11,
+        "goals_against": 10,
+        "goal_difference": 1,
+        "points": 13
+      },
+      {
+        "rank": 10,
+        "slug": "urawa",
+        "name_zh": "浦和紅鑽",
+        "played": 8,
+        "wins": 4,
+        "draws": 0,
+        "losses": 4,
+        "goals_for": 16,
+        "goals_against": 18,
+        "goal_difference": -2,
+        "points": 12
+      },
+      {
+        "rank": 11,
+        "slug": "cerezo-osaka",
+        "name_zh": "大阪櫻花",
+        "played": 8,
+        "wins": 3,
+        "draws": 2,
+        "losses": 3,
+        "goals_for": 7,
+        "goals_against": 12,
+        "goal_difference": -5,
+        "points": 11
+      },
+      {
+        "rank": 12,
+        "slug": "shimizu",
+        "name_zh": "清水心跳",
+        "played": 8,
+        "wins": 3,
+        "draws": 1,
+        "losses": 4,
+        "goals_for": 6,
+        "goals_against": 8,
+        "goal_difference": -2,
+        "points": 10
+      },
+      {
+        "rank": 13,
+        "slug": "mito",
+        "name_zh": "水戶蜀葵",
+        "played": 8,
+        "wins": 2,
+        "draws": 3,
+        "losses": 3,
+        "goals_for": 11,
+        "goals_against": 11,
+        "goal_difference": 0,
+        "points": 9
+      },
+      {
+        "rank": 14,
+        "slug": "kyoto",
+        "name_zh": "京都不死鳥",
+        "played": 8,
+        "wins": 2,
+        "draws": 2,
+        "losses": 4,
+        "goals_for": 11,
+        "goals_against": 15,
+        "goal_difference": -4,
+        "points": 8
+      },
+      {
+        "rank": 15,
+        "slug": "nagasaki",
+        "name_zh": "長崎成功丸",
+        "played": 8,
+        "wins": 2,
+        "draws": 2,
+        "losses": 4,
+        "goals_for": 10,
+        "goals_against": 15,
+        "goal_difference": -5,
+        "points": 8
+      },
+      {
+        "rank": 16,
+        "slug": "gamba-osaka",
+        "name_zh": "大阪飛腳",
+        "played": 8,
+        "wins": 1,
+        "draws": 3,
+        "losses": 4,
+        "goals_for": 8,
+        "goals_against": 14,
+        "goal_difference": -6,
+        "points": 6
+      },
+      {
+        "rank": 17,
+        "slug": "nagoya",
+        "name_zh": "名古屋鯨魚",
+        "played": 8,
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "goals_for": 7,
+        "goals_against": 14,
+        "goal_difference": -7,
+        "points": 6
+      },
+      {
+        "rank": 18,
+        "slug": "fukuoka",
+        "name_zh": "福岡黃蜂",
+        "played": 8,
+        "wins": 1,
+        "draws": 1,
+        "losses": 6,
+        "goals_for": 9,
+        "goals_against": 12,
+        "goal_difference": -3,
+        "points": 4
+      },
+      {
+        "rank": 19,
+        "slug": "tokyo-verdy",
+        "name_zh": "東京綠茵",
+        "played": 8,
+        "wins": 0,
+        "draws": 4,
+        "losses": 4,
+        "goals_for": 4,
+        "goals_against": 12,
+        "goal_difference": -8,
+        "points": 4
+      },
+      {
+        "rank": 20,
+        "slug": "chiba",
+        "name_zh": "千葉市原JEF聯",
+        "played": 8,
+        "wins": 1,
+        "draws": 1,
+        "losses": 6,
+        "goals_for": 7,
+        "goals_against": 18,
+        "goal_difference": -11,
+        "points": 4
+      }
+    ]
+  },
+  "preview": {
+    "cues": [
+      {
+        "text": "兩隊相差4分：千葉4分排20、長崎8分排15。千葉本場若勝仍未追平長崎，但可縮窄差距；長崎則尋求本季首個作客聯賽積分。",
+        "kind": "analysis",
+        "as_of": "2026-09-20",
+        "sources": [
+          {
+            "label": "J.League官方聯賽榜",
+            "url": "https://www.jleague.jp/j1/standings/",
+            "published_at": "2026-09-20",
+            "accessed_at": "2026-10-06"
+          },
+          {
+            "label": "Football LAB・本場對賽資料",
+            "url": "https://www.football-lab.jp/chib/preview",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      {
+        "text": "10月7日盃賽是最後一個更新節點：留意兩隊正選負荷、傷患、紀律及賽後發言。現階段不預填10月11日正選。",
+        "kind": "analysis",
+        "as_of": "2026-09-01",
+        "sources": [
+          {
+            "label": "JFA・天皇盃第三圈賽程",
+            "url": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/",
+            "published_at": "2026-09-01",
+            "accessed_at": "2026-10-06"
+          },
+          {
+            "label": "長崎官方・全季賽程及賽果",
+            "url": "https://www.v-varen.com/match",
+            "published_at": "2026-10-06",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "01｜形勢：需要止跌的主隊，尚未作客取分的客隊",
+        "paragraphs": [
+          {
+            "text": "千葉第8節後僅4分。開季五連敗後，對大阪飛腳取勝、作客東京綠茵賽和，卻又輸清水；改善並未連成穩定取分走勢。長崎最近兩場聯賽4分，但兩場均主場。本場能否把主場表現帶到客場，是比排名本身更值得播述的問題。",
+            "kind": "analysis",
+            "as_of": "2026-10-06",
+            "sources": [
+              {
+                "label": "Football LAB・千葉全季聯賽記錄",
+                "url": "https://www.football-lab.jp/chib/match",
+                "published_at": "2026-10-06",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "長崎官方・全季賽程及賽果",
+                "url": "https://www.v-varen.com/match",
+                "published_at": "2026-10-06",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "text": "交鋒資料為千葉6勝5和、長崎13勝；在千葉主場則千葉2勝3和、長崎7勝。2025年兩次交鋒均由長崎勝出。這些是歷史背景，不能直接預測更新陣容後的比分。",
+            "kind": "analysis",
+            "as_of": "2026-09-21",
+            "sources": [
+              {
+                "label": "Football LAB・本場對賽資料",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "02｜千葉：問題不只在射門最後一腳",
+        "paragraphs": [
+          {
+            "text": "本季聯賽每場射門9.6次、禁區進入7.5次，兩者列第19；被射門17.6次列第20。這組數據把問題指向兩端：進攻到危險區域的次數不足，同時讓對手完成射門太多。若只說「把握力差」，便忽略機會數量。",
+            "kind": "analysis",
+            "as_of": "2026-09-21",
+            "sources": [
+              {
+                "label": "Football LAB・千葉本季統計",
+                "url": "https://www.football-lab.jp/chib",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "text": "磐田盃賽先落後兩球，杉山及石川把比分追平；第66分鐘再被頭槌攻入，67分鐘門將被逐，最終2–4。評述可分開看追平期間的配合與再次失球後的管理，不把全場縮成一個紅牌故事。",
+            "kind": "analysis",
+            "as_of": "2026-09-29",
+            "sources": [
+              {
+                "label": "J.League官方・磐田4–2千葉",
+                "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+                "published_at": "2026-09-29",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "03｜長崎：控球後的效率與失球後第一步",
+        "paragraphs": [
+          {
+            "text": "鳥取戰賽後，新井一耀說球隊雖能控球，卻缺乏有效進攻，投入多人進攻後的失球方式及風險管理亦有問題。他提出更多一腳傳送、身後走位、第二點及遠射等變化。這是當事人的檢討；在千葉戰是否做到，需由場上實際表現判斷。",
+            "kind": "reported",
+            "as_of": "2026-09-29",
+            "sources": [
+              {
+                "label": "長崎官方・鳥取戰及賽後訪問",
+                "url": "https://www.v-varen.com/gamedata2/20260929",
+                "published_at": "2026-09-29",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "text": "長崎的3-4-2-1可提供兩個中鋒身後接應點。若千葉兩名中場被吸向持球者，可觀察長谷川與謝薩斯是否取得轉身位置；相反，長崎翼衛前壓後留下的邊路空間，可成為千葉推進方向。這是陣式推論，並非已取得對手部署。",
+            "kind": "analysis",
+            "as_of": "2026-09-21",
+            "sources": [
+              {
+                "label": "Football LAB・千葉開局陣式",
+                "url": "https://www.football-lab.jp/chib/formation",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "Football LAB・長崎開局陣式",
+                "url": "https://www.football-lab.jp/ngsk/formation",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "04｜操練與用人：已見到的證據，尚未見到的答案",
+        "paragraphs": [
+          {
+            "text": "長崎官方10月2日刊出9月24日休假後恢復操練的影片介紹，提到新援投入訓練。發佈日不是拍攝日，不能用片名認定某球員10月11日已復原。今次未取得10月6日至賽前的可核對操練報告或千葉完整公開賽前訪問。",
+            "kind": "reported",
+            "as_of": "2026-10-02",
+            "sources": [
+              {
+                "label": "長崎官方・訓練片發佈列表",
+                "url": "https://www.v-varen.com/",
+                "published_at": "2026-10-02",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "text": "兩隊在10月7日均有天皇盃。千葉在自己的聯賽主場踢，但編排屬客隊；長崎要到清水，再去千葉。比賽負荷及輪換必須等盃賽後才有更好線索。目前展示的是歷史常用陣式，不填預測球員位置。",
+            "kind": "analysis",
+            "as_of": "2026-09-01",
+            "sources": [
+              {
+                "label": "JFA・天皇盃第三圈賽程",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/",
+                "published_at": "2026-09-01",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "長崎官方・全季賽程及賽果",
+                "url": "https://www.v-varen.com/match",
+                "published_at": "2026-10-06",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "05｜日本記者與球迷觀點：保留日期與身份",
+        "paragraphs": [
+          {
+            "text": "Soccer Digest河治良幸1月19日營地稿，認為長崎的新援陣容按J1標準亦具厚度，並觀察長谷川的推進、岩崎的活力及辛坦拿的跑動終結。這是記者當時的評價；本季作客三連敗提醒我們，紙上厚度不等於現成勝績。",
+            "kind": "opinion",
+            "as_of": "2026-01-19",
+            "sources": [
+              {
+                "label": "Soccer Digest・河治良幸球員觀察",
+                "url": "https://www.soccerdigestweb.com/news/detail2/id=185128",
+                "published_at": "2026-01-19",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "長崎官方・全季賽程及賽果",
+                "url": "https://www.v-varen.com/match",
+                "published_at": "2026-10-06",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "text": "10月3日note的JEF支持者分析把磐田戰追平兩球視為正面收穫，同時批評球隊在逆境中的不成熟。此為球迷作者觀點，並非專業記者的訓練採訪；當中轉述的教練說話，未取得原訪問核對，故不列為直接引言。",
+            "kind": "opinion",
+            "as_of": "2026-10-03",
+            "sources": [
+              {
+                "label": "note・JEF球迷分析（非新聞報道）",
+                "url": "https://note.com/jefawakening/n/nb86859b5a866",
+                "published_at": "2026-10-03",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "06｜開賽後：用場面驗證三個問題",
+        "paragraphs": [
+          {
+            "text": "第一，千葉能否把邊路突破變成禁區內接應，而非在外圍循環？第二，長崎在人數投入進攻後，失球一刻是否仍有人封鎖反擊？第三，哪一邊能控制第二點，連續發動下一波攻勢？這三點來自本季陣式、機會統計及上仗當事人檢討，是即場觀察清單。",
+            "kind": "analysis",
+            "as_of": "2026-09-21",
+            "sources": [
+              {
+                "label": "Football LAB・千葉本季統計",
+                "url": "https://www.football-lab.jp/chib",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "Football LAB・千葉開局陣式",
+                "url": "https://www.football-lab.jp/chib/formation",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "Football LAB・長崎開局陣式",
+                "url": "https://www.football-lab.jp/ngsk/formation",
+                "published_at": "2026-09-21",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "長崎官方・鳥取戰及賽後訪問",
+                "url": "https://www.v-varen.com/gamedata2/20260929",
+                "published_at": "2026-09-29",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "text": "倘若比分長時間不變，先看替補如何改變接應位置與進攻方式，再判斷「攻勢加強」。新援在盃賽已上陣只代表有近期出場證據，不代表本場必然入選或立即成為正選。",
+            "kind": "analysis",
+            "as_of": "2026-09-29",
+            "sources": [
+              {
+                "label": "J.League官方・磐田4–2千葉",
+                "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+                "published_at": "2026-09-29",
+                "accessed_at": "2026-10-06"
+              },
+              {
+                "label": "長崎官方・鳥取戰及賽後訪問",
+                "url": "https://www.v-varen.com/gamedata2/20260929",
+                "published_at": "2026-09-29",
+                "accessed_at": "2026-10-06"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "quotes": [
+    {
+      "topic": "盃賽失利後，如何重新出發",
+      "home": null,
+      "away": {
+        "speaker": "高木琢也",
+        "role": "主教練",
+        "published_at": "2026-09-29",
+        "context": "post_match",
+        "outlet": "V-Varen長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20260929",
+        "paraphrase_zh": "",
+        "quote_ja": "今日の試合を無駄にしないように",
+        "quote_zh": "不能讓這場比賽白白過去。"
+      }
+    },
+    {
+      "topic": "下一場前的態度",
+      "home": null,
+      "away": {
+        "speaker": "堤亞高・辛坦拿",
+        "role": "前鋒",
+        "published_at": "2026-09-29",
+        "context": "post_match",
+        "outlet": "V-Varen長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20260929",
+        "paraphrase_zh": "他表示沒有時間低頭；已發生的事不能挽回，全隊要重新準備首先到來的清水天皇盃客場。這不是專門針對千葉的發言。"
+      }
+    },
+    {
+      "topic": "控球、有效攻勢與攻守轉換",
+      "home": null,
+      "away": {
+        "speaker": "新井一耀",
+        "role": "後衛",
+        "published_at": "2026-09-29",
+        "context": "post_match",
+        "outlet": "V-Varen長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20260929",
+        "paraphrase_zh": "他指出控球未能轉成有效攻勢，多人壓上後失球方式及風險管理欠佳；希望增加一腳傳送、身後跑動與第二點，並由操練提高攻守轉換強度。"
+      }
+    }
+  ],
+  "head_to_head": [
+    {
+      "text": "歷來交鋒24場：千葉6勝5和13負；千葉主場12場：2勝3和7負。資料為供應商所列歷來正式交鋒，不與本季聯賽數據混算。",
+      "kind": "fact",
+      "as_of": "2026-09-21",
+      "sources": [
+        {
+          "label": "Football LAB・本場對賽資料",
+          "url": "https://www.football-lab.jp/chib/preview",
+          "published_at": "2026-09-21",
+          "accessed_at": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "text": "最近三次：2025-10-04千葉0–2長崎；2025-05-25長崎1–0千葉；2024-11-03千葉1–2長崎。",
+      "kind": "fact",
+      "as_of": "2026-09-21",
+      "sources": [
+        {
+          "label": "Football LAB・本場對賽資料",
+          "url": "https://www.football-lab.jp/chib/preview",
+          "published_at": "2026-09-21",
+          "accessed_at": "2026-10-06"
+        }
+      ]
+    }
+  ],
+  "tactical_matchups": [
+    {
+      "topic": "常用陣式與中場接應",
+      "home": {
+        "text": "4-4-2是本季較常見開局。觀察兩名中場是否被長崎兩個中鋒身後接應點牽動，以及邊中場是否內收協助。這是陣式推論。",
+        "kind": "analysis",
+        "as_of": "2026-09-21",
+        "sources": [
+          {
+            "label": "Football LAB・千葉開局陣式",
+            "url": "https://www.football-lab.jp/chib/formation",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          },
+          {
+            "label": "Football LAB・長崎開局陣式",
+            "url": "https://www.football-lab.jp/ngsk/formation",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "away": {
+        "text": "3-4-2-1全季8場均使用。觀察長谷川與另一名接應者如何在千葉中場身後取得第一腳向前處理。",
+        "kind": "analysis",
+        "as_of": "2026-09-21",
+        "sources": [
+          {
+            "label": "Football LAB・長崎開局陣式",
+            "url": "https://www.football-lab.jp/ngsk/formation",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          },
+          {
+            "label": "Football LAB・長崎球員排名",
+            "url": "https://www.football-lab.jp/ngsk/ranking",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "邊路突破與二次進攻",
+      "home": {
+        "text": "磐田戰津久井與石川的連線造成追平球。可看這類直線後回傳是否重現；不可把一段入球組織當成整隊固定套路。",
+        "kind": "analysis",
+        "as_of": "2026-09-29",
+        "sources": [
+          {
+            "label": "J.League官方・磐田4–2千葉",
+            "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+            "published_at": "2026-09-29",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "away": {
+        "text": "新井賽後希望增加身後跑動、第二點及遠射，讓控球有更多變化。觀察翼衛推進後，是否有人收拾被解圍球。",
+        "kind": "reported",
+        "as_of": "2026-09-29",
+        "sources": [
+          {
+            "label": "長崎官方・鳥取戰及賽後訪問",
+            "url": "https://www.v-varen.com/gamedata2/20260929",
+            "published_at": "2026-09-29",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "失球後轉換與保護中堅",
+      "home": {
+        "text": "前場未形成射門便失去控球時，觀察中場能否先阻止向辛坦拿的第一腳，避免後防在沒有保護下追跑。",
+        "kind": "analysis",
+        "as_of": "2026-09-21",
+        "sources": [
+          {
+            "label": "Football LAB・千葉本季統計",
+            "url": "https://www.football-lab.jp/chib",
+            "published_at": "2026-09-21",
+            "accessed_at": "2026-10-06"
+          },
+          {
+            "label": "Soccer Digest・河治良幸營地採訪",
+            "url": "https://www.soccerdigestweb.com/news/detail/id=185128",
+            "published_at": "2026-01-19",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "away": {
+        "text": "上仗球員承認投入多人後風險管理不足。觀察攻勢一旦斷線，持球側及中場是否即時收窄通道。",
+        "kind": "analysis",
+        "as_of": "2026-09-29",
+        "sources": [
+          {
+            "label": "長崎官方・鳥取戰及賽後訪問",
+            "url": "https://www.v-varen.com/gamedata2/20260929",
+            "published_at": "2026-09-29",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "死球與禁區空戰",
+      "home": {
+        "text": "磐田有三個入球由傳中接頭槌完成。可觀察禁區內盯人及落點保護；這是上仗事件，不等於本季所有失球都是同一原因。",
+        "kind": "analysis",
+        "as_of": "2026-09-29",
+        "sources": [
+          {
+            "label": "J.League官方・磐田4–2千葉",
+            "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
+            "published_at": "2026-09-29",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      },
+      "away": {
+        "text": "辛坦拿的報道特點包括跑動與終結，不應只視作長傳支點。本場死球分工、主罰及盯人尚未確認。",
+        "kind": "analysis",
+        "as_of": "2026-01-19",
+        "sources": [
+          {
+            "label": "Soccer Digest・河治良幸營地採訪",
+            "url": "https://www.soccerdigestweb.com/news/detail/id=185128",
+            "published_at": "2026-01-19",
+            "accessed_at": "2026-10-06"
+          }
+        ]
+      }
+    }
+  ]
+}

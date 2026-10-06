@@ -1,4 +1,16 @@
 {
   "schema_version": 1,
-  "fixtures": []
+  "featured": {
+    "home": "chiba",
+    "away": "nagasaki",
+    "date": "2026-10-11"
+  },
+  "fixtures": [
+    {
+      "home": "chiba",
+      "away": "nagasaki",
+      "date": "2026-10-11",
+      "file": "2026-10-11-chiba-nagasaki.json"
+    }
+  ]
 }
