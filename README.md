@@ -45,3 +45,7 @@ Player cards support four source-led additions. `analytics` holds competition-sc
 For every fixture, search the seven calendar days ending on the match date. A direct translated quotation must retain the original-language wording and source link; otherwise store it as a paraphrase without quotation marks. Non-official analytics and trivia are allowed, but the provider, competition, cutoff date and sample size must remain visible. Do not silently combine providers whose definitions differ.
 
 Run `npm run validate:strict -- --club=fc-tokyo` and similarly for the other club, then `npm run validate:strict` before publishing. The validator prints a club-by-club blocker and coverage count. Strict blockers include undated career rows and verified rows without a URL. Missing images and appearance/goal figures are separately counted as coverage gaps, because they may genuinely be unavailable; check and source these where possible. A successful structural validation never substitutes for checking the source's actual claim, current registration and live match facts.
+
+## 比賽資料頁
+
+顯示名稱為「TVB 體育組天書系列 / 日職 J1 天書 2026/27」。首頁預設進入比賽資料，保留兩隊球員目錄及舊有深層連結。介面、資料配對規則及賽前研究格式見 [MATCH_CENTRE.md](docs/MATCH_CENTRE.md)。未完成本場研究的欄位清楚留白，館藏數據保留截點；本階段不自動爬取或生成即時新聞。

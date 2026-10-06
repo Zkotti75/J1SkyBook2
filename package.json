@@ -15,8 +15,9 @@
     "research:handoff": "node scripts/research-queue.mjs handoff",
     "validate": "node scripts/validate-data.mjs",
     "validate:strict": "node scripts/validate-data.mjs --strict",
-    "test": "npm run validate",
-    "match:prep": "node scripts/match-prep.mjs"
+    "test": "npm run validate && npm run test:match",
+    "match:prep": "node scripts/match-prep.mjs",
+    "test:match": "node --test tests/*.test.mjs"
   },
   "engines": {
     "node": ">=20"

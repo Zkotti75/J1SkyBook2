@@ -1,5 +1,6 @@
+import { MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js';
 const SEASON_START = '2026-08-07';
-const state = { manifest: null, slot: 'home', clubs: new Map(), activeSlug: null, activeItem: null };
+const state = { manifest: null, slot: 'home', clubs: new Map(), activeSlug: null, activeItem: null, mode: 'match', matchPage: 'comparison', renderId: 0 };
 
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -22,6 +23,7 @@ function routeFor(slug, item) {
 
 function parseRoute() {
   const parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  if (parts[0] === 'match') return { mode: 'match', ...parseMatchRoute(location.hash) };
   if (parts[0] !== 'club') return {};
   return { slug: parts[1], kind: parts[2], token: parts[3] };
 }
@@ -61,12 +63,16 @@ function syncFixtureButtons() {
   const away = manifestTeam($('#away-team').value);
   $('#home-button').textContent = home?.name_zh || '主隊';
   $('#away-button').textContent = away?.name_zh || '客隊';
-  $('#home-button').classList.toggle('active', state.slot === 'home');
-  $('#away-button').classList.toggle('active', state.slot === 'away');
+  $('#home-button').classList.toggle('active', state.mode === 'club' && state.slot === 'home');
+  $('#away-button').classList.toggle('active', state.mode === 'club' && state.slot === 'away');
+  $('#match-button').classList.toggle('active', state.mode === 'match');
+  $('#match-button').setAttribute('aria-pressed', String(state.mode === 'match'));
+  $('#back-to-team').textContent = state.mode === 'match' ? '主隊概覽' : '球隊概覽';
 }
 
 async function activateSlot(slot) {
   state.slot = slot;
+  state.mode = 'club';
   syncFixtureButtons();
   const slug = $(`#${slot}-team`).value;
   location.hash = `#/club/${encodeURIComponent(slug)}`;
@@ -253,20 +259,29 @@ function findRouteItem(data, route) {
 }
 
 async function renderRoute() {
+  const renderId = ++state.renderId;
   const route = parseRoute();
+  if (route.mode === 'match' || !route.slug) return renderMatchRoute(route, renderId);
+  setMode('club');
   const fallback = state.manifest.teams[0].slug;
   const slug = state.manifest.teams.some(t => t.slug === route.slug) ? route.slug : fallback;
   state.activeSlug = slug;
   $('#detail').innerHTML = $('#loading-template').innerHTML;
   try {
     const data = await loadClub(slug);
+    if (renderId !== state.renderId) return;
+    if ($('#home-team').value === slug) state.slot = 'home';
+    else if ($('#away-team').value === slug) state.slot = 'away';
+    else { $(`#${state.slot}-team`).value = slug; }
+    syncFixtureButtons();
     const active = findRouteItem(data, route);
     state.activeItem = active;
     applyTheme(data.team);
     renderSidebar(data, active);
     $('#detail').innerHTML = active.type === 'team_info' ? renderTeam(data) : renderPerson(data, active);
-    document.title = `${active.name_zh || data.team.name_zh}｜J1 SkyBook`;
+    document.title = `${active.name_zh || data.team.name_zh}｜TVB 體育組天書系列｜日職 J1 天書 2026/27`;
   } catch (error) {
+    if (renderId !== state.renderId) return;
     console.error(error);
     const team = manifestTeam(slug);
     $('#roster-list').innerHTML = '';
@@ -281,21 +296,69 @@ function openItemById(id) {
   if (item) location.hash = routeFor(state.activeSlug, item);
 }
 
+function currentMatchRoute(page = state.matchPage, date = state.matchDate || '') {
+  return matchRoute($('#home-team').value, $('#away-team').value, date, page);
+}
+function setMode(mode) {
+  state.mode = mode;
+  $('#match-nav').hidden = mode !== 'match';
+  $('.sidebar-tools').hidden = mode === 'match';
+  $('#roster-list').hidden = mode === 'match';
+  $('.sidebar').setAttribute('aria-label', mode === 'match' ? '比賽資料目錄' : '球員快速目錄');
+  syncFixtureButtons();
+}
+async function renderMatchRoute(route, renderId) {
+  setMode('match');
+  const teams = state.manifest.teams;
+  const home = teams.some(t => t.slug === route.home) ? route.home : $('#home-team').value;
+  const away = teams.some(t => t.slug === route.away && t.slug !== home) ? route.away : teams.find(t => t.slug !== home && t.slug === $('#away-team').value)?.slug || teams.find(t => t.slug !== home).slug;
+  $('#home-team').value = home; $('#away-team').value = away;
+  state.matchPage = MATCH_PAGES.some(p => p.id === route.page) ? route.page : 'comparison';
+  state.matchDate = route.date || '';
+  syncFixtureButtons();
+  document.documentElement.style.setProperty('--team', '#38bdf8');
+  document.documentElement.style.setProperty('--team-text', '#091321');
+  $('#match-nav').innerHTML = `<div class="match-nav-heading">MATCH CENTRE<span>比賽資料</span></div>` + MATCH_PAGES.map((p, i) => `<button type="button" data-match-page="${p.id}" class="match-nav-item ${p.id === state.matchPage ? 'active' : ''}" ${p.id === state.matchPage ? 'aria-current="page"' : ''}><span class="match-nav-number">${String(i + 1).padStart(2, '0')}</span><span>${p.label}<small>${p.description}</small></span></button>`).join('');
+  $('#detail').innerHTML = $('#loading-template').innerHTML;
+  try {
+    const date = state.matchDate, page = state.matchPage;
+    const [homeClub, awayClub, index] = await Promise.all([loadClub(home), loadClub(away), fetchJson('data/matches/index.json')]);
+    const record = index.fixtures.find(f => f.home === home && f.away === away && f.date === date);
+    const dossier = record ? await fetchJson(`data/matches/${record.file}`) : null;
+    if (renderId !== state.renderId) return;
+    $('#detail').innerHTML = renderMatchPage({ home: homeClub, away: awayClub, page, date, dossier });
+    document.title = `${manifestTeam(home).name_zh} 對 ${manifestTeam(away).name_zh}｜TVB 體育組天書系列｜日職 J1 天書 2026/27`;
+  } catch (error) {
+    if (renderId !== state.renderId) return;
+    console.error(error);
+    $('#detail').innerHTML = '<article class="panel empty-panel"><h2>比賽資料未能載入</h2><p>請重新整理頁面；球隊按鈕仍可開啟球員資料。</p></article>';
+  }
+}
+
 async function init() {
   state.manifest = await fetchJson('data/teams.json');
   fillSelectors();
   const initial = parseRoute();
-  if (!initial.slug) location.replace(`#/club/${encodeURIComponent($('#home-team').value)}`);
-  else await renderRoute();
-
   addEventListener('hashchange', renderRoute);
+  if (!initial.slug && initial.mode !== 'match') location.replace(currentMatchRoute());
+  else await renderRoute();
   $('#home-button').addEventListener('click', () => activateSlot('home'));
   $('#away-button').addEventListener('click', () => activateSlot('away'));
-  $('#home-team').addEventListener('change', () => { syncFixtureButtons(); if (state.slot === 'home') activateSlot('home'); });
-  $('#away-team').addEventListener('change', () => { syncFixtureButtons(); if (state.slot === 'away') activateSlot('away'); });
-  $('#back-to-team').addEventListener('click', () => { if (state.activeSlug) location.hash = `#/club/${state.activeSlug}`; });
+  for (const slot of ['home', 'away']) $(`#${slot}-team`).addEventListener('change', () => {
+    const other = slot === 'home' ? 'away' : 'home';
+    if ($(`#${slot}-team`).value === $(`#${other}-team`).value) {
+      $(`#${other}-team`).value = state.manifest.teams.find(t => t.slug !== $(`#${slot}-team`).value).slug;
+    }
+    syncFixtureButtons();
+    if (state.mode === 'match') location.hash = currentMatchRoute();
+    else activateSlot(state.slot);
+  });
+  $('#match-button').addEventListener('click', () => { location.hash = currentMatchRoute(); });
+  $('#match-nav').addEventListener('click', event => { const b = event.target.closest('[data-match-page]'); if (b) location.hash = currentMatchRoute(b.dataset.matchPage); });
+  $('#detail').addEventListener('change', event => { if (event.target.id === 'match-date') location.hash = currentMatchRoute(state.matchPage, event.target.value); });
+  $('#back-to-team').addEventListener('click', () => { location.hash = `#/club/${state.mode === 'match' ? $('#home-team').value : state.activeSlug}`; });
   $('#open-team-picker').addEventListener('click', () => $('#home-team').focus());
-  $('#player-search').addEventListener('input', () => { const data = state.clubs.get(state.activeSlug); if (data) renderSidebar(data, state.activeItem); });
+  $('#player-search').addEventListener('input', () => { const data = state.clubs.get(state.activeSlug); if (data && state.mode === 'club') renderSidebar(data, state.activeItem); });
   $('#roster-list').addEventListener('click', event => { const button = event.target.closest('[data-id]'); if (button) openItemById(button.dataset.id); });
   $('#shirt-grid').addEventListener('click', event => { const button = event.target.closest('[data-id]'); if (button) openItemById(button.dataset.id); });
 }

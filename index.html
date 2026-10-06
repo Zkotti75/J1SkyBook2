@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0f19">
-  <title>日職 J1 SkyBook 2026/27</title>
+  <title>TVB 體育組天書系列｜日職 J1 天書 2026/27</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
     <div>
-      <div class="eyebrow">TVB 評述員資料庫</div>
-      <h1>日職 J1 SkyBook <span>2026/27</span></h1>
+      <div class="eyebrow">TVB 體育組天書系列</div>
+      <h1>日職 J1 天書 <span>2026/27</span></h1>
     </div>
     <div class="topbar-actions">
       <button id="open-team-picker" class="secondary-button" type="button">選擇對賽</button>
@@ -22,13 +22,14 @@
   <section id="fixture-panel" class="fixture-panel" aria-label="對賽快速切換">
     <label>主隊<select id="home-team"></select></label>
     <button id="home-button" class="fixture-team active" type="button"></button>
-    <div class="versus">VS</div>
+    <button id="match-button" class="fixture-team match-button" type="button">比賽資料</button>
     <button id="away-button" class="fixture-team" type="button"></button>
     <label>客隊<select id="away-team"></select></label>
   </section>
 
   <main class="workspace">
     <aside class="sidebar" aria-label="球員快速目錄">
+      <nav id="match-nav" class="match-nav" aria-label="比賽資料目錄" hidden></nav>
       <div class="sidebar-tools">
         <input id="player-search" type="search" placeholder="搜尋姓名或背號" autocomplete="off">
         <div id="shirt-grid" class="shirt-grid" aria-label="背號捷徑"></div>
