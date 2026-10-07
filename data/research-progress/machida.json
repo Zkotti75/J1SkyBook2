@@ -170,7 +170,7 @@
     {
       "id": "machida-05",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -202,9 +202,14 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "machida-05完成#23白崎凌兵、#24金眠泰、#28車濟勳、#29西川楓人；4/4卡片通過研究驗證，npm test 0 errors及16/16測試。白崎首次加盟修正為2024外借、2025完全轉會；金眠泰補回小學及中學具名未定年階段；車濟勳補回大新中育成階段，青年代表累積數差異不採用；西川分列大學與2026／2026-27特別指定身份，補總理大臣盃冠軍及官方頭像。歷史空表數字留null，不偽造0；西川慣用腳未取得可靠直接來源留null。官方／J.League、母語Wikipedia及原創訪問交叉核對，來源日期為香港2026-10-08；狀態標籤維持獨立scheduled階段。隊列19/27完成，尚餘machida-06、machida-07共8人；球會仍in_progress。"
+        }
+      ]
     },
     {
       "id": "machida-06",
