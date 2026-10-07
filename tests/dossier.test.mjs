@@ -45,9 +45,13 @@ test('claims retain dated sources and only researched players are rendered',()=>
     for(const group of Object.values(d.teams[slug].players_to_watch))for(const p of group)assert.ok(club.players.some(x=>String(x.number)===String(p.number)));
   }
 });
-test('future lineups and interview pairings remain unfilled',()=>{
+test('future lineups stay unfilled and interviews retain their actual dates',()=>{
   for(const team of Object.values(d.teams))assert.equal(team.lineup.starters.length,0);
-  assert.ok(d.quotes.every(r=>!r.home));
-  for(const row of d.quotes)assert.ok(row.away.published_at<=d.as_of);
+  for(const row of d.quotes)for(const side of ['home','away']){
+    const q=row[side];if(!q)continue;
+    assert.ok(q.published_at<=d.as_of);
+    assert.ok(q.published_at>d.teams[side==='home'?d.home:d.away].previous_match_date || (q.context==='post_match' && q.published_at===d.teams[side==='home'?d.home:d.away].previous_match_date));
+    assert.ok(q.url && (q.paraphrase_zh || (q.quote_ja && q.quote_zh)));
+  }
   assert.ok(d.teams.chiba.suspensions.some(c=>c.text.includes('10月7日')&&c.text.includes('不可直接')));
 });
