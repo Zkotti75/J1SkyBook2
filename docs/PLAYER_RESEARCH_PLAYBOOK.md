@@ -34,6 +34,18 @@ Soccerway player pages are approved for historical season statistics. Capture th
 
 Gekisaka (ゲキサカ) is an approved specialist Japanese football outlet for transfer reporting, interviews, youth coverage and match context. Link the exact story, date and relevant club notice when checking a move.
 
+## Preferred news and interview outlets (2026-10-07)
+
+For match dossiers and player commentary research, prioritise these user-approved Japanese football news sources alongside existing official, local and specialist sources:
+
+| Outlet | Use | Access and attribution |
+| --- | --- | --- |
+| Yahoo Sports / SportsNavi (`sports.yahoo.co.jp`, `soccer.yahoo.co.jp`, and Yahoo News sports articles) | Club news discovery, interviews, match reports, columns and dated team statistics | Prefer accessible full articles. Record the original publisher/author and Yahoo hosting URL; a syndicated copy is not an independent second report. Team-profile prose is background, not a current training report. |
+| Soccer Digest Web (`soccerdigestweb.com`) | Player/coach interviews, tactical features, transfers, match reports and club background | Prioritise free full-text articles. Attribute journalist opinions and distinguish fan-reaction roundups from reporting or confirmed facts. |
+| El Golazo / ELGOLAZO+ (`elgolazo.jp`) | Club beat reporting, detailed previews, match assessments and tactical analysis | Use free public extracts or accessible SportsNavi syndication first. Paid editions are optional: the user will consider purchase later if free coverage becomes insufficient. Do not purchase or subscribe automatically, or infer contents from issue listings. |
+
+Preserve original publication dates and exact article URLs. Old interviews remain dated background; only interviews within the match dossier's actual window belong on its quotes page. Prefer free coverage first and report inaccessible or insufficient evidence. These are research preferences, not new mandatory per-card sources or acceptance requirements; previously validated cards do not require remediation solely for lacking these outlets.
+
 ## Source notes for commentary
 
 Use reliable official records or transparent statistical databases for vital statistics, analytics, appearances, goals, match details, transfers, loans, and season-by-season career progression. Anecdotes, news and possible explanations may come from attributable independent reporting or informed fan analysis. Append a short note to the same line of commentary giving the publication date, author or outlet, and actual hosting site; keep the exact URL and access date in the structured `sources` field. For example: `第11輪後未再入選；作者推測或與狀態未達最佳有關。（2026年7月，JEF球迷賽季回顧，ゆっくりいこう／Hatena Blog）` Do not relabel a fan blog as Yahoo merely because a Yahoo statistics page is cited elsewhere. Describe a suspected injury cause or coach's decision as speculation unless a direct source confirms it.
