@@ -2,8 +2,8 @@
   "schema_version": 1,
   "club": "fc-tokyo",
   "club_name_zh": "FC東京",
-  "player_research_status": "in_progress",
-  "updated_at": "2026-10-06",
+  "player_research_status": "completed",
+  "updated_at": "2026-10-07",
   "roster_players": 32,
   "baseline_complete_players": [],
   "batches": [
@@ -283,7 +283,7 @@
     {
       "id": "fc-tokyo-08",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -315,8 +315,8 @@
           "weight": 2
         }
       ],
-      "started_at": null,
-      "completed_at": null,
+      "started_at": "2026-10-07",
+      "completed_at": "2026-10-07",
       "notes": []
     }
   ],
