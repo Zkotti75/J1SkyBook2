@@ -2,15 +2,15 @@
   "schema_version": 1,
   "club": "machida",
   "club_name_zh": "町田澤維亞",
-  "player_research_status": "queued",
-  "updated_at": "2026-09-21",
+  "player_research_status": "in_progress",
+  "updated_at": "2026-10-08",
   "roster_players": 27,
   "baseline_complete_players": [],
   "batches": [
     {
       "id": "machida-01",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -42,14 +42,16 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-07",
+      "completed_at": "2026-10-07",
+      "notes": [
+        "Ouwejan現季可靠出場數未確認，保留空白；官方肖像及個人頁已核對。"
+      ]
     },
     {
       "id": "machida-02",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -81,14 +83,16 @@
           "weight": 2
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-07",
+      "completed_at": "2026-10-07",
+      "notes": [
+        "望月部分早期學校年份來源不一，保留具名但未定年紀錄；官方肖像已核對。"
+      ]
     },
     {
       "id": "machida-03",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -120,14 +124,16 @@
           "weight": 2
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-07",
+      "completed_at": "2026-10-07",
+      "notes": [
+        "守田官方頁更新日期與現季不一致，2026/27數據保留空白；J.League Data Site未列現季出場。"
+      ]
     },
     {
       "id": "machida-04",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 5,
       "players": [
         {
@@ -152,9 +158,14 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "重建#16前寬之、#18下田北斗、#20西村拓真；逐季、外借、育成、官方照片及訪問來源核對完成。前寬之泰國場數未有一手交叉核實留null，2015札幌採官方13場；下田江陽中學及2026/27新紀錄7場已修正；西村Servette起點依官方2024-02-10。3/3卡片驗證及16測試通過；狀態標籤保留獨立階段。"
+        }
+      ]
     },
     {
       "id": "machida-05",
