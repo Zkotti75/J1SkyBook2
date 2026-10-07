@@ -2,7 +2,7 @@
   "schema_version": 1,
   "club": "machida",
   "club_name_zh": "町田澤維亞",
-  "player_research_status": "in_progress",
+  "player_research_status": "completed",
   "updated_at": "2026-10-08",
   "roster_players": 27,
   "baseline_complete_players": [],
@@ -248,12 +248,17 @@
       ],
       "started_at": "2026-10-08",
       "completed_at": "2026-10-08",
-      "notes": [{"date":"2026-10-08","text":"重建#31尼達・拉維、#33明本考浩、#34德村楓大、#50岡村大八，4/4卡片通過，16測試通過。完整具名育成、逐季職業及外借分列，官方肖像核對。明本2023/24附加賽8／10場來源衝突明示，未混入常規賽；不明青年年份及空白母會數據保持null。狀態標籤另階段。"}]
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "重建#31尼達・拉維、#33明本考浩、#34德村楓大、#50岡村大八，4/4卡片通過，16測試通過。完整具名育成、逐季職業及外借分列，官方肖像核對。明本2023/24附加賽8／10場來源衝突明示，未混入常規賽；不明青年年份及空白母會數據保持null。狀態標籤另階段。"
+        }
+      ]
     },
     {
       "id": "machida-07",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 4,
       "players": [
         {
@@ -285,9 +290,14 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "machida-07完成#66小林亞基高治、#88中村帆高、#89尼古拉斯・洛迪古斯、#99泰迪・恩基；4/4研究驗證、16/16測試。完整具名育成、職業逐季及外借分列，官方肖像、原創訪問及比賽報道核對。#66新登錄名コッホ アキ，雙重日本／德國國籍保留本國註冊；#89首次A代表入選不等於出賽；#88及#99現季Data Site8場2球。海外來源口徑差異明示，無可靠數字留null。27/27球員、7/7批次完成；狀態標籤另scheduled階段。"
+        }
+      ]
     }
   ],
   "status_tag_stage": {
