@@ -102,7 +102,7 @@
     {
       "id": "kobe-03",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 5,
       "players": [
         {
@@ -128,7 +128,7 @@
         }
       ],
       "started_at": "2026-10-08",
-      "completed_at": null,
+      "completed_at": "2026-10-08",
       "notes": [
         {
           "date": "2026-10-08",
@@ -546,42 +546,39 @@
       "player_id": "kobe_10",
       "number": "10",
       "name_zh": "大迫勇也",
-      "status": "open",
-      "issues": [
-        "Original Nishikawa full review pending; prior supported research preserved."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "德甲逐季數字合計181場26球，与神戶官方一致；德乙17場6球另計。",
         "status tags remain separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_11",
       "number": "11",
       "name_zh": "武藤嘉紀",
-      "status": "open",
-      "issues": [
-        "Original Nishikawa full review pending; prior supported research preserved."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "2010二種與2012/2013特別指定年獨立；FC東京足球學校是並行訓練。",
         "旅歐聯賽總數66/20、25/1、26/1与官方一致；2022代表退出不增加國際A場次。",
         "status tags remain separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_13",
       "number": "13",
       "name_zh": "佐佐木大樹",
-      "status": "open",
-      "issues": [
-        "Original Nishikawa full review pending; prior supported research preserved."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "Wikipedia必須使用足球員消歧頁；租借起訖採當年官方公告。",
         "2017二種一隊場次null；Palmeiras青年比賽資料僅確知2019青年盃1場，不能當完整青年總數。",
         "status tags remain separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_15",
@@ -1222,8 +1219,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 7,
-    "remaining_cards": 32,
+    "validated_players": 10,
+    "remaining_cards": 29,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },

@@ -19,3 +19,9 @@ Lopes remains research_incomplete. Earlier 2007-2011 youth dating is now unknown
 Batch gate: 3/4, intentionally blocked by Lopes; queue status validation_failed, not completed. npm test: 16 passed, zero errors. Publish the verified repairs and explicit unresolved status.
 
 Final checkpoint: 7 of 39 existing cards pass renewed original-standard review; 32 still require acceptance, including Lopes and three preserved trial cards awaiting re-review. Batch 01 complete; Batch 02 remains open; Batches 03–11 queued. Roster reconciliation and status tags remain separate. Next run should resolve Batch 02, then process Batch 03 within the two-batch limit.
+
+## kobe-03
+
+Osako, Muto and Sasaki pass renewed full editorial review. Rechecked official profiles, preserved dated tactical interviews and human stories, checked Japanese career maps and foreign-season sources. Added exact preferred-foot evidence and J.League Data Site current-season cross-check. Added named schooling where documented without inventing school-team registration. Reordered same-year transfer rows in actual move sequence. JFA 2017 Lisbon match reporting confirms Sasaki U18 participation rather than only candidate status. Unknown 2017 senior and complete Palmeiras youth figures stay explicit.
+
+Gate 3/3; npm test 16 passed, zero errors. Status tags stay separate. Ten of 39 existing cards now revalidated; 29 remain for acceptance. Lopes unresolved in Batch 02; Batch 04 next.
