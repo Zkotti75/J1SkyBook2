@@ -49,7 +49,7 @@
     {
       "id": "kobe-02",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -81,8 +81,8 @@
           "weight": 2
         }
       ],
-      "started_at": null,
-      "completed_at": null,
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
       "notes": []
     },
     {
@@ -513,89 +513,46 @@
       "player_id": "kobe_5",
       "number": "5",
       "name_zh": "鄉家友太",
-      "status": "open",
-      "issues": [
-        "#5 鄉家友太: fewer than two distinct non-current-club source domains",
-        "#5 鄉家友太: generated or generic commentary copy remains",
-        "#5 鄉家友太: commentary introduction is too thin",
-        "#5 鄉家友太: career table is a summary, not a season-by-season history",
-        "#5 鄉家友太: full career route has not been explicitly audited against an early-youth source",
-        "#5 鄉家友太: career row 1 has no season",
-        "#5 鄉家友太: insufficient concrete milestones",
-        "#5 鄉家友太: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#5 鄉家友太: birthplace not established",
-        "#5 鄉家友太: official portrait missing",
-        "#5 鄉家友太: recent season statistics not populated",
-        "#5 鄉家友太: status tags not yet audited"
+        "仙台Junior起訖年份缺口保留；2014轉校年份分開。",
+        "status tags remain separate"
       ]
     },
     {
       "player_id": "kobe_6",
       "number": "6",
       "name_zh": "扇原貴宏",
-      "status": "open",
-      "issues": [
-        "#6 扇原貴宏: fewer than two distinct non-current-club source domains",
-        "#6 扇原貴宏: generated or generic commentary copy remains",
-        "#6 扇原貴宏: commentary introduction is too thin",
-        "#6 扇原貴宏: career table is a summary, not a season-by-season history",
-        "#6 扇原貴宏: full career route has not been explicitly audited against an early-youth source",
-        "#6 扇原貴宏: career row 1 has no season",
-        "#6 扇原貴宏: insufficient concrete milestones",
-        "#6 扇原貴宏: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#6 扇原貴宏: birthplace not established",
-        "#6 扇原貴宏: official portrait missing",
-        "#6 扇原貴宏: recent season statistics not populated",
-        "#6 扇原貴宏: status tags not yet audited"
+        "2026-04-30膝傷公告屬歷史事件，不在本輪更新獨立狀態標籤。",
+        "status tags remain separate"
       ]
     },
     {
       "player_id": "kobe_7",
       "number": "7",
       "name_zh": "井手口陽介",
-      "status": "open",
-      "issues": [
-        "#7 井手口陽介: fewer than two distinct non-current-club source domains",
-        "#7 井手口陽介: generated or generic commentary copy remains",
-        "#7 井手口陽介: commentary introduction is too thin",
-        "#7 井手口陽介: career table is a summary, not a season-by-season history",
-        "#7 井手口陽介: full career route has not been explicitly audited against an early-youth source",
-        "#7 井手口陽介: career row 1 has no season",
-        "#7 井手口陽介: insufficient concrete milestones",
-        "#7 井手口陽介: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#7 井手口陽介: birthplace not established",
-        "#7 井手口陽介: official portrait missing",
-        "#7 井手口陽介: recent season statistics not populated",
-        "#7 井手口陽介: status tags not yet audited"
+        "2013二種登錄分開；Leeds及Celtic母會和每段外借分列。",
+        "Celtic2023/24母會聯賽數字尚待獨立季表核實。",
+        "status tags remain separate"
       ]
     },
     {
       "player_id": "kobe_9",
       "number": "9",
       "name_zh": "安達臣・盧比斯",
-      "status": "open",
-      "issues": [
-        "#9 安達臣・盧比斯: fewer than two distinct non-current-club source domains",
-        "#9 安達臣・盧比斯: generated or generic commentary copy remains",
-        "#9 安達臣・盧比斯: commentary introduction is too thin",
-        "#9 安達臣・盧比斯: career table is a summary, not a season-by-season history",
-        "#9 安達臣・盧比斯: full career route has not been explicitly audited against an early-youth source",
-        "#9 安達臣・盧比斯: career row 1 has no season",
-        "#9 安達臣・盧比斯: insufficient concrete milestones",
-        "#9 安達臣・盧比斯: fewer than three player-specific tactical observations",
-        "#9 安達臣・盧比斯: human-interest research is missing"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#9 安達臣・盧比斯: birthplace not established",
-        "#9 安達臣・盧比斯: official portrait missing",
-        "#9 安達臣・盧比斯: recent season statistics not populated",
-        "#9 安達臣・盧比斯: status tags not yet audited"
+        "最早少年路線已列；Sport／São José及Internacional起年有兩來源落差，保留未決。",
+        "Tombense母會持有權與每段租借分列；2014 Avaí聯賽數字及母會零出場說法尚未獨立逐年核實。",
+        "status tags remain separate"
       ]
     },
     {
