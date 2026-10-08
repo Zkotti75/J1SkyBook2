@@ -2814,16 +2814,10 @@
           "milestone": "未有可靠青訓逐季場次；不以零代替未知。"
         },
         {
-          "period": "2012-2013",
+          "period": "2012-2014",
           "team": "仙台維加泰Jr Youth",
           "category": "U-15青訓",
-          "milestone": "未有可靠青訓逐季場次；不以零代替未知。"
-        },
-        {
-          "period": "2014",
-          "team": "仙台維加泰Jr Youth",
-          "category": "U-15青訓",
-          "milestone": "未有可靠青訓逐季場次；不以零代替未知。"
+          "milestone": "2014年轉往青森山田中學，轉校年份另列。"
         },
         {
           "period": "2014",
@@ -3195,6 +3189,11 @@
               "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
               "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=358",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+              "accessed_at": "2026-10-08"
             }
           ]
         }
@@ -3223,6 +3222,21 @@
         {
           "label": "仙台2025官方個人頁：最早少年路線",
           "url": "https://www01.vegalta.co.jp/backnumber/2025/team/top-11.html",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.com/yuta-goke/profil/spieler/486185",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "JFA：2019 U20世界盃郷家個人資料",
+          "url": "https://www.jfa.jp/national_team/u20_2019/member/GOKE_Yuta.html",
           "accessed_at": "2026-10-08"
         }
       ],
@@ -3270,13 +3284,18 @@
               "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
               "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=358",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+              "accessed_at": "2026-10-08"
             }
           ]
         }
       ],
       "career_audit": {
         "reviewed_at": "2026-10-08",
-        "scope": "最早足球路線、學校／青訓、逐年職業履歷、租借／雙重註冊及2026/27；Kobe限定缺口修補。",
+        "scope": "原版西川周作標準：身份、最早足球及學校、每季職業／租借、代表隊、榮譽、戰術訪問及人物故事完整重審。",
         "earliest_known_year": 2006,
         "sources": [
           {
@@ -3293,7 +3312,14 @@
         "notes": [
           "仙台Junior起訖年份缺口保留；2014轉校年份分開。"
         ]
-      }
+      },
+      "foot_sources": [
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.com/yuta-goke/profil/spieler/486185",
+          "accessed_at": "2026-10-08"
+        }
+      ]
     },
     {
       "id": "kobe_6",
@@ -3317,19 +3343,19 @@
       "timeline": [
         {
           "period": "2001-2003",
-          "team": "堺北FC",
+          "team": "堺北FC（堺市立日置荘小學校）",
           "category": "少年足球",
           "milestone": "未有可靠青訓逐季場次；不以零代替未知。"
         },
         {
           "period": "2004-2006",
-          "team": "大阪櫻花U-15",
+          "team": "大阪櫻花U-15（堺市立日置荘中學校）",
           "category": "U-15青訓",
           "milestone": "未有可靠青訓逐季場次；不以零代替未知。"
         },
         {
           "period": "2007-2009",
-          "team": "大阪櫻花U-18",
+          "team": "大阪櫻花U-18（初芝高等學校）",
           "category": "U-18青訓",
           "milestone": "未有可靠青訓逐季場次；不以零代替未知。"
         },
@@ -3475,7 +3501,7 @@
       "career": [
         {
           "season": "2001-2003",
-          "team": "堺北FC",
+          "team": "堺北FC（堺市立日置荘小學校）",
           "competition": "少年足球",
           "appearances": null,
           "goals": null,
@@ -3497,7 +3523,7 @@
         },
         {
           "season": "2004-2006",
-          "team": "大阪櫻花U-15",
+          "team": "大阪櫻花U-15（堺市立日置荘中學校）",
           "competition": "U-15青訓",
           "appearances": null,
           "goals": null,
@@ -3519,7 +3545,7 @@
         },
         {
           "season": "2007-2009",
-          "team": "大阪櫻花U-18",
+          "team": "大阪櫻花U-18（初芝高等學校）",
           "competition": "U-18青訓",
           "appearances": null,
           "goals": null,
@@ -3859,6 +3885,11 @@
               "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
               "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=261",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+              "accessed_at": "2026-10-08"
             }
           ]
         }
@@ -3887,6 +3918,21 @@
         {
           "label": "J.League：2024神戶對FC東京賽前球員特寫",
           "url": "https://www.jleague.jp/fnj/2024/match/kobe-fctokyo.html",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.com/takahiro-ogihara/profil/spieler/140311",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "JFA：2012倫敦奧運逐場正選及第四名",
+          "url": "https://www.jfa.jp/national_team/paris_olympic_2024/history_men_detail.html",
           "accessed_at": "2026-10-08"
         }
       ],
@@ -3934,13 +3980,18 @@
               "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
               "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=261",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+              "accessed_at": "2026-10-08"
             }
           ]
         }
       ],
       "career_audit": {
         "reviewed_at": "2026-10-08",
-        "scope": "最早足球路線、學校／青訓、逐年職業履歷、租借／雙重註冊及2026/27；Kobe限定缺口修補。",
+        "scope": "原版西川周作標準：身份、最早足球及學校、每季職業／租借、代表隊、榮譽、戰術訪問及人物故事完整重審。",
         "earliest_known_year": 2001,
         "sources": [
           {
@@ -3957,7 +4008,14 @@
         "notes": [
           "2026-04-30膝傷公告屬歷史事件，不在本輪更新獨立狀態標籤。"
         ]
-      }
+      },
+      "foot_sources": [
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.com/takahiro-ogihara/profil/spieler/140311",
+          "accessed_at": "2026-10-08"
+        }
+      ]
     },
     {
       "id": "kobe_7",
@@ -4037,7 +4095,7 @@
           "period": "2015",
           "team": "大阪飛腳",
           "category": "J1",
-          "milestone": "聯賽數字；杯賽另計。"
+          "milestone": "J1常規聯賽8場0球；另有2場Championship，不把10場混作常規聯賽。"
         },
         {
           "period": "2015",
@@ -4115,13 +4173,13 @@
           "period": "2022/23",
           "team": "Celtic",
           "category": "蘇超",
-          "milestone": "聯賽數字；外借與母會分列。"
+          "milestone": "蘇超聯賽零出場，由明列球季的資料表核實；福岡外借另列。"
         },
         {
           "period": "2023/24",
           "team": "Celtic",
           "category": "蘇超",
-          "milestone": "只列聯賽；2023/24母會全季數字尚未獨立核實。"
+          "milestone": "蘇超聯賽零出場，由明列球季的資料表核實；福岡外借另列。"
         },
         {
           "period": "2023",
@@ -4369,12 +4427,17 @@
           "appearances": 8,
           "goals": 0,
           "status": "職業球員",
-          "notes": "聯賽數字；杯賽另計。",
+          "notes": "J1常規聯賽8場0球；另有2場Championship，不把10場混作常規聯賽。",
           "verification_status": "verified",
           "sources": [
             {
               "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
               "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=304",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League：逐年常規聯賽及個人紀錄",
+              "url": "https://www.jleague.jp/player/1300486/",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -4431,6 +4494,11 @@
             {
               "label": "神戶：2024-01-09加盟及租借路線",
               "url": "https://www.vissel-kobe.co.jp/news/article/22482.html",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Soccerway：旅歐聯賽及租借日期；歷史覆蓋可能不完整",
+              "url": "https://www.soccerway.com/player/ideguchi-yosuke/l23WMZLJ/",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -4493,6 +4561,11 @@
               "label": "神戶：2024-01-09加盟及租借路線",
               "url": "https://www.vissel-kobe.co.jp/news/article/22482.html",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Soccerway：旅歐聯賽及租借日期；歷史覆蓋可能不完整",
+              "url": "https://www.soccerway.com/player/ideguchi-yosuke/l23WMZLJ/",
+              "accessed_at": "2026-10-08"
             }
           ]
         },
@@ -4514,6 +4587,11 @@
             {
               "label": "神戶：2024-01-09加盟及租借路線",
               "url": "https://www.vissel-kobe.co.jp/news/article/22482.html",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Soccerway：旅歐聯賽及租借日期；歷史覆蓋可能不完整",
+              "url": "https://www.soccerway.com/player/ideguchi-yosuke/l23WMZLJ/",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -4620,7 +4698,7 @@
           "appearances": 0,
           "goals": 0,
           "status": "2023年2月起外借",
-          "notes": "聯賽數字；外借與母會分列。",
+          "notes": "蘇超聯賽零出場，由明列球季的資料表核實；福岡外借另列。",
           "verification_status": "verified",
           "sources": [
             {
@@ -4631,6 +4709,11 @@
             {
               "label": "神戶：2024-01-09加盟及租借路線",
               "url": "https://www.vissel-kobe.co.jp/news/article/22482.html",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Match en Direct：Celtic 2022/23及2023/24零出場季表",
+              "url": "https://www.matchendirect.fr/joueur/y-ideguchi_2x55i04w8rtduvgtwc3oc9j2t.html",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -4639,10 +4722,10 @@
           "season": "2023/24",
           "team": "Celtic",
           "competition": "蘇超",
-          "appearances": null,
-          "goals": null,
+          "appearances": 0,
+          "goals": 0,
           "status": "母會／外借中",
-          "notes": "只列聯賽；2023/24母會全季數字尚未獨立核實。",
+          "notes": "蘇超聯賽零出場，由明列球季的資料表核實；福岡外借另列。",
           "verification_status": "verified",
           "sources": [
             {
@@ -4653,6 +4736,11 @@
             {
               "label": "神戶：2024-01-09加盟及租借路線",
               "url": "https://www.vissel-kobe.co.jp/news/article/22482.html",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Match en Direct：Celtic 2022/23及2023/24零出場季表",
+              "url": "https://www.matchendirect.fr/joueur/y-ideguchi_2x55i04w8rtduvgtwc3oc9j2t.html",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -4739,6 +4827,11 @@
               "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
               "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=304",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+              "accessed_at": "2026-10-08"
             }
           ]
         }
@@ -4767,6 +4860,36 @@
         {
           "label": "神戶：2024-01-09加盟及租借路線",
           "url": "https://www.vissel-kobe.co.jp/news/article/22482.html",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.co.uk/yosuke-ideguchi/profil/spieler/318219",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Soccerway：旅歐聯賽及租借日期；歷史覆蓋可能不完整",
+          "url": "https://www.soccerway.com/player/ideguchi-yosuke/l23WMZLJ/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Match en Direct：Celtic 2022/23及2023/24零出場季表",
+          "url": "https://www.matchendirect.fr/joueur/y-ideguchi_2x55i04w8rtduvgtwc3oc9j2t.html",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "JFA：2017對澳洲入球及世盃出線",
+          "url": "https://www.jfa.jp/national_team/news/00014920/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Celtic官方：成年代表15場2球",
+          "url": "https://www.celticfc.com/players/yosuke-ideguchi/",
           "accessed_at": "2026-10-08"
         }
       ],
@@ -4814,6 +4937,11 @@
               "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
               "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=304",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
+              "accessed_at": "2026-10-08"
             }
           ]
         }
@@ -4831,7 +4959,7 @@
       ],
       "career_audit": {
         "reviewed_at": "2026-10-08",
-        "scope": "最早足球路線、學校／青訓、逐年職業履歷、租借／雙重註冊及2026/27；Kobe限定缺口修補。",
+        "scope": "原版西川周作標準：身份、最早足球及學校、每季職業／租借、代表隊、榮譽、戰術訪問及人物故事完整重審。",
         "earliest_known_year": 2006,
         "sources": [
           {
@@ -4847,9 +4975,16 @@
         ],
         "notes": [
           "2013二種登錄分開；Leeds及Celtic母會和每段外借分列。",
-          "Celtic2023/24母會聯賽數字尚待獨立季表核實。"
+          "Celtic2022/23及2023/24明列零出場已核實；2015常規J1 8場與另2場Championship分開。"
         ]
-      }
+      },
+      "foot_sources": [
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.co.uk/yosuke-ideguchi/profil/spieler/318219",
+          "accessed_at": "2026-10-08"
+        }
+      ]
     },
     {
       "id": "kobe_9",
@@ -4884,10 +5019,10 @@
           "milestone": "本人訪問：離鄉後約三個月轉Internacional；不推造年。"
         },
         {
-          "period": "2007-2011",
+          "period": null,
           "team": "Internacional",
           "category": "青年隊",
-          "milestone": "葡語頁日期作導航；本人描述較早加入，起年仍有落差。"
+          "milestone": "少年隊次序可確認；本人離鄉年齡與葡語頁的起年有落差，起訖年保留未知，不宣稱2007-2011。"
         },
         {
           "period": "2012",
@@ -4917,7 +5052,7 @@
           "period": "2014",
           "team": "Avaí",
           "category": "巴西乙組",
-          "milestone": "母會逐季上陣未獨立核實，保留null；不得將各項賽事總數混作聯賽。"
+          "milestone": "逐季巴西聯賽數字待重核：不同資料庫場次及州／全國賽事口徑不一致；不沿用未解總數。"
         },
         {
           "period": "2014",
@@ -4929,7 +5064,7 @@
           "period": "2015",
           "team": "Avaí",
           "category": "巴西甲組",
-          "milestone": "聯賽數字；杯賽及亞冠另計。"
+          "milestone": "逐季巴西聯賽數字待重核：不同資料庫場次及州／全國賽事口徑不一致；不沿用未解總數。"
         },
         {
           "period": "2015",
@@ -4941,7 +5076,7 @@
           "period": "2016",
           "team": "Athletico Paranaense",
           "category": "巴西甲組",
-          "milestone": "聯賽數字；杯賽及亞冠另計。"
+          "milestone": "逐季巴西聯賽數字待重核：不同資料庫場次及州／全國賽事口徑不一致；不沿用未解總數。"
         },
         {
           "period": "2016",
@@ -5025,7 +5160,7 @@
           "period": "2025/26",
           "team": "Lion City Sailors",
           "category": "新加坡超級聯賽",
-          "milestone": "聯賽數字；杯賽及亞冠另計。"
+          "milestone": "Soccerway列聯賽19場12球；離隊公告列11聯賽球及34場19球各項賽事。入球有未解差異，保留null待逐場核對。"
         },
         {
           "period": "2025",
@@ -5043,7 +5178,7 @@
       "honors": [
         "橫濱水手：2022 J1、2023日本超級盃。（官方履歷）",
         "J1神射手及最佳十一人：2023、2024。（官方履歷）",
-        "Lion City：2025/26新加坡超級聯賽及新加坡盃。（履歷導航／加盟前球季）"
+        "Lion City：2025/26新加坡盃冠軍；離隊公告確認在決賽入球。（Lion City官方／lioncitysailorsfc.sg）"
       ],
       "milestones": [
         "2013-02-27：Avaí州聯賽對Guarani de Palhoça一隊首戰。（葡語履歷）",
@@ -5110,13 +5245,13 @@
           ]
         },
         {
-          "season": "2007-2011",
+          "season": null,
           "team": "Internacional",
           "competition": "青年隊",
           "appearances": null,
           "goals": null,
           "status": "青訓",
-          "notes": "葡語頁日期作導航；本人描述較早加入，起年仍有落差。",
+          "notes": "少年隊次序可確認；本人離鄉年齡與葡語頁的起年有落差，起訖年保留未知，不宣稱2007-2011。",
           "verification_status": "verified",
           "sources": [
             {
@@ -5236,8 +5371,8 @@
           "appearances": null,
           "goals": null,
           "status": "由Tombense外借；季中轉變持有權",
-          "notes": "母會逐季上陣未獨立核實，保留null；不得將各項賽事總數混作聯賽。",
-          "verification_status": "verified",
+          "notes": "逐季巴西聯賽數字待重核：不同資料庫場次及州／全國賽事口徑不一致；不沿用未解總數。",
+          "verification_status": "research_incomplete",
           "sources": [
             {
               "label": "pt Wikipedia：履歷導航／已交叉核對",
@@ -5257,6 +5392,11 @@
             {
               "label": "Lion City：2025-07-17加盟公告",
               "url": "https://www.lioncitysailorsfc.sg/sailors-bolster-squad-with-signing-of-j1-league-star-anderson-lopes/",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Soccerway：Lopes逐季聯賽；與其他來源有差異",
+              "url": "https://www.soccerway.com/player/anderson-lopes/YJY75OUm/",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -5297,11 +5437,11 @@
           "season": "2015",
           "team": "Avaí",
           "competition": "巴西甲組",
-          "appearances": 8,
-          "goals": 5,
+          "appearances": null,
+          "goals": null,
           "status": "由Tombense外借",
-          "notes": "聯賽數字；杯賽及亞冠另計。",
-          "verification_status": "verified",
+          "notes": "逐季巴西聯賽數字待重核：不同資料庫場次及州／全國賽事口徑不一致；不沿用未解總數。",
+          "verification_status": "research_incomplete",
           "sources": [
             {
               "label": "pt Wikipedia：履歷導航／已交叉核對",
@@ -5321,6 +5461,11 @@
             {
               "label": "Lion City：2025-07-17加盟公告",
               "url": "https://www.lioncitysailorsfc.sg/sailors-bolster-squad-with-signing-of-j1-league-star-anderson-lopes/",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Soccerway：Lopes逐季聯賽；與其他來源有差異",
+              "url": "https://www.soccerway.com/player/anderson-lopes/YJY75OUm/",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -5361,11 +5506,11 @@
           "season": "2016",
           "team": "Athletico Paranaense",
           "competition": "巴西甲組",
-          "appearances": 19,
-          "goals": 2,
+          "appearances": null,
+          "goals": null,
           "status": "由Tombense外借",
-          "notes": "聯賽數字；杯賽及亞冠另計。",
-          "verification_status": "verified",
+          "notes": "逐季巴西聯賽數字待重核：不同資料庫場次及州／全國賽事口徑不一致；不沿用未解總數。",
+          "verification_status": "research_incomplete",
           "sources": [
             {
               "label": "pt Wikipedia：履歷導航／已交叉核對",
@@ -5385,6 +5530,11 @@
             {
               "label": "Lion City：2025-07-17加盟公告",
               "url": "https://www.lioncitysailorsfc.sg/sailors-bolster-squad-with-signing-of-j1-league-star-anderson-lopes/",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Soccerway：Lopes逐季聯賽；與其他來源有差異",
+              "url": "https://www.soccerway.com/player/anderson-lopes/YJY75OUm/",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -5690,10 +5840,10 @@
           "team": "Lion City Sailors",
           "competition": "新加坡超級聯賽",
           "appearances": 19,
-          "goals": 12,
+          "goals": null,
           "status": "正式加盟",
-          "notes": "聯賽數字；杯賽及亞冠另計。",
-          "verification_status": "verified",
+          "notes": "Soccerway列聯賽19場12球；離隊公告列11聯賽球及34場19球各項賽事。入球有未解差異，保留null待逐場核對。",
+          "verification_status": "research_incomplete",
           "sources": [
             {
               "label": "pt Wikipedia：履歷導航／已交叉核對",
@@ -5713,6 +5863,16 @@
             {
               "label": "Lion City：2025-07-17加盟公告",
               "url": "https://www.lioncitysailorsfc.sg/sailors-bolster-squad-with-signing-of-j1-league-star-anderson-lopes/",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Soccerway：Lopes逐季聯賽；與其他來源有差異",
+              "url": "https://www.soccerway.com/player/anderson-lopes/YJY75OUm/",
+              "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "Lion City離隊公告：11聯賽球、34場19球各項賽事",
+              "url": "https://www.lioncitysailorsfc.sg/anderson-lopes-seals-move-to-vissel-kobe/",
               "accessed_at": "2026-10-08"
             }
           ]
@@ -5778,14 +5938,33 @@
           "url": "https://www.vissel-kobe.co.jp/news/article/26670.html",
           "accessed_at": "2026-10-08"
         },
-        "Lion City Sailors",
         {
           "label": "Lion City：2025-07-17加盟公告",
           "url": "https://www.lioncitysailorsfc.sg/sailors-bolster-squad-with-signing-of-j1-league-star-anderson-lopes/",
           "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.co.uk/anderson-lopes/profil/spieler/347291",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Soccerway：Lopes逐季聯賽；與其他來源有差異",
+          "url": "https://www.soccerway.com/player/anderson-lopes/YJY75OUm/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Lion City離隊公告：11聯賽球、34場19球各項賽事",
+          "url": "https://www.lioncitysailorsfc.sg/anderson-lopes-seals-move-to-vissel-kobe/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Football Channel：2023-10-02射手策應及終結分析",
+          "url": "https://www.footballchannel.jp/2023/10/02/post515716/4/",
+          "accessed_at": "2026-10-08"
         }
       ],
-      "verification_status": "verified",
+      "verification_status": "research_incomplete",
       "verified_at": "2026-10-08",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
@@ -5821,7 +6000,7 @@
       ],
       "career_audit": {
         "reviewed_at": "2026-10-08",
-        "scope": "最早足球路線、學校／青訓、逐年職業履歷、租借／雙重註冊及2026/27；Kobe限定缺口修補。",
+        "scope": "原版西川周作標準：身份、最早足球及學校、每季職業／租借、代表隊、榮譽、戰術訪問及人物故事完整重審。",
         "earliest_known_year": null,
         "sources": [
           {
@@ -5836,10 +6015,18 @@
           }
         ],
         "notes": [
-          "最早少年路線已列；Sport／São José及Internacional起年有兩來源落差，保留未決。",
-          "Tombense母會持有權與每段租借分列；2014 Avaí聯賽數字及母會零出場說法尚未獨立逐年核實。"
+          "最早少年隊次序已保留，年份未知合法；不以2007起年當作已確認事實。",
+          "未決：2014/2015 Avaí及2016 Athletico全國／州聯賽口徑；2025/26 Lion City聯賽11對12球須逐場核對。",
+          "Tombense母會與實際外借球會分列；母會上陣無可靠季表，保留null。"
         ]
-      }
+      },
+      "foot_sources": [
+        {
+          "label": "Transfermarkt：慣用腳",
+          "url": "https://www.transfermarkt.co.uk/anderson-lopes/profil/spieler/347291",
+          "accessed_at": "2026-10-08"
+        }
+      ]
     },
     {
       "id": "kobe_10",

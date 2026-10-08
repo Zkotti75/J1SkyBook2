@@ -54,7 +54,7 @@
     {
       "id": "kobe-02",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 6,
       "players": [
         {
@@ -92,6 +92,10 @@
         {
           "date": "2026-10-08",
           "text": "User ended experimental gap-only workflow. Reopen for full Nishikawa editorial revalidation; preserve existing supported research."
+        },
+        {
+          "date": "2026-10-08",
+          "text": "Original Nishikawa review: Goke, Ohgihara and Ideguchi pass. Lopes remains research_incomplete: Brazil competition-scope differences and Lion City 11 versus 12 league goals. Do not mark batch completed."
         }
       ]
     },
@@ -427,7 +431,7 @@
       "player_id": "kobe_1",
       "number": "1",
       "name_zh": "前川黛也",
-      "status": "validated_with_coverage_gaps",
+      "status": "resolved",
       "issues": [],
       "coverage": [
         "2015大阪櫻花屬特別指定；大學年份按混合註冊分開。",
@@ -436,26 +440,28 @@
       ],
       "remaining_coverage": [
         "status tags separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_2",
       "number": "2",
       "name_zh": "飯野七聖",
-      "status": "validated",
+      "status": "resolved",
       "issues": [],
       "coverage": [
         "status tags remain separate"
       ],
       "remaining_coverage": [
         "status tags separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_3",
       "number": "3",
       "name_zh": "馬菲奧斯・圖拿",
-      "status": "validated_with_coverage_gaps",
+      "status": "resolved",
       "issues": [],
       "coverage": [
         "2016首隊處女戰說法已用2017當年比賽紀錄纠正。",
@@ -465,13 +471,14 @@
       "remaining_coverage": [
         "status tags separate",
         "2021/2022 Flamengo league totals unavailable"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_4",
       "number": "4",
       "name_zh": "山川哲史",
-      "status": "validated_with_coverage_gaps",
+      "status": "resolved",
       "issues": [],
       "coverage": [
         "2015二種及2019特別指定各自保留；2016-2018純大學年份合併。",
@@ -480,47 +487,45 @@
       ],
       "remaining_coverage": [
         "status tags separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_5",
       "number": "5",
       "name_zh": "鄉家友太",
-      "status": "open",
-      "issues": [
-        "Original Nishikawa full review pending; prior supported research preserved."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "仙台Junior起訖年份缺口保留；2014轉校年份分開。",
         "status tags remain separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_6",
       "number": "6",
       "name_zh": "扇原貴宏",
-      "status": "open",
-      "issues": [
-        "Original Nishikawa full review pending; prior supported research preserved."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "2026-04-30膝傷公告屬歷史事件，不在本輪更新獨立狀態標籤。",
         "status tags remain separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_7",
       "number": "7",
       "name_zh": "井手口陽介",
-      "status": "open",
-      "issues": [
-        "Original Nishikawa full review pending; prior supported research preserved."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "2013二種登錄分開；Leeds及Celtic母會和每段外借分列。",
         "Celtic2023/24母會聯賽數字尚待獨立季表核實。",
         "status tags remain separate"
-      ]
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_9",
@@ -528,7 +533,8 @@
       "name_zh": "安達臣・盧比斯",
       "status": "open",
       "issues": [
-        "Original Nishikawa full review pending; prior supported research preserved."
+        "Avaí 2014/2015 and Athletico 2016 national/state competition scope disputed.",
+        "Lion City 2025/26: departure notice 11 league goals versus Soccerway 12; reconcile match records."
       ],
       "coverage": [
         "最早少年路線已列；Sport／São José及Internacional起年有兩來源落差，保留未決。",
@@ -1216,9 +1222,10 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 4,
-    "remaining_cards": 35,
-    "trial_scope": "Trial ended by user; original Nishikawa workflow restored."
+    "validated_players": 7,
+    "remaining_cards": 32,
+    "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
+    "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },
   "research_method": "nishikawa-full-player-research"
 }

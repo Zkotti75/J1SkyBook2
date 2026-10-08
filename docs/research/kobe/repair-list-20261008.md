@@ -59,3 +59,7 @@ No pre-existing Kobe search log was found in the published repository. The log c
 | kobe-03 | Osako, Muto, Sasaki | 3/3 pass | Sasaki 2017 second-registration appearances and complete Palmeiras youth figures |
 
 All eleven still require the separate status-tag audit. Roster repairs listed above remain open. Null figures and unresolved dates are explicit, not inferred. Player Japanese names corrected against official profiles; Lopes prior club corrected to Lion City.
+
+## Original standard restored
+
+The trial checkpoint above is superseded by [the full review checkpoint](original-standard-review-20261008.md). Seven cards pass renewed review; Lopes remains incomplete. Thirty-two existing cards still require acceptance. Process at most two batches per user request; preserve established sources and explicit gaps.
