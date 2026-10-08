@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-08",
+  "scope": "Kobe only; reuse entries before repeating searches",
+  "existing_log": "No Kobe search log found on published baseline.",
+  "club_wide_sources": [
+    {
+      "url": "https://www.vissel-kobe.co.jp/profile/",
+      "purpose": "current roster reconciliation",
+      "accessed_at": "2026-10-08"
+    },
+    {
+      "url": "https://www.vissel-kobe.co.jp/news/article/26701.html",
+      "purpose": "July announcement; not current roster authority",
+      "accessed_at": "2026-10-08"
+    }
+  ],
+  "queries": [
+    {
+      "batch": "kobe-01",
+      "query": "前川黛也 インタビュー 足元 父 関西大学",
+      "result": "see linked per-player sources"
+    },
+    {
+      "batch": "kobe-01",
+      "query": "飯野七聖 インタビュー スピード 経歴",
+      "result": "see linked per-player sources"
+    },
+    {
+      "batch": "kobe-01",
+      "query": "山川哲史 インタビュー 筑波 センターバック",
+      "result": "see linked per-player sources"
+    },
+    {
+      "batch": "kobe-01",
+      "query": "Matheus Thuler Kobe Montpellier Flamengo história",
+      "result": "see linked per-player sources"
+    },
+    {
+      "batch": "kobe-01",
+      "query": "Thuler Maldini estreia Paraná 2017 Primeira Liga",
+      "result": "see linked per-player sources"
+    },
+    {
+      "batch": "kobe-01",
+      "query": "飯野七聖 preferred foot",
+      "result": "see linked per-player sources"
+    },
+    {
+      "batch": "kobe-01",
+      "query": "前川黛也 preferred foot",
+      "result": "see linked per-player sources"
+    }
+  ],
+  "players": {
+    "kobe_1": {
+      "accessed_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
+          "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=150",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "ja Wikipedia：履歷導航／已交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/%E5%89%8D%E5%B7%9D%E9%BB%9B%E4%B9%9F",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League個人紀錄／表彰",
+          "url": "https://www.jleague.jp/player/1503034/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "關西大學體育會：雙腳輸送、出迎及撲救",
+          "url": "https://www.kansai-u.ac.jp/sports/130_kaisers/profile.html",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "JFA：2015特別指定認定",
+          "url": "https://www.jfa.jp/news/00007129/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "JFA：2023-11-16日本代表首戰",
+          "url": "https://www.jfa.jp/samuraiblue_2023/news/00033256/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "日刊體育：2021-03-28父子代表訪問",
+          "url": "https://www.nikkansports.com/soccer/japan/news/202103280000358.html",
+          "accessed_at": "2026-10-08"
+        }
+      ],
+      "coverage": [
+        "2015大阪櫻花屬特別指定；大學年份按混合註冊分開。",
+        "大分明野西小、廣島矢野西小及矢野中是就讀學校；足球隊已依所屬青訓另列，未另造校隊註冊。"
+      ]
+    },
+    "kobe_2": {
+      "accessed_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
+          "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=276",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "ja Wikipedia：履歷導航／已交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E9%87%8E%E4%B8%83%E8%81%96",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League：飯野個人紀錄",
+          "url": "https://www.jleague.jp/player/1611254/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "2026-09-10高村美砂：飯野訪問",
+          "url": "https://www.footballchannel.jp/2026/09/10/post1008033/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "神戶：2022-12-05結婚公告",
+          "url": "https://www.vissel-kobe.co.jp/news/article/20840.html",
+          "accessed_at": "2026-10-08"
+        }
+      ],
+      "coverage": []
+    },
+    "kobe_3": {
+      "accessed_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
+          "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=280",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "pt Wikipedia：履歷導航／已交叉核對",
+          "url": "https://pt.wikipedia.org/wiki/Matheus_Thuler",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League：圖拿紀錄／獎項",
+          "url": "https://www.jleague.jp/player/1639102/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Montpellier：2021加盟公告及訪問",
+          "url": "https://mhscfoot.com/articles/2020-2021/equipe-pro/matheus-thuler-rejoint-le-mhsc/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Transfermarkt：早期青訓及慣用腳",
+          "url": "https://www.transfermarkt.com/matheus-thuler/profil/spieler/549815",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Flamengo：2016-03-29 U17隊長訪問",
+          "url": "https://www.flamengo.com.br/noticias/futebol-de-base/juvenil-estreia-na-copa-do-brasil-sub-17",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "2017-08-30首隊出場比賽紀錄",
+          "url": "https://flaestatistica.com.br/jogos/flamengo-parana-clube-30-08-2017",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "日刊體育：2024-07-19圖拿守備覆蓋",
+          "url": "https://www.nikkansports.com/m/soccer/news/amp/202407190000645.html",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League：2026-05-23福岡0-1神戶",
+          "url": "https://www.jleague.jp/match/j1/2026/052304/review/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "Football Zone：2026日本生活感受",
+          "url": "https://www.football-zone.net/archives/627958",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League：2026-06-13地域MVP公告",
+          "url": "https://www.jleague.jp/news/article/34168/",
+          "accessed_at": "2026-10-08"
+        }
+      ],
+      "coverage": [
+        "2016首隊處女戰說法已用2017當年比賽紀錄纠正。",
+        "2021、2022 Flamengo巴甲逐季數字未核實；法甲16與各項18非衝突。"
+      ]
+    },
+    "kobe_4": {
+      "accessed_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
+          "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=229",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "ja Wikipedia：履歷導航／已交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%B7%9D%E5%93%B2%E5%8F%B2",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "J.League：山川個人紀錄",
+          "url": "https://www.jleague.jp/player/1501592/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "2023-05-12山川CB訪問",
+          "url": "https://jocr.jp/raditopi/2023/05/12/503537/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "山川：筑波大學自述",
+          "url": "https://note.com/shukyu_blog/n/n49e5230593fe",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "2023-12-01三笘與山川成長故事",
+          "url": "https://real-sports.jp/page/articles/202312012/",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "JFA：2019世大運代表",
+          "url": "https://www.jfa.jp/national_team/university_2019/30th_Universiade_m/member.html",
+          "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "神戶：2019特別指定及2020加盟",
+          "url": "https://www.vissel-kobe.co.jp/news/article/16000.html",
+          "accessed_at": "2026-10-08"
+        }
+      ],
+      "coverage": [
+        "2015二種及2019特別指定各自保留；2016-2018純大學年份合併。",
+        "2020首戰採官方10月14日；未沿用Wikipedia的10月4日。"
+      ]
+    }
+  }
+}

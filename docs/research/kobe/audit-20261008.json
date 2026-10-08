@@ -1,418 +1,14 @@
 {
-  "schema_version": 1,
-  "club": "kobe",
-  "club_name_zh": "神戶勝利船",
-  "player_research_status": "in_progress",
-  "updated_at": "2026-10-08",
-  "roster_players": 39,
-  "baseline_complete_players": [],
-  "batches": [
+  "date": "2026-10-08",
+  "baseline": "af46aeb",
+  "scope": "Kobe only; experimental gap-first workflow; no shared-rule changes",
+  "players": [
     {
-      "id": "kobe-01",
-      "kind": "player_research",
-      "status": "completed",
-      "capacity_points": 6,
-      "players": [
-        {
-          "id": "kobe_1",
-          "number": "1",
-          "name_zh": "前川黛也",
-          "name_en": "Daiya Maekawa",
-          "weight": 2
-        },
-        {
-          "id": "kobe_2",
-          "number": "2",
-          "name_zh": "飯野七聖",
-          "name_en": "Nanasei Iino",
-          "weight": 1
-        },
-        {
-          "id": "kobe_3",
-          "number": "3",
-          "name_zh": "馬菲奧斯・圖拿",
-          "name_en": "Matheus Thuler",
-          "weight": 2
-        },
-        {
-          "id": "kobe_4",
-          "number": "4",
-          "name_zh": "山川哲史",
-          "name_en": "Tetsushi Yamakawa",
-          "weight": 1
-        }
-      ],
-      "started_at": "2026-10-08",
-      "completed_at": "2026-10-08",
-      "notes": []
-    },
-    {
-      "id": "kobe-02",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 6,
-      "players": [
-        {
-          "id": "kobe_5",
-          "number": "5",
-          "name_zh": "鄉家友太",
-          "name_en": "Yuta Goke",
-          "weight": 1
-        },
-        {
-          "id": "kobe_6",
-          "number": "6",
-          "name_zh": "扇原貴宏",
-          "name_en": "Takahiro Ohgihara",
-          "weight": 2
-        },
-        {
-          "id": "kobe_7",
-          "number": "7",
-          "name_zh": "井手口陽介",
-          "name_en": "Yosuke Ideguchi",
-          "weight": 1
-        },
-        {
-          "id": "kobe_9",
-          "number": "9",
-          "name_zh": "安達臣・盧比斯",
-          "name_en": "Anderson Lopes",
-          "weight": 2
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-03",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 5,
-      "players": [
-        {
-          "id": "kobe_10",
-          "number": "10",
-          "name_zh": "大迫勇也",
-          "name_en": "Yuya Osako",
-          "weight": 2
-        },
-        {
-          "id": "kobe_11",
-          "number": "11",
-          "name_zh": "武藤嘉紀",
-          "name_en": "Yoshinori Muto",
-          "weight": 2
-        },
-        {
-          "id": "kobe_13",
-          "number": "13",
-          "name_zh": "佐佐木大樹",
-          "name_en": "Daiju Sasaki",
-          "weight": 1
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-04",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 6,
-      "players": [
-        {
-          "id": "kobe_15",
-          "number": "15",
-          "name_zh": "迪亞高",
-          "name_en": "Diego",
-          "weight": 2
-        },
-        {
-          "id": "kobe_16",
-          "number": "16",
-          "name_zh": "卡坦奴",
-          "name_en": "Caetano",
-          "weight": 2
-        },
-        {
-          "id": "kobe_18",
-          "number": "18",
-          "name_zh": "井出遙也",
-          "name_en": "Haruya Ide",
-          "weight": 2
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-05",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 6,
-      "players": [
-        {
-          "id": "kobe_20",
-          "number": "20",
-          "name_zh": "渡邊皓太",
-          "name_en": "Kota Watanabe",
-          "weight": 1
-        },
-        {
-          "id": "kobe_21",
-          "number": "21",
-          "name_zh": "新井章太",
-          "name_en": "Shota Arai",
-          "weight": 2
-        },
-        {
-          "id": "kobe_24",
-          "number": "24",
-          "name_zh": "酒井高德",
-          "name_en": "Gotoku Sakai",
-          "weight": 2
-        },
-        {
-          "id": "kobe_25",
-          "number": "25",
-          "name_zh": "鍬先祐彌",
-          "name_en": "Yuya Kuwasaki",
-          "weight": 1
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-06",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 6,
-      "players": [
-        {
-          "id": "kobe_26",
-          "number": "26",
-          "name_zh": "真・柏德歷",
-          "name_en": "Jean Patric",
-          "weight": 2
-        },
-        {
-          "id": "kobe_28",
-          "number": "28",
-          "name_zh": "濱崎健斗",
-          "name_en": "Kento Hamasaki",
-          "weight": 1
-        },
-        {
-          "id": "kobe_29",
-          "number": "29",
-          "name_zh": "小松蓮",
-          "name_en": "Ren Komatsu",
-          "weight": 1
-        },
-        {
-          "id": "kobe_31",
-          "number": "31",
-          "name_zh": "岩波拓也",
-          "name_en": "Takuya Iwanami",
-          "weight": 2
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-07",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 4,
-      "players": [
-        {
-          "id": "kobe_32",
-          "number": "32",
-          "name_zh": "烏邦・李察・文迪",
-          "name_en": "Richard Monday Ubong",
-          "weight": 1
-        },
-        {
-          "id": "kobe_33",
-          "number": "33",
-          "name_zh": "橋本陸斗",
-          "name_en": "Rikuto Hashimoto",
-          "weight": 1
-        },
-        {
-          "id": "kobe_35",
-          "number": "35",
-          "name_zh": "富永虹七",
-          "name_en": "Niina Tominaga",
-          "weight": 1
-        },
-        {
-          "id": "kobe_38",
-          "number": "38",
-          "name_zh": "浦十藏",
-          "name_en": "Juzo Ura",
-          "weight": 1
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-08",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 5,
-      "players": [
-        {
-          "id": "kobe_39",
-          "number": "39",
-          "name_zh": "高山汐生",
-          "name_en": "Shioki Takayama",
-          "weight": 1
-        },
-        {
-          "id": "kobe_41",
-          "number": "41",
-          "name_zh": "永戶勝也",
-          "name_en": "Katsuya Nagato",
-          "weight": 2
-        },
-        {
-          "id": "kobe_42",
-          "number": "42",
-          "name_zh": "本間積斯甸",
-          "name_en": "Justin Homma",
-          "weight": 1
-        },
-        {
-          "id": "kobe_43",
-          "number": "43",
-          "name_zh": "山田海斗",
-          "name_en": "Kaito Yamada",
-          "weight": 1
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-09",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 4,
-      "players": [
-        {
-          "id": "kobe_44",
-          "number": "44",
-          "name_zh": "日高光輝",
-          "name_en": "Mitsuki Hidaka",
-          "weight": 1
-        },
-        {
-          "id": "kobe_45",
-          "number": "45",
-          "name_zh": "相澤David",
-          "name_en": "David Aizawa",
-          "weight": 1
-        },
-        {
-          "id": "kobe_46",
-          "number": "46",
-          "name_zh": "伊藤湊太",
-          "name_en": "Sota Ito",
-          "weight": 1
-        },
-        {
-          "id": "kobe_53",
-          "number": "53",
-          "name_zh": "渡邊隼斗",
-          "name_en": "Hayato Watanabe",
-          "weight": 1
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-10",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 5,
-      "players": [
-        {
-          "id": "kobe_55",
-          "number": "55",
-          "name_zh": "宮原勇太",
-          "name_en": "Yuta Miyahara",
-          "weight": 1
-        },
-        {
-          "id": "kobe_57",
-          "number": "57",
-          "name_zh": "入江羚介",
-          "name_en": "Ryosuke Irie",
-          "weight": 1
-        },
-        {
-          "id": "kobe_58",
-          "number": "58",
-          "name_zh": "大西湊太",
-          "name_en": "Sota Onishi",
-          "weight": 1
-        },
-        {
-          "id": "kobe_71",
-          "number": "71",
-          "name_zh": "權田修一",
-          "name_en": "Shuichi Gonda",
-          "weight": 2
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    },
-    {
-      "id": "kobe-11",
-      "kind": "player_research",
-      "status": "queued",
-      "capacity_points": 2,
-      "players": [
-        {
-          "id": "kobe_94",
-          "number": "94",
-          "name_zh": "艾歷斯",
-          "name_en": "Erik",
-          "weight": 2
-        }
-      ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
-    }
-  ],
-  "status_tag_stage": {
-    "status": "scheduled",
-    "reviewed_players": 0,
-    "total_players": 39
-  },
-  "review_queue": [
-    {
-      "player_id": "kobe_1",
+      "id": "kobe_1",
       "number": "1",
-      "name_zh": "前川黛也",
-      "status": "repaired",
+      "name": "前川黛也",
+      "ref": "#1 前川黛也",
+      "ok": false,
       "issues": [
         "#1 前川黛也: fewer than two distinct non-current-club source domains",
         "#1 前川黛也: generated or generic commentary copy remains",
@@ -429,15 +25,16 @@
         "#1 前川黛也: recent season statistics not populated",
         "#1 前川黛也: status tags not yet audited"
       ],
-      "remaining_coverage": [
-        "status tags separate"
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_2",
+      "id": "kobe_2",
       "number": "2",
-      "name_zh": "飯野七聖",
-      "status": "repaired",
+      "name": "飯野七聖",
+      "ref": "#2 飯野七聖",
+      "ok": false,
       "issues": [
         "#2 飯野七聖: fewer than two distinct non-current-club source domains",
         "#2 飯野七聖: generated or generic commentary copy remains",
@@ -454,15 +51,16 @@
         "#2 飯野七聖: recent season statistics not populated",
         "#2 飯野七聖: status tags not yet audited"
       ],
-      "remaining_coverage": [
-        "status tags separate"
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_3",
+      "id": "kobe_3",
       "number": "3",
-      "name_zh": "馬菲奧斯・圖拿",
-      "status": "repaired",
+      "name": "馬菲奧斯・圖拿",
+      "ref": "#3 馬菲奧斯・圖拿",
+      "ok": false,
       "issues": [
         "#3 馬菲奧斯・圖拿: fewer than two distinct non-current-club source domains",
         "#3 馬菲奧斯・圖拿: generated or generic commentary copy remains",
@@ -479,16 +77,16 @@
         "#3 馬菲奧斯・圖拿: recent season statistics not populated",
         "#3 馬菲奧斯・圖拿: status tags not yet audited"
       ],
-      "remaining_coverage": [
-        "status tags separate",
-        "2021/2022 Flamengo league totals unavailable"
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_4",
+      "id": "kobe_4",
       "number": "4",
-      "name_zh": "山川哲史",
-      "status": "repaired",
+      "name": "山川哲史",
+      "ref": "#4 山川哲史",
+      "ok": false,
       "issues": [
         "#4 山川哲史: fewer than two distinct non-current-club source domains",
         "#4 山川哲史: generated or generic commentary copy remains",
@@ -505,15 +103,16 @@
         "#4 山川哲史: recent season statistics not populated",
         "#4 山川哲史: status tags not yet audited"
       ],
-      "remaining_coverage": [
-        "status tags separate"
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_5",
+      "id": "kobe_5",
       "number": "5",
-      "name_zh": "鄉家友太",
-      "status": "open",
+      "name": "鄉家友太",
+      "ref": "#5 鄉家友太",
+      "ok": false,
       "issues": [
         "#5 鄉家友太: fewer than two distinct non-current-club source domains",
         "#5 鄉家友太: generated or generic commentary copy remains",
@@ -529,13 +128,17 @@
         "#5 鄉家友太: official portrait missing",
         "#5 鄉家友太: recent season statistics not populated",
         "#5 鄉家友太: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_6",
+      "id": "kobe_6",
       "number": "6",
-      "name_zh": "扇原貴宏",
-      "status": "open",
+      "name": "扇原貴宏",
+      "ref": "#6 扇原貴宏",
+      "ok": false,
       "issues": [
         "#6 扇原貴宏: fewer than two distinct non-current-club source domains",
         "#6 扇原貴宏: generated or generic commentary copy remains",
@@ -551,13 +154,17 @@
         "#6 扇原貴宏: official portrait missing",
         "#6 扇原貴宏: recent season statistics not populated",
         "#6 扇原貴宏: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_7",
+      "id": "kobe_7",
       "number": "7",
-      "name_zh": "井手口陽介",
-      "status": "open",
+      "name": "井手口陽介",
+      "ref": "#7 井手口陽介",
+      "ok": false,
       "issues": [
         "#7 井手口陽介: fewer than two distinct non-current-club source domains",
         "#7 井手口陽介: generated or generic commentary copy remains",
@@ -573,13 +180,17 @@
         "#7 井手口陽介: official portrait missing",
         "#7 井手口陽介: recent season statistics not populated",
         "#7 井手口陽介: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_9",
+      "id": "kobe_9",
       "number": "9",
-      "name_zh": "安達臣・盧比斯",
-      "status": "open",
+      "name": "安達臣・盧比斯",
+      "ref": "#9 安達臣・盧比斯",
+      "ok": false,
       "issues": [
         "#9 安達臣・盧比斯: fewer than two distinct non-current-club source domains",
         "#9 安達臣・盧比斯: generated or generic commentary copy remains",
@@ -596,13 +207,17 @@
         "#9 安達臣・盧比斯: official portrait missing",
         "#9 安達臣・盧比斯: recent season statistics not populated",
         "#9 安達臣・盧比斯: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_10",
+      "id": "kobe_10",
       "number": "10",
-      "name_zh": "大迫勇也",
-      "status": "open",
+      "name": "大迫勇也",
+      "ref": "#10 大迫勇也",
+      "ok": false,
       "issues": [
         "#10 大迫勇也: fewer than two distinct non-current-club source domains",
         "#10 大迫勇也: generated or generic commentary copy remains",
@@ -618,13 +233,17 @@
         "#10 大迫勇也: official portrait missing",
         "#10 大迫勇也: recent season statistics not populated",
         "#10 大迫勇也: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_11",
+      "id": "kobe_11",
       "number": "11",
-      "name_zh": "武藤嘉紀",
-      "status": "open",
+      "name": "武藤嘉紀",
+      "ref": "#11 武藤嘉紀",
+      "ok": false,
       "issues": [
         "#11 武藤嘉紀: fewer than two distinct non-current-club source domains",
         "#11 武藤嘉紀: generated or generic commentary copy remains",
@@ -640,13 +259,17 @@
         "#11 武藤嘉紀: official portrait missing",
         "#11 武藤嘉紀: recent season statistics not populated",
         "#11 武藤嘉紀: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_13",
+      "id": "kobe_13",
       "number": "13",
-      "name_zh": "佐佐木大樹",
-      "status": "open",
+      "name": "佐佐木大樹",
+      "ref": "#13 佐佐木大樹",
+      "ok": false,
       "issues": [
         "#13 佐佐木大樹: fewer than two distinct non-current-club source domains",
         "#13 佐佐木大樹: generated or generic commentary copy remains",
@@ -662,13 +285,17 @@
         "#13 佐佐木大樹: official portrait missing",
         "#13 佐佐木大樹: recent season statistics not populated",
         "#13 佐佐木大樹: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_15",
+      "id": "kobe_15",
       "number": "15",
-      "name_zh": "迪亞高",
-      "status": "open",
+      "name": "迪亞高",
+      "ref": "#15 迪亞高",
+      "ok": false,
       "issues": [
         "#15 迪亞高: fewer than two distinct non-current-club source domains",
         "#15 迪亞高: generated or generic commentary copy remains",
@@ -684,13 +311,17 @@
         "#15 迪亞高: official portrait missing",
         "#15 迪亞高: recent season statistics not populated",
         "#15 迪亞高: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_16",
+      "id": "kobe_16",
       "number": "16",
-      "name_zh": "卡坦奴",
-      "status": "open",
+      "name": "卡坦奴",
+      "ref": "#16 卡坦奴",
+      "ok": false,
       "issues": [
         "#16 卡坦奴: fewer than two distinct non-current-club source domains",
         "#16 卡坦奴: generated or generic commentary copy remains",
@@ -706,13 +337,17 @@
         "#16 卡坦奴: official portrait missing",
         "#16 卡坦奴: recent season statistics not populated",
         "#16 卡坦奴: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_18",
+      "id": "kobe_18",
       "number": "18",
-      "name_zh": "井出遙也",
-      "status": "open",
+      "name": "井出遙也",
+      "ref": "#18 井出遙也",
+      "ok": false,
       "issues": [
         "#18 井出遙也: fewer than two distinct non-current-club source domains",
         "#18 井出遙也: generated or generic commentary copy remains",
@@ -728,13 +363,17 @@
         "#18 井出遙也: official portrait missing",
         "#18 井出遙也: recent season statistics not populated",
         "#18 井出遙也: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_20",
+      "id": "kobe_20",
       "number": "20",
-      "name_zh": "渡邊皓太",
-      "status": "open",
+      "name": "渡邊皓太",
+      "ref": "#20 渡邊皓太",
+      "ok": false,
       "issues": [
         "#20 渡邊皓太: fewer than two distinct non-current-club source domains",
         "#20 渡邊皓太: generated or generic commentary copy remains",
@@ -750,13 +389,17 @@
         "#20 渡邊皓太: official portrait missing",
         "#20 渡邊皓太: recent season statistics not populated",
         "#20 渡邊皓太: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_21",
+      "id": "kobe_21",
       "number": "21",
-      "name_zh": "新井章太",
-      "status": "open",
+      "name": "新井章太",
+      "ref": "#21 新井章太",
+      "ok": false,
       "issues": [
         "#21 新井章太: fewer than two distinct non-current-club source domains",
         "#21 新井章太: generated or generic commentary copy remains",
@@ -771,13 +414,17 @@
         "#21 新井章太: official portrait missing",
         "#21 新井章太: recent season statistics not populated",
         "#21 新井章太: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_24",
+      "id": "kobe_24",
       "number": "24",
-      "name_zh": "酒井高德",
-      "status": "open",
+      "name": "酒井高德",
+      "ref": "#24 酒井高德",
+      "ok": false,
       "issues": [
         "#24 酒井高德: fewer than two distinct non-current-club source domains",
         "#24 酒井高德: generated or generic commentary copy remains",
@@ -793,13 +440,17 @@
         "#24 酒井高德: official portrait missing",
         "#24 酒井高德: recent season statistics not populated",
         "#24 酒井高德: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_25",
+      "id": "kobe_25",
       "number": "25",
-      "name_zh": "鍬先祐彌",
-      "status": "open",
+      "name": "鍬先祐彌",
+      "ref": "#25 鍬先祐彌",
+      "ok": false,
       "issues": [
         "#25 鍬先祐彌: fewer than two distinct non-current-club source domains",
         "#25 鍬先祐彌: generated or generic commentary copy remains",
@@ -815,13 +466,17 @@
         "#25 鍬先祐彌: official portrait missing",
         "#25 鍬先祐彌: recent season statistics not populated",
         "#25 鍬先祐彌: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_26",
+      "id": "kobe_26",
       "number": "26",
-      "name_zh": "真・柏德歷",
-      "status": "open",
+      "name": "真・柏德歷",
+      "ref": "#26 真・柏德歷",
+      "ok": false,
       "issues": [
         "#26 真・柏德歷: fewer than two distinct non-current-club source domains",
         "#26 真・柏德歷: generated or generic commentary copy remains",
@@ -838,13 +493,17 @@
         "#26 真・柏德歷: official portrait missing",
         "#26 真・柏德歷: recent season statistics not populated",
         "#26 真・柏德歷: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_28",
+      "id": "kobe_28",
       "number": "28",
-      "name_zh": "濱崎健斗",
-      "status": "open",
+      "name": "濱崎健斗",
+      "ref": "#28 濱崎健斗",
+      "ok": false,
       "issues": [
         "#28 濱崎健斗: fewer than two distinct non-current-club source domains",
         "#28 濱崎健斗: generated or generic commentary copy remains",
@@ -860,13 +519,17 @@
         "#28 濱崎健斗: official portrait missing",
         "#28 濱崎健斗: recent season statistics not populated",
         "#28 濱崎健斗: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_29",
+      "id": "kobe_29",
       "number": "29",
-      "name_zh": "小松蓮",
-      "status": "open",
+      "name": "小松蓮",
+      "ref": "#29 小松蓮",
+      "ok": false,
       "issues": [
         "#29 小松蓮: fewer than two distinct non-current-club source domains",
         "#29 小松蓮: generated or generic commentary copy remains",
@@ -882,13 +545,17 @@
         "#29 小松蓮: official portrait missing",
         "#29 小松蓮: recent season statistics not populated",
         "#29 小松蓮: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_31",
+      "id": "kobe_31",
       "number": "31",
-      "name_zh": "岩波拓也",
-      "status": "open",
+      "name": "岩波拓也",
+      "ref": "#31 岩波拓也",
+      "ok": false,
       "issues": [
         "#31 岩波拓也: fewer than two distinct non-current-club source domains",
         "#31 岩波拓也: generated or generic commentary copy remains",
@@ -904,13 +571,17 @@
         "#31 岩波拓也: official portrait missing",
         "#31 岩波拓也: recent season statistics not populated",
         "#31 岩波拓也: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_32",
+      "id": "kobe_32",
       "number": "32",
-      "name_zh": "烏邦・李察・文迪",
-      "status": "open",
+      "name": "烏邦・李察・文迪",
+      "ref": "#32 烏邦・李察・文迪",
+      "ok": false,
       "issues": [
         "#32 烏邦・李察・文迪: fewer than two distinct non-current-club source domains",
         "#32 烏邦・李察・文迪: generated or generic commentary copy remains",
@@ -925,13 +596,17 @@
         "#32 烏邦・李察・文迪: official portrait missing",
         "#32 烏邦・李察・文迪: recent season statistics not populated",
         "#32 烏邦・李察・文迪: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_33",
+      "id": "kobe_33",
       "number": "33",
-      "name_zh": "橋本陸斗",
-      "status": "open",
+      "name": "橋本陸斗",
+      "ref": "#33 橋本陸斗",
+      "ok": false,
       "issues": [
         "#33 橋本陸斗: fewer than two distinct non-current-club source domains",
         "#33 橋本陸斗: generated or generic commentary copy remains",
@@ -947,13 +622,17 @@
         "#33 橋本陸斗: official portrait missing",
         "#33 橋本陸斗: recent season statistics not populated",
         "#33 橋本陸斗: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_35",
+      "id": "kobe_35",
       "number": "35",
-      "name_zh": "富永虹七",
-      "status": "open",
+      "name": "富永虹七",
+      "ref": "#35 富永虹七",
+      "ok": false,
       "issues": [
         "#35 富永虹七: fewer than two distinct non-current-club source domains",
         "#35 富永虹七: generated or generic commentary copy remains",
@@ -969,13 +648,17 @@
         "#35 富永虹七: official portrait missing",
         "#35 富永虹七: recent season statistics not populated",
         "#35 富永虹七: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_38",
+      "id": "kobe_38",
       "number": "38",
-      "name_zh": "浦十藏",
-      "status": "open",
+      "name": "浦十藏",
+      "ref": "#38 浦十藏",
+      "ok": false,
       "issues": [
         "#38 浦十藏: fewer than two distinct non-current-club source domains",
         "#38 浦十藏: generated or generic commentary copy remains",
@@ -991,13 +674,17 @@
         "#38 浦十藏: official portrait missing",
         "#38 浦十藏: recent season statistics not populated",
         "#38 浦十藏: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_39",
+      "id": "kobe_39",
       "number": "39",
-      "name_zh": "高山汐生",
-      "status": "open",
+      "name": "高山汐生",
+      "ref": "#39 高山汐生",
+      "ok": false,
       "issues": [
         "#39 高山汐生: fewer than two distinct non-current-club source domains",
         "#39 高山汐生: generated or generic commentary copy remains",
@@ -1012,13 +699,17 @@
         "#39 高山汐生: official portrait missing",
         "#39 高山汐生: recent season statistics not populated",
         "#39 高山汐生: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_41",
+      "id": "kobe_41",
       "number": "41",
-      "name_zh": "永戶勝也",
-      "status": "open",
+      "name": "永戶勝也",
+      "ref": "#41 永戶勝也",
+      "ok": false,
       "issues": [
         "#41 永戶勝也: fewer than two distinct non-current-club source domains",
         "#41 永戶勝也: generated or generic commentary copy remains",
@@ -1034,13 +725,17 @@
         "#41 永戶勝也: official portrait missing",
         "#41 永戶勝也: recent season statistics not populated",
         "#41 永戶勝也: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_42",
+      "id": "kobe_42",
       "number": "42",
-      "name_zh": "本間積斯甸",
-      "status": "open",
+      "name": "本間積斯甸",
+      "ref": "#42 本間積斯甸",
+      "ok": false,
       "issues": [
         "#42 本間積斯甸: fewer than two distinct non-current-club source domains",
         "#42 本間積斯甸: generated or generic commentary copy remains",
@@ -1056,13 +751,17 @@
         "#42 本間積斯甸: official portrait missing",
         "#42 本間積斯甸: recent season statistics not populated",
         "#42 本間積斯甸: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_43",
+      "id": "kobe_43",
       "number": "43",
-      "name_zh": "山田海斗",
-      "status": "open",
+      "name": "山田海斗",
+      "ref": "#43 山田海斗",
+      "ok": false,
       "issues": [
         "#43 山田海斗: fewer than two distinct non-current-club source domains",
         "#43 山田海斗: generated or generic commentary copy remains",
@@ -1078,13 +777,17 @@
         "#43 山田海斗: official portrait missing",
         "#43 山田海斗: recent season statistics not populated",
         "#43 山田海斗: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_44",
+      "id": "kobe_44",
       "number": "44",
-      "name_zh": "日高光輝",
-      "status": "open",
+      "name": "日高光輝",
+      "ref": "#44 日高光輝",
+      "ok": false,
       "issues": [
         "#44 日高光輝: fewer than two distinct non-current-club source domains",
         "#44 日高光輝: generated or generic commentary copy remains",
@@ -1100,13 +803,17 @@
         "#44 日高光輝: official portrait missing",
         "#44 日高光輝: recent season statistics not populated",
         "#44 日高光輝: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_45",
+      "id": "kobe_45",
       "number": "45",
-      "name_zh": "相澤David",
-      "status": "open",
+      "name": "相澤David",
+      "ref": "#45 相澤David",
+      "ok": false,
       "issues": [
         "#45 相澤David: fewer than two distinct non-current-club source domains",
         "#45 相澤David: generated or generic commentary copy remains",
@@ -1122,13 +829,17 @@
         "#45 相澤David: official portrait missing",
         "#45 相澤David: recent season statistics not populated",
         "#45 相澤David: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_46",
+      "id": "kobe_46",
       "number": "46",
-      "name_zh": "伊藤湊太",
-      "status": "open",
+      "name": "伊藤湊太",
+      "ref": "#46 伊藤湊太",
+      "ok": false,
       "issues": [
         "#46 伊藤湊太: fewer than two distinct non-current-club source domains",
         "#46 伊藤湊太: generated or generic commentary copy remains",
@@ -1144,13 +855,17 @@
         "#46 伊藤湊太: official portrait missing",
         "#46 伊藤湊太: recent season statistics not populated",
         "#46 伊藤湊太: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_53",
+      "id": "kobe_53",
       "number": "53",
-      "name_zh": "渡邊隼斗",
-      "status": "open",
+      "name": "渡邊隼斗",
+      "ref": "#53 渡邊隼斗",
+      "ok": false,
       "issues": [
         "#53 渡邊隼斗: fewer than two distinct non-current-club source domains",
         "#53 渡邊隼斗: generated or generic commentary copy remains",
@@ -1166,13 +881,17 @@
         "#53 渡邊隼斗: official portrait missing",
         "#53 渡邊隼斗: recent season statistics not populated",
         "#53 渡邊隼斗: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_55",
+      "id": "kobe_55",
       "number": "55",
-      "name_zh": "宮原勇太",
-      "status": "open",
+      "name": "宮原勇太",
+      "ref": "#55 宮原勇太",
+      "ok": false,
       "issues": [
         "#55 宮原勇太: fewer than two distinct non-current-club source domains",
         "#55 宮原勇太: generated or generic commentary copy remains",
@@ -1188,13 +907,17 @@
         "#55 宮原勇太: official portrait missing",
         "#55 宮原勇太: recent season statistics not populated",
         "#55 宮原勇太: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_57",
+      "id": "kobe_57",
       "number": "57",
-      "name_zh": "入江羚介",
-      "status": "open",
+      "name": "入江羚介",
+      "ref": "#57 入江羚介",
+      "ok": false,
       "issues": [
         "#57 入江羚介: fewer than two distinct non-current-club source domains",
         "#57 入江羚介: generated or generic commentary copy remains",
@@ -1210,13 +933,17 @@
         "#57 入江羚介: official portrait missing",
         "#57 入江羚介: recent season statistics not populated",
         "#57 入江羚介: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_58",
+      "id": "kobe_58",
       "number": "58",
-      "name_zh": "大西湊太",
-      "status": "open",
+      "name": "大西湊太",
+      "ref": "#58 大西湊太",
+      "ok": false,
       "issues": [
         "#58 大西湊太: fewer than two distinct non-current-club source domains",
         "#58 大西湊太: generated or generic commentary copy remains",
@@ -1232,13 +959,17 @@
         "#58 大西湊太: official portrait missing",
         "#58 大西湊太: recent season statistics not populated",
         "#58 大西湊太: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_71",
+      "id": "kobe_71",
       "number": "71",
-      "name_zh": "權田修一",
-      "status": "open",
+      "name": "權田修一",
+      "ref": "#71 權田修一",
+      "ok": false,
       "issues": [
         "#71 權田修一: fewer than two distinct non-current-club source domains",
         "#71 權田修一: generated or generic commentary copy remains",
@@ -1253,13 +984,17 @@
         "#71 權田修一: official portrait missing",
         "#71 權田修一: recent season statistics not populated",
         "#71 權田修一: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     },
     {
-      "player_id": "kobe_94",
+      "id": "kobe_94",
       "number": "94",
-      "name_zh": "艾歷斯",
-      "status": "open",
+      "name": "艾歷斯",
+      "ref": "#94 艾歷斯",
+      "ok": false,
       "issues": [
         "#94 艾歷斯: fewer than two distinct non-current-club source domains",
         "#94 艾歷斯: generated or generic commentary copy remains",
@@ -1274,34 +1009,10 @@
         "#94 艾歷斯: official portrait missing",
         "#94 艾歷斯: recent season statistics not populated",
         "#94 艾歷斯: status tags not yet audited"
+      ],
+      "outsideHosts": [
+        "jleague.jp"
       ]
     }
-  ],
-  "club_audit": {
-    "reviewed_at": "2026-10-08",
-    "baseline": "af46aeb",
-    "passes": 0,
-    "audited_players": 39,
-    "report": "docs/research/kobe/audit-20261008.json",
-    "roster_repairs": [
-      {
-        "name_ja": "髙橋壱晟",
-        "number": "17",
-        "issue": "官方現役名單有此球員；資料缺卡。沿用TVB主資料庫顯示名後新增。"
-      },
-      {
-        "name_ja": "岩本悠庵",
-        "number": "23",
-        "issue": "官方現役名單有此球員；資料缺卡。待TVB顯示名確認。"
-      },
-      {
-        "player_id": "kobe_45",
-        "issue": "相澤デイビッド列於官方育成型外借名單（大分）；需核對生效日及修補註冊。"
-      },
-      {
-        "player_id": "kobe_57",
-        "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
-      }
-    ]
-  }
+  ]
 }
