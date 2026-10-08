@@ -320,7 +320,7 @@
     {
       "id": "kobe-08",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 5,
       "players": [
         {
@@ -352,9 +352,22 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "Original Nishikawa full review4/4;16 tests pass. Youth/parent unknowns explicit. Homma optional2024Kobe cupcount1/2 omitted pending match reconciliation; does not block core league career. Status tags and earlier Lopes/Diego/JeanPatric remain separate."
+        }
+      ],
+      "reviewed_at": "2026-10-08",
+      "validated_players": [
+        "kobe_39",
+        "kobe_41",
+        "kobe_42",
+        "kobe_43"
+      ],
+      "unresolved_players": []
     },
     {
       "id": "kobe-09",
@@ -794,88 +807,46 @@
       "player_id": "kobe_39",
       "number": "39",
       "name_zh": "高山汐生",
-      "status": "open",
-      "issues": [
-        "#39 高山汐生: fewer than two distinct non-current-club source domains",
-        "#39 高山汐生: generated or generic commentary copy remains",
-        "#39 高山汐生: career table is a summary, not a season-by-season history",
-        "#39 高山汐生: full career route has not been explicitly audited against an early-youth source",
-        "#39 高山汐生: career row 1 has no season",
-        "#39 高山汐生: insufficient concrete milestones",
-        "#39 高山汐生: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#39 高山汐生: birthplace not established",
-        "#39 高山汐生: official portrait missing",
-        "#39 高山汐生: recent season statistics not populated",
-        "#39 高山汐生: status tags not yet audited"
-      ]
+        "Status tags remain a separate stage; unknown youth and parent totals explicit."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_41",
       "number": "41",
       "name_zh": "永戶勝也",
-      "status": "open",
-      "issues": [
-        "#41 永戶勝也: fewer than two distinct non-current-club source domains",
-        "#41 永戶勝也: generated or generic commentary copy remains",
-        "#41 永戶勝也: commentary introduction is too thin",
-        "#41 永戶勝也: career table is a summary, not a season-by-season history",
-        "#41 永戶勝也: full career route has not been explicitly audited against an early-youth source",
-        "#41 永戶勝也: career row 1 has no season",
-        "#41 永戶勝也: insufficient concrete milestones",
-        "#41 永戶勝也: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#41 永戶勝也: birthplace not established",
-        "#41 永戶勝也: official portrait missing",
-        "#41 永戶勝也: recent season statistics not populated",
-        "#41 永戶勝也: status tags not yet audited"
-      ]
+        "Status tags remain a separate stage; unknown youth and parent totals explicit."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_42",
       "number": "42",
       "name_zh": "本間積斯甸",
-      "status": "open",
-      "issues": [
-        "#42 本間積斯甸: fewer than two distinct non-current-club source domains",
-        "#42 本間積斯甸: generated or generic commentary copy remains",
-        "#42 本間積斯甸: commentary introduction is too thin",
-        "#42 本間積斯甸: career table is a summary, not a season-by-season history",
-        "#42 本間積斯甸: full career route has not been explicitly audited against an early-youth source",
-        "#42 本間積斯甸: career row 1 has no season",
-        "#42 本間積斯甸: insufficient concrete milestones",
-        "#42 本間積斯甸: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#42 本間積斯甸: birthplace not established",
-        "#42 本間積斯甸: official portrait missing",
-        "#42 本間積斯甸: recent season statistics not populated",
-        "#42 本間積斯甸: status tags not yet audited"
-      ]
+        "Status tags remain a separate stage; unknown youth and parent totals explicit.",
+        "Optional2024Kobe cupcount1/2 omitted pending match reconciliation."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_43",
       "number": "43",
       "name_zh": "山田海斗",
-      "status": "open",
-      "issues": [
-        "#43 山田海斗: fewer than two distinct non-current-club source domains",
-        "#43 山田海斗: generated or generic commentary copy remains",
-        "#43 山田海斗: commentary introduction is too thin",
-        "#43 山田海斗: career table is a summary, not a season-by-season history",
-        "#43 山田海斗: full career route has not been explicitly audited against an early-youth source",
-        "#43 山田海斗: career row 1 has no season",
-        "#43 山田海斗: insufficient concrete milestones",
-        "#43 山田海斗: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#43 山田海斗: birthplace not established",
-        "#43 山田海斗: official portrait missing",
-        "#43 山田海斗: recent season statistics not populated",
-        "#43 山田海斗: status tags not yet audited"
-      ]
+        "Status tags remain a separate stage; unknown youth and parent totals explicit."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_44",
@@ -1100,8 +1071,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 23,
-    "remaining_cards": 16,
+    "validated_players": 27,
+    "remaining_cards": 12,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },

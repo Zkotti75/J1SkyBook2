@@ -65,3 +65,13 @@ Tominaga youth2016football andfutsal championships plusBestPlayer checked withJF
 Ura all three earliest少年clubs preserved;May2021Tosu-toHigashiFukuoka move makes overlapping pure-youth year ranges valid.2019summer winner andwinter runnerup, notdoublechampion. Cupdebut2023 distinct fromJ2debut2024.2025loan-parent row remains with unavailable independent parent statistics. Current169/62 corrects old64kg.
 
 Batch validator4/4; npm test16passes,0errors; existing wider-project research warnings remain.23/39 existingKobe cards accepted,16remain. No blocking unresolved card inBatch07; exact early dates/totals explicitly unknown where unavailable. Lopes,Diego,JeanPatric earlier blocking disputes persist. Status tags and roster reconciliation separate. Next new batch08.
+
+## kobe-08
+
+Takayama, Nagato, Homma and Yamada pass full original-standard review4/4. All four earliest youth/school routes, mixed二種 years, professional seasons, loans and parent rows are restored. Current official identity, portrait, preferred-foot evidence, representative history, milestones, honours and three dated individual tactical observations plus human stories established. Saved log and club-wide Data Site reused. TVB names, unrelated cards and shared generation standards preserved.
+
+Takayama left-foot190/83 replaces right186/80; omitted Ryukyu loan restored, primary return notice explicitly states no professional appearances. JFA confirms actual2016U15 final start, U16candidate distinct. Unsupported university goalkeeper award removed. Nagato joinedJune2025, not2026; JLeague earliest2000Nakashizu row and parallelPBJschool retained;2022/2023OutstandingPlayer replaces false2022BestXI,2019assist leader is statistical not official award. CurrentJ1 8/2 plus641minutes and1assist.
+
+Homma2024Yokohama/2025Matsumoto loans restored,2023mixedregistration retained;2025J3 3/0 andcup2/0+2/0 separate.2024Kobe optionalcupcount differs1/2 between currentofficial and Japanese/contemporaryinterview; completecupcount omitted and gap recorded, league0/0 uncontested. Paris and seniorAsianCup training assistance are notcaps;2024U19Asiaqualifiers3appearances are namedtournament only. Yamada192/70 replaces184/77;Tacoma2025MLSNextPro25/3 is notMLSfirstteam,OpenCup4apps separate. ACLfirststart2026-02-17 precedes domesticdebutFeb21 despite club's debut label. JuneU21Europe invitation withdrawn forclubcircumstances, noinjuryinference.
+
+Gate4/4; npm test16passed,zeroerrors. Explicitunknown youth/parent counts and optionalcup totals are not invented.27/39existingcards accepted,12still require acceptance,including prior Lopes/Diego/JeanPatric disputed cards. Nextnewbatch09; roster reconciliation and status tags remain separate. Batch07 published61e570d and livecheckpoint confirmed.

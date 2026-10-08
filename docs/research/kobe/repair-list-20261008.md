@@ -1,6 +1,6 @@
 # Kobe repair list — 2026-10-08
 
-Current original-standard checkpoint: 23/39 existing cards accepted; 16 still require acceptance. Batch07 passes4/4. Lopes,Diego,JeanPatric remain named disputed cards. The table below preserves the initial af46aeb audit findings (all39failed then); current dispositions are in the checkpoints below and per-club review queue. The experimental trial ended; no shared standards or generation defaults changed. Status tags remain separate.
+Current original-standard checkpoint: 27/39 existing cards accepted; 12 still require acceptance. Batch08 passes4/4. Lopes,Diego,JeanPatric remain named disputed cards. The table below preserves the initial af46aeb audit findings (all39failed then); current dispositions are in the checkpoints below and per-club review queue. The experimental trial ended; no shared standards or generation defaults changed. Status tags remain separate.
 
 | Player | Repair list |
 |---|---|
@@ -90,3 +90,7 @@ Batch 04 remains validation_failed. Caetano's 2025 joining year, state/national 
 | #38 Juzo Ura | All earlyclubs;May2021schoolmove;2019summerchampion/winterrunnerup;cup/J2debut;loans;Torres ballboy andtactical reporting |Optional youth/parent totals explicit unknown;status tags separate |
 
 4/4 accepted;16tests pass and0errors. Club23/39accepted,16notyetaccepted. No blocking gap in this batch. PriorLopes/Diego/JeanPatric disputes remain open in02/04/06. Next newbatch08; no automatic continuation.
+
+### Batch08 original-standard checkpoint
+
+4/4 accepted: 高山汐生、永戶勝也、本間積斯甸、山田海斗. Full original youth-to-present career, mixed二種 and loan-parent rows, current identity/portraits/feet, representative distinctions, individual tactical evidence and human stories repaired. Takayama left190/83;Nagato2025June andOutstandingPlayer notBestXI;Homma loan spell andParis training notcaps;Yamada192/70,MLSNextPro25/3 andACLbeforeleague debut corrected. OptionalHomma2024Kobe cupcount1/2 remains omitted pending match reconciliation;complete youth/parent totals unknown.27/39pass,12still require acceptance. EarlierLopes/Diego/JeanPatric gaps persist. Nextnewbatch09; roster/status stage separate.16tests pass.
