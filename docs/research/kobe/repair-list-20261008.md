@@ -62,7 +62,7 @@ All eleven still require the separate status-tag audit. Roster repairs listed ab
 
 ## Original standard restored
 
-The trial checkpoint above is superseded by [the full review checkpoint](original-standard-review-20261008.md). Twelve cards now pass renewed review; 27 existing cards still require acceptance. Process at most two batches per user request; preserve established sources and explicit gaps.
+The trial checkpoint above is superseded by [the full review checkpoint](original-standard-review-20261008.md). Sixteen cards now pass renewed review; 23 existing cards still require acceptance. Process at most two batches per user request; preserve established sources and explicit gaps.
 
 | Batch | Original-standard passes | Open repair |
 |---|---|---|
@@ -70,4 +70,8 @@ The trial checkpoint above is superseded by [the full review checkpoint](origina
 | kobe-04 | Caetano, Ide (2/3) | Diego: reconcile Metropolitano 2015 Catarinense 15/16 appearances and Joinville 2016 Brazilian Cup 0/1 goal |
 | kobe-02 | Goke, Ohgihara, Ideguchi (3/4) | Lopes: Brazilian competition scopes and Lion City 11/12 league goals remain unresolved |
 
-Batch 04 remains validation_failed. Caetano's 2025 joining year, state/national competition splits and national-team training distinction are repaired. Ide's complete schooling, J3/mixed registration and U15/U21/U22 history are repaired. Diego's generic card is replaced by sourced research, with disputed figures blank and incomplete status retained. Next queued batches: 05 and 06.
+Batch 04 remains validation_failed. Caetano's 2025 joining year, state/national competition splits and national-team training distinction are repaired. Ide's complete schooling, J3/mixed registration and U15/U21/U22 history are repaired. Diego's generic card is replaced by sourced research, with disputed figures blank and incomplete status retained. Batch 05 now completed; next queued batch: 06.
+
+### Batch 05 original-standard checkpoint
+
+4/4 accepted: Watanabe, Arai, Sakai, Kuwasaki. Complete season routes, preferred-foot evidence, official identity/portraits, representative distinctions, honours and named tactical/human interviews repaired. Sakai 2012/2013 parent and Hamburg 2019/20 figures remain explicit nulls; youth totals and Watanabe school-transition date unavailable. These coverage limitations do not conceal disputed accepted claims. Prior Lopes/Diego disputes remain open. Status tags separate.

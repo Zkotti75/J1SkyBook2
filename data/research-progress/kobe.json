@@ -176,7 +176,7 @@
     {
       "id": "kobe-05",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -208,8 +208,8 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
       "notes": []
     },
     {
@@ -628,88 +628,46 @@
       "player_id": "kobe_20",
       "number": "20",
       "name_zh": "渡邊皓太",
-      "status": "open",
-      "issues": [
-        "#20 渡邊皓太: fewer than two distinct non-current-club source domains",
-        "#20 渡邊皓太: generated or generic commentary copy remains",
-        "#20 渡邊皓太: commentary introduction is too thin",
-        "#20 渡邊皓太: career table is a summary, not a season-by-season history",
-        "#20 渡邊皓太: full career route has not been explicitly audited against an early-youth source",
-        "#20 渡邊皓太: career row 1 has no season",
-        "#20 渡邊皓太: insufficient concrete milestones",
-        "#20 渡邊皓太: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#20 渡邊皓太: birthplace not established",
-        "#20 渡邊皓太: official portrait missing",
-        "#20 渡邊皓太: recent season statistics not populated",
-        "#20 渡邊皓太: status tags not yet audited"
-      ]
+        "status tags remain separate"
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_21",
       "number": "21",
       "name_zh": "新井章太",
-      "status": "open",
-      "issues": [
-        "#21 新井章太: fewer than two distinct non-current-club source domains",
-        "#21 新井章太: generated or generic commentary copy remains",
-        "#21 新井章太: career table is a summary, not a season-by-season history",
-        "#21 新井章太: full career route has not been explicitly audited against an early-youth source",
-        "#21 新井章太: career row 1 has no season",
-        "#21 新井章太: insufficient concrete milestones",
-        "#21 新井章太: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#21 新井章太: birthplace not established",
-        "#21 新井章太: official portrait missing",
-        "#21 新井章太: recent season statistics not populated",
-        "#21 新井章太: status tags not yet audited"
-      ]
+        "status tags remain separate"
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_24",
       "number": "24",
       "name_zh": "酒井高德",
-      "status": "open",
-      "issues": [
-        "#24 酒井高德: fewer than two distinct non-current-club source domains",
-        "#24 酒井高德: generated or generic commentary copy remains",
-        "#24 酒井高德: commentary introduction is too thin",
-        "#24 酒井高德: career table is a summary, not a season-by-season history",
-        "#24 酒井高德: full career route has not been explicitly audited against an early-youth source",
-        "#24 酒井高德: career row 1 has no season",
-        "#24 酒井高德: insufficient concrete milestones",
-        "#24 酒井高德: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#24 酒井高德: birthplace not established",
-        "#24 酒井高德: official portrait missing",
-        "#24 酒井高德: recent season statistics not populated",
-        "#24 酒井高德: status tags not yet audited"
-      ]
+        "status tags remain separate",
+        "Loan-parent 2012/2013 and Hamburg 2019/20 figures unavailable; explicit nulls."
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_25",
       "number": "25",
       "name_zh": "鍬先祐彌",
-      "status": "open",
-      "issues": [
-        "#25 鍬先祐彌: fewer than two distinct non-current-club source domains",
-        "#25 鍬先祐彌: generated or generic commentary copy remains",
-        "#25 鍬先祐彌: commentary introduction is too thin",
-        "#25 鍬先祐彌: career table is a summary, not a season-by-season history",
-        "#25 鍬先祐彌: full career route has not been explicitly audited against an early-youth source",
-        "#25 鍬先祐彌: career row 1 has no season",
-        "#25 鍬先祐彌: insufficient concrete milestones",
-        "#25 鍬先祐彌: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#25 鍬先祐彌: birthplace not established",
-        "#25 鍬先祐彌: official portrait missing",
-        "#25 鍬先祐彌: recent season statistics not populated",
-        "#25 鍬先祐彌: status tags not yet audited"
-      ]
+        "status tags remain separate"
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_26",
@@ -1197,8 +1155,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 12,
-    "remaining_cards": 27,
+    "validated_players": 16,
+    "remaining_cards": 23,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },
