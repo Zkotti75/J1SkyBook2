@@ -1,6 +1,6 @@
 # Kobe repair list — 2026-10-08
 
-Kobe-only trial. No shared standards or generation defaults changed. Baseline: af46aeb. All 39 existing cards fail; preserve identity facts, investigate the named gaps below. Status tags remain separate.
+Current original-standard checkpoint: 23/39 existing cards accepted; 16 still require acceptance. Batch07 passes4/4. Lopes,Diego,JeanPatric remain named disputed cards. The table below preserves the initial af46aeb audit findings (all39failed then); current dispositions are in the checkpoints below and per-club review queue. The experimental trial ended; no shared standards or generation defaults changed. Status tags remain separate.
 
 | Player | Repair list |
 |---|---|
@@ -79,3 +79,14 @@ Batch 04 remains validation_failed. Caetano's 2025 joining year, state/national 
 ### Batch06 original-standard checkpoint
 
 3/4 accepted: Hamasaki, Komatsu, Iwanami. Jean Patric remains open for Osasco/Audax identity, 2019 Potiguar7/16 appearances and Septemvri cup1/2 coverage. Supported research is published with disputes explicit, not promoted to verified. Current vitals, photos, preferred-foot evidence, complete season routes, awards and named tactical/human stories repaired. Komatsu2025/Akita/19-goal corrections, Hamasaki2024cup versus2025league debut, and Iwanami Rio zero appearances are established.19/39 renewed passes;20 cards still need acceptance. Prior Lopes/Diego gaps persist. Next new batches07/08; roster and status tags separate.
+
+### Batch07 original-standard checkpoint
+
+| Player | Validated repairs | Remaining coverage |
+|---|---|---|
+| #32 Richard Monday Ubong | Nigerian/2005DOB/194-84/both-foot identity;2025Seibi entry;Iganmu youth andearly senior experience;family/language story | Unnamed earliest school/date;age15senior exact date/contract/totals unknown,not inferred;status tags separate |
+| #33 Rikuto Hashimoto |2014Waragoma directJ.League record;2020Youth/2021二種 contract;2024playoff scope;2025Kumamoto loan;left-wingback interview |Optional youth/parent totals explicit unknown;status tags separate |
+| #35 Niina Tominaga |2016JFAfootball/futsalchampions andBestPlayer;2020/2022二種;Sanuki seasons;ACLgoal/J1debut distinction;rainbow name |No invented surgery day/return forecast;status tags separate |
+| #38 Juzo Ura | All earlyclubs;May2021schoolmove;2019summerchampion/winterrunnerup;cup/J2debut;loans;Torres ballboy andtactical reporting |Optional youth/parent totals explicit unknown;status tags separate |
+
+4/4 accepted;16tests pass and0errors. Club23/39accepted,16notyetaccepted. No blocking gap in this batch. PriorLopes/Diego/JeanPatric disputes remain open in02/04/06. Next newbatch08; no automatic continuation.

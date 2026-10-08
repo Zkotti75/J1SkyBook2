@@ -268,7 +268,7 @@
     {
       "id": "kobe-07",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 4,
       "players": [
         {
@@ -300,9 +300,22 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "Original Nishikawa review4/4. Richard identity/nationality/2005DOB/2025school-entry/bothfoot fixed; Hashimoto2014Waragoma sourced,2021二種/2025loan separated; Tominaga2016JFAdual youthtitles,2020/2022二種,ACL-versus-J1debut; Ura2019summer/winter and2021midyearschool route established. Explicit unknown early youth stats and exact Nigerian senior match date remain; status tags separate."
+        }
+      ],
+      "reviewed_at": "2026-10-08",
+      "validated_players": [
+        "kobe_32",
+        "kobe_33",
+        "kobe_35",
+        "kobe_38"
+      ],
+      "unresolved_players": []
     },
     {
       "id": "kobe-08",
@@ -736,88 +749,46 @@
       "player_id": "kobe_32",
       "number": "32",
       "name_zh": "烏邦・李察・文迪",
-      "status": "open",
-      "issues": [
-        "#32 烏邦・李察・文迪: fewer than two distinct non-current-club source domains",
-        "#32 烏邦・李察・文迪: generated or generic commentary copy remains",
-        "#32 烏邦・李察・文迪: career table is a summary, not a season-by-season history",
-        "#32 烏邦・李察・文迪: full career route has not been explicitly audited against an early-youth source",
-        "#32 烏邦・李察・文迪: career row 1 has no season",
-        "#32 烏邦・李察・文迪: insufficient concrete milestones",
-        "#32 烏邦・李察・文迪: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#32 烏邦・李察・文迪: birthplace not established",
-        "#32 烏邦・李察・文迪: official portrait missing",
-        "#32 烏邦・李察・文迪: recent season statistics not populated",
-        "#32 烏邦・李察・文迪: status tags not yet audited"
-      ]
+        "Status tags remain a separate audit.",
+        "Youth totals/unnamed school dates and exact Nigeria early-senior match date remain explicit unknowns; no invented statistics."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_33",
       "number": "33",
       "name_zh": "橋本陸斗",
-      "status": "open",
-      "issues": [
-        "#33 橋本陸斗: fewer than two distinct non-current-club source domains",
-        "#33 橋本陸斗: generated or generic commentary copy remains",
-        "#33 橋本陸斗: commentary introduction is too thin",
-        "#33 橋本陸斗: career table is a summary, not a season-by-season history",
-        "#33 橋本陸斗: full career route has not been explicitly audited against an early-youth source",
-        "#33 橋本陸斗: career row 1 has no season",
-        "#33 橋本陸斗: insufficient concrete milestones",
-        "#33 橋本陸斗: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#33 橋本陸斗: birthplace not established",
-        "#33 橋本陸斗: official portrait missing",
-        "#33 橋本陸斗: recent season statistics not populated",
-        "#33 橋本陸斗: status tags not yet audited"
-      ]
+        "Status tags remain a separate audit; optional youth/cup totals stay explicit unknowns."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_35",
       "number": "35",
       "name_zh": "富永虹七",
-      "status": "open",
-      "issues": [
-        "#35 富永虹七: fewer than two distinct non-current-club source domains",
-        "#35 富永虹七: generated or generic commentary copy remains",
-        "#35 富永虹七: commentary introduction is too thin",
-        "#35 富永虹七: career table is a summary, not a season-by-season history",
-        "#35 富永虹七: full career route has not been explicitly audited against an early-youth source",
-        "#35 富永虹七: career row 1 has no season",
-        "#35 富永虹七: insufficient concrete milestones",
-        "#35 富永虹七: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#35 富永虹七: birthplace not established",
-        "#35 富永虹七: official portrait missing",
-        "#35 富永虹七: recent season statistics not populated",
-        "#35 富永虹七: status tags not yet audited"
-      ]
+        "Status tags remain a separate audit; optional youth/cup totals stay explicit unknowns."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_38",
       "number": "38",
       "name_zh": "浦十藏",
-      "status": "open",
-      "issues": [
-        "#38 浦十藏: fewer than two distinct non-current-club source domains",
-        "#38 浦十藏: generated or generic commentary copy remains",
-        "#38 浦十藏: commentary introduction is too thin",
-        "#38 浦十藏: career table is a summary, not a season-by-season history",
-        "#38 浦十藏: full career route has not been explicitly audited against an early-youth source",
-        "#38 浦十藏: career row 1 has no season",
-        "#38 浦十藏: insufficient concrete milestones",
-        "#38 浦十藏: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#38 浦十藏: birthplace not established",
-        "#38 浦十藏: official portrait missing",
-        "#38 浦十藏: recent season statistics not populated",
-        "#38 浦十藏: status tags not yet audited"
-      ]
+        "Status tags remain a separate audit; optional youth/cup totals stay explicit unknowns."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_39",
@@ -1129,8 +1100,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 19,
-    "remaining_cards": 20,
+    "validated_players": 23,
+    "remaining_cards": 16,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },

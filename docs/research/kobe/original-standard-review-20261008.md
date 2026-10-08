@@ -51,3 +51,17 @@ Komatsu joined from Akita in 2025, not Sanuki in 2026; 2023 J3 golden boot was 1
 Jean Patric repaired but remains research_incomplete: early Osasco/Audax registration identity, 2019 Potiguar 7/16 appearances and Septemvri cup 1/2 coverage are unresolved. Disputed values stay blank/omitted; 2017 state12/0, Nordeste6/1 and Brazilian Cup1/0 are separated, 2019 national SérieD9/3 distinct from state. 2023 J1 adopts official27/4 over English27/3. Official/agent right-foot evidence takes priority over older TMboth field, with disagreement recorded.
 
 Batch gate 3/4; queue validation_failed, not falsely completed. npm test16 passed, zero errors; existing whole-project research warnings remain. Nineteen of39 existing cards accepted,20 still require acceptance. Lopes,Diego andJean Patric are named unresolved cards. Publish supported repairs while retaining incomplete status. Batch05 was published in74ed863 and its live JSON matched the checkpoint exactly. Next new batches07 and08; unresolved batches02/04/06 remain separately open. Roster reconciliation/status tags stay separate.
+
+## kobe-07
+
+All four pass the original Nishikawa editorial review: Richard Monday Ubong (#32), Rikuto Hashimoto (#33), Niina Tominaga (#35), Juzo Ura (#38). Replaced unsupported roster filler with official identities/photos, earliest documented youth routes, individual professional seasons/loans, representative distinctions, named honours, three specific tactical observations and sourced human stories. No shared standard or future generation default changed. Shared club/Data Site sources and saved search log reused.
+
+Richard is Nigerian, born2005-10-01,194/84,both-footed,joined2025fromFukuchiyamaSeibi. OldJapanese/2007DOB/2026academy promotion removed. Earliest unnamed school row has null dates. Iganmu2019-2021 affiliations directly documented; age15 senior appearance exact year/date and contract unknown, so2020/2021 affiliations individually dated but never assert that he played senior games in both years. Nigerian caps not established; selection is a stated goal.
+
+Hashimoto2014Waragoma is directly listed by J.League despite club short-history omission.2020acceleratedYouth and2021二種/pro contract separated;2024YSCC27league appearances excludes2relegationplayoff games.2025Kobe andKumamoto loan separated. His J2youngest record was contemporary, not all-Jleague youngest. Current170/69 replaces172/68.
+
+Tominaga youth2016football andfutsal championships plusBestPlayer checked withJFA.2020/2022二種 and2021pureYouth retained separately.2023/2024Sanuki loan andreturn clear;24J3apps6goals.2025ACLfirstgoal distinct fromFeb22J1debut (90+6sub). Injury actualeventApr1,announcementApr10; no unpublished surgery day or return deadline invented. OfficialJA冨永 whileTVBZH富永 preserved.
+
+Ura all three earliest少年clubs preserved;May2021Tosu-toHigashiFukuoka move makes overlapping pure-youth year ranges valid.2019summer winner andwinter runnerup, notdoublechampion. Cupdebut2023 distinct fromJ2debut2024.2025loan-parent row remains with unavailable independent parent statistics. Current169/62 corrects old64kg.
+
+Batch validator4/4; npm test16passes,0errors; existing wider-project research warnings remain.23/39 existingKobe cards accepted,16remain. No blocking unresolved card inBatch07; exact early dates/totals explicitly unknown where unavailable. Lopes,Diego,JeanPatric earlier blocking disputes persist. Status tags and roster reconciliation separate. Next new batch08.
