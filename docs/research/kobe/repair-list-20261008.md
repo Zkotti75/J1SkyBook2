@@ -47,3 +47,15 @@ Kobe-only trial. No shared standards or generation defaults changed. Baseline: a
 Roster reconciliation: add #17 髙橋壱晟 and #23 岩本悠庵 after authoritative display-name lookup; verify #45 Aizawa loan to Oita and #57 Irie registration. Official roster: https://www.vissel-kobe.co.jp/profile/ .
 
 No pre-existing Kobe search log was found in the published repository. The log created in this run records searches and reusable sources.
+
+## Three-batch checkpoint
+
+11 of 39 existing cards pass the player-card validator; 28 await eight remaining batches. This is a Kobe-only trial. No shared generation defaults changed. All three batches pass npm test (16 tests, zero errors); whole-project warnings remain for outstanding research.
+
+| Batch | Players | Result | Residual factual gaps |
+|---|---|---|---|
+| kobe-01 | Maekawa, Iino, Thuler, Yamakawa | 4/4 pass | Thuler 2021/2022 Flamengo league figures |
+| kobe-02 | Goke, Ohgihara, Ideguchi, Anderson Lopes | 4/4 pass | Goke Sendai Junior dates; Lopes academy date dispute, Tombense annual figures and 2014 Avai; Ideguchi Celtic 2023/24 parent figures |
+| kobe-03 | Osako, Muto, Sasaki | 3/3 pass | Sasaki 2017 second-registration appearances and complete Palmeiras youth figures |
+
+All eleven still require the separate status-tag audit. Roster repairs listed above remain open. Null figures and unresolved dates are explicit, not inferred. Player Japanese names corrected against official profiles; Lopes prior club corrected to Lion City.

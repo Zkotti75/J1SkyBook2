@@ -88,7 +88,7 @@
     {
       "id": "kobe-03",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 5,
       "players": [
         {
@@ -113,8 +113,8 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
+      "started_at": "2026-10-08",
+      "completed_at": "2026-10-08",
       "notes": []
     },
     {
@@ -412,22 +412,12 @@
       "player_id": "kobe_1",
       "number": "1",
       "name_zh": "前川黛也",
-      "status": "repaired",
-      "issues": [
-        "#1 前川黛也: fewer than two distinct non-current-club source domains",
-        "#1 前川黛也: generated or generic commentary copy remains",
-        "#1 前川黛也: commentary introduction is too thin",
-        "#1 前川黛也: career table is a summary, not a season-by-season history",
-        "#1 前川黛也: full career route has not been explicitly audited against an early-youth source",
-        "#1 前川黛也: career row 1 has no season",
-        "#1 前川黛也: insufficient concrete milestones",
-        "#1 前川黛也: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#1 前川黛也: birthplace not established",
-        "#1 前川黛也: official portrait missing",
-        "#1 前川黛也: recent season statistics not populated",
-        "#1 前川黛也: status tags not yet audited"
+        "2015大阪櫻花屬特別指定；大學年份按混合註冊分開。",
+        "大分明野西小、廣島矢野西小及矢野中是就讀學校；足球隊已依所屬青訓另列，未另造校隊註冊。",
+        "status tags remain separate"
       ],
       "remaining_coverage": [
         "status tags separate"
@@ -437,22 +427,10 @@
       "player_id": "kobe_2",
       "number": "2",
       "name_zh": "飯野七聖",
-      "status": "repaired",
-      "issues": [
-        "#2 飯野七聖: fewer than two distinct non-current-club source domains",
-        "#2 飯野七聖: generated or generic commentary copy remains",
-        "#2 飯野七聖: commentary introduction is too thin",
-        "#2 飯野七聖: career table is a summary, not a season-by-season history",
-        "#2 飯野七聖: full career route has not been explicitly audited against an early-youth source",
-        "#2 飯野七聖: career row 1 has no season",
-        "#2 飯野七聖: insufficient concrete milestones",
-        "#2 飯野七聖: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated",
+      "issues": [],
       "coverage": [
-        "#2 飯野七聖: birthplace not established",
-        "#2 飯野七聖: official portrait missing",
-        "#2 飯野七聖: recent season statistics not populated",
-        "#2 飯野七聖: status tags not yet audited"
+        "status tags remain separate"
       ],
       "remaining_coverage": [
         "status tags separate"
@@ -462,22 +440,12 @@
       "player_id": "kobe_3",
       "number": "3",
       "name_zh": "馬菲奧斯・圖拿",
-      "status": "repaired",
-      "issues": [
-        "#3 馬菲奧斯・圖拿: fewer than two distinct non-current-club source domains",
-        "#3 馬菲奧斯・圖拿: generated or generic commentary copy remains",
-        "#3 馬菲奧斯・圖拿: commentary introduction is too thin",
-        "#3 馬菲奧斯・圖拿: career table is a summary, not a season-by-season history",
-        "#3 馬菲奧斯・圖拿: full career route has not been explicitly audited against an early-youth source",
-        "#3 馬菲奧斯・圖拿: career row 1 has no season",
-        "#3 馬菲奧斯・圖拿: insufficient concrete milestones",
-        "#3 馬菲奧斯・圖拿: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#3 馬菲奧斯・圖拿: birthplace not established",
-        "#3 馬菲奧斯・圖拿: official portrait missing",
-        "#3 馬菲奧斯・圖拿: recent season statistics not populated",
-        "#3 馬菲奧斯・圖拿: status tags not yet audited"
+        "2016首隊處女戰說法已用2017當年比賽紀錄纠正。",
+        "2021、2022 Flamengo巴甲逐季數字未核實；法甲16與各項18非衝突。",
+        "status tags remain separate"
       ],
       "remaining_coverage": [
         "status tags separate",
@@ -488,22 +456,12 @@
       "player_id": "kobe_4",
       "number": "4",
       "name_zh": "山川哲史",
-      "status": "repaired",
-      "issues": [
-        "#4 山川哲史: fewer than two distinct non-current-club source domains",
-        "#4 山川哲史: generated or generic commentary copy remains",
-        "#4 山川哲史: commentary introduction is too thin",
-        "#4 山川哲史: career table is a summary, not a season-by-season history",
-        "#4 山川哲史: full career route has not been explicitly audited against an early-youth source",
-        "#4 山川哲史: career row 1 has no season",
-        "#4 山川哲史: insufficient concrete milestones",
-        "#4 山川哲史: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#4 山川哲史: birthplace not established",
-        "#4 山川哲史: official portrait missing",
-        "#4 山川哲史: recent season statistics not populated",
-        "#4 山川哲史: status tags not yet audited"
+        "2015二種及2019特別指定各自保留；2016-2018純大學年份合併。",
+        "2020首戰採官方10月14日；未沿用Wikipedia的10月4日。",
+        "status tags remain separate"
       ],
       "remaining_coverage": [
         "status tags separate"
@@ -559,66 +517,35 @@
       "player_id": "kobe_10",
       "number": "10",
       "name_zh": "大迫勇也",
-      "status": "open",
-      "issues": [
-        "#10 大迫勇也: fewer than two distinct non-current-club source domains",
-        "#10 大迫勇也: generated or generic commentary copy remains",
-        "#10 大迫勇也: commentary introduction is too thin",
-        "#10 大迫勇也: career table is a summary, not a season-by-season history",
-        "#10 大迫勇也: full career route has not been explicitly audited against an early-youth source",
-        "#10 大迫勇也: career row 1 has no season",
-        "#10 大迫勇也: insufficient concrete milestones",
-        "#10 大迫勇也: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#10 大迫勇也: birthplace not established",
-        "#10 大迫勇也: official portrait missing",
-        "#10 大迫勇也: recent season statistics not populated",
-        "#10 大迫勇也: status tags not yet audited"
+        "德甲逐季數字合計181場26球，与神戶官方一致；德乙17場6球另計。",
+        "status tags remain separate"
       ]
     },
     {
       "player_id": "kobe_11",
       "number": "11",
       "name_zh": "武藤嘉紀",
-      "status": "open",
-      "issues": [
-        "#11 武藤嘉紀: fewer than two distinct non-current-club source domains",
-        "#11 武藤嘉紀: generated or generic commentary copy remains",
-        "#11 武藤嘉紀: commentary introduction is too thin",
-        "#11 武藤嘉紀: career table is a summary, not a season-by-season history",
-        "#11 武藤嘉紀: full career route has not been explicitly audited against an early-youth source",
-        "#11 武藤嘉紀: career row 1 has no season",
-        "#11 武藤嘉紀: insufficient concrete milestones",
-        "#11 武藤嘉紀: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#11 武藤嘉紀: birthplace not established",
-        "#11 武藤嘉紀: official portrait missing",
-        "#11 武藤嘉紀: recent season statistics not populated",
-        "#11 武藤嘉紀: status tags not yet audited"
+        "2010二種與2012/2013特別指定年獨立；FC東京足球學校是並行訓練。",
+        "旅歐聯賽總數66/20、25/1、26/1与官方一致；2022代表退出不增加國際A場次。",
+        "status tags remain separate"
       ]
     },
     {
       "player_id": "kobe_13",
       "number": "13",
       "name_zh": "佐佐木大樹",
-      "status": "open",
-      "issues": [
-        "#13 佐佐木大樹: fewer than two distinct non-current-club source domains",
-        "#13 佐佐木大樹: generated or generic commentary copy remains",
-        "#13 佐佐木大樹: commentary introduction is too thin",
-        "#13 佐佐木大樹: career table is a summary, not a season-by-season history",
-        "#13 佐佐木大樹: full career route has not been explicitly audited against an early-youth source",
-        "#13 佐佐木大樹: career row 1 has no season",
-        "#13 佐佐木大樹: insufficient concrete milestones",
-        "#13 佐佐木大樹: fewer than three player-specific tactical observations"
-      ],
+      "status": "validated_with_coverage_gaps",
+      "issues": [],
       "coverage": [
-        "#13 佐佐木大樹: birthplace not established",
-        "#13 佐佐木大樹: official portrait missing",
-        "#13 佐佐木大樹: recent season statistics not populated",
-        "#13 佐佐木大樹: status tags not yet audited"
+        "Wikipedia必須使用足球員消歧頁；租借起訖採當年官方公告。",
+        "2017二種一隊場次null；Palmeiras青年比賽資料僅確知2019青年盃1場，不能當完整青年總數。",
+        "status tags remain separate"
       ]
     },
     {
@@ -1259,6 +1186,9 @@
         "player_id": "kobe_57",
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
-    ]
+    ],
+    "validated_players": 11,
+    "remaining_cards": 28,
+    "trial_scope": "Kobe only; no future generation defaults changed"
   }
 }
