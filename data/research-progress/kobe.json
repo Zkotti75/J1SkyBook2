@@ -44,12 +44,17 @@
       ],
       "started_at": "2026-10-08",
       "completed_at": "2026-10-08",
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "User ended experimental gap-only workflow. Reopen for full Nishikawa editorial revalidation; preserve existing supported research."
+        }
+      ]
     },
     {
       "id": "kobe-02",
       "kind": "player_research",
-      "status": "completed",
+      "status": "queued",
       "capacity_points": 6,
       "players": [
         {
@@ -82,13 +87,18 @@
         }
       ],
       "started_at": "2026-10-08",
-      "completed_at": "2026-10-08",
-      "notes": []
+      "completed_at": null,
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "User ended experimental gap-only workflow. Reopen for full Nishikawa editorial revalidation; preserve existing supported research."
+        }
+      ]
     },
     {
       "id": "kobe-03",
       "kind": "player_research",
-      "status": "completed",
+      "status": "queued",
       "capacity_points": 5,
       "players": [
         {
@@ -114,8 +124,13 @@
         }
       ],
       "started_at": "2026-10-08",
-      "completed_at": "2026-10-08",
-      "notes": []
+      "completed_at": null,
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "User ended experimental gap-only workflow. Reopen for full Nishikawa editorial revalidation; preserve existing supported research."
+        }
+      ]
     },
     {
       "id": "kobe-04",
@@ -471,8 +486,10 @@
       "player_id": "kobe_5",
       "number": "5",
       "name_zh": "鄉家友太",
-      "status": "validated_with_coverage_gaps",
-      "issues": [],
+      "status": "open",
+      "issues": [
+        "Original Nishikawa full review pending; prior supported research preserved."
+      ],
       "coverage": [
         "仙台Junior起訖年份缺口保留；2014轉校年份分開。",
         "status tags remain separate"
@@ -482,8 +499,10 @@
       "player_id": "kobe_6",
       "number": "6",
       "name_zh": "扇原貴宏",
-      "status": "validated_with_coverage_gaps",
-      "issues": [],
+      "status": "open",
+      "issues": [
+        "Original Nishikawa full review pending; prior supported research preserved."
+      ],
       "coverage": [
         "2026-04-30膝傷公告屬歷史事件，不在本輪更新獨立狀態標籤。",
         "status tags remain separate"
@@ -493,8 +512,10 @@
       "player_id": "kobe_7",
       "number": "7",
       "name_zh": "井手口陽介",
-      "status": "validated_with_coverage_gaps",
-      "issues": [],
+      "status": "open",
+      "issues": [
+        "Original Nishikawa full review pending; prior supported research preserved."
+      ],
       "coverage": [
         "2013二種登錄分開；Leeds及Celtic母會和每段外借分列。",
         "Celtic2023/24母會聯賽數字尚待獨立季表核實。",
@@ -505,8 +526,10 @@
       "player_id": "kobe_9",
       "number": "9",
       "name_zh": "安達臣・盧比斯",
-      "status": "validated_with_coverage_gaps",
-      "issues": [],
+      "status": "open",
+      "issues": [
+        "Original Nishikawa full review pending; prior supported research preserved."
+      ],
       "coverage": [
         "最早少年路線已列；Sport／São José及Internacional起年有兩來源落差，保留未決。",
         "Tombense母會持有權與每段租借分列；2014 Avaí聯賽數字及母會零出場說法尚未獨立逐年核實。",
@@ -517,8 +540,10 @@
       "player_id": "kobe_10",
       "number": "10",
       "name_zh": "大迫勇也",
-      "status": "validated_with_coverage_gaps",
-      "issues": [],
+      "status": "open",
+      "issues": [
+        "Original Nishikawa full review pending; prior supported research preserved."
+      ],
       "coverage": [
         "德甲逐季數字合計181場26球，与神戶官方一致；德乙17場6球另計。",
         "status tags remain separate"
@@ -528,8 +553,10 @@
       "player_id": "kobe_11",
       "number": "11",
       "name_zh": "武藤嘉紀",
-      "status": "validated_with_coverage_gaps",
-      "issues": [],
+      "status": "open",
+      "issues": [
+        "Original Nishikawa full review pending; prior supported research preserved."
+      ],
       "coverage": [
         "2010二種與2012/2013特別指定年獨立；FC東京足球學校是並行訓練。",
         "旅歐聯賽總數66/20、25/1、26/1与官方一致；2022代表退出不增加國際A場次。",
@@ -540,8 +567,10 @@
       "player_id": "kobe_13",
       "number": "13",
       "name_zh": "佐佐木大樹",
-      "status": "validated_with_coverage_gaps",
-      "issues": [],
+      "status": "open",
+      "issues": [
+        "Original Nishikawa full review pending; prior supported research preserved."
+      ],
       "coverage": [
         "Wikipedia必須使用足球員消歧頁；租借起訖採當年官方公告。",
         "2017二種一隊場次null；Palmeiras青年比賽資料僅確知2019青年盃1場，不能當完整青年總數。",
@@ -1187,8 +1216,9 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 11,
-    "remaining_cards": 28,
-    "trial_scope": "Kobe only; no future generation defaults changed"
-  }
+    "validated_players": 4,
+    "remaining_cards": 35,
+    "trial_scope": "Trial ended by user; original Nishikawa workflow restored."
+  },
+  "research_method": "nishikawa-full-player-research"
 }
