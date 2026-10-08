@@ -215,7 +215,7 @@
     {
       "id": "kobe-06",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 6,
       "players": [
         {
@@ -247,9 +247,23 @@
           "weight": 2
         }
       ],
-      "started_at": null,
+      "started_at": "2026-10-08",
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "3/4 original-standard passes: Hamasaki, Komatsu, Iwanami. Jean Patric remains incomplete: Osasco/Audax youth registration identity, 2019 Potiguar 7/16 appearances and Septemvri cup 1/2 coverage. Publish supported repairs with disputed fields blank."
+        }
+      ],
+      "reviewed_at": "2026-10-08",
+      "validated_players": [
+        "kobe_28",
+        "kobe_29",
+        "kobe_31"
+      ],
+      "unresolved_players": [
+        "kobe_26"
+      ]
     },
     {
       "id": "kobe-07",
@@ -675,88 +689,48 @@
       "name_zh": "真・柏德歷",
       "status": "open",
       "issues": [
-        "#26 真・柏德歷: fewer than two distinct non-current-club source domains",
-        "#26 真・柏德歷: generated or generic commentary copy remains",
-        "#26 真・柏德歷: commentary introduction is too thin",
-        "#26 真・柏德歷: career table is a summary, not a season-by-season history",
-        "#26 真・柏德歷: full career route has not been explicitly audited against an early-youth source",
-        "#26 真・柏德歷: career row 1 has no season",
-        "#26 真・柏德歷: insufficient concrete milestones",
-        "#26 真・柏德歷: fewer than three player-specific tactical observations",
-        "#26 真・柏德歷: human-interest research is missing"
+        "Reconcile earliest Osasco/Audax youth registration identity (agent2013-2015 versus English club name).",
+        "Reconcile2019 Potiguar7/16 appearances; disputed apps blank.",
+        "Reconcile Septemvri2017/18 Bulgarian Cup1/2 appearances; omitted disputed total."
       ],
       "coverage": [
-        "#26 真・柏德歷: birthplace not established",
-        "#26 真・柏德歷: official portrait missing",
-        "#26 真・柏德歷: recent season statistics not populated",
-        "#26 真・柏德歷: status tags not yet audited"
-      ]
+        "Status tags remain separate.",
+        "Unknown youth/school totals and parent/Grêmio Anápolis figures explicit."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_28",
       "number": "28",
       "name_zh": "濱崎健斗",
-      "status": "open",
-      "issues": [
-        "#28 濱崎健斗: fewer than two distinct non-current-club source domains",
-        "#28 濱崎健斗: generated or generic commentary copy remains",
-        "#28 濱崎健斗: commentary introduction is too thin",
-        "#28 濱崎健斗: career table is a summary, not a season-by-season history",
-        "#28 濱崎健斗: full career route has not been explicitly audited against an early-youth source",
-        "#28 濱崎健斗: career row 1 has no season",
-        "#28 濱崎健斗: insufficient concrete milestones",
-        "#28 濱崎健斗: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#28 濱崎健斗: birthplace not established",
-        "#28 濱崎健斗: official portrait missing",
-        "#28 濱崎健斗: recent season statistics not populated",
-        "#28 濱崎健斗: status tags not yet audited"
-      ]
+        "Status tags remain a separate audit; explicit unknown youth totals/undated school transitions are not fabricated."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_29",
       "number": "29",
       "name_zh": "小松蓮",
-      "status": "open",
-      "issues": [
-        "#29 小松蓮: fewer than two distinct non-current-club source domains",
-        "#29 小松蓮: generated or generic commentary copy remains",
-        "#29 小松蓮: commentary introduction is too thin",
-        "#29 小松蓮: career table is a summary, not a season-by-season history",
-        "#29 小松蓮: full career route has not been explicitly audited against an early-youth source",
-        "#29 小松蓮: career row 1 has no season",
-        "#29 小松蓮: insufficient concrete milestones",
-        "#29 小松蓮: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#29 小松蓮: birthplace not established",
-        "#29 小松蓮: official portrait missing",
-        "#29 小松蓮: recent season statistics not populated",
-        "#29 小松蓮: status tags not yet audited"
-      ]
+        "Status tags remain a separate audit; explicit unknown youth totals/undated school transitions are not fabricated."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_31",
       "number": "31",
       "name_zh": "岩波拓也",
-      "status": "open",
-      "issues": [
-        "#31 岩波拓也: fewer than two distinct non-current-club source domains",
-        "#31 岩波拓也: generated or generic commentary copy remains",
-        "#31 岩波拓也: commentary introduction is too thin",
-        "#31 岩波拓也: career table is a summary, not a season-by-season history",
-        "#31 岩波拓也: full career route has not been explicitly audited against an early-youth source",
-        "#31 岩波拓也: career row 1 has no season",
-        "#31 岩波拓也: insufficient concrete milestones",
-        "#31 岩波拓也: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#31 岩波拓也: birthplace not established",
-        "#31 岩波拓也: official portrait missing",
-        "#31 岩波拓也: recent season statistics not populated",
-        "#31 岩波拓也: status tags not yet audited"
-      ]
+        "Status tags remain a separate audit; explicit unknown youth totals/undated school transitions are not fabricated."
+      ],
+      "reviewed_at": "2026-10-08"
     },
     {
       "player_id": "kobe_32",
@@ -1155,8 +1129,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 16,
-    "remaining_cards": 23,
+    "validated_players": 19,
+    "remaining_cards": 20,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },
