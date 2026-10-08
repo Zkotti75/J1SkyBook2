@@ -139,7 +139,7 @@
     {
       "id": "kobe-04",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 6,
       "players": [
         {
@@ -164,9 +164,14 @@
           "weight": 2
         }
       ],
-      "started_at": null,
+      "started_at": "2026-10-08",
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-10-08",
+          "text": "Original Nishikawa review: Caetano and Ide pass. Diego rebuilt but research_incomplete: Metropolitano 2015 state appearances 15/16 and Joinville 2016 Brazilian Cup goals 0/1 require match-level reconciliation. Do not mark batch completed."
+        }
+      ]
     },
     {
       "id": "kobe-05",
@@ -586,65 +591,38 @@
       "name_zh": "迪亞高",
       "status": "open",
       "issues": [
-        "#15 迪亞高: fewer than two distinct non-current-club source domains",
-        "#15 迪亞高: generated or generic commentary copy remains",
-        "#15 迪亞高: commentary introduction is too thin",
-        "#15 迪亞高: career table is a summary, not a season-by-season history",
-        "#15 迪亞高: full career route has not been explicitly audited against an early-youth source",
-        "#15 迪亞高: career row 1 has no season",
-        "#15 迪亞高: insufficient concrete milestones",
-        "#15 迪亞高: fewer than three player-specific tactical observations"
+        "2015 Metropolitano Catarinense 15 versus 16 appearances.",
+        "2016 Joinville Copa do Brasil 0 versus 1 goal."
       ],
       "coverage": [
-        "#15 迪亞高: birthplace not established",
-        "#15 迪亞高: official portrait missing",
-        "#15 迪亞高: recent season statistics not populated",
-        "#15 迪亞高: status tags not yet audited"
-      ]
+        "2014 senior, loan-parent 2017/2018 and complete early youth figures unavailable.",
+        "status tags remain separate"
+      ],
+      "resolution": "Full card rebuilt and sourced; incomplete until competition disputes are reconciled."
     },
     {
       "player_id": "kobe_16",
       "number": "16",
       "name_zh": "卡坦奴",
-      "status": "open",
-      "issues": [
-        "#16 卡坦奴: fewer than two distinct non-current-club source domains",
-        "#16 卡坦奴: generated or generic commentary copy remains",
-        "#16 卡坦奴: commentary introduction is too thin",
-        "#16 卡坦奴: career table is a summary, not a season-by-season history",
-        "#16 卡坦奴: full career route has not been explicitly audited against an early-youth source",
-        "#16 卡坦奴: career row 1 has no season",
-        "#16 卡坦奴: insufficient concrete milestones",
-        "#16 卡坦奴: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#16 卡坦奴: birthplace not established",
-        "#16 卡坦奴: official portrait missing",
-        "#16 卡坦奴: recent season statistics not populated",
-        "#16 卡坦奴: status tags not yet audited"
-      ]
+        "Undated early youth/school details remain explicit.",
+        "status tags remain separate"
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_18",
       "number": "18",
       "name_zh": "井出遙也",
-      "status": "open",
-      "issues": [
-        "#18 井出遙也: fewer than two distinct non-current-club source domains",
-        "#18 井出遙也: generated or generic commentary copy remains",
-        "#18 井出遙也: commentary introduction is too thin",
-        "#18 井出遙也: career table is a summary, not a season-by-season history",
-        "#18 井出遙也: full career route has not been explicitly audited against an early-youth source",
-        "#18 井出遙也: career row 1 has no season",
-        "#18 井出遙也: insufficient concrete milestones",
-        "#18 井出遙也: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#18 井出遙也: birthplace not established",
-        "#18 井出遙也: official portrait missing",
-        "#18 井出遙也: recent season statistics not populated",
-        "#18 井出遙也: status tags not yet audited"
-      ]
+        "Undated early youth/school details remain explicit.",
+        "status tags remain separate"
+      ],
+      "resolution": "Full original Nishikawa review passed 2026-10-08; status tags separate."
     },
     {
       "player_id": "kobe_20",
@@ -1219,8 +1197,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 10,
-    "remaining_cards": 29,
+    "validated_players": 12,
+    "remaining_cards": 27,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },
