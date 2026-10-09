@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 71918)
-Total output lines: 8407
-
 {
   "schema_version": 2,
   "generated_at": "2026-09-19T08:20:00+09:00",
@@ -3532,7 +3529,1262 @@ Total output lines: 8407
       ],
       "career_audit": {
         "reviewed_at": "2026-10-10",
-        "scope": "早期球會、學校及大學路線；逐…11918 tokens truncated…         "accessed_at": "2026-10-10"
+        "scope": "早期球會、學校及大學路線；逐年成年隊、租借及季中轉會；青年無統計連年合併。",
+        "earliest_known_year": 2000,
+        "sources": [
+          {
+            "label": "橫濱水手官方球員頁",
+            "url": "https://www.f-marinos.com/team/player/player-detail/11",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "J.League逐季履歷",
+            "url": "https://www.jleague.jp/player/1632280/",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "荷文Wikipedia履歷路線",
+            "url": "https://nl.wikipedia.org/wiki/Jordy_Croux",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "日文Wikipedia履歷路線",
+            "url": "https://ja.wikipedia.org/wiki/ジョルディ・クルークス",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "2022-12-07大阪櫻花代表履歷",
+            "url": "https://www.cerezo.jp/news/2022-1207-1300/",
+            "accessed_at": "2026-10-10"
+          }
+        ],
+        "notes": "未確立的青年年份不按年齡推算；歷史及現季來源截點分開，沒有公開數字者保留空值。"
+      },
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J1",
+          "appearances": 12,
+          "goals": 2,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "2025年8月20日由磐田永久轉投橫濱；J2及J1分列。"
+        },
+        {
+          "season": "2025",
+          "competition": "J2",
+          "appearances": 26,
+          "goals": 3,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "2025年8月20日由磐田永久轉投橫濱；J2及J1分列。"
+        },
+        {
+          "season": "2026特別",
+          "competition": "J1百年構想聯賽",
+          "appearances": 20,
+          "goals": 1,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "as_of": "2026-10-09",
+          "sources": [
+            {
+              "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。"
+        }
+      ]
+    },
+    {
+      "id": "yokohama_13",
+      "club": "橫濱水手",
+      "number": "13",
+      "name_zh": "井上太聖",
+      "name_en": "TAISEI INOUE",
+      "position": "DF",
+      "dob": "2002-10-01",
+      "age": 23,
+      "height": 184,
+      "weight": 83,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "鳥栖砂岩",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "未找到可靠日本成年或青年代表徵召／出場紀錄；不能把大學球員或特別指定身份視為代表資歷。（J.League；日文Wikipedia；查核至2026-10-10）",
+      "intro": "堀越高校、順天堂大學出身的後衛，2024年在學期間獲鳥栖特別指定，2025年正式入職後踢足全部38場J2。2026年加盟橫濱，首場正式賽以右閘踢足90分鐘；右中堅與右閘經驗並存，速度是其明確武器。（鳥栖公告；2026-02-07，三島大輔／Soccer King）",
+      "timeline": [
+        {
+          "period": "年份未確立",
+          "team": "小池FC",
+          "category": "少年",
+          "milestone": ""
+        },
+        {
+          "period": "2015-2017",
+          "team": "FC Interior",
+          "category": "青年",
+          "milestone": ""
+        },
+        {
+          "period": "2018-2020",
+          "team": "堀越高校",
+          "category": "高中",
+          "milestone": ""
+        },
+        {
+          "period": "2021-2023",
+          "team": "順天堂大學",
+          "category": "大學",
+          "milestone": ""
+        },
+        {
+          "period": "2024",
+          "team": "順天堂大學",
+          "category": "大學",
+          "milestone": "同年獲鳥栖特別指定，大學及職業登錄各列一行。"
+        },
+        {
+          "period": "2024",
+          "team": "鳥栖砂岩",
+          "category": "J1",
+          "milestone": "大學在學期間特別指定；7月3日對橫濱J1處子戰。"
+        },
+        {
+          "period": "2024",
+          "team": "順天堂大",
+          "category": "",
+          "milestone": "只計聯賽；來源顯示「-」者留空，不當作零。"
+        },
+        {
+          "period": "2025",
+          "team": "鳥栖砂岩",
+          "category": "J2",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2026特別",
+          "team": "橫濱水手",
+          "category": "J1百年構想聯賽",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2026/27",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。"
+        }
+      ],
+      "honors": [
+        "2025：職業首個完整賽季，鳥栖全部38場J2上陣；屬履歷里程碑，非獎項。"
+      ],
+      "milestones": [
+        "2024年2月鳥栖公布翌年加入內定兼特別指定；7月3日對橫濱首次J1上陣，半場因傷退出。（鳥栖；2026-02-07，Soccer King）",
+        "2025年正式加盟鳥栖，以右中堅踢足全38場J2並射入2球。（J.League；Soccer King）",
+        "2026年橫濱首戰對町田，右閘踢足90分鐘，向J1再次證明自己。（2026-02-07，三島大輔／Soccer King）"
+      ],
+      "tactical_traits": [
+        "速度是自述特長；橫濱首戰以右閘參與較快節奏的推進。（2026-02-07，Soccer King採訪）",
+        "具右中堅全季經驗，也能改踢右閘，讓球隊在不同後防配置下調整角色。（2026-02-07，Soccer King）",
+        "鳥栖招募介紹同時強調身高、技術及速度，並能勝任多個防守位置；不是單靠體型的中堅。（2024-02-21，鳥栖官方）"
+      ],
+      "quirky_trivia": "高中最後一年本來想直接做職業球員，至11月仍未能落實，才改走大學路。他選順天堂，是希望置身關東一部的高水平環境，並受到學長坂本琉維影響。（2023-05-16，Soccer Mama採訪）",
+      "legacy_id": "jleague_yokohama_13",
+      "official_player_id": "1637156",
+      "team_slug": "yokohama-fm",
+      "name_ja": "井上 太聖",
+      "birthplace": "東京都",
+      "season_start_age": 23,
+      "player_image": "https://static.f-marinos.com/uploads/images/vzcw148u4refdblcq1dqa7qi.png",
+      "career": [
+        {
+          "season": null,
+          "team": "小池FC",
+          "competition": "少年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "日文Wikipedia履歷路線",
+              "url": "https://ja.wikipedia.org/wiki/井上太聖",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2015-2017",
+          "team": "FC Interior",
+          "competition": "青年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2018-2020",
+          "team": "堀越高校",
+          "competition": "高中",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2021-2023",
+          "team": "順天堂大學",
+          "competition": "大學",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "順天堂大學",
+          "competition": "大學",
+          "appearances": null,
+          "goals": null,
+          "status": "大學兼特別指定",
+          "notes": "同年獲鳥栖特別指定，大學及職業登錄各列一行。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "2024-02-21鳥栖特別指定及技術介紹",
+              "url": "https://www.sagan-tosu.net/news/p/27827/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "鳥栖砂岩",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "大學在學期間特別指定；7月3日對橫濱J1處子戰。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "順天堂大",
+          "competition": "",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "只計聯賽；來源顯示「-」者留空，不當作零。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "鳥栖砂岩",
+          "competition": "J2",
+          "appearances": 38,
+          "goals": 2,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "橫濱水手",
+          "competition": "J1百年構想聯賽",
+          "appearances": 18,
+          "goals": 2,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 1,
+          "status": "",
+          "notes": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "橫濱水手官方球員頁",
+          "url": "https://www.f-marinos.com/team/player/player-detail/13",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "J.League逐季履歷",
+          "url": "https://www.jleague.jp/player/1637156/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "日文Wikipedia履歷路線",
+          "url": "https://ja.wikipedia.org/wiki/井上太聖",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2023-05-16 Soccer Mama採訪",
+          "url": "https://soccermama.jp/4165/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2026-02-07三島大輔採訪",
+          "url": "https://www.soccer-king.jp/news/japan/jl/20260207/2122579.html",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2024-02-21鳥栖特別指定及技術介紹",
+          "url": "https://www.sagan-tosu.net/news/p/27827/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "Transfermarkt慣用腳",
+          "url": "https://www.transfermarkt.com/taisei-inoue/profil/spieler/1229830",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-10-10",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
+      "trivia": [
+        {
+          "text": "高中最後一年本來想直接做職業球員，至11月仍未能落實，才改走大學路。他選順天堂，是希望置身關東一部的高水平環境，並受到學長坂本琉維影響。（2023-05-16，Soccer Mama採訪）",
+          "reliability": "具名採訪／可靠報道",
+          "sources": [
+            {
+              "label": "2023-05-16 Soccer Mama採訪",
+              "url": "https://soccermama.jp/4165/",
+              "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "2026-02-07三島大輔採訪",
+              "url": "https://www.soccer-king.jp/news/japan/jl/20260207/2122579.html",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        }
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-10-10",
+        "scope": "早期球會、學校及大學路線；逐年成年隊、租借及季中轉會；青年無統計連年合併。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "橫濱水手官方球員頁",
+            "url": "https://www.f-marinos.com/team/player/player-detail/13",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "J.League逐季履歷",
+            "url": "https://www.jleague.jp/player/1637156/",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "日文Wikipedia履歷路線",
+            "url": "https://ja.wikipedia.org/wiki/井上太聖",
+            "accessed_at": "2026-10-10"
+          }
+        ],
+        "notes": "未確立的青年年份不按年齡推算；歷史及現季來源截點分開，沒有公開數字者保留空值。"
+      },
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J2",
+          "appearances": 38,
+          "goals": 2,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "season": "2026特別",
+          "competition": "J1百年構想聯賽",
+          "appearances": 18,
+          "goals": 2,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1637156/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 7,
+          "goals": 1,
+          "as_of": "2026-10-09",
+          "sources": [
+            {
+              "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。"
+        }
+      ]
+    },
+    {
+      "id": "yokohama_14",
+      "club": "橫濱水手",
+      "number": "14",
+      "name_zh": "知念慶",
+      "name_en": "KEI CHINEN",
+      "position": "MF",
+      "dob": "1995-03-17",
+      "age": 31,
+      "height": 177,
+      "weight": 73,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "鹿島鹿角",
+      "registration_status": "本國球員",
+      "tenure_status": "加盟第1季",
+      "national_team_detail": "2014年東海・北信越大學選拔，參與Denso Cup；屬地區大學選拔，不能寫成日本A隊。未找到可靠國際A賽出場紀錄。（日文Wikipedia；川崎2017專訪）",
+      "intro": "沖繩出身、由愛知學院大學進入川崎的前鋒，2024年在鹿島轉踢防守中場並入選J1最佳十一人，2025年再隨鹿島奪冠。2026年6月加盟水手，現以中場登錄；由前線到中場的轉變，是讀懂其對抗與攻守支援的關鍵。（日文Wikipedia；2026-08-23，元川悦子／Soccer King）",
+      "timeline": [
+        {
+          "period": "年份未確立",
+          "team": "北丘FC（北丘小學）",
+          "category": "少年",
+          "milestone": "小一跟哥哥開始踢球；J.League年表早期年份不完整，起訖不推算。"
+        },
+        {
+          "period": "2007-2009",
+          "team": "南風原中學",
+          "category": "中學",
+          "milestone": ""
+        },
+        {
+          "period": "2010-2012",
+          "team": "知念高校",
+          "category": "高中",
+          "milestone": ""
+        },
+        {
+          "period": "2013-2016",
+          "team": "愛知學院大學",
+          "category": "大學",
+          "milestone": "2014年東海學生聯賽神射手、2014及2015年最佳十一人（川崎2017專訪）。"
+        },
+        {
+          "period": "2017",
+          "team": "川崎前鋒",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2018",
+          "team": "川崎前鋒",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2019",
+          "team": "川崎前鋒",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2020",
+          "team": "大分三神",
+          "category": "J1",
+          "milestone": "全年外借大分；不把該年川崎奪冠列作本人效力成就。"
+        },
+        {
+          "period": "2021",
+          "team": "川崎前鋒",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2022",
+          "team": "川崎前鋒",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2023",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2024",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2025",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2026特別",
+          "team": "鹿島鹿角",
+          "category": "J1百年構想聯賽",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2026/27",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。"
+        }
+      ],
+      "honors": [
+        "2017、2018、2021：川崎J1冠軍；2020年在大分外借，不計川崎該年冠軍。",
+        "2019：川崎聯賽盃、超級盃冠軍。",
+        "2024：J1最佳十一人；2025：鹿島J1冠軍。"
+      ],
+      "milestones": [
+        "2017年加入川崎，2018年J1出場增至27次，隨隊連續兩年奪冠。（J.League；日文Wikipedia）",
+        "2020年外借大分，2021年回川崎；2023年永久轉投鹿島。（J.League；日文Wikipedia）",
+        "2024年改踢防守中場並入選最佳十一人，2025年參與鹿島冠軍；2026年6月再轉橫濱。（Soccer King；轉會公告）"
+      ],
+      "tactical_traits": [
+        "由前鋒轉踢防守中場，保留強力對抗與搶回球權能力；2024年成為鹿島中場的重要屏障。（2026-08-23，元川悦子／Soccer King）",
+        "2025年在鬼木達指導下改善傳球及向前供應，攻勢不只依靠衝撞。（2026-08-23，Soccer King）",
+        "2026年8月22日對神戶，透過聲音及位置調整協助較年輕隊友，兼顧個人爭奪與集體防守秩序。（2026-08-23，Soccer King採訪分析）"
+      ],
+      "quirky_trivia": "父母替他取名「慶」，希望人生有喜悅；小時候喜歡海、釣魚及浮潛。高中曾短暫離開足球部準備升學，約一個月後回隊；入大學後更主動向教練要求加入，由B隊走上來。（2017，隠岐麻里奈／川崎專訪）",
+      "legacy_id": "jleague_yokohama_14",
+      "official_player_id": "1607292",
+      "team_slug": "yokohama-fm",
+      "name_ja": "知念 慶",
+      "birthplace": "沖縄県",
+      "season_start_age": 31,
+      "player_image": "https://static.f-marinos.com/uploads/images/w5ats1zp85f9whw3xnouzqk2.png",
+      "career": [
+        {
+          "season": null,
+          "team": "北丘FC（北丘小學）",
+          "competition": "少年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "小一跟哥哥開始踢球；J.League年表早期年份不完整，起訖不推算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "2017川崎／隠岐麻里奈採訪",
+              "url": "https://www.frontale.co.jp/f_spot/pickup/2017/03.html",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2007-2009",
+          "team": "南風原中學",
+          "competition": "中學",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2010-2012",
+          "team": "知念高校",
+          "competition": "高中",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2013-2016",
+          "team": "愛知學院大學",
+          "competition": "大學",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "2014年東海學生聯賽神射手、2014及2015年最佳十一人（川崎2017專訪）。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "川崎前鋒",
+          "competition": "J1",
+          "appearances": 4,
+          "goals": 1,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "川崎前鋒",
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 4,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "川崎前鋒",
+          "competition": "J1",
+          "appearances": 21,
+          "goals": 5,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "大分三神",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 3,
+          "status": "由川崎外借",
+          "notes": "全年外借大分；不把該年川崎奪冠列作本人效力成就。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "川崎前鋒",
+          "competition": "J1",
+          "appearances": 22,
+          "goals": 4,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "川崎前鋒",
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 7,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 21,
+          "goals": 5,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 33,
+          "goals": 3,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 4,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "鹿島鹿角",
+          "competition": "J1百年構想聯賽",
+          "appearances": 16,
+          "goals": 1,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 8,
+          "goals": 0,
+          "status": "",
+          "notes": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "橫濱水手官方球員頁",
+          "url": "https://www.f-marinos.com/team/player/player-detail/14",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "J.League逐季履歷",
+          "url": "https://www.jleague.jp/player/1607292/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "日文Wikipedia履歷路線",
+          "url": "https://ja.wikipedia.org/wiki/知念慶",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2017川崎／隠岐麻里奈採訪",
+          "url": "https://www.frontale.co.jp/f_spot/pickup/2017/03.html",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2026-08-23元川悦子採訪分析",
+          "url": "https://www.soccer-king.jp/news/japan/jl/20260823/2195885.html",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2025-12-07鹿島奪冠採訪",
+          "url": "https://www.soccer-king.jp/news/japan/jl/20251207/2096181.html",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2026-06-17橫濱轉會公告",
+          "url": "https://www.f-marinos.com/news/team/10177",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "Transfermarkt慣用腳",
+          "url": "https://www.transfermarkt.com/kei-chinen/profil/spieler/354106",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "verification_status": "verified",
+      "verified_at": "2026-10-10",
+      "registration_tags": [],
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
+      "trivia": [
+        {
+          "text": "父母替他取名「慶」，希望人生有喜悅；小時候喜歡海、釣魚及浮潛。高中曾短暫離開足球部準備升學，約一個月後回隊；入大學後更主動向教練要求加入，由B隊走上來。（2017，隠岐麻里奈／川崎專訪）",
+          "reliability": "具名採訪／可靠報道",
+          "sources": [
+            {
+              "label": "2017川崎／隠岐麻里奈採訪",
+              "url": "https://www.frontale.co.jp/f_spot/pickup/2017/03.html",
+              "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "2026-08-23元川悦子採訪分析",
+              "url": "https://www.soccer-king.jp/news/japan/jl/20260823/2195885.html",
+              "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "2025-12-07鹿島奪冠採訪",
+              "url": "https://www.soccer-king.jp/news/japan/jl/20251207/2096181.html",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        }
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-10-10",
+        "scope": "早期球會、學校及大學路線；逐年成年隊、租借及季中轉會；青年無統計連年合併。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "橫濱水手官方球員頁",
+            "url": "https://www.f-marinos.com/team/player/player-detail/14",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "J.League逐季履歷",
+            "url": "https://www.jleague.jp/player/1607292/",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "日文Wikipedia履歷路線",
+            "url": "https://ja.wikipedia.org/wiki/知念慶",
+            "accessed_at": "2026-10-10"
+          }
+        ],
+        "notes": "未確立的青年年份不按年齡推算；歷史及現季來源截點分開，沒有公開數字者保留空值。"
+      },
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 4,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "season": "2026特別",
+          "competition": "J1百年構想聯賽",
+          "appearances": 16,
+          "goals": 1,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1607292/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 8,
+          "goals": 0,
+          "as_of": "2026-10-09",
+          "sources": [
+            {
+              "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。"
+        }
+      ]
+    },
+    {
+      "id": "yokohama_15",
+      "club": "橫濱水手",
+      "number": "15",
+      "name_zh": "渡邊泰基",
+      "name_en": "TAIKI WATANABE",
+      "position": "DF",
+      "dob": "1999-04-22",
+      "age": 27,
+      "height": 181,
+      "weight": 80,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2024,
+      "prev_club": "新潟天鵝",
+      "registration_status": "本國球員",
+      "tenure_status": "效力第3季",
+      "national_team_detail": "2017年日本高校選拔（NEXT GENERATION MATCH），JFA亦列選拔候補名單；不是成年國家隊紀錄。未找到可靠成年A賽出場，青年累計數不推算。（JFA；日文Wikipedia）",
+      "intro": "新潟育成出身的左腳後衛，曾離開家鄉到前橋育英贏全國高校選手權。職業初期踢左閘，2020至2021年外借金澤，2023年在新潟改踢中堅後建立位置，2024年轉投水手。左路推進背景與中路身體對抗，構成其位置轉型特色。（J.League；NST新潟；Soccer Digest）",
+      "timeline": [
+        {
+          "period": "年份未確立",
+          "team": "新潟天鵝足球學校",
+          "category": "少年",
+          "milestone": "五歲開始參加，完整年份未確立；與Junior隊另列。"
+        },
+        {
+          "period": "2008-2011",
+          "team": "新潟天鵝Junior（櫻丘小學）",
+          "category": "少年",
+          "milestone": ""
+        },
+        {
+          "period": "2012-2014",
+          "team": "新潟天鵝U15（山潟中學）",
+          "category": "青年",
+          "milestone": ""
+        },
+        {
+          "period": "2015-2017",
+          "team": "前橋育英高校",
+          "category": "高中",
+          "milestone": "2016年度全國選手權亞軍、優秀球員；2017年度冠軍於2018年1月8日決賽取得。"
+        },
+        {
+          "period": "2018",
+          "team": "新潟天鵝",
+          "category": "J2",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2019",
+          "team": "新潟天鵝",
+          "category": "J2",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2020",
+          "team": "金澤薩維根",
+          "category": "J2",
+          "milestone": "2020年7月至2021年外借；2022年回新潟。"
+        },
+        {
+          "period": "2020",
+          "team": "新潟天鵝",
+          "category": "J2",
+          "milestone": "7月外借前聯賽0場；日文逐季表明列0，與J.League的「-」區分。"
+        },
+        {
+          "period": "2021",
+          "team": "金澤薩維根",
+          "category": "J2",
+          "milestone": "2020年7月至2021年外借；2022年回新潟。"
+        },
+        {
+          "period": "2022",
+          "team": "新潟天鵝",
+          "category": "J2",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2023",
+          "team": "新潟天鵝",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2024",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2025",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2026特別",
+          "team": "橫濱水手",
+          "category": "J1百年構想聯賽",
+          "milestone": "日文逐季表明列0場0球；與2026/27分列。"
+        },
+        {
+          "period": "2026/27",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "現季仍列正式陣容；沒有可靠出場總數，不以Data Site未列球員推算零。"
+        }
+      ],
+      "honors": [
+        "2016年度：全國高校選手權優秀球員。",
+        "2017年度：前橋育英全國高校選手權冠軍（決賽2018年1月）。",
+        "2022：新潟J2冠軍隊成員，聯賽6場。"
+      ],
+      "milestones": [
+        "2017年度高校選手權冠軍，決賽於2018年1月8日；同年加入新潟並在3月聯賽盃首次職業上陣。（Soccer Digest；日文Wikipedia）",
+        "2020年7月外借金澤，2021年J2出場37次射入2球；2022年回新潟。（J.League）",
+        "2023年由左閘改踢中堅並成為主力，2024年加盟橫濱。（2023-11-20，NST新潟；J.League）"
+      ],
+      "tactical_traits": [
+        "高校時期善於由左路持球推前及送傳中，左腳進攻底子早於中堅轉型。（2018-01-09，松尾祐希／Soccer Digest）",
+        "2023年中堅角色靠身體對抗應付大迫勇也、武藤嘉紀等前線球員；千葉和彦肯定其一對一能力。（2023-11-20，NST新潟採訪）",
+        "適應新潟高強度及控球打法時，要減少傳球失誤與不必要犯規；在中路出球及判斷上持續向千葉等學習。（2023-11-20，NST新潟）"
+      ],
+      "quirky_trivia": "五歲開始踢新潟足球學校，也常在Big Swan看主隊。中學後沒有直接升U18，父母支持他到前橋育英經歷不同環境；後來以新潟Junior出身首名職業簽約球員身份回到家鄉。（2021-09-10，金澤ZWEIGEN HEROZ／SportsNavi訪問）",
+      "legacy_id": "jleague_yokohama_15",
+      "official_player_id": "1504374",
+      "team_slug": "yokohama-fm",
+      "name_ja": "渡邊 泰基",
+      "birthplace": "新潟県",
+      "season_start_age": 27,
+      "player_image": "https://static.f-marinos.com/uploads/images/n91hw4kvcqegpcacaf2g6w5z.png",
+      "career": [
+        {
+          "season": null,
+          "team": "新潟天鵝足球學校",
+          "competition": "少年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "五歲開始參加，完整年份未確立；與Junior隊另列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "2021-09-10金澤訪問／SportsNavi刊載",
+              "url": "https://sports.yahoo.co.jp/official/detail/202109090034-spnaviow",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2008-2011",
+          "team": "新潟天鵝Junior（櫻丘小學）",
+          "competition": "少年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2012-2014",
+          "team": "新潟天鵝U15（山潟中學）",
+          "competition": "青年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2015-2017",
+          "team": "前橋育英高校",
+          "competition": "高中",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "2016年度全國選手權亞軍、優秀球員；2017年度冠軍於2018年1月8日決賽取得。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "新潟天鵝",
+          "competition": "J2",
+          "appearances": 21,
+          "goals": 0,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
             }
           ]
         },
