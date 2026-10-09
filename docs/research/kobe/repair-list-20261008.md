@@ -94,3 +94,14 @@ Batch 04 remains validation_failed. Caetano's 2025 joining year, state/national 
 ### Batch08 original-standard checkpoint
 
 4/4 accepted: 高山汐生、永戶勝也、本間積斯甸、山田海斗. Full original youth-to-present career, mixed二種 and loan-parent rows, current identity/portraits/feet, representative distinctions, individual tactical evidence and human stories repaired. Takayama left190/83;Nagato2025June andOutstandingPlayer notBestXI;Homma loan spell andParis training notcaps;Yamada192/70,MLSNextPro25/3 andACLbeforeleague debut corrected. OptionalHomma2024Kobe cupcount1/2 remains omitted pending match reconciliation;complete youth/parent totals unknown.27/39pass,12still require acceptance. EarlierLopes/Diego/JeanPatric gaps persist. Nextnewbatch09; roster/status stage separate.16tests pass.
+
+### Batch09 original-standard checkpoint — 2026-10-09
+
+| Player | Validated repairs | Remaining gap / coverage |
+|---|---|---|
+| #44 日高光輝 |177/72; earliestSuerte/school/Gamba route;Spain2022/23 loan31/1;2022ACL before2023J1;2026special11/1,current6/0;three specific traits andminimalist/PK story | Optional youth/cup totals unknown;status tags separate |
+| #45 相澤David |2003DOB/195-94;Fussa/NihonBunri/Hosei;Oita loanJul29 toJun30 2027;currentJ2 7/0;rightfoot;SoccerDigest technical evolution/brother story | Parent/special-season totals unavailable;existingHG/U21tags await separate stage |
+| #46 伊藤湊太 |2007Sep24/186-75;DaigoSSS/GambaKadoma/KyotoTachibana,notKobeYouth;U18 versusschool selection;three tactical examples andcycling-school story | No invented youth totals orcurrentinjury;status tags separate |
+| #53 渡邊隼斗 |2007Apr6/179-78/left;2026formalpromotion;U15champion/scoringhonour;postplay/heading/off-ball interview;rehabilitation story | OPEN:2024senior registrationcategory/date listedbyJLeague but no contemporary confirmation;retainresearch_incomplete |
+
+3/4accepted;16tests pass,0errors.30/39renewedpasses,9notyetaccepted:5unprocessed and4reviewedunresolved. PriorLopes/Diego/JeanPatric gaps persist. Publish supportedrepairs while keepingBatch09validation_failed. Nextnewbatch10; roster/statusstage separate.

@@ -3,7 +3,7 @@
   "club": "kobe",
   "club_name_zh": "神戶勝利船",
   "player_research_status": "in_progress",
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-09",
   "roster_players": 39,
   "baseline_complete_players": [],
   "batches": [
@@ -372,7 +372,7 @@
     {
       "id": "kobe-09",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 4,
       "players": [
         {
@@ -404,9 +404,23 @@
           "weight": 1
         }
       ],
-      "started_at": null,
+      "started_at": "2026-10-09",
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-10-09",
+          "text": "Original Nishikawa review3/4; Hidaka,Aizawa,Ito accepted. Watanabe remains incomplete pending2024 senior-registration category/date reconciliation. All supported repairs retained;16tests pass. Club30/39 accepted;9remaining. Status tags and prior Lopes/Diego/JeanPatric gaps separate."
+        }
+      ],
+      "reviewed_at": "2026-10-09",
+      "validated_players": [
+        "kobe_44",
+        "kobe_45",
+        "kobe_46"
+      ],
+      "unresolved_players": [
+        "kobe_53"
+      ]
     },
     {
       "id": "kobe-10",
@@ -852,67 +866,37 @@
       "player_id": "kobe_44",
       "number": "44",
       "name_zh": "日高光輝",
-      "status": "open",
-      "issues": [
-        "#44 日高光輝: fewer than two distinct non-current-club source domains",
-        "#44 日高光輝: generated or generic commentary copy remains",
-        "#44 日高光輝: commentary introduction is too thin",
-        "#44 日高光輝: career table is a summary, not a season-by-season history",
-        "#44 日高光輝: full career route has not been explicitly audited against an early-youth source",
-        "#44 日高光輝: career row 1 has no season",
-        "#44 日高光輝: insufficient concrete milestones",
-        "#44 日高光輝: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#44 日高光輝: birthplace not established",
-        "#44 日高光輝: official portrait missing",
-        "#44 日高光輝: recent season statistics not populated",
-        "#44 日高光輝: status tags not yet audited"
-      ]
+        "Status tags remain a separate stage; optional youth/cup/parent figures explicitly unknown."
+      ],
+      "reviewed_at": "2026-10-09",
+      "resolution": "Full original Nishikawa review passed 2026-10-09."
     },
     {
       "player_id": "kobe_45",
       "number": "45",
       "name_zh": "相澤David",
-      "status": "open",
-      "issues": [
-        "#45 相澤David: fewer than two distinct non-current-club source domains",
-        "#45 相澤David: generated or generic commentary copy remains",
-        "#45 相澤David: commentary introduction is too thin",
-        "#45 相澤David: career table is a summary, not a season-by-season history",
-        "#45 相澤David: full career route has not been explicitly audited against an early-youth source",
-        "#45 相澤David: career row 1 has no season",
-        "#45 相澤David: insufficient concrete milestones",
-        "#45 相澤David: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#45 相澤David: birthplace not established",
-        "#45 相澤David: official portrait missing",
-        "#45 相澤David: recent season statistics not populated",
-        "#45 相澤David: status tags not yet audited"
-      ]
+        "Status tags remain a separate stage; optional youth/cup/parent figures explicitly unknown."
+      ],
+      "reviewed_at": "2026-10-09",
+      "resolution": "Full original Nishikawa review passed 2026-10-09."
     },
     {
       "player_id": "kobe_46",
       "number": "46",
       "name_zh": "伊藤湊太",
-      "status": "open",
-      "issues": [
-        "#46 伊藤湊太: fewer than two distinct non-current-club source domains",
-        "#46 伊藤湊太: generated or generic commentary copy remains",
-        "#46 伊藤湊太: commentary introduction is too thin",
-        "#46 伊藤湊太: career table is a summary, not a season-by-season history",
-        "#46 伊藤湊太: full career route has not been explicitly audited against an early-youth source",
-        "#46 伊藤湊太: career row 1 has no season",
-        "#46 伊藤湊太: insufficient concrete milestones",
-        "#46 伊藤湊太: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#46 伊藤湊太: birthplace not established",
-        "#46 伊藤湊太: official portrait missing",
-        "#46 伊藤湊太: recent season statistics not populated",
-        "#46 伊藤湊太: status tags not yet audited"
-      ]
+        "Status tags remain a separate stage; optional youth/cup/parent figures explicitly unknown."
+      ],
+      "reviewed_at": "2026-10-09",
+      "resolution": "Full original Nishikawa review passed 2026-10-09."
     },
     {
       "player_id": "kobe_53",
@@ -920,21 +904,14 @@
       "name_zh": "渡邊隼斗",
       "status": "open",
       "issues": [
-        "#53 渡邊隼斗: fewer than two distinct non-current-club source domains",
-        "#53 渡邊隼斗: generated or generic commentary copy remains",
-        "#53 渡邊隼斗: commentary introduction is too thin",
-        "#53 渡邊隼斗: career table is a summary, not a season-by-season history",
-        "#53 渡邊隼斗: full career route has not been explicitly audited against an early-youth source",
-        "#53 渡邊隼斗: career row 1 has no season",
-        "#53 渡邊隼斗: insufficient concrete milestones",
-        "#53 渡邊隼斗: fewer than three player-specific tactical observations"
+        "Confirm2024 senior-registration category/date: current J.League career lists Kobe J1 and U18; club notices explicitly establish2025二種 only."
       ],
       "coverage": [
-        "#53 渡邊隼斗: birthplace not established",
-        "#53 渡邊隼斗: official portrait missing",
-        "#53 渡邊隼斗: recent season statistics not populated",
-        "#53 渡邊隼斗: status tags not yet audited"
-      ]
+        "Status tags remain separate.",
+        "Optional youth/cup totals unknown; actor/swimmer Wikipedia pages rejected."
+      ],
+      "reviewed_at": "2026-10-09",
+      "resolution": "Supported identity and substantive commentary repaired; research_incomplete pending2024 registration reconciliation."
     },
     {
       "player_id": "kobe_55",
@@ -1064,15 +1041,17 @@
       },
       {
         "player_id": "kobe_45",
-        "issue": "相澤デイビッド列於官方育成型外借名單（大分）；需核對生效日及修補註冊。"
+        "issue": "相澤デイビッド列於官方育成型外借名單（大分）；需核對生效日及修補註冊。",
+        "resolved_at": "2026-10-09",
+        "resolution": "July29 loan to Oita throughJune30 2027 confirmed; current2003DOB/195-94/right-foot and full university route repaired."
       },
       {
         "player_id": "kobe_57",
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 27,
-    "remaining_cards": 12,
+    "validated_players": 30,
+    "remaining_cards": 9,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },
