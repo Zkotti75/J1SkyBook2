@@ -154,3 +154,14 @@ Watanabe2024registration category/date still unconfirmed. Club andGekisaka expli
 - Reject actor/swimmer namesakes and2024NGMatch youth roster as evidence ofsenior registration.
 
 Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-10 — remaining gaps, 2026-10-09
+
+Gonda early timeline now passes: official Vegalta2021programme explicitly says2005二種, agreeing with JLsenior/U18 rows; unsupported2004senior span rejected, exact grant day left unknown. Irie2026/27grant andOnishi2025category remain unresolved; batch2/4 accepted; club34/39.
+
+- Read full Vegalta V PRESS2021vol11, explicit2005became二種 and2007professional promotion; correlate saved JL andKobe season table, FC Tokyo2006summary is not explicit2005denial.
+- Read full JFAcurrent both periods, new-season list throughOct7 containsIwamoto notIrie;2026onlyFeb3grant. ReadJuly6clubpending notice.
+- Read JLOnishi named1653834full2025senior/U18rows; searchcorrect湊太name,2種/二種,officialclub/JL. Do notborrowSeguchi/Watanabe footnotes.
+- All remaining failed batches now investigated sequentially02/04/06/09/10. Preserve compliantcards andTVBnames; missingrostername/status-tag stage separate.
+
+Accepted 34/39; 5 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.

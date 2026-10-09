@@ -507,16 +507,24 @@
         {
           "date": "2026-10-09",
           "text": "Miyahara accepted; Irie current2026/27 specialdesignation, Onishi2025 seniorcategory/date and Gonda2004/2005 registration remainunresolved. Supportedrepairs preserved;16tests pass."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Gonda early timeline now passes: official Vegalta2021programme explicitly says2005二種, agreeing with JLsenior/U18 rows; unsupported2004senior span rejected, exact grant day left unknown. Irie2026/27grant andOnishi2025category remain unresolved; batch2/4 accepted; club34/39."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Gonda passes; Irie2026/27grant andOnishi2025category unresolved. Gate2/4; npm test16passed."
         }
       ],
       "reviewed_at": "2026-10-09",
       "validated_players": [
-        "kobe_55"
+        "kobe_55",
+        "kobe_71"
       ],
       "unresolved_players": [
         "kobe_57",
-        "kobe_58",
-        "kobe_71"
+        "kobe_58"
       ]
     },
     {
@@ -992,12 +1000,13 @@
       "name_zh": "入江羚介",
       "status": "open",
       "issues": [
-        "Current2026/27 specialdesignation approval missing: Julyclub pending,currentJFAnewseason/currentJLroster absent; do not reuseFebruaryapproval as newseason grant."
+        "2026/27new-season specialdesignation grant unconfirmed;2026Feb3not interchangeable."
       ],
       "coverage": [
         "Optional youth/cup/parent totals remain unknown; status tags separate."
       ],
-      "reviewed_at": "2026-10-09"
+      "reviewed_at": "2026-10-09",
+      "resolution": "Gonda early timeline now passes: official Vegalta2021programme explicitly says2005二種, agreeing with JLsenior/U18 rows; unsupported2004senior span rejected, exact grant day left unknown. Irie2026/27grant andOnishi2025category remain unresolved; batch2/4 accepted; club34/39."
     },
     {
       "player_id": "kobe_58",
@@ -1005,25 +1014,25 @@
       "name_zh": "大西湊太",
       "status": "open",
       "issues": [
-        "Reconcile2025 seniorlisting with two-kindcategory/date; officialJuly31 promotionnotice doesnot explicitlyconfirm Onishi二種."
+        "2025senior/U18 listing confirmed; registration category/date unconfirmed."
       ],
       "coverage": [
         "Optional youth/cup/parent totals remain unknown; status tags separate."
       ],
-      "reviewed_at": "2026-10-09"
+      "reviewed_at": "2026-10-09",
+      "resolution": "Gonda early timeline now passes: official Vegalta2021programme explicitly says2005二種, agreeing with JLsenior/U18 rows; unsupported2004senior span rejected, exact grant day left unknown. Irie2026/27grant andOnishi2025category remain unresolved; batch2/4 accepted; club34/39."
     },
     {
       "player_id": "kobe_71",
       "number": "71",
       "name_zh": "權田修一",
-      "status": "open",
-      "issues": [
-        "Reconcile2004/2005 earliest youth/seniorregistration categories anddates; primary2005archive notread,currentJL2005senior row andofficial2006-onlysummary insufficient."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "Optional youth/cup/parent totals remain unknown; status tags separate."
       ],
-      "reviewed_at": "2026-10-09"
+      "reviewed_at": "2026-10-09",
+      "resolution": "Gonda early timeline now passes: official Vegalta2021programme explicitly says2005二種, agreeing with JLsenior/U18 rows; unsupported2004senior span rejected, exact grant day left unknown. Irie2026/27grant andOnishi2025category remain unresolved; batch2/4 accepted; club34/39."
     },
     {
       "player_id": "kobe_94",
@@ -1038,7 +1047,7 @@
     }
   ],
   "club_audit": {
-    "reviewed_at": "2026-10-08",
+    "reviewed_at": "2026-10-09",
     "baseline": "af46aeb",
     "passes": 0,
     "audited_players": 39,
@@ -1065,10 +1074,33 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 33,
-    "remaining_cards": 6,
+    "validated_players": 34,
+    "remaining_cards": 5,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
-    "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
+    "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md",
+    "remaining_batch_review": {
+      "reviewed_at": "2026-10-09",
+      "processed_batches": [
+        "kobe-02",
+        "kobe-04",
+        "kobe-06",
+        "kobe-09",
+        "kobe-10"
+      ],
+      "validated_players": 34,
+      "unresolved_players": [
+        "kobe_15",
+        "kobe_26",
+        "kobe_53",
+        "kobe_57",
+        "kobe_58"
+      ],
+      "new_passes": [
+        "kobe_9",
+        "kobe_71"
+      ],
+      "publication": "Publish supported repairs; failed batch status retained for unsettled evidence."
+    }
   },
   "research_method": "nishikawa-full-player-research"
 }
