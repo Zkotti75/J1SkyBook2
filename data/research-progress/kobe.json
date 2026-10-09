@@ -288,7 +288,7 @@
         },
         {
           "date": "2026-10-09",
-          "text": "Cup repaired2/0; youth identity and2019Potiguar7/16 remain unresolved. npm test16passed."
+          "text": "Cup repaired2/0; youth identity and2019Potiguar7/16 remain unresolved. npm test passed (15 test cases)."
         }
       ],
       "reviewed_at": "2026-10-09",
@@ -453,7 +453,7 @@
         },
         {
           "date": "2026-10-09",
-          "text": "2024registration category/date remains unconfirmed;2025二種 supported. npm test16passed."
+          "text": "2024registration category/date remains unconfirmed;2025二種 supported. npm test passed (15 test cases)."
         }
       ],
       "reviewed_at": "2026-10-09",
@@ -1099,7 +1099,18 @@
         "kobe_9",
         "kobe_71"
       ],
-      "publication": "Publish supported repairs; failed batch status retained for unsettled evidence."
+      "publication": "Publish supported repairs; failed batch status retained for unsettled evidence.",
+      "validation": {
+        "npm_test": "Passed at every checkpoint; 15 cases at02/04/06/09 and16 at10.",
+        "batch_gates": {
+          "kobe-02": "4/4",
+          "kobe-04": "2/3",
+          "kobe-06": "3/4",
+          "kobe-09": "3/4",
+          "kobe-10": "2/4"
+        },
+        "strict_ci": "Existing Urawa strict validation fails; Pages validation succeeds."
+      }
     }
   },
   "research_method": "nishikawa-full-player-research"
