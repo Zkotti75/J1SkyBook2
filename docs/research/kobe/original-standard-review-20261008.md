@@ -201,3 +201,5 @@ IrieFeb3approval confirmed for2026only;2026/27grant still unconfirmed. Onishi ab
 - Read suppliedGekisaka423752 fullnamedlist, JFA00036013 originalapproval,JL31542 dated2025notice. Clubprofile335 belongsHamasaki, notWatanabe. DQDmobilepage retrievalfailed; do notclaimread.
 
 Accepted 35/39; 4 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+Onishi source follow-up (2026-10-10): supplied Japanese Wikipedia does contain a named 2025 Type2 footnote. Recorded as secondary category evidence; it supplies no date. Feb7Gekisaka roster does not name Onishi. Actual registration date remains open;35/39accepted.
