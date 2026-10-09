@@ -133,3 +133,14 @@ Diego cup-goal gap resolved at0: whole Joinville2016cup onlyMurilo andEdsonRatin
 - Exactname/year/minutes searches confirm15/1195versus16; no full seasonmatchlogreconciliation. Do notlabel16allcomp/unusedbench/friendlywithoutproof.
 
 Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-06 — remaining gaps, 2026-10-09
+
+Jean Patric Bulgarian cup repaired to2 appearances/0goals using both match lineups. Youth entity and2019Potiguar7/16remain open; other3cards preserved; gate3/4 expected.
+
+- Read FCUpdate full career using correct jean-patrick slug;16/2 Potiguar and2/0 Bulgarian cup.
+- Read both Bulgarian-football cup match lineups: Sep19sub78 and Oct26start/half-time exit.
+- Read Globo Jan9 2015 youth match and FPF PDF lead; surname DosSantos differs from DosReis, no identity merge. RSSSF full tournament has only partial lineups, no complete appearance ledger.
+- Academia returned403; indexed7apps5starts2subs does not support starts-versus-apps explanation.
+
+Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
