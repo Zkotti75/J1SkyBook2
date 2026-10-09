@@ -8784,7 +8784,7 @@
           "period": "2014",
           "team": "Metropolitano U-20",
           "category": "青年青訓",
-          "milestone": "英語履歷列青年隊至2014；官方成年履歷同年開始，分别保留，不壓縮混合年。"
+          "milestone": "2014青年隊與職業一隊並行；一隊同年另列。混合註冊年不合併為純青年時期。"
         },
         {
           "period": "2014",
@@ -8796,7 +8796,7 @@
           "period": "2015",
           "team": "Metropolitano",
           "category": "Campeonato Catarinense",
-          "milestone": "場數有15（SoccerPunter／英文季表）及16（日文Wiki／zerozero）差異，待逐場核對；不是巴甲或Série D總數。"
+          "milestone": "FCUpdate與SoccerPunter／Academia分賽事表15場1195分鐘；zerozero／日文Wiki16場。未獲完整逐場上陣對照，無證據第16場是友賽或未上陣後備，場數仍留空。0球一致。"
         },
         {
           "period": "2015",
@@ -8808,7 +8808,7 @@
           "period": "2016",
           "team": "Joinville",
           "category": "巴乙 Série B",
-          "milestone": "全國聯賽17場0球；州賽18場0球另列。巴西盃3場，但入球0／1有來源落差，不加入總數。"
+          "milestone": "全國聯賽17場0球；州賽18場0球另列。巴西盃3場0球按FCUpdate，當年Joinville兩個入球者Murilo及Edson Ratinho，Ceará兩回合零入球，已排除Diego巴西盃1球。"
         },
         {
           "period": "2016",
@@ -8985,8 +8985,8 @@
           "competition": "青年青訓",
           "appearances": null,
           "goals": null,
-          "status": "青年／成年並行",
-          "notes": "英語履歷列青年隊至2014；官方成年履歷同年開始，分别保留，不壓縮混合年。",
+          "status": "青年／職業並行",
+          "notes": "2014青年隊與職業一隊並行；一隊同年另列。混合註冊年不合併為純青年時期。",
           "verification_status": "verified",
           "sources": [
             {
@@ -9025,7 +9025,7 @@
           "appearances": null,
           "goals": 0,
           "status": "職業球員",
-          "notes": "場數有15（SoccerPunter／英文季表）及16（日文Wiki／zerozero）差異，待逐場核對；不是巴甲或Série D總數。",
+          "notes": "FCUpdate與SoccerPunter／Academia分賽事表15場1195分鐘；zerozero／日文Wiki16場。未獲完整逐場上陣對照，無證據第16場是友賽或未上陣後備，場數仍留空。0球一致。",
           "verification_status": "research_incomplete",
           "sources": [
             {
@@ -9047,6 +9047,11 @@
               "label": "zerozero：具名巴西履歷及爭議場數",
               "url": "https://www.zerozero.pt/jogador/diego/448599",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "FCUpdate分賽事：2015州15/0及2016巴西盃3/0",
+              "url": "https://www.fcupdate.nl/voetballers/diego-jara-rodrigues/carriere",
+              "accessed_at": "2026-10-09"
             }
           ]
         },
@@ -9079,7 +9084,7 @@
           "appearances": 17,
           "goals": 0,
           "status": "職業球員",
-          "notes": "全國聯賽17場0球；州賽18場0球另列。巴西盃3場，但入球0／1有來源落差，不加入總數。",
+          "notes": "全國聯賽17場0球；州賽18場0球另列。巴西盃3場0球按FCUpdate，當年Joinville兩個入球者Murilo及Edson Ratinho，Ceará兩回合零入球，已排除Diego巴西盃1球。",
           "verification_status": "verified",
           "sources": [
             {
@@ -9096,6 +9101,26 @@
               "label": "ja Wikipedia：巴西及日本履歷導航／爭議數字不沿用",
               "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A8%E3%82%B4%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%A9%E3%83%BB%E3%83%AD%E3%83%89%E3%83%AA%E3%82%B2%E3%82%B9",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "FCUpdate分賽事：2015州15/0及2016巴西盃3/0",
+              "url": "https://www.fcupdate.nl/voetballers/diego-jara-rodrigues/carriere",
+              "accessed_at": "2026-10-09"
+            },
+            {
+              "label": "Globo2016-04-20：Joinville首回合入球者Murilo",
+              "url": "https://ge.globo.com/ms/futebol/copa-do-brasil/jogo/20-04-2016/comercial-ms-joinville/",
+              "accessed_at": "2026-10-09"
+            },
+            {
+              "label": "Lance2016-05-04：次回合唯一入球Edson Ratinho",
+              "url": "https://www.lance.com.br/futebol-nacional/com-gol-edson-ratinho-jec-vence-avanca-copa-brasil.html",
+              "accessed_at": "2026-10-09"
+            },
+            {
+              "label": "Santa Catarina足總2016-05-17：對Ceará兩回合各負0比1",
+              "url": "https://fcf.com.br/joinville-esta-fora-da-copa-do-brasil/",
+              "accessed_at": "2026-10-09"
             }
           ]
         },
@@ -9443,10 +9468,30 @@
           "label": "J.League Data Site：2026/27神戶逐場紀錄",
           "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
           "accessed_at": "2026-10-08"
+        },
+        {
+          "label": "FCUpdate分賽事：2015州15/0及2016巴西盃3/0",
+          "url": "https://www.fcupdate.nl/voetballers/diego-jara-rodrigues/carriere",
+          "accessed_at": "2026-10-09"
+        },
+        {
+          "label": "Globo2016-04-20：Joinville首回合入球者Murilo",
+          "url": "https://ge.globo.com/ms/futebol/copa-do-brasil/jogo/20-04-2016/comercial-ms-joinville/",
+          "accessed_at": "2026-10-09"
+        },
+        {
+          "label": "Lance2016-05-04：次回合唯一入球Edson Ratinho",
+          "url": "https://www.lance.com.br/futebol-nacional/com-gol-edson-ratinho-jec-vence-avanca-copa-brasil.html",
+          "accessed_at": "2026-10-09"
+        },
+        {
+          "label": "Santa Catarina足總2016-05-17：對Ceará兩回合各負0比1",
+          "url": "https://fcf.com.br/joinville-esta-fora-da-copa-do-brasil/",
+          "accessed_at": "2026-10-09"
         }
       ],
       "verification_status": "research_incomplete",
-      "verified_at": "2026-10-08",
+      "verified_at": "2026-10-09",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
       "season_stats": [
@@ -9511,7 +9556,7 @@
         }
       ],
       "career_audit": {
-        "reviewed_at": "2026-10-08",
+        "reviewed_at": "2026-10-09",
         "scope": "原版西川周作標準：完整身份、早期青訓、逐季成年及每段外借、代表隊、榮譽、具日期戰術與人物訪問。",
         "earliest_known_year": 2013,
         "sources": [
@@ -9534,12 +9579,32 @@
             "label": "松本：2017-01-11具日期外借公告",
             "url": "https://www.yamaga-fc.com/archives/82131",
             "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "FCUpdate分賽事：2015州15/0及2016巴西盃3/0",
+            "url": "https://www.fcupdate.nl/voetballers/diego-jara-rodrigues/carriere",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "Globo2016-04-20：Joinville首回合入球者Murilo",
+            "url": "https://ge.globo.com/ms/futebol/copa-do-brasil/jogo/20-04-2016/comercial-ms-joinville/",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "Lance2016-05-04：次回合唯一入球Edson Ratinho",
+            "url": "https://www.lance.com.br/futebol-nacional/com-gol-edson-ratinho-jec-vence-avanca-copa-brasil.html",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "Santa Catarina足總2016-05-17：對Ceará兩回合各負0比1",
+            "url": "https://fcf.com.br/joinville-esta-fora-da-copa-do-brasil/",
+            "accessed_at": "2026-10-09"
           }
         ],
         "notes": [
           "葡語Wikipedia具名頁查詢未取得條目，英語語言列表無葡語版；改讀日文及英文完整履歷。",
           "2013 Morrinhos採當年地方U18比賽報道，拒絕把少年時期當成年州賽。巴西學校名稱未建立。",
-          "2015 Metropolitano州賽15／16場及2016巴西盃0／1球有落差；保留爭議，整張卡不宣告通過。2017天皇盃採官方3場0球，舊季表1場不沿用。",
+          "2016巴西盃0球已由整隊四戰入球者與足總淘汰賽報核對：Murilo、Edson Ratinho各1，兩場Ceará無入球；採具名FCUpdate3場0球。2015 Metropolitano州15／16仍無逐場完整差額解釋，保留incomplete。2017天皇盃仍採官方3場0球。",
           "外借母會2017/2018及2014成年數字未知，不推造零場。",
           "TM直接開頁多次遇阻，但檢索取得具名完整preferred-foot欄，並由官方Q&A交叉核對。"
         ]

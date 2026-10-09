@@ -176,13 +176,29 @@
           "weight": 2
         }
       ],
-      "started_at": "2026-10-08",
+      "started_at": "2026-10-09",
       "completed_at": null,
       "notes": [
         {
           "date": "2026-10-08",
           "text": "Original Nishikawa review: Caetano and Ide pass. Diego rebuilt but research_incomplete: Metropolitano 2015 state appearances 15/16 and Joinville 2016 Brazilian Cup goals 0/1 require match-level reconciliation. Do not mark batch completed."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Diego cup-goal gap resolved at0: whole Joinville2016cup onlyMurilo andEdsonRatinho goals. 2015Metropolitano15/16apps remains genuinely unresolved; cardincomplete andbatch2/3 accepted."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Cup goals resolved to0 via matchscorers; 2015 Metropolitano15/16apps still unresolved."
         }
+      ],
+      "reviewed_at": "2026-10-09",
+      "validated_players": [
+        "kobe_16",
+        "kobe_18"
+      ],
+      "unresolved_players": [
+        "kobe_15"
       ]
     },
     {
@@ -675,14 +691,14 @@
       "name_zh": "迪亞高",
       "status": "open",
       "issues": [
-        "2015 Metropolitano Catarinense 15 versus 16 appearances.",
-        "2016 Joinville Copa do Brasil 0 versus 1 goal."
+        "2015 Metropolitano Catarinense15 versus16 appearances: full per-match differential unestablished; goals0consistent."
       ],
       "coverage": [
         "2014 senior, loan-parent 2017/2018 and complete early youth figures unavailable.",
         "status tags remain separate"
       ],
-      "resolution": "Full card rebuilt and sourced; incomplete until competition disputes are reconciled."
+      "resolution": "Diego cup-goal gap resolved at0: whole Joinville2016cup onlyMurilo andEdsonRatinho goals. 2015Metropolitano15/16apps remains genuinely unresolved; cardincomplete andbatch2/3 accepted.",
+      "reviewed_at": "2026-10-09"
     },
     {
       "player_id": "kobe_16",

@@ -123,3 +123,13 @@ Lopes resolved; kobe-02 now 4/4 accepted. Brazil national/state/starts separated
 - Retain Soccerway12 alternative and reject unexplained extra goal; official final11 agrees independent report ledger. RawACA403; search excerpt suggested starts19vsapps26, relyfullFCUpdate notunreadtable.
 
 Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-04 — remaining gaps, 2026-10-09
+
+Diego cup-goal gap resolved at0: whole Joinville2016cup onlyMurilo andEdsonRatinho goals. 2015Metropolitano15/16apps remains genuinely unresolved; cardincomplete andbatch2/3 accepted.
+
+- Read FCUpdate full namedcareer:2015Catarinense15/0,2016Copa3/0. Read GloboApr20Murilo, LanceMay4EdsonRatinho,FCFMay17bothCearálegs0/1.
+- SoccerPunter full fetch returnedchallenge111chars; Playmaker/zerozero403; TMperformance onlyprofile returned, notseasonstats. Do notclaim those retrievedmatchtables.
+- Exactname/year/minutes searches confirm15/1195versus16; no full seasonmatchlogreconciliation. Do notlabel16allcomp/unusedbench/friendlywithoutproof.
+
+Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
