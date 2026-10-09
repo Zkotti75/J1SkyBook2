@@ -54,7 +54,7 @@
     {
       "id": "kobe-02",
       "kind": "player_research",
-      "status": "validation_failed",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -86,8 +86,8 @@
           "weight": 2
         }
       ],
-      "started_at": "2026-10-08",
-      "completed_at": null,
+      "started_at": "2026-10-09",
+      "completed_at": "2026-10-09",
       "notes": [
         {
           "date": "2026-10-08",
@@ -96,8 +96,20 @@
         {
           "date": "2026-10-08",
           "text": "Original Nishikawa review: Goke, Ohgihara and Ideguchi pass. Lopes remains research_incomplete: Brazil competition-scope differences and Lion City 11 versus 12 league goals. Do not mark batch completed."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Lopes resolved; kobe-02 now 4/4 accepted. Brazil national/state/starts separated, SPL working figure19 appearances11 goals independently checked against nine club match reports and final two league scorelines. Existing commentary preserved."
         }
-      ]
+      ],
+      "reviewed_at": "2026-10-09",
+      "validated_players": [
+        "kobe_5",
+        "kobe_6",
+        "kobe_7",
+        "kobe_9"
+      ],
+      "unresolved_players": []
     },
     {
       "id": "kobe-03",
@@ -609,16 +621,15 @@
       "player_id": "kobe_9",
       "number": "9",
       "name_zh": "安達臣・盧比斯",
-      "status": "open",
-      "issues": [
-        "Avaí 2014/2015 and Athletico 2016 national/state competition scope disputed.",
-        "Lion City 2025/26: departure notice 11 league goals versus Soccerway 12; reconcile match records."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "最早少年路線已列；Sport／São José及Internacional起年有兩來源落差，保留未決。",
         "Tombense母會持有權與每段租借分列；2014 Avaí聯賽數字及母會零出場說法尚未獨立逐年核實。",
         "status tags remain separate"
-      ]
+      ],
+      "reviewed_at": "2026-10-09",
+      "resolution": "Lopes resolved; kobe-02 now 4/4 accepted. Brazil national/state/starts separated, SPL working figure19 appearances11 goals independently checked against nine club match reports and final two league scorelines. Existing commentary preserved."
     },
     {
       "player_id": "kobe_10",
@@ -1022,8 +1033,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 32,
-    "remaining_cards": 7,
+    "validated_players": 33,
+    "remaining_cards": 6,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },

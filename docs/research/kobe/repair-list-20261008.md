@@ -129,3 +129,13 @@ JLeague2023J2MVP/bestXIandJune4goal4assist,dated2023Aug19leftkneemajorinjury/202
 CurrentclubandDataSite3J1appearances/153minutes/1goal asOct9;JLoverview2/1laggingbutthirdgameinmatchhistory. Final2026special18/8notMayinterim16/7. Optionalcup/state/youth/parent/adultcaps totals unknown,notguessed.
 
 Batchgate1/1; npmtest16pass,0errors; queuecompleted. Club32/39accepted,7reviewedunresolved:Lopes/Diego/JeanPatric/Watanabe/Irie/Onishi/Gonda. All elevenoriginal batchesprocessed; notclubcomplete because unresolved remain. No fullclubstrictgate. Statusandrosterstage remainseparate. PublishmainandverifyPageslive.
+
+## kobe-02 — remaining gaps, 2026-10-09
+
+Lopes resolved; kobe-02 now 4/4 accepted. Brazil national/state/starts separated, SPL working figure19 appearances11 goals independently checked against nine club match reports and final two league scorelines. Existing commentary preserved.
+
+- FCUpdate full career page: national/state/cup separate; 2013 national1+state1 notnational2, Marcílio2014 16/6, Avaí2014 33/4 and2015 26/5, Athletico2016 national4/0.
+- Read official Lion City WP posts full article bodies; Sep22two,Feb1two,Feb15one,Feb28one,Mar7one,Mar15one,Apr12one,Apr20one,Apr26one=11. Mar15report explicitlyeighth. SPLMay10/17scorelines0/2and0/4noadditional.
+- Retain Soccerway12 alternative and reject unexplained extra goal; official final11 agrees independent report ledger. RawACA403; search excerpt suggested starts19vsapps26, relyfullFCUpdate notunreadtable.
+
+Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
