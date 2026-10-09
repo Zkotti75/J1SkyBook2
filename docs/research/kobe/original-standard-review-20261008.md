@@ -89,3 +89,17 @@ Ito2007-09-24/186-75/KyotoTachibana correctsMayDOB/178-70/falseAcademy promotion
 Watanabe2007-04-06/179-78/left-foot and2026 fullprofessional promotion corrected; prior2種/right-foot falsecurrentclaims removed. His2022U15 title/scoring honour,2025rehabilitation/heading and2026off-ball development documented. JapaneseWikipedia unsuffixedpage is actor1989;Englishpage swimmer1993, both rejected. He remains research_incomplete: J.League career lists2024KobeJ1, but club promotion/selection notices explicitly only establish2025二種;2024 category/date lack contemporary confirmation.2024row preserved as unconfirmed, no statistics inferred from dashes.
 
 Batch gate3/4; queuevalidation_failed with namedWatanabe gap, not falsely completed. npmtest16passed,0errors; existing wider research warnings remain.30/39existingKobe cards accepted,9still require acceptance (5unprocessed and4reviewed unresolved includingLopes/Diego/JeanPatric/Watanabe). Status tags and remaining roster additions separate. Batch08published98da2cc withlivecheckpoint confirmed. Nextnewbatch10; no automatic continuation.
+
+## kobe-10 — 2026-10-09
+
+All four assigned cards rebuilt against the original Nishikawa standard, preserving TVB names, shared rules and unrelated cards. Miyahara passes. Irie, Onishi and Gonda remain research_incomplete with named registration gaps.31/39accepted,8remaining(1unprocessed plus7reviewedunresolved).
+
+Miyahara birthday2005Apr7/174-71/2025JulyKobe corrected; UrbanPegasus/RIPACE/Kokoku notRyukeiKashiwa. Contemporary2023departure establishes earlyPoland; youth25/3 andII9/0 separate fromfirstteamunknown. JsLINK/Rakuten provide threeindividualtraits andPodolski/language/foodstory.
+
+Irie2004Nov5/183-74/Meiwa/FCTokyoMusashi/Teikyo/Juntendo correctsfalseKobeYouth.2027Janplannedjoin,notcompleted2026signing. JFA2026Feb3approval confirmed; current2026-2027list andJLroster absent despiteJul6pendingannouncement. Currentgrant unresolved. SD/University fullinterviews supporttraits andescortchildstory.
+
+Onishi2007Apr12/172-63/formal2026promotion corrected; Yum esaki/Jinga/Kobe route,2022U15final1goal1assist,2024winner/celebration and2025WESTtitle preserved. Threeindividualtraits andhumanstory sourced. JL2025seniorlisting present,Jul31notice notexplicit二種forOnishi; category/date remainsopen,notcopiedfromSeguchi.
+
+Gonda earliestSaginuma/schools,2004/05/06mixedrows,allannualTokyo/Tosu/Shimizu,Austria2/15,Portugal1/14/0plusparent,Hungary4and2025SepKobe restored.2024KobeEmperorCup andunsupported2021award removed; JLeague2023/2024/2026awards retained. SDbuild-up,DailyGermanysaves,VENEXreststory supported. Early2004/2005two-kindcategory/date notconfirmedfromprimaryarchives,retainincomplete.
+
+Batchgate1/4;queuevalidation_failed; npmtest16pass,0errors. PriorLopes/Diego/JeanPatric/Watanabe gapsremainopen. Publish supportedresearch beforestartingkobe-11. Rosterandstatusstage separate.

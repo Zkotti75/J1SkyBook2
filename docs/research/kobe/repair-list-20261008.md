@@ -105,3 +105,17 @@ Batch 04 remains validation_failed. Caetano's 2025 joining year, state/national 
 | #53 渡邊隼斗 |2007Apr6/179-78/left;2026formalpromotion;U15champion/scoringhonour;postplay/heading/off-ball interview;rehabilitation story | OPEN:2024senior registrationcategory/date listedbyJLeague but no contemporary confirmation;retainresearch_incomplete |
 
 3/4accepted;16tests pass,0errors.30/39renewedpasses,9notyetaccepted:5unprocessed and4reviewedunresolved. PriorLopes/Diego/JeanPatric gaps persist. Publish supportedrepairs while keepingBatch09validation_failed. Nextnewbatch10; roster/statusstage separate.
+
+## kobe-10 — 2026-10-09
+
+All four assigned cards rebuilt against the original Nishikawa standard, preserving TVB names, shared rules and unrelated cards. Miyahara passes. Irie, Onishi and Gonda remain research_incomplete with named registration gaps.31/39accepted,8remaining(1unprocessed plus7reviewedunresolved).
+
+Miyahara birthday2005Apr7/174-71/2025JulyKobe corrected; UrbanPegasus/RIPACE/Kokoku notRyukeiKashiwa. Contemporary2023departure establishes earlyPoland; youth25/3 andII9/0 separate fromfirstteamunknown. JsLINK/Rakuten provide threeindividualtraits andPodolski/language/foodstory.
+
+Irie2004Nov5/183-74/Meiwa/FCTokyoMusashi/Teikyo/Juntendo correctsfalseKobeYouth.2027Janplannedjoin,notcompleted2026signing. JFA2026Feb3approval confirmed; current2026-2027list andJLroster absent despiteJul6pendingannouncement. Currentgrant unresolved. SD/University fullinterviews supporttraits andescortchildstory.
+
+Onishi2007Apr12/172-63/formal2026promotion corrected; Yum esaki/Jinga/Kobe route,2022U15final1goal1assist,2024winner/celebration and2025WESTtitle preserved. Threeindividualtraits andhumanstory sourced. JL2025seniorlisting present,Jul31notice notexplicit二種forOnishi; category/date remainsopen,notcopiedfromSeguchi.
+
+Gonda earliestSaginuma/schools,2004/05/06mixedrows,allannualTokyo/Tosu/Shimizu,Austria2/15,Portugal1/14/0plusparent,Hungary4and2025SepKobe restored.2024KobeEmperorCup andunsupported2021award removed; JLeague2023/2024/2026awards retained. SDbuild-up,DailyGermanysaves,VENEXreststory supported. Early2004/2005two-kindcategory/date notconfirmedfromprimaryarchives,retainincomplete.
+
+Batchgate1/4;queuevalidation_failed; npmtest16pass,0errors. PriorLopes/Diego/JeanPatric/Watanabe gapsremainopen. Publish supportedresearch beforestartingkobe-11. Rosterandstatusstage separate.

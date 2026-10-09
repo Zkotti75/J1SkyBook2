@@ -425,7 +425,7 @@
     {
       "id": "kobe-10",
       "kind": "player_research",
-      "status": "queued",
+      "status": "validation_failed",
       "capacity_points": 5,
       "players": [
         {
@@ -457,9 +457,23 @@
           "weight": 2
         }
       ],
-      "started_at": null,
+      "started_at": "2026-10-09",
       "completed_at": null,
-      "notes": []
+      "notes": [
+        {
+          "date": "2026-10-09",
+          "text": "Miyahara accepted; Irie current2026/27 specialdesignation, Onishi2025 seniorcategory/date and Gonda2004/2005 registration remainunresolved. Supportedrepairs preserved;16tests pass."
+        }
+      ],
+      "reviewed_at": "2026-10-09",
+      "validated_players": [
+        "kobe_55"
+      ],
+      "unresolved_players": [
+        "kobe_57",
+        "kobe_58",
+        "kobe_71"
+      ]
     },
     {
       "id": "kobe-11",
@@ -917,23 +931,12 @@
       "player_id": "kobe_55",
       "number": "55",
       "name_zh": "宮原勇太",
-      "status": "open",
-      "issues": [
-        "#55 宮原勇太: fewer than two distinct non-current-club source domains",
-        "#55 宮原勇太: generated or generic commentary copy remains",
-        "#55 宮原勇太: commentary introduction is too thin",
-        "#55 宮原勇太: career table is a summary, not a season-by-season history",
-        "#55 宮原勇太: full career route has not been explicitly audited against an early-youth source",
-        "#55 宮原勇太: career row 1 has no season",
-        "#55 宮原勇太: insufficient concrete milestones",
-        "#55 宮原勇太: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#55 宮原勇太: birthplace not established",
-        "#55 宮原勇太: official portrait missing",
-        "#55 宮原勇太: recent season statistics not populated",
-        "#55 宮原勇太: status tags not yet audited"
-      ]
+        "Optional youth/cup/parent totals remain unknown; status tags separate."
+      ],
+      "reviewed_at": "2026-10-09"
     },
     {
       "player_id": "kobe_57",
@@ -941,21 +944,12 @@
       "name_zh": "入江羚介",
       "status": "open",
       "issues": [
-        "#57 入江羚介: fewer than two distinct non-current-club source domains",
-        "#57 入江羚介: generated or generic commentary copy remains",
-        "#57 入江羚介: commentary introduction is too thin",
-        "#57 入江羚介: career table is a summary, not a season-by-season history",
-        "#57 入江羚介: full career route has not been explicitly audited against an early-youth source",
-        "#57 入江羚介: career row 1 has no season",
-        "#57 入江羚介: insufficient concrete milestones",
-        "#57 入江羚介: fewer than three player-specific tactical observations"
+        "Current2026/27 specialdesignation approval missing: Julyclub pending,currentJFAnewseason/currentJLroster absent; do not reuseFebruaryapproval as newseason grant."
       ],
       "coverage": [
-        "#57 入江羚介: birthplace not established",
-        "#57 入江羚介: official portrait missing",
-        "#57 入江羚介: recent season statistics not populated",
-        "#57 入江羚介: status tags not yet audited"
-      ]
+        "Optional youth/cup/parent totals remain unknown; status tags separate."
+      ],
+      "reviewed_at": "2026-10-09"
     },
     {
       "player_id": "kobe_58",
@@ -963,21 +957,12 @@
       "name_zh": "大西湊太",
       "status": "open",
       "issues": [
-        "#58 大西湊太: fewer than two distinct non-current-club source domains",
-        "#58 大西湊太: generated or generic commentary copy remains",
-        "#58 大西湊太: commentary introduction is too thin",
-        "#58 大西湊太: career table is a summary, not a season-by-season history",
-        "#58 大西湊太: full career route has not been explicitly audited against an early-youth source",
-        "#58 大西湊太: career row 1 has no season",
-        "#58 大西湊太: insufficient concrete milestones",
-        "#58 大西湊太: fewer than three player-specific tactical observations"
+        "Reconcile2025 seniorlisting with two-kindcategory/date; officialJuly31 promotionnotice doesnot explicitlyconfirm Onishi二種."
       ],
       "coverage": [
-        "#58 大西湊太: birthplace not established",
-        "#58 大西湊太: official portrait missing",
-        "#58 大西湊太: recent season statistics not populated",
-        "#58 大西湊太: status tags not yet audited"
-      ]
+        "Optional youth/cup/parent totals remain unknown; status tags separate."
+      ],
+      "reviewed_at": "2026-10-09"
     },
     {
       "player_id": "kobe_71",
@@ -985,20 +970,12 @@
       "name_zh": "權田修一",
       "status": "open",
       "issues": [
-        "#71 權田修一: fewer than two distinct non-current-club source domains",
-        "#71 權田修一: generated or generic commentary copy remains",
-        "#71 權田修一: career table is a summary, not a season-by-season history",
-        "#71 權田修一: full career route has not been explicitly audited against an early-youth source",
-        "#71 權田修一: career row 1 has no season",
-        "#71 權田修一: insufficient concrete milestones",
-        "#71 權田修一: fewer than three player-specific tactical observations"
+        "Reconcile2004/2005 earliest youth/seniorregistration categories anddates; primary2005archive notread,currentJL2005senior row andofficial2006-onlysummary insufficient."
       ],
       "coverage": [
-        "#71 權田修一: birthplace not established",
-        "#71 權田修一: official portrait missing",
-        "#71 權田修一: recent season statistics not populated",
-        "#71 權田修一: status tags not yet audited"
-      ]
+        "Optional youth/cup/parent totals remain unknown; status tags separate."
+      ],
+      "reviewed_at": "2026-10-09"
     },
     {
       "player_id": "kobe_94",
@@ -1050,8 +1027,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 30,
-    "remaining_cards": 9,
+    "validated_players": 31,
+    "remaining_cards": 8,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },
