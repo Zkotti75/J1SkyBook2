@@ -478,7 +478,7 @@
     {
       "id": "kobe-11",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 2,
       "players": [
         {
@@ -489,9 +489,14 @@
           "weight": 2
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-09",
+      "completed_at": "2026-10-09",
+      "notes": [],
+      "reviewed_at": "2026-10-09",
+      "validated_players": [
+        "kobe_94"
+      ],
+      "unresolved_players": []
     }
   ],
   "status_tag_stage": {
@@ -981,22 +986,12 @@
       "player_id": "kobe_94",
       "number": "94",
       "name_zh": "艾歷斯",
-      "status": "open",
-      "issues": [
-        "#94 艾歷斯: fewer than two distinct non-current-club source domains",
-        "#94 艾歷斯: generated or generic commentary copy remains",
-        "#94 艾歷斯: commentary introduction is too thin",
-        "#94 艾歷斯: career table is a summary, not a season-by-season history",
-        "#94 艾歷斯: full career route has not been explicitly audited against an early-youth source",
-        "#94 艾歷斯: career row 1 has no season",
-        "#94 艾歷斯: insufficient concrete milestones",
-        "#94 艾歷斯: fewer than three player-specific tactical observations"
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
-        "#94 艾歷斯: official portrait missing",
-        "#94 艾歷斯: recent season statistics not populated",
-        "#94 艾歷斯: status tags not yet audited"
-      ]
+        "Optional youth/state/cup/parent and adultcaps totals remain unknown; status tags separate."
+      ],
+      "reviewed_at": "2026-10-09"
     }
   ],
   "club_audit": {
@@ -1027,8 +1022,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 31,
-    "remaining_cards": 8,
+    "validated_players": 32,
+    "remaining_cards": 7,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md"
   },

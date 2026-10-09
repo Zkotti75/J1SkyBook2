@@ -103,3 +103,13 @@ Onishi2007Apr12/172-63/formal2026promotion corrected; Yum esaki/Jinga/Kobe route
 Gonda earliestSaginuma/schools,2004/05/06mixedrows,allannualTokyo/Tosu/Shimizu,Austria2/15,Portugal1/14/0plusparent,Hungary4and2025SepKobe restored.2024KobeEmperorCup andunsupported2021award removed; JLeague2023/2024/2026awards retained. SDbuild-up,DailyGermanysaves,VENEXreststory supported. Early2004/2005two-kindcategory/date notconfirmedfromprimaryarchives,retainincomplete.
 
 Batchgate1/4;queuevalidation_failed; npmtest16pass,0errors. PriorLopes/Diego/JeanPatric/Watanabe gapsremainopen. Publish supportedresearch beforestartingkobe-11. Rosterandstatusstage separate.
+
+## kobe-11 — 2026-10-09
+
+Erik #94 passes original Nishikawa standard. Retained September9complete-return and2025loan facts/TVB name. Identity/portrait locked official395, rightfoot exactTM262016. FullGoiás2004youth,2013U20mixed andannualprofessional Brazil/Japan/China tocurrent; PalmeirasandMachida parentloanrowsseparate. Brazilnational121/31andChinese48/15crosscheckofficial;state/cup/allcompnotmixed.
+
+JLeague2023J2MVP/bestXIandJune4goal4assist,dated2023Aug19leftkneemajorinjury/2024Mayreturn,SDvitalarea scanning/sprinttraining,Junecreativepassing andSkibbeversatility,fullfamilyeducation/Chinaisolation story supported. Portuguese-firstWiki thenJA/EN;Globo2015familyprimaryresolves10-yearoldyouthstart vsPT11. RSSSFfullPanlineups+GloboJuly25game resolvePTtableomittedbronze:Pan5/1,MarchU23friendlies2/0,U20Toulon1/1 separate;notadultcaps.
+
+CurrentclubandDataSite3J1appearances/153minutes/1goal asOct9;JLoverview2/1laggingbutthirdgameinmatchhistory. Final2026special18/8notMayinterim16/7. Optionalcup/state/youth/parent/adultcaps totals unknown,notguessed.
+
+Batchgate1/1; npmtest16pass,0errors; queuecompleted. Club32/39accepted,7reviewedunresolved:Lopes/Diego/JeanPatric/Watanabe/Irie/Onishi/Gonda. All elevenoriginal batchesprocessed; notclubcomplete because unresolved remain. No fullclubstrictgate. Statusandrosterstage remainseparate. PublishmainandverifyPageslive.
