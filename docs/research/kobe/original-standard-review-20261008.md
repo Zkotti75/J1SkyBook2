@@ -144,3 +144,13 @@ Jean Patric Bulgarian cup repaired to2 appearances/0goals using both match lineu
 - Academia returned403; indexed7apps5starts2subs does not support starts-versus-apps explanation.
 
 Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-09 — remaining gaps, 2026-10-09
+
+Watanabe2024registration category/date still unconfirmed. Club andGekisaka explicitly support2025二種; JL2024senior/U18 listing preserved without inventing a category or zero appearances. Other3cards preserved;3/4 accepted.
+
+- Targeted official searches using渡辺/渡邊,2種/第2種,追加登録 and2024; no readable dated2024registration notice.
+- Read Gekisaka named footballer2007-04-06, only2025二種 explicit. Reuse saved clubJuly31promotion and JLyearly rows.
+- Reject actor/swimmer namesakes and2024NGMatch youth roster as evidence ofsenior registration.
+
+Accepted 33/39; 6 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
