@@ -246,7 +246,7 @@
     {
       "id": "kobe-06",
       "kind": "player_research",
-      "status": "validation_failed",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -279,7 +279,7 @@
         }
       ],
       "started_at": "2026-10-09",
-      "completed_at": null,
+      "completed_at": "2026-10-09",
       "notes": [
         {
           "date": "2026-10-08",
@@ -300,17 +300,20 @@
         {
           "date": "2026-10-09",
           "text": "2019apps16 resolved by user; youth entity remains unconfirmed."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "JeanPatric youth identity resolved by user-supplied fullGloboApr27report: exGrêmioOsasco, earlierVitória, SãoPauloU20three-year contract. AddVitória namedunknown-date row, reject uncorroboratedAudax/2013asconfirmedtimeline, preserve allprofessionalresearch. Cardverified;06gate4/4 expected,36/39accepted."
         }
       ],
       "reviewed_at": "2026-10-10",
       "validated_players": [
+        "kobe_26",
         "kobe_28",
         "kobe_29",
         "kobe_31"
       ],
-      "unresolved_players": [
-        "kobe_26"
-      ]
+      "unresolved_players": []
     },
     {
       "id": "kobe-07",
@@ -822,16 +825,14 @@
       "player_id": "kobe_26",
       "number": "26",
       "name_zh": "真・柏德歷",
-      "status": "open",
-      "issues": [
-        "Youth Audax/Grêmio Osasco registration entity and2013start unconfirmed;2019appearance total noweditorially resolved16."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "Status tags remain separate.",
         "Unknown youth/school totals and parent/Grêmio Anápolis figures explicit."
       ],
       "reviewed_at": "2026-10-10",
-      "resolution": "JeanPatric2019Potiguar16apps adopted by user editorial decision, backed by savedFCUpdate16/2. Youth registration entity remains unresolved;06gate3/4."
+      "resolution": "JeanPatric youth identity resolved by user-supplied fullGloboApr27report: exGrêmioOsasco, earlierVitória, SãoPauloU20three-year contract. AddVitória namedunknown-date row, reject uncorroboratedAudax/2013asconfirmedtimeline, preserve allprofessionalresearch. Cardverified;06gate4/4 expected,36/39accepted."
     },
     {
       "player_id": "kobe_28",
@@ -1106,8 +1107,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 35,
-    "remaining_cards": 4,
+    "validated_players": 36,
+    "remaining_cards": 3,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md",
     "remaining_batch_review": {
@@ -1159,6 +1160,20 @@
         "kobe_58"
       ],
       "note": "SuppliedOnishiFeb7date notsupportedby namedlist;Watanabe2024andIrie2026/27remainopen. TVBnames17/23confirmed;cardsnotyetcreated."
+    },
+    "latest_gap_checkpoint": {
+      "date": "2026-10-10",
+      "resolved": "kobe_26 youth identity fromGloboApr27report",
+      "validated_players": 36,
+      "unresolved_players": [
+        "kobe_53",
+        "kobe_57",
+        "kobe_58"
+      ],
+      "missing_cards": [
+        "17 高橋壹晟",
+        "23 岩本悠庵"
+      ]
     }
   },
   "research_method": "nishikawa-full-player-research"

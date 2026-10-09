@@ -203,3 +203,13 @@ IrieFeb3approval confirmed for2026only;2026/27grant still unconfirmed. Onishi ab
 Accepted 35/39; 4 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
 
 Onishi source follow-up (2026-10-10): supplied Japanese Wikipedia does contain a named 2025 Type2 footnote. Recorded as secondary category evidence; it supplies no date. Feb7Gekisaka roster does not name Onishi. Actual registration date remains open;35/39accepted.
+
+## kobe-06 — remaining gaps, 2026-10-10
+
+JeanPatric youth identity resolved by user-supplied fullGloboApr27report: exGrêmioOsasco, earlierVitória, SãoPauloU20three-year contract. AddVitória namedunknown-date row, reject uncorroboratedAudax/2013asconfirmedtimeline, preserve allprofessionalresearch. Cardverified;06gate4/4 expected,36/39accepted.
+
+- Read fullGloboEsporte2015-04-27original througholdhostredirect anddirectfetch; article explicitlyexGrêmioOsasco,Vitória,three-yearcontract,17years,Flamengo3chapéuslink.
+- Originalarticledate ispublication/report date; do notclaim exactcontractsignatureor registration day beyondsource. Youth dates/statsunknown are permitted.
+- Preserve earlieragencyAudax alternative inprovenance; noautomaticclubrename, no invented2013start.
+
+Accepted 36/39; 3 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.

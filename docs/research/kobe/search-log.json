@@ -3641,6 +3641,114 @@
         }
       ],
       "result": "SuppliedWiki DOES support Onishi2025Type2 note at secondary-source level. It has no date andGekisakaFeb7list has noOnishi. Registration date remains incomplete."
+    },
+    {
+      "batch": "kobe-06",
+      "date": "2026-10-10",
+      "phase": "remaining-gap-remediation",
+      "players": [
+        "kobe_26"
+      ],
+      "sources": {
+        "kobe_26": [
+          {
+            "label": "神戶官方個人頁：身份、照片、逐季紀錄",
+            "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=291",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "J.League官方現役球員頁",
+            "url": "https://www.jleague.jp/player/1636320/",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "日文Wikipedia：完整少年／學校及生涯導航",
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%82%A2%E3%83%B3%E3%83%BB%E3%83%91%E3%83%88%E3%83%AA%E3%83%83%E3%82%AD",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "球員經紀Show de Bola：早期履歷與右腳欄",
+            "url": "https://www.showdebolafootball.com/jean-patric",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "São Paulo官方：2016 U20賽季名單",
+            "url": "https://www.saopaulofc.net/sub-20-inicia-temporada-2016-no-paulistao/",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "Academia das Apostas：逐季及賽事分類（2019州賽覆蓋有爭議）",
+            "url": "https://www.academiadasapostasbrasil.com/stats/person/brasil/jean-patric/471960",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "zerozero：2019 Potiguar逐季16場與另一表7場衝突",
+            "url": "https://www.zerozero.pt/jogador/jean-patric/550019?epoca_id=148",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "日刊體育：益子浩一2023-02-19人物訪問",
+            "url": "https://www.nikkansports.com/soccer/column/writers/news/202302180001127.html",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "Soccer Digest：2023-01-24速度及後備入球",
+            "url": "https://www.soccerdigestweb.com/news/detail/id=125483",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "Football Zone：德原隆元2023-02-05松本熱身賽觀察",
+            "url": "https://www.football-zone.net/archives/432991/2",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "Transfermarkt：Jean Patric腳別曾列both，現役官方右腳優先",
+            "url": "https://www.transfermarkt.com/jean-patric/profil/spieler/537296",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "J.League Data Site：2026/27逐場及分鐘",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
+            "accessed_at": "2026-10-08"
+          },
+          {
+            "label": "FCUpdate分賽事：2019州16/2，2017/18保加利亞盃2/0",
+            "url": "https://www.fcupdate.nl/voetballers/jean-patrick-lima-dos-reis/carriere",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "Bulgarian-football逐場：2017-09-19對Vihren78分鐘後備上陣",
+            "url": "https://bulgarian-football.com/archive/2017-2018/stats/kb1.html",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "Bulgarian-football逐場：2017-10-26對Etar正選半場換走",
+            "url": "https://bulgarian-football.com/archive/2017-2018/stats/kb2.html",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "Globo2015-01-09：Osasco青年隊Jean Patric短名比賽報道",
+            "url": "https://ge.globo.com/futebol/Copa-SP-de-futebol-junior/noticia/2015/01/fla-vence-osasco-no-fim-e-avanca-na-copinha-como-lider-do-grupo-q.html",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "RSSSF2019Potiguar賽果與部分陣容：不構成完整上陣表",
+            "url": "https://www.rsssfbrasil.com/tablesr/rn2019.htm",
+            "accessed_at": "2026-10-09"
+          },
+          {
+            "label": "GloboEsporte.com2015-04-27：前Grêmio Osasco、São Paulo U20三年約及早年Vitória",
+            "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2015/04/sao-paulo-acerta-contratacao-de-atacante-para-o-time-sub-20.html",
+            "accessed_at": "2026-10-10"
+          }
+        ]
+      },
+      "queries": [
+        "Read fullGloboEsporte2015-04-27original througholdhostredirect anddirectfetch; article explicitlyexGrêmioOsasco,Vitória,three-yearcontract,17years,Flamengo3chapéuslink.",
+        "Originalarticledate ispublication/report date; do notclaim exactcontractsignatureor registration day beyondsource. Youth dates/statsunknown are permitted.",
+        "Preserve earlieragencyAudax alternative inprovenance; noautomaticclubrename, no invented2013start."
+      ],
+      "result": "JeanPatric youth identity resolved by user-supplied fullGloboApr27report: exGrêmioOsasco, earlierVitória, SãoPauloU20three-year contract. AddVitória namedunknown-date row, reject uncorroboratedAudax/2013asconfirmedtimeline, preserve allprofessionalresearch. Cardverified;06gate4/4 expected,36/39accepted."
     }
   ]
 }
