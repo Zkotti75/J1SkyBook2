@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 71918)
+Total output lines: 8407
+
 {
   "schema_version": 2,
   "generated_at": "2026-09-19T08:20:00+09:00",
@@ -2795,98 +2798,636 @@
       "foot": "左腳",
       "nationality": "比利時",
       "joined": 2024,
-      "prev_club": "大阪櫻花",
+      "prev_club": "磐田山葉",
       "registration_status": "外援名額",
       "tenure_status": "效力第3季",
-      "national_team_detail": "比利時 U-19 國家隊",
-      "intro": "比利時籍左腳技術型邊鋒，傳中極具想像力且死球腳法精準，具備出色的創造力。",
+      "national_team_detail": "大阪櫻花官方確認比利時U15、U16、U17、U18及U19代表經歷；曾踢U17及U19歐洲賽資格賽。青年累計數字在不同條目有差異，保留未統一數值；未找到成年A隊出場紀錄。（2022-12-07，大阪櫻花；日文Wikipedia）",
+      "intro": "比利時亨克育成的左腳攻擊手，經比利時及荷蘭聯賽，2021年加盟福岡，之後先後效力大阪櫻花、磐田及橫濱。2025年夏季由J2回到J1，以供應入球機會支援水手護級；其海外外借及季中轉會逐季分列。（荷文Wikipedia；J.League；2025-09-21，竹中愛美／Football Channel）",
       "timeline": [
         {
-          "period": "2021–2023",
+          "period": "2000-2001",
+          "team": "Runkst VV",
+          "category": "少年",
+          "milestone": ""
+        },
+        {
+          "period": "2001-2010",
+          "team": "亨克",
+          "category": "青年",
+          "milestone": ""
+        },
+        {
+          "period": "2011",
+          "team": "亨克",
+          "category": "青年",
+          "milestone": "育成最後一年；2011/12一隊賽季另列。"
+        },
+        {
+          "period": "2011/12",
+          "team": "亨克",
+          "category": "比利時甲組",
+          "milestone": "2012年3月21日首次一隊上陣；不沿用日文條目誤寫的16歲。"
+        },
+        {
+          "period": "2012/13",
+          "team": "亨克",
+          "category": "比利時甲組",
+          "milestone": "來源在常規賽／附加賽出場口徑有差異，出場數保留空值。"
+        },
+        {
+          "period": "2013/14",
+          "team": "亨克",
+          "category": "比利時甲組",
+          "milestone": ""
+        },
+        {
+          "period": "2013/14",
+          "team": "OH Leuven",
+          "category": "比利時甲組",
+          "milestone": "2014年1月31日起外借半季；常規賽與附加賽口徑未統一，出場數留空。"
+        },
+        {
+          "period": "2014/15",
+          "team": "MVV Maastricht",
+          "category": "荷蘭乙組",
+          "milestone": "由亨克外借。"
+        },
+        {
+          "period": "2015/16",
+          "team": "MVV Maastricht",
+          "category": "荷蘭乙組",
+          "milestone": "2015年轉為永久加盟；只計常規聯賽。"
+        },
+        {
+          "period": "2015/16",
+          "team": "MVV Maastricht",
+          "category": "荷蘭升班附加賽",
+          "milestone": "附加賽獨立列出，不併入荷乙35場。"
+        },
+        {
+          "period": "2016/17",
+          "team": "MVV Maastricht",
+          "category": "荷蘭乙組",
+          "milestone": "季初效力MVV，之後轉會威廉二世。"
+        },
+        {
+          "period": "2016/17",
+          "team": "威廉二世",
+          "category": "荷蘭甲組",
+          "milestone": ""
+        },
+        {
+          "period": "2017/18",
+          "team": "威廉二世",
+          "category": "荷蘭甲組",
+          "milestone": ""
+        },
+        {
+          "period": "2018/19",
+          "team": "威廉二世",
+          "category": "荷蘭甲組",
+          "milestone": ""
+        },
+        {
+          "period": "2018/19",
+          "team": "Jong Willem II",
+          "category": "荷蘭預備隊聯賽",
+          "milestone": "Soccerway預備隊聯賽紀錄，與一隊分開。"
+        },
+        {
+          "period": "2018/19",
+          "team": "MVV Maastricht",
+          "category": "荷蘭乙組",
+          "milestone": "冬季外借回MVV；逐季來源出場數14／15口徑未統一，保留空值。"
+        },
+        {
+          "period": "2019/20",
+          "team": "Roda JC",
+          "category": "荷蘭乙組",
+          "milestone": ""
+        },
+        {
+          "period": "2020/21",
+          "team": "Roda JC",
+          "category": "荷蘭乙組",
+          "milestone": "2021年1月轉投福岡。"
+        },
+        {
+          "period": "2021",
           "team": "福岡黃蜂",
-          "category": "J1職業隊",
-          "milestone": "作為福岡黃蜂主力邊路創造大量進攻機會"
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2022",
+          "team": "福岡黃蜂",
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
         },
         {
           "period": "2023",
           "team": "大阪櫻花",
-          "category": "J1職業隊",
-          "milestone": "效力大阪櫻花"
+          "category": "J1",
+          "milestone": "只計聯賽；與盃賽分開。"
         },
         {
-          "period": "2024–至今",
+          "period": "2024",
+          "team": "磐田山葉",
+          "category": "J1",
+          "milestone": "2024年7月16日由大阪櫻花永久轉投磐田；兩隊分列。"
+        },
+        {
+          "period": "2024",
+          "team": "大阪櫻花",
+          "category": "J1",
+          "milestone": "2024年7月16日由大阪櫻花永久轉投磐田；兩隊分列。"
+        },
+        {
+          "period": "2025",
           "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "轉投橫濱水手加強邊路組織"
+          "category": "J1",
+          "milestone": "2025年8月20日由磐田永久轉投橫濱；J2及J1分列。"
+        },
+        {
+          "period": "2025",
+          "team": "磐田山葉",
+          "category": "J2",
+          "milestone": "2025年8月20日由磐田永久轉投橫濱；J2及J1分列。"
+        },
+        {
+          "period": "2026特別",
+          "team": "橫濱水手",
+          "category": "J1百年構想聯賽",
+          "milestone": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "period": "2026/27",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。"
         }
       ],
       "honors": [
-        "1x J.League 聯賽盃冠軍 (2023 [福岡黃蜂])"
+        "2012/13：亨克比利時盃冠軍隊成員；不等同宣稱在決賽上陣。"
       ],
       "milestones": [
-        "J1聯賽傳中成功率常年名列前茅的傳奇翼鋒"
+        "2012年3月21日於亨克首次一隊上陣；2014年起先後外借OH Leuven、MVV，2015年永久加盟MVV。（荷文Wikipedia；逐季履歷）",
+        "2021年1月由Roda轉投福岡，兩季J1合共56場8球；2023年加盟大阪櫻花。（J.League；大阪櫻花公告）",
+        "2024年7月轉磐田；2025年8月再轉橫濱，9月20日對舊會福岡交出兩次助攻並贏2–0。（J.League；2025-09-21，Football Channel）"
       ],
       "tactical_traits": [
-        "左腳精準弧線傳中與死球",
-        "大範圍轉移與前場節奏梳理"
+        "準確傳送是主要進攻價值，2025年9月20日對福岡以兩次助攻打開局面。（2025-09-21，竹中愛美／Football Channel）",
+        "能按單場計劃參與更直接的攻勢；該場水手多用長傳，減少推進所需觸球次數，他強調執行球隊部署。（同日，Football Channel採訪）",
+        "談及護級時強調持續工作、互相督促，供應機會以外亦把集體投入視為拿分基礎。（同日，Football Channel採訪）"
       ],
-      "quirky_trivia": "出身比利時亨克青訓，擁有純正的歐洲傳控視野與開闊的場上觀察力。",
+      "quirky_trivia": "2018年世界盃觀看比利時對日本時，還沒想過自己之後會來日本踢球；2022年訪問卻說很享受日本緊湊、快速而有好攻擊手的足球。（2022-08-12，奥崎覚／Qoly；採訪於6月8日）",
       "legacy_id": "jleague_yokohama_11",
-      "official_player_id": null,
+      "official_player_id": "1632280",
       "team_slug": "yokohama-fm",
       "name_ja": "ジョルディ クルークス",
-      "birthplace": "比利時",
+      "birthplace": "ベルギー",
       "season_start_age": 32,
-      "player_image": "",
+      "player_image": "https://static.f-marinos.com/uploads/images/yjyt1vcr6d92uv295jnkh1br.png",
       "career": [
         {
-          "season": null,
+          "season": "2000-2001",
+          "team": "Runkst VV",
+          "competition": "少年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "荷文Wikipedia履歷路線",
+              "url": "https://nl.wikipedia.org/wiki/Jordy_Croux",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2001-2010",
+          "team": "亨克",
+          "competition": "青年",
+          "appearances": null,
+          "goals": null,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "荷文Wikipedia履歷路線",
+              "url": "https://nl.wikipedia.org/wiki/Jordy_Croux",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2011",
+          "team": "亨克",
+          "competition": "青年",
+          "appearances": null,
+          "goals": null,
+          "status": "青年兼一隊登錄",
+          "notes": "育成最後一年；2011/12一隊賽季另列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "荷文Wikipedia履歷路線",
+              "url": "https://nl.wikipedia.org/wiki/Jordy_Croux",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2011/12",
+          "team": "亨克",
+          "competition": "比利時甲組",
+          "appearances": 10,
+          "goals": 0,
+          "status": "",
+          "notes": "2012年3月21日首次一隊上陣；不沿用日文條目誤寫的16歲。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2012/13",
+          "team": "亨克",
+          "competition": "比利時甲組",
+          "appearances": null,
+          "goals": 0,
+          "status": "",
+          "notes": "來源在常規賽／附加賽出場口徑有差異，出場數保留空值。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2013/14",
+          "team": "亨克",
+          "competition": "比利時甲組",
+          "appearances": 2,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2013/14",
+          "team": "OH Leuven",
+          "competition": "比利時甲組",
+          "appearances": null,
+          "goals": 0,
+          "status": "",
+          "notes": "2014年1月31日起外借半季；常規賽與附加賽口徑未統一，出場數留空。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2014/15",
+          "team": "MVV Maastricht",
+          "competition": "荷蘭乙組",
+          "appearances": 38,
+          "goals": 5,
+          "status": "",
+          "notes": "由亨克外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2015/16",
+          "team": "MVV Maastricht",
+          "competition": "荷蘭乙組",
+          "appearances": 35,
+          "goals": 8,
+          "status": "",
+          "notes": "2015年轉為永久加盟；只計常規聯賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2015/16",
+          "team": "MVV Maastricht",
+          "competition": "荷蘭升班附加賽",
+          "appearances": 4,
+          "goals": 2,
+          "status": "",
+          "notes": "附加賽獨立列出，不併入荷乙35場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2016/17",
+          "team": "MVV Maastricht",
+          "competition": "荷蘭乙組",
+          "appearances": 5,
+          "goals": 2,
+          "status": "",
+          "notes": "季初效力MVV，之後轉會威廉二世。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2016/17",
+          "team": "威廉二世",
+          "competition": "荷蘭甲組",
+          "appearances": 29,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2017/18",
+          "team": "威廉二世",
+          "competition": "荷蘭甲組",
+          "appearances": 22,
+          "goals": 1,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2018/19",
+          "team": "威廉二世",
+          "competition": "荷蘭甲組",
+          "appearances": 8,
+          "goals": 0,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2018/19",
+          "team": "Jong Willem II",
+          "competition": "荷蘭預備隊聯賽",
+          "appearances": 1,
+          "goals": 2,
+          "status": "",
+          "notes": "Soccerway預備隊聯賽紀錄，與一隊分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2018/19",
+          "team": "MVV Maastricht",
+          "competition": "荷蘭乙組",
+          "appearances": null,
+          "goals": 3,
+          "status": "",
+          "notes": "冬季外借回MVV；逐季來源出場數14／15口徑未統一，保留空值。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2019/20",
+          "team": "Roda JC",
+          "competition": "荷蘭乙組",
+          "appearances": 29,
+          "goals": 3,
+          "status": "",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2020/21",
+          "team": "Roda JC",
+          "competition": "荷蘭乙組",
+          "appearances": 16,
+          "goals": 3,
+          "status": "",
+          "notes": "2021年1月轉投福岡。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Soccerway逐季紀錄／不同賽制分列",
+              "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2021",
           "team": "福岡黃蜂",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
+          "competition": "J1",
+          "appearances": 25,
+          "goals": 4,
           "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "notes": "只計聯賽；與盃賽分開。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
             }
           ]
         },
         {
-          "season": null,
+          "season": "2022",
+          "team": "福岡黃蜂",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 4,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2023",
           "team": "大阪櫻花",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 2,
           "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "notes": "只計聯賽；與盃賽分開。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
             }
           ]
         },
         {
-          "season": null,
-          "team": "橫濱水手",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
+          "season": "2024",
+          "team": "磐田山葉",
+          "competition": "J1",
+          "appearances": 14,
+          "goals": 1,
           "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "notes": "2024年7月16日由大阪櫻花永久轉投磐田；兩隊分列。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "大阪櫻花",
+          "competition": "J1",
+          "appearances": 9,
+          "goals": 0,
+          "status": "",
+          "notes": "2024年7月16日由大阪櫻花永久轉投磐田；兩隊分列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 12,
+          "goals": 2,
+          "status": "",
+          "notes": "2025年8月20日由磐田永久轉投橫濱；J2及J1分列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "磐田山葉",
+          "competition": "J2",
+          "appearances": 26,
+          "goals": 3,
+          "status": "",
+          "notes": "2025年8月20日由磐田永久轉投橫濱；J2及J1分列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "橫濱水手",
+          "competition": "J1百年構想聯賽",
+          "appearances": 20,
+          "goals": 1,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1632280/",
+              "accessed_at": "2026-10-10"
             }
           ]
         },
@@ -2894,386 +3435,257 @@
           "season": "2026/27",
           "team": "橫濱水手",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "appearances": 6,
+          "goals": 0,
+          "status": "",
+          "notes": "J.League Data Site 2026-10-09更新；已賽至9月19日第8節，只計2026/27 J1；10月10日賽事尚未計入。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+              "accessed_at": "2026-10-10"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "橫濱水手官方現役名單",
-          "url": "https://www.f-marinos.com/team/player/",
-          "accessed_at": "2026-09-19"
+          "label": "橫濱水手官方球員頁",
+          "url": "https://www.f-marinos.com/team/player/player-detail/11",
+          "accessed_at": "2026-10-10"
         },
         {
-          "label": "J.League橫濱水手",
-          "url": "https://www.jleague.jp/club/yokohamafm/",
-          "accessed_at": "2026-09-19"
+          "label": "J.League逐季履歷",
+          "url": "https://www.jleague.jp/player/1632280/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "荷文Wikipedia履歷路線",
+          "url": "https://nl.wikipedia.org/wiki/Jordy_Croux",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "日文Wikipedia履歷路線",
+          "url": "https://ja.wikipedia.org/wiki/ジョルディ・クルークス",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "Soccerway逐季紀錄／不同賽制分列",
+          "url": "https://www.soccerway.com/player/croux-jordy/4QUkL3lM/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2025-09-21竹中愛美採訪",
+          "url": "https://www.footballchannel.jp/2025/09/21/post778941/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2022-08-12奥崎覚採訪（6月8日取材）",
+          "url": "https://qoly.jp/2022/08/12/avispa-fukuoka-jordy-croux-interview-oks-1",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2022-12-07大阪櫻花代表履歷",
+          "url": "https://www.cerezo.jp/news/2022-1207-1300/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "Transfermarkt慣用腳",
+          "url": "https://www.transfermarkt.com/jordy-croux/profil/spieler/129581",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "威廉二世2019外借公告",
+          "url": "https://www.willem-ii.nl/artikel/jordy-croux-wordt-verhuurd-aan-mvv-maastricht",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "J.League Data Site／2026-10-09更新（第8節まで）",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E6%A8%AA%E6%B5%9CFM&team_id=5&team_id_ex=5",
+          "accessed_at": "2026-10-10"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-10-10",
       "registration_tags": [
         "Vice Captain"
       ],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
-    },
-    {
-      "id": "yokohama_13",
-      "club": "橫濱水手",
-      "number": "13",
-      "name_zh": "井上太聖",
-      "name_en": "TAISEI INOUE",
-      "position": "DF",
-      "dob": "2002-10-01",
-      "age": 23,
-      "height": 184,
-      "weight": 83,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "鳥栖砂岩",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "無",
-      "intro": "身高 184 公分的年輕中後衛新星，單防腳步移動迅速且具備良好的正面攔截能力。",
-      "timeline": [
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
+      "trivia": [
         {
-          "period": "2023–2025",
-          "team": "鳥栖砂岩",
-          "category": "J1職業隊",
-          "milestone": "鳥栖砂岩後防新秀獲得穩定出場"
-        },
-        {
-          "period": "2026–至今",
-          "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "轉投橫濱水手提升防線板凳深度"
-        }
-      ],
-      "honors": [],
-      "milestones": [
-        "2026/27前7輪跑動71.6km、86次衝刺，最高速33.7km/h。"
-      ],
-      "tactical_traits": [
-        "正面一對一防守干擾",
-        "高空球落點判斷"
-      ],
-      "quirky_trivia": "在鳥栖時期便以冷靜的防守站位獲得教練團高度評價。",
-      "legacy_id": "jleague_yokohama_13",
-      "official_player_id": null,
-      "team_slug": "yokohama-fm",
-      "name_ja": "井上 太聖",
-      "birthplace": "東京都",
-      "season_start_age": 23,
-      "player_image": "",
-      "career": [
-        {
-          "season": null,
-          "team": "鳥栖砂岩",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
-          "verification_status": "verified",
+          "text": "2018年世界盃觀看比利時對日本時，還沒想過自己之後會來日本踢球；2022年訪問卻說很享受日本緊湊、快速而有好攻擊手的足球。（2022-08-12，奥崎覚／Qoly；採訪於6月8日）",
+          "reliability": "具名採訪／可靠報道",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        },
-        {
-          "season": null,
-          "team": "橫濱水手",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
-          "verification_status": "verified",
-          "sources": [
+              "label": "2025-09-21竹中愛美採訪",
+              "url": "https://www.footballchannel.jp/2025/09/21/post778941/",
+              "accessed_at": "2026-10-10"
+            },
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        },
-        {
-          "season": "2026/27",
-          "team": "橫濱水手",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "現役",
-          "notes": "資料截至2026-09-19。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "2022-08-12奥崎覚採訪（6月8日取材）",
+              "url": "https://qoly.jp/2022/08/12/avispa-fukuoka-jordy-croux-interview-oks-1",
+              "accessed_at": "2026-10-10"
             }
           ]
         }
       ],
-      "sources": [
-        {
-          "label": "橫濱水手官方現役名單",
-          "url": "https://www.f-marinos.com/team/player/",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League橫濱水手",
-          "url": "https://www.jleague.jp/club/yokohamafm/",
-          "accessed_at": "2026-09-19"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-09-19",
-      "registration_tags": [],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
-    },
-    {
-      "id": "yokohama_14",
-      "club": "橫濱水手",
-      "number": "14",
-      "name_zh": "知念慶",
-      "name_en": "KEI CHINEN",
-      "position": "MF",
-      "dob": "1995-03-17",
-      "age": 31,
-      "height": 177,
-      "weight": 73,
-      "foot": "右腳",
-      "nationality": "日本",
-      "joined": 2026,
-      "prev_club": "鹿島鹿角",
-      "registration_status": "本國球員",
-      "tenure_status": "加盟第1季",
-      "national_team_detail": "無",
-      "intro": "作風極其硬朗的全能攻擊手，既能出任正選中鋒也能回撤客串後腰，支點對抗能力極強。",
-      "timeline": [
-        {
-          "period": "2019–2022",
-          "team": "川崎前鋒",
-          "category": "J1職業隊",
-          "milestone": "隨川崎前鋒多次奪得聯賽冠軍"
-        },
-        {
-          "period": "2023–2025",
-          "team": "鹿島鹿角",
-          "category": "J1職業隊",
-          "milestone": "效力鹿島鹿角並成功轉能改造中場"
-        },
-        {
-          "period": "2026–至今",
-          "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "加盟橫濱水手強化戰術多樣性"
-        }
-      ],
-      "honors": [
-        "3x J1 聯賽冠軍 (2018, 2020, 2021 [川崎前鋒])",
-        "1x 天皇盃冠軍 (2023 [川崎前鋒])"
-      ],
-      "milestones": [
-        "2026/27前7輪duel won 32次，隊內第一。"
-      ],
-      "tactical_traits": [
-        "強力背身護球與頭槌爭頂",
-        "中前場不惜體力的瘋狂逼搶"
-      ],
-      "quirky_trivia": "鹿島年代曾由前鋒改造為中場；來到水手後，這份對抗與第二點能力成為中場武器。",
-      "legacy_id": "jleague_yokohama_14",
-      "official_player_id": null,
-      "team_slug": "yokohama-fm",
-      "name_ja": "知念 慶",
-      "birthplace": "沖繩縣",
-      "season_start_age": 31,
-      "player_image": "",
-      "career": [
-        {
-          "season": null,
-          "team": "川崎前鋒",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+      "career_audit": {
+        "reviewed_at": "2026-10-10",
+        "scope": "早期球會、學校及大學路線；逐…11918 tokens truncated…         "accessed_at": "2026-10-10"
             }
           ]
         },
         {
-          "season": null,
-          "team": "鹿島鹿角",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        },
-        {
-          "season": null,
-          "team": "橫濱水手",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        },
-        {
-          "season": "2026/27",
-          "team": "橫濱水手",
-          "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "現役",
-          "notes": "資料截至2026-09-19。",
-          "verification_status": "verified",
-          "sources": [
-            {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
-            }
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "label": "橫濱水手官方現役名單",
-          "url": "https://www.f-marinos.com/team/player/",
-          "accessed_at": "2026-09-19"
-        },
-        {
-          "label": "J.League橫濱水手",
-          "url": "https://www.jleague.jp/club/yokohamafm/",
-          "accessed_at": "2026-09-19"
-        }
-      ],
-      "verification_status": "verified",
-      "verified_at": "2026-09-19",
-      "registration_tags": [],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
-    },
-    {
-      "id": "yokohama_15",
-      "club": "橫濱水手",
-      "number": "15",
-      "name_zh": "渡邊泰基",
-      "name_en": "TAIKI WATANABE",
-      "position": "DF",
-      "dob": "1999-04-22",
-      "age": 27,
-      "height": 181,
-      "weight": 80,
-      "foot": "左腳",
-      "nationality": "日本",
-      "joined": 2024,
-      "prev_club": "新潟天鵝",
-      "registration_status": "本國球員",
-      "tenure_status": "效力第3季",
-      "national_team_detail": "無",
-      "intro": "左腳出球型後衛，可勝任左後衛與中後衛，擅長後場長傳發起與邊路套邊助攻。",
-      "timeline": [
-        {
-          "period": "2021–2023",
+          "season": "2019",
           "team": "新潟天鵝",
-          "category": "J2/J1職業隊",
-          "milestone": "隨新潟天鵝成功升上 J1 並成為主力"
-        },
-        {
-          "period": "2024–至今",
-          "team": "橫濱水手",
-          "category": "J1職業隊",
-          "milestone": "轉投橫濱水手強化左路防線與出球"
-        }
-      ],
-      "honors": [
-        "1x J2 聯賽冠軍 (2022 [新潟天鵝])"
-      ],
-      "milestones": [
-        "新潟傳控體系出身的左腳出球專家"
-      ],
-      "tactical_traits": [
-        "左腳精準後場對角線長傳",
-        "邊後衛與中衛位置的無縫切換"
-      ],
-      "quirky_trivia": "早年司職中衛，因其出色的腳下技術被成功開髮邊後衛屬性。",
-      "legacy_id": "jleague_yokohama_15",
-      "official_player_id": null,
-      "team_slug": "yokohama-fm",
-      "name_ja": "渡邊 泰基",
-      "birthplace": "新潟縣",
-      "season_start_age": 27,
-      "player_image": "",
-      "career": [
-        {
-          "season": null,
-          "team": "新潟天鵝",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
+          "competition": "J2",
+          "appearances": 16,
+          "goals": 0,
           "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "notes": "只計聯賽；與盃賽分開。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
             }
           ]
         },
         {
-          "season": null,
-          "team": "橫濱水手",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "既有履歷路線保留；逐季數字未可靠核對者不推算。",
+          "season": "2020",
+          "team": "金澤薩維根",
+          "competition": "J2",
+          "appearances": 27,
+          "goals": 0,
+          "status": "由新潟外借",
+          "notes": "2020年7月至2021年外借；2022年回新潟。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "新潟天鵝",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "7月外借前聯賽0場；日文逐季表明列0，與J.League的「-」區分。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "日文Wikipedia履歷路線",
+              "url": "https://ja.wikipedia.org/wiki/渡邊泰基",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "金澤薩維根",
+          "competition": "J2",
+          "appearances": 37,
+          "goals": 2,
+          "status": "由新潟外借",
+          "notes": "2020年7月至2021年外借；2022年回新潟。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "新潟天鵝",
+          "competition": "J2",
+          "appearances": 6,
+          "goals": 0,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "新潟天鵝",
+          "competition": "J1",
+          "appearances": 21,
+          "goals": 2,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 20,
+          "goals": 0,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 9,
+          "goals": 0,
+          "status": "",
+          "notes": "只計聯賽；與盃賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "橫濱水手",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "",
+          "notes": "日文逐季表明列0場0球；與2026/27分列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "日文Wikipedia履歷路線",
+              "url": "https://ja.wikipedia.org/wiki/渡邊泰基",
+              "accessed_at": "2026-10-10"
             }
           ]
         },
@@ -3283,34 +3695,157 @@
           "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "現役",
-          "notes": "資料截至2026-09-19。",
+          "status": "",
+          "notes": "現季仍列正式陣容；沒有可靠出場總數，不以Data Site未列球員推算零。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "橫濱水手官方現役名單",
-              "url": "https://www.f-marinos.com/team/player/",
-              "accessed_at": "2026-09-19"
+              "label": "橫濱水手官方球員頁",
+              "url": "https://www.f-marinos.com/team/player/player-detail/15",
+              "accessed_at": "2026-10-10"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "橫濱水手官方現役名單",
-          "url": "https://www.f-marinos.com/team/player/",
-          "accessed_at": "2026-09-19"
+          "label": "橫濱水手官方球員頁",
+          "url": "https://www.f-marinos.com/team/player/player-detail/15",
+          "accessed_at": "2026-10-10"
         },
         {
-          "label": "J.League橫濱水手",
-          "url": "https://www.jleague.jp/club/yokohamafm/",
-          "accessed_at": "2026-09-19"
+          "label": "J.League逐季履歷",
+          "url": "https://www.jleague.jp/player/1504374/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "日文Wikipedia履歷路線",
+          "url": "https://ja.wikipedia.org/wiki/渡邊泰基",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2021-09-10金澤訪問／SportsNavi刊載",
+          "url": "https://sports.yahoo.co.jp/official/detail/202109090034-spnaviow",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2023-11-20 NST新潟訪問",
+          "url": "https://news.nsttv.com/post/〈アルビ〉ｃｂ千葉・渡邊に聞く！６年ぶりのｊ/",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2018-01-09松尾祐希採訪分析",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=34575",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "Transfermarkt慣用腳",
+          "url": "https://www.transfermarkt.com/taiki-watanabe/profil/spieler/521122",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "label": "2017-01-31 JFA高校選拔候補",
+          "url": "https://www.jfa.jp/attachment/58914c4c-6a3c-438b-9f58-1120d3093d95/20170131_highschool_member.pdf",
+          "accessed_at": "2026-10-10"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-10-10",
       "registration_tags": [],
-      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。"
+      "name_source": "TVB「J1 球員評述主資料庫」香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
+      "trivia": [
+        {
+          "text": "五歲開始踢新潟足球學校，也常在Big Swan看主隊。中學後沒有直接升U18，父母支持他到前橋育英經歷不同環境；後來以新潟Junior出身首名職業簽約球員身份回到家鄉。（2021-09-10，金澤ZWEIGEN HEROZ／SportsNavi訪問）",
+          "reliability": "具名採訪／可靠報道",
+          "sources": [
+            {
+              "label": "2021-09-10金澤訪問／SportsNavi刊載",
+              "url": "https://sports.yahoo.co.jp/official/detail/202109090034-spnaviow",
+              "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "2023-11-20 NST新潟訪問",
+              "url": "https://news.nsttv.com/post/〈アルビ〉ｃｂ千葉・渡邊に聞く！６年ぶりのｊ/",
+              "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "2018-01-09松尾祐希採訪分析",
+              "url": "https://www.soccerdigestweb.com/news/detail/id=34575",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        }
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-10-10",
+        "scope": "早期球會、學校及大學路線；逐年成年隊、租借及季中轉會；青年無統計連年合併。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "橫濱水手官方球員頁",
+            "url": "https://www.f-marinos.com/team/player/player-detail/15",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "J.League逐季履歷",
+            "url": "https://www.jleague.jp/player/1504374/",
+            "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "日文Wikipedia履歷路線",
+            "url": "https://ja.wikipedia.org/wiki/渡邊泰基",
+            "accessed_at": "2026-10-10"
+          }
+        ],
+        "notes": "未確立的青年年份不按年齡推算；歷史及現季來源截點分開，沒有公開數字者保留空值。"
+      },
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J1",
+          "appearances": 9,
+          "goals": 0,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "J.League逐季履歷",
+              "url": "https://www.jleague.jp/player/1504374/",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "只計聯賽；與盃賽分開。"
+        },
+        {
+          "season": "2026特別",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "日文Wikipedia履歷路線",
+              "url": "https://ja.wikipedia.org/wiki/渡邊泰基",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "日文逐季表明列0場0球；與2026/27分列。"
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "橫濱水手官方球員頁",
+              "url": "https://www.f-marinos.com/team/player/player-detail/15",
+              "accessed_at": "2026-10-10"
+            }
+          ],
+          "notes": "現季仍列正式陣容；沒有可靠出場總數，不以Data Site未列球員推算零。"
+        }
+      ]
     },
     {
       "id": "yokohama_17",
