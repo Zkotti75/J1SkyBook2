@@ -165,3 +165,39 @@ Gonda early timeline now passes: official Vegalta2021programme explicitly says20
 - All remaining failed batches now investigated sequentially02/04/06/09/10. Preserve compliantcards andTVBnames; missingrostername/status-tag stage separate.
 
 Accepted 34/39; 5 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-04 — remaining gaps, 2026-10-10
+
+Diego2015state appearances set16 by explicit ScottYang editorial decision; goals0 unchanged. External15/16 disagreement retained in provenance, not falsely described as independently reconciled. Card accepted;04gate3/3.
+
+- 2026-10-10 user correction: Diego16games,JeanPatric16games; preserve editorial provenance.
+- Read suppliedGekisaka423752 fullnamedlist, JFA00036013 originalapproval,JL31542 dated2025notice. Clubprofile335 belongsHamasaki, notWatanabe. DQDmobilepage retrievalfailed; do notclaimread.
+
+Accepted 35/39; 4 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-06 — remaining gaps, 2026-10-10
+
+JeanPatric2019Potiguar16apps adopted by user editorial decision, backed by savedFCUpdate16/2. Youth registration entity remains unresolved;06gate3/4.
+
+- 2026-10-10 user correction: Diego16games,JeanPatric16games; preserve editorial provenance.
+- Read suppliedGekisaka423752 fullnamedlist, JFA00036013 originalapproval,JL31542 dated2025notice. Clubprofile335 belongsHamasaki, notWatanabe. DQDmobilepage retrievalfailed; do notclaimread.
+
+Accepted 35/39; 4 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-09 — remaining gaps, 2026-10-10
+
+Watanabe2025Type2 registration date Feb7 confirmed by full namedGekisaka roster. Existing blocker concerns2024, so card remains incomplete;09gate3/4.
+
+- 2026-10-10 user correction: Diego16games,JeanPatric16games; preserve editorial provenance.
+- Read suppliedGekisaka423752 fullnamedlist, JFA00036013 originalapproval,JL31542 dated2025notice. Clubprofile335 belongsHamasaki, notWatanabe. DQDmobilepage retrievalfailed; do notclaimread.
+
+Accepted 35/39; 4 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.
+
+## kobe-10 — remaining gaps, 2026-10-10
+
+IrieFeb3approval confirmed for2026only;2026/27grant still unconfirmed. Onishi absent from Feb7five-player registration list andhisJuly31paragraph lacksType2 footnote; user-supplied links do notsupport proposed date/category.10gate2/4.
+
+- 2026-10-10 user correction: Diego16games,JeanPatric16games; preserve editorial provenance.
+- Read suppliedGekisaka423752 fullnamedlist, JFA00036013 originalapproval,JL31542 dated2025notice. Clubprofile335 belongsHamasaki, notWatanabe. DQDmobilepage retrievalfailed; do notclaimread.
+
+Accepted 35/39; 4 unresolved. Preserve other cards and TVB names. Status tags and missing-roster-name stage remain separate. Batch validation and npm test required before publication.

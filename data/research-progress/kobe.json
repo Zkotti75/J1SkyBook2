@@ -3,7 +3,7 @@
   "club": "kobe",
   "club_name_zh": "神戶勝利船",
   "player_research_status": "in_progress",
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-09",
   "roster_players": 39,
   "baseline_complete_players": [],
   "batches": [
@@ -151,7 +151,7 @@
     {
       "id": "kobe-04",
       "kind": "player_research",
-      "status": "validation_failed",
+      "status": "completed",
       "capacity_points": 6,
       "players": [
         {
@@ -177,7 +177,7 @@
         }
       ],
       "started_at": "2026-10-09",
-      "completed_at": null,
+      "completed_at": "2026-10-09",
       "notes": [
         {
           "date": "2026-10-08",
@@ -190,16 +190,19 @@
         {
           "date": "2026-10-09",
           "text": "Cup goals resolved to0 via matchscorers; 2015 Metropolitano15/16apps still unresolved."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Diego2015state appearances set16 by explicit ScottYang editorial decision; goals0 unchanged. External15/16 disagreement retained in provenance, not falsely described as independently reconciled. Card accepted;04gate3/3."
         }
       ],
-      "reviewed_at": "2026-10-09",
+      "reviewed_at": "2026-10-10",
       "validated_players": [
+        "kobe_15",
         "kobe_16",
         "kobe_18"
       ],
-      "unresolved_players": [
-        "kobe_15"
-      ]
+      "unresolved_players": []
     },
     {
       "id": "kobe-05",
@@ -289,9 +292,17 @@
         {
           "date": "2026-10-09",
           "text": "Cup repaired2/0; youth identity and2019Potiguar7/16 remain unresolved. npm test passed (15 test cases)."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "JeanPatric2019Potiguar16apps adopted by user editorial decision, backed by savedFCUpdate16/2. Youth registration entity remains unresolved;06gate3/4."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "2019apps16 resolved by user; youth entity remains unconfirmed."
         }
       ],
-      "reviewed_at": "2026-10-09",
+      "reviewed_at": "2026-10-10",
       "validated_players": [
         "kobe_28",
         "kobe_29",
@@ -454,9 +465,17 @@
         {
           "date": "2026-10-09",
           "text": "2024registration category/date remains unconfirmed;2025二種 supported. npm test passed (15 test cases)."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "Watanabe2025Type2 registration date Feb7 confirmed by full namedGekisaka roster. Existing blocker concerns2024, so card remains incomplete;09gate3/4."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "2025Feb7Type2confirmed;2024category/date still unconfirmed."
         }
       ],
-      "reviewed_at": "2026-10-09",
+      "reviewed_at": "2026-10-10",
       "validated_players": [
         "kobe_44",
         "kobe_45",
@@ -515,9 +534,17 @@
         {
           "date": "2026-10-09",
           "text": "Gonda passes; Irie2026/27grant andOnishi2025category unresolved. Gate2/4; npm test16passed."
+        },
+        {
+          "date": "2026-10-10",
+          "text": "IrieFeb3approval confirmed for2026only;2026/27grant still unconfirmed. Onishi absent from Feb7five-player registration list andhisJuly31paragraph lacksType2 footnote; user-supplied links do notsupport proposed date/category.10gate2/4."
+        },
+        {
+          "date": "2026-10-09",
+          "text": "Irie2026Feb3confirmed but2026/27grant open; Onishi absentFeb7list,2025category/date open."
         }
       ],
-      "reviewed_at": "2026-10-09",
+      "reviewed_at": "2026-10-10",
       "validated_players": [
         "kobe_55",
         "kobe_71"
@@ -713,16 +740,14 @@
       "player_id": "kobe_15",
       "number": "15",
       "name_zh": "迪亞高",
-      "status": "open",
-      "issues": [
-        "2015 Metropolitano Catarinense15 versus16 appearances: full per-match differential unestablished; goals0consistent."
-      ],
+      "status": "resolved",
+      "issues": [],
       "coverage": [
         "2014 senior, loan-parent 2017/2018 and complete early youth figures unavailable.",
         "status tags remain separate"
       ],
-      "resolution": "Diego cup-goal gap resolved at0: whole Joinville2016cup onlyMurilo andEdsonRatinho goals. 2015Metropolitano15/16apps remains genuinely unresolved; cardincomplete andbatch2/3 accepted.",
-      "reviewed_at": "2026-10-09"
+      "resolution": "Diego2015state appearances set16 by explicit ScottYang editorial decision; goals0 unchanged. External15/16 disagreement retained in provenance, not falsely described as independently reconciled. Card accepted;04gate3/3.",
+      "reviewed_at": "2026-10-10"
     },
     {
       "player_id": "kobe_16",
@@ -799,15 +824,14 @@
       "name_zh": "真・柏德歷",
       "status": "open",
       "issues": [
-        "Youth Audax/Grêmio Osasco registration entity and2013start not directly established.",
-        "2019Potiguar7 versus16appearances: full per-match differential missing."
+        "Youth Audax/Grêmio Osasco registration entity and2013start unconfirmed;2019appearance total noweditorially resolved16."
       ],
       "coverage": [
         "Status tags remain separate.",
         "Unknown youth/school totals and parent/Grêmio Anápolis figures explicit."
       ],
-      "reviewed_at": "2026-10-09",
-      "resolution": "Jean Patric Bulgarian cup repaired to2 appearances/0goals using both match lineups. Youth entity and2019Potiguar7/16remain open; other3cards preserved; gate3/4 expected."
+      "reviewed_at": "2026-10-10",
+      "resolution": "JeanPatric2019Potiguar16apps adopted by user editorial decision, backed by savedFCUpdate16/2. Youth registration entity remains unresolved;06gate3/4."
     },
     {
       "player_id": "kobe_28",
@@ -974,14 +998,14 @@
       "name_zh": "渡邊隼斗",
       "status": "open",
       "issues": [
-        "2024JLsenior/U18 listing confirmed; original registration category/date not established."
+        "2024JLsenior/U18 registration category/date remains unconfirmed;2025Feb7Type2 nowconfirmed."
       ],
       "coverage": [
         "Status tags remain separate.",
         "Optional youth/cup totals unknown; actor/swimmer Wikipedia pages rejected."
       ],
-      "reviewed_at": "2026-10-09",
-      "resolution": "Watanabe2024registration category/date still unconfirmed. Club andGekisaka explicitly support2025二種; JL2024senior/U18 listing preserved without inventing a category or zero appearances. Other3cards preserved;3/4 accepted."
+      "reviewed_at": "2026-10-10",
+      "resolution": "Watanabe2025Type2 registration date Feb7 confirmed by full namedGekisaka roster. Existing blocker concerns2024, so card remains incomplete;09gate3/4."
     },
     {
       "player_id": "kobe_55",
@@ -1000,13 +1024,13 @@
       "name_zh": "入江羚介",
       "status": "open",
       "issues": [
-        "2026/27new-season specialdesignation grant unconfirmed;2026Feb3not interchangeable."
+        "2026/27specialdesignation grant unconfirmed;JFAFeb3notice specifically2026."
       ],
       "coverage": [
         "Optional youth/cup/parent totals remain unknown; status tags separate."
       ],
-      "reviewed_at": "2026-10-09",
-      "resolution": "Gonda early timeline now passes: official Vegalta2021programme explicitly says2005二種, agreeing with JLsenior/U18 rows; unsupported2004senior span rejected, exact grant day left unknown. Irie2026/27grant andOnishi2025category remain unresolved; batch2/4 accepted; club34/39."
+      "reviewed_at": "2026-10-10",
+      "resolution": "IrieFeb3approval confirmed for2026only;2026/27grant still unconfirmed. Onishi absent from Feb7five-player registration list andhisJuly31paragraph lacksType2 footnote; user-supplied links do notsupport proposed date/category.10gate2/4."
     },
     {
       "player_id": "kobe_58",
@@ -1014,13 +1038,13 @@
       "name_zh": "大西湊太",
       "status": "open",
       "issues": [
-        "2025senior/U18 listing confirmed; registration category/date unconfirmed."
+        "2025registration category/date unconfirmed;not listedinFeb7article."
       ],
       "coverage": [
         "Optional youth/cup/parent totals remain unknown; status tags separate."
       ],
-      "reviewed_at": "2026-10-09",
-      "resolution": "Gonda early timeline now passes: official Vegalta2021programme explicitly says2005二種, agreeing with JLsenior/U18 rows; unsupported2004senior span rejected, exact grant day left unknown. Irie2026/27grant andOnishi2025category remain unresolved; batch2/4 accepted; club34/39."
+      "reviewed_at": "2026-10-10",
+      "resolution": "IrieFeb3approval confirmed for2026only;2026/27grant still unconfirmed. Onishi absent from Feb7five-player registration list andhisJuly31paragraph lacksType2 footnote; user-supplied links do notsupport proposed date/category.10gate2/4."
     },
     {
       "player_id": "kobe_71",
@@ -1047,7 +1071,7 @@
     }
   ],
   "club_audit": {
-    "reviewed_at": "2026-10-09",
+    "reviewed_at": "2026-10-10",
     "baseline": "af46aeb",
     "passes": 0,
     "audited_players": 39,
@@ -1082,8 +1106,8 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 34,
-    "remaining_cards": 5,
+    "validated_players": 35,
+    "remaining_cards": 4,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md",
     "remaining_batch_review": {
@@ -1119,6 +1143,22 @@
         },
         "strict_ci": "Existing Urawa strict validation fails; Pages validation succeeds."
       }
+    },
+    "user_resolution_checkpoint": {
+      "date": "2026-10-10",
+      "editorial_decisions": {
+        "kobe_15": "2015state16apps",
+        "kobe_26": "2019state16apps"
+      },
+      "confirmed_registration": "Watanabe2025-02-07Type2;Irie2026-02-03specialdesignation for2026",
+      "validated_players": 35,
+      "unresolved_players": [
+        "kobe_26",
+        "kobe_53",
+        "kobe_57",
+        "kobe_58"
+      ],
+      "note": "SuppliedOnishiFeb7date notsupportedby namedlist;Watanabe2024andIrie2026/27remainopen. TVBnames17/23confirmed;cardsnotyetcreated."
     }
   },
   "research_method": "nishikawa-full-player-research"
