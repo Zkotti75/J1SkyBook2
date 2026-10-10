@@ -2,15 +2,15 @@
   "schema_version": 1,
   "club": "fukuoka",
   "club_name_zh": "福岡黃蜂",
-  "player_research_status": "queued",
-  "updated_at": "2026-09-21",
+  "player_research_status": "in_progress",
+  "updated_at": "2026-10-10",
   "roster_players": 39,
   "baseline_complete_players": [],
   "batches": [
     {
       "id": "fukuoka-01",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 5,
       "players": [
         {
@@ -42,8 +42,8 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
+      "started_at": "2026-10-10",
+      "completed_at": "2026-10-10",
       "notes": []
     },
     {
