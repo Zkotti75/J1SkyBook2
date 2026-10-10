@@ -3,8 +3,8 @@
   "home": "chiba",
   "away": "nagasaki",
   "date": "2026-10-11",
-  "as_of": "2026-10-07",
-  "coverage_note": "只維護千葉對長崎這場評述任務。10月7日天皇盃開賽前覆核：新增千葉9月29日官方完整訪問，按話題與長崎對照；補入Soccer Digest首勝訪問、死球及招募背景。舊訪問保留原日期；聯賽統計仍截至第8節，今晚盃賽結果及本場最新人腳待確認。",
+  "as_of": "2026-10-10",
+  "coverage_note": "10月10日賽前全面更新：補兩隊10月7日天皇盃賽果、長崎120分鐘負荷與新中場部署、最新停賽公告、千葉恩迪奧早退及姬野復出、兩名漏列2種登錄球員、天氣及完整深度前瞻。聯賽數據截至兩隊第8節；全榜截至10月9日21:29日本。正選、恩迪奧醫療確認、累積黃牌臨界及最後操練消息留待10月11日短覆核。",
   "match_info": {
     "kickoff_hkt": "13:00 香港（14:00 日本）",
     "stadium": "福田電子競技場（Fukuda Denshi Arena）",
@@ -27,7 +27,7 @@
   },
   "teams": {
     "chiba": {
-      "previous_match_date": "2026-09-29",
+      "previous_match_date": "2026-10-07",
       "stats": {
         "rank": 20,
         "slug": "chiba",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "text": "最近的9月29日盃賽，官方陣容頁列4-4-2，石川大地與矢村健正選；杉山直宏及石川先後追至2–2，其後再失兩球。",
+          "text": "9月29日盃賽背景，官方陣容頁列4-4-2，石川大地與矢村健正選；杉山直宏及石川先後追至2–2，其後再失兩球。",
           "kind": "fact",
           "as_of": "2026-09-29",
           "sources": [
@@ -167,28 +167,28 @@
           ]
         },
         {
-          "text": "最近正式比賽：9月29日日聯盃作客磐田2–4出局。10月7日19:00日本時間天皇盃對岡山，在福田電子競技場舉行，但官方對賽編排為岡山對千葉，千葉屬客隊方。結果待賽後補。",
+          "text": "10月7日天皇盃第三圈在福田電子以客隊身份0–1負岡山；64分鐘失球，90分鐘出局。連同聯賽清水1–2及日聯盃磐田2–4，最近三場正式賽事全敗。",
           "kind": "fact",
-          "as_of": "2026-09-29",
+          "as_of": "2026-10-10",
           "sources": [
             {
-              "label": "J.League官方・磐田4–2千葉",
-              "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
-              "published_at": "2026-09-29",
-              "accessed_at": "2026-10-06"
+              "label": "JFA・岡山對千葉官方記錄",
+              "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-07"
             },
             {
-              "label": "JFA・天皇盃第三圈賽程",
-              "url": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/",
-              "published_at": "2026-09-01",
-              "accessed_at": "2026-10-06"
+              "label": "Gekisaka報道／livedoor轉載・岡山戰",
+              "url": "https://news.livedoor.com/article/detail/32513745/",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-07"
             }
           ]
         }
       ],
       "scorers": [
         {
-          "text": "2026/27 J1第8節後：田中和樹3球；Matheus Indio、津久井匠海、矢村健及艾利臣各1球。只計本季J1，不混入百年構想聯賽或盃賽。",
+          "text": "2026/27 J1第8節後：田中和樹3球；恩迪奧、津久井匠海、矢村健及艾利臣各1球。只計本季J1，不混入百年構想聯賽或盃賽。",
           "kind": "fact",
           "as_of": "2026-09-21",
           "sources": [
@@ -248,19 +248,44 @@
               "accessed_at": "2026-10-07"
             }
           ]
+        },
+        {
+          "text": "10月10日比對既有卡及轉會清單：未找到9月16日後新的本隊一隊轉會；此為本次搜尋結果，非保證沒有未公布交易。",
+          "kind": "reported",
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "Football LAB・轉會清單",
+              "url": "https://www.football-lab.jp/chib/transfer",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "text": "補齊#46齋藤隼士、#47伊藤暖球員卡及用戶確認中文名。兩人2月6日已有百年構想聯賽二種登錄、7月31日再登錄2026/27；齋藤8月26日天皇盃對沼津正選68分鐘。未查實的慣用腳及完整戰術定性仍標待核。",
+          "kind": "fact",
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "千葉官方・兩名U-18球員2種登錄",
+              "url": "https://jefunited.co.jp/news/detail/5383",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-07-31"
+            }
+          ]
         }
       ],
       "suspensions": [
         {
-          "text": "截至10月5日J.League停賽公告，J1名單沒有千葉球員；這只是當日公告結果，10月7日後需再查。",
+          "text": "10月9日J.League最新停賽公告沒有本隊球員。本場未見已公布的停賽；這不代表全員健康或已獲選。",
           "kind": "fact",
-          "as_of": "2026-10-05",
+          "as_of": "2026-10-10",
           "sources": [
             {
-              "label": "J.League官方・停賽公告",
-              "url": "https://www.jleague.jp/news/article/35053/?navicode=j1",
-              "published_at": "2026-10-05",
-              "accessed_at": "2026-10-06"
+              "label": "J.League・10月9日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35077/?navicode=j1",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-09"
             }
           ]
         },
@@ -279,6 +304,42 @@
         }
       ],
       "injuries": [
+        {
+          "text": "恩迪奧：10月7日11分鐘被安井拓也換出（JFA記錄）。Football LAB本場前瞻稱疑似腦震盪及本場上陣機會低；未取得球會確診或復出許可，標作待醫療／名單確認，不寫已確定缺陣。",
+          "kind": "reported",
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "JFA・岡山對千葉官方記錄",
+              "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-07"
+            },
+            {
+              "label": "Football LAB・第8節統計／本場前瞻",
+              "url": "https://www.football-lab.jp/chib/preview",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
+        {
+          "text": "姬野誠已在聯賽中斷前復出；10月7日正選並踢至74分鐘。這是實際上陣證據，舊U-19受傷消息不應繼續當作現時缺陣。",
+          "kind": "fact",
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "JFA・岡山對千葉官方記錄",
+              "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-07"
+            },
+            {
+              "label": "J.League・菊地正典本場前瞻",
+              "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+              "accessed_at": "2026-10-10"
+            }
+          ]
+        },
         {
           "text": "飯田貴敬：9月9日對讚岐受傷；9月12日J.League報道左股二頭肌拉傷，預計6–8星期。保留公告日期；本場能否入選仍未有新確認。",
           "kind": "fact",
@@ -323,7 +384,7 @@
         {
           "text": "本次未取得逐名球員、經核對的J1累積黃牌及停賽邊緣名單。隊伍總警告數或盃賽黃牌不能代替聯賽個人累積；此欄待補，並不代表沒有人有風險。",
           "kind": "analysis",
-          "as_of": "2026-09-21",
+          "as_of": "2026-10-10",
           "sources": [
             {
               "label": "Football LAB・千葉本季統計",
@@ -379,7 +440,7 @@
             "number": 8,
             "description": [
               {
-                "text": "上仗磐田戰：津久井接石川直線球後橫傳，令石川取得追平球。這段實際配合可作觀察邊路與前鋒連線的例子。",
+                "text": "9月29日磐田戰：津久井接石川直線球後橫傳，令石川取得追平球。這段實際配合可作觀察邊路與前鋒連線的例子。",
                 "kind": "reported",
                 "as_of": "2026-09-29",
                 "sources": [
@@ -1264,8 +1325,8 @@
           "venue": "客",
           "opponent": "岡山綠雉",
           "opponent_slug": "okayama",
-          "score": null,
-          "source": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/"
+          "score": "0–1",
+          "source": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html"
         }
       ],
       "analytics": [
@@ -1278,14 +1339,14 @@
               "label": "Football LAB・第8節後兩軍統計",
               "url": "https://www.football-lab.jp/chib/preview",
               "published_at": "2026-09-21",
-              "accessed_at": "2026-10-06"
+              "accessed_at": "2026-10-10"
             }
           ]
         }
       ]
     },
     "nagasaki": {
-      "previous_match_date": "2026-09-29",
+      "previous_match_date": "2026-10-07",
       "stats": {
         "rank": 15,
         "slug": "nagasaki",
@@ -1363,6 +1424,19 @@
               "accessed_at": "2026-10-06"
             }
           ]
+        },
+        {
+          "text": "長谷川元希10月7日賽後表示，球隊把一名中場位置推前，讓松本天夢踢前腰，縮短接應距離。翁長聖說操練已反覆演練對四後衛的進攻；本場是否沿用仍待正選及站位確認。",
+          "kind": "reported",
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "長崎官方・清水戰賽後訪問",
+              "url": "https://www.v-varen.com/gamedata2/20261007",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-07"
+            }
+          ]
         }
       ],
       "formation": {
@@ -1414,6 +1488,19 @@
               "url": "https://www.v-varen.com/gamedata2/20260929",
               "published_at": "2026-09-29",
               "accessed_at": "2026-10-06"
+            }
+          ]
+        },
+        {
+          "text": "10月7日天皇盃作客清水：13分鐘先失、39分鐘辛坦拿追平，116分鐘再失，120分鐘1–2出局。日聯盃0–2負鳥取後再輸盃賽；不能把聯賽兩場不敗套用到所有賽事。",
+          "kind": "fact",
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "JFA・清水對長崎官方記錄",
+              "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-07"
             }
           ]
         }
@@ -1493,19 +1580,31 @@
               "accessed_at": "2026-10-07"
             }
           ]
+        },
+        {
+          "text": "10月10日比對既有卡及轉會清單：未找到9月16日後新的本隊一隊轉會；此為本次搜尋結果，非保證沒有未公布交易。",
+          "kind": "reported",
+          "as_of": "2026-10-10",
+          "sources": [
+            {
+              "label": "Football LAB・轉會清單",
+              "url": "https://www.football-lab.jp/ngsk/transfer",
+              "accessed_at": "2026-10-10"
+            }
+          ]
         }
       ],
       "suspensions": [
         {
-          "text": "截至10月5日J.League停賽公告，J1名單沒有長崎球員。10月7日天皇盃之後仍需重查紀律公告。",
+          "text": "10月9日J.League最新停賽公告沒有本隊球員。本場未見已公布的停賽；這不代表全員健康或已獲選。",
           "kind": "fact",
-          "as_of": "2026-10-05",
+          "as_of": "2026-10-10",
           "sources": [
             {
-              "label": "J.League官方・停賽公告",
-              "url": "https://www.jleague.jp/news/article/35053/?navicode=j1",
-              "published_at": "2026-10-05",
-              "accessed_at": "2026-10-06"
+              "label": "J.League・10月9日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35077/?navicode=j1",
+              "accessed_at": "2026-10-10",
+              "published_at": "2026-10-09"
             }
           ]
         }
@@ -1555,7 +1654,7 @@
         {
           "text": "本次未取得逐名球員、經核對的J1累積黃牌及停賽邊緣名單。隊伍總警告數或盃賽黃牌不能代替聯賽個人累積；此欄待補，並不代表沒有人有風險。",
           "kind": "analysis",
-          "as_of": "2026-09-21",
+          "as_of": "2026-10-10",
           "sources": [
             {
               "label": "Football LAB・長崎本季統計",
@@ -2362,8 +2461,8 @@
           "venue": "客",
           "opponent": "清水心跳",
           "opponent_slug": "shimizu",
-          "score": null,
-          "source": "https://www.v-varen.com/match"
+          "score": "1–2（加時；90分鐘1–1）",
+          "source": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html"
         }
       ],
       "analytics": [
@@ -2376,7 +2475,7 @@
               "label": "Football LAB・第8節後兩軍統計",
               "url": "https://www.football-lab.jp/chib/preview",
               "published_at": "2026-09-21",
-              "accessed_at": "2026-10-06"
+              "accessed_at": "2026-10-10"
             }
           ]
         }
@@ -2384,41 +2483,40 @@
     }
   },
   "standings": {
-    "as_of": "2026-09-20 19:23（日本）",
+    "as_of": "2026-10-09 21:29（日本；10月10日比賽尚未納入）",
     "sources": [
       {
-        "label": "J.League官方聯賽榜",
+        "label": "J.League完整聯賽榜",
         "url": "https://www.jleague.jp/j1/standings/",
-        "published_at": "2026-09-20",
-        "accessed_at": "2026-10-06"
+        "accessed_at": "2026-10-10"
       }
     ],
     "rows": [
       {
         "rank": 1,
-        "slug": "kobe",
-        "name_zh": "神戶勝利船",
-        "played": 8,
-        "wins": 6,
-        "draws": 1,
-        "losses": 1,
-        "goals_for": 12,
-        "goals_against": 5,
+        "slug": "kashiwa",
+        "name_zh": "柏太陽王",
+        "played": 9,
+        "wins": 7,
+        "draws": 0,
+        "losses": 2,
+        "goals_for": 21,
+        "goals_against": 14,
         "goal_difference": 7,
-        "points": 19
+        "points": 21
       },
       {
         "rank": 2,
-        "slug": "kashiwa",
-        "name_zh": "柏太陽王",
-        "played": 8,
+        "slug": "kobe",
+        "name_zh": "神戶勝利船",
+        "played": 9,
         "wins": 6,
-        "draws": 0,
+        "draws": 1,
         "losses": 2,
-        "goals_for": 17,
-        "goals_against": 12,
+        "goals_for": 14,
+        "goals_against": 9,
         "goal_difference": 5,
-        "points": 18
+        "points": 19
       },
       {
         "rank": 3,
@@ -2461,6 +2559,19 @@
       },
       {
         "rank": 6,
+        "slug": "kashima",
+        "name_zh": "鹿島鹿角",
+        "played": 9,
+        "wins": 5,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 19,
+        "goals_against": 16,
+        "goal_difference": 3,
+        "points": 16
+      },
+      {
+        "rank": 7,
         "slug": "yokohama-fm",
         "name_zh": "橫濱水手",
         "played": 8,
@@ -2473,7 +2584,7 @@
         "points": 14
       },
       {
-        "rank": 7,
+        "rank": 8,
         "slug": "kawasaki",
         "name_zh": "川崎前鋒",
         "played": 8,
@@ -2483,19 +2594,6 @@
         "goals_for": 16,
         "goals_against": 12,
         "goal_difference": 4,
-        "points": 13
-      },
-      {
-        "rank": 8,
-        "slug": "kashima",
-        "name_zh": "鹿島鹿角",
-        "played": 8,
-        "wins": 4,
-        "draws": 1,
-        "losses": 3,
-        "goals_for": 17,
-        "goals_against": 16,
-        "goal_difference": 1,
         "points": 13
       },
       {
@@ -2591,19 +2689,6 @@
       },
       {
         "rank": 16,
-        "slug": "gamba-osaka",
-        "name_zh": "大阪飛腳",
-        "played": 8,
-        "wins": 1,
-        "draws": 3,
-        "losses": 4,
-        "goals_for": 8,
-        "goals_against": 14,
-        "goal_difference": -6,
-        "points": 6
-      },
-      {
-        "rank": 17,
         "slug": "nagoya",
         "name_zh": "名古屋鯨魚",
         "played": 8,
@@ -2613,6 +2698,19 @@
         "goals_for": 7,
         "goals_against": 14,
         "goal_difference": -7,
+        "points": 6
+      },
+      {
+        "rank": 17,
+        "slug": "gamba-osaka",
+        "name_zh": "大阪飛腳",
+        "played": 9,
+        "wins": 1,
+        "draws": 3,
+        "losses": 5,
+        "goals_for": 8,
+        "goals_against": 16,
+        "goal_difference": -8,
         "points": 6
       },
       {
@@ -2659,47 +2757,1254 @@
   "preview": {
     "cues": [
       {
-        "text": "兩隊相差4分：千葉4分排20、長崎8分排15。千葉本場若勝仍未追平長崎，但可縮窄差距；長崎則尋求本季首個作客聯賽積分。",
+        "text": "13:00香港開波。千葉4分、長崎8分；主隊勝會縮至1分差，客隊勝會拉至7分差，和波維持4分。",
         "kind": "analysis",
-        "as_of": "2026-09-20",
+        "as_of": "2026-10-10",
         "sources": [
           {
-            "label": "J.League官方聯賽榜",
-            "url": "https://www.jleague.jp/j1/standings/",
-            "published_at": "2026-09-20",
-            "accessed_at": "2026-10-06"
-          },
-          {
-            "label": "Football LAB・本場對賽資料",
-            "url": "https://www.football-lab.jp/chib/preview",
-            "published_at": "2026-09-21",
-            "accessed_at": "2026-10-06"
+            "label": "J.League・菊地正典本場前瞻",
+            "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+            "accessed_at": "2026-10-10"
           }
         ]
       },
       {
-        "text": "10月7日盃賽是最後一個更新節點：留意兩隊正選負荷、傷患、紀律及賽後發言。現階段不預填10月11日正選。",
+        "text": "兩隊盃賽全部出局。長崎周三踢120分鐘，千葉90分鐘；但辛坦拿只踢半場，不能一概把長崎全隊當作疲倦。",
         "kind": "analysis",
-        "as_of": "2026-09-01",
+        "as_of": "2026-10-10",
         "sources": [
           {
-            "label": "JFA・天皇盃第三圈賽程",
-            "url": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/",
-            "published_at": "2026-09-01",
-            "accessed_at": "2026-10-06"
+            "label": "JFA・岡山對千葉官方記錄",
+            "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+            "accessed_at": "2026-10-10",
+            "published_at": "2026-10-07"
           },
           {
-            "label": "長崎官方・全季賽程及賽果",
-            "url": "https://www.v-varen.com/match",
-            "published_at": "2026-10-06",
-            "accessed_at": "2026-10-06"
+            "label": "JFA・清水對長崎官方記錄",
+            "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+            "accessed_at": "2026-10-10",
+            "published_at": "2026-10-07"
+          }
+        ]
+      },
+      {
+        "text": "明日優先：恩迪奧醫療／入選、兩隊正選與門將、謝薩斯是否回歸、長崎是否保留松本前腰、最新榜及天氣、裁判、逐名黃牌臨界。",
+        "kind": "analysis",
+        "as_of": "2026-10-10",
+        "sources": [
+          {
+            "label": "JFA・岡山對千葉官方記錄",
+            "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+            "accessed_at": "2026-10-10",
+            "published_at": "2026-10-07"
+          },
+          {
+            "label": "JFA・清水對長崎官方記錄",
+            "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+            "accessed_at": "2026-10-10",
+            "published_at": "2026-10-07"
+          },
+          {
+            "label": "Football LAB・第8節統計／本場前瞻",
+            "url": "https://www.football-lab.jp/chib/preview",
+            "accessed_at": "2026-10-10"
           }
         ]
       }
     ],
     "sections": [
       {
-        "title": "01｜形勢：需要止跌的主隊，尚未作客取分的客隊",
+        "title": "深度評述01｜我的賽事主軸：誰能把主動變成有效進攻",
+        "paragraphs": [
+          {
+            "text": "我的賽前判斷是：千葉有理由爭取主導比賽，但主導必須表現在對方禁區前的接應和進入禁區的方法；長崎則要把技術與中路接應優勢轉成可持續的攻勢。兩隊都可以有一段漂亮控球，卻未必能令對方中堅離開舒適區。這場最值得向觀眾解釋的是，每次向前傳球之後，下一個人在哪裏，以及後面還有多少人能處理失球後的反擊。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "千葉主場聲勢可以提高開段投入，然而情緒上想贏、戰術上跑得快、實際上創造得多，是三回事。當前鋒迫到門將開長波，如果長崎收回第二點而重新組織，千葉只完成了壓迫的前半段。相反，一次看似保守的回傳若把客隊第一線引出，再由中場向前送入空位，可能比連續幾次衝刺更有價值。這給評述一條貫穿全場的問題：主隊是在改變對手的選擇，還是在跟着對手跑？",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "評述講法：「今場千葉需要的主動，是令長崎每一次向前都有代價。搶回來之後有人接、有人跑、有人保護後面，這三件事連起來，壓迫才會變成攻勢。」這是本稿分析主張；正選及實際站位公布後，按球場畫面修正。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述02｜4-4-2對三中堅：多出來的一個人在哪裏",
+        "paragraphs": [
+          {
+            "text": "如果千葉保留兩名前鋒壓三中堅，長崎總有一名後衛暫時不受直接照顧。千葉不一定要三個人同時上搶：前鋒可用弧線跑動遮住通往防中的傳線，把球迫去一側，再由邊中場上前。成功的標誌不是誰跑得最遠，而是接球的外側中堅只能面向邊線，身前的中場接應亦被封住。這時邊線相當於額外一名防守者。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "難處出現在千葉邊中場提前離開中場線：身後可能讓翼衛接球；若閘位也跟着壓出去，閘與中堅之間就需要另一人補位。長崎可利用短傳吸引，再把球送到這個空隙。千葉要有同步訊號，例如回傳、接球身體方向朝後、第一腳停得遠，才集體提速。有人上搶、有人猶豫，隊形便會在同一瞬間被拉成兩段。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "評述講法：「長崎不是一定要穿過兩名前鋒才算破解壓迫；把球送到主隊邊中場背後，就已經令千葉下一條線作選擇。現在要看閘位敢不敢出迎，及中堅有沒有準備補那個洞。」此段是陣式條件分析，不把賽前陣式圖當作已公布正選。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述03｜松本前移的意義：接近隊友，也接近危險區",
+        "paragraphs": [
+          {
+            "text": "長谷川在清水戰後提及松本天夢踢較前位置，接應距離縮短。從戰術機理看，前腰站在對手兩條線之間，能把原本分開的「後場出球」和「前鋒進攻」接成一次連續動作。松本未必需要每次轉身；背向球門做一腳回敲，也可讓面向前場的隊友用較少觸球把速度帶起來。這種第三人接應，是千葉不能只追住持球者的原因。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "千葉若由防中跟松本，中場線另一側需要有人補；若由中堅上前，身後的前鋒跑位會成為風險。防守關鍵是讓接球者背向球門，並限制回敲後的下一腳。直播可看松本接球之前身邊有多少空間、他接應時有沒有把主隊一名中堅帶離防線，以及他交球後是否再跑入禁區。不要只用觸球數去評估這個位置。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "若正選沒有松本，這個分析仍可用來辨認長崎是否由另一人擔任同樣功能。評述講法：「前腰的作用，有時不是自己過人，而是站在令防中不敢上搶、中堅又不敢離開的地方。這個位置一有接應，長崎整個中路就近了一截。」",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述04｜翼衛、轉邊與遠柱：鏡頭外的一場對位",
+        "paragraphs": [
+          {
+            "text": "長崎能否利用翼衛，把千葉的中場橫向拉開，是另一條進攻路線。當主隊幾個人向持球側集中，客隊另一側翼衛可以提早站高；轉邊不一定直接形成傳中，但可以讓接球者面對尚未站穩的閘位。這時第一腳向前、或內切引出防守再分給外疊隊友，比停球等人全部回位更有殺傷力。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "球迷aratasuzuki・賽前分析",
+                "url": "https://yukkuriikou.hatenablog.com/entry/2026/10/09/060000",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-09"
+              }
+            ]
+          },
+          {
+            "text": "對千葉而言，遠柱的防守不是只交給最後一名後衛。弱側邊中場需要回到可以看見對手跑動的位置，後衛則要同時確認球和人。若球一轉邊，整條線只看球，後點就會由一對一變成客隊多一人。球迷分析曾提出相關憂慮，可以用作現場觀察問題；不能由單一球迷文章定論千葉整季每次都犯同樣錯誤。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "球迷aratasuzuki・賽前分析",
+                "url": "https://yukkuriikou.hatenablog.com/entry/2026/10/09/060000",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-09"
+              }
+            ]
+          },
+          {
+            "text": "評述講法：「真正要留意的是另一邊。大家的眼都在持球這邊，長崎遠端那個人卻已經走到後衛的盲點。千葉若收得太窄，轉邊會打開；若散得太開，中路又會給前腰空間。」這正是本場橫向與縱向保護之間的取捨。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "球迷aratasuzuki・賽前分析",
+                "url": "https://yukkuriikou.hatenablog.com/entry/2026/10/09/060000",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-09"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述05｜千葉進攻三層：第一腳、禁區內、第二點",
+        "paragraphs": [
+          {
+            "text": "千葉改善機會創造，需要先提高搶回球後第一腳的質素。如果每次搶回都由球員自己帶向前，長崎有時間收窄防線；如果第一腳找到在防中身後的接應者，才有可能趁客隊翼衛尚未回位攻擊空隙。可觀察前鋒是否一人靠近做牆、一人跑縱深，邊中場是否給出斜線選擇，而非全部一起向同一方向衝。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "到了邊路，傳中之前要看禁區配置。前柱跑動可把一名中堅帶走，中路需要有人保持射門位置，後點則可由弱側球員接應；禁區邊還需要回傳落點。若只有一人面對三名中堅，傳中即使準也難持續製造機會。真正值得稱讚的是跑動互相配合，把後衛迫到必須轉身或交換防守對象。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "第二點亦是進攻的一部分。客隊頂走第一個傳中之後，千葉若在禁區外先拿回球，就能在對手尚未推出防線時再攻；若中場全都壓入禁區，頂走的球就會變成長崎反擊起點。評述講法：「這次攻勢好不好，不只看第一個傳中；看千葉有沒有準備把解圍再接住。第二波接得住，主場壓力才會一層一層累積。」",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述06｜反擊的關鍵是球後保護，不是全隊退後",
+        "paragraphs": [
+          {
+            "text": "主隊希望增加前場人數，但最有風險的時刻是攻勢突然中斷。兩閘一齊向前、兩名中場又一齊進禁區，便可能只剩中堅面對長崎的縱向跑動。較合理的保護可以是一名中場留在球後，一名閘位稍收，令解圍或搶截後的第一條向前傳線受到干擾。這種安排不等於放棄進攻，而是讓其他人敢於進攻。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "失去控球後，要先辨認能否即時反搶。若附近有三四人、持球者背向前場，圍搶有可能把球留住；若對手已抬頭面向前方，繼續每個人向球衝反而讓身後更加空。此時先封中央直線、迫客隊走外側，可以替後衛爭取退位時間。直播觀眾最容易看到追跑，較難看到提前站在傳線上的球員，評述可以補上後者的價值。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "長崎亦有同一問題：翼衛站高後失球，外側中堅是否被迫拉到邊線？一旦中堅離開中央，千葉前鋒就應攻擊留下的空位。評述講法：「攻守轉換快，不代表一定是跑得快；站在能阻止對手第一腳的位置，往往已經替後面省下一次長距離回追。」",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述07｜加時的影響應按角色分析",
+        "paragraphs": [
+          {
+            "text": "長崎周三踢到加時，是明確的負荷差別，但不能寫成每一位客軍球員都踢了120分鐘。對本場最實際的推論，是高負荷後衛和翼衛在重複回追、急停轉身及向前套上時，可能更需要分配體力；是否真的受影響，必須用現場動作驗證。千葉可以先以轉邊迫對手橫移，再在下半場用新上場的邊路球員增加一對一。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日長崎對清水",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "也有相反的比賽路線：長崎減少無效的全場追壓，以控球和較近的接應距離控制節奏，便可以令主隊承擔更多追跑。千葉如果把「對手加時」理解成必須由頭狂攻，自己反而可能先把隊形跑散。觀察客軍壓迫是挑時機還是全面退縮，以及接到球後能否穩住兩三腳，才能判斷負荷是否已影響比賽。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日長崎對清水",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "評述講法：「周三多踢半小時，影響最大的未必是開波頭十分鐘；可能是下半場要連續轉身回追的那幾次。但長崎如果用球控制節奏，追着跑的反而會是千葉。」出場時間已在資訊頁逐名列出，避免以全隊平均抹平差異。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日長崎對清水",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述08｜恩迪奧、謝薩斯與姬野：名單怎樣改變分析",
+        "paragraphs": [
+          {
+            "text": "恩迪奧的狀態要待最新醫療與名單確認。戰術上要準備的，是中場分工會否改變：若缺少一名原本負責對抗與接應的球員，旁邊的人可能要留後更多，邊路的向前支援亦會受影響。分析時不能只把名字刪掉、在同一位置放另一人；要看新組合誰出迎、誰保護中堅、誰接第一腳。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・10月7日長崎對清水",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "謝薩斯未列周三杯賽名單，原因未有證實。如果本場回歸，長崎可能多一個在對方中場與防線之間接球或直接起腳的選擇；也可能重新分配松本與其他進攻球員的位置。要由正選和開段站位看是否同場協作，而非預設兩人一定互相替代。若仍未入選，則以實際陣容分析，不能自動宣布他受傷。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・10月7日長崎對清水",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "姬野周三踢過74分鐘，是可用的復出證據。青年球員的價值可以在接球轉身、給前鋒傳送、丟球後能否守回位置這些具體動作展示，無需只講年齡。評述講法：「看小將有沒有進步，不只看他敢不敢做動作；看他做完之後，下一個選擇有沒有令全隊更容易踢。」",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・10月7日長崎對清水",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述09｜死球：一次事件可以打破整場部署",
+        "paragraphs": [
+          {
+            "text": "千葉周三失球來自角球，這為本場提供一個有用的觀察方向，但一球並不足以證明整隊死球防守都有結構性問題。要看盯人與區域責任有沒有交接，第一點有人爭頂之外，落點附近是否有第二名防守者。若大家都跳向同一個球，而禁區內空着一塊地方，第二次觸球可能比第一個頭槌更危險。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "進攻角球同樣不能只講高大球員。跑動可以把防守者帶離落點，短角球可以改變傳中角度，禁區外的接應則可處理解圍後第二波。還要看留後球員是否能防止對方一腳打穿。兩隊在聯賽都面對失球壓力，死球失去一次集中，可能令原本設計好的控球和壓迫都要改寫。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "評述講法：「死球不是另外一場比賽，它會立即改變這場比賽。先失球的一方要推前，對手原本沒有的反擊空間就出現了。」若正選中堅組合有變，開段角球尤其可以觀察誰負責叫位和第一點。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・10月7日千葉對岡山",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述10｜三種比分劇本，以及換人要解決甚麼",
+        "paragraphs": [
+          {
+            "text": "若千葉先入球，理想是把壓迫改為挑時機，把客隊迫到外側，並保留向前接應。全隊退到禁區前可能讓長崎前腰和翼衛長時間自由接球；但繼續不分情況地追壓，又會把剛得到的優勢放在身後空間上。要看領先後第一兩次搶回球，主隊是否仍有人可以把球帶出來。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "若長崎先入球，千葉的風險是因焦急而把兩閘和中場全部推前。更有效的追和方法可能是增加禁區內不同跑線，或找一名能在對方防中身後接球的人，令客軍不能只守傳中。長崎則要保留出口；前鋒若完全孤立，解圍後又被搶回來，領先也可能變成連續防守。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "若60分鐘仍是0–0，換人要先診斷問題：主隊是前鋒接不到球、接到後缺支援，還是最後一腳欠質素？客隊是翼衛回追下降、前腰接應被封，還是前鋒缺少縱深？換上多一名前鋒只有在供應和保護同時安排好時才有用。評述講法：「教練換的不是一個名額，是一個問題的答案；要看新上場的人令球隊哪一條路重新打開。」",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述11｜主場與作客紀錄：可作背景，不能作定律",
+        "paragraphs": [
+          {
+            "text": "千葉今季主場與長崎作客的樣本都很小，不能由三場就斷言誰永遠不擅長某種場地。不過主客背景能幫助解釋開場心態：千葉需要讓主場支持得到可見的回應，長崎需要證明作客亦能把比賽帶到自己的節奏。比分以外，可看客隊後衛受壓時是否仍願意接回傳，以及主隊失去第一次機會後有沒有保持耐性。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "場地熟悉、球迷助威與遠行是合理背景；沒有公開行程資料，就不能補寫長崎坐哪班機、何時抵達或一定舟車勞頓。天氣預報則給出另一個節奏背景：較暖的下午可以令連續高強度追壓更需要選擇時機，但不能憑城市預報便聲稱草地很乾、球速很慢或某球員會抽筋。由實際出球和跑動再判斷。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "評述講法：「主場能給千葉第一股力，接下來要靠部署把那股力留住。長崎作客要做的，是讓球在腳下幫自己控制節奏，別讓比賽一直跟着主隊和看台的速度走。」",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "深度評述12｜上半場、半場與賽後可以怎樣解讀",
+        "paragraphs": [
+          {
+            "text": "開段我會先找三個答案：千葉上搶時能否把長崎困在一側；長崎前腰接球時能否面向前場；主隊失球後是否有人保護中路。若客隊多次由外側中堅輕鬆把球帶過第一線，即使比分仍是0–0，也可以指出壓迫未形成集體效果。若主隊多次搶回並直接進入禁區，即使尚未入球，亦可以指出比賽路線正在向千葉傾斜。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "半場分析要把射門數與射門位置連起來。很多禁區外遠射可能表示進不了核心區域；較少但多次禁區內接應，可能才是更高質攻勢。球權也要問用途：長崎若控球多卻前腰難轉身，千葉可能成功封住中路；千葉若控球少卻持續打到翼衛身後，便不能簡單說主隊被動。不要把單一數字直接當成場面結論。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "我的傾向是千葉應利用主場與較短杯賽負荷，爭取更多主動，但兩隊的防守問題使任何優勢都不穩固。長崎若把中路接應、轉邊和控節奏連起來，足以令主隊的投入變成消耗。這不是精確概率或已建立的比分模型。賽後應回到同一條主線：贏家是否真的讓部署持續產生機會，還是靠一次死球、門將撲救或個人把握力取得結果？這樣可以同時尊重賽果和解釋過程。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計及本場比較",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方・10月7日清水戰賽後發言",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・本場前瞻及千葉球員發言",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新01｜兩隊重返聯賽：勝負會改變甚麼",
+        "paragraphs": [
+          {
+            "text": "千葉20位4分，長崎15位8分。這是同屬升班隊的直接交鋒：千葉可把差距縮至1分，長崎可拉至7分；不能把單場勝利形容為已脫離護級。其餘第9節比賽仍在進行，開波前排名要再查。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "J.League・菊地正典本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "聯賽中斷不等於休息三星期：兩隊9月29日及10月7日都有盃賽。千葉近三場正式賽事全敗；長崎聯賽兩場不敗，但接着兩場盃賽均出局。播述須講清楚「聯賽近況」與「所有正式賽事」。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新02｜我的核心判斷：千葉需要增加高質機會",
+        "paragraphs": [
+          {
+            "text": "千葉第8節後每場xG 0.880、實際7球／8場=0.875；兩者接近。因此我不會把開局低入球單純歸咎把握力。每場9.6射門對17.6被射門，反映進入射程及限制對手出腳同樣需要改善。xG按Football LAB模型，不混用其他網站。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "我的推論：千葉應讓壓迫後第一腳傳送有明確接應，而不是搶回後再倒回後場。若矢村與石川搭檔，一人追壓時另一人要守住接應路線，邊中場亦要同步。可在頭15分鐘記錄搶回後能否形成禁區進入，而非只數跑動。這是觀察假設，沒有證據說教練已作此指令。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "J.League・菊地正典本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "周三吳屋射失12碼、安井射中門柱，證明該場有改寫賽果的機會；但不能據兩次事件推翻八場機會創造偏低的樣本。敗仗應分開看把握機會、失球方式及持續創造能力。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Gekisaka報道／livedoor轉載・岡山戰",
+                "url": "https://news.livedoor.com/article/detail/32513745/",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新03｜長崎新部署：松本前移，兩線之間成為焦點",
+        "paragraphs": [
+          {
+            "text": "長谷川談到松本天夢被安排在前腰位置，隊友距離更近；翁長提到針對四後衛的操練。這令長崎進攻不能只按季初3-4-2-1靜態圖閱讀。開波先看松本在持球和無球時各站哪裏，及哪名中場留後。",
+            "kind": "reported",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・清水戰賽後訪問",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "我的對位推論：若千葉用4-4-2，兩名前鋒面對三名出球後衛，中場又要兼顧前腰，壓迫可能被多一人接應化解。邊中場內收可保護中路，卻會讓翼衛在外側接球。關鍵是千葉閘位何時出迎、另一側邊中場能否回收到遠柱；這不是人盯人名單預測。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "長崎官方・清水戰賽後訪問",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "千葉若追着球橫移而後點無人接管，長崎可用轉邊拉開；千葉若及時封中路迫對手外傳，再在邊線合圍，則有機會直接攻翼衛身後。兩種路徑均需現場驗證，不能將球迷觀察當成已證實的教練弱點。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "球迷分析・aratasuzuki／ゆっくりいこう",
+                "url": "https://yukkuriikou.hatenablog.com/entry/2026/10/09/060000",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-09"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新04｜恢復與換人：120分鐘的影響並不平均",
+        "paragraphs": [
+          {
+            "text": "周三長崎踢至120分鐘。按JFA换人記錄，江川、土肥、翁長、長谷川及後藤踢足；新井105、米田90、山田88、山口及松本67、辛坦拿45分鐘。這是上場負荷，不是體能測試。主力之間負荷差異很大。",
+            "kind": "fact",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "辛坦拿中場被換走，不能自行判定受傷或刻意留力；要以球會或教練說法確認原因。謝薩斯不在周三名單也不能直接寫成受傷。本場若兩人回到前線，攻擊組合與周三便不同。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・菊地正典本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "千葉周三在本場球場比賽，長崎在日本平作客，今次再到千葉；可確認的是比賽地點及多踢30分鐘，球隊是否留在本州、住宿、交通方式及返長崎均未取得證據，不計算虚構旅程。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "我的部署判斷：千葉可以分段提高節奏，迫長崎防線重複轉身；但若持續盲目壓上，便會給對手更短的反擊路線。長崎60分鐘後的接應距離、翼衛回追及換人節點，比開波時是否顯得疲倦更有參考價值。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新05｜人腳與門將：能說到哪一步",
+        "paragraphs": [
+          {
+            "text": "恩迪奧11分鐘早退已有官方記錄，疑似腦震盪來自Football LAB前瞻；醫療確診及本場缺陣未確認。若不能上陣，千葉要重整中場搭配，不能假定安井必然頂替；安井周三入替只是一項選人線索。",
+            "kind": "reported",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "姬野誠周三踢74分鐘，已是復出實證。蘇亞雷斯上一場停賽指定為10月7日天皇盃；10月9日最新停賽表沒有兩隊球員。但鈴木椋大周三上陣不代表星期日必定保住正選，亦不能說蘇亞雷斯必定回歸。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "J.League・10月9日停賽公告",
+                "url": "https://www.jleague.jp/news/article/35077/?navicode=j1",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-09"
+              },
+              {
+                "label": "J.League・菊地正典本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "飯田、喜田及長崎拉多迪奇、高畑、甘保保留原傷患日期和診斷；沒有新的復出確認。Football LAB其他缺場觀察名單亦不是已公布的本場缺陣名單。球員卡把暫時狀態放在賽前更新，永久登錄標籤不改成傷患。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新06｜天氣與場地：晴朗但午間仍暖",
+        "paragraphs": [
+          {
+            "text": "10月10日14:00日本發布的千葉市預報：11日14時晴、26.8°C、濕度約50%、東北風3m/s、預測雨量0。15時約25°C；城市預報並非球場實測，明日需重查。",
+            "kind": "fact",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "日本氣象協會・千葉市逐小時預報（10月10日14:00日本發表）",
+                "url": "https://tenki.jp/forecast/3/15/4510/12100/1hour.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "我的推論：目前沒有需要把大雨或強風當主要戰術因素的依據。反而日間偏暖、短恢復期及長崎部分球員120分鐘負荷，令持續壓迫和替補時機更值得看。球場有否灑水、草皮球速須在直播畫面確認。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "日本氣象協會・千葉市逐小時預報（10月10日14:00日本發表）",
+                "url": "https://tenki.jp/forecast/3/15/4510/12100/1hour.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-10"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新07｜球迷與媒體：支持、焦慮與觀點的邊界",
+        "paragraphs": [
+          {
+            "text": "菊地正典本場J.League前瞻描述千葉周三敗後仍有球迷支持，並引述恩杜卡、姬野和矢村都要求用結果回應。這是記者现场／採訪材料，不應概括成全體球迷看法。",
+            "kind": "reported",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "J.League・菊地正典本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "aratasuzuki10月9日球迷文章擔心千葉橫向防守及遠側翼衛接球，也評高木組隊後再融入謝薩斯。可作觀看線索，但「跑動不足」「教練會被換」等不能當作本場事實或已確認消息。這是一名作者的分析，不是輿論調查。",
+            "kind": "opinion",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "球迷分析・aratasuzuki／ゆっくりいこう",
+                "url": "https://yukkuriikou.hatenablog.com/entry/2026/10/09/060000",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-09"
+              }
+            ]
+          },
+          {
+            "text": "長崎對千葉五連勝是歷史故事線；球隊人員、級別及近期負荷都已改變，我不把往績機械地換成勝率。我的判斷是：長崎前場個人能力有威脅，千葉主場與恢復負荷有可利用條件，勝負仍取決於接應、失球後保護及禁區兩端處理。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "J.League・菊地正典本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新08｜我的比賽劇本與即場觀察",
+        "paragraphs": [
+          {
+            "text": "千葉先入球：看能否守住中場身後並繼續製造出腳，避免過早全面退守。長崎先入球：千葉追分時翼側身後和遠柱風險會上升，但長崎仍需處理後半段強度。0–0至60分鐘：換人應看實際負荷和角色，不以名氣代替分析。這三項是情境推演。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "開場15分鐘觀察：①千葉幾人參與第一線壓迫；②松本是否前移，謝薩斯是否在場；③長崎轉邊後誰接管遠柱；④千葉失球權後由誰延緩反擊。下半場觀察：翼衛回追、長谷川接球距離、禁區內第二點和球隊換人反應。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方・清水戰賽後訪問",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          },
+          {
+            "text": "不提供看似精密卻未校準的模型勝率。兩隊只有八場本季聯賽樣本，xG供應商、現時人腳和盃賽負荷又不同。我的勝負傾向要等恩迪奧、謝薩斯與兩隊門將確認，現階段以條件式劇本供評述使用。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "賽前更新09｜可直接改編的開場與明日快速核對",
+        "paragraphs": [
+          {
+            "text": "開場提綱（天書撰稿）：同樣從J2升班、同樣剛在兩項盃賽出局，千葉與長崎今次把焦點完全放回聯賽。千葉要在主場止跌，長崎要把主場取分能力帶到客場。四分差距可以縮至一分，也可以變七分；但兩隊都要先回答同一問題：如何把自己的好時段換成入球，再把優勢守到最後。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "明日短覆核順序：先看官方正選／後備與裁判；再查恩迪奧醫療及謝薩斯名單、門將選擇、長崎中場站位；更新第9節完成後全榜、天氣；補最新訪問。逐名J1黃牌臨界仍未找到足夠證據，不能以盃賽黃牌或隊伍總警告推算。",
+            "kind": "analysis",
+            "as_of": "2026-10-10",
+            "sources": [
+              {
+                "label": "J.League・10月9日停賽公告",
+                "url": "https://www.jleague.jp/news/article/35077/?navicode=j1",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-09"
+              },
+              {
+                "label": "JFA・岡山對千葉官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "JFA・清水對長崎官方記錄",
+                "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
+                "accessed_at": "2026-10-10",
+                "published_at": "2026-10-07"
+              },
+              {
+                "label": "Football LAB・第8節統計／本場前瞻",
+                "url": "https://www.football-lab.jp/chib/preview",
+                "accessed_at": "2026-10-10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "背景資料｜01｜形勢：需要止跌的主隊，尚未作客取分的客隊",
         "paragraphs": [
           {
             "text": "千葉第8節後僅4分。開季五連敗後，對大阪飛腳取勝、作客東京綠茵賽和，卻又輸清水；改善並未連成穩定取分走勢。長崎最近兩場聯賽4分，但兩場均主場。本場能否把主場表現帶到客場，是比排名本身更值得播述的問題。",
@@ -2736,7 +4041,7 @@
         ]
       },
       {
-        "title": "02｜千葉：問題不只在射門最後一腳",
+        "title": "背景資料｜02｜千葉：問題不只在射門最後一腳",
         "paragraphs": [
           {
             "text": "本季聯賽每場射門9.6次、禁區進入7.5次，兩者列第19；被射門17.6次列第20。這組數據把問題指向兩端：進攻到危險區域的次數不足，同時讓對手完成射門太多。若只說「把握力差」，便忽略機會數量。",
@@ -2806,7 +4111,7 @@
         ]
       },
       {
-        "title": "03｜長崎：控球後的效率與失球後第一步",
+        "title": "背景資料｜03｜長崎：控球後的效率與失球後第一步",
         "paragraphs": [
           {
             "text": "鳥取戰賽後，新井一耀說球隊雖能控球，卻缺乏有效進攻，投入多人進攻後的失球方式及風險管理亦有問題。他提出更多一腳傳送、身後走位、第二點及遠射等變化。這是當事人的檢討；在千葉戰是否做到，需由場上實際表現判斷。",
@@ -2843,7 +4148,7 @@
         ]
       },
       {
-        "title": "04｜操練與用人：已見到的證據，尚未見到的答案",
+        "title": "背景資料｜04｜操練與用人：已見到的證據，尚未見到的答案",
         "paragraphs": [
           {
             "text": "KTN電視長崎8月6日專訪：高木琢也指出J1對手提升節奏的能力明顯不同，長崎容易退得太深，必須主動把防線及整隊向前推，否則會持續受壓。報道亦記錄7月荷蘭及沖繩集訓着重戰術與體能。這是本季開賽前背景，不是本週操練報告。",
@@ -2870,30 +4175,11 @@
                 "accessed_at": "2026-10-06"
               }
             ]
-          },
-          {
-            "text": "兩隊在10月7日均有天皇盃。千葉在自己的聯賽主場踢，但編排屬客隊；長崎要到清水，再去千葉。比賽負荷及輪換必須等盃賽後才有更好線索。目前展示的是歷史常用陣式，不填預測球員位置。",
-            "kind": "analysis",
-            "as_of": "2026-09-01",
-            "sources": [
-              {
-                "label": "JFA・天皇盃第三圈賽程",
-                "url": "https://www.jfa.jp/match/emperorscup_2026/news/00036688/",
-                "published_at": "2026-09-01",
-                "accessed_at": "2026-10-06"
-              },
-              {
-                "label": "長崎官方・全季賽程及賽果",
-                "url": "https://www.v-varen.com/match",
-                "published_at": "2026-10-06",
-                "accessed_at": "2026-10-06"
-              }
-            ]
           }
         ]
       },
       {
-        "title": "05｜日本記者與球迷觀點：保留日期與身份",
+        "title": "背景資料｜05｜日本記者與球迷觀點：保留日期與身份",
         "paragraphs": [
           {
             "text": "El Golazo番記者菊地正典8月11日評第1節：他認為千葉用三中堅時較難發揮原有特色，但艾利臣、丹尼爾・賀爾上半場已有作用，馬菲奧斯・恩迪奧後備入場改變比賽走勢；0–3比分比實際內容差距大。此為記者對開季一場比賽的評價，不能當作目前狀態或本場陣式的結論。",
@@ -2969,7 +4255,7 @@
         ]
       },
       {
-        "title": "06｜開賽後：用場面驗證三個問題",
+        "title": "背景資料｜06｜開賽後：用場面驗證三個問題",
         "paragraphs": [
           {
             "text": "第一，千葉能否把邊路突破變成禁區內接應，而非在外圍循環？第二，長崎在人數投入進攻後，失球一刻是否仍有人封鎖反擊？第三，哪一邊能控制第二點，連續發動下一波攻勢？這三點來自本季陣式、機會統計及上仗當事人檢討，是即場觀察清單。",
@@ -3027,74 +4313,73 @@
   },
   "quotes": [
     {
-      "topic": "盃賽失利後，如何重新出發",
+      "topic": "盃賽後聯賽目標",
       "home": {
-        "speaker": "小林慶行",
-        "role": "主教練",
-        "published_at": "2026-09-29",
+        "speaker": "姬野誠",
+        "role": "球員",
+        "published_at": "2026-10-07",
         "context": "post_match",
-        "outlet": "千葉官方（用戶提供完整原文）",
-        "url": "https://jefunited.co.jp/matches/contents/1588",
-        "paraphrase_zh": "追平兩球仍不足以令他滿意：結果才是標準。球隊在佔優時未能完成致勝攻勢，失球後又領紅牌，把比賽變得更困難；他認為全隊顯露不成熟。這是磐田戰賽後檢討。"
+        "outlet": "J.League／菊地正典",
+        "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+        "paraphrase_zh": "希望以結果回報支持，本場把取勝放首位。",
+        "date_note": "10月7日岡山戰後的發言，由本場J.League前瞻轉述；原前瞻未列出版日期，10月10日讀取。",
+        "accessed_at": "2026-10-10"
       },
       "away": {
         "speaker": "高木琢也",
         "role": "主教練",
-        "published_at": "2026-09-29",
+        "published_at": "2026-10-07",
         "context": "post_match",
-        "outlet": "V-Varen長崎官方",
-        "url": "https://www.v-varen.com/gamedata2/20260929",
-        "paraphrase_zh": "",
-        "quote_ja": "今日の試合を無駄にしないように",
-        "quote_zh": "不能讓這場比賽白白過去。"
+        "outlet": "長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20261007",
+        "paraphrase_zh": "要求把失利轉成實際改善，並承認中三日恢復有難度。"
       }
     },
     {
-      "topic": "下一場前的態度",
-      "home": null,
-      "away": {
-        "speaker": "堤亞高・辛坦拿",
+      "topic": "進攻部署",
+      "home": {
+        "speaker": "矢村健",
         "role": "前鋒",
-        "published_at": "2026-09-29",
+        "published_at": "2026-10-07",
         "context": "post_match",
-        "outlet": "V-Varen長崎官方",
-        "url": "https://www.v-varen.com/gamedata2/20260929",
-        "paraphrase_zh": "他表示沒有時間低頭；已發生的事不能挽回，全隊要重新準備首先到來的清水天皇盃客場。這不是專門針對千葉的發言。"
+        "outlet": "J.League／菊地正典",
+        "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+        "paraphrase_zh": "前場追壓是基礎，仍要求自己入球。",
+        "date_note": "10月7日岡山戰後的發言，由本場J.League前瞻轉述；原前瞻未列出版日期，10月10日讀取。",
+        "accessed_at": "2026-10-10"
+      },
+      "away": {
+        "speaker": "長谷川元希",
+        "role": "中場",
+        "published_at": "2026-10-07",
+        "context": "post_match",
+        "outlet": "長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20261007",
+        "paraphrase_zh": "松本前移縮短配合距離；但球隊後段強度仍需維持。"
       }
     },
     {
-      "topic": "進攻壓上後的協調與風險管理",
+      "topic": "四後衛對位與球迷",
       "home": {
         "speaker": "恩杜卡・邦費斯",
         "role": "後衛",
-        "published_at": "2026-09-29",
+        "published_at": "2026-10-07",
         "context": "post_match",
-        "outlet": "千葉官方（用戶提供完整原文）",
-        "url": "https://jefunited.co.jp/matches/contents/1588",
-        "paraphrase_zh": "他希望向前施壓，卻有時暴露身後空間；加入新隊後，個人選擇必須與隊友同步。防守傳中時，區域站位之外亦要找到並盯住對手。"
+        "outlet": "J.League／菊地正典",
+        "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
+        "paraphrase_zh": "感謝球迷營造氣氛，希望用勝利回報。",
+        "date_note": "10月7日岡山戰後的發言，由本場J.League前瞻轉述；原前瞻未列出版日期，10月10日讀取。",
+        "accessed_at": "2026-10-10"
       },
       "away": {
-        "speaker": "新井一耀",
-        "role": "後衛",
-        "published_at": "2026-09-29",
+        "speaker": "翁長聖",
+        "role": "翼衛",
+        "published_at": "2026-10-07",
         "context": "post_match",
-        "outlet": "V-Varen長崎官方",
-        "url": "https://www.v-varen.com/gamedata2/20260929",
-        "paraphrase_zh": "他指出控球未能轉成有效攻勢，多人壓上後失球方式及風險管理欠佳；希望增加一腳傳送、身後跑動與第二點，並由操練提高攻守轉換強度。"
+        "outlet": "長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20261007",
+        "paraphrase_zh": "操練已反覆準備四後衛對手，盃賽出局後集中聯賽。"
       }
-    },
-    {
-      "topic": "傳中防守：前鋒亦有責任",
-      "home": {
-        "speaker": "石川大地",
-        "role": "前鋒",
-        "published_at": "2026-09-29",
-        "context": "post_match",
-        "outlet": "千葉官方（用戶提供完整原文）",
-        "url": "https://jefunited.co.jp/matches/contents/1588",
-        "paraphrase_zh": "他承認第一個失球時未能完全掌握對方球員位置，強調傳中防守意識必須提高；球隊在佔優時仍失球，暴露了比賽管理不足。"
-      },
-      "away": null
     }
   ],
   "head_to_head": [
@@ -3262,36 +4547,29 @@
     }
   ],
   "research_sweep": {
-    "date": "2026-10-07",
-    "cutoff": "天皇盃開賽前；未使用10月7日賽果",
-    "scope": "千葉對長崎，10月11日",
+    "date": "2026-10-10",
+    "cutoff": "10月10日賽前；全榜10月9日21:29日本，天氣10月10日14:00日本預報",
+    "scope": "千葉對長崎 2026-10-11",
     "searched_outlets": [
-      "兩隊官方網站",
+      "兩隊官方",
       "J.League",
       "JFA",
-      "KTN／FNN",
-      "SportsNavi／El Golazo",
+      "Football LAB",
+      "Gekisaka（livedoor轉載）",
+      "Yahoo Sports/SportsNavi",
       "Soccer Digest",
-      "Soccer Magazine",
-      "Gekisaka",
-      "Soccer King",
       "Football Zone",
-      "Footballista",
-      "Number",
-      "Sportiva",
-      "日刊體育",
-      "Sponichi",
-      "報知",
-      "Sanspo",
-      "千葉日報",
-      "長崎新聞",
-      "地方電視台／Newsdig"
+      "Soccer King",
+      "地方Newsdig",
+      "日本氣象協會",
+      "ゆっくりいこう（球迷分析）"
     ],
     "limitations": [
-      "搜尋結果不等於已讀全文；部分地方報章及體育報章限制擷取，付費內容未引用。",
-      "新增用戶提供的千葉9月29日官方完整賽後訪問；未取得新的10月11日專場賽前訪問。9月29日前的訪問只放背景及球員觀察，不移入引言窗口。",
-      "新增公告主要發表於9月；8月採訪與記者評價明示為背景。",
-      "黃牌臨界名單及最新復出狀態尚未取得足夠公開確認。"
+      "部分千葉官方內容為動態頁面，擷取僅有框架；未宣稱已讀完整最新官方訪問。",
+      "DAZN前瞻403未讀全文，未引用；未購買El Golazo。",
+      "逐名累積黃牌臨界、官方正選、裁判、恩迪奧醫療結論和球隊實際行程未確認。",
+      "新補兩名2種登錄球員只完成身份及登錄補漏，深入人物資料和TVB中文顯示名待補。",
+      "本場J.League前瞻未列出版日；千葉近期發言明示10月7日賽後、10月10日擷取。"
     ]
   }
 }

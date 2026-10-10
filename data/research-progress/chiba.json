@@ -2,9 +2,9 @@
   "schema_version": 1,
   "club": "chiba",
   "club_name_zh": "千葉市原JEF聯",
-  "player_research_status": "completed",
-  "updated_at": "2026-09-27",
-  "roster_players": 37,
+  "player_research_status": "in_progress",
+  "updated_at": "2026-10-10",
+  "roster_players": 39,
   "baseline_complete_players": [],
   "batches": [
     {
@@ -286,7 +286,7 @@
         {
           "id": "chiba_25",
           "number": "25",
-          "name_zh": "Matheus Indio",
+          "name_zh": "恩迪奧",
           "name_en": "Matheus Indio",
           "weight": 1
         },
@@ -506,6 +506,38 @@
           "text": "Hall lacks a third independently observed tactical trait; academy state-league seasons have only combined 2019–21 statistics. Hidaka and Erison pass."
         }
       ]
+    },
+    {
+      "id": "chiba-registration-remediation-20261010",
+      "kind": "player_research",
+      "status": "validation_failed",
+      "capacity_points": 2,
+      "players": [
+        {
+          "id": "chiba_46",
+          "number": "46",
+          "name_zh": "齋藤隼士",
+          "name_en": "Shunji Saito",
+          "weight": 1
+        },
+        {
+          "id": "chiba_47",
+          "number": "47",
+          "name_zh": "伊藤暖",
+          "name_en": "Haru Ito",
+          "weight": 1
+        }
+      ],
+      "notes": [
+        "Match-day roster check found two missing July 31 second-category registrations. Official identity cards added as research_incomplete. TVB names, independent biography and career-date research remain open; prior 37 cards preserved.",
+        "2026-10-10 user confirmed both Chinese names and requested full card research.",
+        {
+          "date": "2026-10-10",
+          "text": "兩張卡及中文名、照片、青訓、雙階段登錄、杯賽統計已補齊並可發布；慣用腳與完整個人戰術樣本未定，保留research_incomplete，不冒充完成全面研究。"
+        }
+      ],
+      "started_at": "2026-10-10",
+      "completed_at": null
     }
   ],
   "status_tag_stage": {
