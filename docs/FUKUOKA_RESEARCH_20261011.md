@@ -29,3 +29,16 @@ Rebuilt all four with full early-youth audits, separate mixed registrations, yea
 Current Data Site was consulted for all four (page stamp 2026-10-05); league/current Yahoo feeds also read. Exact URLs, access dates, snapshots and source notes are in the cards. Transfermarkt searches included identity-specific queries: Oka/Mikuni index gives foot, full pages return 403; Akino's individual page unavailable; Sato search mostly returned the different Ryunosuke Sato and was not used. Current official Q&A confirms each foot. No invented cup totals or youth statistics.
 
 Validation: fukuoka-04 4/4 pass; npm test 17/17 pass. Status tags remain queued separately. No shared rules or unrelated club files edited. Batch 3 Pages deployment succeeded; its general validation workflow stops at the pre-existing Urawa strict step after npm test succeeds.
+
+## fukuoka-05
+
+Completed #21 奧里奧爾・羅美奧, #22 藤本一輝, #23 深澤大輝 and #24 小畑裕馬 on 2026-10-11. Rebuilt each youth/professional route, source-linked league rows, representative history, dated milestones, specific tactical observations and human stories. Preserved TVB names and unrelated players.
+
+- Romeu: corrected missing Girona 2022/23 and Southampton 2025/26; previous club Southampton. Catalan Wikipedia first, then Japanese/English, cross-checked former-club announcements. Named Juvenil B/A preserved with unknown dates; overall Barcelona academy period 2004–2008 documented. Overseas league table convention from English Wikipedia, not former-club all-competition totals. Premier League and Coaches’ Voice analysis; Southampton interview and Mundo Deportivo/Betevé report.
+- Fujimoto: corrected Oita 2023 and Machida 2024; removed implied 2023 Machida promotion honour. J.League youth dates, 2020 special designation, Soccer Digest role-change interview and OITA SPORTS routines.
+- Fukazawa: restored Nishihara, all Verdy academy levels and 2020 special designation. J.League current career table has stale Verdy affiliation; current identity and both clubs’ transfer notices establish Fukuoka. Nikkansports defensive leadership report and Chudai captain interview.
+- Obata: restored Fanaticos (unknown dates), Avanzare, academy and separate 2017–2019 dual registrations; corrected 2020 league to J1. Footballista public excerpt only, Js LINK tactical interview and JFA Asian Games report. Data Site updated 2026-10-11 and SportsNavi match detail show 3 league games/270 minutes; player-page summary and SportsNavi historical aggregate lag at 2. Selected dated Data Site figures.
+
+All four official portrait URLs read from current profile HTML; right foot confirmed from current club pages after preferred-foot/Transfermarkt lookup (Japanese profiles returned 403). Current league snapshot: Romeu 1/0/8 minutes, Fujimoto 5/1/253, Fukazawa 6/0/273, Obata 3/0/270; SportsNavi assists 0/0/2/0. Unknown youth dates and unavailable youth/cup totals remain null. Status-tag stage remains scheduled.
+
+Validation: batch gate 4/4; npm test validates 20 club files with zero errors and all 17 match tests pass. Existing coverage warnings remain across unfinished research. Queue now 5/10 batches, 20/39 players completed. Next batch fukuoka-06, not started.
