@@ -55,3 +55,11 @@ Completed #25 北島祐二, #28 鶴野怜樹, #29 前嶋洋太 and #32 辛尼布
 Current Data Site update 2026-10-11 consulted: Kitajima 2/0/68 minutes, Maejima 8/1/504, Hanan 3/0/29. Tsuruno absent from appearance list; SportsNavi explicitly 0/0/0 minutes, J.League summary also zero. Maejima SportsNavi 1 assist; Tsuruno zero; Kitajima/Hanan assists left null. J.League Kitajima summary is older 1/44; selected newer Data Site and recorded discrepancy. Status tags remain the separate scheduled pass.
 
 Validation: fukuoka-06 4/4 pass; npm test zero data errors, 17/17 match tests. Scope comparison confirms exactly the assigned four player records changed. Queue 6/10 batches and 24/39 players completed; fukuoka-07 remains queued.
+
+## Batch fukuoka-07 — 2026-10-11
+
+Completed #33 Yamawaki, #34 Shiihashi, #37 Tashiro and #38 Miya. Rebuilt named youth stages and annual professional/loan records; refreshed official portraits/vitals and Data Site statistics (3/0/95, 9/0/490, 5/0/450, 4/0/137 respectively; appearances/goals/minutes).
+
+Corrections: Shiihashi's March 2026 loan and next-season permanent move are separate; Nagoya's departure table lists 31 games in 2020 against 33 in league/SportsNavi records, retained 33 and recorded the conflict. Tashiro left Gifu in March 2017 and restarted at Tochigi in 2018; 2023 Tosu/Fukuoka split retained. His official right-foot field conflicts with Q&A ambidexterity, explicitly recorded. Miya's 2016 and 2017 special-designated registrations confirmed separately through JFA, and his early-2026 Nagoya registration retained before March return. Historical dashes remain null; explicit Nagoya 2026 zero is preserved.
+
+Outside reporting includes Kitaq Style, Js LINK, Soccer Magazine, Soccer King, Fukuoka Navi and Gekisaka; national/team honors use JFA and university league originals. Dated tactical examples and human stories now replace generic descriptions. Batch validation 4/4 passed; npm test passed with 17 tests and no failures. Status-tag review remains scheduled separately.
