@@ -3,8 +3,8 @@
   "home": "chiba",
   "away": "nagasaki",
   "date": "2026-10-11",
-  "as_of": "2026-10-10",
-  "coverage_note": "10月10日賽前全面更新：補兩隊10月7日天皇盃賽果、長崎120分鐘負荷與新中場部署、最新停賽公告、千葉恩迪奧早退及姬野復出、兩名漏列2種登錄球員、天氣及完整深度前瞻。聯賽數據截至兩隊第8節；全榜截至10月9日21:29日本。正選、恩迪奧醫療確認、累積黃牌臨界及最後操練消息留待10月11日短覆核。",
+  "as_of": "2026-10-11",
+  "coverage_note": "10月11日上午最後覆核：兩隊共73張有號碼球員卡與官方名單對照，未發現新增漏卡；更新恩迪奧官方疑似腦震盪記錄、新井個人狀態、10月9日停賽公告、10月10日賽後全榜及比賽日天氣。新增25則近期訪問重點，按四個事件排列並同步人物卡。正選、後備、裁判、恩迪奧醫療許可及逐人累積黃牌臨界仍未確認。",
   "match_info": {
     "kickoff_hkt": "13:00 香港（14:00 日本）",
     "stadium": "福田電子競技場（Fukuda Denshi Arena）",
@@ -23,7 +23,20 @@
         "published_at": "2026-10-06",
         "accessed_at": "2026-10-06"
       }
-    ]
+    ],
+    "weather": {
+      "text": "千葉市中央區10月11日10:00日本時間預報：14:00晴、26.8°C、濕度49%；15:00晴、24.9°C、濕度50%；兩時段降雨機率0%、預測雨量0毫米。此為區域預報，並非球場實測。",
+      "kind": "reported",
+      "as_of": "2026-10-11",
+      "sources": [
+        {
+          "label": "日本氣象協會・千葉市中央區逐小時預報",
+          "url": "https://tenki.jp/forecast/3/15/4510/12101/1hour.html",
+          "accessed_at": "2026-10-11"
+        }
+      ]
+    },
+    "selection_note": "10月11日上午覆核時官方正選、後備及裁判尚未取得；這裏保留待確認。傷患回歸以醫療公告及正式名單為準。"
   },
   "teams": {
     "chiba": {
@@ -301,24 +314,32 @@
               "accessed_at": "2026-10-06"
             }
           ]
+        },
+        {
+          "text": "最新10月9日J.League出場停止公告沒有列出千葉或長崎球員；不代表已核實逐人的累積黃牌臨界。",
+          "kind": "fact",
+          "as_of": "2026-10-11",
+          "sources": [
+            {
+              "label": "J.League・10月9日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35077/?navicode=j1",
+              "accessed_at": "2026-10-11",
+              "published_at": "2026-10-09"
+            }
+          ]
         }
       ],
       "injuries": [
         {
-          "text": "恩迪奧：10月7日11分鐘被安井拓也換出（JFA記錄）。Football LAB本場前瞻稱疑似腦震盪及本場上陣機會低；未取得球會確診或復出許可，標作待醫療／名單確認，不寫已確定缺陣。",
+          "text": "千葉官方戰報確認：10月7日接觸後因疑似腦震盪被換出。尚未取得確診、復出許可或本場名單確認。",
           "kind": "reported",
-          "as_of": "2026-10-10",
+          "as_of": "2026-10-11",
           "sources": [
             {
-              "label": "JFA・岡山對千葉官方記錄",
-              "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m62.html",
-              "accessed_at": "2026-10-10",
+              "label": "千葉官方・岡山戰賽後訪問及戰報",
+              "url": "https://jefunited.co.jp/matches/contents/1575/",
+              "accessed_at": "2026-10-11",
               "published_at": "2026-10-07"
-            },
-            {
-              "label": "Football LAB・第8節統計／本場前瞻",
-              "url": "https://www.football-lab.jp/chib/preview",
-              "accessed_at": "2026-10-10"
             }
           ]
         },
@@ -796,6 +817,19 @@
               "accessed_at": "2026-10-07"
             }
           ]
+        },
+        {
+          "text": "J1通算上陣149場；若今場上陣，將達150場（截至第9節前，並非已達成）。",
+          "kind": "fact",
+          "as_of": "2026-10-11",
+          "sources": [
+            {
+              "label": "J.League・第9節可達成紀錄",
+              "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+              "accessed_at": "2026-10-11",
+              "published_at": "2026-10-08"
+            }
+          ]
         }
       ],
       "lineup": {
@@ -803,21 +837,21 @@
         "bench": [],
         "cues": [
           {
-            "text": "開場可提：4分排20、上仗盃賽追平後仍落敗。正選公布後優先核對門將及中堅組合。",
+            "text": "千葉4分排20，上仗天皇盃0–1岡山。核對恩迪奧是否入選、安井是否續用，以及米倉能否達J1第150次上陣。",
             "kind": "analysis",
-            "as_of": "2026-09-20",
+            "as_of": "2026-10-11",
             "sources": [
               {
-                "label": "J.League官方聯賽榜",
-                "url": "https://www.jleague.jp/j1/standings/",
-                "published_at": "2026-09-20",
-                "accessed_at": "2026-10-06"
+                "label": "千葉官方・岡山戰賽後訪問及戰報",
+                "url": "https://jefunited.co.jp/matches/contents/1575/",
+                "accessed_at": "2026-10-11",
+                "published_at": "2026-10-07"
               },
               {
-                "label": "J.League官方・磐田4–2千葉",
-                "url": "https://www.jleague.jp/match/leaguecup/2026/092910/",
-                "published_at": "2026-09-29",
-                "accessed_at": "2026-10-06"
+                "label": "J.League・第9節可達成紀錄",
+                "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+                "published_at": "2026-10-08",
+                "accessed_at": "2026-10-11"
               }
             ]
           }
@@ -1607,9 +1641,35 @@
               "published_at": "2026-10-09"
             }
           ]
+        },
+        {
+          "text": "最新10月9日J.League出場停止公告沒有列出千葉或長崎球員；不代表已核實逐人的累積黃牌臨界。",
+          "kind": "fact",
+          "as_of": "2026-10-11",
+          "sources": [
+            {
+              "label": "J.League・10月9日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35077/?navicode=j1",
+              "accessed_at": "2026-10-11",
+              "published_at": "2026-10-09"
+            }
+          ]
         }
       ],
       "injuries": [
+        {
+          "text": "新井一耀親述狀態尚未接近十足，盃賽後以恢復及錄影討論備戰；這是本人賽前自述，本場選拔仍待公布。",
+          "kind": "reported",
+          "as_of": "2026-10-11",
+          "sources": [
+            {
+              "label": "長崎官方・千葉戰賽前訪問",
+              "url": "https://www.v-varen.com/team-comments/249918",
+              "accessed_at": "2026-10-11",
+              "published_at": "2026-10-09"
+            }
+          ]
+        },
         {
           "text": "9月13日球會公布兩名操練傷患（J.League 9月14日轉載）：盧卡・拉多迪奇右膝內側半月板受傷；高畑奎汰左內側副韌帶及內側腿後肌受傷。未取得本場復出確認。",
           "kind": "fact",
@@ -1932,6 +1992,32 @@
               "accessed_at": "2026-10-07"
             }
           ]
+        },
+        {
+          "text": "J1通算47球，距50球尚差3球；並非下一球便達50。",
+          "kind": "fact",
+          "as_of": "2026-10-11",
+          "sources": [
+            {
+              "label": "J.League・第9節可達成紀錄",
+              "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+              "accessed_at": "2026-10-11",
+              "published_at": "2026-10-08"
+            }
+          ]
+        },
+        {
+          "text": "長崎球會歷來J1通算49球，下一球將達50球；此為球會跨球季紀錄，並非本季入球。",
+          "kind": "fact",
+          "as_of": "2026-10-11",
+          "sources": [
+            {
+              "label": "J.League・第9節可達成紀錄",
+              "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+              "accessed_at": "2026-10-11",
+              "published_at": "2026-10-08"
+            }
+          ]
         }
       ],
       "lineup": {
@@ -1939,21 +2025,21 @@
         "bench": [],
         "cues": [
           {
-            "text": "開場可提：8分排15、本季聯賽客場尚未取分。核對辛坦拿與謝薩斯是否同時正選。",
+            "text": "長崎8分排15，上仗天皇盃120分鐘1–2清水。核對120分鐘主力的選拔與換人安排；下一球為球會歷來J1第50球。",
             "kind": "analysis",
-            "as_of": "2026-09-20",
+            "as_of": "2026-10-11",
             "sources": [
               {
-                "label": "J.League官方聯賽榜",
-                "url": "https://www.jleague.jp/j1/standings/",
-                "published_at": "2026-09-20",
-                "accessed_at": "2026-10-06"
+                "label": "長崎官方・清水戰賽後訪問",
+                "url": "https://www.v-varen.com/gamedata2/20261007",
+                "accessed_at": "2026-10-11",
+                "published_at": "2026-10-07"
               },
               {
-                "label": "Football LAB・本場對賽資料",
-                "url": "https://www.football-lab.jp/chib/preview",
-                "published_at": "2026-09-21",
-                "accessed_at": "2026-10-06"
+                "label": "J.League・第9節可達成紀錄",
+                "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+                "published_at": "2026-10-08",
+                "accessed_at": "2026-10-11"
               }
             ]
           }
@@ -2483,12 +2569,12 @@
     }
   },
   "standings": {
-    "as_of": "2026-10-09 21:29（日本；10月10日比賽尚未納入）",
+    "as_of": "2026-10-10 21:11 日本時間",
     "sources": [
       {
-        "label": "J.League完整聯賽榜",
-        "url": "https://www.jleague.jp/j1/standings/",
-        "accessed_at": "2026-10-10"
+        "label": "J.League官方・10月10日賽後全榜",
+        "url": "https://www.jleague.jp/standings/j1/",
+        "accessed_at": "2026-10-11"
       }
     ],
     "rows": [
@@ -2496,261 +2582,261 @@
         "rank": 1,
         "slug": "kashiwa",
         "name_zh": "柏太陽王",
+        "points": 21,
         "played": 9,
         "wins": 7,
         "draws": 0,
         "losses": 2,
         "goals_for": 21,
         "goals_against": 14,
-        "goal_difference": 7,
-        "points": 21
+        "goal_difference": 7
       },
       {
         "rank": 2,
+        "slug": "machida",
+        "name_zh": "町田澤維亞",
+        "points": 20,
+        "played": 9,
+        "wins": 6,
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 22,
+        "goals_against": 10,
+        "goal_difference": 12
+      },
+      {
+        "rank": 3,
+        "slug": "fc-tokyo",
+        "name_zh": "FC東京",
+        "points": 20,
+        "played": 9,
+        "wins": 6,
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 17,
+        "goals_against": 8,
+        "goal_difference": 9
+      },
+      {
+        "rank": 4,
         "slug": "kobe",
         "name_zh": "神戶勝利船",
+        "points": 19,
         "played": 9,
         "wins": 6,
         "draws": 1,
         "losses": 2,
         "goals_for": 14,
         "goals_against": 9,
-        "goal_difference": 5,
-        "points": 19
+        "goal_difference": 5
       },
       {
-        "rank": 3,
+        "rank": 5,
         "slug": "hiroshima",
         "name_zh": "廣島三箭",
+        "points": 17,
         "played": 8,
         "wins": 5,
         "draws": 2,
         "losses": 1,
         "goals_for": 20,
         "goals_against": 6,
-        "goal_difference": 14,
-        "points": 17
-      },
-      {
-        "rank": 4,
-        "slug": "machida",
-        "name_zh": "町田澤維亞",
-        "played": 8,
-        "wins": 5,
-        "draws": 2,
-        "losses": 1,
-        "goals_for": 21,
-        "goals_against": 10,
-        "goal_difference": 11,
-        "points": 17
-      },
-      {
-        "rank": 5,
-        "slug": "fc-tokyo",
-        "name_zh": "FC東京",
-        "played": 8,
-        "wins": 5,
-        "draws": 2,
-        "losses": 1,
-        "goals_for": 14,
-        "goals_against": 8,
-        "goal_difference": 6,
-        "points": 17
+        "goal_difference": 14
       },
       {
         "rank": 6,
         "slug": "kashima",
         "name_zh": "鹿島鹿角",
+        "points": 16,
         "played": 9,
         "wins": 5,
         "draws": 1,
         "losses": 3,
         "goals_for": 19,
         "goals_against": 16,
-        "goal_difference": 3,
-        "points": 16
+        "goal_difference": 3
       },
       {
         "rank": 7,
         "slug": "yokohama-fm",
         "name_zh": "橫濱水手",
-        "played": 8,
+        "points": 15,
+        "played": 9,
         "wins": 4,
-        "draws": 2,
+        "draws": 3,
         "losses": 2,
         "goals_for": 13,
         "goals_against": 9,
-        "goal_difference": 4,
-        "points": 14
+        "goal_difference": 4
       },
       {
         "rank": 8,
         "slug": "kawasaki",
         "name_zh": "川崎前鋒",
+        "points": 13,
         "played": 8,
         "wins": 3,
         "draws": 4,
         "losses": 1,
         "goals_for": 16,
         "goals_against": 12,
-        "goal_difference": 4,
-        "points": 13
+        "goal_difference": 4
       },
       {
         "rank": 9,
         "slug": "okayama",
         "name_zh": "岡山綠雉",
-        "played": 8,
+        "points": 13,
+        "played": 9,
         "wins": 4,
         "draws": 1,
-        "losses": 3,
-        "goals_for": 11,
-        "goals_against": 10,
-        "goal_difference": 1,
-        "points": 13
+        "losses": 4,
+        "goals_for": 12,
+        "goals_against": 12,
+        "goal_difference": 0
       },
       {
         "rank": 10,
         "slug": "urawa",
         "name_zh": "浦和紅鑽",
-        "played": 8,
+        "points": 12,
+        "played": 9,
         "wins": 4,
         "draws": 0,
-        "losses": 4,
+        "losses": 5,
         "goals_for": 16,
-        "goals_against": 18,
-        "goal_difference": -2,
-        "points": 12
+        "goals_against": 21,
+        "goal_difference": -5
       },
       {
         "rank": 11,
         "slug": "cerezo-osaka",
         "name_zh": "大阪櫻花",
-        "played": 8,
+        "points": 12,
+        "played": 9,
         "wins": 3,
-        "draws": 2,
+        "draws": 3,
         "losses": 3,
         "goals_for": 7,
         "goals_against": 12,
-        "goal_difference": -5,
-        "points": 11
+        "goal_difference": -5
       },
       {
         "rank": 12,
         "slug": "shimizu",
         "name_zh": "清水心跳",
+        "points": 10,
         "played": 8,
         "wins": 3,
         "draws": 1,
         "losses": 4,
         "goals_for": 6,
         "goals_against": 8,
-        "goal_difference": -2,
-        "points": 10
+        "goal_difference": -2
       },
       {
         "rank": 13,
         "slug": "mito",
         "name_zh": "水戶蜀葵",
+        "points": 9,
         "played": 8,
         "wins": 2,
         "draws": 3,
         "losses": 3,
         "goals_for": 11,
         "goals_against": 11,
-        "goal_difference": 0,
-        "points": 9
+        "goal_difference": 0
       },
       {
         "rank": 14,
         "slug": "kyoto",
         "name_zh": "京都不死鳥",
-        "played": 8,
+        "points": 8,
+        "played": 9,
         "wins": 2,
         "draws": 2,
-        "losses": 4,
+        "losses": 5,
         "goals_for": 11,
-        "goals_against": 15,
-        "goal_difference": -4,
-        "points": 8
+        "goals_against": 16,
+        "goal_difference": -5
       },
       {
         "rank": 15,
         "slug": "nagasaki",
         "name_zh": "長崎成功丸",
+        "points": 8,
         "played": 8,
         "wins": 2,
         "draws": 2,
         "losses": 4,
         "goals_for": 10,
         "goals_against": 15,
-        "goal_difference": -5,
-        "points": 8
+        "goal_difference": -5
       },
       {
         "rank": 16,
+        "slug": "fukuoka",
+        "name_zh": "福岡黃蜂",
+        "points": 7,
+        "played": 9,
+        "wins": 2,
+        "draws": 1,
+        "losses": 6,
+        "goals_for": 11,
+        "goals_against": 13,
+        "goal_difference": -2
+      },
+      {
+        "rank": 17,
         "slug": "nagoya",
         "name_zh": "名古屋鯨魚",
+        "points": 6,
         "played": 8,
         "wins": 2,
         "draws": 0,
         "losses": 6,
         "goals_for": 7,
         "goals_against": 14,
-        "goal_difference": -7,
-        "points": 6
+        "goal_difference": -7
       },
       {
-        "rank": 17,
+        "rank": 18,
         "slug": "gamba-osaka",
         "name_zh": "大阪飛腳",
+        "points": 6,
         "played": 9,
         "wins": 1,
         "draws": 3,
         "losses": 5,
         "goals_for": 8,
         "goals_against": 16,
-        "goal_difference": -8,
-        "points": 6
-      },
-      {
-        "rank": 18,
-        "slug": "fukuoka",
-        "name_zh": "福岡黃蜂",
-        "played": 8,
-        "wins": 1,
-        "draws": 1,
-        "losses": 6,
-        "goals_for": 9,
-        "goals_against": 12,
-        "goal_difference": -3,
-        "points": 4
+        "goal_difference": -8
       },
       {
         "rank": 19,
         "slug": "tokyo-verdy",
         "name_zh": "東京綠茵",
+        "points": 4,
         "played": 8,
         "wins": 0,
         "draws": 4,
         "losses": 4,
         "goals_for": 4,
         "goals_against": 12,
-        "goal_difference": -8,
-        "points": 4
+        "goal_difference": -8
       },
       {
         "rank": 20,
         "slug": "chiba",
         "name_zh": "千葉市原JEF聯",
+        "points": 4,
         "played": 8,
         "wins": 1,
         "draws": 1,
         "losses": 6,
         "goals_for": 7,
         "goals_against": 18,
-        "goal_difference": -11,
-        "points": 4
+        "goal_difference": -11
       }
     ]
   },
@@ -2788,7 +2874,7 @@
         ]
       },
       {
-        "text": "明日優先：恩迪奧醫療／入選、兩隊正選與門將、謝薩斯是否回歸、長崎是否保留松本前腰、最新榜及天氣、裁判、逐名黃牌臨界。",
+        "text": "開波前優先：恩迪奧醫療／入選、兩隊正選與門將、謝薩斯是否回歸、長崎是否保留松本前腰、最新榜及天氣、裁判、逐名黃牌臨界。",
         "kind": "analysis",
         "as_of": "2026-10-10",
         "sources": [
@@ -2813,6 +2899,74 @@
       }
     ],
     "sections": [
+      {
+        "title": "比賽日新增｜訪問怎樣改變我們看這場比賽",
+        "paragraphs": [
+          {
+            "text": "兩位教練都把第二點放在前列，評述應看爭頂後下一個接球者，而不只看誰贏頭槌。千葉若前線迫使長崎開長波，中場必須及時收到第二點，否則逼搶的成果會被客隊重新組織抵銷。這是根據最新訪問提出的觀察方向，並非已知正選部署。",
+            "kind": "analysis",
+            "as_of": "2026-10-11",
+            "sources": [
+              {
+                "label": "千葉官方・長崎戰賽前訪問",
+                "url": "https://jefunited.co.jp/matches/contents/1500/",
+                "accessed_at": "2026-10-11",
+                "published_at": "2026-10-10"
+              },
+              {
+                "label": "長崎官方",
+                "url": "https://www.v-varen.com/team-comments/249918",
+                "published_at": "2026-10-09",
+                "accessed_at": "2026-10-11"
+              }
+            ]
+          },
+          {
+            "text": "新井說備戰重點是恢復、看片及討論，提醒我們區分戰術知道怎樣踢與身體能否持續做到。若長崎開段能連接中路、下半場卻只剩長波，先看接應距離和後備能否重建壓迫，再判断是體能、千葉調整，還是比分造成的選擇。",
+            "kind": "analysis",
+            "as_of": "2026-10-11",
+            "sources": [
+              {
+                "label": "長崎官方・千葉戰賽前訪問",
+                "url": "https://www.v-varen.com/team-comments/249918",
+                "accessed_at": "2026-10-11",
+                "published_at": "2026-10-09"
+              }
+            ]
+          },
+          {
+            "text": "鈴木強調無球防守及全隊距離，提供一個實用鏡頭：千葉進攻時，較遠一側中場有沒有收窄保護中路？如果失球後第一個防守者被過，第二層離得多遠？長崎前場的個人能力讓這些尚未碰球的位置選擇，可能直接決定反擊威脅。",
+            "kind": "analysis",
+            "as_of": "2026-10-11",
+            "sources": [
+              {
+                "label": "千葉官方・長崎戰賽前訪問",
+                "url": "https://jefunited.co.jp/matches/contents/1500/",
+                "accessed_at": "2026-10-11",
+                "published_at": "2026-10-10"
+              }
+            ]
+          },
+          {
+            "text": "目前兩隊最新結果仍是10月7日盃賽，沒有新增兩隊比分需要補入；全榜則已反映昨晚賽果。千葉仍4分第20、長崎8分第15。開波前另核對正式名單，尤其恩迪奧的選拔、長崎加時主力，以及米倉的150場里程碑機會。",
+            "kind": "analysis",
+            "as_of": "2026-10-11",
+            "sources": [
+              {
+                "label": "J.League・第9節可達成紀錄",
+                "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+                "accessed_at": "2026-10-11",
+                "published_at": "2026-10-08"
+              },
+              {
+                "label": "J.League官方・10月10日賽後全榜",
+                "url": "https://www.jleague.jp/standings/j1/",
+                "accessed_at": "2026-10-11"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "深度評述01｜我的賽事主軸：誰能把主動變成有效進攻",
         "paragraphs": [
@@ -3733,9 +3887,9 @@
         "title": "賽前更新05｜人腳與門將：能說到哪一步",
         "paragraphs": [
           {
-            "text": "恩迪奧11分鐘早退已有官方記錄，疑似腦震盪來自Football LAB前瞻；醫療確診及本場缺陣未確認。若不能上陣，千葉要重整中場搭配，不能假定安井必然頂替；安井周三入替只是一項選人線索。",
+            "text": "恩迪奧11分鐘早退已有官方記錄，千葉官方戰報確認疑似腦震盪；醫療確診及本場缺陣未確認。若不能上陣，千葉要重整中場搭配，不能假定安井必然頂替；安井周三入替只是一項選人線索。",
             "kind": "reported",
-            "as_of": "2026-10-10",
+            "as_of": "2026-10-11",
             "sources": [
               {
                 "label": "JFA・岡山對千葉官方記錄",
@@ -3747,6 +3901,12 @@
                 "label": "Football LAB・第8節統計／本場前瞻",
                 "url": "https://www.football-lab.jp/chib/preview",
                 "accessed_at": "2026-10-10"
+              },
+              {
+                "label": "千葉官方・岡山戰賽後訪問及戰報",
+                "url": "https://jefunited.co.jp/matches/contents/1575/",
+                "accessed_at": "2026-10-11",
+                "published_at": "2026-10-07"
               }
             ]
           },
@@ -3792,28 +3952,26 @@
         "title": "賽前更新06｜天氣與場地：晴朗但午間仍暖",
         "paragraphs": [
           {
-            "text": "10月10日14:00日本發布的千葉市預報：11日14時晴、26.8°C、濕度約50%、東北風3m/s、預測雨量0。15時約25°C；城市預報並非球場實測，明日需重查。",
-            "kind": "fact",
-            "as_of": "2026-10-10",
+            "text": "千葉市中央區10月11日10:00日本時間預報：14:00晴、26.8°C、濕度49%；15:00晴、24.9°C、濕度50%；兩時段降雨機率0%、預測雨量0毫米。此為區域預報，並非球場實測。",
+            "kind": "reported",
+            "as_of": "2026-10-11",
             "sources": [
               {
-                "label": "日本氣象協會・千葉市逐小時預報（10月10日14:00日本發表）",
-                "url": "https://tenki.jp/forecast/3/15/4510/12100/1hour.html",
-                "accessed_at": "2026-10-10",
-                "published_at": "2026-10-10"
+                "label": "日本氣象協會・千葉市中央區逐小時預報",
+                "url": "https://tenki.jp/forecast/3/15/4510/12101/1hour.html",
+                "accessed_at": "2026-10-11"
               }
             ]
           },
           {
-            "text": "我的推論：目前沒有需要把大雨或強風當主要戰術因素的依據。反而日間偏暖、短恢復期及長崎部分球員120分鐘負荷，令持續壓迫和替補時機更值得看。球場有否灑水、草皮球速須在直播畫面確認。",
+            "text": "我的推論：最新區域預報沒有把降雨列為主要因素。反而日間偏暖、短恢復期及長崎部分球員120分鐘負荷，令持續壓迫和替補時機更值得看。球場有否灑水、草皮球速須在直播畫面確認。",
             "kind": "analysis",
-            "as_of": "2026-10-10",
+            "as_of": "2026-10-11",
             "sources": [
               {
-                "label": "日本氣象協會・千葉市逐小時預報（10月10日14:00日本發表）",
-                "url": "https://tenki.jp/forecast/3/15/4510/12100/1hour.html",
-                "accessed_at": "2026-10-10",
-                "published_at": "2026-10-10"
+                "label": "日本氣象協會・千葉市中央區逐小時預報",
+                "url": "https://tenki.jp/forecast/3/15/4510/12101/1hour.html",
+                "accessed_at": "2026-10-11"
               },
               {
                 "label": "JFA・清水對長崎官方記錄",
@@ -3945,7 +4103,7 @@
         ]
       },
       {
-        "title": "賽前更新09｜可直接改編的開場與明日快速核對",
+        "title": "賽前更新09｜可直接改編的開場與開波前快速核對",
         "paragraphs": [
           {
             "text": "開場提綱（天書撰稿）：同樣從J2升班、同樣剛在兩項盃賽出局，千葉與長崎今次把焦點完全放回聯賽。千葉要在主場止跌，長崎要把主場取分能力帶到客場。四分差距可以縮至一分，也可以變七分；但兩隊都要先回答同一問題：如何把自己的好時段換成入球，再把優勢守到最後。",
@@ -3972,7 +4130,7 @@
             ]
           },
           {
-            "text": "明日短覆核順序：先看官方正選／後備與裁判；再查恩迪奧醫療及謝薩斯名單、門將選擇、長崎中場站位；更新第9節完成後全榜、天氣；補最新訪問。逐名J1黃牌臨界仍未找到足夠證據，不能以盃賽黃牌或隊伍總警告推算。",
+            "text": "開波前短覆核順序：先看官方正選／後備與裁判；再查恩迪奧醫療及謝薩斯名單、門將選擇、長崎中場站位；本輪已完賽全榜、比賽日天氣及近期訪問已更新。逐名J1黃牌臨界仍未找到足夠證據，不能以盃賽黃牌或隊伍總警告推算。",
             "kind": "analysis",
             "as_of": "2026-10-10",
             "sources": [
@@ -4311,77 +4469,7 @@
       }
     ]
   },
-  "quotes": [
-    {
-      "topic": "盃賽後聯賽目標",
-      "home": {
-        "speaker": "姬野誠",
-        "role": "球員",
-        "published_at": "2026-10-07",
-        "context": "post_match",
-        "outlet": "J.League／菊地正典",
-        "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
-        "paraphrase_zh": "希望以結果回報支持，本場把取勝放首位。",
-        "date_note": "10月7日岡山戰後的發言，由本場J.League前瞻轉述；原前瞻未列出版日期，10月10日讀取。",
-        "accessed_at": "2026-10-10"
-      },
-      "away": {
-        "speaker": "高木琢也",
-        "role": "主教練",
-        "published_at": "2026-10-07",
-        "context": "post_match",
-        "outlet": "長崎官方",
-        "url": "https://www.v-varen.com/gamedata2/20261007",
-        "paraphrase_zh": "要求把失利轉成實際改善，並承認中三日恢復有難度。"
-      }
-    },
-    {
-      "topic": "進攻部署",
-      "home": {
-        "speaker": "矢村健",
-        "role": "前鋒",
-        "published_at": "2026-10-07",
-        "context": "post_match",
-        "outlet": "J.League／菊地正典",
-        "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
-        "paraphrase_zh": "前場追壓是基礎，仍要求自己入球。",
-        "date_note": "10月7日岡山戰後的發言，由本場J.League前瞻轉述；原前瞻未列出版日期，10月10日讀取。",
-        "accessed_at": "2026-10-10"
-      },
-      "away": {
-        "speaker": "長谷川元希",
-        "role": "中場",
-        "published_at": "2026-10-07",
-        "context": "post_match",
-        "outlet": "長崎官方",
-        "url": "https://www.v-varen.com/gamedata2/20261007",
-        "paraphrase_zh": "松本前移縮短配合距離；但球隊後段強度仍需維持。"
-      }
-    },
-    {
-      "topic": "四後衛對位與球迷",
-      "home": {
-        "speaker": "恩杜卡・邦費斯",
-        "role": "後衛",
-        "published_at": "2026-10-07",
-        "context": "post_match",
-        "outlet": "J.League／菊地正典",
-        "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
-        "paraphrase_zh": "感謝球迷營造氣氛，希望用勝利回報。",
-        "date_note": "10月7日岡山戰後的發言，由本場J.League前瞻轉述；原前瞻未列出版日期，10月10日讀取。",
-        "accessed_at": "2026-10-10"
-      },
-      "away": {
-        "speaker": "翁長聖",
-        "role": "翼衛",
-        "published_at": "2026-10-07",
-        "context": "post_match",
-        "outlet": "長崎官方",
-        "url": "https://www.v-varen.com/gamedata2/20261007",
-        "paraphrase_zh": "操練已反覆準備四後衛對手，盃賽出局後集中聯賽。"
-      }
-    }
-  ],
+  "quotes": [],
   "head_to_head": [
     {
       "text": "歷來交鋒24場：千葉6勝5和13負；千葉主場12場：2勝3和7負。資料為供應商所列歷來正式交鋒，不與本季聯賽數據混算。",
@@ -4547,8 +4635,8 @@
     }
   ],
   "research_sweep": {
-    "date": "2026-10-10",
-    "cutoff": "10月10日賽前；全榜10月9日21:29日本，天氣10月10日14:00日本預報",
+    "date": "2026-10-11",
+    "cutoff": "10月11日上午賽前；全榜10月10日21:11日本，天氣10月11日10:00日本預報",
     "scope": "千葉對長崎 2026-10-11",
     "searched_outlets": [
       "兩隊官方",
@@ -4565,11 +4653,390 @@
       "ゆっくりいこう（球迷分析）"
     ],
     "limitations": [
-      "部分千葉官方內容為動態頁面，擷取僅有框架；未宣稱已讀完整最新官方訪問。",
-      "DAZN前瞻403未讀全文，未引用；未購買El Golazo。",
-      "逐名累積黃牌臨界、官方正選、裁判、恩迪奧醫療結論和球隊實際行程未確認。",
-      "新補兩名2種登錄球員只完成身份及登錄補漏，深入人物資料和TVB中文顯示名待補。",
-      "本場J.League前瞻未列出版日；千葉近期發言明示10月7日賽後、10月10日擷取。"
-    ]
-  }
+      "官方正選、後備、裁判及恩迪奧確診／復出許可尚未取得；沒有把推測寫成正式選拔。",
+      "逐名累積黃牌臨界與球隊實際旅程未核實。",
+      "#46齋藤隼士及#47伊藤暖已建卡，中文名依用戶確認；深入人物資料仍有缺口。",
+      "DAZN及付費報道未取得全文，沒有聲稱已閱讀。"
+    ],
+    "interview_events": 4,
+    "interview_entries": 25,
+    "numbered_roster_checked": {
+      "chiba": 39,
+      "nagasaki": 34
+    },
+    "new_missing_cards": 0
+  },
+  "quote_events": [
+    {
+      "id": "chiba-prematch",
+      "date": "2026-10-10",
+      "title": "10月10日｜千葉官方發布：長崎戰賽前",
+      "summary": "小林慶行、鈴木大輔、姬野誠：對手威脅、全隊防守距離及爭勝要求。",
+      "entries": [
+        {
+          "team_slug": "chiba",
+          "speaker": "小林慶行",
+          "role": "主教練",
+          "topic": "先把戰鬥態度變成結果",
+          "paraphrase_zh": "小林要求持續展示戰鬥態度，以比賽結果回報一直支持球隊的人。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "小林慶行",
+          "role": "主教練",
+          "topic": "第一點、第二點以外也要阻止串連",
+          "paraphrase_zh": "長崎的個人能力與J2時一樣突出；要繼續爭第一點及第二點，同時阻止對方傳球組織。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "佔優時也不能解除警戒",
+          "paraphrase_zh": "鈴木提醒長崎前線可在沒有完整拆解防線時，以反擊或傳中射門製造入球，90分鐘都要提防。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "全隊距離與無球防守",
+          "paraphrase_zh": "要維持全隊及防線縱向距離；無球球員也有防守責任，靠支援減少孤立的一對一。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "姬野誠",
+          "role": "#37",
+          "topic": "自我要求：強度與入球",
+          "paraphrase_zh": "姬野認為自己尚未達到要求，需要提高強度；取得入球和避免輕率失球都是急務。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_37",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "姬野誠",
+          "role": "#37",
+          "topic": "以勝利回應球迷",
+          "paraphrase_zh": "盃賽後球迷答應營造主場氣氛；他希望盡快把操練中的信心化成結果。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_37",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。",
+          "quote_ja": "内容よりも、勝ちにこだわっていきたいです。",
+          "quote_zh": "比起比賽內容，我更想堅持爭取勝利。"
+        }
+      ]
+    },
+    {
+      "id": "nagasaki-prematch",
+      "date": "2026-10-09",
+      "title": "10月9日｜長崎官方發布：千葉戰賽前",
+      "summary": "高木琢也、新井一耀：恢復安排、開局、進攻選擇及個人狀態。",
+      "entries": [
+        {
+          "team_slug": "nagasaki",
+          "speaker": "高木琢也",
+          "role": "主教練",
+          "topic": "艾利臣與千葉的縱向進攻",
+          "paraphrase_zh": "高木警惕艾利臣的力量及速度；防線要控制一對一及縱向距離，同時防快翼傳中。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "高木琢也",
+          "role": "主教練",
+          "topic": "開局與第二點：積極但不要早失球",
+          "paraphrase_zh": "先做好第二點、轉換及球際對抗；客場屢早失球，至少力求上半場守住，同時保持主動。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "120分鐘後怎樣備戰",
+          "paraphrase_zh": "新井表示以恢復體能為先，透過錄影片段及討論整理戰術，再個別恢復身體狀態。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。",
+          "quote_ja": "強度の高い練習はできませんが",
+          "quote_zh": "未能進行高強度操練。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "控球要換成射門",
+          "paraphrase_zh": "希望增加壓入對方半場的時間，活用長傳及第二點；進攻要多用中路、適時遠射。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "不要被福田氣氛吞沒",
+          "paraphrase_zh": "認為千葉外援提高個人能力，但瞬間鬆懈仍可利用；客場開局不能被主場氣氛壓倒。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "親述身體狀態未接近十足",
+          "paraphrase_zh": "季前受傷及季中缺席令狀態仍未接近十足，希望靠比賽逐步提升。這是本人自述，並非缺陣公告。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "同為升班球隊，必須爭勝",
+          "paraphrase_zh": "盃賽出局後集中聯賽，對同屬升班隊的千葉要爭勝，希望賽後與球迷唱Cantare。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        }
+      ]
+    },
+    {
+      "id": "chiba-cup-postmatch",
+      "date": "2026-10-07",
+      "title": "10月7日｜天皇盃岡山1–0千葉：賽後",
+      "summary": "小林慶行、鈴木大輔、伊度亞度回顧失利及臨場任務。",
+      "entries": [
+        {
+          "team_slug": "chiba",
+          "speaker": "小林慶行",
+          "role": "主教練",
+          "topic": "勢均力敵的比賽為何拿不到結果",
+          "paraphrase_zh": "小林認為雙方都有機會，千葉未能把握自己的機會；一次死球失守，再次暴露本季問題。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "quote_ja": "セットプレー一発で沈んだ",
+          "quote_zh": "被一次死球擊沉了。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "74分鐘入替踢左閘的任務",
+          "paraphrase_zh": "鈴木表示以守穩及把前線推上為任務，與中堅合作爭第一點、拾回第二點，再向前輸送。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "準備好了，還要提高細節",
+          "paraphrase_zh": "他一直準備爭取上陣；失利反映把握機會的重要，需要每天累積細節並提高強度及質素。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "伊度亞度",
+          "role": "#6",
+          "topic": "恩迪奧早退後：安井的準備",
+          "paraphrase_zh": "伊度亞度讚安井入替後表現出色，證明較少機會的球員也準備充分；球隊仍要把握有限機會。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_6"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "伊度亞度",
+          "role": "#6",
+          "topic": "個人成績與爭取時間",
+          "paraphrase_zh": "他承認本季個人亦未交出結果，會繼續準備，在球場表現並珍惜機會以爭取更多時間。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_6"
+        }
+      ]
+    },
+    {
+      "id": "nagasaki-cup-postmatch",
+      "date": "2026-10-07",
+      "title": "10月7日｜天皇盃清水2–1長崎（加時）：賽後",
+      "summary": "高木琢也、江川湧清、長谷川元希、翁長聖：開局、攻守距離及120分鐘後的恢復。",
+      "entries": [
+        {
+          "team_slug": "nagasaki",
+          "speaker": "高木琢也",
+          "role": "主教練",
+          "topic": "最後失球：人數夠仍要防到",
+          "paraphrase_zh": "高木指出最後傳中及射門質素高，但己方已有足夠人數防守；要把失利教訓落實於準備。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "高木琢也",
+          "role": "主教練",
+          "topic": "三日內恢復，再處理早失球",
+          "paraphrase_zh": "他再次提到客場早段失球，接下來只有三天休息，要恢復狀態備戰千葉。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "江川湧清",
+          "role": "#6",
+          "topic": "120分鐘與下一個關鍵戰",
+          "paraphrase_zh": "江川希望贏下加時，對近期難保不失感到不甘；盃賽爭取亞洲賽資格的路已斷，要轉向千葉。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_6"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "長谷川元希",
+          "role": "#41",
+          "topic": "松本天夢推前後的距離",
+          "paraphrase_zh": "長谷川認為松本由防中推前，拉近接應距離，對入球有幫助。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_41"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "長谷川元希",
+          "role": "#41",
+          "topic": "90分鐘強度及後備延續",
+          "paraphrase_zh": "他反省失球前丟球與反擊防守，亦指出下半場未能維持強度；換人後也要延續節奏。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_41"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "翁長聖",
+          "role": "#22",
+          "topic": "問題在開局",
+          "paraphrase_zh": "翁長認為開局失球影響全局，球隊回應較遲；之後踢法雖有改善，仍要改善進入比賽。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_22",
+          "quote_ja": "試合の入りがすべてだったと思います。",
+          "quote_zh": "我認為一切都在於比賽開局。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "翁長聖",
+          "role": "#22",
+          "topic": "四後衛部署的正面部分",
+          "paraphrase_zh": "曾準備接球轉身及轉移應對對方四後衛；新部署有正面效果，往後只剩聯賽，要累積積分。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_22"
+        }
+      ]
+    }
+  ]
 }

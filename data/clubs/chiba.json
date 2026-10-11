@@ -197,6 +197,19 @@
       "japanese_schools": "有可靠／直接可用中文形式時使用繁體中文。",
       "foreign_clubs_and_leagues": "English.",
       "player_display_names": "TVB主資料庫為香港中文名authority；TVB未確認者使用官方日文／英文名，不自行創作。"
+    },
+    "matchday_audit": {
+      "as_of": "2026-10-11",
+      "numbered_players_checked": 39,
+      "new_numbered_players_missing": 0,
+      "note": "球員卡號碼已與官方現行球員名單對照；這並非本場出賽名單或健康確認。",
+      "sources": [
+        {
+          "label": "J.League・球隊球員名單",
+          "url": "https://www.jleague.jp/club/chiba/player/",
+          "accessed_at": "2026-10-11"
+        }
+      ]
     }
   },
   "manager": {
@@ -458,7 +471,49 @@
       }
     ],
     "verification_status": "verified",
-    "verified_at": "2026-09-19"
+    "verified_at": "2026-09-19",
+    "recent_interviews": [
+      {
+        "team_slug": "chiba",
+        "speaker": "小林慶行",
+        "role": "主教練",
+        "topic": "先把戰鬥態度變成結果",
+        "paraphrase_zh": "小林要求持續展示戰鬥態度，以比賽結果回報一直支持球隊的人。",
+        "published_at": "2026-10-10",
+        "context": "pre_match",
+        "outlet": "千葉官方",
+        "url": "https://jefunited.co.jp/matches/contents/1500/",
+        "accessed_at": "2026-10-11",
+        "date_note": "日期為官方發布日；訪問錄製日未另列。"
+      },
+      {
+        "team_slug": "chiba",
+        "speaker": "小林慶行",
+        "role": "主教練",
+        "topic": "第一點、第二點以外也要阻止串連",
+        "paraphrase_zh": "長崎的個人能力與J2時一樣突出；要繼續爭第一點及第二點，同時阻止對方傳球組織。",
+        "published_at": "2026-10-10",
+        "context": "pre_match",
+        "outlet": "千葉官方",
+        "url": "https://jefunited.co.jp/matches/contents/1500/",
+        "accessed_at": "2026-10-11",
+        "date_note": "日期為官方發布日；訪問錄製日未另列。"
+      },
+      {
+        "team_slug": "chiba",
+        "speaker": "小林慶行",
+        "role": "主教練",
+        "topic": "勢均力敵的比賽為何拿不到結果",
+        "paraphrase_zh": "小林認為雙方都有機會，千葉未能把握自己的機會；一次死球失守，再次暴露本季問題。",
+        "published_at": "2026-10-07",
+        "context": "post_match",
+        "outlet": "千葉官方",
+        "url": "https://jefunited.co.jp/matches/contents/1575/",
+        "accessed_at": "2026-10-11",
+        "quote_ja": "セットプレー一発で沈んだ",
+        "quote_zh": "被一次死球擊沉了。"
+      }
+    ]
   },
   "players": [
     {
@@ -2846,7 +2901,35 @@
       },
       "research_gaps": [],
       "verified_at": "2026-09-28",
-      "research_reviewed_at": "2026-09-28"
+      "research_reviewed_at": "2026-09-28",
+      "recent_interviews": [
+        {
+          "team_slug": "chiba",
+          "speaker": "伊度亞度",
+          "role": "#6",
+          "topic": "恩迪奧早退後：安井的準備",
+          "paraphrase_zh": "伊度亞度讚安井入替後表現出色，證明較少機會的球員也準備充分；球隊仍要把握有限機會。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_6"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "伊度亞度",
+          "role": "#6",
+          "topic": "個人成績與爭取時間",
+          "paraphrase_zh": "他承認本季個人亦未交出結果，會繼續準備，在球場表現並珍惜機會以爭取更多時間。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_6"
+        }
+      ]
     },
     {
       "id": "chiba_7",
@@ -5181,7 +5264,26 @@
           }
         ]
       },
-      "verified_at": "2026-09-26"
+      "verified_at": "2026-09-26",
+      "match_week": {
+        "fixture_date": "2026-10-11",
+        "opponent": "長崎成功丸",
+        "selection_status": "本場選人未公布。",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [
+          "J1通算上陣149場；若今場上陣，將達150場（截至第9節前，並非已達成）。"
+        ],
+        "sources": [
+          {
+            "label": "J.League・第9節可達成紀錄",
+            "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+            "accessed_at": "2026-10-11",
+            "published_at": "2026-10-08"
+          }
+        ],
+        "as_of": "2026-10-11"
+      }
     },
     {
       "id": "chiba_13",
@@ -6298,7 +6400,63 @@
           }
         ]
       },
-      "verified_at": "2026-09-26"
+      "verified_at": "2026-09-26",
+      "recent_interviews": [
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "佔優時也不能解除警戒",
+          "paraphrase_zh": "鈴木提醒長崎前線可在沒有完整拆解防線時，以反擊或傳中射門製造入球，90分鐘都要提防。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "全隊距離與無球防守",
+          "paraphrase_zh": "要維持全隊及防線縱向距離；無球球員也有防守責任，靠支援減少孤立的一對一。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "74分鐘入替踢左閘的任務",
+          "paraphrase_zh": "鈴木表示以守穩及把前線推上為任務，與中堅合作爭第一點、拾回第二點，再向前輸送。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "鈴木大輔",
+          "role": "#13",
+          "topic": "準備好了，還要提高細節",
+          "paraphrase_zh": "他一直準備爭取上陣；失利反映把握機會的重要，需要每天累積細節並提高強度及質素。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1575/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_13"
+        }
+      ]
     },
     {
       "id": "chiba_14",
@@ -11332,8 +11490,8 @@
       "match_week": {
         "fixture_date": "2026-10-11",
         "opponent": "長崎成功丸",
-        "as_of": "2026-10-10",
-        "selection_status": "上陣待確認：10月7日11分鐘早退；疑似腦震盪屬媒體描述，未取得醫療結論。",
+        "as_of": "2026-10-11",
+        "selection_status": "千葉官方戰報確認：10月7日接觸後因疑似腦震盪被換出。尚未取得確診、復出許可或本場名單確認。",
         "recent_form": [],
         "matchup_notes": [],
         "milestones": [],
@@ -11348,6 +11506,12 @@
             "label": "Football LAB・第8節統計／本場前瞻",
             "url": "https://www.football-lab.jp/chib/preview",
             "accessed_at": "2026-10-10"
+          },
+          {
+            "label": "千葉官方・岡山戰賽後訪問及戰報",
+            "url": "https://jefunited.co.jp/matches/contents/1575/",
+            "accessed_at": "2026-10-11",
+            "published_at": "2026-10-07"
           }
         ]
       }
@@ -13608,15 +13772,34 @@
       },
       "recent_interviews": [
         {
+          "team_slug": "chiba",
           "speaker": "姬野誠",
-          "role": "球員",
-          "published_at": "2026-10-07",
-          "context": "post_match",
-          "outlet": "J.League／菊地正典",
-          "url": "https://www.jleague.jp/match/j1/2026/101101/preview/",
-          "paraphrase_zh": "希望以結果回報支持，本場把取勝放首位。",
-          "date_note": "10月7日賽後發言，本場前瞻轉述；前瞻出版日未列。",
-          "accessed_at": "2026-10-10"
+          "role": "#37",
+          "topic": "自我要求：強度與入球",
+          "paraphrase_zh": "姬野認為自己尚未達到要求，需要提高強度；取得入球和避免輕率失球都是急務。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_37",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "chiba",
+          "speaker": "姬野誠",
+          "role": "#37",
+          "topic": "以勝利回應球迷",
+          "paraphrase_zh": "盃賽後球迷答應營造主場氣氛；他希望盡快把操練中的信心化成結果。",
+          "published_at": "2026-10-10",
+          "context": "pre_match",
+          "outlet": "千葉官方",
+          "url": "https://jefunited.co.jp/matches/contents/1500/",
+          "accessed_at": "2026-10-11",
+          "player_id": "chiba_37",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。",
+          "quote_ja": "内容よりも、勝ちにこだわっていきたいです。",
+          "quote_zh": "比起比賽內容，我更想堅持爭取勝利。"
         }
       ]
     },
@@ -14964,10 +15147,12 @@
       "match_week": {
         "fixture_date": "2026-10-11",
         "opponent": "長崎成功丸",
-        "as_of": "2026-10-10",
+        "as_of": "2026-10-11",
         "selection_status": "10月7日11分鐘入替Indio，54分鐘射中柱。",
         "recent_form": [],
-        "matchup_notes": [],
+        "matchup_notes": [
+          "10月7日賽後伊度亞度讚其入替恩迪奧後表現，認為反映少上陣球員亦有充分準備。"
+        ],
         "milestones": [],
         "sources": [
           {
@@ -14980,6 +15165,12 @@
             "label": "Gekisaka報道／livedoor轉載・岡山戰",
             "url": "https://news.livedoor.com/article/detail/32513745/",
             "accessed_at": "2026-10-10",
+            "published_at": "2026-10-07"
+          },
+          {
+            "label": "千葉官方・岡山戰賽後訪問及戰報",
+            "url": "https://jefunited.co.jp/matches/contents/1575/",
+            "accessed_at": "2026-10-11",
             "published_at": "2026-10-07"
           }
         ]

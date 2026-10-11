@@ -190,6 +190,19 @@
       "japanese_schools": "有可靠中文形式時使用繁體中文。",
       "foreign_clubs_and_leagues": "English.",
       "player_display_names": "TVB主資料庫為香港中文名authority；TVB未確認者使用官方日文／英文名。"
+    },
+    "matchday_audit": {
+      "as_of": "2026-10-11",
+      "numbered_players_checked": 34,
+      "new_numbered_players_missing": 0,
+      "note": "球員卡號碼已與官方現行球員名單對照；這並非本場出賽名單或健康確認。",
+      "sources": [
+        {
+          "label": "J.League・球隊球員名單",
+          "url": "https://www.jleague.jp/club/nagasaki/player/",
+          "accessed_at": "2026-10-11"
+        }
+      ]
     }
   },
   "manager": {
@@ -665,7 +678,59 @@
       }
     ],
     "verification_status": "verified",
-    "verified_at": "2026-09-19"
+    "verified_at": "2026-09-19",
+    "recent_interviews": [
+      {
+        "team_slug": "nagasaki",
+        "speaker": "高木琢也",
+        "role": "主教練",
+        "topic": "艾利臣與千葉的縱向進攻",
+        "paraphrase_zh": "高木警惕艾利臣的力量及速度；防線要控制一對一及縱向距離，同時防快翼傳中。",
+        "published_at": "2026-10-09",
+        "context": "pre_match",
+        "outlet": "長崎官方",
+        "url": "https://www.v-varen.com/team-comments/249918",
+        "accessed_at": "2026-10-11",
+        "date_note": "日期為官方發布日；訪問錄製日未另列。"
+      },
+      {
+        "team_slug": "nagasaki",
+        "speaker": "高木琢也",
+        "role": "主教練",
+        "topic": "開局與第二點：積極但不要早失球",
+        "paraphrase_zh": "先做好第二點、轉換及球際對抗；客場屢早失球，至少力求上半場守住，同時保持主動。",
+        "published_at": "2026-10-09",
+        "context": "pre_match",
+        "outlet": "長崎官方",
+        "url": "https://www.v-varen.com/team-comments/249918",
+        "accessed_at": "2026-10-11",
+        "date_note": "日期為官方發布日；訪問錄製日未另列。"
+      },
+      {
+        "team_slug": "nagasaki",
+        "speaker": "高木琢也",
+        "role": "主教練",
+        "topic": "最後失球：人數夠仍要防到",
+        "paraphrase_zh": "高木指出最後傳中及射門質素高，但己方已有足夠人數防守；要把失利教訓落實於準備。",
+        "published_at": "2026-10-07",
+        "context": "post_match",
+        "outlet": "長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20261007",
+        "accessed_at": "2026-10-11"
+      },
+      {
+        "team_slug": "nagasaki",
+        "speaker": "高木琢也",
+        "role": "主教練",
+        "topic": "三日內恢復，再處理早失球",
+        "paraphrase_zh": "他再次提到客場早段失球，接下來只有三天休息，要恢復狀態備戰千葉。",
+        "published_at": "2026-10-07",
+        "context": "post_match",
+        "outlet": "長崎官方",
+        "url": "https://www.v-varen.com/gamedata2/20261007",
+        "accessed_at": "2026-10-11"
+      }
+    ]
   },
   "players": [
     {
@@ -3659,7 +3724,22 @@
             "published_at": "2026-10-07"
           }
         ]
-      }
+      },
+      "recent_interviews": [
+        {
+          "team_slug": "nagasaki",
+          "speaker": "江川湧清",
+          "role": "#6",
+          "topic": "120分鐘與下一個關鍵戰",
+          "paraphrase_zh": "江川希望贏下加時，對近期難保不失感到不甘；盃賽爭取亞洲賽資格的路已斷，要轉向千葉。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_6"
+        }
+      ]
     },
     {
       "id": "nagasaki_17",
@@ -5515,8 +5595,8 @@
       "match_week": {
         "fixture_date": "2026-10-11",
         "opponent": "千葉市原JEF聯",
-        "as_of": "2026-10-10",
-        "selection_status": "10月7日天皇盃上場約105分鐘（不計補時）；本場選人未公布。",
+        "as_of": "2026-10-11",
+        "selection_status": "10月7日天皇盃上場約105分鐘（不計補時）；本場選人未公布。 10月9日發布的賽前訪問中本人表示，季前受傷及季中缺席後，狀態仍未接近十足；不等於本場缺陣。",
         "recent_form": [],
         "matchup_notes": [],
         "milestones": [],
@@ -5526,9 +5606,89 @@
             "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
             "accessed_at": "2026-10-10",
             "published_at": "2026-10-07"
+          },
+          {
+            "label": "長崎官方・千葉戰賽前訪問",
+            "url": "https://www.v-varen.com/team-comments/249918",
+            "accessed_at": "2026-10-11",
+            "published_at": "2026-10-09"
           }
         ]
-      }
+      },
+      "recent_interviews": [
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "120分鐘後怎樣備戰",
+          "paraphrase_zh": "新井表示以恢復體能為先，透過錄影片段及討論整理戰術，再個別恢復身體狀態。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。",
+          "quote_ja": "強度の高い練習はできませんが",
+          "quote_zh": "未能進行高強度操練。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "控球要換成射門",
+          "paraphrase_zh": "希望增加壓入對方半場的時間，活用長傳及第二點；進攻要多用中路、適時遠射。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "不要被福田氣氛吞沒",
+          "paraphrase_zh": "認為千葉外援提高個人能力，但瞬間鬆懈仍可利用；客場開局不能被主場氣氛壓倒。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "親述身體狀態未接近十足",
+          "paraphrase_zh": "季前受傷及季中缺席令狀態仍未接近十足，希望靠比賽逐步提升。這是本人自述，並非缺陣公告。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "新井一耀",
+          "role": "#29",
+          "topic": "同為升班球隊，必須爭勝",
+          "paraphrase_zh": "盃賽出局後集中聯賽，對同屬升班隊的千葉要爭勝，希望賽後與球迷唱Cantare。",
+          "published_at": "2026-10-09",
+          "context": "pre_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/team-comments/249918",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_29",
+          "date_note": "日期為官方發布日；訪問錄製日未另列。"
+        }
+      ]
     },
     {
       "id": "nagasaki_31",
@@ -11809,13 +11969,32 @@
       },
       "recent_interviews": [
         {
+          "team_slug": "nagasaki",
           "speaker": "翁長聖",
-          "role": "翼衛",
+          "role": "#22",
+          "topic": "問題在開局",
+          "paraphrase_zh": "翁長認為開局失球影響全局，球隊回應較遲；之後踢法雖有改善，仍要改善進入比賽。",
           "published_at": "2026-10-07",
           "context": "post_match",
           "outlet": "長崎官方",
           "url": "https://www.v-varen.com/gamedata2/20261007",
-          "paraphrase_zh": "操練已反覆準備四後衛對手，盃賽出局後集中聯賽。"
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_22",
+          "quote_ja": "試合の入りがすべてだったと思います。",
+          "quote_zh": "我認為一切都在於比賽開局。"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "翁長聖",
+          "role": "#22",
+          "topic": "四後衛部署的正面部分",
+          "paraphrase_zh": "曾準備接球轉身及轉移應對對方四後衛；新部署有正面效果，往後只剩聯賽，要累積積分。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_22"
         }
       ]
     },
@@ -13027,13 +13206,30 @@
       },
       "recent_interviews": [
         {
+          "team_slug": "nagasaki",
           "speaker": "長谷川元希",
-          "role": "中場",
+          "role": "#41",
+          "topic": "松本天夢推前後的距離",
+          "paraphrase_zh": "長谷川認為松本由防中推前，拉近接應距離，對入球有幫助。",
           "published_at": "2026-10-07",
           "context": "post_match",
           "outlet": "長崎官方",
           "url": "https://www.v-varen.com/gamedata2/20261007",
-          "paraphrase_zh": "松本前移縮短配合距離；但球隊後段強度仍需維持。"
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_41"
+        },
+        {
+          "team_slug": "nagasaki",
+          "speaker": "長谷川元希",
+          "role": "#41",
+          "topic": "90分鐘強度及後備延續",
+          "paraphrase_zh": "他反省失球前丟球與反擊防守，亦指出下半場未能維持強度；換人後也要延續節奏。",
+          "published_at": "2026-10-07",
+          "context": "post_match",
+          "outlet": "長崎官方",
+          "url": "https://www.v-varen.com/gamedata2/20261007",
+          "accessed_at": "2026-10-11",
+          "player_id": "nagasaki_41"
         }
       ]
     },
@@ -13861,17 +14057,25 @@
       "match_week": {
         "fixture_date": "2026-10-11",
         "opponent": "千葉市原JEF聯",
-        "as_of": "2026-10-10",
+        "as_of": "2026-10-11",
         "selection_status": "10月7日天皇盃上場約45分鐘（不計補時）；本場選人未公布。",
         "recent_form": [],
         "matchup_notes": [],
-        "milestones": [],
+        "milestones": [
+          "J1通算47球，距50球尚差3球；並非下一球便達50。"
+        ],
         "sources": [
           {
             "label": "JFA・清水對長崎官方記錄",
             "url": "https://www.jfa.jp/match/emperorscup_2026/match_page/m70.html",
             "accessed_at": "2026-10-10",
             "published_at": "2026-10-07"
+          },
+          {
+            "label": "J.League・第9節可達成紀錄",
+            "url": "https://www.jleague.jp/news/article/35047/?navicode=j1",
+            "accessed_at": "2026-10-11",
+            "published_at": "2026-10-08"
           }
         ]
       }

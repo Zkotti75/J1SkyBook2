@@ -47,11 +47,28 @@ test('claims retain dated sources and only researched players are rendered',()=>
 });
 test('future lineups stay unfilled and interviews retain their actual dates',()=>{
   for(const team of Object.values(d.teams))assert.equal(team.lineup.starters.length,0);
-  for(const row of d.quotes)for(const side of ['home','away']){
-    const q=row[side];if(!q)continue;
+  const interviews=(d.quote_events || []).flatMap(event=>event.entries);
+  assert.equal(interviews.length,25);
+  assert.equal(d.quote_events.length,4);
+  for(const q of interviews){
     assert.ok(q.published_at<=d.as_of);
-    assert.ok(q.published_at>d.teams[side==='home'?d.home:d.away].previous_match_date || (q.context==='post_match' && q.published_at===d.teams[side==='home'?d.home:d.away].previous_match_date));
+    assert.ok(q.published_at>d.teams[q.team_slug].previous_match_date || (q.context==='post_match' && q.published_at===d.teams[q.team_slug].previous_match_date));
     assert.ok(q.url && (q.paraphrase_zh || (q.quote_ja && q.quote_zh)));
   }
   assert.ok(d.teams.chiba.suspensions.some(c=>c.text.includes('10月7日')&&c.text.includes('不可直接')));
+});
+test('event interviews are visible and synchronized with their speaker cards',()=>{
+  const html=renderMatchPage({home,away,page:'quotes',date:d.date,dossier:d});
+  for(const event of d.quote_events){
+    assert.ok(html.includes(event.title));
+    for(const q of event.entries){
+      const club=q.team_slug==='chiba'?home:away;
+      const speaker=q.player_id?club.players.find(p=>p.id===q.player_id):club.manager;
+      assert.ok(speaker.recent_interviews.some(x=>x.topic===q.topic && x.url===q.url));
+      assert.ok(html.includes(q.paraphrase_zh));
+      if(q.quote_ja)assert.ok(html.includes(q.quote_ja) && html.includes(q.quote_zh));
+    }
+  }
+  assert.ok(html.indexOf('10月10日｜')<html.indexOf('10月9日｜'));
+  assert.ok(html.indexOf('10月9日｜')<html.indexOf('10月7日｜'));
 });

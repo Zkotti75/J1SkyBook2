@@ -1,7 +1,7 @@
 export const MATCH_PAGES = [
   { id: 'comparison', label: '兩軍比較', description: '踢法・陣式・近況・人腳' },
   { id: 'preview', label: '賽前深度分析', description: '日本報道與賽前故事線' },
-  { id: 'quotes', label: '賽前聲音', description: '教練與球員・按話題對照' },
+  { id: 'quotes', label: '賽前聲音', description: '近期訪問・按事件整理' },
   { id: 'players', label: '焦點球員', description: '核心・外援・青訓新星' },
   { id: 'logs', label: '全季賽程與戰績', description: '兩隊逐場記錄' },
   { id: 'standings', label: '聯賽榜', description: '排名與積分形勢' },
@@ -71,16 +71,16 @@ function preview(ctx) {
 export function inInterviewWindow(quote, start, end) { return validDate(quote?.published_at) && validDate(start) && validDate(end) && (quote.published_at > start || (quote.published_at === start && quote.context === 'post_match')) && quote.published_at <= end; }
 function quoteCell(q) {
   if (!q) return blank('未找到同題發言');
-  return `<div class="quote-speaker">${e(q.speaker)} <small>${e(q.role || '')}</small></div>${q.quote_ja && q.quote_zh ? `<blockquote>「${e(q.quote_zh)}」</blockquote><details><summary>日文原句</summary><p lang="ja">${e(q.quote_ja)}</p></details>` : `<p>${e(q.paraphrase_zh || '原文未核實')}</p>`}<div class="claim-meta">${e(q.published_at)}${q.context === 'post_match' ? ' · 上仗賽後' : ''} · ${e(q.outlet || '')}${q.paraphrase_zh && !q.quote_ja ? ' · 訪問摘要' : ''}</div><div class="source-list">${sources(q.url ? [{url:q.url,label:q.outlet}] : [])}</div>`;
+  return `<div class="quote-speaker">${e(q.speaker)} <small>${e(q.role || '')}</small></div>${q.topic ? `<h4>${e(q.topic)}</h4>` : ''}${q.quote_ja && q.quote_zh ? `<blockquote>「${e(q.quote_zh)}」</blockquote><details><summary>日文原句</summary><p lang="ja">${e(q.quote_ja)}</p></details>` : ''}${q.paraphrase_zh ? `<p><strong>訪問摘要：</strong>${e(q.paraphrase_zh)}</p>` : ''}<div class="claim-meta">${e(q.published_at)}${q.context === 'post_match' ? ' · 上仗賽後' : q.context === 'pre_match' ? ' · 本場賽前' : ''} · ${e(q.outlet || '')}</div>${q.date_note ? `<p class="quote-date-note">${e(q.date_note)}</p>` : ''}<div class="source-list">${sources(q.url ? [{url:q.url,label:q.outlet}] : [])}</div>`;
 }
 function quotes(ctx) {
-  const d = ctx.dossier, topics = d?.quotes || [];
-  const content = topics.map(row => {
-    const home = inInterviewWindow(row.home, d.teams?.[ctx.home.team.slug]?.previous_match_date, ctx.date) ? row.home : null;
-    const away = inInterviewWindow(row.away, d.teams?.[ctx.away.team.slug]?.previous_match_date, ctx.date) ? row.away : null;
-    return home || away ? pair(ctx, quoteCell(home), quoteCell(away), row.topic) : '';
+  const d = ctx.dossier;
+  const events = d?.quote_events || (d?.quotes || []).map(row => ({title:row.topic,entries:[row.home && {...row.home,team_slug:ctx.home.team.slug},row.away && {...row.away,team_slug:ctx.away.team.slug}].filter(Boolean)}));
+  const content = [...events].sort((a,b)=>(b.date || '').localeCompare(a.date || '')).map(event => {
+    const entries = (event.entries || []).filter(q => [ctx.home.team.slug,ctx.away.team.slug].includes(q.team_slug) && inInterviewWindow(q,d.teams?.[q.team_slug]?.previous_match_date,ctx.date));
+    return entries.length ? card(event.title,`${event.summary ? `<p>${e(event.summary)}</p>` : ''}<div class="event-quotes">${entries.map(q=>`<article class="event-quote">${quoteCell(q)}</article>`).join('')}</div>`,event.date || '') : '';
   }).join('');
-  return card('同一話題・兩邊聲音', '<p class="match-description">收錄上仗賽後至本場的訪問；按話題配對，保留出處與日期。9月29日發言屬盃賽賽後，不能當作針對本場的訪問。</p>') + (content || ['本場目標','對手與戰術','球員狀態與用人'].map(topic => pair(ctx,blank('尚未收錄本場訪問'),blank('尚未收錄本場訪問'),topic)).join(''));
+  return card('近期訪問・按事件整理','<p class="match-description">收錄上仗賽後至本場的發言，較新事件在前。每則保留人物、問題、日期及出處；短引句附日文原句，其餘標作訪問摘要。</p>') + (content || card('近期訪問',blank('尚未收錄本場訪問')));
 }
 function focusPlayer(club, entry) {
   const p = club.players?.find(p => p.id === entry.player_id || String(p.number) === String(entry.number));
@@ -114,7 +114,7 @@ function tactics(ctx) {
 }
 function live(ctx) {
   const info = ctx.dossier?.match_info || {};
-  return card('比賽基本資料', `<div class="match-metrics">${[['開賽時間',info.kickoff_hkt],['場地',info.stadium],['球證',info.referee],['正選公布',info.lineups_as_of]].map(([label,v])=>`<div><small>${label}</small><strong>${field(v)}</strong></div>`).join('')}</div><div class="source-list">${sources(info.sources)}</div>`) + pair(ctx,...[ctx.home,ctx.away].map(c=>{
+  return card('比賽基本資料', `<div class="match-metrics">${[['開賽時間',info.kickoff_hkt],['場地',info.stadium],['球證',info.referee],['正選公布',info.lineups_as_of]].map(([label,v])=>`<div><small>${label}</small><strong>${field(v)}</strong></div>`).join('')}</div>${info.selection_note ? `<p>${e(info.selection_note)}</p>` : ''}<div class="source-list">${sources(info.sources)}</div>`) + (info.weather ? card('比賽日天氣',claim(info.weather)) : '') + pair(ctx,...[ctx.home,ctx.away].map(c=>{
     const side=ctx.dossier?.teams?.[c.team.slug]?.lineup;
     return card('官方正選',claims(side?.starters)) + card('後備',claims(side?.bench)) + card('即場評述重點',claims(side?.cues));
   }), '官方陣容與評述筆記');
