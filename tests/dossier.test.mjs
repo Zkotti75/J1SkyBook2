@@ -4,10 +4,11 @@ import fs from 'node:fs';
 import {MATCH_PAGES,renderMatchPage} from '../match.js';
 const read = path => JSON.parse(fs.readFileSync(new URL(`../${path}`,import.meta.url)));
 const index=read('data/matches/index.json');
-const d=read(`data/matches/${index.fixtures[0].file}`);
+const d=read('data/matches/2026-10-11-chiba-nagasaki.json');
 const home=read('data/clubs/chiba.json'),away=read('data/clubs/nagasaki.json');
 test('assignment and dossier agree, with no unresearched opponent selected',()=>{
-  for(const k of ['home','away','date'])assert.equal(index.featured[k],d[k]);
+  const featured=read(`data/matches/${index.fixtures.find(f=>f.date===index.featured.date&&f.home===index.featured.home&&f.away===index.featured.away).file}`);
+  for(const k of ['home','away','date'])assert.equal(index.featured[k],featured[k]);
   assert.equal(index.fixtures.length,1);
   for(const {id} of MATCH_PAGES){
     const html=renderMatchPage({home,away,page:id,date:d.date,dossier:d});
