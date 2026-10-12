@@ -27,3 +27,7 @@ Obi: full Japanese Wikipedia route cross-checked Kobe2023 detailed youth dates a
 Data Site consulted October12, updated October11; all three absent from appearance list, explicit Yahoo current0/0/0 minutes used, not inferred. Kitahama/Fujikawa special-tournament totals not publicly confirmed remainnull. Only Obi's league special2 is explicit.
 
 Validation: fukuoka-10 3/3 and npm test17/17 with zero data errors. All10 player batches completed,39/39 cards. Full club strict gate passes:0 errors,0 warnings,0 blockers;195 coverage gaps reported separately for unavailable figures/optional fields. No shared validators or control-room index edited. Separate status-tag stage remains scheduled, not completed. Batch9 Pages deployment success verified.
+
+## fukuoka-09 correction discovered during final award audit
+
+JUFA2026 Denso excellent-player original also lists Sakai (playoff selection/Fukuoka University). Added the award, exact original source and audit note to #56 only in a separate correction. No invented foot or international-cap claim; queue remains10/10 and39/39. Both batch09 validation and full strict check re-run for this correction.
