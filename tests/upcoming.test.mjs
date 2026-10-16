@@ -23,3 +23,11 @@ test('new assignment renders all pages and reconciles ninth-round totals',()=>{
  assert.ok(d.teams.machida.suspensions[0].text.includes('10月18日'));
  assert.ok(d.teams.fukuoka.suspensions[0].text.includes('10月18日'));
 });
+
+test('current voices include official video links without invented transcripts',()=>{
+ const html=renderMatchPage({home,away,date:d.date,page:'quotes',dossier:d});
+ assert.ok(html.includes('NOiJbYcFX3c'));assert.ok(html.includes('5-byfqXCrdE'));
+ assert.ok(html.includes('未核對逐字稿'));assert.ok(html.includes('覆核日 2026-10-16'));
+ assert.ok(!html.includes('10月10日｜'));
+ assert.equal(home.players.find(p=>p.number==='5').name_zh,'迪沙域');
+});

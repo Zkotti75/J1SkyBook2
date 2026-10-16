@@ -71,14 +71,16 @@ function preview(ctx) {
 export function inInterviewWindow(quote, start, end) { return validDate(quote?.published_at) && validDate(start) && validDate(end) && (quote.published_at > start || (quote.published_at === start && quote.context === 'post_match')) && quote.published_at <= end; }
 function quoteCell(q) {
   if (!q) return blank('未找到同題發言');
-  return `<div class="quote-speaker">${e(q.speaker)} <small>${e(q.role || '')}</small></div>${q.topic ? `<h4>${e(q.topic)}</h4>` : ''}${q.quote_ja && q.quote_zh ? `<blockquote>「${e(q.quote_zh)}」</blockquote><details><summary>日文原句</summary><p lang="ja">${e(q.quote_ja)}</p></details>` : ''}${q.paraphrase_zh ? `<p><strong>訪問摘要：</strong>${e(q.paraphrase_zh)}</p>` : ''}<div class="claim-meta">${e(q.published_at)}${q.context === 'post_match' ? ' · 上仗賽後' : q.context === 'pre_match' ? ' · 本場賽前' : ''} · ${e(q.outlet || '')}</div>${q.date_note ? `<p class="quote-date-note">${e(q.date_note)}</p>` : ''}<div class="source-list">${sources(q.url ? [{url:q.url,label:q.outlet}] : [])}</div>`;
+  return `<div class="quote-speaker">${e(q.speaker)} <small>${e(q.role || '')}</small></div>${q.topic ? `<h4>${e(q.topic)}</h4>` : ''}${q.quote_ja && q.quote_zh ? `<blockquote>「${e(q.quote_zh)}」</blockquote><details><summary>日文原句</summary><p lang="ja">${e(q.quote_ja)}</p></details>` : ''}${q.paraphrase_zh ? `<p><strong>訪問摘要：</strong>${e(q.paraphrase_zh)}</p>` : ''}<div class="claim-meta">${q.date_basis === 'accessed' ? '覆核日 ' : ''}${e(q.published_at)}${q.context === 'post_match' ? ' · 上仗賽後' : q.context === 'pre_match' ? ' · 本場賽前' : ''} · ${e(q.outlet || '')}</div>${q.date_note ? `<p class="quote-date-note">${e(q.date_note)}</p>` : ''}<div class="source-list">${sources(q.url ? [{url:q.url,label:q.outlet}] : [])}</div>`;
 }
 function quotes(ctx) {
   const d = ctx.dossier;
   const events = d?.quote_events || (d?.quotes || []).map(row => ({title:row.topic,entries:[row.home && {...row.home,team_slug:ctx.home.team.slug},row.away && {...row.away,team_slug:ctx.away.team.slug}].filter(Boolean)}));
   const content = [...events].sort((a,b)=>(b.date || '').localeCompare(a.date || '')).map(event => {
     const entries = (event.entries || []).filter(q => [ctx.home.team.slug,ctx.away.team.slug].includes(q.team_slug) && inInterviewWindow(q,d.teams?.[q.team_slug]?.previous_match_date,ctx.date));
-    return entries.length ? card(event.title,`${event.summary ? `<p>${e(event.summary)}</p>` : ''}<div class="event-quotes">${entries.map(q=>`<article class="event-quote">${quoteCell(q)}</article>`).join('')}</div>`,event.date || '') : '';
+    const videos=(event.videos || []).filter(v=>[ctx.home.team.slug,ctx.away.team.slug].includes(v.team_slug) && inInterviewWindow(v,d.teams?.[v.team_slug]?.previous_match_date,ctx.date));
+    const videoHtml=videos.map(v=>`<article class="event-quote"><strong>${e(v.speaker)}</strong><p>官方訪問影片・未核對逐字稿</p>${sources([{url:v.url,label:v.outlet,published_at:v.published_at}])}</article>`).join('');
+    return entries.length || videos.length ? card(event.title,`${event.summary ? `<p>${e(event.summary)}</p>` : ''}<div class="event-quotes">${entries.map(q=>`<article class="event-quote">${quoteCell(q)}</article>`).join('')}${videoHtml}</div>`,event.date || '') : '';
   }).join('');
   return card('近期訪問・按事件整理','<p class="match-description">收錄上仗賽後至本場的發言，較新事件在前。每則保留人物、問題、日期及出處；短引句附日文原句，其餘標作訪問摘要。</p>') + (content || card('近期訪問',blank('尚未收錄本場訪問')));
 }

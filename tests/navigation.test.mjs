@@ -54,7 +54,7 @@ test('match pages preserve the assignment; selecting another team opens its club
   assert.equal(hash,'#/match/machida/fukuoka/2026-10-18/quotes');
   assert.equal(element('#home-team').value,'machida');
   assert.equal(element('#away-team').value,'fukuoka');
-  assert.ok(element('#detail').innerHTML.includes('黑田剛'));
+  assert.ok(element('#detail').innerHTML.includes('昌子源'));
 });
 test('legacy arbitrary match links canonicalize to the featured fixture', async () => {
   location.hash='#/match/kashiwa/urawa/2026-10-06/preview'; await settled();

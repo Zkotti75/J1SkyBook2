@@ -3,8 +3,8 @@
   "home": "machida",
   "away": "fukuoka",
   "date": "2026-10-18",
-  "as_of": "2026-10-12",
-  "coverage_note": "10月12日第一輪備戰研究。聯賽榜及賽果核對至第9節；Football LAB進階及球員數據仍為第8節截點，分開標示。下田及上島10月18日停賽；町田先赴新加坡踢ACL Two，須於賽前再覆核負荷、傷停及訪問。未確認正選、黃牌臨界及復出項目留白。 兩隊皆有周中賽事；38輪聯賽全列，町田盃賽／亞洲賽完整記錄尚待補齊。",
+  "as_of": "2026-10-16",
+  "coverage_note": "10月16日覆核：町田15日新加坡1–0勝、福岡14日鳥栖1–2負，周中輪換及近期聲音已更新。町田中兩日、福岡中三日；本場正選未公布。J1榜截至第9節，進階數據保留各自截點。未取得福岡訪問逐字稿者提供官方影片；傷患及黃牌臨界仍有待確認。",
   "match_info": {
     "kickoff_hkt": "15:00（日本16:00）",
     "stadium": "町田GION體育場",
@@ -21,7 +21,7 @@
   },
   "teams": {
     "machida": {
-      "previous_match_date": "2026-10-10",
+      "previous_match_date": "2026-10-15",
       "stats": {
         "rank": 3,
         "points": 20,
@@ -73,6 +73,19 @@
         ]
       },
       "form": [
+        {
+          "text": "10月15日ACL Two作客淡濱尼，町田1–0勝出；望月亨利海輝90+4分鐘接泰迪・恩基傳球射入。相馬、明本、望月、小川及恩基均後備入場；不能把「輪換」理解為整批聯賽主力完全休息。",
+          "kind": "fact",
+          "as_of": "2026-10-15",
+          "sources": [
+            {
+              "label": "町田官方・淡濱尼戰名單與賽況",
+              "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
+              "published_at": "2026-10-15",
+              "accessed_at": "2026-10-16"
+            }
+          ]
+        },
         {
           "text": "第9節後6勝2和1負、20分排第3，距榜首柏1分；上仗作客京都1–0，是第8節負柏後重返勝軌。",
           "kind": "fact",
@@ -168,15 +181,15 @@
       ],
       "injuries": [
         {
-          "text": "本次未取得足夠公開證據列出10月18日確定傷缺；不把上仗未入名單等同受傷。",
+          "text": "10月15日可核對比賽名單已收錄；未取得10月18日確定新增傷缺公告。沒入名單或被換出，不單憑此判為受傷。",
           "kind": "analysis",
-          "as_of": "2026-10-12",
+          "as_of": "2026-10-15",
           "sources": [
             {
-              "label": "町田官方・上仗名單",
-              "url": "https://www.zelvia.co.jp/match/game/352997/",
-              "published_at": "2026-10-12",
-              "accessed_at": "2026-10-12"
+              "label": "町田官方・新加坡名單",
+              "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
+              "published_at": "2026-10-15",
+              "accessed_at": "2026-10-16"
             }
           ]
         }
@@ -197,6 +210,19 @@
         }
       ],
       "storylines": [
+        {
+          "text": "町田周四15日在新加坡踢完，周日18日即主場對福岡，是中兩日；福岡周三14日踢鳥栖，是中三日。這是已知日程差別；旅途是否影響個別球員，仍須看恢復及最終名單，不能直接宣判體能不支。",
+          "kind": "analysis",
+          "as_of": "2026-10-16",
+          "sources": [
+            {
+              "label": "J.League・郡司聰本場前瞻",
+              "url": "https://www.jleague.jp/match/j1/2026/101812/",
+              "published_at": "2026-10-16",
+              "accessed_at": "2026-10-16"
+            }
+          ]
+        },
         {
           "text": "黑田明言京都戰後要立即前往新加坡踢ACL Two，10月連戰要管理人腳。福岡戰的體能與輪換應等洲際賽後再判斷。",
           "kind": "reported",
@@ -295,6 +321,44 @@
                 ]
               }
             ]
+          },
+          {
+            "number": 6,
+            "description": [
+              {
+                "text": "新加坡後備入場射入致勝球；望月把入球歸於恩基接續及自己看到路線後果斷起腳。這是最新賽後自述，不將入球擴寫成所有技術均已改善。",
+                "kind": "reported",
+                "as_of": "2026-10-15",
+                "sources": [
+                  {
+                    "label": "Sponichi・望月賽後訪問",
+                    "url": "https://news.livedoor.com/article/detail/32577021/",
+                    "published_at": "2026-10-15",
+                    "accessed_at": "2026-10-16"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          },
+          {
+            "number": 3,
+            "description": [
+              {
+                "text": "郡司聰本場前瞻引述昌子源：前田快曾以練習生身份參加町田操練，他近距離看過前田的長擲，認為球路如雷射、質素令接應者能有力頂球。這是對手親身觀察，應標為昌子的評價；不是量測速度或保證造成入球。",
+                "kind": "opinion",
+                "as_of": "2026-10-16",
+                "sources": [
+                  {
+                    "label": "J.League・郡司聰前瞻／昌子訪問",
+                    "url": "https://www.jleague.jp/match/j1/2026/101812/",
+                    "accessed_at": "2026-10-16",
+                    "date_note": "頁面未標採訪日期；10月16日覆核"
+                  }
+                ]
+              }
+            ],
+            "stats": []
           }
         ],
         "foreign": [
@@ -733,6 +797,15 @@
           "opponent": "京都不死鳥",
           "score": "0–0（十二碼5–3）",
           "source": "https://www.jleague.jp/match/j1/2026/101012/"
+        },
+        {
+          "date": "2026-10-15",
+          "sort_date": "2026-10-15",
+          "competition": "ACL Two 分組第2輪",
+          "venue": "客",
+          "opponent": "淡濱尼流浪",
+          "score": "1–0",
+          "source": "https://www.jleague.jp/match/acl2/2026/101504/"
         }
       ],
       "analytics": [
@@ -751,7 +824,7 @@
       ]
     },
     "fukuoka": {
-      "previous_match_date": "2026-10-10",
+      "previous_match_date": "2026-10-14",
       "stats": {
         "rank": 17,
         "points": 7,
@@ -803,6 +876,19 @@
         ]
       },
       "form": [
+        {
+          "text": "10月14日福岡作客鳥栖1–2出局：橋本悠37分鐘一度追平，71分鐘再失。福岡官方記錄射門6–12。橋本繼10月10日聯賽入球後，連續兩場正式賽事入球，但盃賽一球不加進J1射手榜。",
+          "kind": "fact",
+          "as_of": "2026-10-14",
+          "sources": [
+            {
+              "label": "福岡官方・鳥栖戰",
+              "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
+              "published_at": "2026-10-14",
+              "accessed_at": "2026-10-16"
+            }
+          ]
+        },
         {
           "text": "上仗2–1勝岡山，結束聯賽六場不勝。前嶋洋太8分鐘先開紀錄，61分鐘被追平，後備橋本悠76分鐘射入致勝球。",
           "kind": "fact",
@@ -927,6 +1013,19 @@
               "accessed_at": "2026-10-12"
             }
           ]
+        },
+        {
+          "text": "10月14日上島及見木正選踢盃賽；只能證明當晚曾上陣，不能當作所有傷患都已康復。福島及深澤的舊觀察名單仍缺新的復出確認。",
+          "kind": "analysis",
+          "as_of": "2026-10-14",
+          "sources": [
+            {
+              "label": "福岡官方・鳥栖名單",
+              "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
+              "published_at": "2026-10-14",
+              "accessed_at": "2026-10-16"
+            }
+          ]
         }
       ],
       "yellow_risk": [
@@ -945,6 +1044,19 @@
         }
       ],
       "storylines": [
+        {
+          "text": "郡司聰本場前瞻引述昌子源：前田快曾以練習生身份參加町田操練，他近距離看過前田的長擲，認為球路如雷射、質素令接應者能有力頂球。這是對手親身觀察，應標為昌子的評價；不是量測速度或保證造成入球。",
+          "kind": "opinion",
+          "as_of": "2026-10-16",
+          "sources": [
+            {
+              "label": "J.League・郡司聰前瞻／昌子訪問",
+              "url": "https://www.jleague.jp/match/j1/2026/101812/",
+              "accessed_at": "2026-10-16",
+              "date_note": "頁面未標採訪日期；10月16日覆核"
+            }
+          ]
+        },
         {
           "text": "橋本的致勝球令福岡取得久違勝仗；「初球」是J1正式聯賽初球，不應混成整個職業生涯第一球。",
           "kind": "reported",
@@ -976,6 +1088,19 @@
           {
             "number": 47,
             "description": [
+              {
+                "text": "10月14日福岡作客鳥栖1–2出局：橋本悠37分鐘一度追平，71分鐘再失。福岡官方記錄射門6–12。橋本繼10月10日聯賽入球後，連續兩場正式賽事入球，但盃賽一球不加進J1射手榜。",
+                "kind": "fact",
+                "as_of": "2026-10-14",
+                "sources": [
+                  {
+                    "label": "福岡官方・鳥栖戰",
+                    "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
+                    "published_at": "2026-10-14",
+                    "accessed_at": "2026-10-16"
+                  }
+                ]
+              },
               {
                 "text": "橋本悠J1初入球後談到低潮期間常獨自思考，想以結果回報支持者；他說盃賽失利未令全隊團結瓦解，希望重新建立信心。",
                 "kind": "reported",
@@ -1063,6 +1188,19 @@
           {
             "number": 55,
             "description": [
+              {
+                "text": "郡司聰本場前瞻引述昌子源：前田快曾以練習生身份參加町田操練，他近距離看過前田的長擲，認為球路如雷射、質素令接應者能有力頂球。這是對手親身觀察，應標為昌子的評價；不是量測速度或保證造成入球。",
+                "kind": "opinion",
+                "as_of": "2026-10-16",
+                "sources": [
+                  {
+                    "label": "J.League・郡司聰前瞻／昌子訪問",
+                    "url": "https://www.jleague.jp/match/j1/2026/101812/",
+                    "accessed_at": "2026-10-16",
+                    "date_note": "頁面未標採訪日期；10月16日覆核"
+                  }
+                ]
+              },
               {
                 "text": "武丸善章8月11日訪問：前田快不希望只被視為長擲球員；他談到在兩線之間接應、與師岡及見木連線，也承認緊密比賽中的處理及發聲指揮要改善。",
                 "kind": "reported",
@@ -1500,8 +1638,8 @@
           "competition": "聯賽盃 第3圈",
           "venue": "客",
           "opponent": "鳥栖砂岩",
-          "score": null,
-          "source": "https://www.avispa.co.jp/match/series/2026-27"
+          "score": "1–2",
+          "source": "https://www.avispa.co.jp/match_schedule/match_file_261014"
         }
       ],
       "analytics": [
@@ -1795,6 +1933,19 @@
   "preview": {
     "cues": [
       {
+        "text": "町田周四15日在新加坡踢完，周日18日即主場對福岡，是中兩日；福岡周三14日踢鳥栖，是中三日。這是已知日程差別；旅途是否影響個別球員，仍須看恢復及最終名單，不能直接宣判體能不支。",
+        "kind": "analysis",
+        "as_of": "2026-10-16",
+        "sources": [
+          {
+            "label": "J.League・郡司聰本場前瞻",
+            "url": "https://www.jleague.jp/match/j1/2026/101812/",
+            "published_at": "2026-10-16",
+            "accessed_at": "2026-10-16"
+          }
+        ]
+      },
+      {
         "text": "開場線：爭榜首的町田，迎戰剛止跌、仍等待首個客場積分的福岡。",
         "kind": "analysis",
         "as_of": "2026-10-12",
@@ -1823,6 +1974,50 @@
     ],
     "sections": [
       {
+        "title": "10月16日更新｜周中一勝一負，兩種備戰問題",
+        "paragraphs": [
+          {
+            "text": "10月15日ACL Two作客淡濱尼，町田1–0勝出；望月亨利海輝90+4分鐘接泰迪・恩基傳球射入。相馬、明本、望月、小川及恩基均後備入場；不能把「輪換」理解為整批聯賽主力完全休息。",
+            "kind": "fact",
+            "as_of": "2026-10-15",
+            "sources": [
+              {
+                "label": "町田官方・淡濱尼戰名單與賽況",
+                "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
+                "published_at": "2026-10-15",
+                "accessed_at": "2026-10-16"
+              }
+            ]
+          },
+          {
+            "text": "10月14日福岡作客鳥栖1–2出局：橋本悠37分鐘一度追平，71分鐘再失。福岡官方記錄射門6–12。橋本繼10月10日聯賽入球後，連續兩場正式賽事入球，但盃賽一球不加進J1射手榜。",
+            "kind": "fact",
+            "as_of": "2026-10-14",
+            "sources": [
+              {
+                "label": "福岡官方・鳥栖戰",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
+                "published_at": "2026-10-14",
+                "accessed_at": "2026-10-16"
+              }
+            ]
+          },
+          {
+            "text": "町田周四15日在新加坡踢完，周日18日即主場對福岡，是中兩日；福岡周三14日踢鳥栖，是中三日。這是已知日程差別；旅途是否影響個別球員，仍須看恢復及最終名單，不能直接宣判體能不支。",
+            "kind": "analysis",
+            "as_of": "2026-10-16",
+            "sources": [
+              {
+                "label": "J.League・郡司聰本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101812/",
+                "published_at": "2026-10-16",
+                "accessed_at": "2026-10-16"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "title": "01｜同樣剛贏波，所處的壓力卻不同",
         "paragraphs": [
           {
@@ -1848,6 +2043,37 @@
                 "url": "https://www.football-lab.jp/fuku/match",
                 "published_at": "2026-10-12",
                 "accessed_at": "2026-10-12"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "本場新採訪｜昌子源眼中的前田快長擲",
+        "paragraphs": [
+          {
+            "text": "郡司聰本場前瞻引述昌子源：前田快曾以練習生身份參加町田操練，他近距離看過前田的長擲，認為球路如雷射、質素令接應者能有力頂球。這是對手親身觀察，應標為昌子的評價；不是量測速度或保證造成入球。",
+            "kind": "opinion",
+            "as_of": "2026-10-16",
+            "sources": [
+              {
+                "label": "J.League・郡司聰前瞻／昌子訪問",
+                "url": "https://www.jleague.jp/match/j1/2026/101812/",
+                "accessed_at": "2026-10-16",
+                "date_note": "頁面未標採訪日期；10月16日覆核"
+              }
+            ]
+          },
+          {
+            "text": "這個故事可把長擲從泛泛的「身體強」講到實際落點與接應：球的平快軌跡、第一點能否頂實、守方第二點站位。昌子熟悉球路是背景，不代表前田必定失效；反過來，前田曾隨町田操練也不等於知道現在所有防守安排。",
+            "kind": "analysis",
+            "as_of": "2026-10-16",
+            "sources": [
+              {
+                "label": "J.League・本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101812/",
+                "published_at": "2026-10-16",
+                "accessed_at": "2026-10-16"
               }
             ]
           }
@@ -2020,40 +2246,41 @@
         "title": "06｜國際賽與三場聯賽：町田必須管理十月",
         "paragraphs": [
           {
-            "text": "黑田明言京都戰後要立即前往新加坡踢ACL Two，10月連戰要管理人腳。福岡戰的體能與輪換應等洲際賽後再判斷。",
-            "kind": "reported",
-            "as_of": "2026-10-10",
+            "text": "町田周四15日在新加坡踢完，周日18日即主場對福岡，是中兩日；福岡周三14日踢鳥栖，是中三日。這是已知日程差別；旅途是否影響個別球員，仍須看恢復及最終名單，不能直接宣判體能不支。",
+            "kind": "analysis",
+            "as_of": "2026-10-16",
             "sources": [
               {
-                "label": "町田官方・京都戰及賽後訪問",
-                "url": "https://www.zelvia.co.jp/match/game/352997/",
-                "published_at": "2026-10-10",
-                "accessed_at": "2026-10-12"
+                "label": "J.League・郡司聰本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/101812/",
+                "published_at": "2026-10-16",
+                "accessed_at": "2026-10-16"
               }
             ]
           },
           {
-            "text": "福岡戰之後町田10月21日作客清水、24日作客神戶；短時間連續比賽令後備選擇與比賽負荷重要。這不等於已知誰會輪休，也不能只以飛行距離斷定一定疲倦。首輪研究先把日程列明，待ACL Two後再核對出場分鐘、傷患及教練發言。",
+            "text": "新加坡戰守田達彌、迪沙域、金眠泰等正選，昌子源未出場；相馬半場入替，望月及小川68分鐘入場，恩基81分鐘入場。可分開看未出場、短時間出場及踢較長時間三組，而不是把整隊稱為「休息過」。",
             "kind": "analysis",
-            "as_of": "2026-10-12",
+            "as_of": "2026-10-15",
             "sources": [
               {
-                "label": "Football LAB・賽程",
-                "url": "https://www.football-lab.jp/mcd/match",
-                "published_at": "2026-10-12",
-                "accessed_at": "2026-10-12"
+                "label": "町田官方・輪換及換人時間",
+                "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
+                "published_at": "2026-10-15",
+                "accessed_at": "2026-10-16"
               }
             ]
           },
           {
-            "text": "福岡也不是整週休息：官方賽程列10月14日作客鳥栖踢聯賽盃，18日再作客町田。兩隊都要處理周中比賽；差別是町田有海外旅程，福岡則有國內盃賽。賽前應比較實際出場分鐘與輪換，不能預設客隊體能佔優。",
+            "text": "福岡盃賽正選包括永石、坂井、上島、宮、橋本、見木、秋野、武本、佐藤、前田一翔及名古。這份名單也提醒評述：上島能踢盃賽，不代表J1停賽已解除；各賽事資格須分開。",
             "kind": "analysis",
-            "as_of": "2026-10-12",
+            "as_of": "2026-10-14",
             "sources": [
               {
-                "label": "福岡官方・2026/27全季賽程",
-                "url": "https://www.avispa.co.jp/match/series/2026-27",
-                "accessed_at": "2026-10-12"
+                "label": "福岡官方・鳥栖戰正選",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
+                "published_at": "2026-10-14",
+                "accessed_at": "2026-10-16"
               }
             ]
           }
@@ -2081,15 +2308,15 @@
         "title": "08｜研究截點及下一輪覆核",
         "paragraphs": [
           {
-            "text": "截至10月12日，已核對第9節榜與兩隊最新聯賽賽果，收到黑田、明本及橋本10月10日發言。未讀到本場專門賽前操練訪問；不把公開活動照片當成康復證據。下輪重點是町田ACL Two後負荷、新傷停、最新官方紀律、累積黃牌及10月18日賽前發言。",
+            "text": "10月16日覆核已加入周中賽果、輪換時間、望月賽後訪問及昌子談前田的本場前瞻。福岡橋本、田代官方訪問目前提供影片，未取得逐字稿。星期日快速覆核重點：新增傷停與紀律公告、恢復／旅程資訊、最新賽前發言及官方正選。J1第9節數據不因盃賽而變動。",
             "kind": "analysis",
-            "as_of": "2026-10-12",
+            "as_of": "2026-10-16",
             "sources": [
               {
-                "label": "本輪研究來源及公開採訪",
-                "url": "https://www.zelvia.co.jp/match/game/352997/",
-                "published_at": "2026-10-12",
-                "accessed_at": "2026-10-12"
+                "label": "本場來源與覆核截點",
+                "url": "https://www.jleague.jp/match/j1/2026/101812/",
+                "published_at": "2026-10-16",
+                "accessed_at": "2026-10-16"
               }
             ]
           }
@@ -2100,49 +2327,67 @@
   "quotes": [],
   "quote_events": [
     {
-      "title": "10月10日｜町田作客京都：後備改變比賽與洲際連戰",
-      "date": "2026-10-10",
+      "title": "10月16日覆核｜昌子源談前田快的長擲",
+      "date": "2026-10-16",
       "entries": [
         {
           "team_slug": "machida",
-          "speaker": "黑田剛",
-          "role": "主教練",
-          "topic": "後備與負荷管理",
-          "published_at": "2026-10-10",
-          "context": "post_match",
-          "paraphrase_zh": "他肯定望月、明本、拉維及杜克向疲累對手的空間推進，亦說京都勝利有助帶着信心前往新加坡；接下來必須管理10月連戰。",
-          "url": "https://www.zelvia.co.jp/match/game/352997/",
-          "outlet": "町田官方"
-        },
-        {
-          "team_slug": "machida",
-          "speaker": "明本考浩",
-          "role": "球員",
-          "topic": "改變節奏與爭取第二點",
-          "published_at": "2026-10-10",
-          "context": "post_match",
-          "paraphrase_zh": "入場時要改變比賽，亦收到教練同樣指示；他預備追小川頭槌的第二點，希望每一場都由全隊爭取積分。",
-          "url": "https://www.zelvia.co.jp/match/game/352997/",
-          "outlet": "町田官方"
+          "speaker": "昌子源",
+          "role": "後衛",
+          "published_at": "2026-10-16",
+          "date_basis": "accessed",
+          "context": "interview",
+          "date_note": "原文未標採訪／發佈日期；此日期是覆核日。本場前瞻所載發言。",
+          "topic": "曾近距離見過的長擲",
+          "url": "https://www.jleague.jp/match/j1/2026/101812/",
+          "outlet": "J.League／郡司聰",
+          "paraphrase_zh": "他說前田快曾以練習生身份參加町田操練；長擲的球路與質素令他印象深刻，尤其接應球員能把球有力頂出的傳送質素。此為昌子的觀察。"
         }
       ]
     },
     {
-      "title": "10月10日｜福岡勝岡山：橋本的初球與重新出發",
-      "date": "2026-10-10",
+      "title": "10月15日｜望月談新加坡致勝球與聯賽銜接",
+      "date": "2026-10-15",
       "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "望月亨利海輝",
+          "role": "後衛",
+          "published_at": "2026-10-15",
+          "context": "post_match",
+          "topic": "抓住射門路線",
+          "outlet": "Sponichi／livedoor",
+          "url": "https://news.livedoor.com/article/detail/32577021/",
+          "quote_ja": "シュートコースが見えたので思い切って振ったら入りました",
+          "quote_zh": "看到射門路線，所以果斷起腳，結果入了。",
+          "paraphrase_zh": "他感謝恩基把球接續下來，並表示要回顧這場暴露的課題，帶到之後J.League比賽繼續成長。",
+          "date_note": "報道誤把福岡戰寫作17日；本場日期以官方18日賽程為準。"
+        }
+      ]
+    },
+    {
+      "title": "10月14日｜福岡鳥栖戰：官方賽後訪問影片",
+      "date": "2026-10-14",
+      "entries": [],
+      "videos": [
         {
           "team_slug": "fukuoka",
           "speaker": "橋本悠",
-          "role": "球員",
-          "topic": "低潮、團結與信心",
-          "published_at": "2026-10-10",
+          "published_at": "2026-10-14",
           "context": "post_match",
-          "paraphrase_zh": "他希望以結果回報仍到場支持的球迷；久違勝利及J1初球讓他找回向前走的信心，盃賽敗仗沒有令全隊團結中斷。",
-          "url": "https://www.soccerdigestweb.com/news/detail/id=198302",
-          "outlet": "Soccer Digest"
+          "url": "https://www.youtube.com/watch?v=NOiJbYcFX3c",
+          "outlet": "福岡官方YouTube"
+        },
+        {
+          "team_slug": "fukuoka",
+          "speaker": "田代雅也",
+          "published_at": "2026-10-14",
+          "context": "post_match",
+          "url": "https://www.youtube.com/watch?v=5-byfqXCrdE",
+          "outlet": "福岡官方YouTube"
         }
-      ]
+      ],
+      "summary": "官方賽報提供兩段影片。本次未取得可核對逐字稿，保留原片連結，不代填說話或翻譯。"
     }
   ],
   "head_to_head": [
@@ -2248,5 +2493,73 @@
         ]
       }
     }
-  ]
+  ],
+  "quote_archive": [
+    {
+      "title": "10月10日｜町田作客京都：後備改變比賽與洲際連戰",
+      "date": "2026-10-10",
+      "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "黑田剛",
+          "role": "主教練",
+          "topic": "後備與負荷管理",
+          "published_at": "2026-10-10",
+          "context": "post_match",
+          "paraphrase_zh": "他肯定望月、明本、拉維及杜克向疲累對手的空間推進，亦說京都勝利有助帶着信心前往新加坡；接下來必須管理10月連戰。",
+          "url": "https://www.zelvia.co.jp/match/game/352997/",
+          "outlet": "町田官方"
+        },
+        {
+          "team_slug": "machida",
+          "speaker": "明本考浩",
+          "role": "球員",
+          "topic": "改變節奏與爭取第二點",
+          "published_at": "2026-10-10",
+          "context": "post_match",
+          "paraphrase_zh": "入場時要改變比賽，亦收到教練同樣指示；他預備追小川頭槌的第二點，希望每一場都由全隊爭取積分。",
+          "url": "https://www.zelvia.co.jp/match/game/352997/",
+          "outlet": "町田官方"
+        }
+      ]
+    },
+    {
+      "title": "10月10日｜福岡勝岡山：橋本的初球與重新出發",
+      "date": "2026-10-10",
+      "entries": [
+        {
+          "team_slug": "fukuoka",
+          "speaker": "橋本悠",
+          "role": "球員",
+          "topic": "低潮、團結與信心",
+          "published_at": "2026-10-10",
+          "context": "post_match",
+          "paraphrase_zh": "他希望以結果回報仍到場支持的球迷；久違勝利及J1初球讓他找回向前走的信心，盃賽敗仗沒有令全隊團結中斷。",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=198302",
+          "outlet": "Soccer Digest"
+        }
+      ]
+    }
+  ],
+  "research_sweep": {
+    "date": "2026-10-16",
+    "scope": "町田對福岡；18日賽前",
+    "sources_checked": [
+      "兩隊官方賽報及新聞",
+      "J.League本場前瞻及紀律新聞",
+      "Yahoo Sports／SportsNavi",
+      "Soccer Digest",
+      "Soccer King",
+      "Gekisaka",
+      "Football Zone",
+      "Sponichi／livedoor",
+      "地方新聞索引"
+    ],
+    "limitations": [
+      "福岡賽後訪問為影片，未取得逐字稿；沒有推測內容。",
+      "未找到可核對的新增官方傷患診斷或完整黃牌臨界名單。",
+      "部分媒體搜尋結果是2025年同日對賽，已排除。",
+      "採訪日未標明的昌子發言，明示16日是覆核日。"
+    ]
+  }
 }
