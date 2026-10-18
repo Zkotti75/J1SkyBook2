@@ -87,7 +87,11 @@ function quotes(ctx) {
 }
 function focusPlayer(club, entry) {
   const p = club.players?.find(p => p.id === entry.player_id || String(p.number) === String(entry.number));
-  if (!p) return blank('球員資料待核對');
+  if (!p) {
+    const m = entry.match_profile;
+    if (!m?.name_ja || !/^https:\/\//.test(m.official_url || '') || !entry.description?.some(c=>c.sources?.length)) return blank('球員資料待核對');
+    return `<article class="focus-player"><div class="focus-player-heading"><div><small>#${e(entry.number)} · ${e(m.position)}</small><h4>${e(m.name_ja)}</h4><span>姓名沿用日文官方寫法</span></div></div>${claims(entry.description)}${claims(entry.stats)}${claims(entry.analytics)}<div class="source-list">${sources([{url:m.official_url,label:'官方球員資料 ↗'}])}</div></article>`;
+  }
   return `<article class="focus-player"><div class="focus-player-heading">${p.player_image ? `<img src="${e(p.player_image)}" alt="${e(p.name_zh)}">` : ''}<div><small>#${e(p.number)} · ${e(p.position)}</small><h4><a href="#/club/${e(club.team.slug)}/player/${e(p.number)}">${e(p.name_zh || p.name_en)}</a></h4><span>${e(p.nationality || '')}</span></div></div>${claims(entry.description)}${claims(entry.stats)}${claims(entry.analytics)}</article>`;
 }
 function players(ctx) {
