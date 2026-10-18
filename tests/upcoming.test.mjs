@@ -31,3 +31,29 @@ test('current voices include official video links without invented transcripts',
  assert.ok(!html.includes('10月10日｜'));
  assert.equal(home.players.find(p=>p.number==='5').name_zh,'迪沙域');
 });
+
+test('matchday lineups, bans and returnee agree with player cards',()=>{
+ for(const club of [home,away]){
+  const t=d.teams[club.team.slug];
+  assert.equal(t.lineup.starters.length,11);
+  const roster=[...t.lineup.starters,...t.lineup.bench].map(x=>x.text.match(/^#(\d+) /)[1]);
+  assert.equal(new Set(roster).size,roster.length);
+  for(const p of club.players){
+   const selection=p.match_week?.selection_status || '';
+   assert.equal(selection==='官方正選',t.lineup.starters.some(x=>x.text.startsWith(`#${p.number} `)));
+   assert.equal(selection==='官方後備',t.lineup.bench.some(x=>x.text.startsWith(`#${p.number} `)));
+  }
+ }
+ assert.ok(!d.teams.machida.lineup.starters.some(x=>x.text.startsWith('#18 ')));
+ assert.ok(!d.teams.fukuoka.lineup.starters.some(x=>x.text.startsWith('#5 ')));
+ assert.ok(d.teams.fukuoka.lineup.starters.some(x=>x.text.startsWith('#11 ')));
+ const p=home.players.find(p=>p.number==='60');
+ assert.equal(p.verification_status,'research_incomplete');
+ assert.ok(p.sources.some(s=>s.url.includes('news-363694')));
+ assert.ok(p.match_week.selection_status.includes('未列'));
+ assert.equal(d.match_info.referee,'飯田淳平');
+ assert.equal(d.teams.machida.stats.rank,4);
+ for(const slug of ['machida','fukuoka'])assert.equal(d.teams[slug].game_log.find(r=>r.date===d.date).score,null);
+ const html=renderMatchPage({home,away,date:d.date,page:'live',dossier:d});
+ assert.ok(html.includes('小畑裕馬') && html.includes('前田快'));
+});

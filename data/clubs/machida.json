@@ -192,6 +192,22 @@
       "japanese_clubs": "有可靠香港／繁中譯名時使用繁體中文；否則保留官方名。",
       "japanese_schools": "有可靠／直接可用中文形式時使用繁體中文。",
       "foreign_clubs_and_leagues": "English."
+    },
+    "matchday_audit": {
+      "as_of": "2026-10-18",
+      "roster_count": 28,
+      "official_starters": 11,
+      "official_bench": 8,
+      "sources": [
+        {
+          "label": "町田官方・本場正選後備及裁判",
+          "url": "https://www.zelvia.co.jp/match/game/357151/",
+          "accessed_at": "2026-10-18"
+        }
+      ],
+      "note": "本場全部有號碼入選球員均已有卡；未入名單不自動視為受傷。",
+      "official_roster_numbers_checked": 27,
+      "numbered_roster_exception": "60號為10月16日單獨公布，聯賽名單總表未同步；依回歸及背號官方公告補卡。"
     }
   },
   "manager": {
@@ -1389,7 +1405,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
           "status": "職業球員",
           "notes": "本次查核Data Site；進行中數字。",
@@ -1399,6 +1415,11 @@
               "label": "J.League Data Site：谷晃生逐季聯賽紀錄",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=19460",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -1438,14 +1459,19 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League Data Site：谷晃生逐季聯賽紀錄",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=19460",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -1533,7 +1559,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_tani_kosei_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_tani_kosei_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_2",
@@ -1992,8 +2036,8 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
+          "appearances": 2,
+          "goals": 0,
           "status": "完全轉會",
           "notes": "聯賽口徑；2026/27數字未在本次可核紀錄建立。",
           "verification_status": "verified",
@@ -2007,11 +2051,32 @@
               "label": "2026-09-01町田：完全轉會公告",
               "url": "https://www.zelvia.co.jp/news/news-358340/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1（聯賽，不含盃賽）",
+          "team": "町田澤維亞",
+          "appearances": 2,
+          "goals": 0,
+          "as_of": "2026-10-18",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
+        }
+      ],
       "sources": [
         {
           "label": "2026-09-01町田：完全轉會公告",
@@ -2075,7 +2140,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/09/pl_thomas_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/09/pl_thomas_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_3",
@@ -2717,7 +2800,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
           "status": "職業球員",
           "notes": "",
@@ -2732,6 +2815,11 @@
               "label": "日文Wikipedia：昌子源路線及海外數據",
               "url": "https://ja.wikipedia.org/wiki/昌子源",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -2776,9 +2864,9 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：昌子源逐季／獎項／2026/27",
@@ -2789,6 +2877,11 @@
               "label": "日文Wikipedia：昌子源路線及海外數據",
               "url": "https://ja.wikipedia.org/wiki/昌子源",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -2866,7 +2959,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_shoji_gen_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_shoji_gen_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_4",
@@ -3265,6 +3376,11 @@
               "label": "J.League：菊池2021優秀球員／2026/27",
               "url": "https://www.jleague.jp/player/1624302/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -3306,7 +3422,7 @@
           "team": "町田澤維亞",
           "appearances": 3,
           "goals": 0,
-          "as_of": "2026-09-14",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "Football LAB：菊池歷年聯賽，2026-09-14更新",
@@ -3317,6 +3433,11 @@
               "label": "J.League：菊池2021優秀球員／2026/27",
               "url": "https://www.jleague.jp/player/1624302/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -3404,7 +3525,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_kikuchi_david_ryuho_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_kikuchi_david_ryuho_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_5",
@@ -3804,7 +3943,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 4,
+          "appearances": 5,
           "goals": 0,
           "status": "職業球員",
           "notes": "只計聯賽；2026/27按J.League 2026-10-02更新。",
@@ -3814,6 +3953,11 @@
               "label": "J.League：逐季及現季，2026-10-02更新",
               "url": "https://www.jleague.jp/player/1645998/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -3853,14 +3997,19 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 4,
+          "appearances": 5,
           "goals": 0,
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：逐季及現季，2026-10-02更新",
               "url": "https://www.jleague.jp/player/1645998/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -3948,7 +4097,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_dresevic_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_dresevic_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_6",
@@ -4264,7 +4431,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 6,
+          "appearances": 7,
           "goals": 1,
           "status": "職業球員",
           "notes": "只計聯賽；2026/27按J.League 2026-10-02更新。",
@@ -4274,6 +4441,11 @@
               "label": "J.League：望月逐季／2025優秀球員",
               "url": "https://www.jleague.jp/player/1635501/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -4313,14 +4485,19 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 6,
+          "appearances": 7,
           "goals": 1,
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：望月逐季／2025優秀球員",
               "url": "https://www.jleague.jp/player/1635501/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -4408,7 +4585,79 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_mochizuki_henry_heroki_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_mochizuki_henry_heroki_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [
+          "17日賽前訪問：對密集防守要兼備耐心與果斷；本場官方正選。"
+        ],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          },
+          {
+            "label": "町田官方・10月17日賽前訪問",
+            "url": "https://www.zelvia.co.jp/news/news-363840/",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-17"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      },
+      "recent_interviews": [
+        {
+          "team_slug": "machida",
+          "speaker": "望月亨利海輝",
+          "role": "#6",
+          "topic": "把新加坡的問題帶回聯賽處理",
+          "paraphrase_zh": "望月說淡濱尼戰暴露的問題在J.League也會出現，要讓全隊有共同認識並繼續進步。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "町田官方",
+          "url": "https://www.zelvia.co.jp/news/news-363840/",
+          "accessed_at": "2026-10-18",
+          "player_id": "machida_6"
+        },
+        {
+          "team_slug": "machida",
+          "speaker": "望月亨利海輝",
+          "role": "#6",
+          "topic": "破解低位：耐性與果斷並存",
+          "paraphrase_zh": "若再遇密集防守，他希望處理細節時保持耐心，也保留正面意義的強行進攻。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "町田官方",
+          "url": "https://www.zelvia.co.jp/news/news-363840/",
+          "accessed_at": "2026-10-18",
+          "player_id": "machida_6",
+          "quote_ja": "良い意味での強引さ",
+          "quote_zh": "正面意義的強行突破。"
+        },
+        {
+          "team_slug": "machida",
+          "speaker": "望月亨利海輝",
+          "role": "#6",
+          "topic": "中兩日也要共享修正重點",
+          "paraphrase_zh": "他表示即使只有兩天間隔，仍要把問題互相分享後再應戰；不是宣稱身體已完全恢復。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "町田官方",
+          "url": "https://www.zelvia.co.jp/news/news-363840/",
+          "accessed_at": "2026-10-18",
+          "player_id": "machida_6"
+        }
+      ]
     },
     {
       "id": "machida_7",
@@ -4961,7 +5210,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 3,
           "status": "職業球員",
           "notes": "只計聯賽；2026/27按J.League 2026-10-02更新。",
@@ -4971,6 +5220,11 @@
               "label": "J.League：相馬逐季／2025最佳十一人",
               "url": "https://www.jleague.jp/player/1604777/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -5010,14 +5264,19 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 3,
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：相馬逐季／2025最佳十一人",
               "url": "https://www.jleague.jp/player/1604777/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -5095,7 +5354,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_soma_yuki_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_soma_yuki_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_8",
@@ -5602,7 +5879,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
           "status": "職業球員",
           "notes": "只計聯賽；2026/27按J.League 2026-10-02更新。",
@@ -5612,6 +5889,11 @@
               "label": "J.League：仙頭逐季及早期年份",
               "url": "https://www.jleague.jp/player/1607204/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -5651,14 +5933,19 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：仙頭逐季及早期年份",
               "url": "https://www.jleague.jp/player/1607204/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -5716,7 +6003,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_sento_keiya_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_sento_keiya_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_9",
@@ -6216,7 +6521,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 3,
           "status": "完全轉會",
           "notes": "只計聯賽；2026/27按J.League 2026-10-02更新。",
@@ -6226,6 +6531,11 @@
               "label": "J.League：小川職業逐季／2026-10-02更新",
               "url": "https://www.jleague.jp/player/1600008/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -6235,14 +6545,19 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 3,
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：小川職業逐季／2026-10-02更新",
               "url": "https://www.jleague.jp/player/1600008/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -6310,7 +6625,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_ogawa_koki_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_ogawa_koki_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_13",
@@ -7099,7 +7432,23 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_morita_tatsuya_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_morita_tatsuya_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備"
+      }
     },
     {
       "id": "machida_14",
@@ -7551,6 +7900,11 @@
               "label": "J.League：松尾現季，2026-10-02查核",
               "url": "https://www.jleague.jp/player/1626167/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -7592,12 +7946,17 @@
           "team": "町田澤維亞",
           "appearances": 6,
           "goals": 1,
-          "as_of": "2026-10-02",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：松尾現季，2026-10-02查核",
               "url": "https://www.jleague.jp/player/1626167/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -7665,7 +8024,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_matsuo_yusuke_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_matsuo_yusuke_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_15",
@@ -8384,7 +8761,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 1,
           "status": "完全轉會回歸",
           "notes": "按J.League 2026-09-25更新；5場1球，勿與8月舊履歷1場1球混用。",
@@ -8394,6 +8771,11 @@
               "label": "J.League：杜克現季2026-09-25更新",
               "url": "https://www.jleague.jp/player/1300318/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -8418,14 +8800,19 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "町田澤維亞",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 1,
-          "as_of": "2026-09-25",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League：杜克現季2026-09-25更新",
               "url": "https://www.jleague.jp/player/1300318/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -8553,7 +8940,25 @@
         ],
         "notes": "未公開青訓出場數不推算；海外聯賽及日本曆年賽季按各自競賽年份記錄。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_mitchell_duke_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_mitchell_duke_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_16",
@@ -9221,7 +9626,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
           "status": "現役",
           "notes": "截至2026-10-08，未完季。",
@@ -9236,6 +9641,11 @@
               "label": "日文Wikipedia：早期路線及轉會",
               "url": "https://ja.wikipedia.org/wiki/前寛之",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -9285,9 +9695,9 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League Data Site：逐季聯賽紀錄",
@@ -9298,6 +9708,11 @@
               "label": "日文Wikipedia：早期路線及轉會",
               "url": "https://ja.wikipedia.org/wiki/前寛之",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -9415,6 +9830,24 @@
           }
         ],
         "notes": "最早年份未知；2013二種登錄另列；泰國數據未有一手核實留空；2015札幌採官方13場而非Wikipedia15場。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -10020,6 +10453,11 @@
               "label": "日文Wikipedia：早期路線及轉會",
               "url": "https://ja.wikipedia.org/wiki/下田北斗",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -10071,7 +10509,7 @@
           "competition": "J1",
           "appearances": 7,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League Data Site：逐季聯賽紀錄",
@@ -10082,6 +10520,11 @@
               "label": "日文Wikipedia：早期路線及轉會",
               "url": "https://ja.wikipedia.org/wiki/下田北斗",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -10209,6 +10652,30 @@
           }
         ],
         "notes": "江陽中學修正舊卡神明；大學2010–2013依官方年份，2013大四依湘南訪問，不沿用F-SPOT誤稱大三；世界大學生運動會與成年代表分開。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          },
+          {
+            "label": "J.League・10月13日停賽公告",
+            "url": "https://www.jleague.jp/news/article/35105/?navicode=j1",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-13"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "本場J1停賽（官方10月13日公告）；未列本場名單。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -10799,7 +11266,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
           "status": "現役",
           "notes": "截至2026-10-08，未完季。",
@@ -10814,6 +11281,11 @@
               "label": "日文Wikipedia：早期路線及轉會",
               "url": "https://ja.wikipedia.org/wiki/西村拓真",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -10863,9 +11335,9 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
               "label": "J.League Data Site：逐季聯賽紀錄",
@@ -10876,6 +11348,11 @@
               "label": "日文Wikipedia：早期路線及轉會",
               "url": "https://ja.wikipedia.org/wiki/西村拓真",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -11033,6 +11510,24 @@
           }
         ],
         "notes": "Servette官方外借起點2024-02-10；海外聯賽不混歐聯或盃賽；成年代表與高中地方選拔分開。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -11725,6 +12220,11 @@
               "label": "日文Wikipedia：白崎凌兵（早期路線及轉會）",
               "url": "https://ja.wikipedia.org/wiki/白崎凌兵",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -11778,7 +12278,7 @@
           "team": "町田澤維亞",
           "appearances": 6,
           "goals": 1,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "notes": "本次直接查核Data Site；進行中數字，與較舊頁面快照分開。",
           "sources": [
             {
@@ -11790,6 +12290,11 @@
               "label": "日文Wikipedia：白崎凌兵（早期路線及轉會）",
               "url": "https://ja.wikipedia.org/wiki/白崎凌兵",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -11877,6 +12382,24 @@
           }
         ],
         "notes": "先讀母語日文Wikipedia，再查英文；未找到可用繁體中文人物條目。J22名單資格不等同出場，沒有在聯賽數據表中補造J3紀錄。青年隊出場數未公開，不推算。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -12492,6 +13015,11 @@
               "label": "日文Wikipedia：金眠泰（逐季履歷）",
               "url": "https://ja.wikipedia.org/wiki/金眠泰",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -12524,7 +13052,7 @@
           "team": "町田澤維亞",
           "appearances": 1,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "notes": "本次直接查核Data Site；進行中數字。",
           "sources": [
             {
@@ -12536,6 +13064,11 @@
               "label": "日文Wikipedia：金眠泰（逐季履歷）",
               "url": "https://ja.wikipedia.org/wiki/金眠泰",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -12638,6 +13171,24 @@
           }
         ],
         "notes": "母語韓文Wikipedia先作查核，再用日文及英文補足；繁體中文人物頁未能取得。小學及中學確切年份未公開，保留具名未定年育成階段；富平及光云入學年有官方足球履歷。日本聯賽統計不混盃賽。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -13005,6 +13556,22 @@
           }
         ],
         "notes": "先查母語韓文Wikipedia，再讀其日文人物條目（車帝勲）；未找到可用英文及繁體中文人物頁。香港顯示名車濟勳保留。大新中具體地點不推算；青年代表累積數版本有差異，不採用。2025及2026百年構想數字為空表，留null；本季官方明列0才填0。尚未取得可直接確認的個人獎項來源。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -13424,6 +13991,22 @@
           }
         ],
         "notes": "母語日文Wikipedia未找到可靠人物條目，再查英文及繁體中文亦未找到；以J.League官方具年份履歷代替。體重按町田公告79公斤，J.League及大學頁76公斤差異明示。未取得可靠慣用腳直接來源，刪去原未註明出處的右腳資料，留null。頭像取自J.League Data Site本人的球員頁，已直接下載並目視核對。2026百年構想數字空表保留null。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -13844,7 +14427,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 1,
           "status": "現役",
           "notes": "Data Site於2026-10-08查閱列5場1球；與百年構想分開。",
@@ -13854,6 +14437,11 @@
               "label": "J.League Data Site：逐季紀錄（2026-10-08查閱）",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=49703",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -13917,7 +14505,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 1,
           "status": "現役",
           "notes": "Data Site於2026-10-08查閱列5場1球；與百年構想分開。",
@@ -13927,9 +14515,14 @@
               "label": "J.League Data Site：逐季紀錄（2026-10-08查閱）",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=49703",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ],
-          "as_of": "2026-10-08"
+          "as_of": "2026-10-18"
         }
       ],
       "sources": [
@@ -14050,6 +14643,24 @@
           }
         ],
         "notes": "按希伯來文→日文→英文查閱；繁中人物頁未能取得。日本數字優先官方，不採Wikipedia過時累計；2014/15英文表的異常成年列未有可靠佐證，職業起點按2015升一隊。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -14494,8 +15105,8 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 7,
-          "goals": 2,
+          "appearances": 8,
+          "goals": 3,
           "status": "現役",
           "notes": "2026-07-09加盟；Data Site查閱2026-10-08列7場2球、聯賽盃1場0球。",
           "verification_status": "verified",
@@ -14509,6 +15120,11 @@
               "label": "2026-07-09 町田：明本正式加盟",
               "url": "https://www.zelvia.co.jp/news/news-353478/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -14541,8 +15157,8 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 7,
-          "goals": 2,
+          "appearances": 8,
+          "goals": 3,
           "status": "現役",
           "notes": "2026-07-09加盟；Data Site查閱2026-10-08列7場2球、聯賽盃1場0球。",
           "verification_status": "verified",
@@ -14556,9 +15172,14 @@
               "label": "2026-07-09 町田：明本正式加盟",
               "url": "https://www.zelvia.co.jp/news/news-353478/",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ],
-          "as_of": "2026-10-08"
+          "as_of": "2026-10-18"
         }
       ],
       "sources": [
@@ -14659,6 +15280,24 @@
           }
         ],
         "notes": "日文→英文查閱，繁中人物頁未能取得。FCみらい與簗瀬SC關係未釐清，保留兩具名未定年列。比甲常規賽與附加賽分開；2023/24附加賽8／10場來源不一，爭議總數不填。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -14886,6 +15525,11 @@
               "label": "J.League Data Site：逐季紀錄（2026-10-08查閱）",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=70811",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -14928,9 +15572,14 @@
               "label": "J.League Data Site：逐季紀錄（2026-10-08查閱）",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=70811",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ],
-          "as_of": "2026-10-08"
+          "as_of": "2026-10-18"
         }
       ],
       "sources": [
@@ -15031,6 +15680,24 @@
           }
         ],
         "notes": "日文Wikipedia首查；英文及繁中人物條目未能取得。大北ヴァレンチ年份未知保留null。2026/27舊履歷表横線不當0；以最新Data Site確認1場。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -15435,7 +16102,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 8,
           "goals": 1,
           "status": "現役",
           "notes": "2026-10-08 Data Site列7場1球，聯賽盃1場0球。",
@@ -15445,6 +16112,11 @@
               "label": "J.League Data Site：逐季紀錄（2026-10-08查閱）",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=32310",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -15495,7 +16167,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 8,
           "goals": 1,
           "status": "現役",
           "notes": "2026-10-08 Data Site列7場1球，聯賽盃1場0球。",
@@ -15505,9 +16177,14 @@
               "label": "J.League Data Site：逐季紀錄（2026-10-08查閱）",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=32310",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ],
-          "as_of": "2026-10-08"
+          "as_of": "2026-10-18"
         }
       ],
       "sources": [
@@ -15608,6 +16285,24 @@
           }
         ],
         "notes": "日文→英文查閱；繁中頁未能取得。Buddy及キンダー年份未知保留null；2009起HORTENCIA至本季完整逐季及外借。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -16066,7 +16761,23 @@
         ],
         "notes": "母語德文Wikipedia Aki_Koch未取得條目；日文アキ・コッホ・コバヤシ、英文Aki_Koch、繁中阿基·科赫亦未取得有用條目（2026-10-08）。J.League履歷把2010起寫作Mainz U12、2022起寫作KSC；與KSC原始加盟公告「十歲加盟Mainz、2023升Mainz II、2024加盟KSC」不符，育成分隊年份留null、職業起點依KSC。CyberAgent母公司明列日本及德國雙重國籍；市訪問只列德國，不據此撤去日本籍及本國註冊。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_kobayashi_aki_koch_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_kobayashi_aki_koch_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備"
+      }
     },
     {
       "id": "machida_88",
@@ -16486,7 +17197,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
           "status": "現役",
           "notes": "2026-10-08查閱8場2球；聯賽盃1場0球另計。",
@@ -16496,6 +17207,11 @@
               "label": "J.League Data Site：2026-10-08查閱逐季紀錄",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=32719",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -16541,7 +17257,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
           "status": "現役",
           "notes": "2026-10-08查閱8場2球；聯賽盃1場0球另計。",
@@ -16551,9 +17267,14 @@
               "label": "J.League Data Site：2026-10-08查閱逐季紀錄",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=32719",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ],
-          "as_of": "2026-10-08"
+          "as_of": "2026-10-18"
         }
       ],
       "sources": [
@@ -16679,7 +17400,25 @@
         ],
         "notes": "日文→英文Wikipedia查閱；繁中中村帆高未取得頁（2026-10-08）。英文所列2024首登場與官方2020紀錄衝突，依Data Site。FC高坂早期日曆到2007年3月，以2005-2006學年列示。2019大學與FC東京、U23並列；未有年度表的場數留null。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_nakamura_hotaka_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_nakamura_hotaka_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
     },
     {
       "id": "machida_89",
@@ -17023,7 +17762,23 @@
         ],
         "notes": "菲律賓語Wikipedia Nicholas_Guimarães未取得條目；日文及英文查閱；繁中尼古拉斯·吉馬良斯未取得頁（2026-10-08）。早期學年依J.League完整育成表。市川加入年份與場數百科不一，2026已由原球會轉會公告確證，未採用衝突統計。出生地依町田千葉欄，J.League的菲律賓欄視為國籍標示，不覆蓋出生地。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_nicholas_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_nicholas_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
+      }
     },
     {
       "id": "machida_99",
@@ -17572,7 +18327,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
           "status": "現役",
           "notes": "7月13日前球會確認完全轉會。10月8日Data Site 8場2球，聯賽盃1場0球另計。",
@@ -17587,6 +18342,11 @@
               "label": "J.League Data Site：2026-10-08查閱逐季紀錄",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=70909",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -17619,7 +18379,7 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
           "status": "現役",
           "notes": "7月13日前球會確認完全轉會。10月8日Data Site 8場2球，聯賽盃1場0球另計。",
@@ -17634,9 +18394,14 @@
               "label": "J.League Data Site：2026-10-08查閱逐季紀錄",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=70909",
               "accessed_at": "2026-10-08"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/machida/player/",
+              "accessed_at": "2026-10-18"
             }
           ],
-          "as_of": "2026-10-08"
+          "as_of": "2026-10-18"
         }
       ],
       "sources": [
@@ -17787,7 +18552,321 @@
         ],
         "notes": "英語母語Wikipedia先讀、再日文；繁中泰特·延吉未取得頁（2026-10-08）。完整SA NTC及青年路線補回。海外年度場數採NFT常規聯賽表，VPS24／27及Livingston28／31的統計範圍差異保留，未做無來源拆算；百科Newcastle NPL欄位疑誤保留null。Ipswich年度一隊空表留null。現季以Data Site刷新，7場舊數改8。"
       },
-      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_tete_yengi_01.png"
+      "player_image": "https://www.zelvia.co.jp/wp-content/uploads/2026/08/pl_tete_yengi_01.png",
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
+      }
+    },
+    {
+      "id": "machida_60",
+      "club": "町田澤維亞",
+      "team_slug": "machida",
+      "number": "60",
+      "name_zh": "真也加チュイ大夢（中文名待確認）",
+      "name_ja": "真也加 チュイ 大夢",
+      "name_en": "Mayaka Chui Hiromu",
+      "position": "MF",
+      "dob": "2006-08-11",
+      "season_start_age": 19,
+      "birthplace": "群馬縣",
+      "height": 167,
+      "weight": 63,
+      "foot": "左腳",
+      "nationality": "日本",
+      "joined": 2025,
+      "prev_club": "SHIBUYA CITY FC（育成型外借後回歸）",
+      "registration_status": "本國球員",
+      "registration_tags": [
+        "U-21"
+      ],
+      "tenure_status": "2026-10-09外借回歸",
+      "national_team_detail": "本次未找到可核對的日本代表級別或出賽紀錄，留待補證。",
+      "intro": "町田青訓出身的左腳中場；6月借赴關東一部SHIBUYA CITY FC，10月9日回歸，16日公布重新使用60號。青年賽事報道具體記錄他的左腳傳中、死球及後追逼搶；這些是青年時期表現，不能當成已在J1證明的能力。（町田官方，2026-10-09／16；Gekisaka，2024-10-09）",
+      "timeline": [
+        {
+          "period": "年份未公布",
+          "team": "忠生SC／町田足球學校Special Class",
+          "category": "青訓",
+          "milestone": "官方履歷列名；年份未公布。"
+        },
+        {
+          "period": "年份未公布",
+          "team": "町田澤維亞Junior Youth",
+          "category": "青訓",
+          "milestone": "官方列明JY；年份未公布。"
+        },
+        {
+          "period": "年份未公布",
+          "team": "町田澤維亞Youth",
+          "category": "青訓",
+          "milestone": "2024年為三年級及10號；10月6日對駒澤大高致勝球，未推算入隊年份。"
+        },
+        {
+          "period": "2025",
+          "team": "町田澤維亞",
+          "category": "職業",
+          "milestone": "2025年升上一隊；本次未取得可核對年度數表。"
+        },
+        {
+          "period": "2026",
+          "team": "町田澤維亞",
+          "category": "職業",
+          "milestone": "6月17日外借前；與2026/27分開。"
+        },
+        {
+          "period": "2026",
+          "team": "SHIBUYA CITY FC",
+          "category": "育成型外借",
+          "milestone": "6月17日借入；原訂至球季活動結束，10月9日宣布回歸。"
+        },
+        {
+          "period": "2026/27",
+          "team": "町田澤維亞",
+          "category": "現役",
+          "milestone": "10月9日公布回歸、16日確定60號。數字未核實。"
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2024-08-02獲公布2025年升上一隊。（町田公告；Gekisaka 2024-10-09）",
+        "2024-10-06東京都U18一部對駒澤大高射入唯一入球。（Gekisaka，2024-10-09）",
+        "2026-06-17借赴SHIBUYA CITY FC，10月9日公布回歸，10月16日公布60號。（兩隊公告）"
+      ],
+      "tactical_traits": [
+        "青年賽事曾在守衛之間接波，左路縱向突破後傳中，亦負責左腳死球。（2024-10-09，吉田太郎／Gekisaka）",
+        "2024年10月對駒澤大高由左側接應起腳射入近柱，並以長傳及撞牆拉出空間。（同場採訪／Gekisaka）",
+        "報道記錄他下半場仍持續後追逼搶；本人承認站位及一對一對抗尚需提高，不能只靠左腳。（同場採訪／Gekisaka）"
+      ],
+      "quirky_trivia": "父親真也加ステファン是山梨學院大箱根驛傳名將，母親玲世亦曾跑世界田徑錦標賽女子馬拉松。他在青年隊訪問說希望在足球世界超越父親的知名度；此為本人志向，並非成就比較。（2024-10-09，吉田太郎／Gekisaka）",
+      "career": [
+        {
+          "season": null,
+          "team": "忠生SC／町田足球學校Special Class",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "青訓",
+          "notes": "官方履歷列名；年份未公布。",
+          "sources": [
+            {
+              "label": "町田官方・真也加個人頁",
+              "url": "https://www.zelvia.co.jp/club/clubteam/335814/",
+              "accessed_at": "2026-10-18"
+            }
+          ],
+          "verification_status": "verified"
+        },
+        {
+          "season": null,
+          "team": "町田澤維亞Junior Youth",
+          "competition": "U15青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "青訓",
+          "notes": "官方列明JY；年份未公布。",
+          "sources": [
+            {
+              "label": "町田官方・真也加個人頁",
+              "url": "https://www.zelvia.co.jp/club/clubteam/335814/",
+              "accessed_at": "2026-10-18"
+            }
+          ],
+          "verification_status": "verified"
+        },
+        {
+          "season": null,
+          "team": "町田澤維亞Youth",
+          "competition": "U18青訓",
+          "appearances": null,
+          "goals": null,
+          "status": "青訓",
+          "notes": "2024年為三年級及10號；10月6日對駒澤大高致勝球，未推算入隊年份。",
+          "sources": [
+            {
+              "label": "Gekisaka／吉田太郎・2024年10月9日人物訪問",
+              "url": "https://web.gekisaka.jp/news/youth/detail/?416593-416593-fl=",
+              "accessed_at": "2026-10-18"
+            }
+          ],
+          "verification_status": "verified"
+        },
+        {
+          "season": "2025",
+          "team": "町田澤維亞",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "職業",
+          "notes": "2025年升上一隊；本次未取得可核對年度數表。",
+          "sources": [
+            {
+              "label": "Soccer King・10月9日回歸報道",
+              "url": "https://www.soccer-king.jp/news/japan/jl/20261009/2214582.html",
+              "accessed_at": "2026-10-18"
+            }
+          ],
+          "verification_status": "research_incomplete"
+        },
+        {
+          "season": "2026",
+          "team": "町田澤維亞",
+          "competition": "J1百年構想聯賽",
+          "appearances": null,
+          "goals": null,
+          "status": "職業",
+          "notes": "6月17日外借前；與2026/27分開。",
+          "sources": [
+            {
+              "label": "町田官方・10月9日回歸公告",
+              "url": "https://www.zelvia.co.jp/news/news-362609/",
+              "accessed_at": "2026-10-18"
+            }
+          ],
+          "verification_status": "research_incomplete"
+        },
+        {
+          "season": "2026",
+          "team": "SHIBUYA CITY FC",
+          "competition": "關東一部",
+          "appearances": null,
+          "goals": null,
+          "status": "育成型外借",
+          "notes": "6月17日借入；原訂至球季活動結束，10月9日宣布回歸。",
+          "sources": [
+            {
+              "label": "SHIBUYA CITY FC・6月17日借入公告",
+              "url": "https://www.scfc.jp/news/s/welcome2026_mayakachuihiromu",
+              "accessed_at": "2026-10-18"
+            }
+          ],
+          "verification_status": "research_incomplete"
+        },
+        {
+          "season": "2026/27",
+          "team": "町田澤維亞",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "現役",
+          "notes": "10月9日公布回歸、16日確定60號。數字未核實。",
+          "sources": [
+            {
+              "label": "町田官方・10月16日60號公告",
+              "url": "https://www.zelvia.co.jp/news/news-363694/",
+              "accessed_at": "2026-10-18"
+            }
+          ],
+          "verification_status": "research_incomplete"
+        }
+      ],
+      "season_stats": [],
+      "sources": [
+        {
+          "label": "町田官方・10月9日回歸公告",
+          "url": "https://www.zelvia.co.jp/news/news-362609/",
+          "accessed_at": "2026-10-18",
+          "published_at": "2026-10-09"
+        },
+        {
+          "label": "町田官方・10月16日60號公告",
+          "url": "https://www.zelvia.co.jp/news/news-363694/",
+          "accessed_at": "2026-10-18",
+          "published_at": "2026-10-16"
+        },
+        {
+          "label": "町田官方・真也加個人頁",
+          "url": "https://www.zelvia.co.jp/club/clubteam/335814/",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "label": "SHIBUYA CITY FC・6月17日借入公告",
+          "url": "https://www.scfc.jp/news/s/welcome2026_mayakachuihiromu",
+          "accessed_at": "2026-10-18",
+          "published_at": "2026-06-17"
+        },
+        {
+          "label": "Gekisaka／吉田太郎・2024年10月9日人物訪問",
+          "url": "https://web.gekisaka.jp/news/youth/detail/?416593-416593-fl=",
+          "accessed_at": "2026-10-18",
+          "published_at": "2024-10-09"
+        },
+        {
+          "label": "Soccer King・10月9日回歸報道",
+          "url": "https://www.soccer-king.jp/news/japan/jl/20261009/2214582.html",
+          "accessed_at": "2026-10-18",
+          "published_at": "2026-10-09"
+        },
+        {
+          "label": "J.League Data Site・真也加資料",
+          "url": "https://data.j-league.or.jp/SFIX04/?player_id=60953",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "label": "日文Wikipedia・履歷路線查找",
+          "url": "https://ja.wikipedia.org/wiki/真也加チュイ大夢",
+          "accessed_at": "2026-10-18"
+        }
+      ],
+      "name_source": "官方日文姓名暫作顯示；TVB中文顯示名待用戶確認，不自行音譯。",
+      "verification_status": "research_incomplete",
+      "verified_at": null,
+      "research_reviewed_at": "2026-10-18",
+      "research_gaps": [
+        "TVB中文顯示名待用戶確認。",
+        "青年各階段具體起訖年及就讀學校未有直接來源。",
+        "Data Site年度數表沒有可讀數字；SHIBUYA出場及入球未核實，不把空表寫零。",
+        "現季登錄及回歸已由球會公告確認；今場未入正式名單。",
+        "官方肖像本次未能取得可核對網址。"
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-10-18",
+        "scope": "少年隊、JY、青年隊及2025至2026/27逐段履歷；數字缺口保留",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "町田官方・真也加個人頁",
+            "url": "https://www.zelvia.co.jp/club/clubteam/335814/",
+            "accessed_at": "2026-10-18"
+          },
+          {
+            "label": "SHIBUYA CITY FC・6月17日借入公告",
+            "url": "https://www.scfc.jp/news/s/welcome2026_mayakachuihiromu",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-06-17"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "福岡黃蜂",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
+      }
     }
   ]
 }

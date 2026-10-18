@@ -2,9 +2,9 @@
   "schema_version": 1,
   "club": "machida",
   "club_name_zh": "町田澤維亞",
-  "player_research_status": "completed",
-  "updated_at": "2026-10-08",
-  "roster_players": 27,
+  "player_research_status": "in_progress",
+  "updated_at": "2026-10-18",
+  "roster_players": 28,
   "baseline_complete_players": [],
   "batches": [
     {
@@ -298,11 +298,35 @@
           "text": "machida-07完成#66小林亞基高治、#88中村帆高、#89尼古拉斯・洛迪古斯、#99泰迪・恩基；4/4研究驗證、16/16測試。完整具名育成、職業逐季及外借分列，官方肖像、原創訪問及比賽報道核對。#66新登錄名コッホ アキ，雙重日本／德國國籍保留本國註冊；#89首次A代表入選不等於出賽；#88及#99現季Data Site8場2球。海外來源口徑差異明示，無可靠數字留null。27/27球員、7/7批次完成；狀態標籤另scheduled階段。"
         }
       ]
+    },
+    {
+      "id": "machida-matchday-60",
+      "kind": "player_research",
+      "status": "validation_failed",
+      "capacity_points": 1,
+      "players": [
+        {
+          "id": "machida_60",
+          "number": "60",
+          "name_zh": "真也加チュイ大夢（中文名待確認）",
+          "name_en": "Mayaka Chui Hiromu",
+          "weight": 1
+        }
+      ],
+      "notes": [
+        "10月18日最終轉會掃描補漏：9日回歸、16日定60號，新增身份及賽前卡；中文名及統計待核對。",
+        {
+          "date": "2026-10-18",
+          "text": "Matchday returnee card published with verified identity and return/number notices. TVB Chinese display name, portrait and season statistics remain unresolved; research_incomplete retained. Named youth rows have unknown dates rather than inferred years."
+        }
+      ],
+      "started_at": "2026-10-18",
+      "completed_at": null
     }
   ],
   "status_tag_stage": {
     "status": "scheduled",
     "reviewed_players": 0,
-    "total_players": 27
+    "total_players": 28
   }
 }

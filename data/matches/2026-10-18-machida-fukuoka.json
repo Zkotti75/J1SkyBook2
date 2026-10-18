@@ -3,27 +3,44 @@
   "home": "machida",
   "away": "fukuoka",
   "date": "2026-10-18",
-  "as_of": "2026-10-16",
-  "coverage_note": "10月16日覆核：町田15日新加坡1–0勝、福岡14日鳥栖1–2負，已逐一比較周中及最近聯賽正選：町田換7人、福岡換11人，並核對常用主力與出場分鐘。町田中兩日、福岡中三日；本場正選未公布。J1榜截至第9節，進階數據保留各自截點。未取得福岡訪問逐字稿者提供官方影片；傷患及黃牌臨界仍有待確認。",
+  "as_of": "2026-10-18",
+  "coverage_note": "10月18日賽前最後更新：兩隊正式正選、後備及球證已錄入；逐張更新本場選拔狀態。補真也加チュイ大夢10月9日回歸及16日60號公告並建卡；新增17日望月及塚原訪問8則重點。榜更新至17日21:18，天氣為18日13:00日本時間預報。相對最近聯賽，町田換3人、福岡換1人；對比周中兩隊均換10人。未把未開賽0–0當賽果。",
   "match_info": {
     "kickoff_hkt": "15:00（日本16:00）",
     "stadium": "町田GION體育場",
-    "referee": null,
-    "lineups_as_of": null,
-    "selection_note": "第10節；本場官方正選尚未公布。陣式圖只表示已用形狀。",
+    "referee": "飯田淳平",
+    "lineups_as_of": "2026-10-18 賽前官方名單已公布",
+    "selection_note": "兩隊官方比賽頁已列正選、後備及裁判。網站列表的MF／FW分類不等於實際站位；由開場畫面核對。",
     "sources": [
       {
-        "label": "J.League官方・町田對福岡",
-        "url": "https://www.jleague.jp/match/j1/2026/101812/",
-        "accessed_at": "2026-10-12"
+        "label": "町田官方・本場正選後備及裁判",
+        "url": "https://www.zelvia.co.jp/match/game/357151/",
+        "accessed_at": "2026-10-18"
+      },
+      {
+        "label": "福岡官方・本場正選後備及裁判",
+        "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+        "accessed_at": "2026-10-18"
       }
-    ]
+    ],
+    "weather": {
+      "text": "町田市10月18日13:00日本時間預報：16:00晴22.0°C、濕度53%、南風3米／秒；17:00晴20.9°C、濕度58%、南風2米／秒。兩時段降雨機率0%、雨量0毫米。日落17:04；這是市域預報，並非球場實測。",
+      "kind": "reported",
+      "as_of": "2026-10-18",
+      "sources": [
+        {
+          "label": "tenki.jp・町田市10月18日13:00日本時間預報",
+          "url": "https://tenki.jp/forecast/3/16/4410/13209/1hour.html",
+          "accessed_at": "2026-10-18"
+        }
+      ]
+    }
   },
   "teams": {
     "machida": {
       "previous_match_date": "2026-10-15",
       "stats": {
-        "rank": 3,
+        "rank": 4,
         "points": 20,
         "wins": 6,
         "draws": 2,
@@ -33,15 +50,21 @@
         "goal_difference": 12,
         "season": "2026/27",
         "competition": "J1",
-        "as_of": "2026-10-11",
+        "as_of": "2026-10-18",
         "matches": 9,
         "sources": [
           {
             "label": "SportsNavi・聯賽榜",
             "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
             "accessed_at": "2026-10-12"
+          },
+          {
+            "label": "J.League・10月17日21:18全榜",
+            "url": "https://www.jleague.jp/j1/standings/",
+            "accessed_at": "2026-10-18"
           }
-        ]
+        ],
+        "rank_as_of": "2026-10-17 21:18 JST"
       },
       "style": [
         {
@@ -73,6 +96,18 @@
         ]
       },
       "form": [
+        {
+          "text": "比賽日賽前榜：20分第4，少賽榜首廣島及FC東京一場，落後兩隊3分。以下第9節後排名屬當時截點。",
+          "kind": "fact",
+          "as_of": "2026-10-18",
+          "sources": [
+            {
+              "label": "J.League・10月17日21:18全榜",
+              "url": "https://www.jleague.jp/j1/standings/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
+        },
         {
           "text": "10月15日ACL Two作客淡濱尼，町田1–0勝出；望月亨利海輝90+4分鐘接泰迪・恩基傳球射入。相馬、明本、望月、小川及恩基均後備入場；不能把「輪換」理解為整批聯賽主力完全休息。",
           "kind": "fact",
@@ -151,6 +186,24 @@
       ],
       "transfers": [
         {
+          "text": "新增補漏：真也加チュイ大夢10月9日由SHIBUYA CITY FC育成型外借回歸，10月16日確定60號；已建人物卡，今場未列正選或後備。",
+          "kind": "fact",
+          "as_of": "2026-10-18",
+          "sources": [
+            {
+              "label": "町田官方・10月9日回歸公告",
+              "url": "https://www.zelvia.co.jp/news/news-362609/",
+              "accessed_at": "2026-10-18"
+            },
+            {
+              "label": "町田官方・10月16日60號公告",
+              "url": "https://www.zelvia.co.jp/news/news-363694/",
+              "accessed_at": "2026-10-18",
+              "published_at": "2026-10-16"
+            }
+          ]
+        },
+        {
           "text": "8月30日中山雄太轉往貝爾格萊德紅星；9月9日艾歷轉往神戶；9月16日增山朝陽借予長崎。季初統計中的離隊球員不列入本場人腳。",
           "kind": "fact",
           "as_of": "2026-09-21",
@@ -166,30 +219,29 @@
       ],
       "suspensions": [
         {
-          "text": "下田北斗：J.League10月9日公告列出10月10日及10月18日兩場J1停賽，本場不能上陣。",
+          "text": "下田北斗：最新10月13日官方停賽公告仍明列10月18日第10節不能上陣；今場不在名單。",
           "kind": "fact",
-          "as_of": "2026-10-09",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League・官方紀律公告",
-              "url": "https://www.jleague.jp/news/article/35077/",
-              "published_at": "2026-10-09",
-              "accessed_at": "2026-10-12"
+              "label": "J.League・10月13日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35105/?navicode=j1",
+              "accessed_at": "2026-10-18",
+              "published_at": "2026-10-13"
             }
           ]
         }
       ],
       "injuries": [
         {
-          "text": "10月15日可核對比賽名單已收錄；未取得10月18日確定新增傷缺公告。沒入名單或被換出，不單憑此判為受傷。",
+          "text": "中村帆高及金眠泰等未列本場名單；未取得球會新增傷患診斷，不能單憑落選判定受傷。",
           "kind": "analysis",
-          "as_of": "2026-10-15",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "町田官方・新加坡名單",
-              "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
-              "published_at": "2026-10-15",
-              "accessed_at": "2026-10-16"
+              "label": "町田官方・本場正選後備及裁判",
+              "url": "https://www.zelvia.co.jp/match/game/357151/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -366,7 +418,7 @@
             "number": 31,
             "description": [
               {
-                "text": "黑田把拉維列為上仗有效改變比賽的後備之一；本場是否正選尚未確認。",
+                "text": "黑田把拉維列為上仗有效改變比賽的後備之一；本場官方正選已確認。",
                 "kind": "reported",
                 "as_of": "2026-10-10",
                 "sources": [
@@ -404,9 +456,264 @@
         "youth": []
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#1 谷晃生",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#3 昌子源",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#50 岡村大八",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#2 Thomas Ouwejan",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#6 望月亨利海輝",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#16 前寬之",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#31 尼達・拉維",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#33 明本考浩",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#9 小川航基",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#7 相馬勇紀",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#99 泰迪・恩基",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "text": "#66 小林亞基高治",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#13 守田達彌",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#5 迪沙域",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#23 白崎凌兵",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#8 仙頭啓矢",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#34 德村楓大",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#20 西村拓真",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#15 米切爾・杜克",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          }
+        ],
+        "cues": [
+          {
+            "text": "本場對比10月10日京都聯賽正選換3人：望月、尼達・拉維、明本入，中村帆高、仙頭、西村退；對比15日新加坡正選換10人，僅岡村保留。今場11名正選在周中均最多踢45分鐘（不計補時），因此不宜把中兩日直接等同整隊疲勞。海外旅程負荷仍不能抹去。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              },
+              {
+                "label": "町田官方・10月10日京都戰正選",
+                "url": "https://www.zelvia.co.jp/match/game/352997/",
+                "published_at": "2026-10-10",
+                "accessed_at": "2026-10-16"
+              },
+              {
+                "label": "町田官方・10月15日淡濱尼戰正選與換人",
+                "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
+                "published_at": "2026-10-15",
+                "accessed_at": "2026-10-16"
+              }
+            ]
+          }
+        ]
       },
       "game_log": [
         {
@@ -824,6 +1131,30 @@
       ],
       "rotation_notes": [
         {
+          "text": "本場對比10月10日京都聯賽正選換3人：望月、尼達・拉維、明本入，中村帆高、仙頭、西村退；對比15日新加坡正選換10人，僅岡村保留。今場11名正選在周中均最多踢45分鐘（不計補時），因此不宜把中兩日直接等同整隊疲勞。海外旅程負荷仍不能抹去。",
+          "kind": "analysis",
+          "as_of": "2026-10-18",
+          "sources": [
+            {
+              "label": "町田官方・本場正選後備及裁判",
+              "url": "https://www.zelvia.co.jp/match/game/357151/",
+              "accessed_at": "2026-10-18"
+            },
+            {
+              "label": "町田官方・10月10日京都戰正選",
+              "url": "https://www.zelvia.co.jp/match/game/352997/",
+              "published_at": "2026-10-10",
+              "accessed_at": "2026-10-16"
+            },
+            {
+              "label": "町田官方・10月15日淡濱尼戰正選與換人",
+              "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
+              "published_at": "2026-10-15",
+              "accessed_at": "2026-10-16"
+            }
+          ]
+        },
+        {
           "text": "比較基準：以10月10日最近一場聯賽正選為具體基準，另參照本季首9輪正選次數判斷常用主力；不把單場名單當成固定最佳十一人。分鐘按90分鐘及官方換人時間計算，不包括補時；半場換人記45分鐘。",
           "kind": "fact",
           "as_of": "2026-10-16",
@@ -945,15 +1276,21 @@
         "goal_difference": -2,
         "season": "2026/27",
         "competition": "J1",
-        "as_of": "2026-10-11",
+        "as_of": "2026-10-18",
         "matches": 9,
         "sources": [
           {
             "label": "SportsNavi・聯賽榜",
             "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
             "accessed_at": "2026-10-12"
+          },
+          {
+            "label": "J.League・10月17日21:18全榜",
+            "url": "https://www.jleague.jp/j1/standings/",
+            "accessed_at": "2026-10-18"
           }
-        ]
+        ],
+        "rank_as_of": "2026-10-17 21:18 JST"
       },
       "style": [
         {
@@ -1083,56 +1420,54 @@
       ],
       "suspensions": [
         {
-          "text": "上島拓巳：J.League10月9日公告列出10月10日及10月18日兩場J1停賽，本場不能上陣。",
+          "text": "上島拓巳：最新10月13日官方停賽公告明列10月18日第10節不能上陣；周中曾踢盃賽不解除J1停賽。",
           "kind": "fact",
-          "as_of": "2026-10-09",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League・官方紀律公告",
-              "url": "https://www.jleague.jp/news/article/35077/",
-              "published_at": "2026-10-09",
-              "accessed_at": "2026-10-12"
+              "label": "J.League・10月13日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35105/?navicode=j1",
+              "accessed_at": "2026-10-18",
+              "published_at": "2026-10-13"
             }
           ]
         },
         {
-          "text": "見木友哉：同一公告只列10月10日一場停賽。不能因舊預覽仍列出其名字而判定本場停賽；其他最新處分仍須賽前核對。",
+          "text": "見木友哉本場官方正選，確認可上陣；10月10日那場一場停賽已過，不沿用舊缺陣標記。",
           "kind": "fact",
-          "as_of": "2026-10-09",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League・官方紀律公告",
-              "url": "https://www.jleague.jp/news/article/35077/",
-              "published_at": "2026-10-09",
-              "accessed_at": "2026-10-12"
+              "label": "福岡官方・本場正選後備及裁判",
+              "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
       ],
       "injuries": [
         {
-          "text": "Football LAB預覽的較早缺場資訊列福島和毅及深澤大輝，頁面標示9月21日更新，並警告可能仍有上陣機會。沒有新的醫療／復出證據，保留作待覆核名單。",
-          "kind": "reported",
-          "as_of": "2026-09-21",
+          "text": "福島和毅：5月17日訓練賽傷右膝外側半月板，5月27日手術，5月28日球會公布預計6個月；未取得復出公告，今場不在名單。這是既有長期傷患，不是新傷。",
+          "kind": "fact",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "Football LAB・舊缺場資訊",
-              "url": "https://www.football-lab.jp/mcd/preview",
-              "published_at": "2026-09-21",
-              "accessed_at": "2026-10-12"
+              "label": "福岡官方・5月28日福島傷患公告",
+              "url": "https://www.avispa.co.jp/news/post-86833",
+              "accessed_at": "2026-10-18",
+              "published_at": "2026-05-28"
             }
           ]
         },
         {
-          "text": "10月14日上島及見木正選踢盃賽；只能證明當晚曾上陣，不能當作所有傷患都已康復。福島及深澤的舊觀察名單仍缺新的復出確認。",
-          "kind": "analysis",
-          "as_of": "2026-10-14",
+          "text": "深澤大輝未列本場官方名單；最新Football LAB仍列缺場觀察，但本次未取得新的確診或復出公告，不自行補診斷。",
+          "kind": "reported",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "福岡官方・鳥栖名單",
-              "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
-              "published_at": "2026-10-14",
-              "accessed_at": "2026-10-16"
+              "label": "福岡官方・本場正選後備及裁判",
+              "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -1329,9 +1664,276 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#24 小畑裕馬",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#16 岡哲平",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#37 田代雅也",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#15 辻岡佑真",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#2 湯澤聖人",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#34 椎橋慧也",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#11 見木友哉",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#29 前嶋洋太",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#6 重見柾斗",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#9 韋歷・波波",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#13 師岡柊生",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 永石拓海",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#38 宮大樹",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#20 三國肯尼迪艾布斯",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#33 山脇樺織",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#47 橋本悠",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#55 前田快",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#25 北島祐二",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#52 武本匠平",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "#32 辛尼布朗・哈南",
+            "kind": "fact",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          }
+        ],
+        "cues": [
+          {
+            "text": "本場對比10月10日岡山聯賽只換1人：見木解除停賽後入替前田快；對比14日鳥栖盃賽換10人，僅見木保留。前田快及連續兩場入球的橋本悠均在後備；長擲威脅及右路增援要留意換人時機。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              },
+              {
+                "label": "福岡官方・10月10日岡山戰正選",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261010",
+                "published_at": "2026-10-10",
+                "accessed_at": "2026-10-16"
+              },
+              {
+                "label": "福岡官方・10月14日鳥栖戰正選與換人",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
+                "published_at": "2026-10-14",
+                "accessed_at": "2026-10-16"
+              }
+            ]
+          }
+        ]
       },
       "game_log": [
         {
@@ -1767,6 +2369,30 @@
       ],
       "rotation_notes": [
         {
+          "text": "本場對比10月10日岡山聯賽只換1人：見木解除停賽後入替前田快；對比14日鳥栖盃賽換10人，僅見木保留。前田快及連續兩場入球的橋本悠均在後備；長擲威脅及右路增援要留意換人時機。",
+          "kind": "analysis",
+          "as_of": "2026-10-18",
+          "sources": [
+            {
+              "label": "福岡官方・本場正選後備及裁判",
+              "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+              "accessed_at": "2026-10-18"
+            },
+            {
+              "label": "福岡官方・10月10日岡山戰正選",
+              "url": "https://www.avispa.co.jp/match_schedule/match_file_261010",
+              "published_at": "2026-10-10",
+              "accessed_at": "2026-10-16"
+            },
+            {
+              "label": "福岡官方・10月14日鳥栖戰正選與換人",
+              "url": "https://www.avispa.co.jp/match_schedule/match_file_261014",
+              "published_at": "2026-10-14",
+              "accessed_at": "2026-10-16"
+            }
+          ]
+        },
+        {
           "text": "同以10月10日最近一場聯賽為基準；分鐘不包括補時。岡山戰正選：小畑裕馬、岡哲平、田代雅也、辻岡佑真、湯澤聖人、椎橋慧也、前田快、前嶋洋太、重見柾斗、韋歷・波波、師岡柊生。",
           "kind": "fact",
           "as_of": "2026-10-16",
@@ -1883,43 +2509,56 @@
     }
   },
   "standings": {
-    "as_of": "2026-10-11",
+    "as_of": "2026-10-17 21:18 日本時間",
     "sources": [
       {
-        "label": "SportsNavi・第9節完整榜",
-        "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
-        "accessed_at": "2026-10-12"
+        "label": "J.League・10月17日21:18全榜",
+        "url": "https://www.jleague.jp/j1/standings/",
+        "accessed_at": "2026-10-18"
       }
     ],
     "rows": [
       {
         "rank": 1,
-        "slug": "kashiwa",
-        "name_zh": "柏太陽王",
-        "points": 21,
-        "played": 9,
+        "slug": "hiroshima",
+        "name_zh": "廣島三箭",
+        "points": 23,
+        "played": 10,
         "wins": 7,
-        "draws": 0,
-        "losses": 2,
-        "goals_for": 21,
-        "goals_against": 14,
-        "goal_difference": 7
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 25,
+        "goals_against": 6,
+        "goal_difference": 19
       },
       {
         "rank": 2,
-        "slug": "hiroshima",
-        "name_zh": "廣島三箭",
-        "points": 20,
-        "played": 9,
-        "wins": 6,
+        "slug": "fc-tokyo",
+        "name_zh": "FC東京",
+        "points": 23,
+        "played": 10,
+        "wins": 7,
         "draws": 2,
         "losses": 1,
-        "goals_for": 22,
-        "goals_against": 6,
-        "goal_difference": 16
+        "goals_for": 21,
+        "goals_against": 8,
+        "goal_difference": 13
       },
       {
         "rank": 3,
+        "slug": "kashiwa",
+        "name_zh": "柏太陽王",
+        "points": 21,
+        "played": 10,
+        "wins": 7,
+        "draws": 0,
+        "losses": 3,
+        "goals_for": 22,
+        "goals_against": 17,
+        "goal_difference": 5
+      },
+      {
+        "rank": 4,
         "slug": "machida",
         "name_zh": "町田澤維亞",
         "points": 20,
@@ -1932,20 +2571,20 @@
         "goal_difference": 12
       },
       {
-        "rank": 4,
-        "slug": "fc-tokyo",
-        "name_zh": "FC東京",
-        "points": 20,
-        "played": 9,
+        "rank": 5,
+        "slug": "kashima",
+        "name_zh": "鹿島鹿角",
+        "points": 19,
+        "played": 10,
         "wins": 6,
-        "draws": 2,
-        "losses": 1,
-        "goals_for": 17,
-        "goals_against": 8,
-        "goal_difference": 9
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 21,
+        "goals_against": 16,
+        "goal_difference": 5
       },
       {
-        "rank": 5,
+        "rank": 6,
         "slug": "kobe",
         "name_zh": "神戶勝利船",
         "points": 19,
@@ -1958,46 +2597,59 @@
         "goal_difference": 5
       },
       {
-        "rank": 6,
-        "slug": "kashima",
-        "name_zh": "鹿島鹿角",
+        "rank": 7,
+        "slug": "kawasaki",
+        "name_zh": "川崎前鋒",
         "points": 16,
-        "played": 9,
-        "wins": 5,
-        "draws": 1,
-        "losses": 3,
-        "goals_for": 19,
+        "played": 10,
+        "wins": 4,
+        "draws": 4,
+        "losses": 2,
+        "goals_for": 21,
         "goals_against": 16,
-        "goal_difference": 3
+        "goal_difference": 5
       },
       {
-        "rank": 7,
+        "rank": 8,
         "slug": "yokohama-fm",
         "name_zh": "橫濱水手",
-        "points": 15,
-        "played": 9,
+        "points": 16,
+        "played": 10,
         "wins": 4,
-        "draws": 3,
+        "draws": 4,
         "losses": 2,
         "goals_for": 13,
         "goals_against": 9,
         "goal_difference": 4
       },
       {
-        "rank": 8,
-        "slug": "kawasaki",
-        "name_zh": "川崎前鋒",
-        "points": 13,
-        "played": 9,
-        "wins": 3,
-        "draws": 4,
-        "losses": 2,
+        "rank": 9,
+        "slug": "urawa",
+        "name_zh": "浦和紅鑽",
+        "points": 15,
+        "played": 10,
+        "wins": 5,
+        "draws": 0,
+        "losses": 5,
         "goals_for": 17,
-        "goals_against": 14,
-        "goal_difference": 3
+        "goals_against": 21,
+        "goal_difference": -4
       },
       {
-        "rank": 9,
+        "rank": 10,
+        "slug": "shimizu",
+        "name_zh": "清水心跳",
+        "points": 14,
+        "played": 10,
+        "wins": 4,
+        "draws": 2,
+        "losses": 4,
+        "goals_for": 10,
+        "goals_against": 11,
+        "goal_difference": -1
+      },
+      {
+        "rank": 11,
         "slug": "okayama",
         "name_zh": "岡山綠雉",
         "points": 13,
@@ -2010,95 +2662,69 @@
         "goal_difference": 0
       },
       {
-        "rank": 10,
-        "slug": "shimizu",
-        "name_zh": "清水心跳",
-        "points": 13,
-        "played": 9,
-        "wins": 4,
-        "draws": 1,
-        "losses": 4,
-        "goals_for": 8,
-        "goals_against": 9,
-        "goal_difference": -1
-      },
-      {
-        "rank": 11,
-        "slug": "urawa",
-        "name_zh": "浦和紅鑽",
+        "rank": 12,
+        "slug": "nagoya",
+        "name_zh": "名古屋鯨魚",
         "points": 12,
-        "played": 9,
+        "played": 10,
         "wins": 4,
         "draws": 0,
-        "losses": 5,
-        "goals_for": 16,
-        "goals_against": 21,
-        "goal_difference": -5
-      },
-      {
-        "rank": 12,
-        "slug": "cerezo-osaka",
-        "name_zh": "大阪櫻花",
-        "points": 12,
-        "played": 9,
-        "wins": 3,
-        "draws": 3,
-        "losses": 3,
-        "goals_for": 7,
-        "goals_against": 12,
-        "goal_difference": -5
+        "losses": 6,
+        "goals_for": 12,
+        "goals_against": 16,
+        "goal_difference": -4
       },
       {
         "rank": 13,
-        "slug": "mito",
-        "name_zh": "水戶蜀葵",
-        "points": 9,
-        "played": 9,
-        "wins": 2,
+        "slug": "cerezo-osaka",
+        "name_zh": "大阪櫻花",
+        "points": 12,
+        "played": 10,
+        "wins": 3,
         "draws": 3,
         "losses": 4,
-        "goals_for": 12,
-        "goals_against": 13,
-        "goal_difference": -1
+        "goals_for": 9,
+        "goals_against": 16,
+        "goal_difference": -7
       },
       {
         "rank": 14,
-        "slug": "nagasaki",
-        "name_zh": "長崎成功丸",
+        "slug": "mito",
+        "name_zh": "水戶蜀葵",
         "points": 9,
-        "played": 9,
+        "played": 10,
         "wins": 2,
         "draws": 3,
-        "losses": 4,
-        "goals_for": 11,
-        "goals_against": 16,
-        "goal_difference": -5
+        "losses": 5,
+        "goals_for": 12,
+        "goals_against": 14,
+        "goal_difference": -2
       },
       {
         "rank": 15,
-        "slug": "nagoya",
-        "name_zh": "名古屋鯨魚",
+        "slug": "nagasaki",
+        "name_zh": "長崎成功丸",
         "points": 9,
-        "played": 9,
-        "wins": 3,
-        "draws": 0,
-        "losses": 6,
-        "goals_for": 9,
-        "goals_against": 15,
-        "goal_difference": -6
+        "played": 10,
+        "wins": 2,
+        "draws": 3,
+        "losses": 5,
+        "goals_for": 11,
+        "goals_against": 18,
+        "goal_difference": -7
       },
       {
         "rank": 16,
         "slug": "kyoto",
         "name_zh": "京都不死鳥",
         "points": 8,
-        "played": 9,
+        "played": 10,
         "wins": 2,
         "draws": 2,
-        "losses": 5,
+        "losses": 6,
         "goals_for": 11,
-        "goals_against": 16,
-        "goal_difference": -5
+        "goals_against": 19,
+        "goal_difference": -8
       },
       {
         "rank": 17,
@@ -2117,23 +2743,23 @@
         "rank": 18,
         "slug": "gamba-osaka",
         "name_zh": "大阪飛腳",
-        "points": 6,
-        "played": 9,
+        "points": 7,
+        "played": 10,
         "wins": 1,
-        "draws": 3,
+        "draws": 4,
         "losses": 5,
-        "goals_for": 8,
-        "goals_against": 16,
+        "goals_for": 10,
+        "goals_against": 18,
         "goal_difference": -8
       },
       {
         "rank": 19,
         "slug": "chiba",
         "name_zh": "千葉市原JEF聯",
-        "points": 5,
-        "played": 9,
+        "points": 6,
+        "played": 10,
         "wins": 1,
-        "draws": 2,
+        "draws": 3,
         "losses": 6,
         "goals_for": 8,
         "goals_against": 19,
@@ -2144,18 +2770,54 @@
         "slug": "tokyo-verdy",
         "name_zh": "東京綠茵",
         "points": 4,
-        "played": 9,
+        "played": 10,
         "wins": 0,
         "draws": 4,
-        "losses": 5,
+        "losses": 6,
         "goals_for": 4,
-        "goals_against": 14,
-        "goal_difference": -10
+        "goals_against": 18,
+        "goal_difference": -14
       }
     ]
   },
   "preview": {
     "cues": [
+      {
+        "text": "本場對比10月10日京都聯賽正選換3人：望月、尼達・拉維、明本入，中村帆高、仙頭、西村退；對比15日新加坡正選換10人，僅岡村保留。今場11名正選在周中均最多踢45分鐘（不計補時），因此不宜把中兩日直接等同整隊疲勞。海外旅程負荷仍不能抹去。",
+        "kind": "analysis",
+        "as_of": "2026-10-18",
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ]
+      },
+      {
+        "text": "本場對比10月10日岡山聯賽只換1人：見木解除停賽後入替前田快；對比14日鳥栖盃賽換10人，僅見木保留。前田快及連續兩場入球的橋本悠均在後備；長擲威脅及右路增援要留意換人時機。",
+        "kind": "analysis",
+        "as_of": "2026-10-18",
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ]
+      },
+      {
+        "text": "本場球證飯田淳平；下田與上島停賽。#60回歸已補卡但不在本場名單。",
+        "kind": "fact",
+        "as_of": "2026-10-18",
+        "sources": [
+          {
+            "label": "町田官方・本場正選後備及裁判",
+            "url": "https://www.zelvia.co.jp/match/game/357151/",
+            "accessed_at": "2026-10-18"
+          }
+        ]
+      },
       {
         "text": "町田周四15日在新加坡踢完，周日18日即主場對福岡，是中兩日；福岡周三14日踢鳥栖，是中三日。這是已知日程差別；旅途是否影響個別球員，仍須看恢復及最終名單，不能直接宣判體能不支。",
         "kind": "analysis",
@@ -2197,6 +2859,124 @@
       }
     ],
     "sections": [
+      {
+        "title": "10月18日最後更新｜正式正選公布後的六個評述重點",
+        "paragraphs": [
+          {
+            "text": "正式名單已公布：町田對比周中換10人，今場11名正選在新加坡均最多踢45分鐘；谷、昌子及前寬之沒有上陣。這支持「輪換有效減輕核心負荷」的判斷。真正要觀察的是短時間重新組合後，接應及壓迫能否同步，而不是開場先假定町田疲於奔命。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              },
+              {
+                "label": "町田官方・10月10日京都戰正選",
+                "url": "https://www.zelvia.co.jp/match/game/352997/",
+                "published_at": "2026-10-10",
+                "accessed_at": "2026-10-16"
+              },
+              {
+                "label": "町田官方・10月15日淡濱尼戰正選與換人",
+                "url": "https://www.zelvia.co.jp/match/game/356827/?report=true",
+                "published_at": "2026-10-15",
+                "accessed_at": "2026-10-16"
+              }
+            ]
+          },
+          {
+            "text": "町田相對最近聯賽換3人，望月、拉維、明本入，中村、仙頭、西村退。小川與恩基同列正選，空中接應與禁區佔位更值得看；相馬會否靠近兩人、明本與望月如何拉闊，要由開場畫面確認，不能只用官網MF／FW分類畫死實際站位。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・本場正選後備及裁判",
+                "url": "https://www.zelvia.co.jp/match/game/357151/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "福岡相對岡山戰只以見木代前田快，維持其餘10人；前田快與橋本均後備。原本最受關注的長擲並非開場必然武器。若下半場前田快入替，要即時看邊線球位置及禁區人數改變；橋本則是連續兩場正式賽事入球後的另一個調節選項。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "福岡官方・本場正選後備及裁判",
+                "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "塚原最新說法把焦點放在防線與中場之間的距離，以及第二名防守者的支援。評述可以看相馬接球時，福岡外側中堅和翼衛誰先出、誰保護身後；如果兩人都被吸到邊線，中路便可能給小川或恩基活動。這是本稿的觀察假設，不是已發生的漏洞。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "西スポWEB OTTO!／古川泰裕・10月17日塚原賽前訪問",
+                "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "另一方面，町田應避免把每次進攻都變成同一方向的高波。望月談到耐性與果斷並存，實際可留意：橫傳有沒有移動防守者、傳中前能否先送入內側，或先用小川的牽制讓恩基找到第二落點。福岡若守住前20分鐘，也不代表部署已完成，因為換人會重新改變對位。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "町田官方・10月17日賽前訪問",
+                "url": "https://www.zelvia.co.jp/news/news-363840/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "昨晚賽後榜：廣島及FC東京同23分，町田少賽一場20分第4；今場勝出便追至23分，但名次仍須按得失球及同日下午賽果判定。福岡7分第17，落後京都1分，僅比降班區的G大阪同分但得失球較好；因此一分亦有實際價值。榜採10月17日21:18完整截點，不混入未完場比分。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "J.League・10月17日21:18全榜",
+                "url": "https://www.jleague.jp/j1/standings/",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "比賽日天氣｜16:00開波，17:04日落",
+        "paragraphs": [
+          {
+            "text": "町田市10月18日13:00日本時間預報：16:00晴22.0°C、濕度53%、南風3米／秒；17:00晴20.9°C、濕度58%、南風2米／秒。兩時段降雨機率0%、雨量0毫米。日落17:04；這是市域預報，並非球場實測。",
+            "kind": "reported",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "tenki.jp・町田市10月18日13:00日本時間預報",
+                "url": "https://tenki.jp/forecast/3/16/4410/13209/1hour.html",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "晴朗、約22°C的下午，比周中新加坡的30°C環境溫和；這只說明比賽環境不同，不等於所有旅途負荷消失。上下半場光線會變，具體陰影、場地方向及草地濕度要看直播畫面。",
+            "kind": "analysis",
+            "as_of": "2026-10-18",
+            "sources": [
+              {
+                "label": "tenki.jp・町田市10月18日13:00日本時間預報",
+                "url": "https://tenki.jp/forecast/3/16/4410/13209/1hour.html",
+                "accessed_at": "2026-10-18"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "10月16日更新｜周中一勝一負，兩種備戰問題",
         "paragraphs": [
@@ -2666,10 +3446,10 @@
         ]
       },
       {
-        "title": "08｜研究截點及下一輪覆核",
+        "title": "08｜早前研究截點及本次覆核結果",
         "paragraphs": [
           {
-            "text": "10月16日覆核已加入周中賽果、輪換時間、望月賽後訪問及昌子談前田的本場前瞻。福岡橋本、田代官方訪問目前提供影片，未取得逐字稿。星期日快速覆核重點：新增傷停與紀律公告、恢復／旅程資訊、最新賽前發言及官方正選。J1第9節數據不因盃賽而變動。",
+            "text": "10月16日覆核已加入周中賽果、輪換時間、望月賽後訪問及昌子談前田的本場前瞻。福岡橋本、田代官方訪問目前提供影片，未取得逐字稿。10月18日已完成最新停賽公告、17日賽前訪問、正式正選及天氣覆核；結果見最上方更新。J1第9節數據不因盃賽而變動。",
             "kind": "analysis",
             "as_of": "2026-10-16",
             "sources": [
@@ -2687,6 +3467,133 @@
   },
   "quotes": [],
   "quote_events": [
+    {
+      "id": "machida-prematch-1017",
+      "date": "2026-10-17",
+      "title": "10月17日｜町田官方：望月談破解密集防守",
+      "summary": "賽前新訪問；與15日致勝球訪問分開整理。",
+      "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "望月亨利海輝",
+          "role": "#6",
+          "topic": "把新加坡的問題帶回聯賽處理",
+          "paraphrase_zh": "望月說淡濱尼戰暴露的問題在J.League也會出現，要讓全隊有共同認識並繼續進步。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "町田官方",
+          "url": "https://www.zelvia.co.jp/news/news-363840/",
+          "accessed_at": "2026-10-18",
+          "player_id": "machida_6"
+        },
+        {
+          "team_slug": "machida",
+          "speaker": "望月亨利海輝",
+          "role": "#6",
+          "topic": "破解低位：耐性與果斷並存",
+          "paraphrase_zh": "若再遇密集防守，他希望處理細節時保持耐心，也保留正面意義的強行進攻。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "町田官方",
+          "url": "https://www.zelvia.co.jp/news/news-363840/",
+          "accessed_at": "2026-10-18",
+          "player_id": "machida_6",
+          "quote_ja": "良い意味での強引さ",
+          "quote_zh": "正面意義的強行突破。"
+        },
+        {
+          "team_slug": "machida",
+          "speaker": "望月亨利海輝",
+          "role": "#6",
+          "topic": "中兩日也要共享修正重點",
+          "paraphrase_zh": "他表示即使只有兩天間隔，仍要把問題互相分享後再應戰；不是宣稱身體已完全恢復。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "町田官方",
+          "url": "https://www.zelvia.co.jp/news/news-363840/",
+          "accessed_at": "2026-10-18",
+          "player_id": "machida_6"
+        }
+      ]
+    },
+    {
+      "id": "fukuoka-prematch-1017",
+      "date": "2026-10-17",
+      "title": "10月17日｜西スポ：塚原談中場防守、夾擊與積分",
+      "summary": "古川泰裕報道；已讀原文，短引句附日文，其餘為訪問摘要。",
+      "entries": [
+        {
+          "team_slug": "fukuoka",
+          "speaker": "塚原真也",
+          "role": "主教練",
+          "topic": "先修復中場防守",
+          "paraphrase_zh": "塚原指出退守後防線與中場之間有空間，人數足夠卻遲到施壓；已調整全隊站位，亦要求球員真正上前搶波。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "西スポWEB OTTO!／古川泰裕",
+          "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "team_slug": "fukuoka",
+          "speaker": "塚原真也",
+          "role": "主教練",
+          "topic": "對相馬等個人能力：持續夾擊",
+          "paraphrase_zh": "他認為町田很難應付，遇到一對一能力較強的對手，要持續安排第二名防守者支援。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "西スポWEB OTTO!／古川泰裕",
+          "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+          "accessed_at": "2026-10-18",
+          "quote_ja": "1対2をつくり続ける",
+          "quote_zh": "持續製造二對一。"
+        },
+        {
+          "team_slug": "fukuoka",
+          "speaker": "塚原真也",
+          "role": "主教練",
+          "topic": "有波時要用前線力量和速度",
+          "paraphrase_zh": "預計福岡也會有控球時間，希望運用前線力量及速度形成威脅，不只是長時間捱打。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "西スポWEB OTTO!／古川泰裕",
+          "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "team_slug": "fukuoka",
+          "speaker": "塚原真也",
+          "role": "主教練",
+          "topic": "爭三分，也要懂得帶走一分",
+          "paraphrase_zh": "目標是爭勝；但要按場上走勢，判斷何時應保住一分離場。這是教練的賽前策略表述。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "西スポWEB OTTO!／古川泰裕",
+          "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+          "accessed_at": "2026-10-18"
+        },
+        {
+          "team_slug": "fukuoka",
+          "speaker": "塚原真也",
+          "role": "主教練",
+          "topic": "盃賽左路傳中是可保留的一段",
+          "paraphrase_zh": "他肯定宮大樹左路傳中、橋本悠頭槌追平的進攻方法；但下半場失速及放任對手射門仍須修正。",
+          "published_at": "2026-10-17",
+          "context": "pre_match",
+          "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+          "outlet": "西スポWEB OTTO!／古川泰裕",
+          "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+          "accessed_at": "2026-10-18"
+        }
+      ]
+    },
     {
       "title": "10月16日覆核｜昌子源談前田快的長擲",
       "date": "2026-10-16",
@@ -2903,8 +3810,8 @@
     }
   ],
   "research_sweep": {
-    "date": "2026-10-16",
-    "scope": "町田對福岡；18日賽前",
+    "date": "2026-10-18",
+    "scope": "町田對福岡；比賽日最後覆核，已取得兩隊官方名單",
     "sources_checked": [
       "兩隊官方賽報及新聞",
       "J.League本場前瞻及紀律新聞",
@@ -2917,10 +3824,16 @@
       "地方新聞索引"
     ],
     "limitations": [
-      "福岡賽後訪問為影片，未取得逐字稿；沒有推測內容。",
-      "未找到可核對的新增官方傷患診斷或完整黃牌臨界名單。",
-      "部分媒體搜尋結果是2025年同日對賽，已排除。",
-      "採訪日未標明的昌子發言，明示16日是覆核日。"
-    ]
+      "未取得逐名累積黃牌臨界的完整官方數表。",
+      "福岡14日訪問影片仍未取得逐字稿，保留原片而不代填說話。",
+      "#60中文顯示名、青年年份及SHIBUYA統計仍待核對；卡片明示research_incomplete。",
+      "未有官方新增傷患診斷；未列名單不等同受傷。"
+    ],
+    "new_player_cards": [
+      "machida_60"
+    ],
+    "official_lineups_confirmed": true,
+    "interview_points_added": 8,
+    "standings_cutoff": "2026-10-17 21:18 JST"
   }
 }

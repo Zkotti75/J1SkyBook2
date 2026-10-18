@@ -200,7 +200,23 @@
       "現役39名＝一隊36名＋2026/27 JFA/J.League特別指定3名（前田快、坂井悠飛、北濱琉星）。",
       "奈良龍樹於2026-09-03外借Macarthur FC，已不列入現役名單。",
       "其他官方列明外借球員亦不列入現役39人。"
-    ]
+    ],
+    "matchday_audit": {
+      "as_of": "2026-10-18",
+      "roster_count": 39,
+      "official_starters": 11,
+      "official_bench": 9,
+      "sources": [
+        {
+          "label": "福岡官方・本場正選後備及裁判",
+          "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+          "accessed_at": "2026-10-18"
+        }
+      ],
+      "note": "本場全部有號碼入選球員均已有卡；未入名單不自動視為受傷。",
+      "official_roster_numbers_checked": 39,
+      "numbered_roster_exception": null
+    }
   },
   "manager": {
     "id": "fukuoka_mgr_tsukahara",
@@ -710,7 +726,76 @@
       }
     ],
     "verification_status": "verified",
-    "verified_at": "2026-09-18"
+    "verified_at": "2026-09-18",
+    "recent_interviews": [
+      {
+        "team_slug": "fukuoka",
+        "speaker": "塚原真也",
+        "role": "主教練",
+        "topic": "先修復中場防守",
+        "paraphrase_zh": "塚原指出退守後防線與中場之間有空間，人數足夠卻遲到施壓；已調整全隊站位，亦要求球員真正上前搶波。",
+        "published_at": "2026-10-17",
+        "context": "pre_match",
+        "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+        "outlet": "西スポWEB OTTO!／古川泰裕",
+        "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+        "accessed_at": "2026-10-18"
+      },
+      {
+        "team_slug": "fukuoka",
+        "speaker": "塚原真也",
+        "role": "主教練",
+        "topic": "對相馬等個人能力：持續夾擊",
+        "paraphrase_zh": "他認為町田很難應付，遇到一對一能力較強的對手，要持續安排第二名防守者支援。",
+        "published_at": "2026-10-17",
+        "context": "pre_match",
+        "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+        "outlet": "西スポWEB OTTO!／古川泰裕",
+        "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+        "accessed_at": "2026-10-18",
+        "quote_ja": "1対2をつくり続ける",
+        "quote_zh": "持續製造二對一。"
+      },
+      {
+        "team_slug": "fukuoka",
+        "speaker": "塚原真也",
+        "role": "主教練",
+        "topic": "有波時要用前線力量和速度",
+        "paraphrase_zh": "預計福岡也會有控球時間，希望運用前線力量及速度形成威脅，不只是長時間捱打。",
+        "published_at": "2026-10-17",
+        "context": "pre_match",
+        "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+        "outlet": "西スポWEB OTTO!／古川泰裕",
+        "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+        "accessed_at": "2026-10-18"
+      },
+      {
+        "team_slug": "fukuoka",
+        "speaker": "塚原真也",
+        "role": "主教練",
+        "topic": "爭三分，也要懂得帶走一分",
+        "paraphrase_zh": "目標是爭勝；但要按場上走勢，判斷何時應保住一分離場。這是教練的賽前策略表述。",
+        "published_at": "2026-10-17",
+        "context": "pre_match",
+        "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+        "outlet": "西スポWEB OTTO!／古川泰裕",
+        "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+        "accessed_at": "2026-10-18"
+      },
+      {
+        "team_slug": "fukuoka",
+        "speaker": "塚原真也",
+        "role": "主教練",
+        "topic": "盃賽左路傳中是可保留的一段",
+        "paraphrase_zh": "他肯定宮大樹左路傳中、橋本悠頭槌追平的進攻方法；但下半場失速及放任對手射門仍須修正。",
+        "published_at": "2026-10-17",
+        "context": "pre_match",
+        "date_note": "日期為報道發布日；未另標採訪錄製時間。",
+        "outlet": "西スポWEB OTTO!／古川泰裕",
+        "url": "https://nishispo.nishinippon.co.jp/article/1049884",
+        "accessed_at": "2026-10-18"
+      }
+    ]
   },
   "players": [
     {
@@ -1148,6 +1233,11 @@
               "label": "SportsNavi逐季聯賽紀錄（2026-10-10讀取）",
               "url": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1502857",
               "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -1160,8 +1250,15 @@
           "goals": 0,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-10",
-          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1502857"
+          "as_of": "2026-10-18",
+          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1502857",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -1269,6 +1366,24 @@
           "刪除原卡錯誤的鹿兒島、大阪飛腳、橫濱FC外借敘述；山口外借修正為2019；2022為福岡完全轉會，並非回大阪櫻花。",
           "現季SportsNavi列福岡4場0球；J.League履歷列仍有德島舊標籤，所屬以兩會公告與現時個人頁為準。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -1623,7 +1738,7 @@
           "season": "2026/27",
           "team": "福岡黃蜂",
           "competition": "J1",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
           "status": "現役",
           "notes": "2026-10-10讀取SportsNavi。",
@@ -1633,6 +1748,11 @@
               "label": "SportsNavi逐季聯賽紀錄（2026-10-10讀取）",
               "url": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1400643",
               "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -1641,12 +1761,19 @@
         {
           "season": "2026/27",
           "competition": "J1（聯賽，不含盃賽）",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-10",
-          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1400643"
+          "as_of": "2026-10-18",
+          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1400643",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -1739,6 +1866,24 @@
           "原卡將甲府兩季寫42場，官方聯賽分季27+14=41；已改正。",
           "谷田部FC起訖年未知，不按年齡倒推。2015特別指定與大學分列，2017只列實際外借京都的比賽行，母會權屬於備註。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -2081,6 +2226,11 @@
               "label": "SportsNavi逐季聯賽紀錄（2026-10-10讀取）",
               "url": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1620758",
               "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -2093,8 +2243,15 @@
           "goals": 0,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-10",
-          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1620758"
+          "as_of": "2026-10-18",
+          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1620758",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -2196,6 +2353,30 @@
         "notes": [
           "Wikipedia的U12 2005-2007、U15 2008-2010、U18 2011-2014與J.League逐年表相差一年；級別切換採J.League：2008仍U12、2009-2011 U15、2012-2014 U18。中央大學採官方2015入學，修正英文Wikipedia2016起的錯誤。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          },
+          {
+            "label": "J.League・10月13日停賽公告",
+            "url": "https://www.jleague.jp/news/article/35105/?navicode=j1",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-13"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "本場J1停賽（官方10月13日公告）；未列本場名單。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -2413,7 +2594,7 @@
           "season": "2026/27",
           "team": "福岡黃蜂",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
           "status": "現役",
           "notes": "2026-10-10讀取SportsNavi。",
@@ -2423,6 +2604,11 @@
               "label": "SportsNavi逐季聯賽紀錄（2026-10-10讀取）",
               "url": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1641497",
               "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -2431,12 +2617,19 @@
         {
           "season": "2026/27",
           "competition": "J1（聯賽，不含盃賽）",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 0,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-10",
-          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1641497"
+          "as_of": "2026-10-18",
+          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1641497",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -2538,6 +2731,24 @@
         "notes": [
           "英文Wikipedia舊表2024只16場0球，與J.League和SportsNavi完整賽季35場1球不同；採兩者一致的35場1球。早期少年日期未完全公開，保留具名空日期行。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -2788,6 +2999,11 @@
               "label": "J.League官方逐季紀錄",
               "url": "https://www.jleague.jp/player/1644286/",
               "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -2800,8 +3016,15 @@
           "goals": 2,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-10",
-          "source": "https://www.jleague.jp/player/1644286/"
+          "as_of": "2026-10-18",
+          "source": "https://www.jleague.jp/player/1644286/",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -2914,6 +3137,24 @@
           "補回JFA具名Archi富山少年隊；日期未知留空。2023為大學生特別指定，正式加盟富山是2024；2025富山及福岡分列。",
           "Fukuoka Navi文章刊於2026-01-14，內容回顧2025，Q&A小標誤寫松岡；人物以正文碓井及照片標題辨識。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -3334,6 +3575,11 @@
               "label": "J.League官方逐季紀錄",
               "url": "https://www.jleague.jp/player/1605950/",
               "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -3346,8 +3592,15 @@
           "goals": 0,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-10",
-          "source": "https://www.jleague.jp/player/1605950/"
+          "as_of": "2026-10-18",
+          "source": "https://www.jleague.jp/player/1605950/",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -3435,6 +3688,24 @@
           "補有岡FC、2017/18二種及一隊權屬、2019一隊零上陣及2020 U23 22場3球；不把U23併入J1。",
           "2026特殊賽15場0球，修正原卡10場；176cm/68kg採福岡現季頁，不能沿用2017代表隊172cm/64kg。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -3861,7 +4132,7 @@
           "season": "2026/27",
           "team": "福岡黃蜂",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 8,
           "goals": 1,
           "status": "完全轉會／現役",
           "notes": "Data Site讀取2026-10-10；聯賽盃1場0球另計。J.League現季更新2026-10-09 06:11。",
@@ -3871,6 +4142,11 @@
               "label": "J.League Data Site：正式年度與特殊賽首球",
               "url": "https://data.j-league.or.jp/SFIX04/?player_id=69800",
               "accessed_at": "2026-10-10"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -3879,12 +4155,19 @@
         {
           "season": "2026/27",
           "competition": "J1（聯賽，不含盃賽）",
-          "appearances": 7,
+          "appearances": 8,
           "goals": 1,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-10",
-          "source": "https://data.j-league.or.jp/SFIX04/?player_id=69800"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFIX04/?player_id=69800",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -4050,6 +4333,24 @@
           "Transfermarkt精確球員頁902507取回403；改核福岡現官方個人頁fw_werik_2026-27：190cm、94kg、右腳及正式頭像，另與J.League及FootballDatabase交叉核對。",
           "Wikipedia所鏈岡山202506040900頁本次只回傳網站導覽，沒有公告正文，改核J.League2025-06-04官方發布。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -4676,6 +4977,22 @@
           "刪除原卡English Wikipedia498場84球敘述；官方Data Site J1 117/17加J2 371/66＝488/83；盃賽、附加賽另計。",
           "Wikipedia註腳把2018大宮報道日寫9月19，Gekisaka正文实际9月29，採原報道日期。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -5061,6 +5378,11 @@
               "label": "J.League官方逐季紀錄",
               "url": "https://www.jleague.jp/player/1627404/",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -5073,8 +5395,15 @@
           "goals": 0,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-11",
-          "source": "https://www.jleague.jp/player/1627404/"
+          "as_of": "2026-10-18",
+          "source": "https://www.jleague.jp/player/1627404/",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -5207,6 +5536,24 @@
           "Wikipedia人物段誤稱2023千葉隊長；2023-02-06官方公告列副隊長，隊長是鈴木大輔。早期各級日期採2019加盟公告。",
           "現季資料為2026-10-11讀取快照；J.League頁標更新2026-10-09，但部分出場歷已列10月10日，Data Site不同快取亦可能落後一場；保留來源與讀取日，不推算未列比賽。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -5443,7 +5790,7 @@
           "season": "2026/27",
           "team": "福岡黃蜂",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 3,
           "status": "完全轉會",
           "notes": "J.League逐場及總欄8場3球；Data Site本次舊快照7場3球，記錄差異。",
@@ -5453,6 +5800,11 @@
               "label": "J.League官方逐季紀錄",
               "url": "https://www.jleague.jp/player/1637049/",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -5461,12 +5813,19 @@
         {
           "season": "2026/27",
           "competition": "J1（聯賽，不含盃賽）",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 3,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-11",
-          "source": "https://www.jleague.jp/player/1637049/"
+          "as_of": "2026-10-18",
+          "source": "https://www.jleague.jp/player/1637049/",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -5590,6 +5949,24 @@
           "現官方career表2026/27仍有鹿島舊行及破折號；current club採福岡個人頁及転會公告，現季數據採同頁current stats及逐場，不把舊行－當0。",
           "現季資料為2026-10-11讀取快照；J.League頁標更新2026-10-09，但部分出場歷已列10月10日，Data Site不同快取亦可能落後一場；保留來源與讀取日，不推算未列比賽。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -5974,6 +6351,11 @@
               "label": "J.League官方逐季紀錄",
               "url": "https://www.jleague.jp/player/1500384/",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -5986,8 +6368,15 @@
           "goals": 0,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-11",
-          "source": "https://www.jleague.jp/player/1500384/"
+          "as_of": "2026-10-18",
+          "source": "https://www.jleague.jp/player/1500384/",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -6100,6 +6489,24 @@
           "Wikipedia高中2011-2013及大學2014-2017均與J.League和順天堂2018大四對談不符，修正高中2012-2014、大學2015-2018；2018特別指定與大學各一行。豐里SC開始年未交叉確認，不由年齡推算。",
           "現季資料為2026-10-11讀取快照；J.League頁標更新2026-10-09，但部分出場歷已列10月10日，Data Site不同快取亦可能落後一場；保留來源與讀取日，不推算未列比賽。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -6361,7 +6768,7 @@
           "season": "2026/27",
           "team": "福岡黃蜂",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 8,
           "goals": 1,
           "status": "現役",
           "notes": "2026-10-11讀取。",
@@ -6371,6 +6778,11 @@
               "label": "J.League官方逐季紀錄",
               "url": "https://www.jleague.jp/player/1641019/",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -6379,12 +6791,19 @@
         {
           "season": "2026/27",
           "competition": "J1（聯賽，不含盃賽）",
-          "appearances": 7,
+          "appearances": 8,
           "goals": 1,
           "assists": null,
           "minutes": null,
-          "as_of": "2026-10-11",
-          "source": "https://www.jleague.jp/player/1641019/"
+          "as_of": "2026-10-18",
+          "source": "https://www.jleague.jp/player/1641019/",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -6523,6 +6942,24 @@
           "福岡現官方列左腳，修正原卡右腳。Navi文章自介背號13是上半年採訪資料，現號15採當前官方頁。",
           "現季資料為2026-10-11讀取快照；J.League頁標更新2026-10-09，但部分出場歷已列10月10日，Data Site不同快取亦可能落後一場；保留來源與讀取日，不推算未列比賽。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -6845,6 +7282,11 @@
               "label": "J.League：2026-10-10岡山戰岡正選66分鐘",
               "url": "https://www.jleague.jp/match/j1/2026/101010/lineup/",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -6857,8 +7299,15 @@
           "goals": 0,
           "assists": null,
           "minutes": 579,
-          "as_of": "2026-10-11",
-          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1625427"
+          "as_of": "2026-10-18",
+          "source": "https://soccer.yahoo.co.jp/jleague/category/j1/teams/135/players/1625427",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -7039,6 +7488,24 @@
           "2026/27最新採SportsNavi10月11日讀取7場0球579分鐘、J.League官方10月10日比賽及逐場；Data Site10月5日6場513分鐘為先前快照。未查得完整盃賽逐季分鐘與助攻保留null。現官方個人頁核對同名、背號、生日、身高體重及照片URL；TVB顯示姓名保留。",
           "照片使用2026-10-11實讀個人官方HTML內主圖（main-2.webp）；不是由檔名猜測。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -7609,6 +8076,11 @@
               "label": "J.League Data Site：2026/27福岡出場表（頁標2026-10-05；讀取10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -7621,8 +8093,15 @@
           "goals": 0,
           "assists": null,
           "minutes": 13,
-          "as_of": "2026-10-05",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -7773,6 +8252,24 @@
           "2026/27 current stats採Data Site頁標10月5日快照及J.League10月9日總欄；並記實際讀取10月11日。未查得盃賽的逐季完整分鐘與助攻保留null。現官方個人頁已核對同名、背號、生日、身高體重及照片URL；TVB顯示姓名保留。",
           "照片使用2026-10-11實讀個人官方HTML內主圖（main-2.webp）；不是由檔名猜測。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -8045,6 +8542,11 @@
               "label": "J.League Data Site：2026/27福岡出場表（頁標2026-10-05；讀取10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -8057,8 +8559,15 @@
           "goals": 0,
           "assists": null,
           "minutes": 10,
-          "as_of": "2026-10-05",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -8190,6 +8699,24 @@
           "2026/27 current stats採Data Site頁標10月5日快照及J.League10月9日總欄；並記實際讀取10月11日。未查得盃賽的逐季完整分鐘與助攻保留null。現官方個人頁已核對同名、背號、生日、身高體重及照片URL；TVB顯示姓名保留。",
           "照片使用2026-10-11實讀個人官方HTML內主圖（main-2.webp）；不是由檔名猜測。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -8583,6 +9110,11 @@
               "label": "J.League Data Site：2026/27福岡出場表（頁標2026-10-05；讀取10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -8595,8 +9127,15 @@
           "goals": 0,
           "assists": null,
           "minutes": 174,
-          "as_of": "2026-10-05",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%E7%A6%8F%E5%B2%A1&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -8766,6 +9305,24 @@
           "2026/27 current stats採Data Site頁標10月5日快照及J.League10月9日總欄；並記實際讀取10月11日。未查得盃賽的逐季完整分鐘與助攻保留null。現官方個人頁已核對同名、背號、生日、身高體重及照片URL；TVB顯示姓名保留。",
           "照片使用2026-10-11實讀個人官方HTML內主圖（main-2.webp）；不是由檔名猜測。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -9404,6 +9961,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -9416,8 +9978,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 8,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -9613,6 +10182,24 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋Transfermarkt本人66100頁，索引明列右腳；亦與福岡官方右腳一致。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -9948,6 +10535,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -9960,8 +10552,15 @@
           "goals": 1,
           "assists": 0,
           "minutes": 253,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -10095,6 +10694,24 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋並開啟本人Transfermarkt頁；日本三人頁403，採福岡當前官方明列右腳，不以位置推斷。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -10455,6 +11072,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -10467,8 +11089,15 @@
           "goals": 0,
           "assists": 2,
           "minutes": 273,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -10582,6 +11211,24 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋並開啟本人Transfermarkt頁；日本三人頁403，採福岡當前官方明列右腳，不以位置推斷。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -11009,6 +11656,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -11021,8 +11673,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 270,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -11148,6 +11807,24 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋並開啟本人Transfermarkt頁；日本三人頁403，採福岡當前官方明列右腳，不以位置推斷。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -11534,6 +12211,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -11546,8 +12228,15 @@
           "goals": 0,
           "assists": null,
           "minutes": 68,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -11672,6 +12361,24 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋並開啟本人Transfermarkt頁；四人頁403，採福岡當前官方明列右腳，不以位置推斷。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -12124,6 +12831,22 @@
           "現季Data Site更新2026-10-11無出場行；明確零場、零球及零分鐘採SportsNavi個人成績，助攻亦由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋並開啟本人Transfermarkt頁；四人頁403，採福岡當前官方明列右腳，不以位置推斷。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -12507,6 +13230,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -12519,8 +13247,15 @@
           "goals": 1,
           "assists": 1,
           "minutes": 504,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -12645,6 +13380,24 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋並開啟本人Transfermarkt頁；四人頁403，採福岡當前官方明列右腳，不以位置推斷。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -12821,6 +13574,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -12833,8 +13591,15 @@
           "goals": 0,
           "assists": null,
           "minutes": 29,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -12990,6 +13755,24 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "已以英文姓名＋preferred foot搜尋並開啟本人Transfermarkt頁；四人頁403，採福岡當前官方明列右腳，不以位置推斷。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -13235,6 +14018,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -13247,8 +14035,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 95,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -13362,6 +14157,24 @@
           "英文姓名及preferred foot搜尋、Transfermarkt本人頁全文403；福岡當前官方明列右腳。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -13770,6 +14583,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -13782,8 +14600,15 @@
           "goals": 0,
           "assists": 1,
           "minutes": 490,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -13938,6 +14763,24 @@
           "英文preferred foot搜尋及本人Transfermarkt頁403；福岡當前官方明列右腳。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -14390,6 +15233,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -14402,8 +15250,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 450,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -14527,6 +15382,24 @@
           "官方主檔及Transfermarkt搜尋索引為右腳；同頁Q&A寫両利き，保留衝突而不推斷位置。英文preferred foot搜尋本人頁全文403，採主檔右腳。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方正選",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -15050,6 +15923,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -15062,8 +15940,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 137,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -15228,6 +16113,24 @@
           "英文姓名preferred foot搜尋並打開本人Transfermarkt頁，明列左腳，與福岡一致；其舊札幌球會欄不採。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -15611,6 +16514,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -15623,8 +16531,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 180,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -15809,6 +16724,24 @@
           "英文preferred foot搜尋並打開本人Transfermarkt 639354頁，全文403；右腳採福岡當前官方。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -16173,6 +17106,28 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "Data Site出場名單沒有本人，未據缺席自動填零；SportsNavi現季表明列0場0球0分鐘，J.League亦為零，採明示數字。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          },
+          {
+            "label": "福岡官方・5月28日福島傷患公告",
+            "url": "https://www.avispa.co.jp/news/post-86833",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-05-28"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場名單；5月28日公告右膝外側半月板損傷，5月27日手術，預計6個月，未取得新復出確認。"
       }
     },
     {
@@ -16418,6 +17373,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -16430,8 +17390,15 @@
           "goals": 1,
           "assists": 0,
           "minutes": 566,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -16586,6 +17553,24 @@
           "SportsNavi現季表及Data Site已含10月10日岡山9場1球566分鐘；SportsNavi歷史合計仍8場0球，J.League摘要亦滯後，採新表而非舊合計。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -16858,6 +17843,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-11"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -16870,8 +17860,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 8,
-          "as_of": "2026-10-11",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -17027,6 +18024,24 @@
           "正式升格源頭為U18；其後富山是外借目的地，非第二次加盟福岡的完全轉會來源。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -17299,6 +18314,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-12"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -17311,8 +18331,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 10,
-          "as_of": "2026-10-12",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -17457,6 +18484,24 @@
           "英文preferred foot搜尋及Transfermarkt 1147625本人頁機器人阻擋／403；索引右腳與福岡本人Q&A一致。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -17886,6 +18931,22 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "Data Site出場名單未見本人；零採SportsNavi現季表明示，不從缺席推定。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -18134,6 +19195,11 @@
               "label": "J.League Data Site：2026/27福岡出場記錄（更新2026-10-11）",
               "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
               "accessed_at": "2026-10-12"
+            },
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
             }
           ]
         }
@@ -18146,8 +19212,15 @@
           "goals": 0,
           "assists": 0,
           "minutes": 415,
-          "as_of": "2026-10-12",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23"
+          "as_of": "2026-10-18",
+          "source": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&team_id=23&team_id_ex=23",
+          "sources": [
+            {
+              "label": "J.League現行球員名單・第9節後聯賽數字（不含盃賽）",
+              "url": "https://www.jleague.jp/club/fukuoka/player/",
+              "accessed_at": "2026-10-18"
+            }
+          ]
         }
       ],
       "sources": [
@@ -18312,6 +19385,24 @@
           "英文preferred foot搜尋，Transfermarkt 1456731本人頁403；Wikipedia／Sofascore右腳，scores24及AiScore左腳，當前球會公告沒有欄位。慣用腳先列未確認，不由2月右腳射門推斷。",
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "官方後備",
+        "league_stats_checked_at": "2026-10-18",
+        "league_stats_scope": "首9場J1，不含周中盃賽；本場未計入。"
       }
     },
     {
@@ -18736,6 +19827,22 @@
           "現季上陣、入球及分鐘採Data Site更新2026-10-11；SportsNavi個人成績交叉核對，助攻僅由SportsNavi取得。官方個人頁逐季表現季橫線不當成零。",
           "最後批次讀JUFA原獎項表時發現坂井亦獲2026 Denso優秀選手，已補本人卡；不推定為JFA青年國家隊獎。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -19139,6 +20246,22 @@
           "原卡2027回歸是正式加盟內定，2026兩次特別指定另列；不把預定工作當成已正式轉會。",
           "Data Site更新2026-10-11已讀、未見本人出場列；現季0場0球0分鐘及助攻0採SportsNavi明示，非從名單缺席推定。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -19552,6 +20675,22 @@
           "英文姓名preferred foot及Transfermarkt本人頁搜尋未找到可核對頁，採當前球會Q&A右腳；遊戲資料與聯賽英文射門欄不採。",
           "Data Site更新2026-10-11已讀、未見本人出場列；現季零採SportsNavi明示0場0球0分鐘及助攻0，非從缺席推定。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     },
     {
@@ -20205,6 +21344,22 @@
           "英文preferred foot搜尋與本人Transfermarkt358216頁機器人403；索引右腳，福岡主檔及Q&A一致，採官方。",
           "Data Site更新2026-10-11已讀、未見本人現季出場列；現季0場0球0分鐘及助攻0採SportsNavi明示，不從名單缺席推定。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-18",
+        "opponent": "町田澤維亞",
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [],
+        "sources": [
+          {
+            "label": "福岡官方・本場正選後備及裁判",
+            "url": "https://www.avispa.co.jp/match_schedule/match_file_261018",
+            "accessed_at": "2026-10-18"
+          }
+        ],
+        "as_of": "2026-10-18",
+        "selection_status": "未列本場官方名單；單憑落選不能判定受傷。"
       }
     }
   ],
