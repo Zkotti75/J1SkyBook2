@@ -29,7 +29,23 @@ test('Wednesday research renders every page, dates sources and keeps recent voic
  for(const event of d.quote_events)for(const q of event.entries)assert.ok(inInterviewWindow(q,d.teams[q.team_slug].previous_match_date,d.date));
  function walk(v){if(!v||typeof v!=='object')return;if(v.text){assert.ok(v.sources?.length);assert.ok(v.as_of<=d.as_of);}for(const x of Object.values(v))walk(x);}walk(d);
  const h=renderMatchPage({home,away,date:d.date,page:'players',dossier:d});
- assert.ok(h.includes('岩本悠庵'));assert.ok(h.includes('官方球員資料'));assert.ok(!h.includes('#/club/kobe/player/23'));
+ assert.ok(h.includes('岩本悠庵'));assert.ok(h.includes('#/club/kobe/player/23'));assert.ok(!h.includes('官方球員資料'));
  assert.ok(d.teams.kawasaki.yellow_risk[0].text.includes('各3張'));
  assert.ok(d.teams.kobe.rotation_notes[0].text.includes('只換1名'));
+});
+
+test('final sweep dates medical news and preserves honest roster and selection states',()=>{
+ assert.equal(d.as_of,'2026-10-21');
+ const noda=d.teams.kawasaki.injuries.find(x=>x.text.includes('野田裕人'));
+ assert.ok(noda.text.includes('10月3日'));assert.equal(noda.sources[0].published_at,'2026-10-18');
+ for(const n of ['17','23']){const p=away.players.find(x=>x.number===n);assert.ok(p);assert.equal(p.verification_status,'research_incomplete');assert.ok(p.research_gaps.length);}
+ assert.equal(away.players.find(x=>x.number==='17').name_zh,'高橋壹晟');
+ const i=away.players.find(x=>x.number==='23');assert.ok(i.tenure_status.includes('2029/30'));assert.ok(i.registration_status.includes('特別指定'));
+ assert.ok(away.players.find(x=>x.number==='45').match_week.selection_status.includes('外借大分'));
+ assert.ok(away.players.find(x=>x.number==='57').match_week.selection_status.includes('尚未確認'));
+ assert.equal(d.quote_events.flatMap(x=>x.entries).filter(x=>x.published_at>='2026-10-19').length,11);
+ for(const q of d.quote_events.flatMap(x=>x.entries)){if(q.quote_zh)assert.ok(q.quote_ja);}
+ assert.ok(d.match_info.weather.text.includes('01:00 JST'));
+ assert.equal(d.match_info.lineups_as_of,null);
+ for(const club of [home,away])for(const p of club.players){const r=p.season_stats?.find(x=>x.season==='2026/27'&&x.competition==='J1');if(r?.as_of==='2026-10-18'){assert.ok(r.appearances<=10);assert.ok(r.goals>=0);}}
 });

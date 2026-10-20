@@ -3,8 +3,8 @@
   "club": "kobe",
   "club_name_zh": "神戶勝利船",
   "player_research_status": "in_progress",
-  "updated_at": "2026-10-09",
-  "roster_players": 39,
+  "updated_at": "2026-10-21",
+  "roster_players": 41,
   "baseline_complete_players": [],
   "batches": [
     {
@@ -579,6 +579,37 @@
         "kobe_94"
       ],
       "unresolved_players": []
+    },
+    {
+      "id": "kobe-matchday-17-23",
+      "kind": "player_research",
+      "status": "validation_failed",
+      "capacity_points": 2,
+      "players": [
+        {
+          "id": "kobe_17",
+          "number": "17",
+          "name_zh": "高橋壹晟",
+          "name_en": "Issei Takahashi",
+          "weight": 1
+        },
+        {
+          "id": "kobe_23",
+          "number": "23",
+          "name_zh": "岩本悠庵",
+          "name_en": "Yuan Iwamoto",
+          "weight": 1
+        }
+      ],
+      "notes": [
+        "2026-10-21 match sweep: create missing current-roster cards; preserve explicit biography gaps and prior failed batches. User-confirmed display names from club_audit.",
+        {
+          "date": "2026-10-20",
+          "text": "Matchday cards published as research_incomplete: early-youth route audit, full milestone review and Iwamoto independent biography/foot evidence remain open. Identity, registration and current league totals verified; no completed-biography claim."
+        }
+      ],
+      "started_at": "2026-10-20",
+      "completed_at": null
     }
   ],
   "status_tag_stage": {
@@ -1069,6 +1100,26 @@
         "Optional youth/state/cup/parent and adultcaps totals remain unknown; status tags separate."
       ],
       "reviewed_at": "2026-10-09"
+    },
+    {
+      "player_id": "kobe_17",
+      "number": "17",
+      "name_zh": "高橋壹晟",
+      "status": "open",
+      "issues": [
+        "See player research_gaps; matchday card created, not a completed Nishikawa biography."
+      ],
+      "reviewed_at": "2026-10-21"
+    },
+    {
+      "player_id": "kobe_23",
+      "number": "23",
+      "name_zh": "岩本悠庵",
+      "status": "open",
+      "issues": [
+        "See player research_gaps; matchday card created, not a completed Nishikawa biography."
+      ],
+      "reviewed_at": "2026-10-21"
     }
   ],
   "club_audit": {
@@ -1081,20 +1132,22 @@
       {
         "name_ja": "髙橋壱晟",
         "number": "17",
-        "issue": "官方名單已有球員；TVB顯示名已由使用者確認，待新增及驗證完整球員卡。",
+        "issue": "永久卡已建立；基本資料及現季註冊已核對，完整傳記仍待驗證。",
         "name_zh": "高橋壹晟",
         "display_name_status": "user_confirmed",
         "display_name_confirmed_at": "2026-10-10",
-        "display_name_source": "Scott Yang：本聊天室直接確認"
+        "display_name_source": "Scott Yang：本聊天室直接確認",
+        "card_created_at": "2026-10-21"
       },
       {
         "name_ja": "岩本悠庵",
         "number": "23",
-        "issue": "官方名單已有球員；TVB顯示名已由使用者確認，待新增及驗證完整球員卡。",
+        "issue": "永久卡已建立；基本資料及現季註冊已核對，完整傳記仍待驗證。",
         "name_zh": "岩本悠庵",
         "display_name_status": "user_confirmed",
         "display_name_confirmed_at": "2026-10-10",
-        "display_name_source": "Scott Yang：本聊天室直接確認"
+        "display_name_source": "Scott Yang：本聊天室直接確認",
+        "card_created_at": "2026-10-21"
       },
       {
         "player_id": "kobe_45",

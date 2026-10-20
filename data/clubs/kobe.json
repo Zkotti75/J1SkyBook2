@@ -396,7 +396,58 @@
       }
     ],
     "verification_status": "verified",
-    "verified_at": "2026-09-19"
+    "verified_at": "2026-09-19",
+    "interviews": [
+      {
+        "team_slug": "kobe",
+        "speaker": "米高・史基比",
+        "role": "主教練",
+        "topic": "賽程密集也是競爭機會",
+        "paraphrase_zh": "認為球員通常喜歡比賽多於操練，密集賽程本身亦是可喜的事。",
+        "published_at": "2026-10-20",
+        "context": "pre_match",
+        "outlet": "體育日本",
+        "url": "https://news.livedoor.com/article/detail/32610586/"
+      },
+      {
+        "team_slug": "kobe",
+        "speaker": "米高・史基比",
+        "role": "主教練",
+        "topic": "管理體能與輪換",
+        "paraphrase_zh": "連戰延續至年底，必須管理球員身體，有些時候需要不同球員。沒有點名本場輪休誰。",
+        "published_at": "2026-10-20",
+        "context": "pre_match",
+        "outlet": "體育日本",
+        "url": "https://news.livedoor.com/article/detail/32610586/"
+      },
+      {
+        "team_slug": "kobe",
+        "speaker": "米高・史基比",
+        "role": "主教練",
+        "topic": "下一場的優先次序",
+        "paraphrase_zh": "希望全隊專注當前一戰，再決定合適人選。",
+        "published_at": "2026-10-20",
+        "context": "pre_match",
+        "outlet": "體育日本",
+        "url": "https://news.livedoor.com/article/detail/32610586/",
+        "quote_ja": "次の試合が常に最も重要",
+        "quote_zh": "下一場比賽永遠最重要。"
+      }
+    ],
+    "match_week": {
+      "fixture_date": "2026-10-21",
+      "opponent": "川崎前鋒",
+      "as_of": "2026-10-21",
+      "selection_status": "已補最新賽前訪問；人選以正式名單為準。",
+      "sources": [
+        {
+          "label": "體育日本・史基比及鍬先賽前談話／livedoor轉載",
+          "url": "https://news.livedoor.com/article/detail/32610586/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-10-20"
+        }
+      ]
+    }
   },
   "players": [
     {
@@ -906,21 +957,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 3,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=150",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -1013,21 +1059,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 3,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=150",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -1057,7 +1099,22 @@
           "url": "https://www.transfermarkt.com/daiya-maekawa/profil/spieler/489081",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_2",
@@ -1439,21 +1496,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 3,
+          "appearances": 5,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=276",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -1536,21 +1588,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 3,
+          "appearances": 5,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=276",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -1577,7 +1625,22 @@
           "url": "https://www.transfermarkt.com/nanasei-iino/profil/spieler/641208",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_3",
@@ -2013,21 +2076,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 0,
+          "appearances": 10,
+          "goals": 1,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=280",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -2140,21 +2198,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 0,
-          "as_of": "2026-10-08",
+          "appearances": 10,
+          "goals": 1,
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=280",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -2189,7 +2243,22 @@
           "url": "https://www.transfermarkt.com/matheus-thuler/profil/spieler/549815",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_4",
@@ -2628,21 +2697,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 9,
           "goals": 1,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=229",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -2735,21 +2799,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 9,
           "goals": 1,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=229",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場及聯賽總數",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -2779,7 +2839,22 @@
           "url": "https://www.transfermarkt.com/tetsushi-yamakawa/profil/spieler/404379",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_5",
@@ -3179,21 +3254,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=358",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -3276,21 +3346,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 9,
           "goals": 2,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=358",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -3319,7 +3385,22 @@
           "url": "https://www.transfermarkt.com/yuta-goke/profil/spieler/486185",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_6",
@@ -4015,7 +4096,42 @@
           "url": "https://www.transfermarkt.com/takahiro-ogihara/profil/spieler/140311",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "神戶官方・佐佐木大樹右外側半月板傷患",
+            "url": "https://www.vissel-kobe.co.jp/news/article/26550.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-06-03"
+          },
+          {
+            "label": "神戶新聞・佐佐木復康更新",
+            "url": "https://www.kobe-np.co.jp/news/sports/202610/0020878896.shtml",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-01"
+          },
+          {
+            "label": "Football LAB・本場對賽及歷史統計（非即時榜）",
+            "url": "https://www.football-lab.jp/ka-f/preview",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": [
+          "佐佐木大樹6月3日公布右外側半月板損傷；神戶新聞10月1日報道復康進展良好，但不是本場復出確認。Football LAB仍列佐佐木、扇原貴宏、安達臣・盧比斯及富永虹七為缺陣資訊；病況更新及周三可用性待核實。"
+        ]
+      }
     },
     {
       "id": "kobe_7",
@@ -4817,21 +4933,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=304",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -4929,21 +5040,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=304",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶聯賽逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&selectedCompetitionYear=2026%2F27&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionSubName=&selectedTeamName=%E3%83%B4%E3%82%A3%E3%83%83%E3%82%BB%E3%83%AB%E7%A5%9E%E6%88%B8&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "trivia": [
@@ -4984,7 +5091,22 @@
           "url": "https://www.transfermarkt.co.uk/yosuke-ideguchi/profil/spieler/318219",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_9",
@@ -6279,7 +6401,42 @@
           "url": "https://www.transfermarkt.co.uk/anderson-lopes/profil/spieler/347291",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "神戶官方・佐佐木大樹右外側半月板傷患",
+            "url": "https://www.vissel-kobe.co.jp/news/article/26550.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-06-03"
+          },
+          {
+            "label": "神戶新聞・佐佐木復康更新",
+            "url": "https://www.kobe-np.co.jp/news/sports/202610/0020878896.shtml",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-01"
+          },
+          {
+            "label": "Football LAB・本場對賽及歷史統計（非即時榜）",
+            "url": "https://www.football-lab.jp/ka-f/preview",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": [
+          "佐佐木大樹6月3日公布右外側半月板損傷；神戶新聞10月1日報道復康進展良好，但不是本場復出確認。Football LAB仍列佐佐木、扇原貴宏、安達臣・盧比斯及富永虹七為缺陣資訊；病況更新及周三可用性待核實。"
+        ]
+      }
     },
     {
       "id": "kobe_10",
@@ -6977,21 +7134,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 6,
-          "goals": 3,
+          "appearances": 8,
+          "goals": 5,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=257",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -7089,21 +7241,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 6,
-          "goals": 3,
-          "as_of": "2026-10-08",
+          "appearances": 8,
+          "goals": 5,
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=257",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "trivia": [
@@ -7152,7 +7300,22 @@
           "url": "https://www.transfermarkt.co.uk/yuya-osako/profil/spieler/108650",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_11",
@@ -7917,21 +8080,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 7,
           "goals": 1,
           "status": "職業球員",
-          "notes": "截至2026-10-08檢索的官方頁；動態紀錄，不推算未載場次。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=256",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -8024,21 +8182,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 7,
           "goals": 1,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=256",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "trivia": [
@@ -8089,7 +8243,22 @@
           "url": "https://www.transfermarkt.co.uk/yoshinori-muto/profil/spieler/230541",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_13",
@@ -8740,7 +8909,42 @@
           "url": "https://www.transfermarkt.co.uk/daiju-sasaki/profil/spieler/515653",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "神戶官方・佐佐木大樹右外側半月板傷患",
+            "url": "https://www.vissel-kobe.co.jp/news/article/26550.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-06-03"
+          },
+          {
+            "label": "神戶新聞・佐佐木復康更新",
+            "url": "https://www.kobe-np.co.jp/news/sports/202610/0020878896.shtml",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-01"
+          },
+          {
+            "label": "Football LAB・本場對賽及歷史統計（非即時榜）",
+            "url": "https://www.football-lab.jp/ka-f/preview",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": [
+          "佐佐木大樹6月3日公布右外側半月板損傷；神戶新聞10月1日報道復康進展良好，但不是本場復出確認。Football LAB仍列佐佐木、扇原貴宏、安達臣・盧比斯及富永虹七為缺陣資訊；病況更新及周三可用性待核實。"
+        ]
+      }
     },
     {
       "id": "kobe_15",
@@ -9400,21 +9604,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 0,
+          "appearances": 10,
+          "goals": 1,
           "status": "職業球員",
-          "notes": "截至2026-10-08；只計2026/27 J1。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=373",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -9532,21 +9731,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 0,
-          "as_of": "2026-10-08",
+          "appearances": 10,
+          "goals": 1,
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=373",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "foot_sources": [
@@ -9614,6 +9809,21 @@
           "外借母會2017/2018及2014成年數字未知，不推造零場。",
           "TM直接開頁多次遇阻，但檢索取得具名完整preferred-foot欄，並由官方Q&A交叉核對。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -10341,21 +10551,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08；只計2026/27 J1。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=334",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -10448,21 +10653,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=334",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "foot_sources": [
@@ -10511,6 +10712,582 @@
           "Lance! 2026文首稱已踢兩年與2025官方入會年不符；入會採官方，只保留本人對首季適應的訪問。",
           "Oeste2021.1尾段合約是2020延後賽程，沒有2021独立季表，不重計20場。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
+    },
+    {
+      "id": "kobe_17",
+      "club": "神戶勝利船",
+      "team_slug": "kobe",
+      "number": "17",
+      "name_zh": "高橋壹晟",
+      "name_ja": "髙橋壱晟",
+      "name_en": "Issei Takahashi",
+      "position": "MF",
+      "dob": "1998-04-20",
+      "season_start_age": 28,
+      "birthplace": "青森縣青森市",
+      "height": 180,
+      "weight": 81,
+      "foot": "右腳",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "千葉市原JEF聯",
+      "registration_status": "本國球員",
+      "registration_tags": [],
+      "tenure_status": "2026/27加盟首季",
+      "national_team_detail": "U-19日本代表（2016）；不把青年代表次數列為大國腳紀錄。",
+      "intro": "青森山田體系出身，2017加入千葉，曾外借山口及山形，2020回歸。2025協助千葉升班，2026年7月28日公布永久轉投神戶。註冊位置是中場，但近年主要踢右閘；本人加盟訪問把組織進攻視為長處。（神戶官方；2026-07-30日刊體育）",
+      "timeline": [
+        {
+          "period": "2005-2010",
+          "team": "青森FC（青森市立造道小學校）",
+          "category": "少年足球",
+          "milestone": ""
+        },
+        {
+          "period": "2011-2013",
+          "team": "青森山田中學校",
+          "category": "中學",
+          "milestone": ""
+        },
+        {
+          "period": "2014-2016",
+          "team": "青森山田高校",
+          "category": "高校",
+          "milestone": "2016年度高校選手權冠軍（決賽在2017年1月）；2026-07-30日刊體育確認與郷家同校。"
+        },
+        {
+          "period": "2017",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2018",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2018",
+          "team": "山口雷法",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2019",
+          "team": "山形山神",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2020",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2021",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2022",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2023",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2024",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2025",
+          "team": "千葉市原JEF聯",
+          "category": "J2",
+          "milestone": "聯賽數字；盃賽另計。"
+        },
+        {
+          "period": "2026特別",
+          "team": "千葉市原JEF聯",
+          "category": "J1百年構想",
+          "milestone": "短期賽事與2026/27分開。"
+        },
+        {
+          "period": "2026/27",
+          "team": "神戶勝利船",
+          "category": "J1",
+          "milestone": "首10輪，官方個人頁及J.League名單對照。"
+        }
+      ],
+      "career": [
+        {
+          "season": "2005-2010",
+          "team": "青森FC（青森市立造道小學校）",
+          "competition": "少年足球",
+          "appearances": null,
+          "goals": null,
+          "status": "學生／青訓",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "千葉官方・2016加入內定及完整青年路線",
+              "url": "https://archive.jefunited.co.jp/news/2016/06/top/14666496007412.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2016-06-23"
+            },
+            {
+              "label": "日文Wikipedia・生涯導航，身份與數字以官方交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/髙橋壱晟",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "season": "2011-2013",
+          "team": "青森山田中學校",
+          "competition": "中學",
+          "appearances": null,
+          "goals": null,
+          "status": "學生／青訓",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2014-2016",
+          "team": "青森山田高校",
+          "competition": "高校",
+          "appearances": null,
+          "goals": null,
+          "status": "學生／青訓",
+          "notes": "2016年度高校選手權冠軍（決賽在2017年1月）；2026-07-30日刊體育確認與郷家同校。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            },
+            {
+              "label": "日刊體育／永田淳・高橋加盟訪問",
+              "url": "https://www.nikkansports.com/soccer/news/202607300001448.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-30"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 23,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "山口雷法",
+          "competition": "J2",
+          "appearances": 10,
+          "goals": 0,
+          "status": "外借",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "山形山神",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "外借",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 21,
+          "goals": 3,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 34,
+          "goals": 3,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 8,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 30,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 37,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "千葉市原JEF聯",
+          "competition": "J2",
+          "appearances": 37,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字；盃賽另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "千葉市原JEF聯",
+          "competition": "J1百年構想",
+          "appearances": 18,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "短期賽事與2026/27分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・高橋由千葉永久加盟",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-28"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "神戶勝利船",
+          "competition": "J1",
+          "appearances": 8,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "honors": [
+        "J2優秀選手賞：2025。（神戶官方）",
+        "高校選手權冠軍：2016年度／2017年1月決賽，青森山田。（日刊體育；Wikipedia路線核對）"
+      ],
+      "milestones": [
+        "2026-07-28：神戶公布由千葉永久加盟；並非10月新轉會。（神戶官方）"
+      ],
+      "tactical_traits": [
+        "MF是註冊分類；本人稱近3年主要踢右閘，勿因名單位置就判為本場防中。（2026-07-30，永田淳／nikkansports.com）",
+        "本人把後場組織及持球時的表現列為長處，可觀察由右路出球的選擇。（同上）",
+        "球會個人頁特別提及中場底子的技術與遠射；實際本場角色須看正式名單。（神戶官方個人頁）"
+      ],
+      "quirky_trivia": "與郷家友太在青森山田同校，高一屆；以全國冠軍經驗再在神戶成為隊友。（2026-07-30，永田淳／日刊體育）",
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 8,
+          "goals": 1,
+          "as_of": "2026-10-18",
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "神戶官方・球員個人資料",
+          "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "神戶官方・高橋由千葉永久加盟",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26748.html",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-07-28"
+        },
+        {
+          "label": "日文Wikipedia・生涯導航，身份與數字以官方交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/髙橋壱晟",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "Transfermarkt・身份相符，慣用右腳",
+          "url": "https://www.transfermarkt.jp/issei-takahashi/profil/spieler/489404",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "日刊體育／永田淳・高橋加盟訪問",
+          "url": "https://www.nikkansports.com/soccer/news/202607300001448.html",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-07-30"
+        },
+        {
+          "label": "千葉官方・2016加入內定及完整青年路線",
+          "url": "https://archive.jefunited.co.jp/news/2016/06/top/14666496007412.html",
+          "accessed_at": "2026-10-21",
+          "published_at": "2016-06-23"
+        }
+      ],
+      "name_source": {
+        "status": "user_confirmed",
+        "source": "Scott Yang於2026-10-10確認；data/research-progress/kobe.json club_audit.roster_repairs",
+        "confirmed_at": "2026-10-10"
+      },
+      "verification_status": "research_incomplete",
+      "verified_at": null,
+      "player_image": "https://www.vissel-kobe.co.jp/profile/2026-27/images/17_髙橋壱晟.png",
+      "research_gaps": [
+        "完整Nishikawa傳記審核與逐季官方Data Site交叉表待補；不因建立本場卡就標完成。"
+      ],
+      "foot_sources": [
+        {
+          "label": "神戶官方・球員個人資料",
+          "url": "https://www.vissel-kobe.co.jp/profile/?id=393&mode=detail",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "Transfermarkt・身份相符，慣用右腳",
+          "url": "https://www.transfermarkt.jp/issei-takahashi/profil/spieler/489404",
+          "accessed_at": "2026-10-21"
+        }
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -11234,18 +12011,13 @@
           "appearances": 2,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08；J1 2場共43分鐘0球。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=285",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -11335,19 +12107,15 @@
           "competition": "J1",
           "appearances": 2,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、履歷及逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=285",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場紀錄",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "foot_sources": [
@@ -11390,6 +12158,21 @@
           "2023/2024兩次J1冠軍及2026百年構想補齊；比賽表只用神戶官方季數及JLeague當季表。",
           "syncSPORTS屬楽天關聯媒體，列作具名本人專訪；身份與履歷另用Wikipedia、TM及JFA，不把關聯訪問當獨立球探評分。"
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -11927,23 +12710,13 @@
           "appearances": 1,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08；J1 1場、22分鐘、0球；不混天皇盃／ACLE。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=377",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League官方：現役身份及聯賽紀錄",
-              "url": "https://www.jleague.jp/player/1503650/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場表",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -12033,24 +12806,15 @@
           "competition": "J1",
           "appearances": 1,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=377",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League官方：現役身份及聯賽紀錄",
-              "url": "https://www.jleague.jp/player/1503650/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場表",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -12092,7 +12856,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=377",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_21",
@@ -12903,7 +13682,339 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=306",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
+    },
+    {
+      "id": "kobe_23",
+      "club": "神戶勝利船",
+      "team_slug": "kobe",
+      "number": "23",
+      "name_zh": "岩本悠庵",
+      "name_ja": "岩本悠庵",
+      "name_en": "Yuan Iwamoto",
+      "position": "MF",
+      "dob": "2006-04-15",
+      "season_start_age": 20,
+      "birthplace": "奈良縣大和高田市",
+      "height": 178,
+      "weight": 72,
+      "foot": "",
+      "nationality": "日本",
+      "joined": 2026,
+      "prev_club": "中京大學",
+      "registration_status": "JFA／J.League特別指定",
+      "registration_tags": [],
+      "tenure_status": "2026/27特別指定；2029/30加入內定",
+      "national_team_detail": "U-21日本代表（2026，球會公告）；國際賽場次未核實。",
+      "intro": "神戶U-15、U-18出身，2024曾第二種註冊一隊，2025升讀中京大學。2026/27以特別指定身份重返神戶，正式加入內定為2029/30，兩者不可混為一談。18日對岡山半場入場，首次在正式比賽踢10號位。（神戶8月7日公告及10月18日賽後訪問）",
+      "timeline": [
+        {
+          "period": "2019-2021",
+          "team": "神戶勝利船U-15",
+          "category": "U-15",
+          "milestone": ""
+        },
+        {
+          "period": "2022-2023",
+          "team": "神戶勝利船U-18",
+          "category": "U-18",
+          "milestone": ""
+        },
+        {
+          "period": "2024",
+          "team": "神戶勝利船U-18",
+          "category": "U-18",
+          "milestone": ""
+        },
+        {
+          "period": "2024",
+          "team": "神戶勝利船",
+          "category": "J1",
+          "milestone": "登錄由官方公告確認；未找到可靠總數，不填0。"
+        },
+        {
+          "period": "2025",
+          "team": "中京大學",
+          "category": "大學",
+          "milestone": ""
+        },
+        {
+          "period": "2026",
+          "team": "中京大學",
+          "category": "大學",
+          "milestone": ""
+        },
+        {
+          "period": "2026/27",
+          "team": "神戶勝利船",
+          "category": "J1",
+          "milestone": "8月4日JFA認定；8月7日公告；首10輪聯賽6場0球。"
+        }
+      ],
+      "career": [
+        {
+          "season": "2019-2021",
+          "team": "神戶勝利船U-15",
+          "competition": "U-15",
+          "appearances": null,
+          "goals": null,
+          "status": "青訓",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=394&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・岩本2029/30加入內定及本季特別指定",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-08-07"
+            }
+          ]
+        },
+        {
+          "season": "2022-2023",
+          "team": "神戶勝利船U-18",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "青訓",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=394&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・岩本2029/30加入內定及本季特別指定",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-08-07"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "神戶勝利船U-18",
+          "competition": "U-18",
+          "appearances": null,
+          "goals": null,
+          "status": "青訓／同年第二種註冊",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=394&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・岩本2029/30加入內定及本季特別指定",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-08-07"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "神戶勝利船",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "status": "第二種註冊",
+          "notes": "登錄由官方公告確認；未找到可靠總數，不填0。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=394&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・岩本2029/30加入內定及本季特別指定",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-08-07"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "中京大學",
+          "competition": "大學",
+          "appearances": null,
+          "goals": null,
+          "status": "學生",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=394&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・岩本2029/30加入內定及本季特別指定",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-08-07"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "中京大學",
+          "competition": "大學",
+          "appearances": null,
+          "goals": null,
+          "status": "學生／同年特別指定",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "神戶官方・球員個人資料",
+              "url": "https://www.vissel-kobe.co.jp/profile/?id=394&mode=detail",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・岩本2029/30加入內定及本季特別指定",
+              "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-08-07"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "team": "神戶勝利船",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "status": "特別指定",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "honors": [],
+      "milestones": [
+        "2024：神戶U-18在籍，第二種登錄一隊。（神戶官方）",
+        "2026-08-04：獲JFA特別指定認定；7日公布2029/30加入內定。（JFA、神戶）",
+        "2026-10-18：對岡山半場入場，在10號位接應大迫第二點。（本人賽後談話）"
+      ],
+      "tactical_traits": [
+        "18日首次在比賽踢10號位，自述任務是接大迫的第二點。（2026-10-18，神戶官方訪問）",
+        "自述在對手兩線之間拿球，以改善球隊持球連續性。（同上）",
+        "史基比稱他在攻守帶來速度與積極性；這是該場評價，不能直接推定本場先發。（同上）"
+      ],
+      "quirky_trivia": "中京大學在學期間回到成長的神戶，以特別指定身份比正式2029/30加入提早參與一隊。（神戶／JFA公告）",
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "goals": 0,
+          "as_of": "2026-10-18",
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "神戶官方・球員個人資料",
+          "url": "https://www.vissel-kobe.co.jp/profile/?id=394&mode=detail",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "神戶官方・岩本2029/30加入內定及本季特別指定",
+          "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-08-07"
+        },
+        {
+          "label": "JFA・2026/27特別指定認定",
+          "url": "https://jfa.jp/youth_development/news/00036608/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-08-07"
+        },
+        {
+          "label": "日文Wikipedia檢索嘗試：未能讀取，無內容用作事實依據",
+          "url": "https://ja.wikipedia.org/wiki/岩本悠庵",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "J.League・須賀大輔本場前瞻",
+          "url": "https://www.jleague.jp/match/j1/2026/102109/",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "神戶官方・18日球員賽後訪問",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261018&type=comment",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-10-18"
+        }
+      ],
+      "name_source": {
+        "status": "user_confirmed",
+        "source": "Scott Yang於2026-10-10確認；data/research-progress/kobe.json club_audit.roster_repairs",
+        "confirmed_at": "2026-10-10"
+      },
+      "verification_status": "research_incomplete",
+      "verified_at": null,
+      "player_image": "https://www.vissel-kobe.co.jp/profile/2026-27/images/23_岩本悠庵.png",
+      "research_gaps": [
+        "U-15之前所屬球隊、慣用腳及2024一隊逐賽統計未確認；Wikipedia頁面未能讀取，未採用其內容。",
+        "Transfermarkt出生地／身高與最新球會資料有差異；以球會當前178cm、72kg、奈良縣大和高田市為準。",
+        "完整傳記仍待兩個獨立外部來源及研究驗證，不標為完成。"
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_24",
@@ -13681,26 +14792,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 9,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08；J1 7場、539分鐘、0球；不混天皇盃／ACLE。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=225",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League官方：現役身份及聯賽紀錄",
-              "url": "https://www.jleague.jp/player/800567/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場表",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -13803,26 +14904,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 9,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=225",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League官方：現役身份及聯賽紀錄",
-              "url": "https://www.jleague.jp/player/800567/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場表",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "trivia": [
@@ -13890,7 +14982,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=225",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_25",
@@ -14228,26 +15335,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 4,
+          "appearances": 5,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08；J1 4場、160分鐘、0球；不混天皇盃／ACLE。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=308",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League官方：現役身份及聯賽紀錄",
-              "url": "https://www.jleague.jp/player/1632201/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場表",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -14335,26 +15432,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 4,
+          "appearances": 5,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=308",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League官方：現役身份及聯賽紀錄",
-              "url": "https://www.jleague.jp/player/1632201/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27神戶逐場表",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -14394,6 +15482,46 @@
           "label": "神戶官方個人頁：身份、照片、逐季紀錄",
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=308",
           "accessed_at": "2026-10-08"
+        }
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      },
+      "interviews": [
+        {
+          "team_slug": "kobe",
+          "speaker": "鍬先祐彌",
+          "role": "球員",
+          "topic": "連戰不能成為藉口",
+          "paraphrase_zh": "歡迎比賽機會增加，要求逐場踢出神戶方式，避免以賽程作藉口。",
+          "published_at": "2026-10-20",
+          "context": "pre_match",
+          "outlet": "體育日本",
+          "url": "https://news.livedoor.com/article/detail/32610586/"
+        },
+        {
+          "team_slug": "kobe",
+          "speaker": "鍬先祐彌",
+          "role": "球員",
+          "topic": "榜首只有一分之遙",
+          "paraphrase_zh": "視此役為爭取榜首的重要比賽，希望作客也踢出神戶足球。",
+          "published_at": "2026-10-20",
+          "context": "pre_match",
+          "outlet": "神戶新聞",
+          "url": "https://www.kobe-np.co.jp/news/sports/202610/0020949348.shtml",
+          "date_note": "僅據公開部分；並無讀取付費全文。"
         }
       ]
     },
@@ -15029,26 +16157,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 4,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08，聯賽2場107分鐘0球；不與百年構想或盃賽相加。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1636320/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=291",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -15191,26 +16309,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 4,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1636320/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=291",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -15293,7 +16402,22 @@
           "url": "https://www.showdebolafootball.com/jean-patric",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_28",
@@ -15577,23 +16701,13 @@
           "appearances": 2,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08，聯賽2場34分鐘0球；不與百年構想或盃賽相加。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1646560/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=335",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -15717,24 +16831,15 @@
           "competition": "J1",
           "appearances": 2,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1646560/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=335",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -15781,7 +16886,22 @@
           "url": "https://syncsports.corp.rakuten.net/articles/vissel-kentohamasaki-260414/",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_29",
@@ -16399,26 +17519,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 1,
+          "appearances": 10,
+          "goals": 2,
           "status": "職業球員",
-          "notes": "截至2026-10-08，聯賽8場296分鐘1球；不與百年構想或盃賽相加。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1601839/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=347",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -16535,26 +17645,17 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 1,
-          "as_of": "2026-10-08",
+          "appearances": 10,
+          "goals": 2,
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1601839/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=347",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -16597,7 +17698,22 @@
           "url": "https://www.transfermarkt.us/ren-komatsu/profil/spieler/431003",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_31",
@@ -17302,23 +18418,13 @@
           "appearances": 1,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-08，聯賽1場85分鐘0球；不與百年構想或盃賽相加。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1101309/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=313",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -17423,24 +18529,15 @@
           "competition": "J1",
           "appearances": 1,
           "goals": 0,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League官方現役球員頁",
-              "url": "https://www.jleague.jp/player/1101309/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "神戶官方個人頁：身份、照片、逐季紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=313",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League Data Site：2026/27逐場及分鐘",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -17487,7 +18584,22 @@
           "url": "https://number.bunshun.jp/articles/-/831711?page=2",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_32",
@@ -17944,7 +19056,22 @@
           "url": "https://www.jleague.jp/news/article/34631/",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_33",
@@ -18687,7 +19814,22 @@
           "url": "https://note.com/football_quest/n/n08e67b29bcba",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_35",
@@ -19425,7 +20567,42 @@
           "url": "https://www.transfermarkt.com/niina-tominaga/profil/spieler/915265",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "神戶官方・佐佐木大樹右外側半月板傷患",
+            "url": "https://www.vissel-kobe.co.jp/news/article/26550.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-06-03"
+          },
+          {
+            "label": "神戶新聞・佐佐木復康更新",
+            "url": "https://www.kobe-np.co.jp/news/sports/202610/0020878896.shtml",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-01"
+          },
+          {
+            "label": "Football LAB・本場對賽及歷史統計（非即時榜）",
+            "url": "https://www.football-lab.jp/ka-f/preview",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": [
+          "佐佐木大樹6月3日公布右外側半月板損傷；神戶新聞10月1日報道復康進展良好，但不是本場復出確認。Football LAB仍列佐佐木、扇原貴宏、安達臣・盧比斯及富永虹七為缺陣資訊；病況更新及周三可用性待核實。"
+        ]
+      }
     },
     {
       "id": "kobe_38",
@@ -20085,7 +21262,22 @@
           "url": "https://www.transfermarkt.us/juzo-ura/profil/spieler/910181",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_39",
@@ -20622,7 +21814,22 @@
           "url": "https://fcryukyu.com/profile/player/?_year=2025&id=21",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_41",
@@ -21152,26 +22359,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 2,
           "status": "職業球員",
-          "notes": "截至2026-10-08；百年構想、U21及杯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶現役個人頁：身份、照片、本人腳別及紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=346",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League個人：逐年隊伍、現季紀錄；更新2026-10-08 07:10",
-              "url": "https://www.jleague.jp/player/1607075/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "共用J.League Data Site2026/27神戶聯賽查詢",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -21307,28 +22504,29 @@
           "season": "2026/27",
           "competition": "J1",
           "team": "神戶勝利船",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 2,
-          "as_of": "2026-10-08",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶現役個人頁：身份、照片、本人腳別及紀錄",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=346",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "J.League個人：逐年隊伍、現季紀錄；更新2026-10-08 07:10",
-              "url": "https://www.jleague.jp/player/1607075/",
-              "accessed_at": "2026-10-08"
-            },
-            {
-              "label": "共用J.League Data Site2026/27神戶聯賽查詢",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-08"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ],
-          "minutes": 641,
-          "assists": 1
+          "previous_snapshot": {
+            "minutes": {
+              "value": 641,
+              "as_of": "2026-10-08",
+              "note": "舊截點，未冒充首10輪數字。"
+            },
+            "assists": {
+              "value": 1,
+              "as_of": "2026-10-08",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -21375,7 +22573,22 @@
           "url": "https://www.transfermarkt.com/katsuya-nagato/profil/spieler/489364",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_42",
@@ -21961,7 +23174,22 @@
           "url": "https://www.yamaga-fc.com/club/player/2025-justin-homma",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_43",
@@ -22603,7 +23831,22 @@
           "url": "https://www.transfermarkt.com/kaito-yamada/profil/spieler/1057613",
           "accessed_at": "2026-10-08"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_44",
@@ -22953,23 +24196,13 @@
           "appearances": 6,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至2026-10-09；Data Site 172分鐘，百年構想及杯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶現役／合約母會個人頁：身份、照片及本人Q&A",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=296",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "J.League個人：逐年履歷及2026/27；更新2026-10-09",
-              "url": "https://www.jleague.jp/player/1636947/",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "共用J.League Data Site2026/27神戶出場紀錄：10月9日查詢",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-09"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -23087,25 +24320,22 @@
           "team": "神戶勝利船",
           "appearances": 6,
           "goals": 0,
-          "as_of": "2026-10-09",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶現役／合約母會個人頁：身份、照片及本人Q&A",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=296",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "J.League個人：逐年履歷及2026/27；更新2026-10-09",
-              "url": "https://www.jleague.jp/player/1636947/",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "共用J.League Data Site2026/27神戶出場紀錄：10月9日查詢",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-09"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ],
-          "minutes": 172
+          "previous_snapshot": {
+            "minutes": {
+              "value": 172,
+              "as_of": "2026-10-09",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -23151,7 +24381,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=296",
           "accessed_at": "2026-10-09"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "name_zh": "相澤David",
@@ -23622,7 +24867,28 @@
           "accessed_at": "2026-10-09"
         }
       ],
-      "player_image": "https://www.oita-trinita.co.jp/wp/wp-content/uploads/2026/08/aizawa-1-1024x795.png"
+      "player_image": "https://www.oita-trinita.co.jp/wp/wp-content/uploads/2026/08/aizawa-1-1024x795.png",
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "7月29日已公布育成型外借大分至2027年6月30日；此為歷史卡，不列作本場神戶可選球員。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "神戶官方・相澤外借大分",
+            "url": "https://www.vissel-kobe.co.jp/news/article/26749.html",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-07-29"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_46",
@@ -23965,7 +25231,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=361",
           "accessed_at": "2026-10-09"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_53",
@@ -24501,7 +25782,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=363",
           "accessed_at": "2026-10-09"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_55",
@@ -25011,7 +26307,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=348",
           "accessed_at": "2026-10-09"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_57",
@@ -25518,7 +26829,22 @@
           "url": "https://www.vissel-kobe.co.jp/news/article/25251.html",
           "accessed_at": "2026-10-09"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "未見於當前J.League神戶名單；2026/27特別指定認定尚未確認，不由此推斷離隊或受傷。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_58",
@@ -25991,7 +27317,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=364",
           "accessed_at": "2026-10-09"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_71",
@@ -26971,21 +28312,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 6,
+          "appearances": 7,
           "goals": 0,
           "status": "職業球員",
-          "notes": "截至10月9日所讀官方季表；ACLE1場另計，當日之後更新不推算。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶現役身份、照片、逐年聯賽及本人Q&A",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=350",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "共用J.League Data Site：2026/27神戶紀錄，10月9日查詢",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-09"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -27116,21 +28452,17 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 6,
+          "appearances": 7,
           "goals": 0,
-          "as_of": "2026-10-09",
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "神戶現役身份、照片、逐年聯賽及本人Q&A",
-              "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=350",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "共用J.League Data Site：2026/27神戶紀錄，10月9日查詢",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-09"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         }
       ],
       "career_audit": {
@@ -27192,7 +28524,22 @@
           "url": "https://www.vissel-kobe.co.jp/profile/?mode=detail&id=350",
           "accessed_at": "2026-10-09"
         }
-      ]
+      ],
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      }
     },
     {
       "id": "kobe_94",
@@ -27959,26 +29306,16 @@
           "season": "2026/27",
           "team": "神戶勝利船",
           "competition": "J1",
-          "appearances": 3,
+          "appearances": 4,
           "goals": 1,
           "status": "9月9日完全加盟",
-          "notes": "10月9日官方球會季表及Data Site：3場153分鐘1球。J.League個人總覽暫2場1球，但比賽歷已列10月9日第三場；採已更新球會／Data Site。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "神戶現役身份、照片與2026/27季表",
-              "url": "https://www.vissel-kobe.co.jp/profile/?id=395&mode=detail",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "共用J.League Data Site：2026/27神戶紀錄，10月9日查詢",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year=2026&competition_year_ex=2026&competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&team_id=18&team_id_ex=18&dataSize=1&pageStartNo=0",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "J.League本人逐季履歷及2023兩項大獎",
-              "url": "https://www.jleague.jp/player/1627565/",
-              "accessed_at": "2026-10-09"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -28179,26 +29516,17 @@
           "season": "2026/27",
           "team": "町田澤維亞",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "as_of": "2026-10-09",
+          "appearances": 4,
+          "goals": 1,
+          "as_of": "2026-10-18",
           "sources": [
             {
-              "label": "J.League本人逐季履歷及2023兩項大獎",
-              "url": "https://www.jleague.jp/player/1627565/",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "神戶2026-09-09完全加盟、路線及各國聯賽總數",
-              "url": "https://www.vissel-kobe.co.jp/news/article/26911.html",
-              "accessed_at": "2026-10-09"
-            },
-            {
-              "label": "日刊Sports2026-09-09：神戶回歸、教練多位置觀察",
-              "url": "https://www.nikkansports.com/soccer/news/202609090000820.html?mode=all",
-              "accessed_at": "2026-10-09"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kobe/player/",
+              "accessed_at": "2026-10-21"
             }
-          ]
+          ],
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。"
         },
         {
           "season": "2026/27",
@@ -28285,6 +29613,30 @@
           "中国22/7+26/8=官方48/15；日本逐季採J.League。",
           "葡文Pan4/1表漏銅牌戰；RSSSF Brasil五場完整lineup確認Pan5/1、三月U23友賽2/0另計，Globo銅牌戰確有Erik正選。U20 Toulon1/1另計，八場兩球不可當成年caps。可選州賽／盃賽／母會數字未知。",
           "JL總覽現季2/1比比賽歷及球會／Data Site3/1滯後，記錄截止及採用理由。"
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "川崎前鋒",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kobe/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "神戶官方・艾歷斯J1通算100場紀念公告",
+            "url": "https://www.vissel-kobe.co.jp/news/article/27090.html",
+            "published_at": "2026-10-20",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": [],
+        "milestones": [
+          "2026-10-18對岡山達J1通算100場；20日球會紀念公告確認。"
         ]
       }
     }

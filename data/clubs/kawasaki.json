@@ -678,7 +678,69 @@
       }
     ],
     "verification_status": "verified",
-    "verified_at": "2026-09-19"
+    "verified_at": "2026-09-19",
+    "interviews": [
+      {
+        "team_slug": "kawasaki",
+        "speaker": "長谷部茂利",
+        "role": "主教練",
+        "topic": "不依賴單一得分點",
+        "paraphrase_zh": "回顧連續兩仗各入4球，認為來自球員能力及全隊共同爭取入球的累積。",
+        "published_at": "2026-10-19",
+        "context": "pre_match",
+        "outlet": "東スポWEB",
+        "url": "https://news.livedoor.com/article/detail/32604626/",
+        "quote_ja": "全員でゴールを狙っていこう",
+        "quote_zh": "全隊一起爭取入球。"
+      },
+      {
+        "team_slug": "kawasaki",
+        "speaker": "長谷部茂利",
+        "role": "主教練",
+        "topic": "訓練如何變成比賽表現",
+        "paraphrase_zh": "教練帶領的操練及球員自主練習正反映在比賽，全隊朝同一方向準備。",
+        "published_at": "2026-10-19",
+        "context": "pre_match",
+        "outlet": "東スポWEB",
+        "url": "https://news.livedoor.com/article/detail/32604626/"
+      },
+      {
+        "team_slug": "kawasaki",
+        "speaker": "長谷部茂利",
+        "role": "主教練",
+        "topic": "尊重對手但以挑戰者心態出擊",
+        "paraphrase_zh": "尊重史基比的足球知識，仍希望全力挑戰百年構想聯賽冠軍，讓到場球迷開心。",
+        "published_at": "2026-10-19",
+        "context": "pre_match",
+        "outlet": "東スポWEB",
+        "url": "https://news.livedoor.com/article/detail/32604626/"
+      },
+      {
+        "team_slug": "kawasaki",
+        "speaker": "長谷部茂利",
+        "role": "主教練",
+        "topic": "把近期攻勢帶回主場",
+        "paraphrase_zh": "報道指出今季主場聯賽只在8月29日對千葉贏過；教練盼這場勝利帶來主場喜悅。",
+        "published_at": "2026-10-19",
+        "context": "pre_match",
+        "outlet": "東スポWEB",
+        "url": "https://news.livedoor.com/article/detail/32604626/"
+      }
+    ],
+    "match_week": {
+      "fixture_date": "2026-10-21",
+      "opponent": "神戶勝利船",
+      "as_of": "2026-10-21",
+      "selection_status": "已補最新賽前訪問；人選以正式名單為準。",
+      "sources": [
+        {
+          "label": "東スポWEB・19日長谷部網上記者會／livedoor轉載",
+          "url": "https://news.livedoor.com/article/detail/32604626/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-10-19"
+        }
+      ]
+    }
   },
   "players": [
     {
@@ -1482,6 +1544,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -2128,6 +2205,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -2640,13 +2732,13 @@
           "appearances": 7,
           "goals": 0,
           "status": "現役",
-          "notes": "數據截至2026-09-19第8輪；Data Site更新2026-09-20；與2026百年構想聯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League Data Site：2026/27川崎逐場出場表（更新2026-09-20；截至9月19日第8輪）",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -2657,10 +2749,22 @@
           "competition": "J1",
           "appearances": 7,
           "goals": 0,
-          "minutes": 616,
-          "as_of": "2026-09-20",
-          "notes": "比賽截至2026-09-19第8輪；更新日期2026-09-20。",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 616,
+              "as_of": "2026-09-20",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -2765,6 +2869,39 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "谷口榮斗9月28日操練受傷，10月12日公布右長內收肌拉傷；紺野和也9月6日受傷，10月12日公布右Lisfranc韌帶損傷；林駿佑10月4日公布左膝內側副韌帶損傷。公告未給復出日，不自行估計。 本場可用性仍以官方名單及醫療更新為準。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・谷口榮斗傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1012_2.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          },
+          {
+            "label": "川崎官方・紺野和也傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1012_1.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          },
+          {
+            "label": "川崎官方・林駿佑傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1004_1.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-04"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -3381,16 +3518,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 7,
-          "goals": 1,
+          "appearances": 9,
+          "goals": 2,
           "status": "現役",
-          "notes": "數據截至2026-09-19第8輪；Data Site更新2026-09-20；與2026百年構想聯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League Data Site：2026/27川崎逐場出場表（更新2026-09-20；截至9月19日第8輪）",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -3399,12 +3536,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 7,
-          "goals": 1,
-          "minutes": 622,
-          "as_of": "2026-09-20",
-          "notes": "比賽截至2026-09-19第8輪；更新日期2026-09-20。",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21"
+          "appearances": 9,
+          "goals": 2,
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 622,
+              "as_of": "2026-09-20",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -3518,6 +3667,35 @@
             "url": "https://www.frontale.co.jp/info/2026/0701_3.html",
             "accessed_at": "2026-09-30"
           }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "17日佐佐木旭31分鐘、柏度・羅曼奴半場被換。長谷部表示自己看到不適跡象後主動安排換人，當時認為未必嚴重；這是教練初步看法，並非醫療診斷，也不等於周三已可上陣。 本場可用性仍以官方名單及醫療更新為準。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・大阪櫻花戰賽報及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-17"
+          },
+          {
+            "label": "J.League Data Site・川崎第10節後出場及警告表",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-17"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": [
+          "聯賽累積3黃牌，距4牌停賽門檻1張；並非本場已停賽。"
         ]
       }
     },
@@ -3928,16 +4106,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
           "status": "現役",
-          "notes": "數據截至2026-09-19第8輪；Data Site更新2026-09-20；與2026百年構想聯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League Data Site：2026/27川崎逐場出場表（更新2026-09-20；截至9月19日第8輪）",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -3946,12 +4124,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
-          "minutes": 400,
-          "as_of": "2026-09-20",
-          "notes": "比賽截至2026-09-19第8輪；更新日期2026-09-20。",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 400,
+              "as_of": "2026-09-20",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -4036,6 +4226,27 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "17日佐佐木旭31分鐘、柏度・羅曼奴半場被換。長谷部表示自己看到不適跡象後主動安排換人，當時認為未必嚴重；這是教練初步看法，並非醫療診斷，也不等於周三已可上陣。 本場可用性仍以官方名單及醫療更新為準。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・大阪櫻花戰賽報及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-17"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -4571,16 +4782,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 1,
           "status": "現役",
-          "notes": "數據截至2026-09-19第8輪；Data Site更新2026-09-20；與2026百年構想聯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League Data Site：2026/27川崎逐場出場表（更新2026-09-20；截至9月19日第8輪）",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -4589,12 +4800,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 1,
-          "minutes": 702,
-          "as_of": "2026-09-20",
-          "notes": "比賽截至2026-09-19第8輪；更新日期2026-09-20。",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 702,
+              "as_of": "2026-09-20",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -4669,6 +4892,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -5111,16 +5349,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 0,
+          "appearances": 10,
+          "goals": 1,
           "status": "現役",
-          "notes": "數據截至2026-09-19第8輪；Data Site更新2026-09-20；與2026百年構想聯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League Data Site：2026/27川崎逐場出場表（更新2026-09-20；截至9月19日第8輪）",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -5129,12 +5367,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 0,
-          "minutes": 673,
-          "as_of": "2026-09-20",
-          "notes": "比賽截至2026-09-19第8輪；更新日期2026-09-20。",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21"
+          "appearances": 10,
+          "goals": 1,
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 673,
+              "as_of": "2026-09-20",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -5199,6 +5449,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -6009,13 +6274,13 @@
           "appearances": 4,
           "goals": 2,
           "status": "現役",
-          "notes": "數據截至2026-09-19第8輪；Data Site更新2026-09-20；與2026百年構想聯賽分開。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League Data Site：2026/27川崎逐場出場表（更新2026-09-20；截至9月19日第8輪）",
-              "url": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -6026,10 +6291,22 @@
           "competition": "J1",
           "appearances": 4,
           "goals": 2,
-          "minutes": 198,
-          "as_of": "2026-09-20",
-          "notes": "比賽截至2026-09-19第8輪；更新日期2026-09-20。",
-          "source": "https://data.j-league.or.jp/SFPR01/search?competition_year_ex=2026&competition_frame_id_ex=1&competition_id_ex=725&team_id_ex=21&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%2F27&selectedTeamName=%E5%B7%9D%E5%B4%8E%E3%83%95%E3%83%AD%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%AC&competition_year=2026&competition_frame_id=1&competition_id=725&team_id=21"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 198,
+              "as_of": "2026-09-20",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -6134,6 +6411,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -6958,6 +7250,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -7722,21 +8029,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 0,
+          "appearances": 1,
           "goals": 0,
           "status": "現役",
-          "notes": "J.League更新9月25日0場；9月23日公告2027-01-01退役，不能提前列作已退役。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/801035/",
-              "accessed_at": "2026-09-30"
-            },
-            {
-              "label": "2026-09-23 川崎：小林2027-01-01退役及紀錄",
-              "url": "https://www.frontale.co.jp/info/2026/0923_1.html",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -7745,12 +8047,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 0,
+          "appearances": 1,
           "goals": 0,
-          "minutes": 0,
-          "as_of": "2026-09-25",
-          "source": "https://www.jleague.jp/player/801035/",
-          "notes": "個人頁0場；9月23日公告亦列0。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 0,
+              "as_of": "2026-09-25",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -7885,6 +8199,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -8390,16 +8719,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
           "status": "現役",
-          "notes": "截至9月19日比賽，個人頁更新9月28日；8場分鐘合計476。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1634321/",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -8408,12 +8737,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
-          "minutes": 476,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1634321/",
-          "notes": "比賽截至9月19日；分鐘由個人頁8場90+90+8+90+33+31+59+75加總。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 476,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -8518,6 +8859,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -9023,16 +9379,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 2,
+          "appearances": 10,
+          "goals": 4,
           "status": "現役",
-          "notes": "個人頁9月28日更新，聯賽比賽截至9月19日。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1614103/",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         },
@@ -9143,12 +9499,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
-          "goals": 2,
-          "minutes": 720,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1614103/",
-          "notes": "8場各90分鐘，2助攻；比賽截至9月19日。"
+          "appearances": 10,
+          "goals": 4,
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 720,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -9214,6 +9582,21 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -9644,16 +10027,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
+          "appearances": 8,
+          "goals": 1,
           "status": "現役",
-          "notes": "9月28日更新，最近出場9月12日。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1639107/",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -9662,12 +10045,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 6,
-          "goals": 0,
-          "minutes": 86,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1639107/",
-          "notes": "6場分鐘7+17+2+31+14+15；最近聯賽出場9月12日。"
+          "appearances": 8,
+          "goals": 1,
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 86,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -9752,7 +10147,48 @@
             "accessed_at": "2026-09-30"
           }
         ]
-      }
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
+      },
+      "interviews": [
+        {
+          "team_slug": "kawasaki",
+          "speaker": "大關友翔",
+          "role": "球員",
+          "topic": "後備角色與連續交出成果",
+          "paraphrase_zh": "此前8次聯賽出場均為後備，17日取得今季聯賽首球；希望任何角色都用成果爭取位置。",
+          "published_at": "2026-10-20",
+          "context": "pre_match",
+          "outlet": "體育日本",
+          "url": "https://news.livedoor.com/article/detail/32607070/",
+          "quote_ja": "少ない時間でも自分の価値を示し続けていきたい",
+          "quote_zh": "即使時間不多，也要持續展示自己的價值。"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "大關友翔",
+          "role": "球員",
+          "topic": "連勝的意義",
+          "paraphrase_zh": "神戶領先6分，盼球隊用連勝追近上游；不能只停留於上仗個人入球。",
+          "published_at": "2026-10-20",
+          "context": "pre_match",
+          "outlet": "體育日本",
+          "url": "https://news.livedoor.com/article/detail/32607070/"
+        }
+      ]
     },
     {
       "id": "kawasaki_17",
@@ -10401,16 +10837,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 2,
           "status": "現役",
-          "notes": "9月28日更新，聯賽截至9月19日；9月29日聯賽盃79分鐘另計。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1614208/",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -10419,12 +10855,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 2,
-          "minutes": 654,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1614208/",
-          "notes": "聯賽8場，分鐘86+76+89+78+90+59+76+90；最新杯賽另計。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 654,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -10529,6 +10977,29 @@
             "url": "https://www.reuters.com/sports/soccer/facing-ronaldo-like-video-game-says-kawasakis-asian-champions-league-hero-ito-2025-04-30/",
             "accessed_at": "2026-09-30"
           }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "J.League Data Site・川崎第10節後出場及警告表",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-17"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": [
+          "聯賽累積3黃牌，距4牌停賽門檻1張；並非本場已停賽。"
         ]
       }
     },
@@ -11082,13 +11553,13 @@
           "appearances": 4,
           "goals": 0,
           "status": "現役",
-          "notes": "9月28日更新，最近上陣9月12日。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1624510/",
-              "accessed_at": "2026-09-30"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -11099,10 +11570,22 @@
           "competition": "J1",
           "appearances": 4,
           "goals": 0,
-          "minutes": 132,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1624510/",
-          "notes": "四場分鐘14+45+12+61；最近聯賽出場9月12日。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 132,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -11167,6 +11650,39 @@
             "accessed_at": "2026-09-30"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "谷口榮斗9月28日操練受傷，10月12日公布右長內收肌拉傷；紺野和也9月6日受傷，10月12日公布右Lisfranc韌帶損傷；林駿佑10月4日公布左膝內側副韌帶損傷。公告未給復出日，不自行估計。 本場可用性仍以官方名單及醫療更新為準。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・谷口榮斗傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1012_2.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          },
+          {
+            "label": "川崎官方・紺野和也傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1012_1.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          },
+          {
+            "label": "川崎官方・林駿佑傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1004_1.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-04"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -11669,16 +12185,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 6,
+          "appearances": 7,
           "goals": 0,
           "status": "現役",
-          "notes": "9月19日為最新聯賽出場；6場合計37分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1629412/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -11687,12 +12203,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 6,
+          "appearances": 7,
           "goals": 0,
-          "minutes": 37,
-          "as_of": "2026-09-19",
-          "source": "https://www.jleague.jp/player/1629412/",
-          "notes": "6場分鐘14+9+7+2+1+4；聯賽盃另計。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 37,
+              "as_of": "2026-09-19",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -11757,6 +12285,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -12102,16 +12645,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 1,
           "status": "現役",
-          "notes": "個人頁更新9月28日；222分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1641674/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -12120,12 +12663,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 5,
+          "appearances": 6,
           "goals": 1,
-          "minutes": 222,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1641674/",
-          "notes": "正式2026/27；不含百年構想4場3球。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 222,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -12200,6 +12755,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -12801,6 +13371,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -13441,16 +14026,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 3,
+          "appearances": 5,
           "goals": 0,
           "status": "現役",
-          "notes": "個人頁更新9月28日；114分鐘；9月29日聯賽盃入球另計。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1652877/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -13459,12 +14044,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 3,
+          "appearances": 5,
           "goals": 0,
-          "minutes": 114,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1652877/",
-          "notes": "J1三場；9月29日聯賽盃對熊本1球獨立。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 114,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -13549,6 +14146,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -14128,16 +14740,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 6,
           "status": "現役",
-          "notes": "更新9月28日；485分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1635026/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -14146,12 +14758,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 6,
-          "minutes": 485,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1635026/",
-          "notes": "分鐘29+80+59+57+64+45+83+68；不含百年構想。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 485,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -14236,6 +14860,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -14839,13 +15478,13 @@
           "appearances": 2,
           "goals": 0,
           "status": "現役",
-          "notes": "9月28日頁；14分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1627747/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -14856,10 +15495,22 @@
           "competition": "J1",
           "appearances": 2,
           "goals": 0,
-          "minutes": 14,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1627747/",
-          "notes": "正式J1兩次後備4及10分鐘。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 14,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -14924,6 +15575,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -15267,13 +15933,13 @@
           "appearances": 1,
           "goals": 0,
           "status": "現役",
-          "notes": "9月6日對清水首演1分鐘；更新9月28日。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1637126/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -15284,10 +15950,22 @@
           "competition": "J1",
           "appearances": 1,
           "goals": 0,
-          "minutes": 1,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1637126/",
-          "notes": "9月6日對清水；U21與9月29日聯賽盃另計。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 1,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -15362,6 +16040,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -15899,6 +16592,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -16621,16 +17329,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 3,
           "goals": 0,
           "status": "現役",
-          "notes": "9月28日更新；97分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1101476/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -16639,12 +17347,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 3,
           "goals": 0,
-          "minutes": 97,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1101476/",
-          "notes": ""
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 97,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -16739,6 +17459,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -17212,16 +17947,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 9,
           "goals": 0,
           "status": "現役",
-          "notes": "9月28日更新；611分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1632749/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -17230,12 +17965,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 7,
+          "appearances": 9,
           "goals": 0,
-          "minutes": 611,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1632749/",
-          "notes": ""
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 611,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -17320,6 +18067,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -17668,6 +18430,27 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "10月3日U-21對東京綠茵受傷；18日球會公告右腓腸肌拉傷，未公布復出日期。 本場可用性仍以官方名單及醫療更新為準。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・野田裕人傷患（18日公告）",
+            "url": "https://www.frontale.co.jp/info/2026/1018_1.html",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-18"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -18114,6 +18897,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -18540,6 +19338,39 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "谷口榮斗9月28日操練受傷，10月12日公布右長內收肌拉傷；紺野和也9月6日受傷，10月12日公布右Lisfranc韌帶損傷；林駿佑10月4日公布左膝內側副韌帶損傷。公告未給復出日，不自行估計。 本場可用性仍以官方名單及醫療更新為準。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・谷口榮斗傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1012_2.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          },
+          {
+            "label": "川崎官方・紺野和也傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1012_1.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-12"
+          },
+          {
+            "label": "川崎官方・林駿佑傷患",
+            "url": "https://www.frontale.co.jp/info/2026/1004_1.html",
+            "accessed_at": "2026-10-18",
+            "published_at": "2026-10-04"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -18927,6 +19758,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -19139,16 +19985,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 3,
           "goals": 0,
           "status": "現役",
-          "notes": "9月28日53分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1644660/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -19157,12 +20003,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 2,
+          "appearances": 3,
           "goals": 0,
-          "minutes": 53,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1644660/",
-          "notes": ""
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 53,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -19247,6 +20105,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -19591,6 +20464,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -19848,13 +20736,13 @@
           "appearances": 2,
           "goals": 0,
           "status": "在學中登錄",
-          "notes": "8月22日對廣島首演；兩場50分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1642082/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -19865,10 +20753,22 @@
           "competition": "J1",
           "appearances": 2,
           "goals": 0,
-          "minutes": 50,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1642082/",
-          "notes": ""
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 50,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -19933,6 +20833,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -20309,6 +21224,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -20685,6 +21615,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -21737,16 +22682,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
           "status": "現役",
-          "notes": "截至9月28日一場4分鐘，聯賽盃另計。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/4609/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -21755,12 +22700,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 1,
+          "appearances": 2,
           "goals": 0,
-          "minutes": 4,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/4609/",
-          "notes": ""
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 4,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -21865,6 +22822,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -22526,16 +23498,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
           "status": "現役",
-          "notes": "720分鐘、1場零失球；截至9月28日。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1634662/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -22544,12 +23516,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 8,
+          "appearances": 10,
           "goals": 0,
-          "minutes": 720,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1634662/",
-          "notes": "1場零失球；不含特別聯賽。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 720,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -22654,6 +23638,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -23193,6 +24192,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     },
     {
@@ -23628,21 +24642,16 @@
           "season": "2026/27",
           "team": "川崎前鋒",
           "competition": "J1",
-          "appearances": 4,
+          "appearances": 6,
           "goals": 1,
           "status": "七月完全轉會",
-          "notes": "8月29日對千葉首演入球；243分鐘。",
+          "notes": "聯賽首10輪截至18日；21日核對最新J.League名單。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "2026-07-28川崎正式加盟公告",
-              "url": "https://www.frontale.co.jp/info/2026/0728_1.html",
-              "accessed_at": "2026-10-01"
-            },
-            {
-              "label": "J.League個人頁：2026/27聯賽及更新日期",
-              "url": "https://www.jleague.jp/player/1657622/",
-              "accessed_at": "2026-10-01"
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
             }
           ]
         }
@@ -23651,12 +24660,24 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": 4,
+          "appearances": 6,
           "goals": 1,
-          "minutes": 243,
-          "as_of": "2026-09-28",
-          "source": "https://www.jleague.jp/player/1657622/",
-          "notes": "51+64+45+83；助攻3按個人頁，聯賽盃另計。"
+          "as_of": "2026-10-18",
+          "notes": "21日核對J.League當前名單；已賽至18日第10節。只更新聯賽出場／入球，分鐘及助攻另查。",
+          "previous_snapshot": {
+            "minutes": {
+              "value": 243,
+              "as_of": "2026-09-28",
+              "note": "舊截點，未冒充首10輪數字。"
+            }
+          },
+          "sources": [
+            {
+              "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+              "url": "https://www.jleague.jp/club/kawasakif/player/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
         }
       ],
       "sources": [
@@ -23781,6 +24802,21 @@
             "accessed_at": "2026-10-01"
           }
         ]
+      },
+      "match_week": {
+        "fixture_date": "2026-10-21",
+        "opponent": "神戶勝利船",
+        "as_of": "2026-10-21",
+        "selection_status": "正式本場正選／後備尚未公布；在名單中不等於已確認入選。",
+        "sources": [
+          {
+            "label": "J.League・最新公式名單及2026/27聯賽出場／入球（首10輪）",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-10-21"
+          }
+        ],
+        "recent_form": [],
+        "matchup_notes": []
       }
     }
   ]
