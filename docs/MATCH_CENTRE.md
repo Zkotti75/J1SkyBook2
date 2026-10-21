@@ -43,3 +43,13 @@ claim 使用 `{text,kind,as_of,sources:[{label,url,published_at,accessed_at}]}`�
 featured切換21日川崎對神戶；町田對福岡研究檔及既有驗證保留。新檔含11節前瞻、12則近期訪問摘要、38輪聯賽及已確定成年隊盃賽、完整第10節榜。2027日期範圍按官方保留；首9輪進階統計明示10月12日截點。未公布的本場正選及球證留空。
 
 本場青年焦點可含match_profile（官方日文姓名、位置、官方URL），只在永久目錄未有該人且description附來源時展示獨立本場研究卡；不產生失效的永久球員連結，亦不宣稱完成另一研究室的球員批次。岩本悠庵使用此機制。
+
+### 24 October 2026 assignment
+
+Featured dossier: `data/matches/2026-10-24-kashima-kashiwa.json` (Kashima–Kashiwa, 15:00 JST / 14:00 HKT). Wednesday's Kawasaki–Kobe dossier remains archived unchanged. Sunday Kawasaki–Okayama is the next confirmed assignment, outside this preparation scope.
+
+The 21 October evening sweep verifies Kyoto 2–2 Kashima and FC Tokyo 0–0 Kashiwa. Both clubs have 11 completed league games. The league table is one SportsNavi snapshot with some clubs still on 10 games; it is explicitly not a completed-round table. Formation/CBP/assist baselines remain Football LAB's 19 October update through ten rounds. Official schedules provide all 38 league rounds plus confirmed cups, with 2027 date windows retained.
+
+`workload` records each player's first-ten-round starts, 17 October nominal minutes, and 21 October nominal minutes. Halftime changes count as 45; stoppage time is excluded. Rotation is six starting changes for Kashima and four for Kashiwa. This is not a medical assessment.
+
+The official 21 October post-match interview slots were empty at the cutoff. `quote_events` remains empty until current-window comments are published; `quote_background` displays older 17/18 October material separately, dated and side by side. Never move background comments into the current interview window. Recheck post-match comments, Friday training and previews, goalkeeper clearance, current suspensions, three-yellow counts, official lineups, six officials, and match-day weather before kickoff. Player-card completion status and club research queues are unchanged.

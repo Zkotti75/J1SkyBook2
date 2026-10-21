@@ -54,6 +54,10 @@ function archivedStyle(club) {
   if (!m?.tactical_traits?.length) return blank();
   return `<div class="snapshot-label">教練理念・館藏資料 ${e(m.verified_at || club.team.roster_as_of || '')}<br>此為既有教練研究，並非本場操練或陣式確認。</div><p><strong>${e(m.name_zh || m.name_en)}</strong></p>${m.tactical_traits.map(t=>`<p>${e(t)}</p>`).join('')}<div class="source-list">${sources(m.sources)}</div>`;
 }
+function workloadTable(w) {
+  if (!w?.minutes?.length) return '';
+  return `<p>${e(w.minutes_note)}</p><div class="table-wrap"><table class="match-table"><thead><tr><th>球員</th><th>首10輪先發</th><th>${e(w.baseline_match_date)} 分鐘</th><th>${e(w.match_date)} 分鐘</th><th>上仗角色</th></tr></thead><tbody>${w.minutes.map(p=>`<tr><td>#${e(p.number)} ${e(p.name)}</td><td>${field(p.normal_starts)}</td><td>${field(p.prior_minutes)}</td><td>${e(p.minutes)}</td><td>${p.started ? '正選' : p.minutes ? '後備上陣' : '未上陣'}</td></tr>`).join('')}</tbody></table></div><div class="source-list">${sources(w.sources)}</div>`;
+}
 function comparison(ctx) {
   const a = ctx.dossier?.teams?.[ctx.home.team.slug] || {}, b = ctx.dossier?.teams?.[ctx.away.team.slug] || {};
   let html = pair(ctx, stats(ctx.home,a.stats), stats(ctx.away,b.stats), '球季數據快覽');
@@ -62,6 +66,7 @@ function comparison(ctx) {
   html += pair(ctx, formationGraphic(a.formation), formationGraphic(b.formation), '陣式圖');
   if (!a.formation && !b.formation) html += '<details class="formation-demo"><summary>查看陣式圖版面示意</summary><div class="comparison-pair">' + `<div class="comparison-cell">${formationGraphic({shape:'4-2-3-1'}, true)}</div><div class="comparison-cell">${formationGraphic({shape:'3-4-2-1'}, true)}</div></div></details>`;
   if (a.rotation_notes?.length || b.rotation_notes?.length) html += pair(ctx, claims(a.rotation_notes), claims(b.rotation_notes), '周中輪換與常用主力負荷');
+  if (a.workload || b.workload) html += pair(ctx,workloadTable(a.workload),workloadTable(b.workload),'逐人分鐘比較・17日與21日');
   for (const [key, label] of [['form','近期戰績與連勝／不敗走勢'],['scorers','本季入球領先球員'],['assists','本季助攻領先球員'],['transfers','近期轉會'],['suspensions','停賽'],['injuries','傷患與出場狀況'],['yellow_risk','黃牌累積・停賽邊緣']]) html += pair(ctx, claims(a[key]), claims(b[key]), label);
   return html;
 }
@@ -84,7 +89,8 @@ function quotes(ctx) {
     const videoHtml=videos.map(v=>`<article class="event-quote"><strong>${e(v.speaker)}</strong><p>官方訪問影片・未核對逐字稿</p>${sources([{url:v.url,label:v.outlet,published_at:v.published_at}])}</article>`).join('');
     return entries.length || videos.length ? card(event.title,`${event.summary ? `<p>${e(event.summary)}</p>` : ''}<div class="event-quotes">${entries.map(q=>`<article class="event-quote">${quoteCell(q)}</article>`).join('')}${videoHtml}</div>`,event.date || '') : '';
   }).join('');
-  return card('近期訪問・按事件整理','<p class="match-description">收錄上仗賽後至本場的發言，較新事件在前。每則保留人物、問題、日期及出處；短引句附日文原句，其餘標作訪問摘要。</p>') + (content || card('近期訪問',blank('尚未收錄本場訪問')));
+  const background = (d?.quote_background || []).map(row=>pair(ctx,quoteCell(row.home),quoteCell(row.away),row.topic)).join('');
+  return card('近期訪問・按事件整理','<p class="match-description">收錄上仗賽後至本場的發言，較新事件在前。每則保留人物、問題、日期及出處；短引句附日文原句，其餘標作訪問摘要。</p>') + (d?.quote_status ? card('本場採訪進度',claim(d.quote_status)) : '') + (content || card('近期訪問',blank('尚未收錄本場訪問'))) + (background ? card('較早背景訪問・按題並排', '<p>以下發言早於上仗，保留原日期，只供背景參考。</p>'+background) : '');
 }
 function focusPlayer(club, entry) {
   const p = club.players?.find(p => p.id === entry.player_id || String(p.number) === String(entry.number));

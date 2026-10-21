@@ -1,0 +1,4424 @@
+{
+  "schema_version": 1,
+  "home": "kashima",
+  "away": "kashiwa",
+  "date": "2026-10-24",
+  "as_of": "2026-10-21",
+  "coverage_note": "21日晚首輪準備：已核實兩隊第11節終場、輪換及名義分鐘；完整38輪聯賽及已定盃賽。Football LAB陣式／助攻只至首10輪。21日賽後訪問尚待刊出，17／18日背景聲音另列；24日正選、球證、停賽及天氣待賽前覆核。",
+  "match_info": {
+    "kickoff_hkt": "14:00（日本15:00）",
+    "stadium": "Mercari Stadium（メルカリスタジアム）",
+    "referee": null,
+    "lineups_as_of": null,
+    "selection_note": "24日正式名單待公布；陣式圖為常用架構及已知人腳示意，並非預測正選。",
+    "sources": [
+      {
+        "label": "J.League・24日第12節鹿島對柏",
+        "url": "https://www.jleague.jp/match/j1/2026/102407/",
+        "accessed_at": "2026-10-21"
+      }
+    ],
+    "officials": {
+      "status": "awaiting_appointment",
+      "checked_at": "2026-10-21T21:30+09:00",
+      "checked_at_display": "2026-10-21 晚間",
+      "note": "24日球證組尚未核實；不沿用21日兩場比賽的人員。",
+      "roles": [
+        {
+          "id": "referee",
+          "label": "主球證",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "assistant_1",
+          "label": "旁證1",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "assistant_2",
+          "label": "旁證2",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "fourth_official",
+          "label": "第4球證",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "var",
+          "label": "VAR",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "avar",
+          "label": "AVAR",
+          "name_ja": null,
+          "status": "pending"
+        }
+      ],
+      "sources": [
+        {
+          "label": "J.League・24日第12節鹿島對柏",
+          "url": "https://www.jleague.jp/match/j1/2026/102407/",
+          "accessed_at": "2026-10-21"
+        }
+      ]
+    }
+  },
+  "teams": {
+    "kashima": {
+      "previous_match_date": "2026-10-21",
+      "game_log": [
+        {
+          "date": "2026-08-07",
+          "date_display": "2026-08-07",
+          "sort_date": "2026-08-07",
+          "round": 1,
+          "competition": "J1 第1節",
+          "venue": "客",
+          "opponent": "橫濱水手",
+          "score": "4–3",
+          "source": "https://www.antlers.co.jp/blogs/games/20260613203237"
+        },
+        {
+          "date": "2026-08-15",
+          "date_display": "2026-08-15",
+          "sort_date": "2026-08-15",
+          "round": 2,
+          "competition": "J1 第2節",
+          "venue": "主",
+          "opponent": "名古屋鯨魚",
+          "score": "2–1",
+          "source": "https://www.antlers.co.jp/blogs/games/20260613205018"
+        },
+        {
+          "date": "2026-08-22",
+          "date_display": "2026-08-22",
+          "sort_date": "2026-08-22",
+          "round": 3,
+          "competition": "J1 第3節",
+          "venue": "主",
+          "opponent": "福岡黃蜂",
+          "score": "3–2",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616130230"
+        },
+        {
+          "date": "2026-08-26",
+          "date_display": "2026-08-26",
+          "sort_date": "2026-08-26",
+          "round": null,
+          "competition": "天皇盃 ２回戦",
+          "venue": "主（球會主場）",
+          "opponent": "アトレチコ鈴鹿クラブ",
+          "score": "3–0",
+          "source": "https://www.antlers.co.jp/blogs/games/2026082601"
+        },
+        {
+          "date": "2026-08-29",
+          "date_display": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "round": 4,
+          "competition": "J1 第4節",
+          "venue": "客",
+          "opponent": "東京綠茵",
+          "score": "2–0",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616130713"
+        },
+        {
+          "date": "2026-09-02",
+          "date_display": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "round": 5,
+          "competition": "J1 第5節",
+          "venue": "客",
+          "opponent": "水戶蜀葵",
+          "score": "2–4",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144502"
+        },
+        {
+          "date": "2026-09-06",
+          "date_display": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "round": 6,
+          "competition": "J1 第6節",
+          "venue": "主",
+          "opponent": "浦和紅鑽",
+          "score": "0–1",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616131021"
+        },
+        {
+          "date": "2026-09-11",
+          "date_display": "2026-09-11",
+          "sort_date": "2026-09-11",
+          "round": 7,
+          "competition": "J1 第7節",
+          "venue": "客",
+          "opponent": "神戶勝利船",
+          "score": "1–2",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616131142"
+        },
+        {
+          "date": "2026-09-15",
+          "date_display": "2026-09-15",
+          "sort_date": "2026-09-15",
+          "round": null,
+          "competition": "ACLE MD1",
+          "venue": "主",
+          "opponent": "ニューカッスル・ジェッツ",
+          "score": "7–1",
+          "source": "https://www.antlers.co.jp/blogs/games/20260915190016"
+        },
+        {
+          "date": "2026-09-19",
+          "date_display": "2026-09-19",
+          "sort_date": "2026-09-19",
+          "round": 8,
+          "competition": "J1 第8節",
+          "venue": "客",
+          "opponent": "川崎前鋒",
+          "score": "3–3",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616131243"
+        },
+        {
+          "date": "2026-09-23",
+          "date_display": "2026-09-23",
+          "sort_date": "2026-09-23",
+          "round": null,
+          "competition": "天皇盃 ３回戦",
+          "venue": "主（球會主場）",
+          "opponent": "ヴァンフォーレ甲府",
+          "score": "3–1",
+          "source": "https://www.antlers.co.jp/blogs/games/2026092317"
+        },
+        {
+          "date": "2026-10-09",
+          "date_display": "2026-10-09",
+          "sort_date": "2026-10-09",
+          "round": 9,
+          "competition": "J1 第9節",
+          "venue": "主",
+          "opponent": "大阪飛腳",
+          "score": "2–0",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616131359"
+        },
+        {
+          "date": "2026-10-13",
+          "date_display": "2026-10-13",
+          "sort_date": "2026-10-13",
+          "round": null,
+          "competition": "ACLE MD2",
+          "venue": "客",
+          "opponent": "コンアン・ハノイ",
+          "score": "1–0",
+          "source": "https://www.antlers.co.jp/blogs/games/20261013191526"
+        },
+        {
+          "date": "2026-10-17",
+          "date_display": "2026-10-17",
+          "sort_date": "2026-10-17",
+          "round": 10,
+          "competition": "J1 第10節",
+          "venue": "主",
+          "opponent": "長崎成功丸",
+          "score": "2–0",
+          "source": "https://www.antlers.co.jp/blogs/games/20260616131556"
+        },
+        {
+          "date": "2026-10-21",
+          "date_display": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "round": 11,
+          "competition": "J1 第11節",
+          "venue": "客",
+          "opponent": "京都不死鳥",
+          "score": "2–2",
+          "source": "https://www.jleague.jp/match/j1/2026/102112/"
+        },
+        {
+          "date": "2026-10-24",
+          "date_display": "2026-10-24",
+          "sort_date": "2026-10-24",
+          "round": 12,
+          "competition": "J1 第12節",
+          "venue": "主",
+          "opponent": "柏太陽王",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616132206"
+        },
+        {
+          "date": "2026-10-28",
+          "date_display": "2026-10-28",
+          "sort_date": "2026-10-28",
+          "round": null,
+          "competition": "ACLE MD3",
+          "venue": "主",
+          "opponent": "浦項スティーラーズ",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20261028190043"
+        },
+        {
+          "date": "2026-10-31",
+          "date_display": "2026-10-31",
+          "sort_date": "2026-10-31",
+          "round": 13,
+          "competition": "J1 第13節",
+          "venue": "主",
+          "opponent": "大阪櫻花",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616132345"
+        },
+        {
+          "date": "2026-11-04",
+          "date_display": "2026-11-04",
+          "sort_date": "2026-11-04",
+          "round": null,
+          "competition": "ACLE MD4",
+          "venue": "客",
+          "opponent": "ブリーラム・ユナイテッド",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20261104191501"
+        },
+        {
+          "date": "2026-11-07",
+          "date_display": "2026-11-07",
+          "sort_date": "2026-11-07",
+          "round": 14,
+          "competition": "J1 第14節",
+          "venue": "客",
+          "opponent": "FC東京",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616132511"
+        },
+        {
+          "date": "2026-11-20",
+          "date_display": "2026-11-20",
+          "sort_date": "2026-11-20",
+          "round": 15,
+          "competition": "J1 第15節",
+          "venue": "主",
+          "opponent": "清水心跳",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616132618"
+        },
+        {
+          "date": "2026-11-25",
+          "date_display": "2026-11-25",
+          "sort_date": "2026-11-25",
+          "round": null,
+          "competition": "ACLE MD5",
+          "venue": "主",
+          "opponent": "全北現代モータース",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20261125190013"
+        },
+        {
+          "date": "2026-11-28",
+          "date_display": "2026-11-28",
+          "sort_date": "2026-11-28",
+          "round": 17,
+          "competition": "J1 第17節",
+          "venue": "主",
+          "opponent": "岡山綠雉",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616132836"
+        },
+        {
+          "date": "2026-12-02",
+          "date_display": "2026-12-02",
+          "sort_date": "2026-12-02",
+          "round": null,
+          "competition": "ACLE MD6",
+          "venue": "客",
+          "opponent": "ポートFC",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20261202191527"
+        },
+        {
+          "date": "2026-12-05",
+          "date_display": "2026-12-05",
+          "sort_date": "2026-12-05",
+          "round": 18,
+          "competition": "J1 第18節",
+          "venue": "客",
+          "opponent": "千葉市原JEF聯",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616132944"
+        },
+        {
+          "date": "2026-12-09",
+          "date_display": "2026-12-09",
+          "sort_date": "2026-12-09",
+          "round": null,
+          "competition": "天皇盃 ラウンド16（4回戦）",
+          "venue": "主（球會主場）",
+          "opponent": "大阪櫻花",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20261015185651"
+        },
+        {
+          "date": "2026-12-13",
+          "date_display": "2026-12-13",
+          "sort_date": "2026-12-13",
+          "round": 19,
+          "competition": "J1 第19節",
+          "venue": "客",
+          "opponent": "廣島三箭",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616133047"
+        },
+        {
+          "date": "2026-12-16",
+          "date_display": "2026-12-16",
+          "sort_date": "2026-12-16",
+          "round": 16,
+          "competition": "J1 第16節",
+          "venue": "主",
+          "opponent": "町田澤維亞",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616132732"
+        },
+        {
+          "date": "2026-12-19",
+          "date_display": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "round": 20,
+          "competition": "J1 第20節",
+          "venue": "主",
+          "opponent": "東京綠茵",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616133159"
+        },
+        {
+          "date": "2027-02-09",
+          "date_display": "2027-02-09",
+          "sort_date": "2027-02-09",
+          "round": null,
+          "competition": "ACLE MD7",
+          "venue": "客",
+          "opponent": "大田ハナ・シチズン",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/2027020905"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2.13（土）or2.14（日）（日期待定）",
+          "sort_date": "2027-02-13",
+          "round": 21,
+          "competition": "J1 第21節",
+          "venue": "主",
+          "opponent": "水戶蜀葵",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144141"
+        },
+        {
+          "date": "2027-02-16",
+          "date_display": "2027-02-16",
+          "sort_date": "2027-02-16",
+          "round": null,
+          "competition": "ACLE 第8節",
+          "venue": "主",
+          "opponent": "ラーチャブリーFC",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20270216190048"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2.20（土）or2.21（日）（日期待定）",
+          "sort_date": "2027-02-20",
+          "round": 22,
+          "competition": "J1 第22節",
+          "venue": "客",
+          "opponent": "浦和紅鑽",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616143916"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2.27（土）or2.28（日）（日期待定）",
+          "sort_date": "2027-02-27",
+          "round": 23,
+          "competition": "J1 第23節",
+          "venue": "客",
+          "opponent": "岡山綠雉",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616143921"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3.6（土）or3.7（日）（日期待定）",
+          "sort_date": "2027-03-06",
+          "round": 24,
+          "competition": "J1 第24節",
+          "venue": "主",
+          "opponent": "千葉市原JEF聯",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616143925"
+        },
+        {
+          "date": "2027-03-10",
+          "date_display": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "round": 25,
+          "competition": "J1 第25節",
+          "venue": "客",
+          "opponent": "町田澤維亞",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616143955"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3.13（土）or3.14（日）（日期待定）",
+          "sort_date": "2027-03-13",
+          "round": 26,
+          "competition": "J1 第26節",
+          "venue": "主",
+          "opponent": "廣島三箭",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144000"
+        },
+        {
+          "date": "2027-03-21",
+          "date_display": "2027-03-21",
+          "sort_date": "2027-03-21",
+          "round": 27,
+          "competition": "J1 第27節",
+          "venue": "客",
+          "opponent": "清水心跳",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144006"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4.3（土）or4.4（日）（日期待定）",
+          "sort_date": "2027-04-03",
+          "round": 28,
+          "competition": "J1 第28節",
+          "venue": "主",
+          "opponent": "橫濱水手",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144011"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4.10（土）or4.11（日）（日期待定）",
+          "sort_date": "2027-04-10",
+          "round": 29,
+          "competition": "J1 第29節",
+          "venue": "客",
+          "opponent": "名古屋鯨魚",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616150908"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4.17（土）or4.18（日）（日期待定）",
+          "sort_date": "2027-04-17",
+          "round": 30,
+          "competition": "J1 第30節",
+          "venue": "客",
+          "opponent": "大阪櫻花",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144026"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4.24（土）or4.25（日）（日期待定）",
+          "sort_date": "2027-04-24",
+          "round": 31,
+          "competition": "J1 第31節",
+          "venue": "主",
+          "opponent": "京都不死鳥",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144030"
+        },
+        {
+          "date": "2027-04-29",
+          "date_display": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "round": 32,
+          "competition": "J1 第32節",
+          "venue": "主",
+          "opponent": "神戶勝利船",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144036"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5.3（月・祝）or5.4（火・祝）（日期待定）",
+          "sort_date": "2027-05-03",
+          "round": 33,
+          "competition": "J1 第33節",
+          "venue": "客",
+          "opponent": "大阪飛腳",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144042"
+        },
+        {
+          "date": "2027-05-09",
+          "date_display": "2027-05-09",
+          "sort_date": "2027-05-09",
+          "round": 34,
+          "competition": "J1 第34節",
+          "venue": "主",
+          "opponent": "川崎前鋒",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616163807"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5.15（土）or5.16（日）（日期待定）",
+          "sort_date": "2027-05-15",
+          "round": 35,
+          "competition": "J1 第35節",
+          "venue": "客",
+          "opponent": "長崎成功丸",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144048"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5.22（土）or5.23（日）（日期待定）",
+          "sort_date": "2027-05-22",
+          "round": 36,
+          "competition": "J1 第36節",
+          "venue": "客",
+          "opponent": "福岡黃蜂",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144114"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5.29（土）or5.30（日）（日期待定）",
+          "sort_date": "2027-05-29",
+          "round": 37,
+          "competition": "J1 第37節",
+          "venue": "客",
+          "opponent": "柏太陽王",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144121"
+        },
+        {
+          "date": "2027-06-06",
+          "date_display": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "round": 38,
+          "competition": "J1 第38節",
+          "venue": "主",
+          "opponent": "FC東京",
+          "score": null,
+          "source": "https://www.antlers.co.jp/blogs/games/20260616144125"
+        }
+      ],
+      "stats": {
+        "rank": 6,
+        "wins": 6,
+        "draws": 2,
+        "losses": 3,
+        "goals_for": 23,
+        "goals_against": 18,
+        "goal_difference": 5,
+        "points": 20,
+        "matches": 11,
+        "season": "2026/27",
+        "as_of": "2026-10-21",
+        "competition": "J1 第11節本隊賽後；排名為21日晚快照",
+        "sources": [
+          {
+            "label": "J.League・21日京都2–2鹿島終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102112/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "SportsNavi／Yahoo・21日晚聯賽榜快照",
+            "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+            "accessed_at": "2026-10-21"
+          }
+        ]
+      },
+      "workload": {
+        "match_date": "2026-10-21",
+        "baseline_match_date": "2026-10-17",
+        "starting_changes": 6,
+        "starters": [
+          1,
+          23,
+          55,
+          3,
+          7,
+          6,
+          8,
+          30,
+          27,
+          9,
+          40
+        ],
+        "prior_starters": [
+          1,
+          5,
+          19,
+          23,
+          55,
+          8,
+          10,
+          17,
+          24,
+          9,
+          77
+        ],
+        "minutes_note": "90分鐘制名義分鐘；半場換人按45分鐘，不含補時，不等於體能或醫療評估。",
+        "minutes": [
+          {
+            "number": 1,
+            "name": "早川友基",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 10,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 3,
+            "name": "金泰賢",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 4,
+            "prior_minutes": 0,
+            "prior_status": "後備未用"
+          },
+          {
+            "number": 5,
+            "name": "關川郁萬",
+            "minutes": 0,
+            "started": false,
+            "normal_starts": 6,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 6,
+            "name": "三竿健斗",
+            "minutes": 73,
+            "started": true,
+            "normal_starts": 5,
+            "prior_minutes": 18,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 7,
+            "name": "小川諒也",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 9,
+            "prior_minutes": 45,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 8,
+            "name": "般奴",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 9,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 9,
+            "name": "李奧施亞拉",
+            "minutes": 64,
+            "started": true,
+            "normal_starts": 9,
+            "prior_minutes": 85,
+            "prior_status": "正選"
+          },
+          {
+            "number": 10,
+            "name": "柴崎岳",
+            "minutes": 17,
+            "started": false,
+            "normal_starts": 5,
+            "prior_minutes": 72,
+            "prior_status": "正選"
+          },
+          {
+            "number": 17,
+            "name": "艾巴",
+            "minutes": 26,
+            "started": false,
+            "normal_starts": 3,
+            "prior_minutes": 55,
+            "prior_status": "正選"
+          },
+          {
+            "number": 19,
+            "name": "大森渚生",
+            "minutes": 0,
+            "started": false,
+            "normal_starts": 1,
+            "prior_minutes": 45,
+            "prior_status": "正選"
+          },
+          {
+            "number": 23,
+            "name": "津久井佳祐",
+            "minutes": 73,
+            "started": true,
+            "normal_starts": 4,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 24,
+            "name": "林晴己",
+            "minutes": 0,
+            "started": false,
+            "normal_starts": 2,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 25,
+            "name": "小池龍太",
+            "minutes": 17,
+            "started": false,
+            "normal_starts": 1,
+            "prior_minutes": 0,
+            "prior_status": "未入選"
+          },
+          {
+            "number": 27,
+            "name": "松村優太",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 6,
+            "prior_minutes": 35,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 30,
+            "name": "吉田湊海",
+            "minutes": 45,
+            "started": true,
+            "normal_starts": 4,
+            "prior_minutes": 0,
+            "prior_status": "後備未用"
+          },
+          {
+            "number": 34,
+            "name": "德田譽",
+            "minutes": 1,
+            "started": false,
+            "normal_starts": 2,
+            "prior_minutes": 5,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 40,
+            "name": "鈴木優磨",
+            "minutes": 89,
+            "started": true,
+            "normal_starts": 9,
+            "prior_minutes": 18,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 55,
+            "name": "植田直通",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 10,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 77,
+            "name": "卡夫歷",
+            "minutes": 45,
+            "started": false,
+            "normal_starts": 2,
+            "prior_minutes": 72,
+            "prior_status": "正選"
+          }
+        ],
+        "sources": [
+          {
+            "label": "鹿島官方・21日京都戰名單及換人",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "鹿島官方・17日長崎戰及訪問",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          },
+          {
+            "label": "J.League Data Site・首10輪先發與17日分鐘",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+            "accessed_at": "2026-10-21"
+          }
+        ]
+      },
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": [
+          {
+            "text": "24日正選及後備仍未公布。比較頁陣式為常用架構示意；21日名單只用作負荷研究，沒有冒充本場陣容。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "J.League・24日第12節鹿島對柏",
+                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "開場先觀察：誰在柏小泉接球時上搶？領先後能否同時限制傳中與禁區接應？",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+                "url": "https://www.football-lab.jp/kasm/formation",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              }
+            ]
+          }
+        ]
+      },
+      "analytics": [
+        {
+          "text": "21日作客京都：控球64%、17次射門、12次中目標；兩個入球仍未換來勝利。這是單場官方數據，不是本季平均或xG。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "首10輪進攻CBP：松村優太19.04居隊內首位，般奴15.91；松村並有2次助攻。CBP是Football LAB進攻參與指標，不能直接當作入球概率。",
+          "kind": "fact",
+          "as_of": "2026-10-19",
+          "sources": [
+            {
+              "label": "Football LAB・鹿島首10輪球員排行",
+              "url": "https://www.football-lab.jp/kasm/ranking",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            }
+          ]
+        }
+      ],
+      "style": [
+        {
+          "text": "鬼木達以4-4-2為主：首10輪9場用此陣，1場4-2-3-1。兩前鋒配合邊路衝刺，並可由鈴木優磨回接串連；21日同分球來自柴崎岳送入禁區、鈴木優磨橫傳予艾巴。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+              "url": "https://www.football-lab.jp/kasm/formation",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            },
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "formation": {
+        "shape": "4-4-2",
+        "label": "常用架構與人腳示意；並非24日預測正選",
+        "as_of": "2026-10-21",
+        "players": [
+          {
+            "number": 9,
+            "name": "李奧施亞拉"
+          },
+          {
+            "number": 40,
+            "name": "鈴木優磨"
+          },
+          {
+            "number": 17,
+            "name": "艾巴"
+          },
+          {
+            "number": 10,
+            "name": "柴崎岳"
+          },
+          {
+            "number": 8,
+            "name": "般奴"
+          },
+          {
+            "number": 27,
+            "name": "松村優太"
+          },
+          {
+            "number": 7,
+            "name": "小川諒也"
+          },
+          {
+            "number": 5,
+            "name": "關川郁萬"
+          },
+          {
+            "number": 55,
+            "name": "植田直通"
+          },
+          {
+            "number": 23,
+            "name": "津久井佳祐"
+          },
+          {
+            "number": 1,
+            "name": "早川友基"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasm/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "鹿島官方・21日京都戰名單及換人",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          }
+        ]
+      },
+      "rotation_notes": [
+        {
+          "text": "21日比17日換6名正選：金泰賢、小川諒也、三竿健斗、吉田湊海、松村優太、鈴木優磨加入；關川郁萬、大森渚生、柴崎岳、艾巴、林晴己、卡夫歷改列後備。不能把17日輪換陣容當作固定最佳11人。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "鹿島官方・21日京都戰名單及換人",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "鹿島官方・17日長崎戰及訪問",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            }
+          ]
+        },
+        {
+          "text": "21日名義分鐘：鈴木優磨89、李奧施亞拉64、三竿及津久井各73；卡夫歷45、艾巴26、柴崎及小池各17。植田、小川、般奴、松村與早川均全場。前線有不同負荷的選項，防線和中場仍有連續作戰核心。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "鹿島官方・21日京都戰名單及換人",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "首10輪常用程度：早川及植田各10次先發，小川9次，般奴8次；鈴木優磨在中鋒5次、左中場4次。21日換人數多，並不代表全隊都得到同等休息。",
+          "kind": "analysis",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+              "url": "https://www.football-lab.jp/kasm/formation",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            }
+          ]
+        }
+      ],
+      "form": [
+        {
+          "text": "聯賽最近5場：1–2神戶、3–3川崎、2–0大阪飛腳、2–0長崎、2–2京都。聯賽兩連勝告終，仍連續4輪不敗；此前「正式賽3連勝」包含13日ACLE勝仗，不能寫成聯賽3連勝。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "鹿島官方・17日長崎戰及訪問",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            },
+            {
+              "label": "鹿島官方・全季賽程",
+              "url": "https://www.antlers.co.jp/pages/games-2026-27",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "scorers": [
+        {
+          "text": "11輪後：李奧施亞拉12球、卡夫歷5球、松村優太2球；艾巴在京都取得本季聯賽首球。李奧21日沒有入球，不能沿用17日後的「連續3場入球」作現行走勢。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League Data Site・鹿島首10輪累積紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "assists": [
+        {
+          "text": "Football LAB首10輪已核對：鈴木優磨、松村優太、小川諒也各2助攻，柴崎岳1次。21日J.League另記鈴木優磨助攻艾巴；兩個來源／截點分列，未把不同助攻口徑拼成更新排名。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "Football LAB・鹿島首10輪球員排行",
+              "url": "https://www.football-lab.jp/kasm/ranking",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            },
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "text": "9月16日宣布從水戶完全簽入19號大森渚生；17日對長崎首次代表鹿島在聯賽先發，踢半場後由小川接替，21日未列比賽名單。這是近期左閘用人選項，並非已鎖定正選。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "鹿島官方・大森渚生完全轉會",
+              "url": "https://www.antlers.co.jp/blogs/news/260916qq2nme",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-09-16"
+            },
+            {
+              "label": "鹿島官方・17日長崎戰及訪問",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            },
+            {
+              "label": "鹿島官方・21日京都戰名單及換人",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "24日本場停賽名單仍待賽前最新官方公告確認；21日鹿島沒有新增黃／紅牌。未把「本場無新牌」寫成所有球員必定可上陣。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "J.League・24日第12節鹿島對柏",
+              "url": "https://www.jleague.jp/match/j1/2026/102407/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "injuries": [
+        {
+          "text": "安西幸輝7月18日集訓傷左膝前十字韌帶，21日公告；未找到新的公開復出日期。樋口雄太同日傷右腓骨，但已列10月21日後備，不能繼續把兩人一概列為同等缺陣狀態。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・安西及樋口7月傷情報告",
+              "url": "https://www.jleague.jp/news/article/34474/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-07-21"
+            },
+            {
+              "label": "鹿島官方・21日京都戰名單及換人",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "小池龍太21日73分鐘入替，是實際比賽可用的證據；這仍不能保證24日先發。其他未入選者若無醫療公告，保持原因未確認。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "鹿島官方・21日京都戰名單及換人",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "yellow_risk": [
+        {
+          "text": "三竿健斗首10輪累積3黃，21日沒有新增；屬下一張黃牌可能觸發累積停賽的重點。鈴木優磨、小川諒也、廣瀨陸斗各2黃（首10輪）；以賽前官方停賽公告覆核實際適用狀態。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League Data Site・鹿島首10輪累積紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "players_to_watch": {
+        "stars": [
+          {
+            "number": 9,
+            "description": [
+              {
+                "text": "Soccer Digest的沖野楓彌18日採訪：李奧解釋長崎戰射12碼前刻意放慢，避免隨開局衝勢倉促起腳；可作射12碼時的具體評述素材。",
+                "kind": "reported",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Soccer Digest・沖野楓彌採訪李奧施亞拉",
+                    "url": "https://www.soccerdigestweb.com/news/detail/id=198644",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-18"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "本季聯賽12球；21日踢64分鐘。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 40,
+            "description": [
+              {
+                "text": "21日的扳平球由鈴木優磨接柴崎傳球後橫傳，顯示他的價值不止終結。24日觀察他回接後，誰代他衝入禁區。",
+                "kind": "analysis",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首10輪10場813分鐘1球；21日再踢89分鐘，聯賽11場902分鐘。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 27,
+            "description": [
+              {
+                "text": "首10輪進攻CBP隊內最高；21日95分鐘把自己的射門反彈再補入。留意他由邊路衝入門前，而非只按翼鋒標籤理解。",
+                "kind": "analysis",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・鹿島首10輪球員排行",
+                    "url": "https://www.football-lab.jp/kasm/ranking",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-19"
+                  },
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "21日全場，本季11場773分鐘2球。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "foreign": [
+          {
+            "number": 77,
+            "description": [
+              {
+                "text": "Sakanowa引述17日DAZN訪問：鬼木要求卡夫歷向空間跑；他以製造12碼及反越位入球回應。這是有採訪根據的角色描述。",
+                "kind": "reported",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Sakanowa・卡夫歷DAZN賽後訪問報道",
+                    "url": "https://sakanowa.jp/topics/113745",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-17"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首10輪5球；21日半場入替踢45分鐘。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 17,
+            "description": [
+              {
+                "text": "21日64分鐘後備入場，78分鐘接鈴木傳中扳平；是上仗實際改變賽局的後備。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "本季聯賽4場199分鐘1球；21日名義26分鐘。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "youth": [
+          {
+            "number": 24,
+            "description": [
+              {
+                "text": "17日鬼木特別稱讚林晴己比操練更積極、攻守表現超預期，並強調連戰中能踢足90分鐘的球員十分珍貴；林為卡夫歷第二球送出直線。屬新晉球員觀察，不冒稱鹿島青訓出身。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "鹿島官方・17日長崎戰及訪問",
+                    "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-17"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首10輪8場252分鐘；17日踢足90分鐘、21日列後備未用。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日京都2–2鹿島終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 47,
+            "description": [
+              {
+                "text": "鹿島青年軍前鋒高木瑛人獲召20–22日U-17日本候選隊集訓；同會倉橋幸暉、滝澤周生亦獲選。暫只有名單與集訓日程證據，不杜撰踢法或預測24日會上陣。",
+                "kind": "reported",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Football Zone・14日U-17候選集訓名單報道",
+                    "url": "https://www.football-zone.net/archives/679114",
+                    "published_at": "2026-10-14",
+                    "accessed_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          }
+        ]
+      },
+      "storylines": [
+        {
+          "text": "大森渚生剛由同縣球會水戶加盟，17日首度聯賽先發即協助零封；當小川需要分擔負荷時，左閘用人有了新故事線。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "鹿島官方・大森渚生完全轉會",
+              "url": "https://www.antlers.co.jp/blogs/news/260916qq2nme",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-09-16"
+            },
+            {
+              "label": "鹿島官方・17日長崎戰及訪問",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            }
+          ]
+        },
+        {
+          "text": "95分鐘反超、97分鐘被追和：24日若鹿島領先，評述可留意邊路傳中及補時防守，避免以「一向擅守勝局」概括現在表現。",
+          "kind": "analysis",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・21日京都2–2鹿島終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102112/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    "kashiwa": {
+      "previous_match_date": "2026-10-21",
+      "game_log": [
+        {
+          "date": "2026-08-08",
+          "date_display": "2026-08-08",
+          "sort_date": "2026-08-08",
+          "round": 1,
+          "competition": "J1 第1節",
+          "venue": "主",
+          "opponent": "水戶蜀葵",
+          "score": "2–1",
+          "source": "https://www.reysol.co.jp/game/results/202627/0808.php"
+        },
+        {
+          "date": "2026-08-14",
+          "date_display": "2026-08-14",
+          "sort_date": "2026-08-14",
+          "round": 2,
+          "competition": "J1 第2節",
+          "venue": "客",
+          "opponent": "東京綠茵",
+          "score": "3–1",
+          "source": "https://www.reysol.co.jp/game/results/202627/0814.php"
+        },
+        {
+          "date": "2026-08-21",
+          "date_display": "2026-08-21",
+          "sort_date": "2026-08-21",
+          "round": 3,
+          "competition": "J1 第3節",
+          "venue": "主",
+          "opponent": "長崎成功丸",
+          "score": "4–2",
+          "source": "https://www.reysol.co.jp/game/results/202627/0821.php"
+        },
+        {
+          "date": "2026-08-26",
+          "date_display": "2026-08-26",
+          "sort_date": "2026-08-26",
+          "round": null,
+          "competition": "天皇盃 2回戦",
+          "venue": "主",
+          "opponent": "専修大学",
+          "score": "2–1",
+          "source": "https://www.reysol.co.jp/game/results/202627/0826.php"
+        },
+        {
+          "date": "2026-08-29",
+          "date_display": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "round": 4,
+          "competition": "J1 第4節",
+          "venue": "客",
+          "opponent": "清水心跳",
+          "score": "1–0",
+          "source": "https://www.reysol.co.jp/game/results/202627/0829.php"
+        },
+        {
+          "date": "2026-09-02",
+          "date_display": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "round": 5,
+          "competition": "J1 第5節",
+          "venue": "客",
+          "opponent": "大阪櫻花",
+          "score": "0–2",
+          "source": "https://www.reysol.co.jp/game/results/202627/0902.php"
+        },
+        {
+          "date": "2026-09-06",
+          "date_display": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "round": 6,
+          "competition": "J1 第6節",
+          "venue": "主",
+          "opponent": "橫濱水手",
+          "score": "0–2",
+          "source": "https://www.reysol.co.jp/game/results/202627/0906.php"
+        },
+        {
+          "date": "2026-09-11",
+          "date_display": "2026-09-11",
+          "sort_date": "2026-09-11",
+          "round": 7,
+          "competition": "J1 第7節",
+          "venue": "客",
+          "opponent": "京都不死鳥",
+          "score": "3–2",
+          "source": "https://www.reysol.co.jp/game/results/202627/0911.php"
+        },
+        {
+          "date": "2026-09-16",
+          "date_display": "2026-09-16",
+          "sort_date": "2026-09-16",
+          "round": null,
+          "competition": "ACLE LS-MD1",
+          "venue": "客",
+          "opponent": "全北現代モータース （韓国）",
+          "score": "1–2",
+          "source": "https://www.reysol.co.jp/game/results/202627/0916.php"
+        },
+        {
+          "date": "2026-09-20",
+          "date_display": "2026-09-20",
+          "sort_date": "2026-09-20",
+          "round": 8,
+          "competition": "J1 第8節",
+          "venue": "客",
+          "opponent": "町田澤維亞",
+          "score": "4–2",
+          "source": "https://www.reysol.co.jp/game/results/202627/0920.php"
+        },
+        {
+          "date": "2026-09-23",
+          "date_display": "2026-09-23",
+          "sort_date": "2026-09-23",
+          "round": null,
+          "competition": "天皇盃 3回戦",
+          "venue": "主",
+          "opponent": "FC今治",
+          "score": "4–0",
+          "source": "https://www.reysol.co.jp/game/results/202627/0923.php"
+        },
+        {
+          "date": "2026-10-03",
+          "date_display": "2026-10-03",
+          "sort_date": "2026-10-03",
+          "round": null,
+          "competition": "聯賽盃 1stラウンド 4回戦",
+          "venue": "主",
+          "opponent": "大阪飛腳",
+          "score": "5–4",
+          "source": "https://www.reysol.co.jp/game/results/202627/1003.php"
+        },
+        {
+          "date": "2026-10-09",
+          "date_display": "2026-10-09",
+          "sort_date": "2026-10-09",
+          "round": 9,
+          "competition": "J1 第9節",
+          "venue": "主",
+          "opponent": "神戶勝利船",
+          "score": "4–2",
+          "source": "https://www.reysol.co.jp/game/results/202627/1009.php"
+        },
+        {
+          "date": "2026-10-14",
+          "date_display": "2026-10-14",
+          "sort_date": "2026-10-14",
+          "round": null,
+          "competition": "ACLE LS-MD2",
+          "venue": "主",
+          "opponent": "ポートFC （タイ）",
+          "score": "5–1",
+          "source": "https://www.reysol.co.jp/game/results/202627/1014.php"
+        },
+        {
+          "date": "2026-10-17",
+          "date_display": "2026-10-17",
+          "sort_date": "2026-10-17",
+          "round": 10,
+          "competition": "J1 第10節",
+          "venue": "主",
+          "opponent": "名古屋鯨魚",
+          "score": "1–3",
+          "source": "https://www.reysol.co.jp/game/results/202627/1017.php"
+        },
+        {
+          "date": "2026-10-21",
+          "date_display": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "round": 11,
+          "competition": "J1 第11節",
+          "venue": "客",
+          "opponent": "FC東京",
+          "score": "0–0",
+          "source": "https://www.jleague.jp/match/j1/2026/102108/"
+        },
+        {
+          "date": "2026-10-24",
+          "date_display": "2026-10-24",
+          "sort_date": "2026-10-24",
+          "round": 12,
+          "competition": "J1 第12節",
+          "venue": "客",
+          "opponent": "鹿島鹿角",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1024i.php"
+        },
+        {
+          "date": "2026-10-27",
+          "date_display": "2026-10-27",
+          "sort_date": "2026-10-27",
+          "round": null,
+          "competition": "ACLE LS-MD3",
+          "venue": "客",
+          "opponent": "ラーチャブリーFC （タイ）",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1027i.php"
+        },
+        {
+          "date": "2026-10-31",
+          "date_display": "2026-10-31",
+          "sort_date": "2026-10-31",
+          "round": 13,
+          "competition": "J1 第13節",
+          "venue": "主",
+          "opponent": "浦和紅鑽",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1031i.php"
+        },
+        {
+          "date": "2026-11-03",
+          "date_display": "2026-11-03",
+          "sort_date": "2026-11-03",
+          "round": null,
+          "competition": "ACLE LS-MD4",
+          "venue": "主",
+          "opponent": "大田ハナ･シチズン （韓国）",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1103i.php"
+        },
+        {
+          "date": "2026-11-07",
+          "date_display": "2026-11-07",
+          "sort_date": "2026-11-07",
+          "round": 14,
+          "competition": "J1 第14節",
+          "venue": "主",
+          "opponent": "川崎前鋒",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1107i.php"
+        },
+        {
+          "date": "2026-11-20",
+          "date_display": "2026-11-20",
+          "sort_date": "2026-11-20",
+          "round": 15,
+          "competition": "J1 第15節",
+          "venue": "主",
+          "opponent": "千葉市原JEF聯",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1120i.php"
+        },
+        {
+          "date": "2026-11-24",
+          "date_display": "2026-11-24",
+          "sort_date": "2026-11-24",
+          "round": null,
+          "competition": "ACLE LS-MD5",
+          "venue": "客",
+          "opponent": "ニューカッスル･ジェッツ （オーストラリア）",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1124i.php"
+        },
+        {
+          "date": "2026-11-28",
+          "date_display": "2026-11-28",
+          "sort_date": "2026-11-28",
+          "round": 17,
+          "competition": "J1 第17節",
+          "venue": "主",
+          "opponent": "廣島三箭",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1128i.php"
+        },
+        {
+          "date": "2026-12-01",
+          "date_display": "2026-12-01",
+          "sort_date": "2026-12-01",
+          "round": null,
+          "competition": "ACLE LS-MD6",
+          "venue": "主",
+          "opponent": "コンアン･ハノイ （ベトナム）",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1201i.php"
+        },
+        {
+          "date": "2026-12-06",
+          "date_display": "2026-12-06",
+          "sort_date": "2026-12-06",
+          "round": 18,
+          "competition": "J1 第18節",
+          "venue": "主",
+          "opponent": "福岡黃蜂",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1206i.php"
+        },
+        {
+          "date": "2026-12-09",
+          "date_display": "2026-12-09",
+          "sort_date": "2026-12-09",
+          "round": null,
+          "competition": "天皇盃 ラウンド16",
+          "venue": "主",
+          "opponent": "岡山綠雉",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1209i.php"
+        },
+        {
+          "date": "2026-12-13",
+          "date_display": "2026-12-13",
+          "sort_date": "2026-12-13",
+          "round": 19,
+          "competition": "J1 第19節",
+          "venue": "客",
+          "opponent": "岡山綠雉",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1213i.php"
+        },
+        {
+          "date": "2026-12-16",
+          "date_display": "2026-12-16",
+          "sort_date": "2026-12-16",
+          "round": 16,
+          "competition": "J1 第16節",
+          "venue": "客",
+          "opponent": "大阪飛腳",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1216i.php"
+        },
+        {
+          "date": "2026-12-19",
+          "date_display": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "round": 20,
+          "competition": "J1 第20節",
+          "venue": "客",
+          "opponent": "川崎前鋒",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/1219i.php"
+        },
+        {
+          "date": "2027-02-10",
+          "date_display": "2027-02-10",
+          "sort_date": "2027-02-10",
+          "round": null,
+          "competition": "ACLE LS-MD7",
+          "venue": "主",
+          "opponent": "ブリーラム･ユナイテッド （タイ）",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0210i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2月13日or14日（日期待定）",
+          "sort_date": "2027-02-13",
+          "round": 21,
+          "competition": "J1 第21節",
+          "venue": "主",
+          "opponent": "清水心跳",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0213i.php"
+        },
+        {
+          "date": "2027-02-16",
+          "date_display": "2027-02-16",
+          "sort_date": "2027-02-16",
+          "round": null,
+          "competition": "ACLE LS-MD8",
+          "venue": "客",
+          "opponent": "浦項スティーラーズ （韓国）",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0216i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2月20日or21日（日期待定）",
+          "sort_date": "2027-02-20",
+          "round": 22,
+          "competition": "J1 第22節",
+          "venue": "客",
+          "opponent": "水戶蜀葵",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0220i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2月27日or28日（日期待定）",
+          "sort_date": "2027-02-27",
+          "round": 23,
+          "competition": "J1 第23節",
+          "venue": "客",
+          "opponent": "長崎成功丸",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0227i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3月6日or7日（日期待定）",
+          "sort_date": "2027-03-06",
+          "round": 24,
+          "competition": "J1 第24節",
+          "venue": "客",
+          "opponent": "福岡黃蜂",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0306i.php"
+        },
+        {
+          "date": "2027-03-10",
+          "date_display": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "round": 25,
+          "competition": "J1 第25節",
+          "venue": "主",
+          "opponent": "京都不死鳥",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0310i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3月13日or14日（日期待定）",
+          "sort_date": "2027-03-13",
+          "round": 26,
+          "competition": "J1 第26節",
+          "venue": "主",
+          "opponent": "岡山綠雉",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0313i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3月20日or21日（日期待定）",
+          "sort_date": "2027-03-20",
+          "round": 27,
+          "competition": "J1 第27節",
+          "venue": "主",
+          "opponent": "東京綠茵",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0320i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月3日or4日（日期待定）",
+          "sort_date": "2027-04-03",
+          "round": 28,
+          "competition": "J1 第28節",
+          "venue": "主",
+          "opponent": "大阪櫻花",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0403i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月10日or11日（日期待定）",
+          "sort_date": "2027-04-10",
+          "round": 29,
+          "competition": "J1 第29節",
+          "venue": "客",
+          "opponent": "浦和紅鑽",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0410i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月17日or18日（日期待定）",
+          "sort_date": "2027-04-17",
+          "round": 30,
+          "competition": "J1 第30節",
+          "venue": "客",
+          "opponent": "橫濱水手",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0417i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月24日or25日（日期待定）",
+          "sort_date": "2027-04-24",
+          "round": 31,
+          "competition": "J1 第31節",
+          "venue": "主",
+          "opponent": "大阪飛腳",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0424i.php"
+        },
+        {
+          "date": "2027-04-29",
+          "date_display": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "round": 32,
+          "competition": "J1 第32節",
+          "venue": "主",
+          "opponent": "FC東京",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0429i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月3日or4日（日期待定）",
+          "sort_date": "2027-05-03",
+          "round": 33,
+          "competition": "J1 第33節",
+          "venue": "客",
+          "opponent": "神戶勝利船",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0503i.php"
+        },
+        {
+          "date": "2027-05-09",
+          "date_display": "2027-05-09",
+          "sort_date": "2027-05-09",
+          "round": 34,
+          "competition": "J1 第34節",
+          "venue": "主",
+          "opponent": "町田澤維亞",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0509i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月15日or16日（日期待定）",
+          "sort_date": "2027-05-15",
+          "round": 35,
+          "competition": "J1 第35節",
+          "venue": "客",
+          "opponent": "名古屋鯨魚",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0515i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月22日or23日（日期待定）",
+          "sort_date": "2027-05-22",
+          "round": 36,
+          "competition": "J1 第36節",
+          "venue": "客",
+          "opponent": "廣島三箭",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0522i.php"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月29日or30日（日期待定）",
+          "sort_date": "2027-05-29",
+          "round": 37,
+          "competition": "J1 第37節",
+          "venue": "主",
+          "opponent": "鹿島鹿角",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0529i.php"
+        },
+        {
+          "date": "2027-06-06",
+          "date_display": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "round": 38,
+          "competition": "J1 第38節",
+          "venue": "客",
+          "opponent": "千葉市原JEF聯",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/202627/0606i.php"
+        }
+      ],
+      "stats": {
+        "rank": 5,
+        "wins": 7,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 22,
+        "goals_against": 17,
+        "goal_difference": 5,
+        "points": 22,
+        "matches": 11,
+        "season": "2026/27",
+        "as_of": "2026-10-21",
+        "competition": "J1 第11節本隊賽後；排名為21日晚快照",
+        "sources": [
+          {
+            "label": "J.League・21日FC東京0–0柏終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102108/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "SportsNavi／Yahoo・21日晚聯賽榜快照",
+            "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+            "accessed_at": "2026-10-21"
+          }
+        ]
+      },
+      "workload": {
+        "match_date": "2026-10-21",
+        "baseline_match_date": "2026-10-17",
+        "starting_changes": 4,
+        "starters": [
+          29,
+          24,
+          28,
+          4,
+          2,
+          21,
+          39,
+          16,
+          44,
+          87,
+          15
+        ],
+        "prior_starters": [
+          77,
+          4,
+          24,
+          26,
+          28,
+          5,
+          8,
+          21,
+          39,
+          15,
+          87
+        ],
+        "minutes_note": "90分鐘制名義分鐘；半場換人按45分鐘，不含補時，不等於體能或醫療評估。",
+        "minutes": [
+          {
+            "number": 2,
+            "name": "三丸擴",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 1,
+            "prior_minutes": 0,
+            "prior_status": "後備未用"
+          },
+          {
+            "number": 4,
+            "name": "古賀太陽",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 10,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 5,
+            "name": "遠藤溪太",
+            "minutes": 45,
+            "started": false,
+            "normal_starts": 10,
+            "prior_minutes": 68,
+            "prior_status": "正選"
+          },
+          {
+            "number": 8,
+            "name": "小泉佳穗",
+            "minutes": 45,
+            "started": false,
+            "normal_starts": 10,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 9,
+            "name": "細谷真大",
+            "minutes": 12,
+            "started": false,
+            "normal_starts": 0,
+            "prior_minutes": 17,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 15,
+            "name": "藤尾翔太",
+            "minutes": 65,
+            "started": true,
+            "normal_starts": 5,
+            "prior_minutes": 73,
+            "prior_status": "正選"
+          },
+          {
+            "number": 16,
+            "name": "汰木康也",
+            "minutes": 45,
+            "started": true,
+            "normal_starts": 0,
+            "prior_minutes": 0,
+            "prior_status": "未入選"
+          },
+          {
+            "number": 20,
+            "name": "瀨川祐輔",
+            "minutes": 25,
+            "started": false,
+            "normal_starts": 0,
+            "prior_minutes": 45,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 21,
+            "name": "小西雄大",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 3,
+            "prior_minutes": 68,
+            "prior_status": "正選"
+          },
+          {
+            "number": 24,
+            "name": "久保藤次郎",
+            "minutes": 78,
+            "started": true,
+            "normal_starts": 9,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 26,
+            "name": "杉岡大暉",
+            "minutes": 0,
+            "started": false,
+            "normal_starts": 9,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 28,
+            "name": "戶嶋祥郎",
+            "minutes": 45,
+            "started": true,
+            "normal_starts": 1,
+            "prior_minutes": 45,
+            "prior_status": "正選"
+          },
+          {
+            "number": 29,
+            "name": "永井堅梧",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 0,
+            "prior_minutes": 77,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 39,
+            "name": "中川敦瑛",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 10,
+            "prior_minutes": 90,
+            "prior_status": "正選"
+          },
+          {
+            "number": 42,
+            "name": "原田亘",
+            "minutes": 45,
+            "started": false,
+            "normal_starts": 6,
+            "prior_minutes": 45,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 44,
+            "name": "弓場堅真",
+            "minutes": 90,
+            "started": true,
+            "normal_starts": 1,
+            "prior_minutes": 22,
+            "prior_status": "後備上陣"
+          },
+          {
+            "number": 77,
+            "name": "若原智哉",
+            "minutes": 0,
+            "started": false,
+            "normal_starts": 3,
+            "prior_minutes": 13,
+            "prior_status": "正選"
+          },
+          {
+            "number": 87,
+            "name": "山內日向汰",
+            "minutes": 45,
+            "started": true,
+            "normal_starts": 8,
+            "prior_minutes": 45,
+            "prior_status": "正選"
+          }
+        ],
+        "sources": [
+          {
+            "label": "柏官方・21日FC東京戰名單及換人",
+            "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "柏官方・17日名古屋戰及訪問",
+            "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          },
+          {
+            "label": "J.League Data Site・首10輪先發與17日分鐘",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+            "accessed_at": "2026-10-21"
+          }
+        ]
+      },
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": [
+          {
+            "text": "24日正選及後備仍未公布。比較頁陣式為常用架構示意；21日名單只用作負荷研究，沒有冒充本場陣容。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "J.League・24日第12節鹿島對柏",
+                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "開場先觀察：小泉、遠藤是否回先發？藤尾接球後，誰向身後跑而非一起回接？",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Football LAB・柏首10輪陣式（19日更新）",
+                "url": "https://www.football-lab.jp/kasw/formation",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              }
+            ]
+          }
+        ]
+      },
+      "analytics": [
+        {
+          "text": "21日作客FC東京：控球46%、11次射門、3次中目標；全隊跑動114.2公里。零封阻止連敗，但攻擊端未有入球。這些是單場數據，不能推斷全隊已回復體能。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・21日FC東京0–0柏終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102108/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "首10輪進攻CBP：久保藤次郎25.39、小泉佳穗22.83、中川敦瑛21.08；小泉25次最後一傳。資料只截至17日，未加入21日。",
+          "kind": "fact",
+          "as_of": "2026-10-19",
+          "sources": [
+            {
+              "label": "Football LAB・柏首10輪球員排行",
+              "url": "https://www.football-lab.jp/kasw/ranking",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            }
+          ]
+        }
+      ],
+      "style": [
+        {
+          "text": "列卡度・洛迪古斯首10輪全用3-4-2-1；兩名翼衛提供闊度，雙攻中與中場換位接應。17日中川及小西承認移動過多，令失球後平衡及前鋒接應距離出問題。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "Football LAB・柏首10輪陣式（19日更新）",
+              "url": "https://www.football-lab.jp/kasw/formation",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            },
+            {
+              "label": "柏官方・17日名古屋戰及訪問",
+              "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            }
+          ]
+        }
+      ],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "常用架構與人腳示意；並非24日預測正選",
+        "as_of": "2026-10-21",
+        "players": [
+          {
+            "number": 15,
+            "name": "藤尾翔太"
+          },
+          {
+            "number": 8,
+            "name": "小泉佳穗"
+          },
+          {
+            "number": 87,
+            "name": "山內日向汰"
+          },
+          {
+            "number": 5,
+            "name": "遠藤溪太"
+          },
+          {
+            "number": 39,
+            "name": "中川敦瑛"
+          },
+          {
+            "number": 21,
+            "name": "小西雄大"
+          },
+          {
+            "number": 24,
+            "name": "久保藤次郎"
+          },
+          {
+            "number": 26,
+            "name": "杉岡大暉"
+          },
+          {
+            "number": 4,
+            "name": "古賀太陽"
+          },
+          {
+            "number": 42,
+            "name": "原田亘"
+          },
+          {
+            "number": 29,
+            "name": "永井堅梧"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Football LAB・柏首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasw/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "柏官方・21日FC東京戰名單及換人",
+            "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          }
+        ]
+      },
+      "rotation_notes": [
+        {
+          "text": "21日比17日換4名正選：永井堅梧、三丸擴、汰木康也、弓場堅真取代若原智哉、杉岡大暉、遠藤溪太、小泉佳穗。半場再連換3人：原田、遠藤、小泉入場，各踢45分鐘。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "柏官方・21日FC東京戰名單及換人",
+              "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "柏官方・17日名古屋戰及訪問",
+              "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            }
+          ]
+        },
+        {
+          "text": "21日名義分鐘：古賀、三丸、小西、中川、弓場及永井全場；久保78、藤尾65；瀨川25、細谷12。小泉與遠藤的45分鐘有助分擔今仗負荷，但不等於整個密集賽程疲勞已消失。",
+          "kind": "analysis",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "柏官方・21日FC東京戰名單及換人",
+              "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "首10輪小泉、中川、古賀及遠藤各10次先發，久保9次、杉岡9次；因此21日把小泉、遠藤留後備是實質分擔常用主力負荷。兩軍21日至24日同為中兩日；柏27日還要作客泰國踢ACLE。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "Football LAB・柏首10輪陣式（19日更新）",
+              "url": "https://www.football-lab.jp/kasw/formation",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            },
+            {
+              "label": "柏官方・21日FC東京戰名單及換人",
+              "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "柏官方・全季賽程",
+              "url": "https://www.reysol.co.jp/game/results/index.php",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "form": [
+        {
+          "text": "聯賽最近5場：3–2京都、4–2町田、4–2神戶、1–3名古屋、0–0 FC東京。三連勝後近兩輪不勝；21日是本季聯賽首和，也是自8月29日後首場聯賽零封。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・21日FC東京0–0柏終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102108/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "柏官方・17日名古屋戰及訪問",
+              "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            },
+            {
+              "label": "柏官方・全季賽程",
+              "url": "https://www.reysol.co.jp/game/results/index.php",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "scorers": [
+        {
+          "text": "11輪後：瀨川祐輔8球；遠藤溪太、小泉佳穗、久保藤次郎各3球；垣田裕暉2球。21日沒有入球，榜內數字維持17日水平。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League Data Site・柏首10輪累積紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "J.League・21日FC東京0–0柏終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102108/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "assists": [
+        {
+          "text": "Football LAB首10輪：渡井理己5助攻領先隊內，小泉佳穗、久保藤次郎各3，中川敦瑛、瀨川祐輔各2。渡井未列21日比賽名單；沒有公開依據便不解釋缺陣原因。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "Football LAB・柏首10輪球員排行",
+              "url": "https://www.football-lab.jp/kasw/ranking",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-19"
+            },
+            {
+              "label": "柏官方・21日FC東京戰名單及換人",
+              "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "text": "8月25日從町田完全簽入15號藤尾翔太，已連續參與近期中鋒配置；17日為遠藤同分球提供助攻，21日先發65分鐘。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "柏官方・藤尾翔太完全轉會",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1117.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-08-25"
+            },
+            {
+              "label": "柏官方・17日名古屋戰及訪問",
+              "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            },
+            {
+              "label": "柏官方・21日FC東京戰名單及換人",
+              "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "24日停賽名單待賽前公告；21日新增黃牌為小西、小泉、原田、遠藤。柏球會頁較早版本只列3張，這裏依J.League終場紀錄補上90+4分鐘遠藤一牌。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League・21日FC東京0–0柏終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102108/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "J.League・24日第12節鹿島對柏",
+              "url": "https://www.jleague.jp/match/j1/2026/102407/",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "injuries": [
+        {
+          "text": "88號馬場晴也10月9日對神戶受傷，16日公布右膝前十字韌帶斷裂及外側半月板損傷；公告未給復出日期。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "柏官方・馬場晴也傷情",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1131.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-16"
+            }
+          ]
+        },
+        {
+          "text": "27號熊坂光希9月28日代表日本對委內瑞拉受傷，10月2日公布左膝內側副韌帶損傷；未見新復出日期，21日不在比賽名單。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "柏官方・熊坂光希傷情",
+              "url": "https://www.reysol.co.jp/news/topteam/post-1128.html",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-02"
+            },
+            {
+              "label": "柏官方・21日FC東京戰名單及換人",
+              "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "若原智哉9日及17日都按腦震盪程序被換走；21日由永井先發、猿田後備。24日若原及小島亨介能否入選仍須官方確認，不以缺陣推斷新的診斷或康復進度。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League Data Site・17日腦震盪程序換人",
+              "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34614",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-17"
+            },
+            {
+              "label": "J.League Data Site・9日換人紀錄",
+              "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34597",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "柏官方・21日FC東京戰名單及換人",
+              "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "yellow_risk": [
+        {
+          "text": "小泉佳穗首10輪2黃，加21日79分鐘一牌，推算累積3黃，屬停賽邊緣；遠藤及原田加21日一牌各為2黃，小西為1黃。這是按同一J1賽季逐場記錄計算，賽前仍需核對正式處分公告。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "J.League Data Site・柏首10輪累積紀錄",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "J.League・21日FC東京0–0柏終場紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102108/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "players_to_watch": {
+        "stars": [
+          {
+            "number": 8,
+            "description": [
+              {
+                "text": "高橋大地18日專欄認為名古屋讓高嶺朋樹緊追小泉，削弱柏組織。這是作者對17日的解讀，不能當作鹿島已公布的盯人戰術。",
+                "kind": "opinion",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Football Channel・高橋大地專欄（作者觀點）",
+                    "url": "https://www.footballchannel.jp/2026/10/18/post1036728/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-18"
+                  },
+                  {
+                    "label": "Football LAB・柏首10輪球員排行",
+                    "url": "https://www.football-lab.jp/kasw/ranking",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-19"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首10輪3球3助攻（助攻為Football LAB口徑）；21日後備45分鐘，累積黃牌推算3張。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・柏首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日FC東京0–0柏終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 20,
+            "description": [
+              {
+                "text": "J.League賽前資料指出首10輪全為後備仍入8球；21日65分鐘入場仍未破門。先發與後備兩種用法會改變柏的追分節奏。",
+                "kind": "analysis",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League・21日FC東京0–0柏終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League Data Site・柏首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                    "accessed_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "11輪8球；按官方分鐘累加11場404分鐘，約每50.5分鐘一球（小樣本，不是未來預測）。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・柏首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日FC東京0–0柏終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 24,
+            "description": [
+              {
+                "text": "首10輪進攻CBP25.39居隊內第一，3球3助攻；右路不只供應傳中，也直接參與終結。24日觀察鹿島左路能否限制他的接球高度。",
+                "kind": "analysis",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Football LAB・柏首10輪球員排行",
+                    "url": "https://www.football-lab.jp/kasw/ranking",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-19"
+                  },
+                  {
+                    "label": "柏官方・21日FC東京戰名單及換人",
+                    "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "21日先發78分鐘；助攻與CBP截點為首10輪。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・柏首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日FC東京0–0柏終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 29,
+            "description": [
+              {
+                "text": "17日賽後自言對3個失球負責、仍要爭取教練信任；21日先發後零封。把這個轉折用作故事線，不把17日失望談話說成21日賽後感想。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "柏官方・17日名古屋戰及訪問",
+                    "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-17"
+                  },
+                  {
+                    "label": "J.League・21日FC東京0–0柏終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "本季聯賽3場186分鐘；21日全場0失球。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・柏首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日FC東京0–0柏終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "foreign": [],
+        "youth": [
+          {
+            "number": 39,
+            "description": [
+              {
+                "text": "17日中川敦瑛認為面對盯人時自己與小西移動太多，應更早直接找藤尾，再調整接應。這是球員對具體問題的自我分析，24日可觀察其是否修正。屬年輕核心，並非冒稱柏青訓出身。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "柏官方・17日名古屋戰及訪問",
+                    "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-17"
+                  },
+                  {
+                    "label": "Football LAB・柏首10輪球員排行",
+                    "url": "https://www.football-lab.jp/kasw/ranking",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-19"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首10輪10場895分鐘；21日全場後為11場985分鐘。Football LAB首10輪進攻CBP21.08，隊內第三。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・柏首10輪累積紀錄",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "J.League・21日FC東京0–0柏終場紀錄",
+                    "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 30,
+            "description": [
+              {
+                "text": "加藤直岐18日採訪：古谷柊介17日晚首次入J1後備名單，翌日上午為東京國際大踢半場；記者描寫他在右路內切及傳直線創造機會。古谷表示想把左路一對一的信心帶到右路，擴闊可踢位置。21日仍列柏後備未用，屬連戰期間可留意的新晉選項，未有24日入選保證。",
+                "kind": "reported",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Gekisaka・加藤直岐18日採訪古谷柊介",
+                    "url": "https://web.gekisaka.jp/news/university/detail/?461311-461311-fl",
+                    "published_at": "2026-10-18",
+                    "accessed_at": "2026-10-21"
+                  },
+                  {
+                    "label": "柏官方・21日FC東京戰名單及換人",
+                    "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+                    "accessed_at": "2026-10-21",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          },
+          {
+            "number": 64,
+            "description": [
+              {
+                "text": "Football Zone14日報道：柏U-18五十嵐陵獲召參加20–22日U-17日本候選隊集訓，並指出他已完成一隊地標戰。這是青年梯隊近況；沒有24日入選證據，不列為確定後備奇兵。",
+                "kind": "reported",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "Football Zone・14日U-17候選集訓名單報道",
+                    "url": "https://www.football-zone.net/archives/679114",
+                    "published_at": "2026-10-14",
+                    "accessed_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          }
+        ]
+      },
+      "storylines": [
+        {
+          "text": "全日本籍陣容對鹿島的多名外援火力：FC東京官方在21日前瞻有明確介紹。這是陣容背景，不代表技術或比賽風格可由國籍推導。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "FC東京官方・柏本季全日本籍陣容介紹",
+              "url": "https://www.fctokyo.co.jp/match/schedule/info/20261021/",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "27日緊接作客拉查武里，24日後仍為中兩日；若比賽後段再次調動小泉、遠藤或久保，可同時觀察戰況與下一場負荷，但未有教練證實前不要把換人原因斷言為留力。",
+          "kind": "analysis",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "柏官方・全季賽程",
+              "url": "https://www.reysol.co.jp/game/results/index.php",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "standings": {
+    "as_of": "2026-10-21 晚間快照；部分球隊仍10場，並非第11節全輪完結",
+    "sources": [
+      {
+        "label": "SportsNavi／Yahoo・21日晚聯賽榜快照",
+        "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+        "accessed_at": "2026-10-21"
+      }
+    ],
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "machida",
+        "name_zh": "町田澤維亞",
+        "played": 11,
+        "wins": 8,
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 30,
+        "goals_against": 10,
+        "goal_difference": 20,
+        "points": 26
+      },
+      {
+        "rank": 2,
+        "slug": "fc-tokyo",
+        "name_zh": "FC東京",
+        "played": 11,
+        "wins": 7,
+        "draws": 3,
+        "losses": 1,
+        "goals_for": 21,
+        "goals_against": 8,
+        "goal_difference": 13,
+        "points": 24
+      },
+      {
+        "rank": 3,
+        "slug": "hiroshima",
+        "name_zh": "廣島三箭",
+        "played": 10,
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "goals_for": 25,
+        "goals_against": 6,
+        "goal_difference": 19,
+        "points": 23
+      },
+      {
+        "rank": 4,
+        "slug": "kobe",
+        "name_zh": "神戶勝利船",
+        "played": 11,
+        "wins": 7,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 18,
+        "goals_against": 11,
+        "goal_difference": 7,
+        "points": 22
+      },
+      {
+        "rank": 5,
+        "slug": "kashiwa",
+        "name_zh": "柏太陽王",
+        "played": 11,
+        "wins": 7,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 22,
+        "goals_against": 17,
+        "goal_difference": 5,
+        "points": 22
+      },
+      {
+        "rank": 6,
+        "slug": "kashima",
+        "name_zh": "鹿島鹿角",
+        "played": 11,
+        "wins": 6,
+        "draws": 2,
+        "losses": 3,
+        "goals_for": 23,
+        "goals_against": 18,
+        "goal_difference": 5,
+        "points": 20
+      },
+      {
+        "rank": 7,
+        "slug": "kawasaki",
+        "name_zh": "川崎前鋒",
+        "played": 11,
+        "wins": 5,
+        "draws": 4,
+        "losses": 2,
+        "goals_for": 23,
+        "goals_against": 17,
+        "goal_difference": 6,
+        "points": 19
+      },
+      {
+        "rank": 8,
+        "slug": "yokohama-fm",
+        "name_zh": "橫濱水手",
+        "played": 10,
+        "wins": 4,
+        "draws": 4,
+        "losses": 2,
+        "goals_for": 13,
+        "goals_against": 9,
+        "goal_difference": 4,
+        "points": 16
+      },
+      {
+        "rank": 9,
+        "slug": "okayama",
+        "name_zh": "岡山綠雉",
+        "played": 11,
+        "wins": 5,
+        "draws": 1,
+        "losses": 5,
+        "goals_for": 14,
+        "goals_against": 15,
+        "goal_difference": -1,
+        "points": 16
+      },
+      {
+        "rank": 10,
+        "slug": "urawa",
+        "name_zh": "浦和紅鑽",
+        "played": 10,
+        "wins": 5,
+        "draws": 0,
+        "losses": 5,
+        "goals_for": 17,
+        "goals_against": 21,
+        "goal_difference": -4,
+        "points": 15
+      },
+      {
+        "rank": 11,
+        "slug": "shimizu",
+        "name_zh": "清水心跳",
+        "played": 11,
+        "wins": 4,
+        "draws": 2,
+        "losses": 5,
+        "goals_for": 10,
+        "goals_against": 16,
+        "goal_difference": -6,
+        "points": 14
+      },
+      {
+        "rank": 12,
+        "slug": "nagoya",
+        "name_zh": "名古屋鯨魚",
+        "played": 11,
+        "wins": 4,
+        "draws": 1,
+        "losses": 6,
+        "goals_for": 13,
+        "goals_against": 17,
+        "goal_difference": -4,
+        "points": 13
+      },
+      {
+        "rank": 13,
+        "slug": "cerezo-osaka",
+        "name_zh": "大阪櫻花",
+        "played": 11,
+        "wins": 3,
+        "draws": 4,
+        "losses": 4,
+        "goals_for": 10,
+        "goals_against": 17,
+        "goal_difference": -7,
+        "points": 13
+      },
+      {
+        "rank": 14,
+        "slug": "gamba-osaka",
+        "name_zh": "大阪飛腳",
+        "played": 11,
+        "wins": 2,
+        "draws": 4,
+        "losses": 5,
+        "goals_for": 12,
+        "goals_against": 19,
+        "goal_difference": -7,
+        "points": 10
+      },
+      {
+        "rank": 15,
+        "slug": "mito",
+        "name_zh": "水戶蜀葵",
+        "played": 11,
+        "wins": 2,
+        "draws": 3,
+        "losses": 6,
+        "goals_for": 12,
+        "goals_against": 16,
+        "goal_difference": -4,
+        "points": 9
+      },
+      {
+        "rank": 16,
+        "slug": "nagasaki",
+        "name_zh": "長崎成功丸",
+        "played": 10,
+        "wins": 2,
+        "draws": 3,
+        "losses": 5,
+        "goals_for": 11,
+        "goals_against": 18,
+        "goal_difference": -7,
+        "points": 9
+      },
+      {
+        "rank": 17,
+        "slug": "kyoto",
+        "name_zh": "京都不死鳥",
+        "played": 11,
+        "wins": 2,
+        "draws": 3,
+        "losses": 6,
+        "goals_for": 13,
+        "goals_against": 21,
+        "goal_difference": -8,
+        "points": 9
+      },
+      {
+        "rank": 18,
+        "slug": "fukuoka",
+        "name_zh": "福岡黃蜂",
+        "played": 11,
+        "wins": 2,
+        "draws": 1,
+        "losses": 8,
+        "goals_for": 12,
+        "goals_against": 18,
+        "goal_difference": -6,
+        "points": 7
+      },
+      {
+        "rank": 19,
+        "slug": "chiba",
+        "name_zh": "千葉市原JEF聯",
+        "played": 10,
+        "wins": 1,
+        "draws": 3,
+        "losses": 6,
+        "goals_for": 8,
+        "goals_against": 19,
+        "goal_difference": -11,
+        "points": 6
+      },
+      {
+        "rank": 20,
+        "slug": "tokyo-verdy",
+        "name_zh": "東京綠茵",
+        "played": 10,
+        "wins": 0,
+        "draws": 4,
+        "losses": 6,
+        "goals_for": 4,
+        "goals_against": 18,
+        "goal_difference": -14,
+        "points": 4
+      }
+    ]
+  },
+  "quote_events": [],
+  "quote_status": {
+    "text": "21日兩隊賽後訪問欄尚未刊出內容；本場最新訪問暫缺。以下17日／18日聲音只供背景，不屬21日賽後至24日的採訪窗口。",
+    "kind": "fact",
+    "as_of": "2026-10-21",
+    "sources": [
+      {
+        "label": "鹿島官方・21日京都戰名單及換人",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "柏官方・21日FC東京戰名單及換人",
+        "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-21"
+      }
+    ]
+  },
+  "quote_background": [
+    {
+      "topic": "連戰與用人",
+      "home": {
+        "team_slug": "kashima",
+        "speaker": "鬼木達",
+        "role": "主教練",
+        "topic": "前五分鐘兩球的價值",
+        "paraphrase_zh": "認為先入球有助控制連戰；林晴己能全場保持積極，在密集賽程尤其珍貴。",
+        "published_at": "2026-10-17",
+        "context": "background",
+        "outlet": "鹿島官方・17日長崎戰及訪問",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+        "date_note": "17日賽後背景訪問；早於21日上仗，不是24日本場賽前發言。"
+      },
+      "away": {
+        "team_slug": "kashiwa",
+        "speaker": "永井堅梧",
+        "role": "球員",
+        "topic": "爭取教練信任",
+        "paraphrase_zh": "認為3個失球令門將組很不甘心，自己仍須爭取教練信任。此話在21日零封之前說。",
+        "published_at": "2026-10-17",
+        "context": "background",
+        "outlet": "柏官方・17日名古屋戰及訪問",
+        "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+        "date_note": "17日賽後背景訪問；早於21日上仗，不是24日本場賽前發言。"
+      }
+    },
+    {
+      "topic": "怎樣把組織變成入球",
+      "home": {
+        "team_slug": "kashima",
+        "speaker": "卡夫歷",
+        "role": "球員",
+        "topic": "向空間跑",
+        "paraphrase_zh": "表示教練要求向空間走位，認為自己完成任務；會保持謙虛及勤奮。",
+        "published_at": "2026-10-17",
+        "context": "background",
+        "outlet": "Sakanowa・卡夫歷DAZN賽後訪問報道",
+        "url": "https://sakanowa.jp/topics/113745",
+        "date_note": "17日賽後背景訪問；早於21日上仗，不是24日本場賽前發言。"
+      },
+      "away": {
+        "team_slug": "kashiwa",
+        "speaker": "中川敦瑛",
+        "role": "球員",
+        "topic": "移動過多",
+        "paraphrase_zh": "認為面對盯人時跑動過多，藤尾能控住球，應更簡單地找他並更快在場內修正。",
+        "published_at": "2026-10-17",
+        "context": "background",
+        "outlet": "柏官方・17日名古屋戰及訪問",
+        "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+        "date_note": "17日賽後背景訪問；早於21日上仗，不是24日本場賽前發言。"
+      }
+    },
+    {
+      "topic": "處理關鍵一腳",
+      "home": {
+        "team_slug": "kashima",
+        "speaker": "李奧施亞拉",
+        "role": "球員",
+        "topic": "12碼的節奏",
+        "paraphrase_zh": "解釋對長崎射12碼時刻意放慢準備、確保射入；重視球隊3分多於個人入球。",
+        "published_at": "2026-10-18",
+        "context": "background",
+        "outlet": "Soccer Digest・沖野楓彌採訪李奧施亞拉",
+        "url": "https://www.soccerdigestweb.com/news/detail/id=198644",
+        "date_note": "17日賽後背景訪問；早於21日上仗，不是24日本場賽前發言。"
+      },
+      "away": {
+        "team_slug": "kashiwa",
+        "speaker": "列卡度・洛迪古斯",
+        "role": "主教練",
+        "topic": "最後一傳與射門",
+        "paraphrase_zh": "認為17日並非全場踢差，但最後一傳與射門未達其他比賽的水準。",
+        "published_at": "2026-10-17",
+        "context": "background",
+        "outlet": "柏官方・17日名古屋戰及訪問",
+        "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+        "date_note": "17日賽後背景訪問；早於21日上仗，不是24日本場賽前發言。"
+      }
+    },
+    {
+      "topic": "空間與距離",
+      "home": null,
+      "away": {
+        "team_slug": "kashiwa",
+        "speaker": "小西雄大",
+        "role": "球員",
+        "topic": "不是先發輪換",
+        "paraphrase_zh": "認為場上位置輪轉過多，應騰出空間給藤尾拿球，再上前接應；亦自責傳球失誤及未有利用對手身後。",
+        "published_at": "2026-10-17",
+        "context": "background",
+        "outlet": "柏官方・17日名古屋戰及訪問",
+        "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+        "date_note": "17日賽後背景訪問；早於21日上仗，不是24日本場賽前發言。"
+      }
+    }
+  ],
+  "preview": {
+    "cues": [
+      {
+        "text": "鹿島20分對柏22分；鹿島若勝即可在兩隊之間反超。21日晚排名只是當刻快照。",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "SportsNavi／Yahoo・21日晚聯賽榜快照",
+            "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+            "accessed_at": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "text": "同為中兩日：鹿島換6名先發、柏換4名；負荷看個人分鐘，不能只按換人數判定誰更輕鬆。",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "鹿島官方・21日京都戰名單及換人",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "鹿島官方・17日長崎戰及訪問",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          },
+          {
+            "label": "柏官方・21日FC東京戰名單及換人",
+            "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "柏官方・17日名古屋戰及訪問",
+            "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          }
+        ]
+      },
+      {
+        "text": "焦點紀律：三竿、小泉按記錄均3黃；門將與傷員可用狀態仍待本場官方更新。",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League Data Site・鹿島首10輪累積紀錄",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "J.League Data Site・柏首10輪累積紀錄",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "J.League・21日FC東京0–0柏終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102108/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "01｜兩分之差的上游對碰",
+        "paragraphs": [
+          {
+            "text": "這是一場把追趕壓力直接交到對手身上的比賽：柏11場22分，鹿島11場20分，21日晚快照分列第五、第六。鹿島若勝可在兩隊之間反超；柏勝則把差距拉至5分。這只是兩隊積分推算，其他場次會改變總排名。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "SportsNavi／Yahoo・21日晚聯賽榜快照",
+                "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "兩軍不是由週末直接等到週末：21日各踢一場，24日日本15時再開波，名義上同為中兩日。鹿島從京都客場返程，柏則在FC東京作客後再訪鹿島；未取得實際行程，不對車程、睡眠或恢復成效作斷言。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "J.League・24日第12節鹿島對柏",
+                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "鹿島官方・21日京都戰名單及換人",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "柏官方・21日FC東京戰名單及換人",
+                "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "02｜鹿島：把逆轉能力變成三分，還差守住最後一球",
+        "paragraphs": [
+          {
+            "text": "京都戰16分鐘先落後，艾巴78分鐘追和，松村95分鐘補射反超，97分鐘卻被新井晴樹接左路傳中頂入。這場比賽留下的議題是領先後防守，而不只是「能否破密集」。若24日再領先，要看禁區內盯人、外圍對傳中者的限制及清球後第二點。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "J.League・21日京都2–2鹿島終場紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "17日對長崎的2–0也不宜只按比分理解：鹿島5次射門、對方12次，靠早川及植田幾次關鍵防守保持零封。兩場並看，攻擊效率與最後一道防線值得稱讚，卻不能證明整體已沒有讓出機會的問題。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "鹿島官方・17日長崎戰及訪問",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "03｜鹿島的輪換確有作用，但不是人人休息",
+        "paragraphs": [
+          {
+            "text": "17日至21日換6名先發。常用的鈴木優磨、小川、三竿在17日分別只踢18、45、18分鐘，但21日又踢89、90、73；植田兩仗都是全場。卡夫歷17日72分鐘、21日45分鐘，艾巴則35及26分鐘。前線較容易選出負荷不同的人選，後場核心的連續分鐘值得特別追蹤。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "鹿島官方・17日長崎戰及訪問",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-17"
+              },
+              {
+                "label": "鹿島官方・21日京都戰名單及換人",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "這也解釋為何不能用「上仗正選」直接等同「正常陣容」。首10輪早川、植田均10次先發，小川9次；17日大森先發是輪換，21日小川重回正選不等於突發戰術革命。24日待正式名單才比較哪些位置續用、哪些再分擔。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+                "url": "https://www.football-lab.jp/kasm/formation",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              },
+              {
+                "label": "鹿島官方・21日京都戰名單及換人",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "鹿島官方・17日長崎戰及訪問",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "04｜柏：名古屋揭示的問題，東京零封沒有全部回答",
+        "paragraphs": [
+          {
+            "text": "高橋大地18日於Football Channel的專欄指出：名古屋讓高嶺從後防緊追小泉，令柏的流動接應暴露失球後空間。這屬記者對17日的分析，不是鹿島24日已確認的部署。對評述較實用的觀察是：小泉被跟隨時，隊友有沒有向相反方向拉開，而不是所有人都回到球旁。",
+            "kind": "opinion",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Football Channel・高橋大地專欄（作者觀點）",
+                "url": "https://www.footballchannel.jp/2026/10/18/post1036728/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-18"
+              }
+            ]
+          },
+          {
+            "text": "同篇第2頁指出藤尾在23分鐘拿球推進、助攻遠藤，提供較直接的解法。小西及中川的官方訪問亦談及移動過多、應早點找藤尾。若鹿島前壓，柏可以讓中鋒先穩住第一點，由另一人向身後跑；是否執行，要在開場接應距離與縱向跑動中觀察。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Football Channel・高橋大地專欄第2頁",
+                "url": "https://www.footballchannel.jp/2026/10/18/post1036728/2/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-18"
+              },
+              {
+                "label": "柏官方・17日名古屋戰及訪問",
+                "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-17"
+              }
+            ]
+          },
+          {
+            "text": "21日柏11次射門、3次中目標，最後0–0；因此已有零封這個防守結果，卻未有足夠證據說進攻連接完全修好。小泉及遠藤半場入替各45分鐘，24日是否回先發將是最直接的訊號。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "J.League・21日FC東京0–0柏終場紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "柏官方・21日FC東京戰名單及換人",
+                "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "05｜兩個得分故事：首席射手與後備火力",
+        "paragraphs": [
+          {
+            "text": "李奧施亞拉12球對瀨川祐輔8球，是可直接放在開場的對比。兩人的使用方式卻不同：瀨川首10輪全後備，21日仍後備；李奧21日先發踢64分鐘。24日若柏先落後，瀨川何時入場、身旁是否仍有藤尾或細谷，會影響禁區人數與第二點。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "J.League Data Site・柏首10輪累積紀錄",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・21日京都2–2鹿島終場紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・21日FC東京0–0柏終場紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "鹿島另一個具體角色是卡夫歷。17日製造12碼再衝入空間入球；Sakanowa所載訪問中，他說教練要求的就是向空間跑。這可用來解釋他與鈴木優磨回接之間的互補，但未有24日操練報告確認二人會一起先發。",
+            "kind": "reported",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Sakanowa・卡夫歷DAZN賽後訪問報道",
+                "url": "https://sakanowa.jp/topics/113745",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-17"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "06｜傷停要分清「公告」、「上仗入選」與「本場可用」",
+        "paragraphs": [
+          {
+            "text": "柏的確定傷訊集中在馬場及熊坂；若原兩度按腦震盪程序換出後，21日不入選。永井零封是比賽表現，不能代替其他門將的醫療更新。鹿島方面，樋口雖有7月骨折公告，但21日已回到後備席；小池已實際入替。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "柏官方・馬場晴也傷情",
+                "url": "https://www.reysol.co.jp/news/topteam/post-1131.html",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-16"
+              },
+              {
+                "label": "柏官方・熊坂光希傷情",
+                "url": "https://www.reysol.co.jp/news/topteam/post-1128.html",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-02"
+              },
+              {
+                "label": "J.League Data Site・17日腦震盪程序換人",
+                "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34614",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-17"
+              },
+              {
+                "label": "J.League・安西及樋口7月傷情報告",
+                "url": "https://www.jleague.jp/news/article/34474/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-07-21"
+              },
+              {
+                "label": "鹿島官方・21日京都戰名單及換人",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "柏官方・21日FC東京戰名單及換人",
+                "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "紀律上先圈住三竿及小泉：按首10輪紀錄加21日事件，兩人均為3黃。這提示下一張牌的風險，不等於已停賽；24日的正式處分名單、任何更正及其他賽事處分適用方式，仍要按最新公告核對。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "J.League Data Site・鹿島首10輪累積紀錄",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "J.League Data Site・柏首10輪累積紀錄",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・21日京都2–2鹿島終場紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・21日FC東京0–0柏終場紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/102108/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "07｜邊路對位：柏的闊度與鹿島的回追",
+        "paragraphs": [
+          {
+            "text": "柏的3-4-2-1可用翼衛佔闊度，鹿島4-4-2則要決定邊中場何時回到閘位前面。右路久保對鹿島左閘與左中場的二打一，是一個觀察題；鹿島搶回球後，則看卡夫歷或松村能否立即攻擊翼衛身後。不是預設柏一定壓高，也不是預測任何一對已確定先發。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+                "url": "https://www.football-lab.jp/kasm/formation",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              },
+              {
+                "label": "Football LAB・柏首10輪陣式（19日更新）",
+                "url": "https://www.football-lab.jp/kasw/formation",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              },
+              {
+                "label": "Football LAB・柏首10輪球員排行",
+                "url": "https://www.football-lab.jp/kasw/ranking",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              },
+              {
+                "label": "Sakanowa・卡夫歷DAZN賽後訪問報道",
+                "url": "https://sakanowa.jp/topics/113745",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-17"
+              }
+            ]
+          },
+          {
+            "text": "當柏中堅跟隨前鋒回接時，鹿島第二名前鋒是否留在最前？反過來，三竿若上搶小泉，般奴與中堅之間誰保護？用球員之間的距離講比賽，會比只說「高壓」更具體。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+                "url": "https://www.football-lab.jp/kasm/formation",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              },
+              {
+                "label": "Football LAB・柏首10輪陣式（19日更新）",
+                "url": "https://www.football-lab.jp/kasw/formation",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-19"
+              },
+              {
+                "label": "Football Channel・高橋大地專欄（作者觀點）",
+                "url": "https://www.footballchannel.jp/2026/10/18/post1036728/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-18"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "08｜補時與後備：最後二十分鐘的評述準備",
+        "paragraphs": [
+          {
+            "text": "21日鹿島由兩名不同角色的得分者追回比數，柏則半場已用三個換人名額。24日若上半場膠着，先留意兩邊後備席的得分者，而非假設教練會保留調動到最後。鹿島有艾巴、卡夫歷的上仗參與證據，柏有瀨川的本季後備入球紀錄。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "鹿島官方・21日京都戰名單及換人",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・21日京都2–2鹿島終場紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/102112/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "柏官方・21日FC東京戰名單及換人",
+                "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League Data Site・柏首10輪累積紀錄",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "下週亞洲賽，柏27日作客拉查武里，鹿島28日主場迎浦項。兩隊都未結束連戰，但下一站的日期與主客不同。這是選人背景；未獲教練確認，不把任一球員的落選或提早換走直接歸因於亞洲賽留力。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "鹿島官方・全季賽程",
+                "url": "https://www.antlers.co.jp/pages/games-2026-27",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "柏官方・全季賽程",
+                "url": "https://www.reysol.co.jp/game/results/index.php",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "09｜週六開波前要補的證據",
+        "paragraphs": [
+          {
+            "text": "21日晚兩會官方賽後訪問欄仍未刊出內容。此頁另列17日及18日背景訪問，並明示日期，不假造21日感想。24日賽前再掃：21日完整訪問、23日操練與賽前採訪、門將狀態、最新停賽公告、正式正選與後備、球證組及即日天氣。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "鹿島官方・21日京都戰名單及換人",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "柏官方・21日FC東京戰名單及換人",
+                "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・24日第12節鹿島對柏",
+                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "head_to_head": [
+    {
+      "text": "本年兩次百年構想聯賽均鹿島勝：2月21日主場2–0（李奧施亞拉、植田），4月24日作客1–0（鈴木優磨45+1分鐘）。這是2026特別賽事，不能算入2026/27聯賽連勝或今季入球。",
+      "kind": "fact",
+      "as_of": "2026-10-21",
+      "sources": [
+        {
+          "label": "J.League・2月21日百年構想聯賽鹿島2–0柏",
+          "url": "https://www.jleague.jp/match/j1/2026/022104/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-02-21"
+        },
+        {
+          "label": "J.League・4月24日百年構想聯賽柏0–1鹿島",
+          "url": "https://www.jleague.jp/match/j1/2026/042401/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-04-24"
+        }
+      ]
+    },
+    {
+      "text": "2025聯賽鹿島主場3–2、作客3–1雙殺柏；最近四次已核實正式交鋒皆鹿島勝。前一年交手則鹿島主場0–0、作客2–1。往績提供背景，不是本場勝率估計。",
+      "kind": "fact",
+      "as_of": "2026-10-21",
+      "sources": [
+        {
+          "label": "J.League・2月21日百年構想聯賽鹿島2–0柏",
+          "url": "https://www.jleague.jp/match/j1/2026/022104/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-02-21"
+        },
+        {
+          "label": "J.League・4月24日百年構想聯賽柏0–1鹿島",
+          "url": "https://www.jleague.jp/match/j1/2026/042401/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-04-24"
+        }
+      ]
+    }
+  ],
+  "tactical_matchups": [
+    {
+      "topic": "小泉的接球與盯人",
+      "home": {
+        "text": "若三竿上搶，般奴和中堅要保持第二道保護；觀察是否給小泉轉身空間。",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "Football Channel・高橋大地專欄（作者觀點）",
+            "url": "https://www.footballchannel.jp/2026/10/18/post1036728/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-18"
+          },
+          {
+            "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasm/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "Football LAB・柏首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasw/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          }
+        ]
+      },
+      "away": {
+        "text": "小泉被跟隨時，另一名攻中是否拉走對手並留下向身後跑的人？",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "Football Channel・高橋大地專欄（作者觀點）",
+            "url": "https://www.footballchannel.jp/2026/10/18/post1036728/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-18"
+          },
+          {
+            "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasm/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "Football LAB・柏首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasw/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "兩側翼衛身後",
+      "home": {
+        "text": "松村或卡夫歷能否在搶回球後第一時間攻擊柏翼衛身後？",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "Football LAB・柏首10輪球員排行",
+            "url": "https://www.football-lab.jp/kasw/ranking",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "Sakanowa・卡夫歷DAZN賽後訪問報道",
+            "url": "https://sakanowa.jp/topics/113745",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          },
+          {
+            "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasm/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "Football LAB・柏首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasw/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          }
+        ]
+      },
+      "away": {
+        "text": "久保向前時，右中堅與中場誰保護其身後，失球後能否迅速壓住第一傳？",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "Football LAB・柏首10輪球員排行",
+            "url": "https://www.football-lab.jp/kasw/ranking",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "Sakanowa・卡夫歷DAZN賽後訪問報道",
+            "url": "https://sakanowa.jp/topics/113745",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          },
+          {
+            "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasm/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          },
+          {
+            "label": "Football LAB・柏首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasw/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "中鋒回接與縱深",
+      "home": {
+        "text": "鈴木優磨回接串連時，李奧或另一前鋒是否留在禁區前端？",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League・21日京都2–2鹿島終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102112/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "Football Channel・高橋大地專欄第2頁",
+            "url": "https://www.footballchannel.jp/2026/10/18/post1036728/2/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-18"
+          },
+          {
+            "label": "柏官方・17日名古屋戰及訪問",
+            "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          }
+        ]
+      },
+      "away": {
+        "text": "藤尾穩住球後，中川或攻中是否向前插，而非所有人同時回接？",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League・21日京都2–2鹿島終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102112/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "Football Channel・高橋大地專欄第2頁",
+            "url": "https://www.footballchannel.jp/2026/10/18/post1036728/2/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-18"
+          },
+          {
+            "label": "柏官方・17日名古屋戰及訪問",
+            "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-17"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "最後階段的入球與防守",
+      "home": {
+        "text": "21日95分鐘領先後97分鐘失守；留意傳中落點、接應者與第二點。",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League・21日京都2–2鹿島終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102112/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "J.League Data Site・柏首10輪累積紀錄",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "J.League・21日FC東京0–0柏終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102108/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          }
+        ]
+      },
+      "away": {
+        "text": "瀨川8球提供後備火力；若落後時改雙前鋒，防守平衡如何補償？",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League・21日京都2–2鹿島終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102112/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "J.League Data Site・柏首10輪累積紀錄",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "J.League・21日FC東京0–0柏終場紀錄",
+            "url": "https://www.jleague.jp/match/j1/2026/102108/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "死球與禁區人數",
+      "home": {
+        "text": "2月對柏植田曾接樋口角球頂入；樋口21日已列後備，但24日是否入選與處理死球待確認。",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League・2月21日百年構想聯賽鹿島2–0柏",
+            "url": "https://www.jleague.jp/match/j1/2026/022104/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-02-21"
+          },
+          {
+            "label": "鹿島官方・21日京都戰名單及換人",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "Football LAB・柏首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasw/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          }
+        ]
+      },
+      "away": {
+        "text": "若派較多進攻球員追分，留意死球後誰留守，避免對手反擊直接形成單對單。",
+        "kind": "analysis",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League・2月21日百年構想聯賽鹿島2–0柏",
+            "url": "https://www.jleague.jp/match/j1/2026/022104/",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-02-21"
+          },
+          {
+            "label": "鹿島官方・21日京都戰名單及換人",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "Football LAB・柏首10輪陣式（19日更新）",
+            "url": "https://www.football-lab.jp/kasw/formation",
+            "accessed_at": "2026-10-21",
+            "published_at": "2026-10-19"
+          }
+        ]
+      }
+    }
+  ],
+  "coverage_gaps": [
+    "21日完整賽後訪問尚待兩會公布；17／18日背景另列，沒有混入新採訪窗口。",
+    "24日正式正選、後備及球證組尚未公布；陣式示意不是預測正選。",
+    "馬場、熊坂及若原等人的最新康復／醫療許可未取得；不從名單缺席推斷。",
+    "24日官方停賽公告、賽前操練及即日天氣待核實。",
+    "助攻、CBP及常用陣式均為Football LAB19日更新的首10輪口徑；未冒稱11輪進階數據。",
+    "聯賽榜為21日晚同一來源快照，仍有部分球隊10場；沒有拼湊成全部11場。"
+  ],
+  "research_sweep": {
+    "as_of": "2026-10-21",
+    "target_fixture_only": true,
+    "latest_completed_round": 11,
+    "sources": [
+      {
+        "label": "J.League・24日第12節鹿島對柏",
+        "url": "https://www.jleague.jp/match/j1/2026/102407/",
+        "accessed_at": "2026-10-21"
+      },
+      {
+        "label": "鹿島官方・21日京都戰名單及換人",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "J.League・21日京都2–2鹿島終場紀錄",
+        "url": "https://www.jleague.jp/match/j1/2026/102112/",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "柏官方・21日FC東京戰名單及換人",
+        "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "J.League・21日FC東京0–0柏終場紀錄",
+        "url": "https://www.jleague.jp/match/j1/2026/102108/",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "鹿島官方・17日長崎戰及訪問",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-17"
+      },
+      {
+        "label": "柏官方・17日名古屋戰及訪問",
+        "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-17"
+      },
+      {
+        "label": "Football LAB・鹿島首10輪陣式（19日更新）",
+        "url": "https://www.football-lab.jp/kasm/formation",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-19"
+      },
+      {
+        "label": "Football LAB・柏首10輪陣式（19日更新）",
+        "url": "https://www.football-lab.jp/kasw/formation",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-19"
+      },
+      {
+        "label": "Football LAB・鹿島首10輪球員排行",
+        "url": "https://www.football-lab.jp/kasm/ranking",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-19"
+      },
+      {
+        "label": "Football LAB・柏首10輪球員排行",
+        "url": "https://www.football-lab.jp/kasw/ranking",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-19"
+      },
+      {
+        "label": "J.League Data Site・鹿島首10輪累積紀錄",
+        "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
+        "accessed_at": "2026-10-21"
+      },
+      {
+        "label": "J.League Data Site・柏首10輪累積紀錄",
+        "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
+        "accessed_at": "2026-10-21"
+      },
+      {
+        "label": "SportsNavi／Yahoo・21日晚聯賽榜快照",
+        "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+        "accessed_at": "2026-10-21"
+      },
+      {
+        "label": "柏官方・馬場晴也傷情",
+        "url": "https://www.reysol.co.jp/news/topteam/post-1131.html",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-16"
+      },
+      {
+        "label": "柏官方・熊坂光希傷情",
+        "url": "https://www.reysol.co.jp/news/topteam/post-1128.html",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-02"
+      },
+      {
+        "label": "J.League Data Site・17日腦震盪程序換人",
+        "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34614",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-17"
+      },
+      {
+        "label": "Football Channel・高橋大地專欄（作者觀點）",
+        "url": "https://www.footballchannel.jp/2026/10/18/post1036728/",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-18"
+      },
+      {
+        "label": "Football Channel・高橋大地專欄第2頁",
+        "url": "https://www.footballchannel.jp/2026/10/18/post1036728/2/",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-18"
+      },
+      {
+        "label": "Soccer Digest・沖野楓彌採訪李奧施亞拉",
+        "url": "https://www.soccerdigestweb.com/news/detail/id=198644",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-18"
+      },
+      {
+        "label": "Sakanowa・卡夫歷DAZN賽後訪問報道",
+        "url": "https://sakanowa.jp/topics/113745",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-17"
+      },
+      {
+        "label": "鹿島官方・大森渚生完全轉會",
+        "url": "https://www.antlers.co.jp/blogs/news/260916qq2nme",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-09-16"
+      },
+      {
+        "label": "柏官方・藤尾翔太完全轉會",
+        "url": "https://www.reysol.co.jp/news/topteam/post-1117.html",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-08-25"
+      },
+      {
+        "label": "FC東京官方・柏本季全日本籍陣容介紹",
+        "url": "https://www.fctokyo.co.jp/match/schedule/info/20261021/",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "J.League・2月21日百年構想聯賽鹿島2–0柏",
+        "url": "https://www.jleague.jp/match/j1/2026/022104/",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-02-21"
+      },
+      {
+        "label": "J.League・4月24日百年構想聯賽柏0–1鹿島",
+        "url": "https://www.jleague.jp/match/j1/2026/042401/",
+        "accessed_at": "2026-10-21",
+        "published_at": "2026-04-24"
+      },
+      {
+        "label": "Football Zone・14日U-17候選集訓名單報道",
+        "url": "https://www.football-zone.net/archives/679114",
+        "published_at": "2026-10-14",
+        "accessed_at": "2026-10-21"
+      },
+      {
+        "label": "Gekisaka・加藤直岐18日採訪古谷柊介",
+        "url": "https://web.gekisaka.jp/news/university/detail/?461311-461311-fl",
+        "published_at": "2026-10-18",
+        "accessed_at": "2026-10-21"
+      }
+    ],
+    "matchday_checks": [
+      "21日完整賽後訪問與23日賽前採訪",
+      "門將及傷員最新狀態",
+      "24日停賽公告及三竿／小泉黃牌覆核",
+      "正式11正選＋後備",
+      "主球證、兩旁證、第4球證、VAR、AVAR",
+      "球場即日天氣與實際陣式"
+    ]
+  }
+}
