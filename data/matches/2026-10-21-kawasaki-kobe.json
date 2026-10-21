@@ -4,7 +4,7 @@
   "away": "kobe",
   "date": "2026-10-21",
   "as_of": "2026-10-21",
-  "coverage_note": "10月21日凌晨最終資料掃描：已補19–20日兩軍賽前訪問、野田傷患、最新停賽公告、官方名單及球員出場／入球；兩軍最近賽果仍為川崎17日4–2大阪櫻花、神戶18日3–0岡山。正選、球證及未公布醫療情況仍待臨場確認；進階統計保留首9輪截點。",
+  "coverage_note": "10月21日下午追加掃描：球證組設獨立頁及即場速覽表，官方委任人名仍待公布；新增神戶官方賽前問答、川崎記者免費公開訪問要點及21日岡山回顧，天氣更新至15:00 JST。兩軍賽果及正式名單尚無新增；既有進階數據多為首9輪，新增神戶官方統計另註首10輪。",
   "match_info": {
     "kickoff_hkt": "18:00（日本19:00）",
     "stadium": "Uvance等等力體育場 by Fujitsu",
@@ -25,17 +25,86 @@
       }
     ],
     "weather": {
-      "text": "21日01:00 JST更新的中原區預報：日本19–21時晴，氣溫約25°C，逐小時降水量0毫米；頁面當時有強風注意報。這是市區預報，非球場實測；日間最高約30°C不可當作開賽氣溫。臨場須再看風勢與注意報是否仍生效。",
-      "kind": "fact",
-      "as_of": "2026-10-21",
+      "text": "21日15:00 JST更新：中原區日本19–21時預報晴，約25.2–25.6°C、逐小時雨量0毫米，風向南南西。頁面仍列強風及波浪注意報；波浪注意報不是球場陸地狀況。市區預報不等於球場實測，風勢及注意報須臨場再查。",
       "sources": [
         {
-          "label": "tenki.jp・川崎市中原區逐小時預報（21日01:00 JST更新）",
+          "label": "tenki.jp・中原區21日15:00 JST逐小時預報",
           "url": "https://tenki.jp/forecast/3/17/4610/14133/1hour.html",
           "accessed_at": "2026-10-21",
           "published_at": "2026-10-21"
         }
-      ]
+      ],
+      "kind": "fact",
+      "as_of": "2026-10-21",
+      "forecast_issued_at": "2026-10-21T15:00:00+09:00"
+    },
+    "officials": {
+      "status": "awaiting_appointment",
+      "checked_at": "2026-10-21T14:19+08:00",
+      "checked_at_display": "2026-10-21 14:19 HKT（日本15:19）",
+      "note": "本次查閱時，川崎官方本場的主球證、兩名旁證、第4球證、VAR及AVAR欄仍空白；J.League本場頁未見委任人名。神戶名單頁仍提示約開賽前1小時公布。後者是該頁名單更新提示，並非保證球證組同時公布。",
+      "roles": [
+        {
+          "id": "referee",
+          "label": "主球證",
+          "name_ja": null,
+          "name_zh": null,
+          "profile": null
+        },
+        {
+          "id": "assistant_1",
+          "label": "旁證1",
+          "name_ja": null,
+          "name_zh": null,
+          "profile": null
+        },
+        {
+          "id": "assistant_2",
+          "label": "旁證2",
+          "name_ja": null,
+          "name_zh": null,
+          "profile": null
+        },
+        {
+          "id": "fourth_official",
+          "label": "第4球證",
+          "name_ja": null,
+          "name_zh": null,
+          "profile": null
+        },
+        {
+          "id": "var",
+          "label": "VAR",
+          "name_ja": null,
+          "name_zh": null,
+          "profile": null
+        },
+        {
+          "id": "avar",
+          "label": "AVAR",
+          "name_ja": null,
+          "name_zh": null,
+          "profile": null
+        }
+      ],
+      "sources": [
+        {
+          "label": "川崎官方・本場開催數據／球證欄及停賽資訊",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "J.League・本場官方頁",
+          "url": "https://www.jleague.jp/match/j1/2026/102109/",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "神戶官方・本場名單公開頁（仍顯示開賽約1小時前公布）",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+          "accessed_at": "2026-10-21"
+        }
+      ],
+      "profile_note": "委任未確認，故不填個人履歷、執法風格、牌數或兩隊往績。旁證編號依官方紀錄次序，未核實技術區側位置前不自行標邊。"
     }
   },
   "teams": {
@@ -1088,6 +1157,24 @@
               "published_at": "2026-10-12"
             }
           ]
+        },
+        {
+          "text": "20日石川剛前瞻的免費目錄引述長谷部談傷兵困難；並非新增醫療診斷，也沒有確認上仗提早離場後衛能否出賽。本次未找到可把該等球員標為傷癒的正式更新。",
+          "sources": [
+            {
+              "label": "いしかわごう・神戶戰前瞻（僅免費導言及目錄）",
+              "url": "https://note.com/ishikawago/n/n92116d743634",
+              "accessed_at": "2026-10-21",
+              "published_at": "2026-10-20"
+            },
+            {
+              "label": "川崎官方・本場開催數據／球證欄及停賽資訊",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-21"
+            }
+          ],
+          "kind": "reported",
+          "as_of": "2026-10-21"
         }
       ],
       "suspensions": [
@@ -1103,6 +1190,18 @@
               "published_at": "2026-10-19"
             }
           ]
+        },
+        {
+          "text": "川崎官方本場第11節頁面另明列「今節出場停止：無」，並列柏度・羅曼奴、伊藤達哉各3黃；與本頁已有聯賽警告監察一致。",
+          "sources": [
+            {
+              "label": "川崎官方・本場開催數據／球證欄及停賽資訊",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-21"
+            }
+          ],
+          "kind": "fact",
+          "as_of": "2026-10-21"
         }
       ],
       "yellow_risk": [
@@ -2715,6 +2814,107 @@
   },
   "quote_events": [
     {
+      "date": "2026-10-21",
+      "title": "21日覆核｜神戶官方賽前問答：中場、前壓與疲勞",
+      "summary": "官方頁未列刊出日；按覆核日展示。問答稱「明日」，不冒稱21日剛完成的採訪。",
+      "entries": [
+        {
+          "team_slug": "kobe",
+          "speaker": "米高・史基比",
+          "role": "主教練",
+          "topic": "對川崎威脅的判斷",
+          "paraphrase_zh": "點名中場技術及兩翼速度，並期待等等力氣氛和與長谷部交手。",
+          "published_at": "2026-10-21",
+          "context": "pre_match",
+          "outlet": "神戶官方",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+          "date_basis": "accessed",
+          "date_note": "21日覆核官方公開問答；頁面沒有刊出或採訪日，問題以「明日」稱21日比賽，並非21日現場即訪。"
+        },
+        {
+          "team_slug": "kobe",
+          "speaker": "米高・史基比",
+          "role": "主教練",
+          "topic": "前壓與持球的要求",
+          "paraphrase_zh": "強調主動向前防守，拿球後控制對手；承認川崎有多個得分點。",
+          "published_at": "2026-10-21",
+          "context": "pre_match",
+          "outlet": "神戶官方",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+          "date_basis": "accessed",
+          "date_note": "21日覆核官方公開問答；頁面沒有刊出或採訪日，問題以「明日」稱21日比賽，並非21日現場即訪。"
+        },
+        {
+          "team_slug": "kobe",
+          "speaker": "鍬先祐彌",
+          "role": "球員",
+          "topic": "先限制中場傳球者",
+          "paraphrase_zh": "認為讓川崎中場自由傳球就會失去主導權，也須提防馬仙奴速度。",
+          "published_at": "2026-10-21",
+          "context": "pre_match",
+          "outlet": "神戶官方",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+          "date_basis": "accessed",
+          "date_note": "21日覆核官方公開問答；頁面沒有刊出或採訪日，問題以「明日」稱21日比賽，並非21日現場即訪。"
+        },
+        {
+          "team_slug": "kobe",
+          "speaker": "鍬先祐彌",
+          "role": "球員",
+          "topic": "承認疲勞仍要維持踢法",
+          "paraphrase_zh": "承認連戰可能帶來疲勞，希望逐場維持神戶的比賽方式。",
+          "published_at": "2026-10-21",
+          "context": "pre_match",
+          "outlet": "神戶官方",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+          "date_basis": "accessed",
+          "date_note": "21日覆核官方公開問答；頁面沒有刊出或採訪日，問題以「明日」稱21日比賽，並非21日現場即訪。"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "title": "10月20日18:00刊出｜川崎記者前瞻：免費公開的訪問線索",
+      "summary": "いしかわごう在note的免費導言及目錄；未讀取其後8,342字付費內容。目錄中的球員選擇屬作者預測，不當作正選或醫療確認。",
+      "entries": [
+        {
+          "team_slug": "kawasaki",
+          "speaker": "長谷部茂利",
+          "role": "主教練",
+          "topic": "傷兵多影響選擇",
+          "paraphrase_zh": "免費目錄引述他談傷兵增加的困難；沒有公布佐佐木旭或柏度・羅曼奴本場能否上陣。",
+          "published_at": "2026-10-20",
+          "context": "pre_match",
+          "outlet": "いしかわごう",
+          "url": "https://note.com/ishikawago/n/n92116d743634",
+          "quote_ja": "怪我人が多いと監督も困ります",
+          "quote_zh": "傷兵多，主教練也很傷腦筋。"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "山本悠樹",
+          "role": "球員",
+          "topic": "避免讓對手鎖定奪球點",
+          "paraphrase_zh": "公開目錄提及他的傳球循環思路；不能把目錄延伸成未讀取的完整部署。",
+          "published_at": "2026-10-20",
+          "context": "pre_match",
+          "outlet": "いしかわごう",
+          "url": "https://note.com/ishikawago/n/n92116d743634"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "大關友翔",
+          "role": "球員",
+          "topic": "在後備席已開始閱讀比賽",
+          "paraphrase_zh": "公開目錄引述他會觀察中場移動，以及能令對手難受的空間。",
+          "published_at": "2026-10-20",
+          "context": "pre_match",
+          "outlet": "いしかわごう",
+          "url": "https://note.com/ishikawago/n/n92116d743634"
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "title": "10月20日｜神戶賽前：連戰、輪換與逐場爭勝",
       "summary": "體育日本賽前報道；按同一採訪事件整理。名單仍未公布。",
@@ -3072,6 +3272,84 @@
       }
     ],
     "sections": [
+      {
+        "title": "下午追加①｜兩軍把焦點放在同一區域：中場",
+        "paragraphs": [
+          {
+            "text": "神戶官方賽前問答中，史基比強調向前防守及持球後控制對手，鍬先則要求限制川崎中場的自由。川崎記者公開目錄亦提到山本的傳球循環。由此可把前15分鐘的觀察縮成一條問題：山本接球時，下一個接應點是否已出現，還是只能在壓迫下臨時找出口？這是本頁分析，並非雙方完整戰術已公開。",
+            "sources": [
+              {
+                "label": "神戶官方・白井邦彥前瞻及賽前教練／球員問答（21日覆核）",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "いしかわごう・神戶戰前瞻（僅免費導言及目錄）",
+                "url": "https://note.com/ishikawago/n/n92116d743634",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-20"
+              }
+            ],
+            "kind": "analysis",
+            "as_of": "2026-10-21"
+          },
+          {
+            "text": "神戶官方前瞻提供首10輪的新截點：井手口總跑動118.3公里、199次衝刺；頁面把衝刺定義為時速25公里以上維持至少1秒。這是聯賽累計，不含亞洲賽。",
+            "sources": [
+              {
+                "label": "神戶官方・白井邦彥前瞻及賽前教練／球員問答（21日覆核）",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "kind": "reported",
+            "as_of": "2026-10-21"
+          },
+          {
+            "text": "大量跑動說明井手口參與範圍，不能直接證明本場體能已恢復。若川崎能令他在兩側反覆橫移，再讓脇坂或大關接應第二段傳球，才真正把跑動總量轉化為比賽中的負荷問題；反之，傳球若只在同一側往返，神戶可以用較短距離封鎖。",
+            "sources": [
+              {
+                "label": "神戶官方・白井邦彥前瞻及賽前教練／球員問答（21日覆核）",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "kind": "analysis",
+            "as_of": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "title": "下午追加②｜岡山球員眼中的神戶：3–0不等於沒有險情",
+        "paragraphs": [
+          {
+            "text": "21日11:00刊出的難波拓未回顧，引用18日岡山賽後談話。江坂任認為神戶能把握對方失誤，亦提及門將質素；木山則把解圍是否夠遠及傳球是否果斷，視作比分背後的細節差距。這是上仗對手評價，不是神戶今日的採訪。",
+            "sources": [
+              {
+                "label": "Football Channel／難波拓未・江坂任與木山談18日神戶戰",
+                "url": "https://www.footballchannel.jp/2026/10/21/post1037451/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ],
+            "kind": "reported",
+            "as_of": "2026-10-21"
+          },
+          {
+            "text": "同篇報道指出岡山48分鐘仍有近門機會被擋，神戶隨即在49分鐘先開紀錄。對本場的啟示是：神戶既能承受險情，也能迅速懲罰對手；川崎若第一下射門被擋，仍須保護回收位置，避免一次攻勢在十幾秒內變成自己禁區前的危機。時間先後是上仗事實，後半段是本頁推演。",
+            "sources": [
+              {
+                "label": "Football Channel／難波拓未・江坂任與木山談18日神戶戰",
+                "url": "https://www.footballchannel.jp/2026/10/21/post1037451/",
+                "accessed_at": "2026-10-21",
+                "published_at": "2026-10-21"
+              }
+            ],
+            "kind": "analysis",
+            "as_of": "2026-10-21"
+          }
+        ]
+      },
       {
         "title": "賽前最後更新①｜川崎的入球分散，如何通過神戶壓迫？",
         "paragraphs": [
@@ -3736,7 +4014,7 @@
             ]
           },
           {
-            "text": "進階統計仍以10月12日首9輪為截點；聯賽榜與戰績為18日首10輪。球員卡的聯賽出場／入球已對照最新J.League名單；未同步的分鐘、助攻不冒稱更新至第10輪。",
+            "text": "既有Football LAB進階統計仍以10月12日首9輪為截點；下午另加的神戶官方跑動及衝刺數字明列首10輪，兩者不可混用。聯賽榜與戰績為18日首10輪。球員卡的聯賽出場／入球已對照最新J.League名單；未同步的分鐘、助攻不冒稱更新至第10輪。",
             "kind": "fact",
             "as_of": "2026-10-21",
             "sources": [
@@ -4004,12 +4282,12 @@
     }
   ],
   "coverage_gaps": [
-    "正式正選、後備及球證未公布；須臨場再查。",
+    "主球證、兩名旁證、第4球證、VAR、AVAR，以及正式正選／後備仍未公布；本次下午覆核時間見球證頁。",
     "佐佐木旭／柏度・羅曼奴等球員未有新醫療或復出確認，不以沒有新公告判定傷癒。",
-    "進階統計仍只至首9輪；助攻及部分分鐘保留原截點。",
+    "既有Football LAB進階統計只至首9輪；新增神戶官方跑動／衝刺數據為首10輪，兩個截點分開標示。助攻及部分分鐘保留原截點。",
     "新建高橋壹晟、岩本悠庵永久卡，基本資料及當前註冊已核對；個別完整生涯／青年及慣用腳證據待補，未宣稱通過完整傳記驗證。",
     "入江羚介未見於當前J.League名單，2026/27特別指定資格仍待確認；保留歷史卡，不推斷離隊。",
-    "天氣為21日凌晨預報，非球場實測；臨場再核對。"
+    "天氣為21日15:00 JST預報，非球場實測；臨場再核對。"
   ],
   "research_sweep": {
     "as_of": "2026-10-21",
@@ -4072,6 +4350,55 @@
         "url": "https://www.jleague.jp/match/j1/2026/102109/",
         "accessed_at": "2026-10-21"
       }
-    ]
+    ],
+    "followup": {
+      "checked_at": "2026-10-21T14:19+08:00",
+      "new_interview_entries": 7,
+      "total_interview_entries": 30,
+      "officials_status": "awaiting_appointment",
+      "new_medical_clearance_found": false,
+      "new_results_found": false,
+      "weather_issued_at": "2026-10-21T15:00:00+09:00",
+      "sources": [
+        {
+          "label": "川崎官方・本場開催數據／球證欄及停賽資訊",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "J.League・本場官方頁",
+          "url": "https://www.jleague.jp/match/j1/2026/102109/",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "神戶官方・本場名單公開頁（仍顯示開賽約1小時前公布）",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "神戶官方・白井邦彥前瞻及賽前教練／球員問答（21日覆核）",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=view2",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "いしかわごう・神戶戰前瞻（僅免費導言及目錄）",
+          "url": "https://note.com/ishikawago/n/n92116d743634",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-10-20"
+        },
+        {
+          "label": "Football Channel／難波拓未・江坂任與木山談18日神戶戰",
+          "url": "https://www.footballchannel.jp/2026/10/21/post1037451/",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-10-21"
+        },
+        {
+          "label": "tenki.jp・中原區21日15:00 JST逐小時預報",
+          "url": "https://tenki.jp/forecast/3/17/4610/14133/1hour.html",
+          "accessed_at": "2026-10-21",
+          "published_at": "2026-10-21"
+        }
+      ]
+    }
   }
 }

@@ -150,10 +150,11 @@ function renderTrivia(trivia = []) {
 function renderInterviews(interviews = []) {
   if (!interviews.length) return '';
   return `<section class="section"><h3>最近一週發言</h3><div class="interview-list">${interviews.map(item => `<article class="interview-card">
-    <div class="story-meta"><span>${valueOrBlank(item.published_at)}</span><span>${esc(item.outlet || '')}</span><span>${esc(item.context || '')}</span></div>
+    <div class="story-meta"><span>${item.date_basis === 'accessed' ? '覆核日 ' : ''}${valueOrBlank(item.published_at)}</span><span>${esc(item.outlet || '')}</span><span>${esc(item.context || '')}</span></div>
     ${item.quote_zh ? `<blockquote>「${esc(item.quote_zh)}」</blockquote>` : ''}
     ${item.quote_ja ? `<details><summary>查看日文原句</summary><p lang="ja">${esc(item.quote_ja)}</p></details>` : ''}
     ${item.paraphrase_zh ? `<p><strong>直播重點：</strong>${esc(item.paraphrase_zh)}</p>` : ''}
+    ${item.date_note ? `<p class="quote-date-note">${esc(item.date_note)}</p>` : ''}
     ${item.url ? `<a class="source-link" href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.outlet || '訪問來源')}</a>` : ''}
   </article>`).join('')}</div></section>`;
 }

@@ -16,7 +16,7 @@ test('match links preserve fixture and page, invalid dates normalize', () => {
   assert.equal(validDate('2026-02-30'),false);
   assert.equal(validDate('2028-02-29'),true);
 });
-test('all nine pages render with the correct teams and honest pending states', () => {
+test('all match pages render with the correct teams and honest pending states', () => {
   for(const {id,label} of MATCH_PAGES) {
     const html=renderMatchPage({home,away,date:'',page:id});
     assert.ok(html.includes(label)); assert.ok(html.includes(home.team.name_zh));
@@ -48,4 +48,23 @@ test('preview escapes source text and labels opinion', () => {
 test('standing page does not combine club snapshots into a current league table', () => {
   const html=renderMatchPage({home,away,date,page:'standings'});
   assert.ok(html.includes('同一時間截點')); assert.ok(!html.includes('standings-table'));
+});
+
+test('officials require confirmed source-backed identities and source-backed profiles',()=>{
+ const copy=structuredClone(dossier);
+ copy.match_info={officials:{status:'awaiting_appointment',sources:[{url:'https://example.com',label:'official'}],roles:[{id:'referee',name_ja:'未確認姓名',profile:{claims:[{text:'未確認履歷',as_of:date,sources:[{url:'https://example.com'}]}]}}]}};
+ const render=()=>renderMatchPage({home,away,date,page:'officials',dossier:copy});
+ assert.ok(!render().includes('未確認姓名'));assert.ok(!render().includes('未確認履歷'));
+ copy.match_info.officials.status='confirmed';
+ copy.match_info.officials.roles[0]={id:'referee',name_ja:'<script>name</script>',profile:{claims:[{text:'無來源履歷',as_of:date},{text:'已核對履歷',as_of:date,sources:[{url:'https://example.com'}]}]}};
+ assert.ok(render().includes('&lt;script&gt;name&lt;/script&gt;'));assert.ok(!render().includes('<script>name'));
+ assert.ok(!render().includes('無來源履歷'));assert.ok(render().includes('已核對履歷'));
+ assert.ok(!renderMatchPage({home,away,date:'2026-10-07',page:'officials',dossier:copy}).includes('已核對履歷'));
+ delete copy.match_info.officials.sources;assert.ok(!render().includes('已核對履歷'));
+});
+
+test('officials page preserves an existing sourced referee in earlier dossiers',()=>{
+ const old=structuredClone(dossier);old.match_info={referee:'既有主球證',sources:[{url:'https://example.com/record',label:'官方紀錄'}]};
+ const h=renderMatchPage({home,away,date,page:'officials',dossier:old});
+ assert.ok(h.includes('既有主球證'));assert.ok(h.includes('官方已確認'));assert.ok(h.includes('其他職務尚未收錄'));
 });

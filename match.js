@@ -7,6 +7,7 @@ export const MATCH_PAGES = [
   { id: 'standings', label: '聯賽榜', description: '排名與積分形勢' },
   { id: 'history', label: '對賽歷史與故事線', description: '往績・倒戈・里程碑' },
   { id: 'tactics', label: '戰術對位', description: '壓迫・邊路・死球' },
+  { id: 'officials', label: '球證與旁證', description: '主球證・旁證・VAR・執法資料' },
   { id: 'live', label: '即場速覽', description: '正選・後備・評述重點' },
 ];
 const e = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -119,9 +120,26 @@ function tactics(ctx) {
   const rows = ctx.dossier?.tactical_matchups;
   return rows?.length ? rows.map(r=>pair(ctx,claim(r.home),claim(r.away),r.topic)).join('') : ['前場壓迫與後場組織','邊路進攻與防守覆蓋','攻守轉換','角球與罰球','後備調動'].map(topic=>pair(ctx,blank('等待本場戰術研究'),blank('等待本場戰術研究'),topic)).join('');
 }
+function officials(ctx) {
+  const info = ctx.dossier?.match_info || {};
+  const o = info.officials || (info.referee ? {status:'partially_confirmed',roles:[{id:'referee',name_ja:info.referee,status:'confirmed'}],sources:info.sources,note:'此場既有紀錄只收錄主球證；其他職務尚未收錄。'} : null);
+  const definitions = [['referee','主球證'],['assistant_1','旁證1'],['assistant_2','旁證2'],['fourth_official','第4球證'],['var','VAR'],['avar','AVAR']];
+  const sourced = o?.sources?.some(s => /^https?:\/\//.test(s.url || ''));
+  const rows = definitions.map(([id,label]) => {
+    const r = o?.roles?.find(r => r.id === id) || {};
+    const confirmed = Boolean(sourced && (o.status === 'confirmed' || (o.status === 'partially_confirmed' && r.status === 'confirmed')) && r.name_ja);
+    return { ...r, id, label, confirmed };
+  });
+  const table = `<div class="table-wrap"><table class="match-table"><thead><tr><th>職務</th><th>姓名</th><th>確認狀態</th></tr></thead><tbody>${rows.map(r => `<tr><td>${e(r.label)}</td><td>${r.confirmed ? e(r.name_zh || r.name_ja) + (r.name_zh && r.name_zh !== r.name_ja ? `<small lang="ja">（${e(r.name_ja)}）</small>` : '') : blank('待官方公布')}</td><td>${r.confirmed ? '官方已確認' : '委任未確認'}</td></tr>`).join('')}</tbody></table></div>`;
+  const profiles = rows.filter(r => r.confirmed).map(r => {
+    const c = (r.profile?.claims || []).filter(c => c.text && validDate(c.as_of) && c.as_of <= ctx.date && c.sources?.some(s=>/^https?:\/\//.test(s.url || '')));
+    return c.length ? card(`${r.label}｜${r.name_zh || r.name_ja}`,claims(c)) : '';
+  }).join('');
+  return card('球證與旁證', `${o?.note ? `<p>${e(o.note)}</p>` : '<p>尚未收錄本場球證組委任資料。</p>'}${table}${o?.profile_note ? `<p>${e(o.profile_note)}</p>` : ''}<div class="source-list">${sources(o?.sources)}</div>`, o?.checked_at_display ? `最後核對 ${o.checked_at_display}` : '') + profiles;
+}
 function live(ctx) {
   const info = ctx.dossier?.match_info || {};
-  return card('比賽基本資料', `<div class="match-metrics">${[['開賽時間',info.kickoff_hkt],['場地',info.stadium],['球證',info.referee],['正選公布',info.lineups_as_of]].map(([label,v])=>`<div><small>${label}</small><strong>${field(v)}</strong></div>`).join('')}</div>${info.selection_note ? `<p>${e(info.selection_note)}</p>` : ''}<div class="source-list">${sources(info.sources)}</div>`) + (info.weather ? card('比賽日天氣',claim(info.weather)) : '') + pair(ctx,...[ctx.home,ctx.away].map(c=>{
+  return card('比賽基本資料', `<div class="match-metrics">${[['開賽時間',info.kickoff_hkt],['場地',info.stadium],...(!info.officials ? [['球證',info.referee]] : []),['正選公布',info.lineups_as_of]].map(([label,v])=>`<div><small>${label}</small><strong>${field(v)}</strong></div>`).join('')}</div>${info.selection_note ? `<p>${e(info.selection_note)}</p>` : ''}<div class="source-list">${sources(info.sources)}</div>`) + officials(ctx) + (info.weather ? card('比賽日天氣',claim(info.weather)) : '') + pair(ctx,...[ctx.home,ctx.away].map(c=>{
     const side=ctx.dossier?.teams?.[c.team.slug]?.lineup;
     return card('官方正選',claims(side?.starters)) + card('後備',claims(side?.bench)) + card('即場評述重點',claims(side?.cues));
   }), '官方陣容與評述筆記');
@@ -129,6 +147,6 @@ function live(ctx) {
 export function renderMatchPage(input) {
   const ctx = { ...input, dossier: input.dossier?.home === input.home.team.slug && input.dossier?.away === input.away.team.slug && input.dossier?.date === input.date ? input.dossier : null };
   const page = MATCH_PAGES.find(p=>p.id===ctx.page) || MATCH_PAGES[0];
-  const content = {comparison,preview,quotes,players,logs:c=>'<p class="match-description">只列2026/27正式賽季，包含全部38輪聯賽及已確定盃賽。比分以該隊為先；2027賽程按來源保留暫定日期或日期範圍，可能調整。</p>'+pair(c,...[c.home,c.away].map(club=>gameLog(c.dossier?.teams?.[club.team.slug]?.game_log,c.date))),standings,history,tactics,live}[page.id](ctx);
+  const content = {comparison,preview,quotes,players,logs:c=>'<p class="match-description">只列2026/27正式賽季，包含全部38輪聯賽及已確定盃賽。比分以該隊為先；2027賽程按來源保留暫定日期或日期範圍，可能調整。</p>'+pair(c,...[c.home,c.away].map(club=>gameLog(c.dossier?.teams?.[club.team.slug]?.game_log,c.date))),standings,history,tactics,officials,live}[page.id](ctx);
   return `<article class="panel match-panel"><header class="match-hero"><div><div class="eyebrow">MATCH CENTRE / 2026–27</div><h2>${e(ctx.home.team.name_zh)} <span>對</span> ${e(ctx.away.team.name_zh)}</h2><p>${e(page.label)} · ${e(page.description)}</p></div><div class="match-date-label">下一場評述<strong>${e(ctx.date)}</strong><span>${e(ctx.dossier?.match_info?.kickoff_hkt || '')}</span></div></header><div class="match-content"><div class="match-status ${ctx.dossier ? 'ready' : ''}"><span>${ctx.dossier ? '本場研究' : '介面初稿・本場研究待補'}</span><p>${ctx.dossier ? `核對日期 ${e(ctx.dossier.as_of || '未註明')}。${e(ctx.dossier.coverage_note || '各項來源與截點請見內文。')}` : '可先試用頁面與切換功能。球季數據為既有館藏截點；本場訪問、傷停、預測及即時排名尚未核實。'}</p></div><div class="comparison-headings">${clubHeading(ctx.home,'home')}${clubHeading(ctx.away,'away')}</div>${content}</div></article>`;
 }

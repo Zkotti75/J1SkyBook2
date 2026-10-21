@@ -43,9 +43,23 @@ test('final sweep dates medical news and preserves honest roster and selection s
  const i=away.players.find(x=>x.number==='23');assert.ok(i.tenure_status.includes('2029/30'));assert.ok(i.registration_status.includes('特別指定'));
  assert.ok(away.players.find(x=>x.number==='45').match_week.selection_status.includes('外借大分'));
  assert.ok(away.players.find(x=>x.number==='57').match_week.selection_status.includes('尚未確認'));
- assert.equal(d.quote_events.flatMap(x=>x.entries).filter(x=>x.published_at>='2026-10-19').length,11);
+ assert.ok(d.quote_events.flatMap(x=>x.entries).filter(x=>x.published_at>='2026-10-19').length>=11);
  for(const q of d.quote_events.flatMap(x=>x.entries)){if(q.quote_zh)assert.ok(q.quote_ja);}
- assert.ok(d.match_info.weather.text.includes('01:00 JST'));
+ assert.equal(d.match_info.weather.forecast_issued_at,'2026-10-21T15:00:00+09:00');
  assert.equal(d.match_info.lineups_as_of,null);
  for(const club of [home,away])for(const p of club.players){const r=p.season_stats?.find(x=>x.season==='2026/27'&&x.competition==='J1');if(r?.as_of==='2026-10-18'){assert.ok(r.appearances<=10);assert.ok(r.goals>=0);}}
+});
+
+test('afternoon sweep keeps six officials pending with dated official evidence',()=>{
+ const o=d.match_info.officials;
+ assert.equal(o.status,'awaiting_appointment');assert.equal(o.roles.length,6);
+ assert.ok(o.checked_at.endsWith('+08:00'));assert.ok(o.sources.some(s=>s.url.includes('frontale.co.jp')));
+ assert.ok(o.roles.every(r=>r.name_ja===null && r.profile===null));
+ for(const page of ['officials','live']){
+  const h=renderMatchPage({home,away,date:d.date,page,dossier:d});
+  for(const label of ['主球證','旁證1','旁證2','第4球證','VAR','AVAR'])assert.ok(h.includes(label));
+  assert.ok(h.includes('委任未確認'));assert.ok(h.includes(o.checked_at_display));
+ }
+ const fresh=d.quote_events[0].entries;
+ assert.equal(fresh.length,4);assert.ok(fresh.every(q=>q.date_basis==='accessed'));
 });
