@@ -4,31 +4,30 @@
   "away": "kobe",
   "date": "2026-10-21",
   "as_of": "2026-10-21",
-  "coverage_note": "10月21日下午追加掃描：球證組設獨立頁及即場速覽表，官方委任人名仍待公布；新增神戶官方賽前問答、川崎記者免費公開訪問要點及21日岡山回顧，天氣更新至15:00 JST。兩軍賽果及正式名單尚無新增；既有進階數據多為首9輪，新增神戶官方統計另註首10輪。",
+  "coverage_note": "開賽前最後掃描 17:45 HKT：正式11正選＋9後備及6名球證組已確認，球員卡已同步；川崎換5名先發、神戶換1名。新增5則川崎官方公開談話（共35則）。未填未發生的比分、球場實測或不明缺陣原因；早前待公布的文字請以本次更新及即場速覽為準。",
   "match_info": {
-    "kickoff_hkt": "18:00（日本19:00）",
+    "kickoff_hkt": "18:00（日本19:00；川崎官方記錄列19:03）",
     "stadium": "Uvance等等力體育場 by Fujitsu",
-    "referee": null,
-    "lineups_as_of": null,
-    "selection_note": "第11節；本場官方正選尚未公布。圖中只展示已用／常用陣式，不是預測名單。",
+    "referee": "中村太",
+    "lineups_as_of": "17:45 HKT",
+    "selection_note": "兩軍正式正選及9名後備已公布；按球會官方紀錄列示。陣式圖如沿用此前版本仍屬常用陣式，不等於本場實際站位。",
     "sources": [
       {
-        "label": "川崎官方・神戶戰主場資訊",
-        "url": "https://www.frontale.co.jp/info/2026/1012_17.html",
-        "accessed_at": "2026-10-18",
-        "published_at": "2026-10-12"
+        "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+        "accessed_at": "2026-10-21"
       },
       {
-        "label": "J.League・本場",
-        "url": "https://www.jleague.jp/match/j1/2026/102109/",
-        "accessed_at": "2026-10-18"
+        "label": "神戶官方・21日正式名單及球證組",
+        "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+        "accessed_at": "2026-10-21"
       }
     ],
     "weather": {
-      "text": "21日15:00 JST更新：中原區日本19–21時預報晴，約25.2–25.6°C、逐小時雨量0毫米，風向南南西。頁面仍列強風及波浪注意報；波浪注意報不是球場陸地狀況。市區預報不等於球場實測，風勢及注意報須臨場再查。",
+      "text": "21日18:00 JST更新的中原區預報：日本19–21時約25.3–25.8°C；頁面仍列強風注意報。這是市區預報，不是球場實測，風勢須臨場觀察。",
       "sources": [
         {
-          "label": "tenki.jp・中原區21日15:00 JST逐小時預報",
+          "label": "tenki.jp・中原區21日18:00 JST逐小時預報",
           "url": "https://tenki.jp/forecast/3/17/4610/14133/1hour.html",
           "accessed_at": "2026-10-21",
           "published_at": "2026-10-21"
@@ -36,75 +35,103 @@
       ],
       "kind": "fact",
       "as_of": "2026-10-21",
-      "forecast_issued_at": "2026-10-21T15:00:00+09:00"
+      "forecast_issued_at": "2026-10-21T18:00:00+09:00"
     },
     "officials": {
-      "status": "awaiting_appointment",
-      "checked_at": "2026-10-21T14:19+08:00",
-      "checked_at_display": "2026-10-21 14:19 HKT（日本15:19）",
-      "note": "本次查閱時，川崎官方本場的主球證、兩名旁證、第4球證、VAR及AVAR欄仍空白；J.League本場頁未見委任人名。神戶名單頁仍提示約開賽前1小時公布。後者是該頁名單更新提示，並非保證球證組同時公布。",
+      "status": "confirmed",
+      "checked_at": "2026-10-21T17:45+08:00",
+      "checked_at_display": "2026-10-21 17:45 HKT",
+      "note": "已由川崎及神戶官方本場紀錄交叉確認全部6名球證組人員。",
       "roles": [
         {
           "id": "referee",
           "label": "主球證",
-          "name_ja": null,
+          "name_ja": "中村太",
           "name_zh": null,
-          "profile": null
+          "profile": {
+            "claims": [
+              {
+                "text": "中村太：なかむら・ふとし，1978年11月1日出生；JFA公布2022年4月1日起成為職業球證。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "JFA・2022新規職業球證公告",
+                    "url": "https://www.jfa.jp/referee/news/00028919/",
+                    "accessed_at": "2026-10-21"
+                  }
+                ]
+              },
+              {
+                "text": "2023年獲J.League最優秀主球證獎；這是歷史獎項，不代表本場牌數或判罰傾向。",
+                "kind": "fact",
+                "as_of": "2026-10-21",
+                "sources": [
+                  {
+                    "label": "JFA・2023最優秀主球證獎",
+                    "url": "https://www.jfa.jp/referee/news/00033467/",
+                    "accessed_at": "2026-10-21"
+                  }
+                ]
+              }
+            ]
+          },
+          "status": "confirmed"
         },
         {
           "id": "assistant_1",
           "label": "旁證1",
-          "name_ja": null,
+          "name_ja": "梅田智起",
           "name_zh": null,
-          "profile": null
+          "profile": null,
+          "status": "confirmed"
         },
         {
           "id": "assistant_2",
           "label": "旁證2",
-          "name_ja": null,
+          "name_ja": "大川直也",
           "name_zh": null,
-          "profile": null
+          "profile": null,
+          "status": "confirmed"
         },
         {
           "id": "fourth_official",
           "label": "第4球證",
-          "name_ja": null,
+          "name_ja": "桜井大介",
           "name_zh": null,
-          "profile": null
+          "profile": null,
+          "status": "confirmed"
         },
         {
           "id": "var",
           "label": "VAR",
-          "name_ja": null,
+          "name_ja": "川俣秀",
           "name_zh": null,
-          "profile": null
+          "profile": null,
+          "status": "confirmed"
         },
         {
           "id": "avar",
           "label": "AVAR",
-          "name_ja": null,
+          "name_ja": "石丸秀平",
           "name_zh": null,
-          "profile": null
+          "profile": null,
+          "status": "confirmed"
         }
       ],
       "sources": [
         {
-          "label": "川崎官方・本場開催數據／球證欄及停賽資訊",
+          "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
           "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
           "accessed_at": "2026-10-21"
         },
         {
-          "label": "J.League・本場官方頁",
-          "url": "https://www.jleague.jp/match/j1/2026/102109/",
-          "accessed_at": "2026-10-21"
-        },
-        {
-          "label": "神戶官方・本場名單公開頁（仍顯示開賽約1小時前公布）",
+          "label": "神戶官方・21日正式名單及球證組",
           "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
           "accessed_at": "2026-10-21"
         }
       ],
-      "profile_note": "委任未確認，故不填個人履歷、執法風格、牌數或兩隊往績。旁證編號依官方紀錄次序，未核實技術區側位置前不自行標邊。"
+      "profile_note": "旁證1、2依官方紀錄次序；不推斷技術區側。未核實本季牌數／十二碼率，不作執法尺度標籤。"
     }
   },
   "teams": {
@@ -618,19 +645,317 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "本場正選待公布；優先核對中堅／邊閘組合與脇坂、山本身前的接應。",
-            "kind": "analysis",
-            "as_of": "2026-10-18",
+            "text": "#49 史雲特・布羅德森（GK）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
             "sources": [
               {
-                "label": "川崎官方・大阪櫻花戰賽報及賽後訪問",
-                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html",
-                "accessed_at": "2026-10-18",
-                "published_at": "2026-10-17"
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "49",
+            "player_id": "kawasaki_49"
+          },
+          {
+            "text": "#29 山原怜音（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "29",
+            "player_id": "kawasaki_29"
+          },
+          {
+            "text": "#4 柏度・羅曼奴（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "4",
+            "player_id": "kawasaki_4"
+          },
+          {
+            "text": "#28 丸山祐市（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "28",
+            "player_id": "kawasaki_28"
+          },
+          {
+            "text": "#5 佐佐木旭（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "5",
+            "player_id": "kawasaki_5"
+          },
+          {
+            "text": "#19 河原創（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "19",
+            "player_id": "kawasaki_19"
+          },
+          {
+            "text": "#8 橘田健人（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "8",
+            "player_id": "kawasaki_8"
+          },
+          {
+            "text": "#25 山市秀翔（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "25",
+            "player_id": "kawasaki_25"
+          },
+          {
+            "text": "#16 大關友翔（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "16",
+            "player_id": "kawasaki_16"
+          },
+          {
+            "text": "#23 馬仙奴（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "23",
+            "player_id": "kawasaki_23"
+          },
+          {
+            "text": "#97 德里基・拉塞爾達（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "97",
+            "player_id": "kawasaki_97"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 山口瑠伊（GK）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "1",
+            "player_id": "kawasaki_1"
+          },
+          {
+            "text": "#2 松長根悠仁（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "2",
+            "player_id": "kawasaki_2"
+          },
+          {
+            "text": "#22 菲利普・烏雷莫維奇（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "22",
+            "player_id": "kawasaki_22"
+          },
+          {
+            "text": "#6 山本悠樹（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "6",
+            "player_id": "kawasaki_6"
+          },
+          {
+            "text": "#14 脇坂泰斗（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "14",
+            "player_id": "kawasaki_14"
+          },
+          {
+            "text": "#34 長璃喜（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "34",
+            "player_id": "kawasaki_34"
+          },
+          {
+            "text": "#17 伊藤達哉（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "17",
+            "player_id": "kawasaki_17"
+          },
+          {
+            "text": "#20 持山匡佑（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "20",
+            "player_id": "kawasaki_20"
+          },
+          {
+            "text": "#11 小林悠（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "11",
+            "player_id": "kawasaki_11"
+          }
+        ],
+        "cues": [
+          {
+            "text": "川崎與17日正選相比換5人：丸山、山原、河原、大關、山市先發；烏雷莫維奇、三浦、山本、脇坂、伊藤不在正選。確定人選不等於確定每人實際站位。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "大關與山市同時先發；山本、脇坂、伊藤留後備，川崎可在下半場加入傳球與突破選項。先看河原／橘田如何連接前線，以及失球權後誰保護兩閘身後。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
               }
             ]
           }
@@ -1095,6 +1420,23 @@
       ],
       "injuries": [
         {
+          "text": "最新名單：佐佐木旭、柏度・羅曼奴均列正選，原有可用性疑問已有選人層面的答案。未有新醫療診斷；其餘未入選球員不單憑缺席判斷原因。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・21日正式名單及球證組",
+              "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        },
+        {
           "text": "新增：野田裕人10月3日U-21聯賽對東京綠茵受傷，球會10月18日公告右腓腸肌拉傷；未列復出時間。19日J.League報道是轉載日期，並非受傷或球會公告日。",
           "kind": "fact",
           "as_of": "2026-10-21",
@@ -1220,6 +1562,23 @@
         }
       ],
       "rotation_notes": [
+        {
+          "text": "川崎與17日正選相比換5人：丸山、山原、河原、大關、山市先發；烏雷莫維奇、三浦、山本、脇坂、伊藤不在正選。確定人選不等於確定每人實際站位。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-21"
+            },
+            {
+              "label": "神戶官方・21日正式名單及球證組",
+              "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        },
         {
           "text": "周三前有3個完整間隔日：川崎17日作客大阪櫻花，21日返主場。17日與14日聯賽盃的正選十一人完全不同（換11人）；山原14日正選、17日後備入場。大量輪換已發生，但部分主力仍有盃賽後備分鐘。",
           "kind": "fact",
@@ -1873,25 +2232,312 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "本場正選待公布；核對大迫、武藤的連續出場及岩本是否列名單。",
-            "kind": "analysis",
-            "as_of": "2026-10-18",
+            "text": "#71 權田修一（GK）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
             "sources": [
               {
-                "label": "神戶官方・岡山戰名單及換人",
-                "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261018&type=detail",
-                "accessed_at": "2026-10-18",
-                "published_at": "2026-10-18"
-              },
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "71",
+            "player_id": "kobe_71"
+          },
+          {
+            "text": "#3 馬菲奧斯・圖拿（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
               {
-                "label": "神戶官方・岡山戰賽後訪問",
-                "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261018&type=comment",
-                "accessed_at": "2026-10-18",
-                "published_at": "2026-10-18"
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "3",
+            "player_id": "kobe_3"
+          },
+          {
+            "text": "#4 山川哲史（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "4",
+            "player_id": "kobe_4"
+          },
+          {
+            "text": "#15 迪亞高（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "15",
+            "player_id": "kobe_15"
+          },
+          {
+            "text": "#41 永戶勝也（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "41",
+            "player_id": "kobe_41"
+          },
+          {
+            "text": "#2 飯野七聖（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "2",
+            "player_id": "kobe_2"
+          },
+          {
+            "text": "#7 井手口陽介（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "7",
+            "player_id": "kobe_7"
+          },
+          {
+            "text": "#25 鍬先祐彌（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "25",
+            "player_id": "kobe_25"
+          },
+          {
+            "text": "#10 大迫勇也（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "10",
+            "player_id": "kobe_10"
+          },
+          {
+            "text": "#11 武藤嘉紀（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "11",
+            "player_id": "kobe_11"
+          },
+          {
+            "text": "#94 艾歷斯（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "94",
+            "player_id": "kobe_94"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#21 新井章太（GK）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "21",
+            "player_id": "kobe_21"
+          },
+          {
+            "text": "#16 卡坦奴（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "16",
+            "player_id": "kobe_16"
+          },
+          {
+            "text": "#24 酒井高德（DF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "24",
+            "player_id": "kobe_24"
+          },
+          {
+            "text": "#5 鄉家友太（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "5",
+            "player_id": "kobe_5"
+          },
+          {
+            "text": "#20 渡邊皓太（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "20",
+            "player_id": "kobe_20"
+          },
+          {
+            "text": "#23 岩本悠庵（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "23",
+            "player_id": "kobe_23"
+          },
+          {
+            "text": "#44 日高光輝（MF）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "44",
+            "player_id": "kobe_44"
+          },
+          {
+            "text": "#26 真・柏德歷（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "26",
+            "player_id": "kobe_26"
+          },
+          {
+            "text": "#29 小松蓮（FW）",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ],
+            "number": "29",
+            "player_id": "kobe_29"
+          }
+        ],
+        "cues": [
+          {
+            "text": "神戶只換1名正選：飯野取代酒井；其餘10人沿用18日岡山戰，大迫、武藤、艾歷斯及井手口續先發。酒井、岩本列後備。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "飯野先發的右路覆蓋與川崎馬仙奴一側的對位值得看；神戶仍大致沿用原班，不能把賽前輪換討論寫成大幅輪休已發生。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
               }
             ]
           }
@@ -2409,6 +3055,18 @@
       ],
       "rotation_notes": [
         {
+          "text": "神戶只換1名正選：飯野取代酒井；其餘10人沿用18日岡山戰，大迫、武藤、艾歷斯及井手口續先發。酒井、岩本列後備。",
+          "kind": "fact",
+          "as_of": "2026-10-21",
+          "sources": [
+            {
+              "label": "神戶官方・21日正式名單及球證組",
+              "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+              "accessed_at": "2026-10-21"
+            }
+          ]
+        },
+        {
           "text": "神戶18日作客岡山後，21日再作客川崎，是中兩日。14日全北戰與18日岡山戰只換1名正選：馬菲奧斯・圖拿代卡坦奴，其餘10人連續正選。這與川崎14日至17日的大幅輪換不同。",
           "kind": "fact",
           "as_of": "2026-10-18",
@@ -2813,6 +3471,78 @@
     ]
   },
   "quote_events": [
+    {
+      "date": "2026-10-21",
+      "title": "開賽前覆核｜川崎官方公開賽前談話",
+      "summary": "只用官方免費展示段落，未讀取モバフロ付費延伸；採訪時間未標示，21日開賽前覆核。",
+      "entries": [
+        {
+          "team_slug": "kawasaki",
+          "speaker": "大關友翔",
+          "role": "球員",
+          "topic": "疲勞與任務",
+          "paraphrase_zh": "上仗後備入場，感到累積疲勞較少；無論位置都要完成教練要求。",
+          "published_at": "2026-10-21",
+          "date_basis": "accessed",
+          "date_note": "官方頁公開節錄；採訪時刻未註明，日期為覆核日。",
+          "context": "pre_match",
+          "outlet": "川崎官方（公開節錄）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "河原創",
+          "role": "球員",
+          "topic": "第二點",
+          "paraphrase_zh": "自述狀態不差，認為爭奪五五波及第二點是重點。",
+          "published_at": "2026-10-21",
+          "date_basis": "accessed",
+          "date_note": "官方頁公開節錄；採訪時刻未註明，日期為覆核日。",
+          "context": "pre_match",
+          "outlet": "川崎官方（公開節錄）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "山市秀翔",
+          "role": "球員",
+          "topic": "準備出場",
+          "paraphrase_zh": "要在攻勢中接近門前，防守時一起限制對手，並提防神戶死球。",
+          "published_at": "2026-10-21",
+          "date_basis": "accessed",
+          "date_note": "官方頁公開節錄；採訪時刻未註明，日期為覆核日。",
+          "context": "pre_match",
+          "outlet": "川崎官方（公開節錄）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "山原怜音",
+          "role": "球員",
+          "topic": "多一天準備",
+          "paraphrase_zh": "要把比對手多一天準備的優勢，化成場上的表現。",
+          "published_at": "2026-10-21",
+          "date_basis": "accessed",
+          "date_note": "官方頁公開節錄；採訪時刻未註明，日期為覆核日。",
+          "context": "pre_match",
+          "outlet": "川崎官方（公開節錄）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "德里基・拉塞爾達",
+          "role": "球員",
+          "topic": "融入進展",
+          "paraphrase_zh": "自述逐步適應球隊與教練要求，希望繼續發揮特點。",
+          "published_at": "2026-10-21",
+          "date_basis": "accessed",
+          "date_note": "官方頁公開節錄；採訪時刻未註明，日期為覆核日。",
+          "context": "pre_match",
+          "outlet": "川崎官方（公開節錄）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "title": "21日覆核｜神戶官方賽前問答：中場、前壓與疲勞",
@@ -3227,6 +3957,23 @@
   "preview": {
     "cues": [
       {
+        "text": "已確認：川崎換5名先發，神戶只換1名；大關／山市先發，山本／脇坂／伊藤後備。先前未定名單與輪換推演以正式名單更新為準。",
+        "kind": "fact",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-21"
+          },
+          {
+            "label": "神戶官方・21日正式名單及球證組",
+            "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+            "accessed_at": "2026-10-21"
+          }
+        ]
+      },
+      {
         "text": "首要對位：川崎能否避開神戶前壓後，讓脇坂面向前場接球？神戶能否把大迫的第二點變成持續進攻？",
         "kind": "analysis",
         "as_of": "2026-10-18",
@@ -3272,6 +4019,64 @@
       }
     ],
     "sections": [
+      {
+        "title": "開波前最後更新｜五換一換：現在要用這份正選讀比賽",
+        "paragraphs": [
+          {
+            "text": "川崎換5名正選，神戶只換1人。川崎大關、山市同時先發，山本與脇坂留後備；神戶飯野取代酒井，大迫、武藤、艾歷斯續先發。上午關於正選未定的文字保留作研究歷程，以此處及即場速覽的正式名單為準。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "川崎上仗提早離場的佐佐木旭及柏度・羅曼奴今日均先發；這解答了是否列入名單，沒有改寫17日的不適或補造醫療診斷。三浦未列20人，不自行判定是受傷或輪休。",
+            "kind": "fact",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "此前分析以山本、脇坂為組織核心，現在要把觀察移到河原、橘田與大關之間：第一傳之後有沒有向前接應，山市在什麼空間接球，兩邊推進後誰保護失球權的位置。若神戶封住中路，川崎能否從換邊或回做再進入中場，是比單純計算控球率更有用的現場線索。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "神戶保留10名正選，故大幅輪休並未發生。先看飯野與馬仙奴一側的攻守，再看下半場酒井、岩本能否維持接應與覆蓋；川崎則有山本、脇坂、伊藤作後手。替補價值應以入場後的距離與任務判斷，不只看姓名。",
+            "kind": "analysis",
+            "as_of": "2026-10-21",
+            "sources": [
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "下午追加①｜兩軍把焦點放在同一區域：中場",
         "paragraphs": [
@@ -3980,47 +4785,38 @@
         ]
       },
       {
-        "title": "臨場最後覆核｜仍須等待的資料",
+        "title": "開波前已確認與仍待核實",
         "paragraphs": [
           {
-            "text": "本次已補19–20日賽前訪問、19日停賽公告及18日野田傷患，兩隊最新賽果沒有新增。正式正選、後備、球證，以及佐佐木旭／柏度・羅曼奴的實際可用性，仍須開賽前核對；沒有新公告不等於已傷癒。",
+            "text": "兩軍20人名單及全部球證組已確認。佐佐木旭與柏度・羅曼奴先發；未入選球員的原因、球場即時實測及任何名單臨時更改仍須留意。",
             "kind": "fact",
             "as_of": "2026-10-21",
             "sources": [
               {
-                "label": "J.League・19日18:30更新停賽公告",
-                "url": "https://www.jleague.jp/news/article/35155/?navicode=j1",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-19"
+                "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-21"
               },
               {
-                "label": "川崎官方・野田裕人傷患（18日公告）",
-                "url": "https://www.frontale.co.jp/info/2026/1018_1.html",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-18"
-              },
-              {
-                "label": "東スポWEB・19日長谷部網上記者會／livedoor轉載",
-                "url": "https://news.livedoor.com/article/detail/32604626/",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-19"
-              },
-              {
-                "label": "體育日本・史基比及鍬先賽前談話／livedoor轉載",
-                "url": "https://news.livedoor.com/article/detail/32610586/",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-20"
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+                "accessed_at": "2026-10-21"
               }
             ]
           },
           {
-            "text": "既有Football LAB進階統計仍以10月12日首9輪為截點；下午另加的神戶官方跑動及衝刺數字明列首10輪，兩者不可混用。聯賽榜與戰績為18日首10輪。球員卡的聯賽出場／入球已對照最新J.League名單；未同步的分鐘、助攻不冒稱更新至第10輪。",
+            "text": "分析中的首9輪Football LAB與首10輪神戶官方統計均保留原截點，不混成即時全季數字。",
             "kind": "fact",
             "as_of": "2026-10-21",
             "sources": [
               {
-                "label": "J.League・須賀大輔本場前瞻",
-                "url": "https://www.jleague.jp/match/j1/2026/102109/",
+                "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-21"
+              },
+              {
+                "label": "神戶官方・21日正式名單及球證組",
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
                 "accessed_at": "2026-10-21"
               }
             ]
@@ -4282,12 +5078,11 @@
     }
   ],
   "coverage_gaps": [
-    "主球證、兩名旁證、第4球證、VAR、AVAR，以及正式正選／後備仍未公布；本次下午覆核時間見球證頁。",
-    "佐佐木旭／柏度・羅曼奴等球員未有新醫療或復出確認，不以沒有新公告判定傷癒。",
     "既有Football LAB進階統計只至首9輪；新增神戶官方跑動／衝刺數據為首10輪，兩個截點分開標示。助攻及部分分鐘保留原截點。",
     "新建高橋壹晟、岩本悠庵永久卡，基本資料及當前註冊已核對；個別完整生涯／青年及慣用腳證據待補，未宣稱通過完整傳記驗證。",
     "入江羚介未見於當前J.League名單，2026/27特別指定資格仍待確認；保留歷史卡，不推斷離隊。",
-    "天氣為21日15:00 JST預報，非球場實測；臨場再核對。"
+    "天氣為21日18:00 JST預報，非球場實測；臨場再核對。",
+    "未入選球員的個別原因及球場實測天氣仍未確認；正選名單不是醫療診斷。"
   ],
   "research_sweep": {
     "as_of": "2026-10-21",
@@ -4397,6 +5192,34 @@
           "url": "https://tenki.jp/forecast/3/17/4610/14133/1hour.html",
           "accessed_at": "2026-10-21",
           "published_at": "2026-10-21"
+        }
+      ]
+    },
+    "pre_kickoff": {
+      "checked_at": "2026-10-21T17:45+08:00",
+      "status": "official_lineups_and_officials_confirmed",
+      "new_quotes": 5,
+      "total_quotes": 35,
+      "sources": [
+        {
+          "label": "川崎官方・21日正式名單、球證組及公開賽前談話",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "神戶官方・21日正式名單及球證組",
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261021&type=detail",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "JFA・2022新規職業球證公告",
+          "url": "https://www.jfa.jp/referee/news/00028919/",
+          "accessed_at": "2026-10-21"
+        },
+        {
+          "label": "JFA・2023最優秀主球證獎",
+          "url": "https://www.jfa.jp/referee/news/00033467/",
+          "accessed_at": "2026-10-21"
         }
       ]
     }
