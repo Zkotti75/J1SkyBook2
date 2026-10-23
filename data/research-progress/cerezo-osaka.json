@@ -3,7 +3,7 @@
   "club": "cerezo-osaka",
   "club_name_zh": "大阪櫻花",
   "player_research_status": "in_progress",
-  "updated_at": "2026-10-24",
+  "updated_at": "2026-10-23",
   "roster_players": 29,
   "baseline_complete_players": [],
   "batches": [
@@ -92,7 +92,7 @@
     {
       "id": "cerezo-osaka-03",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 5,
       "players": [
         {
@@ -124,9 +124,11 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-24",
+      "completed_at": "2026-10-24",
+      "notes": [
+        "4/4 passed; 30 site tests passed. Overseas loans, reserve and mixed registrations, source conflicts and 2026/27 Data Site totals audited."
+      ]
     },
     {
       "id": "cerezo-osaka-04",

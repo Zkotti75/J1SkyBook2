@@ -30,3 +30,7 @@ Completed #7 上門知樹, #8 香川真司, #9 櫻川所羅門, #10 田中駿汰
 - Tanaka: Cerezo joining year is 2024. December 14, 2019 versus Hong Kong is a full senior international (JFA); being a domestic/youth-heavy E-1 squad does not make it unofficial. 2019 university and special-designated registration are separate.
 
 Next: batch 03 (#11, #14, #15, #16), then batch 04 (#17, #19, #23). Do not start batch 05 in this request.
+
+## cerezo-osaka-03 — completed 2026-10-24
+
+Four cards validated; 30 tests passed; data schema 0 errors. Thiago joined in 2025; San Diego/Toronto were unused rights transactions. MLS regular season and playoffs separated. Yokoyama has concurrent Yokohama FC school, 2023 mixed designation, and sourced decision-making notes. Javi is the 1998 defender: Oviedo B/senior and all loans retained; no Real Madrid senior appearance. Okuda has 2019 Gamba U-23, 2023 designation and removed unsupported Cerezo Home Grown tag. Source disagreements retained in career_audit. Current stats from Data Site updated 2026-10-21. Batch04 next; 05–08 remain queued.
