@@ -46,3 +46,11 @@ User-requested next three batches 02,03,04 are complete (11 players this request
 ## cerezo-osaka-05 — completed 2026-10-24
 
 4/4 batch checks and 30 site tests passed. Abe joined2026 on loan from Iwata, not2025 from Niigata. Okazawa Brazil was U-20 under a pro loan, spanning2022/2023. Right/left foot conflict retained. Cools complete continental route and Irvine early youth/state-league teams retained, with snapshot/competition differences documented. User now authorizes all remaining batches05–08; previous stop point is superseded.
+
+## Batch 06 — completed 2026-10-24 HKT
+
+- Completed #41, #42, #43 and #44; validator 4/4 and all 30 tests pass.
+- Expanded Komi junior route beyond the abbreviated wiki; separated Hatanaka mixed registrations and U-22 selection.
+- Ezemuokwe professional contract effective 2026/27 takes precedence over stale second-category page label.
+- Shiojiri preferred foot remains explicitly unconfirmed after searches; Hatanaka TM both-foot versus Soccer King right-foot conflict retained. No fabricated Wikipedia entries for the two academy players.
+- Continue batches 07 and 08 under the user instruction to complete all remaining batches.
