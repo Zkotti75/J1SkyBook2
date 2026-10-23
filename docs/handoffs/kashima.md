@@ -1,4 +1,4 @@
-# Kashima player research handoff �X 2026-10-24 Hong Kong
+# Kashima player research handoff — 2026-10-24 Hong Kong
 
 ## Authorization and checkpoint
 
