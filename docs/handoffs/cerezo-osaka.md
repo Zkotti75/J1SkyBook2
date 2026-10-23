@@ -1,3 +1,22 @@
+# Cerezo player research — completed
+
+2026-10-24 HKT: all eight batches and all 29 assigned players are complete under the user instruction to finish the rest. The historical stop points below are superseded. GitHub main publication and Pages deployment are authorized.
+
+- Batches 05–08 completed the remaining 14 players; every batch passed its research gate.
+- Full-club strict validation: 0 errors, 0 warnings, 0 blockers; 89 optional coverage findings (advanced analytics, unknown historical figures, manager image and narrative-stage counts) remain visible. These are not invented or silently converted to zero.
+- All 30 site tests pass. Global repository CI has an existing Urawa research failure; do not weaken shared gates or alter other clubs to conceal it. Pages deployment is checked separately.
+- User names #15 靴蘭迪斯, #19 沙巴治 and #36 艾雲 preserved.
+- Preferred foot for #42 and #45 remains unconfirmed after targeted searches. Documented foot/stat/birthday conflicts use explicit working conventions and retain alternatives.
+- Unknown early youth dates remain null; finalized scripts preserve complete institutions without inferring dates from age.
+
+## Batch 08 — completed 2026-10-24 HKT
+
+- #77: complete Brazilian route, CRB adult debut, Fluminense U-20 and all loans; state leagues and cups separated from national league. Portuguese Wikipedia search had no matching 1994-player article, so English/Japanese maps were checked against Brazilian original reporting.
+- #97: restored kindergarten, Najishiba, Verdy SS Leste, school, university and JFL stages. Care-work background and 2026 operation/return are sourced.
+- Corrected the old roster note about #43 professional status; final refinement leaves unsupported youth dates unknown and adds direct league evidence for Najishiba years.
+
+## Historical research log
+
 # Cerezo Osaka research handoff
 
 ## 2026-10-24 — cerezo-osaka-01

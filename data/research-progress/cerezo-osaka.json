@@ -2,7 +2,7 @@
   "schema_version": 1,
   "club": "cerezo-osaka",
   "club_name_zh": "大阪櫻花",
-  "player_research_status": "in_progress",
+  "player_research_status": "completed",
   "updated_at": "2026-10-24",
   "roster_players": 29,
   "baseline_complete_players": [],
@@ -286,7 +286,7 @@
     {
       "id": "cerezo-osaka-08",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 3,
       "players": [
         {
@@ -304,9 +304,14 @@
           "weight": 1
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-24",
+      "completed_at": "2026-10-24",
+      "notes": [
+        {
+          "date": "2026-10-24",
+          "text": "All eight batches complete: 29/29 players. Strict Cerezo validation: 0 errors, 0 warnings, 0 blockers; 89 optional coverage gaps retained rather than inferred. Site tests 30/30. Shiojiri and Nagasoe preferred foot remain explicitly unconfirmed."
+        }
+      ]
     }
   ],
   "status_tag_stage": {

@@ -148,7 +148,7 @@
       "note": "2026/27官方隊長團。"
     },
     "roster_notes": [
-      "Current squad 29人，以2026-09-19 Cerezo官方球員頁為準；包括#43 Ezemokwe、#42 Shiojiri、#45 Nagasoe三名二種登錄。",
+      "Current squad 29人；逐張球員資料於2026-10-24完成研究。#42鹽尻及#45永添為二種；#43艾澤莫克韋已公告2026/27起職業合約，球會及Data Site仍有二種標記，差異見球員核查註記。",
       "8月新增：#36 Jackson Irvine、#19 Pablo Sabbag、#15 Javi Hernández。",
       "已不在current squad：#5喜田陽（8/25完全轉會JEF）、#22高橋仁胡（8/12外借Holstein Kiel）、#26久保瑛史（8/27外借Rayluck Shiga）。",
       "#33木村誠之輔已公布2027年1月加入內定，但截至本audit未正式加入current squad。",
@@ -7252,18 +7252,23 @@
       "quirky_trivia": "受大三歲哥哥影響，4歲加入同一支西宮SS；父親、哥哥與他常在家前公園踢球。最初憑速度在左路突破，職業訓練後開始向畠中等前輩請教。（Cerezo本人訪談；Sponichi原稿／Livedoor）",
       "career": [
         {
-          "season": "2013-2021",
+          "season": null,
           "team": "西宮SS",
           "competition": "Youth / school / college",
           "appearances": null,
           "goals": null,
           "status": "育成",
-          "notes": "4歲開始，起年按年齡約算。",
+          "notes": "4歲開始，最遲2021在籍；未從年齡推算起年。",
           "verification_status": "verified",
           "sources": [
             {
               "label": "Cerezo：現役頁及2026-10-13本人訪談",
               "url": "https://www.cerezo.jp/team/players/chimezie_kai_ezemuokwe/",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "J.League：艾澤莫克韋履歷",
+              "url": "https://www.jleague.jp/player/1651719/",
               "accessed_at": "2026-10-24"
             }
           ]
@@ -7539,7 +7544,7 @@
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "最早已知足球機構至2026/27；純育成按機構合併，職業每季及季中／同期隊伍分列。",
-        "earliest_known_year": 2013,
+        "earliest_known_year": null,
         "sources": [
           {
             "label": "Cerezo：現役頁及2026-10-13本人訪談",
@@ -8857,9 +8862,9 @@
       "position": "DF",
       "dob": "2001-09-17",
       "season_start_age": 24,
-      "birthplace": "茨城縣",
+      "birthplace": "日本茨城縣龍崎市",
       "height": 187,
-      "weight": 86,
+      "weight": 89,
       "foot": "右腳",
       "nationality": "日本",
       "joined": 2026,
@@ -8867,63 +8872,207 @@
       "registration_status": "本國球員",
       "registration_tags": [],
       "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "187cm後衛，體格與防空是直接優勢。升上J1後加入Cerezo，主要競爭三中堅位置。",
+      "national_team_detail": "沒有查得日本成年或青年正式國家隊出場紀錄；本人說希望成為日本代表是未來目標，非既有資歷。（J.League；水戶離隊感言；日文wiki）",
+      "intro": "2024在JFL枚方一邊踢球、一邊在醫院做照護工作，2025隨水戶奪J2冠軍，2026升到J1大阪。187cm中堅以頭槌、身體對抗和覆蓋範圍見長。（2025-04-14 Ibanavi本人訪問；J.League）2月曾腰椎手術，春季0場；2026/27至10月21日已3場217分鐘，不能仍寫未J1首演。（Data Site）",
       "timeline": [
         {
-          "period": "育成／職業",
-          "team": "水戶蜀葵",
-          "category": "履歷",
-          "milestone": ""
+          "period": "2008以前-2019",
+          "team": "幼稚園、馴柴、Leste及市船",
+          "category": "生涯轉折",
+          "milestone": "以進市船為目標，從前鋒改中堅。"
         },
         {
-          "period": "育成／職業",
-          "team": "大阪櫻花",
-          "category": "履歷",
-          "milestone": ""
+          "period": "2020-2024",
+          "team": "駒澤至枚方",
+          "category": "生涯轉折",
+          "milestone": "大學後無J聯賽合約，以JFL及照護工作並行。"
+        },
+        {
+          "period": "2025-2026",
+          "team": "水戶至大阪",
+          "category": "生涯轉折",
+          "milestone": "一年J2冠軍後再升級，腰椎手術後爭取新季位置。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "2025水戶J2冠軍及J2優秀選手，聯賽30場1球。（J.League；wiki）",
+        "2021駒澤大學全日本大學錦標賽冠軍成員、2023關東二部冠軍；由本人訪問確認，非J聯賽獎。（Ibanavi）"
+      ],
       "milestones": [
-        "水戶蜀葵等J2經驗後於2026加入Cerezo。"
+        "2024枚方JFL 26場3球；2025轉水戶，保留職業前一年的實際層級。（wiki）",
+        "2025 J2冠軍、優秀選手，2026-01-03公布永久加盟大阪。（J.League；Cerezo）",
+        "2026-02-13接受腰椎手術，3月本人寫復康心情。（Cerezo；Note）",
+        "2026/27至10月21日J1三場，不將春季零上陣視為全年數字。（Data Site）"
       ],
       "tactical_traits": [
-        "正面碰撞與傳中防守可靠。",
-        "三中堅中央／外側都需要學習何時跟人、何時保持線。"
+        "高身形、空中爭頂及正面對抗是訪問導言明確指出的武器，並非由身高單一推斷。（2025-04-14 Ibanavi，ibanavi.net）",
+        "同篇報道另指出防守覆蓋範圍廣；可作保護中堅外圍空間的觀察點，尚未據此評定J1速度排名。（Ibanavi）",
+        "本人視頭槌為能被球探看見的個人武器並持續加練；市船教練曾反覆練擋傳中與長傳的頭槌。（Ibanavi第3頁；Cerezo本人訪談）"
       ],
-      "quirky_trivia": "高大身形令他容易被視為純防空型，但Machín體系要求中堅主動前頂，因此閱讀落點與出腳時機同樣重要。",
+      "quirky_trivia": "枚方時上午訓練，下午到醫院做照護工作，真正賺過一個月人工後才更體會父母為孩子花錢的辛勞。大學教練教他先接納意見、再談進步，這也成為低級別向上走的態度。（2025-04-14 Ibanavi第2頁）",
       "career": [
         {
           "season": null,
-          "team": "水戶蜀葵",
-          "competition": "育成／職業履歷",
+          "team": "幼稚園足球會",
+          "competition": "Youth / school / college",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "官方／J.League履歷確認；無可靠逐季數字者不推算。",
+          "status": "育成",
+          "notes": "約4歲開始；園名及起訖未明。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo/J.League player record",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "Cerezo：鷹啄現役及本人長訪談",
+              "url": "https://www.cerezo.jp/team/players/travis_takahashi/",
+              "accessed_at": "2026-10-24"
             }
           ]
         },
         {
-          "season": null,
-          "team": "大阪櫻花",
-          "competition": "育成／職業履歷",
+          "season": "2008-2013",
+          "team": "馴柴足球少年團",
+          "competition": "Youth / school / college",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "官方／J.League履歷確認；無可靠逐季數字者不推算。",
+          "status": "育成",
+          "notes": "2008-2013以J.League逐年履歷為據，不由年齡反推。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo/J.League player record",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "Cerezo：鷹啄現役及本人長訪談",
+              "url": "https://www.cerezo.jp/team/players/travis_takahashi/",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "J.League：鷹啄逐季及獎項",
+              "url": "https://www.jleague.jp/player/1635375/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2014-2016",
+          "team": "Verdy SS Leste",
+          "competition": "Youth / school / college",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "非東京Verdy一隊；中學為進市船而選千葉俱樂部。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Cerezo：鷹啄現役及本人長訪談",
+              "url": "https://www.cerezo.jp/team/players/travis_takahashi/",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Ibanavi：鷹啄本人訪問，空中、對抗及覆蓋",
+              "url": "https://ibanavi.net/hollyhock/267",
+              "accessed_at": "2026-10-24",
+              "published_at": "2025-04-14"
+            }
+          ]
+        },
+        {
+          "season": "2017-2019",
+          "team": "市立船橋高校",
+          "competition": "Youth / school / college",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia日文：鷹啄トラビス",
+              "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2020-2023",
+          "team": "駒澤大學",
+          "competition": "Youth / school / college",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia日文：鷹啄トラビス",
+              "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Ibanavi：駒澤、JFL及醫院照護工作",
+              "url": "https://ibanavi.net/hollyhock/267?page=2",
+              "accessed_at": "2026-10-24",
+              "published_at": "2025-04-14"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "FC TIAMO枚方",
+          "competition": "JFL",
+          "appearances": 26,
+          "goals": 3,
+          "status": "正式球員",
+          "notes": "半職業／工作並行；不是J3。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia日文：鷹啄トラビス",
+              "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "水戶蜀葵",
+          "competition": "J2",
+          "appearances": 30,
+          "goals": 1,
+          "status": "正式球員",
+          "notes": "另聯賽盃2場0球。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League：鷹啄逐季及獎項",
+              "url": "https://www.jleague.jp/player/1635375/",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Cerezo：2026-01-03水戶永久加盟",
+              "url": "https://www.cerezo.jp/news/2026-0103-0900/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-01-03"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "大阪櫻花",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "正式球員",
+          "notes": "2月13日腰椎椎間盤突出手術。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia日文：鷹啄トラビス",
+              "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Cerezo：腰椎椎間盤突出及2月13日手術",
+              "url": "https://www.cerezo.jp/news/2026-0220-1400/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-02-20"
             }
           ]
         },
@@ -8931,36 +9080,254 @@
           "season": "2026/27",
           "team": "大阪櫻花",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "現役",
-          "notes": "2026/27 current squad；資料截至2026-09-19。",
+          "appearances": 3,
+          "goals": 0,
+          "status": "正式球員",
+          "notes": "10月21日217分鐘；10月10日37分鐘後備、之後兩場踢足。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo official current players",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League Data Site：2026/27大阪櫻花出場，2026-10-21更新",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%EF%BC%A3%E5%A4%A7%E9%98%AA&team_id=20&team_id_ex=20",
+              "accessed_at": "2026-10-24"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "season_stats": [
         {
-          "label": "Cerezo official current players",
-          "url": "https://www.cerezo.jp/team/players/",
-          "accessed_at": "2026-09-19"
+          "season": "2024",
+          "competition": "JFL",
+          "appearances": 26,
+          "goals": 3,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "Wikipedia日文：鷹啄トラビス",
+              "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+              "accessed_at": "2026-10-24"
+            }
+          ]
         },
         {
-          "label": "J.League Cerezo roster/stats",
-          "url": "https://www.jleague.jp/club/cosaka/",
-          "accessed_at": "2026-09-19"
+          "season": "2025",
+          "competition": "J2",
+          "appearances": 30,
+          "goals": 1,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "J.League：鷹啄逐季及獎項",
+              "url": "https://www.jleague.jp/player/1635375/",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Cerezo：2026-01-03水戶永久加盟",
+              "url": "https://www.cerezo.jp/news/2026-0103-0900/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-01-03"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "Wikipedia日文：鷹啄トラビス",
+              "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Cerezo：腰椎椎間盤突出及2月13日手術",
+              "url": "https://www.cerezo.jp/news/2026-0220-1400/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-02-20"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "J.League Data Site：2026/27大阪櫻花出場，2026-10-21更新",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%EF%BC%A3%E5%A4%A7%E9%98%AA&team_id=20&team_id_ex=20",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Cerezo：鷹啄現役及本人長訪談",
+          "url": "https://www.cerezo.jp/team/players/travis_takahashi/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League：鷹啄逐季及獎項",
+          "url": "https://www.jleague.jp/player/1635375/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Wikipedia日文：鷹啄トラビス",
+          "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Transfermarkt：Travis Takahashi右腳",
+          "url": "https://www.transfermarkt.jp/travis-takahashi/profil/spieler/1226425",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Cerezo：2026-01-03水戶永久加盟",
+          "url": "https://www.cerezo.jp/news/2026-0103-0900/",
+          "accessed_at": "2026-10-24",
+          "published_at": "2026-01-03"
+        },
+        {
+          "label": "Ibanavi：鷹啄本人訪問，空中、對抗及覆蓋",
+          "url": "https://ibanavi.net/hollyhock/267",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-04-14"
+        },
+        {
+          "label": "Ibanavi：駒澤、JFL及醫院照護工作",
+          "url": "https://ibanavi.net/hollyhock/267?page=2",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-04-14"
+        },
+        {
+          "label": "Ibanavi：本人談持續磨練頭槌",
+          "url": "https://ibanavi.net/hollyhock/267?page=3",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-04-14"
+        },
+        {
+          "label": "Cerezo：腰椎椎間盤突出及2月13日手術",
+          "url": "https://www.cerezo.jp/news/2026-0220-1400/",
+          "accessed_at": "2026-10-24",
+          "published_at": "2026-02-20"
+        },
+        {
+          "label": "鷹啄本人Note：受傷初期心情及復康",
+          "url": "https://note.com/travis0917/n/nba8a6c166503",
+          "accessed_at": "2026-10-24",
+          "published_at": "2026-03-10"
+        },
+        {
+          "label": "J.League Data Site：2026/27大阪櫻花出場，2026-10-21更新",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%EF%BC%A3%E5%A4%A7%E9%98%AA&team_id=20&team_id_ex=20",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League Data Site：大阪櫻花現役登錄及累計紀錄",
+          "url": "https://data.j-league.or.jp/SFIX02/search?lang=ja&selectValue=1&selectValueTeam=20",
+          "accessed_at": "2026-10-24"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」既有香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-10-24",
+      "player_image": "https://images.microcms-assets.io/assets/cc125679249b4055b70b8d540ec6636a/1dd51485d8fa4e5c873b35171188999b/97-260704_1470.webp",
+      "tactical_sources": [
+        {
+          "label": "Ibanavi：鷹啄本人訪問，空中、對抗及覆蓋",
+          "url": "https://ibanavi.net/hollyhock/267",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-04-14"
+        },
+        {
+          "label": "Ibanavi：本人談持續磨練頭槌",
+          "url": "https://ibanavi.net/hollyhock/267?page=3",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-04-14"
+        },
+        {
+          "label": "Cerezo：鷹啄現役及本人長訪談",
+          "url": "https://www.cerezo.jp/team/players/travis_takahashi/",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "identity_sources": [
+        {
+          "label": "Cerezo：鷹啄現役及本人長訪談",
+          "url": "https://www.cerezo.jp/team/players/travis_takahashi/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League：鷹啄逐季及獎項",
+          "url": "https://www.jleague.jp/player/1635375/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League Data Site：大阪櫻花現役登錄及累計紀錄",
+          "url": "https://data.j-league.or.jp/SFIX02/search?lang=ja&selectValue=1&selectValueTeam=20",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "identity_reviewed_at": "2026-10-24",
+      "preferred_foot_sources": [
+        {
+          "label": "Transfermarkt：Travis Takahashi右腳",
+          "url": "https://www.transfermarkt.jp/travis-takahashi/profil/spieler/1226425",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "wikipedia_research": {
+        "preferred_language": "ja",
+        "consulted": [
+          {
+            "label": "Wikipedia日文：鷹啄トラビス",
+            "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "note": "先以指定語言Wikipedia作路線索引，再以官方登錄、公告及聯賽／可靠逐季數據核對。"
+      },
+      "career_audit": {
+        "reviewed_at": "2026-10-24",
+        "scope": "最早已知足球機構至2026/27；純育成按機構合併，職業每季及季中／同期隊伍分列。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "Cerezo：鷹啄現役及本人長訪談",
+            "url": "https://www.cerezo.jp/team/players/travis_takahashi/",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Wikipedia日文：鷹啄トラビス",
+            "url": "https://ja.wikipedia.org/wiki/鷹啄トラビス",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "J.League：鷹啄逐季及獎項",
+            "url": "https://www.jleague.jp/player/1635375/",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "notes": [
+          "現球會187/89與加盟公告及聯賽187/86不同，採現役球會89並留差異；TM185亦非最新官方身高。",
+          "球會生日9/16，加盟公告、聯賽、本人外訪均9/17，保留2001-09-17。",
+          "馴柴及幼稚園補入wiki省略的早期路線；護理工作不寫成擁有護士資格。",
+          "腰椎手術公告無確定復出日，本人3月估計不等於官方保證；新季出場以賽錄確認。"
+        ]
+      },
+      "research_gaps": [],
+      "status_tag_sources": [
+        {
+          "label": "J.League Data Site：大阪櫻花現役登錄及累計紀錄",
+          "url": "https://data.j-league.or.jp/SFIX02/search?lang=ja&selectValue=1&selectValueTeam=20",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "status_tags_reviewed_at": "2026-10-24"
     },
     {
       "id": "cerezo_7",
@@ -13895,7 +14262,7 @@
       "position": "MF",
       "dob": "1994-04-24",
       "season_start_age": 32,
-      "birthplace": "巴西",
+      "birthplace": "巴西阿拉戈斯州União dos Palmares",
       "height": 174,
       "weight": 66,
       "foot": "右腳",
@@ -13905,110 +14272,535 @@
       "registration_status": "外籍球員",
       "registration_tags": [],
       "tenure_status": "",
-      "national_team_detail": "",
-      "intro": "巴西邊路／攻擊中場，創造力與傳中突出。可以在wing-back前方或4-2-3-1右路提供最後一傳。",
+      "national_team_detail": "沒有查得巴西成年國家隊或青年正式代表出場紀錄；不把同名1997年生、曾效Botafogo的Lucas Fernandes青年代表資料套用到1994年生此人。（J.League、TM、英／日wiki身份交叉）",
+      "intro": "巴西右腳翼鋒，CRB出道後經歷多次Fluminense外借，2019到札幌，2024轉大阪。2024及2025聯賽助攻最多，分別10及15次；2025年5月2球6助攻獲月間MVP。（日刊Sports；J.League）右膝重傷令2026春季無上陣，2026/27至10月21日回到9場2球；春季與新季分開。（wiki；Data Site）",
       "timeline": [
         {
-          "period": "育成／職業",
-          "team": "Fluminense FC",
-          "category": "履歷",
-          "milestone": ""
+          "period": "2009以前-2014",
+          "team": "Real Deodorense、Vitória、CRB、Flu U-20",
+          "category": "生涯轉折",
+          "milestone": "青訓受挫後重新出發；2013已有CRB成年首演。"
         },
         {
-          "period": "育成／職業",
-          "team": "多支Brazil球會",
-          "category": "履歷",
-          "milestone": ""
+          "period": "2015-2018",
+          "team": "巴西外借路線",
+          "category": "生涯轉折",
+          "milestone": "Bonsucesso、Luverdense、Avaí、Atlético、Paraná及Vitória逐段。"
         },
         {
-          "period": "育成／職業",
-          "team": "北海道札幌岡薩多",
-          "category": "履歷",
-          "milestone": ""
+          "period": "2019-2023",
+          "team": "札幌",
+          "category": "生涯轉折",
+          "milestone": "先外借、後買斷；由翼鋒學踢翼衛。"
         },
         {
-          "period": "育成／職業",
-          "team": "大阪櫻花",
-          "category": "履歷",
-          "milestone": ""
+          "period": "2024-2026",
+          "team": "大阪",
+          "category": "生涯轉折",
+          "milestone": "連續助攻領先，重傷後新季復出。"
         }
       ],
-      "honors": [],
+      "honors": [
+        "2024 J1助攻最多10次、2025最多15次；日刊Sports自己的年度獎與聯賽正式獎項分清。（日刊Sports；J.League）",
+        "2025年5月J1 KONAMI月間MVP，當月2球6助攻；2025 J1優秀選手。（J.League；日文wiki）",
+        "2019聯賽盃亞軍札幌成員，當屆盃賽8場1球，不加入J1列。（wiki）"
+      ],
       "milestones": [
-        "在Brazil多隊發展後來日效力北海道札幌岡薩多。",
-        "2024加盟Cerezo。"
+        "2013 CRB一場Série C後，2014入Fluminense U-20。（GloboEsporte；wiki）",
+        "2016年7月首次Série A；2017先Flu後再借Atlético，保留回母會一段。（GloboEsporte）",
+        "2019外借札幌、年末買斷；2024-01-10永久加盟大阪。（GloboEsporte；Cerezo）",
+        "2025聯賽32場7球15助攻；9月右膝韌帶及半月板重傷，2026春季0場。（J.League；Sponichi）"
       ],
       "tactical_traits": [
-        "右路傳中與cut-back質量高。",
-        "定位球與禁區前最後一傳可提高chance creation。"
+        "2019是札幌隊內過人領先者，本人說希望主動挑戰防守者、持續磨一對一；報道是隊內而非全聯賽第一。（2020-02-14 Lance!，lance.com.br）",
+        "右腳傳送準繩，2025助攻15次，較2024的10次再增；季末因傷缺陣亦未被追過。（2025-12-19石川秀和／日刊Sports，nikkansports.com）",
+        "2025年5月評審特別提到騙過防守者的帶球、轉身、停球和準確一腳，並有2球6助攻支持。（J.League月間MVP評審，jleague.jp）"
       ],
-      "quirky_trivia": "Machín天皇盃改4-2-3-1時他表現活躍，說明陣式越接近傳統winger角色，越容易釋放他的進攻直覺。",
+      "quirky_trivia": "少年曾因不被Vitória重視而想放棄，見父親難過後決定繼續；哥哥未能成為球員，他視自己為完成全家夢想的人。2018在Vitória與Leo Ceara相識，後在大阪重逢。（Cerezo本人訪談）",
       "career": [
         {
           "season": null,
-          "team": "Fluminense FC",
-          "competition": "育成／職業履歷",
+          "team": "Real Deodorense青訓",
+          "competition": "Youth / school / college",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "官方／J.League履歷確認；無可靠逐季數字者不推算。",
+          "status": "育成",
+          "notes": "英文生涯地圖列最早球會，年份不詳；現球會簡表從CRB開始，不據此刪去。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo/J.League player record",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
             }
           ]
         },
         {
-          "season": null,
-          "team": "多支Brazil球會",
-          "competition": "育成／職業履歷",
+          "season": "2009-2011",
+          "team": "Vitória青訓",
+          "competition": "Youth / school / college",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "官方／J.League履歷確認；無可靠逐季數字者不推算。",
+          "status": "育成",
+          "notes": "",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo/J.League player record",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Cerezo：Lucas現役及2026-08-07本人長訪談",
+              "url": "https://www.cerezo.jp/team/players/lucas_fernandes/",
+              "accessed_at": "2026-10-24"
             }
           ]
         },
         {
-          "season": null,
+          "season": "2012",
+          "team": "CRB青訓",
+          "competition": "Youth / school / college",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "CRB青年",
+          "competition": "Youth / mixed registration",
+          "appearances": null,
+          "goals": null,
+          "status": "青年兼成年",
+          "notes": "同年成年首演。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "CRB",
+          "competition": "Brazil Série C",
+          "appearances": 1,
+          "goals": 0,
+          "status": "正式球員",
+          "notes": "2013-07-28對Luverdense首演；非2015才開始成年生涯。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "GloboEsporte：CRB一場首演及札幌行使購買權",
+              "url": "https://ge.globo.com/al/arquivo/futebol/noticia/2019/12/31/formado-na-base-do-crb-atacante-lucas-fernandes-fala-sobre-a-vida-no-japao-estou-adaptado.ghtml",
+              "accessed_at": "2026-10-24",
+              "published_at": "2019-12-31"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "CRB U-20",
+          "competition": "Youth / school / college",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "3月轉隊前仍參加Copinha。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Gazeta de Alagoas：2014 Copinha首輪Lucas兩球",
+              "url": "https://www.gazetadealagoas.com.br/esportes/142283/alagoas-estreia-muito-bem-na-copinha?_=amp",
+              "accessed_at": "2026-10-24",
+              "published_at": "2014-01-07"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "Fluminense U-20",
+          "competition": "Youth / school / college",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "3月加盟青年隊，未當作一隊已上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Cerezo：Lucas現役及2026-08-07本人長訪談",
+              "url": "https://www.cerezo.jp/team/players/lucas_fernandes/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "Bonsucesso",
+          "competition": "Campeonato Carioca",
+          "appearances": 11,
+          "goals": 1,
+          "status": "外借",
+          "notes": "州聯賽，非Série A；由Fluminense外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "Luverdense",
+          "competition": "Brazil Série B",
+          "appearances": 25,
+          "goals": 2,
+          "status": "外借",
+          "notes": "4月起外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "Avaí",
+          "competition": "Brazil Série B",
+          "appearances": 8,
+          "goals": 1,
+          "status": "外借",
+          "notes": "另州賽14場2球、巴西盃4場及Primeira Liga2場，28場3球是全賽事。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "FBref：Lucas全生涯逐季，搜尋索引可讀",
+              "url": "https://fbref.com/en/players/8dec873a/Lucas-Fernandes",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "Avaí",
+          "competition": "Campeonato Catarinense",
+          "appearances": 14,
+          "goals": 2,
+          "status": "外借",
+          "notes": "與全國聯賽分開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "GloboEsporte：2016 Avaí 28場含州賽及盃賽",
+              "url": "https://ge.globo.com/pr/futebol/times/atletico-pr/noticia/2016/07/lucas-fernandes-e-regularizado-pelo-atletico-pr-e-pode-estrear-no-brasileiro.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "Atlético Paranaense",
+          "competition": "Brazil Série A",
+          "appearances": 20,
+          "goals": 0,
+          "status": "外借",
+          "notes": "7月外借，首次全國一級聯賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "FBref：Lucas全生涯逐季，搜尋索引可讀",
+              "url": "https://fbref.com/en/players/8dec873a/Lucas-Fernandes",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "Fluminense",
+          "competition": "Brazil Série A",
+          "appearances": 4,
+          "goals": 0,
+          "status": "正式球員",
+          "notes": "另Carioca8、南美盃1、Primeira Liga3；16場不能全當聯賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "GloboEsporte：2017 Flu16場的四種賽事分項",
+              "url": "https://ge.globo.com/al/arquivo/futebol/noticia/2018/01/01/atleta-do-flu-lucas-fernandes-diz-que-depende-do-clube-para-definir-futuro.ghtml",
+              "accessed_at": "2026-10-24",
+              "published_at": "2018-01-01"
+            },
+            {
+              "label": "FBref：Lucas全生涯逐季，搜尋索引可讀",
+              "url": "https://fbref.com/en/players/8dec873a/Lucas-Fernandes",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "Atlético Paranaense",
+          "competition": "Brazil Série A",
+          "appearances": 14,
+          "goals": 0,
+          "status": "外借",
+          "notes": "7月再次外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "GloboEsporte：2017 Flu16場的四種賽事分項",
+              "url": "https://ge.globo.com/al/arquivo/futebol/noticia/2018/01/01/atleta-do-flu-lucas-fernandes-diz-que-depende-do-clube-para-definir-futuro.ghtml",
+              "accessed_at": "2026-10-24",
+              "published_at": "2018-01-01"
+            },
+            {
+              "label": "FBref：Lucas全生涯逐季，搜尋索引可讀",
+              "url": "https://fbref.com/en/players/8dec873a/Lucas-Fernandes",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Fluminense",
+          "competition": "Campeonato Carioca",
+          "appearances": 1,
+          "goals": 0,
+          "status": "正式球員",
+          "notes": "年初回歸州賽，之後兩次外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Paraná",
+          "competition": "Campeonato Paranaense",
+          "appearances": 4,
+          "goals": 0,
+          "status": "外借",
+          "notes": "另巴西盃2場；英文簡表6場是跨賽事總計，非Série A。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Vitória",
+          "competition": "Brazil Série A",
+          "appearances": 30,
+          "goals": 3,
+          "status": "外借",
+          "notes": "由Fluminense外借。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+              "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "FBref：Lucas全生涯逐季，搜尋索引可讀",
+              "url": "https://fbref.com/en/players/8dec873a/Lucas-Fernandes",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2019",
           "team": "北海道札幌岡薩多",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "官方／J.League履歷確認；無可靠逐季數字者不推算。",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 2,
+          "status": "外借",
+          "notes": "外借母會Fluminense，不是Vitória；年尾買斷，40場3球屬全賽事。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo/J.League player record",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "GloboEsporte／Hector Werlang：Fluminense外借札幌一季",
+              "url": "https://ge.globo.com/futebol/times/fluminense/noticia/fluminense-e-time-japones-chegam-a-acordo-e-lucas-fernandes-sera-emprestado-por-um-ano.ghtml",
+              "accessed_at": "2026-10-24",
+              "published_at": "2019-01-02"
             }
           ]
         },
         {
-          "season": null,
-          "team": "大阪櫻花",
-          "competition": "育成／職業履歷",
-          "appearances": null,
-          "goals": null,
-          "status": "",
-          "notes": "官方／J.League履歷確認；無可靠逐季數字者不推算。",
+          "season": "2020",
+          "team": "北海道札幌岡薩多",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 2,
+          "status": "正式球員",
+          "notes": "",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo/J.League player record",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "北海道札幌岡薩多",
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 2,
+          "status": "正式球員",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "北海道札幌岡薩多",
+          "competition": "J1",
+          "appearances": 28,
+          "goals": 3,
+          "status": "正式球員",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "北海道札幌岡薩多",
+          "competition": "J1",
+          "appearances": 22,
+          "goals": 0,
+          "status": "正式球員",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "大阪櫻花",
+          "competition": "J1",
+          "appearances": 35,
+          "goals": 3,
+          "status": "正式球員",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "大阪櫻花",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 7,
+          "status": "正式球員",
+          "notes": "",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "大阪櫻花",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "status": "正式球員",
+          "notes": "右膝手術後復康，未與8月起新季混算。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia日文：1994年生Lucas Fernandes",
+              "url": "https://ja.wikipedia.org/wiki/ルーカス・フェルナンデス_(1994年生のサッカー選手)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Sponichi：右膝重傷後續約計劃",
+              "url": "https://www.sponichi.co.jp/soccer/news/2025/11/24/kiji/20251123s00002000271000c.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2025-11-24"
             }
           ]
         },
@@ -14016,36 +14808,284 @@
           "season": "2026/27",
           "team": "大阪櫻花",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "現役",
-          "notes": "2026/27 current squad；資料截至2026-09-19。",
+          "appearances": 9,
+          "goals": 2,
+          "status": "正式球員",
+          "notes": "10月21日458分鐘。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "Cerezo official current players",
-              "url": "https://www.cerezo.jp/team/players/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League Data Site：2026/27大阪櫻花出場，2026-10-21更新",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%EF%BC%A3%E5%A4%A7%E9%98%AA&team_id=20&team_id_ex=20",
+              "accessed_at": "2026-10-24"
             }
           ]
         }
       ],
-      "season_stats": [],
-      "sources": [
+      "season_stats": [
         {
-          "label": "Cerezo official current players",
-          "url": "https://www.cerezo.jp/team/players/",
-          "accessed_at": "2026-09-19"
+          "season": "2024",
+          "competition": "J1",
+          "appearances": 35,
+          "goals": 3,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
         },
         {
-          "label": "J.League Cerezo roster/stats",
-          "url": "https://www.jleague.jp/club/cosaka/",
-          "accessed_at": "2026-09-19"
+          "season": "2025",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 7,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "J.League：Lucas逐季出場",
+              "url": "https://www.jleague.jp/player/1624314/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "competition": "J1百年構想聯賽",
+          "appearances": 0,
+          "goals": 0,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "Wikipedia日文：1994年生Lucas Fernandes",
+              "url": "https://ja.wikipedia.org/wiki/ルーカス・フェルナンデス_(1994年生のサッカー選手)",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Sponichi：右膝重傷後續約計劃",
+              "url": "https://www.sponichi.co.jp/soccer/news/2025/11/24/kiji/20251123s00002000271000c.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2025-11-24"
+            }
+          ]
+        },
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 9,
+          "goals": 2,
+          "as_of": "2026-10-23",
+          "sources": [
+            {
+              "label": "J.League Data Site：2026/27大阪櫻花出場，2026-10-21更新",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%EF%BC%A3%E5%A4%A7%E9%98%AA&team_id=20&team_id_ex=20",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Cerezo：Lucas現役及2026-08-07本人長訪談",
+          "url": "https://www.cerezo.jp/team/players/lucas_fernandes/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League：Lucas逐季出場",
+          "url": "https://www.jleague.jp/player/1624314/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+          "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Wikipedia日文：1994年生Lucas Fernandes",
+          "url": "https://ja.wikipedia.org/wiki/ルーカス・フェルナンデス_(1994年生のサッカー選手)",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Transfermarkt葡文：Lucas右腳及青訓",
+          "url": "https://www.transfermarkt.pt/lucas-fernandes/profil/spieler/375821",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "FBref：Lucas全生涯逐季，搜尋索引可讀",
+          "url": "https://fbref.com/en/players/8dec873a/Lucas-Fernandes",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Cerezo：2024-01-10札幌永久加盟",
+          "url": "https://www.cerezo.jp/news/2024-0110-1300/",
+          "accessed_at": "2026-10-24",
+          "published_at": "2024-01-10"
+        },
+        {
+          "label": "GloboEsporte／Hector Werlang：Fluminense外借札幌一季",
+          "url": "https://ge.globo.com/futebol/times/fluminense/noticia/fluminense-e-time-japones-chegam-a-acordo-e-lucas-fernandes-sera-emprestado-por-um-ano.ghtml",
+          "accessed_at": "2026-10-24",
+          "published_at": "2019-01-02"
+        },
+        {
+          "label": "GloboEsporte：CRB一場首演及札幌行使購買權",
+          "url": "https://ge.globo.com/al/arquivo/futebol/noticia/2019/12/31/formado-na-base-do-crb-atacante-lucas-fernandes-fala-sobre-a-vida-no-japao-estou-adaptado.ghtml",
+          "accessed_at": "2026-10-24",
+          "published_at": "2019-12-31"
+        },
+        {
+          "label": "GloboEsporte：2016 Avaí 28場含州賽及盃賽",
+          "url": "https://ge.globo.com/pr/futebol/times/atletico-pr/noticia/2016/07/lucas-fernandes-e-regularizado-pelo-atletico-pr-e-pode-estrear-no-brasileiro.html",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "GloboEsporte：2017 Flu16場的四種賽事分項",
+          "url": "https://ge.globo.com/al/arquivo/futebol/noticia/2018/01/01/atleta-do-flu-lucas-fernandes-diz-que-depende-do-clube-para-definir-futuro.ghtml",
+          "accessed_at": "2026-10-24",
+          "published_at": "2018-01-01"
+        },
+        {
+          "label": "Lance!：2019球隊過人領先者，本人談一對一",
+          "url": "https://www.lance.com.br/futebol-internacional/brasileiro-comenta-adaptacao-japao-projeta-nova-temporada.html",
+          "accessed_at": "2026-10-24",
+          "published_at": "2020-02-14"
+        },
+        {
+          "label": "日刊Sports／石川秀和：連續兩年助攻最多，2025為15次",
+          "url": "https://www.nikkansports.com/soccer/news/202512180000720.html",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-12-19"
+        },
+        {
+          "label": "J.League：2025年5月MVP，2球6助攻及評審觀察",
+          "url": "https://www.jleague.jp/j1/monthly_awards/2025/05/mvp/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Sponichi：右膝重傷後續約計劃",
+          "url": "https://www.sponichi.co.jp/soccer/news/2025/11/24/kiji/20251123s00002000271000c.html",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-11-24"
+        },
+        {
+          "label": "J.League Data Site：2026/27大阪櫻花出場，2026-10-21更新",
+          "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionName=%EF%BC%AA%EF%BC%91%E3%83%AA%E3%83%BC%E3%82%B0&selectedCompetitionYear=2026%E5%B9%B4&selectedTeamName=%EF%BC%A3%E5%A4%A7%E9%98%AA&team_id=20&team_id_ex=20",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League Data Site：大阪櫻花現役登錄及累計紀錄",
+          "url": "https://data.j-league.or.jp/SFIX02/search?lang=ja&selectValue=1&selectValueTeam=20",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Gazeta de Alagoas：2014 Copinha首輪Lucas兩球",
+          "url": "https://www.gazetadealagoas.com.br/esportes/142283/alagoas-estreia-muito-bem-na-copinha?_=amp",
+          "accessed_at": "2026-10-24",
+          "published_at": "2014-01-07"
         }
       ],
       "name_source": "TVB「J1 球員評述主資料庫」既有香港繁中顯示名；現役身份以2026-09-19官方資料更新。",
       "verification_status": "verified",
-      "verified_at": "2026-09-19"
+      "verified_at": "2026-10-24",
+      "player_image": "https://images.microcms-assets.io/assets/cc125679249b4055b70b8d540ec6636a/e34433c7cb14460784e48e74af728f01/77-260704_2386.webp",
+      "tactical_sources": [
+        {
+          "label": "Lance!：2019球隊過人領先者，本人談一對一",
+          "url": "https://www.lance.com.br/futebol-internacional/brasileiro-comenta-adaptacao-japao-projeta-nova-temporada.html",
+          "accessed_at": "2026-10-24",
+          "published_at": "2020-02-14"
+        },
+        {
+          "label": "日刊Sports／石川秀和：連續兩年助攻最多，2025為15次",
+          "url": "https://www.nikkansports.com/soccer/news/202512180000720.html",
+          "accessed_at": "2026-10-24",
+          "published_at": "2025-12-19"
+        },
+        {
+          "label": "J.League：2025年5月MVP，2球6助攻及評審觀察",
+          "url": "https://www.jleague.jp/j1/monthly_awards/2025/05/mvp/",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "identity_sources": [
+        {
+          "label": "Cerezo：Lucas現役及2026-08-07本人長訪談",
+          "url": "https://www.cerezo.jp/team/players/lucas_fernandes/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League：Lucas逐季出場",
+          "url": "https://www.jleague.jp/player/1624314/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League Data Site：大阪櫻花現役登錄及累計紀錄",
+          "url": "https://data.j-league.or.jp/SFIX02/search?lang=ja&selectValue=1&selectValueTeam=20",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "identity_reviewed_at": "2026-10-24",
+      "preferred_foot_sources": [
+        {
+          "label": "Transfermarkt葡文：Lucas右腳及青訓",
+          "url": "https://www.transfermarkt.pt/lucas-fernandes/profil/spieler/375821",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "wikipedia_research": {
+        "preferred_language": "pt",
+        "consulted": [
+          {
+            "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+            "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Wikipedia日文：1994年生Lucas Fernandes",
+            "url": "https://ja.wikipedia.org/wiki/ルーカス・フェルナンデス_(1994年生のサッカー選手)",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "note": "2026-10-24先搜尋葡文1994年生Lucas Fernandes，未找到對應條目；改用英文及日文地圖，並以巴西GloboEsporte、Lance!及日本聯賽核對。"
+      },
+      "career_audit": {
+        "reviewed_at": "2026-10-24",
+        "scope": "最早已知足球機構至2026/27；純育成按機構合併，職業每季及季中／同期隊伍分列。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "Cerezo：Lucas現役及2026-08-07本人長訪談",
+            "url": "https://www.cerezo.jp/team/players/lucas_fernandes/",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Wikipedia英文：Lucas Fernandes，1994年生，巴西逐賽事拆分",
+            "url": "https://en.wikipedia.org/wiki/Lucas_Fernandes_(footballer,_born_1994)",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "J.League：Lucas逐季出場",
+            "url": "https://www.jleague.jp/player/1624314/",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "notes": [
+          "先查葡文Wikipedia Lucas Fernandes及1994身份，沒有此球員獨立條目，轉英文、日文並追查GloboEsporte巴西原稿；避開1997年生同名球員。",
+          "英文簡表Flu13場含州賽、Avaí22場含州賽、Paraná6場含盃賽，已用逐賽事表拆分，未照抄作全國聯賽。",
+          "現球會生日4/23與聯賽、TM4/24不同，保留1994-04-24；札幌永久段只到2023，修正英文簡表2024重疊。"
+        ]
+      },
+      "research_gaps": [],
+      "status_tag_sources": [
+        {
+          "label": "J.League Data Site：大阪櫻花現役登錄及累計紀錄",
+          "url": "https://data.j-league.or.jp/SFIX02/search?lang=ja&selectValue=1&selectValueTeam=20",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "status_tags_reviewed_at": "2026-10-24"
     },
     {
       "id": "cerezo_9",
@@ -16082,7 +17122,7 @@
         "2026-07-03外借公告列明至2027-06-30及對柏禁賽條款。（Cerezo）"
       ],
       "tactical_traits": [
-        "高中4-2-3-1單箭頭以直線衝刺接中堅長傳，做支點後再向門前移動。（Gekisaka《閃光少年》，web.gekisaka.jp）",
+        "高中4-2-3-1單箭頭以直線衝刺接中堅長傳，做支點後再向門前移動。（2019-02-22 Gekisaka《閃光少年》，web.gekisaka.jp）",
         "前線主動追持球者、反覆衝刺是逼搶開關；高中報道已有具體比賽觀察。（同篇Gekisaka）",
         "2024町田戰由右路內切、回傳後追第二點，三人包圍下右腳入球；教練同時要求減少輕率失球。（2024-06-01日刊Sports，nikkansports.com）"
       ],
@@ -16157,13 +17197,13 @@
           ]
         },
         {
-          "season": "2012-2014",
+          "season": null,
           "team": "大宮松鼠U-12",
           "competition": "Youth / school / college",
           "appearances": null,
           "goals": null,
           "status": "育成",
-          "notes": "小四加入、小六暑假前離開；按學年約算，非全年在籍。",
+          "notes": "小四加入、小六暑假前離開；訪談未列確切年份。",
           "verification_status": "verified",
           "sources": [
             {
@@ -16208,7 +17248,8 @@
             {
               "label": "Gekisaka：閃光少年，小見跑動及寸頭故事",
               "url": "https://web.gekisaka.jp/news/youth/detail/?266890-266890-fl=",
-              "accessed_at": "2026-10-24"
+              "accessed_at": "2026-10-24",
+              "published_at": "2019-02-22"
             }
           ]
         },
@@ -16230,7 +17271,8 @@
             {
               "label": "Gekisaka：閃光少年，小見跑動及寸頭故事",
               "url": "https://web.gekisaka.jp/news/youth/detail/?266890-266890-fl=",
-              "accessed_at": "2026-10-24"
+              "accessed_at": "2026-10-24",
+              "published_at": "2019-02-22"
             }
           ]
         },
@@ -16484,7 +17526,8 @@
         {
           "label": "Gekisaka：閃光少年，小見跑動及寸頭故事",
           "url": "https://web.gekisaka.jp/news/youth/detail/?266890-266890-fl=",
-          "accessed_at": "2026-10-24"
+          "accessed_at": "2026-10-24",
+          "published_at": "2019-02-22"
         },
         {
           "label": "J.League Data Site：2026/27大阪櫻花出場，2026-10-21更新",
@@ -16511,7 +17554,8 @@
         {
           "label": "Gekisaka：閃光少年，小見跑動及寸頭故事",
           "url": "https://web.gekisaka.jp/news/youth/detail/?266890-266890-fl=",
-          "accessed_at": "2026-10-24"
+          "accessed_at": "2026-10-24",
+          "published_at": "2019-02-22"
         }
       ],
       "identity_sources": [
