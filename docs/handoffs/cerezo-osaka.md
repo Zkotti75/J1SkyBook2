@@ -34,3 +34,11 @@ Next: batch 03 (#11, #14, #15, #16), then batch 04 (#17, #19, #23). Do not start
 ## cerezo-osaka-03 — completed 2026-10-24
 
 Four cards validated; 30 tests passed; data schema 0 errors. Thiago joined in 2025; San Diego/Toronto were unused rights transactions. MLS regular season and playoffs separated. Yokoyama has concurrent Yokohama FC school, 2023 mixed designation, and sourced decision-making notes. Javi is the 1998 defender: Oviedo B/senior and all loans retained; no Real Madrid senior appearance. Okuda has 2019 Gamba U-23, 2023 designation and removed unsupported Cerezo Home Grown tag. Source disagreements retained in career_audit. Current stats from Data Site updated 2026-10-21. Batch04 next; 05–08 remain queued.
+
+## cerezo-osaka-04 — completed 2026-10-24
+
+Three cards passed the batch validator and 30 site tests. Sakata came from Higashiyama, with youth routes and return-match tactics sourced. Sabbag is Syria/Colombia, from Barranquilla: K League 34/17 plus playoffs 2/1; FIFA 11/3 plus Non-FIFA 1/1; Libya and all youth/loans retained. La Equidad historical name retained despite current database rename. Nakamura Portugal 2023/24 is regular league20 plus playoff1; 2025 was a free-agent period, Gunma training and U-15 selection goalkeeper coaching are not player transfers. Current club portraits and Data Site totals added.
+
+## Stop point
+
+User-requested next three batches 02,03,04 are complete (11 players this request). Including batch01: 4/8 batches, 15/29 players completed. Batches05–08 remain queued. Do not automatically start05. Full-club strict gate remains pending all8; partial club is not marked complete. Batch03 Pages deployment succeeded; repository-wide validation stopped on unchanged Urawa strict research blockers after site tests passed. Do not alter other clubs or weaken workflow gates.
