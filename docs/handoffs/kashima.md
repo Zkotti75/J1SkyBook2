@@ -1,67 +1,42 @@
-# Kashima checkpoint - 2026-10-24 Hong Kong
+# Kashima completed checkpoint — 2026-10-24 Hong Kong
 
-## Authorization and current scope
+Scott authorized completion of the final two batches and publishing live. All TEN batches are now completed: 38/38 research cards. Do not repeat these cards or start another club without a new assignment.
 
-Scott authorized publishing to GitHub main and deploying live. His latest instruction was to process THREE MORE batches: kashima-06 through kashima-08. These three are now complete (12 cards). Including the earlier batches01-05, the club is at 8/10 batches, 32/38 cards. Do not repeat these cards or start batch09 in this three-batch run.
+## Validation
 
-A one-time continuation was created for 05:14 Asia/Hong_Kong on 2026-10-24, task id 6adb8ac819f081919d413cc8aaf98fe1. That future run should resume kashima-09 and finish batches09-10, validate and publish within existing authorization. Read remote main first and avoid concurrent writers.
+All ten named batch gates pass. Full Kashima strict audit: 0 errors, 0 warnings, 0 blockers, 235 separately reported coverage gaps. Tests: 30/30 passed. app.js syntax passed. Whole-repository non-strict validation: 0 errors, 1522 existing warnings. Full GitHub CI has an unrelated Urawa strict failure; Pages deploys separately. Do not weaken shared gates or call all CI green.
 
-The Codex usage tool repeatedly returned MCP -32000; no reliable usage percentage or account reset timestamp could be read. Do not claim successful monitoring or guarantee stopping at a percentage. 05:14 is the user's requested reset time. Keep progress checkpointed.
+## Final batches
 
-## Completed queue
+Batch09 completes #46 Iwatsuchi, #47 Takaki, #48 Takisawa and #55 Ueda. Academy portraits/vitals are official. The three youth players are two-category registrations, without confirmed January 2027 promotion. Iwatsuchi left foot is confirmed by the club's July interview; Takaki and Takisawa feet remain blank after approved-source searches. Takisawa's September full-back conversion and October U17 candidate return are dated; official registration remains FW. Ueda's Belgium/France and J.League U22 seasons are separate. His 2018/19 regular-season 21/0 and European qualification playoff 5/1 are not combined. Soccer D.B. lists18 Japan senior caps/1 goal; old16/1 is a dated2022 snapshot.
 
-| Batch | Shirt numbers | State |
-|---|---|---|
-| kashima-01 | 1, 2, 3, 4 | completed previously |
-| kashima-02 | 5, 6, 7, 8 | completed this run |
-| kashima-03 | 9, 10, 11, 14 | completed this run |
-| kashima-04 | 17, 18, 19, 21 | completed this run |
-| kashima-05 | 23, 24, 25, 27 | completed this run |
-| kashima-06 | 28, 29, 30, 31 | completed |
-| kashima-07 | 34, 35, 37, 40 | completed |
-| kashima-08 | 42, 43, 44, 45 | completed |
-| kashima-09 | 46, 47, 48, 55 | NEXT, queued |
-| kashima-10 | 71, 77 | queued |
+Batch10 completes #71 Araki and #77 Cavric. Araki transferred to Sint-Truiden on2026-07-20, confirmed by both clubs. The requested card stays as an explicitly departed archive entry. False2026/27 Kashima row and Home Grown badge were removed. Team notes distinguish38 cards from current registrations. Archived official Kashima portrait retained; current Belgian figures null. FC Domingo Kaou and Charme FC Kumamoto are separately named early clubs.
 
-Keep canonical queue membership; do not rearrange later batches. There must be only one active batch for Kashima.
+Cavric route starts at Petlic football school, then Proleter and Banat. Serbian Wikipedia was consulted first, then Japanese and English. Each professional season/club, Aarhus loan and Slovan B adult appearances is dated. Slovak league figures use Nike liga official records. Slovan's farewell article mislabels30 matches/15 goals as2021/22; league records establish2022/23. Genk2014/15 statistics are null:16/0 versus12/0 could not safely be split by phase; alternatives retained in notes. OFK2014/15 uses Soccerway/Wikipedia4/3 instead of FootballTransfers' incomplete4/0. Kashima2024 uses official25/7, not FootballTransfers24/7. Slovak citizenship/call-ups do not imply a senior cap: Sport.sk2026-10-21 says he still had not played for Slovakia.
 
-## What changed
+Oniki's two undated coaching summaries were corrected from the official appointment notice:2007 development/U12,2008-09 U18,2010-16 first-team coach, each year dated. This cleared the final club gate.
 
-The 32 completed cards have source-linked youth affiliations, individually dated professional seasons, separate loans and mid-season transfers, official portraits/vitals, representative history, milestones, player-specific tactical evidence, human stories and career audits. TVB Chinese names were preserved. Different youth institutions remain separate; unknown years remain null. Mixed youth/professional registration seasons remain individual years.
+## Coverage limits
 
-The latest 12 include Kajikawa's 2010 FC Kariya affiliation, 2017 Tokushima loan and all later seasons; Suzuki's three Belgian seasons and 2014 mixed registration; Hirose's 2026 return from Kobe; and full youth routes for Okawa, Yoshida, Fujii, Tokuda and Motosuna. Academy batch08 has individual sourced interviews, official academy portraits and source-linked routes. Fukuoka's earliest club is Reschi Junior, not Kashima Junior. Onuki, Hirashima and Fukuoka are currently two-category registrations, with formal promotion announced for January 2027. Do not assign that future promotion to Kurahashi: no equivalent announcement was found for him.
+Current-season statistics and permanent status-tag remediation remain separate scheduled stages.235 coverage items include unknown historical figures. Completion is not a claim of cleared current-form coverage. Unknowns remain null.
 
-Particular additions include Misao's Santa Clara/Leuven and Ogawa's Vitoria/STVV seasons, Bueno's Brazil/Gil Vicente seasons, Ceara's Brazil loans, Shibasaki's seven Spanish seasons, Tagawa's Portugal/Scotland loans, Elber's Brazil route, Yan's U20/pro transitions and Portugal/Brazil/Qatar loans, Omori's earliest AZ86 Tokyo Ome affiliation, Yamada's Omigawa JFC and two-category registration, Hayashi's 2025 special designation, Koike's 2014 JFL and Lokeren season, and Matsumura's 2024 Verdy loan. Hayashi has no useful Japanese Wikipedia article; JFA and university interviews supply the route instead.
+Kurahashi45, Takaki47 and Takisawa48 preferred feet remain blank. No video-game evidence. Seven academy Japanese Wikipedia attempts and English-name searches found no useful articles; attempted exact Japanese URLs are retained in audits. Club/federation/firsthand interviews supply routes.
 
-## Coverage limits to retain
+Onuki, Hirashima and Fukuoka have promotion announced for January2027. Do not extend that to Kurahashi, Iwatsuchi, Takaki or Takisawa.
 
-- Recent-season statistics and status-tag audits are separate stages and remain unpopulated for the latest 28 cards. Do not call their current form or status tags fully cleared.
-- Kurahashi (#45) preferred foot remains blank after checking named sources including Transfermarkt 1265611, which does not list a foot value. Do not use video-game ratings as evidence. Current official vitals are 184cm/73kg, replacing older youth figures.
-- Kajikawa's current-club page lists left foot; Transfermarkt lists right. The current-club working value is retained with the discrepancy explicit. His 2010 FC Kariya adult affiliation is dated and separate, but statistics remain null because only a non-official database's 14/0 was located. University registration overlaps and is separately documented.
-- Four batch08 Japanese Wikipedia queries and English-name searches found no useful pages. Exact attempted Japanese URLs are retained in each career audit; JFA/club/firsthand interviews supply the route instead.
-- 2026 special competition is separate from 2026/27 J1. Do not treat dashes as zero or mix league/state/cup/play-off totals.
-- Elber's Coritiba appearances differ (16 Soccer King / 17 English Wikipedia); the selected appearance field is null, with both values retained. Current Japanese career totals use the current-club table rather than stale English summaries.
-- Ceara's 2019 CRB appearances differ (33 Japanese / 32 English); appearance field null, agreed 14 goals retained. Campinense numbers have incompatible competition scopes and remain null.
-- Omori's 2026/27 Mito segment is separately listed with unconfirmed statistics null. Current Kashima 2026/27 season fields are not guessed.
-- Hayakawa's previously retained current appearance conflict (official player page 11 / Data Site 9) remains documented. Do not silently choose one.
+Earlier documented gaps remain: Kajikawa official left foot versus Transfermarkt right, official working value retained;2010 FC Kariya adult figures null, university overlap separate. Elber Coritiba16/17 appearances null. Ceara CRB2019 appearances33/32 null, agreed14 goals retained; Campinense scopes unresolved. Omori2026/27 Mito figures null. Hayakawa current official11/Data Site9 remains documented. Do not silently choose disputed values.
 
-## Validation and publication
+2026 special competition is separate from2026/27 J1. League/cup/state/playoff/international scopes remain distinct. Dashes are not zero; historical injuries are not current availability.
 
-Each batch01-08 passed its own 4/4 research gate. Non-strict repository data validation returned zero errors. Existing test suite passed 30/30. Current cards retain coverage warnings as described above.
+## Publication and continuity
 
-GitHub Actions full-club validation already fails at the unrelated Urawa strict audit, after syntax and tests pass. The Pages deployment succeeds separately. Do not claim all CI green or weaken shared gates to make it green. Full Kashima strict validation should be completed after all 38 cards are researched; check the manager's two undated coaching rows at that point.
+Batch08:81bb639340c8ac8fff29c42818e500e709569a94.
+Batch09:3d9931c3cbb4980f6d4ea6e0c473146a36828c47; Pages succeeded.
+Read latest main for final batch10 containing this handoff.
 
-Earlier published checkpoints: batch05 cf0ecc97544b67020ce93b4a917487c7568bc6d2; batch06 0fcd0f1ead17e1e9d05c202d4dc07952e1cc5893; batch07 43af2a5981fe7850eb32098356f5e9804702e77e. Read latest main for the final batch08 checkpoint.
+The05:14 Asia/Hong_Kong continuation on2026-10-24,id6adb8ac819f081919d413cc8aaf98fe1, was paused because all batches are finished. Usage-limit retrieval returned MCP-32000; no percentage was available. Do not claim successful monitoring.
 
-## Next execution
+Repository:Zkotti75/J1SkyBook2. Live:https://zkotti75.github.io/J1SkyBook2/
+Worktree:skybook-kashima-run2.
 
-Read AGENTS.md, docs/PLAYER_RESEARCH_PLAYBOOK.md, docs/WORK_CONTROL_ROOM.md, data/research-progress.json and data/research-progress/kashima.json from current main. The named skybook-player-research skill was not available in the catalog or searched local folders; the repository playbook and executable gates were used directly, without inventing missing skill contents.
-
-Start with: node scripts/research-queue.mjs start --batch=kashima-09
-Then research, validate the batch, run data validation and tests, complete, publish and verify Pages. npm is absent locally; equivalent scripts run directly with node.
-
-Repository: Zkotti75/J1SkyBook2
-Live site: https://zkotti75.github.io/J1SkyBook2/
-Local working tree for this run: skybook-kashima-run2 under the project workspace. Source of truth is GitHub, not continued local availability. Research caches/helper scripts are intermediates; retained evidence URLs/dates are in the published JSON.
-
-Publish only reviewed club/progress/handoff files. Preserve unrelated main changes with compare-and-swap update_ref. For base64 blob transfer, retrieve small chunks (at most 16000 characters), validate concatenated length/encoding, then create_blob. Large exec output is truncated and corrupts JSON; raw PowerShell Get-Content may also misdecode UTF-8. Always parse the published JSON and check the actual live file before claiming deployment.
+Before future edits read AGENTS.md, PLAYER_RESEARCH_PLAYBOOK.md, WORK_CONTROL_ROOM.md and current remote queues. Named skybook-player-research skill was unavailable in catalog/local searches; repository instructions and gates were used directly. npm is absent; direct Node equivalents are used. Caches/helpers are intermediates; retained evidence URLs/dates are in JSON. Publish reviewed club/progress/handoff only, using expected-head CAS. Base64 transfer chunks<=16000 characters; validate concatenation, parse remote JSON and check actual live files. Read UTF-8 explicitly.
