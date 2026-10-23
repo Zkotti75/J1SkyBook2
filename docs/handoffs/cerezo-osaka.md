@@ -18,3 +18,15 @@ Completed players: #1 上林豪, #2 中村拓海, #4 井上黎生人, #6 登里�
 Validation: batch gate 4/4. Full data validation has 0 errors (existing warnings in other queued cards remain). The package's test commands were run directly with Node because npm is absent: `node scripts/validate-data.mjs` and `node --test tests/*.test.mjs` (30/30 passed).
 
 Next assigned work, only when requested: `cerezo-osaka-02` — #7 上門知樹, #8 香川真司, #9 櫻川所羅門, #10 田中駿汰. Seven player batches remain; full-club strict validation is the final gate after all eight batches.
+
+## 2026-10-24 — cerezo-osaka-02
+
+Completed #7 上門知樹, #8 香川真司, #9 櫻川所羅門, #10 田中駿汰. Batch gate 4/4; site tests 30/30; structural validation 0 errors. User requested batches 02–04 in this run, sequential publication authorized.
+
+- Restored the user-supplied #15 靴蘭迪斯, #19 沙巴治, #36 艾雲 in both club cards and queue. Batch 01 had accidentally reused a cached pre-correction baseline. Fresh GitHub content is now used before each publication.
+- Kagawa's full overseas route includes Dortmund II in 2018/19 (DFB: one Regionalliga appearance), MU early 2014/15, Zaragoza before release and PAOK in both 2020/21 and 2021/22. Zaragoza regular league is 31/4, while Soccerway's summary is 33/4; the working convention explicitly uses the regular-season figure, with no unexplained merging.
+- Uejo: corrected overlapping school dates using J.League (Yokatsu junior high 2010–12). The 2026/27 summary is stale at 3 appearances, but the dated log includes four league appearances through October 21; use the four enumerated league matches.
+- Sakuragawa: Celta U-19 training visit is not a completed transfer. Okayama 2023 remains a loan, followed by Yokohama FC 2024 permanent transfer.
+- Tanaka: Cerezo joining year is 2024. December 14, 2019 versus Hong Kong is a full senior international (JFA); being a domestic/youth-heavy E-1 squad does not make it unofficial. 2019 university and special-designated registration are separate.
+
+Next: batch 03 (#11, #14, #15, #16), then batch 04 (#17, #19, #23). Do not start batch 05 in this request.
