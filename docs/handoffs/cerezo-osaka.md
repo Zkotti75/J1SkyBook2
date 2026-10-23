@@ -54,3 +54,11 @@ User-requested next three batches 02,03,04 are complete (11 players this request
 - Ezemuokwe professional contract effective 2026/27 takes precedence over stale second-category page label.
 - Shiojiri preferred foot remains explicitly unconfirmed after searches; Hatanaka TM both-foot versus Soccer King right-foot conflict retained. No fabricated Wikipedia entries for the two academy players.
 - Continue batches 07 and 08 under the user instruction to complete all remaining batches.
+
+## Batch 07 — completed 2026-10-24 HKT
+
+- Completed #45, #46, #48 and #66; validator 4/4, all 30 tests pass.
+- Nagasoe cup debut remains separate from zero J1 appearances; preferred foot explicitly unconfirmed.
+- Isibor spelling corrected; Osaka FC, Nakaisao and 2024/25 mixed registrations restored.
+- Shibayama knee injury announcement retained without invented return date. Ohata joined in August 2025; Leuven regular-season versus broader appearance totals distinguished.
+- Continue final batch 08, then full-club strict gate under the user instruction to complete all remaining batches.
