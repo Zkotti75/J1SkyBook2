@@ -4710,62 +4710,630 @@
       "prev_club": "大阪櫻花",
       "registration_status": "外援球員",
       "tenure_status": "效力第2季",
-      "national_team_detail": "無",
-      "intro": "J1 頂級巴西神射手金靴中鋒，爆發力強、禁區點球與搶點頭球效率高。",
+      "national_team_detail": "未查得巴西成年代表正式出場證據；不可把日職射手王身份寫成巴西國腳。",
+      "intro": "先以「Leonardo」在2016年外借琉球踢J3，回巴西經多次外借才站穩。2021加盟橫濱水手，2023轉大阪櫻花，2025加入鹿島並以21球成為J1射手王。得分之外，他重視前線勤力工作，以及與傳中球員培養入楔時機的共同理解。（鹿島逐季表；2022-08-16，SportsNavi本人訪問）",
       "timeline": [
         {
-          "period": "履歷",
+          "period": "2009-2010",
+          "team": "São Francisco-BA",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2011-2013",
+          "team": "Vitória Youth",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2014",
+          "team": "Vitória Youth",
+          "category": "Youth / professional registration",
+          "milestone": "同年已有一隊登錄，青年段保留單年，不壓成多年。"
+        },
+        {
+          "period": "2015",
+          "team": "Vitória Youth",
+          "category": "Youth / professional registration",
+          "milestone": "同年已有一隊登錄，青年段保留單年，不壓成多年。"
+        },
+        {
+          "period": "2014",
+          "team": "Vitória",
+          "category": "Série A",
+          "milestone": "2014年1月在東北盃一隊出道；全國聯賽0場。"
+        },
+        {
+          "period": "2015",
+          "team": "Vitória",
+          "category": "Série B",
+          "milestone": "全國聯賽4場；青年及其他盃賽不混入。"
+        },
+        {
+          "period": "2016",
+          "team": "FC琉球",
+          "category": "J3",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2017",
+          "team": "Vitória",
+          "category": "母會登錄",
+          "milestone": "與Campinense、Confiança兩段實際外借分開；未核實母會該年聯賽數。"
+        },
+        {
+          "period": "2017",
+          "team": "Campinense",
+          "category": "Série D／州賽待分辨",
+          "milestone": "Globo確認年初外借；6場3球與9場4球含不同賽事，未當作全國聯賽數字。"
+        },
+        {
+          "period": "2017",
+          "team": "Confiança",
+          "category": "Série C",
+          "milestone": "全國聯賽；與次年外借續期分列。"
+        },
+        {
+          "period": "2018",
+          "team": "Confiança",
+          "category": "Série C",
+          "milestone": "2018年8月回Vitória；其他州賽及東北盃另計。"
+        },
+        {
+          "period": "2018",
+          "team": "Vitória",
+          "category": "Série A",
+          "milestone": "由U23再被Carpegiani提拔至一隊。"
+        },
+        {
+          "period": "2019",
+          "team": "Vitória",
+          "category": "Série B",
+          "milestone": "與CRB同年分列。"
+        },
+        {
+          "period": "2019",
+          "team": "CRB",
+          "category": "Série B",
+          "milestone": "入球14一致；日文表33場、英文表32場，未獲全國官方逐場校正，出場數留空並保留差異。"
+        },
+        {
+          "period": "2020",
+          "team": "Vitória",
+          "category": "Série B",
+          "milestone": "2020賽季延至2021年1月；不另把尾段重算為2021新球季。"
+        },
+        {
+          "period": "2021",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2022",
+          "team": "橫濱水手",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2023",
           "team": "大阪櫻花",
-          "category": "育成／職業履歷",
-          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2024",
+          "team": "大阪櫻花",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2025",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2026特別",
+          "team": "鹿島鹿角",
+          "category": "J1百年構想聯賽",
+          "milestone": "2026上半年特別賽事，獨立於2026/27 J1。"
         },
         {
           "period": "2026/27",
           "team": "鹿島鹿角",
           "category": "J1",
-          "milestone": "資料截至2026-09-19。"
+          "milestone": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。"
         }
       ],
       "honors": [
-        "1次 J1 聯賽冠軍 (2022 [橫濱水手])",
-        "2次 J1 聯賽優秀選手賞 (2022, 2024)"
+        "2022：橫濱水手J1冠軍。（鹿島個人獎項表）",
+        "2025：鹿島J1冠軍、J1射手王及最佳十一人，聯賽34場21球。（鹿島）",
+        "2026特別：J1 EAST最佳十一人、特別聯賽射手王，20場10球。（鹿島）"
       ],
       "milestones": [
-        "2026/27列入鹿島現役登錄（#9）。",
-        "前7輪J1攻入8球，隊內第一。"
+        "2014：Vitória一隊東北盃出道；2016外借FC琉球J3 23場2球。（Globo／鹿島）",
+        "2017：先後外借Campinense與Confiança，不省略前一段。（Globo）",
+        "2025：轉鹿島，J1 21球奪射手王並隨隊奪冠。（鹿島）"
       ],
       "tactical_traits": [
-        "前場需要參與第一線press，不只等待射門。",
-        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
+        "前線會勤力跑動及爭球，並以團隊工作先於個人入球為原則。（2022-08-16，SportsNavi；https://sports.yahoo.co.jp/column/detail/2022081500002-spnavi）",
+        "與水沼宏太長時間配合後，能預判其傳中時機；禁區跑位建立在對出球者的理解。（同訪問；https://sports.yahoo.co.jp/column/detail/2022081500002-spnavi）",
+        "並非自小只等候射門：本人透露最初踢防守中場，才逐步移前，欣賞願意爭搶及苦幹的前鋒。（同訪問；https://sports.yahoo.co.jp/column/detail/2022081500002-spnavi）"
       ],
-      "quirky_trivia": "前7輪8球，8月KONAMI月間MVP；是目前鹿島最直接的得分核心。",
+      "quirky_trivia": "他自稱愛留在家，初到日本獨居時十分孤單；妻女來日後，即使練習疲倦仍享受回家陪女兒玩，認為一家同住很重要。（2022-08-16，舩木渉／SportsNavi）",
       "legacy_id": "jleague_kashima_9",
       "official_player_id": null,
       "team_slug": "kashima",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "レオ セアラ",
+      "birthplace": "ブラジル",
       "season_start_age": 31,
-      "player_image": "",
+      "player_image": "https://www.antlers.co.jp/cdn/shop/files/players_file_FW_9_LeoCeara.jpg?v=1785724672&width=1920",
       "career": [
         {
-          "season": null,
-          "team": "大阪櫻花",
-          "competition": "育成／職業履歷",
+          "season": "2009-2010",
+          "team": "São Francisco-BA",
+          "competition": "Youth / school",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2011-2013",
+          "team": "Vitória Youth",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "Vitória Youth",
+          "competition": "Youth / professional registration",
+          "appearances": null,
+          "goals": null,
+          "status": "混合註冊",
+          "notes": "同年已有一隊登錄，青年段保留單年，不壓成多年。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
             },
             {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "Vitória Youth",
+          "competition": "Youth / professional registration",
+          "appearances": null,
+          "goals": null,
+          "status": "混合註冊",
+          "notes": "同年已有一隊登錄，青年段保留單年，不壓成多年。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "Vitória",
+          "competition": "Série A",
+          "appearances": 0,
+          "goals": 0,
+          "status": "一隊／育成混合",
+          "notes": "2014年1月在東北盃一隊出道；全國聯賽0場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "Vitória",
+          "competition": "Série B",
+          "appearances": 4,
+          "goals": 0,
+          "status": "一隊／育成混合",
+          "notes": "全國聯賽4場；青年及其他盃賽不混入。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "FC琉球",
+          "competition": "J3",
+          "appearances": 23,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "Vitória",
+          "competition": "母會登錄",
+          "appearances": null,
+          "goals": null,
+          "status": "外借前回歸",
+          "notes": "與Campinense、Confiança兩段實際外借分開；未核實母會該年聯賽數。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "Campinense",
+          "competition": "Série D／州賽待分辨",
+          "appearances": null,
+          "goals": null,
+          "status": "由Vitória外借",
+          "notes": "Globo確認年初外借；6場3球與9場4球含不同賽事，未當作全國聯賽數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "Confiança",
+          "competition": "Série C",
+          "appearances": 10,
+          "goals": 1,
+          "status": "由Vitória外借",
+          "notes": "全國聯賽；與次年外借續期分列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Confiança",
+          "competition": "Série C",
+          "appearances": 17,
+          "goals": 9,
+          "status": "外借續期",
+          "notes": "2018年8月回Vitória；其他州賽及東北盃另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "Vitória",
+          "competition": "Série A",
+          "appearances": 17,
+          "goals": 5,
+          "status": "外借回歸",
+          "notes": "由U23再被Carpegiani提拔至一隊。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "Vitória",
+          "competition": "Série B",
+          "appearances": 1,
+          "goals": 0,
+          "status": "季中外借前",
+          "notes": "與CRB同年分列。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "CRB",
+          "competition": "Série B",
+          "appearances": null,
+          "goals": 14,
+          "status": "由Vitória外借",
+          "notes": "入球14一致；日文表33場、英文表32場，未獲全國官方逐場校正，出場數留空並保留差異。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "Vitória",
+          "competition": "Série B",
+          "appearances": 33,
+          "goals": 16,
+          "status": "外借回歸",
+          "notes": "2020賽季延至2021年1月；不另把尾段重算為2021新球季。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Globo：早期出道、Campinense及Confiança外借",
+              "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 27,
+          "goals": 10,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "橫濱水手",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 11,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "大阪櫻花",
+          "competition": "J1",
+          "appearances": 33,
+          "goals": 12,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "大阪櫻花",
+          "competition": "J1",
+          "appearances": 38,
+          "goals": 21,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 34,
+          "goals": 21,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "鹿島鹿角",
+          "competition": "J1百年構想聯賽",
+          "appearances": 20,
+          "goals": 10,
+          "status": "職業球員",
+          "notes": "2026上半年特別賽事，獨立於2026/27 J1。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
             }
           ]
         },
@@ -4775,40 +5343,98 @@
           "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "外援球員",
-          "notes": "資料截至2026-09-19。",
+          "status": "現役登錄",
+          "notes": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+              "accessed_at": "2026-10-24"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "鹿島2026/27現役名單",
-          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-          "accessed_at": "2026-09-19"
+          "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+          "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/leo-ceara",
+          "accessed_at": "2026-10-24"
         },
         {
-          "label": "J.League鹿島",
-          "url": "https://www.jleague.jp/club/kashima/",
-          "accessed_at": "2026-09-19"
+          "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+          "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Globo：早期出道、Campinense及Confiança外借",
+          "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "oGol：2018逐季及外借標註",
+          "url": "https://www.ogol.com.br/jogador/leo-ceara/392364?epoca_id=147",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2022-08-16 舩木渉／SportsNavi：月間MVP本人訪問",
+          "url": "https://sports.yahoo.co.jp/column/detail/2022081500002-spnavi",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Transfermarkt：右腳",
+          "url": "https://www.transfermarkt.jp/leo-ceara/profil/spieler/422027",
+          "accessed_at": "2026-10-24"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": []
+      "season_stats": [],
+      "career_audit": {
+        "reviewed_at": "2026-10-24",
+        "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
+        "earliest_known_year": 2009,
+        "sources": [
+          {
+            "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%BB%E3%82%A2%E3%83%A9",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Wikipedia（en）：履歷線索；逐季數字以官方表交叉核對",
+            "url": "https://en.wikipedia.org/wiki/L%C3%A9o_Cear%C3%A1",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Globo：早期出道、Campinense及Confiança外借",
+            "url": "https://ge.globo.com/ba/futebol/times/vitoria/noticia/em-alta-leo-ceara-lembra-de-inicio-dificil-no-vitoria-fui-proibido-de-treinar-no-clube.ghtml",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "oGol：2018逐季及外借標註",
+            "url": "https://www.ogol.com.br/jogador/leo-ceara/392364?epoca_id=147",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2022-08-16 舩木渉／SportsNavi：月間MVP本人訪問",
+            "url": "https://sports.yahoo.co.jp/column/detail/2022081500002-spnavi",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Transfermarkt：右腳",
+            "url": "https://www.transfermarkt.jp/leo-ceara/profil/spieler/422027",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "notes": "葡文Wikipedia未能讀取，依序查日文與英文並回查Globo。Campinense及CRB部分數字未完成賽事範圍校正，保留明確覆蓋缺口，不猜數。"
+      }
     },
     {
       "id": "kashima_10",
@@ -4827,63 +5453,531 @@
       "prev_club": "Leganés",
       "registration_status": "本國球員",
       "tenure_status": "效力第4季",
-      "national_team_detail": "60次 代表日本國家隊大國腳 🇯🇵（3 球，2018 世界盃日本主力大腦）",
-      "intro": "柴崎 岳是鹿島2026/27現役MF，背號10；在鬼木達體系中以中場連接與對抗為主要任務。",
+      "national_team_detail": "日本成年代表60場3球（2014-2022）；2018世界盃有上陣，2022亦入選。青年代表與成年累計分開。（日文Wikipedia代表逐年表）",
+      "intro": "青森山田出身的組織中場，2011在鹿島出道，2017至2023年間歷Tenerife、Getafe、Deportivo及Leganés，再回鹿島。以攻擊性傳球與全場觀察控制節奏；本人把助攻視作與入球同樣重要，並要求自己在攻守各階段維持質量。（鹿島履歷；2016-09-07，Soccer King本人訪問）",
       "timeline": [
         {
-          "period": "履歷",
+          "period": "年份未詳",
+          "team": "野邊地足球體育少年團",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2005-2007",
+          "team": "青森山田中學",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2008-2010",
+          "team": "青森山田高校",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2011",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2012",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2013",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2014",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2015",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2016",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2016/17",
+          "team": "Tenerife",
+          "category": "Segunda División",
+          "milestone": "常規聯賽；Tenerife升班附加賽4場1球另計。"
+        },
+        {
+          "period": "2017/18",
+          "team": "Getafe",
+          "category": "La Liga",
+          "milestone": "常規聯賽；Tenerife升班附加賽4場1球另計。"
+        },
+        {
+          "period": "2018/19",
+          "team": "Getafe",
+          "category": "La Liga",
+          "milestone": "常規聯賽；Tenerife升班附加賽4場1球另計。"
+        },
+        {
+          "period": "2019/20",
+          "team": "Deportivo La Coruña",
+          "category": "Segunda División",
+          "milestone": "常規聯賽；Tenerife升班附加賽4場1球另計。"
+        },
+        {
+          "period": "2020/21",
           "team": "Leganés",
-          "category": "育成／職業履歷",
-          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+          "category": "Segunda División",
+          "milestone": "常規聯賽；Tenerife升班附加賽4場1球另計。"
+        },
+        {
+          "period": "2021/22",
+          "team": "Leganés",
+          "category": "Segunda División",
+          "milestone": "常規聯賽；Tenerife升班附加賽4場1球另計。"
+        },
+        {
+          "period": "2022/23",
+          "team": "Leganés",
+          "category": "Segunda División",
+          "milestone": "常規聯賽；Tenerife升班附加賽4場1球另計。"
+        },
+        {
+          "period": "2023",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2024",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2025",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2026特別",
+          "team": "鹿島鹿角",
+          "category": "J1百年構想聯賽",
+          "milestone": "2026上半年特別賽事，獨立於2026/27 J1。"
         },
         {
           "period": "2026/27",
           "team": "鹿島鹿角",
           "category": "J1",
-          "milestone": "資料截至2026-09-19。"
+          "milestone": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。"
         }
       ],
       "honors": [
-        "1次 世冠盃 (Club World Cup) 銀球獎 (2016 [鹿島鹿角])",
-        "1次 J1 聯賽冠軍 (2016 [鹿島鹿角])",
-        "1次 天皇盃冠軍 (2016 [鹿島鹿角])",
-        "1次 J1 最佳陣容 / Best XI (2014)"
+        "2011、2012、2015：鹿島聯賽盃冠軍；2012最佳年青球員及聯賽盃MVP。（鹿島）",
+        "2016、2025：鹿島J1冠軍；2016天皇盃及世冠盃銅球獎。（鹿島個人表）"
       ],
       "milestones": [
-        "2026/27列入鹿島現役登錄（#10）。"
+        "2011：鹿島J1首季13場。（鹿島）",
+        "2017：由鹿島赴Tenerife，其後轉Getafe展開西甲生涯。（鹿島／BDFutbol）",
+        "2023年9月：Leganés後回歸鹿島。（鹿島履歷）"
       ],
       "tactical_traits": [
-        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
-        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
+        "把有穿透力的攻擊傳球當作首要武器，目標是讓隊友更容易完成射門。（2016-09-07，Soccer King；https://www.soccer-king.jp/news/japan/jl/20160907/489347.html）",
+        "處理球不只有傳球，也以自身移動增加助攻、射門選項。（同訪問；https://www.soccer-king.jp/news/japan/jl/20160907/489347.html）",
+        "談集中力時強調持續察看周圍，而非只盯一件事；這種全場掃描是其組織習慣的本人解釋。（同訪問；https://www.soccer-king.jp/news/japan/jl/20160907/489347.html）"
       ],
-      "quirky_trivia": "柴崎 岳的直播辨識點是#10與MF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
+      "quirky_trivia": "賽前會用音樂建立自己的節奏，也刻意留意周遭人的動作來喚醒感官；他認為集中並不等於縮窄視野。（2016-09-07，高尾太恵子／Soccer King，品牌合作訪問）",
       "legacy_id": "jleague_kashima_10",
       "official_player_id": null,
       "team_slug": "kashima",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "柴崎 岳",
+      "birthplace": "青森県",
       "season_start_age": 34,
-      "player_image": "",
+      "player_image": "https://www.antlers.co.jp/cdn/shop/files/players_file_MF_10_Shibasaki.jpg?v=1785724672&width=1920",
       "career": [
         {
           "season": null,
-          "team": "Leganés",
-          "competition": "育成／職業履歷",
+          "team": "野邊地足球體育少年團",
+          "competition": "Youth / school",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2005-2007",
+          "team": "青森山田中學",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2008-2010",
+          "team": "青森山田高校",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2011",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 13,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2012",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2013",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 34,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2014",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 34,
+          "goals": 6,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2015",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 29,
+          "goals": 5,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 31,
+          "goals": 3,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016/17",
+          "team": "Tenerife",
+          "competition": "Segunda División",
+          "appearances": 12,
+          "goals": 1,
+          "status": "完全轉會",
+          "notes": "常規聯賽；Tenerife升班附加賽4場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
             },
             {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "BDFutbol：西班牙逐季聯賽紀錄",
+              "url": "https://www.bdfutbol.com/en/j/j24527.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2017/18",
+          "team": "Getafe",
+          "competition": "La Liga",
+          "appearances": 22,
+          "goals": 1,
+          "status": "完全轉會",
+          "notes": "常規聯賽；Tenerife升班附加賽4場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "BDFutbol：西班牙逐季聯賽紀錄",
+              "url": "https://www.bdfutbol.com/en/j/j24527.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2018/19",
+          "team": "Getafe",
+          "competition": "La Liga",
+          "appearances": 7,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "常規聯賽；Tenerife升班附加賽4場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "BDFutbol：西班牙逐季聯賽紀錄",
+              "url": "https://www.bdfutbol.com/en/j/j24527.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2019/20",
+          "team": "Deportivo La Coruña",
+          "competition": "Segunda División",
+          "appearances": 26,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "常規聯賽；Tenerife升班附加賽4場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "BDFutbol：西班牙逐季聯賽紀錄",
+              "url": "https://www.bdfutbol.com/en/j/j24527.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2020/21",
+          "team": "Leganés",
+          "competition": "Segunda División",
+          "appearances": 34,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "常規聯賽；Tenerife升班附加賽4場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "BDFutbol：西班牙逐季聯賽紀錄",
+              "url": "https://www.bdfutbol.com/en/j/j24527.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2021/22",
+          "team": "Leganés",
+          "competition": "Segunda División",
+          "appearances": 34,
+          "goals": 3,
+          "status": "完全轉會",
+          "notes": "常規聯賽；Tenerife升班附加賽4場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "BDFutbol：西班牙逐季聯賽紀錄",
+              "url": "https://www.bdfutbol.com/en/j/j24527.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2022/23",
+          "team": "Leganés",
+          "competition": "Segunda División",
+          "appearances": 30,
+          "goals": 0,
+          "status": "完全轉會",
+          "notes": "常規聯賽；Tenerife升班附加賽4場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "BDFutbol：西班牙逐季聯賽紀錄",
+              "url": "https://www.bdfutbol.com/en/j/j24527.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 22,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 19,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "鹿島鹿角",
+          "competition": "J1百年構想聯賽",
+          "appearances": 15,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "2026上半年特別賽事，獨立於2026/27 J1。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
             }
           ]
         },
@@ -4893,37 +5987,52 @@
           "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "本國球員",
-          "notes": "資料截至2026-09-19。",
+          "status": "現役登錄",
+          "notes": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+              "accessed_at": "2026-10-24"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "鹿島2026/27現役名單",
-          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-          "accessed_at": "2026-09-19"
+          "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+          "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/shibasaki-gaku",
+          "accessed_at": "2026-10-24"
         },
         {
-          "label": "J.League鹿島",
-          "url": "https://www.jleague.jp/club/kashima/",
-          "accessed_at": "2026-09-19"
+          "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "BDFutbol：西班牙逐季聯賽紀錄",
+          "url": "https://www.bdfutbol.com/en/j/j24527.html",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2016-09-07 高尾太恵子／Soccer King：本人訪問（品牌合作）",
+          "url": "https://www.soccer-king.jp/news/japan/jl/20160907/489347.html",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Transfermarkt個人頁（本輪全文403，慣用腳與本人右腳踢球訪問交叉參考）",
+          "url": "https://www.transfermarkt.jp/gaku-shibasaki/profil/spieler/129693",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2023 サカイク：本人踢球與球鞋訪問",
+          "url": "https://www.sakaiku.jp/column/interview/2023/016390.html",
+          "accessed_at": "2026-10-24"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
       "season_stats": [],
@@ -4946,7 +6055,40 @@
             "published_at": null
           }
         }
-      ]
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-10-24",
+        "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+            "url": "https://ja.wikipedia.org/wiki/%E6%9F%B4%E5%B4%8E%E5%B2%B3",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "BDFutbol：西班牙逐季聯賽紀錄",
+            "url": "https://www.bdfutbol.com/en/j/j24527.html",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2016-09-07 高尾太恵子／Soccer King：本人訪問（品牌合作）",
+            "url": "https://www.soccer-king.jp/news/japan/jl/20160907/489347.html",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Transfermarkt個人頁（本輪全文403，慣用腳與本人右腳踢球訪問交叉參考）",
+            "url": "https://www.transfermarkt.jp/gaku-shibasaki/profil/spieler/129693",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2023 サカイク：本人踢球與球鞋訪問",
+            "url": "https://www.sakaiku.jp/column/interview/2023/016390.html",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "notes": ""
+      }
     },
     {
       "id": "kashima_11",
@@ -4958,67 +6100,471 @@
       "dob": "1999-02-11",
       "age": 27,
       "height": 181,
-      "weight": 74,
+      "weight": 70,
       "foot": "左腳",
       "nationality": "日本",
       "joined": 2024,
-      "prev_club": "Hearts",
+      "prev_club": "Heart of Midlothian",
       "registration_status": "本國球員",
       "tenure_status": "效力第3季",
-      "national_team_detail": "2次 代表日本國家隊大國腳 🇯🇵（1 球）",
-      "intro": "左腳強攻爆發力前鋒，速度快，反越位衝刺與左腳射門威力十足。",
+      "national_team_detail": "日本成年代表2場1球（2019 E-1）；青年經歷包括2017、2019 U20世界盃，與成年紀錄分開。（Soccer Digest／日文Wikipedia）",
+      "intro": "181cm左腳前鋒，鳥棲青訓出身，歷FC東京、葡萄牙Santa Clara及蘇格蘭Hearts，2024年8月加入鹿島。身後入楔與速度是本人最看重的武器，海外單箭頭經驗又提升了背身接應；在鬼木麾下亦展現為更佳機會放棄自己起腳的選擇。（2024-08-15，Soccer Digest；2026-03-20，Football Channel）",
       "timeline": [
         {
-          "period": "履歷",
-          "team": "Hearts",
-          "category": "育成／職業履歷",
-          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+          "period": "年份未詳",
+          "team": "Ardito FC",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "年份未詳",
+          "team": "雲仙Ardito FC",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2014-2015",
+          "team": "鳥棲砂岩U18",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2016",
+          "team": "鳥棲砂岩U18",
+          "category": "Youth / professional registration",
+          "milestone": "同年二種登錄一隊，保留單年。"
+        },
+        {
+          "period": "2016",
+          "team": "鳥棲砂岩",
+          "category": "J1",
+          "milestone": "青年隊球員一隊登錄；該年沒有正式賽上陣。"
+        },
+        {
+          "period": "2017",
+          "team": "鳥棲砂岩",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2018",
+          "team": "鳥棲砂岩",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2019",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2019",
+          "team": "FC東京U23",
+          "category": "J3",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2020",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2021",
+          "team": "FC東京",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2021/22",
+          "team": "Santa Clara",
+          "category": "Primeira Liga",
+          "milestone": "2022年1月赴葡萄牙；保留歐洲球季。"
+        },
+        {
+          "period": "2022/23",
+          "team": "Santa Clara",
+          "category": "Primeira Liga",
+          "milestone": "只計聯賽；葡盃及聯賽盃另計。"
+        },
+        {
+          "period": "2023",
+          "team": "FC東京",
+          "category": "母會登錄",
+          "milestone": "2023年7月外借期滿後赴Hearts；保留母會回歸，不虛構實際聯賽出場。"
+        },
+        {
+          "period": "2023/24",
+          "team": "Heart of Midlothian",
+          "category": "Scottish Premiership",
+          "milestone": "2024年8月轉鹿島；聯賽盃1場1球另計。"
+        },
+        {
+          "period": "2024",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2025",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2026特別",
+          "team": "鹿島鹿角",
+          "category": "J1百年構想聯賽",
+          "milestone": "2026上半年特別賽事，獨立於2026/27 J1。"
         },
         {
           "period": "2026/27",
           "team": "鹿島鹿角",
           "category": "J1",
-          "milestone": "資料截至2026-09-19。"
+          "milestone": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。"
         }
       ],
       "honors": [
-        "1次 J.League 聯賽盃冠軍 (2020 [FC東京])"
+        "2025：鹿島J1冠軍。（鹿島個人獎項表）"
       ],
       "milestones": [
-        "2026/27列入鹿島現役登錄（#11）。"
+        "2016：鳥棲二種登錄，2017正式升上一隊。（FC東京加盟履歷）",
+        "2022：外借Santa Clara；2023轉Hearts。（鹿島履歷／Wikipedia）",
+        "2024年8月：Hearts後回日本加盟鹿島。（Soccer Digest）"
       ],
       "tactical_traits": [
-        "前場需要參與第一線press，不只等待射門。",
-        "禁區內跑位與反擊縱深是鹿島把控球轉成入球的關鍵。"
+        "以加速跑向防線身後、自己製造射門機會為強項。（2024-08-15，Soccer Digest；https://www.soccerdigestweb.com/news/detail/id=159364）",
+        "海外多踢單箭頭，令背身接應與支點處理較以往進步。（同本人訪問；https://www.soccerdigestweb.com/news/detail/id=159364）",
+        "對町田接球轉身後看見三竿位置更佳，改傳直線助攻，顯示其判斷不限於左腳射門。（2026-03-20，Football Channel；https://www.footballchannel.jp/2026/03/20/post867789/）"
       ],
-      "quirky_trivia": "田川 亨介的直播辨識點是#11與FW角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
+      "quirky_trivia": "2025季前在安西幸輝編導的「MOMOTARO2」演村長，之後被叫「村長」；這是節目角色衍生的綽號。（2025-02-05，日刊體育報道，日文Wikipedia所列來源）",
       "legacy_id": "jleague_kashima_11",
       "official_player_id": null,
       "team_slug": "kashima",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "田川 亨介",
+      "birthplace": "長崎県",
       "season_start_age": 27,
-      "player_image": "",
+      "player_image": "https://www.antlers.co.jp/cdn/shop/files/players_file_FW_11_Tagawa.jpg?v=1785724673&width=1920",
       "career": [
         {
           "season": null,
-          "team": "Hearts",
-          "competition": "育成／職業履歷",
+          "team": "Ardito FC",
+          "competition": "Youth / school",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "雲仙Ardito FC",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
             },
             {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2014-2015",
+          "team": "鳥棲砂岩U18",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "2019 FC東京：加盟及青年、二種履歷",
+              "url": "https://www.fctokyo.co.jp/news/9672",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "鳥棲砂岩U18",
+          "competition": "Youth / professional registration",
+          "appearances": null,
+          "goals": null,
+          "status": "混合註冊",
+          "notes": "同年二種登錄一隊，保留單年。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "2019 FC東京：加盟及青年、二種履歷",
+              "url": "https://www.fctokyo.co.jp/news/9672",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "鳥棲砂岩",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "二種登錄",
+          "notes": "青年隊球員一隊登錄；該年沒有正式賽上陣。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "2019 FC東京：加盟及青年、二種履歷",
+              "url": "https://www.fctokyo.co.jp/news/9672",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "鳥棲砂岩",
+          "competition": "J1",
+          "appearances": 24,
+          "goals": 4,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "鳥棲砂岩",
+          "competition": "J1",
+          "appearances": 23,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 11,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "FC東京U23",
+          "competition": "J3",
+          "appearances": 6,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 21,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "FC東京",
+          "competition": "J1",
+          "appearances": 30,
+          "goals": 5,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2021/22",
+          "team": "Santa Clara",
+          "competition": "Primeira Liga",
+          "appearances": 12,
+          "goals": 5,
+          "status": "由FC東京外借",
+          "notes": "2022年1月赴葡萄牙；保留歐洲球季。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2022/23",
+          "team": "Santa Clara",
+          "competition": "Primeira Liga",
+          "appearances": 27,
+          "goals": 2,
+          "status": "外借續期",
+          "notes": "只計聯賽；葡盃及聯賽盃另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "FC東京",
+          "competition": "母會登錄",
+          "appearances": null,
+          "goals": null,
+          "status": "外借回歸／轉會手續",
+          "notes": "2023年7月外借期滿後赴Hearts；保留母會回歸，不虛構實際聯賽出場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2023/24",
+          "team": "Heart of Midlothian",
+          "competition": "Scottish Premiership",
+          "appearances": 14,
+          "goals": 2,
+          "status": "完全轉會",
+          "notes": "2024年8月轉鹿島；聯賽盃1場1球另計。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 3,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 25,
+          "goals": 3,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "鹿島鹿角",
+          "competition": "J1百年構想聯賽",
+          "appearances": 10,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "2026上半年特別賽事，獨立於2026/27 J1。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
             }
           ]
         },
@@ -5028,40 +6574,98 @@
           "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "本國球員",
-          "notes": "資料截至2026-09-19。",
+          "status": "現役登錄",
+          "notes": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+              "accessed_at": "2026-10-24"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "鹿島2026/27現役名單",
-          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-          "accessed_at": "2026-09-19"
+          "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+          "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/tagawa-kyosuke",
+          "accessed_at": "2026-10-24"
         },
         {
-          "label": "J.League鹿島",
-          "url": "https://www.jleague.jp/club/kashima/",
-          "accessed_at": "2026-09-19"
+          "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2019 FC東京：加盟及青年、二種履歷",
+          "url": "https://www.fctokyo.co.jp/news/9672",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2024-08-15 渡邊裕樹／Soccer Digest：本人轉會訪問",
+          "url": "https://www.soccerdigestweb.com/news/detail/id=159364",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2026-03-20 Football Channel：轉身、決策及壓迫",
+          "url": "https://www.footballchannel.jp/2026/03/20/post867789/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Transfermarkt：左腳",
+          "url": "https://www.transfermarkt.com/kyosuke-tagawa/profil/spieler/469952",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2025-02-05 日刊體育：村長角色本人談話（全文暫不可讀）",
+          "url": "https://www.nikkansports.com/m/soccer/news/amp/202502050000672.html",
+          "accessed_at": "2026-10-24"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": []
+      "season_stats": [],
+      "career_audit": {
+        "reviewed_at": "2026-10-24",
+        "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+            "url": "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B7%9D%E4%BA%A8%E4%BB%8B",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2019 FC東京：加盟及青年、二種履歷",
+            "url": "https://www.fctokyo.co.jp/news/9672",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2024-08-15 渡邊裕樹／Soccer Digest：本人轉會訪問",
+            "url": "https://www.soccerdigestweb.com/news/detail/id=159364",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2026-03-20 Football Channel：轉身、決策及壓迫",
+            "url": "https://www.footballchannel.jp/2026/03/20/post867789/",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Transfermarkt：左腳",
+            "url": "https://www.transfermarkt.com/kyosuke-tagawa/profil/spieler/469952",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2025-02-05 日刊體育：村長角色本人談話（全文暫不可讀）",
+            "url": "https://www.nikkansports.com/m/soccer/news/amp/202502050000672.html",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "notes": ""
+      }
     },
     {
       "id": "kashima_14",
@@ -5080,60 +6684,331 @@
       "prev_club": "鳥棲砂岩",
       "registration_status": "本國球員",
       "tenure_status": "效力第5季",
-      "national_team_detail": "無",
-      "intro": "J1 頂級右腳定位球大師，角球與自由球落點精準，中場跑動傳導極順。",
+      "national_team_detail": "曾入日本U17；本輪未確認成年代表正式上陣，不沿用未有證據的大國腳描述。（日文Wikipedia）",
+      "intro": "由鳥棲U12一路成長，未直接升一隊，經鹿屋體育大學後回鳥棲，2022轉鹿島。168cm的他不靠身形或盤扭，而把觸球、接球身向與傳球質素磨成優勢；即使踢邊中場也偏向移入內線參與組織。（2022-02-16，Soccer Magazine本人訪問）",
       "timeline": [
         {
-          "period": "履歷",
+          "period": "年份未詳",
+          "team": "鳥棲砂岩U12",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "年份未詳",
+          "team": "鳥棲砂岩U15",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "年份未詳",
+          "team": "鳥棲砂岩U18",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "年份未詳",
+          "team": "鹿屋體育大學",
+          "category": "Youth / school",
+          "milestone": "育成階段；未有可靠逐季上陣及入球數字。"
+        },
+        {
+          "period": "2019",
           "team": "鳥棲砂岩",
-          "category": "育成／職業履歷",
-          "milestone": "前度／主要履歷；未可靠核對逐季數字者不推算。"
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2020",
+          "team": "鳥棲砂岩",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2021",
+          "team": "鳥棲砂岩",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2022",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2023",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2024",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2025",
+          "team": "鹿島鹿角",
+          "category": "J1",
+          "milestone": "聯賽數字，不含盃賽、附加賽及亞洲賽。"
+        },
+        {
+          "period": "2026特別",
+          "team": "鹿島鹿角",
+          "category": "J1百年構想聯賽",
+          "milestone": "2026上半年特別賽事，獨立於2026/27 J1。"
         },
         {
           "period": "2026/27",
           "team": "鹿島鹿角",
           "category": "J1",
-          "milestone": "資料截至2026-09-19。"
+          "milestone": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。"
         }
       ],
       "honors": [
-        "J1 聯賽單季助攻榜前列 (2022, 2023)"
+        "2025：鹿島J1冠軍。（鹿島個人獎項表）"
       ],
       "milestones": [
-        "2026/27列入鹿島現役登錄（#14）。"
+        "2019-03-02：鳥棲對神戶首次J1上陣。（鹿島）",
+        "2020-12-16：對大阪櫻花取得首個J1入球。（鹿島）",
+        "2021：鳥棲J1 37場6球，翌季轉鹿島。（鹿島逐季及履歷）"
       ],
       "tactical_traits": [
-        "中場重點是逼搶、第二點與向前傳球三者兼顧。",
-        "鬼木體系容許技術型中場換位，接球前掃描與轉身速度很重要。"
+        "偏好內線頻密觸球及製造機會，踢邊線亦不只留在外側。（2022-02-16，Soccer Magazine；https://soccermagazine.jp/j1/17519187）",
+        "接球身向、角度、停球與傳球質量是本人刻意磨練的差異化長處。（同訪問；https://soccermagazine.jp/j1/17519187）",
+        "作為傳球者會先看最前線，利用前鋒能力；同時自認對踢球質素有信心。（同訪問；https://soccermagazine.jp/j1/17519187）"
       ],
-      "quirky_trivia": "樋口 雄太的直播辨識點是#14與MF角色；鹿島本季平均控球約56%，因此其無球逼搶與有球時第一個向前選擇同樣值得看。",
+      "quirky_trivia": "離開鳥棲前多次向前輩高橋義希請教轉會經驗；到鹿島又選了相同的14號，希望學習前輩對球會的投入。（2022-02-16，Soccer Magazine訪問第2頁）",
       "legacy_id": "jleague_kashima_14",
       "official_player_id": null,
       "team_slug": "kashima",
-      "name_ja": "",
-      "birthplace": "",
+      "name_ja": "樋口 雄太",
+      "birthplace": "佐賀県",
       "season_start_age": 29,
-      "player_image": "",
+      "player_image": "https://www.antlers.co.jp/cdn/shop/files/players_file_MF_14_Higuchi.jpg?v=1785724673&width=1920",
       "career": [
         {
           "season": null,
-          "team": "鳥棲砂岩",
-          "competition": "育成／職業履歷",
+          "team": "鳥棲砂岩U12",
+          "competition": "Youth / school",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "前度／主要履歷；未可靠核對逐季數字者不推算。",
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%A8%8B%E5%8F%A3%E9%9B%84%E5%A4%AA",
+              "accessed_at": "2026-10-24"
             },
             {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鳥棲砂岩U15",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%A8%8B%E5%8F%A3%E9%9B%84%E5%A4%AA",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鳥棲砂岩U18",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%A8%8B%E5%8F%A3%E9%9B%84%E5%A4%AA",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "鹿屋體育大學",
+          "competition": "Youth / school",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "育成階段；未有可靠逐季上陣及入球數字。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+              "url": "https://ja.wikipedia.org/wiki/%E6%A8%8B%E5%8F%A3%E9%9B%84%E5%A4%AA",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "鳥棲砂岩",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "鳥棲砂岩",
+          "competition": "J1",
+          "appearances": 28,
+          "goals": 1,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "鳥棲砂岩",
+          "competition": "J1",
+          "appearances": 37,
+          "goals": 6,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 32,
+          "goals": 2,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 33,
+          "goals": 3,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 36,
+          "goals": 4,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "鹿島鹿角",
+          "competition": "J1",
+          "appearances": 25,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "聯賽數字，不含盃賽、附加賽及亞洲賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "season": "2026特別",
+          "team": "鹿島鹿角",
+          "competition": "J1百年構想聯賽",
+          "appearances": 15,
+          "goals": 0,
+          "status": "職業球員",
+          "notes": "2026上半年特別賽事，獨立於2026/27 J1。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
             }
           ]
         },
@@ -5143,40 +7018,78 @@
           "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "本國球員",
-          "notes": "資料截至2026-09-19。",
+          "status": "現役登錄",
+          "notes": "進行中球季；未有已核對的當季數字不推算，破折號不當作零。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "鹿島2026/27現役名單",
-              "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League鹿島",
-              "url": "https://www.jleague.jp/club/kashima/",
-              "accessed_at": "2026-09-19"
+              "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+              "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+              "accessed_at": "2026-10-24"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "鹿島2026/27現役名單",
-          "url": "https://www.antlers.co.jp/blogs/news/2607053dr59y",
-          "accessed_at": "2026-09-19"
+          "label": "鹿島2026/27個人資料、逐季聯賽及獎項表",
+          "url": "https://www.antlers.co.jp/pages/players_profile-2026-27/higuchi-yuta",
+          "accessed_at": "2026-10-24"
         },
         {
-          "label": "J.League鹿島",
-          "url": "https://www.jleague.jp/club/kashima/",
-          "accessed_at": "2026-09-19"
+          "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+          "url": "https://ja.wikipedia.org/wiki/%E6%A8%8B%E5%8F%A3%E9%9B%84%E5%A4%AA",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "2022-02-16 Soccer Magazine：成長、踢法與移籍本人訪問",
+          "url": "https://soccermagazine.jp/j1/17519187",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "同訪問第2頁：高橋義希與14號",
+          "url": "https://soccermagazine.jp/_amp/j1/17519187/p2",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Transfermarkt：右腳",
+          "url": "https://www.transfermarkt.jp/yuta-higuchi/profil/spieler/633517",
+          "accessed_at": "2026-10-24"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": []
+      "season_stats": [],
+      "career_audit": {
+        "reviewed_at": "2026-10-24",
+        "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "Wikipedia（ja）：履歷線索；逐季數字以官方表交叉核對",
+            "url": "https://ja.wikipedia.org/wiki/%E6%A8%8B%E5%8F%A3%E9%9B%84%E5%A4%AA",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "2022-02-16 Soccer Magazine：成長、踢法與移籍本人訪問",
+            "url": "https://soccermagazine.jp/j1/17519187",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "同訪問第2頁：高橋義希與14號",
+            "url": "https://soccermagazine.jp/_amp/j1/17519187/p2",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Transfermarkt：右腳",
+            "url": "https://www.transfermarkt.jp/yuta-higuchi/profil/spieler/633517",
+            "accessed_at": "2026-10-24"
+          }
+        ],
+        "notes": "育成年份未見可靠原始記載，保留機構及未知年份；不依出生年倒算。"
+      }
     },
     {
       "id": "kashima_17",
