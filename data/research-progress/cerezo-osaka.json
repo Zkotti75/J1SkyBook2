@@ -2,15 +2,15 @@
   "schema_version": 1,
   "club": "cerezo-osaka",
   "club_name_zh": "大阪櫻花",
-  "player_research_status": "queued",
-  "updated_at": "2026-09-21",
+  "player_research_status": "in_progress",
+  "updated_at": "2026-10-24",
   "roster_players": 29,
   "baseline_complete_players": [],
   "batches": [
     {
       "id": "cerezo-osaka-01",
       "kind": "player_research",
-      "status": "queued",
+      "status": "completed",
       "capacity_points": 5,
       "players": [
         {
@@ -42,9 +42,11 @@
           "weight": 2
         }
       ],
-      "started_at": null,
-      "completed_at": null,
-      "notes": []
+      "started_at": "2026-10-24",
+      "completed_at": "2026-10-24",
+      "notes": [
+        "4/4 passed; 30 site tests passed. Full routes, independent reporting, portraits and dated 2026/27 stats added. See docs/handoffs/cerezo-osaka.md."
+      ]
     },
     {
       "id": "cerezo-osaka-02",
@@ -108,7 +110,7 @@
         {
           "id": "cerezo_15",
           "number": "15",
-          "name_zh": "靴蘭迪斯",
+          "name_zh": "Javi Hernández",
           "name_en": "Javi Hernández",
           "weight": 2
         },
@@ -140,7 +142,7 @@
         {
           "id": "cerezo_19",
           "number": "19",
-          "name_zh": "沙巴治",
+          "name_zh": "Pablo Sabbag",
           "name_en": "Pablo Sabbag",
           "weight": 2
         },
@@ -186,7 +188,7 @@
         {
           "id": "cerezo_36",
           "number": "36",
-          "name_zh": "艾雲",
+          "name_zh": "Jackson Irvine",
           "name_en": "Jackson Irvine",
           "weight": 2
         }
