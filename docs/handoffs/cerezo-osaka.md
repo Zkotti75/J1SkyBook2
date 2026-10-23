@@ -42,3 +42,7 @@ Three cards passed the batch validator and 30 site tests. Sakata came from Higas
 ## Stop point
 
 User-requested next three batches 02,03,04 are complete (11 players this request). Including batch01: 4/8 batches, 15/29 players completed. Batches05–08 remain queued. Do not automatically start05. Full-club strict gate remains pending all8; partial club is not marked complete. Batch03 Pages deployment succeeded; repository-wide validation stopped on unchanged Urawa strict research blockers after site tests passed. Do not alter other clubs or weaken workflow gates.
+
+## cerezo-osaka-05 — completed 2026-10-24
+
+4/4 batch checks and 30 site tests passed. Abe joined2026 on loan from Iwata, not2025 from Niigata. Okazawa Brazil was U-20 under a pro loan, spanning2022/2023. Right/left foot conflict retained. Cools complete continental route and Irvine early youth/state-league teams retained, with snapshot/competition differences documented. User now authorizes all remaining batches05–08; previous stop point is superseded.
