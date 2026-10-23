@@ -1,44 +1,62 @@
-# Kashima player research handoff — 2026-10-24 Hong Kong
+# Kashima checkpoint - 2026-10-24 Hong Kong
 
-## Authorization and checkpoint
+## Authorization and current scope
 
-Scott requested all ten batches consecutively, authorized publishing to GitHub main and deploying live, and requested saving before his five-hour usage reaches 100%, then resuming after 05:14 Asia/Hong_Kong on 2026-10-24. No routine per-batch permission is required. This overrides the older one-batch-per-turn rule for this task.
+Scott authorized publishing to GitHub main and deploying live. His latest instruction was to complete FOUR batches this run: kashima-02 through kashima-05. All four are now complete (16 cards). Including the earlier kashima-01, the club is at 5/10 batches, 20/38 cards. Do not repeat these cards or start batch06 in the four-batch run.
 
-The Codex usage tool `mcp__codex_app__get_usage_limits` is available but repeatedly returned MCP -32000 / `Codex app tool request failed`; no actual usage percentage or reset timestamp was obtained. Do not claim the counter was monitored successfully. A one-time continuation for 05:14 Hong Kong was successfully created. A future run should read this checkpoint before editing and avoid duplicate work or concurrent edits if another worker is active.
+A one-time continuation was created for 05:14 Asia/Hong_Kong on 2026-10-24, task id 6adb8ac819f081919d413cc8aaf98fe1. That future run should resume kashima-06, finish batches06-10, validate and publish within existing authorization. Read remote main first and avoid concurrent writers.
 
-## Published work
+The Codex usage tool repeatedly returned MCP -32000; no reliable usage percentage or account reset timestamp could be read. Do not claim successful monitoring or guarantee stopping at a percentage. 05:14 is the user's requested reset time. Keep progress checkpointed.
 
-- `kashima-01`: complete, four cards (#1 Hayakawa, #2 Anzai, #3 Kim Tae-hyeon, #4 Chida).
-- Batch gate passed 4/4. Full repository non-strict data validation: 0 errors; warnings include existing unfinished clubs/cards. Existing test suite: 30/30 passed.
-- Rebuilt dated professional histories, separated loans and mid-season moves, compressed dated youth/school spells, and preserved named undated early affiliations.
-- Added official portraits, exact official individual URLs, outside sources, dated player-specific tactical evidence, human stories and career audits.
-- Corrected Hayakawa's outdated national-team summary, Kim's vitals, and Chida's prior club/joining year. Preserved TVB Chinese names.
-- Current-stat coverage is not complete: Hayakawa's official player page shows 11 games while Data Site shows 9, so no firm current appearance total is selected. Other three cards' current-season arrays remain unpopulated. Status-tag stage remains separate. Do not describe current form, all tags, or the entire club as fully cleared.
-
-## Remaining queue
-
-Keep the repository's existing batch membership; the earlier conversational plan rearranged the last three batches but was never applied to the queue.
+## Completed queue
 
 | Batch | Shirt numbers | State |
 |---|---|---|
-| kashima-02 | 5, 6, 7, 8 | queued |
-| kashima-03 | 9, 10, 11, 14 | queued |
-| kashima-04 | 17, 18, 19, 21 | queued |
-| kashima-05 | 23, 24, 25, 27 | queued |
-| kashima-06 | 28, 29, 30, 31 | queued |
+| kashima-01 | 1, 2, 3, 4 | completed previously |
+| kashima-02 | 5, 6, 7, 8 | completed this run |
+| kashima-03 | 9, 10, 11, 14 | completed this run |
+| kashima-04 | 17, 18, 19, 21 | completed this run |
+| kashima-05 | 23, 24, 25, 27 | completed this run |
+| kashima-06 | 28, 29, 30, 31 | NEXT, queued |
 | kashima-07 | 34, 35, 37, 40 | queued |
 | kashima-08 | 42, 43, 44, 45 | queued |
 | kashima-09 | 46, 47, 48, 55 | queued |
 | kashima-10 | 71, 77 | queued |
 
-## Execution
+Keep canonical queue membership; do not rearrange later batches. There must be only one active batch for Kashima.
 
-Fresh-fetch main; preserve unrelated concurrent changes. Read `docs/PLAYER_RESEARCH_PLAYBOOK.md`, `docs/WORK_CONTROL_ROOM.md`, `data/research-progress.json`, and club progress. The named skybook-player-research skill was not in the available skill catalog or local skill directories; the repository playbook and executable gates were read directly. No other skill content was invented.
+## What changed
 
-Use `node scripts/research-queue.mjs start --batch=kashima-02` to begin the next batch. Research actual sources before setting verified. Run the corresponding validate/complete commands, data validation and tests; publish after each passing batch. Only one batch may be active for Kashima. Finish with full-club strict validation and fix the manager's two undated coaching rows if they still block that gate.
+The 16 cards now have source-linked youth affiliations, individually dated professional seasons, separate loans and mid-season transfers, official portraits/vitals, representative history, milestones, player-specific tactical evidence, human stories and career audits. TVB Chinese names were preserved. Different youth institutions remain separate; unknown years remain null. Mixed youth/professional registration seasons remain individual years.
 
-Node is available at `C:\Users\User\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe`; npm was absent. Equivalent scripts ran directly: `node scripts/validate-data.mjs` and `node --test tests/*.test.mjs`.
+Particular additions include Misao's Santa Clara/Leuven and Ogawa's Vitoria/STVV seasons, Bueno's Brazil/Gil Vicente seasons, Ceara's Brazil loans, Shibasaki's seven Spanish seasons, Tagawa's Portugal/Scotland loans, Elber's Brazil route, Yan's U20/pro transitions and Portugal/Brazil/Qatar loans, Omori's earliest AZ86 Tokyo Ome affiliation, Yamada's Omigawa JFC and two-category registration, Hayashi's 2025 special designation, Koike's 2014 JFL and Lokeren season, and Matsumura's 2024 Verdy loan. Hayashi has no useful Japanese Wikipedia article; JFA and university interviews supply the route instead.
 
-The local worktree is `C:\Users\User\.codex\.chatgpt-projects\g-p-69ec22f140748191bfe4cb00030894ae\skybook-kashima`. The source of truth is GitHub `Zkotti75/J1SkyBook2`, not this path's continued availability. Raw fetched pages and draft helper scripts are local intermediates; published JSON contains the full retained evidence URLs and source dates.
+## Coverage limits to retain
 
-Publish only reviewed club/progress/handoff files. The site deploys through `.github/workflows/deploy-pages.yml`. Verify the Pages run and https://zkotti75.github.io/J1SkyBook2/ before claiming live publication.
+- Recent-season statistics and status-tag audits are separate stages and remain unpopulated for the new 16 cards. Do not call their current form or status tags fully cleared.
+- 2026 special competition is separate from 2026/27 J1. Do not treat dashes as zero or mix league/state/cup/play-off totals.
+- Elber's Coritiba appearances differ (16 Soccer King / 17 English Wikipedia); the selected appearance field is null, with both values retained. Current Japanese career totals use the current-club table rather than stale English summaries.
+- Ceara's 2019 CRB appearances differ (33 Japanese / 32 English); appearance field null, agreed 14 goals retained. Campinense numbers have incompatible competition scopes and remain null.
+- Omori's 2026/27 Mito segment is separately listed with unconfirmed statistics null. Current Kashima 2026/27 season fields are not guessed.
+- Hayakawa's previously retained current appearance conflict (official player page 11 / Data Site 9) remains documented. Do not silently choose one.
+
+## Validation and publication
+
+Each batch02-05 passed its own 4/4 research gate. Non-strict repository data validation returned zero errors. Existing test suite passed 30/30. Current cards retain coverage warnings as described above.
+
+GitHub Actions full-club validation already fails at the unrelated Urawa strict audit, after syntax and tests pass. The Pages deployment succeeds separately. Do not claim all CI green or weaken shared gates to make it green. Full Kashima strict validation should be completed after all 38 cards are researched; check the manager's two undated coaching rows at that point.
+
+Earlier published checkpoints: batch01 corrected UTF-8 b5a3242ed278a5f5e2d3d0a8dc81950a558ed975; batch02 corrected UTF-8 1fbf657d59bd5723ead540a1c28a0bb8f5cbdce2; batch04 fad6f293c7e89d206e02c2bac3078c25b789bf49. Read latest main for the final batch05 checkpoint.
+
+## Next execution
+
+Read AGENTS.md, docs/PLAYER_RESEARCH_PLAYBOOK.md, docs/WORK_CONTROL_ROOM.md, data/research-progress.json and data/research-progress/kashima.json from current main. The named skybook-player-research skill was not available in the catalog or searched local folders; the repository playbook and executable gates were used directly, without inventing missing skill contents.
+
+Start with: node scripts/research-queue.mjs start --batch=kashima-06
+Then research, validate the batch, run data validation and tests, complete, publish and verify Pages. npm is absent locally; equivalent scripts run directly with node.
+
+Repository: Zkotti75/J1SkyBook2
+Live site: https://zkotti75.github.io/J1SkyBook2/
+Local working tree for this run: skybook-kashima-run2 under the project workspace. Source of truth is GitHub, not continued local availability. Research caches/helper scripts are intermediates; retained evidence URLs/dates are in the published JSON.
+
+Publish only reviewed club/progress/handoff files. Preserve unrelated main changes with compare-and-swap update_ref. For base64 blob transfer, retrieve small chunks (at most 16000 characters), validate concatenated length/encoding, then create_blob. Large exec output is truncated and corrupts JSON; raw PowerShell Get-Content may also misdecode UTF-8. Always parse the published JSON and check the actual live file before claiming deployment.
