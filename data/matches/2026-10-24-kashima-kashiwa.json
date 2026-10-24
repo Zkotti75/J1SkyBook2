@@ -4,70 +4,93 @@
   "away": "kashiwa",
   "date": "2026-10-24",
   "as_of": "2026-10-24",
-  "coverage_note": "24日早上比賽日掃描：補12則近期訪問、施亞拉傷患疑問、柏63號新登錄及球員卡；最近賽果仍為21日鹿島2–2京都、柏0–0東京。開賽14:00 HKT。正選、球證及施亞拉可用性待臨場確認。",
+  "coverage_note": "開賽前最後掃描 2026-10-24 13:26 HKT：兩軍11正選＋9後備及6名球證組已確認；鹿島換3人、柏換6人。施亞拉與藤尾未入選，古谷先發；保留今早12則近期訪問。統計維持賽前截點，不填未發生賽果。",
   "match_info": {
     "kickoff_hkt": "14:00（日本15:00）",
     "stadium": "Mercari Stadium（メルカリスタジアム）",
-    "referee": null,
-    "lineups_as_of": null,
-    "selection_note": "24日正式名單待公布；陣式圖為常用架構及已知人腳示意，並非預測正選。",
+    "referee": "上村篤史",
+    "lineups_as_of": "2026-10-24 13:26 HKT",
+    "selection_note": "兩隊11正選及9後備、全部6名球證組已確認。鹿島換3名先發，柏換6名；施亞拉、藤尾未入選。香港14:00開賽（官方球會比賽頁列日本15:03）。",
     "sources": [
       {
-        "label": "J.League・24日第12節鹿島對柏",
+        "label": "柏官方・24日正式20人名單及6名球證組",
+        "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "鹿島官方・24日正式20人名單",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "J.League・24日正式名單",
         "url": "https://www.jleague.jp/match/j1/2026/102407/",
-        "accessed_at": "2026-10-21"
+        "accessed_at": "2026-10-24"
       }
     ],
     "officials": {
-      "status": "awaiting_appointment",
-      "checked_at": "2026-10-24T10:19+08:00",
-      "checked_at_display": "2026-10-24T10:19 HKT",
-      "note": "早上未見已確認球證組人名；待開賽前再查，不使用舊場次委任。",
+      "status": "confirmed",
+      "checked_at": "2026-10-24T13:26+08:00",
+      "checked_at_display": "2026-10-24 13:26 HKT",
+      "note": "柏官方本場資料已列出全部6名球證組；姓名依日文官方記錄，未另造中文譯名。",
       "roles": [
         {
           "id": "referee",
           "label": "主球證",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "上村篤史",
+          "name_zh": null,
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "assistant_1",
           "label": "旁證1",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "西橋勲",
+          "name_zh": null,
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "assistant_2",
           "label": "旁證2",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "安藤康平",
+          "name_zh": null,
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "fourth_official",
           "label": "第4球證",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "瀬田貴仁",
+          "name_zh": null,
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "var",
           "label": "VAR",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "高崎航地",
+          "name_zh": null,
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "avar",
           "label": "AVAR",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "淺田武士",
+          "name_zh": null,
+          "status": "confirmed",
+          "profile": null
         }
       ],
       "sources": [
         {
-          "label": "J.League・24日第12節鹿島對柏",
-          "url": "https://www.jleague.jp/match/j1/2026/102407/",
-          "accessed_at": "2026-10-21"
+          "label": "柏官方・24日正式20人名單及6名球證組",
+          "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+          "accessed_at": "2026-10-24"
         }
-      ]
+      ],
+      "profile_note": "本次急速開賽前核對以本場委任為先；沒有核實的生涯執法統計或牌數傾向不填。"
     },
     "weather": {
       "text": "24日11:00 JST鹿嶋市預報：日本15時約19.4°C，下午12–18時降雨概率80%；15時三小時預報雨量約1毫米／小時。市區預報不是球場實測，濕地反彈、傳中及門將接球要臨場觀察。",
@@ -878,35 +901,413 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "24日正選及後備仍未公布。比較頁陣式為常用架構示意；21日名單只用作負荷研究，沒有冒充本場陣容。",
+            "text": "#1 早川 友基",
             "kind": "fact",
-            "as_of": "2026-10-21",
+            "as_of": "2026-10-24",
             "sources": [
               {
-                "label": "J.League・24日第12節鹿島對柏",
-                "url": "https://www.jleague.jp/match/j1/2026/102407/",
-                "accessed_at": "2026-10-21"
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "text": "#23 津久井 佳祐",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "text": "#55 植田 直通",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 55
+          },
+          {
+            "text": "#3 金泰賢",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 3
+          },
+          {
+            "text": "#7 小川 諒也",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "text": "#10 柴崎 岳",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 10
+          },
+          {
+            "text": "#6 三竿 健斗",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "text": "#27 松村 優太",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 27
+          },
+          {
+            "text": "#24 林 晴己",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "text": "#34 德田 譽",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 34
+          },
+          {
+            "text": "#40 鈴木 優磨",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 40
+          }
+        ],
+        "bench": [
+          {
+            "text": "#21 山田 大樹",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 21
+          },
+          {
+            "text": "#5 關川 郁萬",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "text": "#25 小池 龍太",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 25
+          },
+          {
+            "text": "#8 般奴",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "text": "#14 樋口 雄太",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "text": "#35 元砂晏翔仁・烏迪巴",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 35
+          },
+          {
+            "text": "#17 艾巴",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "text": "#30 吉田 湊海",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 30
+          },
+          {
+            "text": "#77 卡夫歷",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 77
+          }
+        ],
+        "cues": [
+          {
+            "text": "鹿島比21日換3名正選：柴崎岳、林晴己、德田譽取代般奴、吉田湊海、李奧施亞拉。般奴及吉田後備；施亞拉不在20人名單。",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
               }
             ]
           },
           {
-            "text": "開場先觀察：誰在柏小泉接球時上搶？領先後能否同時限制傳中與禁區接應？",
+            "text": "評述觀察：德田譽與鈴木優磨組合如何分工；卡夫歷、艾巴後備。不要再以施亞拉可能上陣作本場推演。",
             "kind": "analysis",
-            "as_of": "2026-10-21",
+            "as_of": "2026-10-24",
             "sources": [
               {
-                "label": "Football LAB・鹿島首10輪陣式（19日更新）",
-                "url": "https://www.football-lab.jp/kasm/formation",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-19"
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "SportsNavi・本場陣式",
+                "url": "https://soccer.yahoo.co.jp/jleague/category/j1/game/2026102407/summary?gk=2",
+                "accessed_at": "2026-10-24"
               }
             ]
           }
-        ]
+        ],
+        "confirmed_at": "2026-10-24T13:26+08:00",
+        "starting_changes_vs_previous_match": 3
       },
       "analytics": [
         {
@@ -959,70 +1360,90 @@
       ],
       "formation": {
         "shape": "4-4-2",
-        "label": "常用架構與人腳示意；並非24日預測正選",
-        "as_of": "2026-10-21",
+        "label": "24日正式正選；4-4-2／3-4-2-1站位示意，開波後核對實際落位",
+        "as_of": "2026-10-24",
         "players": [
           {
-            "number": 9,
-            "name": "李奧施亞拉"
+            "number": 34,
+            "name": "德田 譽"
           },
           {
             "number": 40,
-            "name": "鈴木優磨"
+            "name": "鈴木 優磨"
           },
           {
-            "number": 17,
-            "name": "艾巴"
+            "number": 24,
+            "name": "林 晴己"
           },
           {
             "number": 10,
-            "name": "柴崎岳"
+            "name": "柴崎 岳"
           },
           {
-            "number": 8,
-            "name": "般奴"
+            "number": 6,
+            "name": "三竿 健斗"
           },
           {
             "number": 27,
-            "name": "松村優太"
+            "name": "松村 優太"
           },
           {
             "number": 7,
-            "name": "小川諒也"
+            "name": "小川 諒也"
           },
           {
-            "number": 5,
-            "name": "關川郁萬"
+            "number": 3,
+            "name": "金泰賢"
           },
           {
             "number": 55,
-            "name": "植田直通"
+            "name": "植田 直通"
           },
           {
             "number": 23,
-            "name": "津久井佳祐"
+            "name": "津久井 佳祐"
           },
           {
             "number": 1,
-            "name": "早川友基"
+            "name": "早川 友基"
           }
         ],
         "sources": [
           {
-            "label": "Football LAB・鹿島首10輪陣式（19日更新）",
-            "url": "https://www.football-lab.jp/kasm/formation",
-            "accessed_at": "2026-10-21",
-            "published_at": "2026-10-19"
+            "label": "SportsNavi・本場陣式",
+            "url": "https://soccer.yahoo.co.jp/jleague/category/j1/game/2026102407/summary?gk=2",
+            "accessed_at": "2026-10-24"
           },
           {
-            "label": "鹿島官方・21日京都戰名單及換人",
-            "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
-            "accessed_at": "2026-10-21",
-            "published_at": "2026-10-21"
+            "label": "柏官方・24日正式20人名單及6名球證組",
+            "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "鹿島官方・24日正式20人名單",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+            "accessed_at": "2026-10-24"
           }
         ]
       },
       "rotation_notes": [
+        {
+          "text": "24日正式名單更新｜鹿島比21日換3名正選：柴崎岳、林晴己、德田譽取代般奴、吉田湊海、李奧施亞拉。般奴及吉田後備；施亞拉不在20人名單。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "柏官方・24日正式20人名單及6名球證組",
+              "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島官方・24日正式20人名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
         {
           "text": "21日比17日換6名正選：金泰賢、小川諒也、三竿健斗、吉田湊海、松村優太、鈴木優磨加入；關川郁萬、大森渚生、柴崎岳、艾巴、林晴己、卡夫歷改列後備。不能把17日輪換陣容當作固定最佳11人。",
           "kind": "fact",
@@ -1177,6 +1598,23 @@
       ],
       "suspensions": [
         {
+          "text": "本場已公布名單：三竿健斗先發。累積3黃屬下一張牌風險，不是本場停賽。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "柏官方・24日正式20人名單及6名球證組",
+              "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島官方・24日正式20人名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
           "text": "24日本場停賽名單仍待賽前最新官方公告確認；21日鹿島沒有新增黃／紅牌。未把「本場無新牌」寫成所有球員必定可上陣。",
           "kind": "fact",
           "as_of": "2026-10-21",
@@ -1197,18 +1635,23 @@
       ],
       "injuries": [
         {
-          "text": "21日64分鐘傷退；22日鬼木說檢查中，肌肉問題僅初步看法。24日可用性待正式名單。",
-          "kind": "reported",
+          "text": "李奧施亞拉確定未列24日正選或後備20人名單；21日傷退後的檢查診斷與預計缺陣期仍未確認。德田譽先發，卡夫歷、艾巴後備。",
+          "kind": "fact",
           "as_of": "2026-10-24",
           "sources": [
             {
-              "label": "サカノワ／塚越始・22日鬼木網上採訪",
-              "url": "https://sakanowa.jp/topics/113902",
+              "label": "柏官方・24日正式20人名單及6名球證組",
+              "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
               "accessed_at": "2026-10-24"
             },
             {
-              "label": "J.League・本場前瞻",
-              "url": "https://www.jleague.jp/match/j1/2026/102407/",
+              "label": "鹿島官方・24日正式20人名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Sakanowa・22日鬼木談施亞拉檢查",
+              "url": "https://sakanowa.jp/topics/113902",
               "accessed_at": "2026-10-24"
             }
           ]
@@ -1268,6 +1711,29 @@
       ],
       "players_to_watch": {
         "stars": [
+          {
+            "number": 34,
+            "description": [
+              {
+                "text": "德田譽本場與鈴木優磨先發；施亞拉未入選。先觀察他是否保持最前端、牽制中堅及接應邊路傳中。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "柏官方・24日正式20人名單及6名球證組",
+                    "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                    "accessed_at": "2026-10-24"
+                  },
+                  {
+                    "label": "鹿島官方・24日正式20人名單",
+                    "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          },
           {
             "number": 9,
             "description": [
@@ -2359,35 +2825,413 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "24日正選及後備仍未公布。比較頁陣式為常用架構示意；21日名單只用作負荷研究，沒有冒充本場陣容。",
+            "text": "#29 永井堅梧",
             "kind": "fact",
-            "as_of": "2026-10-21",
+            "as_of": "2026-10-24",
             "sources": [
               {
-                "label": "J.League・24日第12節鹿島對柏",
-                "url": "https://www.jleague.jp/match/j1/2026/102407/",
-                "accessed_at": "2026-10-21"
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 29
+          },
+          {
+            "text": "#30 古谷柊介",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 30
+          },
+          {
+            "text": "#42 原田亘",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 42
+          },
+          {
+            "text": "#4 古賀太陽",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "text": "#26 杉岡大暉",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 26
+          },
+          {
+            "text": "#28 戶嶋祥郎",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "text": "#39 中川敦瑛",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 39
+          },
+          {
+            "text": "#8 小泉佳穗",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "text": "#5 遠藤溪太",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "text": "#87 山內日向汰",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 87
+          },
+          {
+            "text": "#18 垣田裕暉",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 18
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 猿田遙己",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "text": "#2 三丸擴",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 2
+          },
+          {
+            "text": "#32 山之內佑成",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 32
+          },
+          {
+            "text": "#40 原川力",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 40
+          },
+          {
+            "text": "#24 久保藤次郎",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "text": "#21 小西雄大",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 21
+          },
+          {
+            "text": "#44 弓場堅真",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 44
+          },
+          {
+            "text": "#20 瀨川祐輔",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 20
+          },
+          {
+            "text": "#9 細谷真大",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ],
+            "number": 9
+          }
+        ],
+        "cues": [
+          {
+            "text": "柏比21日換6名正選：古谷柊介、原田亘、杉岡大暉、小泉佳穗、遠藤溪太、垣田裕暉加入；久保藤次郎、三丸擴、小西雄大、弓場堅真改列後備，汰木康也、藤尾翔太未入選。",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
               }
             ]
           },
           {
-            "text": "開場先觀察：小泉、遠藤是否回先發？藤尾接球後，誰向身後跑而非一起回接？",
+            "text": "評述觀察：古谷柊介本季J1首次先發；久保留後備，觀察右翼換人與後備瀨川／細谷的追分選項。",
             "kind": "analysis",
-            "as_of": "2026-10-21",
+            "as_of": "2026-10-24",
             "sources": [
               {
-                "label": "Football LAB・柏首10輪陣式（19日更新）",
-                "url": "https://www.football-lab.jp/kasw/formation",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-19"
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "SportsNavi・本場陣式",
+                "url": "https://soccer.yahoo.co.jp/jleague/category/j1/game/2026102407/summary?gk=2",
+                "accessed_at": "2026-10-24"
               }
             ]
           }
-        ]
+        ],
+        "confirmed_at": "2026-10-24T13:26+08:00",
+        "starting_changes_vs_previous_match": 6
       },
       "analytics": [
         {
@@ -2440,12 +3284,12 @@
       ],
       "formation": {
         "shape": "3-4-2-1",
-        "label": "常用架構與人腳示意；並非24日預測正選",
-        "as_of": "2026-10-21",
+        "label": "24日正式正選；4-4-2／3-4-2-1站位示意，開波後核對實際落位",
+        "as_of": "2026-10-24",
         "players": [
           {
-            "number": 15,
-            "name": "藤尾翔太"
+            "number": 18,
+            "name": "垣田裕暉"
           },
           {
             "number": 8,
@@ -2464,12 +3308,12 @@
             "name": "中川敦瑛"
           },
           {
-            "number": 21,
-            "name": "小西雄大"
+            "number": 28,
+            "name": "戶嶋祥郎"
           },
           {
-            "number": 24,
-            "name": "久保藤次郎"
+            "number": 30,
+            "name": "古谷柊介"
           },
           {
             "number": 26,
@@ -2490,20 +3334,40 @@
         ],
         "sources": [
           {
-            "label": "Football LAB・柏首10輪陣式（19日更新）",
-            "url": "https://www.football-lab.jp/kasw/formation",
-            "accessed_at": "2026-10-21",
-            "published_at": "2026-10-19"
+            "label": "SportsNavi・本場陣式",
+            "url": "https://soccer.yahoo.co.jp/jleague/category/j1/game/2026102407/summary?gk=2",
+            "accessed_at": "2026-10-24"
           },
           {
-            "label": "柏官方・21日FC東京戰名單及換人",
-            "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
-            "accessed_at": "2026-10-21",
-            "published_at": "2026-10-21"
+            "label": "柏官方・24日正式20人名單及6名球證組",
+            "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "鹿島官方・24日正式20人名單",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+            "accessed_at": "2026-10-24"
           }
         ]
       },
       "rotation_notes": [
+        {
+          "text": "24日正式名單更新｜柏比21日換6名正選：古谷柊介、原田亘、杉岡大暉、小泉佳穗、遠藤溪太、垣田裕暉加入；久保藤次郎、三丸擴、小西雄大、弓場堅真改列後備，汰木康也、藤尾翔太未入選。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "柏官方・24日正式20人名單及6名球證組",
+              "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島官方・24日正式20人名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
         {
           "text": "21日比17日換4名正選：永井堅梧、三丸擴、汰木康也、弓場堅真取代若原智哉、杉岡大暉、遠藤溪太、小泉佳穗。半場再連換3人：原田、遠藤、小泉入場，各踢45分鐘。",
           "kind": "fact",
@@ -2669,6 +3533,23 @@
       ],
       "suspensions": [
         {
+          "text": "本場已公布名單：小泉佳穗先發。累積3黃屬下一張牌風險，不是本場停賽；其他落選球員沒有公開原因便不推斷為停賽。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "柏官方・24日正式20人名單及6名球證組",
+              "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島官方・24日正式20人名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
           "text": "24日停賽名單待賽前公告；21日新增黃牌為小西、小泉、原田、遠藤。柏球會頁較早版本只列3張，這裏依J.League終場紀錄補上90+4分鐘遠藤一牌。",
           "kind": "fact",
           "as_of": "2026-10-21",
@@ -2688,6 +3569,23 @@
         }
       ],
       "injuries": [
+        {
+          "text": "24日永井堅梧先發、猿田遙己後備；若原智哉及小島亨介未入選。藤尾翔太及汰木康也亦不在20人名單；未取得本場落選原因或新診斷，保持原因未確認。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "柏官方・24日正式20人名單及6名球證組",
+              "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "鹿島官方・24日正式20人名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
         {
           "text": "88號馬場晴也10月9日對神戶受傷，16日公布右膝前十字韌帶斷裂及外側半月板損傷；公告未給復出日期。",
           "kind": "fact",
@@ -2767,6 +3665,29 @@
       ],
       "players_to_watch": {
         "stars": [
+          {
+            "number": 18,
+            "description": [
+              {
+                "text": "垣田裕暉取代上仗藤尾的中鋒先發位置；藤尾未入選。觀察他如何作支點，讓小泉與山內在身旁接應。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "柏官方・24日正式20人名單及6名球證組",
+                    "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                    "accessed_at": "2026-10-24"
+                  },
+                  {
+                    "label": "鹿島官方・24日正式20人名單",
+                    "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ],
+            "stats": []
+          },
           {
             "number": 8,
             "description": [
@@ -3623,6 +4544,52 @@
   "preview": {
     "cues": [
       {
+        "text": "鹿島比21日換3名正選：柴崎岳、林晴己、德田譽取代般奴、吉田湊海、李奧施亞拉。般奴及吉田後備；施亞拉不在20人名單。",
+        "kind": "fact",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "柏官方・24日正式20人名單及6名球證組",
+            "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "鹿島官方・24日正式20人名單",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      {
+        "text": "柏比21日換6名正選：古谷柊介、原田亘、杉岡大暉、小泉佳穗、遠藤溪太、垣田裕暉加入；久保藤次郎、三丸擴、小西雄大、弓場堅真改列後備，汰木康也、藤尾翔太未入選。",
+        "kind": "fact",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "柏官方・24日正式20人名單及6名球證組",
+            "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "鹿島官方・24日正式20人名單",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      {
+        "text": "球證：上村篤史；旁證西橋勲、安藤康平；第4球證瀬田貴仁；VAR高崎航地、AVAR淺田武士。",
+        "kind": "fact",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "柏官方・24日正式20人名單及6名球證組",
+            "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      {
         "text": "鹿島20分對柏22分；鹿島若勝即可在兩隊之間反超。21日晚排名只是當刻快照。",
         "kind": "analysis",
         "as_of": "2026-10-21",
@@ -3691,21 +4658,87 @@
     ],
     "sections": [
       {
-        "title": "比賽日追加①｜施亞拉若缺席，改變的不只是12個入球",
+        "title": "開賽前最終更新｜施亞拉缺席、古谷先發，現在用這份名單讀比賽",
         "paragraphs": [
           {
-            "text": "施亞拉21日64分鐘被換，22日仍檢查中。Football LAB列缺陣觀察但亦提醒輕傷者可能上陣；目前不能把懷疑肌肉問題當作已確診、已排除。正選出爐首先看他是否在20人名單。",
-            "kind": "reported",
+            "text": "鹿島比21日換3名正選：柴崎岳、林晴己、德田譽取代般奴、吉田湊海、李奧施亞拉。般奴及吉田後備；施亞拉不在20人名單。",
+            "kind": "fact",
             "as_of": "2026-10-24",
             "sources": [
               {
-                "label": "サカノワ／塚越始・22日鬼木網上採訪",
-                "url": "https://sakanowa.jp/topics/113902",
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
                 "accessed_at": "2026-10-24"
               },
               {
-                "label": "J.League・本場前瞻",
-                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "柏比21日換6名正選：古谷柊介、原田亘、杉岡大暉、小泉佳穗、遠藤溪太、垣田裕暉加入；久保藤次郎、三丸擴、小西雄大、弓場堅真改列後備，汰木康也、藤尾翔太未入選。",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "德田譽與優磨誰保持縱深、誰回接，是鹿島開場觀察題；柏由古谷擔任新先發選項，久保、瀨川、細谷在後備席。留意右路供應與下半場火力，實際站位待開波確認。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "SportsNavi・本場陣式",
+                "url": "https://soccer.yahoo.co.jp/jleague/category/j1/game/2026102407/summary?gk=2",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "比賽日追加①｜施亞拉已確認缺席，怎樣補回門前與縱深",
+        "paragraphs": [
+          {
+            "text": "李奧施亞拉確定未列24日正選或後備20人名單；21日傷退後的檢查診斷與預計缺陣期仍未確認。德田譽先發，卡夫歷、艾巴後備。",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "Sakanowa・22日鬼木談施亞拉檢查",
+                "url": "https://sakanowa.jp/topics/113902",
                 "accessed_at": "2026-10-24"
               }
             ]
@@ -4214,16 +5247,21 @@
         ]
       },
       {
-        "title": "開賽前快速覆核清單",
+        "title": "開賽前核對完成與餘項",
         "paragraphs": [
           {
-            "text": "約13:00 HKT前後再查正式20人名單：施亞拉是否入選、柏門將人選、久保實際位置；然後核對6名球證組、最新停賽及球場實測。未入選原因沒有公告就保持未確認。",
-            "kind": "analysis",
+            "text": "正式20人名單與6名球證組已核對。仍未確認：施亞拉檢查診斷及缺陣期、藤尾等落選原因、球場實測天氣。沿用早上天氣預報並保留發布時間，不冒稱球場實測。",
+            "kind": "fact",
             "as_of": "2026-10-24",
             "sources": [
               {
-                "label": "J.League・本場前瞻",
-                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "label": "柏官方・24日正式20人名單及6名球證組",
+                "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "鹿島官方・24日正式20人名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
                 "accessed_at": "2026-10-24"
               }
             ]
@@ -4550,11 +5588,11 @@
     }
   ],
   "coverage_gaps": [
-    "正式正選、後備及6名球證組需開賽前再查。",
-    "施亞拉檢查結果與本場可用性未確認；柏門將及其他傷兵復出亦待正式消息。",
-    "最新停賽公告頁已定位，但本次未能讀取內文；不可宣稱兩隊必定無停賽。",
-    "金子63號基本卡已建，完整傳記及TVB顯示名待確認。",
-    "進階統計保留原截點，未冒稱已同步首11輪；球場實測天氣仍待核對。"
+    "施亞拉的最新確切診斷及預計缺陣期未確認；本場缺席已由正式20人名單確認。",
+    "藤尾翔太、汰木康也及其他未入選球員的個別原因未取得公告，不推斷傷患或停賽。",
+    "球場實測天氣、實際落位待現場；天氣欄保留早上預報的發布時間。",
+    "球證組委任全部確認；個人執法數據本次未作完整研究。",
+    "進階統計保留原截點，未冒稱已同步首11輪。"
   ],
   "research_sweep": {
     "checked_at": "2026-10-24T10:19+08:00",
@@ -4568,10 +5606,9 @@
       "missing_active_cards": 0
     },
     "next_check": [
-      "13:00 HKT前後官方名單",
-      "施亞拉及柏門將是否入選",
-      "球證及旁證VAR",
-      "最新停賽及實測天氣"
+      "實際開場站位",
+      "球場實測天氣",
+      "施亞拉診斷與未入選原因如有公告"
     ],
     "sources": [
       {
@@ -4619,6 +5656,38 @@
         "url": "https://www.antlers.co.jp/blogs/news/260720v2d3p7",
         "accessed_at": "2026-10-24"
       }
-    ]
+    ],
+    "final_check": {
+      "checked_at": "2026-10-24T13:26+08:00",
+      "lineups_confirmed": true,
+      "officials_confirmed": true,
+      "starting_changes": {
+        "kashima": 3,
+        "kashiwa": 6
+      },
+      "sources": [
+        {
+          "label": "柏官方・24日正式20人名單及6名球證組",
+          "url": "https://www.reysol.co.jp/game/results/202627/1024.php",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "鹿島官方・24日正式20人名單",
+          "url": "https://www.antlers.co.jp/blogs/games/20260616132206",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "J.League・24日正式名單",
+          "url": "https://www.jleague.jp/match/j1/2026/102407/",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "SportsNavi・本場陣式",
+          "url": "https://soccer.yahoo.co.jp/jleague/category/j1/game/2026102407/summary?gk=2",
+          "accessed_at": "2026-10-24"
+        }
+      ],
+      "note": "保留今早訪問及已核對註冊更新；本次只補臨場資料，不改球員研究隊列。"
+    }
   }
 }

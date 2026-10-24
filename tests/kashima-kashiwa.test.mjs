@@ -16,7 +16,7 @@ test('Saturday featured assignment reconciles eleven games with complete season 
   assert.equal(league.find(r=>r.date===d.date).score,null);
   assert.ok(t.game_log.filter(r=>!r.date).every(r=>r.date_display.includes('待定')));
   for(const r of t.game_log){assert.ok(r.sort_date);if(r.sort_date>d.as_of)assert.equal(r.score,null);}
-  assert.equal(t.previous_match_date,'2026-10-21');assert.equal(t.lineup.starters.length,0);
+  assert.equal(t.previous_match_date,'2026-10-21');assert.equal(t.lineup.starters.length,11);assert.equal(t.lineup.bench.length,9);
  }
  assert.equal(d.teams.kashima.game_log.find(r=>r.date==='2026-10-21').score,'2–2');
  assert.equal(d.teams.kashiwa.game_log.find(r=>r.date==='2026-10-21').score,'0–0');
@@ -44,9 +44,16 @@ test('Saturday pages render sourced research without fabricating new interviews 
  for(const ev of d.quote_events)for(const q of ev.entries)assert.ok(inInterviewWindow(q,d.teams[q.team_slug].previous_match_date,d.date));
  for(const row of d.quote_background)for(const q of [row.home,row.away].filter(Boolean)){assert.ok(!inInterviewWindow(q,d.teams[q.team_slug].previous_match_date,d.date));assert.ok(q.paraphrase_zh);assert.ok(q.published_at<'2026-10-21');}
  const qhtml=renderMatchPage({home,away,date:d.date,page:'quotes',dossier:d});assert.ok(qhtml.includes('較早背景訪問'));assert.ok(qhtml.includes('鬼木'));assert.ok(d.quote_events.length>=3);
- assert.equal(d.match_info.officials.status,'awaiting_appointment');assert.ok(d.match_info.officials.roles.every(r=>!r.name_ja));
+ assert.equal(d.match_info.officials.status,'confirmed');assert.ok(d.match_info.officials.roles.every(r=>r.name_ja));
  assert.ok(d.teams.kashima.yellow_risk[0].text.includes('3黃'));assert.ok(d.teams.kashiwa.yellow_risk[0].text.includes('3黃'));
- assert.ok(d.teams.kashima.injuries.some(x=>x.text.includes('後備')));assert.ok(d.teams.kashiwa.injuries[0].text.includes('10月9日'));
+ assert.ok(d.teams.kashima.injuries.some(x=>x.text.includes('後備')));assert.ok(d.teams.kashiwa.injuries.some(x=>x.text.includes('10月9日')));
  function walk(v){if(!v||typeof v!=='object')return;if(v.text){assert.ok(v.sources?.length);assert.ok(v.as_of<=d.as_of);}for(const x of Object.values(v))walk(x);}walk(d);
  const html=renderMatchPage({home,away,date:d.date,page:'comparison',dossier:d});assert.ok(html.includes('首10輪先發'));assert.ok(html.includes('上仗角色'));
 });
+
+ test('kickoff update has actual squads, six officials and no absent scorer in formation',()=>{
+ assert.equal(d.match_info.referee,'上村篤史');
+ for(const [slug,changes] of [['kashima',3],['kashiwa',6]]){const t=d.teams[slug];assert.equal(t.lineup.starting_changes_vs_previous_match,changes);assert.equal(new Set([...t.lineup.starters,...t.lineup.bench].map(x=>x.number)).size,20);assert.deepEqual([...t.formation.players.map(p=>p.number)].sort((a,b)=>a-b),t.lineup.starters.map(p=>p.number).sort((a,b)=>a-b));}
+ assert.ok(!d.teams.kashima.lineup.starters.some(x=>x.number===9));assert.ok(!d.teams.kashima.lineup.bench.some(x=>x.number===9));
+ assert.ok(d.teams.kashiwa.lineup.starters.some(x=>x.number===30));assert.ok(!d.teams.kashiwa.lineup.bench.some(x=>x.number===15));
+ });
