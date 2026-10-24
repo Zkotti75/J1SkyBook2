@@ -3,8 +3,8 @@
   "home": "kashima",
   "away": "kashiwa",
   "date": "2026-10-24",
-  "as_of": "2026-10-21",
-  "coverage_note": "21日晚首輪準備：已核實兩隊第11節終場、輪換及名義分鐘；完整38輪聯賽及已定盃賽。Football LAB陣式／助攻只至首10輪。21日賽後訪問尚待刊出，17／18日背景聲音另列；24日正選、球證、停賽及天氣待賽前覆核。",
+  "as_of": "2026-10-24",
+  "coverage_note": "24日早上比賽日掃描：補12則近期訪問、施亞拉傷患疑問、柏63號新登錄及球員卡；最近賽果仍為21日鹿島2–2京都、柏0–0東京。開賽14:00 HKT。正選、球證及施亞拉可用性待臨場確認。",
   "match_info": {
     "kickoff_hkt": "14:00（日本15:00）",
     "stadium": "Mercari Stadium（メルカリスタジアム）",
@@ -20,9 +20,9 @@
     ],
     "officials": {
       "status": "awaiting_appointment",
-      "checked_at": "2026-10-21T21:30+09:00",
-      "checked_at_display": "2026-10-21 晚間",
-      "note": "24日球證組尚未核實；不沿用21日兩場比賽的人員。",
+      "checked_at": "2026-10-24T10:19+08:00",
+      "checked_at_display": "2026-10-24T10:19 HKT",
+      "note": "早上未見已確認球證組人名；待開賽前再查，不使用舊場次委任。",
       "roles": [
         {
           "id": "referee",
@@ -66,6 +66,18 @@
           "label": "J.League・24日第12節鹿島對柏",
           "url": "https://www.jleague.jp/match/j1/2026/102407/",
           "accessed_at": "2026-10-21"
+        }
+      ]
+    },
+    "weather": {
+      "text": "24日11:00 JST鹿嶋市預報：日本15時約19.4°C，下午12–18時降雨概率80%；15時三小時預報雨量約1毫米／小時。市區預報不是球場實測，濕地反彈、傳中及門將接球要臨場觀察。",
+      "kind": "fact",
+      "as_of": "2026-10-24",
+      "sources": [
+        {
+          "label": "tenki.jp・鹿嶋市24日11:00 JST預報",
+          "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+          "accessed_at": "2026-10-24"
         }
       ]
     }
@@ -1126,6 +1138,18 @@
       ],
       "transfers": [
         {
+          "text": "本次比對37名J.League現役名單均已有卡；71號荒木是7月離隊歷史卡。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "鹿島官方・荒木7月20日永久轉會STVV",
+              "url": "https://www.antlers.co.jp/blogs/news/260720v2d3p7",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
           "text": "9月16日宣布從水戶完全簽入19號大森渚生；17日對長崎首次代表鹿島在聯賽先發，踢半場後由小川接替，21日未列比賽名單。這是近期左閘用人選項，並非已鎖定正選。",
           "kind": "fact",
           "as_of": "2026-10-21",
@@ -1172,6 +1196,23 @@
         }
       ],
       "injuries": [
+        {
+          "text": "21日64分鐘傷退；22日鬼木說檢查中，肌肉問題僅初步看法。24日可用性待正式名單。",
+          "kind": "reported",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "サカノワ／塚越始・22日鬼木網上採訪",
+              "url": "https://sakanowa.jp/topics/113902",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "J.League・本場前瞻",
+              "url": "https://www.jleague.jp/match/j1/2026/102407/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
         {
           "text": "安西幸輝7月18日集訓傷左膝前十字韌帶，21日公告；未找到新的公開復出日期。樋口雄太同日傷右腓骨，但已列10月21日後備，不能繼續把兩人一概列為同等缺陣狀態。",
           "kind": "fact",
@@ -2589,6 +2630,18 @@
       ],
       "transfers": [
         {
+          "text": "新增23日公布的U-18門將63號金子遙真二種登錄，已建立基本卡；不是永久升格。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "柏官方・23日金子遙真二種登錄",
+              "url": "https://www.reysol.co.jp/news/topteam/u-18-2105.html",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
           "text": "8月25日從町田完全簽入15號藤尾翔太，已連續參與近期中鋒配置；17日為遠藤同分球提供助攻，21日先發65分鐘。",
           "kind": "fact",
           "as_of": "2026-10-21",
@@ -3283,23 +3336,188 @@
       }
     ]
   },
-  "quote_events": [],
+  "quote_events": [
+    {
+      "date": "2026-10-22",
+      "title": "10月22日｜鬼木賽前網上採訪：傷患與收尾",
+      "entries": [
+        {
+          "team_slug": "kashima",
+          "speaker": "鬼木達",
+          "role": "主教練",
+          "topic": "施亞拉檢查中",
+          "paraphrase_zh": "22日說仍在檢查，嚴重程度未明，初步懷疑肌肉問題；並非正式診斷或確認缺陣。",
+          "published_at": "2026-10-22",
+          "context": "pre_match",
+          "outlet": "サカノワ／塚越始・22日鬼木網上採訪",
+          "url": "https://sakanowa.jp/topics/113902"
+        },
+        {
+          "team_slug": "kashima",
+          "speaker": "鬼木達",
+          "role": "主教練",
+          "topic": "領先後的重新開球",
+          "paraphrase_zh": "要求共享終場細節，避免同類失球反覆發生。",
+          "published_at": "2026-10-22",
+          "context": "pre_match",
+          "outlet": "サカノワ／塚越始・22日鬼木網上採訪",
+          "url": "https://sakanowa.jp/topics/113902"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "title": "10月22日刊出｜柏東京戰後：選人、負荷與鹿島",
+      "summary": "採訪為21日賽後，22日刊出；作者分析與球員談話分開。",
+      "entries": [
+        {
+          "team_slug": "kashiwa",
+          "speaker": "列卡度・洛迪古斯",
+          "role": "主教練",
+          "topic": "守備與選人",
+          "paraphrase_zh": "承認前半被縱向傳球打穿；連戰及疲勞下，接受較進取名單的守備風險。",
+          "published_at": "2026-10-22",
+          "context": "post_match",
+          "outlet": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+          "url": "https://www.footballchannel.jp/2026/10/22/post1038351/"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "列卡度・洛迪古斯",
+          "role": "主教練",
+          "topic": "久保改位置",
+          "paraphrase_zh": "翼衛負荷高，久保已有疲勞，改踢右側影子前鋒亦有負荷管理目的。",
+          "published_at": "2026-10-22",
+          "context": "post_match",
+          "outlet": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+          "url": "https://www.footballchannel.jp/2026/10/22/post1038351/2/"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "小西雄大",
+          "role": "球員",
+          "topic": "防中不要過早墮後",
+          "paraphrase_zh": "後半由後線橫移應付，讓防中留在中場，感覺較順。",
+          "published_at": "2026-10-22",
+          "context": "post_match",
+          "outlet": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+          "url": "https://www.footballchannel.jp/2026/10/22/post1038351/"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "藤尾翔太",
+          "role": "球員",
+          "topic": "接力維持強度",
+          "paraphrase_zh": "不執着踢足90分鐘，希望與有能力的後備順利交接。",
+          "published_at": "2026-10-22",
+          "context": "post_match",
+          "outlet": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+          "url": "https://www.footballchannel.jp/2026/10/22/post1038351/2/"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "小泉佳穗",
+          "role": "球員",
+          "topic": "如何看鹿島",
+          "paraphrase_zh": "不把此役視作分值更高的比賽；希望改善對鹿島在關鍵時刻落敗的情況。",
+          "published_at": "2026-10-22",
+          "context": "post_match",
+          "outlet": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+          "url": "https://www.footballchannel.jp/2026/10/22/post1038351/3/"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "小西雄大",
+          "role": "球員",
+          "topic": "下仗同類考驗",
+          "paraphrase_zh": "預期鹿島可能採取類似踢法，要避免重演東京戰前半困局。",
+          "published_at": "2026-10-22",
+          "context": "post_match",
+          "outlet": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+          "url": "https://www.footballchannel.jp/2026/10/22/post1038351/3/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "title": "10月21日｜柏官方東京戰後：從零封看改善",
+      "entries": [
+        {
+          "team_slug": "kashiwa",
+          "speaker": "列卡度・洛迪古斯",
+          "role": "主教練",
+          "topic": "一分的價值",
+          "paraphrase_zh": "前半持球不穩，半場三換後改善；認為是值得肯定的一分。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "柏官方・21日東京戰賽後訪問",
+          "url": "https://www.reysol.co.jp/game/results/202627/1021.php"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "古賀太陽",
+          "role": "球員",
+          "topic": "零封仍有課題",
+          "paraphrase_zh": "形容是苦戰捱過，認為防守修正應更早，接着先要恢復體能。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "柏官方・21日東京戰賽後訪問",
+          "url": "https://www.reysol.co.jp/game/results/202627/1021.php"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "永井堅梧",
+          "role": "球員",
+          "topic": "長傳與陣形",
+          "paraphrase_zh": "與藤尾溝通長傳機會；認為仍要更緊湊、把防線推高。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "柏官方・21日東京戰賽後訪問",
+          "url": "https://www.reysol.co.jp/game/results/202627/1021.php"
+        },
+        {
+          "team_slug": "kashiwa",
+          "speaker": "久保藤次郎",
+          "role": "球員",
+          "topic": "影子前鋒任務",
+          "paraphrase_zh": "仍視翼位為本行；改到前方要壓迫中堅，接球後簡單配合。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "柏官方・21日東京戰賽後訪問",
+          "url": "https://www.reysol.co.jp/game/results/202627/1021.php"
+        }
+      ]
+    }
+  ],
   "quote_status": {
-    "text": "21日兩隊賽後訪問欄尚未刊出內容；本場最新訪問暫缺。以下17日／18日聲音只供背景，不屬21日賽後至24日的採訪窗口。",
+    "text": "已補21日柏賽後及22日鬼木／柏報道，共12則近期訪問；較早背景另列，不混作新採訪。",
     "kind": "fact",
-    "as_of": "2026-10-21",
+    "as_of": "2026-10-24",
     "sources": [
       {
-        "label": "鹿島官方・21日京都戰名單及換人",
-        "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-21"
+        "label": "サカノワ／塚越始・22日鬼木網上採訪",
+        "url": "https://sakanowa.jp/topics/113902",
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "柏官方・21日FC東京戰名單及換人",
+        "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+        "url": "https://www.footballchannel.jp/2026/10/22/post1038351/",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+        "url": "https://www.footballchannel.jp/2026/10/22/post1038351/2/",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+        "url": "https://www.footballchannel.jp/2026/10/22/post1038351/3/",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "柏官方・21日東京戰賽後訪問",
         "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-21"
+        "accessed_at": "2026-10-24"
       }
     ]
   },
@@ -3472,6 +3690,115 @@
       }
     ],
     "sections": [
+      {
+        "title": "比賽日追加①｜施亞拉若缺席，改變的不只是12個入球",
+        "paragraphs": [
+          {
+            "text": "施亞拉21日64分鐘被換，22日仍檢查中。Football LAB列缺陣觀察但亦提醒輕傷者可能上陣；目前不能把懷疑肌肉問題當作已確診、已排除。正選出爐首先看他是否在20人名單。",
+            "kind": "reported",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "サカノワ／塚越始・22日鬼木網上採訪",
+                "url": "https://sakanowa.jp/topics/113902",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "J.League・本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "若他缺席，先看鈴木優磨接球後還有誰攻擊中堅身後，而非只問誰代替射手。鹿島若少了向縱深牽引的一點，柏的防中便可能更容易靠近優磨；反過來，後備前鋒若持續拉開防線，仍能讓中場前插。這是條件推演。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "J.League・本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/102407/",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "比賽日追加②｜柏的零封：距離比跑動總量更值得看",
+        "paragraphs": [
+          {
+            "text": "高橋大地的東京戰回顧指出，前半影子前鋒與防中距離拉開，令對手中堅容易送縱向傳球；後半透過後線橫移，讓防中留在中場。小西本人亦認為後者更順。",
+            "kind": "reported",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+                "url": "https://www.footballchannel.jp/2026/10/22/post1038351/",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "本場可把鏡頭焦點放在鹿島中堅持球時：柏前線上壓之後，防中是否跟上封住接應，還是過早退入後線？如果只是前方跑、中間空，鹿島便能把第一次縱傳接成面向球門的攻勢。若柏能一起前移，後線爭頂後的第二點才更容易回到自己腳下。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+                "url": "https://www.footballchannel.jp/2026/10/22/post1038351/",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "久保改踢右側影子前鋒也有減輕翼衛負荷的原因。觀察他本場站位時，不宜立即把它當成永久轉型；同樣，換人多少不能直接等同留力，須看換人後壓迫與接應是否仍連貫。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+                "url": "https://www.footballchannel.jp/2026/10/22/post1038351/2/",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "比賽日追加③｜雨戰與最後幾分鐘",
+        "paragraphs": [
+          {
+            "text": "下午有較高降雨概率。若實際草地濕滑，回傳力度、門將接傳中及第一下解圍的落點值得觀察；但未有場地實測前，不預先判定哪隊得益。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "tenki.jp・鹿嶋市24日11:00 JST預報",
+                "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "鹿島上仗補時逆轉後又失球，鬼木要求共享重新開球的細節。本場如果再出現領先，評述可具體看復賽前站位、前線延緩及第二點保護，避免只用「集中力」概括。柏小泉亦承認與鹿島的差距常在勝負關鍵時刻，兩邊發言可連成這條故事線。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "サカノワ／塚越始・22日鬼木網上採訪",
+                "url": "https://sakanowa.jp/topics/113902",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+                "url": "https://www.footballchannel.jp/2026/10/22/post1038351/3/",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "01｜兩分之差的上游對碰",
         "paragraphs": [
@@ -3887,29 +4214,17 @@
         ]
       },
       {
-        "title": "09｜週六開波前要補的證據",
+        "title": "開賽前快速覆核清單",
         "paragraphs": [
           {
-            "text": "21日晚兩會官方賽後訪問欄仍未刊出內容。此頁另列17日及18日背景訪問，並明示日期，不假造21日感想。24日賽前再掃：21日完整訪問、23日操練與賽前採訪、門將狀態、最新停賽公告、正式正選與後備、球證組及即日天氣。",
-            "kind": "fact",
-            "as_of": "2026-10-21",
+            "text": "約13:00 HKT前後再查正式20人名單：施亞拉是否入選、柏門將人選、久保實際位置；然後核對6名球證組、最新停賽及球場實測。未入選原因沒有公告就保持未確認。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
             "sources": [
               {
-                "label": "鹿島官方・21日京都戰名單及換人",
-                "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-21"
-              },
-              {
-                "label": "柏官方・21日FC東京戰名單及換人",
-                "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
-                "accessed_at": "2026-10-21",
-                "published_at": "2026-10-21"
-              },
-              {
-                "label": "J.League・24日第12節鹿島對柏",
+                "label": "J.League・本場前瞻",
                 "url": "https://www.jleague.jp/match/j1/2026/102407/",
-                "accessed_at": "2026-10-21"
+                "accessed_at": "2026-10-24"
               }
             ]
           }
@@ -4235,190 +4550,75 @@
     }
   ],
   "coverage_gaps": [
-    "21日完整賽後訪問尚待兩會公布；17／18日背景另列，沒有混入新採訪窗口。",
-    "24日正式正選、後備及球證組尚未公布；陣式示意不是預測正選。",
-    "馬場、熊坂及若原等人的最新康復／醫療許可未取得；不從名單缺席推斷。",
-    "24日官方停賽公告、賽前操練及即日天氣待核實。",
-    "助攻、CBP及常用陣式均為Football LAB19日更新的首10輪口徑；未冒稱11輪進階數據。",
-    "聯賽榜為21日晚同一來源快照，仍有部分球隊10場；沒有拼湊成全部11場。"
+    "正式正選、後備及6名球證組需開賽前再查。",
+    "施亞拉檢查結果與本場可用性未確認；柏門將及其他傷兵復出亦待正式消息。",
+    "最新停賽公告頁已定位，但本次未能讀取內文；不可宣稱兩隊必定無停賽。",
+    "金子63號基本卡已建，完整傳記及TVB顯示名待確認。",
+    "進階統計保留原截點，未冒稱已同步首11輪；球場實測天氣仍待核對。"
   ],
   "research_sweep": {
-    "as_of": "2026-10-21",
-    "target_fixture_only": true,
-    "latest_completed_round": 11,
+    "checked_at": "2026-10-24T10:19+08:00",
+    "quotes_added": 12,
+    "new_cards": [
+      "kashiwa_63"
+    ],
+    "roster_audit": {
+      "kashima_active": 37,
+      "kashiwa_active": 42,
+      "missing_active_cards": 0
+    },
+    "next_check": [
+      "13:00 HKT前後官方名單",
+      "施亞拉及柏門將是否入選",
+      "球證及旁證VAR",
+      "最新停賽及實測天氣"
+    ],
     "sources": [
       {
-        "label": "J.League・24日第12節鹿島對柏",
-        "url": "https://www.jleague.jp/match/j1/2026/102407/",
-        "accessed_at": "2026-10-21"
+        "label": "サカノワ／塚越始・22日鬼木網上採訪",
+        "url": "https://sakanowa.jp/topics/113902",
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "鹿島官方・21日京都戰名單及換人",
-        "url": "https://www.antlers.co.jp/blogs/games/20260616144943",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-21"
+        "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+        "url": "https://www.footballchannel.jp/2026/10/22/post1038351/",
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "J.League・21日京都2–2鹿島終場紀錄",
-        "url": "https://www.jleague.jp/match/j1/2026/102112/",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-21"
+        "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+        "url": "https://www.footballchannel.jp/2026/10/22/post1038351/2/",
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "柏官方・21日FC東京戰名單及換人",
+        "label": "Football Channel／高橋大地・22日刊，21日賽後訪問",
+        "url": "https://www.footballchannel.jp/2026/10/22/post1038351/3/",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "柏官方・21日東京戰賽後訪問",
         "url": "https://www.reysol.co.jp/game/results/202627/1021.php",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-21"
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "J.League・21日FC東京0–0柏終場紀錄",
-        "url": "https://www.jleague.jp/match/j1/2026/102108/",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-21"
+        "label": "柏官方・23日金子遙真二種登錄",
+        "url": "https://www.reysol.co.jp/news/topteam/u-18-2105.html",
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "鹿島官方・17日長崎戰及訪問",
-        "url": "https://www.antlers.co.jp/blogs/games/20260616131556",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-17"
+        "label": "J.League・本場前瞻",
+        "url": "https://www.jleague.jp/match/j1/2026/102407/",
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "柏官方・17日名古屋戰及訪問",
-        "url": "https://www.reysol.co.jp/game/results/202627/1017.php",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-17"
+        "label": "tenki.jp・鹿嶋市24日11:00 JST預報",
+        "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+        "accessed_at": "2026-10-24"
       },
       {
-        "label": "Football LAB・鹿島首10輪陣式（19日更新）",
-        "url": "https://www.football-lab.jp/kasm/formation",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-19"
-      },
-      {
-        "label": "Football LAB・柏首10輪陣式（19日更新）",
-        "url": "https://www.football-lab.jp/kasw/formation",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-19"
-      },
-      {
-        "label": "Football LAB・鹿島首10輪球員排行",
-        "url": "https://www.football-lab.jp/kasm/ranking",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-19"
-      },
-      {
-        "label": "Football LAB・柏首10輪球員排行",
-        "url": "https://www.football-lab.jp/kasw/ranking",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-19"
-      },
-      {
-        "label": "J.League Data Site・鹿島首10輪累積紀錄",
-        "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=1",
-        "accessed_at": "2026-10-21"
-      },
-      {
-        "label": "J.League Data Site・柏首10輪累積紀錄",
-        "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=11",
-        "accessed_at": "2026-10-21"
-      },
-      {
-        "label": "SportsNavi／Yahoo・21日晚聯賽榜快照",
-        "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
-        "accessed_at": "2026-10-21"
-      },
-      {
-        "label": "柏官方・馬場晴也傷情",
-        "url": "https://www.reysol.co.jp/news/topteam/post-1131.html",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-16"
-      },
-      {
-        "label": "柏官方・熊坂光希傷情",
-        "url": "https://www.reysol.co.jp/news/topteam/post-1128.html",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-02"
-      },
-      {
-        "label": "J.League Data Site・17日腦震盪程序換人",
-        "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34614",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-17"
-      },
-      {
-        "label": "Football Channel・高橋大地專欄（作者觀點）",
-        "url": "https://www.footballchannel.jp/2026/10/18/post1036728/",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-18"
-      },
-      {
-        "label": "Football Channel・高橋大地專欄第2頁",
-        "url": "https://www.footballchannel.jp/2026/10/18/post1036728/2/",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-18"
-      },
-      {
-        "label": "Soccer Digest・沖野楓彌採訪李奧施亞拉",
-        "url": "https://www.soccerdigestweb.com/news/detail/id=198644",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-18"
-      },
-      {
-        "label": "Sakanowa・卡夫歷DAZN賽後訪問報道",
-        "url": "https://sakanowa.jp/topics/113745",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-17"
-      },
-      {
-        "label": "鹿島官方・大森渚生完全轉會",
-        "url": "https://www.antlers.co.jp/blogs/news/260916qq2nme",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-09-16"
-      },
-      {
-        "label": "柏官方・藤尾翔太完全轉會",
-        "url": "https://www.reysol.co.jp/news/topteam/post-1117.html",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-08-25"
-      },
-      {
-        "label": "FC東京官方・柏本季全日本籍陣容介紹",
-        "url": "https://www.fctokyo.co.jp/match/schedule/info/20261021/",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-10-21"
-      },
-      {
-        "label": "J.League・2月21日百年構想聯賽鹿島2–0柏",
-        "url": "https://www.jleague.jp/match/j1/2026/022104/",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-02-21"
-      },
-      {
-        "label": "J.League・4月24日百年構想聯賽柏0–1鹿島",
-        "url": "https://www.jleague.jp/match/j1/2026/042401/",
-        "accessed_at": "2026-10-21",
-        "published_at": "2026-04-24"
-      },
-      {
-        "label": "Football Zone・14日U-17候選集訓名單報道",
-        "url": "https://www.football-zone.net/archives/679114",
-        "published_at": "2026-10-14",
-        "accessed_at": "2026-10-21"
-      },
-      {
-        "label": "Gekisaka・加藤直岐18日採訪古谷柊介",
-        "url": "https://web.gekisaka.jp/news/university/detail/?461311-461311-fl",
-        "published_at": "2026-10-18",
-        "accessed_at": "2026-10-21"
+        "label": "鹿島官方・荒木7月20日永久轉會STVV",
+        "url": "https://www.antlers.co.jp/blogs/news/260720v2d3p7",
+        "accessed_at": "2026-10-24"
       }
-    ],
-    "matchday_checks": [
-      "21日完整賽後訪問與23日賽前採訪",
-      "門將及傷員最新狀態",
-      "24日停賽公告及三竿／小泉黃牌覆核",
-      "正式11正選＋後備",
-      "主球證、兩旁證、第4球證、VAR、AVAR",
-      "球場即日天氣與實際陣式"
     ]
   }
 }

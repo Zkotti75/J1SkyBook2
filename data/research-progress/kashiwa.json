@@ -2,9 +2,9 @@
   "schema_version": 1,
   "club": "kashiwa",
   "club_name_zh": "柏太陽王",
-  "player_research_status": "completed",
-  "updated_at": "2026-09-27",
-  "roster_players": 41,
+  "player_research_status": "in_progress",
+  "updated_at": "2026-10-24",
+  "roster_players": 42,
   "baseline_complete_players": [
     {
       "id": "jleague_kashiwa_4",
@@ -407,6 +407,30 @@
       "started_at": "2026-09-27",
       "completed_at": "2026-09-27",
       "notes": []
+    },
+    {
+      "id": "kashiwa-matchday-63",
+      "kind": "player_research",
+      "status": "validation_failed",
+      "capacity_points": 1,
+      "players": [
+        {
+          "id": "kashiwa_63",
+          "number": "63",
+          "name_zh": "金子遙真",
+          "name_en": "Haruma Kaneko",
+          "weight": 1
+        }
+      ],
+      "notes": [
+        "New October23 Type2 registration; provisional matchday identity card, full biography review remains open.",
+        {
+          "date": "2026-10-24",
+          "text": "Provisional new-registration identity card; full independent biography and display-name confirmation remain open."
+        }
+      ],
+      "started_at": "2026-10-24",
+      "completed_at": null
     }
   ],
   "status_tag_stage": {

@@ -578,7 +578,31 @@
       }
     ],
     "verification_status": "verified",
-    "verified_at": "2026-09-19"
+    "verified_at": "2026-09-19",
+    "interviews": [
+      {
+        "team_slug": "kashima",
+        "speaker": "鬼木達",
+        "role": "主教練",
+        "topic": "施亞拉檢查中",
+        "paraphrase_zh": "22日說仍在檢查，嚴重程度未明，初步懷疑肌肉問題；並非正式診斷或確認缺陣。",
+        "published_at": "2026-10-22",
+        "context": "pre_match",
+        "outlet": "サカノワ／塚越始・22日鬼木網上採訪",
+        "url": "https://sakanowa.jp/topics/113902"
+      },
+      {
+        "team_slug": "kashima",
+        "speaker": "鬼木達",
+        "role": "主教練",
+        "topic": "領先後的重新開球",
+        "paraphrase_zh": "要求共享終場細節，避免同類失球反覆發生。",
+        "published_at": "2026-10-22",
+        "context": "pre_match",
+        "outlet": "サカノワ／塚越始・22日鬼木網上採訪",
+        "url": "https://sakanowa.jp/topics/113902"
+      }
+    ]
   },
   "players": [
     {
@@ -5575,6 +5599,24 @@
           }
         ],
         "notes": "葡文Wikipedia未能讀取，依序查日文與英文並回查Globo。Campinense及CRB部分數字未完成賽事範圍校正，保留明確覆蓋缺口，不猜數。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-24",
+        "as_of": "2026-10-24",
+        "opponent": "柏太陽王",
+        "selection_status": "21日64分鐘傷退；22日鬼木說檢查中，肌肉問題僅初步看法。24日可用性待正式名單。",
+        "sources": [
+          {
+            "label": "サカノワ／塚越始・22日鬼木網上採訪",
+            "url": "https://sakanowa.jp/topics/113902",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "J.League・本場前瞻",
+            "url": "https://www.jleague.jp/match/j1/2026/102407/",
+            "accessed_at": "2026-10-24"
+          }
+        ]
       }
     },
     {
@@ -17968,6 +18010,19 @@
           }
         ],
         "notes": "日文Wikipedia先查，JFA補齊官方鹿島簡介未列出的兩間少年球會。舊官方個人頁仍存在，但7月20日兩會轉會公告優先，刪除虛假的2026/27鹿島在籍履歷；保留用戶指定姓名及卡片ID。STVV公告的151場18球屬其口徑，不作J1合計。"
+      },
+      "match_week": {
+        "fixture_date": "2026-10-24",
+        "as_of": "2026-10-24",
+        "opponent": "柏太陽王",
+        "selection_status": "7月20日已永久轉會STVV；保留歷史卡，不是本場鹿島可選人腳。",
+        "sources": [
+          {
+            "label": "鹿島官方・荒木7月20日永久轉會STVV",
+            "url": "https://www.antlers.co.jp/blogs/news/260720v2d3p7",
+            "accessed_at": "2026-10-24"
+          }
+        ]
       }
     },
     {

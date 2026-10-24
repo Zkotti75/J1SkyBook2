@@ -43,10 +43,10 @@ test('Saturday pages render sourced research without fabricating new interviews 
  for(const {id} of MATCH_PAGES){const html=renderMatchPage({home,away,date:d.date,page:id,dossier:d});assert.ok(!html.includes('介面初稿'));assert.ok(!html.includes('undefined'));}
  for(const ev of d.quote_events)for(const q of ev.entries)assert.ok(inInterviewWindow(q,d.teams[q.team_slug].previous_match_date,d.date));
  for(const row of d.quote_background)for(const q of [row.home,row.away].filter(Boolean)){assert.ok(!inInterviewWindow(q,d.teams[q.team_slug].previous_match_date,d.date));assert.ok(q.paraphrase_zh);assert.ok(q.published_at<'2026-10-21');}
- const qhtml=renderMatchPage({home,away,date:d.date,page:'quotes',dossier:d});assert.ok(qhtml.includes('較早背景訪問'));assert.ok(qhtml.includes('21日兩隊賽後訪問欄尚未刊出'));
+ const qhtml=renderMatchPage({home,away,date:d.date,page:'quotes',dossier:d});assert.ok(qhtml.includes('較早背景訪問'));assert.ok(qhtml.includes('鬼木'));assert.ok(d.quote_events.length>=3);
  assert.equal(d.match_info.officials.status,'awaiting_appointment');assert.ok(d.match_info.officials.roles.every(r=>!r.name_ja));
  assert.ok(d.teams.kashima.yellow_risk[0].text.includes('3黃'));assert.ok(d.teams.kashiwa.yellow_risk[0].text.includes('3黃'));
- assert.ok(d.teams.kashima.injuries[0].text.includes('後備'));assert.ok(d.teams.kashiwa.injuries[0].text.includes('10月9日'));
+ assert.ok(d.teams.kashima.injuries.some(x=>x.text.includes('後備')));assert.ok(d.teams.kashiwa.injuries[0].text.includes('10月9日'));
  function walk(v){if(!v||typeof v!=='object')return;if(v.text){assert.ok(v.sources?.length);assert.ok(v.as_of<=d.as_of);}for(const x of Object.values(v))walk(x);}walk(d);
  const html=renderMatchPage({home,away,date:d.date,page:'comparison',dossier:d});assert.ok(html.includes('首10輪先發'));assert.ok(html.includes('上仗角色'));
 });
