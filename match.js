@@ -66,7 +66,7 @@ function comparison(ctx) {
   html += pair(ctx, formationGraphic(a.formation), formationGraphic(b.formation), '陣式圖');
   if (!a.formation && !b.formation) html += '<details class="formation-demo"><summary>查看陣式圖版面示意</summary><div class="comparison-pair">' + `<div class="comparison-cell">${formationGraphic({shape:'4-2-3-1'}, true)}</div><div class="comparison-cell">${formationGraphic({shape:'3-4-2-1'}, true)}</div></div></details>`;
   if (a.rotation_notes?.length || b.rotation_notes?.length) html += pair(ctx, claims(a.rotation_notes), claims(b.rotation_notes), '周中輪換與常用主力負荷');
-  if (a.workload || b.workload) html += pair(ctx,workloadTable(a.workload),workloadTable(b.workload),'逐人分鐘比較・17日與21日');
+  if (a.workload || b.workload) html += pair(ctx,workloadTable(a.workload),workloadTable(b.workload),'逐人分鐘比較・前兩場聯賽');
   for (const [key, label] of [['form','近期戰績與連勝／不敗走勢'],['scorers','本季入球領先球員'],['assists','本季助攻領先球員'],['transfers','近期轉會'],['suspensions','停賽'],['injuries','傷患與出場狀況'],['yellow_risk','黃牌累積・停賽邊緣']]) html += pair(ctx, claims(a[key]), claims(b[key]), label);
   return html;
 }

@@ -1,0 +1,4547 @@
+{
+  "schema_version": 1,
+  "home": "kawasaki",
+  "away": "okayama",
+  "date": "2026-10-25",
+  "as_of": "2026-10-24",
+  "coverage_note": "25日川崎對岡山準備版：兩隊首11輪統計、全38輪聯賽與已定盃賽、上兩仗分鐘／輪換、20則近期訪問及當前名單差異檢查已收錄。25日15:00 HKT開賽；正式名單、球證組及即日天氣待臨場更新。",
+  "match_info": {
+    "kickoff_hkt": "15:00（日本16:00）",
+    "stadium": "Uvance等等力體育場 by Fujitsu",
+    "referee": null,
+    "lineups_as_of": null,
+    "selection_note": "25日正式11正選＋後備尚未公布；本頁不把21日名單或常用架構當作預測正選。",
+    "sources": [
+      {
+        "label": "川崎官方・25日本場資料及訪問欄",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "J.League・須賀大輔本場前瞻",
+        "url": "https://www.jleague.jp/match/j1/2026/102506/",
+        "accessed_at": "2026-10-24"
+      }
+    ],
+    "officials": {
+      "status": "awaiting_appointment",
+      "checked_at": "2026-10-24T16:31+08:00",
+      "checked_at_display": "2026-10-24 準備掃描",
+      "note": "川崎官方25日頁球證組欄尚空白；六個職務均待本場委任確認，不沿用21日或24日球證。",
+      "roles": [
+        {
+          "id": "referee",
+          "label": "主球證",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "assistant_1",
+          "label": "旁證1",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "assistant_2",
+          "label": "旁證2",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "fourth_official",
+          "label": "第4球證",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "var",
+          "label": "VAR",
+          "name_ja": null,
+          "status": "pending"
+        },
+        {
+          "id": "avar",
+          "label": "AVAR",
+          "name_ja": null,
+          "status": "pending"
+        }
+      ],
+      "sources": [
+        {
+          "label": "川崎官方・25日本場資料及訪問欄",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+          "accessed_at": "2026-10-24"
+        }
+      ]
+    }
+  },
+  "teams": {
+    "kawasaki": {
+      "previous_match_date": "2026-10-21",
+      "stats": {
+        "rank": 7,
+        "points": 19,
+        "wins": 5,
+        "draws": 4,
+        "losses": 2,
+        "goals_for": 23,
+        "goals_against": 17,
+        "goal_difference": 6,
+        "matches": 11,
+        "season": "2026/27",
+        "competition": "J1・本隊首11輪／排名為24日快照",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League Data Site・川崎首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "SportsNavi／Yahoo・24日聯賽榜快照",
+            "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      "game_log": [
+        {
+          "date": "2026-08-09",
+          "date_display": "2026-08-09",
+          "sort_date": "2026-08-09",
+          "round": 1,
+          "competition": "J1 第1節",
+          "venue": "客",
+          "opponent": "東京綠茵",
+          "score": "1–1",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/01.html"
+        },
+        {
+          "date": "2026-08-15",
+          "date_display": "2026-08-15",
+          "sort_date": "2026-08-15",
+          "round": 2,
+          "competition": "J1 第2節",
+          "venue": "主",
+          "opponent": "京都不死鳥",
+          "score": "2–2",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/02.html"
+        },
+        {
+          "date": "2026-08-22",
+          "date_display": "2026-08-22",
+          "sort_date": "2026-08-22",
+          "round": 3,
+          "competition": "J1 第3節",
+          "venue": "客",
+          "opponent": "廣島三箭",
+          "score": "1–1",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/03.html"
+        },
+        {
+          "date": "2026-08-26",
+          "date_display": "2026-08-26",
+          "sort_date": "2026-08-26",
+          "round": null,
+          "competition": "天皇盃 2回戦",
+          "venue": "主",
+          "opponent": "栃木SC",
+          "score": "3–1",
+          "source": "https://www.frontale.co.jp/goto_game/2026/emperors_cup/01.html"
+        },
+        {
+          "date": "2026-08-29",
+          "date_display": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "round": 4,
+          "competition": "J1 第4節",
+          "venue": "主",
+          "opponent": "千葉市原JEF聯",
+          "score": "4–2",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/04.html"
+        },
+        {
+          "date": "2026-09-02",
+          "date_display": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "round": 5,
+          "competition": "J1 第5節",
+          "venue": "客",
+          "opponent": "町田澤維亞",
+          "score": "1–2",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/05.html"
+        },
+        {
+          "date": "2026-09-06",
+          "date_display": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "round": 6,
+          "competition": "J1 第6節",
+          "venue": "主",
+          "opponent": "清水心跳",
+          "score": "3–1",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/06.html"
+        },
+        {
+          "date": "2026-09-12",
+          "date_display": "2026-09-12",
+          "sort_date": "2026-09-12",
+          "round": 7,
+          "competition": "J1 第7節",
+          "venue": "客",
+          "opponent": "水戶蜀葵",
+          "score": "1–0",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/07.html"
+        },
+        {
+          "date": "2026-09-19",
+          "date_display": "2026-09-19",
+          "sort_date": "2026-09-19",
+          "round": 8,
+          "competition": "J1 第8節",
+          "venue": "主",
+          "opponent": "鹿島鹿角",
+          "score": "3–3",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/08.html"
+        },
+        {
+          "date": "2026-09-29",
+          "date_display": "2026-09-29",
+          "sort_date": "2026-09-29",
+          "round": null,
+          "competition": "聯賽盃 2回戦",
+          "venue": "客",
+          "opponent": "熊本深紅",
+          "score": "1–0",
+          "source": "https://www.frontale.co.jp/goto_game/2026/levain_cup/01.html"
+        },
+        {
+          "date": "2026-10-07",
+          "date_display": "2026-10-07",
+          "sort_date": "2026-10-07",
+          "round": null,
+          "competition": "天皇盃 3回戦",
+          "venue": "主",
+          "opponent": "宮崎棒牛鳥",
+          "score": "2–0",
+          "source": "https://www.frontale.co.jp/goto_game/2026/emperors_cup/02.html"
+        },
+        {
+          "date": "2026-10-11",
+          "date_display": "2026-10-11",
+          "sort_date": "2026-10-11",
+          "round": 9,
+          "competition": "J1 第9節",
+          "venue": "主",
+          "opponent": "名古屋鯨魚",
+          "score": "1–2",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/09.html"
+        },
+        {
+          "date": "2026-10-14",
+          "date_display": "2026-10-14",
+          "sort_date": "2026-10-14",
+          "round": null,
+          "competition": "聯賽盃 3回戦",
+          "venue": "客",
+          "opponent": "磐田山葉",
+          "score": "4–0",
+          "source": "https://www.frontale.co.jp/goto_game/2026/levain_cup/02.html"
+        },
+        {
+          "date": "2026-10-17",
+          "date_display": "2026-10-17",
+          "sort_date": "2026-10-17",
+          "round": 10,
+          "competition": "J1 第10節",
+          "venue": "客",
+          "opponent": "大阪櫻花",
+          "score": "4–2",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html"
+        },
+        {
+          "date": "2026-10-21",
+          "date_display": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "round": 11,
+          "competition": "J1 第11節",
+          "venue": "主",
+          "opponent": "神戶勝利船",
+          "score": "2–1",
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "date": "2026-10-25",
+          "date_display": "2026-10-25",
+          "sort_date": "2026-10-25",
+          "round": 12,
+          "competition": "J1 第12節",
+          "venue": "主",
+          "opponent": "岡山綠雉",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "date": "2026-10-28",
+          "date_display": "2026-10-28",
+          "sort_date": "2026-10-28",
+          "round": null,
+          "competition": "聯賽盃 4回戦",
+          "venue": "客",
+          "opponent": "鳥栖砂岩",
+          "score": null,
+          "source": "https://www.frontale.co.jp/schedule/all_games.html"
+        },
+        {
+          "date": "2026-11-01",
+          "date_display": "2026-11-01",
+          "sort_date": "2026-11-01",
+          "round": 13,
+          "competition": "J1 第13節",
+          "venue": "客",
+          "opponent": "橫濱水手",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/13.html"
+        },
+        {
+          "date": "2026-11-07",
+          "date_display": "2026-11-07",
+          "sort_date": "2026-11-07",
+          "round": 14,
+          "competition": "J1 第14節",
+          "venue": "客",
+          "opponent": "柏太陽王",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/14.html"
+        },
+        {
+          "date": "2026-11-21",
+          "date_display": "2026-11-21",
+          "sort_date": "2026-11-21",
+          "round": 15,
+          "competition": "J1 第15節",
+          "venue": "主",
+          "opponent": "福岡黃蜂",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/15.html"
+        },
+        {
+          "date": "2026-11-25",
+          "date_display": "2026-11-25",
+          "sort_date": "2026-11-25",
+          "round": 16,
+          "competition": "J1 第16節",
+          "venue": "客",
+          "opponent": "長崎成功丸",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html"
+        },
+        {
+          "date": "2026-11-29",
+          "date_display": "2026-11-29",
+          "sort_date": "2026-11-29",
+          "round": 17,
+          "competition": "J1 第17節",
+          "venue": "主",
+          "opponent": "大阪飛腳",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/17.html"
+        },
+        {
+          "date": "2026-12-04",
+          "date_display": "2026-12-04",
+          "sort_date": "2026-12-04",
+          "round": 18,
+          "competition": "J1 第18節",
+          "venue": "客",
+          "opponent": "FC東京",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/18.html"
+        },
+        {
+          "date": "2026-12-09",
+          "date_display": "2026-12-09",
+          "sort_date": "2026-12-09",
+          "round": null,
+          "competition": "天皇盃 ラウンド16",
+          "venue": "主",
+          "opponent": "橫濱水手",
+          "score": null,
+          "source": "https://www.frontale.co.jp/schedule/all_games.html"
+        },
+        {
+          "date": "2026-12-13",
+          "date_display": "2026-12-13",
+          "sort_date": "2026-12-13",
+          "round": 19,
+          "competition": "J1 第19節",
+          "venue": "客",
+          "opponent": "浦和紅鑽",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/19.html"
+        },
+        {
+          "date": "2026-12-19",
+          "date_display": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "round": 20,
+          "competition": "J1 第20節",
+          "venue": "主",
+          "opponent": "柏太陽王",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/20.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-02-13／ 14日（日）（暫定）",
+          "sort_date": "2027-02-13",
+          "round": 21,
+          "competition": "J1 第21節",
+          "venue": "客",
+          "opponent": "神戶勝利船",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/21.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-02-20／ 21日（日）（暫定）",
+          "sort_date": "2027-02-20",
+          "round": 22,
+          "competition": "J1 第22節",
+          "venue": "客",
+          "opponent": "千葉市原JEF聯",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/22.html"
+        },
+        {
+          "date": "2027-02-27",
+          "date_display": "2027-02-27",
+          "sort_date": "2027-02-27",
+          "round": 23,
+          "competition": "J1 第23節",
+          "venue": "主",
+          "opponent": "町田澤維亞",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/23.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-03-06／ 7日（日）（暫定）",
+          "sort_date": "2027-03-06",
+          "round": 24,
+          "competition": "J1 第24節",
+          "venue": "主",
+          "opponent": "浦和紅鑽",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/24.html"
+        },
+        {
+          "date": "2027-03-10",
+          "date_display": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "round": 25,
+          "competition": "J1 第25節",
+          "venue": "客",
+          "opponent": "清水心跳",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/25.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-03-13／ 14日（日） ※1（暫定）",
+          "sort_date": "2027-03-13",
+          "round": 26,
+          "competition": "J1 第26節",
+          "venue": "客",
+          "opponent": "京都不死鳥",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/26.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-03-20／ 21日（日・祝）（暫定）",
+          "sort_date": "2027-03-20",
+          "round": 27,
+          "competition": "J1 第27節",
+          "venue": "主",
+          "opponent": "FC東京",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/27.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-04-03／ 4日（日）（暫定）",
+          "sort_date": "2027-04-03",
+          "round": 28,
+          "competition": "J1 第28節",
+          "venue": "客",
+          "opponent": "大阪飛腳",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/28.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-04-10／ 11日（日）（暫定）",
+          "sort_date": "2027-04-10",
+          "round": 29,
+          "competition": "J1 第29節",
+          "venue": "主",
+          "opponent": "長崎成功丸",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/29.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-04-17／ 18日（日）（暫定）",
+          "sort_date": "2027-04-17",
+          "round": 30,
+          "competition": "J1 第30節",
+          "venue": "主",
+          "opponent": "東京綠茵",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/30.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-04-24／ 25日（日）（暫定）",
+          "sort_date": "2027-04-24",
+          "round": 31,
+          "competition": "J1 第31節",
+          "venue": "客",
+          "opponent": "名古屋鯨魚",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/31.html"
+        },
+        {
+          "date": "2027-04-29",
+          "date_display": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "round": 32,
+          "competition": "J1 第32節",
+          "venue": "主",
+          "opponent": "水戶蜀葵",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/32.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-05-03／ 4日（火・祝）（暫定）",
+          "sort_date": "2027-05-03",
+          "round": 33,
+          "competition": "J1 第33節",
+          "venue": "客",
+          "opponent": "岡山綠雉",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/33.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-05-09／（日）※2（暫定）",
+          "sort_date": "2027-05-09",
+          "round": 34,
+          "competition": "J1 第34節",
+          "venue": "客",
+          "opponent": "鹿島鹿角",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/34.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-05-15／ 16日（日）（暫定）",
+          "sort_date": "2027-05-15",
+          "round": 35,
+          "competition": "J1 第35節",
+          "venue": "主",
+          "opponent": "橫濱水手",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/35.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-05-22／ 23日（日）（暫定）",
+          "sort_date": "2027-05-22",
+          "round": 36,
+          "competition": "J1 第36節",
+          "venue": "主",
+          "opponent": "大阪櫻花",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/36.html"
+        },
+        {
+          "date": null,
+          "date_display": "2027-05-29／ 30日（日）（暫定）",
+          "sort_date": "2027-05-29",
+          "round": 37,
+          "competition": "J1 第37節",
+          "venue": "客",
+          "opponent": "福岡黃蜂",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/37.html"
+        },
+        {
+          "date": "2027-06-06",
+          "date_display": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "round": 38,
+          "competition": "J1 第38節",
+          "venue": "主",
+          "opponent": "廣島三箭",
+          "score": null,
+          "source": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/38.html"
+        }
+      ],
+      "workload": {
+        "match_date": "2026-10-21",
+        "baseline_match_date": "2026-10-17",
+        "starting_changes": 5,
+        "starters": [
+          4,
+          5,
+          8,
+          16,
+          19,
+          23,
+          25,
+          28,
+          29,
+          49,
+          97
+        ],
+        "prior_starters": [
+          4,
+          5,
+          6,
+          8,
+          13,
+          14,
+          17,
+          22,
+          23,
+          49,
+          97
+        ],
+        "minutes_note": "本表按J.League Data Site正式分鐘及換人折算，非補時實際秒數。川崎補時換人記橘田89、松長根1；岡山盧卡奧89、河野1，球會速報分別寫90+3及90分鐘，口徑不混用。",
+        "minutes": [
+          {
+            "number": 2,
+            "name": "松長根悠仁",
+            "minutes": 1,
+            "prior_minutes": 0,
+            "normal_starts": 0,
+            "started": false
+          },
+          {
+            "number": 4,
+            "name": "柏度・羅曼奴",
+            "minutes": 67,
+            "prior_minutes": 45,
+            "normal_starts": 9,
+            "started": true
+          },
+          {
+            "number": 5,
+            "name": "佐佐木旭",
+            "minutes": 90,
+            "prior_minutes": 31,
+            "normal_starts": 5,
+            "started": true
+          },
+          {
+            "number": 6,
+            "name": "山本悠樹",
+            "minutes": 8,
+            "prior_minutes": 90,
+            "normal_starts": 10,
+            "started": false
+          },
+          {
+            "number": 8,
+            "name": "橘田健人",
+            "minutes": 89,
+            "prior_minutes": 86,
+            "normal_starts": 10,
+            "started": true
+          },
+          {
+            "number": 11,
+            "name": "小林悠",
+            "minutes": 8,
+            "prior_minutes": 4,
+            "normal_starts": 0,
+            "started": false
+          },
+          {
+            "number": 13,
+            "name": "三浦颯太",
+            "minutes": 0,
+            "prior_minutes": 90,
+            "normal_starts": 7,
+            "started": false
+          },
+          {
+            "number": 14,
+            "name": "脇坂泰斗",
+            "minutes": 31,
+            "prior_minutes": 90,
+            "normal_starts": 10,
+            "started": false
+          },
+          {
+            "number": 16,
+            "name": "大關友翔",
+            "minutes": 59,
+            "prior_minutes": 15,
+            "normal_starts": 0,
+            "started": true
+          },
+          {
+            "number": 17,
+            "name": "伊藤達哉",
+            "minutes": 31,
+            "prior_minutes": 90,
+            "normal_starts": 10,
+            "started": false
+          },
+          {
+            "number": 19,
+            "name": "河原創",
+            "minutes": 90,
+            "prior_minutes": 4,
+            "normal_starts": 0,
+            "started": true
+          },
+          {
+            "number": 20,
+            "name": "持山匡佑",
+            "minutes": 3,
+            "prior_minutes": 0,
+            "normal_starts": 3,
+            "started": false
+          },
+          {
+            "number": 22,
+            "name": "菲利普・烏雷莫維奇",
+            "minutes": 23,
+            "prior_minutes": 90,
+            "normal_starts": 3,
+            "started": false
+          },
+          {
+            "number": 23,
+            "name": "馬仙奴",
+            "minutes": 87,
+            "prior_minutes": 75,
+            "normal_starts": 8,
+            "started": true
+          },
+          {
+            "number": 25,
+            "name": "山市秀翔",
+            "minutes": 59,
+            "prior_minutes": 0,
+            "normal_starts": 0,
+            "started": true
+          },
+          {
+            "number": 28,
+            "name": "丸山祐市",
+            "minutes": 90,
+            "prior_minutes": 45,
+            "normal_starts": 1,
+            "started": true
+          },
+          {
+            "number": 29,
+            "name": "山原怜音",
+            "minutes": 82,
+            "prior_minutes": 59,
+            "normal_starts": 8,
+            "started": true
+          },
+          {
+            "number": 49,
+            "name": "史雲特・布羅德森",
+            "minutes": 90,
+            "prior_minutes": 90,
+            "normal_starts": 10,
+            "started": true
+          },
+          {
+            "number": 97,
+            "name": "德里基・拉塞爾達",
+            "minutes": 82,
+            "prior_minutes": 86,
+            "normal_starts": 4,
+            "started": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League Data Site・川崎首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・17日大阪櫻花戰",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-17"
+          }
+        ]
+      },
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": [
+          {
+            "text": "25日正式正選與後備尚未公布；陣式圖用21日人腳示意，不能當作已確認名單。",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・25日本場資料及訪問欄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "開場先看：誰在岡山防中身旁接球？伊藤與馬仙奴能否重現遠柱連接？",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・川崎首11輪陣式",
+                "url": "https://www.football-lab.jp/ka-f/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "Football LAB・岡山首11輪陣式",
+                "url": "https://www.football-lab.jp/okay/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          }
+        ]
+      },
+      "analytics": [
+        {
+          "text": "首11輪：每場16.4次射門（聯賽第2）、6.3次中目標（第2）、入禁區18.8次（第3）；控球51.5%。xG每場1.683、xGA1.391。這些是Football LAB22日截點，xG不是預測今場比分。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・川崎首11輪統計",
+              "url": "https://www.football-lab.jp/ka-f",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "text": "馬仙奴7球／個人累積xG3.438；全隊23球，高於每場xG所反映的機會量。這說明已實現的終結效率，不能保證往後一直維持。",
+          "kind": "analysis",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・川崎首11輪統計",
+              "url": "https://www.football-lab.jp/ka-f",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "style": [
+        {
+          "text": "長谷部茂利首11輪均以4-2-3-1開場（Football LAB判定）。神戶戰由大關、山市先發，59分鐘伊藤及脇坂入替後打開比數；前場可以改人而保留中間接應及邊路衝刺。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・川崎首11輪陣式",
+              "url": "https://www.football-lab.jp/ka-f/formation",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "formation": {
+        "shape": "4-2-3-1",
+        "label": "21日先發人腳置於常用架構；非25日預測正選",
+        "as_of": "2026-10-21",
+        "players": [
+          {
+            "number": 97,
+            "name": "德里基・拉塞爾達"
+          },
+          {
+            "number": 23,
+            "name": "馬仙奴"
+          },
+          {
+            "number": 16,
+            "name": "大關友翔"
+          },
+          {
+            "number": 25,
+            "name": "山市秀翔"
+          },
+          {
+            "number": 19,
+            "name": "河原創"
+          },
+          {
+            "number": 8,
+            "name": "橘田健人"
+          },
+          {
+            "number": 5,
+            "name": "佐佐木旭"
+          },
+          {
+            "number": 28,
+            "name": "丸山祐市"
+          },
+          {
+            "number": 4,
+            "name": "柏度・羅曼奴"
+          },
+          {
+            "number": 29,
+            "name": "山原怜音"
+          },
+          {
+            "number": 49,
+            "name": "史雲特・布羅德森"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Football LAB・川崎首11輪陣式",
+            "url": "https://www.football-lab.jp/ka-f/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          }
+        ]
+      },
+      "rotation_notes": [
+        {
+          "text": "21日比17日換5名先發：山原怜音、丸山祐市、河原創、大關友翔、山市秀翔加入；三浦颯太未入選，烏雷莫維奇、山本悠樹、脇坂泰斗、伊藤達哉改後備。這是五換人，不是整個主力班底都休息。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "川崎官方・17日大阪櫻花戰",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-17"
+            }
+          ]
+        },
+        {
+          "text": "21日伊藤及脇坂各31分鐘、山本8分鐘，對25日再用常用主力有負荷上的選擇；但布羅德森、佐佐木、丸山、河原都全場，馬仙奴87分鐘。雙方21日至25日同為中三日。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・川崎首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "首11輪常用程度：布羅德森與橘田各11次先發，山本、脇坂、伊藤各10次；大關、山市、河原各只1次。長谷部賽後特別表示，輪換亦利用等待機會球員的動力，不只是被動應付疲勞。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・川崎首11輪陣式",
+              "url": "https://www.football-lab.jp/ka-f/formation",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "form": [
+        {
+          "text": "聯賽最近5場：1–0水戶、3–3鹿島、1–2名古屋、4–2大阪櫻花、2–1神戶。聯賽兩連勝；另加14日聯賽盃4–0磐田才是正式賽三連勝。首11輪全部有入球，只有1場零封。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・川崎首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "川崎官方・2026/27比賽日程",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "scorers": [
+        {
+          "text": "首11輪：馬仙奴7球、脇坂泰斗4球、伊藤達哉3球、羅曼尼治與柏度・羅曼奴各2球。21日馬仙奴及伊藤各入一球。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・川崎首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Football LAB・川崎球員排行（首11輪）",
+              "url": "https://www.football-lab.jp/ka-f/ranking",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "assists": [
+        {
+          "text": "Football LAB首11輪：德里基・拉塞爾達3次助攻居首；脇坂、伊藤、山原、馬仙奴、三浦各2次。伊藤21日為馬仙奴首球送出助攻。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・川崎球員排行（首11輪）",
+              "url": "https://www.football-lab.jp/ka-f/ranking",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "text": "24日對照川崎官方38名球員資料，所有有號碼的球員已在館藏；未發現需要補建或移除的名單差異。小林悠雖已公布退役，但生效日為2027年1月1日，21日仍後備上陣，不能現在從名單刪除。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "川崎官方・本季球員名單原始資料",
+              "url": "https://www.frontale.co.jp/profile/2026-27/assets/json/member.json?260806b",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "川崎官方・小林悠預定2027年1月1日退役",
+              "url": "https://www.frontale.co.jp/info/2026/0923_1.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-09-23"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "22日公布、適用本輪的J.League停賽公告未列川崎球員。25日正式名單仍待公布；沒有入選不應自行寫成停賽。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League・22日公布第12節停賽名單",
+              "url": "https://www.jleague.jp/news/article/35184/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "yellow_risk": [
+        {
+          "text": "首11輪：柏度・羅曼奴及伊藤達哉各3黃，下一張牌的累積停賽風險要留意；山原怜音2黃。這是紀律風險，並非已被本場排除。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・川崎首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "J.League・22日公布第12節停賽名單",
+              "url": "https://www.jleague.jp/news/article/35184/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "injuries": [
+        {
+          "text": "野田裕人10月3日U-21比賽受傷、18日公告右腓腸肌拉傷；谷口榮斗9月28日操練受傷、10月12日公告右長內收肌拉傷；紺野和也9月6日受傷、12日公告右Lisfranc韌帶損傷。三份公告均未給確切復出日。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "川崎官方・野田裕人傷患公告",
+              "url": "https://www.frontale.co.jp/info/2026/1018_1.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-18"
+            },
+            {
+              "label": "川崎官方・谷口榮斗傷患公告",
+              "url": "https://www.frontale.co.jp/info/2026/1012_2.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-12"
+            },
+            {
+              "label": "川崎官方・紺野和也傷患公告",
+              "url": "https://www.frontale.co.jp/info/2026/1012_1.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-12"
+            }
+          ]
+        },
+        {
+          "text": "林駿佑10月4日公布左膝內側副韌帶損傷。佐佐木及柏度・羅曼奴17日提早離場後，21日已回先發；羅曼奴21日67分鐘又被換，沒有新診斷便不斷言25日可用或缺陣。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "川崎官方・林駿佑傷患公告",
+              "url": "https://www.frontale.co.jp/info/2026/1004_1.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-04"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "川崎官方・17日大阪櫻花戰",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-17"
+            }
+          ]
+        },
+        {
+          "text": "三浦颯太21日未入選；Football LAB另把宮城天、羅曼尼治、三浦及羅曼奴列傷停觀察，但頁面明言輕傷者仍可能出場。這只能作賽前覆核線索，正式名單及醫療更新才作最後確認。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・本場對賽資料（須以當前球會名單過濾傷停欄）",
+              "url": "https://www.football-lab.jp/ka-f/preview",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "players_to_watch": {
+        "stars": [
+          {
+            "number": 17,
+            "description": [
+              {
+                "text": "21日後備上陣便1球1助攻；本人承認第二球原本是傳中。首11輪進攻CBP26.16為隊內最高，盤扭CBP7.67；不要把一腳幸運入球說成刻意遠射。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "川崎官方・21日神戶戰及賽後訪問",
+                    "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  },
+                  {
+                    "label": "Football LAB・川崎球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/ka-f/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：11場、855分鐘、3球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・川崎首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              },
+              {
+                "text": "本季3球2助攻；進攻CBP及助攻為Football LAB首11輪口徑。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "Football LAB・川崎球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/ka-f/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 23,
+            "description": [
+              {
+                "text": "與伊藤的遠柱配合已有操練與訪問支持，21日入球是具體例子；向遠柱移動時，岡山中堅與翼衛誰接管是觀察題。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "川崎官方・21日神戶戰及賽後訪問",
+                    "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：11場、719分鐘、7球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・川崎首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 8,
+            "description": [
+              {
+                "text": "首11輪11次先發、938分鐘，奪取P122.84居隊內首位。對江坂的兩線間接應，橘田的保護與出擊時機尤其重要。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "Football LAB・川崎首11輪陣式",
+                    "url": "https://www.football-lab.jp/ka-f/formation",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  },
+                  {
+                    "label": "Football LAB・川崎球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/ka-f/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：11場、938分鐘、1球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・川崎首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "foreign": [
+          {
+            "number": 49,
+            "description": [
+              {
+                "text": "23日談古巢時強調感謝與展示進步，尤其希望拿出更好的後場組織；這是倒戈故事，不等於岡山已掌握其今季所有出球套路。",
+                "kind": "reported",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "體育日本・23日布羅德森採訪／livedoor轉載",
+                    "url": "https://news.livedoor.com/article/detail/32641775/",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-23"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：11場、990分鐘、0球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・川崎首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 97,
+            "description": [
+              {
+                "text": "本季1球卻有隊內最多3助攻；21日持續在前場支援及回防。對三中堅時，可觀察他回接能否讓身後的脇坂或翼鋒向前。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "Football LAB・川崎球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/ka-f/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  },
+                  {
+                    "label": "川崎官方・21日神戶戰及賽後訪問",
+                    "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：7場、476分鐘、1球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・川崎首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "youth": [
+          {
+            "number": 16,
+            "description": [
+              {
+                "text": "21日訪問坦言先全力踢，把後段交給脇坂；有1次先發、178分鐘，不應因上仗正選便直接稱他已取代脇坂。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "川崎官方・21日神戶戰及賽後訪問",
+                    "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  },
+                  {
+                    "label": "Football LAB・川崎首11輪陣式",
+                    "url": "https://www.football-lab.jp/ka-f/formation",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：9場、178分鐘、1球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・川崎首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 25,
+            "description": [
+              {
+                "text": "21日首次J1先發，主動談到雖本職防中，邊路任務能幫助理解同伴與壓迫；評述可觀察第二點爭奪。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "川崎官方・21日神戶戰及賽後訪問",
+                    "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：2場、60分鐘、0球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・川崎首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "storylines": [
+        {
+          "text": "布羅德森2024、2025效力岡山，參與升班；23日採訪稱這是生涯最美好的兩年。25日是加盟川崎後首次面對古巢。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "體育日本・23日布羅德森採訪／livedoor轉載",
+              "url": "https://news.livedoor.com/article/detail/32641775/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-23"
+            },
+            {
+              "label": "J.League・須賀大輔本場前瞻",
+              "url": "https://www.jleague.jp/match/j1/2026/102506/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        },
+        {
+          "text": "小林悠9月23日公布將於2027年1月1日退役，而非已即時退役。21日仍在主場後備上陣，若25日再入選，這段最後階段的故事有明確時間線。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "川崎官方・小林悠預定2027年1月1日退役",
+              "url": "https://www.frontale.co.jp/info/2026/0923_1.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-09-23"
+            },
+            {
+              "label": "川崎官方・21日神戶戰及賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ]
+    },
+    "okayama": {
+      "previous_match_date": "2026-10-21",
+      "stats": {
+        "rank": 10,
+        "points": 16,
+        "wins": 5,
+        "draws": 1,
+        "losses": 5,
+        "goals_for": 14,
+        "goals_against": 15,
+        "goal_difference": -1,
+        "matches": 11,
+        "season": "2026/27",
+        "competition": "J1・本隊首11輪／排名為24日快照",
+        "as_of": "2026-10-21",
+        "sources": [
+          {
+            "label": "J.League Data Site・岡山首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "SportsNavi／Yahoo・24日聯賽榜快照",
+            "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      "game_log": [
+        {
+          "date": "2026-08-08",
+          "date_display": "2026-08-08",
+          "sort_date": "2026-08-08",
+          "round": 1,
+          "competition": "J1 第1節",
+          "venue": "客",
+          "opponent": "大阪櫻花",
+          "score": "1–2",
+          "source": "https://www.fagiano-okayama.com/game/2026080804"
+        },
+        {
+          "date": "2026-08-15",
+          "date_display": "2026-08-15",
+          "sort_date": "2026-08-15",
+          "round": 2,
+          "competition": "J1 第2節",
+          "venue": "主",
+          "opponent": "長崎成功丸",
+          "score": "1–0",
+          "source": "https://www.fagiano-okayama.com/game/2026081504"
+        },
+        {
+          "date": "2026-08-22",
+          "date_display": "2026-08-22",
+          "sort_date": "2026-08-22",
+          "round": 3,
+          "competition": "J1 第3節",
+          "venue": "主",
+          "opponent": "東京綠茵",
+          "score": "0–0",
+          "source": "https://www.fagiano-okayama.com/game/2026082202"
+        },
+        {
+          "date": "2026-08-26",
+          "date_display": "2026-08-26",
+          "sort_date": "2026-08-26",
+          "round": null,
+          "competition": "天皇盃 2回戦",
+          "venue": "主",
+          "opponent": "いわみ（官方簡稱）",
+          "score": "3–0",
+          "source": "https://www.fagiano-okayama.com/game/2026082611"
+        },
+        {
+          "date": "2026-08-29",
+          "date_display": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "round": 4,
+          "competition": "J1 第4節",
+          "venue": "客",
+          "opponent": "名古屋鯨魚",
+          "score": "1–2",
+          "source": "https://www.fagiano-okayama.com/game/2026082908"
+        },
+        {
+          "date": "2026-09-02",
+          "date_display": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "round": 5,
+          "competition": "J1 第5節",
+          "venue": "客",
+          "opponent": "千葉市原JEF聯",
+          "score": "2–1",
+          "source": "https://www.fagiano-okayama.com/game/2026090217"
+        },
+        {
+          "date": "2026-09-06",
+          "date_display": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "round": 6,
+          "competition": "J1 第6節",
+          "venue": "主",
+          "opponent": "廣島三箭",
+          "score": "3–2",
+          "source": "https://www.fagiano-okayama.com/game/2026090606"
+        },
+        {
+          "date": "2026-09-13",
+          "date_display": "2026-09-13",
+          "sort_date": "2026-09-13",
+          "round": 7,
+          "competition": "J1 第7節",
+          "venue": "客",
+          "opponent": "浦和紅鑽",
+          "score": "2–1",
+          "source": "https://www.fagiano-okayama.com/game/2026091303"
+        },
+        {
+          "date": "2026-09-19",
+          "date_display": "2026-09-19",
+          "sort_date": "2026-09-19",
+          "round": 8,
+          "competition": "J1 第8節",
+          "venue": "主",
+          "opponent": "京都不死鳥",
+          "score": "1–2",
+          "source": "https://www.fagiano-okayama.com/game/2026091907"
+        },
+        {
+          "date": "2026-09-29",
+          "date_display": "2026-09-29",
+          "sort_date": "2026-09-29",
+          "round": null,
+          "competition": "聯賽盃 2回戦",
+          "venue": "客",
+          "opponent": "北海道コンサドーレ札幌",
+          "score": "2–1",
+          "source": "https://www.fagiano-okayama.com/game/2026092907"
+        },
+        {
+          "date": "2026-10-07",
+          "date_display": "2026-10-07",
+          "sort_date": "2026-10-07",
+          "round": null,
+          "competition": "天皇盃 3回戦",
+          "venue": "客",
+          "opponent": "千葉市原JEF聯",
+          "score": "1–0",
+          "source": "https://www.fagiano-okayama.com/game/2026100706"
+        },
+        {
+          "date": "2026-10-10",
+          "date_display": "2026-10-10",
+          "sort_date": "2026-10-10",
+          "round": 9,
+          "competition": "J1 第9節",
+          "venue": "客",
+          "opponent": "福岡黃蜂",
+          "score": "1–2",
+          "source": "https://www.fagiano-okayama.com/game/2026101010"
+        },
+        {
+          "date": "2026-10-14",
+          "date_display": "2026-10-14",
+          "sort_date": "2026-10-14",
+          "round": null,
+          "competition": "聯賽盃 3回戦",
+          "venue": "客",
+          "opponent": "名古屋鯨魚",
+          "score": "3–3（加時；12碼3–4）",
+          "source": "https://www.fagiano-okayama.com/game/2026101404"
+        },
+        {
+          "date": "2026-10-18",
+          "date_display": "2026-10-18",
+          "sort_date": "2026-10-18",
+          "round": 10,
+          "competition": "J1 第10節",
+          "venue": "主",
+          "opponent": "神戶勝利船",
+          "score": "0–3",
+          "source": "https://www.fagiano-okayama.com/game/2026101813"
+        },
+        {
+          "date": "2026-10-21",
+          "date_display": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "round": 11,
+          "competition": "J1 第11節",
+          "venue": "主",
+          "opponent": "水戶蜀葵",
+          "score": "2–0",
+          "source": "https://www.fagiano-okayama.com/game/2026102113"
+        },
+        {
+          "date": "2026-10-25",
+          "date_display": "2026-10-25",
+          "sort_date": "2026-10-25",
+          "round": 12,
+          "competition": "J1 第12節",
+          "venue": "客",
+          "opponent": "川崎前鋒",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026102506"
+        },
+        {
+          "date": "2026-10-31",
+          "date_display": "2026-10-31",
+          "sort_date": "2026-10-31",
+          "round": 13,
+          "competition": "J1 第13節",
+          "venue": "主",
+          "opponent": "FC東京",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026103109"
+        },
+        {
+          "date": "2026-11-07",
+          "date_display": "2026-11-07",
+          "sort_date": "2026-11-07",
+          "round": 14,
+          "competition": "J1 第14節",
+          "venue": "客",
+          "opponent": "橫濱水手",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026110707"
+        },
+        {
+          "date": "2026-11-21",
+          "date_display": "2026-11-21",
+          "sort_date": "2026-11-21",
+          "round": 15,
+          "competition": "J1 第15節",
+          "venue": "客",
+          "opponent": "大阪飛腳",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026112106"
+        },
+        {
+          "date": "2026-11-25",
+          "date_display": "2026-11-25",
+          "sort_date": "2026-11-25",
+          "round": 16,
+          "competition": "J1 第16節",
+          "venue": "主",
+          "opponent": "清水心跳",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026112504"
+        },
+        {
+          "date": "2026-11-28",
+          "date_display": "2026-11-28",
+          "sort_date": "2026-11-28",
+          "round": 17,
+          "competition": "J1 第17節",
+          "venue": "客",
+          "opponent": "鹿島鹿角",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026112804"
+        },
+        {
+          "date": "2026-12-06",
+          "date_display": "2026-12-06",
+          "sort_date": "2026-12-06",
+          "round": 18,
+          "competition": "J1 第18節",
+          "venue": "客",
+          "opponent": "町田澤維亞",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026120602"
+        },
+        {
+          "date": "2026-12-09",
+          "date_display": "2026-12-09",
+          "sort_date": "2026-12-09",
+          "round": null,
+          "competition": "天皇盃 ラウンド16",
+          "venue": "客",
+          "opponent": "柏太陽王",
+          "score": null,
+          "source": "https://www.reysol.co.jp/game/results/index.php"
+        },
+        {
+          "date": "2026-12-13",
+          "date_display": "2026-12-13",
+          "sort_date": "2026-12-13",
+          "round": 19,
+          "competition": "J1 第19節",
+          "venue": "主",
+          "opponent": "柏太陽王",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2026121304"
+        },
+        {
+          "date": "2026-12-19",
+          "date_display": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "round": 20,
+          "competition": "J1 第20節",
+          "venue": "客",
+          "opponent": "京都不死鳥",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/d3qxx9t6959"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2月13日(土) or 14日(日)（日期待定）",
+          "sort_date": "2027-02-13",
+          "round": 21,
+          "competition": "J1 第21節",
+          "venue": "客",
+          "opponent": "廣島三箭",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027021308"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2月20日(土) or 21日(日)（日期待定）",
+          "sort_date": "2027-02-20",
+          "round": 22,
+          "competition": "J1 第22節",
+          "venue": "主",
+          "opponent": "大阪飛腳",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027022008"
+        },
+        {
+          "date": null,
+          "date_display": "2027年2月27日(土) or 28日(日)（日期待定）",
+          "sort_date": "2027-02-27",
+          "round": 23,
+          "competition": "J1 第23節",
+          "venue": "主",
+          "opponent": "鹿島鹿角",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027022709"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3月6日(土) or 7日(日)（日期待定）",
+          "sort_date": "2027-03-06",
+          "round": 24,
+          "competition": "J1 第24節",
+          "venue": "客",
+          "opponent": "神戶勝利船",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027030608"
+        },
+        {
+          "date": "2027-03-10",
+          "date_display": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "round": 25,
+          "competition": "J1 第25節",
+          "venue": "主",
+          "opponent": "橫濱水手",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027031009"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3月13日(土) or 14日(日)（日期待定）",
+          "sort_date": "2027-03-13",
+          "round": 26,
+          "competition": "J1 第26節",
+          "venue": "客",
+          "opponent": "柏太陽王",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027031302"
+        },
+        {
+          "date": null,
+          "date_display": "2027年3月20日(土) or 21日(日)（日期待定）",
+          "sort_date": "2027-03-20",
+          "round": 27,
+          "competition": "J1 第27節",
+          "venue": "客",
+          "opponent": "長崎成功丸",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027032009"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月3日(土) or 4日(日)（日期待定）",
+          "sort_date": "2027-04-03",
+          "round": 28,
+          "competition": "J1 第28節",
+          "venue": "主",
+          "opponent": "名古屋鯨魚",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027040310"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月10日(土) or 11日(日)（日期待定）",
+          "sort_date": "2027-04-10",
+          "round": 29,
+          "competition": "J1 第29節",
+          "venue": "客",
+          "opponent": "FC東京",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027041003"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月17日(土) or 18日(日)（日期待定）",
+          "sort_date": "2027-04-17",
+          "round": 30,
+          "competition": "J1 第30節",
+          "venue": "主",
+          "opponent": "浦和紅鑽",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027041707"
+        },
+        {
+          "date": null,
+          "date_display": "2027年4月24日(土) or 25日(日)（日期待定）",
+          "sort_date": "2027-04-24",
+          "round": 31,
+          "competition": "J1 第31節",
+          "venue": "主",
+          "opponent": "大阪櫻花",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027042408"
+        },
+        {
+          "date": "2027-04-29",
+          "date_display": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "round": 32,
+          "competition": "J1 第32節",
+          "venue": "客",
+          "opponent": "清水心跳",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027042907"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月3日(月祝) or 4日(火祝)（日期待定）",
+          "sort_date": "2027-05-03",
+          "round": 33,
+          "competition": "J1 第33節",
+          "venue": "主",
+          "opponent": "川崎前鋒",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027050308"
+        },
+        {
+          "date": "2027-05-09",
+          "date_display": "2027-05-09",
+          "sort_date": "2027-05-09",
+          "round": 34,
+          "competition": "J1 第34節",
+          "venue": "客",
+          "opponent": "水戶蜀葵",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027050902"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月15日(土) or 16日(日)（日期待定）",
+          "sort_date": "2027-05-15",
+          "round": 35,
+          "competition": "J1 第35節",
+          "venue": "主",
+          "opponent": "千葉市原JEF聯",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027051509"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月22日(土) or 23日(日)（日期待定）",
+          "sort_date": "2027-05-22",
+          "round": 36,
+          "competition": "J1 第36節",
+          "venue": "主",
+          "opponent": "町田澤維亞",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027052208"
+        },
+        {
+          "date": null,
+          "date_display": "2027年5月29日(土) or 30日(日)（日期待定）",
+          "sort_date": "2027-05-29",
+          "round": 37,
+          "competition": "J1 第37節",
+          "venue": "客",
+          "opponent": "東京綠茵",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027052903"
+        },
+        {
+          "date": "2027-06-06",
+          "date_display": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "round": 38,
+          "competition": "J1 第38節",
+          "venue": "主",
+          "opponent": "福岡黃蜂",
+          "score": null,
+          "source": "https://www.fagiano-okayama.com/game/2027060610"
+        }
+      ],
+      "workload": {
+        "match_date": "2026-10-21",
+        "baseline_match_date": "2026-10-18",
+        "starting_changes": 2,
+        "starters": [
+          1,
+          8,
+          10,
+          26,
+          28,
+          41,
+          43,
+          48,
+          80,
+          88,
+          99
+        ],
+        "prior_starters": [
+          1,
+          8,
+          10,
+          41,
+          43,
+          44,
+          48,
+          51,
+          80,
+          88,
+          99
+        ],
+        "minutes_note": "本表按J.League Data Site正式分鐘及換人折算，非補時實際秒數。川崎補時換人記橘田89、松長根1；岡山盧卡奧89、河野1，球會速報分別寫90+3及90分鐘，口徑不混用。",
+        "minutes": [
+          {
+            "number": 1,
+            "name": "連納特·莫沙",
+            "minutes": 90,
+            "prior_minutes": 90,
+            "normal_starts": 9,
+            "started": true
+          },
+          {
+            "number": 8,
+            "name": "江坂任",
+            "minutes": 66,
+            "prior_minutes": 79,
+            "normal_starts": 8,
+            "started": true
+          },
+          {
+            "number": 10,
+            "name": "羅相浩",
+            "minutes": 78,
+            "prior_minutes": 85,
+            "normal_starts": 8,
+            "started": true
+          },
+          {
+            "number": 20,
+            "name": "河野孝汰",
+            "minutes": 1,
+            "prior_minutes": 11,
+            "normal_starts": 4,
+            "started": false
+          },
+          {
+            "number": 26,
+            "name": "本山遙",
+            "minutes": 90,
+            "prior_minutes": 0,
+            "normal_starts": 3,
+            "started": true
+          },
+          {
+            "number": 28,
+            "name": "松本昌也",
+            "minutes": 66,
+            "prior_minutes": 0,
+            "normal_starts": 1,
+            "started": true
+          },
+          {
+            "number": 33,
+            "name": "神谷優太",
+            "minutes": 24,
+            "prior_minutes": 24,
+            "normal_starts": 1,
+            "started": false
+          },
+          {
+            "number": 41,
+            "name": "宮本英治",
+            "minutes": 90,
+            "prior_minutes": 90,
+            "normal_starts": 7,
+            "started": true
+          },
+          {
+            "number": 43,
+            "name": "鈴木喜丈",
+            "minutes": 90,
+            "prior_minutes": 90,
+            "normal_starts": 8,
+            "started": true
+          },
+          {
+            "number": 44,
+            "name": "森壯一朗",
+            "minutes": 12,
+            "prior_minutes": 90,
+            "normal_starts": 3,
+            "started": false
+          },
+          {
+            "number": 48,
+            "name": "立田悠悟",
+            "minutes": 90,
+            "prior_minutes": 90,
+            "normal_starts": 10,
+            "started": true
+          },
+          {
+            "number": 51,
+            "name": "白井康介",
+            "minutes": 24,
+            "prior_minutes": 90,
+            "normal_starts": 9,
+            "started": false
+          },
+          {
+            "number": 55,
+            "name": "藤井葉大",
+            "minutes": 12,
+            "prior_minutes": 0,
+            "normal_starts": 0,
+            "started": false
+          },
+          {
+            "number": 80,
+            "name": "奧比頓",
+            "minutes": 90,
+            "prior_minutes": 66,
+            "normal_starts": 8,
+            "started": true
+          },
+          {
+            "number": 88,
+            "name": "山根永遠",
+            "minutes": 78,
+            "prior_minutes": 66,
+            "normal_starts": 7,
+            "started": true
+          },
+          {
+            "number": 99,
+            "name": "盧卡奧",
+            "minutes": 89,
+            "prior_minutes": 45,
+            "normal_starts": 8,
+            "started": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League Data Site・岡山首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "岡山官方・18日神戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026101813/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-18"
+          }
+        ]
+      },
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": [
+          {
+            "text": "25日正式正選與後備尚未公布；陣式圖用21日人腳示意，不能當作已確認名單。",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・25日本場資料及訪問欄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "開場先看：盧卡奧回接後誰跑入禁區？翼衛壓上時，身後由誰補位？",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・川崎首11輪陣式",
+                "url": "https://www.football-lab.jp/ka-f/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "Football LAB・岡山首11輪陣式",
+                "url": "https://www.football-lab.jp/okay/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          }
+        ]
+      },
+      "analytics": [
+        {
+          "text": "首11輪：每場被射10.2次（聯賽第3少）、xGA1.027，但實際失球每場1.36。自己每場13.5次射門、3.3次中目標；控球45.2%。不同欄位按原頁顯示口徑，不混作同一個射門成功率。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・岡山首11輪統計",
+              "url": "https://www.football-lab.jp/okay",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        },
+        {
+          "text": "18.7次傳中、6.1個角球均屬聯賽第2；中場奪取P宮本184.45、奧比頓152.50。這支球隊能製造反覆攻防及二次進攻，不能只當作被動守低位。",
+          "kind": "analysis",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・岡山首11輪統計",
+              "url": "https://www.football-lab.jp/okay",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "Football LAB・岡山球員排行（首11輪）",
+              "url": "https://www.football-lab.jp/okay/ranking",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "style": [
+        {
+          "text": "木山隆之首11輪均以3-4-2-1開場（Football LAB判定）。長傳找盧卡奧、翼衛拉闊、江坂與羅相浩在兩線間接應。21日首球由江坂傳予盧卡奧，再入禁區接回傳射入，具體展示中鋒與攻中連接。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・岡山首11輪陣式",
+              "url": "https://www.football-lab.jp/okay/formation",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "21日先發人腳置於常用架構；非25日預測正選",
+        "as_of": "2026-10-21",
+        "players": [
+          {
+            "number": 99,
+            "name": "盧卡奧"
+          },
+          {
+            "number": 8,
+            "name": "江坂任"
+          },
+          {
+            "number": 10,
+            "name": "羅相浩"
+          },
+          {
+            "number": 88,
+            "name": "山根永遠"
+          },
+          {
+            "number": 80,
+            "name": "奧比頓"
+          },
+          {
+            "number": 41,
+            "name": "宮本英治"
+          },
+          {
+            "number": 28,
+            "name": "松本昌也"
+          },
+          {
+            "number": 43,
+            "name": "鈴木喜丈"
+          },
+          {
+            "number": 48,
+            "name": "立田悠悟"
+          },
+          {
+            "number": 26,
+            "name": "本山遙"
+          },
+          {
+            "number": 1,
+            "name": "連納特·莫沙"
+          }
+        ],
+        "sources": [
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          }
+        ]
+      },
+      "rotation_notes": [
+        {
+          "text": "21日比18日只換2名先發：本山遙、松本昌也取代森壯一朗、白井康介。立田、鈴木、宮本、江坂等主力仍在，換得較少不等於實際體能必定較差。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "岡山官方・18日神戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026101813/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-18"
+            }
+          ]
+        },
+        {
+          "text": "21日江坂及松本各66分鐘，羅相浩及山根各78分鐘；盧卡奧按Data Site踢89分鐘。立田、鈴木、本山、宮本、奧比頓及莫沙全場；岡山本場另有客場移動，沒有實際旅程或醫療數據便不量化恢復程度。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・岡山首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "首11輪立田11次先發，盧卡奧、江坂、羅相浩、奧比頓各9次；白井亦9次先發，但分擔過左右翼衛。21日松本先發右翼衛，25日他或白井的選擇會影響對馬仙奴的邊路保護。",
+          "kind": "analysis",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・岡山首11輪陣式",
+              "url": "https://www.football-lab.jp/okay/formation",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "form": [
+        {
+          "text": "聯賽最近5場：2–1浦和、1–2京都、1–2福岡、0–3神戶、2–0水戶。21日終止三連敗，取得本季第3次聯賽零封；不是延續三連敗來到川崎。首5場客場全為2–1分勝負：2勝3負，樣本只5場。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・岡山首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "岡山官方・全季賽程",
+              "url": "https://www.fagiano-okayama.com/game/schedule-game/2026-27/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "scorers": [
+        {
+          "text": "首11輪：河野孝汰3球，江坂任2球；其餘多名球員各1球。21日江坂52及65分鐘連入兩球，才打開本季聯賽入球帳戶。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・岡山首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Football LAB・岡山球員排行（首11輪）",
+              "url": "https://www.football-lab.jp/okay/ranking",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        }
+      ],
+      "assists": [
+        {
+          "text": "Football LAB首11輪：盧卡奧4次、本山遙3次，其餘已核對各1次；兩名助攻領先者分別是中鋒及近期改踢後防的本山。不能用入球數低便抹去盧卡奧的連接作用。",
+          "kind": "analysis",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・岡山球員排行（首11輪）",
+              "url": "https://www.football-lab.jp/okay/ranking",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "text": "24日對照岡山官方36名一隊球員，館藏均有對應卡，沒有已確認的新缺卡。本次是當前名單差異檢查，不宣稱整隊完整傳記已完成驗證。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "岡山官方・2026/27一隊名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "22日本輪官方停賽公告未列岡山球員。宮本英治首11輪共4黃，但已在第8輪被標示停賽，第9–11輪已復出；不是本場又因同一組4黃停賽。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League・22日公布第12節停賽名單",
+              "url": "https://www.jleague.jp/news/article/35184/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "J.League Data Site・岡山首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "yellow_risk": [
+        {
+          "text": "本山遙、鈴木喜丈、利奧・高祖、盧卡奧各2次黃牌記錄；宮本的4黃已執行停賽。奧比頓第6輪有C／CS及下輪停賽紀錄，不能把兩黃一紅記號與普通累積牌直接相加，便稱本場「差一張」。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・岡山首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "J.League・22日公布第12節停賽名單",
+              "url": "https://www.jleague.jp/news/article/35184/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ],
+      "injuries": [
+        {
+          "text": "田上大地10月7日天皇盃對千葉受傷，17日官方公布前十字韌帶、外側半月板及內側副韌帶損傷；公告未列復出期限。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "岡山官方・田上大地傷患公告",
+              "url": "https://www.fagiano-okayama.com/news/202610171600/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-17"
+            }
+          ]
+        },
+        {
+          "text": "大森博首9次先發均踢足90分鐘，但18及21日均未入選；暫無足以確認本場缺陣原因或復出日期的公開公告。西川潤、田部井等人的可用性亦須賽前再查，不照搬球迷傷停表為醫療事實。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "J.League Data Site・岡山首11輪出場與紀律",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "岡山官方・18日神戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026101813/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-18"
+            },
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "Football LAB本場傷停欄有不在當前岡山一隊名單的姓名，不能整欄直接複製。木村太哉、小倉幸成等只保留為待核對對象，未取得本輪醫療更新便不加確定缺陣標籤。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football LAB・本場對賽資料（須以當前球會名單過濾傷停欄）",
+              "url": "https://www.football-lab.jp/ka-f/preview",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            },
+            {
+              "label": "岡山官方・2026/27一隊名單",
+              "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+              "accessed_at": "2026-10-24"
+            }
+          ]
+        }
+      ],
+      "players_to_watch": {
+        "stars": [
+          {
+            "number": 8,
+            "description": [
+              {
+                "text": "21日首球先與盧卡奧做配合再射入，第二球則回收角球被擋出的球；這是跑入禁區與二次進攻兩種取分方式。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "岡山官方・21日水戶戰紀錄",
+                    "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  },
+                  {
+                    "label": "岡山放送OHK／FNN・江坂水戶戰賽後談話",
+                    "url": "https://www.fnn.jp/articles/-/1137618",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：11場、724分鐘、2球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 41,
+            "description": [
+              {
+                "text": "首11輪奪取P184.45為隊內最高，中場防守貢獻有量化依據；早前4黃停賽已執行，不要因累積總數又排除他。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "Football LAB・岡山球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/okay/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  },
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：10場、765分鐘、0球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "foreign": [
+          {
+            "number": 99,
+            "description": [
+              {
+                "text": "隊內最多4助攻、累積xG2.086但只有1球；21日回傳助江坂。看他是否留在中路或流邊拉開，是分析隊友能否入禁區的切入點。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "Football LAB・岡山球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/okay/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  },
+                  {
+                    "label": "Football LAB・岡山首11輪統計",
+                    "url": "https://www.football-lab.jp/okay",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  },
+                  {
+                    "label": "岡山官方・21日水戶戰紀錄",
+                    "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：10場、615分鐘、1球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 10,
+            "description": [
+              {
+                "text": "首11輪19次最後一傳、但沒有Football LAB助攻，表示創造最後傳球與隊友射入不能混為一談；21日先發78分鐘。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "Football LAB・岡山球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/okay/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  },
+                  {
+                    "label": "岡山官方・21日水戶戰紀錄",
+                    "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：11場、731分鐘、1球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 1,
+            "description": [
+              {
+                "text": "水戶戰守住零封，作客川崎時要面對翼鋒從兩側切入及遠柱跑動；不由一場零封便推斷所有失球問題已解決。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "岡山官方・21日水戶戰紀錄",
+                    "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：10場、900分鐘、0球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "youth": [
+          {
+            "number": 20,
+            "description": [
+              {
+                "text": "首11輪3球為隊內最多，只有257分鐘；21日末段入替。這是值得備好資料的本土年輕前鋒，但單憑入球率不足以預測先發。",
+                "kind": "analysis",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "Football LAB・岡山球員排行（首11輪）",
+                    "url": "https://www.football-lab.jp/okay/ranking",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  },
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：8場、257分鐘、3球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": 44,
+            "description": [
+              {
+                "text": "18日先發後，21日改後備並在78分鐘上陣；本季7場305分鐘、3次先發，可作後防輪換觀察。未找到足夠本場技術採訪，踢法描述留白。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "岡山官方・21日水戶戰紀錄",
+                    "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-21"
+                  },
+                  {
+                    "label": "岡山官方・18日神戶戰紀錄",
+                    "url": "https://www.fagiano-okayama.com/game/2026101813/",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-18"
+                  },
+                  {
+                    "label": "Football LAB・岡山首11輪統計",
+                    "url": "https://www.football-lab.jp/okay",
+                    "accessed_at": "2026-10-24",
+                    "published_at": "2026-10-22"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "首11輪聯賽：7場、305分鐘、0球。",
+                "kind": "fact",
+                "as_of": "2026-10-24",
+                "sources": [
+                  {
+                    "label": "J.League Data Site・岡山首11輪出場與紀律",
+                    "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                    "accessed_at": "2026-10-24"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "storylines": [
+        {
+          "text": "江坂21日梅開二度之前，18日賽後曾向難波拓未表達對球隊鬆懈的擔憂；該專欄21日上午刊出，早於水戶戰。如今已有反應，不能把那番批評當作贏水戶後仍在責怪隊友。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "Football Channel・難波拓未21日專欄（採訪18日）",
+              "url": "https://www.footballchannel.jp/2026/10/21/post1037451/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            },
+            {
+              "label": "岡山官方・21日水戶戰紀錄",
+              "url": "https://www.fagiano-okayama.com/game/2026102113/",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-21"
+            }
+          ]
+        },
+        {
+          "text": "兩次2025 J1交手均和：岡山主場0–0、作客1–1。25日將爭取兩隊之間首次J1勝仗；不把天皇盃加時往績混成聯賽勝率。",
+          "kind": "fact",
+          "as_of": "2026-10-24",
+          "sources": [
+            {
+              "label": "川崎官方・25日本場資料及訪問欄",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+              "accessed_at": "2026-10-24"
+            },
+            {
+              "label": "Football LAB・本場對賽資料（須以當前球會名單過濾傷停欄）",
+              "url": "https://www.football-lab.jp/ka-f/preview",
+              "accessed_at": "2026-10-24",
+              "published_at": "2026-10-22"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "standings": {
+    "as_of": "2026-10-24 SportsNavi快照；部分球隊12場、川崎及岡山11場，本輪未完結",
+    "sources": [
+      {
+        "label": "SportsNavi／Yahoo・24日聯賽榜快照",
+        "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+        "accessed_at": "2026-10-24"
+      }
+    ],
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "machida",
+        "name_zh": "町田澤維亞",
+        "points": 27,
+        "played": 12,
+        "wins": 8,
+        "draws": 3,
+        "losses": 1,
+        "goals_for": 30,
+        "goals_against": 10,
+        "goal_difference": 20
+      },
+      {
+        "rank": 2,
+        "slug": "hiroshima",
+        "name_zh": "廣島三箭",
+        "points": 26,
+        "played": 12,
+        "wins": 8,
+        "draws": 2,
+        "losses": 2,
+        "goals_for": 29,
+        "goals_against": 10,
+        "goal_difference": 19
+      },
+      {
+        "rank": 3,
+        "slug": "kashiwa",
+        "name_zh": "柏太陽王",
+        "points": 25,
+        "played": 12,
+        "wins": 8,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 25,
+        "goals_against": 19,
+        "goal_difference": 6
+      },
+      {
+        "rank": 4,
+        "slug": "fc-tokyo",
+        "name_zh": "FC東京",
+        "points": 24,
+        "played": 11,
+        "wins": 7,
+        "draws": 3,
+        "losses": 1,
+        "goals_for": 21,
+        "goals_against": 8,
+        "goal_difference": 13
+      },
+      {
+        "rank": 5,
+        "slug": "kobe",
+        "name_zh": "神戶勝利船",
+        "points": 23,
+        "played": 12,
+        "wins": 7,
+        "draws": 2,
+        "losses": 3,
+        "goals_for": 18,
+        "goals_against": 11,
+        "goal_difference": 7
+      },
+      {
+        "rank": 6,
+        "slug": "kashima",
+        "name_zh": "鹿島鹿角",
+        "points": 20,
+        "played": 12,
+        "wins": 6,
+        "draws": 2,
+        "losses": 4,
+        "goals_for": 25,
+        "goals_against": 21,
+        "goal_difference": 4
+      },
+      {
+        "rank": 7,
+        "slug": "kawasaki",
+        "name_zh": "川崎前鋒",
+        "points": 19,
+        "played": 11,
+        "wins": 5,
+        "draws": 4,
+        "losses": 2,
+        "goals_for": 23,
+        "goals_against": 17,
+        "goal_difference": 6
+      },
+      {
+        "rank": 8,
+        "slug": "urawa",
+        "name_zh": "浦和紅鑽",
+        "points": 18,
+        "played": 11,
+        "wins": 6,
+        "draws": 0,
+        "losses": 5,
+        "goals_for": 20,
+        "goals_against": 23,
+        "goal_difference": -3
+      },
+      {
+        "rank": 9,
+        "slug": "yokohama-fm",
+        "name_zh": "橫濱水手",
+        "points": 17,
+        "played": 11,
+        "wins": 4,
+        "draws": 5,
+        "losses": 2,
+        "goals_for": 15,
+        "goals_against": 11,
+        "goal_difference": 4
+      },
+      {
+        "rank": 10,
+        "slug": "okayama",
+        "name_zh": "岡山綠雉",
+        "points": 16,
+        "played": 11,
+        "wins": 5,
+        "draws": 1,
+        "losses": 5,
+        "goals_for": 14,
+        "goals_against": 15,
+        "goal_difference": -1
+      },
+      {
+        "rank": 11,
+        "slug": "shimizu",
+        "name_zh": "清水心跳",
+        "points": 14,
+        "played": 12,
+        "wins": 4,
+        "draws": 2,
+        "losses": 6,
+        "goals_for": 10,
+        "goals_against": 20,
+        "goal_difference": -10
+      },
+      {
+        "rank": 12,
+        "slug": "nagoya",
+        "name_zh": "名古屋鯨魚",
+        "points": 13,
+        "played": 11,
+        "wins": 4,
+        "draws": 1,
+        "losses": 6,
+        "goals_for": 13,
+        "goals_against": 17,
+        "goal_difference": -4
+      },
+      {
+        "rank": 13,
+        "slug": "cerezo-osaka",
+        "name_zh": "大阪櫻花",
+        "points": 13,
+        "played": 11,
+        "wins": 3,
+        "draws": 4,
+        "losses": 4,
+        "goals_for": 10,
+        "goals_against": 17,
+        "goal_difference": -7
+      },
+      {
+        "rank": 14,
+        "slug": "nagasaki",
+        "name_zh": "長崎成功丸",
+        "points": 12,
+        "played": 11,
+        "wins": 3,
+        "draws": 3,
+        "losses": 5,
+        "goals_for": 15,
+        "goals_against": 18,
+        "goal_difference": -3
+      },
+      {
+        "rank": 15,
+        "slug": "gamba-osaka",
+        "name_zh": "大阪飛腳",
+        "points": 10,
+        "played": 11,
+        "wins": 2,
+        "draws": 4,
+        "losses": 5,
+        "goals_for": 12,
+        "goals_against": 19,
+        "goal_difference": -7
+      },
+      {
+        "rank": 16,
+        "slug": "mito",
+        "name_zh": "水戶蜀葵",
+        "points": 9,
+        "played": 11,
+        "wins": 2,
+        "draws": 3,
+        "losses": 6,
+        "goals_for": 12,
+        "goals_against": 16,
+        "goal_difference": -4
+      },
+      {
+        "rank": 17,
+        "slug": "kyoto",
+        "name_zh": "京都不死鳥",
+        "points": 9,
+        "played": 11,
+        "wins": 2,
+        "draws": 3,
+        "losses": 6,
+        "goals_for": 13,
+        "goals_against": 21,
+        "goal_difference": -8
+      },
+      {
+        "rank": 18,
+        "slug": "tokyo-verdy",
+        "name_zh": "東京綠茵",
+        "points": 8,
+        "played": 12,
+        "wins": 1,
+        "draws": 5,
+        "losses": 6,
+        "goals_for": 9,
+        "goals_against": 21,
+        "goal_difference": -12
+      },
+      {
+        "rank": 19,
+        "slug": "fukuoka",
+        "name_zh": "福岡黃蜂",
+        "points": 7,
+        "played": 12,
+        "wins": 2,
+        "draws": 1,
+        "losses": 9,
+        "goals_for": 13,
+        "goals_against": 21,
+        "goal_difference": -8
+      },
+      {
+        "rank": 20,
+        "slug": "chiba",
+        "name_zh": "千葉市原JEF聯",
+        "points": 6,
+        "played": 11,
+        "wins": 1,
+        "draws": 3,
+        "losses": 7,
+        "goals_for": 10,
+        "goals_against": 22,
+        "goal_difference": -12
+      }
+    ]
+  },
+  "quote_events": [
+    {
+      "date": "2026-10-23",
+      "title": "23日賽前採訪｜布羅德森與古巢",
+      "summary": "體育日本網上採訪，由livedoor全文轉載；屬25日本場賽前聲音。",
+      "entries": [
+        {
+          "team_slug": "kawasaki",
+          "speaker": "史雲特・布羅德森",
+          "role": "球員",
+          "topic": "岡山的兩年",
+          "paraphrase_zh": "形容在岡山的兩年是職業生涯最美好的時光，場內外都很愉快。",
+          "published_at": "2026-10-23",
+          "context": "pre_match",
+          "outlet": "體育日本・23日布羅德森採訪／livedoor轉載",
+          "url": "https://news.livedoor.com/article/detail/32641775/"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "史雲特・布羅德森",
+          "role": "球員",
+          "topic": "怎樣作出回報",
+          "paraphrase_zh": "想讓岡山看到最佳狀態及包括後場組織在內的進步，而非只想擊敗古巢。",
+          "published_at": "2026-10-23",
+          "context": "pre_match",
+          "outlet": "體育日本・23日布羅德森採訪／livedoor轉載",
+          "url": "https://news.livedoor.com/article/detail/32641775/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "title": "22日地方電視報道｜江坂終於打開入球帳戶",
+      "summary": "OHK／FNN報道21日水戶戰，發言屬該仗賽後；刊出日期為22日。",
+      "entries": [
+        {
+          "team_slug": "okayama",
+          "speaker": "江坂任",
+          "role": "球員",
+          "topic": "由入球帶動球隊",
+          "paraphrase_zh": "取得本季首球後，希望繼續累積，以攻擊表現帶領球隊。",
+          "published_at": "2026-10-22",
+          "context": "post_match",
+          "outlet": "岡山放送OHK／FNN・江坂水戶戰賽後談話",
+          "url": "https://www.fnn.jp/articles/-/1137618"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "title": "21日川崎2–1神戶｜輪換與後備改變比賽",
+      "entries": [
+        {
+          "team_slug": "kawasaki",
+          "speaker": "長谷部茂利",
+          "role": "主教練",
+          "topic": "換人與動力",
+          "paraphrase_zh": "認為換人也是勝出的原因；等待機會球員的動力很重要，要與教練組一起管理連戰。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "長谷部茂利",
+          "role": "主教練",
+          "topic": "後備伊藤",
+          "paraphrase_zh": "伊藤交出的是預期中的能力；大關與山市前半表現積極，換人為增加入球機會。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "伊藤達哉",
+          "role": "球員",
+          "topic": "傳中給馬仙奴",
+          "paraphrase_zh": "與馬仙奴此前已有相同配合的感覺，這次終於把球送進網。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "伊藤達哉",
+          "role": "球員",
+          "topic": "第二球原本想做甚麼",
+          "paraphrase_zh": "原想一腳送到門將與後衛之間，觸球與想像稍有不同，直接入網有幸運成分。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "馬仙奴",
+          "role": "球員",
+          "topic": "操練與默契",
+          "paraphrase_zh": "先入球是與伊藤平日操練及溝通的成果，互相看見位置便能完成配合。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "大關友翔",
+          "role": "球員",
+          "topic": "先發任務",
+          "paraphrase_zh": "知道脇坂在後備，不必把自己留到90分鐘；先全力踢，再把比賽交給隊友。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "山市秀翔",
+          "role": "球員",
+          "topic": "本職中場、今仗邊路",
+          "paraphrase_zh": "想以積極表現讓人認識自己；認為踢不同位置有助理解隊友，第二點爭奪仍是長處。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "河原創",
+          "role": "球員",
+          "topic": "珍惜機會",
+          "paraphrase_zh": "強調比賽不能突然變好，必須做好每天練習；為第二球送入身後是自己的進步。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "佐佐木旭",
+          "role": "球員",
+          "topic": "換人後仍保持共同踢法",
+          "paraphrase_zh": "認為大關、山市積極且能對抗神戶強度；誰上陣都能贏，連戰才有足夠支撐。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "丸山祐市",
+          "role": "球員",
+          "topic": "2–0後失守",
+          "paraphrase_zh": "本想零封，卻讓對方前鋒把握一瞬空隙；勝出值得高興，防守細節仍要改。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "小林悠",
+          "role": "球員",
+          "topic": "久違主場J1上陣",
+          "paraphrase_zh": "感到球隊正變強，球場氣氛幫助球隊取勝；從比賽感受到向上爭取的方向。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "川崎官方・21日神戶戰及賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "title": "21日岡山水戶戰賽後｜反彈、部署與連戰",
+      "summary": "球會及J.League免費官方訪問；以下為中文意譯。",
+      "entries": [
+        {
+          "team_slug": "okayama",
+          "speaker": "木山隆之",
+          "role": "監督",
+          "topic": "止跌後的下一步",
+          "paraphrase_zh": "終於贏波稍感安心，但很快又有比賽，仍希望球隊繼續改善；正選和後備都有完成自己的任務。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "岡山官方・21日木山與江坂賽後訪問",
+          "url": "https://www.fagiano-okayama.com/news/202610212220/"
+        },
+        {
+          "team_slug": "okayama",
+          "speaker": "江坂任",
+          "role": "球員",
+          "topic": "連戰與反彈",
+          "paraphrase_zh": "中兩日令體能吃緊，但全隊以氣魄補足，零失球贏波有重新站起來的意義。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "岡山官方・21日木山與江坂賽後訪問",
+          "url": "https://www.fagiano-okayama.com/news/202610212220/"
+        },
+        {
+          "team_slug": "okayama",
+          "speaker": "江坂任",
+          "role": "球員",
+          "topic": "入球與賽前部署",
+          "paraphrase_zh": "首球利用盧卡奧背身護球配合；第二球正是原先設計的死球形式，他讚揚球隊的對手研究。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "岡山官方・21日木山與江坂賽後訪問",
+          "url": "https://www.fagiano-okayama.com/news/202610212220/"
+        },
+        {
+          "team_slug": "okayama",
+          "speaker": "藤井葉大",
+          "role": "球員",
+          "topic": "J1首演與復出",
+          "paraphrase_zh": "年初回到岡山後受傷影響，如今終於完成J1首演；上場任務是在左路上下走動覆蓋，守住零失球。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "J.League・21日岡山球員訪問",
+          "url": "https://www.jleague.jp/match/j1/2026/102113/player/"
+        },
+        {
+          "team_slug": "okayama",
+          "speaker": "鈴木喜丈",
+          "role": "球員",
+          "topic": "身體狀態與連戰",
+          "paraphrase_zh": "自覺身體和膝部逐漸改善，但狀態愈好愈要護理，避免再受傷令努力重頭開始。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "J.League・21日岡山球員訪問",
+          "url": "https://www.jleague.jp/match/j1/2026/102113/player/"
+        },
+        {
+          "team_slug": "okayama",
+          "speaker": "木山隆之",
+          "role": "監督",
+          "topic": "鈴木的疲勞管理",
+          "paraphrase_zh": "鈴木先前踢完盃賽120分鐘仍接連踢聯賽；隊醫團隊表示可以上陣，教練承認有疲勞但肯定其表現。",
+          "published_at": "2026-10-21",
+          "context": "post_match",
+          "outlet": "J.League・21日木山監督訪問",
+          "url": "https://www.jleague.jp/match/j1/2026/102113/coach/"
+        }
+      ]
+    }
+  ],
+  "quote_status": {
+    "text": "已收錄20則近期發言：兩隊21日賽後官方訪問、江坂22日電視報道及布羅德森23日賽前採訪。25日新賽前訪問待比賽日追加。",
+    "kind": "fact",
+    "as_of": "2026-10-24",
+    "sources": [
+      {
+        "label": "川崎官方・21日神戶戰及賽後訪問",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "岡山官方・21日水戶戰紀錄",
+        "url": "https://www.fagiano-okayama.com/game/2026102113/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "岡山放送OHK／FNN・江坂水戶戰賽後談話",
+        "url": "https://www.fnn.jp/articles/-/1137618",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "體育日本・23日布羅德森採訪／livedoor轉載",
+        "url": "https://news.livedoor.com/article/detail/32641775/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-23"
+      },
+      {
+        "label": "川崎官方・25日本場資料及訪問欄",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "岡山官方・21日木山與江坂賽後訪問",
+        "url": "https://www.fagiano-okayama.com/news/202610212220/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "J.League・21日岡山球員訪問",
+        "url": "https://www.jleague.jp/match/j1/2026/102113/player/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "J.League・21日木山監督訪問",
+        "url": "https://www.jleague.jp/match/j1/2026/102113/coach/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      }
+    ]
+  },
+  "preview": {
+    "cues": [
+      {
+        "text": "川崎19分對岡山16分；兩隊21日都勝出，25日同為中三日。",
+        "kind": "fact",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "J.League Data Site・川崎首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "J.League Data Site・岡山首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "川崎官方・25日本場資料及訪問欄",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      {
+        "text": "川崎上仗五換先發，岡山兩換；留意伊藤、脇坂、山本會否重回先發，及岡山右翼衛如何應對馬仙奴。",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "Football LAB・川崎首11輪陣式",
+            "url": "https://www.football-lab.jp/ka-f/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      },
+      {
+        "text": "布羅德森首次面對古巢；江坂剛梅開二度。兩隊2025聯賽兩戰皆和，這次爭首個J1對賽勝仗。",
+        "kind": "fact",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "體育日本・23日布羅德森採訪／livedoor轉載",
+            "url": "https://news.livedoor.com/article/detail/32641775/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-23"
+          },
+          {
+            "label": "J.League・須賀大輔本場前瞻",
+            "url": "https://www.jleague.jp/match/j1/2026/102506/",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "Football LAB・本場對賽資料（須以當前球會名單過濾傷停欄）",
+            "url": "https://www.football-lab.jp/ka-f/preview",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "01｜三分差距：向上追趕，還是被身後追平？",
+        "paragraphs": [
+          {
+            "text": "川崎11輪19分、岡山16分。川崎勝可把兩隊差距拉至6分；岡山勝便在積分上追平，總排名還要看得失球差及其他賽果。24日榜上有部分球隊已踢12場，這份資料是同一來源快照，不假裝所有比賽已完成。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "SportsNavi／Yahoo・24日聯賽榜快照",
+                "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "這是兩隊一週三場聯賽的最後一場；21日至25日同為中三日。川崎上仗在主場，岡山上仗亦主場但本輪要作客。比較負荷應看個人分鐘與位置，不能只拿旅程或正選變動數當作體能結論。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "岡山官方・21日水戶戰紀錄",
+                "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "川崎官方・25日本場資料及訪問欄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "02｜川崎：真正有用的訊號，是先發與後備能接力",
+        "paragraphs": [
+          {
+            "text": "神戶戰59分鐘，伊藤達哉及脇坂泰斗同時入替山市與大關，61分鐘便由伊藤傳中、馬仙奴頂入，71分鐘伊藤再建功。這不是說兩名先發踢得差；教練及球員都描述了先以高強度帶動，再由後備增加終結的接力。25日要看對手是否容許相同節奏。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "長谷部賽後並不把輪換形容為勝利中的障礙，反而認為等待機會球員的動力能幫助球隊。這個觀點與「主力留力，所以一定更強」有別；假如岡山先把比賽拉進對抗與第二點，川崎仍要有人控制第一傳，而不是等明星後備入場才開始踢。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "03｜岡山：水戶戰止跌，不能抹去神戶戰教訓",
+        "paragraphs": [
+          {
+            "text": "18日0–3後，木山與江坂談到處理球質素、短清球及關鍵位置失誤；難波拓未的專欄也區分了「沒有完全被壓倒」與「細節足以輸三球」。這是18日賽後、21日上午刊出的背景，不是水戶戰賽後的新批評。",
+            "kind": "reported",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football Channel・難波拓未21日專欄（採訪18日）",
+                "url": "https://www.footballchannel.jp/2026/10/21/post1037451/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "21日江坂兩球把連敗止住，球隊14次射門對水戶7次，也回到零封。首球靠江坂與盧卡奧接應、第二球靠死球後再攻，說明岡山不只有長傳找高點。可延續的內容是攻中與中鋒距離、失去第一個機會後的第二波，而不是只說「信心回來了」。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "岡山官方・21日水戶戰紀錄",
+                "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "岡山放送OHK／FNN・江坂水戶戰賽後談話",
+                "url": "https://www.fnn.jp/articles/-/1137618",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "04｜第一道對位：誰在中場兩線之間轉得身？",
+        "paragraphs": [
+          {
+            "text": "川崎4-2-3-1對岡山3-4-2-1，名義上的兩名防中都可能面對不止一個接應點。當脇坂或大關移到岡山中場身旁，岡山中堅跟不跟？跟出來便可能留下身後，不跟便要靠宮本或奧比頓移位堵路。這些是開場觀察題，不是已確認的盯人部署。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・川崎首11輪陣式",
+                "url": "https://www.football-lab.jp/ka-f/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "Football LAB・岡山首11輪陣式",
+                "url": "https://www.football-lab.jp/okay/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          },
+          {
+            "text": "反過來，川崎若讓邊閘向前，江坂與羅相浩接到第二點便有機會面向防線。橘田是否留在球後、另一防中能否先延緩反擊，影響中堅要不要離開禁區前端上搶。比分未開前，也值得看川崎有沒有先用寬度移動岡山，再進入中央。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・川崎首11輪陣式",
+                "url": "https://www.football-lab.jp/ka-f/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "Football LAB・岡山首11輪陣式",
+                "url": "https://www.football-lab.jp/okay/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "岡山官方・21日水戶戰紀錄",
+                "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "05｜第二道對位：盧卡奧拿球後，誰真正進入禁區？",
+        "paragraphs": [
+          {
+            "text": "盧卡奧本季助攻4次，不能只按1個入球評價。他回接或流向邊路時，可以幫助江坂與羅相浩接球；但如果所有人都靠向同一側，禁區內便可能缺少接應。21日第一球最值得重播的不是只有最後射門，而是江坂傳出去後沒有停下來，繼續走入接應位置。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・岡山球員排行（首11輪）",
+                "url": "https://www.football-lab.jp/okay/ranking",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "岡山官方・21日水戶戰紀錄",
+                "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "川崎中堅對長傳的第一點很重要，身旁的人處理第二點同樣重要。丸山21日承認被神戶把握一瞬空隙，說明即使整體控制局面也會有局部風險。若岡山中鋒背身接球，先延緩轉身、再與回追隊友夾擊，是可在現場檢視的防守選擇。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "Football LAB・岡山首11輪陣式",
+                "url": "https://www.football-lab.jp/okay/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "06｜第三道對位：伊藤傳中、馬仙奴遠柱，岡山怎樣交接？",
+        "paragraphs": [
+          {
+            "text": "伊藤與馬仙奴21日都說，首球是練過及談過的配合。這讓評述有一個具體問題：球在川崎右路時，岡山遠側翼衛能否同時看球與看馬仙奴？中堅是否需要向外協防，又由誰接管中路？不要只在射門那刻才評論後防站位。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "21日岡山松本昌也先發右翼衛、白井康介後備；白井本季又踢過左右兩邊。25日正式人腳會影響哪一邊由誰盯翼鋒。若川崎翼鋒需要長時間回追岡山翼衛，進攻時的起跑位置也會更後，這是兩邊互相牽制而非單向壓迫。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・岡山首11輪陣式",
+                "url": "https://www.football-lab.jp/okay/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "岡山官方・21日水戶戰紀錄",
+                "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "Football LAB・川崎首11輪陣式",
+                "url": "https://www.football-lab.jp/ka-f/formation",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "07｜數據告訴甚麼，也沒有告訴甚麼",
+        "paragraphs": [
+          {
+            "text": "川崎每場16.4次射門，岡山每場只容許對手10.2次射門，前者的進攻量碰上後者的壓制能力。岡山xGA1.027而實際失球1.36，顯示限制機會的過程與最後結果並不完全一致；不能直接把差距全算在門將身上，因為射門質素、死球及終結都有影響。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・川崎首11輪統計",
+                "url": "https://www.football-lab.jp/ka-f",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "Football LAB・岡山首11輪統計",
+                "url": "https://www.football-lab.jp/okay",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          },
+          {
+            "text": "馬仙奴7球高於其累積xG3.438，是已經發生的高效率，不是今場必入球的保證；盧卡奧1球低於2.086 xG，也不等於每場都在錯失必入球。將小樣本效率與對位一起看，比單用「應該回歸」預言比數更有用。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "Football LAB・川崎首11輪統計",
+                "url": "https://www.football-lab.jp/ka-f",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "Football LAB・岡山首11輪統計",
+                "url": "https://www.football-lab.jp/okay",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "08｜連戰用人：川崎有較多分擔，岡山核心仍連續作戰",
+        "paragraphs": [
+          {
+            "text": "川崎21日換5個先發，伊藤與脇坂各31分鐘，山本只8分鐘；岡山只換2個先發，江坂66分鐘便離場，盧卡奧則接近全場。這提供用人背景，但沒有操練與身體數據，不能斷言岡山一定先沒力，或川崎一定可以維持高強度。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "J.League Data Site・川崎首11輪出場與紀律",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "J.League Data Site・岡山首11輪出場與紀律",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "岡山官方・21日水戶戰紀錄",
+                "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "text": "川崎下一站28日聯賽盃作客鳥棲，連戰並未結束。上仗先用大關與山市後能取勝，會增加教練選擇；同時，山原及中堅的狀態要等最新消息。25日若再次輪換，要從角色、負荷與對手一起讀，而不把任何落選直接寫成傷患。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・25日本場資料及訪問欄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "09｜倒戈與新力量：把人物故事接回場上",
+        "paragraphs": [
+          {
+            "text": "布羅德森23日說希望展示自己更好的後場組織，並不是因古巢而格外想擊敗對方。這條故事可以接到川崎第一階段出球：岡山前線對他的傳球習慣是否有反應？江坂等前隊友是否封住某一側？熟悉不是讀心，只有實際壓迫與傳球方向能回答。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "體育日本・23日布羅德森採訪／livedoor轉載",
+                "url": "https://news.livedoor.com/article/detail/32641775/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-23"
+              },
+              {
+                "label": "J.League・須賀大輔本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/102506/",
+                "accessed_at": "2026-10-24"
+              }
+            ]
+          },
+          {
+            "text": "川崎的大關與山市都有21日具體訪問，能解釋年輕球員如何面對機會及交接。岡山的河野則以257分鐘3球領隊內射手榜，可作後備資料，但本次未找到足夠新的技巧訪問，不替他杜撰「天生殺手」等描述。小林悠仍可入選，退役日期是明年1月1日，這點也要說清。",
+            "kind": "analysis",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・21日神戶戰及賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League Data Site・岡山首11輪出場與紀律",
+                "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "川崎官方・小林悠預定2027年1月1日退役",
+                "url": "https://www.frontale.co.jp/info/2026/0923_1.html",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-09-23"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10｜日本作者的看法與核對界線",
+        "paragraphs": [
+          {
+            "text": "23日球迷戰術作者せこ在本場前瞻認為，川崎應利用兩線間接應，並警惕比賽失控後的往返攻防。此為有具體觀察的作者觀點，並非教練已公布的計劃；文中部分彙總數據與官方截點有差異，本頁數字另以原始統計核對。",
+            "kind": "opinion",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "せこノート・23日本場戰術前瞻（球迷作者觀點）",
+                "url": "https://seko-note.com/57053/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-23"
+              }
+            ]
+          },
+          {
+            "text": "川崎官方25日頁的賽前訪問欄目前只有佔位符；兩隊21日賽後官方訪問已有免費內文。岡山江坂特別點出次個入球來自預先研究的死球部署；鈴木則談到連戰後身體護理。正選、6名球證組、實際天氣及新的傷患復出消息留待比賽日。",
+            "kind": "fact",
+            "as_of": "2026-10-24",
+            "sources": [
+              {
+                "label": "川崎官方・25日本場資料及訪問欄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-24"
+              },
+              {
+                "label": "岡山官方・21日水戶戰紀錄",
+                "url": "https://www.fagiano-okayama.com/game/2026102113/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "體育日本・23日布羅德森採訪／livedoor轉載",
+                "url": "https://news.livedoor.com/article/detail/32641775/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-23"
+              },
+              {
+                "label": "岡山放送OHK／FNN・江坂水戶戰賽後談話",
+                "url": "https://www.fnn.jp/articles/-/1137618",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-22"
+              },
+              {
+                "label": "岡山官方・21日木山與江坂賽後訪問",
+                "url": "https://www.fagiano-okayama.com/news/202610212220/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・21日岡山球員訪問",
+                "url": "https://www.jleague.jp/match/j1/2026/102113/player/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              },
+              {
+                "label": "J.League・21日木山監督訪問",
+                "url": "https://www.jleague.jp/match/j1/2026/102113/coach/",
+                "accessed_at": "2026-10-24",
+                "published_at": "2026-10-21"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "head_to_head": [
+    {
+      "text": "2025年3月16日岡山主場0–0；11月8日川崎主場1–1。兩隊J1交鋒0勝2和0負、各1入球；25日將爭J1首次勝出。這裏不混入盃賽加時或12碼結果。",
+      "kind": "fact",
+      "as_of": "2026-10-24",
+      "sources": [
+        {
+          "label": "川崎官方・25日本場資料及訪問欄",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+          "accessed_at": "2026-10-24"
+        },
+        {
+          "label": "Football LAB・本場對賽資料（須以當前球會名單過濾傷停欄）",
+          "url": "https://www.football-lab.jp/ka-f/preview",
+          "accessed_at": "2026-10-24",
+          "published_at": "2026-10-22"
+        }
+      ]
+    }
+  ],
+  "tactical_matchups": [
+    {
+      "topic": "兩線間接應",
+      "home": {
+        "text": "脇坂或大關能否在兩名防中身旁接球轉身？如果被封，先用邊路拉開。",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "Football LAB・川崎首11輪陣式",
+            "url": "https://www.football-lab.jp/ka-f/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      },
+      "away": {
+        "text": "宮本、奧比頓與中堅交接要清楚；防中被拉開時，誰保護禁區前沿？",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "Football LAB・川崎首11輪陣式",
+            "url": "https://www.football-lab.jp/ka-f/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "遠柱傳中",
+      "home": {
+        "text": "伊藤在右路時，馬仙奴何時由另一側啟動？觀察兩人視線與提前起步。",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      },
+      "away": {
+        "text": "遠側翼衛及中堅如何分工盯人；壓向球側後能否照顧弱側？",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "盧卡奧支點",
+      "home": {
+        "text": "中堅不只爭第一點，也要避免上搶後讓江坂接到回傳。",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          }
+        ]
+      },
+      "away": {
+        "text": "盧卡奧回接，江坂是否像水戶戰般傳出後立即前插？",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "攻守轉換",
+      "home": {
+        "text": "若邊閘壓高，中場是否先限制羅相浩向前帶球？",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "Football LAB・川崎首11輪陣式",
+            "url": "https://www.football-lab.jp/ka-f/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "Football LAB・岡山球員排行（首11輪）",
+            "url": "https://www.football-lab.jp/okay/ranking",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      },
+      "away": {
+        "text": "反擊開始能否先面向前場，並保留一個禁區內接應點？",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "Football LAB・岡山首11輪陣式",
+            "url": "https://www.football-lab.jp/okay/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "Football LAB・川崎首11輪陣式",
+            "url": "https://www.football-lab.jp/ka-f/formation",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "Football LAB・岡山球員排行（首11輪）",
+            "url": "https://www.football-lab.jp/okay/ranking",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "死球與第二波",
+      "home": {
+        "text": "岡山每場6.1角球；清走第一球後，禁區邊緣仍要有人照顧江坂。",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "Football LAB・岡山首11輪統計",
+            "url": "https://www.football-lab.jp/okay",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          }
+        ]
+      },
+      "away": {
+        "text": "21日江坂第二球來自角球後再攻；第一球被擋不能讓整隊停止移動。",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "Football LAB・岡山首11輪統計",
+            "url": "https://www.football-lab.jp/okay",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-22"
+          },
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "後備與比賽管理",
+      "home": {
+        "text": "31分鐘已能改變比賽的伊藤，以及脇坂、山本等，今場怎樣安排先發與後段？",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "J.League Data Site・川崎首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "J.League Data Site・岡山首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      "away": {
+        "text": "江坂、盧卡奧若換下，神谷、河野或高祖要如何維持相同連接？",
+        "kind": "analysis",
+        "as_of": "2026-10-24",
+        "sources": [
+          {
+            "label": "川崎官方・21日神戶戰及賽後訪問",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "岡山官方・21日水戶戰紀錄",
+            "url": "https://www.fagiano-okayama.com/game/2026102113/",
+            "accessed_at": "2026-10-24",
+            "published_at": "2026-10-21"
+          },
+          {
+            "label": "J.League Data Site・川崎首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+            "accessed_at": "2026-10-24"
+          },
+          {
+            "label": "J.League Data Site・岡山首11輪出場與紀律",
+            "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      }
+    }
+  ],
+  "coverage_gaps": [
+    "25日正式11正選＋後備及6名球證組待官方公布。",
+    "球場實測天氣及25日最新逐時預報待比賽日覆核；未把24日其他場地天氣移用。",
+    "谷口、紺野、野田、林等復出日未公告；羅曼奴與三浦最新可用性需再查。",
+    "大森博等未入選原因沒有可靠公開確認，不直接標示傷患或停賽。",
+    "當前名單號碼均有卡；這次名單稽核不代表岡山所有永久傳記已達完整驗證標準。"
+  ],
+  "research_sweep": {
+    "as_of": "2026-10-24",
+    "latest_completed_round": 11,
+    "roster_audit": {
+      "kawasaki": {
+        "checked_at": "2026-10-24",
+        "official_count": 38,
+        "missing_card_numbers": [],
+        "not_on_official_roster": [],
+        "sources": [
+          {
+            "label": "川崎官方・本季球員名單原始資料",
+            "url": "https://www.frontale.co.jp/profile/2026-27/assets/json/member.json?260806b",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      },
+      "okayama": {
+        "checked_at": "2026-10-24",
+        "official_count": 36,
+        "missing_card_numbers": [],
+        "not_on_official_roster": [],
+        "sources": [
+          {
+            "label": "岡山官方・2026/27一隊名單",
+            "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+            "accessed_at": "2026-10-24"
+          }
+        ]
+      }
+    },
+    "interview_entries": 20,
+    "sources": [
+      {
+        "label": "川崎官方・25日本場資料及訪問欄",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "J.League・須賀大輔本場前瞻",
+        "url": "https://www.jleague.jp/match/j1/2026/102506/",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "川崎官方・21日神戶戰及賽後訪問",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "川崎官方・17日大阪櫻花戰",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/10.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-17"
+      },
+      {
+        "label": "岡山官方・21日水戶戰紀錄",
+        "url": "https://www.fagiano-okayama.com/game/2026102113/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "岡山官方・18日神戶戰紀錄",
+        "url": "https://www.fagiano-okayama.com/game/2026101813/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-18"
+      },
+      {
+        "label": "Football LAB・川崎首11輪陣式",
+        "url": "https://www.football-lab.jp/ka-f/formation",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "Football LAB・岡山首11輪陣式",
+        "url": "https://www.football-lab.jp/okay/formation",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "Football LAB・川崎首11輪統計",
+        "url": "https://www.football-lab.jp/ka-f",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "Football LAB・岡山首11輪統計",
+        "url": "https://www.football-lab.jp/okay",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "Football LAB・川崎球員排行（首11輪）",
+        "url": "https://www.football-lab.jp/ka-f/ranking",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "Football LAB・岡山球員排行（首11輪）",
+        "url": "https://www.football-lab.jp/okay/ranking",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "J.League Data Site・川崎首11輪出場與紀律",
+        "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=21",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "J.League Data Site・岡山首11輪出場與紀律",
+        "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_id=725&competition_year=2026&team_id=42",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "SportsNavi／Yahoo・24日聯賽榜快照",
+        "url": "https://soccer.yahoo.co.jp/jleague/category/j1/standings",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "J.League・22日公布第12節停賽名單",
+        "url": "https://www.jleague.jp/news/article/35184/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "體育日本・23日布羅德森採訪／livedoor轉載",
+        "url": "https://news.livedoor.com/article/detail/32641775/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-23"
+      },
+      {
+        "label": "岡山放送OHK／FNN・江坂水戶戰賽後談話",
+        "url": "https://www.fnn.jp/articles/-/1137618",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-22"
+      },
+      {
+        "label": "Football Channel・難波拓未21日專欄（採訪18日）",
+        "url": "https://www.footballchannel.jp/2026/10/21/post1037451/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "せこノート・23日本場戰術前瞻（球迷作者觀點）",
+        "url": "https://seko-note.com/57053/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-23"
+      },
+      {
+        "label": "川崎官方・本季球員名單原始資料",
+        "url": "https://www.frontale.co.jp/profile/2026-27/assets/json/member.json?260806b",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "岡山官方・2026/27一隊名單",
+        "url": "https://www.fagiano-okayama.com/team/2026-27/players/",
+        "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "川崎官方・野田裕人傷患公告",
+        "url": "https://www.frontale.co.jp/info/2026/1018_1.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-18"
+      },
+      {
+        "label": "川崎官方・谷口榮斗傷患公告",
+        "url": "https://www.frontale.co.jp/info/2026/1012_2.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-12"
+      },
+      {
+        "label": "川崎官方・紺野和也傷患公告",
+        "url": "https://www.frontale.co.jp/info/2026/1012_1.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-12"
+      },
+      {
+        "label": "川崎官方・林駿佑傷患公告",
+        "url": "https://www.frontale.co.jp/info/2026/1004_1.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-04"
+      },
+      {
+        "label": "岡山官方・田上大地傷患公告",
+        "url": "https://www.fagiano-okayama.com/news/202610171600/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-17"
+      },
+      {
+        "label": "川崎官方・小林悠預定2027年1月1日退役",
+        "url": "https://www.frontale.co.jp/info/2026/0923_1.html",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-09-23"
+      },
+      {
+        "label": "岡山官方・21日木山與江坂賽後訪問",
+        "url": "https://www.fagiano-okayama.com/news/202610212220/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "J.League・21日岡山球員訪問",
+        "url": "https://www.jleague.jp/match/j1/2026/102113/player/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      },
+      {
+        "label": "J.League・21日木山監督訪問",
+        "url": "https://www.jleague.jp/match/j1/2026/102113/coach/",
+        "accessed_at": "2026-10-24",
+        "published_at": "2026-10-21"
+      }
+    ],
+    "matchday_checks": [
+      "正式名單與球員可用狀態",
+      "六名球證組",
+      "最新停賽更正及黃牌風險",
+      "新的公開賽前採訪／操練線索",
+      "逐時天氣與球場實測"
+    ]
+  }
+}

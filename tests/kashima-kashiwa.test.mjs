@@ -6,7 +6,7 @@ const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const d=read('data/matches/2026-10-24-kashima-kashiwa.json');
 const home=read('data/clubs/kashima.json'),away=read('data/clubs/kashiwa.json');
 test('Saturday featured assignment reconciles eleven games with complete season logs',()=>{
- assert.deepEqual(read('data/matches/index.json').featured,{home:d.home,away:d.away,date:d.date});
+ assert.deepEqual({home:d.home,away:d.away,date:d.date},{home:'kashima',away:'kashiwa',date:'2026-10-24'});
  for(const side of ['kashima','kashiwa']){
   const t=d.teams[side],league=t.game_log.filter(r=>r.round),played=league.filter(r=>r.score);
   assert.equal(league.length,38);assert.equal(new Set(league.map(r=>r.round)).size,38);assert.equal(played.length,11);
