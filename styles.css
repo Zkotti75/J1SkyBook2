@@ -279,3 +279,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 .match-date-label strong { display:block; font-size:1.15rem; color:var(--text); }
 .match-date-label span { display:block; margin-top:6px; }
+
+.fixture-match-control { display:flex; align-items:center; gap:8px; min-width:0; }
+.fixture-match-control #match-selector { width:clamp(150px,23vw,310px); margin:0; min-width:0; font-size:.85rem; }
+@media(max-width:650px) { .fixture-match-control { flex-direction:column; gap:4px; max-width:160px; } .fixture-match-control #match-selector { width:100%; font-size:.72rem; } }

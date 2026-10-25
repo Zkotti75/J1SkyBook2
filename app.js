@@ -53,6 +53,7 @@ function fillSelectors() {
   }
   $('#home-team').value = state.matchIndex.featured.home;
   $('#away-team').value = state.matchIndex.featured.away;
+  $('#match-selector').innerHTML = state.matchIndex.fixtures.map(f=>`<option value="${matchRoute(f.home,f.away,f.date,'comparison')}">${esc(f.date.slice(5))} ${esc(manifestTeam(f.home).name_zh)} 對 ${esc(manifestTeam(f.away).name_zh)}</option>`).join('');
   syncFixtureButtons();
 }
 
@@ -67,6 +68,8 @@ function syncFixtureButtons() {
   $('#away-button').classList.toggle('active', state.mode === 'club' && state.slot === 'away');
   $('#match-button').classList.toggle('active', state.mode === 'match');
   $('#match-button').setAttribute('aria-pressed', String(state.mode === 'match'));
+  const f=state.matchIndex.featured;
+  $('#match-selector').value=matchRoute(f.home,f.away,f.date,'comparison');
   $('#back-to-team').textContent = state.mode === 'match' ? '主隊概覽' : '球隊概覽';
 }
 
@@ -321,7 +324,7 @@ async function renderMatchRoute(route, renderId) {
   syncFixtureButtons();
   document.documentElement.style.setProperty('--team', '#38bdf8');
   document.documentElement.style.setProperty('--team-text', '#091321');
-  $('#match-nav').innerHTML = `<div class="match-nav-heading">MATCH CENTRE<span>比賽資料</span></div>` + state.matchIndex.fixtures.map(f=>`<a class="match-nav-item" href="${matchRoute(f.home,f.away,f.date,state.matchPage)}">${f.date} ${manifestTeam(f.home).name_zh} 對 ${manifestTeam(f.away).name_zh}</a>`).join('') + MATCH_PAGES.map((p, i) => `<button type="button" data-match-page="${p.id}" class="match-nav-item ${p.id === state.matchPage ? 'active' : ''}" ${p.id === state.matchPage ? 'aria-current="page"' : ''}><span class="match-nav-number">${String(i + 1).padStart(2, '0')}</span><span>${p.label}<small>${p.description}</small></span></button>`).join('');
+  $('#match-nav').innerHTML = `<div class="match-nav-heading">MATCH CENTRE<span>比賽資料</span></div>` + MATCH_PAGES.map((p, i) => `<button type="button" data-match-page="${p.id}" class="match-nav-item ${p.id === state.matchPage ? 'active' : ''}" ${p.id === state.matchPage ? 'aria-current="page"' : ''}><span class="match-nav-number">${String(i + 1).padStart(2, '0')}</span><span>${p.label}<small>${p.description}</small></span></button>`).join('');
   $('#detail').innerHTML = $('#loading-template').innerHTML;
   try {
     const date = state.matchDate, page = state.matchPage;
@@ -357,6 +360,7 @@ async function init() {
     if (state.mode === 'match') { state.slot = slot; location.hash = `#/club/${$(`#${slot}-team`).value}`; }
     else activateSlot(state.slot);
   });
+  $('#match-selector').addEventListener('change',()=>{const route=parseMatchRoute($('#match-selector').value);location.hash=matchRoute(route.home,route.away,route.date,state.matchPage);});
   $('#match-button').addEventListener('click', () => { location.hash = currentMatchRoute(); });
   $('#match-nav').addEventListener('click', event => { const b = event.target.closest('[data-match-page]'); if (b) location.hash = currentMatchRoute(b.dataset.matchPage); });
   $('#back-to-team').addEventListener('click', () => { location.hash = `#/club/${state.mode === 'match' ? $('#home-team').value : state.activeSlug}`; });

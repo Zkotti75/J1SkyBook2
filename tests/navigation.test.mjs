@@ -80,3 +80,10 @@ test('confirmed assignments can switch without falling back to the featured game
  assert.equal(hash,'#/match/machida/gamba-osaka/2026-11-01/quotes');
  assert.ok(element('#detail').innerHTML.includes('主教練訪問'));
 });
+test('header match dropdown switches assignments and keeps the selected section',async()=>{
+ const select=element('#match-selector');assert.ok(select.innerHTML.includes('10-31'));assert.ok(select.innerHTML.includes('gamba-osaka'));
+ assert.ok(!element('#match-nav').innerHTML.includes('<a class="match-nav-item"'));
+ select.value='#/match/yokohama-fm/kawasaki/2026-11-01/comparison';select.listeners.change();await settled();
+ assert.equal(hash,'#/match/yokohama-fm/kawasaki/2026-11-01/quotes');
+ assert.equal(select.value,'#/match/yokohama-fm/kawasaki/2026-11-01/comparison');
+});
