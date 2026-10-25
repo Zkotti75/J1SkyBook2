@@ -3,14 +3,14 @@
   "home": "kawasaki",
   "away": "okayama",
   "date": "2026-10-25",
-  "as_of": "2026-10-24",
-  "coverage_note": "25日川崎對岡山準備版：兩隊首11輪統計、全38輪聯賽與已定盃賽、上兩仗分鐘／輪換、20則近期訪問及當前名單差異檢查已收錄。25日15:00 HKT開賽；正式名單、球證組及即日天氣待臨場更新。",
+  "as_of": "2026-10-25",
+  "coverage_note": "25日14:00 HKT臨場版：兩隊正式11正選及9後備、6名球證已核對。川崎較21日換5人、岡山換2人；25則近期發言。球場實測天氣仍未公布。",
   "match_info": {
     "kickoff_hkt": "15:00（日本16:00）",
     "stadium": "Uvance等等力體育場 by Fujitsu",
-    "referee": null,
-    "lineups_as_of": null,
-    "selection_note": "25日正式11正選＋後備尚未公布；本頁不把21日名單或常用架構當作預測正選。",
+    "referee": "先立圭吾",
+    "lineups_as_of": "2026-10-25 14:00 HKT 官方名單核對",
+    "selection_note": "兩隊正式11正選及9後備已公布；圖中站位按常用架構示意，並非官方公布每人實際站位。",
     "sources": [
       {
         "label": "川崎官方・25日本場資料及訪問欄",
@@ -21,56 +21,67 @@
         "label": "J.League・須賀大輔本場前瞻",
         "url": "https://www.jleague.jp/match/j1/2026/102506/",
         "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-25"
       }
     ],
     "officials": {
-      "status": "awaiting_appointment",
-      "checked_at": "2026-10-24T16:31+08:00",
-      "checked_at_display": "2026-10-24 準備掃描",
-      "note": "川崎官方25日頁球證組欄尚空白；六個職務均待本場委任確認，不沿用21日或24日球證。",
+      "status": "confirmed",
+      "checked_at": "2026-10-25T14:00+08:00",
+      "checked_at_display": "25日14:00 HKT",
+      "note": "六名球證以川崎官方本場開催資料確認。",
       "roles": [
         {
           "id": "referee",
           "label": "主球證",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "先立圭吾",
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "assistant_1",
           "label": "旁證1",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "渡辺康太",
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "assistant_2",
           "label": "旁證2",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "亀川哲弘",
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "fourth_official",
           "label": "第4球證",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "高崎航地",
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "var",
           "label": "VAR",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "上村篤史",
+          "status": "confirmed",
+          "profile": null
         },
         {
           "id": "avar",
           "label": "AVAR",
-          "name_ja": null,
-          "status": "pending"
+          "name_ja": "俵元希",
+          "status": "confirmed",
+          "profile": null
         }
       ],
       "sources": [
         {
-          "label": "川崎官方・25日本場資料及訪問欄",
+          "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
           "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
-          "accessed_at": "2026-10-24"
+          "accessed_at": "2026-10-25"
         }
       ]
     }
@@ -796,41 +807,297 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "25日正式正選與後備尚未公布；陣式圖用21日人腳示意，不能當作已確認名單。",
+            "text": "#49 史雲特・布羅德森",
             "kind": "fact",
-            "as_of": "2026-10-24",
+            "as_of": "2026-10-25",
             "sources": [
               {
-                "label": "川崎官方・25日本場資料及訪問欄",
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
                 "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
-                "accessed_at": "2026-10-24"
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 49
+          },
+          {
+            "text": "#29 山原怜音",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 29
+          },
+          {
+            "text": "#4 柏度・羅曼奴",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "text": "#22 菲利普・烏雷莫維奇",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 22
+          },
+          {
+            "text": "#13 三浦颯太",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 13
+          },
+          {
+            "text": "#8 橘田健人",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "text": "#6 山本悠樹",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "text": "#17 伊藤達哉",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "text": "#14 脇坂泰斗",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "text": "#23 馬仙奴",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "text": "#97 德里基・拉塞爾達",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 97
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 山口瑠伊",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "text": "#5 佐佐木旭",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "text": "#28 丸山祐市",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "text": "#16 大關友翔",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 16
+          },
+          {
+            "text": "#19 河原創",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 19
+          },
+          {
+            "text": "#25 山市秀翔",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 25
+          },
+          {
+            "text": "#34 長璃喜",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 34
+          },
+          {
+            "text": "#20 持山匡佑",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 20
+          },
+          {
+            "text": "#11 小林悠",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 11
+          }
+        ],
+        "cues": [
+          {
+            "text": "較21日換5正選：烏雷莫維奇、三浦、山本、伊藤、脇坂入替丸山、佐佐木、河原、大關、山市。三浦回到左閘，山原續任右路。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
               }
             ]
           },
           {
-            "text": "開場先看：誰在岡山防中身旁接球？伊藤與馬仙奴能否重現遠柱連接？",
+            "text": "正式選人與預計站位須分開：進攻及防守時的位置交換，留待開賽確認。",
             "kind": "analysis",
-            "as_of": "2026-10-24",
+            "as_of": "2026-10-25",
             "sources": [
               {
-                "label": "Football LAB・川崎首11輪陣式",
-                "url": "https://www.football-lab.jp/ka-f/formation",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-22"
-              },
-              {
-                "label": "Football LAB・岡山首11輪陣式",
-                "url": "https://www.football-lab.jp/okay/formation",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-22"
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 5
       },
       "analytics": [
         {
@@ -883,8 +1150,8 @@
       ],
       "formation": {
         "shape": "4-2-3-1",
-        "label": "21日先發人腳置於常用架構；非25日預測正選",
-        "as_of": "2026-10-21",
+        "label": "25日正式正選・站位按常用架構示意",
+        "as_of": "2026-10-25",
         "players": [
           {
             "number": 97,
@@ -895,28 +1162,28 @@
             "name": "馬仙奴"
           },
           {
-            "number": 16,
-            "name": "大關友翔"
+            "number": 14,
+            "name": "脇坂泰斗"
           },
           {
-            "number": 25,
-            "name": "山市秀翔"
+            "number": 17,
+            "name": "伊藤達哉"
           },
           {
-            "number": 19,
-            "name": "河原創"
+            "number": 6,
+            "name": "山本悠樹"
           },
           {
             "number": 8,
             "name": "橘田健人"
           },
           {
-            "number": 5,
-            "name": "佐佐木旭"
+            "number": 13,
+            "name": "三浦颯太"
           },
           {
-            "number": 28,
-            "name": "丸山祐市"
+            "number": 22,
+            "name": "菲利普・烏雷莫維奇"
           },
           {
             "number": 4,
@@ -933,16 +1200,9 @@
         ],
         "sources": [
           {
-            "label": "Football LAB・川崎首11輪陣式",
-            "url": "https://www.football-lab.jp/ka-f/formation",
-            "accessed_at": "2026-10-24",
-            "published_at": "2026-10-22"
-          },
-          {
-            "label": "川崎官方・21日神戶戰及賽後訪問",
-            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/11.html",
-            "accessed_at": "2026-10-24",
-            "published_at": "2026-10-21"
+            "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+            "accessed_at": "2026-10-25"
           }
         ]
       },
@@ -1132,6 +1392,18 @@
         }
       ],
       "injuries": [
+        {
+          "text": "三浦已重返正選；柏度續任正選。先前傷患觀察不能作為今日缺陣結論。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        },
         {
           "text": "野田裕人10月3日U-21比賽受傷、18日公告右腓腸肌拉傷；谷口榮斗9月28日操練受傷、10月12日公告右長內收肌拉傷；紺野和也9月6日受傷、12日公告右Lisfranc韌帶損傷。三份公告均未給確切復出日。",
           "kind": "fact",
@@ -2196,41 +2468,297 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "25日正式正選與後備尚未公布；陣式圖用21日人腳示意，不能當作已確認名單。",
+            "text": "#1 連納特·莫沙",
             "kind": "fact",
-            "as_of": "2026-10-24",
+            "as_of": "2026-10-25",
             "sources": [
               {
-                "label": "川崎官方・25日本場資料及訪問欄",
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
                 "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
-                "accessed_at": "2026-10-24"
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "text": "#26 本山遙",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 26
+          },
+          {
+            "text": "#48 立田悠悟",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 48
+          },
+          {
+            "text": "#43 鈴木喜丈",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 43
+          },
+          {
+            "text": "#28 松本昌也",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "text": "#41 宮本英治",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 41
+          },
+          {
+            "text": "#80 奧比頓",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 80
+          },
+          {
+            "text": "#51 白井康介",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 51
+          },
+          {
+            "text": "#20 河野孝汰",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 20
+          },
+          {
+            "text": "#99 盧卡奧",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 99
+          },
+          {
+            "text": "#8 江坂任",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 8
+          }
+        ],
+        "bench": [
+          {
+            "text": "#52 濱田太郎",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 52
+          },
+          {
+            "text": "#44 森壯一朗",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 44
+          },
+          {
+            "text": "#55 藤井葉大",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 55
+          },
+          {
+            "text": "#88 山根永遠",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 88
+          },
+          {
+            "text": "#24 藤田息吹",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "text": "#7 竹內涼",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "text": "#33 神谷優太",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 33
+          },
+          {
+            "text": "#19 佐藤凌我",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 19
+          },
+          {
+            "text": "#9 利奧·高祖",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ],
+            "number": 9
+          }
+        ],
+        "cues": [
+          {
+            "text": "較21日換2正選：白井及河野入替山根、羅相浩；羅相浩未列20人名單，原因未有可靠公開確認。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
               }
             ]
           },
           {
-            "text": "開場先看：盧卡奧回接後誰跑入禁區？翼衛壓上時，身後由誰補位？",
+            "text": "正式選人與預計站位須分開：進攻及防守時的位置交換，留待開賽確認。",
             "kind": "analysis",
-            "as_of": "2026-10-24",
+            "as_of": "2026-10-25",
             "sources": [
               {
-                "label": "Football LAB・川崎首11輪陣式",
-                "url": "https://www.football-lab.jp/ka-f/formation",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-22"
-              },
-              {
-                "label": "Football LAB・岡山首11輪陣式",
-                "url": "https://www.football-lab.jp/okay/formation",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-22"
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 2
       },
       "analytics": [
         {
@@ -2289,8 +2817,8 @@
       ],
       "formation": {
         "shape": "3-4-2-1",
-        "label": "21日先發人腳置於常用架構；非25日預測正選",
-        "as_of": "2026-10-21",
+        "label": "25日正式正選・站位按常用架構示意",
+        "as_of": "2026-10-25",
         "players": [
           {
             "number": 99,
@@ -2301,12 +2829,12 @@
             "name": "江坂任"
           },
           {
-            "number": 10,
-            "name": "羅相浩"
+            "number": 20,
+            "name": "河野孝汰"
           },
           {
-            "number": 88,
-            "name": "山根永遠"
+            "number": 51,
+            "name": "白井康介"
           },
           {
             "number": 80,
@@ -2339,16 +2867,9 @@
         ],
         "sources": [
           {
-            "label": "Football LAB・岡山首11輪陣式",
-            "url": "https://www.football-lab.jp/okay/formation",
-            "accessed_at": "2026-10-24",
-            "published_at": "2026-10-22"
-          },
-          {
-            "label": "岡山官方・21日水戶戰紀錄",
-            "url": "https://www.fagiano-okayama.com/game/2026102113/",
-            "accessed_at": "2026-10-24",
-            "published_at": "2026-10-21"
+            "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+            "accessed_at": "2026-10-25"
           }
         ]
       },
@@ -2531,6 +3052,18 @@
         }
       ],
       "injuries": [
+        {
+          "text": "大森博及羅相浩未列正式20人名單；缺陣原因未獲公開證實，不自行歸類為傷患或停賽。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        },
         {
           "text": "田上大地10月7日天皇盃對千葉受傷，17日官方公布前十字韌帶、外側半月板及內側副韌帶損傷；公告未列復出期限。",
           "kind": "fact",
@@ -3180,6 +3713,68 @@
   },
   "quote_events": [
     {
+      "date": "2026-10-25",
+      "title": "25日比賽頁賽前公開節錄",
+      "summary": "刊載日期以本場頁25日公開核對日標記，實際採訪日未列明；僅意譯免費可讀段落。",
+      "entries": [
+        {
+          "team_slug": "kawasaki",
+          "speaker": "山本悠樹",
+          "role": "球員",
+          "topic": "限制岡山前線",
+          "paraphrase_zh": "認為球隊輪換之下仍持續勝出，走在正確方向；要限制岡山強力前線的自由。",
+          "published_at": "2026-10-25",
+          "context": "pre_match",
+          "outlet": "川崎官方・本場賽前免費節錄（全文付費，未使用）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "三浦颯太",
+          "role": "球員",
+          "topic": "盧卡奧與第二點",
+          "paraphrase_zh": "指出岡山善用盧卡奧作支點，必須在第二點和身體對抗上勝出。",
+          "published_at": "2026-10-25",
+          "context": "pre_match",
+          "outlet": "川崎官方・本場賽前免費節錄（全文付費，未使用）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "脇坂泰斗",
+          "role": "球員",
+          "topic": "把戰線推前",
+          "paraphrase_zh": "希望增加在對方半場踢球的時間和次數，利用主場延續球隊氣勢。",
+          "published_at": "2026-10-25",
+          "context": "pre_match",
+          "outlet": "川崎官方・本場賽前免費節錄（全文付費，未使用）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "史雲特・布羅德森",
+          "role": "球員",
+          "topic": "古巢的進步",
+          "paraphrase_zh": "認為岡山比自己效力時更進步，團結、不放棄及全隊勤奮是最大強項。",
+          "published_at": "2026-10-25",
+          "context": "pre_match",
+          "outlet": "川崎官方・本場賽前免費節錄（全文付費，未使用）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "德里基・拉塞爾達",
+          "role": "球員",
+          "topic": "連戰疲勞",
+          "paraphrase_zh": "坦言連戰下有少許疲累，每日訓練同時重視恢復，盡量以最佳狀態迎戰。",
+          "published_at": "2026-10-25",
+          "context": "pre_match",
+          "outlet": "川崎官方・本場賽前免費節錄（全文付費，未使用）",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "title": "23日賽前採訪｜布羅德森與古巢",
       "summary": "體育日本網上採訪，由livedoor全文轉載；屬25日本場賽前聲音。",
@@ -3428,7 +4023,7 @@
     }
   ],
   "quote_status": {
-    "text": "已收錄20則近期發言：兩隊21日賽後官方訪問、江坂22日電視報道及布羅德森23日賽前採訪。25日新賽前訪問待比賽日追加。",
+    "text": "25則近期發言，包括新增5位川崎球員本場賽前免費節錄；採訪日未明者已標示，未讀付費全文不補寫。",
     "kind": "fact",
     "as_of": "2026-10-24",
     "sources": [
@@ -3478,6 +4073,11 @@
         "url": "https://www.jleague.jp/match/j1/2026/102113/coach/",
         "accessed_at": "2026-10-24",
         "published_at": "2026-10-21"
+      },
+      {
+        "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-25"
       }
     ]
   },
@@ -3562,6 +4162,47 @@
       }
     ],
     "sections": [
+      {
+        "title": "臨場更新｜正式選人及可用性",
+        "paragraphs": [
+          {
+            "text": "較21日換5正選：烏雷莫維奇、三浦、山本、伊藤、脇坂入替丸山、佐佐木、河原、大關、山市。三浦回到左閘，山原續任右路。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "較21日換2正選：白井及河野入替山根、羅相浩；羅相浩未列20人名單，原因未有可靠公開確認。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "三浦賽前指出第二點是限制盧卡奧的關鍵；拉塞爾達坦言有連戰疲勞。兩隊同為中三日，不宜僅憑休息日數判斷體能優劣。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "01｜三分差距：向上追趕，還是被身後追平？",
         "paragraphs": [
@@ -3965,50 +4606,14 @@
             ]
           },
           {
-            "text": "川崎官方25日頁的賽前訪問欄目前只有佔位符；兩隊21日賽後官方訪問已有免費內文。岡山江坂特別點出次個入球來自預先研究的死球部署；鈴木則談到連戰後身體護理。正選、6名球證組、實際天氣及新的傷患復出消息留待比賽日。",
+            "text": "25日官方賽前公開節錄已刊出，已補入5名川崎球員談話。兩隊正式20人名單及6名球證已確認；未取得付費全文，球場實測天氣及未公布的缺陣原因仍留白。",
             "kind": "fact",
-            "as_of": "2026-10-24",
+            "as_of": "2026-10-25",
             "sources": [
               {
-                "label": "川崎官方・25日本場資料及訪問欄",
+                "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
                 "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
-                "accessed_at": "2026-10-24"
-              },
-              {
-                "label": "岡山官方・21日水戶戰紀錄",
-                "url": "https://www.fagiano-okayama.com/game/2026102113/",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-21"
-              },
-              {
-                "label": "體育日本・23日布羅德森採訪／livedoor轉載",
-                "url": "https://news.livedoor.com/article/detail/32641775/",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-23"
-              },
-              {
-                "label": "岡山放送OHK／FNN・江坂水戶戰賽後談話",
-                "url": "https://www.fnn.jp/articles/-/1137618",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-22"
-              },
-              {
-                "label": "岡山官方・21日木山與江坂賽後訪問",
-                "url": "https://www.fagiano-okayama.com/news/202610212220/",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-21"
-              },
-              {
-                "label": "J.League・21日岡山球員訪問",
-                "url": "https://www.jleague.jp/match/j1/2026/102113/player/",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-21"
-              },
-              {
-                "label": "J.League・21日木山監督訪問",
-                "url": "https://www.jleague.jp/match/j1/2026/102113/coach/",
-                "accessed_at": "2026-10-24",
-                "published_at": "2026-10-21"
+                "accessed_at": "2026-10-25"
               }
             ]
           }
@@ -4317,11 +4922,10 @@
     }
   ],
   "coverage_gaps": [
-    "25日正式11正選＋後備及6名球證組待官方公布。",
     "球場實測天氣及25日最新逐時預報待比賽日覆核；未把24日其他場地天氣移用。",
-    "谷口、紺野、野田、林等復出日未公告；羅曼奴與三浦最新可用性需再查。",
     "大森博等未入選原因沒有可靠公開確認，不直接標示傷患或停賽。",
-    "當前名單號碼均有卡；這次名單稽核不代表岡山所有永久傳記已達完整驗證標準。"
+    "當前名單號碼均有卡；這次名單稽核不代表岡山所有永久傳記已達完整驗證標準。",
+    "谷口、紺野、野田、林復出日未公告；三浦及柏度今日已列正選。"
   ],
   "research_sweep": {
     "as_of": "2026-10-24",
@@ -4354,7 +4958,7 @@
         ]
       }
     },
-    "interview_entries": 20,
+    "interview_entries": 25,
     "sources": [
       {
         "label": "川崎官方・25日本場資料及訪問欄",
@@ -4534,6 +5138,11 @@
         "url": "https://www.jleague.jp/match/j1/2026/102113/coach/",
         "accessed_at": "2026-10-24",
         "published_at": "2026-10-21"
+      },
+      {
+        "label": "川崎官方・25日正式名單、球證組及賽前公開節錄",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-25"
       }
     ],
     "matchday_checks": [
@@ -4542,6 +5151,7 @@
       "最新停賽更正及黃牌風險",
       "新的公開賽前採訪／操練線索",
       "逐時天氣與球場實測"
-    ]
+    ],
+    "final_sweep": "2026-10-25 14:00 HKT"
   }
 }

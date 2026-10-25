@@ -24,7 +24,7 @@ test('Sunday research renders all pages with dated voices and honest pending sel
  const quotes=d.quote_events.flatMap(x=>x.entries);assert.equal(quotes.length,d.research_sweep.interview_entries);assert.ok(quotes.length>=20);
  for(const q of quotes)assert.ok(inInterviewWindow(q,d.teams[q.team_slug].previous_match_date,d.date));
  assert.ok(quotes.some(q=>q.team_slug==='okayama'&&q.speaker==='藤井葉大'));
- assert.equal(d.match_info.officials.status,'awaiting_appointment');assert.equal(d.match_info.lineups_as_of,null);
+ assert.equal(d.match_info.officials.status,'confirmed');assert.ok(d.match_info.lineups_as_of);assert.ok(d.match_info.officials.roles.every(r=>r.name_ja));for(const slug of ['kawasaki','okayama']){const t=d.teams[slug];assert.equal(t.lineup.starters.length,11);assert.equal(t.lineup.bench.length,9);assert.equal(new Set([...t.lineup.starters,...t.lineup.bench].map(p=>p.number)).size,20);assert.deepEqual(t.formation.players.map(p=>p.number).sort((a,b)=>a-b),t.lineup.starters.map(p=>p.number).sort((a,b)=>a-b));}
  assert.ok(d.teams.okayama.yellow_risk.some(x=>x.text.includes('已')&&x.text.includes('宮本')));
  function walk(v){if(!v||typeof v!=='object')return;if(v.text){assert.ok(v.sources?.length);assert.ok(v.as_of<=d.as_of);}for(const x of Object.values(v))walk(x);}walk(d);
 });
