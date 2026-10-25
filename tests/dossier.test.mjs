@@ -9,7 +9,7 @@ const home=read('data/clubs/chiba.json'),away=read('data/clubs/nagasaki.json');
 test('assignment and dossier agree, with no unresearched opponent selected',()=>{
   const featured=read(`data/matches/${index.fixtures.find(f=>f.date===index.featured.date&&f.home===index.featured.home&&f.away===index.featured.away).file}`);
   for(const k of ['home','away','date'])assert.equal(index.featured[k],featured[k]);
-  assert.equal(index.fixtures.length,1);
+  assert.ok(index.fixtures.length>=1);
   for(const {id} of MATCH_PAGES){
     const html=renderMatchPage({home,away,page:id,date:d.date,dossier:d});
     assert.ok(!html.includes('球員資料待核對'),id);

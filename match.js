@@ -82,6 +82,7 @@ function quoteCell(q) {
 }
 function quotes(ctx) {
   const d = ctx.dossier;
+  if(d?.interview_layout==='team_columns'){const categories=[['last_game','關於上仗'],['upcoming','本場及對手'],['team','自身強弱項'],['players','個別球員']];const all=(d.quote_events||[]).flatMap(ev=>ev.entries||[]);return pair(ctx,...[ctx.home,ctx.away].map(club=>['監督','球員'].map(role=>card(role==='監督'?'主教練訪問':'球員訪問',categories.map(([key,label])=>{const rows=all.filter(q=>q.team_slug===club.team.slug&&(role==='監督'?q.role==='監督':q.role!=='監督')&&(q.category||'last_game')===key).sort((a,b)=>b.published_at.localeCompare(a.published_at));return rows.length?`<h4>${label}</h4>`+rows.map(q=>`<article class="event-quote"><strong>${e(q.speaker)}</strong><p>${e(q.paraphrase_zh)}</p><small>${e(q.published_at)} · ${e(q.outlet)}</small></article>`).join(''):'';}).join('')||blank('尚未取得可核對訪問'))).join('')));}
   const events = d?.quote_events || (d?.quotes || []).map(row => ({title:row.topic,entries:[row.home && {...row.home,team_slug:ctx.home.team.slug},row.away && {...row.away,team_slug:ctx.away.team.slug}].filter(Boolean)}));
   const content = [...events].sort((a,b)=>(b.date || '').localeCompare(a.date || '')).map(event => {
     const entries = (event.entries || []).filter(q => [ctx.home.team.slug,ctx.away.team.slug].includes(q.team_slug) && inInterviewWindow(q,d.teams?.[q.team_slug]?.previous_match_date,ctx.date));
@@ -114,7 +115,7 @@ function players(ctx) {
 }
 function gameLog(rows, date) {
   if (!rows?.length) return blank('全季逐場記錄尚未收錄');
-  return `<div class="table-wrap"><table class="match-table"><thead><tr><th>日期</th><th>賽事</th><th>主／客</th><th>對手</th><th>賽果</th></tr></thead><tbody>${[...rows].sort((a,b)=>(a.sort_date || a.date).localeCompare(b.sort_date || b.date)).map(r=>`<tr class="${r.date === date ? 'selected-fixture' : ''}"><td>${e(r.date_display || r.date)}</td><td>${e(r.competition)}</td><td>${e(r.venue)}</td><td>${e(r.opponent)}</td><td>${r.score == null ? blank('未賽') : e(r.score)}${r.source ? `<a href="${e(r.source)}" target="_blank" rel="noopener noreferrer" aria-label="比賽來源"> ↗</a>` : ''}</td></tr>`).join('')}</tbody></table></div>`;
+  return `<div class="table-wrap"><table class="match-table"><thead><tr><th>日期</th><th>賽事</th><th>主／客</th><th>對手</th><th>賽果</th></tr></thead><tbody>${[...rows].sort((a,b)=>(a.sort_date || a.date).localeCompare(b.sort_date || b.date)).map(r=>`<tr class="${r.date === date ? 'selected-fixture' : ''}"><td>${e(r.date_display || r.date)}</td><td>${e(r.competition)}</td><td>${e(r.venue)}</td><td>${e(r.opponent)}</td><td>${r.score == null ? blank('未賽') : e(r.score) + (()=>{const [a,b]=r.score.split(/[–−-]/).map(Number);return Number.isFinite(a)&&Number.isFinite(b)?` <strong>${a>b?'勝':a<b?'負':'和'}</strong>`:'';})()}${r.source ? `<a href="${e(r.source)}" target="_blank" rel="noopener noreferrer" aria-label="比賽來源"> ↗</a>` : ''}</td></tr>`).join('')}</tbody></table></div>`;
 }
 function standings(ctx) {
   const snapshot = ctx.dossier?.standings;

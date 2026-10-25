@@ -311,6 +311,8 @@ function setMode(mode) {
 }
 async function renderMatchRoute(route, renderId) {
   setMode('match');
+  const selected = state.matchIndex.fixtures.find(f=>f.home===route.home && f.away===route.away && f.date===route.date);
+  if (selected) state.matchIndex.featured = {home:selected.home,away:selected.away,date:selected.date};
   const { home, away, date } = state.matchIndex.featured;
   state.matchPage = MATCH_PAGES.some(p => p.id === route.page) ? route.page : 'comparison';
   state.matchDate = date;
@@ -319,7 +321,7 @@ async function renderMatchRoute(route, renderId) {
   syncFixtureButtons();
   document.documentElement.style.setProperty('--team', '#38bdf8');
   document.documentElement.style.setProperty('--team-text', '#091321');
-  $('#match-nav').innerHTML = `<div class="match-nav-heading">MATCH CENTRE<span>比賽資料</span></div>` + MATCH_PAGES.map((p, i) => `<button type="button" data-match-page="${p.id}" class="match-nav-item ${p.id === state.matchPage ? 'active' : ''}" ${p.id === state.matchPage ? 'aria-current="page"' : ''}><span class="match-nav-number">${String(i + 1).padStart(2, '0')}</span><span>${p.label}<small>${p.description}</small></span></button>`).join('');
+  $('#match-nav').innerHTML = `<div class="match-nav-heading">MATCH CENTRE<span>比賽資料</span></div>` + state.matchIndex.fixtures.map(f=>`<a class="match-nav-item" href="${matchRoute(f.home,f.away,f.date,state.matchPage)}">${f.date} ${manifestTeam(f.home).name_zh} 對 ${manifestTeam(f.away).name_zh}</a>`).join('') + MATCH_PAGES.map((p, i) => `<button type="button" data-match-page="${p.id}" class="match-nav-item ${p.id === state.matchPage ? 'active' : ''}" ${p.id === state.matchPage ? 'aria-current="page"' : ''}><span class="match-nav-number">${String(i + 1).padStart(2, '0')}</span><span>${p.label}<small>${p.description}</small></span></button>`).join('');
   $('#detail').innerHTML = $('#loading-template').innerHTML;
   try {
     const date = state.matchDate, page = state.matchPage;
