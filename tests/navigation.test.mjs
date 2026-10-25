@@ -24,8 +24,8 @@ const settled = () => new Promise(r=>setTimeout(r,80));
 const click = selector => element(selector).listeners.click({target:{closest:()=>null}});
 await import('../app.js');
 await settled();
-test('fresh opening defaults to comparison with match menu and new title', () => {
-  assert.equal(hash,'#/match/kashima/cerezo-osaka/2026-10-31/comparison');
+test('fresh opening defaults to match information with match menu and new title', () => {
+  assert.equal(hash,'#/match/kashima/cerezo-osaka/2026-10-31/info');
   assert.equal(element('#match-nav').hidden,false);
   assert.equal(element('.sidebar-tools').hidden,true);
   assert.ok(element('#detail').innerHTML.includes('本場研究'));

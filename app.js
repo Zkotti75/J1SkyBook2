@@ -1,6 +1,6 @@
 import { MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js';
 const SEASON_START = '2026-08-07';
-const state = { manifest: null, slot: 'home', clubs: new Map(), activeSlug: null, activeItem: null, mode: 'match', matchPage: 'comparison', renderId: 0 };
+const state = { manifest: null, slot: 'home', clubs: new Map(), activeSlug: null, activeItem: null, mode: 'match', matchPage: 'info', renderId: 0 };
 
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -317,7 +317,7 @@ async function renderMatchRoute(route, renderId) {
   const selected = state.matchIndex.fixtures.find(f=>f.home===route.home && f.away===route.away && f.date===route.date);
   if (selected) state.matchIndex.featured = {home:selected.home,away:selected.away,date:selected.date};
   const { home, away, date } = state.matchIndex.featured;
-  state.matchPage = MATCH_PAGES.some(p => p.id === route.page) ? route.page : 'comparison';
+  state.matchPage = MATCH_PAGES.some(p => p.id === route.page) ? route.page : 'info';
   state.matchDate = date;
   if (location.hash !== currentMatchRoute()) { location.replace(currentMatchRoute()); return; }
   $('#home-team').value = home; $('#away-team').value = away;
