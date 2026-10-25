@@ -4,7 +4,7 @@
   "away": "kawasaki",
   "date": "2026-11-01",
   "as_of": "2026-10-25",
-  "coverage_note": "首輪新聞掃描已完成；這是準備中的研究頁，非完整賽前版。最新賽果已核對；Football LAB首12輪彙總、完整賽程、人腳及九節新版仍待補充。",
+  "coverage_note": "25日追加新聞掃描：新增近期教練／球員訪問、確診傷患、紅牌待處分及週中賽程比較。完整九節改版與Football LAB統計仍待完成。",
   "match_info": {
     "kickoff_hkt": "12:00（日本13:00）",
     "stadium": "日產體育場",
@@ -54,7 +54,61 @@
         "starters": [],
         "bench": [],
         "cues": []
-      }
+      },
+      "injuries": [
+        {
+          "text": "知念慶21日受傷，23日官方確診右足Lisfranc關節損傷，預計6至8星期。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "橫濱官方・23日知念負傷公告",
+              "url": "https://www.f-marinos.com/news/team/10786",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "text": "湯馬士鄧尼25日完成本季首次聯賽上陣；復出資訊以官方賽後談話確認。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "橫濱官方・25日球員公開節錄",
+              "url": "https://www.f-marinos.com/matches/20261025/report",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ],
+      "style": [
+        {
+          "text": "哥列卡尾段改三中堅，意在把兩側推前；收尾、死球第二點與持續90分鐘表現是其賽後指出的問題。",
+          "kind": "reported",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "橫濱官方・25日哥列卡免費記者會",
+              "url": "https://www.f-marinos.com/tricolore_plus/article/1567",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ],
+      "rotation_notes": [
+        {
+          "text": "28日主場聯賽盃對廣島，再於1日對川崎；兩隊同有週中盃賽，須以實際出場分鐘再比較。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "橫濱官方・最新公告及28日廣島盃賽",
+              "url": "https://www.f-marinos.com/news/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ]
     },
     "kawasaki": {
       "previous_match_date": "2026-10-25",
@@ -90,10 +144,127 @@
         "starters": [],
         "bench": [],
         "cues": []
-      }
+      },
+      "style": [
+        {
+          "text": "岡山戰利用對手盯人前壓後的空間及短反擊；中場承認第二點判斷和受壓時的解法仍要改進。",
+          "kind": "reported",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "川崎官方・25日岡山戰賽後訪問",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ]
     }
   },
-  "quote_events": [],
+  "quote_events": [
+    {
+      "date": "2026-10-25",
+      "title": "25日追加掃描・近期公開訪問",
+      "entries": [
+        {
+          "team_slug": "yokohama-fm",
+          "speaker": "Steve Corica",
+          "role": "監督",
+          "category": "last_game",
+          "topic": "關於上仗",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "認為球隊能踢好60至65分鐘，卻未能延續90分鐘；今仗換入新鮮球員的調整未收到預期效果。",
+          "outlet": "橫濱官方・25日哥列卡免費記者會",
+          "url": "https://www.f-marinos.com/tricolore_plus/article/1567"
+        },
+        {
+          "team_slug": "yokohama-fm",
+          "speaker": "Steve Corica",
+          "role": "監督",
+          "category": "team",
+          "topic": "自身強弱項",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "失球來自死球第二階段，屬可避免的失球；球隊必須改善反覆出現的收尾問題。",
+          "outlet": "橫濱官方・25日哥列卡免費記者會",
+          "url": "https://www.f-marinos.com/tricolore_plus/article/1567"
+        },
+        {
+          "team_slug": "yokohama-fm",
+          "speaker": "Steve Corica",
+          "role": "監督",
+          "category": "team",
+          "topic": "自身強弱項",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "尾段改為三中堅，希望讓兩側球員站得更前，把球推進至對手最後三分一區域。",
+          "outlet": "橫濱官方・25日哥列卡免費記者會",
+          "url": "https://www.f-marinos.com/tricolore_plus/article/1567"
+        },
+        {
+          "team_slug": "yokohama-fm",
+          "speaker": "湯馬士鄧尼",
+          "role": "球員",
+          "category": "players",
+          "topic": "個別球員",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "今季首次聯賽上陣後感謝醫療團隊；復康期間亦有觀看比賽及到作客球場支持球隊。",
+          "outlet": "橫濱官方・25日球員公開節錄",
+          "url": "https://www.f-marinos.com/matches/20261025/report"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "長谷部茂利",
+          "role": "監督",
+          "category": "last_game",
+          "topic": "關於上仗",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "滿意以預先分享的配合入球，但希望創造更多壓制對手的機會並取得第三球；失球涉及失誤及判斷，仍需修正。",
+          "outlet": "川崎官方・25日岡山戰賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "山本悠樹",
+          "role": "球員",
+          "category": "last_game",
+          "topic": "關於上仗",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "知道岡山會積極搶攻，希望在前場建立支點及利用短途反擊；承認失球前自己選擇保留球權的判斷不及先解圍。",
+          "outlet": "川崎官方・25日岡山戰賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "橘田健人",
+          "role": "球員",
+          "category": "team",
+          "topic": "自身強弱項",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "面對盯人需要更多解決方法；爭第二點時向前出擊與留守之間的判斷仍要改善。",
+          "outlet": "川崎官方・25日岡山戰賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        },
+        {
+          "team_slug": "kawasaki",
+          "speaker": "三浦颯太",
+          "role": "球員",
+          "category": "last_game",
+          "topic": "關於上仗",
+          "published_at": "2026-10-25",
+          "context": "post_match",
+          "paraphrase_zh": "利用對手前壓後的身後空間及反擊入球；下半場活動量下降，仍需改善被壓時把球推出去的能力。",
+          "outlet": "川崎官方・25日岡山戰賽後訪問",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html"
+        }
+      ]
+    }
+  ],
   "preview": {
     "cues": [],
     "sections": [
@@ -125,13 +296,146 @@
             ]
           }
         ]
+      },
+      {
+        "title": "25日追加掃描｜訪問、傷停與週中負荷",
+        "paragraphs": [
+          {
+            "text": "Steve Corica：認為球隊能踢好60至65分鐘，卻未能延續90分鐘；今仗換入新鮮球員的調整未收到預期效果。",
+            "kind": "reported",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "橫濱官方・25日哥列卡免費記者會",
+                "url": "https://www.f-marinos.com/tricolore_plus/article/1567",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "Steve Corica：失球來自死球第二階段，屬可避免的失球；球隊必須改善反覆出現的收尾問題。",
+            "kind": "reported",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "橫濱官方・25日哥列卡免費記者會",
+                "url": "https://www.f-marinos.com/tricolore_plus/article/1567",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "Steve Corica：尾段改為三中堅，希望讓兩側球員站得更前，把球推進至對手最後三分一區域。",
+            "kind": "reported",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "橫濱官方・25日哥列卡免費記者會",
+                "url": "https://www.f-marinos.com/tricolore_plus/article/1567",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "長谷部茂利：滿意以預先分享的配合入球，但希望創造更多壓制對手的機會並取得第三球；失球涉及失誤及判斷，仍需修正。",
+            "kind": "reported",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "川崎官方・25日岡山戰賽後訪問",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "28日主場聯賽盃對廣島，再於1日對川崎；兩隊同有週中盃賽，須以實際出場分鐘再比較。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "橫濱官方・最新公告及28日廣島盃賽",
+                "url": "https://www.f-marinos.com/news/",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "coverage_gaps": [
     "Football LAB首12輪數據與排名尚待更新核對。",
     "週中賽後更新負荷、傷停與新訪問。",
-    "天氣、正式正選及球證組於接近比賽日覆核。"
+    "天氣、正式正選及球證組於接近比賽日覆核。",
+    "第13節正式停賽公告尚待更新；未能確認新轉會異動，不把搜尋未見當成全名單完成稽核。"
   ],
-  "interview_layout": "team_columns"
+  "interview_layout": "team_columns",
+  "research_sweep": {
+    "as_of": "2026-10-25",
+    "interview_entries": 8,
+    "scope": "六隊近期新聞與訪問掃描；永久球員卡及全季統計未作重新驗證",
+    "sources": [
+      {
+        "label": "橫濱官方・25日哥列卡免費記者會",
+        "url": "https://www.f-marinos.com/tricolore_plus/article/1567",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "橫濱官方・25日球員公開節錄",
+        "url": "https://www.f-marinos.com/matches/20261025/report",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "鋼巴官方・24日明神記者會",
+        "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "川崎官方・25日岡山戰賽後訪問",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "Soccer Digest／livedoor・25日橫山訪問",
+        "url": "https://news.livedoor.com/article/detail/32654029/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "町田官方・23日神戶戰前瞻",
+        "url": "https://www.zelvia.co.jp/news/news-364291/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "橫濱官方・23日知念負傷公告",
+        "url": "https://www.f-marinos.com/news/team/10786",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "J.League・24日鋼巴京都紀錄",
+        "url": "https://www.jleague.jp/match/j1/2026/102409/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "J.League Data Site・停賽公告（目前22日版）",
+        "url": "https://data.j-league.or.jp/SFIN03/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "町田官方・本季賽程",
+        "url": "https://www.zelvia.co.jp/match/game/series/2026-27/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "鹿島官方・28日浦項觀戰指南",
+        "url": "https://www.antlers.co.jp/pages/mdp-2026-27-acle03",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "橫濱官方・最新公告及28日廣島盃賽",
+        "url": "https://www.f-marinos.com/news/",
+        "accessed_at": "2026-10-25"
+      }
+    ]
+  }
 }

@@ -4,7 +4,7 @@
   "away": "gamba-osaka",
   "date": "2026-11-01",
   "as_of": "2026-10-25",
-  "coverage_note": "首輪新聞掃描已完成；這是準備中的研究頁，非完整賽前版。最新賽果已核對；Football LAB首12輪彙總、完整賽程、人腳及九節新版仍待補充。",
+  "coverage_note": "25日追加新聞掃描：新增近期教練／球員訪問、確診傷患、紅牌待處分及週中賽程比較。完整九節改版與Football LAB統計仍待完成。",
   "match_info": {
     "kickoff_hkt": "15:00（日本16:00）",
     "stadium": "町田GION體育場",
@@ -54,7 +54,35 @@
         "starters": [],
         "bench": [],
         "cues": []
-      }
+      },
+      "injuries": [
+        {
+          "text": "23日官方回顧提及泰迪・恩基因傷臨時退出21日清水戰正選；公告未提供診斷或1日可用性。",
+          "kind": "reported",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "町田官方・23日神戶戰前瞻",
+              "url": "https://www.zelvia.co.jp/news/news-364291/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ],
+      "rotation_notes": [
+        {
+          "text": "29日作客上海申花踢ACL Two，1日迎戰鋼巴只隔中兩日並涉及跨國回程；較鋼巴少一日恢復，但實際負荷要待週中賽後核對。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "町田官方・本季賽程",
+              "url": "https://www.zelvia.co.jp/match/game/series/2026-27/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ]
     },
     "gamba-osaka": {
       "previous_match_date": "2026-10-24",
@@ -90,10 +118,107 @@
         "starters": [],
         "bench": [],
         "cues": []
-      }
+      },
+      "suspensions": [
+        {
+          "text": "一森純24日53分鐘領紅離場。第13節具體停賽場次待新官方處分確認；不能以28日亞冠代替J1停賽計算。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "J.League・24日鋼巴京都紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/102409/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "text": "此次讀取的官方停賽公告仍為22日、對應第12節；不足以確認下一輪所有可用球員。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "J.League Data Site・停賽公告（目前22日版）",
+              "url": "https://data.j-league.or.jp/SFIN03/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ],
+      "rotation_notes": [
+        {
+          "text": "28日主場ACLE對武里南，再於1日作客町田，休息中三日。",
+          "kind": "fact",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "鋼巴官方・24日明神記者會",
+              "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ],
+      "style": [
+        {
+          "text": "明神已把中場調整為倒三角；少踢一人後改以防守、反擊及死球爭取入球。",
+          "kind": "reported",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "鋼巴官方・24日明神記者會",
+              "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ]
     }
   },
-  "quote_events": [],
+  "quote_events": [
+    {
+      "date": "2026-10-25",
+      "title": "25日追加掃描・近期公開訪問",
+      "entries": [
+        {
+          "team_slug": "gamba-osaka",
+          "speaker": "明神智和",
+          "role": "監督",
+          "category": "last_game",
+          "topic": "關於上仗",
+          "published_at": "2026-10-24",
+          "context": "post_match",
+          "paraphrase_zh": "少踢一人後以防守為本，利用反擊及死球取得入球；未能守到最後令他失望，但肯定球員努力。",
+          "outlet": "鋼巴官方・24日明神記者會",
+          "url": "https://www.gamba-osaka.net/report/index/no/1043/"
+        },
+        {
+          "team_slug": "gamba-osaka",
+          "speaker": "明神智和",
+          "role": "監督",
+          "category": "team",
+          "topic": "自身強弱項",
+          "published_at": "2026-10-24",
+          "context": "post_match",
+          "paraphrase_zh": "倒三角中場是考慮球員特點、對手及狀態的選擇；重點仍是球員站位與因應場上情況，而非陣式本身。",
+          "outlet": "鋼巴官方・24日明神記者會",
+          "url": "https://www.gamba-osaka.net/report/index/no/1043/"
+        },
+        {
+          "team_slug": "gamba-osaka",
+          "speaker": "明神智和",
+          "role": "監督",
+          "category": "team",
+          "topic": "自身強弱項",
+          "published_at": "2026-10-24",
+          "context": "post_match",
+          "paraphrase_zh": "需要在上風時段追加入球，同時改善失球細節，保持集中至補時結束。",
+          "outlet": "鋼巴官方・24日明神記者會",
+          "url": "https://www.gamba-osaka.net/report/index/no/1043/"
+        }
+      ]
+    }
+  ],
   "preview": {
     "cues": [],
     "sections": [
@@ -125,13 +250,146 @@
             ]
           }
         ]
+      },
+      {
+        "title": "25日追加掃描｜訪問、傷停與週中負荷",
+        "paragraphs": [
+          {
+            "text": "明神智和：少踢一人後以防守為本，利用反擊及死球取得入球；未能守到最後令他失望，但肯定球員努力。",
+            "kind": "reported",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "鋼巴官方・24日明神記者會",
+                "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "明神智和：倒三角中場是考慮球員特點、對手及狀態的選擇；重點仍是球員站位與因應場上情況，而非陣式本身。",
+            "kind": "reported",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "鋼巴官方・24日明神記者會",
+                "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "明神智和：需要在上風時段追加入球，同時改善失球細節，保持集中至補時結束。",
+            "kind": "reported",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "鋼巴官方・24日明神記者會",
+                "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "29日作客上海申花踢ACL Two，1日迎戰鋼巴只隔中兩日並涉及跨國回程；較鋼巴少一日恢復，但實際負荷要待週中賽後核對。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "町田官方・本季賽程",
+                "url": "https://www.zelvia.co.jp/match/game/series/2026-27/",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          },
+          {
+            "text": "28日主場ACLE對武里南，再於1日作客町田，休息中三日。",
+            "kind": "fact",
+            "as_of": "2026-10-25",
+            "sources": [
+              {
+                "label": "鋼巴官方・24日明神記者會",
+                "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+                "accessed_at": "2026-10-25"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "coverage_gaps": [
     "Football LAB首12輪數據與排名尚待更新核對。",
     "週中賽後更新負荷、傷停與新訪問。",
-    "天氣、正式正選及球證組於接近比賽日覆核。"
+    "天氣、正式正選及球證組於接近比賽日覆核。",
+    "第13節正式停賽公告尚待更新；未能確認新轉會異動，不把搜尋未見當成全名單完成稽核。"
   ],
-  "interview_layout": "team_columns"
+  "interview_layout": "team_columns",
+  "research_sweep": {
+    "as_of": "2026-10-25",
+    "interview_entries": 3,
+    "scope": "六隊近期新聞與訪問掃描；永久球員卡及全季統計未作重新驗證",
+    "sources": [
+      {
+        "label": "橫濱官方・25日哥列卡免費記者會",
+        "url": "https://www.f-marinos.com/tricolore_plus/article/1567",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "橫濱官方・25日球員公開節錄",
+        "url": "https://www.f-marinos.com/matches/20261025/report",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "鋼巴官方・24日明神記者會",
+        "url": "https://www.gamba-osaka.net/report/index/no/1043/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "川崎官方・25日岡山戰賽後訪問",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/12.html",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "Soccer Digest／livedoor・25日橫山訪問",
+        "url": "https://news.livedoor.com/article/detail/32654029/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "町田官方・23日神戶戰前瞻",
+        "url": "https://www.zelvia.co.jp/news/news-364291/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "橫濱官方・23日知念負傷公告",
+        "url": "https://www.f-marinos.com/news/team/10786",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "J.League・24日鋼巴京都紀錄",
+        "url": "https://www.jleague.jp/match/j1/2026/102409/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "J.League Data Site・停賽公告（目前22日版）",
+        "url": "https://data.j-league.or.jp/SFIN03/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "町田官方・本季賽程",
+        "url": "https://www.zelvia.co.jp/match/game/series/2026-27/",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "鹿島官方・28日浦項觀戰指南",
+        "url": "https://www.antlers.co.jp/pages/mdp-2026-27-acle03",
+        "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "橫濱官方・最新公告及28日廣島盃賽",
+        "url": "https://www.f-marinos.com/news/",
+        "accessed_at": "2026-10-25"
+      }
+    ]
+  }
 }

@@ -28,7 +28,7 @@ test('fresh opening defaults to comparison with match menu and new title', () =>
   assert.equal(hash,'#/match/kashima/cerezo-osaka/2026-10-31/comparison');
   assert.equal(element('#match-nav').hidden,false);
   assert.equal(element('.sidebar-tools').hidden,true);
-  assert.ok(element('#detail').innerHTML.includes('首輪新聞掃描'));
+  assert.ok(element('#detail').innerHTML.includes('本場研究'));
   assert.ok(document.title.includes('TVB 體育組天書系列'));
 });
 test('team button restores roster and player deep links; centre restores match', async () => {
