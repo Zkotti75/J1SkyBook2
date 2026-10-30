@@ -3,19 +3,29 @@
   "home": "kashima",
   "away": "cerezo-osaka",
   "date": "2026-10-31",
-  "as_of": "2026-10-25",
-  "coverage_note": "25日追加新聞掃描：新增近期教練／球員訪問、確診傷患、紅牌待處分及週中賽程比較。完整九節改版與Football LAB統計仍待完成。",
+  "as_of": "2026-10-31",
+  "coverage_note": "31日凌晨比賽日掃描：確診傷患、李奧施亞拉復出、松本回歸、週中盃賽與7人輪換、最新訪問及天氣預報已更新。正選、球證組及實測天氣尚待公布。",
   "match_info": {
     "kickoff_hkt": "14:00（日本15:00）",
     "stadium": "Mercari Stadium",
     "referee": null,
     "lineups_as_of": null,
-    "selection_note": "本場正式名單及球證組未公布；不沿用上場名單。",
+    "selection_note": "31日凌晨HKT掃描：官方本場頁未公布正選、後備及球證組；今天14:00 HKT開球，13:55 HKT開始轉播。",
     "sources": [
       {
         "label": "J.League・正式日程",
         "url": "https://aboutj.jleague.jp/corporate/pressrelease/article/16058",
         "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "J.League・田中滋本場前瞻",
+        "url": "https://www.jleague.jp/match/j1/2026/103110/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "日本氣象協會tenki.jp・31日02:00 JST預報",
+        "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+        "accessed_at": "2026-10-31"
       }
     ],
     "commentary": {
@@ -38,7 +48,33 @@
           ]
         }
       ]
-    }
+    },
+    "weather": {
+      "text": "預報，並非球場實測：鹿嶋市31日15:00 JST預計晴、22.5°C，降雨機率10%；全日13–23°C。來源發布31日02:00 JST，開球前再核對。",
+      "kind": "fact",
+      "as_of": "2026-10-31",
+      "sources": [
+        {
+          "label": "日本氣象協會tenki.jp・31日02:00 JST預報",
+          "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+          "accessed_at": "2026-10-31"
+        }
+      ]
+    },
+    "events": [
+      {
+        "text": "本場為櫻花官方所稱八連戰最後一仗；球隊欲結束聯賽7場不勝。",
+        "kind": "fact",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "label": "櫻花官方・30日賽前訪問",
+            "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      }
+    ]
   },
   "teams": {
     "kashima": {
@@ -90,40 +126,68 @@
       },
       "injuries": [
         {
-          "text": "金太鉉24日尾段受傷離場並接受檢查；鬼木當晚未確定診斷，不能據此判定31日缺陣。",
-          "kind": "reported",
-          "as_of": "2026-10-25",
+          "text": "金太鉉24日受傷，29日官方確診右脛骨近端骨折，治療期間不公開；之前「待檢查」資訊已由確診取代。",
+          "kind": "fact",
+          "as_of": "2026-10-31",
           "sources": [
             {
-              "label": "Soccer Digest・沖野楓弥／livedoor轉載",
-              "url": "https://news.livedoor.com/article/detail/32648984/",
-              "accessed_at": "2026-10-25"
+              "label": "鹿島官方・29日金太鉉傷情報告",
+              "url": "https://www.antlers.co.jp/blogs/news/261029hb37vq",
+              "accessed_at": "2026-10-31"
             }
           ]
         },
         {
-          "text": "鬼木表示尼奧施亞拉因上仗肌肉傷患休息；31日可用性未確認。",
-          "kind": "reported",
-          "as_of": "2026-10-25",
+          "text": "李奧施亞拉已在28日浦項戰復出；今日是否正選仍待正式名單，不能沿用24日缺陣結論。",
+          "kind": "fact",
+          "as_of": "2026-10-31",
           "sources": [
             {
-              "label": "體育日本／livedoor轉載",
-              "url": "https://news.livedoor.com/article/detail/32648710/",
-              "accessed_at": "2026-10-25"
+              "label": "J.League・田中滋本場前瞻",
+              "url": "https://www.jleague.jp/match/j1/2026/103110/",
+              "accessed_at": "2026-10-31"
             }
           ]
         }
       ],
       "rotation_notes": [
         {
-          "text": "28日主場ACLE對浦項，31日再主場迎櫻花，中兩日；兩隊均有週中比賽，不能把鹿島視為休息整週。",
+          "text": "28日主場3–0浦項，小池龍太、卡夫歷及般奴入球；31日再主場作賽，中兩日。",
           "kind": "fact",
-          "as_of": "2026-10-25",
+          "as_of": "2026-10-31",
           "sources": [
             {
-              "label": "鹿島官方・28日浦項觀戰指南",
-              "url": "https://www.antlers.co.jp/pages/mdp-2026-27-acle03",
-              "accessed_at": "2026-10-25"
+              "label": "J.League・28日鹿島浦項正式紀錄",
+              "url": "https://www.jleague.jp/match/acle/2026/102808/",
+              "accessed_at": "2026-10-31"
+            }
+          ]
+        }
+      ],
+      "transfers": [
+        {
+          "text": "松本遙翔結束富山育成型借用，29日官方宣布回歸，背號32、後衛。現有鹿島永久卡未收錄，球員卡研究仍待補；不把回歸公告等同今日已獲比賽資格或入選。",
+          "kind": "fact",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "label": "鹿島官方・29日松本遙翔回歸",
+              "url": "https://www.antlers.co.jp/blogs/news/261029xfy6ib",
+              "accessed_at": "2026-10-31"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "29日最新官方停賽公告未列鹿島或櫻花球員於本輪停賽；名單確認前仍須防範新處分或臨時情況。",
+          "kind": "fact",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "label": "J.League Data Site・29日停賽公告",
+              "url": "https://data.j-league.or.jp/SFIN03/",
+              "accessed_at": "2026-10-31"
             }
           ]
         }
@@ -175,7 +239,63 @@
         "starters": [],
         "bench": [],
         "cues": []
-      }
+      },
+      "injuries": [
+        {
+          "text": "橫山夢樹28日扭傷足踝提早離場。Pablo Machín30日表示已接受治療，30日稍為參與訓練；今日能否上陣視當日狀態。",
+          "kind": "reported",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "label": "櫻花官方・30日賽前訪問",
+              "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+              "accessed_at": "2026-10-31"
+            }
+          ]
+        }
+      ],
+      "suspensions": [
+        {
+          "text": "29日最新官方停賽公告未列鹿島或櫻花球員於本輪停賽；名單確認前仍須防範新處分或臨時情況。",
+          "kind": "fact",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "label": "J.League Data Site・29日停賽公告",
+              "url": "https://data.j-league.or.jp/SFIN03/",
+              "accessed_at": "2026-10-31"
+            }
+          ]
+        }
+      ],
+      "rotation_notes": [
+        {
+          "text": "28日作客水戶3–1，較25日聯賽換7名正選。賽後留在關東恢復，沒有先回大阪；兩隊同為中兩日，櫻花有減省跨區移動安排。",
+          "kind": "fact",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "label": "櫻花官方・30日賽前訪問",
+              "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+              "accessed_at": "2026-10-31"
+            }
+          ]
+        }
+      ],
+      "style": [
+        {
+          "text": "千葉戰下半場轉4-4-2；田中要求無球移動、攻身後及統一前壓時機。櫻川近兩場正式賽事入3球，禁區接應傳中值得留意。",
+          "kind": "reported",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "label": "櫻花官方・30日賽前訪問",
+              "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+              "accessed_at": "2026-10-31"
+            }
+          ]
+        }
+      ]
     }
   },
   "quote_events": [
@@ -226,11 +346,155 @@
           "url": "https://news.livedoor.com/article/detail/32654029/"
         }
       ]
+    },
+    {
+      "date": "2026-10-31",
+      "title": "比賽日追加・30日訪問及官方前瞻",
+      "entries": [
+        {
+          "team_slug": "cerezo-osaka",
+          "speaker": "Pablo Machín",
+          "role": "監督",
+          "category": "upcoming",
+          "topic": "關於本場",
+          "paraphrase_zh": "要求開局積極、贏一對一，少量機會也要把握；認為鹿島後備深度強。",
+          "published_at": "2026-10-30",
+          "context": "pre_match",
+          "outlet": "櫻花官方・30日賽前訪問",
+          "url": "https://www.cerezo.jp/news/2026-1030-1900/"
+        },
+        {
+          "team_slug": "cerezo-osaka",
+          "speaker": "Pablo Machín",
+          "role": "監督",
+          "category": "team",
+          "topic": "球隊改善",
+          "paraphrase_zh": "留在關東是為減少移動，並利用共處時間分析及開會。",
+          "published_at": "2026-10-30",
+          "context": "pre_match",
+          "outlet": "櫻花官方・30日賽前訪問",
+          "url": "https://www.cerezo.jp/news/2026-1030-1900/"
+        },
+        {
+          "team_slug": "cerezo-osaka",
+          "speaker": "Pablo Machín",
+          "role": "監督",
+          "category": "players",
+          "topic": "球員狀況",
+          "paraphrase_zh": "橫山仍在治療，已稍參與訓練，出場與否視比賽日狀態。",
+          "published_at": "2026-10-30",
+          "context": "pre_match",
+          "outlet": "櫻花官方・30日賽前訪問",
+          "url": "https://www.cerezo.jp/news/2026-1030-1900/"
+        },
+        {
+          "team_slug": "cerezo-osaka",
+          "speaker": "田中駿汰",
+          "role": "球員",
+          "category": "team",
+          "topic": "球隊改善",
+          "paraphrase_zh": "要求更多無球跑動、攻身後與一致壓迫時機；承認7場不勝須改變。",
+          "published_at": "2026-10-30",
+          "context": "pre_match",
+          "outlet": "櫻花官方・30日賽前訪問",
+          "url": "https://www.cerezo.jp/news/2026-1030-1900/"
+        },
+        {
+          "team_slug": "cerezo-osaka",
+          "speaker": "櫻川所羅門",
+          "role": "球員",
+          "category": "players",
+          "topic": "球員狀況",
+          "paraphrase_zh": "水戶戰兩球展示自己的特點，希望把入球表現延續至聯賽。",
+          "published_at": "2026-10-30",
+          "context": "pre_match",
+          "outlet": "櫻花官方・30日賽前訪問",
+          "url": "https://www.cerezo.jp/news/2026-1030-1900/"
+        },
+        {
+          "team_slug": "kashima",
+          "speaker": "小池龍太",
+          "role": "球員",
+          "category": "upcoming",
+          "topic": "關於本場",
+          "paraphrase_zh": "警惕櫻花邊路攻擊手，要限制傳球到邊線，快轉換並主動壓制對手。",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "J.League・田中滋本場前瞻",
+          "url": "https://www.jleague.jp/match/j1/2026/103110/"
+        }
+      ]
     }
   ],
   "preview": {
-    "cues": [],
+    "cues": [
+      {
+        "text": "兩隊均帶着週中盃賽勝仗迎接聯賽：鹿島3–0浦項，櫻花3–1水戶；能否把盃賽反彈帶回J1？",
+        "kind": "fact",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "label": "J.League・田中滋本場前瞻",
+            "url": "https://www.jleague.jp/match/j1/2026/103110/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "text": "李奧施亞拉復出後面對古巢；金太鉉受傷令鹿島中堅選擇成為觀察重點。",
+        "kind": "fact",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "label": "J.League・田中滋本場前瞻",
+            "url": "https://www.jleague.jp/match/j1/2026/103110/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      }
+    ],
     "sections": [
+      {
+        "title": "比賽日重點｜復出、骨折與八連戰收官",
+        "paragraphs": [
+          {
+            "text": "兩隊均帶着週中盃賽勝仗迎接聯賽：鹿島3–0浦項，櫻花3–1水戶；能否把盃賽反彈帶回J1？",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・田中滋本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "text": "李奧施亞拉復出後面對古巢；金太鉉受傷令鹿島中堅選擇成為觀察重點。",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・田中滋本場前瞻",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "text": "天書觀察：櫻花有留關東及週中換7人的安排，不能僅以中兩日斷言疲勞較大；鹿島則須留意中堅搭配，以及復出射手的出場時間管理。",
+            "kind": "analysis",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "櫻花官方・30日賽前訪問",
+                "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "首輪掃描｜近期走勢與觀察",
         "paragraphs": [
@@ -304,15 +568,15 @@
     ]
   },
   "coverage_gaps": [
-    "Football LAB首12輪數據與排名尚待更新核對。",
-    "週中賽後更新負荷、傷停與新訪問。",
-    "天氣、正式正選及球證組於接近比賽日覆核。",
-    "第13節正式停賽公告尚待更新；未能確認新轉會異動，不把搜尋未見當成全名單完成稽核。"
+    "官方正選、後備及六名球證組待公布；天氣為預報，非球場實測。",
+    "松本遙翔#32回歸已核實，永久球員卡仍待研究。",
+    "全季賽程與Football LAB完整基本／進階統計仍有未完成欄位。",
+    "個人累積黃牌需最新逐場紀律表覆核；29日停賽公告不等同黃牌邊緣名單。"
   ],
   "interview_layout": "team_columns",
   "research_sweep": {
-    "as_of": "2026-10-25",
-    "interview_entries": 3,
+    "as_of": "2026-10-31",
+    "interview_entries": 9,
     "scope": "六隊近期新聞與訪問掃描；永久球員卡及全季統計未作重新驗證",
     "sources": [
       {
@@ -374,7 +638,112 @@
         "label": "橫濱官方・最新公告及28日廣島盃賽",
         "url": "https://www.f-marinos.com/news/",
         "accessed_at": "2026-10-25"
+      },
+      {
+        "label": "鹿島官方・29日金太鉉傷情報告",
+        "url": "https://www.antlers.co.jp/blogs/news/261029hb37vq",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "鹿島官方・29日松本遙翔回歸",
+        "url": "https://www.antlers.co.jp/blogs/news/261029xfy6ib",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "櫻花官方・30日賽前訪問",
+        "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "櫻花官方・29日水戶戰回顧",
+        "url": "https://www.cerezo.jp/news/2026-1029-1530/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "J.League・田中滋本場前瞻",
+        "url": "https://www.jleague.jp/match/j1/2026/103110/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "J.League・28日鹿島浦項正式紀錄",
+        "url": "https://www.jleague.jp/match/acle/2026/102808/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "J.League Data Site・29日停賽公告",
+        "url": "https://data.j-league.or.jp/SFIN03/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "日本氣象協會tenki.jp・31日02:00 JST預報",
+        "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+        "accessed_at": "2026-10-31"
       }
-    ]
-  }
+    ],
+    "checked_at": "2026-10-31 凌晨HKT"
+  },
+  "storylines": [
+    {
+      "text": "兩隊均帶着週中盃賽勝仗迎接聯賽：鹿島3–0浦項，櫻花3–1水戶；能否把盃賽反彈帶回J1？",
+      "kind": "fact",
+      "as_of": "2026-10-31",
+      "sources": [
+        {
+          "label": "J.League・田中滋本場前瞻",
+          "url": "https://www.jleague.jp/match/j1/2026/103110/",
+          "accessed_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "text": "李奧施亞拉復出後面對古巢；金太鉉受傷令鹿島中堅選擇成為觀察重點。",
+      "kind": "fact",
+      "as_of": "2026-10-31",
+      "sources": [
+        {
+          "label": "J.League・田中滋本場前瞻",
+          "url": "https://www.jleague.jp/match/j1/2026/103110/",
+          "accessed_at": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "opening_checks": [
+    {
+      "text": "留意鹿島由誰填補金太鉉位置；未公布名單前不把關川郁萬當確定正選。",
+      "kind": "analysis",
+      "as_of": "2026-10-31",
+      "sources": [
+        {
+          "label": "J.League・田中滋本場前瞻",
+          "url": "https://www.jleague.jp/match/j1/2026/103110/",
+          "accessed_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "text": "留意櫻花三後衛與4-4-2的切換，以及傳中時櫻川能否佔據有利位置。",
+      "kind": "analysis",
+      "as_of": "2026-10-31",
+      "sources": [
+        {
+          "label": "櫻花官方・30日賽前訪問",
+          "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+          "accessed_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "text": "留意李奧施亞拉的跑動及接應量；復出並不等於可以假定踢足90分鐘。",
+      "kind": "analysis",
+      "as_of": "2026-10-31",
+      "sources": [
+        {
+          "label": "J.League・田中滋本場前瞻",
+          "url": "https://www.jleague.jp/match/j1/2026/103110/",
+          "accessed_at": "2026-10-31"
+        }
+      ]
+    }
+  ]
 }
