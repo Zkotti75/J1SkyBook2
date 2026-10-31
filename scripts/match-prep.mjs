@@ -58,5 +58,6 @@ else {
     console.log(`Match-week notes to prepare (${c.match_week_to_prepare.length}): ${c.match_week_to_prepare.join(', ') || 'none'}`);
     console.log(`First strict blockers (${Math.min(10,c.blockers.length)}): ${c.blockers.slice(0,10).join('; ') || 'none'}`);
   }
+  console.log('\nMandatory match-page completeness checklist: docs/MATCH_CENTRE.md (2026-10-31). Verify actual recent-five results, next-five fixtures, home/away trends, H2H, player yellow-card counts, team and player analytics, previous-two-match minutes, detailed analysis, full standings and season logs. Report each section as complete/partial/unverified; empty boxes do not count as complete. Quick read is section 01 only.');
   console.log('\nOnce both club files are updated, run npm run validate:strict. Keep unresolved career periods visible in the audit report.');
 }

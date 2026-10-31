@@ -43,7 +43,7 @@ test('formations have eleven players and invalid shapes are not displayed', () =
 test('preview escapes source text and labels opinion', () => {
   const html=renderMatchPage({home,away,date,page:'preview',dossier});
   assert.ok(html.includes('&lt;script&gt;')); assert.ok(!html.includes('<script>unsafe'));
-  assert.ok(html.includes('作者觀點')); assert.ok(html.includes('https://example.com'));
+  assert.ok(html.includes('作者觀點')); assert.ok(html.includes('測試來源')); assert.ok(!html.includes('href="https://example.com')); 
 });
 test('standing page does not combine club snapshots into a current league table', () => {
   const html=renderMatchPage({home,away,date,page:'standings'});
@@ -67,4 +67,12 @@ test('officials page preserves an existing sourced referee in earlier dossiers',
  const old=structuredClone(dossier);old.match_info={referee:'既有主球證',sources:[{url:'https://example.com/record',label:'官方紀錄'}]};
  const h=renderMatchPage({home,away,date,page:'officials',dossier:old});
  assert.ok(h.includes('既有主球證'));assert.ok(h.includes('官方已確認'));assert.ok(h.includes('其他職務尚未收錄'));
+});
+
+// The quick briefing belongs to section 01 only, including legacy routes.
+test('quick read appears only on the match info screen', () => {
+  for (const page of [...MATCH_PAGES.map(p => p.id), 'standings', 'history', 'tactics', 'officials', 'live']) {
+    const html = renderMatchPage({ home, away, date, page, dossier });
+    assert.equal(html.includes('class="quick-read"'), page === 'info', page);
+  }
 });

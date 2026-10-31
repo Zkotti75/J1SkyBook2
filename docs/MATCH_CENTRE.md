@@ -75,3 +75,21 @@ Every page has a collapsible quick-read panel with selection status, officials, 
 Research fields supported by the layout: `match_info.stadium_facts`, `events`, `visitor_travel`, `referee_tendencies` (dated claims); team `milestones`, `home_away_record`, `bench_options`, `goalkeeper_analysis`; dossier `head_to_head_results` (game-log rows), `opening_checks` and `scenarios.leading/trailing/level` (claims). `team_metrics` groups: basic, attack, build_up, defence, set_pieces, timing, goalkeeping. `player_metrics` and `usage_metrics` use the same rows: label, value, rank (optional), unit, sample, as_of, interpretation, sources. Never populate missing ranks or current stats from old club snapshots. Full logs show explicit win/draw/loss with notes; recent/future slices take at most five matches, future notes calculate intervening clear days only for exact dates. Head-to-head entries are stored newest first and limited to five.
 
 This implementation completes the layout; expanded Football LAB research and missing fixture/stadium data remain a separate content task and are shown as pending. Archived dossier content remains intact.
+
+## 2026-10-31 用戶補充：下場及往後每次更新的完成要求
+
+「本場速讀」只顯示於01比賽相關資料；02–09及舊有分頁不重複顯示。
+
+每場更新逐項核實以下內容，不能把空框、待核實提示、來源連結或「稍後補」當作資料已完成。保留來源、日期、賽事範圍與統計截點；找不到的項目須明列缺口及已查來源，不得捏造。未完成項目不得在交接聲稱整場已完成。
+
+- 03 球隊成績比較：兩隊各自最近五場實際賽果（日期、賽事、對手、主客、比分、勝和負）；未來五場實際賽程（日期或官方日期範圍、賽事、對手、主客）；主客場走勢及勝和負／得失球；最近五次交手列表及對賽總紀錄，清楚界定統計範圍。不能只寫近期表現摘要。
+- 04 轉會／傷患／停賽：逐人列累積黃牌實際張數、所屬賽事、截至日期、停賽門檻及距停賽差額；不同賽事分列，不從聯賽總數猜測盃賽。缺乏可靠記錄時寫未核實，不以「沒有風險」代替。
+- 05 球隊統計分析：Football LAB可取得的基本與進階數據並排比較，列聯賽排名、截點、定義及單位；包括攻守、射門／轉化、xG／失球、進攻路徑、控球、死球、門將與CBP等來源實際提供項目。衍生數據列明算法；不能只列xG或留下整頁空白。
+- 06 陣式／輪換：兩隊前兩場正式比賽逐人分鐘表（先發／後備及換入換出），對照本場與上場輪換、球季使用率、常用陣式及近期變化。註明是否含補時；未公布本場名單不可當已確認。
+- 07 球員統計分析／資訊：兩隊球員實際基本與進階數字、出場／正選／分鐘、入球／助攻及有來源的每90分鐘數據；標明樣本與截點。加入核心、近期表現者、外援及青年焦點與具體媒體描述，不用泛泛位置介紹填空。
+- 08 比賽分析：整合已核實的近況、數據、訪問、傷停、陣式、輪換與疲勞，分析關鍵對位、攻守與死球、可觀察的開局訊號、領先／落後時調整及後備影響。明確區分事實、媒體觀點與天書推論，不只重複故事線。
+- 09 聯賽榜／全季賽程：同一截點完整聯賽榜；兩隊全季正式比賽紀錄及已公布賽程，已賽逐場比分和清楚勝／和／負，未賽日期不冒充賽果，區分聯賽與盃賽。
+
+下一場起交接須逐節列出完成／部分／未核實，以及具體待補項目。這份清單記錄需求，並不代表既有研究檔已補完；下一次研究必須核對畫面實際可見內容，而不僅是JSON已有欄位。
+
+來源顯示規則：賽事頁面只顯示來源名稱及日期，不提供外部資料連結（包括逐場賽果的來源箭嘴）；原始URL繼續保存在研究JSON供覆核。球隊、球員與分頁的內部導航保留。

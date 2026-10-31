@@ -5,7 +5,7 @@ const d=read('data/matches/2026-10-31-kashima-cerezo-osaka.json');
 const render=(page,data=d)=>renderMatchPage({home,away,date:d.date,dossier:data,page});
 test('nine sections match commentary order and first opening is information',()=>{
  assert.deepEqual(MATCH_PAGES.map(p=>p.id),['info','quotes','comparison','availability','analytics','rotation','players','preview','logs']);assert.equal(parseMatchRoute(matchRoute(d.home,d.away,d.date)).page,'info');
- for(const p of MATCH_PAGES){const h=render(p.id);assert.ok(h.includes('本場速讀'));assert.ok(h.includes(p.label));assert.ok(!h.includes('undefined'));}
+ for(const p of MATCH_PAGES){const h=render(p.id);assert.equal(h.includes('本場速讀'),p.id==='info');assert.ok(h.includes(p.label));assert.ok(!h.includes('undefined'));}
 });
 test('interviews have independent columns, coaches first, dated sources without links',()=>{
  const data=structuredClone(d);data.quote_events=[{entries:[{team_slug:d.home,speaker:'球員測試',role:'球員',category:'team',published_at:'2026-10-25',paraphrase_zh:'球員內容',outlet:'來源',url:'https://secret-source.example'},{team_slug:d.home,speaker:'教練測試',role:'監督',category:'last_game',published_at:'2026-10-24',context:'post_match',paraphrase_zh:'教練內容',outlet:'來源',url:'https://secret-source.example'}]}];
