@@ -4,13 +4,13 @@
   "away": "cerezo-osaka",
   "date": "2026-10-31",
   "as_of": "2026-10-31",
-  "coverage_note": "31日凌晨比賽日掃描：確診傷患、李奧施亞拉復出、松本回歸、週中盃賽與7人輪換、最新訪問及天氣預報已更新。正選、球證組及實測天氣尚待公布。",
+  "coverage_note": "31日13:00 HKT掃描：正式兩隊20人及6名球證已核對；新增長峯滉希黃牌／紅牌／12碼統計（清楚標示樣本及舊截點）。最新天氣仍為預報。",
   "match_info": {
     "kickoff_hkt": "14:00（日本15:00）",
     "stadium": "Mercari Stadium",
-    "referee": null,
-    "lineups_as_of": null,
-    "selection_note": "31日凌晨HKT掃描：官方本場頁未公布正選、後備及球證組；今天14:00 HKT開球，13:55 HKT開始轉播。",
+    "referee": "長峯滉希",
+    "lineups_as_of": "2026-10-31 13:00 HKT",
+    "selection_note": "正式兩隊11正選及9後備已確認；陣式按官方賽前圖，實際站位可隨比賽調整。",
     "sources": [
       {
         "label": "J.League・正式日程",
@@ -24,6 +24,21 @@
       },
       {
         "label": "日本氣象協會tenki.jp・31日02:00 JST預報",
+        "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "J.League・31日官方正選及球證組",
+        "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "鹿島官方・31日正式比賽資料",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616132345",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "日本氣象協會・31日午間鹿嶋預報",
         "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
         "accessed_at": "2026-10-31"
       }
@@ -50,12 +65,12 @@
       ]
     },
     "weather": {
-      "text": "預報，並非球場實測：鹿嶋市31日15:00 JST預計晴、22.5°C，降雨機率10%；全日13–23°C。來源發布31日02:00 JST，開球前再核對。",
+      "text": "31日午間預報，非球場實測：日本15:00預計晴、21.4°C，降雨機率40%、預測雨量0mm/h。天氣機率與圖示不能視為保證；實際球場氣溫尚待公布。",
       "kind": "fact",
       "as_of": "2026-10-31",
       "sources": [
         {
-          "label": "日本氣象協會tenki.jp・31日02:00 JST預報",
+          "label": "日本氣象協會・31日午間鹿嶋預報",
           "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
           "accessed_at": "2026-10-31"
         }
@@ -70,6 +85,133 @@
           {
             "label": "櫻花官方・30日賽前訪問",
             "url": "https://www.cerezo.jp/news/2026-1030-1900/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      }
+    ],
+    "officials": {
+      "status": "confirmed",
+      "checked_at": "2026-10-31T13:00+08:00",
+      "checked_at_display": "31日13:00 HKT",
+      "note": "六名球證以J.League及鹿島官方本場資料交叉確認。",
+      "sources": [
+        {
+          "label": "J.League・31日官方正選及球證組",
+          "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+          "accessed_at": "2026-10-31"
+        },
+        {
+          "label": "鹿島官方・31日正式比賽資料",
+          "url": "https://www.antlers.co.jp/blogs/games/20260616132345",
+          "accessed_at": "2026-10-31"
+        }
+      ],
+      "roles": [
+        {
+          "id": "referee",
+          "label": "主球證",
+          "name_ja": "長峯滉希",
+          "status": "confirmed",
+          "profile": {
+            "claims": [
+              {
+                "text": "JFA履歷：2023年登記國際球證，曾執法2024年J2升班附加賽決賽。生於1991年11月1日，明天35歲。",
+                "kind": "fact",
+                "as_of": "2026-10-31",
+                "sources": [
+                  {
+                    "label": "JFA・長峯PR官方履歷",
+                    "url": "https://www.jfa.jp/attachment/6791bd65-9974-4a5c-b650-16e2d3093d95/newprprofile_Nagamine_Koki.pdf",
+                    "accessed_at": "2026-10-31"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "assistant_1",
+          "label": "旁證1",
+          "name_ja": "聳城巧",
+          "status": "confirmed",
+          "profile": null
+        },
+        {
+          "id": "assistant_2",
+          "label": "旁證2",
+          "name_ja": "田中利幸",
+          "status": "confirmed",
+          "profile": null
+        },
+        {
+          "id": "fourth_official",
+          "label": "第4球證",
+          "name_ja": "阿部将茂",
+          "status": "confirmed",
+          "profile": null
+        },
+        {
+          "id": "var",
+          "label": "VAR",
+          "name_ja": "福島孝一郎",
+          "status": "confirmed",
+          "profile": null
+        },
+        {
+          "id": "avar",
+          "label": "AVAR",
+          "name_ja": "梅田智起",
+          "status": "confirmed",
+          "profile": null
+        }
+      ]
+    },
+    "referee_tendencies": [
+      {
+        "text": "J1歷史主審樣本：19場、平均每場2.5面黃牌，J審判網站19日截點。這不是本季完整平均，也不包含今日；不據此直接稱為寬鬆或嚴厲。",
+        "kind": "reported",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "label": "J審判・J1主審平均黃牌榜（19日截點）",
+            "url": "https://j-player.main.jp/RefereeYellowRateRanking_Main_J1.htm",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "text": "2026/27 J1可逐場查閱的4場樣本（截至21日）：15次警告、1次退場、0次判罰12碼；平均3.75次警告。這是舊截點的部分樣本，並非今日前全部執法紀錄；12碼數為網站引用Transfermarkt，非本頁逐場重新核算。",
+        "kind": "reported",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "label": "FOR TWELVE・長峯逐場紀律樣本（25日截點）",
+            "url": "https://fortwelve.jp/shushin/koki-nagamine/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "text": "讀數要分清：上述4場中，21日FC東京對柏一場已有7次警告，會明顯拉高小樣本平均。現有資料不足以推斷今日判罰尺度。",
+        "kind": "analysis",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "label": "FOR TWELVE・長峯逐場紀律樣本（25日截點）",
+            "url": "https://fortwelve.jp/shushin/koki-nagamine/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "text": "JFA履歷：2023年登記國際球證，曾執法2024年J2升班附加賽決賽。生於1991年11月1日，明天35歲。",
+        "kind": "fact",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "label": "JFA・長峯PR官方履歷",
+            "url": "https://www.jfa.jp/attachment/6791bd65-9974-4a5c-b650-16e2d3093d95/newprprofile_Nagamine_Koki.pdf",
             "accessed_at": "2026-10-31"
           }
         ]
@@ -120,18 +262,307 @@
         }
       ],
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#1 早川 友基",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 1
+          },
+          {
+            "text": "#23 津久井 佳祐",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "text": "#55 植田 直通",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 55
+          },
+          {
+            "text": "#5 關川 郁萬",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 5
+          },
+          {
+            "text": "#7 小川 諒也",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "text": "#14 樋口 雄太",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "text": "#8 般奴",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "text": "#27 松村 優太",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 27
+          },
+          {
+            "text": "#17 艾巴",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "text": "#9 李奧施亞拉",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 9
+          },
+          {
+            "text": "#40 鈴木 優磨",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 40
+          }
+        ],
+        "bench": [
+          {
+            "text": "#21 山田 大樹",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 21
+          },
+          {
+            "text": "#4 千田 海人",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "text": "#25 小池 龍太",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 25
+          },
+          {
+            "text": "#6 三竿 健斗",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "text": "#10 柴崎 岳",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 10
+          },
+          {
+            "text": "#24 林 晴己",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 24
+          },
+          {
+            "text": "#32 松本 遥翔",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 32
+          },
+          {
+            "text": "#34 德田 譽",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 34
+          },
+          {
+            "text": "#77 卡夫歷",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 77
+          }
+        ],
+        "cues": [
+          {
+            "text": "較24日上輪聯賽換5名正選：關川、樋口、般奴、艾巴及李奧施亞拉入替金泰賢、柴崎、三竿、林及德田。此比較不以28日盃賽為基準。",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "text": "樋口及李奧施亞拉列正選；松本遙翔#32回歸後列後備，永久球員卡仍待完成。",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "鹿島官方・31日正式比賽資料",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132345",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": null,
+        "starting_changes_vs_previous_league": 5
       },
       "injuries": [
         {
-          "text": "金太鉉24日受傷，29日官方確診右脛骨近端骨折，治療期間不公開；之前「待檢查」資訊已由確診取代。",
+          "text": "金泰賢24日受傷，29日官方確診右脛骨近端骨折，治療期間不公開；之前「待檢查」資訊已由確診取代。",
           "kind": "fact",
           "as_of": "2026-10-31",
           "sources": [
             {
-              "label": "鹿島官方・29日金太鉉傷情報告",
+              "label": "鹿島官方・29日金泰賢傷情報告",
               "url": "https://www.antlers.co.jp/blogs/news/261029hb37vq",
               "accessed_at": "2026-10-31"
             }
@@ -191,7 +622,65 @@
             }
           ]
         }
-      ]
+      ],
+      "formation": {
+        "shape": "4-4-2",
+        "label": "31日官方賽前陣式・實際站位可調整",
+        "as_of": "2026-10-31",
+        "players": [
+          {
+            "number": 40,
+            "name": "鈴木 優磨"
+          },
+          {
+            "number": 9,
+            "name": "李奧施亞拉"
+          },
+          {
+            "number": 17,
+            "name": "艾巴"
+          },
+          {
+            "number": 8,
+            "name": "般奴"
+          },
+          {
+            "number": 14,
+            "name": "樋口 雄太"
+          },
+          {
+            "number": 27,
+            "name": "松村 優太"
+          },
+          {
+            "number": 7,
+            "name": "小川 諒也"
+          },
+          {
+            "number": 5,
+            "name": "關川 郁萬"
+          },
+          {
+            "number": 55,
+            "name": "植田 直通"
+          },
+          {
+            "number": 23,
+            "name": "津久井 佳祐"
+          },
+          {
+            "number": 1,
+            "name": "早川 友基"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League・31日官方正選及球證組",
+            "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      }
     },
     "cerezo-osaka": {
       "previous_match_date": "2026-10-25",
@@ -236,11 +725,300 @@
         }
       ],
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#23 中村航輔",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 23
+          },
+          {
+            "text": "#4 井上黎生人",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 4
+          },
+          {
+            "text": "#27 迪安・古爾斯",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 27
+          },
+          {
+            "text": "#97 鷹啄・查維斯",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 97
+          },
+          {
+            "text": "#8 香川真司",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 8
+          },
+          {
+            "text": "#10 田中駿汰",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 10
+          },
+          {
+            "text": "#16 奧田勇斗",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 16
+          },
+          {
+            "text": "#41 小見洋太",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 41
+          },
+          {
+            "text": "#66 大畑步夢",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 66
+          },
+          {
+            "text": "#77 盧卡斯・費蘭迪斯",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 77
+          },
+          {
+            "text": "#19 沙巴治",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 19
+          }
+        ],
+        "bench": [
+          {
+            "text": "#31 阿部航斗",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 31
+          },
+          {
+            "text": "#2 中村拓海",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 2
+          },
+          {
+            "text": "#6 登里享平",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 6
+          },
+          {
+            "text": "#15 靴蘭迪斯",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 15
+          },
+          {
+            "text": "#7 上門知樹",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 7
+          },
+          {
+            "text": "#14 橫山夢樹",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 14
+          },
+          {
+            "text": "#17 阪田澪哉",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 17
+          },
+          {
+            "text": "#28 岡澤昂星",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 28
+          },
+          {
+            "text": "#9 櫻川所羅門",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ],
+            "number": 9
+          }
+        ],
+        "cues": [
+          {
+            "text": "較25日聯賽換2人：香川、奧田取代艾雲、中村拓海；艾雲未列20人，原因未確認。橫山夢樹在後備，不能再說已確定缺陣。",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": null,
+        "starting_changes_vs_previous_league": 2
       },
       "injuries": [
+        {
+          "text": "橫山夢樹正式列後備；足踝傷患仍是背景資訊，今日入選已獲確認。",
+          "kind": "fact",
+          "as_of": "2026-10-31",
+          "sources": [
+            {
+              "label": "J.League・31日官方正選及球證組",
+              "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+              "accessed_at": "2026-10-31"
+            }
+          ]
+        },
         {
           "text": "橫山夢樹28日扭傷足踝提早離場。Pablo Machín30日表示已接受治療，30日稍為參與訓練；今日能否上陣視當日狀態。",
           "kind": "reported",
@@ -295,7 +1073,65 @@
             }
           ]
         }
-      ]
+      ],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "31日官方賽前陣式・實際站位可調整",
+        "as_of": "2026-10-31",
+        "players": [
+          {
+            "number": 19,
+            "name": "沙巴治"
+          },
+          {
+            "number": 77,
+            "name": "盧卡斯・費蘭迪斯"
+          },
+          {
+            "number": 41,
+            "name": "小見洋太"
+          },
+          {
+            "number": 66,
+            "name": "大畑步夢"
+          },
+          {
+            "number": 8,
+            "name": "香川真司"
+          },
+          {
+            "number": 10,
+            "name": "田中駿汰"
+          },
+          {
+            "number": 16,
+            "name": "奧田勇斗"
+          },
+          {
+            "number": 4,
+            "name": "井上黎生人"
+          },
+          {
+            "number": 97,
+            "name": "鷹啄・查維斯"
+          },
+          {
+            "number": 27,
+            "name": "迪安・古爾斯"
+          },
+          {
+            "number": 23,
+            "name": "中村航輔"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League・31日官方正選及球證組",
+            "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      }
     }
   },
   "quote_events": [
@@ -441,7 +1277,7 @@
         ]
       },
       {
-        "text": "李奧施亞拉復出後面對古巢；金太鉉受傷令鹿島中堅選擇成為觀察重點。",
+        "text": "李奧施亞拉復出後面對古巢；金泰賢受傷令鹿島中堅選擇成為觀察重點。",
         "kind": "fact",
         "as_of": "2026-10-31",
         "sources": [
@@ -454,6 +1290,47 @@
       }
     ],
     "sections": [
+      {
+        "title": "13:00 HKT正式名單更新",
+        "paragraphs": [
+          {
+            "text": "較24日上輪聯賽換5名正選：關川、樋口、般奴、艾巴及李奧施亞拉入替金泰賢、柴崎、三竿、林及德田。此比較不以28日盃賽為基準。",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "text": "樋口及李奧施亞拉列正選；松本遙翔#32回歸後列後備，永久球員卡仍待完成。",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "鹿島官方・31日正式比賽資料",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132345",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "text": "較25日聯賽換2人：香川、奧田取代艾雲、中村拓海；艾雲未列20人，原因未確認。橫山夢樹在後備，不能再說已確定缺陣。",
+            "kind": "fact",
+            "as_of": "2026-10-31",
+            "sources": [
+              {
+                "label": "J.League・31日官方正選及球證組",
+                "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "比賽日重點｜復出、骨折與八連戰收官",
         "paragraphs": [
@@ -470,7 +1347,7 @@
             ]
           },
           {
-            "text": "李奧施亞拉復出後面對古巢；金太鉉受傷令鹿島中堅選擇成為觀察重點。",
+            "text": "李奧施亞拉復出後面對古巢；金泰賢受傷令鹿島中堅選擇成為觀察重點。",
             "kind": "fact",
             "as_of": "2026-10-31",
             "sources": [
@@ -568,10 +1445,10 @@
     ]
   },
   "coverage_gaps": [
-    "官方正選、後備及六名球證組待公布；天氣為預報，非球場實測。",
     "松本遙翔#32回歸已核實，永久球員卡仍待研究。",
     "全季賽程與Football LAB完整基本／進階統計仍有未完成欄位。",
-    "個人累積黃牌需最新逐場紀律表覆核；29日停賽公告不等同黃牌邊緣名單。"
+    "個人累積黃牌需最新逐場紀律表覆核；29日停賽公告不等同黃牌邊緣名單。",
+    "球場實測天氣、艾雲未入選原因及更完整的當季球證統計仍待確認。"
   ],
   "interview_layout": "team_columns",
   "research_sweep": {
@@ -640,7 +1517,7 @@
         "accessed_at": "2026-10-25"
       },
       {
-        "label": "鹿島官方・29日金太鉉傷情報告",
+        "label": "鹿島官方・29日金泰賢傷情報告",
         "url": "https://www.antlers.co.jp/blogs/news/261029hb37vq",
         "accessed_at": "2026-10-31"
       },
@@ -678,9 +1555,39 @@
         "label": "日本氣象協會tenki.jp・31日02:00 JST預報",
         "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
         "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "J.League・31日官方正選及球證組",
+        "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "鹿島官方・31日正式比賽資料",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616132345",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "FOR TWELVE・長峯逐場紀律樣本（25日截點）",
+        "url": "https://fortwelve.jp/shushin/koki-nagamine/",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "J審判・J1主審平均黃牌榜（19日截點）",
+        "url": "https://j-player.main.jp/RefereeYellowRateRanking_Main_J1.htm",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "JFA・長峯PR官方履歷",
+        "url": "https://www.jfa.jp/attachment/6791bd65-9974-4a5c-b650-16e2d3093d95/newprprofile_Nagamine_Koki.pdf",
+        "accessed_at": "2026-10-31"
+      },
+      {
+        "label": "日本氣象協會・31日午間鹿嶋預報",
+        "url": "https://tenki.jp/forecast/3/11/4020/8222/1hour.html",
+        "accessed_at": "2026-10-31"
       }
     ],
-    "checked_at": "2026-10-31 凌晨HKT"
+    "checked_at": "2026-10-31 13:00 HKT"
   },
   "storylines": [
     {
@@ -696,7 +1603,7 @@
       ]
     },
     {
-      "text": "李奧施亞拉復出後面對古巢；金太鉉受傷令鹿島中堅選擇成為觀察重點。",
+      "text": "李奧施亞拉復出後面對古巢；金泰賢受傷令鹿島中堅選擇成為觀察重點。",
       "kind": "fact",
       "as_of": "2026-10-31",
       "sources": [
@@ -710,7 +1617,7 @@
   ],
   "opening_checks": [
     {
-      "text": "留意鹿島由誰填補金太鉉位置；未公布名單前不把關川郁萬當確定正選。",
+      "text": "留意鹿島由誰填補金泰賢位置；未公布名單前不把關川郁萬當確定正選。",
       "kind": "analysis",
       "as_of": "2026-10-31",
       "sources": [
