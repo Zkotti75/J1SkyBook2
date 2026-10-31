@@ -25,7 +25,7 @@ const click = selector => element(selector).listeners.click({target:{closest:()=
 await import('../app.js');
 await settled();
 test('fresh opening defaults to match information with match menu and new title', () => {
-  assert.equal(hash,'#/match/kashima/cerezo-osaka/2026-10-31/info');
+  assert.equal(hash,'#/match/yokohama-fm/kawasaki/2026-11-01/info');
   assert.equal(element('#match-nav').hidden,false);
   assert.equal(element('.sidebar-tools').hidden,true);
   assert.ok(element('#detail').innerHTML.includes('本場研究'));
@@ -33,7 +33,7 @@ test('fresh opening defaults to match information with match menu and new title'
 });
 test('team button restores roster and player deep links; centre restores match', async () => {
   click('#home-button'); await settled();
-  assert.equal(hash,'#/club/kashima');
+  assert.equal(hash,'#/club/yokohama-fm');
   assert.equal(element('#match-nav').hidden,true);
   assert.equal(element('.sidebar-tools').hidden,false);
   assert.ok(element('#roster-list').innerHTML.includes('roster-item'));
@@ -45,21 +45,21 @@ test('team button restores roster and player deep links; centre restores match',
 test('match pages preserve the assignment; selecting another team opens its club', async () => {
   element('#match-nav').listeners.click({target:{closest:()=>({dataset:{matchPage:'quotes'}})}});
   await settled();
-  assert.equal(hash,'#/match/kashima/cerezo-osaka/2026-10-31/quotes');
+  assert.equal(hash,'#/match/yokohama-fm/kawasaki/2026-11-01/quotes');
   assert.ok(!element('#detail').innerHTML.includes('type="date"'));
   element('#away-team').value='fc-tokyo'; element('#away-team').listeners.change();
   await settled();
   assert.equal(hash,'#/club/fc-tokyo');
   click('#match-button'); await settled();
-  assert.equal(hash,'#/match/kashima/cerezo-osaka/2026-10-31/quotes');
-  assert.equal(element('#home-team').value,'kashima');
-  assert.equal(element('#away-team').value,'cerezo-osaka');
-  assert.ok(element('#detail').innerHTML.includes('鬼木'));
+  assert.equal(hash,'#/match/yokohama-fm/kawasaki/2026-11-01/quotes');
+  assert.equal(element('#home-team').value,'yokohama-fm');
+  assert.equal(element('#away-team').value,'kawasaki');
+  assert.ok(element('#detail').innerHTML.includes('主教練訪問'));
 });
 test('legacy arbitrary match links canonicalize to the featured fixture', async () => {
   location.hash='#/match/cerezo-osaka/urawa/2026-10-06/preview'; await settled();
-  assert.equal(hash,'#/match/kashima/cerezo-osaka/2026-10-31/preview');
-  assert.ok(element('#detail').innerHTML.includes('首輪掃描'));
+  assert.equal(hash,'#/match/yokohama-fm/kawasaki/2026-11-01/preview');
+  assert.ok(element('#detail').innerHTML.includes('比賽分析'));
 });
 test('identical team selection is corrected and browser back restores menu', async () => {
   element('#away-team').value='cerezo-osaka'; element('#away-team').listeners.change();
