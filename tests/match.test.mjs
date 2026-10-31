@@ -43,7 +43,7 @@ test('formations have eleven players and invalid shapes are not displayed', () =
 test('preview escapes source text and labels opinion', () => {
   const html=renderMatchPage({home,away,date,page:'preview',dossier});
   assert.ok(html.includes('&lt;script&gt;')); assert.ok(!html.includes('<script>unsafe'));
-  assert.ok(html.includes('作者觀點')); assert.ok(html.includes('測試來源')); assert.ok(!html.includes('href="https://example.com')); 
+  assert.ok(html.includes('作者觀點')); assert.ok(!html.includes('測試來源')); assert.ok(!html.includes('href="https://example.com')); 
 });
 test('standing page does not combine club snapshots into a current league table', () => {
   const html=renderMatchPage({home,away,date,page:'standings'});
@@ -75,4 +75,13 @@ test('quick read appears only on the match info screen', () => {
     const html = renderMatchPage({ home, away, date, page, dossier });
     assert.equal(html.includes('class="quick-read"'), page === 'info', page);
   }
+});
+
+test('live flow keeps team identity, removes source blocks and filters actual three-yellow risk',()=>{
+ const copy=structuredClone(dossier);
+ copy.teams.kashiwa.yellow_risk=[{text:'有效累積3張：測試臨界球員',kind:'fact',sources:[{url:'https://example.com'}]},{text:'單黃牌比賽3場：非有效累積',kind:'reported',sources:[{url:'https://example.com'}]},{text:'有效累積2張',kind:'fact',sources:[{url:'https://example.com'}]}];
+ const h=renderMatchPage({home,away,date,page:'availability',dossier:copy});
+ assert.ok(h.includes('測試臨界球員'));assert.ok(!h.includes('非有效累積'));assert.ok(!h.includes('有效累積2張'));
+ assert.ok(h.includes('column-team-label'));assert.ok(h.includes('team-column-home'));assert.ok(h.includes('team-column-away'));
+ const p=renderMatchPage({home,away,date,page:'players',dossier:copy});assert.ok(!p.includes('球員基本／進階統計'));assert.ok(p.includes('關鍵球員'));
 });

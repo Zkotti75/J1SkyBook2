@@ -22,9 +22,8 @@ export function parseMatchRoute(hash) {
     return { home, away, date: validDate(date) ? date : '', page: pageExists(page) ? page : 'info' };
   } catch { return { page: 'info', date: '' }; }
 }
-function sources(items = []) {
-  return items.filter(s => /^https?:\/\//.test(s.url || '')).map(s => `<span class="source-link">${e(s.label || s.outlet || '資料來源')}${s.published_at || s.accessed_at ? ` · ${e(s.published_at || s.accessed_at)}` : ''}</span>`).join('');
-}
+function sources() { return ''; }
+
 function claim(item) {
   if (!item) return blank();
   if (typeof item === 'string') return `<p>${e(item)}</p>`;
@@ -36,7 +35,10 @@ function clubHeading(club, side) {
   const t = club.team;
   return `<header class="comparison-club ${side}">${t.logo_url ? `<img src="${e(t.logo_url)}" alt="${e(t.name_zh)}會徽">` : ''}<div><small>${side === 'home' ? '主隊' : '客隊'}</small><h3>${e(t.name_zh)}</h3><span>${e(t.name_en)}</span></div><a class="club-link" href="#/club/${e(t.slug)}">球隊資料 ↗</a></header>`;
 }
-function pair(ctx, left, right, label = '') { return `${label ? `<h3 class="comparison-label">${e(label)}</h3>` : ''}<div class="comparison-pair"><div class="comparison-cell">${left}</div><div class="comparison-cell">${right}</div></div>`; }
+function pair(ctx, left, right, label = '') {
+ const cell=(club,content,side)=>{const color=/^#[0-9a-f]{6}$/i.test(club.team.colors?.bg||'')?club.team.colors.bg:'#4277a5';return `<div class="comparison-cell team-column team-column-${side}" style="--column-team-color:${color}"><div class="column-team-label"><span class="column-team-dot"></span>${e(club.team.name_zh)}<small>${side==='home'?'主隊':'客隊'}</small></div>${content}</div>`;};
+ return `${label ? `<h3 class="comparison-label">${e(label)}</h3>` : ''}<div class="comparison-pair">${cell(ctx.home,left,'home')}${cell(ctx.away,right,'away')}</div>`;
+}
 function card(title, content, meta = '') { return `<section class="match-section"><h3>${e(title)}</h3>${meta ? `<div class="section-meta">${e(meta)}</div>` : ''}${content}</section>`; }
 function stats(club, snapshot) {
   const s = snapshot || club.team.current_season;
@@ -155,7 +157,7 @@ function live(ctx) {
 export function renderMatchPage(input) {
   const ctx = { ...input, dossier: input.dossier?.home === input.home.team.slug && input.dossier?.away === input.away.team.slug && input.dossier?.date === input.date ? input.dossier : null };
   const page = [...MATCH_PAGES,...LEGACY_PAGES].find(p=>p.id===ctx.page) || MATCH_PAGES[0];
-  const content = {info:matchInfo,availability,analytics:teamAnalytics,rotation,comparison:c=>c.dossier?.interview_layout==='team_columns'?resultsComparison(c):comparison(c),preview:c=>preview(c)+tactics(c)+scenarioAnalysis(c),quotes,players:c=>playerStats(c)+players(c),logs:c=>standings(c)+'<p class="match-description">只列2026/27正式賽季，包含全部38輪聯賽及已確定盃賽。比分以該隊為先；2027賽程按來源保留暫定日期或日期範圍，可能調整。</p>'+pair(c,...[c.home,c.away].map(club=>gameLog(c.dossier?.teams?.[club.team.slug]?.game_log,c.date))),standings,history,tactics,officials,live}[page.id](ctx);
+  const content = {info:matchInfo,availability,analytics:teamAnalytics,rotation,comparison:c=>c.dossier?.interview_layout==='team_columns'?resultsComparison(c):comparison(c),preview:c=>preview(c)+tactics(c)+scenarioAnalysis(c),quotes,players:c=>players(c),logs:c=>standings(c)+'<p class="match-description">只列2026/27正式賽季，包含全部38輪聯賽及已確定盃賽。比分以該隊為先；2027賽程按來源保留暫定日期或日期範圍，可能調整。</p>'+pair(c,...[c.home,c.away].map(club=>gameLog(c.dossier?.teams?.[club.team.slug]?.game_log,c.date))),standings,history,tactics,officials,live}[page.id](ctx);
   return `<article class="panel match-panel"><header class="match-hero"><div><div class="eyebrow">MATCH CENTRE / 2026–27</div><h2>${e(ctx.home.team.name_zh)} <span>對</span> ${e(ctx.away.team.name_zh)}</h2><p>${e(page.label)} · ${e(page.description)}</p></div><div class="match-date-label">下一場評述<strong>${e(ctx.date)}</strong><span>${e(ctx.dossier?.match_info?.kickoff_hkt || '')}</span>${ctx.dossier?.match_info?.commentary?.partner?`<span class="partner-header">拍檔：${e(ctx.dossier.match_info.commentary.partner)}</span>`:''}</div></header><div class="match-content"><div class="match-status ${ctx.dossier ? 'ready' : ''}"><span>${ctx.dossier ? '本場研究' : '介面初稿・本場研究待補'}</span><p>${ctx.dossier ? `核對日期 ${e(ctx.dossier.as_of || '未註明')}。${e(ctx.dossier.coverage_note || '各項來源與截點請見內文。')}` : '可先試用頁面與切換功能。球季數據為既有館藏截點；本場訪問、傷停、預測及即時排名尚未核實。'}</p></div><div class="comparison-headings">${clubHeading(ctx.home,'home')}${clubHeading(ctx.away,'away')}</div>${page.id === 'info' ? quickRead(ctx) : ''}${content}</div></article>`;
 }
 
@@ -174,7 +176,14 @@ function matchInfo(ctx) {
  const i=ctx.dossier?.match_info||{};
  return commentaryTeam(ctx)+card('比賽基本資料',`<div class="match-metrics">${[['開球（香港時間）',i.kickoff_hkt],['球場',i.stadium],['資料最後核對',ctx.dossier?.research_sweep?.checked_at||ctx.dossier?.as_of]].map(([k,v])=>`<div><small>${k}</small><strong>${field(v)}</strong></div>`).join('')}</div>`)+card('天氣／溫度',i.weather?claim(i.weather):blank('比賽日預報及球場實測待核對'))+card('主場球場・容量／草地／尺寸',claims(i.stadium_facts))+officials(ctx)+card('球證執法傾向',claims(i.referee_tendencies))+card('特別活動／本場意義',claims(i.events))+card('客隊球迷旅程',claims(i.visitor_travel))+sides(ctx,t=>claims(t.milestones)+claims(t.storylines),'倒戈・里程碑・有趣背景')+card('本場故事線',claims(ctx.dossier?.storylines||ctx.dossier?.preview?.cues));
 }
-function availability(ctx) { return [['transfers','新加盟／離隊／借用'],['injuries','傷患及復出'],['suspensions','停賽報告'],['yellow_risk','累積黃牌・停賽邊緣']].map(([key,title])=>sides(ctx,t=>claims(t[key]),title)).join(''); }
+function threeYellowPlayers(team) {
+ return (team.yellow_risk||[]).filter(x=>
+  (x.yellow_cards===3 && x.verification_status==='verified' && x.active_accumulation===true) ||
+  (/有效累積\s*3\s*張/.test(x.text||'') && x.kind==='fact' && x.sources?.length)
+ );
+}
+function availability(ctx) { return [['transfers','新加盟／離隊／借用'],['injuries','傷患及復出'],['suspensions','停賽報告'],['yellow_risk','累積3黃・再領黃牌即停賽']].map(([key,title])=>sides(ctx,t=>key==='yellow_risk'?(threeYellowPlayers(t).length?claims(threeYellowPlayers(t)):blank('未有已核實的累積3黃名單')):claims(t[key]),title)).join(''); }
+
 function matchRows(rows, date, upcoming=false) {
  if(!rows?.length)return blank('尚未收錄已核對賽程');
  if(upcoming) rows=rows.map((r,i)=>({...r,comment:[r.comment||r.note,i>0&&validDate(r.date)&&validDate(rows[i-1].date)?'中'+Math.max(0,Math.round((Date.parse(r.date)-Date.parse(rows[i-1].date))/86400000)-1)+'日':''].filter(Boolean).join('；')}));
