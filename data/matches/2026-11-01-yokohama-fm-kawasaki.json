@@ -150,7 +150,35 @@
               "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
               "accessed_at": "2026-11-01"
             }
-          ]
+          ],
+          "profile": {
+            "claims": [
+              {
+                "text": "椎野大地（しいの だいち／Shiino Daichi），1998年2月18日出生，神奈川縣出身。高中曾在平塚學園踢球；2022年取得一級資格、2024年開始擔任J.League球證。",
+                "kind": "fact",
+                "as_of": "2026-11-01",
+                "sources": [
+                  {
+                    "url": "https://www.jfa.jp/attachment/6969da1a-7008-4546-8789-708ed3093d95/newprprofile_Shiino_Daichi.pdf",
+                    "label": "JFA官方履歷",
+                    "accessed_at": "2026-11-01"
+                  }
+                ]
+              },
+              {
+                "text": "2026年2月1日起成為職業球證。JFA履歷在2026年1月15日截點列：J1主球證2場、J2主球證14場、J3主球證15場／助理6場、聯賽盃主球證1場。這是當時履歷，非截至今日總數。",
+                "kind": "fact",
+                "as_of": "2026-11-01",
+                "sources": [
+                  {
+                    "url": "https://jfa.jp/referee/news/00035965/",
+                    "label": "JFA職業球證公告及履歷",
+                    "accessed_at": "2026-11-01"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "id": "assistant_1",
@@ -213,7 +241,33 @@
           ]
         }
       ]
-    }
+    },
+    "referee_tendencies": [
+      {
+        "text": "歷來J1主球證數據頁列：3場、平均每場3.0張黃牌。樣本極少，且並非2026/27全季統計，不能由此判斷執法偏嚴或寬鬆。",
+        "kind": "reported",
+        "as_of": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://j-player.main.jp/RefereeYellowRateRanking_Main_J1.htm",
+            "label": "J審判・J1歷來黃牌平均表",
+            "accessed_at": "2026-11-01"
+          }
+        ]
+      },
+      {
+        "text": "資料庫對2026年J1所列小樣本為1場、1黃0紅；其他網站對特別賽季及跨季合計的口徑不同。沒有可核對完整本季逐場樣本，因此不填本季紅牌率、十二碼率或放行比率。",
+        "kind": "reported",
+        "as_of": "2026-11-01",
+        "sources": [
+          {
+            "url": "https://soccer-db.net/referee/index/2231/2026",
+            "label": "Soccer D.B.・2026球證紀錄",
+            "accessed_at": "2026-11-01"
+          }
+        ]
+      }
+    ]
   },
   "teams": {
     "yokohama-fm": {
@@ -8264,6 +8318,23 @@
           "paraphrase_zh": "特別肯定由井航太搶回球權、交給隊友及調整站位的表現；強調先發並非按年齡劃分，後備的資深球員也完成預期工作。"
         }
       ]
+    },
+    {
+      "title": "打吡賽前補充",
+      "date": "2026-11-01",
+      "entries": [
+        {
+          "team_slug": "yokohama-fm",
+          "speaker": "哥列卡",
+          "role": "監督",
+          "category": "team",
+          "published_at": "2026-11-01",
+          "date_basis": "accessed",
+          "outlet": "J.League官方前瞻（今日覆核，原訪問日期未列）",
+          "url": "https://www.jleague.jp/match/j1/2026/110101/",
+          "paraphrase_zh": "認為球隊前60至65分鐘能做好，但未能保持90分鐘；原希望後備提供新鮮力量，實際效果未達預期。此為前瞻刊載的賽前背景，非已確認今日臨場訪問。"
+        }
+      ]
     }
   ],
   "preview": {
@@ -8377,7 +8448,7 @@
     "橫濱、町田及鋼巴的黃牌表為賽季單黃牌場數，尚未完整核對扣除已執行停賽後的有效累積；川崎採球會有效累積表。",
     "球隊入失球時段、門將射門質素調整指標及個別傷員最新復出日未取得可靠完整數據。",
     "部分兩隊近期訪問未有免費可核對全文，不以舊訪問冒充本場新訪問。",
-    "球證本季執法傾向尚未取得可靠統計；不填推測數字。"
+    "已補主球證官方履歷及有口徑說明的歷史黃牌數字；完整本季執法樣本仍未核實。"
   ],
   "interview_layout": "team_columns",
   "research_sweep": {
@@ -8398,7 +8469,8 @@
     "paywall_policy": "El Golazo付費內容未購買",
     "as_of": "2026-11-01",
     "interview_entries": 14,
-    "lineups_confirmed": true
+    "lineups_confirmed": true,
+    "last_recheck": "2026-11-01・再次核對官方名單及球證頁"
   },
   "standings": {
     "as_of": "2026-10-31",
@@ -8826,7 +8898,7 @@
     ]
   },
   "section_status": {
-    "01": "部分：球證組待官方確認",
+    "01": "六人球證組及主球證履歷已確認；執法數據列明樣本限制。",
     "02": "部分：已核對近期可讀訪問；非全量",
     "03": "完成：近五仗、未來五仗、主客、五次對賽",
     "04": "部分：停賽確認；部分有效黃牌累積待核",
