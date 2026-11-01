@@ -8658,12 +8658,12 @@
     "last_recheck": "11月1日正式名單公布後核對"
   },
   "standings": {
-    "as_of": "2026-10-31",
+    "as_of": "2026-11-01・橫濱對川崎完場後官方榜",
     "sources": [
       {
         "url": "https://www.jleague.jp/standings/j1/",
-        "label": "J.League官方・10月31日已完場賽事後混合場次榜",
-        "accessed_at": "2026-10-31"
+        "label": "J.League官方・11月1日完場後榜",
+        "accessed_at": "2026-11-01"
       }
     ],
     "rows": [
@@ -8750,16 +8750,29 @@
         "slug": "kawasaki",
         "name_zh": "川崎前鋒",
         "points": 22,
-        "played": 12,
+        "played": 13,
         "wins": 6,
         "draws": 4,
-        "losses": 2,
-        "goals_for": 25,
-        "goals_against": 18,
-        "goal_difference": 7
+        "losses": 3,
+        "goals_for": 27,
+        "goals_against": 22,
+        "goal_difference": 5
       },
       {
         "rank": 8,
+        "slug": "yokohama-fm",
+        "name_zh": "橫濱水手",
+        "points": 21,
+        "played": 13,
+        "wins": 5,
+        "draws": 6,
+        "losses": 2,
+        "goals_for": 20,
+        "goals_against": 14,
+        "goal_difference": 6
+      },
+      {
+        "rank": 9,
         "slug": "urawa",
         "name_zh": "浦和紅鑽",
         "points": 21,
@@ -8770,19 +8783,6 @@
         "goals_for": 21,
         "goals_against": 27,
         "goal_difference": -6
-      },
-      {
-        "rank": 9,
-        "slug": "yokohama-fm",
-        "name_zh": "橫濱水手",
-        "points": 18,
-        "played": 12,
-        "wins": 4,
-        "draws": 6,
-        "losses": 2,
-        "goals_for": 16,
-        "goals_against": 12,
-        "goal_difference": 4
       },
       {
         "rank": 10,
