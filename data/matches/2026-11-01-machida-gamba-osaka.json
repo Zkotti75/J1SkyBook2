@@ -3,14 +3,14 @@
   "home": "machida",
   "away": "gamba-osaka",
   "date": "2026-11-01",
-  "as_of": "2026-10-31",
-  "coverage_note": "10月31日賽前研究：聯賽榜為今日部分第13輪已完場截點；Football LAB統計為10月26日更新的首12輪，與即時排名分開。正式正選、臨場訪問及其後賽果不預填。",
+  "as_of": "2026-11-01",
+  "coverage_note": "11月1日已補雙方官方賽前訪問、最新市級天氣、一森純停賽及選人背景；正式正選／後備與球證委任本次尚未公布。原有聯賽榜、Football LAB及前兩場分鐘保留各自截點。",
   "match_info": {
     "kickoff_hkt": "15:00（日本16:00）",
     "stadium": "町田GION體育場",
     "referee": null,
     "lineups_as_of": null,
-    "selection_note": "本場正式名單及球證組未公布；不沿用上場名單。",
+    "selection_note": "11月1日掃描：J.League只顯示預測陣式，尚無正式正選及後備；預測球員不可當作已入選。",
     "sources": [
       {
         "label": "J.League・正式日程",
@@ -40,14 +40,14 @@
       ]
     },
     "weather": {
-      "text": "10月31日Yahoo預報：町田11月1日12:00約20°C、15:00多雲20°C、18:00多雲18°C，時段降水0毫米；16:00開球預計接近日落，非球場實測。",
+      "text": "11月1日06:08更新的町田市預報：15時多雲19°C、18時多雲16°C，降水0毫米、風約2米／秒。16時開球預計逐漸轉涼；這是市級預報，非球場實測。",
       "kind": "reported",
-      "as_of": "2026-10-31",
+      "as_of": "2026-11-01",
       "sources": [
         {
-          "url": "https://weather.yahoo.co.jp/weather/13/4410/13209.html",
-          "label": "10月31日天氣預報",
-          "accessed_at": "2026-10-31"
+          "url": "https://www.mapion.co.jp/weather/admi/13/13209.html",
+          "label": "Mapion天氣・11月1日",
+          "accessed_at": "2026-11-01"
         }
       ]
     },
@@ -128,7 +128,19 @@
           }
         ]
       }
-    ]
+    ],
+    "officials": {
+      "status": "awaiting_appointment",
+      "roles": [],
+      "sources": [
+        {
+          "url": "https://www.jleague.jp/match/j1/2026/110109/lineup/",
+          "label": "J.League・11月1日核對",
+          "accessed_at": "2026-11-01"
+        }
+      ],
+      "note": "本次核對未見本場球證委任，不能套用神戶對町田的球證組。"
+    }
   },
   "teams": {
     "machida": {
@@ -164,7 +176,20 @@
       "lineup": {
         "starters": [],
         "bench": [],
-        "cues": []
+        "cues": [
+          {
+            "text": "正式名單尚未公布；官方頁的預測陣式不等於正選確認。",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/j1/2026/110109/lineup/",
+                "label": "J.League",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ]
       },
       "injuries": [
         {
@@ -3659,23 +3684,48 @@
       "lineup": {
         "starters": [],
         "bench": [],
-        "cues": []
+        "cues": [
+          {
+            "text": "正式名單尚未公布；官方頁的預測陣式不等於正選確認。",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/j1/2026/110109/lineup/",
+                "label": "J.League",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ]
       },
       "suspensions": [
         {
-          "text": "一森純：J1第13節11月1日停賽一場。周中ACL可上陣不代表聯賽可用。",
+          "text": "一森純因10月24日對京都在禁區附近阻止明顯入球機會被逐，今場停賽一場。不可因周中在亞洲賽上陣而視作本場可用。",
           "kind": "fact",
-          "as_of": "2026-10-31",
+          "as_of": "2026-11-01",
           "sources": [
             {
-              "url": "https://data.j-league.or.jp/SFIN03/",
-              "label": "J.League・10月29日公示",
-              "accessed_at": "2026-10-31"
+              "url": "https://aboutj.jleague.jp/corporate/news/article/95",
+              "label": "J.League紀律裁決",
+              "accessed_at": "2026-11-01"
             }
           ]
         }
       ],
       "rotation_notes": [
+        {
+          "text": "明神智和明言不認為町田因賽程而處於劣勢：對方亞洲賽已輪換，預期仍能派出強陣。這是教練評估，並非體能測量結論。",
+          "kind": "opinion",
+          "as_of": "2026-11-01",
+          "sources": [
+            {
+              "url": "https://www.gamba-osaka.net/news/index/no/21184/c/0/year/2/month/11/",
+              "label": "鋼巴官方前瞻",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
         {
           "text": "28日主場ACLE對武里南，再於1日作客町田，休息中三日。",
           "kind": "fact",
@@ -3714,6 +3764,18 @@
         }
       ],
       "style": [
+        {
+          "text": "鋼巴官方前瞻指出近期採用單防中布陣，宇佐美組織攻勢、美藤提供動態走位；本場實際陣式仍待名單確認。",
+          "kind": "reported",
+          "as_of": "2026-11-01",
+          "sources": [
+            {
+              "url": "https://www.gamba-osaka.net/news/index/no/21184/c/0/year/2/month/11/",
+              "label": "鋼巴官方前瞻",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
         {
           "text": "明神已把中場調整為倒三角；少踢一人後改以防守、反擊及死球爭取入球。",
           "kind": "reported",
@@ -7369,7 +7431,20 @@
           ]
         }
       ],
-      "milestones": []
+      "milestones": [
+        {
+          "text": "東口順昭若本場上陣，將是J1通算第399場；正式選用仍待名單。",
+          "kind": "reported",
+          "as_of": "2026-11-01",
+          "sources": [
+            {
+              "url": "https://www.gamba-osaka.net/news/index/no/21184/c/0/year/2/month/11/",
+              "label": "鋼巴官方前瞻",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        }
+      ]
     }
   },
   "quote_events": [
@@ -7482,11 +7557,147 @@
           "paraphrase_zh": "承認自己也錯失機會，球隊創造力比之前改善，但無法取勝仍然可惜；須把這次結果當作現況繼續改善。"
         }
       ]
+    },
+    {
+      "title": "本場賽前訪問",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "gamba-osaka",
+          "speaker": "明神智和",
+          "role": "監督",
+          "category": "upcoming",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "鋼巴官方・10月31日",
+          "url": "https://www.gamba-osaka.net/gameinfo/news/no/21183/",
+          "paraphrase_zh": "作客不會畏懼町田；要以個人、組合及整體防守限制對方，尤其不能在死球、高度與傳中出現一瞬間的鬆懈。"
+        }
+      ]
+    },
+    {
+      "title": "本場賽前訪問",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "gamba-osaka",
+          "speaker": "明神智和",
+          "role": "監督",
+          "category": "team",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "鋼巴官方・10月31日",
+          "url": "https://www.gamba-osaka.net/gameinfo/news/no/21183/",
+          "paraphrase_zh": "防守集中之餘，仍要專注己隊攻勢才能爭勝。"
+        }
+      ]
+    },
+    {
+      "title": "本場賽前訪問",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "gamba-osaka",
+          "speaker": "東口順昭",
+          "role": "球員",
+          "category": "upcoming",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "鋼巴官方・10月31日",
+          "url": "https://www.gamba-osaka.net/gameinfo/news/no/21183/",
+          "paraphrase_zh": "認為町田在堅守基礎上加入控球，善於回收長傳第二點；希望在關鍵時刻以撲救支撐球隊，抱挑戰者心態爭取積分。"
+        }
+      ]
+    },
+    {
+      "title": "本場賽前訪問",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "gamba-osaka",
+          "speaker": "謝巴利",
+          "role": "球員",
+          "category": "upcoming",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "鋼巴官方・10月31日",
+          "url": "https://www.gamba-osaka.net/gameinfo/news/no/21183/",
+          "paraphrase_zh": "要兼顧不失球與進攻，即使先失球也要追回；相信發揮訓練內容便能威脅町田，目標是三分。"
+        }
+      ]
+    },
+    {
+      "title": "本場賽前訪問",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "尼達・拉維",
+          "role": "球員",
+          "category": "upcoming",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "町田官方・10月31日",
+          "url": "https://www.zelvia.co.jp/news/news-365327/",
+          "paraphrase_zh": "尊重作為自己首間日本球會的鋼巴，但今場要壓制對方攻擊手、按町田的節奏比賽；特別提及宇佐美、山下、謝巴利及韋爾頓。"
+        }
+      ]
+    },
+    {
+      "title": "本場賽前訪問",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "尼達・拉維",
+          "role": "球員",
+          "category": "team",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "町田官方・10月31日",
+          "url": "https://www.zelvia.co.jp/news/news-365327/",
+          "paraphrase_zh": "認為球隊目前穩定、狀態良好；也預期對手會研究應對，隊友須互相補位，自己希望攻守兩端都作貢獻。"
+        }
+      ]
+    },
+    {
+      "title": "本場賽前訪問",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "黑田剛",
+          "role": "監督",
+          "category": "last_game",
+          "published_at": "2026-10-31",
+          "context": "pre_match",
+          "outlet": "町田官方・10月31日前瞻",
+          "url": "https://www.zelvia.co.jp/news/news-365327/",
+          "paraphrase_zh": "回顧神戶戰，後半場經防中及邊路製造良好傳中和機會，未能把握致未取三分，感到可惜。（31日賽前文章刊載其上輪回顧，非新採訪日期已確認。）"
+        }
+      ]
     }
   ],
   "preview": {
     "cues": [],
     "sections": [
+      {
+        "title": "11月1日賽前更新：控球、單防中與門將",
+        "paragraphs": [
+          {
+            "text": "尼達・拉維強調要按己隊節奏壓制鋼巴攻擊手；東口則指出町田不再只靠長傳，而能連續控球及回收第二點。兩邊評估都指向中場控制，因此應觀察町田失去球權後，能否迅速封住宇佐美接球，以及鋼巴單防中兩側是否被利用。",
+            "kind": "analysis",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "url": "https://www.zelvia.co.jp/news/news-365327/",
+                "label": "天書分析／雙方官方訪問",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ]
+      },
       {
         "title": "清白之身是結果，控球是手段",
         "paragraphs": [
@@ -7600,7 +7811,7 @@
   ],
   "interview_layout": "team_columns",
   "research_sweep": {
-    "checked_at": "2026-10-31",
+    "checked_at": "2026-11-01",
     "scope": "兩隊全季賽程、首12輪Football LAB、周中正式比賽、紀律、媒體及訪問",
     "sources_checked": [
       "J.League",
@@ -7615,8 +7826,9 @@
       "せこノート"
     ],
     "paywall_policy": "El Golazo付費內容未購買",
-    "as_of": "2026-10-31",
-    "interview_entries": 7
+    "as_of": "2026-11-01",
+    "interview_entries": 14,
+    "lineups_confirmed": false
   },
   "standings": {
     "as_of": "2026-10-31",

@@ -10,7 +10,7 @@ for(const file of ['2026-11-01-yokohama-fm-kawasaki.json','2026-11-01-machida-ga
   assert.ok(t.game_log.filter(r=>r.score).length>=5);assert.ok(t.game_log.filter(r=>!r.score&&r.date>=d.date).length>=5);
   assert.equal(t.workload.minutes.reduce((n,p)=>n+p.minutes,0),990);
   assert.equal(t.workload.minutes.filter(p=>p.started).length,11);
-  assert.ok(t.player_metrics.length>20);assert.ok(t.team_metrics.basic.length>=5);assert.ok(t.yellow_risk.length);assert.equal(t.lineup.starters.length,0);
+  assert.ok(t.player_metrics.length>20);assert.ok(t.team_metrics.basic.length>=5);assert.ok(t.yellow_risk.length);assert.equal(t.lineup.starters.length,d.match_info.lineups_as_of?11:0);if(d.match_info.lineups_as_of)assert.equal(t.lineup.bench.length,9);
  }
  for(const page of MATCH_PAGES){const h=renderMatchPage({home:read('data/clubs/'+d.home+'.json'),away:read('data/clubs/'+d.away+'.json'),date:d.date,page:page.id,dossier:d});assert.ok(!h.includes('undefined'));assert.ok(!h.includes('href="https://'));assert.equal(h.includes('class="quick-read"'),page.id==='info');}
 });
