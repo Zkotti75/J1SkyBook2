@@ -3,14 +3,14 @@
   "home": "yokohama-fm",
   "away": "kawasaki",
   "date": "2026-11-01",
-  "as_of": "2026-10-31",
-  "coverage_note": "10月31日賽前研究：聯賽榜為今日部分第13輪已完場截點；Football LAB統計為10月26日更新的首12輪，與即時排名分開。正式正選、臨場訪問及其後賽果不預填。",
+  "as_of": "2026-11-01",
+  "coverage_note": "11月1日賽前：正式正選、9名後備及6人球證組已按J.League核實；輪換與10月28日最近正式比賽比較。聯賽榜及Football LAB數據各自保留原有截點。",
   "match_info": {
     "kickoff_hkt": "12:00（日本13:00）",
     "stadium": "日產體育場",
-    "referee": null,
-    "lineups_as_of": null,
-    "selection_note": "本場正式名單及球證組未公布；不沿用上場名單。",
+    "referee": "椎野 大地",
+    "lineups_as_of": "2026-11-01・開賽前官方名單已公布（香港12:00／日本13:00開球）",
+    "selection_note": "兩隊正式正選及9名後備已核實；4-2-3-1按J.League官方圖，實戰站位可變動。",
     "sources": [
       {
         "label": "J.League・正式日程",
@@ -128,7 +128,92 @@
           }
         ]
       }
-    ]
+    ],
+    "officials": {
+      "status": "confirmed",
+      "sources": [
+        {
+          "label": "J.League官方・11月1日正式名單",
+          "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+          "accessed_at": "2026-11-01"
+        }
+      ],
+      "checked_at_display": "2026-11-01",
+      "roles": [
+        {
+          "id": "referee",
+          "label": "主球證",
+          "name_ja": "椎野 大地",
+          "sources": [
+            {
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "id": "assistant_1",
+          "label": "助理球證",
+          "name_ja": "武部 陽介",
+          "sources": [
+            {
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "id": "assistant_2",
+          "label": "助理球證",
+          "name_ja": "森川 浩次",
+          "sources": [
+            {
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "id": "fourth",
+          "label": "第四球證",
+          "name_ja": "野堀 桂佑",
+          "sources": [
+            {
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "id": "var",
+          "label": "VAR",
+          "name_ja": "福島 孝一郎",
+          "sources": [
+            {
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "id": "avar",
+          "label": "AVAR",
+          "name_ja": "渡辺 康太",
+          "sources": [
+            {
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    }
   },
   "teams": {
     "yokohama-fm": {
@@ -162,9 +247,285 @@
         }
       ],
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#21 飯倉大樹（GK）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#17 昆奴尼斯（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#25 鈴木冬一（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#33 諏訪間幸成（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#34 木村卓斗（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#7 遠野大彌（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#28 山根陸（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#41 松村晃助（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#9 谷村海那（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#11 佐迪・確斯（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#23 宮市亮（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 朴一圭（GK）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#13 井上太聖（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#44 湯馬士鄧尼（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#8 喜田拓也（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#32 田中雄大（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#40 天野純（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#24 近藤友喜（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#43 二田理央（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#47 三井寺眞（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": 10,
+        "cues": [
+          {
+            "text": "較10月28日聯賽盃更換10名正選；這是與最近正式比賽比較，並非與上輪聯賽比較。",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "谷村海那、遠野大彌、宮市亮及佐迪・確斯正選；天野純、近藤友喜及三井寺眞列後備。",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ],
+        "as_of": "2026-11-01",
+        "sources": [
+          {
+            "label": "J.League官方・11月1日正式名單",
+            "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+            "accessed_at": "2026-11-01"
+          }
+        ]
       },
       "injuries": [
         {
@@ -188,18 +549,6 @@
               "label": "橫濱官方・25日球員公開節錄",
               "url": "https://www.f-marinos.com/matches/20261025/report",
               "accessed_at": "2026-10-25"
-            }
-          ]
-        },
-        {
-          "text": "Football LAB賽前「欠場情報」列：；角田 涼太朗 ；知念 慶。此為缺陣資料，並非新增醫療診斷或確定明日缺陣。",
-          "kind": "reported",
-          "as_of": "2026-10-31",
-          "sources": [
-            {
-              "url": "https://www.football-lab.jp/y-fm/preview",
-              "label": "Football LAB",
-              "accessed_at": "2026-10-31"
             }
           ]
         }
@@ -232,6 +581,18 @@
       ],
       "rotation_notes": [
         {
+          "text": "本場正選較最近正式比賽更換10人；前兩場逐人分鐘表保留供負荷比較。",
+          "kind": "fact",
+          "as_of": "2026-11-01",
+          "sources": [
+            {
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
+            }
+          ]
+        },
+        {
           "text": "28日主場聯賽盃對廣島，再於1日對川崎；兩隊同有週中盃賽，須以實際出場分鐘再比較。",
           "kind": "fact",
           "as_of": "2026-10-25",
@@ -240,42 +601,6 @@
               "label": "橫濱官方・最新公告及28日廣島盃賽",
               "url": "https://www.f-marinos.com/news/",
               "accessed_at": "2026-10-25"
-            }
-          ]
-        },
-        {
-          "text": "周中有0名正選。前兩場逐人分鐘列於下表；中3日備戰本場。名義分鐘不能直接等同身體疲勞或受傷風險。",
-          "kind": "analysis",
-          "as_of": "2026-10-31",
-          "sources": [
-            {
-              "url": "https://www.jleague.jp/match/leaguecup/2026/102801/lineup/",
-              "label": "天書・按官方名單計算",
-              "accessed_at": "2026-10-31"
-            }
-          ]
-        },
-        {
-          "text": "周中有1名正選。前兩場逐人分鐘列於下表；中3日備戰本場。名義分鐘不能直接等同身體疲勞或受傷風險。",
-          "kind": "analysis",
-          "as_of": "2026-10-31",
-          "sources": [
-            {
-              "url": "https://www.jleague.jp/match/leaguecup/2026/102801/lineup/",
-              "label": "天書・按官方名單計算",
-              "accessed_at": "2026-10-31"
-            }
-          ]
-        },
-        {
-          "text": "周中有11名正選。前兩場逐人分鐘列於下表；中3日備戰本場。名義分鐘不能直接等同身體疲勞或受傷風險。",
-          "kind": "analysis",
-          "as_of": "2026-10-31",
-          "sources": [
-            {
-              "url": "https://www.jleague.jp/match/leaguecup/2026/102801/lineup/",
-              "label": "天書・按官方名單計算",
-              "accessed_at": "2026-10-31"
             }
           ]
         }
@@ -2932,13 +3257,59 @@
       "assists": [],
       "formation": {
         "shape": "4-2-3-1",
-        "label": "Football LAB首12輪常用開局陣式；非明日正選",
-        "as_of": "2026-10-26",
+        "label": "11月1日J.League官方名單及陣式圖；實際比賽站位可變動",
+        "as_of": "2026-11-01",
         "sources": [
           {
-            "url": "https://www.football-lab.jp/y-fm/formation",
-            "label": "Football LAB（10月26日更新，首12輪）",
-            "accessed_at": "2026-10-31"
+            "label": "J.League官方・11月1日正式名單",
+            "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+            "accessed_at": "2026-11-01"
+          }
+        ],
+        "players": [
+          {
+            "number": "9",
+            "name": "谷村海那"
+          },
+          {
+            "number": "23",
+            "name": "宮市亮"
+          },
+          {
+            "number": "7",
+            "name": "遠野大彌"
+          },
+          {
+            "number": "11",
+            "name": "佐迪・確斯"
+          },
+          {
+            "number": "41",
+            "name": "松村晃助"
+          },
+          {
+            "number": "28",
+            "name": "山根陸"
+          },
+          {
+            "number": "25",
+            "name": "鈴木冬一"
+          },
+          {
+            "number": "33",
+            "name": "諏訪間幸成"
+          },
+          {
+            "number": "17",
+            "name": "昆奴尼斯"
+          },
+          {
+            "number": "34",
+            "name": "木村卓斗"
+          },
+          {
+            "number": "21",
+            "name": "飯倉大樹"
           }
         ]
       },
@@ -3759,9 +4130,285 @@
         }
       ],
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#49 史雲特・布羅德森（GK）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#4 柏度・羅曼奴（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#5 佐佐木旭（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#13 三浦颯太（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#22 菲利普・烏雷莫維奇（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#6 山本悠樹（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#8 橘田健人（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#14 脇坂泰斗（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#17 伊藤達哉（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#23 馬仙奴（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#97 拉斯達（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 山口瑠伊（GK）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#2 松長根悠仁（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#28 丸山祐市（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#29 山原怜音（DF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#16 大關友翔（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#19 河原創（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#25 山市秀翔（MF）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#11 小林悠（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "#20 持山匡佑（FW）",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": 9,
+        "cues": [
+          {
+            "text": "較10月28日聯賽盃更換9名正選；這是與最近正式比賽比較，並非與上輪聯賽比較。",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "拉斯達、馬仙奴、伊藤達哉及脇坂泰斗正選；山市秀翔、大關友翔及小林悠列後備。",
+            "kind": "fact",
+            "as_of": "2026-11-01",
+            "sources": [
+              {
+                "label": "J.League官方・11月1日正式名單",
+                "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+                "accessed_at": "2026-11-01"
+              }
+            ]
+          }
+        ],
+        "as_of": "2026-11-01",
+        "sources": [
+          {
+            "label": "J.League官方・11月1日正式名單",
+            "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+            "accessed_at": "2026-11-01"
+          }
+        ]
       },
       "style": [
         {
@@ -5113,20 +5760,7 @@
           ]
         }
       ],
-      "injuries": [
-        {
-          "text": "Football LAB賽前「欠場情報」列：；宮城 天 ；ラザル ロマニッチ ；谷口 栄斗 ；紺野 和也 ；野田 裕人 ；青木 馨 ；デリキ ラセルダ。此為缺陣資料，並非新增醫療診斷或確定明日缺陣。",
-          "kind": "reported",
-          "as_of": "2026-10-31",
-          "sources": [
-            {
-              "url": "https://www.football-lab.jp/ka-f/preview",
-              "label": "Football LAB",
-              "accessed_at": "2026-10-31"
-            }
-          ]
-        }
-      ],
+      "injuries": [],
       "usage_metrics": [
         {
           "label": "#49 史雲特・布羅德森",
@@ -6455,13 +7089,59 @@
       "assists": [],
       "formation": {
         "shape": "4-2-3-1",
-        "label": "Football LAB首12輪常用開局陣式；非明日正選",
-        "as_of": "2026-10-26",
+        "label": "11月1日J.League官方名單及陣式圖；實際比賽站位可變動",
+        "as_of": "2026-11-01",
         "sources": [
           {
-            "url": "https://www.football-lab.jp/ka-f/formation",
-            "label": "Football LAB（10月26日更新，首12輪）",
-            "accessed_at": "2026-10-31"
+            "label": "J.League官方・11月1日正式名單",
+            "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+            "accessed_at": "2026-11-01"
+          }
+        ],
+        "players": [
+          {
+            "number": "97",
+            "name": "拉斯達"
+          },
+          {
+            "number": "23",
+            "name": "馬仙奴"
+          },
+          {
+            "number": "14",
+            "name": "脇坂泰斗"
+          },
+          {
+            "number": "17",
+            "name": "伊藤達哉"
+          },
+          {
+            "number": "8",
+            "name": "橘田健人"
+          },
+          {
+            "number": "6",
+            "name": "山本悠樹"
+          },
+          {
+            "number": "13",
+            "name": "三浦颯太"
+          },
+          {
+            "number": "22",
+            "name": "菲利普・烏雷莫維奇"
+          },
+          {
+            "number": "4",
+            "name": "柏度・羅曼奴"
+          },
+          {
+            "number": "5",
+            "name": "佐佐木旭"
+          },
+          {
+            "number": "49",
+            "name": "史雲特・布羅德森"
           }
         ]
       },
@@ -6805,26 +7485,14 @@
       },
       "rotation_notes": [
         {
-          "text": "周中有0名正選。前兩場逐人分鐘列於下表；中3日備戰本場。名義分鐘不能直接等同身體疲勞或受傷風險。",
-          "kind": "analysis",
-          "as_of": "2026-10-31",
+          "text": "本場正選較最近正式比賽更換9人；前兩場逐人分鐘表保留供負荷比較。",
+          "kind": "fact",
+          "as_of": "2026-11-01",
           "sources": [
             {
-              "url": "https://www.jleague.jp/match/leaguecup/2026/102803/lineup/",
-              "label": "天書・按官方名單計算",
-              "accessed_at": "2026-10-31"
-            }
-          ]
-        },
-        {
-          "text": "周中有11名正選。前兩場逐人分鐘列於下表；中3日備戰本場。名義分鐘不能直接等同身體疲勞或受傷風險。",
-          "kind": "analysis",
-          "as_of": "2026-10-31",
-          "sources": [
-            {
-              "url": "https://www.jleague.jp/match/leaguecup/2026/102803/lineup/",
-              "label": "天書・按官方名單計算",
-              "accessed_at": "2026-10-31"
+              "label": "J.League官方・11月1日正式名單",
+              "url": "https://www.jleague.jp/match/j1/2026/110101/lineup/",
+              "accessed_at": "2026-11-01"
             }
           ]
         }
@@ -7706,15 +8374,14 @@
     ]
   },
   "coverage_gaps": [
-    "本場正式正選、後備、實際陣式及臨場訪問待官方公布。",
-    "球證組委任及其對應今季執法樣本尚未取得可核對的本場資料。",
     "橫濱、町田及鋼巴的黃牌表為賽季單黃牌場數，尚未完整核對扣除已執行停賽後的有效累積；川崎採球會有效累積表。",
     "球隊入失球時段、門將射門質素調整指標及個別傷員最新復出日未取得可靠完整數據。",
-    "部分兩隊近期訪問未有免費可核對全文，不以舊訪問冒充本場新訪問。"
+    "部分兩隊近期訪問未有免費可核對全文，不以舊訪問冒充本場新訪問。",
+    "球證本季執法傾向尚未取得可靠統計；不填推測數字。"
   ],
   "interview_layout": "team_columns",
   "research_sweep": {
-    "checked_at": "2026-10-31",
+    "checked_at": "2026-11-01",
     "scope": "兩隊全季賽程、首12輪Football LAB、周中正式比賽、紀律、媒體及訪問",
     "sources_checked": [
       "J.League",
@@ -7729,8 +8396,9 @@
       "せこノート"
     ],
     "paywall_policy": "El Golazo付費內容未購買",
-    "as_of": "2026-10-31",
-    "interview_entries": 14
+    "as_of": "2026-11-01",
+    "interview_entries": 14,
+    "lineups_confirmed": true
   },
   "standings": {
     "as_of": "2026-10-31",
@@ -8163,7 +8831,7 @@
     "03": "完成：近五仗、未來五仗、主客、五次對賽",
     "04": "部分：停賽確認；部分有效黃牌累積待核",
     "05": "部分：基本／進階／死球／CBP已補；時段未齊",
-    "06": "完成賽前部分：前兩場分鐘及常用程度；本場名單待公布",
+    "06": "正式名單、陣式圖及本場輪換已確認；保留前兩場分鐘表",
     "07": "球員統計與有來源焦點已補",
     "08": "六節分析及情境觀察已補",
     "09": "完成：20隊榜及兩隊38輪聯賽、已公布盃賽"
