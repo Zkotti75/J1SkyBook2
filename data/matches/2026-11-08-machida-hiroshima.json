@@ -1522,7 +1522,7 @@
           "sources": [
             {
               "url": "https://www.football-lab.jp/mcd/match",
-              "label": "Football LAB・按首13輪賽果計算",
+              "label": "Football LAB賽果",
               "accessed_at": "2026-11-02"
             }
           ]
@@ -1534,7 +1534,7 @@
           "sources": [
             {
               "url": "https://www.football-lab.jp/mcd/match",
-              "label": "Football LAB・按首13輪賽果計算",
+              "label": "Football LAB賽果",
               "accessed_at": "2026-11-02"
             }
           ]
@@ -2423,19 +2423,19 @@
           "sources": [
             {
               "url": "https://www.football-lab.jp/hiro/match",
-              "label": "Football LAB・按首13輪賽果計算",
+              "label": "Football LAB賽果",
               "accessed_at": "2026-11-02"
             }
           ]
         },
         {
-          "text": "客場：6場，3勝1和2負，入9、失8。",
+          "text": "客場：7場，4勝1和2負，入12、失8。",
           "kind": "fact",
           "as_of": "2026-11-02",
           "sources": [
             {
               "url": "https://www.football-lab.jp/hiro/match",
-              "label": "Football LAB・按首13輪賽果計算",
+              "label": "Football LAB賽果",
               "accessed_at": "2026-11-02"
             }
           ]
@@ -2730,15 +2730,15 @@
     "sources": [
       {
         "url": "https://www.jleague.jp/standings/j1/",
-        "label": "J.League官方・11月1日完場後榜",
-        "accessed_at": "2026-11-01"
+        "label": "J.League官方・11月2日核對",
+        "accessed_at": "2026-11-02"
       }
     ],
     "rows": [
       {
-        "rank": 1,
         "slug": "fc-tokyo",
         "name_zh": "FC東京",
+        "rank": 1,
         "points": 30,
         "played": 13,
         "wins": 9,
@@ -2749,9 +2749,9 @@
         "goal_difference": 23
       },
       {
-        "rank": 2,
         "slug": "hiroshima",
         "name_zh": "廣島三箭",
+        "rank": 2,
         "points": 29,
         "played": 13,
         "wins": 9,
@@ -2762,9 +2762,9 @@
         "goal_difference": 22
       },
       {
-        "rank": 3,
         "slug": "machida",
         "name_zh": "町田澤維亞",
+        "rank": 3,
         "points": 28,
         "played": 13,
         "wins": 8,
@@ -2775,9 +2775,9 @@
         "goal_difference": 20
       },
       {
-        "rank": 4,
         "slug": "kashiwa",
         "name_zh": "柏太陽王",
+        "rank": 4,
         "points": 28,
         "played": 13,
         "wins": 9,
@@ -2788,9 +2788,9 @@
         "goal_difference": 10
       },
       {
-        "rank": 5,
         "slug": "kobe",
         "name_zh": "神戶勝利船",
+        "rank": 5,
         "points": 26,
         "played": 13,
         "wins": 8,
@@ -2801,9 +2801,9 @@
         "goal_difference": 9
       },
       {
-        "rank": 6,
         "slug": "kashima",
         "name_zh": "鹿島鹿角",
+        "rank": 6,
         "points": 23,
         "played": 13,
         "wins": 7,
@@ -2814,9 +2814,9 @@
         "goal_difference": 7
       },
       {
-        "rank": 7,
         "slug": "kawasaki",
         "name_zh": "川崎前鋒",
+        "rank": 7,
         "points": 22,
         "played": 13,
         "wins": 6,
@@ -2827,9 +2827,9 @@
         "goal_difference": 5
       },
       {
-        "rank": 8,
         "slug": "yokohama-fm",
         "name_zh": "橫濱水手",
+        "rank": 8,
         "points": 21,
         "played": 13,
         "wins": 5,
@@ -2840,9 +2840,9 @@
         "goal_difference": 6
       },
       {
-        "rank": 9,
         "slug": "urawa",
         "name_zh": "浦和紅鑽",
+        "rank": 9,
         "points": 21,
         "played": 13,
         "wins": 7,
@@ -2853,9 +2853,9 @@
         "goal_difference": -6
       },
       {
-        "rank": 10,
         "slug": "okayama",
         "name_zh": "岡山綠雉",
+        "rank": 10,
         "points": 16,
         "played": 13,
         "wins": 5,
@@ -2866,9 +2866,9 @@
         "goal_difference": -6
       },
       {
-        "rank": 11,
         "slug": "nagoya",
         "name_zh": "名古屋鯨魚",
+        "rank": 11,
         "points": 14,
         "played": 13,
         "wins": 4,
@@ -2879,9 +2879,9 @@
         "goal_difference": -6
       },
       {
-        "rank": 12,
         "slug": "cerezo-osaka",
         "name_zh": "大阪櫻花",
+        "rank": 12,
         "points": 14,
         "played": 13,
         "wins": 3,
@@ -2892,9 +2892,9 @@
         "goal_difference": -10
       },
       {
-        "rank": 13,
         "slug": "shimizu",
         "name_zh": "清水心跳",
+        "rank": 13,
         "points": 14,
         "played": 13,
         "wins": 4,
@@ -2905,9 +2905,9 @@
         "goal_difference": -12
       },
       {
-        "rank": 14,
         "slug": "kyoto",
         "name_zh": "京都不死鳥",
+        "rank": 14,
         "points": 13,
         "played": 13,
         "wins": 3,
@@ -2918,22 +2918,22 @@
         "goal_difference": -6
       },
       {
-        "rank": 15,
         "slug": "nagasaki",
         "name_zh": "長崎成功丸",
+        "rank": 15,
         "points": 12,
-        "played": 12,
+        "played": 13,
         "wins": 3,
         "draws": 3,
-        "losses": 6,
-        "goals_for": 15,
-        "goals_against": 19,
-        "goal_difference": -4
+        "losses": 7,
+        "goals_for": 16,
+        "goals_against": 21,
+        "goal_difference": -5
       },
       {
-        "rank": 16,
         "slug": "gamba-osaka",
         "name_zh": "大阪飛腳",
+        "rank": 16,
         "points": 12,
         "played": 13,
         "wins": 2,
@@ -2944,9 +2944,35 @@
         "goal_difference": -7
       },
       {
+        "slug": "tokyo-verdy",
+        "name_zh": "東京綠茵",
         "rank": 17,
+        "points": 11,
+        "played": 13,
+        "wins": 2,
+        "draws": 5,
+        "losses": 6,
+        "goals_for": 11,
+        "goals_against": 22,
+        "goal_difference": -11
+      },
+      {
+        "slug": "chiba",
+        "name_zh": "千葉市原JEF聯",
+        "rank": 18,
+        "points": 10,
+        "played": 13,
+        "wins": 2,
+        "draws": 4,
+        "losses": 7,
+        "goals_for": 15,
+        "goals_against": 24,
+        "goal_difference": -9
+      },
+      {
         "slug": "mito",
         "name_zh": "水戶蜀葵",
+        "rank": 19,
         "points": 9,
         "played": 13,
         "wins": 2,
@@ -2957,43 +2983,17 @@
         "goal_difference": -13
       },
       {
-        "rank": 18,
-        "slug": "tokyo-verdy",
-        "name_zh": "東京綠茵",
-        "points": 8,
-        "played": 12,
-        "wins": 1,
-        "draws": 5,
-        "losses": 6,
-        "goals_for": 9,
-        "goals_against": 21,
-        "goal_difference": -12
-      },
-      {
-        "rank": 19,
         "slug": "fukuoka",
         "name_zh": "福岡黃蜂",
+        "rank": 20,
         "points": 7,
-        "played": 12,
+        "played": 13,
         "wins": 2,
         "draws": 1,
-        "losses": 9,
+        "losses": 10,
         "goals_for": 13,
-        "goals_against": 21,
-        "goal_difference": -8
-      },
-      {
-        "rank": 20,
-        "slug": "chiba",
-        "name_zh": "千葉市原JEF聯",
-        "points": 7,
-        "played": 12,
-        "wins": 1,
-        "draws": 4,
-        "losses": 7,
-        "goals_for": 12,
         "goals_against": 24,
-        "goal_difference": -12
+        "goal_difference": -11
       }
     ]
   }
