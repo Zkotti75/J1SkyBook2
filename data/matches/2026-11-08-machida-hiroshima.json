@@ -1,0 +1,3000 @@
+{
+  "schema_version": 1,
+  "home": "machida",
+  "away": "hiroshima",
+  "date": "2026-11-08",
+  "as_of": "2026-11-02",
+  "interview_layout": "team_columns",
+  "coverage_note": "11月2日首輪準備版。賽程及上輪賽果已更新；Football LAB進階統計仍為10月26日首12輪截點。町田11月5日亞洲賽尚未進行，傷停、輪換與最新訪問須在該場之後重查。",
+  "match_info": {
+    "kickoff_hkt": "13:00（日本14:00）",
+    "stadium": "町田GION體育場",
+    "lineups_as_of": null,
+    "referee": null,
+    "selection_note": "本場正選、後備及球證組尚未公布；不沿用11月1日名單。",
+    "sources": [
+      {
+        "url": "https://www.zelvia.co.jp/news/news-359346/",
+        "label": "町田官方・第14節試合情報",
+        "accessed_at": "2026-11-02"
+      }
+    ],
+    "stadium_facts": [
+      {
+        "text": "町田GION體育場：登記容量15,320人；地址東京都町田市野津田町2035。",
+        "kind": "fact",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.jleague.jp/club/machida/",
+            "label": "J.League球會資料",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "text": "J.League現行登記容量15,320人。",
+        "kind": "reported",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.jleague.jp/club/machida/",
+            "label": "球會館藏資料／J.League",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "text": "場館位於野津田公園，長期被視為町田由地方／市民球會走上J1的重要象徵。",
+        "kind": "reported",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.jleague.jp/club/machida/",
+            "label": "球會館藏資料／J.League",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "text": "球會歷史由少年選拔Training Center向上建立Youth及Top Team，與一般由一隊向下建立Academy的路徑相反。",
+        "kind": "reported",
+        "as_of": "2026-10-31",
+        "sources": [
+          {
+            "url": "https://www.jleague.jp/club/machida/",
+            "label": "球會館藏資料／J.League",
+            "accessed_at": "2026-10-31"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "text": "本場為スポニチMatch Day，由體育日本新聞社冠名。",
+        "kind": "fact",
+        "as_of": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.zelvia.co.jp/news/news-359346/",
+            "label": "町田官方",
+            "accessed_at": "2026-11-02"
+          }
+        ]
+      }
+    ],
+    "weather": {
+      "text": "現距比賽六天，尚未核對可信逐時球場預報；接近比賽日更新，不沿用11月1日天氣。",
+      "kind": "analysis",
+      "as_of": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.zelvia.co.jp/news/news-359346/",
+          "label": "賽前資料狀態",
+          "accessed_at": "2026-11-02"
+        }
+      ]
+    }
+  },
+  "teams": {
+    "machida": {
+      "previous_match_date": "2026-11-01",
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": []
+      },
+      "style": [],
+      "form": [
+        {
+          "text": "上輪0-0鋼巴，聯賽連續兩場0-0；正式賽事連續八場不失球。13輪28分，落後FC東京兩分。",
+          "kind": "reported",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.daily.co.jp/soccer/2026/11/01/0020992080.shtml",
+              "label": "Daily Sports",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "storylines": [],
+      "injuries": [
+        {
+          "text": "23日官方回顧提及泰迪・恩基因傷臨時退出21日清水戰正選；公告未提供診斷或1日可用性。",
+          "kind": "reported",
+          "as_of": "2026-10-25",
+          "sources": [
+            {
+              "label": "町田官方・23日神戶戰前瞻",
+              "url": "https://www.zelvia.co.jp/news/news-364291/",
+              "accessed_at": "2026-10-25"
+            }
+          ]
+        }
+      ],
+      "transfers": [],
+      "suspensions": [],
+      "yellow_risk": [],
+      "team_metrics": {
+        "basic": [
+          {
+            "label": "進攻次數",
+            "value": "107.7",
+            "rank": 18,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "射門",
+            "value": "12.9",
+            "rank": 9,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "機會構築率",
+            "value": "12.0%",
+            "rank": 7,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球",
+            "value": "2.5",
+            "rank": 1,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "射門轉化率",
+            "value": "19.4%",
+            "rank": 1,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "attack": [
+          {
+            "label": "xG",
+            "value": "1.543",
+            "rank": 6,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球",
+            "value": "2.5",
+            "rank": 1,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "xGA",
+            "value": "1.073",
+            "rank": 4,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球",
+            "value": "0.8",
+            "rank": 2,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "build_up": [
+          {
+            "label": "進攻CBP",
+            "value": "181.92",
+            "rank": 8,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "傳球CBP",
+            "value": "137.97",
+            "rank": 10,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "傳中CBP",
+            "value": "28.51",
+            "rank": 3,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "盤扭CBP",
+            "value": "15.44",
+            "rank": 10,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "シュートCBP",
+            "value": "105.80",
+            "rank": 7,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "ゴールCBP",
+            "value": "85.38",
+            "rank": 1,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "奪回球權CBP",
+            "value": "1,002.00",
+            "rank": 10,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "防守CBP",
+            "value": "165.65",
+            "rank": 8,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "AGI進攻指數",
+            "value": "48.2",
+            "rank": 14,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "KAGI防守指數",
+            "value": "51.4",
+            "rank": 9,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "跑動距離",
+            "value": "114.512km",
+            "rank": 8,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "較對手跑動距離差",
+            "value": "-0.078km",
+            "rank": 11,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "高速跑次數",
+            "value": "106.2",
+            "rank": 16,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "較對手高速跑差",
+            "value": "-4.6",
+            "rank": 14,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "defence": [
+          {
+            "label": "對手進攻次數",
+            "value": "107.3",
+            "rank": 3,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "被射門",
+            "value": "12.6",
+            "rank": 9,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "對手機會構築率",
+            "value": "11.7%",
+            "rank": 11,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球",
+            "value": "0.8",
+            "rank": 2,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "對手射門轉化率",
+            "value": "6.0%",
+            "rank": 1,
+            "unit": "每場",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "set_pieces": [
+          {
+            "label": "入球方式・十二碼",
+            "value": "0球 (0.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・直接死球",
+            "value": "2球 (6.7%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・死球配合",
+            "value": "6球 (20.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・傳中",
+            "value": "7球 (23.3%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・直線傳送",
+            "value": "4球 (13.3%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・30米以下傳送",
+            "value": "1球 (3.3%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・30米以上傳送",
+            "value": "0球 (0.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・盤扭",
+            "value": "2球 (6.7%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・第二點球",
+            "value": "7球 (23.3%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "入球方式・其他",
+            "value": "1球 (3.3%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・十二碼",
+            "value": "0球 (0.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・直接死球",
+            "value": "0球 (0.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・死球配合",
+            "value": "3球 (30.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・傳中",
+            "value": "2球 (20.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・直線傳送",
+            "value": "0球 (0.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・30米以下傳送",
+            "value": "2球 (20.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・30米以上傳送",
+            "value": "1球 (10.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・盤扭",
+            "value": "1球 (10.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・第二點球",
+            "value": "1球 (10.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          },
+          {
+            "label": "失球方式・其他",
+            "value": "0球 (0.0%)",
+            "rank": null,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "timing": [
+          {
+            "label": "入失球時段拆分",
+            "value": "未取得可核對完整分段；不推算",
+            "rank": null,
+            "unit": "",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ],
+        "goalkeeping": [
+          {
+            "label": "撲救CBP",
+            "value": "4.09",
+            "rank": 14,
+            "unit": "球季累計",
+            "sample": "2026/27 J1首12場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd?year=2026",
+                "label": "Football LAB（10月26日更新，首12輪）",
+                "accessed_at": "2026-10-31"
+              }
+            ]
+          }
+        ]
+      },
+      "game_log": [
+        {
+          "date": "2026-08-08",
+          "sort_date": "2026-08-08",
+          "round": "1",
+          "competition": "J1",
+          "opponent": "FC東京",
+          "score": "5-1",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "味スタ"
+        },
+        {
+          "date": "2026-08-15",
+          "sort_date": "2026-08-15",
+          "round": "2",
+          "competition": "J1",
+          "opponent": "千葉",
+          "score": "4-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "フクアリ"
+        },
+        {
+          "date": "2026-08-23",
+          "sort_date": "2026-08-23",
+          "round": "3",
+          "competition": "J1",
+          "opponent": "浦和",
+          "score": "3-1",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "MUFG国立"
+        },
+        {
+          "date": "2026-08-26",
+          "sort_date": "2026-08-26",
+          "round": "",
+          "competition": "天皇盃",
+          "opponent": "岩手",
+          "score": "3-0",
+          "venue": "中立",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "round": "4",
+          "competition": "J1",
+          "opponent": "水戸",
+          "score": "1-1",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "水戸信ス"
+        },
+        {
+          "date": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "round": "5",
+          "competition": "J1",
+          "opponent": "川崎Ｆ",
+          "score": "2-1",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "round": "6",
+          "competition": "J1",
+          "opponent": "名古屋",
+          "score": "3-1",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "豊田ス"
+        },
+        {
+          "date": "2026-09-12",
+          "sort_date": "2026-09-12",
+          "round": "7",
+          "competition": "J1",
+          "opponent": "横浜FM",
+          "score": "1-1",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "MUFG国立"
+        },
+        {
+          "date": "2026-09-17",
+          "sort_date": "2026-09-17",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "スバイリエン",
+          "score": "2-0",
+          "venue": "主",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-09-20",
+          "sort_date": "2026-09-20",
+          "round": "8",
+          "competition": "J1",
+          "opponent": "柏",
+          "score": "2-4",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-09-23",
+          "sort_date": "2026-09-23",
+          "round": "",
+          "competition": "天皇盃",
+          "opponent": "栃木C",
+          "score": "2-1",
+          "venue": "主",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-10-10",
+          "sort_date": "2026-10-10",
+          "round": "9",
+          "competition": "J1",
+          "opponent": "京都",
+          "score": "1-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "サンガＳ"
+        },
+        {
+          "date": "2026-10-15",
+          "sort_date": "2026-10-15",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "タンピネス",
+          "score": "1-0",
+          "venue": "客",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-10-18",
+          "sort_date": "2026-10-18",
+          "round": "10",
+          "competition": "J1",
+          "opponent": "福岡",
+          "score": "3-0",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "round": "11",
+          "competition": "J1",
+          "opponent": "清水",
+          "score": "5-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "アイスタ"
+        },
+        {
+          "date": "2026-10-24",
+          "sort_date": "2026-10-24",
+          "round": "12",
+          "competition": "J1",
+          "opponent": "神戸",
+          "score": "0-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "ノエスタ"
+        },
+        {
+          "date": "2026-10-29",
+          "sort_date": "2026-10-29",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "上海申花",
+          "score": "1-0",
+          "venue": "客",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-11-01",
+          "sort_date": "2026-11-01",
+          "round": "13",
+          "competition": "J1",
+          "opponent": "Ｇ大阪",
+          "score": "0-0",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-11-05",
+          "sort_date": "2026-11-05",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "上海申花",
+          "score": null,
+          "venue": "主",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-11-08",
+          "sort_date": "2026-11-08",
+          "round": "14",
+          "competition": "J1",
+          "opponent": "広島",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-11-11",
+          "sort_date": "2026-11-11",
+          "round": "",
+          "competition": "聯賽盃",
+          "opponent": "神戸",
+          "score": null,
+          "venue": "客",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-11-15",
+          "sort_date": "2026-11-15",
+          "round": "",
+          "competition": "聯賽盃",
+          "opponent": "神戸",
+          "score": null,
+          "venue": "主",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-11-21",
+          "sort_date": "2026-11-21",
+          "round": "15",
+          "competition": "J1",
+          "opponent": "長崎",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-11-26",
+          "sort_date": "2026-11-26",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "スバイリエン",
+          "score": null,
+          "venue": "客",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-11-29",
+          "sort_date": "2026-11-29",
+          "round": "17",
+          "competition": "J1",
+          "opponent": "東京Ｖ",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-12-03",
+          "sort_date": "2026-12-03",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "タンピネス",
+          "score": null,
+          "venue": "主",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-12-06",
+          "sort_date": "2026-12-06",
+          "round": "18",
+          "competition": "J1",
+          "opponent": "岡山",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-12-09",
+          "sort_date": "2026-12-09",
+          "round": "",
+          "competition": "天皇盃",
+          "opponent": "東京V",
+          "score": null,
+          "venue": "主",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2026-12-12",
+          "sort_date": "2026-12-12",
+          "round": "19",
+          "competition": "J1",
+          "opponent": "Ｃ大阪",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "ハナサカ"
+        },
+        {
+          "date": "2026-12-16",
+          "sort_date": "2026-12-16",
+          "round": "16",
+          "competition": "J1",
+          "opponent": "鹿島",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "メルスタ"
+        },
+        {
+          "date": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "round": "20",
+          "competition": "J1",
+          "opponent": "Ｇ大阪",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "パナスタ"
+        },
+        {
+          "date": "2027-02-13",
+          "sort_date": "2027-02-13",
+          "round": "21",
+          "competition": "J1",
+          "opponent": "千葉",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2027-02-20",
+          "sort_date": "2027-02-20",
+          "round": "22",
+          "competition": "J1",
+          "opponent": "横浜FM",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "日産ス"
+        },
+        {
+          "date": "2027-02-27",
+          "sort_date": "2027-02-27",
+          "round": "23",
+          "competition": "J1",
+          "opponent": "川崎Ｆ",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "MUFG国立"
+        },
+        {
+          "date": "2027-03-03",
+          "sort_date": "2027-03-03",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "江原FC",
+          "score": "0-0",
+          "venue": "客",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2027-03-06",
+          "sort_date": "2027-03-06",
+          "round": "24",
+          "competition": "J1",
+          "opponent": "清水",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "round": "25",
+          "competition": "J1",
+          "opponent": "鹿島",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "江原FC",
+          "score": "1-0",
+          "venue": "主",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2027-03-13",
+          "sort_date": "2027-03-13",
+          "round": "26",
+          "competition": "J1",
+          "opponent": "名古屋",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2027-03-20",
+          "sort_date": "2027-03-20",
+          "round": "27",
+          "competition": "J1",
+          "opponent": "水戸",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2027-04-03",
+          "sort_date": "2027-04-03",
+          "round": "28",
+          "competition": "J1",
+          "opponent": "東京Ｖ",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "味スタ"
+        },
+        {
+          "date": "2027-04-10",
+          "sort_date": "2027-04-10",
+          "round": "29",
+          "competition": "J1",
+          "opponent": "神戸",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2027-04-17",
+          "sort_date": "2027-04-17",
+          "round": "30",
+          "competition": "J1",
+          "opponent": "福岡",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "ベススタ"
+        },
+        {
+          "date": "2027-04-17",
+          "sort_date": "2027-04-17",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "アルイテハド",
+          "score": "1-0",
+          "venue": "中立",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2027-04-21",
+          "sort_date": "2027-04-21",
+          "round": "",
+          "competition": "ACL Elite",
+          "opponent": "シャバブ・アルアハリ",
+          "score": "1-0",
+          "venue": "中立",
+          "source": "https://web.gekisaka.jp/club/schedule?club_id=411",
+          "comment": ""
+        },
+        {
+          "date": "2027-04-24",
+          "sort_date": "2027-04-24",
+          "round": "31",
+          "competition": "J1",
+          "opponent": "広島",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "round": "32",
+          "competition": "J1",
+          "opponent": "浦和",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "埼玉"
+        },
+        {
+          "date": "2027-05-03",
+          "sort_date": "2027-05-03",
+          "round": "33",
+          "competition": "J1",
+          "opponent": "京都",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2027-05-09",
+          "sort_date": "2027-05-09",
+          "round": "34",
+          "competition": "J1",
+          "opponent": "柏",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "三協Ｆ柏"
+        },
+        {
+          "date": "2027-05-15",
+          "sort_date": "2027-05-15",
+          "round": "35",
+          "competition": "J1",
+          "opponent": "FC東京",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "未定"
+        },
+        {
+          "date": "2027-05-22",
+          "sort_date": "2027-05-22",
+          "round": "36",
+          "competition": "J1",
+          "opponent": "岡山",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "ＪＦＥス"
+        },
+        {
+          "date": "2027-05-29",
+          "sort_date": "2027-05-29",
+          "round": "37",
+          "competition": "J1",
+          "opponent": "長崎",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "ピースタ"
+        },
+        {
+          "date": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "round": "38",
+          "competition": "J1",
+          "opponent": "Ｃ大阪",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/mcd/match?year=2026",
+          "comment": "Ｇスタ"
+        }
+      ],
+      "players_to_watch": {
+        "stars": [],
+        "foreign": [],
+        "youth": []
+      },
+      "stats": {
+        "season": "2026/27",
+        "competition": "J1",
+        "as_of": "2026-11-02",
+        "matches": 13,
+        "wins": 8,
+        "draws": 4,
+        "losses": 1,
+        "points": 28,
+        "goals_for": 30,
+        "goals_against": 10,
+        "goal_difference": 20,
+        "rank": 3,
+        "sources": [
+          {
+            "url": "https://www.football-lab.jp/mcd/match",
+            "label": "Football LAB賽果",
+            "accessed_at": "2026-11-02"
+          }
+        ]
+      },
+      "home_away_record": [
+        {
+          "text": "主場：6場，3勝2和1負，入11、失7。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.football-lab.jp/mcd/match",
+              "label": "Football LAB・按首13輪賽果計算",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        },
+        {
+          "text": "客場：7場，5勝2和0負，入19、失3。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.football-lab.jp/mcd/match",
+              "label": "Football LAB・按首13輪賽果計算",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "rotation_notes": [
+        {
+          "text": "11月5日主場對上海申花後，中兩日迎廣島；該場尚未進行，不能預填上陣分鐘或輪換。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.zelvia.co.jp/match/game/series/2026-27/",
+              "label": "官方賽程",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        }
+      ]
+    },
+    "hiroshima": {
+      "previous_match_date": "2026-10-31",
+      "lineup": {
+        "starters": [],
+        "bench": [],
+        "cues": []
+      },
+      "style": [],
+      "form": [
+        {
+          "text": "聯賽先後4-0清水、3-0水戶，兩連勝且保持清白之身；上輪由鈴木章斗、中野就斗及菅大輝入球。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
+              "label": "廣島官方",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "storylines": [],
+      "injuries": [
+        {
+          "text": "加藤陸次樹：11月1日球會公布右膝內側副韌帶損傷，10月24日對清水受傷、翌日檢查。公告未列復出日期，不能自行推算本場可用。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.sanfrecce.co.jp/news/team/13023",
+              "label": "廣島官方傷患公告",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        },
+        {
+          "text": "川村拓夢：11月1日球會公布右膝內側副韌帶損傷，10月24日對清水受傷、翌日檢查。公告未列復出日期，不能自行推算本場可用。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.sanfrecce.co.jp/news/team/13024",
+              "label": "廣島官方傷患公告",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "transfers": [],
+      "suspensions": [],
+      "yellow_risk": [],
+      "team_metrics": {
+        "basic": [
+          {
+            "label": "ゴール",
+            "value": "2.3",
+            "rank": 2,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "シュート",
+            "value": "19.0",
+            "rank": 1,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "枠内シュート",
+            "value": "6.5",
+            "rank": 1,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "PKによるシュート",
+            "value": "0.2",
+            "rank": 2,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "パス",
+            "value": "585.6",
+            "rank": 1,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "クロス",
+            "value": "20.4",
+            "rank": 1,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "直接フリーキック",
+            "value": "11.3",
+            "rank": 9,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "間接フリーキック",
+            "value": "1.8",
+            "rank": 9,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "コーナーキック",
+            "value": "7.4",
+            "rank": 1,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "スローイン",
+            "value": "20.6",
+            "rank": 9,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "ドリブル",
+            "value": "9.1",
+            "rank": 16,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "タックル",
+            "value": "15.4",
+            "rank": 12,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "クリア",
+            "value": "17.8",
+            "rank": 20,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "インターセプト",
+            "value": "2.2",
+            "rank": 4,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "オフサイド",
+            "value": "1.9",
+            "rank": 9,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "警告",
+            "value": "1.0",
+            "rank": 17,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "退場",
+            "value": "0.1",
+            "rank": 7,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "30mライン進入回数",
+            "value": "60.3",
+            "rank": 1,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "ペナルティエリア進入回数",
+            "value": "17.8",
+            "rank": 4,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "攻撃回数",
+            "value": "115.0",
+            "rank": 6,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "ボール保持率",
+            "value": "58.1%",
+            "rank": 1,
+            "sample": "首12輪，Football LAB 10月26日更新；與聯賽榜截點不同",
+            "as_of": "2026-10-26",
+            "unit": "每場（百分比按來源）",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          }
+        ],
+        "attack": [
+          {
+            "label": "xG",
+            "value": "2.210",
+            "sample": "首12輪／每場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          },
+          {
+            "label": "xGA",
+            "value": "0.789",
+            "sample": "首12輪／每場",
+            "as_of": "2026-10-26",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/hiro",
+                "label": "Football LAB",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          }
+        ],
+        "defence": [],
+        "build_up": [],
+        "set_pieces": [],
+        "timing": [],
+        "goalkeeping": []
+      },
+      "game_log": [
+        {
+          "date": "2026-08-08",
+          "sort_date": "2026-08-08",
+          "round": "1",
+          "competition": "J1",
+          "opponent": "千葉",
+          "score": "3-0",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-08-15",
+          "sort_date": "2026-08-15",
+          "round": "2",
+          "competition": "J1",
+          "opponent": "浦和",
+          "score": "4-1",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "埼玉"
+        },
+        {
+          "date": "2026-08-22",
+          "sort_date": "2026-08-22",
+          "round": "3",
+          "competition": "J1",
+          "opponent": "川崎Ｆ",
+          "score": "1-1",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-08-29",
+          "sort_date": "2026-08-29",
+          "round": "4",
+          "competition": "J1",
+          "opponent": "Ｇ大阪",
+          "score": "0-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "パナスタ"
+        },
+        {
+          "date": "2026-09-02",
+          "sort_date": "2026-09-02",
+          "round": "5",
+          "competition": "J1",
+          "opponent": "名古屋",
+          "score": "3-0",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-09-06",
+          "sort_date": "2026-09-06",
+          "round": "6",
+          "competition": "J1",
+          "opponent": "岡山",
+          "score": "2-3",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "ＪＦＥス"
+        },
+        {
+          "date": "2026-09-12",
+          "sort_date": "2026-09-12",
+          "round": "7",
+          "competition": "J1",
+          "opponent": "Ｃ大阪",
+          "score": "6-1",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-09-19",
+          "sort_date": "2026-09-19",
+          "round": "8",
+          "competition": "J1",
+          "opponent": "福岡",
+          "score": "1-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "ベススタ"
+        },
+        {
+          "date": "2026-10-11",
+          "sort_date": "2026-10-11",
+          "round": "9",
+          "competition": "J1",
+          "opponent": "東京Ｖ",
+          "score": "2-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "味スタ"
+        },
+        {
+          "date": "2026-10-17",
+          "sort_date": "2026-10-17",
+          "round": "10",
+          "competition": "J1",
+          "opponent": "京都",
+          "score": "3-0",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-10-21",
+          "sort_date": "2026-10-21",
+          "round": "11",
+          "competition": "J1",
+          "opponent": "長崎",
+          "score": "0-4",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "ピースタ"
+        },
+        {
+          "date": "2026-10-24",
+          "sort_date": "2026-10-24",
+          "round": "12",
+          "competition": "J1",
+          "opponent": "清水",
+          "score": "4-0",
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-10-28",
+          "sort_date": "2026-10-28",
+          "round": "4回戰",
+          "competition": "聯賽盃",
+          "opponent": "橫濱水手",
+          "score": "3-4",
+          "venue": "客",
+          "source": "https://www.jleague.jp/match/leaguecup/2026/102801/"
+        },
+        {
+          "date": "2026-10-31",
+          "sort_date": "2026-10-31",
+          "round": "13",
+          "competition": "J1",
+          "opponent": "水戸",
+          "score": "3-0",
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "水戸信ス"
+        },
+        {
+          "date": "2026-11-08",
+          "sort_date": "2026-11-08",
+          "round": "14",
+          "competition": "J1",
+          "opponent": "町田",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｇスタ"
+        },
+        {
+          "date": "2026-11-21",
+          "sort_date": "2026-11-21",
+          "round": "15",
+          "competition": "J1",
+          "opponent": "横浜FM",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-11-25",
+          "sort_date": "2026-11-25",
+          "round": "16",
+          "competition": "J1",
+          "opponent": "FC東京",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "味スタ"
+        },
+        {
+          "date": "2026-11-28",
+          "sort_date": "2026-11-28",
+          "round": "17",
+          "competition": "J1",
+          "opponent": "柏",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "三協Ｆ柏"
+        },
+        {
+          "date": "2026-12-06",
+          "sort_date": "2026-12-06",
+          "round": "18",
+          "competition": "J1",
+          "opponent": "神戸",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-12-13",
+          "sort_date": "2026-12-13",
+          "round": "19",
+          "competition": "J1",
+          "opponent": "鹿島",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2026-12-19",
+          "sort_date": "2026-12-19",
+          "round": "20",
+          "competition": "J1",
+          "opponent": "名古屋",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "パロ瑞穂"
+        },
+        {
+          "date": "2027-02-13",
+          "sort_date": "2027-02-13",
+          "round": "21",
+          "competition": "J1",
+          "opponent": "岡山",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-02-20",
+          "sort_date": "2027-02-20",
+          "round": "22",
+          "competition": "J1",
+          "opponent": "東京Ｖ",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-02-27",
+          "sort_date": "2027-02-27",
+          "round": "23",
+          "competition": "J1",
+          "opponent": "清水",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "アイスタ"
+        },
+        {
+          "date": "2027-03-06",
+          "sort_date": "2027-03-06",
+          "round": "24",
+          "competition": "J1",
+          "opponent": "Ｃ大阪",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "ハナサカ"
+        },
+        {
+          "date": "2027-03-10",
+          "sort_date": "2027-03-10",
+          "round": "25",
+          "competition": "J1",
+          "opponent": "福岡",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-03-13",
+          "sort_date": "2027-03-13",
+          "round": "26",
+          "competition": "J1",
+          "opponent": "鹿島",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "メルスタ"
+        },
+        {
+          "date": "2027-03-20",
+          "sort_date": "2027-03-20",
+          "round": "27",
+          "competition": "J1",
+          "opponent": "Ｇ大阪",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-04-03",
+          "sort_date": "2027-04-03",
+          "round": "28",
+          "competition": "J1",
+          "opponent": "神戸",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "ノエスタ"
+        },
+        {
+          "date": "2027-04-10",
+          "sort_date": "2027-04-10",
+          "round": "29",
+          "competition": "J1",
+          "opponent": "横浜FM",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "日産ス"
+        },
+        {
+          "date": "2027-04-16",
+          "sort_date": "2027-04-16",
+          "round": "30",
+          "competition": "J1",
+          "opponent": "FC東京",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-04-24",
+          "sort_date": "2027-04-24",
+          "round": "31",
+          "competition": "J1",
+          "opponent": "町田",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-04-29",
+          "sort_date": "2027-04-29",
+          "round": "32",
+          "competition": "J1",
+          "opponent": "千葉",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "フクアリ"
+        },
+        {
+          "date": "2027-05-03",
+          "sort_date": "2027-05-03",
+          "round": "33",
+          "competition": "J1",
+          "opponent": "浦和",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-05-09",
+          "sort_date": "2027-05-09",
+          "round": "34",
+          "competition": "J1",
+          "opponent": "長崎",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-05-15",
+          "sort_date": "2027-05-15",
+          "round": "35",
+          "competition": "J1",
+          "opponent": "京都",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "サンガＳ"
+        },
+        {
+          "date": "2027-05-22",
+          "sort_date": "2027-05-22",
+          "round": "36",
+          "competition": "J1",
+          "opponent": "柏",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-05-29",
+          "sort_date": "2027-05-29",
+          "round": "37",
+          "competition": "J1",
+          "opponent": "水戸",
+          "score": null,
+          "venue": "主",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｅピース"
+        },
+        {
+          "date": "2027-06-06",
+          "sort_date": "2027-06-06",
+          "round": "38",
+          "competition": "J1",
+          "opponent": "川崎Ｆ",
+          "score": null,
+          "venue": "客",
+          "source": "https://www.football-lab.jp/hiro/match?year=2026",
+          "comment": "Ｕ等々力"
+        }
+      ],
+      "players_to_watch": {
+        "stars": [],
+        "foreign": [],
+        "youth": []
+      },
+      "stats": {
+        "season": "2026/27",
+        "competition": "J1",
+        "as_of": "2026-11-02",
+        "matches": 13,
+        "wins": 9,
+        "draws": 2,
+        "losses": 2,
+        "points": 29,
+        "goals_for": 32,
+        "goals_against": 10,
+        "goal_difference": 22,
+        "rank": 2,
+        "sources": [
+          {
+            "url": "https://www.football-lab.jp/hiro/match",
+            "label": "Football LAB賽果",
+            "accessed_at": "2026-11-02"
+          }
+        ]
+      },
+      "home_away_record": [
+        {
+          "text": "主場：6場，5勝1和0負，入20、失2。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.football-lab.jp/hiro/match",
+              "label": "Football LAB・按首13輪賽果計算",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        },
+        {
+          "text": "客場：6場，3勝1和2負，入9、失8。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://www.football-lab.jp/hiro/match",
+              "label": "Football LAB・按首13輪賽果計算",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        }
+      ],
+      "rotation_notes": [
+        {
+          "text": "10月31日對水戶後，中七日準備本場；聯賽盃已出局。",
+          "kind": "fact",
+          "as_of": "2026-11-02",
+          "sources": [
+            {
+              "url": "https://sanfrecce.mopita.com/game_schedule?k=all&y=2026%2F27",
+              "label": "官方賽程",
+              "accessed_at": "2026-11-02"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "quote_events": [
+    {
+      "title": "上輪及本場背景",
+      "date": "2026-11-01",
+      "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "黑田剛",
+          "role": "監督",
+          "category": "last_game",
+          "published_at": "2026-11-01",
+          "context": "post_match",
+          "outlet": "Soccer Digest",
+          "url": "https://www.soccerdigestweb.com/news/detail/id%3D199171",
+          "paraphrase_zh": "原想避免開放式對攻，逐步壓入對方半場；做到部分內容，但埋門及把握機會不足。肯定反擊防守及封阻射門，認為仍距榜首兩分，保持追趕位置很重要。"
+        }
+      ]
+    },
+    {
+      "title": "上輪及本場背景",
+      "date": "2026-11-01",
+      "entries": [
+        {
+          "team_slug": "machida",
+          "speaker": "小川航基",
+          "role": "球員",
+          "category": "last_game",
+          "published_at": "2026-11-01",
+          "context": "post_match",
+          "outlet": "Daily Sports",
+          "url": "https://www.daily.co.jp/soccer/2026/11/01/0020992080.shtml",
+          "paraphrase_zh": "認為自己若表現更好，便有機會替球隊贏得鋼巴一戰，主動承擔未能入球的責任。"
+        }
+      ]
+    },
+    {
+      "title": "上輪及本場背景",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "hiroshima",
+          "speaker": "巴托什・高爾",
+          "role": "監督",
+          "category": "last_game",
+          "published_at": "2026-10-31",
+          "context": "post_match",
+          "outlet": "廣島官方賽後訪問",
+          "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
+          "paraphrase_zh": "認為對水戶開局良好，應對對方變陣稍慢，最後傳送及埋門仍可改善；下半場較早入球有助處理低位防守。"
+        }
+      ]
+    },
+    {
+      "title": "上輪及本場背景",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "hiroshima",
+          "speaker": "巴托什・高爾",
+          "role": "監督",
+          "category": "players",
+          "published_at": "2026-10-31",
+          "context": "post_match",
+          "outlet": "廣島官方賽後訪問",
+          "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
+          "paraphrase_zh": "肯定鈴木章斗能踢前鋒或稍後位置，技術、射門及尋找空間能力出色；認為其表現並非偶然。"
+        }
+      ]
+    },
+    {
+      "title": "上輪及本場背景",
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "team_slug": "hiroshima",
+          "speaker": "巴托什・高爾",
+          "role": "監督",
+          "category": "upcoming",
+          "published_at": "2026-10-31",
+          "context": "post_match",
+          "outlet": "廣島官方賽後訪問",
+          "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
+          "paraphrase_zh": "讚賞球員捱過多場作客密集賽程，但認為仍要在町田戰全力爭勝，才算完成這段連戰。"
+        }
+      ]
+    }
+  ],
+  "preview": {
+    "cues": [
+      {
+        "text": "首輪故事：廣島休息較長；町田要在八場零失球基礎上恢復聯賽入球。",
+        "kind": "analysis",
+        "as_of": "2026-11-02",
+        "sources": [
+          {
+            "url": "https://www.zelvia.co.jp/news/news-359346/",
+            "label": "天書分析",
+            "accessed_at": "2026-11-02"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "勝點一分的上游直接對話",
+        "paragraphs": [
+          {
+            "text": "首13輪廣島29分、町田28分，分列二、三位。町田八場正式賽事不失球，卻連續兩輪聯賽未能入球；廣島連勝清水及水戶，兩仗合共七球零失球。兩隊都能守，差別在近期把機會轉成入球的結果。",
+            "kind": "analysis",
+            "as_of": "2026-11-02",
+            "sources": [
+              {
+                "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
+                "label": "天書綜合已核對賽果",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "休息日數不能忽略",
+        "paragraphs": [
+          {
+            "text": "廣島中七日，町田在11月5日上海申花戰後只有中兩日。要等亞洲賽實際人腳、換人及旅程安排，才能判斷主力負荷；現階段不把11月1日正選直接當成8日預測。",
+            "kind": "analysis",
+            "as_of": "2026-11-02",
+            "sources": [
+              {
+                "url": "https://www.zelvia.co.jp/news/news-359346/",
+                "label": "天書按官方賽程分析",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "廣島兩名傷員的影響",
+        "paragraphs": [
+          {
+            "text": "加藤及川村的膝傷是已確認人腳變數，但尚未公布復出日期。觀察替補配置如何維持前場壓迫、禁區接應及中場推進；鈴木章斗尋找空間的能力，是廣島監督特別強調的武器。",
+            "kind": "analysis",
+            "as_of": "2026-11-02",
+            "sources": [
+              {
+                "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
+                "label": "天書分析／廣島官方",
+                "accessed_at": "2026-11-02"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "coverage_gaps": [
+    "首輪研究已建立，並非比賽日完成版。",
+    "5日上海申花賽果、負荷及新訪問尚未產生。",
+    "雙方本場正選、球證組、逐時天氣未公布或待近賽更新。",
+    "廣島全量進階統計、前兩場逐人分鐘、轉會稽核及有效累積3黃名單仍待補核。",
+    "暫未確認本場評述拍檔，不沿用上場編排。"
+  ],
+  "research_sweep": {
+    "as_of": "2026-11-02",
+    "checked_at": "2026-11-02",
+    "interview_entries": 5,
+    "stage": "首輪準備"
+  },
+  "head_to_head_results": [
+    {
+      "date": "2025-10-04",
+      "sort_date": "2025-10-04",
+      "competition": "J1",
+      "round": "",
+      "venue": "客",
+      "opponent": "廣島三箭",
+      "score": "1-2",
+      "source": "https://fansaka.info/team/hiroshima/machida/",
+      "comment": "比分以町田為先"
+    },
+    {
+      "date": "2025-02-16",
+      "sort_date": "2025-02-16",
+      "competition": "J1",
+      "round": "",
+      "venue": "主",
+      "opponent": "廣島三箭",
+      "score": "1-2",
+      "source": "https://fansaka.info/team/hiroshima/machida/",
+      "comment": "比分以町田為先"
+    },
+    {
+      "date": "2024-09-28",
+      "sort_date": "2024-09-28",
+      "competition": "J1",
+      "round": "",
+      "venue": "客",
+      "opponent": "廣島三箭",
+      "score": "0-2",
+      "source": "https://fansaka.info/team/hiroshima/machida/",
+      "comment": "比分以町田為先"
+    },
+    {
+      "date": "2024-04-03",
+      "sort_date": "2024-04-03",
+      "competition": "J1",
+      "round": "",
+      "venue": "主",
+      "opponent": "廣島三箭",
+      "score": "1-2",
+      "source": "https://fansaka.info/team/hiroshima/machida/",
+      "comment": "比分以町田為先"
+    }
+  ],
+  "head_to_head": [
+    {
+      "text": "已核對過往四次J1交手，町田全部落敗，總入3球、失8球。現只有四次紀錄，不虛構第五場。",
+      "kind": "reported",
+      "as_of": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://fansaka.info/team/hiroshima/machida/",
+          "label": "ファンサカmini",
+          "accessed_at": "2026-11-02"
+        }
+      ]
+    }
+  ],
+  "opening_checks": [
+    {
+      "text": "町田周四亞洲賽實際用人及分鐘。",
+      "kind": "analysis",
+      "as_of": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.zelvia.co.jp/news/news-359346/",
+          "label": "後續核對重點",
+          "accessed_at": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "text": "廣島加藤、川村有無新醫療／復出公告。",
+      "kind": "analysis",
+      "as_of": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.zelvia.co.jp/news/news-359346/",
+          "label": "後續核對重點",
+          "accessed_at": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "text": "町田能否由控制節奏進一步增加禁區內接應。",
+      "kind": "analysis",
+      "as_of": "2026-11-02",
+      "sources": [
+        {
+          "url": "https://www.zelvia.co.jp/news/news-359346/",
+          "label": "後續核對重點",
+          "accessed_at": "2026-11-02"
+        }
+      ]
+    }
+  ],
+  "scenarios": {},
+  "standings": {
+    "as_of": "2026-11-02・第13輪後",
+    "sources": [
+      {
+        "url": "https://www.jleague.jp/standings/j1/",
+        "label": "J.League官方・11月1日完場後榜",
+        "accessed_at": "2026-11-01"
+      }
+    ],
+    "rows": [
+      {
+        "rank": 1,
+        "slug": "fc-tokyo",
+        "name_zh": "FC東京",
+        "points": 30,
+        "played": 13,
+        "wins": 9,
+        "draws": 3,
+        "losses": 1,
+        "goals_for": 31,
+        "goals_against": 8,
+        "goal_difference": 23
+      },
+      {
+        "rank": 2,
+        "slug": "hiroshima",
+        "name_zh": "廣島三箭",
+        "points": 29,
+        "played": 13,
+        "wins": 9,
+        "draws": 2,
+        "losses": 2,
+        "goals_for": 32,
+        "goals_against": 10,
+        "goal_difference": 22
+      },
+      {
+        "rank": 3,
+        "slug": "machida",
+        "name_zh": "町田澤維亞",
+        "points": 28,
+        "played": 13,
+        "wins": 8,
+        "draws": 4,
+        "losses": 1,
+        "goals_for": 30,
+        "goals_against": 10,
+        "goal_difference": 20
+      },
+      {
+        "rank": 4,
+        "slug": "kashiwa",
+        "name_zh": "柏太陽王",
+        "points": 28,
+        "played": 13,
+        "wins": 9,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 29,
+        "goals_against": 19,
+        "goal_difference": 10
+      },
+      {
+        "rank": 5,
+        "slug": "kobe",
+        "name_zh": "神戶勝利船",
+        "points": 26,
+        "played": 13,
+        "wins": 8,
+        "draws": 2,
+        "losses": 3,
+        "goals_for": 21,
+        "goals_against": 12,
+        "goal_difference": 9
+      },
+      {
+        "rank": 6,
+        "slug": "kashima",
+        "name_zh": "鹿島鹿角",
+        "points": 23,
+        "played": 13,
+        "wins": 7,
+        "draws": 2,
+        "losses": 4,
+        "goals_for": 29,
+        "goals_against": 22,
+        "goal_difference": 7
+      },
+      {
+        "rank": 7,
+        "slug": "kawasaki",
+        "name_zh": "川崎前鋒",
+        "points": 22,
+        "played": 13,
+        "wins": 6,
+        "draws": 4,
+        "losses": 3,
+        "goals_for": 27,
+        "goals_against": 22,
+        "goal_difference": 5
+      },
+      {
+        "rank": 8,
+        "slug": "yokohama-fm",
+        "name_zh": "橫濱水手",
+        "points": 21,
+        "played": 13,
+        "wins": 5,
+        "draws": 6,
+        "losses": 2,
+        "goals_for": 20,
+        "goals_against": 14,
+        "goal_difference": 6
+      },
+      {
+        "rank": 9,
+        "slug": "urawa",
+        "name_zh": "浦和紅鑽",
+        "points": 21,
+        "played": 13,
+        "wins": 7,
+        "draws": 0,
+        "losses": 6,
+        "goals_for": 21,
+        "goals_against": 27,
+        "goal_difference": -6
+      },
+      {
+        "rank": 10,
+        "slug": "okayama",
+        "name_zh": "岡山綠雉",
+        "points": 16,
+        "played": 13,
+        "wins": 5,
+        "draws": 1,
+        "losses": 7,
+        "goals_for": 15,
+        "goals_against": 21,
+        "goal_difference": -6
+      },
+      {
+        "rank": 11,
+        "slug": "nagoya",
+        "name_zh": "名古屋鯨魚",
+        "points": 14,
+        "played": 13,
+        "wins": 4,
+        "draws": 2,
+        "losses": 7,
+        "goals_for": 15,
+        "goals_against": 21,
+        "goal_difference": -6
+      },
+      {
+        "rank": 12,
+        "slug": "cerezo-osaka",
+        "name_zh": "大阪櫻花",
+        "points": 14,
+        "played": 13,
+        "wins": 3,
+        "draws": 5,
+        "losses": 5,
+        "goals_for": 13,
+        "goals_against": 23,
+        "goal_difference": -10
+      },
+      {
+        "rank": 13,
+        "slug": "shimizu",
+        "name_zh": "清水心跳",
+        "points": 14,
+        "played": 13,
+        "wins": 4,
+        "draws": 2,
+        "losses": 7,
+        "goals_for": 10,
+        "goals_against": 22,
+        "goal_difference": -12
+      },
+      {
+        "rank": 14,
+        "slug": "kyoto",
+        "name_zh": "京都不死鳥",
+        "points": 13,
+        "played": 13,
+        "wins": 3,
+        "draws": 4,
+        "losses": 6,
+        "goals_for": 17,
+        "goals_against": 23,
+        "goal_difference": -6
+      },
+      {
+        "rank": 15,
+        "slug": "nagasaki",
+        "name_zh": "長崎成功丸",
+        "points": 12,
+        "played": 12,
+        "wins": 3,
+        "draws": 3,
+        "losses": 6,
+        "goals_for": 15,
+        "goals_against": 19,
+        "goal_difference": -4
+      },
+      {
+        "rank": 16,
+        "slug": "gamba-osaka",
+        "name_zh": "大阪飛腳",
+        "points": 12,
+        "played": 13,
+        "wins": 2,
+        "draws": 6,
+        "losses": 5,
+        "goals_for": 14,
+        "goals_against": 21,
+        "goal_difference": -7
+      },
+      {
+        "rank": 17,
+        "slug": "mito",
+        "name_zh": "水戶蜀葵",
+        "points": 9,
+        "played": 13,
+        "wins": 2,
+        "draws": 3,
+        "losses": 8,
+        "goals_for": 12,
+        "goals_against": 25,
+        "goal_difference": -13
+      },
+      {
+        "rank": 18,
+        "slug": "tokyo-verdy",
+        "name_zh": "東京綠茵",
+        "points": 8,
+        "played": 12,
+        "wins": 1,
+        "draws": 5,
+        "losses": 6,
+        "goals_for": 9,
+        "goals_against": 21,
+        "goal_difference": -12
+      },
+      {
+        "rank": 19,
+        "slug": "fukuoka",
+        "name_zh": "福岡黃蜂",
+        "points": 7,
+        "played": 12,
+        "wins": 2,
+        "draws": 1,
+        "losses": 9,
+        "goals_for": 13,
+        "goals_against": 21,
+        "goal_difference": -8
+      },
+      {
+        "rank": 20,
+        "slug": "chiba",
+        "name_zh": "千葉市原JEF聯",
+        "points": 7,
+        "played": 12,
+        "wins": 1,
+        "draws": 4,
+        "losses": 7,
+        "goals_for": 12,
+        "goals_against": 24,
+        "goal_difference": -12
+      }
+    ]
+  }
+}
