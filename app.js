@@ -196,6 +196,7 @@ function renderTeam(data) {
         <div class="vital"><label>監督</label><strong>${valueOrBlank(current.manager)}</strong></div>
         <div class="vital"><label>資料截至</label><strong>${valueOrBlank(current.as_of)}</strong></div>
       </div></section>` : ''}
+      ${t.roster_notes?.length ? `<section class="section"><h3>名單及註冊更新</h3><ul class="fact-list">${t.roster_notes.map(note => `<li>${esc(note)}</li>`).join('')}</ul></section>` : ''}
       ${t.name_history ? `<section class="section"><h3>隊名由來</h3><p>${esc(t.name_history)}</p></section>` : ''}
       ${t.team_history ? `<section class="section"><h3>球會歷史</h3><p>${esc(t.team_history)}</p></section>` : ''}
       ${history.length ? `<section class="section"><h3>歷史里程碑</h3><ul class="fact-list">${history.map(row => `<li><strong>${esc(row.year)}</strong>　${esc(row.event)}</li>`).join('')}</ul></section>` : ''}
