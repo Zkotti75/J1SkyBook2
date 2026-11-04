@@ -10033,57 +10033,147 @@
       "registration_status": "Homegrown",
       "tenure_status": "效力第2季",
       "national_team_detail": "無",
-      "intro": "小林志紋是廣島2026/27現役MF，背號45。Gaul體系下主要負責位置交換、反搶與向前連接。",
+      "intro": "福山出身的小林志紋從本地少年隊進入廣島Junior Youth和Youth，2025年二種登錄時已在J1出場，2026年正式升班。這名年輕中場以傳球與前場連接見長，亦曾代表日本出戰U-17賽事。",
       "timeline": [
         {
-          "period": "履歷",
-          "team": "Sanfrecce Hiroshima Youth",
-          "category": "育成／職業履歷",
-          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
+          "period": "年份未公開",
+          "team": "Valiente FC福山",
+          "category": "少年足球",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "年份未公開",
+          "team": "廣島三箭Junior Youth",
+          "category": "U-15青年隊",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "年份未公開",
+          "team": "廣島三箭Youth",
+          "category": "U-18青年隊",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "2025",
+          "team": "廣島三箭",
+          "category": "J1",
+          "milestone": "2025年二種登錄，J1出場1次。"
+        },
+        {
+          "period": "2026",
+          "team": "廣島三箭",
+          "category": "百年構想",
+          "milestone": "2026特別賽事出場1次。"
         },
         {
           "period": "2026/27",
           "team": "廣島三箭",
           "category": "J1",
-          "milestone": "資料截至2026-09-19。"
+          "milestone": "本季出場待逐場核對。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入廣島current squad（#45）。"
+        "2025年仍屬青年隊時完成J1首次出場。",
+        "2025年獲日本U-17世界盃代表徵召。",
+        "2026年正式加入廣島一隊，百年構想賽出場1次。"
       ],
       "tactical_traits": [
-        "高位press、second ball與縱向跑動是中場基本要求。",
-        "翼衛／中場需要持續提供寬度及後插上，令進攻人數保持。"
+        "中場接球時以第一腳轉向改變進攻方向。",
+        "向前傳球與邊路接應配合，為鋒線尋找空檔。",
+        "無球時從第二線壓迫，仍需適應一隊對抗速度。"
       ],
-      "quirky_trivia": "2008年出生Academy中場，2026正式升格；8月入選日本U-19代表。",
+      "quirky_trivia": "他是廣島縣福山市出身，從當地Valiente FC進入球會青訓；2025年仍讀青年隊時已上演職業聯賽首戰。",
       "legacy_id": "jleague_hiroshima_45",
       "official_player_id": null,
       "team_slug": "hiroshima",
       "name_ja": "小林志紋",
-      "birthplace": "",
+      "birthplace": "広島県",
       "season_start_age": 18,
       "player_image": "",
       "career": [
         {
           "season": null,
-          "team": "Sanfrecce Hiroshima Youth",
-          "competition": "育成／職業履歷",
+          "team": "Valiente FC福山",
+          "competition": "少年足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "廣島官方Top Team",
-              "url": "https://www.sanfrecce.co.jp/team/top-players",
-              "accessed_at": "2026-09-19"
-            },
+              "label": "早期球會履歷",
+              "url": "https://www.jfa.jp/national_team/u17_2025/member/kobayashi_shimon.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "廣島三箭Junior Youth",
+          "competition": "U-15青年隊",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
+          "verification_status": "verified",
+          "sources": [
             {
-              "label": "J.League廣島",
-              "url": "https://www.jleague.jp/club/hiroshima/",
-              "accessed_at": "2026-09-19"
+              "label": "早期球會履歷",
+              "url": "https://www.jfa.jp/national_team/u17_2025/member/kobayashi_shimon.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "廣島三箭Youth",
+          "competition": "U-18青年隊",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "早期球會履歷",
+              "url": "https://www.jfa.jp/national_team/u17_2025/member/kobayashi_shimon.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "廣島三箭",
+          "competition": "J1",
+          "appearances": 1,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "2025年二種登錄，J1出場1次。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League球員紀錄",
+              "url": "https://www.jleague.jp/player/1650817/",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "廣島三箭",
+          "competition": "百年構想",
+          "appearances": 1,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "2026特別賽事出場1次。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "J.League球員紀錄",
+              "url": "https://www.jleague.jp/player/1650817/",
+              "accessed_at": "2026-11-04"
             }
           ]
         },
@@ -10093,40 +10183,66 @@
           "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "Homegrown",
-          "notes": "資料截至2026-09-19。",
+          "status": "現役",
+          "notes": "本季出場待逐場核對。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "廣島官方Top Team",
-              "url": "https://www.sanfrecce.co.jp/team/top-players",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League廣島",
-              "url": "https://www.jleague.jp/club/hiroshima/",
-              "accessed_at": "2026-09-19"
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/45",
+              "accessed_at": "2026-11-04"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "廣島官方Top Team",
-          "url": "https://www.sanfrecce.co.jp/team/top-players",
-          "accessed_at": "2026-09-19"
+          "label": "廣島官方球員履歷及出場紀錄",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/detail/45",
+          "accessed_at": "2026-11-04"
         },
         {
-          "label": "J.League廣島",
-          "url": "https://www.jleague.jp/club/hiroshima/",
-          "accessed_at": "2026-09-19"
+          "label": "早期球會",
+          "url": "https://www.jfa.jp/national_team/u17_2025/member/kobayashi_shimon.html",
+          "accessed_at": "2026-11-04"
+        },
+        {
+          "label": "球員生涯資料",
+          "url": "https://wink-jaken.com/culture/20260902_001/",
+          "accessed_at": "2026-11-04"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-11-04",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": []
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J1",
+          "appearances": null,
+          "goals": null,
+          "source": "https://www.sanfrecce.co.jp/team/top-players/detail/45"
+        }
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-11-04",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "早期球會",
+            "url": "https://www.jfa.jp/national_team/u17_2025/member/kobayashi_shimon.html",
+            "accessed_at": "2026-11-04"
+          },
+          {
+            "label": "廣島官方球員履歷及出場紀錄",
+            "url": "https://www.sanfrecce.co.jp/team/top-players/detail/45",
+            "accessed_at": "2026-11-04"
+          }
+        ],
+        "notes": "早年育成年份未公開；職業逐季按官方表，海外球季按轉會履歷補列。"
+      },
+      "status_tags_reviewed_at": "2026-11-04"
     },
     {
       "id": "hiroshima_46",
@@ -10146,57 +10262,101 @@
       "registration_status": "2種登錄 / U-21",
       "tenure_status": "青訓隨隊",
       "national_team_detail": "無",
-      "intro": "野口蓮斗是廣島2026/27現役MF，背號46。Gaul體系下主要負責位置交換、反搶與向前連接。",
+      "intro": "熊本青訓出身的野口蓮斗在Soreisso熊本U-15後加入廣島青年隊，2026年仍以二種登錄在青年與一隊之間往返，同年簽下職業合約。中場長短傳調度是他的特色，正式一隊出場仍在累積。",
       "timeline": [
         {
-          "period": "履歷",
-          "team": "Sanfrecce Hiroshima Youth",
-          "category": "育成／職業履歷",
-          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
+          "period": "年份未公開",
+          "team": "Soreisso熊本",
+          "category": "U-15青年隊",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "年份未公開",
+          "team": "廣島三箭Youth",
+          "category": "U-18青年隊",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "2026",
+          "team": "廣島三箭Youth",
+          "category": "U-18青年隊",
+          "milestone": "跨國球季；未以日本聯賽表推算出場。"
         },
         {
           "period": "2026/27",
           "team": "廣島三箭",
           "category": "J1",
-          "milestone": "資料截至2026-09-19。"
+          "milestone": "截至2026-11-04，J1聯賽出場2次、13分鐘，二種登錄期間。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入廣島current squad（#46）。"
+        "2023年隨Soreisso熊本打入全日本U-15球會青年賽決賽。",
+        "2026年在青年隊與一隊同步訓練，九月完成J1首戰。",
+        "2026年10月與廣島簽下職業合約，2026/27正式升班。"
       ],
       "tactical_traits": [
-        "高位press、second ball與縱向跑動是中場基本要求。",
-        "翼衛／中場需要持續提供寬度及後插上，令進攻人數保持。"
+        "中場以長短傳轉移攻勢，尋找翼衛前插。",
+        "接球前留意壓迫方向，轉身推進或回傳維持節奏。",
+        "防守時回到中場線爭二點，逐步適應一隊強度。"
       ],
-      "quirky_trivia": "2008年出生Academy中場，與小林志紋同批進一隊，代表廣島育成再下一代。",
+      "quirky_trivia": "他的弟弟也在廣島青年隊，另一名年紀更小的弟弟留在Soreisso熊本；兄弟三人都踢足球。",
       "legacy_id": "jleague_hiroshima_46",
       "official_player_id": null,
       "team_slug": "hiroshima",
       "name_ja": "野口蓮斗",
-      "birthplace": "",
+      "birthplace": "熊本県",
       "season_start_age": 18,
       "player_image": "",
       "career": [
         {
           "season": null,
-          "team": "Sanfrecce Hiroshima Youth",
-          "competition": "育成／職業履歷",
+          "team": "Soreisso熊本",
+          "competition": "U-15青年隊",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "廣島官方Top Team",
-              "url": "https://www.sanfrecce.co.jp/team/top-players",
-              "accessed_at": "2026-09-19"
-            },
+              "label": "早期球會履歷",
+              "url": "https://www.jfa.jp/national_team/u17_2025/member/noguchi_rento.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "廣島三箭Youth",
+          "competition": "U-18青年隊",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
+          "verification_status": "verified",
+          "sources": [
             {
-              "label": "J.League廣島",
-              "url": "https://www.jleague.jp/club/hiroshima/",
-              "accessed_at": "2026-09-19"
+              "label": "早期球會履歷",
+              "url": "https://www.jfa.jp/match/takamado_jfa_u18_premier2026/west/team_detail/08.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "廣島三箭Youth",
+          "competition": "U-18青年隊",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "跨國球季；未以日本聯賽表推算出場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "轉會／球會履歷",
+              "url": "https://www.jfa.jp/national_team/u17_2025/member/noguchi_rento.html",
+              "accessed_at": "2026-11-04"
             }
           ]
         },
@@ -10204,42 +10364,78 @@
           "season": "2026/27",
           "team": "廣島三箭",
           "competition": "J1",
-          "appearances": null,
-          "goals": null,
-          "status": "2種登錄 / U-21",
-          "notes": "資料截至2026-09-19。",
+          "appearances": 2,
+          "goals": 0,
+          "status": "現役",
+          "notes": "截至2026-11-04，J1聯賽出場2次、13分鐘，二種登錄期間。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "廣島官方Top Team",
-              "url": "https://www.sanfrecce.co.jp/team/top-players",
-              "accessed_at": "2026-09-19"
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/46",
+              "accessed_at": "2026-11-04"
             },
             {
-              "label": "J.League廣島",
-              "url": "https://www.jleague.jp/club/hiroshima/",
-              "accessed_at": "2026-09-19"
+              "label": "J.League官方Data Site",
+              "url": "https://data.j-league.or.jp/SFPR01/search?competition_frame_id=1&competition_frame_id_ex=1&competition_id=725&competition_id_ex=725&competition_year=2026&competition_year_ex=2026&dataSize=1&pageStartNo=0&selectedCompetitionYear=2026%E5%B9%B4&team_id=10&team_id_ex=10",
+              "accessed_at": "2026-11-04"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "廣島官方Top Team",
-          "url": "https://www.sanfrecce.co.jp/team/top-players",
-          "accessed_at": "2026-09-19"
+          "label": "廣島官方球員履歷及出場紀錄",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/detail/46",
+          "accessed_at": "2026-11-04"
         },
         {
-          "label": "J.League廣島",
-          "url": "https://www.jleague.jp/club/hiroshima/",
-          "accessed_at": "2026-09-19"
+          "label": "早期球會",
+          "url": "https://www.jfa.jp/national_team/u17_2025/member/noguchi_rento.html",
+          "accessed_at": "2026-11-04"
+        },
+        {
+          "label": "球員生涯資料",
+          "url": "https://www.hiroshima-athlete.com/articles/-/6979",
+          "accessed_at": "2026-11-04"
+        },
+        {
+          "label": "早期球會",
+          "url": "https://www.jfa.jp/match/takamado_jfa_u18_premier2026/west/team_detail/08.html",
+          "accessed_at": "2026-11-04"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-11-04",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": []
+      "season_stats": [
+        {
+          "season": "2026",
+          "competition": "U-18青年隊",
+          "appearances": null,
+          "goals": null,
+          "source": "https://www.sanfrecce.co.jp/team/top-players/detail/46"
+        }
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-11-04",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "早期球會",
+            "url": "https://www.jfa.jp/national_team/u17_2025/member/noguchi_rento.html",
+            "accessed_at": "2026-11-04"
+          },
+          {
+            "label": "廣島官方球員履歷及出場紀錄",
+            "url": "https://www.sanfrecce.co.jp/team/top-players/detail/46",
+            "accessed_at": "2026-11-04"
+          }
+        ],
+        "notes": "早年育成年份未公開；職業逐季按官方表，海外球季按轉會履歷補列。"
+      },
+      "status_tags_reviewed_at": "2026-11-04"
     },
     {
       "id": "hiroshima_99",
@@ -10259,57 +10455,354 @@
       "registration_status": "本國球員",
       "tenure_status": "效力第2季",
       "national_team_detail": "無",
-      "intro": "大內一生是廣島2026/27現役GK，背號99。Gaul體系下主要負責高位防線背後管理與出球。",
+      "intro": "門將大內一生由橫濱FC青年隊升班，先後外借YS橫濱、長野及鹿兒島，在松本J3連續取得穩定出場後，2026年轉投廣島。百年構想賽有4次出場，成為門將位置的重要競爭者。",
       "timeline": [
         {
-          "period": "履歷",
-          "team": "松本山雅FC",
-          "category": "育成／職業履歷",
-          "milestone": "主要前度／加入路線；逐季數字未可靠核對者不推算。"
+          "period": "年份未公開",
+          "team": "Kinder Zenkou SC",
+          "category": "少年足球",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "年份未公開",
+          "team": "橫濱FC Junior Youth",
+          "category": "U-15青年隊",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "年份未公開",
+          "team": "橫濱FC Youth",
+          "category": "U-18青年隊",
+          "milestone": "年份／出場數未公開。"
+        },
+        {
+          "period": "2016",
+          "team": "橫濱FC",
+          "category": "J2",
+          "milestone": "跨國球季；未以日本聯賽表推算出場。"
+        },
+        {
+          "period": "2017",
+          "team": "横浜FC",
+          "category": "J2",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2018",
+          "team": "横浜FC",
+          "category": "J2",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2019",
+          "team": "横浜FC",
+          "category": "J2",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2020",
+          "team": "YS横浜",
+          "category": "J3",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2021",
+          "team": "横浜FC",
+          "category": "J1",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2022",
+          "team": "横浜FC",
+          "category": "J2",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2023",
+          "team": "鹿児島",
+          "category": "J3",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2024",
+          "team": "松本",
+          "category": "J3",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2025",
+          "team": "松本",
+          "category": "J3",
+          "milestone": "聯賽紀錄。"
+        },
+        {
+          "period": "2026",
+          "team": "広島",
+          "category": "百年構想",
+          "milestone": "2026年百年構想特別賽。"
         },
         {
           "period": "2026/27",
           "team": "廣島三箭",
           "category": "J1",
-          "milestone": "資料截至2026-09-19。"
+          "milestone": "本季出場待逐場核對。"
         }
       ],
       "honors": [],
       "milestones": [
-        "2026/27列入廣島current squad（#99）。"
+        "2020年效力YS橫濱，J3聯賽出場29次。",
+        "2024及2025年在松本J3分別出場30及38次。",
+        "2026年加盟廣島，百年構想賽上陣4次。"
       ],
       "tactical_traits": [
-        "門將參與高位防線後方掃蕩，亦要快速發動轉換。",
-        "廣島壓迫很高，門將需處理更多身後長球。"
+        "門線救球與禁區指揮來自多年J3正選經驗。",
+        "面對高球需在出擊與保持門線之間快速決斷。",
+        "接應後衛回傳後以短傳或長傳支援高位隊形。"
       ],
-      "quirky_trivia": "Italy出生、日本國籍門將大內一生，2026由松本山雅加入，背景非常有辨識度。",
+      "quirky_trivia": "他出生於意大利，名字「一生」據長野球會介紹取自設計師三宅一生，寄望他富創意並在國際舞台發展。",
       "legacy_id": "jleague_hiroshima_99",
       "official_player_id": null,
       "team_slug": "hiroshima",
       "name_ja": "大內一生",
-      "birthplace": "",
+      "birthplace": "イタリア",
       "season_start_age": 25,
       "player_image": "",
       "career": [
         {
           "season": null,
-          "team": "松本山雅FC",
-          "competition": "育成／職業履歷",
+          "team": "Kinder Zenkou SC",
+          "competition": "少年足球",
           "appearances": null,
           "goals": null,
-          "status": "",
-          "notes": "主要前度／加入路線；逐季數字未可靠核對者不推算。",
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "廣島官方Top Team",
-              "url": "https://www.sanfrecce.co.jp/team/top-players",
-              "accessed_at": "2026-09-19"
-            },
+              "label": "早期球會履歷",
+              "url": "https://parceiro.co.jp/topteam/player/detail/4003.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱FC Junior Youth",
+          "competition": "U-15青年隊",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
+          "verification_status": "verified",
+          "sources": [
             {
-              "label": "J.League廣島",
-              "url": "https://www.jleague.jp/club/hiroshima/",
-              "accessed_at": "2026-09-19"
+              "label": "早期球會履歷",
+              "url": "https://parceiro.co.jp/topteam/player/detail/4003.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": null,
+          "team": "橫濱FC Youth",
+          "competition": "U-18青年隊",
+          "appearances": null,
+          "goals": null,
+          "status": "育成",
+          "notes": "年份／出場數未公開。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "早期球會履歷",
+              "url": "https://parceiro.co.jp/topteam/player/detail/4003.html",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2016",
+          "team": "橫濱FC",
+          "competition": "J2",
+          "appearances": null,
+          "goals": null,
+          "status": "一隊",
+          "notes": "跨國球季；未以日本聯賽表推算出場。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "轉會／球會履歷",
+              "url": "https://www.yamaga-fc.com/archives/519773",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2017",
+          "team": "横浜FC",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2018",
+          "team": "横浜FC",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2019",
+          "team": "横浜FC",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2020",
+          "team": "YS横浜",
+          "competition": "J3",
+          "appearances": 29,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2021",
+          "team": "横浜FC",
+          "competition": "J1",
+          "appearances": 0,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2022",
+          "team": "横浜FC",
+          "competition": "J2",
+          "appearances": 0,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2023",
+          "team": "鹿児島",
+          "competition": "J3",
+          "appearances": 6,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2024",
+          "team": "松本",
+          "competition": "J3",
+          "appearances": 30,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2025",
+          "team": "松本",
+          "competition": "J3",
+          "appearances": 38,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "聯賽紀錄。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
+            }
+          ]
+        },
+        {
+          "season": "2026",
+          "team": "広島",
+          "competition": "百年構想",
+          "appearances": 4,
+          "goals": 0,
+          "status": "一隊",
+          "notes": "2026年百年構想特別賽。",
+          "verification_status": "verified",
+          "sources": [
+            {
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
             }
           ]
         },
@@ -10319,40 +10812,73 @@
           "competition": "J1",
           "appearances": null,
           "goals": null,
-          "status": "本國球員",
-          "notes": "資料截至2026-09-19。",
+          "status": "現役",
+          "notes": "本季出場待逐場核對。",
           "verification_status": "verified",
           "sources": [
             {
-              "label": "廣島官方Top Team",
-              "url": "https://www.sanfrecce.co.jp/team/top-players",
-              "accessed_at": "2026-09-19"
-            },
-            {
-              "label": "J.League廣島",
-              "url": "https://www.jleague.jp/club/hiroshima/",
-              "accessed_at": "2026-09-19"
+              "label": "廣島官方球員履歷及出場紀錄",
+              "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+              "accessed_at": "2026-11-04"
             }
           ]
         }
       ],
       "sources": [
         {
-          "label": "廣島官方Top Team",
-          "url": "https://www.sanfrecce.co.jp/team/top-players",
-          "accessed_at": "2026-09-19"
+          "label": "廣島官方球員履歷及出場紀錄",
+          "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+          "accessed_at": "2026-11-04"
         },
         {
-          "label": "J.League廣島",
-          "url": "https://www.jleague.jp/club/hiroshima/",
-          "accessed_at": "2026-09-19"
+          "label": "球員生涯資料",
+          "url": "https://www.yamaga-fc.com/archives/519773",
+          "accessed_at": "2026-11-04"
+        },
+        {
+          "label": "早期球會",
+          "url": "https://parceiro.co.jp/topteam/player/detail/4003.html",
+          "accessed_at": "2026-11-04"
         }
       ],
       "verification_status": "verified",
-      "verified_at": "2026-09-19",
+      "verified_at": "2026-11-04",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": []
+      "season_stats": [
+        {
+          "season": "2025",
+          "competition": "J3",
+          "appearances": 38,
+          "goals": 0,
+          "source": "https://www.sanfrecce.co.jp/team/top-players/detail/99"
+        },
+        {
+          "season": "2026",
+          "competition": "百年構想",
+          "appearances": 4,
+          "goals": 0,
+          "source": "https://www.sanfrecce.co.jp/team/top-players/detail/99"
+        }
+      ],
+      "career_audit": {
+        "reviewed_at": "2026-11-04",
+        "earliest_known_year": null,
+        "sources": [
+          {
+            "label": "早期球會",
+            "url": "https://parceiro.co.jp/topteam/player/detail/4003.html",
+            "accessed_at": "2026-11-04"
+          },
+          {
+            "label": "廣島官方球員履歷及出場紀錄",
+            "url": "https://www.sanfrecce.co.jp/team/top-players/detail/99",
+            "accessed_at": "2026-11-04"
+          }
+        ],
+        "notes": "早年育成年份未公開；職業逐季按官方表，海外球季按轉會履歷補列。"
+      },
+      "status_tags_reviewed_at": "2026-11-04"
     }
   ]
 }
