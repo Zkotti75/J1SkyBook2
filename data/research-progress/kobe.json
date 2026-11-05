@@ -3,7 +3,7 @@
   "club": "kobe",
   "club_name_zh": "神戶勝利船",
   "player_research_status": "in_progress",
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-11-05",
   "roster_players": 41,
   "baseline_complete_players": [],
   "batches": [
@@ -583,7 +583,7 @@
     {
       "id": "kobe-matchday-17-23",
       "kind": "player_research",
-      "status": "validation_failed",
+      "status": "completed",
       "capacity_points": 2,
       "players": [
         {
@@ -608,8 +608,8 @@
           "text": "Matchday cards published as research_incomplete: early-youth route audit, full milestone review and Iwamoto independent biography/foot evidence remain open. Identity, registration and current league totals verified; no completed-biography claim."
         }
       ],
-      "started_at": "2026-10-20",
-      "completed_at": null
+      "started_at": "2026-11-05",
+      "completed_at": "2026-11-05"
     }
   ],
   "status_tag_stage": {
@@ -1105,28 +1105,26 @@
       "player_id": "kobe_17",
       "number": "17",
       "name_zh": "高橋壹晟",
-      "status": "open",
-      "issues": [
-        "See player research_gaps; matchday card created, not a completed Nishikawa biography."
-      ],
-      "reviewed_at": "2026-10-21"
+      "status": "resolved",
+      "issues": [],
+      "reviewed_at": "2026-11-05",
+      "resolution": "Full early route and outside biography reviewed; player-card gate passes."
     },
     {
       "player_id": "kobe_23",
       "number": "23",
       "name_zh": "岩本悠庵",
-      "status": "open",
-      "issues": [
-        "See player research_gaps; matchday card created, not a completed Nishikawa biography."
-      ],
-      "reviewed_at": "2026-10-21"
+      "status": "resolved",
+      "issues": [],
+      "reviewed_at": "2026-11-05",
+      "resolution": "Full early route and outside biography reviewed; player-card gate passes."
     }
   ],
   "club_audit": {
-    "reviewed_at": "2026-10-10",
+    "reviewed_at": "2026-11-05",
     "baseline": "af46aeb",
     "passes": 0,
-    "audited_players": 39,
+    "audited_players": 41,
     "report": "docs/research/kobe/audit-20261008.json",
     "roster_repairs": [
       {
@@ -1160,7 +1158,7 @@
         "issue": "入江羚介不在現役一隊頁；需核對特別指定狀態／U-21名單。"
       }
     ],
-    "validated_players": 36,
+    "validated_players": 38,
     "remaining_cards": 3,
     "trial_scope": "Trial ended by user; original Nishikawa workflow restored.",
     "original_standard_checkpoint": "docs/research/kobe/original-standard-review-20261008.md",
