@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {MATCH_PAGES,renderMatchPage,inInterviewWindow} from '../match.js';
+import {evaluatePlayerCard} from '../scripts/research-quality.mjs';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const d=read('data/matches/2026-10-21-kawasaki-kobe.json');
 const home=read('data/clubs/kawasaki.json'),away=read('data/clubs/kobe.json');
@@ -38,7 +39,16 @@ test('final sweep dates medical news and preserves honest roster and selection s
  assert.equal(d.as_of,'2026-10-21');
  const noda=d.teams.kawasaki.injuries.find(x=>x.text.includes('野田裕人'));
  assert.ok(noda.text.includes('10月3日'));assert.equal(noda.sources[0].published_at,'2026-10-18');
- for(const n of ['17','23']){const p=away.players.find(x=>x.number===n);assert.ok(p);assert.equal(p.verification_status,'research_incomplete');assert.ok(p.research_gaps.length);}
+ for(const n of ['17','23']){
+  const p=away.players.find(x=>x.number===n);assert.ok(p);
+  // A matchday placeholder may later become an audited biography.
+  if(p.verification_status==='verified'){
+   const audit=evaluatePlayerCard(p,'kobe');assert.ok(audit.ok,audit.issues.join('; '));
+   assert.ok(p.career_audit?.reviewed_at);assert.ok(p.career_audit.sources.length);
+   assert.ok(p.career.some(r=>/少年|小學|小学|青訓/.test(`${r.team} ${r.status}`)));
+   assert.equal(p.research_gaps.length,0);
+  }else{assert.equal(p.verification_status,'research_incomplete');assert.ok(p.research_gaps.length);}
+ }
  assert.equal(away.players.find(x=>x.number==='17').name_zh,'高橋壹晟');
  const i=away.players.find(x=>x.number==='23');assert.ok(i.tenure_status.includes('2029/30'));assert.ok(i.registration_status.includes('特別指定'));
  assert.ok(away.players.find(x=>x.number==='45').match_week.selection_status.includes('外借大分'));

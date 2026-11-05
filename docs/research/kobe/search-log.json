@@ -3775,7 +3775,48 @@
         "髙橋壱晟 青森FC 2005 / 2019 外借母會 / preferred foot",
         "岩本悠庵 ディアブロッサ高田 小学 / interview / preferred foot / TM1126308 / 24live1125423"
       ],
-      "result": "2/2accepted. Add IwamotoU12undated named youth row; full route audits, Takahashi dated milestones and2019parent relation. Currentidentity rechecked, Iwamoto9/0league. TM403/405;24live namedpage nofoot; SoccerKing explicitlyright. Other36verifiedcards preserved. npm test passed."
+      "result": "2/2accepted. Add IwamotoU12undated named youth row; full route audits, Takahashi dated milestones and2019parent relation. Currentidentity rechecked, Iwamoto9/0league. TM403/405;24live namedpage nofoot; SoccerKing explicitlyright. Other36verifiedcards preserved. Initial npm test found an obsolete assertion that these cards must remain incomplete; corrected in final follow-up and full suite rerun passed."
+    },
+    {
+      "date": "2026-11-05",
+      "batch": "kobe-09/kobe-10/manager",
+      "phase": "current-main-final-recheck",
+      "players": [
+        "kobe_53",
+        "kobe_57",
+        "kobe_58"
+      ],
+      "queries": [
+        "渡辺隼斗/渡辺 隼斗 2024 2種/二種/第2種 追加登録;officialleague press14617 isNGMatch youthroster,notJ1registration",
+        "大西湊太/大西 湊太 2025 追加登録/2種;club2025history vsJL1653834",
+        "入江羚介/入江 羚介 2026/27 承認/認定/10月;JFAcurrentnewseasonlist andJLcurrentroster",
+        "Michael Skibbe1989 1994 Jugendkoordinator;Eintracht2009originalcoachprofile;GermanWikipedia first"
+      ],
+      "sources": {
+        "watanabe": [
+          "https://www.jleague.jp/player/1648380/",
+          "https://www.vissel-kobe.co.jp/club/history/2024.html",
+          "https://www.vissel-kobe.co.jp/club/history/2025.html",
+          "https://web.gekisaka.jp/news/jleague/detail/?423752-423752-fl="
+        ],
+        "onishi": [
+          "https://www.jleague.jp/player/1653834/",
+          "https://www.vissel-kobe.co.jp/club/history/2025.html",
+          "https://www.vissel-kobe.co.jp/profile/?id=364&mode=detail"
+        ],
+        "irie": [
+          "https://www.jfa.jp/youth_development/honor_players/",
+          "https://data.j-league.or.jp/SFIX02/search?displayId=SFIX02&selectValue=1&selectValueTeam=18",
+          "https://www.vissel-kobe.co.jp/news/article/26701.html",
+          "https://www.jfa.jp/youth_development/news/00036013/"
+        ],
+        "manager": [
+          "https://www.vissel-kobe.co.jp/news/article/25890.html",
+          "https://profis.eintracht.de/news/michael-skibbe-ist-neuer-trainer-von-eintracht-frankfurt-27304/",
+          "https://de.wikipedia.org/wiki/Michael_Skibbe"
+        ]
+      },
+      "result": "38/41playergatespass.09:3/4,10:2/4;unresolved3retainincompletewithquestionedrowsnotverified. Manager4undatedsummaryrowsreplaced58datedjob-yearrows. IrieFeb2026duplicatecollapsed. Targetstrict0errors3warnings. Final npm test passed after final metadata and regression repair;oldmatchdaytestnowpermitsonlyproperlyauditedpromotions."
     }
   ]
 }
