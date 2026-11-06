@@ -2,9 +2,9 @@
   "schema_version": 1,
   "club": "machida",
   "club_name_zh": "町田澤維亞",
-  "player_research_status": "in_progress",
-  "updated_at": "2026-10-18",
-  "roster_players": 28,
+  "player_research_status": "completed",
+  "updated_at": "2026-11-06",
+  "roster_players": 29,
   "baseline_complete_players": [],
   "batches": [
     {
@@ -302,13 +302,13 @@
     {
       "id": "machida-matchday-60",
       "kind": "player_research",
-      "status": "validation_failed",
+      "status": "completed",
       "capacity_points": 1,
       "players": [
         {
           "id": "machida_60",
           "number": "60",
-          "name_zh": "真也加チュイ大夢（中文名待確認）",
+          "name_zh": "真也加 大夢",
           "name_en": "Mayaka Chui Hiromu",
           "weight": 1
         }
@@ -318,15 +318,42 @@
         {
           "date": "2026-10-18",
           "text": "Matchday returnee card published with verified identity and return/number notices. TVB Chinese display name, portrait and season statistics remain unresolved; research_incomplete retained. Named youth rows have unknown dates rather than inferred years."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "沿用用戶已確認真也加 大夢；補官方肖像、2025及特別賽制0場、關東一部9場598分鐘0球。回歸後J1統計無可讀明確數表，保留空值。"
         }
       ],
-      "started_at": "2026-10-18",
-      "completed_at": null
+      "started_at": "2026-11-06",
+      "completed_at": "2026-11-06"
+    },
+    {
+      "id": "machida-matchday-79",
+      "kind": "player_research",
+      "status": "completed",
+      "capacity_points": 1,
+      "players": [
+        {
+          "id": "machida_79",
+          "number": "79",
+          "name_zh": "三國基士文",
+          "name_en": "Kessman Egbus Mikuni",
+          "weight": 1
+        }
+      ],
+      "started_at": "2026-11-06",
+      "completed_at": "2026-11-06",
+      "notes": [
+        {
+          "date": "2026-11-06",
+          "text": "Full source review for the October Type-2 addition; keep school playing roles separate from current DF registration."
+        }
+      ]
     }
   ],
   "status_tag_stage": {
     "status": "scheduled",
     "reviewed_players": 0,
-    "total_players": 28
+    "total_players": 29
   }
 }

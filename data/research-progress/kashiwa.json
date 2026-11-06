@@ -2,8 +2,8 @@
   "schema_version": 1,
   "club": "kashiwa",
   "club_name_zh": "柏太陽王",
-  "player_research_status": "in_progress",
-  "updated_at": "2026-10-24",
+  "player_research_status": "completed",
+  "updated_at": "2026-11-06",
   "roster_players": 42,
   "baseline_complete_players": [
     {
@@ -411,7 +411,7 @@
     {
       "id": "kashiwa-matchday-63",
       "kind": "player_research",
-      "status": "validation_failed",
+      "status": "completed",
       "capacity_points": 1,
       "players": [
         {
@@ -427,15 +427,19 @@
         {
           "date": "2026-10-24",
           "text": "Provisional new-registration identity card; full independent biography and display-name confirmation remain open."
+        },
+        {
+          "date": "2026-11-06",
+          "text": "補縣代表名單、青訓年表及三項有直接報道支持的比賽觀察；未找到私人訪問則明示搜尋結果，保留未知統計。"
         }
       ],
-      "started_at": "2026-10-24",
-      "completed_at": null
+      "started_at": "2026-11-06",
+      "completed_at": "2026-11-06"
     }
   ],
   "status_tag_stage": {
     "status": "scheduled",
     "reviewed_players": 0,
-    "total_players": 41
+    "total_players": 42
   }
 }

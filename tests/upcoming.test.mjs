@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {evaluatePlayerCard} from '../scripts/research-quality.mjs';
 import {MATCH_PAGES,renderMatchPage,inInterviewWindow} from '../match.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const d=read('data/matches/2026-10-18-machida-fukuoka.json');
@@ -48,7 +49,8 @@ test('matchday lineups, bans and returnee agree with player cards',()=>{
  assert.ok(!d.teams.fukuoka.lineup.starters.some(x=>x.text.startsWith('#5 ')));
  assert.ok(d.teams.fukuoka.lineup.starters.some(x=>x.text.startsWith('#11 ')));
  const p=home.players.find(p=>p.number==='60');
- assert.equal(p.verification_status,'research_incomplete');
+ assert.deepEqual(evaluatePlayerCard(p,'machida').issues,[]);
+ assert.equal(p.career.find(r=>r.season==='2026/27').appearances,null);
  assert.ok(p.sources.some(s=>s.url.includes('news-363694')));
  assert.ok(p.match_week.selection_status.includes('未列'));
  assert.equal(d.match_info.referee,'飯田淳平');

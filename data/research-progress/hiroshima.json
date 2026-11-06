@@ -2,8 +2,8 @@
   "schema_version": 1,
   "club": "hiroshima",
   "club_name_zh": "廣島三箭",
-  "player_research_status": "completed",
-  "updated_at": "2026-11-04",
+  "player_research_status": "in_progress",
+  "updated_at": "2026-11-06",
   "roster_players": 27,
   "baseline_complete_players": [],
   "batches": [
@@ -298,8 +298,67 @@
     }
   ],
   "status_tag_stage": {
-    "status": "scheduled",
-    "reviewed_players": 0,
-    "total_players": 27
+    "status": "completed",
+    "reviewed_players": 27,
+    "total_players": 27,
+    "reviewed_at": "2026-11-06",
+    "sources": [
+      {
+        "label": "J.League正式登錄名單（2026-11-02更新）：二種及Homegrown標記",
+        "url": "https://data.j-league.or.jp/SFIX02/search?selectValue=1&selectValueTeam=10",
+        "accessed_at": "2026-11-06"
+      },
+      {
+        "label": "廣島官方：2026/27隊長及領導組（2026-08-04）",
+        "url": "https://www.sanfrecce.co.jp/news/team/12657",
+        "accessed_at": "2026-11-06"
+      },
+      {
+        "label": "廣島官方：野口蓮斗10月2日簽約，2026年仍維持二種登錄",
+        "url": "https://www.sanfrecce.co.jp/news/team/12901",
+        "accessed_at": "2026-11-06"
+      }
+    ],
+    "notes": "只指現存27張球員卡；最新名單另有47至50號未建卡。傷停與比賽選拔仍為獨立時效階段。"
+  },
+  "roster_reconciliation": {
+    "status": "incomplete",
+    "reviewed_at": "2026-11-06",
+    "stored_cards": 27,
+    "official_registered_players": 31,
+    "sources": [
+      {
+        "label": "J.League正式登錄名單（2026-11-02更新）：二種及Homegrown標記",
+        "url": "https://data.j-league.or.jp/SFIX02/search?selectValue=1&selectValueTeam=10",
+        "accessed_at": "2026-11-06"
+      }
+    ],
+    "missing_cards": [
+      {
+        "number": "47",
+        "name_ja": "原 湊士",
+        "name_zh": null,
+        "status": "needs_research_and_user_name_confirmation"
+      },
+      {
+        "number": "48",
+        "name_ja": "太田 大翔",
+        "name_zh": null,
+        "status": "needs_research_and_user_name_confirmation"
+      },
+      {
+        "number": "49",
+        "name_ja": "森井 莉人",
+        "name_zh": null,
+        "status": "needs_research_and_user_name_confirmation"
+      },
+      {
+        "number": "50",
+        "name_ja": "髙橋 成海",
+        "name_zh": null,
+        "status": "needs_research_and_user_name_confirmation"
+      }
+    ],
+    "notes": "11月2日正式名單新增四位二種登錄；現存27張卡通過不等於31人現役名單完成。新增中文名需用戶確認，不自造譯名。"
   }
 }
