@@ -18,7 +18,7 @@
     },
     "season": "2026/27",
     "season_start": "2026-08-07",
-    "roster_as_of": "2026-09-19",
+    "roster_as_of": "2026-11-06",
     "data_status": "verified",
     "established": 1991,
     "roots": "前身住友金屬工業蹴球團；1991職業化建隊，1993成為J.League Original 10。Zico的建隊理念長期塑造『常勝軍團』文化。",
@@ -83,39 +83,48 @@
       {
         "season": "2026/27",
         "competition": "J1",
-        "finish": "第8（4勝0和3負；截至9/17）"
+        "finish": "第6；23分（13輪後，11月6日覆核）"
       }
     ],
     "current_season": {
       "season": "2026/27",
       "competition": "J1",
       "manager": "鬼木達",
-      "matches": 8,
-      "wins": 4,
-      "draws": 1,
-      "losses": 3,
-      "points": 13,
-      "goals_for": 17,
-      "goals_against": 16,
-      "goal_difference": 1,
-      "rank": 8,
-      "as_of": "2026-09-19"
+      "matches": 13,
+      "wins": 7,
+      "draws": 2,
+      "losses": 4,
+      "points": 23,
+      "goals_for": 29,
+      "goals_against": 22,
+      "goal_difference": 7,
+      "rank": 6,
+      "as_of": "2026-11-02",
+      "sources": [
+        {
+          "label": "J.League・13輪後全榜",
+          "url": "https://www.jleague.jp/standings/j1/",
+          "accessed_at": "2026-11-06"
+        },
+        {
+          "label": "Football LAB逐輪賽果",
+          "url": "https://www.football-lab.jp/kasm/match?year=2026",
+          "accessed_at": "2026-11-06"
+        }
+      ]
     },
     "leadership": {
       "captain": "柴崎岳",
       "note": "2026/27官方隊長；其餘領袖不在未核對下推定。"
     },
     "roster_notes": [
-      "研究卡共38張，包含8月21日7名Youth二種登錄；#71荒木遼太郎已於7月20日轉會聖圖爾登，以舊將卡保留，卡數不等同現役登錄人數。",
-      "濃野公人7月末完全轉會D.C. United，已移除。",
-      "7月20日加入Yan Matheus、廣瀨陸斗。",
-      "9月16日#19大森渚生由水戶完全加盟。",
-      "#42大貫琉偉、#43福岡勇和、#44平島大悟雖已確定2027年1月正式升格，現階段仍按2026/27 Youth二種身份標示。"
+      "11月6日核對：有號碼現役登錄38人，全部已有球員卡。",
+      "#71荒木遼太郎已於7月20日轉會；保留舊將履歷，不計入38名現役。#32松本遥翔10月29日回歸已納入。"
     ],
     "commentary_notes": [
-      "前7輪Léo Ceará 8球；小川諒也2助攻；三竿健斗17次duel won。",
-      "松村優太121次衝刺與35.1km/h最高速雙料第一。",
-      "開季4連勝後連輸水戶、浦和、神戶，9/15 ACL Elite 7–1大勝Newcastle Jets即時反彈。"
+      "聯賽近5場3勝1和1負、入12失6；各項正式賽近5場含周三ACLE0–0，需與聯賽近5場分開讀。",
+      "官方13場入29失22；Football LAB的xG對照明言剔除烏龍球，該圖每場實際入球2.15、失球1.54不能當作29及22的除數錯誤，也不能用兩套口徑直接比較轉化。",
+      "xGA每場1.092（第3），但對手射門轉化率13.0%（第16）；被射門11.9（第4）不算多，失球問題更應拆成禁區內保護與被攻破後的質量，而非籠統說全面受壓。後半句為分析。"
     ],
     "sources": [
       {
@@ -137,6 +146,11 @@
         "label": "2026-07-20 荒木轉會公告：更正舊名單現役身份",
         "url": "https://www.antlers.co.jp/blogs/news/260720v2d3p7",
         "accessed_at": "2026-10-24"
+      },
+      {
+        "label": "11月6日現役登錄覆核",
+        "url": "https://www.jleague.jp/club/kashima/player/",
+        "accessed_at": "2026-11-06"
       }
     ],
     "verified_at": "2026-09-19",
@@ -1044,22 +1058,23 @@
         {
           "season": "2026/27",
           "competition": "J1",
-          "appearances": null,
+          "appearances": 13,
+          "starts": 13,
           "goals": 0,
-          "as_of": "2026-10-24",
-          "notes": "官方個人頁顯示11場、Data Site顯示9場，更新範圍不同，暫不把出場總數寫成定案。GK入球0見Data Site。",
+          "assists": null,
+          "minutes": 1170,
+          "shots": 0,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
           "sources": [
             {
-              "label": "J.League個人資料、歷年紀錄及當季統計",
+              "label": "J.League・2026/27逐場紀錄（本會）",
               "url": "https://www.jleague.jp/player/1632225/",
-              "accessed_at": "2026-10-24"
-            },
-            {
-              "label": "J.League Data Site：年度別成績",
-              "url": "https://data.j-league.or.jp/SFIX04/?player_id=37999",
-              "accessed_at": "2026-10-24"
+              "accessed_at": "2026-11-06"
             }
-          ]
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
         }
       ],
       "career_audit": {
@@ -1094,6 +1109,111 @@
           }
         ],
         "notes": "保留未有可靠數字的空格；現役身份、年份、逐季數字與鹿島/J.League官方紀錄交叉核對。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 1170,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 6.31,
+            "unit": "積分",
+            "per90": 0.49
+          },
+          {
+            "label": "傳球CBP",
+            "value": 6.31,
+            "unit": "積分",
+            "per90": 0.49
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 2.35,
+            "unit": "積分",
+            "per90": 0.18
+          },
+          {
+            "label": "射門CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 21.82,
+            "unit": "積分",
+            "per90": 1.68
+          },
+          {
+            "label": "防守P",
+            "value": 23.66,
+            "unit": "積分",
+            "per90": 1.82
+          },
+          {
+            "label": "撲救P",
+            "value": 3.43,
+            "unit": "積分",
+            "per90": 0.26
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": null,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1632225/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1632225/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -1698,7 +1818,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1301053/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27；育成同隊連續年份合併，職業逐季及轉會分列。",
@@ -1721,6 +1863,20 @@
           }
         ],
         "notes": "保留未有可靠數字的空格；現役身份、年份、逐季數字與鹿島/J.League官方紀錄交叉核對。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1301053/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -2130,7 +2286,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 7,
+          "starts": 6,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 585,
+          "shots": 3,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1625413/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27；育成同隊連續年份合併，職業逐季及轉會分列。",
@@ -2163,6 +2341,105 @@
           }
         ],
         "notes": "保留未有可靠數字的空格；現役身份、年份、逐季數字與鹿島/J.League官方紀錄交叉核對。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 585,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 7.68,
+            "unit": "積分",
+            "per90": 1.18
+          },
+          {
+            "label": "傳球CBP",
+            "value": 7.68,
+            "unit": "積分",
+            "per90": 1.18
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 3.87,
+            "unit": "積分",
+            "per90": 0.6
+          },
+          {
+            "label": "射門CBP",
+            "value": 2.77,
+            "unit": "積分",
+            "per90": 0.43
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 63.7,
+            "unit": "積分",
+            "per90": 9.8
+          },
+          {
+            "label": "防守P",
+            "value": 14.62,
+            "unit": "積分",
+            "per90": 2.25
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1625413/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1625413/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -2712,7 +2989,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1604671/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27；育成同隊連續年份合併，職業逐季及轉會分列。",
@@ -2740,6 +3039,20 @@
           }
         ],
         "notes": "保留未有可靠數字的空格；現役身份、年份、逐季數字與鹿島/J.League官方紀錄交叉核對。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1604671/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -3131,7 +3444,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 7,
+          "starts": 7,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 630,
+          "shots": 2,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1614200/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -3164,6 +3499,105 @@
           }
         ],
         "notes": "最早小學球會名稱按日文履歷分列；年份未獲可靠記載，不依年齡倒推。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 630,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 7.87,
+            "unit": "積分",
+            "per90": 1.12
+          },
+          {
+            "label": "傳球CBP",
+            "value": 7.81,
+            "unit": "積分",
+            "per90": 1.12
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.06,
+            "unit": "積分",
+            "per90": 0.01
+          },
+          {
+            "label": "接應CBP",
+            "value": 4.1,
+            "unit": "積分",
+            "per90": 0.59
+          },
+          {
+            "label": "射門CBP",
+            "value": 1.41,
+            "unit": "積分",
+            "per90": 0.2
+          },
+          {
+            "label": "入球CBP",
+            "value": 2.62,
+            "unit": "積分",
+            "per90": 0.37
+          },
+          {
+            "label": "奪回球權P",
+            "value": 49.14,
+            "unit": "積分",
+            "per90": 7.02
+          },
+          {
+            "label": "防守P",
+            "value": 14.53,
+            "unit": "積分",
+            "per90": 2.08
+          },
+          {
+            "label": "本會J1入球",
+            "value": 1,
+            "per90": 0.14,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1614200/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1614200/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -3722,7 +4156,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 7,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 777,
+          "shots": 7,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1400757/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -3755,6 +4211,107 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 777,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 16.31,
+            "unit": "積分",
+            "per90": 1.89
+          },
+          {
+            "label": "傳球CBP",
+            "value": 16.31,
+            "unit": "積分",
+            "per90": 1.89
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 12.23,
+            "unit": "積分",
+            "per90": 1.42
+          },
+          {
+            "label": "射門CBP",
+            "value": 3.44,
+            "unit": "積分",
+            "per90": 0.4
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 118.24,
+            "unit": "積分",
+            "per90": 13.7
+          },
+          {
+            "label": "防守P",
+            "value": 10.82,
+            "unit": "積分",
+            "per90": 1.25
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1400757/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [
+          "J1有效累積3黃，再領1張即停賽。"
+        ],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1400757/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -4348,7 +4905,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 12,
+          "goals": 0,
+          "assists": 3,
+          "minutes": 1099,
+          "shots": 10,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1500256/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -4371,6 +4950,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 1099,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 20.67,
+            "unit": "積分",
+            "per90": 1.69
+          },
+          {
+            "label": "傳球CBP",
+            "value": 14.39,
+            "unit": "積分",
+            "per90": 1.18
+          },
+          {
+            "label": "傳中CBP",
+            "value": 5.58,
+            "unit": "積分",
+            "per90": 0.46
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.7,
+            "unit": "積分",
+            "per90": 0.06
+          },
+          {
+            "label": "接應CBP",
+            "value": 11.9,
+            "unit": "積分",
+            "per90": 0.97
+          },
+          {
+            "label": "射門CBP",
+            "value": 4.22,
+            "unit": "積分",
+            "per90": 0.35
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 77.62,
+            "unit": "積分",
+            "per90": 6.36
+          },
+          {
+            "label": "防守P",
+            "value": 15.12,
+            "unit": "積分",
+            "per90": 1.24
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 3,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1500256/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1500256/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -4808,7 +5486,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 11,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 805,
+          "shots": 7,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1650728/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -4856,6 +5556,105 @@
           }
         ],
         "notes": "先查葡文Wikipedia未有可讀頁，再查日文未能讀取，使用英文職涯圖及原始公告。葡超採BDFutbol27+14=41，與清水公告一致；不沿用Wikipedia資訊框含其他賽事的51場。州聯賽與全國聯賽分開。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 805,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 24.72,
+            "unit": "積分",
+            "per90": 2.76
+          },
+          {
+            "label": "傳球CBP",
+            "value": 23.78,
+            "unit": "積分",
+            "per90": 2.66
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.95,
+            "unit": "積分",
+            "per90": 0.11
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 18.25,
+            "unit": "積分",
+            "per90": 2.04
+          },
+          {
+            "label": "射門CBP",
+            "value": 6.3,
+            "unit": "積分",
+            "per90": 0.7
+          },
+          {
+            "label": "入球CBP",
+            "value": 4.41,
+            "unit": "積分",
+            "per90": 0.49
+          },
+          {
+            "label": "奪回球權P",
+            "value": 92.99,
+            "unit": "積分",
+            "per90": 10.4
+          },
+          {
+            "label": "防守P",
+            "value": 11.16,
+            "unit": "積分",
+            "per90": 1.25
+          },
+          {
+            "label": "本會J1入球",
+            "value": 1,
+            "per90": 0.11,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1650728/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1650728/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -5561,7 +6360,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 11,
+          "starts": 11,
+          "goals": 12,
+          "assists": 0,
+          "minutes": 910,
+          "shots": 47,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1600257/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -5601,20 +6422,101 @@
         "notes": "葡文Wikipedia未能讀取，依序查日文與英文並回查Globo。Campinense及CRB部分數字未完成賽事範圍校正，保留明確覆蓋缺口，不猜數。"
       },
       "match_week": {
-        "fixture_date": "2026-10-24",
-        "as_of": "2026-10-24",
-        "opponent": "柏太陽王",
-        "selection_status": "21日64分鐘傷退；22日鬼木說檢查中，肌肉問題僅初步看法。24日可用性待正式名單。",
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
         "sources": [
           {
-            "label": "サカノワ／塚越始・22日鬼木網上採訪",
-            "url": "https://sakanowa.jp/topics/113902",
-            "accessed_at": "2026-10-24"
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1600257/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 910,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 13.12,
+            "unit": "積分",
+            "per90": 1.3
           },
           {
-            "label": "J.League・本場前瞻",
-            "url": "https://www.jleague.jp/match/j1/2026/102407/",
-            "accessed_at": "2026-10-24"
+            "label": "傳球CBP",
+            "value": 11.98,
+            "unit": "積分",
+            "per90": 1.18
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.54,
+            "unit": "積分",
+            "per90": 0.05
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.59,
+            "unit": "積分",
+            "per90": 0.06
+          },
+          {
+            "label": "接應CBP",
+            "value": 25.17,
+            "unit": "積分",
+            "per90": 2.49
+          },
+          {
+            "label": "射門CBP",
+            "value": 31.15,
+            "unit": "積分",
+            "per90": 3.08
+          },
+          {
+            "label": "入球CBP",
+            "value": 28.58,
+            "unit": "積分",
+            "per90": 2.83
+          },
+          {
+            "label": "奪回球權P",
+            "value": 31.92,
+            "unit": "積分",
+            "per90": 3.16
+          },
+          {
+            "label": "防守P",
+            "value": 1.61,
+            "unit": "積分",
+            "per90": 0.16
+          },
+          {
+            "label": "本會J1入球",
+            "value": 12,
+            "per90": 1.19,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1600257/",
+            "accessed_at": "2026-11-06"
           }
         ]
       }
@@ -6218,7 +7120,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 6,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 628,
+          "shots": 9,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1100202/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "trivia": [
         {
           "text": "柴崎岳在2016世界冠軍球會盃決賽對皇家馬德里梅開二度，鹿島最終加時落敗，但他憑賽事表現獲得銅球獎。",
@@ -6271,6 +7195,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 628,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 19.14,
+            "unit": "積分",
+            "per90": 2.74
+          },
+          {
+            "label": "傳球CBP",
+            "value": 18.66,
+            "unit": "積分",
+            "per90": 2.67
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.48,
+            "unit": "積分",
+            "per90": 0.07
+          },
+          {
+            "label": "接應CBP",
+            "value": 13.9,
+            "unit": "積分",
+            "per90": 1.99
+          },
+          {
+            "label": "射門CBP",
+            "value": 2.48,
+            "unit": "積分",
+            "per90": 0.36
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 84.94,
+            "unit": "積分",
+            "per90": 12.17
+          },
+          {
+            "label": "防守P",
+            "value": 5.88,
+            "unit": "積分",
+            "per90": 0.84
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1100202/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1100202/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -6810,7 +7833,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 2,
+          "starts": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 27,
+          "shots": 4,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1603090/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -6848,6 +7893,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 27,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 0.41,
+            "unit": "積分",
+            "per90": 1.37
+          },
+          {
+            "label": "傳球CBP",
+            "value": 0.41,
+            "unit": "積分",
+            "per90": 1.37
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 1.02,
+            "unit": "積分",
+            "per90": 3.4
+          },
+          {
+            "label": "射門CBP",
+            "value": 1.33,
+            "unit": "積分",
+            "per90": 4.43
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "防守P",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1603090/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1603090/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -7244,7 +8388,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "starts": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 58,
+          "shots": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1624342/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -7272,6 +8438,105 @@
           }
         ],
         "notes": "育成年份未見可靠原始記載，保留機構及未知年份；不依出生年倒算。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 58,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 0.91,
+            "unit": "積分",
+            "per90": 1.41
+          },
+          {
+            "label": "傳球CBP",
+            "value": 0.91,
+            "unit": "積分",
+            "per90": 1.41
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 1.02,
+            "unit": "積分",
+            "per90": 1.58
+          },
+          {
+            "label": "射門CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 17.75,
+            "unit": "積分",
+            "per90": 27.54
+          },
+          {
+            "label": "防守P",
+            "value": 0.53,
+            "unit": "積分",
+            "per90": 0.82
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1624342/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1624342/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -7984,7 +9249,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 6,
+          "starts": 4,
+          "goals": 3,
+          "assists": 2,
+          "minutes": 285,
+          "shots": 10,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1632263/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -8037,6 +9324,105 @@
           }
         ],
         "notes": "葡文先查、日英交叉。Coritiba上陣數分歧保留空值；日本歷史採現時鹿島官方完整表，英文舊表的2023入球與2025鹿島資料已過時。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 285,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 7.81,
+            "unit": "積分",
+            "per90": 2.47
+          },
+          {
+            "label": "傳球CBP",
+            "value": 5.85,
+            "unit": "積分",
+            "per90": 1.85
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.61,
+            "unit": "積分",
+            "per90": 0.19
+          },
+          {
+            "label": "盤球CBP",
+            "value": 1.35,
+            "unit": "積分",
+            "per90": 0.43
+          },
+          {
+            "label": "接應CBP",
+            "value": 9.2,
+            "unit": "積分",
+            "per90": 2.91
+          },
+          {
+            "label": "射門CBP",
+            "value": 8.66,
+            "unit": "積分",
+            "per90": 2.73
+          },
+          {
+            "label": "入球CBP",
+            "value": 7.03,
+            "unit": "積分",
+            "per90": 2.22
+          },
+          {
+            "label": "奪回球權P",
+            "value": 20.13,
+            "unit": "積分",
+            "per90": 6.36
+          },
+          {
+            "label": "防守P",
+            "value": 1.55,
+            "unit": "積分",
+            "per90": 0.49
+          },
+          {
+            "label": "本會J1入球",
+            "value": 3,
+            "per90": 0.95,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 2,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1632263/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1632263/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -8737,7 +10123,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 4,
+          "starts": 2,
+          "goals": 0,
+          "assists": 2,
+          "minutes": 143,
+          "shots": 4,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1639137/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -8780,6 +10188,105 @@
           }
         ],
         "notes": "葡文頁無可用文章，順序轉查日文再英文。Palmeiras為母會，實際各外借球季逐年分列；州賽與全國聯賽分開。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 143,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 5.08,
+            "unit": "積分",
+            "per90": 3.2
+          },
+          {
+            "label": "傳球CBP",
+            "value": 3.79,
+            "unit": "積分",
+            "per90": 2.39
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.55,
+            "unit": "積分",
+            "per90": 0.35
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.74,
+            "unit": "積分",
+            "per90": 0.47
+          },
+          {
+            "label": "接應CBP",
+            "value": 3.09,
+            "unit": "積分",
+            "per90": 1.94
+          },
+          {
+            "label": "射門CBP",
+            "value": 1.24,
+            "unit": "積分",
+            "per90": 0.78
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 10.93,
+            "unit": "積分",
+            "per90": 6.88
+          },
+          {
+            "label": "防守P",
+            "value": 0.71,
+            "unit": "積分",
+            "per90": 0.45
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 2,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1639137/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1639137/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -9154,7 +10661,29 @@
       "honors": [
         "2025：水戶J2冠軍，個人入選J2最佳十一人；聯賽38場3球。（鹿島官方獎項表及日文Wikipedia）"
       ],
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "starts": 1,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 45,
+          "shots": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1636260/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "player_image": "https://www.antlers.co.jp/cdn/shop/files/players_file_DF_19_Omori.jpg?v=1789805547&width=1920",
       "foot": "左腳",
       "joined": 2026,
@@ -9186,6 +10715,105 @@
           }
         ],
         "notes": "保留官方列出、Wikipedia未列的AZ86；水戶2026/27與鹿島同季分列。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 45,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 0.67,
+            "unit": "積分",
+            "per90": 1.34
+          },
+          {
+            "label": "傳球CBP",
+            "value": 0.67,
+            "unit": "積分",
+            "per90": 1.34
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 0.4,
+            "unit": "積分",
+            "per90": 0.8
+          },
+          {
+            "label": "射門CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 4.37,
+            "unit": "積分",
+            "per90": 8.74
+          },
+          {
+            "label": "防守P",
+            "value": 0.53,
+            "unit": "積分",
+            "per90": 1.06
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1636260/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1636260/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -9678,7 +11306,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": null,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1618487/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -9716,6 +11366,20 @@
           }
         ],
         "notes": "小見川JFC以家鄉市政府公開履歷補足；早年190cm/82kg不覆蓋現時192cm/90kg。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1618487/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -10012,7 +11676,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 11,
+          "starts": 7,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 555,
+          "shots": 3,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1640644/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -10050,6 +11736,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 555,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 8.29,
+            "unit": "積分",
+            "per90": 1.34
+          },
+          {
+            "label": "傳球CBP",
+            "value": 7.7,
+            "unit": "積分",
+            "per90": 1.25
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.56,
+            "unit": "積分",
+            "per90": 0.09
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.03,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 6.13,
+            "unit": "積分",
+            "per90": 0.99
+          },
+          {
+            "label": "射門CBP",
+            "value": 2.53,
+            "unit": "積分",
+            "per90": 0.41
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 54.93,
+            "unit": "積分",
+            "per90": 8.91
+          },
+          {
+            "label": "防守P",
+            "value": 5.29,
+            "unit": "積分",
+            "per90": 0.86
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1640644/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1640644/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -10367,7 +12152,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 10,
+          "starts": 3,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 331,
+          "shots": 5,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1639689/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -10410,6 +12217,105 @@
           }
         ],
         "notes": "日文Wikipedia同名頁為404，英文搜尋亦無可用文章；以JFA完整所屬歷與本人大学訪問建立路線。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 331,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 6.62,
+            "unit": "積分",
+            "per90": 1.8
+          },
+          {
+            "label": "傳球CBP",
+            "value": 5.32,
+            "unit": "積分",
+            "per90": 1.45
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.55,
+            "unit": "積分",
+            "per90": 0.15
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.76,
+            "unit": "積分",
+            "per90": 0.21
+          },
+          {
+            "label": "接應CBP",
+            "value": 7.25,
+            "unit": "積分",
+            "per90": 1.97
+          },
+          {
+            "label": "射門CBP",
+            "value": 2.37,
+            "unit": "積分",
+            "per90": 0.64
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 29.82,
+            "unit": "積分",
+            "per90": 8.11
+          },
+          {
+            "label": "防守P",
+            "value": 4.28,
+            "unit": "積分",
+            "per90": 1.16
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1639689/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1639689/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -10963,7 +12869,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 5,
+          "starts": 1,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 162,
+          "shots": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1500561/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -11011,6 +12939,105 @@
           }
         ],
         "notes": "早年機構依官方完整保留；不以出生年倒推就讀年份。2014 JFL及2019/20比利時一季均補列。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 162,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 4.19,
+            "unit": "積分",
+            "per90": 2.33
+          },
+          {
+            "label": "傳球CBP",
+            "value": 3.12,
+            "unit": "積分",
+            "per90": 1.73
+          },
+          {
+            "label": "傳中CBP",
+            "value": 1.07,
+            "unit": "積分",
+            "per90": 0.59
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 2.4,
+            "unit": "積分",
+            "per90": 1.33
+          },
+          {
+            "label": "射門CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 18.6,
+            "unit": "積分",
+            "per90": 10.33
+          },
+          {
+            "label": "防守P",
+            "value": 3.85,
+            "unit": "積分",
+            "per90": 2.14
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1500561/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1500561/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -11367,7 +13394,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 9,
+          "goals": 2,
+          "assists": 3,
+          "minutes": 949,
+          "shots": 20,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1629407/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -11400,6 +13449,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 949,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 30.85,
+            "unit": "積分",
+            "per90": 2.93
+          },
+          {
+            "label": "傳球CBP",
+            "value": 13.16,
+            "unit": "積分",
+            "per90": 1.25
+          },
+          {
+            "label": "傳中CBP",
+            "value": 11.38,
+            "unit": "積分",
+            "per90": 1.08
+          },
+          {
+            "label": "盤球CBP",
+            "value": 6.31,
+            "unit": "積分",
+            "per90": 0.6
+          },
+          {
+            "label": "接應CBP",
+            "value": 17.33,
+            "unit": "積分",
+            "per90": 1.64
+          },
+          {
+            "label": "射門CBP",
+            "value": 9.71,
+            "unit": "積分",
+            "per90": 0.92
+          },
+          {
+            "label": "入球CBP",
+            "value": 6.96,
+            "unit": "積分",
+            "per90": 0.66
+          },
+          {
+            "label": "奪回球權P",
+            "value": 89.04,
+            "unit": "積分",
+            "per90": 8.44
+          },
+          {
+            "label": "防守P",
+            "value": 9.85,
+            "unit": "積分",
+            "per90": 0.93
+          },
+          {
+            "label": "本會J1入球",
+            "value": 2,
+            "per90": 0.19,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 3,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1629407/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1629407/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -11719,7 +13867,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646893/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -11747,6 +13917,20 @@
           }
         ],
         "notes": "日文Wikipedia查詢未取得可用頁；以官方完整梯隊路線及本人訪問建立履歷，不倒推育成年份。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646893/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -12363,7 +14547,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": null,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1400087/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -12411,6 +14617,20 @@
           }
         ],
         "notes": "腳側以現時所屬球會明列的左腳作工作值；Transfermarkt列右腳，異值保留而不隱藏。2010 FC刈谷只確立路線，未把非官方14場寫成已核實數字。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1400087/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -12747,7 +14967,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 8,
+          "starts": 5,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 284,
+          "shots": 6,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646924/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -12780,6 +15022,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 284,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 5.7,
+            "unit": "積分",
+            "per90": 1.81
+          },
+          {
+            "label": "傳球CBP",
+            "value": 4.55,
+            "unit": "積分",
+            "per90": 1.44
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.6,
+            "unit": "積分",
+            "per90": 0.19
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.55,
+            "unit": "積分",
+            "per90": 0.17
+          },
+          {
+            "label": "接應CBP",
+            "value": 5.75,
+            "unit": "積分",
+            "per90": 1.82
+          },
+          {
+            "label": "射門CBP",
+            "value": 1.24,
+            "unit": "積分",
+            "per90": 0.39
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 42.76,
+            "unit": "積分",
+            "per90": 13.55
+          },
+          {
+            "label": "防守P",
+            "value": 1.14,
+            "unit": "積分",
+            "per90": 0.36
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646924/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646924/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -13050,7 +15391,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": null,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1645030/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -13093,6 +15456,20 @@
           }
         ],
         "notes": ""
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1645030/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -13255,7 +15632,29 @@
       "verified_at": "2026-11-06",
       "registration_tags": [],
       "name_source": "鹿島官方日本姓名；未另造中文音譯。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "starts": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 4,
+          "shots": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1644451/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-11-06",
         "scope": "江南南、JFA青訓、鹿島U18、二種登錄、逐季職業及富山外借／回歸均分列；秋春J1與2026特別賽制分開",
@@ -13474,7 +15873,106 @@
       "research_gaps": [
         "少年隊最早加盟年份及青年、代表隊總上陣未能確定；保留空值。",
         "J.League歷史分季小表與最新總覽更新不同步，已按具日期逐場資料及同期報道註明口徑。"
-      ]
+      ],
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 4,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "傳球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "射門CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "防守P",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1644451/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1644451/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      }
     },
     {
       "id": "kashima_34",
@@ -13745,7 +16243,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 8,
+          "starts": 3,
+          "goals": 1,
+          "assists": 0,
+          "minutes": 171,
+          "shots": 8,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1644450/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -13773,6 +16293,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 171,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 1.66,
+            "unit": "積分",
+            "per90": 0.87
+          },
+          {
+            "label": "傳球CBP",
+            "value": 1.13,
+            "unit": "積分",
+            "per90": 0.59
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.53,
+            "unit": "積分",
+            "per90": 0.28
+          },
+          {
+            "label": "接應CBP",
+            "value": 3.68,
+            "unit": "積分",
+            "per90": 1.94
+          },
+          {
+            "label": "射門CBP",
+            "value": 3.77,
+            "unit": "積分",
+            "per90": 1.98
+          },
+          {
+            "label": "入球CBP",
+            "value": 2.6,
+            "unit": "積分",
+            "per90": 1.37
+          },
+          {
+            "label": "奪回球權P",
+            "value": 14.13,
+            "unit": "積分",
+            "per90": 7.44
+          },
+          {
+            "label": "防守P",
+            "value": 0.24,
+            "unit": "積分",
+            "per90": 0.13
+          },
+          {
+            "label": "本會J1入球",
+            "value": 1,
+            "per90": 0.53,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1644450/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1644450/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -14089,7 +16708,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 1,
+          "starts": 0,
+          "goals": 0,
+          "assists": 0,
+          "minutes": 2,
+          "shots": 1,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1647819/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -14127,6 +16768,105 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 2,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 0.74,
+            "unit": "積分",
+            "per90": 33.3
+          },
+          {
+            "label": "傳球CBP",
+            "value": 0.74,
+            "unit": "積分",
+            "per90": 33.3
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 0.28,
+            "unit": "積分",
+            "per90": 12.6
+          },
+          {
+            "label": "射門CBP",
+            "value": 1.3,
+            "unit": "積分",
+            "per90": 58.5
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 3.59,
+            "unit": "積分",
+            "per90": 161.55
+          },
+          {
+            "label": "防守P",
+            "value": 0.01,
+            "unit": "積分",
+            "per90": 0.45
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 0,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1647819/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1647819/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -14644,7 +17384,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 9,
+          "starts": 7,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 561,
+          "shots": 6,
+          "yellow_cards": 2,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1400080/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -14682,6 +17444,105 @@
           }
         ],
         "notes": "2026上半年神戶特別聯賽與2026/27鹿島分開；現時身份採鹿島，Transfermarkt未更新的球會欄不作現役依據。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 561,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 14.71,
+            "unit": "積分",
+            "per90": 2.36
+          },
+          {
+            "label": "傳球CBP",
+            "value": 11.9,
+            "unit": "積分",
+            "per90": 1.91
+          },
+          {
+            "label": "傳中CBP",
+            "value": 2.62,
+            "unit": "積分",
+            "per90": 0.42
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.19,
+            "unit": "積分",
+            "per90": 0.03
+          },
+          {
+            "label": "接應CBP",
+            "value": 8.3,
+            "unit": "積分",
+            "per90": 1.33
+          },
+          {
+            "label": "射門CBP",
+            "value": 2.59,
+            "unit": "積分",
+            "per90": 0.42
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 61.15,
+            "unit": "積分",
+            "per90": 9.81
+          },
+          {
+            "label": "防守P",
+            "value": 9.15,
+            "unit": "積分",
+            "per90": 1.47
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1400080/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1400080/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -15264,7 +18125,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 12,
+          "goals": 1,
+          "assists": 5,
+          "minutes": 1082,
+          "shots": 21,
+          "yellow_cards": 3,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1400359/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "trivia": [
         {
           "text": "鈴木優磨7歲加入鹿島青訓，2018亞冠決賽階段攻入兩球，協助球會首奪亞洲冠軍，並當選該屆賽事最有價值球員。",
@@ -15317,6 +18200,107 @@
           }
         ],
         "notes": ""
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 1082,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 19.26,
+            "unit": "積分",
+            "per90": 1.6
+          },
+          {
+            "label": "傳球CBP",
+            "value": 14.93,
+            "unit": "積分",
+            "per90": 1.24
+          },
+          {
+            "label": "傳中CBP",
+            "value": 3.2,
+            "unit": "積分",
+            "per90": 0.27
+          },
+          {
+            "label": "盤球CBP",
+            "value": 1.13,
+            "unit": "積分",
+            "per90": 0.09
+          },
+          {
+            "label": "接應CBP",
+            "value": 26.87,
+            "unit": "積分",
+            "per90": 2.24
+          },
+          {
+            "label": "射門CBP",
+            "value": 11.87,
+            "unit": "積分",
+            "per90": 0.99
+          },
+          {
+            "label": "入球CBP",
+            "value": 3.5,
+            "unit": "積分",
+            "per90": 0.29
+          },
+          {
+            "label": "奪回球權P",
+            "value": 65.66,
+            "unit": "積分",
+            "per90": 5.46
+          },
+          {
+            "label": "防守P",
+            "value": 3.31,
+            "unit": "積分",
+            "per90": 0.28
+          },
+          {
+            "label": "本會J1入球",
+            "value": 1,
+            "per90": 0.08,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 5,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1400359/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [
+          "J1有效累積3黃，再領1張即停賽。"
+        ],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1400359/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -15553,7 +18537,29 @@
         "Home Grown"
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646908/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -15586,6 +18592,20 @@
           }
         ],
         "notes": "依序查日文Wikipedia https://ja.wikipedia.org/wiki/%E5%A4%A7%E8%B2%AB%E7%90%89%E5%81%89 及英文姓名搜尋，未取得可用文章；改用球會、JFA與本人訪問核對路線。 J.League舊育成表把2024仍列Junior Youth，與同期本人採訪不符；Youth年期採同期報道。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646908/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -15819,7 +18839,29 @@
         "Home Grown"
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646906/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -15852,6 +18894,20 @@
           }
         ],
         "notes": "依序查日文Wikipedia https://ja.wikipedia.org/wiki/%E7%A6%8F%E5%B2%A1%E5%8B%87%E5%92%8C 及英文姓名搜尋，未取得可用文章；改用球會、JFA與本人訪問核對路線。 舊名鑑63kg與現時69kg不同，身份體格採2026-08-21所屬球會公告。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646906/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -16087,7 +19143,29 @@
         "Home Grown"
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646909/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -16120,6 +19198,20 @@
           }
         ],
         "notes": "依序查日文Wikipedia https://ja.wikipedia.org/wiki/%E5%B9%B3%E5%B3%B6%E5%A4%A7%E6%82%9F 及英文姓名搜尋，未取得可用文章；改用球會、JFA與本人訪問核對路線。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646909/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -16358,7 +19450,29 @@
         "Home Grown"
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646898/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -16406,6 +19520,20 @@
           }
         ],
         "notes": "依序查日文Wikipedia https://ja.wikipedia.org/wiki/%E5%80%89%E6%A9%8B%E5%B9%B8%E6%9A%89 及英文姓名搜尋，未取得可用文章；改用球會、JFA與本人訪問核對路線。 已查慣用腳及Transfermarkt，未見可靠明確欄位，清除舊未附證據的右腳而保留空白；遊戲球員能力不作事實依據。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646898/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -16626,7 +19754,29 @@
         "Home Grown"
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646914/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -16659,6 +19809,20 @@
           }
         ],
         "notes": "先查日文Wikipedia https://ja.wikipedia.org/wiki/%E5%B2%A9%E5%9C%9F%E3%81%9D%E3%82%89 未能取得可用文章，再查英文姓名亦無可用百科頁；改以球會、JFA與本人訪問核對。未能從指定Transfermarkt／24live頁核實慣用腳者保留空白；不採電子遊戲資料。 左腳由球會7月9日本人發言一手確認。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646914/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -16904,7 +20068,29 @@
         "Home Grown"
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646927/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -16942,6 +20128,20 @@
           }
         ],
         "notes": "先查日文Wikipedia https://ja.wikipedia.org/wiki/%E9%AB%99%E6%9C%A8%E7%91%9B%E4%BA%BA 未能取得可用文章，再查英文姓名亦無可用百科頁；改以球會、JFA與本人訪問核對。未能從指定Transfermarkt／24live頁核實慣用腳者保留空白；不採電子遊戲資料。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646927/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -17175,7 +20375,29 @@
         "Home Grown"
       ],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": null,
+          "starts": null,
+          "goals": null,
+          "assists": 0,
+          "minutes": null,
+          "shots": null,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646925/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -17213,6 +20435,20 @@
           }
         ],
         "notes": "先查日文Wikipedia https://ja.wikipedia.org/wiki/%E6%BB%9D%E6%BE%A4%E5%91%A8%E7%94%9F 未能取得可用文章，再查英文姓名亦無可用百科頁；改以球會、JFA與本人訪問核對。未能從指定Transfermarkt／24live頁核實慣用腳者保留空白；不採電子遊戲資料。"
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646925/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -17871,7 +21107,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 13,
+          "goals": 0,
+          "assists": 1,
+          "minutes": 1125,
+          "shots": 7,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1300052/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -17914,6 +21172,105 @@
           }
         ],
         "notes": "先查日文Wikipedia，早年路線與海外各季交叉核對；2018/19比甲常規21場0球及附加賽5場1球分列。國家隊新舊快照保留日期區別。2013訪問只作當年技術與童年故事。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 1125,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 14.51,
+            "unit": "積分",
+            "per90": 1.16
+          },
+          {
+            "label": "傳球CBP",
+            "value": 14.51,
+            "unit": "積分",
+            "per90": 1.16
+          },
+          {
+            "label": "傳中CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "盤球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "接應CBP",
+            "value": 4.93,
+            "unit": "積分",
+            "per90": 0.39
+          },
+          {
+            "label": "射門CBP",
+            "value": 2.71,
+            "unit": "積分",
+            "per90": 0.22
+          },
+          {
+            "label": "入球CBP",
+            "value": 0.0,
+            "unit": "積分",
+            "per90": 0.0
+          },
+          {
+            "label": "奪回球權P",
+            "value": 109.78,
+            "unit": "積分",
+            "per90": 8.78
+          },
+          {
+            "label": "防守P",
+            "value": 25.21,
+            "unit": "積分",
+            "per90": 2.02
+          },
+          {
+            "label": "本會J1入球",
+            "value": 0,
+            "per90": 0.0,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1300052/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1300052/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     },
     {
@@ -19238,7 +22595,29 @@
       "verified_at": "2026-10-24",
       "registration_tags": [],
       "name_source": "TVB主資料庫香港繁中顯示名；現役身份按官方更新。",
-      "season_stats": [],
+      "season_stats": [
+        {
+          "season": "2026/27",
+          "competition": "J1",
+          "appearances": 13,
+          "starts": 2,
+          "goals": 7,
+          "assists": 1,
+          "minutes": 482,
+          "shots": 22,
+          "yellow_cards": 1,
+          "red_cards": 0,
+          "as_of": "2026-11-06",
+          "sources": [
+            {
+              "label": "J.League・2026/27逐場紀錄（本會）",
+              "url": "https://www.jleague.jp/player/1646090/",
+              "accessed_at": "2026-11-06"
+            }
+          ],
+          "notes": "僅本會2026/27 J1；第13輪後逐場累計，排除加盟前在別會上陣。未有聯賽出場者，官方破折號維持空白，不當成明示零。"
+        }
+      ],
       "career_audit": {
         "reviewed_at": "2026-10-24",
         "scope": "由最早有文獻的足球育成機構至2026/27，逐季核對職業履歷、外借及季中轉會；不同育成機構分列。",
@@ -19306,6 +22685,105 @@
           }
         ],
         "notes": "按塞爾維亞文→日文→英文Wikipedia查路線，塞文補出最早Petlić足球學校，現況以鹿島與聯賽官方覆核。2014/15亨克分項數字仍留作coverage缺口，不選擇無法對齊的總數。Slovan離隊文把30場15球誤標2021/22，按聯賽官方改為2022/23。2024鹿島25場7球採球會及J.League，FootballTransfers24場屬欠缺。無可靠盃賽總數不推算；歷史傷患不延伸為現況。"
+      },
+      "analytics": {
+        "competition": "2026/27 J1・Football LAB",
+        "as_of": "2026-11-02",
+        "minutes": 482,
+        "metrics": [
+          {
+            "label": "進攻CBP",
+            "value": 13.34,
+            "unit": "積分",
+            "per90": 2.49
+          },
+          {
+            "label": "傳球CBP",
+            "value": 6.52,
+            "unit": "積分",
+            "per90": 1.22
+          },
+          {
+            "label": "傳中CBP",
+            "value": 3.98,
+            "unit": "積分",
+            "per90": 0.74
+          },
+          {
+            "label": "盤球CBP",
+            "value": 2.85,
+            "unit": "積分",
+            "per90": 0.53
+          },
+          {
+            "label": "接應CBP",
+            "value": 12.09,
+            "unit": "積分",
+            "per90": 2.26
+          },
+          {
+            "label": "射門CBP",
+            "value": 17.81,
+            "unit": "積分",
+            "per90": 3.33
+          },
+          {
+            "label": "入球CBP",
+            "value": 19.99,
+            "unit": "積分",
+            "per90": 3.73
+          },
+          {
+            "label": "奪回球權P",
+            "value": 17.86,
+            "unit": "積分",
+            "per90": 3.33
+          },
+          {
+            "label": "防守P",
+            "value": 1.26,
+            "unit": "積分",
+            "per90": 0.24
+          },
+          {
+            "label": "本會J1入球",
+            "value": 7,
+            "per90": 1.31,
+            "unit": "球"
+          },
+          {
+            "label": "本會J1助攻",
+            "value": 1,
+            "unit": "次"
+          }
+        ],
+        "insights": [],
+        "sources": [
+          {
+            "label": "Football LAB・13輪球員CBP",
+            "url": "https://www.football-lab.jp/kasm/",
+            "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646090/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
+      },
+      "match_week": {
+        "fixture_date": "2026-11-07",
+        "opponent": "FC東京",
+        "as_of": "2026-11-06",
+        "selection_status": "本場正式名單未公布；名單與聯賽數據已覆核。",
+        "recent_form": [],
+        "sources": [
+          {
+            "label": "J.League・2026/27逐場紀錄（本會）",
+            "url": "https://www.jleague.jp/player/1646090/",
+            "accessed_at": "2026-11-06"
+          }
+        ]
       }
     }
   ]
