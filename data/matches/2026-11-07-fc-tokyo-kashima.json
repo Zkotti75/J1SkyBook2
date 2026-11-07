@@ -3,19 +3,19 @@
   "home": "fc-tokyo",
   "away": "kashima",
   "date": "2026-11-07",
-  "as_of": "2026-11-06",
-  "coverage_note": "11月6日賽前全面掃描。13輪聯賽數據、70名有號碼現役球員、兩場逐人分鐘及最新訪問已核對；本場正式名單／球證須等待官方公布。",
+  "as_of": "2026-11-07",
+  "coverage_note": "11月7日正式名單後最後掃描：兩隊正選11＋後備9、六名球證、2／9／1人輪換、最新公開訪問及天氣已更新；70名現役有號碼球員卡均已覆核，統計保留最近已完成賽事截點。",
   "match_info": {
     "kickoff_hkt": "14:00（日本15:00；電視播出13:55 HKT）",
     "stadium": "味之素體育場（東京都調布市）",
-    "lineups_as_of": null,
-    "referee": null,
-    "selection_note": "11月7日正式正選及六名球證尚未公布；沒有套用上仗名單。",
+    "lineups_as_of": "2026-11-07｜J.League及鹿島官方正式正選11人／後備9人已互核",
+    "referee": "池内明彦",
+    "selection_note": "正式名單已確認；東京較上輪換2人，鹿島較周三亞洲賽換9人／較上輪聯賽換1人。",
     "commentary": {
       "host": "史葛・楊子滔",
       "partner": "黃耀富",
       "roster_code": "富",
-      "confirmed_at": "2026-11-06",
+      "confirmed_at": "2026-11-07",
       "assignment_confirmed_by": "最新TVB評述編排核對",
       "bio": [
         {
@@ -34,43 +34,161 @@
     },
     "sources": [
       {
-        "label": "j-preview",
-        "url": "https://www.jleague.jp/match/j1/2026/110709/",
-        "accessed_at": "2026-11-06"
+        "label": "J.League・11月7日正式名單／陣式／球證",
+        "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+        "accessed_at": "2026-11-07"
       },
       {
-        "label": "fctk-info",
-        "url": "https://www.fctokyo.co.jp/match/schedule/info/20261107/",
-        "accessed_at": "2026-11-06"
+        "label": "鹿島官方・FC東京戰正式名單",
+        "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+        "accessed_at": "2026-11-07"
       }
     ],
     "officials": {
-      "status": "awaiting_appointment",
-      "checked_at_display": "2026-11-06 賽前掃描",
-      "roles": [],
+      "status": "confirmed",
+      "checked_at_display": "2026-11-07 正式名單公布後",
       "sources": [
         {
-          "label": "j-preview",
-          "url": "https://www.jleague.jp/match/j1/2026/110709/",
-          "accessed_at": "2026-11-06"
+          "label": "J.League・11月7日正式名單／陣式／球證",
+          "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+          "accessed_at": "2026-11-07"
         },
         {
-          "label": "kasm-games",
+          "label": "鹿島官方・FC東京戰正式名單",
           "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
-          "accessed_at": "2026-11-06"
+          "accessed_at": "2026-11-07"
         }
       ],
-      "note": "截至本輪掃描，兩隊官方及J.League未公布本場六名球證；不沿用31日球證或填入未獲任命者的傾向。"
+      "note": "六個職務均按本場J.League及鹿島官方頁面核對；沒有沿用上輪委任。",
+      "roles": [
+        {
+          "id": "referee",
+          "name_ja": "池内 明彦",
+          "sources": [
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "鹿島官方・FC東京戰正式名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+              "accessed_at": "2026-11-07"
+            }
+          ],
+          "profile": {
+            "claims": [
+              {
+                "text": "池內明彥，1983年8月5日生，廣島縣出身，現年43歲。2006年山口大學教育學部畢業；2008年取得一級球證資格，2021年起為職業球證。",
+                "kind": "fact",
+                "as_of": "2026-11-07",
+                "sources": [
+                  {
+                    "label": "JFA・池內明彥職業球證介紹",
+                    "url": "https://www.jfa.jp/referee/news/00026316/",
+                    "accessed_at": "2026-11-07"
+                  },
+                  {
+                    "label": "JFA・2026/27職業球證名單",
+                    "url": "https://www.jfa.jp/referee/news/00035965/",
+                    "accessed_at": "2026-11-07"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "assistant_1",
+          "name_ja": "坂本 晋悟",
+          "sources": [
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "鹿島官方・FC東京戰正式名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+              "accessed_at": "2026-11-07"
+            }
+          ]
+        },
+        {
+          "id": "assistant_2",
+          "name_ja": "赤阪 修",
+          "sources": [
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "鹿島官方・FC東京戰正式名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+              "accessed_at": "2026-11-07"
+            }
+          ]
+        },
+        {
+          "id": "fourth_official",
+          "name_ja": "竹田 明弘",
+          "sources": [
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "鹿島官方・FC東京戰正式名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+              "accessed_at": "2026-11-07"
+            }
+          ]
+        },
+        {
+          "id": "var",
+          "name_ja": "飯田 淳平",
+          "sources": [
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "鹿島官方・FC東京戰正式名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+              "accessed_at": "2026-11-07"
+            }
+          ]
+        },
+        {
+          "id": "avar",
+          "name_ja": "平間 亮",
+          "sources": [
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "鹿島官方・FC東京戰正式名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+              "accessed_at": "2026-11-07"
+            }
+          ]
+        }
+      ]
     },
     "weather": {
-      "text": "11月6日19:00 JST預報：調布7日15:00晴，約17.8°C、降雨機率10%、雨量0mm/h、北風2m/s、濕度39%。屬城市逐小時預報，並非球場實測。",
+      "text": "11月7日13:00 JST更新的調布市逐小時預報：15:00晴、19.8°C、降雨機率0%、雨量0mm/h、濕度40%、北風3m/s；16:00約18.2°C、17:00約16.5°C。屬城市預報，並非球場實測。",
       "kind": "fact",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-07",
       "sources": [
         {
-          "label": "weather",
+          "label": "tenki.jp・調布市逐小時預報",
           "url": "https://tenki.jp/forecast/3/16/4410/13208/1hour.html",
-          "accessed_at": "2026-11-06"
+          "accessed_at": "2026-11-07"
         }
       ]
     },
@@ -121,7 +239,7 @@
     ],
     "visitor_travel": [
       {
-        "text": "鹿島球迷遠征參考：Wecrea作者記錄2026年2月由鹿嶋市內出發往返味之素體育場約260.3公里；潮來IC至球場去程約1小時40分、回程約2小時（不計休息）。這是個人歷史路線實測，並非明天全體球迷的旅程或交通預報。",
+        "text": "鹿島球迷遠征參考：Wecrea作者記錄2026年2月由鹿嶋市內出發往返味之素體育場約260.3公里；潮來IC至球場去程約1小時40分、回程約2小時（不計休息）。這是個人歷史路線實測，並非本場全體球迷的旅程或交通預報。",
         "kind": "reported",
         "as_of": "2026-11-06",
         "sources": [
@@ -150,7 +268,129 @@
         ]
       }
     ],
-    "referee_tendencies": []
+    "referee_tendencies": [
+      {
+        "text": "今季2026/27 J1：逐場核對8月7日至10月31日9場主球證紀錄，球員黃牌合共35次、場均3.89次（單場2–6次）；包括同一球員第二張黃牌。另1次兩黃一紅，沒有直接紅牌；教練警告不計。這是本季9場小樣本，不作偏嚴／偏鬆或本場判罰預測。",
+        "kind": "fact",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League官方紀錄・34518",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34518",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34545",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34545",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34565",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34565",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34582",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34582",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34588",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34588",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34600",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34600",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34614",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34614",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34636",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34636",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34645",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34645",
+            "accessed_at": "2026-11-07"
+          }
+        ],
+        "sample": {
+          "competition": "2026/27 J1",
+          "matches": 9,
+          "yellow_card_events": 35,
+          "yellow_card_events_per_match": 3.89,
+          "second_yellow_dismissals": 1,
+          "straight_red_cards": 0,
+          "excludes": "教練及職員警告",
+          "records": [
+            {
+              "match_card_id": 34518,
+              "yellow_card_events": 5
+            },
+            {
+              "match_card_id": 34545,
+              "yellow_card_events": 6
+            },
+            {
+              "match_card_id": 34565,
+              "yellow_card_events": 3
+            },
+            {
+              "match_card_id": 34582,
+              "yellow_card_events": 2
+            },
+            {
+              "match_card_id": 34588,
+              "yellow_card_events": 2
+            },
+            {
+              "match_card_id": 34600,
+              "yellow_card_events": 6
+            },
+            {
+              "match_card_id": 34614,
+              "yellow_card_events": 2
+            },
+            {
+              "match_card_id": 34636,
+              "yellow_card_events": 3
+            },
+            {
+              "match_card_id": 34645,
+              "yellow_card_events": 6
+            }
+          ]
+        }
+      },
+      {
+        "text": "最近3次J1主球證：10月17日柏1–3名古屋2黃；10月24日神戶0–0町田3黃；10月31日京都2–0清水6黃，三場均沒有球員退場。",
+        "kind": "fact",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League官方紀錄・34614",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34614",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34636",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34636",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League官方紀錄・34645",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34645",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      }
+    ]
   },
   "teams": {
     "fc-tokyo": {
@@ -2361,23 +2601,443 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "11月7日本場正式名單未公布；下列陣式為上一場聯賽起步配置，不是本場預測正選。",
+            "text": "#81 金承奎",
             "kind": "fact",
-            "as_of": "2026-11-06",
+            "as_of": "2026-11-07",
             "sources": [
               {
-                "label": "j-preview",
-                "url": "https://www.jleague.jp/match/j1/2026/110709/",
-                "accessed_at": "2026-11-06"
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "81"
+          },
+          {
+            "text": "#4 稻村隼翔",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "4"
+          },
+          {
+            "text": "#6 班格拿根迪・佳史扶",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "6"
+          },
+          {
+            "text": "#15 大森理生",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "15"
+          },
+          {
+            "text": "#24 亞歷山大・舒賀斯",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "24"
+          },
+          {
+            "text": "#7 安斎颯馬",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "7"
+          },
+          {
+            "text": "#8 高宇洋",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "8"
+          },
+          {
+            "text": "#20 永野修都",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "20"
+          },
+          {
+            "text": "#33 俵積田晃太",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "33"
+          },
+          {
+            "text": "#26 長倉幹樹",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "26"
+          },
+          {
+            "text": "#39 仲川輝人",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "39"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 田中颯",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "1"
+          },
+          {
+            "text": "#2 室屋成",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "2"
+          },
+          {
+            "text": "#3 森重真人",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "3"
+          },
+          {
+            "text": "#42 橋本健人",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "42"
+          },
+          {
+            "text": "#19 本間至恩",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "19"
+          },
+          {
+            "text": "#27 常盤亨太",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "27"
+          },
+          {
+            "text": "#71 山田楓喜",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "71"
+          },
+          {
+            "text": "#9 馬些路・賴恩",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "9"
+          },
+          {
+            "text": "#99 高美斯",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "99"
+          }
+        ],
+        "as_of": "2026-11-07",
+        "starting_changes_vs_previous_match": 2,
+        "starting_changes_vs_previous_league_match": 2,
+        "cues": [
+          {
+            "text": "較10月31日岡山戰換2人：大森理生取代石原廣教，俵積田晃太取代佐藤惠允；高宇洋＋永野修都及長倉＋仲川保留。大森本季此前6次上陣、0次正選，今場首度聯賽正選。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "text": "石原廣教及佐藤惠允未入20人名單；未見官方解釋原因。佐藤有效累積3黃、非本輪停賽，不可把缺席寫成停賽。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "text": "室屋成重返後備席；本間至恩、橋本健人同列後備。高美斯及馬些路・賴恩均可作前線調整。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "text": "大森前兩場後備27＋32＝59分鐘，俵積田0＋14＝14分鐘；兩人今場升正選。東京中6日，前兩場負荷最高的是金承奎、稻村及舒賀斯各180分鐘，高宇洋及長倉各170分鐘。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
               }
             ]
           }
-        ],
-        "as_of": "2026-11-06"
+        ]
       },
       "players_to_watch": {
         "stars": [
@@ -2511,6 +3171,62 @@
                     "label": "fctk",
                     "url": "https://www.football-lab.jp/fctk/",
                     "accessed_at": "2026-11-06"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "number": "6",
+            "name": "班格拿根迪・佳史扶",
+            "description": [
+              {
+                "text": "6日專訪談減少額外訓練、與團隊調整恢復節奏，以及受前輩小川諒也鼓勵；重點是傷後自我管理，不能由專訪推斷傷患風險已消失。",
+                "kind": "reported",
+                "as_of": "2026-11-07",
+                "sources": [
+                  {
+                    "label": "FC東京FANZONE・11月6日佳史扶專訪",
+                    "url": "https://www.fctokyo.co.jp/fan/fanzone/detail/343742/",
+                    "accessed_at": "2026-11-07"
+                  }
+                ]
+              }
+            ],
+            "stats": [
+              {
+                "text": "本會J1此前10場、8次正選、566分鐘；今日繼續左閘正選。",
+                "kind": "fact",
+                "as_of": "2026-11-07",
+                "sources": [
+                  {
+                    "label": "J.League・2026/27逐場紀錄（本會）",
+                    "url": "https://www.jleague.jp/player/1618671/",
+                    "accessed_at": "2026-11-06"
+                  },
+                  {
+                    "label": "J.League・11月7日正式名單／陣式／球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                    "accessed_at": "2026-11-07"
+                  }
+                ]
+              }
+            ],
+            "analytics": [
+              {
+                "text": "左側與俵積田的新組合面對小池龍太，觀察前推後誰保護身後、以及兩人一對一後的內外線配合。",
+                "kind": "analysis",
+                "as_of": "2026-11-07",
+                "sources": [
+                  {
+                    "label": "J.League・11月7日正式名單／陣式／球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                    "accessed_at": "2026-11-07"
+                  },
+                  {
+                    "label": "鹿島官方・FC東京戰正式名單",
+                    "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                    "accessed_at": "2026-11-07"
                   }
                 ]
               }
@@ -3167,21 +3883,23 @@
         }
       ],
       "roster_audit": {
-        "checked_at": "2026-11-06",
+        "checked_at": "2026-11-07",
         "active_numbered_players": 32,
         "missing_numbered_cards": [],
         "sources": [
           {
             "label": "J.League現役有號碼註冊表",
             "url": "https://www.jleague.jp/club/ftokyo/player/",
-            "accessed_at": "2026-11-06"
+            "accessed_at": "2026-11-07"
           },
           {
             "label": "FC東京現行球員名單",
             "url": "https://www.fctokyo.co.jp/team/players/",
-            "accessed_at": "2026-11-06"
+            "accessed_at": "2026-11-07"
           }
-        ]
+        ],
+        "matchday_players_checked": 20,
+        "missing_matchday_cards": []
       },
       "analytics": [
         {
@@ -3213,7 +3931,7 @@
         "baseline_match_date": "2026-10-25",
         "match_date": "2026-10-31",
         "normal_starts_label": "本季13場J1正選",
-        "minutes_note": "逐人名義分鐘；補時不計，半場換人計45分鐘；0代表未上陣，非傷患診斷。",
+        "minutes_note": "逐人名義分鐘；補時不計，半場換人計45分鐘；0代表未上陣，非傷患診斷。 今日正式名單不計為已上陣，亦不預填本場分鐘。",
         "minutes": [
           {
             "number": "4",
@@ -3221,7 +3939,8 @@
             "normal_starts": 11,
             "prior_minutes": 90,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "6",
@@ -3229,7 +3948,8 @@
             "normal_starts": 8,
             "prior_minutes": 63,
             "minutes": 58,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "7",
@@ -3237,7 +3957,8 @@
             "normal_starts": 9,
             "prior_minutes": 90,
             "minutes": 85,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "8",
@@ -3245,7 +3966,8 @@
             "normal_starts": 12,
             "prior_minutes": 80,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "9",
@@ -3253,7 +3975,8 @@
             "normal_starts": 10,
             "prior_minutes": 27,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           },
           {
             "number": "10",
@@ -3261,7 +3984,8 @@
             "normal_starts": 9,
             "prior_minutes": 67,
             "minutes": 76,
-            "started": true
+            "started": true,
+            "selected_today": "未入選"
           },
           {
             "number": "15",
@@ -3269,7 +3993,8 @@
             "normal_starts": 0,
             "prior_minutes": 27,
             "minutes": 32,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "19",
@@ -3277,7 +4002,8 @@
             "normal_starts": 6,
             "prior_minutes": 0,
             "minutes": 5,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           },
           {
             "number": "20",
@@ -3285,7 +4011,8 @@
             "normal_starts": 3,
             "prior_minutes": 10,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "22",
@@ -3293,7 +4020,8 @@
             "normal_starts": 7,
             "prior_minutes": 90,
             "minutes": 85,
-            "started": true
+            "started": true,
+            "selected_today": "未入選"
           },
           {
             "number": "24",
@@ -3301,7 +4029,8 @@
             "normal_starts": 13,
             "prior_minutes": 90,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "26",
@@ -3309,7 +4038,8 @@
             "normal_starts": 12,
             "prior_minutes": 80,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "27",
@@ -3317,7 +4047,8 @@
             "normal_starts": 7,
             "prior_minutes": 90,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           },
           {
             "number": "33",
@@ -3325,7 +4056,8 @@
             "normal_starts": 4,
             "prior_minutes": 0,
             "minutes": 14,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "39",
@@ -3333,7 +4065,8 @@
             "normal_starts": 2,
             "prior_minutes": 63,
             "minutes": 58,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "42",
@@ -3341,7 +4074,8 @@
             "normal_starts": 3,
             "prior_minutes": 0,
             "minutes": 5,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           },
           {
             "number": "71",
@@ -3349,7 +4083,8 @@
             "normal_starts": 0,
             "prior_minutes": 10,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           },
           {
             "number": "81",
@@ -3357,7 +4092,8 @@
             "normal_starts": 13,
             "prior_minutes": 90,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "99",
@@ -3365,7 +4101,8 @@
             "normal_starts": 0,
             "prior_minutes": 23,
             "minutes": 32,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           }
         ],
         "sources": [
@@ -3426,7 +4163,7 @@
       },
       "rotation_notes": [
         {
-          "text": "上仗2026-10-31較2026-10-25更換1名正選；完整逐人分鐘表見下方。本場尚未公布，暫不計本場輪換。",
+          "text": "上仗2026-10-31較2026-10-25更換1名正選；下方逐人分鐘表保留這兩場已完成賽事。本場輪換另按今日正式名單列出。",
           "kind": "fact",
           "as_of": "2026-11-06",
           "sources": [
@@ -3443,7 +4180,7 @@
           ]
         },
         {
-          "text": "岡山一戰只以永野修都取代常盤亨太。兩個中堅、門將及長倉連續兩場踢足；仲川兩場各63及58分鐘，主力與後備前鋒均有實戰節奏。",
+          "text": "岡山一戰只以永野修都取代常盤亨太。兩個中堅及門將連續兩場踢足；長倉兩場80及90分鐘，仲川63及58分鐘。主力與後備前鋒均有實戰節奏。",
           "kind": "fact",
           "as_of": "2026-11-06",
           "sources": [
@@ -3469,8 +4206,8 @@
       ],
       "formation": {
         "shape": "4-4-2",
-        "label": "10月31日聯賽起步陣容；不是11月7日正式名單",
-        "as_of": "2026-10-31",
+        "label": "11月7日官方正選及J.League起步陣式；站位為開局示意",
+        "as_of": "2026-11-07",
         "players": [
           {
             "number": 26,
@@ -3481,8 +4218,8 @@
             "name": "仲川輝人"
           },
           {
-            "number": 7,
-            "name": "安斎颯馬"
+            "number": 33,
+            "name": "俵積田晃太"
           },
           {
             "number": 8,
@@ -3493,8 +4230,8 @@
             "name": "永野修都"
           },
           {
-            "number": 10,
-            "name": "佐藤惠允"
+            "number": 7,
+            "name": "安斎颯馬"
           },
           {
             "number": 6,
@@ -3509,8 +4246,8 @@
             "name": "亞歷山大・舒賀斯"
           },
           {
-            "number": 22,
-            "name": "石原廣教"
+            "number": 15,
+            "name": "大森理生"
           },
           {
             "number": 81,
@@ -3519,9 +4256,14 @@
         ],
         "sources": [
           {
-            "label": "fctk-interview",
-            "url": "https://www.fctokyo.co.jp/fan/fanzone/detail/343424/",
-            "accessed_at": "2026-11-06"
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "鹿島官方・FC東京戰正式名單",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+            "accessed_at": "2026-11-07"
           }
         ]
       },
@@ -3627,18 +4369,40 @@
               "accessed_at": "2026-11-06"
             }
           ]
+        },
+        {
+          "text": "佳史扶與鹿島小川諒也是前FC東京左閘師兄弟。佳史扶在6日專訪說，傷患低潮時小川的訊息曾幫助自己；今日兩人同獲正選，可作賽前重逢話題。",
+          "kind": "reported",
+          "as_of": "2026-11-07",
+          "sources": [
+            {
+              "label": "FC東京FANZONE・11月6日佳史扶專訪",
+              "url": "https://www.fctokyo.co.jp/fan/fanzone/detail/343742/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            }
+          ]
         }
       ],
       "injuries": [
         {
-          "text": "室屋成：9月29日聯賽盃傷左比目魚肌，10月10日公布；仍列Football LAB本場傷情名單，公開復出日未確認。",
+          "text": "室屋成：此前左比目魚肌傷勢後，今日已重返官方後備名單，修正原本未確認復出的狀態；入選不等於已確認能踢足全場。",
           "kind": "fact",
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "sources": [
             {
-              "label": "fctk-med2",
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "FC東京・10月10日室屋傷情報告",
               "url": "https://www.fctokyo.co.jp/news/details/342127/",
-              "accessed_at": "2026-11-06"
+              "accessed_at": "2026-11-07"
             }
           ]
         },
@@ -3667,14 +4431,19 @@
           ]
         },
         {
-          "text": "本間至恩及橋本健人已在10月31日各後備上陣5分鐘（不含補時）；列為已復出，仍需賽日名單確認可用程度。",
+          "text": "本間至恩及橋本健人10月31日均已後備上陣；今日兩人繼續列後備，正式名單確認可選用。",
           "kind": "fact",
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "sources": [
             {
-              "label": "fctk-report",
-              "url": "https://www.fctokyo.co.jp/match/schedule/result/20261031/",
-              "accessed_at": "2026-11-06"
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
+            },
+            {
+              "label": "鹿島官方・FC東京戰正式名單",
+              "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+              "accessed_at": "2026-11-07"
             }
           ]
         },
@@ -6053,23 +6822,443 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "11月7日本場正式名單未公布；下列陣式為上一場聯賽起步配置，不是本場預測正選。",
+            "text": "#1 早川 友基",
             "kind": "fact",
-            "as_of": "2026-11-06",
+            "as_of": "2026-11-07",
             "sources": [
               {
-                "label": "j-preview",
-                "url": "https://www.jleague.jp/match/j1/2026/110709/",
-                "accessed_at": "2026-11-06"
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "1"
+          },
+          {
+            "text": "#5 關川 郁萬",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "5"
+          },
+          {
+            "text": "#7 小川 諒也",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "7"
+          },
+          {
+            "text": "#25 小池 龍太",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "25"
+          },
+          {
+            "text": "#55 植田 直通",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "55"
+          },
+          {
+            "text": "#8 般奴",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "8"
+          },
+          {
+            "text": "#14 樋口 雄太",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "14"
+          },
+          {
+            "text": "#17 艾巴",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "17"
+          },
+          {
+            "text": "#27 松村 優太",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "27"
+          },
+          {
+            "text": "#9 李奧施亞拉",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "9"
+          },
+          {
+            "text": "#40 鈴木 優磨",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "40"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#21 山田 大樹",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "21"
+          },
+          {
+            "text": "#4 千田 海人",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "4"
+          },
+          {
+            "text": "#23 津久井 佳祐",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "23"
+          },
+          {
+            "text": "#32 松本遥翔",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "32"
+          },
+          {
+            "text": "#6 三竿 健斗",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "6"
+          },
+          {
+            "text": "#10 柴崎 岳",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "10"
+          },
+          {
+            "text": "#24 林 晴己",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "24"
+          },
+          {
+            "text": "#44 平島 大悟",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "44"
+          },
+          {
+            "text": "#77 卡夫歷",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ],
+            "number": "77"
+          }
+        ],
+        "as_of": "2026-11-07",
+        "starting_changes_vs_previous_match": 9,
+        "starting_changes_vs_previous_league_match": 1,
+        "cues": [
+          {
+            "text": "較周三ACLE武里南戰換9名正選，只有早川友基及樋口雄太連續先發；較上輪聯賽只換1人：右閘小池龍太取代津久井佳祐。兩種比較基準不能混為一談。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "text": "小池前兩場正式賽事沒有上陣，本季J1此前5次上陣、1次正選；今日由他踢右閘。周三踢足90分鐘的津久井列後備，東京左路俵積田／佳史扶對小池是新對位。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "text": "鈴木優磨、關川郁萬、植田直通上周三均沒有上陣；前兩場各90分鐘。李奧施亞拉107、艾巴92、般奴97、小川109、松村131分鐘。樋口124及早川180分鐘，仍要按個人觀察恢復，不能一概說鹿島全隊疲勞。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "text": "三竿健斗及鈴木優磨各有效累積3黃；前者後備、後者正選。17歲平島大悟列後備，球員卡及號碼已對上。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
               }
             ]
           }
-        ],
-        "as_of": "2026-11-06"
+        ]
       },
       "players_to_watch": {
         "stars": [
@@ -6950,21 +8139,23 @@
         }
       ],
       "roster_audit": {
-        "checked_at": "2026-11-06",
+        "checked_at": "2026-11-07",
         "active_numbered_players": 38,
         "missing_numbered_cards": [],
         "sources": [
           {
             "label": "J.League現役有號碼註冊表",
             "url": "https://www.jleague.jp/club/kashima/player/",
-            "accessed_at": "2026-11-06"
+            "accessed_at": "2026-11-07"
           },
           {
             "label": "鹿島2026/27球員名單",
             "url": "https://www.antlers.co.jp/pages/players-profile",
-            "accessed_at": "2026-11-06"
+            "accessed_at": "2026-11-07"
           }
-        ]
+        ],
+        "matchday_players_checked": 20,
+        "missing_matchday_cards": []
       },
       "analytics": [
         {
@@ -7013,7 +8204,7 @@
         "baseline_match_date": "2026-10-31",
         "match_date": "2026-11-04",
         "normal_starts_label": "本季13場J1正選",
-        "minutes_note": "逐人名義分鐘；補時不計，半場換人計45分鐘；0代表未上陣，非傷患診斷。",
+        "minutes_note": "逐人名義分鐘；補時不計，半場換人計45分鐘；0代表未上陣，非傷患診斷。 今日正式名單不計為已上陣，亦不預填本場分鐘。",
         "minutes": [
           {
             "number": "1",
@@ -7021,7 +8212,8 @@
             "normal_starts": 13,
             "prior_minutes": 90,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "4",
@@ -7029,7 +8221,8 @@
             "normal_starts": 0,
             "prior_minutes": 0,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "後備"
           },
           {
             "number": "5",
@@ -7037,7 +8230,8 @@
             "normal_starts": 7,
             "prior_minutes": 90,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "6",
@@ -7045,7 +8239,8 @@
             "normal_starts": 7,
             "prior_minutes": 17,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "後備"
           },
           {
             "number": "7",
@@ -7053,7 +8248,8 @@
             "normal_starts": 12,
             "prior_minutes": 90,
             "minutes": 19,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "8",
@@ -7061,7 +8257,8 @@
             "normal_starts": 11,
             "prior_minutes": 73,
             "minutes": 24,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "9",
@@ -7069,7 +8266,8 @@
             "normal_starts": 11,
             "prior_minutes": 73,
             "minutes": 34,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "10",
@@ -7077,7 +8275,8 @@
             "normal_starts": 6,
             "prior_minutes": 32,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           },
           {
             "number": "14",
@@ -7085,7 +8284,8 @@
             "normal_starts": 1,
             "prior_minutes": 58,
             "minutes": 66,
-            "started": true
+            "started": true,
+            "selected_today": "正選"
           },
           {
             "number": "17",
@@ -7093,7 +8293,8 @@
             "normal_starts": 4,
             "prior_minutes": 58,
             "minutes": 34,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "23",
@@ -7101,7 +8302,8 @@
             "normal_starts": 7,
             "prior_minutes": 90,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "後備"
           },
           {
             "number": "24",
@@ -7109,7 +8311,8 @@
             "normal_starts": 3,
             "prior_minutes": 17,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "後備"
           },
           {
             "number": "27",
@@ -7117,7 +8320,8 @@
             "normal_starts": 9,
             "prior_minutes": 86,
             "minutes": 45,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "28",
@@ -7125,7 +8329,8 @@
             "normal_starts": 0,
             "prior_minutes": 0,
             "minutes": 71,
-            "started": true
+            "started": true,
+            "selected_today": "未入選"
           },
           {
             "number": "30",
@@ -7133,7 +8338,8 @@
             "normal_starts": 5,
             "prior_minutes": 0,
             "minutes": 56,
-            "started": true
+            "started": true,
+            "selected_today": "未入選"
           },
           {
             "number": "32",
@@ -7141,7 +8347,8 @@
             "normal_starts": 0,
             "prior_minutes": 4,
             "minutes": 45,
-            "started": true
+            "started": true,
+            "selected_today": "後備"
           },
           {
             "number": "34",
@@ -7149,7 +8356,8 @@
             "normal_starts": 3,
             "prior_minutes": 0,
             "minutes": 56,
-            "started": true
+            "started": true,
+            "selected_today": "未入選"
           },
           {
             "number": "35",
@@ -7157,7 +8365,8 @@
             "normal_starts": 0,
             "prior_minutes": 0,
             "minutes": 90,
-            "started": true
+            "started": true,
+            "selected_today": "未入選"
           },
           {
             "number": "40",
@@ -7165,7 +8374,8 @@
             "normal_starts": 12,
             "prior_minutes": 90,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "55",
@@ -7173,7 +8383,8 @@
             "normal_starts": 13,
             "prior_minutes": 90,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "正選"
           },
           {
             "number": "77",
@@ -7181,7 +8392,8 @@
             "normal_starts": 2,
             "prior_minutes": 32,
             "minutes": 0,
-            "started": false
+            "started": false,
+            "selected_today": "後備"
           }
         ],
         "sources": [
@@ -7242,7 +8454,7 @@
       },
       "rotation_notes": [
         {
-          "text": "上仗2026-11-04較2026-10-31更換8名正選；完整逐人分鐘表見下方。本場尚未公布，暫不計本場輪換。",
+          "text": "上仗2026-11-04較2026-10-31更換8名正選；下方逐人分鐘表保留這兩場已完成賽事。本場輪換另按今日正式名單列出。",
           "kind": "fact",
           "as_of": "2026-11-06",
           "sources": [
@@ -7271,22 +8483,27 @@
           ]
         },
         {
-          "text": "李奧施亞拉、艾巴各34分鐘，松村45、馬圖斯般奴24、小川19；早川及津久井90。這兩名連續正選防守球員的恢復尤其值得留意。泰國客程及中2日仍有影響，但影響並不均勻。",
+          "text": "周三李奧施亞拉、艾巴各34分鐘，松村45、般奴24、小川19；早川及津久井90。今日津久井改後備，樋口連續先發。中2日兼泰國客程，主力攻擊手的分鐘負荷已受輪換控制；旅途實際影響仍須看場上表現。",
           "kind": "analysis",
-          "as_of": "2026-11-06",
+          "as_of": "2026-11-07",
           "sources": [
             {
               "label": "kasm1104-lineup",
               "url": "https://www.jleague.jp/match/acle/2026/110402/lineup/",
               "accessed_at": "2026-11-06"
+            },
+            {
+              "label": "J.League・11月7日正式名單／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+              "accessed_at": "2026-11-07"
             }
           ]
         }
       ],
       "formation": {
         "shape": "4-4-2",
-        "label": "10月31日聯賽起步陣容；不是11月7日正式名單",
-        "as_of": "2026-10-31",
+        "label": "11月7日官方正選及J.League起步陣式；站位為開局示意",
+        "as_of": "2026-11-07",
         "players": [
           {
             "number": 9,
@@ -7325,8 +8542,8 @@
             "name": "植田 直通"
           },
           {
-            "number": 23,
-            "name": "津久井 佳祐"
+            "number": 25,
+            "name": "小池 龍太"
           },
           {
             "number": 1,
@@ -7335,9 +8552,14 @@
         ],
         "sources": [
           {
-            "label": "kasm1031-lineup",
-            "url": "https://www.jleague.jp/match/j1/2026/103110/lineup/",
-            "accessed_at": "2026-11-06"
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "鹿島官方・FC東京戰正式名單",
+            "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+            "accessed_at": "2026-11-07"
           }
         ]
       },
@@ -7907,6 +9129,45 @@
   ],
   "quote_events": [
     {
+      "title": "11月7日最後掃描｜最新公開訪問",
+      "date": "2026-11-07",
+      "entries": [
+        {
+          "team_slug": "fc-tokyo",
+          "speaker": "仲川輝人",
+          "role": "球員",
+          "category": "upcoming",
+          "published_at": "2026-11-07",
+          "context": "pre_match",
+          "outlet": "スポニチアネックス／Yahoo・11月7日仲川",
+          "url": "https://news.yahoo.co.jp/articles/45d6be124e079e4acec5cb2717e7166b21228b10",
+          "paraphrase_zh": "近兩輪連續梅開二度後，表示今場當然繼續爭取入球，目標挑戰連續3場單場至少2球。屬球員賽前意向，非對結果的保證。"
+        },
+        {
+          "team_slug": "fc-tokyo",
+          "speaker": "班格拿根迪・佳史扶",
+          "role": "球員",
+          "category": "team",
+          "published_at": "2026-11-06",
+          "context": "pre_match",
+          "outlet": "FC東京FANZONE・11月6日佳史扶專訪",
+          "url": "https://www.fctokyo.co.jp/fan/fanzone/detail/343742/",
+          "paraphrase_zh": "反覆傷患後改為尋找不必做的額外訓練；專訪指訓練量約以往一半，並與體能／治療團隊按比賽倒數安排4天準備。屬其自述，不是獨立醫療評估。"
+        },
+        {
+          "team_slug": "fc-tokyo",
+          "speaker": "班格拿根迪・佳史扶",
+          "role": "球員",
+          "category": "upcoming",
+          "published_at": "2026-11-06",
+          "context": "pre_match",
+          "outlet": "FC東京FANZONE・11月6日佳史扶專訪",
+          "url": "https://www.fctokyo.co.jp/fan/fanzone/detail/343742/",
+          "paraphrase_zh": "傷患低潮時，小川諒也的鼓勵訊息曾支撐自己；很高興可用較放鬆的新狀態與這位前輩重逢，希望展示成長。眼前最大目標就是擊敗鹿島。"
+        }
+      ]
+    },
+    {
       "title": "11月6日｜東京賽前聲音",
       "date": "2026-11-06",
       "entries": [
@@ -8189,26 +9450,36 @@
         "title": "02｜兩隊4-4-2：先看中場接應，再看最後一線",
         "paragraphs": [
           {
-            "text": "東京上一場高宇洋配永野，中堅舒爾斯及稻村可直接把球送到前線；鹿島要決定是讓前鋒封中路、把東京逼向邊線，還是主動上搶兩中堅。若前場上搶而中場沒跟上，長倉與仲川便可能接到越過第一線的球。這是待開局驗證的戰術假設。",
+            "text": "東京正式保留高宇洋配永野，中堅舒賀斯及稻村可直接把球送到前線；鹿島要決定是讓前鋒封中路、把東京逼向邊線，還是主動上搶兩中堅。若前場上搶而中場沒跟上，長倉與仲川便可能接到越過第一線的球。這是待開局驗證的戰術假設。",
             "kind": "analysis",
-            "as_of": "2026-11-06",
+            "as_of": "2026-11-07",
             "sources": [
               {
                 "label": "fctk-interview",
                 "url": "https://www.fctokyo.co.jp/fan/fanzone/detail/343424/",
                 "accessed_at": "2026-11-06"
+              },
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
               }
             ]
           },
           {
-            "text": "鹿島右路風格指數較高，但東京左側佳史扶與安齋同樣能前推。若兩邊閘均上，轉換時應看留守中場能否攔住鈴木優磨的第一個接應，並跟住施亞拉／卡夫歷在中堅背後的跑動。不要只追着持球者讀戰局。",
+            "text": "鹿島右路風格指數較高，但東京左側佳史扶與今日升正選的俵積田同樣能前推。若兩邊閘均上，轉換時應看留守中場能否攔住鈴木優磨的第一個接應，並跟住施亞拉／卡夫歷在中堅背後的跑動。不要只追着持球者讀戰局。",
             "kind": "analysis",
-            "as_of": "2026-11-06",
+            "as_of": "2026-11-07",
             "sources": [
               {
                 "label": "preview",
                 "url": "https://www.football-lab.jp/fctk/preview",
                 "accessed_at": "2026-11-06"
+              },
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
               }
             ]
           }
@@ -8230,14 +9501,19 @@
             ]
           },
           {
-            "text": "因此，合理判讀是東京有整體準備時間優勢，鹿島前線主力的連續分鐘負荷則受控；較值得觀察的是右路連續正選的津久井能否維持回追，以及若比賽進入高強度來回，鹿島何時換上有速度的後備。旅途影響存在與否需看比賽，不能當作已確認體能下降。",
+            "text": "因此，合理判讀是東京有整體準備時間優勢，鹿島前線主力的連續分鐘負荷則受控；較值得觀察的是改由小池正選的右路，能否處理俵積田與佳史扶的配合，以及若比賽進入高強度來回，鹿島何時換上有速度的後備。旅途影響存在與否需看比賽，不能當作已確認體能下降。",
             "kind": "analysis",
-            "as_of": "2026-11-06",
+            "as_of": "2026-11-07",
             "sources": [
               {
                 "label": "kasm1104-lineup",
                 "url": "https://www.jleague.jp/match/acle/2026/110402/lineup/",
                 "accessed_at": "2026-11-06"
+              },
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
               }
             ]
           }
@@ -8247,26 +9523,36 @@
         "title": "04｜不是只有先發：後備得分改變最後30分鐘",
         "paragraphs": [
           {
-            "text": "東京高美斯5次後備、67分鐘入4球；鹿島卡夫歷13場入7球、僅2次正選。兩人都顯示從後備改變比賽的價值，但兩種樣本並不等同。若東京正選再是長倉與仲川，高美斯便是破僵局的主要選項；鹿島也可按施亞拉狀態調整前線。",
+            "text": "東京高美斯5次後備、67分鐘入4球；鹿島卡夫歷13場入7球、僅2次正選。兩人都顯示從後備改變比賽的價值，但兩種樣本並不等同。東京確定由長倉與仲川正選，高美斯列後備，是破僵局選項；鹿島施亞拉＋鈴木正選，卡夫歷在後備席。",
             "kind": "analysis",
-            "as_of": "2026-11-06",
+            "as_of": "2026-11-07",
             "sources": [
               {
                 "label": "preview",
                 "url": "https://www.football-lab.jp/fctk/preview",
                 "accessed_at": "2026-11-06"
+              },
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
               }
             ]
           },
           {
-            "text": "東京的本間及橋本健人已實際復出，令邊路換人更多選擇；鹿島的廣瀨、金太鉉及安西仍有傷情，後防輪替彈性較受限制。正式名單公布後，先看鹿島右閘、東京中場拍檔，以及兩隊後備可否維持進攻速度。",
+            "text": "東京的本間及橋本健人已實際復出，令邊路換人更多選擇；鹿島的廣瀨、金太鉉及安西仍有傷情，後防輪替彈性較受限制。東京右閘大森首度聯賽正選、鹿島右閘小池回正選；東京室屋回到後備席，臨場可多一個右路選項。",
             "kind": "analysis",
-            "as_of": "2026-11-06",
+            "as_of": "2026-11-07",
             "sources": [
               {
                 "label": "preview",
                 "url": "https://www.football-lab.jp/fctk/preview",
                 "accessed_at": "2026-11-06"
+              },
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
               }
             ]
           }
@@ -8300,19 +9586,63 @@
             ]
           }
         ]
+      },
+      {
+        "title": "07｜正式名單後的最後修訂",
+        "paragraphs": [
+          {
+            "text": "東京2個變動集中右閘與左翼：大森首度聯賽正選，俵積田帶來不同的一對一選擇；10號佐藤及22號石原未入選，沒有可靠原因，不推斷傷停。室屋重返後備是右路重要後手。",
+            "kind": "analysis",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          },
+          {
+            "text": "鹿島是相對周三換9人、相對上輪聯賽只換1人，主力框架延續。周三早已讓多名攻擊手休息，不能以中2日便預設攻擊乏力；要更具體看樋口的連續正選，以及小池久未在前兩場上陣後的比賽節奏。",
+            "kind": "analysis",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "opening_checks": [
     {
-      "text": "開場先確認：東京是否仍高宇洋＋永野、鹿島是否恢復施亞拉＋鈴木優磨；正式名單未出前不把上一仗圖當預測。",
+      "text": "正式4-4-2：東京高宇洋＋永野、長倉＋仲川；鹿島般奴＋樋口、施亞拉＋鈴木。先觀察東京兩個新正選大森及俵積田的攻守協調，以及小池的右路防守。",
       "kind": "analysis",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-07",
       "sources": [
         {
-          "label": "fctk-report",
-          "url": "https://www.fctokyo.co.jp/match/schedule/result/20261031/",
-          "accessed_at": "2026-11-06"
+          "label": "J.League・11月7日正式名單／陣式／球證",
+          "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+          "accessed_at": "2026-11-07"
+        },
+        {
+          "label": "鹿島官方・FC東京戰正式名單",
+          "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+          "accessed_at": "2026-11-07"
         }
       ]
     },
@@ -8329,14 +9659,19 @@
       ]
     },
     {
-      "text": "留意東京左路進攻與鹿島右路回追，以及角球後第二落點；輪換與傷情令這一邊尤其值得看。",
+      "text": "東京左路佳史扶＋俵積田對鹿島右閘小池；另一側大森首次聯賽正選，要看鹿島艾巴／小川能否迫他面對連續二打一。角球後第二落點也值得留意。",
       "kind": "analysis",
-      "as_of": "2026-11-06",
+      "as_of": "2026-11-07",
       "sources": [
         {
-          "label": "preview",
-          "url": "https://www.football-lab.jp/fctk/preview",
-          "accessed_at": "2026-11-06"
+          "label": "J.League・11月7日正式名單／陣式／球證",
+          "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+          "accessed_at": "2026-11-07"
+        },
+        {
+          "label": "鹿島官方・FC東京戰正式名單",
+          "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+          "accessed_at": "2026-11-07"
         }
       ]
     }
@@ -8358,14 +9693,24 @@
     ],
     "trailing": [
       {
-        "text": "東京可在維持4-4-2下加入高美斯／希安及兩翼一對一；鹿島可利用卡夫歷與松村速度增加背後威脅，但後場須有人保護，不能把所有人同時壓上。",
+        "text": "東京可在維持4-4-2下換上高美斯／馬些路・賴恩及兩翼一對一；鹿島可換上卡夫歷，或調整已正選的松村跑動位置增加背後威脅，但後場須有人保護，不能把所有人同時壓上。",
         "kind": "analysis",
-        "as_of": "2026-11-06",
+        "as_of": "2026-11-07",
         "sources": [
           {
             "label": "preview",
             "url": "https://www.football-lab.jp/fctk/preview",
             "accessed_at": "2026-11-06"
+          },
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
           }
         ]
       }
@@ -8386,17 +9731,16 @@
     ]
   },
   "coverage_gaps": [
-    "11月7日正式正選、後備、本場輪換及正式陣式尚未公布。",
-    "本場六名球證未公布，故未有可歸屬本場的主球證執法傾向。",
-    "球場實測天氣待比賽日；目前是11月6日調布市預報。",
+    "尚未有球場實測天氣；現列調布市11月7日13:00 JST更新預報。",
+    "鹿島FREAKS鬼木6日及松村7日賽前訪問需會員登入，未讀全文；未以標題補寫內容。",
     "缺乏公開同口徑的門將撲救率、完整賽季入失球時段及所有球員xA；不以CBP冒充。時段表明確只計最近兩場。"
   ],
   "research_sweep": {
-    "as_of": "2026-11-06",
-    "checked_at": "2026-11-06（香港時間）",
-    "interview_entries": 16,
+    "as_of": "2026-11-07",
+    "checked_at": "2026-11-07 12:41 HKT｜正式名單後覆核",
+    "interview_entries": 19,
     "roster_players_checked": 70,
-    "stats_cutoff": "Football LAB 11月2日；J.League個人紀錄11月6日覆核，聯賽均截至10月31日第13輪",
+    "stats_cutoff": "Football LAB 11月2日／聯賽第13輪；11月7日覆核未有新完賽樣本，不把今日正選預計為出場／分鐘",
     "preferred_sources_checked": [
       "J.League／Data Site",
       "兩隊官方新聞、醫療公告、名單及完整訪問",
@@ -8408,17 +9752,20 @@
       "Gekisaka"
     ],
     "gmail_checked": true,
-    "assignment_partner_verified": true
+    "assignment_partner_verified": true,
+    "lineup_players_checked": 40,
+    "officials_checked": 6,
+    "referee_j1_records_checked": 9
   },
   "section_status": {
-    "01": "部分：基本資料、預報及活動已核對；球證待公布",
-    "02": "完成：16則近期訪問摘要，獨立雙欄",
+    "01": "完成至賽前公開資料：六名球證、執法樣本、最新城市預報；球場實測待公布",
+    "02": "完成：19則近期公開訪問摘要；鹿島最新會員訪問未讀全文",
     "03": "完成：13輪成績、近5／未來5、主客及近5次交手",
-    "04": "完成至公開公告：名單、轉會、傷停、3黃名單",
+    "04": "完成至公開公告及正式名單：室屋復列後備、傷停及3黃核對",
     "05": "部分：基本／進階／風格／死球已更新；時段僅近2場，撲救率無可靠資料",
-    "06": "部分：過去2場逐人分鐘及季內使用率完成；本場待名單",
+    "06": "完成：本場正式陣式、正選／後備、相對上仗及聯賽輪換、前兩場分鐘",
     "07": "完成：焦點球員有具體數字與報道，保留移除總表設定",
-    "08": "完成：數據、對位、輪換及情境分析；正選後可再修訂",
+    "08": "完成：已按正式名單修訂對位、輪換及後備情境",
     "09": "完成：20隊同截點榜、38輪聯賽及已公布成年盃賽"
   }
 }

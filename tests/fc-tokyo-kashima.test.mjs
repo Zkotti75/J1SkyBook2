@@ -33,10 +33,21 @@ test('active roster statistics match usage and focus cards, with foreign-club sp
  const omori=clubs.kashima.players.find(p=>p.number==='19').season_stats.find(r=>r.season==='2026/27'&&r.competition==='J1');assert.equal(omori.appearances,1);assert.equal(omori.minutes,45);
  const araki=clubs.kashima.players.find(p=>p.number==='71');assert.equal(araki.registration_status,'已轉會離隊');
 });
-test('yellow risks exclude a two-yellow dismissal and unpublished teams stay unfilled',()=>{
+test('confirmed matchday squads, rotation and officials replace pre-lineup placeholders',()=>{
  assert.deepEqual(d.teams['fc-tokyo'].yellow_risk.map(x=>x.number),['10']);assert.deepEqual(d.teams.kashima.yellow_risk.map(x=>x.number),['6','40']);
- for(const t of Object.values(d.teams)){assert.equal(t.lineup.starters.length,0);assert.equal(t.lineup.bench.length,0);for(const x of t.yellow_risk){assert.equal(x.yellow_cards,3);assert.equal(x.cards_to_suspension,1);assert.ok(x.sources.length);}}
- assert.equal(d.match_info.officials.status,'awaiting_appointment');assert.equal(d.match_info.officials.roles.length,0);
+ const expected={'fc-tokyo':[[81,4,6,15,24,7,8,20,33,26,39],[1,2,3,42,19,27,71,9,99]],kashima:[[1,5,7,25,55,8,14,17,27,9,40],[21,4,23,32,6,10,24,44,77]]};
+ for(const [s,t] of Object.entries(d.teams)){
+  assert.deepEqual(t.lineup.starters.map(x=>Number(x.number)),expected[s][0]);assert.deepEqual(t.lineup.bench.map(x=>Number(x.number)),expected[s][1]);
+  assert.equal(new Set([...t.lineup.starters,...t.lineup.bench].map(x=>x.number)).size,20);
+  assert.deepEqual(t.formation.players.map(p=>p.number).sort((a,b)=>a-b),[...expected[s][0]].sort((a,b)=>a-b));
+  for(const x of [...t.lineup.starters,...t.lineup.bench]){const card=clubs[s].players.find(p=>String(p.number)===x.number);assert.ok(card);assert.equal(card.match_week.selection_status.startsWith('官方'),true);}
+  for(const x of t.yellow_risk){assert.equal(x.yellow_cards,3);assert.equal(x.cards_to_suspension,1);assert.ok(x.sources.length);}
+ }
+ assert.equal(d.teams['fc-tokyo'].lineup.starting_changes_vs_previous_match,2);
+ assert.equal(d.teams.kashima.lineup.starting_changes_vs_previous_match,9);assert.equal(d.teams.kashima.lineup.starting_changes_vs_previous_league_match,1);
+ assert.equal(d.match_info.officials.status,'confirmed');assert.deepEqual(d.match_info.officials.roles.map(x=>x.name_ja),['池内 明彦','坂本 晋悟','赤阪 修','竹田 明弘','飯田 淳平','平間 亮']);
+ const sample=d.match_info.referee_tendencies[0].sample;assert.equal(sample.matches,9);assert.equal(sample.records.reduce((n,r)=>n+r.yellow_card_events,0),35);assert.equal(sample.yellow_card_events_per_match,3.89);assert.equal(sample.second_yellow_dismissals,1);
+ assert.ok(d.teams['fc-tokyo'].injuries[0].text.includes('已重返官方後備'));
 });
 test('all nine sections render without source links or repeated quick-read panels',()=>{
  for(const {id} of MATCH_PAGES){const h=renderMatchPage({home:clubs[d.home],away:clubs[d.away],dossier:d,date:d.date,page:id});assert.ok(!h.includes('undefined'));assert.ok(!h.includes('href="https://'));assert.equal(h.includes('class="quick-read"'),id==='info');}
