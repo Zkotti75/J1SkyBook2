@@ -1433,21 +1433,6 @@
             ]
           },
           {
-            "label": "",
-            "value": "",
-            "rank": null,
-            "unit": "每場",
-            "sample": "13場J1；11月2日更新",
-            "as_of": "2026-11-02",
-            "sources": [
-              {
-                "label": "Football LAB・兩隊比較（13輪）",
-                "url": "https://www.football-lab.jp/fctk/preview",
-                "accessed_at": "2026-11-06"
-              }
-            ]
-          },
-          {
             "label": "AGI進攻指數",
             "value": "54.4",
             "rank": 6,
@@ -3295,7 +3280,7 @@
             "number": "24",
             "description": [
               {
-                "text": "舒爾斯賽前認為鹿島能從看似沒有機會的局面得分，要求全隊更成熟、把危險遠離己方龍門。",
+                "text": "舒賀斯賽前認為鹿島能從看似沒有機會的局面得分，要求全隊更成熟、把危險遠離己方龍門。",
                 "kind": "reported",
                 "as_of": "2026-11-06",
                 "sources": [
@@ -4269,7 +4254,7 @@
       },
       "style": [
         {
-          "text": "以4-4-2為起點，後場保持傳控，必要時直接找前線；上一場右閘石原、雙中堅舒爾斯／稻村、左閘佳史扶，中場高宇洋與永野。",
+          "text": "以4-4-2為起點，後場保持傳控，必要時直接找前線；上一場右閘石原、雙中堅舒賀斯／稻村、左閘佳史扶，中場高宇洋與永野。",
           "kind": "fact",
           "as_of": "2026-11-06",
           "sources": [
@@ -5643,21 +5628,6 @@
             "value": "13.6%",
             "rank": 5,
             "unit": "%",
-            "sample": "13場J1；11月2日更新",
-            "as_of": "2026-11-02",
-            "sources": [
-              {
-                "label": "Football LAB・兩隊比較（13輪）",
-                "url": "https://www.football-lab.jp/fctk/preview",
-                "accessed_at": "2026-11-06"
-              }
-            ]
-          },
-          {
-            "label": "",
-            "value": "",
-            "rank": null,
-            "unit": "每場",
             "sample": "13場J1；11月2日更新",
             "as_of": "2026-11-02",
             "sources": [
@@ -9574,7 +9544,7 @@
             ]
           },
           {
-            "text": "舒爾斯提醒鹿島能從平淡局面創造入球；鬼木則要求周三未把握的機會在東京一戰做得更好。兩隊都把最後質量視作關鍵，故0–0時也要看誰能連續把球送到禁區內，而非等到入球才判斷形勢。",
+            "text": "舒賀斯提醒鹿島能從平淡局面創造入球；鬼木則要求周三未把握的機會在東京一戰做得更好。兩隊都把最後質量視作關鍵，故0–0時也要看誰能連續把球送到禁區內，而非等到入球才判斷形勢。",
             "kind": "analysis",
             "as_of": "2026-11-06",
             "sources": [
@@ -9647,7 +9617,7 @@
       ]
     },
     {
-      "text": "觀察鹿島前兩線壓迫距離：能否限制舒爾斯／稻村向長倉的直送，還是被一腳越過中場。",
+      "text": "觀察鹿島前兩線壓迫距離：能否限制舒賀斯／稻村向長倉的直送，還是被一腳越過中場。",
       "kind": "analysis",
       "as_of": "2026-11-06",
       "sources": [
@@ -9737,7 +9707,7 @@
   ],
   "research_sweep": {
     "as_of": "2026-11-07",
-    "checked_at": "2026-11-07 12:41 HKT｜正式名單後覆核",
+    "checked_at": "2026-11-07｜新會話逐頁再覆核及正式名單互核",
     "interview_entries": 19,
     "roster_players_checked": 70,
     "stats_cutoff": "Football LAB 11月2日／聯賽第13輪；11月7日覆核未有新完賽樣本，不把今日正選預計為出場／分鐘",
@@ -9755,7 +9725,24 @@
     "assignment_partner_verified": true,
     "lineup_players_checked": 40,
     "officials_checked": 6,
-    "referee_j1_records_checked": 9
+    "referee_j1_records_checked": 9,
+    "followup_audit": {
+      "date": "2026-11-07",
+      "baseline_commit": "45140027be63d28afbeacdeda98c14ae1f84561b",
+      "official_lineups": "J.League及鹿島官方兩隊各11正選及9後備一致；六名球證一致",
+      "football_lab_update": "2026-11-02；兩隊現行頁仍為13場樣本",
+      "gmail_revision_check": "11月2日本週排期確認黃耀富；後續11月5日電郵屬下週，未見本週修訂",
+      "corrections": [
+        "補齊第08節五組兩軍戰術對照，移除等待研究空框",
+        "移除2條空白統計列",
+        "統一舒賀斯中文顯示名"
+      ],
+      "public_limitations": [
+        "尚未有球場實測天氣；現列調布市11月7日13:00 JST更新預報。",
+        "鹿島FREAKS鬼木6日及松村7日賽前訪問需會員登入，未讀全文；未以標題補寫內容。",
+        "缺乏公開同口徑的門將撲救率、完整賽季入失球時段及所有球員xA；不以CBP冒充。時段表明確只計最近兩場。"
+      ]
+    }
   },
   "section_status": {
     "01": "完成至賽前公開資料：六名球證、執法樣本、最新城市預報；球場實測待公布",
@@ -9765,7 +9752,194 @@
     "05": "部分：基本／進階／風格／死球已更新；時段僅近2場，撲救率無可靠資料",
     "06": "完成：本場正式陣式、正選／後備、相對上仗及聯賽輪換、前兩場分鐘",
     "07": "完成：焦點球員有具體數字與報道，保留移除總表設定",
-    "08": "完成：已按正式名單修訂對位、輪換及後備情境",
+    "08": "完成：正式名單後分析、五組兩軍戰術對照、開局觀察及三種比分情境已在畫面覆核",
     "09": "完成：20隊同截點榜、38輪聯賽及已公布成年盃賽"
-  }
+  },
+  "tactical_matchups": [
+    {
+      "topic": "前場壓迫與後場組織",
+      "home": {
+        "text": "高宇洋與永野修都配搭中場；留意舒賀斯／稻村能否越過鹿島第一線，把球送到長倉與仲川。若鹿島封住中路，東京可先向兩閘展開，再找中場回接。這是按名單提出的開局觀察。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      },
+      "away": {
+        "text": "施亞拉與鈴木優磨可先限制東京中路接應；般奴及樋口須決定何時跟上壓迫，避免前後線距離被拉開。不要把官方4-4-2當成整場固定站位。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "邊路進攻與防守覆蓋",
+      "home": {
+        "text": "左路佳史扶與俵積田對小池，是東京可觀察的一對一及疊瓦位置；右閘大森本季首次聯賽正選，安齋回防與他的距離亦重要。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      },
+      "away": {
+        "text": "小池回正選後須處理俵積田的持球突進；另一側小川與艾巴可測試東京右路覆蓋。兩閘上前時，遠端邊中場能否回收，是防反擊的關鍵。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "攻守轉換",
+      "home": {
+        "text": "球季每場禁區進入20.9次，失球後的第一輪反搶能否延續，是保持攻勢的觀察點；若兩閘同時前推，高宇洋／永野須保護鈴木優磨的接應區。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      },
+      "away": {
+        "text": "搶回球後先看鈴木優磨能否接住第一腳，再找施亞拉或松村向身後跑動；若東京第一輪反搶到位，鹿島須有第二個出球點，避免在己方半場再失。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "角球與罰球",
+      "home": {
+        "text": "Football LAB球季分類列東京死球後續入8球、另1個十二碼。可觀察舒賀斯／稻村前插後的第二落點，以及佳史扶等留守者如何保護反擊；不把球季分類當成本場指定套路。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      },
+      "away": {
+        "text": "同一分類鹿島死球後續入9球、另2個十二碼；關川／植田的禁區參與與樋口的供應值得觀察。鹿島球季被傳中攻破6次，防守時遠柱與解圍後第二點同樣重要。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      }
+    },
+    {
+      "topic": "後備調動",
+      "home": {
+        "text": "高美斯此前5次後備、67分鐘入4球；馬些路・賴恩可提供不同中鋒選擇，本間與山田則可改變邊路及傳送。室屋回後備亦提供右閘調整。高美斯的小樣本效率不宜外推整場。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      },
+      "away": {
+        "text": "卡夫歷13場入7球、只有2次正選，是後備身後跑動選項；柴崎與三竿可調整中場控傳或保護，津久井／松本提供後防換人。樋口周三也正選，其恢復狀況須在比賽中觀察。",
+        "kind": "analysis",
+        "as_of": "2026-11-07",
+        "sources": [
+          {
+            "label": "J.League・11月7日正式名單／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+            "accessed_at": "2026-11-07"
+          },
+          {
+            "label": "Football LAB・13輪後兩隊比較",
+            "url": "https://www.football-lab.jp/fctk/preview",
+            "accessed_at": "2026-11-07"
+          }
+        ]
+      }
+    }
+  ]
 }
