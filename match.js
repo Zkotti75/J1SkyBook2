@@ -220,16 +220,20 @@ function workloadContext(t,date) {
 }
 function absentRegulars(t) {
  const a=t.workload_absences;
- if(!a)return '<p>本場缺席常規正選及休息原因尚未核對；傷停詳見04。</p>';
+ if(!a || a.pending)return '<p>本場正式名單尚未公布，暫不能確定缺席常規主力或輪休者；傷情及停賽見04。</p>';
  return `<p class="section-meta">${e(a.criteria)}</p>`+card('已確認休息／輪換',a.confirmed_rest?.length?claims(a.confirmed_rest):'<p>未有可靠來源確認休息安排。</p>')+card('未入選常規正選・原因未公布',a.unexplained?.length?claims(a.unexplained):'<p>未有符合條件的未解釋缺席常規正選。</p>')+'<p class="section-meta">傷患、停賽及其他已確認原因另列04；未公布原因者不標作輪休。</p>';
+}
+function recentWorkloadRows(t) {
+ return (t.workload?.minutes||[]).map(r=>({...r,name:r.name||''})).sort((a,b)=>a.minutes-b.minutes||a.prior_minutes-b.prior_minutes||Number(a.number)-Number(b.number));
 }
 function rotation(ctx) {
  return '<p class="match-description">按今日名單看近期體力負荷：先看缺席主力，再看正選與後備。兩份名單各按上仗分鐘由少至多排列；不將比賽分鐘直接當作疲勞診斷。</p>'
  +sides(ctx,t=>absentRegulars(t),'未入選常規主力・休息／輪換核對')
  +sides(ctx,t=>workloadContext(t,ctx.date),'最近兩場・賽程與恢復間隔')
+ +sides(ctx,(t,c)=>t.lineup?.starters?.some(p=>p.number!=null)?'': '<p>正式名單公布前參考：只列最近兩場曾上陣者，並非本場預測名單。</p>'+loadTable(recentWorkloadRows(t),c.team.slug),'賽前負荷參考・名單公布前')
  +sides(ctx,(t,c)=>loadTable(workloadRows(t,t.lineup?.starters),c.team.slug),'今日正選11人・上仗0分鐘優先')
  +sides(ctx,(t,c)=>loadTable(workloadRows(t,t.lineup?.bench),c.team.slug),'今日後備・上仗0分鐘優先')
- +sides(ctx,(t,c)=>{const rows=workloadRows(t,[...(t.lineup?.starters||[]),...(t.lineup?.bench||[])]).filter(r=>r.minutes>0&&r.prior_minutes>0).sort((a,b)=>(b.minutes+b.prior_minutes)-(a.minutes+a.prior_minutes));return '<p>只列今日入選、最近兩場均有上陣者；按兩場合計由高至低。現有逐人樣本為兩場，不推算更長連續紀錄。</p>'+loadTable(rows,c.team.slug);},'連續上陣與高負荷・最近兩場')
+ +sides(ctx,(t,c)=>{const selected=[...(t.lineup?.starters||[]),...(t.lineup?.bench||[])];const confirmed=selected.some(p=>p.number!=null);const rows=(confirmed?workloadRows(t,selected):recentWorkloadRows(t)).filter(r=>r.minutes>0&&r.prior_minutes>0).sort((a,b)=>(b.minutes+b.prior_minutes)-(a.minutes+a.prior_minutes));return '<p>'+(confirmed?'只列今日入選、最近兩場均有上陣者。':'正式名單未公布；此處只列最近兩場均上陣者，並非本場入選名單。')+'按兩場合計由高至低；逐人樣本為兩場，不推算更長連續紀錄。</p>'+loadTable(rows,c.team.slug);},'連續上陣與高負荷・最近兩場')
  +sides(ctx,t=>claims(t.lineup?.cues),'本場輪換重點')
  +'<details class="formation-demo"><summary>查看本場陣式與站位</summary>'+sides(ctx,t=>formationGraphic(t.formation),'官方陣式')+'</details>';
 }

@@ -2,6 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 // Minimal DOM boundary: tests real app event handlers, data loading and hash routes.
+const index=JSON.parse(await readFile(new URL('../data/matches/index.json',import.meta.url),'utf8'));
+const featured=index.featured;const route=page=>`#/match/${featured.home}/${featured.away}/${featured.date}/${page}`;
 const elements = new Map();
 function element(selector) {
   if (!elements.has(selector)) elements.set(selector, {
@@ -25,7 +27,7 @@ const click = selector => element(selector).listeners.click({target:{closest:()=
 await import('../app.js');
 await settled();
 test('fresh opening defaults to match information with match menu and new title', () => {
-  assert.equal(hash,'#/match/fc-tokyo/kashima/2026-11-07/info');
+  assert.equal(hash,route('info'));
   assert.equal(element('#match-nav').hidden,false);
   assert.equal(element('.sidebar-tools').hidden,true);
   assert.ok(element('#detail').innerHTML.includes('本場研究'));
@@ -33,7 +35,7 @@ test('fresh opening defaults to match information with match menu and new title'
 });
 test('team button restores roster and player deep links; centre restores match', async () => {
   click('#home-button'); await settled();
-  assert.equal(hash,'#/club/fc-tokyo');
+  assert.equal(hash,'#/club/'+featured.home);
   assert.equal(element('#match-nav').hidden,true);
   assert.equal(element('.sidebar-tools').hidden,false);
   assert.ok(element('#roster-list').innerHTML.includes('roster-item'));
@@ -45,20 +47,20 @@ test('team button restores roster and player deep links; centre restores match',
 test('match pages preserve the assignment; selecting another team opens its club', async () => {
   element('#match-nav').listeners.click({target:{closest:()=>({dataset:{matchPage:'quotes'}})}});
   await settled();
-  assert.equal(hash,'#/match/fc-tokyo/kashima/2026-11-07/quotes');
+  assert.equal(hash,route('quotes'));
   assert.ok(!element('#detail').innerHTML.includes('type="date"'));
   element('#away-team').value='fc-tokyo'; element('#away-team').listeners.change();
   await settled();
   assert.equal(hash,'#/club/fc-tokyo');
   click('#match-button'); await settled();
-  assert.equal(hash,'#/match/fc-tokyo/kashima/2026-11-07/quotes');
-  assert.equal(element('#home-team').value,'fc-tokyo');
-  assert.equal(element('#away-team').value,'kashima');
+  assert.equal(hash,route('quotes'));
+  assert.equal(element('#home-team').value,featured.home);
+  assert.equal(element('#away-team').value,featured.away);
   assert.ok(element('#detail').innerHTML.includes('主教練訪問'));
 });
 test('legacy arbitrary match links canonicalize to the featured fixture', async () => {
   location.hash='#/match/cerezo-osaka/urawa/2026-10-06/preview'; await settled();
-  assert.equal(hash,'#/match/fc-tokyo/kashima/2026-11-07/preview');
+  assert.equal(hash,route('preview'));
   assert.ok(element('#detail').innerHTML.includes('比賽分析'));
 });
 test('identical team selection is corrected and browser back restores menu', async () => {
@@ -77,14 +79,14 @@ test('upcoming assignments switch while completed links return to the current fi
  assert.equal(hash,'#/match/machida/hiroshima/2026-11-08/preview');
  assert.ok(element('#detail').innerHTML.includes('廣島三箭'));
  location.hash='#/match/fc-tokyo/kashima/2026-11-07/quotes';await settled();
- assert.equal(hash,'#/match/fc-tokyo/kashima/2026-11-07/quotes');
+ assert.equal(hash,route('quotes'));
  assert.ok(element('#detail').innerHTML.includes('主教練訪問'));
  location.hash='#/match/machida/gamba-osaka/2026-11-01/quotes';await settled();
- assert.equal(hash,'#/match/fc-tokyo/kashima/2026-11-07/quotes');
+ assert.equal(hash,route('quotes'));
 });
 test('header dropdown contains only upcoming assignments and keeps the selected section',async()=>{
  const select=element('#match-selector');
- assert.ok(select.innerHTML.includes('11-07'));assert.ok(select.innerHTML.includes('11-08'));
+ assert.ok(!select.innerHTML.includes('11-07'));assert.ok(select.innerHTML.includes('11-08'));
  assert.ok(!select.innerHTML.includes('10-31'));assert.ok(!select.innerHTML.includes('11-01'));
  assert.ok(!element('#match-nav').innerHTML.includes('<a class="match-nav-item"'));
  select.value='#/match/machida/hiroshima/2026-11-08/comparison';select.listeners.change();await settled();

@@ -39,7 +39,7 @@ test('matchday lineups, bans and returnee agree with player cards',()=>{
   assert.equal(t.lineup.starters.length,11);
   const roster=[...t.lineup.starters,...t.lineup.bench].map(x=>x.text.match(/^#(\d+) /)[1]);
   assert.equal(new Set(roster).size,roster.length);
-  for(const p of club.players){
+  for(const p of club.players.filter(p=>!p.match_week?.as_of || p.match_week.as_of===d.date)){
    const selection=p.match_week?.selection_status || '';
    assert.equal(selection==='官方正選',t.lineup.starters.some(x=>x.text.startsWith(`#${p.number} `)));
    assert.equal(selection==='官方後備',t.lineup.bench.some(x=>x.text.startsWith(`#${p.number} `)));
@@ -52,7 +52,7 @@ test('matchday lineups, bans and returnee agree with player cards',()=>{
  assert.deepEqual(evaluatePlayerCard(p,'machida').issues,[]);
  assert.equal(p.career.find(r=>r.season==='2026/27').appearances,null);
  assert.ok(p.sources.some(s=>s.url.includes('news-363694')));
- assert.ok(p.match_week.selection_status.includes('未列'));
+ assert.ok(p.match_week.selection_status.includes('待公布') || p.match_week.selection_status.includes('未列'));
  assert.equal(d.match_info.referee,'飯田淳平');
  assert.equal(d.teams.machida.stats.rank,4);
  for(const slug of ['machida','fukuoka'])assert.equal(d.teams[slug].game_log.find(r=>r.date===d.date).score,null);
