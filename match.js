@@ -4,7 +4,7 @@ export const MATCH_PAGES = [
  {id:'comparison',label:'球隊成績比較',description:'球季・近五仗・未來五仗・對賽'},
  {id:'availability',label:'轉會／傷患／停賽',description:'人腳變動・累積黃牌'},
  {id:'analytics',label:'球隊統計分析',description:'基本・進階・死球・門將'},
- {id:'rotation',label:'陣式／輪換情況',description:'踢法・選人・使用率・分鐘'},
+ {id:'rotation',label:'球員體力負荷',description:'缺席主力・正選／後備・連續負荷'},
  {id:'players',label:'球員統計分析／資訊',description:'核心・每90分鐘・外援・青年'},
  {id:'preview',label:'比賽分析',description:'關鍵對位・觀察重點・情境調整'},
  {id:'logs',label:'聯賽榜／全季賽程',description:'完整戰績・勝和負・賽程'},
@@ -199,8 +199,39 @@ function metricTable(rows, title) {
 function teamAnalytics(ctx) {
  return '<p class="match-description">數值附聯賽排名、樣本及截點；每場、總量與每90分鐘分開呈現。來源未提供排名時留白。</p>'+['basic','attack','build_up','defence','set_pieces','timing','goalkeeping'].map((key,n)=>sides(ctx,t=>metricTable(t.team_metrics?.[key],['基本數據','進攻效率・xG','組織・推進・進攻方向','防守效率・xGA','死球攻守','入失球時段','門將'][n]),['基本','進攻','組織','防守','死球','時段','門將'][n])).join('')+sides(ctx,t=>claims(t.analytics),'已核對統計解讀');
 }
+function workloadRows(team, selected) {
+ const w=team.workload||{}, rows=w.minutes||[];
+ // Only complete 90-minute team totals establish zero minutes for omitted non-participants.
+ const complete=rows.reduce((n,r)=>n+(Number.isFinite(r.minutes)?r.minutes:0),0)===990 && rows.reduce((n,r)=>n+(Number.isFinite(r.prior_minutes)?r.prior_minutes:0),0)===990;
+ return (selected||[]).filter(p=>p?.number!=null).map(p=>{
+  const r=rows.find(r=>String(r.number)===String(p.number));
+  return {number:String(p.number),name:p.text?.replace(/^#\d+\s*/, '')||r?.name||'',minutes:r?.minutes??(complete?0:null),prior_minutes:r?.prior_minutes??(complete?0:null),started:r?.started};
+ }).sort((a,b)=>(a.minutes??Infinity)-(b.minutes??Infinity)||(a.prior_minutes??Infinity)-(b.prior_minutes??Infinity)||Number(a.number)-Number(b.number));
+}
+function loadTable(rows,slug) {
+ if(!rows.length)return '<p>官方本場名單尚未公布。</p>';
+ return `<div class="table-wrap"><table class="match-table"><thead><tr><th>球員</th><th>上仗分鐘 ↑</th><th>前仗分鐘</th><th>兩場合計</th><th>負荷速讀</th></tr></thead><tbody>${rows.map(r=>`<tr><td><a href="#/club/${e(slug)}/player/${e(r.number)}">#${e(r.number)} ${e(r.name)}</a></td><td><strong>${r.minutes===0?'0・上仗未上陣':field(r.minutes)}</strong></td><td>${field(r.prior_minutes)}</td><td>${r.minutes!=null&&r.prior_minutes!=null?r.minutes+r.prior_minutes:'未核實'}</td><td>${r.minutes===0?'上仗沒有比賽分鐘':r.minutes===90&&r.prior_minutes===90?'連續兩場踢足':r.minutes===90?'上仗踢足90分鐘':r.minutes!=null?'上仗'+(r.started?'正選':'後備')+'上陣':'分鐘待核對'}</td></tr>`).join('')}</tbody></table></div>`;
+}
+function workloadContext(t,date) {
+ const w=t.workload;if(!w)return '<p>近期逐人分鐘尚未核對。</p>';
+ const describe=d=>{const g=t.game_log?.find(g=>g.date===d);return e(d)+(g?'・'+e(g.competition)+'・'+e(g.venue)+'對'+e(g.opponent):'');};
+ const rest=validDate(w.match_date)&&validDate(date)?Math.round((Date.parse(date)-Date.parse(w.match_date))/86400000)-1:null;
+ return `<p><strong>上仗：${describe(w.match_date)}</strong>${rest!=null?'｜中'+rest+'日':''}</p><p>前仗：${describe(w.baseline_match_date)}</p><p class="section-meta">${e(w.minutes_note||'分鐘不含補時。')} 0分鐘只代表未上陣，不代表已證實體能充足。</p>`;
+}
+function absentRegulars(t) {
+ const a=t.workload_absences;
+ if(!a)return '<p>本場缺席常規正選及休息原因尚未核對；傷停詳見04。</p>';
+ return `<p class="section-meta">${e(a.criteria)}</p>`+card('已確認休息／輪換',a.confirmed_rest?.length?claims(a.confirmed_rest):'<p>未有可靠來源確認休息安排。</p>')+card('未入選常規正選・原因未公布',a.unexplained?.length?claims(a.unexplained):'<p>未有符合條件的未解釋缺席常規正選。</p>')+'<p class="section-meta">傷患、停賽及其他已確認原因另列04；未公布原因者不標作輪休。</p>';
+}
 function rotation(ctx) {
- return sides(ctx,t=>formationGraphic(t.formation),'陣式圖・確認名單與示意站位分開')+sides(ctx,(t,c)=>t.style?.length?claims(t.style):archivedStyle(c),'常用踢法與近期變化')+sides(ctx,t=>card('官方正選',claims(t.lineup?.starters))+card('後備及可能變化',claims(t.lineup?.bench)+claims(t.bench_options)),'本場人腳')+sides(ctx,t=>claims(t.lineup?.cues)+(t.lineup?.starting_changes_vs_previous_match!=null?`<p>較上仗更換 ${e(t.lineup.starting_changes_vs_previous_match)} 名正選</p>`:''),'本場輪換')+sides(ctx,t=>claims(t.rotation_notes),'上仗輪換／中途賽程與負荷')+sides(ctx,t=>metricTable(t.usage_metrics,'本季使用率・正選／上陣／分鐘'),'本季球員常用程度')+sides(ctx,t=>workloadTable(t.workload)||blank('前兩場逐人分鐘待核對'),'逐人分鐘比較・前兩場正式賽事');
+ return '<p class="match-description">按今日名單看近期體力負荷：先看缺席主力，再看正選與後備。兩份名單各按上仗分鐘由少至多排列；不將比賽分鐘直接當作疲勞診斷。</p>'
+ +sides(ctx,t=>absentRegulars(t),'未入選常規主力・休息／輪換核對')
+ +sides(ctx,t=>workloadContext(t,ctx.date),'最近兩場・賽程與恢復間隔')
+ +sides(ctx,(t,c)=>loadTable(workloadRows(t,t.lineup?.starters),c.team.slug),'今日正選11人・上仗0分鐘優先')
+ +sides(ctx,(t,c)=>loadTable(workloadRows(t,t.lineup?.bench),c.team.slug),'今日後備・上仗0分鐘優先')
+ +sides(ctx,(t,c)=>{const rows=workloadRows(t,[...(t.lineup?.starters||[]),...(t.lineup?.bench||[])]).filter(r=>r.minutes>0&&r.prior_minutes>0).sort((a,b)=>(b.minutes+b.prior_minutes)-(a.minutes+a.prior_minutes));return '<p>只列今日入選、最近兩場均有上陣者；按兩場合計由高至低。現有逐人樣本為兩場，不推算更長連續紀錄。</p>'+loadTable(rows,c.team.slug);},'連續上陣與高負荷・最近兩場')
+ +sides(ctx,t=>claims(t.lineup?.cues),'本場輪換重點')
+ +'<details class="formation-demo"><summary>查看本場陣式與站位</summary>'+sides(ctx,t=>formationGraphic(t.formation),'官方陣式')+'</details>';
 }
 function playerStats(ctx) { return sides(ctx,t=>metricTable(t.player_metrics,'球員基本／進階統計')+claims(t.scorers)+claims(t.assists),'球員數據・總量及每90分鐘')+sides(ctx,t=>claims(t.goalkeeper_analysis),'門將比較'); }
 function scenarioAnalysis(ctx) { return card('開場三個觀察重點',claims(ctx.dossier?.opening_checks))+['leading','trailing','level'].map((key,n)=>card(['領先時可能調整','落後時可能調整','僵持時可能調整'][n],claims(ctx.dossier?.scenarios?.[key]))).join(''); }

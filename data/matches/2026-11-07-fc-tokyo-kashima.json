@@ -4527,7 +4527,68 @@
             }
           ]
         }
-      ]
+      ],
+      "workload_absences": {
+        "criteria": "常規正選篩選：本會13場J1至少7次正選（超過一半）；與今日20人名單及已知傷停交叉核對。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "#10 佐藤惠允：本季13場J1中9次正選；上仗76分鐘、前仗67分鐘。今日未入20人名單，沒有可靠來源確認缺席原因，不能判定輪休。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "fctk-report",
+                "url": "https://www.fctokyo.co.jp/match/schedule/result/20261031/",
+                "accessed_at": "2026-11-06"
+              },
+              {
+                "label": "fctk1025",
+                "url": "https://www.fctokyo.co.jp/match/schedule/result/20261025/",
+                "accessed_at": "2026-11-06"
+              }
+            ]
+          },
+          {
+            "text": "#22 石原廣教：本季13場J1中7次正選；上仗85分鐘、前仗90分鐘。今日未入20人名單，沒有可靠來源確認缺席原因，不能判定輪休。",
+            "kind": "fact",
+            "as_of": "2026-11-07",
+            "sources": [
+              {
+                "label": "J.League・11月7日正式名單／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110709/lineup/",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "鹿島官方・FC東京戰正式名單",
+                "url": "https://www.antlers.co.jp/blogs/games/20260616132511",
+                "accessed_at": "2026-11-07"
+              },
+              {
+                "label": "fctk-report",
+                "url": "https://www.fctokyo.co.jp/match/schedule/result/20261031/",
+                "accessed_at": "2026-11-06"
+              },
+              {
+                "label": "fctk1025",
+                "url": "https://www.fctokyo.co.jp/match/schedule/result/20261025/",
+                "accessed_at": "2026-11-06"
+              }
+            ]
+          }
+        ],
+        "as_of": "2026-11-07"
+      }
     },
     "kashima": {
       "previous_match_date": "2026-11-04",
@@ -8774,7 +8835,19 @@
             }
           ]
         }
-      ]
+      ],
+      "workload_absences": {
+        "criteria": "常規正選篩選：本會13場J1至少7次正選（超過一半）；與今日20人名單及已知傷停交叉核對。",
+        "confirmed_rest": [],
+        "unexplained": [],
+        "as_of": "2026-11-07",
+        "exclusions": [
+          {
+            "number": "37",
+            "reason": "廣瀨陸斗已有傷情，列04，不計作休息缺席。"
+          }
+        ]
+      }
     }
   },
   "standings": {
@@ -9788,7 +9861,7 @@
     "03": "完成：13輪成績、近5／未來5、主客及近5次交手",
     "04": "完成至公開公告及正式名單：室屋復列後備、傷停及3黃核對",
     "05": "部分：基本／進階／風格／死球已更新；時段僅近2場，撲救率無可靠資料",
-    "06": "完成：本場正式陣式、正選／後備、相對上仗及聯賽輪換、前兩場分鐘",
+    "06": "完成：缺席常規主力核對、正選／後備依上仗分鐘排序、兩場連續上陣負荷；更長逐人連續紀錄尚未建立",
     "07": "完成：焦點球員有具體數字與報道，保留移除總表設定",
     "08": "完成：正式名單後分析、五組兩軍戰術對照、開局觀察及三種比分情境已在畫面覆核",
     "09": "完成：20隊同截點榜、38輪聯賽及已公布成年盃賽"
