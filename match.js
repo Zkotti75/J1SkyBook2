@@ -205,12 +205,12 @@ function workloadRows(team, selected) {
  const complete=rows.reduce((n,r)=>n+(Number.isFinite(r.minutes)?r.minutes:0),0)===990 && rows.reduce((n,r)=>n+(Number.isFinite(r.prior_minutes)?r.prior_minutes:0),0)===990;
  return (selected||[]).filter(p=>p?.number!=null).map(p=>{
   const r=rows.find(r=>String(r.number)===String(p.number));
-  return {number:String(p.number),name:p.text?.replace(/^#\d+\s*/, '')||r?.name||'',minutes:r?.minutes??(complete?0:null),prior_minutes:r?.prior_minutes??(complete?0:null),started:r?.started};
+  return {number:String(p.number),name:p.text?.replace(/^#\d+\s*/, '')||r?.name||'',minutes:r?.minutes??(complete?0:null),prior_minutes:r?.prior_minutes??(complete?0:null),started:r?.started,has_card:p.has_card};
  }).sort((a,b)=>(a.minutes??Infinity)-(b.minutes??Infinity)||(a.prior_minutes??Infinity)-(b.prior_minutes??Infinity)||Number(a.number)-Number(b.number));
 }
 function loadTable(rows,slug) {
  if(!rows.length)return '<p>官方本場名單尚未公布。</p>';
- return `<div class="table-wrap"><table class="match-table"><thead><tr><th>球員</th><th>上仗分鐘 ↑</th><th>前仗分鐘</th><th>兩場合計</th><th>負荷速讀</th></tr></thead><tbody>${rows.map(r=>`<tr><td><a href="#/club/${e(slug)}/player/${e(r.number)}">#${e(r.number)} ${e(r.name)}</a></td><td><strong>${r.minutes===0?'0・上仗未上陣':field(r.minutes)}</strong></td><td>${field(r.prior_minutes)}</td><td>${r.minutes!=null&&r.prior_minutes!=null?r.minutes+r.prior_minutes:'未核實'}</td><td>${r.minutes===0?'上仗沒有比賽分鐘':r.minutes===90&&r.prior_minutes===90?'連續兩場踢足':r.minutes===90?'上仗踢足90分鐘':r.minutes!=null?'上仗'+(r.started?'正選':'後備')+'上陣':'分鐘待核對'}</td></tr>`).join('')}</tbody></table></div>`;
+ return `<div class="table-wrap"><table class="match-table"><thead><tr><th>球員</th><th>上仗分鐘 ↑</th><th>前仗分鐘</th><th>兩場合計</th><th>負荷速讀</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${r.has_card===false?`#${e(r.number)} ${e(r.name)}<small>永久球員卡待補</small>`:`<a href="#/club/${e(slug)}/player/${e(r.number)}">#${e(r.number)} ${e(r.name)}</a>`}</td><td><strong>${r.minutes===0?'0・上仗未上陣':field(r.minutes)}</strong></td><td>${field(r.prior_minutes)}</td><td>${r.minutes!=null&&r.prior_minutes!=null?r.minutes+r.prior_minutes:'未核實'}</td><td>${r.minutes===0?'上仗沒有比賽分鐘':r.minutes===90&&r.prior_minutes===90?'連續兩場踢足':r.minutes===90?'上仗踢足90分鐘':r.minutes!=null?'上仗'+(r.started?'正選':'後備')+'上陣':'分鐘待核對'}</td></tr>`).join('')}</tbody></table></div>`;
 }
 function workloadContext(t,date) {
  const w=t.workload;if(!w)return '<p>近期逐人分鐘尚未核對。</p>';
@@ -230,7 +230,7 @@ function rotation(ctx) {
  return '<p class="match-description">按今日名單看近期體力負荷：先看缺席主力，再看正選與後備。兩份名單各按上仗分鐘由少至多排列；不將比賽分鐘直接當作疲勞診斷。</p>'
  +sides(ctx,t=>absentRegulars(t),'未入選常規主力・休息／輪換核對')
  +sides(ctx,t=>workloadContext(t,ctx.date),'最近兩場・賽程與恢復間隔')
- +sides(ctx,(t,c)=>t.lineup?.starters?.some(p=>p.number!=null)?'': '<p>正式名單公布前參考：只列最近兩場曾上陣者，並非本場預測名單。</p>'+loadTable(recentWorkloadRows(t),c.team.slug),'賽前負荷參考・名單公布前')
+ +([ctx.home,ctx.away].every(c=>ctx.dossier?.teams?.[c.team.slug]?.lineup?.starters?.some(p=>p.number!=null))?'':sides(ctx,(t,c)=>t.lineup?.starters?.some(p=>p.number!=null)?'': '<p>正式名單公布前參考：只列最近兩場曾上陣者，並非本場預測名單。</p>'+loadTable(recentWorkloadRows(t),c.team.slug),'賽前負荷參考・名單公布前'))
  +sides(ctx,(t,c)=>loadTable(workloadRows(t,t.lineup?.starters),c.team.slug),'今日正選11人・上仗0分鐘優先')
  +sides(ctx,(t,c)=>loadTable(workloadRows(t,t.lineup?.bench),c.team.slug),'今日後備・上仗0分鐘優先')
  +sides(ctx,(t,c)=>{const selected=[...(t.lineup?.starters||[]),...(t.lineup?.bench||[])];const confirmed=selected.some(p=>p.number!=null);const rows=(confirmed?workloadRows(t,selected):recentWorkloadRows(t)).filter(r=>r.minutes>0&&r.prior_minutes>0).sort((a,b)=>(b.minutes+b.prior_minutes)-(a.minutes+a.prior_minutes));return '<p>'+(confirmed?'只列今日入選、最近兩場均有上陣者。':'正式名單未公布；此處只列最近兩場均上陣者，並非本場入選名單。')+'按兩場合計由高至低；逐人樣本為兩場，不推算更長連續紀錄。</p>'+loadTable(rows,c.team.slug);},'連續上陣與高負荷・最近兩場')

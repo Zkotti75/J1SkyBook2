@@ -3,15 +3,15 @@
   "home": "machida",
   "away": "hiroshima",
   "date": "2026-11-08",
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-08",
   "interview_layout": "team_columns",
-  "coverage_note": "11月7日賽前掃描：已補町田ACL Two勝仗、兩隊逐人分鐘與13輪統計、最新傷情及公開訪問；本場正式名單與球證尚未公布。新增註冊球員以官方日文列本場資料，未冒充完成永久球員卡。",
+  "coverage_note": "11月8日正式名單後掃描：兩隊正選、町田8名及廣島9名後備、六名球證、官方3-4-2-1站位已核對；球員體力負荷依今日名單重排。城市預報及周六完場後榜已刷新。未明缺席原因及未公開統計仍保留具體缺口。",
   "match_info": {
     "kickoff_hkt": "13:00（日本14:00；電視播出12:55 HKT）",
     "stadium": "町田GION體育場",
-    "lineups_as_of": null,
-    "referee": null,
-    "selection_note": "11月7日核對官方頁面，本場正選、後備及球證組尚未公布；不把上仗名單當成本場。",
+    "lineups_as_of": "2026-11-08｜兩隊官方正選及後備已核對",
+    "referee": "上田益也",
+    "selection_note": "兩隊正選各11人；町田8名後備、廣島9名後備。J.League及廣島官方名單互核；本季統計仍截至賽前13場，不提前計入今日。",
     "sources": [
       {
         "label": "町田官方・本場活動及入場資訊",
@@ -22,6 +22,16 @@
         "label": "J.League・町田對廣島賽前專題",
         "url": "https://www.jleague.jp/match/j1/2026/110803/",
         "accessed_at": "2026-11-07"
+      },
+      {
+        "label": "J.League・11月8日官方正選後備／陣式／球證",
+        "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+        "accessed_at": "2026-11-08"
+      },
+      {
+        "label": "廣島官方・11月8日兩隊名單及球證",
+        "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+        "accessed_at": "2026-11-08"
       }
     ],
     "stadium_facts": [
@@ -65,14 +75,14 @@
       }
     ],
     "weather": {
-      "text": "11月7日核對町田市11月8日城市預報：12:00晴16°C，15:00晴17°C、雨量0毫米；15:00東風1米／秒、濕度39%。開球14:00介於兩個預報時段；不把城市預報當球場實測。",
+      "text": "町田市11月8日11:00發表的城市預報：12:00及15:00均晴、17°C、雨量0毫米；12:00北北東風3米／秒、濕度40%，15:00東北東風1米／秒、濕度39%。14:00開球介於兩時段；球場實測仍未公布。",
       "kind": "fact",
-      "as_of": "2026-11-07",
+      "as_of": "2026-11-08",
       "sources": [
         {
-          "label": "Yahoo!天氣・町田市",
+          "label": "Yahoo!天氣・町田市11月8日11:00預報",
           "url": "https://weather.yahoo.co.jp/weather/jp/13/4410/13209.html",
-          "accessed_at": "2026-11-07"
+          "accessed_at": "2026-11-08"
         }
       ]
     },
@@ -80,7 +90,7 @@
       "host": "史葛・楊子滔",
       "partner": "高志超",
       "roster_code": "高",
-      "confirmed_at": "2026-11-07",
+      "confirmed_at": "2026-11-08",
       "assignment_confirmed_by": "最新TVB評述編排核對",
       "bio": [
         {
@@ -98,15 +108,51 @@
       ]
     },
     "officials": {
-      "status": "pending",
-      "checked_at_display": "2026-11-07｜賽前一天",
-      "roles": [],
-      "note": "本場球證組待官方公布，不沿用其他場次。",
+      "status": "confirmed",
+      "checked_at_display": "2026-11-08｜正式名單公布後",
+      "roles": [
+        {
+          "id": "referee",
+          "name_ja": "上田 益也",
+          "status": "confirmed"
+        },
+        {
+          "id": "assistant_1",
+          "name_ja": "塩津 祐介",
+          "status": "confirmed"
+        },
+        {
+          "id": "assistant_2",
+          "name_ja": "亀川 哲弘",
+          "status": "confirmed"
+        },
+        {
+          "id": "fourth_official",
+          "name_ja": "大橋 侑祐",
+          "status": "confirmed"
+        },
+        {
+          "id": "var",
+          "name_ja": "川俣 秀",
+          "status": "confirmed"
+        },
+        {
+          "id": "avar",
+          "name_ja": "坂本 晋悟",
+          "status": "confirmed"
+        }
+      ],
+      "note": "J.League確認六名球證；廣島官方交叉核對場內四名球證。",
       "sources": [
         {
-          "label": "J.League・町田對廣島賽前專題",
-          "url": "https://www.jleague.jp/match/j1/2026/110803/",
-          "accessed_at": "2026-11-07"
+          "label": "J.League・11月8日官方正選後備／陣式／球證",
+          "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+          "accessed_at": "2026-11-08"
+        },
+        {
+          "label": "廣島官方・11月8日兩隊名單及球證",
+          "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+          "accessed_at": "2026-11-08"
         }
       ]
     },
@@ -126,14 +172,14 @@
     ],
     "referee_tendencies": [
       {
-        "text": "主球證尚未公布，暫不選取任何球證的執法樣本。",
+        "text": "上田益也：FOR TWELVE截至11月5日逐場核對的2026/27 J1樣本8場，22次警告、1次退場、1個十二碼；平均2.75次警告／場（22÷8）。不混入百年構想聯賽，亦不由數字推定執法鬆緊。",
         "kind": "fact",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
           {
-            "url": "https://www.jleague.jp/match/j1/2026/110803/",
-            "label": "J.League本場頁面",
-            "accessed_at": "2026-11-07"
+            "label": "FOR TWELVE・主球證逐場官方紀錄彙整",
+            "url": "https://fortwelve.jp/shushin/masuya-ueda/",
+            "accessed_at": "2026-11-08"
           }
         ]
       }
@@ -143,9 +189,423 @@
     "machida": {
       "previous_match_date": "2026-11-05",
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "number": "1",
+            "text": "#1 谷晃生",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "3",
+            "text": "#3 昌子源",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "24",
+            "text": "#24 金眠泰",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "2",
+            "text": "#2 奧華查",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "88",
+            "text": "#88 中村帆高",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "16",
+            "text": "#16 前寬之",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "31",
+            "text": "#31 尼達・拉維",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "33",
+            "text": "#33 明本考浩",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "20",
+            "text": "#20 西村拓真",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "7",
+            "text": "#7 相馬勇紀",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "9",
+            "text": "#9 小川航基",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "number": "66",
+            "text": "#66 小林亞基高治",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "13",
+            "text": "#13 守田達彌",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "6",
+            "text": "#6 望月亨利海輝",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "23",
+            "text": "#23 白崎凌兵",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "18",
+            "text": "#18 下田北斗",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "8",
+            "text": "#8 仙頭啓矢",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "15",
+            "text": "#15 米切爾・杜克",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "99",
+            "text": "#99 泰迪・恩基",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": 7,
+        "cues": [
+          {
+            "text": "較2026-11-05上仗換7名正選。轉入：金眠泰、奧華查、前寬之、尼達・拉維、明本考浩、相馬勇紀、小川航基；轉出：迪沙域、望月亨利海輝、仙頭啓矢、米切爾・杜克、下田北斗、白崎凌兵、德村楓大。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "text": "正選中奧華查、前寬之、尼達・拉維周四0分鐘；相馬16、金眠泰16、小川27、明本27、西村63、昌子74、中村90、谷90。11名正選合計403分鐘；場均36.6分鐘（403÷11），不能等同疲勞指數。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "text": "今日只有中村及谷在上仗踢足90分鐘；谷最近兩場均90。周四90分鐘的望月、白崎、下田今日後備；迪沙域未入選。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "text": "官方名單為11正選＋8後備，共19人；後備有守田及小林亞基高治兩名門將。不自行補第9名後備。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          }
+        ]
       },
       "style": [],
       "form": [
@@ -164,14 +624,19 @@
       ],
       "storylines": [
         {
-          "text": "泰迪・恩基已於周四復出，與廣島兄長Kusini的可能交鋒仍待兩隊名單。",
+          "text": "恩基兄弟今日均列後備：町田#99泰迪及廣島#9 Kusini；要兩人實際入替才會同場交鋒。",
           "kind": "fact",
-          "as_of": "2026-11-07",
+          "as_of": "2026-11-08",
           "sources": [
             {
-              "url": "https://www.jleague.jp/match/j1/2026/110803/",
-              "label": "J.League賽前專題",
-              "accessed_at": "2026-11-07"
+              "label": "J.League・11月8日官方正選後備／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+              "accessed_at": "2026-11-08"
+            },
+            {
+              "label": "廣島官方・11月8日兩隊名單及球證",
+              "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+              "accessed_at": "2026-11-08"
             }
           ]
         }
@@ -200,6 +665,23 @@
               "accessed_at": "2026-11-07"
             }
           ]
+        },
+        {
+          "text": "今日名單確認泰迪・恩基後備，岡村、菊池、松尾未入選；迪沙域及德村亦未入選，但不能僅因未入選推斷受傷。",
+          "kind": "fact",
+          "as_of": "2026-11-08",
+          "sources": [
+            {
+              "label": "J.League・11月8日官方正選後備／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+              "accessed_at": "2026-11-08"
+            },
+            {
+              "label": "廣島官方・11月8日兩隊名單及球證",
+              "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+              "accessed_at": "2026-11-08"
+            }
+          ]
         }
       ],
       "transfers": [
@@ -218,14 +700,14 @@
       ],
       "suspensions": [
         {
-          "text": "11月7日核對最新J.League出場停止公告，本輪未列本隊停賽球員。只限公告涵蓋的J1第14輪；不代表其他賽事沒有紀律記錄。",
+          "text": "11月8日核對最新J.League出場停止公告，本輪未列本隊停賽球員。只限公告涵蓋的J1第14輪；不代表其他賽事沒有紀律記錄。",
           "kind": "fact",
-          "as_of": "2026-11-07",
+          "as_of": "2026-11-08",
           "sources": [
             {
               "label": "J.League Data Site・11月5日出場停止公告",
               "url": "https://data.j-league.or.jp/SFIN03/",
-              "accessed_at": "2026-11-07"
+              "accessed_at": "2026-11-08"
             }
           ]
         }
@@ -2322,14 +2804,19 @@
             "number": "31",
             "description": [
               {
-                "text": "周四沒有上陣，只有先確認明日名單，才可判斷是否回正選；不能把未上陣寫成已確認輪休。",
+                "text": "前寬之周四沒有上陣，今日已確認正選；上仗0分鐘，只代表沒有比賽分鐘，不是醫療體能判定。",
                 "kind": "reported",
-                "as_of": "2026-11-07",
+                "as_of": "2026-11-08",
                 "sources": [
                   {
-                    "label": "J.League・町田對廣島賽前專題",
-                    "url": "https://www.jleague.jp/match/j1/2026/110803/",
-                    "accessed_at": "2026-11-07"
+                    "label": "J.League・11月8日官方正選後備／陣式／球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                    "accessed_at": "2026-11-08"
+                  },
+                  {
+                    "label": "廣島官方・11月8日兩隊名單及球證",
+                    "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                    "accessed_at": "2026-11-08"
                   }
                 ]
               }
@@ -3357,7 +3844,7 @@
         "baseline_match_date": "2026-11-01",
         "match_date": "2026-11-05",
         "normal_starts_label": "本季13場J1正選",
-        "minutes_note": "逐人名義分鐘，不含補時；兩場各對帳990分鐘。本場正式名單未公布，以下不是預測正選。",
+        "minutes_note": "逐人名義分鐘，不含補時；兩場各對帳990分鐘。未上陣者列0；不代表已證實體能充足。",
         "minutes": [
           {
             "number": "1",
@@ -3553,21 +4040,44 @@
         ]
       },
       "workload_absences": {
-        "criteria": "11月8日正式20人名單尚未公布；無法確定本場缺席常規主力或輪休名單。",
+        "criteria": "常規主力採本季前13場J1正選至少7次；核對今日正式名單，傷患／停賽另列04。未公布原因不能當作輪休。",
+        "pending": false,
         "confirmed_rest": [],
-        "unexplained": [],
-        "pending": true
+        "unexplained": [
+          {
+            "text": "岡村大八：本季13場J1正選11次，今日未入選；近期已連續缺席，本次未取得新的醫療診斷或休息安排。列原因待確認，不當作今日輪休。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          }
+        ]
       },
       "milestones": [
         {
-          "text": "與廣島過往4次J1交手全部落敗，明日爭取首次取分；相馬勇紀在最近兩次交手均曾入球。",
+          "text": "與廣島過往4次J1交手全部落敗，今日爭取首次取分；今日正選的相馬勇紀在最近兩次交手均曾入球。",
           "kind": "fact",
-          "as_of": "2026-11-07",
+          "as_of": "2026-11-08",
           "sources": [
             {
-              "url": "https://www.jleague.jp/match/j1/2026/110803/",
-              "label": "J.League賽前專題",
-              "accessed_at": "2026-11-07"
+              "label": "J.League・11月8日官方正選後備／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+              "accessed_at": "2026-11-08"
+            },
+            {
+              "label": "廣島官方・11月8日兩隊名單及球證",
+              "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+              "accessed_at": "2026-11-08"
             }
           ]
         }
@@ -3585,14 +4095,505 @@
             }
           ]
         }
-      ]
+      ],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "J.League官方開賽站位；臨場可調整",
+        "as_of": "2026-11-08",
+        "players": [
+          {
+            "number": "9",
+            "name": "小川航基"
+          },
+          {
+            "number": "20",
+            "name": "西村拓真"
+          },
+          {
+            "number": "7",
+            "name": "相馬勇紀"
+          },
+          {
+            "number": "88",
+            "name": "中村帆高"
+          },
+          {
+            "number": "16",
+            "name": "前寬之"
+          },
+          {
+            "number": "31",
+            "name": "尼達・拉維"
+          },
+          {
+            "number": "33",
+            "name": "明本考浩"
+          },
+          {
+            "number": "3",
+            "name": "昌子源"
+          },
+          {
+            "number": "24",
+            "name": "金眠泰"
+          },
+          {
+            "number": "2",
+            "name": "奧華查"
+          },
+          {
+            "number": "1",
+            "name": "谷晃生"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          }
+        ]
+      }
     },
     "hiroshima": {
       "previous_match_date": "2026-10-31",
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "number": "1",
+            "text": "#1 大迫敬介",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "15",
+            "text": "#15 中野就斗",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "4",
+            "text": "#4 荒木隼人",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "37",
+            "text": "#37 金周成",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "5",
+            "text": "#5 新井直人",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "35",
+            "text": "#35 中島洋太朗",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "6",
+            "text": "#6 川邊駿",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "7",
+            "text": "#7 東俊希",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "29",
+            "text": "#29 淺野拓磨",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "10",
+            "text": "#10 鈴木章斗",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "23",
+            "text": "#23 鮎川峻",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "number": "99",
+            "text": "#99 大內一生",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "14",
+            "text": "#14 松本泰志",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "18",
+            "text": "#18 菅大輝",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "32",
+            "text": "#32 越道草太",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "45",
+            "text": "#45 小林志紋",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "46",
+            "text": "#46 野口蓮斗",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "9",
+            "text": "#9 Kusini Yengi",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "22",
+            "text": "#22 賀拿",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "number": "50",
+            "text": "#50 髙橋成海",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ],
+            "has_card": false
+          }
+        ],
+        "starting_changes_vs_previous_match": 1,
+        "cues": [
+          {
+            "text": "較2026-10-31上仗換1名正選。轉入：淺野拓磨；轉出：小林志紋。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "text": "淺野拓磨取代小林志紋正選，其餘10名正選與10月31日水戶戰相同。今日正選無人上仗0分鐘：淺野25、中島65、鮎川65、新井77、東77、荒木86，其餘5人90。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "text": "正選上仗合計845分鐘、平均76.8（845÷11）；中野及鈴木最近兩場均90，但廣島今場前有中7日恢復時間。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          },
+          {
+            "text": "後備大內、賀拿、髙橋成海上仗0分鐘；野口4、菅及越道各13、松本25、Kusini Yengi及小林各45。賀拿與髙橋最近兩場均0分鐘；只代表沒有比賽分鐘。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          }
+        ]
       },
       "style": [],
       "form": [
@@ -3671,6 +4672,23 @@
               "accessed_at": "2026-11-07"
             }
           ]
+        },
+        {
+          "text": "今日加藤陸次樹及川村拓夢均未入選，與11月1日官方傷患公告一致；佐佐木、鹽谷、山崎、前田亦未入選，未取得新的復出日期。",
+          "kind": "fact",
+          "as_of": "2026-11-08",
+          "sources": [
+            {
+              "label": "J.League・11月8日官方正選後備／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+              "accessed_at": "2026-11-08"
+            },
+            {
+              "label": "廣島官方・11月8日兩隊名單及球證",
+              "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+              "accessed_at": "2026-11-08"
+            }
+          ]
         }
       ],
       "transfers": [
@@ -3689,14 +4707,31 @@
       ],
       "suspensions": [
         {
-          "text": "11月7日核對最新J.League出場停止公告，本輪未列本隊停賽球員。只限公告涵蓋的J1第14輪；不代表其他賽事沒有紀律記錄。",
+          "text": "11月8日核對最新J.League出場停止公告，本輪未列本隊停賽球員。只限公告涵蓋的J1第14輪；不代表其他賽事沒有紀律記錄。",
           "kind": "fact",
-          "as_of": "2026-11-07",
+          "as_of": "2026-11-08",
           "sources": [
             {
               "label": "J.League Data Site・11月5日出場停止公告",
               "url": "https://data.j-league.or.jp/SFIN03/",
-              "accessed_at": "2026-11-07"
+              "accessed_at": "2026-11-08"
+            }
+          ]
+        },
+        {
+          "text": "賀拿10月21日紅牌的1場停賽只適用10月24日對清水，並非今日停賽；今日列後備。",
+          "kind": "fact",
+          "as_of": "2026-11-08",
+          "sources": [
+            {
+              "label": "J.League・11月8日官方正選後備／陣式／球證",
+              "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+              "accessed_at": "2026-11-08"
+            },
+            {
+              "label": "J.League規律委員會・10月22日賀拿處分",
+              "url": "https://www.jleague.jp/corporate/news/article/92",
+              "accessed_at": "2026-11-08"
             }
           ]
         }
@@ -5726,14 +6761,19 @@
             "number": "9",
             "description": [
               {
-                "text": "Kusini與町田泰迪・恩基是兄弟；弟弟周四復出，本場能否同場仍待名單。",
+                "text": "Kusini與町田泰迪・恩基是兄弟；兩人今日均列後備，能否同場取決於臨場換人。",
                 "kind": "reported",
-                "as_of": "2026-11-07",
+                "as_of": "2026-11-08",
                 "sources": [
                   {
-                    "label": "J.League・町田對廣島賽前專題",
-                    "url": "https://www.jleague.jp/match/j1/2026/110803/",
-                    "accessed_at": "2026-11-07"
+                    "label": "J.League・11月8日官方正選後備／陣式／球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                    "accessed_at": "2026-11-08"
+                  },
+                  {
+                    "label": "廣島官方・11月8日兩隊名單及球證",
+                    "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                    "accessed_at": "2026-11-08"
                   }
                 ]
               }
@@ -6959,7 +7999,7 @@
         "baseline_match_date": "2026-10-28",
         "match_date": "2026-10-31",
         "normal_starts_label": "本季13場J1正選",
-        "minutes_note": "逐人名義分鐘，不含補時；兩場各對帳990分鐘。本場正式名單未公布，以下不是預測正選。",
+        "minutes_note": "逐人名義分鐘，不含補時；兩場各對帳990分鐘。未上陣者列0；不代表已證實體能充足。",
         "minutes": [
           {
             "number": "1",
@@ -7146,10 +8186,28 @@
         ]
       },
       "workload_absences": {
-        "criteria": "11月8日正式20人名單尚未公布；無法確定本場缺席常規主力或輪休名單。",
+        "criteria": "常規主力採本季前13場J1正選至少7次；核對今日正式名單，傷患／停賽另列04。未公布原因不能當作輪休。",
+        "pending": false,
         "confirmed_rest": [],
-        "unexplained": [],
-        "pending": true
+        "unexplained": [
+          {
+            "text": "佐佐木翔：本季13場J1正選8次，今日未入選；近期缺陣但本次未取得新的官方醫療診斷或輪休公告，因此原因仍待確認。",
+            "kind": "fact",
+            "as_of": "2026-11-08",
+            "sources": [
+              {
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
+              }
+            ]
+          }
+        ]
       },
       "milestones": [
         {
@@ -7178,10 +8236,96 @@
             }
           ]
         }
-      ]
+      ],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "J.League官方開賽站位；臨場可調整",
+        "as_of": "2026-11-08",
+        "players": [
+          {
+            "number": "23",
+            "name": "鮎川峻"
+          },
+          {
+            "number": "29",
+            "name": "淺野拓磨"
+          },
+          {
+            "number": "10",
+            "name": "鈴木章斗"
+          },
+          {
+            "number": "5",
+            "name": "新井直人"
+          },
+          {
+            "number": "6",
+            "name": "川邊駿"
+          },
+          {
+            "number": "35",
+            "name": "中島洋太朗"
+          },
+          {
+            "number": "7",
+            "name": "東俊希"
+          },
+          {
+            "number": "15",
+            "name": "中野就斗"
+          },
+          {
+            "number": "4",
+            "name": "荒木隼人"
+          },
+          {
+            "number": "37",
+            "name": "金周成"
+          },
+          {
+            "number": "1",
+            "name": "大迫敬介"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          }
+        ]
+      }
     }
   },
   "quote_events": [
+    {
+      "date": "2026-11-07",
+      "title": "11月7日｜廣島賽前訪問公開導讀",
+      "entries": [
+        {
+          "team_slug": "hiroshima",
+          "speaker": "鈴木章斗",
+          "role": "球員",
+          "published_at": "2026-11-07",
+          "topic": "關於本場",
+          "paraphrase_zh": "對未獲日本隊徵召感到失望，但認為外界開始提及自己反映已有成長；希望繼續改善細節，在上位對決展示實力。僅整理公開導讀，未讀付費全文。",
+          "url": "https://sanfrecce.mopita.com/game/100362",
+          "outlet": "TSS廣島官方手機站・公開導讀",
+          "context": "pre_match"
+        },
+        {
+          "team_slug": "hiroshima",
+          "speaker": "Kusini Yengi",
+          "role": "球員",
+          "published_at": "2026-11-07",
+          "topic": "關於本場",
+          "paraphrase_zh": "水戶戰踢45分鐘後，覺得逐漸得到教練信任；整周訓練有助連繫，亦更熟悉隊友的踢法。僅整理公開導讀，未讀付費全文。",
+          "url": "https://sanfrecce.mopita.com/game/100362",
+          "outlet": "TSS廣島官方手機站・公開導讀",
+          "context": "pre_match"
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "title": "11月6日｜本場備戰聲音",
@@ -7292,26 +8436,41 @@
   "preview": {
     "cues": [
       {
-        "text": "FC東京11月7日贏波後33分；廣島29分、町田28分。兩隊明日勝出都不能立即超越33分的東京；仍是相差1分的直接對決。",
+        "text": "開賽前東京33分居首、柏31分第2、廣島29分第3、町田28分第4。廣島贏波可升第2；町田贏波亦31分，現時得失球差已領先柏9球，勝出可升第2。兩隊今日均不能超越東京。",
         "kind": "fact",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
+          {
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          },
+          {
+            "label": "廣島官方・11月8日兩隊名單及球證",
+            "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+            "accessed_at": "2026-11-08"
+          },
           {
             "label": "J.League官方聯賽榜",
             "url": "https://www.jleague.jp/standings/j1/",
-            "accessed_at": "2026-11-07"
+            "accessed_at": "2026-11-08"
           }
         ]
       },
       {
-        "text": "町田中2日、廣島中7日；町田周四讓多名聯賽常用主力少踢或不踢，體能要逐人判讀。",
+        "text": "町田換7名正選，上仗0分鐘的奧華查、前寬之及拉維今日先發；廣島只換1人，由淺野取代小林。町田中2日、廣島中7日，但不把全隊平均直接當個人疲勞。",
         "kind": "analysis",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
           {
-            "label": "J.League・町田對廣島賽前專題",
-            "url": "https://www.jleague.jp/match/j1/2026/110803/",
-            "accessed_at": "2026-11-07"
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          },
+          {
+            "label": "廣島官方・11月8日兩隊名單及球證",
+            "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+            "accessed_at": "2026-11-08"
           }
         ]
       }
@@ -7350,26 +8509,36 @@
         "title": "02｜恢復時間與實際負荷",
         "paragraphs": [
           {
-            "text": "町田周四主場2–1勝上海申花，沒有這場亞洲賽的跨國客程；廣島上仗在10月31日，明日中7日。",
+            "text": "町田周四主場2–1勝上海申花，今場中2日；廣島10月31日作客水戶後中7日。町田周四沒有亞洲賽跨國客程。",
             "kind": "fact",
-            "as_of": "2026-11-07",
+            "as_of": "2026-11-08",
             "sources": [
               {
-                "label": "町田官方・11月5日上海申花戰",
-                "url": "https://www.zelvia.co.jp/match/game/356829/",
-                "accessed_at": "2026-11-07"
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
               }
             ]
           },
           {
-            "text": "町田前寬之、拉維周四0分鐘，相馬16、小川27、明本27；白崎、下田、望月及中村90分鐘。若這些人明日正選，應分開比較；廣島的時間優勢不是每個對位都等同體能優勢。",
+            "text": "町田今日前寬之、拉維及奧華查上仗0分鐘，相馬16、金眠泰16、小川及明本27；谷與中村90。正選11人合計403分鐘，廣島845分鐘，但兩隊恢復天數不同，不可只比較分鐘總和。",
             "kind": "analysis",
-            "as_of": "2026-11-07",
+            "as_of": "2026-11-08",
             "sources": [
               {
-                "label": "J.League・11月5日正式比賽記錄",
-                "url": "https://www.jleague.jp/match/acl2/2026/110503/lineup/",
-                "accessed_at": "2026-11-07"
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
               }
             ]
           }
@@ -7449,43 +8618,58 @@
             ]
           },
           {
-            "text": "0–0時不只看控球：角球第二點與後備中鋒的接應可能改變比賽。町田周四靠後備相馬及小川參與勝球；廣島可依名單調整中鋒／第二前鋒，尚不能指定換人順序。",
+            "text": "町田後備有杜克與泰迪・恩基兩種中鋒接應，仙頭、下田及白崎可調中場；不過這三名中場周四分別89、90、90分鐘。廣島可用賀拿或Kusini Yengi加強禁區接應，或小林及越道改變前場／翼位節奏。",
             "kind": "analysis",
-            "as_of": "2026-11-07",
+            "as_of": "2026-11-08",
             "sources": [
               {
-                "label": "Football LAB・11月2日更新／13場J1",
-                "url": "https://www.football-lab.jp/mcd/preview",
-                "accessed_at": "2026-11-07"
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
               }
             ]
           }
         ]
       },
       {
-        "title": "06｜傷情、回歸及名單最後核對",
+        "title": "06｜正式名單與可用人腳",
         "paragraphs": [
           {
-            "text": "泰迪・恩基已復出；廣島加藤及川村有11月1日醫療公告。本場正選及後備仍未公布。",
+            "text": "兩隊官方均列3-4-2-1。町田11正選、8後備（含兩名門將），廣島11正選、9後備。泰迪・恩基及賀拿今日均列後備，廣島二種球員髙橋成海亦入選後備。",
             "kind": "fact",
-            "as_of": "2026-11-07",
+            "as_of": "2026-11-08",
             "sources": [
               {
-                "label": "J.League・町田對廣島賽前專題",
-                "url": "https://www.jleague.jp/match/j1/2026/110803/",
-                "accessed_at": "2026-11-07"
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
               }
             ]
           },
           {
-            "text": "名單公布後才把06拆成今日正選與後備，依上仗分鐘重排；原因不明的常規主力缺席不可自行標成輪休。",
+            "text": "岡村及佐佐木未入選，但未有新公告確認為休息；廣島加藤及川村有醫療公告，另列傷情，不混入輪休名單。",
             "kind": "analysis",
-            "as_of": "2026-11-07",
+            "as_of": "2026-11-08",
             "sources": [
               {
-                "label": "Football LAB・11月2日更新／13場J1",
-                "url": "https://www.football-lab.jp/mcd/preview",
-                "accessed_at": "2026-11-07"
+                "label": "J.League・11月8日官方正選後備／陣式／球證",
+                "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+                "accessed_at": "2026-11-08"
+              },
+              {
+                "label": "廣島官方・11月8日兩隊名單及球證",
+                "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+                "accessed_at": "2026-11-08"
               }
             ]
           }
@@ -7494,23 +8678,25 @@
     ]
   },
   "coverage_gaps": [
-    "11月8日正式正選、後備、六名球證與缺席常規主力原因待官方公布。",
-    "球場實測天氣未公布；現列町田市城市預報。",
-    "町田#77、廣島#47–50已補本場官方註冊資料；中文名與完整永久球員卡待補。",
-    "完整球季入失球時段、同口徑門將撲救率及所有球員助攻／xA未取得可靠完整資料。",
-    "聯賽榜為11月7日16:57 JST官方截點，並非本輪全部完場後排名；較晚場次需再更新。"
+    "岡村大八及佐佐木翔未入選，未取得新的官方醫療／休息原因；不能確認為輪休。",
+    "球場實測天氣未公布；現列11月8日11:00城市預報。",
+    "町田#77、廣島#47–50已有本場官方註冊資料；中文名與完整永久球員卡待補。今日廣島#50髙橋成海後備，以官方日文列名。",
+    "完整球季入失球時段、同口徑門將撲救率及所有球員助攻／xA未取得可靠完整資料。"
   ],
   "research_sweep": {
-    "as_of": "2026-11-07",
-    "checked_at": "2026-11-07｜周六完場後賽前掃描",
-    "stage": "正式名單公布前",
-    "interview_entries": 8,
+    "as_of": "2026-11-08",
+    "checked_at": "2026-11-08｜正式名單公布後",
+    "stage": "正式名單已確認",
+    "interview_entries": 10,
     "gmail_checked": true,
     "assignment_partner_verified": true,
     "roster_players_checked": 61,
     "stats_cutoff": "Football LAB 2026-11-02／兩隊13場J1；J.League逐人頁11月7日覆核",
     "workload_matches_checked": 4,
-    "roster_audit_note": "30名町田、31名廣島；五名新增註冊用官方日文列本場卡，未宣稱永久卡完成"
+    "roster_audit_note": "30名町田、31名廣島；五名新增註冊用官方日文列本場卡，未宣稱永久卡完成",
+    "selection_players_checked": 39,
+    "officials_checked": 6,
+    "gmail_checked_at": "2026-11-08"
   },
   "head_to_head_results": [
     {
@@ -7574,14 +8760,19 @@
   ],
   "opening_checks": [
     {
-      "text": "先核對兩隊正式20人名單：町田周四0至27分鐘主力有多少人回正選，90分鐘球員有多少人連續先發。",
+      "text": "先看町田兩名上仗0分鐘的中場前寬之／拉維能否應對川邊／中島；中村上仗90分鐘仍連續先發，觀察其右路往返與下半場調動。",
       "kind": "analysis",
-      "as_of": "2026-11-07",
+      "as_of": "2026-11-08",
       "sources": [
         {
-          "label": "J.League・11月5日正式比賽記錄",
-          "url": "https://www.jleague.jp/match/acl2/2026/110503/lineup/",
-          "accessed_at": "2026-11-07"
+          "label": "J.League・11月8日官方正選後備／陣式／球證",
+          "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+          "accessed_at": "2026-11-08"
+        },
+        {
+          "label": "廣島官方・11月8日兩隊名單及球證",
+          "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+          "accessed_at": "2026-11-08"
         }
       ]
     },
@@ -7627,40 +8818,50 @@
     ],
     "trailing": [
       {
-        "text": "落後方要增加禁區內接應，但需有人守第二點；町田可視恩基復出狀態調整中鋒，廣島可調整雙前鋒與翼位，均待正式後備名單。",
+        "text": "町田落後可用杜克或泰迪・恩基增加禁區接應，仙頭／下田／白崎調整傳送，但須兼顧他們周四高分鐘；廣島落後可用賀拿或Kusini Yengi增加中鋒支點，保持反擊保護。",
         "kind": "analysis",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
           {
-            "label": "Football LAB・11月2日更新／13場J1",
-            "url": "https://www.football-lab.jp/mcd/preview",
-            "accessed_at": "2026-11-07"
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          },
+          {
+            "label": "廣島官方・11月8日兩隊名單及球證",
+            "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+            "accessed_at": "2026-11-08"
           }
         ]
       }
     ],
     "level": [
       {
-        "text": "僵持時先比較真正可用後備與個人分鐘；町田周四少踢者未必欠比賽節奏，廣島整周準備則可有更完整針對部署。",
+        "text": "僵持時留意町田中村能否延續右側往返，或由周四90分鐘的望月後備入替；廣島有上仗0分鐘的賀拿可調整禁區接應，不把後備未上陣等同醫學上的體能充足。",
         "kind": "analysis",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
           {
-            "label": "Football LAB・11月2日更新／13場J1",
-            "url": "https://www.football-lab.jp/mcd/preview",
-            "accessed_at": "2026-11-07"
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          },
+          {
+            "label": "廣島官方・11月8日兩隊名單及球證",
+            "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+            "accessed_at": "2026-11-08"
           }
         ]
       }
     ]
   },
   "standings": {
-    "as_of": "2026-11-07 16:57 JST｜官方更新；柏等未完場不預填結果",
+    "as_of": "2026-11-08｜開賽前官方榜，含11月7日柏勝川崎；不計今日未賽結果",
     "sources": [
       {
         "label": "J.League官方聯賽榜",
         "url": "https://www.jleague.jp/standings/j1/",
-        "accessed_at": "2026-11-07"
+        "accessed_at": "2026-11-08"
       }
     ],
     "rows": [
@@ -7678,9 +8879,22 @@
         "goal_difference": 25
       },
       {
+        "slug": "kashiwa",
+        "name_zh": "柏太陽王",
+        "rank": 2,
+        "points": 31,
+        "played": 14,
+        "wins": 10,
+        "draws": 1,
+        "losses": 3,
+        "goals_for": 31,
+        "goals_against": 20,
+        "goal_difference": 11
+      },
+      {
         "slug": "hiroshima",
         "name_zh": "廣島三箭",
-        "rank": 2,
+        "rank": 3,
         "points": 29,
         "played": 13,
         "wins": 9,
@@ -7693,7 +8907,7 @@
       {
         "slug": "machida",
         "name_zh": "町田澤維亞",
-        "rank": 3,
+        "rank": 4,
         "points": 28,
         "played": 13,
         "wins": 8,
@@ -7702,19 +8916,6 @@
         "goals_for": 30,
         "goals_against": 10,
         "goal_difference": 20
-      },
-      {
-        "slug": "kashiwa",
-        "name_zh": "柏太陽王",
-        "rank": 4,
-        "points": 28,
-        "played": 13,
-        "wins": 9,
-        "draws": 1,
-        "losses": 3,
-        "goals_for": 29,
-        "goals_against": 19,
-        "goal_difference": 10
       },
       {
         "slug": "kobe",
@@ -7760,13 +8961,13 @@
         "name_zh": "川崎前鋒",
         "rank": 8,
         "points": 22,
-        "played": 13,
+        "played": 14,
         "wins": 6,
         "draws": 4,
-        "losses": 3,
-        "goals_for": 27,
-        "goals_against": 22,
-        "goal_difference": 5
+        "losses": 4,
+        "goals_for": 28,
+        "goals_against": 24,
+        "goal_difference": 4
       },
       {
         "slug": "urawa",
@@ -7928,14 +9129,24 @@
   },
   "storylines": [
     {
-      "text": "FC東京11月7日贏波後33分；廣島29分、町田28分。兩隊明日勝出都不能立即超越33分的東京；仍是相差1分的直接對決。",
+      "text": "開賽前東京33分居首、柏31分第2、廣島29分第3、町田28分第4。廣島贏波可升第2；町田贏波亦31分，現時得失球差已領先柏9球，勝出可升第2。兩隊今日均不能超越東京。",
       "kind": "fact",
-      "as_of": "2026-11-07",
+      "as_of": "2026-11-08",
       "sources": [
+        {
+          "label": "J.League・11月8日官方正選後備／陣式／球證",
+          "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+          "accessed_at": "2026-11-08"
+        },
+        {
+          "label": "廣島官方・11月8日兩隊名單及球證",
+          "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+          "accessed_at": "2026-11-08"
+        },
         {
           "label": "J.League官方聯賽榜",
           "url": "https://www.jleague.jp/standings/j1/",
-          "accessed_at": "2026-11-07"
+          "accessed_at": "2026-11-08"
         }
       ]
     },
@@ -7983,14 +9194,19 @@
     {
       "topic": "邊路進攻與覆蓋",
       "home": {
-        "text": "相馬與明本一側的配合及回收，須對照周四分鐘與明日名單。",
+        "text": "相馬左側內收配明本左翼衛，兩人周四只踢16及27分鐘；留意能否壓住新井／中野右路，及轉換時奧華查左中堅身前保護。",
         "kind": "analysis",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
           {
-            "label": "Football LAB・11月2日更新／13場J1",
-            "url": "https://www.football-lab.jp/mcd/preview",
-            "accessed_at": "2026-11-07"
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          },
+          {
+            "label": "廣島官方・11月8日兩隊名單及球證",
+            "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+            "accessed_at": "2026-11-08"
           }
         ]
       },
@@ -8064,40 +9280,50 @@
     {
       "topic": "後備影響",
       "home": {
-        "text": "周四後備球員改變戰局，恩基亦復出；明日可用人選仍待官方確認。",
+        "text": "杜克與泰迪・恩基後備，周四分別63及1分鐘；需要追分可增加禁區接應，但中場後備仙頭89、下田90及白崎90分鐘，並非全部比先發更少負荷。",
         "kind": "analysis",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
           {
-            "label": "Football LAB・11月2日更新／13場J1",
-            "url": "https://www.football-lab.jp/mcd/preview",
-            "accessed_at": "2026-11-07"
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          },
+          {
+            "label": "廣島官方・11月8日兩隊名單及球證",
+            "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+            "accessed_at": "2026-11-08"
           }
         ]
       },
       "away": {
-        "text": "中鋒、第二前鋒與年輕翼位可提供不同節奏；不預先把任何人列作明日後備。",
+        "text": "賀拿最近兩場0分鐘、Kusini Yengi上仗45分鐘，均在後備；可增加禁區支點。小林退居後備，淺野先發，換人時須配合鈴木與鮎川的空間分工。",
         "kind": "analysis",
-        "as_of": "2026-11-07",
+        "as_of": "2026-11-08",
         "sources": [
           {
-            "label": "Football LAB・11月2日更新／13場J1",
-            "url": "https://www.football-lab.jp/mcd/preview",
-            "accessed_at": "2026-11-07"
+            "label": "J.League・11月8日官方正選後備／陣式／球證",
+            "url": "https://www.jleague.jp/match/j1/2026/110803/lineup/",
+            "accessed_at": "2026-11-08"
+          },
+          {
+            "label": "廣島官方・11月8日兩隊名單及球證",
+            "url": "https://www.sanfrecce.co.jp/matches/20261108/matchdata",
+            "accessed_at": "2026-11-08"
           }
         ]
       }
     }
   ],
   "section_status": {
-    "01": "部分：開球、拍檔、球場、活動及城市預報完成；球證及球場實測待公布",
-    "02": "完成至可讀公開資料：8則近期訪問摘要；廣島本場教練會見尚未有全文",
+    "01": "完成開賽前資料：拍檔、活動、六名球證及城市預報；球場實測未公布",
+    "02": "完成至可讀公開資料：10則近期訪問摘要（含11月7日兩則公開導讀）；不冒充取得付費全文",
     "03": "完成：近5、未來5、主客走勢及全部4次交手",
     "04": "完成至公開資料：恩基復出、醫療公告及聯賽紀律；不明原因不判定輪休",
     "05": "部分：13輪基本及進階數據已補；完整時段及撲救率缺資料",
-    "06": "部分：兩隊最近兩場逐人分鐘完整；正式名單前只展示上仗負荷，不預填今日分組",
+    "06": "完成本場39人分組、近兩場分鐘及官方陣式；未證實輪休者保留原因未公布",
     "07": "完成本場統計焦點及新增註冊提示；五份永久卡仍未完成",
-    "08": "完成賽前分析、五組對位及比分情境；待名單後最後修訂",
-    "09": "完成官方截點20隊榜、38輪聯賽及已公布成年盃賽；較晚周六賽果待更新"
+    "08": "完成正式名單後分析、具體後備及比分情境",
+    "09": "完成11月8日開賽前20隊官方榜（含周六柏勝仗）、38輪及已公布成年盃賽"
   }
 }
