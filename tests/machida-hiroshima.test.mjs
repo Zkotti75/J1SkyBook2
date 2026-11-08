@@ -18,3 +18,5 @@ test('all match sections render with current registered-player focus and valid i
  for(const q of d.quote_events.flatMap(x=>x.entries))assert.ok(inInterviewWindow(q,d.teams[q.team_slug].previous_match_date,d.date));
  for(const t of Object.values(d.teams))for(const rows of Object.values(t.team_metrics))for(const r of rows)assert.ok(r.label&&String(r.value).length);
 });
+
+test('matchday interviews have explicit coach roles and valid categories',()=>{for(const q of d.quote_events.flatMap(e=>e.entries)){assert.ok(['last_game','upcoming','team','players'].includes(q.category));if(['黑田剛','巴托什・高爾'].includes(q.speaker))assert.equal(q.role,'監督');}});

@@ -8311,7 +8311,8 @@
           "paraphrase_zh": "對未獲日本隊徵召感到失望，但認為外界開始提及自己反映已有成長；希望繼續改善細節，在上位對決展示實力。僅整理公開導讀，未讀付費全文。",
           "url": "https://sanfrecce.mopita.com/game/100362",
           "outlet": "TSS廣島官方手機站・公開導讀",
-          "context": "pre_match"
+          "context": "pre_match",
+          "category": "upcoming"
         },
         {
           "team_slug": "hiroshima",
@@ -8322,7 +8323,8 @@
           "paraphrase_zh": "水戶戰踢45分鐘後，覺得逐漸得到教練信任；整周訓練有助連繫，亦更熟悉隊友的踢法。僅整理公開導讀，未讀付費全文。",
           "url": "https://sanfrecce.mopita.com/game/100362",
           "outlet": "TSS廣島官方手機站・公開導讀",
-          "context": "pre_match"
+          "context": "pre_match",
+          "category": "upcoming"
         }
       ]
     },
@@ -8339,7 +8341,8 @@
           "paraphrase_zh": "把本場視為重要上位戰；認為鈴木章斗接應時機好，要靠隊友溝通及整體防守限制他。",
           "url": "https://news.livedoor.com/article/detail/32752580/",
           "outlet": "スポニチ／livedoor",
-          "context": "pre_match"
+          "context": "pre_match",
+          "category": "upcoming"
         },
         {
           "team_slug": "hiroshima",
@@ -8350,7 +8353,8 @@
           "paraphrase_zh": "認為近期攻守表現良好，但仍要提高；比賽中持續觀察隊友及對手位置，尋找有效接應空間。",
           "url": "https://www.fnn.jp/articles/-/1147498",
           "outlet": "テレビ新広島／FNN",
-          "context": "pre_match"
+          "context": "pre_match",
+          "category": "team"
         },
         {
           "team_slug": "hiroshima",
@@ -8361,7 +8365,8 @@
           "paraphrase_zh": "過往四勝令球隊對町田有好印象；希望藉上位直接對決的第一戰延續走勢。",
           "url": "https://www.fnn.jp/articles/-/1147498",
           "outlet": "テレビ新広島／FNN",
-          "context": "pre_match"
+          "context": "pre_match",
+          "category": "upcoming"
         }
       ]
     },
@@ -8372,13 +8377,14 @@
         {
           "team_slug": "machida",
           "speaker": "黑田剛",
-          "role": "主教練",
+          "role": "監督",
           "published_at": "2026-11-05",
           "topic": "關於上仗",
           "paraphrase_zh": "肯定提前晉級，認為失球源於自身失誤；下半場跑進身後及肋部較多，接下來可兼顧聯賽及盃賽管理。",
           "url": "https://www.zelvia.co.jp/match/game/356829/",
           "outlet": "町田官方",
-          "context": "post_match"
+          "context": "post_match",
+          "category": "last_game"
         },
         {
           "team_slug": "machida",
@@ -8389,7 +8395,8 @@
           "paraphrase_zh": "自述下半場感到疲勞，但隊友對忍耐及空間利用有共識，後備球員從身後進攻帶來勝球。",
           "url": "https://www.zelvia.co.jp/match/game/356829/",
           "outlet": "町田官方",
-          "context": "post_match"
+          "context": "post_match",
+          "category": "team"
         },
         {
           "team_slug": "machida",
@@ -8400,7 +8407,8 @@
           "paraphrase_zh": "表示自己屬於透過連續比賽建立節奏的類型，並期待再攻破大迫敬介把守的球門。",
           "url": "https://www.jleague.jp/match/j1/2026/110803/",
           "outlet": "J.League賽前專題",
-          "context": "pre_match"
+          "context": "pre_match",
+          "category": "upcoming"
         }
       ]
     },
@@ -8411,24 +8419,26 @@
         {
           "team_slug": "hiroshima",
           "speaker": "巴托什・高爾",
-          "role": "主教練",
+          "role": "監督",
           "published_at": "2026-10-31",
           "topic": "關於上仗",
           "paraphrase_zh": "認為開局良好，最後傳送和射門仍可更準；對手退守及少打一人後仍堅持攻擊身後空間。",
           "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
           "outlet": "廣島官方",
-          "context": "post_match"
+          "context": "post_match",
+          "category": "last_game"
         },
         {
           "team_slug": "hiroshima",
           "speaker": "巴托什・高爾",
-          "role": "主教練",
+          "role": "監督",
           "published_at": "2026-10-31",
           "topic": "個別球員",
           "paraphrase_zh": "肯定中野的球際、推進與跑動；認為鈴木章斗擅長發現空間，也能在稍後位置參與組織。",
           "url": "https://www.sanfrecce.co.jp/matches/20261031/report",
           "outlet": "廣島官方",
-          "context": "post_match"
+          "context": "post_match",
+          "category": "players"
         }
       ]
     }
