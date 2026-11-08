@@ -3,8 +3,8 @@
   "club": "hiroshima",
   "club_name_zh": "廣島三箭",
   "player_research_status": "in_progress",
-  "updated_at": "2026-11-06",
-  "roster_players": 27,
+  "updated_at": "2026-11-08",
+  "roster_players": 28,
   "baseline_complete_players": [],
   "batches": [
     {
@@ -295,13 +295,40 @@
           "text": "#46 野口蓮斗：2026-10-02球會公告已簽職業合約；2026/27職業／青訓交界需分開處理，不把其後職業球季壓成青年隊區間：https://www.sanfrecce.co.jp/news/team/12901"
         }
       ]
+    },
+    {
+      "id": "hiroshima-08-takahashi-50",
+      "kind": "player_research",
+      "status": "completed",
+      "capacity_points": 1,
+      "players": [
+        {
+          "id": "hiroshima_50",
+          "number": "50",
+          "name_zh": "髙橋成海",
+          "name_en": "Narumi Takahashi",
+          "weight": 1
+        }
+      ],
+      "notes": [
+        {
+          "at": "2026-11-08",
+          "text": "用戶明確指定新增#50；以官方日文髙橋成海暫作顯示，中文名未獲用戶確認；其餘47至49號不屬本批。"
+        },
+        {
+          "at": "2026-11-08",
+          "text": "#50通過研究驗證及全套57測試；使用廣島官方頭像與189cm/78kg，保留J.League187/75差異。外部依據包括JFA、J.League、徳島、Soccer King、KOBE FOOTBALL LABO、ゲキサカ/livedoor及Qoly。中文顯示名仍待用戶確認，暫用官方日文；指定慣用腳來源未讀到可核欄位，留空。其餘47至49號仍未建卡，故不宣稱全隊名單完成。"
+        }
+      ],
+      "started_at": "2026-11-08",
+      "completed_at": "2026-11-08"
     }
   ],
   "status_tag_stage": {
     "status": "completed",
-    "reviewed_players": 27,
-    "total_players": 27,
-    "reviewed_at": "2026-11-06",
+    "reviewed_players": 28,
+    "total_players": 28,
+    "reviewed_at": "2026-11-08",
     "sources": [
       {
         "label": "J.League正式登錄名單（2026-11-02更新）：二種及Homegrown標記",
@@ -319,12 +346,12 @@
         "accessed_at": "2026-11-06"
       }
     ],
-    "notes": "只指現存27張球員卡；最新名單另有47至50號未建卡。傷停與比賽選拔仍為獨立時效階段。"
+    "notes": "只涵蓋現存28張永久卡；本次僅新增核對50號二種登錄，47至49號未建卡。"
   },
   "roster_reconciliation": {
     "status": "incomplete",
-    "reviewed_at": "2026-11-06",
-    "stored_cards": 27,
+    "reviewed_at": "2026-11-08",
+    "stored_cards": 28,
     "official_registered_players": 31,
     "sources": [
       {
@@ -351,14 +378,8 @@
         "name_ja": "森井 莉人",
         "name_zh": null,
         "status": "needs_research_and_user_name_confirmation"
-      },
-      {
-        "number": "50",
-        "name_ja": "髙橋 成海",
-        "name_zh": null,
-        "status": "needs_research_and_user_name_confirmation"
       }
     ],
-    "notes": "11月2日正式名單新增四位二種登錄；現存27張卡通過不等於31人現役名單完成。新增中文名需用戶確認，不自造譯名。"
+    "notes": "已完成28張卡；47至49號三張仍待研究及用戶中文名；50號使用官方日文原名，中文顯示名待確認。"
   }
 }
