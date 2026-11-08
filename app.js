@@ -1,4 +1,4 @@
-import { MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js?v=20261108-lineups';
+import { matchPages, MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js?v=20261108-cup';
 const SEASON_START = '2026-08-07';
 const state = { manifest: null, slot: 'home', clubs: new Map(), activeSlug: null, activeItem: null, mode: 'match', matchPage: 'info', renderId: 0 };
 
@@ -318,14 +318,15 @@ async function renderMatchRoute(route, renderId) {
   const selected = state.matchIndex.fixtures.find(f=>f.home===route.home && f.away===route.away && f.date===route.date);
   if (selected) state.matchIndex.featured = {home:selected.home,away:selected.away,date:selected.date};
   const { home, away, date } = state.matchIndex.featured;
-  state.matchPage = MATCH_PAGES.some(p => p.id === route.page) ? route.page : 'info';
+  const pages = matchPages(selected || state.matchIndex.fixtures.find(f=>f.home===home && f.away===away && f.date===date));
+  state.matchPage = pages.some(p => p.id === route.page) ? route.page : 'info';
   state.matchDate = date;
   if (location.hash !== currentMatchRoute()) { location.replace(currentMatchRoute()); return; }
   $('#home-team').value = home; $('#away-team').value = away;
   syncFixtureButtons();
   document.documentElement.style.setProperty('--team', '#38bdf8');
   document.documentElement.style.setProperty('--team-text', '#091321');
-  $('#match-nav').innerHTML = `<div class="match-nav-heading">MATCH CENTRE<span>比賽資料</span></div>` + MATCH_PAGES.map((p, i) => `<button type="button" data-match-page="${p.id}" class="match-nav-item ${p.id === state.matchPage ? 'active' : ''}" ${p.id === state.matchPage ? 'aria-current="page"' : ''}><span class="match-nav-number">${String(i + 1).padStart(2, '0')}</span><span>${p.label}<small>${p.description}</small></span></button>`).join('');
+  $('#match-nav').innerHTML = `<div class="match-nav-heading">MATCH CENTRE<span>比賽資料</span></div>` + pages.map((p, i) => `<button type="button" data-match-page="${p.id}" class="match-nav-item ${p.id === state.matchPage ? 'active' : ''}" ${p.id === state.matchPage ? 'aria-current="page"' : ''}><span class="match-nav-number">${String(i + 1).padStart(2, '0')}</span><span>${p.label}<small>${p.description}</small></span></button>`).join('');
   $('#detail').innerHTML = $('#loading-template').innerHTML;
   try {
     const date = state.matchDate, page = state.matchPage;

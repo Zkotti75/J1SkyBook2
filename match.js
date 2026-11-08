@@ -9,8 +9,10 @@ export const MATCH_PAGES = [
  {id:'preview',label:'比賽分析',description:'關鍵對位・觀察重點・情境調整'},
  {id:'logs',label:'聯賽榜／全季賽程',description:'完整戰績・勝和負・賽程'},
 ];
+export const CUP_PAGE = {id:'cup',label:'盃賽專區',description:'完整籤表・晉級路線・全部賽果'};
+export const matchPages = dossier => dossier?.cup_tournament || dossier?.competition === 'leaguecup' ? [...MATCH_PAGES,CUP_PAGE] : MATCH_PAGES;
 const LEGACY_PAGES = ['standings','history','tactics','officials','live'].map(id=>({id,label:{standings:'聯賽榜',history:'對賽歷史',tactics:'戰術對位',officials:'球證與旁證',live:'即場速覽'}[id],description:'歷史連結'}));
-const pageExists = id => [...MATCH_PAGES,...LEGACY_PAGES].some(p=>p.id===id);
+const pageExists = id => [...MATCH_PAGES,CUP_PAGE,...LEGACY_PAGES].some(p=>p.id===id);
 const e = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const blank = (text = '待賽前核實') => `<span class="research-pending">${e(text)}</span>`;
 const field = v => v === null || v === undefined || v === '' ? blank() : e(v);
@@ -156,8 +158,8 @@ function live(ctx) {
 }
 export function renderMatchPage(input) {
   const ctx = { ...input, dossier: input.dossier?.home === input.home.team.slug && input.dossier?.away === input.away.team.slug && input.dossier?.date === input.date ? input.dossier : null };
-  const page = [...MATCH_PAGES,...LEGACY_PAGES].find(p=>p.id===ctx.page) || MATCH_PAGES[0];
-  const content = {info:matchInfo,availability,analytics:teamAnalytics,rotation,comparison:c=>c.dossier?.interview_layout==='team_columns'?resultsComparison(c):comparison(c),preview:c=>preview(c)+tactics(c)+scenarioAnalysis(c),quotes,players:c=>players(c),logs:c=>standings(c)+'<p class="match-description">只列2026/27正式賽季，包含全部38輪聯賽及已確定盃賽。比分以該隊為先；2027賽程按來源保留暫定日期或日期範圍，可能調整。</p>'+pair(c,...[c.home,c.away].map(club=>gameLog(c.dossier?.teams?.[club.team.slug]?.game_log,c.date))),standings,history,tactics,officials,live}[page.id](ctx);
+  const page = [...matchPages(ctx.dossier),...LEGACY_PAGES].find(p=>p.id===ctx.page) || MATCH_PAGES[0];
+  const content = {cup:cupTournament,info:matchInfo,availability,analytics:teamAnalytics,rotation,comparison:c=>c.dossier?.interview_layout==='team_columns'?resultsComparison(c):comparison(c),preview:c=>preview(c)+tactics(c)+scenarioAnalysis(c),quotes,players:c=>players(c),logs:c=>standings(c)+'<p class="match-description">只列2026/27正式賽季，包含全部38輪聯賽及已確定盃賽。比分以該隊為先；2027賽程按來源保留暫定日期或日期範圍，可能調整。</p>'+pair(c,...[c.home,c.away].map(club=>gameLog(c.dossier?.teams?.[club.team.slug]?.game_log,c.date))),standings,history,tactics,officials,live}[page.id](ctx);
   return `<article class="panel match-panel"><header class="match-hero"><div><div class="eyebrow">MATCH CENTRE / 2026–27</div><h2>${e(ctx.home.team.name_zh)} <span>對</span> ${e(ctx.away.team.name_zh)}</h2><p>${e(page.label)} · ${e(page.description)}</p></div><div class="match-date-label">下一場評述<strong>${e(ctx.date)}</strong><span>${e(ctx.dossier?.match_info?.kickoff_hkt || '')}</span>${ctx.dossier?.match_info?.commentary?.partner?`<span class="partner-header">拍檔：${e(ctx.dossier.match_info.commentary.partner)}</span>`:''}</div></header><div class="match-content"><div class="match-status ${ctx.dossier ? 'ready' : ''}"><span>${ctx.dossier ? '本場研究' : '介面初稿・本場研究待補'}</span><p>${ctx.dossier ? `核對日期 ${e(ctx.dossier.as_of || '未註明')}。${e(ctx.dossier.coverage_note || '各項來源與截點請見內文。')}` : '可先試用頁面與切換功能。球季數據為既有館藏截點；本場訪問、傷停、預測及即時排名尚未核實。'}</p></div><div class="comparison-headings">${clubHeading(ctx.home,'home')}${clubHeading(ctx.away,'away')}</div>${page.id === 'info' ? quickRead(ctx) : ''}${content}</div></article>`;
 }
 
@@ -165,7 +167,7 @@ function sides(ctx, fn, title) { return pair(ctx,...[ctx.home,ctx.away].map(club
 function quickRead(ctx) {
  const d=ctx.dossier,info=d?.match_info||{};
  const cue=d?.preview?.cues?.slice(0,3)||[];
- return `<details class="quick-read" open><summary>本場速讀 <small>核對 ${e(d?.as_of||'待核對')}</small></summary><div class="quick-read-grid"><div><strong>正式名單</strong><p>${info.lineups_as_of?e(info.lineups_as_of):'待官方公布'}</p></div><div><strong>球證組</strong><p>${info.officials?.status==='confirmed'?'已確認':'待官方公布'}</p></div>${[ctx.home,ctx.away].map(club=>{const t=d?.teams?.[club.team.slug]||{};return `<div><strong>${e(club.team.name_zh)}・人腳</strong><p>${t.lineup?.starting_changes_vs_previous_match!=null?e(t.lineup.starting_changes_vs_previous_match)+'名正選變動':'本場輪換待名單確認'}</p>${(t.injuries||[]).slice(0,1).map(x=>`<p>${e(x.text)}</p>`).join('')}</div>`;}).join('')}</div>${cue.length?claims(cue):'<p>故事重點見比賽資料；戰術觀察見比賽分析。</p>'}<div class="quick-links">${MATCH_PAGES.map(p=>`<a href="${matchRoute(ctx.home.team.slug,ctx.away.team.slug,ctx.date,p.id)}">${e(p.label)}</a>`).join('')}</div></details>`;
+ return `<details class="quick-read" open><summary>本場速讀 <small>核對 ${e(d?.as_of||'待核對')}</small></summary><div class="quick-read-grid"><div><strong>正式名單</strong><p>${info.lineups_as_of?e(info.lineups_as_of):'待官方公布'}</p></div><div><strong>球證組</strong><p>${info.officials?.status==='confirmed'?'已確認':'待官方公布'}</p></div>${[ctx.home,ctx.away].map(club=>{const t=d?.teams?.[club.team.slug]||{};return `<div><strong>${e(club.team.name_zh)}・人腳</strong><p>${t.lineup?.starting_changes_vs_previous_match!=null?e(t.lineup.starting_changes_vs_previous_match)+'名正選變動':'本場輪換待名單確認'}</p>${(t.injuries||[]).slice(0,1).map(x=>`<p>${e(x.text)}</p>`).join('')}</div>`;}).join('')}</div>${cue.length?claims(cue):'<p>故事重點見比賽資料；戰術觀察見比賽分析。</p>'}<div class="quick-links">${matchPages(d).map(p=>`<a href="${matchRoute(ctx.home.team.slug,ctx.away.team.slug,ctx.date,p.id)}">${e(p.label)}</a>`).join('')}</div></details>`;
 }
 function commentaryTeam(ctx) {
  const c=ctx.dossier?.match_info?.commentary;
@@ -239,3 +241,14 @@ function rotation(ctx) {
 }
 function playerStats(ctx) { return sides(ctx,t=>metricTable(t.player_metrics,'球員基本／進階統計')+claims(t.scorers)+claims(t.assists),'球員數據・總量及每90分鐘')+sides(ctx,t=>claims(t.goalkeeper_analysis),'門將比較'); }
 function scenarioAnalysis(ctx) { return card('開場三個觀察重點',claims(ctx.dossier?.opening_checks))+['leading','trailing','level'].map((key,n)=>card(['領先時可能調整','落後時可能調整','僵持時可能調整'][n],claims(ctx.dossier?.scenarios?.[key]))).join(''); }
+
+function cupTournament(ctx) {
+ const c=ctx.dossier?.cup_tournament;
+ if(!c)return blank('本場沒有盃賽資料');
+ const score=r=>`${e(r.score_a)}–${e(r.score_b)}${r.pk_a!=null?`（十二碼 ${e(r.pk_a)}–${e(r.pk_b)}）`:''}`;
+ const leg=g=>`<p><small>${e(g.date)} · 日本 ${e(g.time_jst)}</small><br>${e(g.home)} 對 ${e(g.away)}<br><strong>${g.score==null?'未賽':e(g.score)}</strong><small> · ${e(g.stadium)}</small></p>`;
+ const bracket=`<div class="cup-bracket"><section><h4>八強 · 兩回合</h4>${c.quarter_finals.map(q=>`<div class="cup-tie"><h5>${e(q.title)}｜${q.teams.map(e).join('／')}</h5>${q.legs.map(leg).join('')}<small>晉級：待定</small></div>`).join('')}</section><section><h4>四強 · 兩回合</h4>${c.semi_finals.map(q=>`<div class="cup-tie"><h5>${e(q.id==='SF1'?'四強1':'四強2')}</h5><p>${e(q.label)}</p><small>${q.dates.map(e).join('、')}</small></div>`).join('')}</section><section><h4>決賽 · 單場</h4><div class="cup-tie"><h5>${e(c.final.date)}</h5><p>${e(c.final.label)}</p><p>${e(c.final.stadium)}</p><small>開球時間待公布</small></div></section></div>`;
+ const routes=sides(ctx,(t,club)=>{const r=c.routes[club.team.slug];return `<p>${e(r.entry)}</p>${r.matches.length?r.matches.map(m=>`<div class="cup-tie"><small>${e(m.date)} · ${e(m.round)}</small><p>${e(m.team_a)} <strong>${score(m)}</strong> ${e(m.team_b)}</p><small>已晉級下一輪</small></div>`).join(''):'<p>種子直接入八強，沒有此前賽果。</p>'}`},'兩隊如何晉級');
+ const results=`<details class="cup-results"><summary>首階段全部 ${c.results.length} 場賽果</summary><p>${e(c.result_order_note)}</p><div class="table-wrap"><table class="match-table"><thead><tr><th>日期</th><th>輪次</th><th>隊伍A</th><th>比分</th><th>隊伍B</th></tr></thead><tbody>${c.results.map(r=>`<tr><td>${e(r.date)}</td><td>${e(r.round)}</td><td>${e(r.team_a)}</td><td>${score(r)}</td><td>${e(r.team_b)}</td></tr>`).join('')}</tbody></table></div></details>`;
+ return card(c.name,`<p>截至 ${e(c.as_of)}；八強未開賽，總比分及晉級球隊待定。</p>${c.rules.map(r=>`<p>${e(r)}</p>`).join('')}`)+card('淘汰賽完整籤表',bracket)+routes+card('已完成比賽',results);
+}

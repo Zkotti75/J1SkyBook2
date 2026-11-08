@@ -76,8 +76,8 @@ test('identical team selection is corrected and browser back restores menu', asy
 });
 test('upcoming assignments switch while completed links return to the current fixture',async()=>{
  location.hash='#/match/machida/hiroshima/2026-11-08/preview';await settled();
- assert.equal(hash,'#/match/machida/hiroshima/2026-11-08/preview');
- assert.ok(element('#detail').innerHTML.includes('廣島三箭'));
+ assert.equal(hash,route('preview'));
+ assert.ok(element('#detail').innerHTML.includes('神戶勝利船'));
  location.hash='#/match/fc-tokyo/kashima/2026-11-07/quotes';await settled();
  assert.equal(hash,route('quotes'));
  assert.ok(element('#detail').innerHTML.includes('主教練訪問'));
@@ -86,9 +86,9 @@ test('upcoming assignments switch while completed links return to the current fi
 });
 test('header dropdown contains only upcoming assignments and keeps the selected section',async()=>{
  const select=element('#match-selector');
- assert.ok(!select.innerHTML.includes('11-07'));assert.ok(select.innerHTML.includes('11-08'));
+ assert.ok(!select.innerHTML.includes('11-07'));assert.ok(select.innerHTML.includes('11-11'));assert.ok(select.innerHTML.includes('11-15'));assert.ok(!select.innerHTML.includes('11-08'));
  assert.ok(!select.innerHTML.includes('10-31'));assert.ok(!select.innerHTML.includes('11-01'));
  assert.ok(!element('#match-nav').innerHTML.includes('<a class="match-nav-item"'));
- select.value='#/match/machida/hiroshima/2026-11-08/comparison';select.listeners.change();await settled();
- assert.equal(hash,'#/match/machida/hiroshima/2026-11-08/quotes');
+ select.value='#/match/kashiwa/kawasaki/2026-11-15/comparison';select.listeners.change();await settled();
+ assert.equal(hash,'#/match/kashiwa/kawasaki/2026-11-15/quotes');
 });

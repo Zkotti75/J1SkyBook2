@@ -1,16 +1,24 @@
 {
   "schema_version": 1,
   "featured": {
-    "home": "machida",
-    "away": "hiroshima",
-    "date": "2026-11-08"
+    "home": "kobe",
+    "away": "machida",
+    "date": "2026-11-11"
   },
   "fixtures": [
     {
-      "home": "machida",
-      "away": "hiroshima",
-      "date": "2026-11-08",
-      "file": "2026-11-08-machida-hiroshima.json"
+      "home": "kobe",
+      "away": "machida",
+      "date": "2026-11-11",
+      "file": "2026-11-11-kobe-machida.json",
+      "competition": "leaguecup"
+    },
+    {
+      "home": "kashiwa",
+      "away": "kawasaki",
+      "date": "2026-11-15",
+      "file": "2026-11-15-kashiwa-kawasaki.json",
+      "competition": "leaguecup"
     }
   ]
 }
