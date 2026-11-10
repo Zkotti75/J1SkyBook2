@@ -184,7 +184,11 @@ function threeYellowPlayers(team) {
   (/有效累積\s*3\s*張/.test(x.text||'') && x.kind==='fact' && x.sources?.length)
  );
 }
-function availability(ctx) { return [['transfers','新加盟／離隊／借用'],['injuries','傷患及復出'],['suspensions','停賽報告'],['yellow_risk','累積3黃・再領黃牌即停賽']].map(([key,title])=>sides(ctx,t=>key==='yellow_risk'?(threeYellowPlayers(t).length?claims(threeYellowPlayers(t)):blank('未有已核實的累積3黃名單')):claims(t[key]),title)).join(''); }
+function availability(ctx) {
+ const cup=ctx.dossier?.competition==='leaguecup';
+ return [['transfers','新加盟／離隊／借用'],['injuries','傷患及復出'],['suspensions','停賽報告'],['yellow_risk',cup?'聯賽盃紀律・獨立警告紀錄':'累積3黃・再領黃牌即停賽']].map(([key,title])=>sides(ctx,t=>key==='yellow_risk'?(cup?claims(t.discipline_notes):(threeYellowPlayers(t).length?claims(threeYellowPlayers(t)):blank('未有已核實的累積3黃名單'))):claims(t[key]),title)).join('')
+ + ([ctx.home,ctx.away].some(c=>ctx.dossier?.teams?.[c.team.slug]?.international_duty?.length)?sides(ctx,t=>claims(t.international_duty),'國家隊徵召及退出・與傷患／輪休分開'): '');
+}
 
 function matchRows(rows, date, upcoming=false) {
  if(!rows?.length)return blank('尚未收錄已核對賽程');
@@ -207,12 +211,12 @@ function workloadRows(team, selected) {
  const complete=rows.reduce((n,r)=>n+(Number.isFinite(r.minutes)?r.minutes:0),0)===990 && rows.reduce((n,r)=>n+(Number.isFinite(r.prior_minutes)?r.prior_minutes:0),0)===990;
  return (selected||[]).filter(p=>p?.number!=null).map(p=>{
   const r=rows.find(r=>String(r.number)===String(p.number));
-  return {number:String(p.number),name:p.text?.replace(/^#\d+\s*/, '')||r?.name||'',minutes:r?.minutes??(complete?0:null),prior_minutes:r?.prior_minutes??(complete?0:null),started:r?.started,has_card:p.has_card};
+  return {number:String(p.number),name:p.text?.replace(/^#\d+\s*/, '')||r?.name||'',minutes:r?.minutes??(complete?0:null),prior_minutes:r?.prior_minutes??(complete?0:null),started:r?.started,appearance_last:r?.appearance_last,has_card:p.has_card};
  }).sort((a,b)=>(a.minutes??Infinity)-(b.minutes??Infinity)||(a.prior_minutes??Infinity)-(b.prior_minutes??Infinity)||Number(a.number)-Number(b.number));
 }
 function loadTable(rows,slug) {
  if(!rows.length)return '<p>官方本場名單尚未公布。</p>';
- return `<div class="table-wrap"><table class="match-table"><thead><tr><th>球員</th><th>上仗分鐘 ↑</th><th>前仗分鐘</th><th>兩場合計</th><th>負荷速讀</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${r.has_card===false?`#${e(r.number)} ${e(r.name)}<small>永久球員卡待補</small>`:`<a href="#/club/${e(slug)}/player/${e(r.number)}">#${e(r.number)} ${e(r.name)}</a>`}</td><td><strong>${r.minutes===0?'0・上仗未上陣':field(r.minutes)}</strong></td><td>${field(r.prior_minutes)}</td><td>${r.minutes!=null&&r.prior_minutes!=null?r.minutes+r.prior_minutes:'未核實'}</td><td>${r.minutes===0?'上仗沒有比賽分鐘':r.minutes===90&&r.prior_minutes===90?'連續兩場踢足':r.minutes===90?'上仗踢足90分鐘':r.minutes!=null?'上仗'+(r.started?'正選':'後備')+'上陣':'分鐘待核對'}</td></tr>`).join('')}</tbody></table></div>`;
+ return `<div class="table-wrap"><table class="match-table"><thead><tr><th>球員</th><th>上仗分鐘 ↑</th><th>前仗分鐘</th><th>兩場合計</th><th>負荷速讀</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${r.has_card===false?`#${e(r.number)} ${e(r.name)}<small>永久球員卡待補</small>`:`<a href="#/club/${e(slug)}/player/${e(r.number)}">#${e(r.number)} ${e(r.name)}</a>`}</td><td><strong>${r.minutes===0?(r.appearance_last?'0・補時入替':'0・上仗未上陣'):field(r.minutes)}</strong></td><td>${field(r.prior_minutes)}</td><td>${r.minutes!=null&&r.prior_minutes!=null?r.minutes+r.prior_minutes:'未核實'}</td><td>${r.minutes===0?(r.appearance_last?'曾於補時入替；0名義分鐘':'上仗沒有比賽分鐘'):r.minutes===90&&r.prior_minutes===90?'連續兩場踢足':r.minutes===90?'上仗踢足90分鐘':r.minutes!=null?'上仗'+(r.started?'正選':'後備')+'上陣':'分鐘待核對'}</td></tr>`).join('')}</tbody></table></div>`;
 }
 function workloadContext(t,date) {
  const w=t.workload;if(!w)return '<p>近期逐人分鐘尚未核對。</p>';
