@@ -39,4 +39,4 @@ Access limits: two direct Machida entry downloads returned HTTP403; search retri
 
 ## Validation
 
-`npm test`: 61 passed, 0 failed; club-data validation has 0 errors with existing coverage warnings. Syntax and diff checks pass. Deployment verification and public-page review must be completed after publication. The independent full-roster strict workflow has a pre-existing Urawa gate failure; this match sweep does not edit those profiles or loosen that gate.
+`npm test`: 61 passed, 0 failed; club-data validation has 0 errors with existing coverage warnings. Syntax and diff checks pass. Data publication `a2fb75f3c6fd36e775b2d396938582abaaa7f591` deployed successfully; the live November 10 availability, nine interviews and reconciled workload were inspected. A subsequent display correction clarifies zero nominal minutes and exposes the competition in section 01. The independent full-roster strict workflow has a pre-existing Urawa gate failure; this match sweep does not edit those profiles or loosen that gate.

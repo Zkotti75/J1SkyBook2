@@ -176,7 +176,7 @@ function commentaryTeam(ctx) {
 }
 function matchInfo(ctx) {
  const i=ctx.dossier?.match_info||{};
- return commentaryTeam(ctx)+card('比賽基本資料',`<div class="match-metrics">${[['開球（香港時間）',i.kickoff_hkt],['球場',i.stadium],['資料最後核對',ctx.dossier?.research_sweep?.checked_at||ctx.dossier?.as_of]].map(([k,v])=>`<div><small>${k}</small><strong>${field(v)}</strong></div>`).join('')}</div>`)+card('天氣／溫度',i.weather?claim(i.weather):blank('比賽日預報及球場實測待核對'))+card('主場球場・容量／草地／尺寸',claims(i.stadium_facts))+officials(ctx)+card('球證執法傾向',claims(i.referee_tendencies))+card('特別活動／本場意義',claims(i.events))+card('客隊球迷旅程',claims(i.visitor_travel))+sides(ctx,t=>claims(t.milestones)+claims(t.storylines),'倒戈・里程碑・有趣背景')+card('本場故事線',claims(ctx.dossier?.storylines||ctx.dossier?.preview?.cues));
+ return commentaryTeam(ctx)+card('比賽基本資料',`<div class="match-metrics">${[...(i.competition_zh?[['賽事',i.competition_zh]]:[]),['開球（香港時間）',i.kickoff_hkt],['球場',i.stadium],['資料最後核對',ctx.dossier?.research_sweep?.checked_at||ctx.dossier?.as_of]].map(([k,v])=>`<div><small>${k}</small><strong>${field(v)}</strong></div>`).join('')}</div>`)+card('天氣／溫度',i.weather?claim(i.weather):blank('比賽日預報及球場實測待核對'))+card('主場球場・容量／草地／尺寸',claims(i.stadium_facts))+officials(ctx)+card('球證執法傾向',claims(i.referee_tendencies))+card('特別活動／本場意義',claims(i.events))+card('客隊球迷旅程',claims(i.visitor_travel))+sides(ctx,t=>claims(t.milestones)+claims(t.storylines),'倒戈・里程碑・有趣背景')+card('本場故事線',claims(ctx.dossier?.storylines||ctx.dossier?.preview?.cues));
 }
 function threeYellowPlayers(team) {
  return (team.yellow_risk||[]).filter(x=>
@@ -222,7 +222,7 @@ function workloadContext(t,date) {
  const w=t.workload;if(!w)return '<p>近期逐人分鐘尚未核對。</p>';
  const describe=d=>{const g=t.game_log?.find(g=>g.date===d);return e(d)+(g?'・'+e(g.competition)+'・'+e(g.venue)+'對'+e(g.opponent):'');};
  const rest=validDate(w.match_date)&&validDate(date)?Math.round((Date.parse(date)-Date.parse(w.match_date))/86400000)-1:null;
- return `<p><strong>上仗：${describe(w.match_date)}</strong>${rest!=null?'｜中'+rest+'日':''}</p><p>前仗：${describe(w.baseline_match_date)}</p><p class="section-meta">${e(w.minutes_note||'分鐘不含補時。')} 0分鐘只代表未上陣，不代表已證實體能充足。</p>`;
+ return `<p><strong>上仗：${describe(w.match_date)}</strong>${rest!=null?'｜中'+rest+'日':''}</p><p>前仗：${describe(w.baseline_match_date)}</p><p class="section-meta">${e(w.minutes_note||'分鐘不含補時。')} 0名義分鐘不代表已證實體能充足；補時入替另有標示。</p>`;
 }
 function absentRegulars(t) {
  const a=t.workload_absences;

@@ -1,4 +1,4 @@
-import { matchPages, MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js?v=20261110-sweep';
+import { matchPages, MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js?v=20261110-sweep2';
 const SEASON_START = '2026-08-07';
 const state = { manifest: null, slot: 'home', clubs: new Map(), activeSlug: null, activeItem: null, mode: 'match', matchPage: 'info', renderId: 0 };
 
