@@ -3,8 +3,8 @@
   "club": "kobe",
   "club_name_zh": "神戶勝利船",
   "player_research_status": "in_progress",
-  "updated_at": "2026-11-05",
-  "roster_players": 41,
+  "updated_at": "2026-11-11",
+  "roster_players": 42,
   "baseline_complete_players": [],
   "batches": [
     {
@@ -644,6 +644,29 @@
       ],
       "unresolved_players": [],
       "reviewed_at": "2026-11-05"
+    },
+    {
+      "id": "kobe-matchday-62",
+      "kind": "player_research",
+      "status": "completed",
+      "capacity_points": 1,
+      "players": [
+        {
+          "id": "kobe_62",
+          "number": "62",
+          "name_zh": "川端彪英",
+          "name_en": "Hyoei Kawabata",
+          "weight": 1
+        }
+      ],
+      "notes": [
+        {
+          "date": "2026-11-11",
+          "text": "User explicitly requested only Kobe #62 card and deployment; Japanese official display pending approved Chinese name."
+        }
+      ],
+      "started_at": "2026-11-11",
+      "completed_at": "2026-11-11"
     }
   ],
   "status_tag_stage": {

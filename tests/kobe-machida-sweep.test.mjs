@@ -21,5 +21,5 @@ test('confirmed squads drive rotation, exact benches, source-backed officials an
  assert.equal(d.teams.kobe.lineup.starting_changes_vs_previous_match,10);assert.equal(d.teams.machida.lineup.starting_changes_vs_previous_match,6);
  for(const [slug,total] of [['kobe',116],['machida',458]]){const t=d.teams[slug],selected=t.lineup.starters.map(p=>p.number);assert.equal(new Set([...selected,...t.lineup.bench.map(p=>p.number)]).size,slug==='kobe'?20:18);assert.equal(t.workload.minutes.filter(r=>selected.includes(r.number)).reduce((n,r)=>n+r.minutes,0),total);assert.deepEqual(new Set(t.formation.players.map(p=>p.number)),new Set(selected));}
  const info=render('info');for(const role of d.match_info.officials.roles)assert.ok(info.includes(role.name_ja));assert.ok(!info.includes('委任未確認'));
- assert.ok(render('players').includes('川端 彪英'));assert.ok(!render('rotation').includes('#/club/kobe/player/62'));assert.ok(render('rotation').includes('權田修一'));assert.ok(render('rotation').includes('岡村大八'));
+ assert.ok(render('players').includes('川端彪英'));assert.ok(render('rotation').includes('#/club/kobe/player/62'));assert.ok(render('rotation').includes('權田修一'));assert.ok(render('rotation').includes('岡村大八'));
 });
