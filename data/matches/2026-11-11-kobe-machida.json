@@ -3,20 +3,20 @@
   "home": "kobe",
   "away": "machida",
   "date": "2026-11-11",
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-11",
   "competition": "leaguecup",
   "interview_layout": "team_columns",
-  "coverage_note": "11月10日賽前掃描：賽果及20隊榜核對至11月8日全輪完場；Football LAB為11月9日14場J1樣本。兩隊最近兩場名義分鐘均已對帳。正式名單、球證、最新個別傷情仍未全核實；盃賽警告採獨立Prime Round規則；沒有預測正選。",
+  "coverage_note": "11月11日正式名單後掃描：神戶11正選＋9後備、町田11正選＋7後備；官方陣式及六名球證已核對。聯賽榜截至11月8日，Football LAB為11月9日14場樣本；不預填今日賽果或上陣數據。",
   "match_info": {
     "kickoff_hkt": "18:00（日本19:00；TVB播出17:55 HKT）",
     "stadium": "Noevir神戶體育場",
-    "lineups_as_of": null,
-    "selection_note": "截至11月10日，本場正式正選／後備未公布；本頁沒有預測正選。",
+    "lineups_as_of": "2026-11-11・官方名單公布後",
+    "selection_note": "正式名單：神戶11＋9、町田11＋7；較11月8日分別換10／6名正選。神戶4-1-2-3、町田3-4-2-1為J.League本場官方圖示，非預測。",
     "commentary": {
       "host": "史葛・楊子滔",
       "partner": "高志超",
-      "confirmed_at": "2026-11-10",
-      "assignment_confirmed_by": "Carlos・11月5日「11-15/11 J LEAGUE講波ROSTER」，11月10日重讀；未見較後修訂。",
+      "confirmed_at": "2026-11-11",
+      "assignment_confirmed_by": "Carlos・11月5日「11-15/11 J LEAGUE講波ROSTER」，11月11日重讀及搜尋修訂；本場17:55 HKT播出，高＋史葛，未見較後修訂。",
       "bio": [
         {
           "text": "前香港代表隊守門員，曾效力傑志，亦曾從事守門員及青年隊訓練工作。",
@@ -49,18 +49,74 @@
         "label": "町田官方・抽籤及兩回合安排",
         "accessed_at": "2026-11-10",
         "published_at": "2026-10-29"
+      },
+      {
+        "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+        "label": "J.League・11月11日正式名單／官方陣式",
+        "accessed_at": "2026-11-11",
+        "published_at": "2026-11-11"
+      },
+      {
+        "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+        "label": "神戶官方・11月11日雙方正式名單及六名球證",
+        "accessed_at": "2026-11-11",
+        "published_at": "2026-11-11"
       }
     ],
     "officials": {
-      "status": "pending",
-      "roles": [],
-      "checked_at_display": "2026-11-10",
-      "note": "本場六名球證尚未取得可核對委任；不沿用11月8日小屋幸榮球證組。",
+      "status": "confirmed",
+      "roles": [
+        {
+          "role": "主球證",
+          "id": "referee",
+          "name_ja": "福島孝一郎",
+          "status": "confirmed"
+        },
+        {
+          "role": "旁證",
+          "id": "assistant_1",
+          "name_ja": "聳城巧",
+          "status": "confirmed"
+        },
+        {
+          "role": "旁證",
+          "id": "assistant_2",
+          "name_ja": "船橋昭次",
+          "status": "confirmed"
+        },
+        {
+          "role": "第4球證",
+          "id": "fourth_official",
+          "name_ja": "清水勇人",
+          "status": "confirmed"
+        },
+        {
+          "role": "VAR",
+          "id": "var",
+          "name_ja": "上村篤史",
+          "status": "confirmed"
+        },
+        {
+          "role": "AVAR",
+          "id": "avar",
+          "name_ja": "塩津祐介",
+          "status": "confirmed"
+        }
+      ],
+      "checked_at_display": "2026-11-11",
+      "note": "六名球證以本場神戶官方比賽表核實。",
       "sources": [
         {
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+          "label": "神戶官方・11月11日雙方正式名單及六名球證",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
+        },
+        {
           "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
-          "label": "J.League・八強首回合及小野慶太前瞻（11月10日覆核）",
-          "accessed_at": "2026-11-10"
+          "label": "J.League・11月11日正式名單／官方陣式",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
         }
       ]
     },
@@ -68,14 +124,15 @@
     "competition_zh": "2026/27 日本聯賽盃・八強首回合",
     "referee_tendencies": [
       {
-        "text": "尚未核實主球證委任，暫不套用任何球證的黃牌／十二碼傾向。",
+        "text": "主球證已確認為福島孝一郎；未取得今季同賽事範圍逐場黃牌／十二碼完整核對，暫不給出場均數或寬嚴判斷。",
         "kind": "reported",
-        "as_of": "2026-11-10",
+        "as_of": "2026-11-11",
         "sources": [
           {
-            "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
-            "label": "J.League・八強首回合及小野慶太前瞻（11月10日覆核）",
-            "accessed_at": "2026-11-10"
+            "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+            "label": "神戶官方・11月11日雙方正式名單及六名球證",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           }
         ]
       }
@@ -134,15 +191,15 @@
       }
     ],
     "weather": {
-      "text": "11月9日20:00 JST Yahoo中央區周報：11日晴，最高17°C／最低10°C、降雨機率0%。屬鄰近市區預報，並非球場實測或19時精確氣溫；兵庫區頁只見11月5日舊版本，未當最新。",
+      "text": "11月11日16:00 JST兵庫區預報：18時晴16°C、濕度62%、西風2m/s；21時晴14°C、濕度68%、北北西風1m/s，兩時段降水0mm。這是球場所在行政區預報，並非球場實測或19時精確氣溫。",
       "kind": "reported",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "sources": [
         {
-          "url": "https://weather.yahoo.co.jp/weather/28/6310/28110.html",
-          "label": "Yahoo天氣・神戶中央區，11月9日20:00 JST周報",
-          "accessed_at": "2026-11-10",
-          "published_at": "2026-11-09"
+          "url": "https://weather.yahoo.co.jp/weather/28/6310/28105.html",
+          "label": "Yahoo天氣・兵庫區11月11日16:00 JST預報",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
         }
       ]
     }
@@ -733,14 +790,468 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
+        "starters": [
+          {
+            "number": "1",
+            "text": "#1 前川黛也",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "3",
+            "text": "#3 馬菲奧斯・圖拿",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "31",
+            "text": "#31 岩波拓也",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "41",
+            "text": "#41 永戶勝也",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "2",
+            "text": "#2 飯野七聖",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "5",
+            "text": "#5 鄉家友太",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "20",
+            "text": "#20 渡邊皓太",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "25",
+            "text": "#25 鍬先祐彌",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "26",
+            "text": "#26 真・柏德歷",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "29",
+            "text": "#29 小松蓮",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "62",
+            "text": "#62 川端彪英",
+            "has_card": false,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "number": "21",
+            "text": "#21 新井章太",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "4",
+            "text": "#4 山川哲史",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "15",
+            "text": "#15 迪亞高",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "24",
+            "text": "#24 酒井高德",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "7",
+            "text": "#7 井手口陽介",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "10",
+            "text": "#10 大迫勇也",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "11",
+            "text": "#11 武藤嘉紀",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "13",
+            "text": "#13 佐佐木大樹",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "94",
+            "text": "#94 艾歷斯",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": 10,
         "cues": [
           {
-            "text": "本場正式名單及輪換未公布，不把11月8日陣容當本場正選。上場相對前場更換11名正選；這是既有兩場比較。",
+            "text": "較11月8日換10名正選，只有馬菲奧斯・圖拿留任；前川復任門將。大迫、武藤、佐佐木、迪亞高、酒井、井手口等在後備席。",
             "kind": "fact",
-            "as_of": "2026-11-10",
+            "as_of": "2026-11-11",
             "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "text": "今日正選上仗名義分鐘合共116；6人整場未上陣：前川、川端、飯野、鄉家、渡邊、岩波。另小松及永戶曾於補時入替，雖為0名義分鐘，不能稱上仗沒有上陣。",
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
               {
                 "url": "https://www.jleague.jp/match/j1/2026/110802/",
                 "label": "J.League・11月8日神戶2–2浦和",
@@ -763,21 +1274,21 @@
             "number": "11",
             "description": [
               {
-                "text": "上仗兩球；決定射門與最後一傳的取捨，以及反擊時能否自己完成終結，是本場觀察點。",
+                "text": "上仗梅開二度，今日後備；觀察其入替後的攻門與最後一傳選擇。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
-                    "url": "https://www.jleague.jp/match/j1/2026/110802/",
-                    "label": "J.League・11月8日神戶2–2浦和",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   },
                   {
-                    "url": "https://www.soccerdigestweb.com/news/detail/id=199460",
-                    "label": "Soccer Digest Web・武藤談浦和戰及町田戰",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -803,21 +1314,21 @@
             "number": "10",
             "description": [
               {
-                "text": "浦和戰踢足；與武藤接應直接進攻及第二落點的配合值得觀察，未確認明日正選。",
+                "text": "今日後備；上仗踢足90分鐘。如入替，可與同在後備的武藤改變禁區接應及第二落點質量。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
-                    "url": "https://www.jleague.jp/match/j1/2026/110802/",
-                    "label": "J.League・11月8日神戶2–2浦和",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   },
                   {
-                    "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261108&type=comment",
-                    "label": "神戶官方・11月8日史基比／武藤／山川賽後訪問",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -885,9 +1396,9 @@
             "number": "94",
             "description": [
               {
-                "text": "前町田球員；11月8日正選踢足。若入選，能否配合前場反擊及牽制外側中堅是觀察重點。",
+                "text": "前町田球員；11月8日正選踢足。今日後備；如入替，能否配合前場反擊及牽制外側中堅是觀察重點。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
                     "url": "https://www.jleague.jp/match/j1/2026/110802/",
@@ -905,6 +1416,18 @@
                     "url": "https://www.vissel-kobe.co.jp/news/article/26777.html",
                     "accessed_at": "2026-10-18",
                     "published_at": "2026-08-07"
+                  },
+                  {
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
+                  },
+                  {
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -928,6 +1451,37 @@
           }
         ],
         "youth": [
+          {
+            "number": "62",
+            "match_profile": {
+              "name_ja": "川端 彪英",
+              "position": "FW",
+              "official_url": "https://www.jleague.jp/player/1655772/"
+            },
+            "description": [
+              {
+                "text": "今日正選，官方陣式列右邊鋒；最近兩場一隊正式比賽均沒有上陣。中文名未經用戶核准，沿用官方日文。這是本場資料，不代表永久傳記卡已完成。",
+                "kind": "fact",
+                "as_of": "2026-11-11",
+                "sources": [
+                  {
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
+                  },
+                  {
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
+                  }
+                ]
+              }
+            ],
+            "stats": [],
+            "analytics": []
+          },
           {
             "number": "23",
             "description": [
@@ -972,9 +1526,9 @@
             "number": "28",
             "description": [
               {
-                "text": "11月3日亞洲賽正選69分鐘；U19遠征涵蓋盃賽兩回合，不預填本場入選。",
+                "text": "11月3日亞洲賽正選69分鐘；U19遠征涵蓋盃賽兩回合，今日未入選。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
                     "url": "https://www.vissel-kobe.co.jp/news/article/27176.html",
@@ -987,6 +1541,12 @@
                     "label": "神戶官方・11月3日ACLE正選及換人",
                     "accessed_at": "2026-11-10",
                     "published_at": "2026-11-03"
+                  },
+                  {
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -1012,9 +1572,9 @@
       },
       "style": [
         {
-          "text": "11月8日官方站位為4-1-2-3；11月3日亞洲賽較多替補正選。只描述已踢比賽，不把舊有4-3-3概述當明日確認陣式。",
+          "text": "11月8日官方站位為4-1-2-3；11月3日亞洲賽較多替補正選。只描述已踢比賽，不把舊有4-3-3概述當本場確認陣式。",
           "kind": "fact",
-          "as_of": "2026-11-10",
+          "as_of": "2026-11-11",
           "sources": [
             {
               "url": "https://www.jleague.jp/match/j1/2026/110802/",
@@ -1027,6 +1587,12 @@
               "label": "神戶官方・11月3日ACLE正選及換人",
               "accessed_at": "2026-11-10",
               "published_at": "2026-11-03"
+            },
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
             }
           ]
         }
@@ -1111,6 +1677,25 @@
       ],
       "injuries": [
         {
+          "text": "本場選拔已確認：佐佐木、飯野均入選；佐佐木後備、飯野正選，不能再當確定缺陣。",
+          "kind": "fact",
+          "as_of": "2026-11-11",
+          "sources": [
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
+            },
+            {
+              "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+              "label": "神戶官方・11月11日雙方正式名單及六名球證",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
+            }
+          ]
+        },
+        {
           "text": "佐佐木大樹已於11月8日正選上陣72分鐘；不能再以6月半月板傷患標作本場確定缺席。",
           "kind": "fact",
           "as_of": "2026-11-10",
@@ -1180,9 +1765,9 @@
           ]
         },
         {
-          "text": "艾歷斯曾效力町田，現為神戶#94；本場有倒戈背景，但正式名單未公布。",
+          "text": "艾歷斯曾效力町田，現為神戶#94；本場有倒戈背景，今日列神戶後備。",
           "kind": "fact",
-          "as_of": "2026-11-10",
+          "as_of": "2026-11-11",
           "sources": [
             {
               "label": "Football LAB・神戶2026/27轉會",
@@ -1194,16 +1779,51 @@
               "label": "J.League・11月8日神戶2–2浦和",
               "accessed_at": "2026-11-10",
               "published_at": "2026-11-08"
+            },
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
             }
           ]
         }
       ],
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "criteria": "常規主力＝本會14場J1正選至少8次；已確認代表徵召／其他原因另見04。沒有傷停公告不等同證實輪休。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "#71 權田修一：本會14場J1有11次正選，今日不在正式名單；未取得可靠個別原因，不標作已確認輪休。",
+            "kind": "reported",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/kobe/",
+                "label": "Football LAB・11月9日更新／14場J1樣本",
+                "accessed_at": "2026-11-10",
+                "published_at": "2026-11-09"
+              },
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          }
+        ]
       },
       "research_baseline": {
-        "as_of": "2026-11-10",
-        "note": "本次賽前掃描：官方賽果／榜截至11月8日；Football LAB更新11月9日；本場正式名單未公布。"
+        "as_of": "2026-11-11",
+        "note": "正式名單／球證已核實；J1賽果及榜截至11月8日，Football LAB 11月9日14場樣本，未加入本場未踢分鐘。"
       },
       "milestones": [],
       "home_away_record": [
@@ -2604,9 +3224,9 @@
       "player_metrics": [],
       "international_duty": [
         {
-          "text": "岩本悠庵：U21日本代表遠征公告期間11月8–18日，涵蓋兩回合。濱崎健斗：U19美國遠征11月9–18日。兩人屬代表徵召範圍，不標作輪休；岩本8日仍有出場，不推算實際啟程時間。",
+          "text": "岩本悠庵：U21日本代表遠征公告期間11月8–18日，涵蓋兩回合。濱崎健斗：U19美國遠征11月9–18日。兩人屬代表徵召範圍，不標作輪休；岩本8日仍有出場，不推算實際啟程時間。 11月11日正式名單確認上述球員全部未入選。",
           "kind": "fact",
-          "as_of": "2026-11-10",
+          "as_of": "2026-11-11",
           "sources": [
             {
               "url": "https://www.vissel-kobe.co.jp/news/article/27177.html",
@@ -2619,6 +3239,18 @@
               "label": "神戶官方・濱崎U19遠征",
               "accessed_at": "2026-11-10",
               "published_at": "2026-11-06"
+            },
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
+            },
+            {
+              "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+              "label": "神戶官方・11月11日雙方正式名單及六名球證",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
             }
           ]
         }
@@ -2646,7 +3278,7 @@
       ],
       "discipline_audit": {
         "competition": "2026/27 League Cup Prime Round",
-        "as_of": "2026-11-10",
+        "as_of": "2026-11-11",
         "matches_played": 0,
         "effective_yellows_each_player": 0,
         "yellow_threshold": 2,
@@ -2660,19 +3292,490 @@
             "accessed_at": "2026-11-10"
           }
         ]
+      },
+      "formation": {
+        "shape": "4-1-2-3",
+        "label": "本場官方公布陣式（非預測）",
+        "as_of": "2026-11-11",
+        "players": [
+          {
+            "number": "62",
+            "name": "川端彪英"
+          },
+          {
+            "number": "29",
+            "name": "小松蓮"
+          },
+          {
+            "number": "26",
+            "name": "真・柏德歷"
+          },
+          {
+            "number": "20",
+            "name": "渡邊皓太"
+          },
+          {
+            "number": "5",
+            "name": "鄉家友太"
+          },
+          {
+            "number": "25",
+            "name": "鍬先祐彌"
+          },
+          {
+            "number": "2",
+            "name": "飯野七聖"
+          },
+          {
+            "number": "31",
+            "name": "岩波拓也"
+          },
+          {
+            "number": "3",
+            "name": "馬菲奧斯・圖拿"
+          },
+          {
+            "number": "41",
+            "name": "永戶勝也"
+          },
+          {
+            "number": "1",
+            "name": "前川黛也"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+            "label": "J.League・11月11日正式名單／官方陣式",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
+          }
+        ]
       }
     },
     "machida": {
       "previous_match_date": "2026-11-08",
       "lineup": {
-        "starters": [],
-        "bench": [],
+        "starters": [
+          {
+            "number": "1",
+            "text": "#1 谷晃生",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "6",
+            "text": "#6 望月亨利海輝",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "24",
+            "text": "#24 金眠泰",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "5",
+            "text": "#5 迪沙域",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "88",
+            "text": "#88 中村帆高",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "16",
+            "text": "#16 前寬之",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "18",
+            "text": "#18 下田北斗",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "33",
+            "text": "#33 明本考浩",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "23",
+            "text": "#23 白崎凌兵",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "8",
+            "text": "#8 仙頭啓矢",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "15",
+            "text": "#15 米切爾・杜克",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          }
+        ],
+        "bench": [
+          {
+            "number": "66",
+            "text": "#66 小林亞基高治",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "13",
+            "text": "#13 守田達彌",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "3",
+            "text": "#3 昌子源",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "2",
+            "text": "#2 奧華查",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "31",
+            "text": "#31 尼達・拉維",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "79",
+            "text": "#79 三國基士文",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "number": "20",
+            "text": "#20 西村拓真",
+            "has_card": true,
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": 6,
         "cues": [
           {
-            "text": "本場正式名單及輪換未公布，不把11月8日陣容當本場正選。上場相對前場更換7名正選；這是既有兩場比較。",
+            "text": "較11月8日換6名正選：迪沙域、望月、下田、白崎、仙頭、杜克入替；谷、金眠泰、中村、前寬之、明本留任。只有7後備，當中兩名門將，不補成9人。",
             "kind": "fact",
-            "as_of": "2026-11-10",
+            "as_of": "2026-11-11",
             "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "text": "今日正選上仗名義分鐘合共458；迪沙域、白崎、仙頭上仗未上陣，杜克2分鐘，望月與下田各6分鐘。谷近兩場180分鐘、中村174分鐘，輪換不代表全隊同樣新鮮。",
+            "kind": "fact",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
               {
                 "url": "https://www.jleague.jp/match/j1/2026/110803/",
                 "label": "J.League・11月8日町田0–0廣島",
@@ -2752,6 +3855,25 @@
         }
       ],
       "injuries": [
+        {
+          "text": "本場選拔已確認：岡村、菊池、松尾、德村均未入選；沒有新診斷／原因公告，不能把全部缺席寫成休息。",
+          "kind": "fact",
+          "as_of": "2026-11-11",
+          "sources": [
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
+            },
+            {
+              "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+              "label": "神戶官方・11月11日雙方正式名單及六名球證",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
+            }
+          ]
+        },
         {
           "text": "岡村大八、菊池大衛流帆、松尾佑介11月8日未入選；岡村11月1日官方訪問已有缺席背景。未取得11日復出／診斷公告，不把三人一概判作輪休或新增傷患。",
           "kind": "reported",
@@ -4055,14 +5177,21 @@
             "number": "20",
             "description": [
               {
-                "text": "J1官方本場前瞻點名的進攻焦點；國腳離隊後，其接應中場與禁區的站位更值得觀察，但未確認正選。",
+                "text": "官方賽前焦點西村今日後備；上仗59分鐘，今場可作杜克身後接應及後備進攻變化。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
                     "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
-                    "label": "J.League・八強首回合及小野慶太前瞻（11月10日覆核）",
-                    "accessed_at": "2026-11-10"
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
+                  },
+                  {
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -4088,21 +5217,21 @@
             "number": "3",
             "description": [
               {
-                "text": "上仗踢足；本人談到控球增加而破門不足，後場能否繞過神戶壓迫並將球交到前線是重點。",
+                "text": "上仗踢足90分鐘、前仗74分鐘，今日後備；正選三中堅為望月、金眠泰、迪沙域。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
-                    "url": "https://www.jleague.jp/match/j1/2026/110803/",
-                    "label": "J.League・11月8日町田0–0廣島",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   },
                   {
-                    "url": "https://www.soccerdigestweb.com/news/detail/id=199468",
-                    "label": "Soccer Digest Web・昌子談控球與入球",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -4130,20 +5259,21 @@
             "number": "15",
             "description": [
               {
-                "text": "上仗88分鐘入替；在三名前線國腳離隊背景下，是可觀察的中鋒選項，不當作預測正選。",
+                "text": "今日正選中鋒；上仗只於88分鐘入替，2名義分鐘。相馬、小川與恩基代表缺席，杜克領銜前線。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
-                    "url": "https://www.jleague.jp/match/j1/2026/110803/",
-                    "label": "J.League・11月8日町田0–0廣島",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   },
                   {
-                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
-                    "label": "J.League・八強首回合及小野慶太前瞻（11月10日覆核）",
-                    "accessed_at": "2026-11-10"
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -4169,21 +5299,21 @@
             "number": "31",
             "description": [
               {
-                "text": "上仗84分鐘退下；中場轉邊能否避開第一層壓迫，影響其餘前線球員接球位置。",
+                "text": "今日後備；上仗84分鐘。前寬之與下田正選配搭中場，拉維可作之後的組織調整。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
-                    "url": "https://www.jleague.jp/match/j1/2026/110803/",
-                    "label": "J.League・11月8日町田0–0廣島",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   },
                   {
-                    "url": "https://www.zelvia.co.jp/match/game/353002/?report=true",
-                    "label": "町田官方・11月8日黑田／昌子賽後訪問及比賽記錄",
-                    "accessed_at": "2026-11-10",
-                    "published_at": "2026-11-08"
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -4209,9 +5339,9 @@
             "number": "99",
             "description": [
               {
-                "text": "復出後31分鐘，但已獲澳洲代表徵召；不要把近期復出等同明日能上陣。",
+                "text": "復出後31分鐘，但已獲澳洲代表徵召；不要把近期復出等同本場能上陣。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
                     "url": "https://www.jleague.jp/match/j1/2026/110803/",
@@ -4224,6 +5354,12 @@
                     "label": "町田官方・泰迪恩基澳洲代表徵召",
                     "accessed_at": "2026-11-10",
                     "published_at": "2026-11-08"
+                  },
+                  {
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -4251,15 +5387,33 @@
             "number": "34",
             "description": [
               {
-                "text": "已退出U19遠征，公告未述原因；明日可用性仍待選拔確認。",
+                "text": "已退出U19遠征，公告未述原因；今日未入選，個別原因未確認。",
                 "kind": "fact",
-                "as_of": "2026-11-10",
+                "as_of": "2026-11-11",
                 "sources": [
                   {
                     "url": "https://www.zelvia.co.jp/news/news-366375/",
                     "label": "町田官方・德村退出U19遠征",
                     "accessed_at": "2026-11-10",
                     "published_at": "2026-11-08"
+                  },
+                  {
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
+                  },
+                  {
+                    "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                    "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
+                  },
+                  {
+                    "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                    "label": "J.League・11月11日正式名單／官方陣式",
+                    "accessed_at": "2026-11-11",
+                    "published_at": "2026-11-11"
                   }
                 ]
               }
@@ -4708,7 +5862,36 @@
       ],
       "player_metrics": [],
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "criteria": "常規主力＝本會14場J1正選至少8次；已確認代表徵召／其他原因另見04。沒有傷停公告不等同證實輪休。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "#50 岡村大八：本會14場J1有11次正選，今日不在正式名單；未取得可靠個別原因，不標作已確認輪休。",
+            "kind": "reported",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.football-lab.jp/mcd/",
+                "label": "Football LAB・11月9日更新／14場J1樣本",
+                "accessed_at": "2026-11-10",
+                "published_at": "2026-11-09"
+              },
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          }
+        ]
       },
       "milestones": [],
       "analytics": [
@@ -4727,8 +5910,8 @@
         }
       ],
       "research_baseline": {
-        "as_of": "2026-11-10",
-        "note": "本次賽前掃描：官方賽果／榜截至11月8日；Football LAB更新11月9日；本場正式名單未公布。"
+        "as_of": "2026-11-11",
+        "note": "正式名單／球證已核實；J1賽果及榜截至11月8日，Football LAB 11月9日14場樣本，未加入本場未踢分鐘。"
       },
       "workload": {
         "baseline_match_date": "2026-11-05",
@@ -4963,9 +6146,9 @@
       },
       "international_duty": [
         {
-          "text": "相馬勇紀、小川航基獲日本成年代表徵召；泰迪・恩基獲澳洲成年代表徵召。J.League本場前瞻及11月8日報道均指出三人代表活動影響盃賽人腳，不將其列為休息或傷患。",
+          "text": "相馬勇紀、小川航基獲日本成年代表徵召；泰迪・恩基獲澳洲成年代表徵召。J.League本場前瞻及11月8日報道均指出三人代表活動影響盃賽人腳，不將其列為休息或傷患。 11月11日正式名單確認上述球員全部未入選。",
           "kind": "fact",
-          "as_of": "2026-11-10",
+          "as_of": "2026-11-11",
           "sources": [
             {
               "url": "https://www.zelvia.co.jp/news/news-365969/",
@@ -4995,19 +6178,43 @@
               "label": "Sponichi／livedoor・黑田談密集賽程及三名國腳離隊",
               "accessed_at": "2026-11-10",
               "published_at": "2026-11-08"
+            },
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
+            },
+            {
+              "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+              "label": "神戶官方・11月11日雙方正式名單及六名球證",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
             }
           ]
         },
         {
-          "text": "德村楓大11月8日退出U19日本代表遠征；球會公告沒有說明原因。不能繼續列作代表隊缺席，也不能據此認定受傷、已康復或明日會入選。",
+          "text": "德村楓大11月8日退出U19日本代表遠征，公告未交代原因；11日正式名單亦未入選。不能由退出代表推斷傷患、康復或休息。",
           "kind": "fact",
-          "as_of": "2026-11-10",
+          "as_of": "2026-11-11",
           "sources": [
             {
               "url": "https://www.zelvia.co.jp/news/news-366375/",
               "label": "町田官方・德村退出U19遠征",
               "accessed_at": "2026-11-10",
               "published_at": "2026-11-08"
+            },
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
+            },
+            {
+              "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+              "label": "J.League・11月11日正式名單／官方陣式",
+              "accessed_at": "2026-11-11",
+              "published_at": "2026-11-11"
             }
           ]
         }
@@ -5064,7 +6271,7 @@
       ],
       "discipline_audit": {
         "competition": "2026/27 League Cup Prime Round",
-        "as_of": "2026-11-10",
+        "as_of": "2026-11-11",
         "matches_played": 0,
         "effective_yellows_each_player": 0,
         "yellow_threshold": 2,
@@ -5076,6 +6283,65 @@
             "label": "J.League規律委員會・2026/27停賽細則，3(1)／例11–15",
             "published_at": "2026-07-31",
             "accessed_at": "2026-11-10"
+          }
+        ]
+      },
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "本場官方公布陣式（非預測）",
+        "as_of": "2026-11-11",
+        "players": [
+          {
+            "number": "15",
+            "name": "米切爾・杜克"
+          },
+          {
+            "number": "23",
+            "name": "白崎凌兵"
+          },
+          {
+            "number": "8",
+            "name": "仙頭啓矢"
+          },
+          {
+            "number": "88",
+            "name": "中村帆高"
+          },
+          {
+            "number": "16",
+            "name": "前寬之"
+          },
+          {
+            "number": "18",
+            "name": "下田北斗"
+          },
+          {
+            "number": "33",
+            "name": "明本考浩"
+          },
+          {
+            "number": "6",
+            "name": "望月亨利海輝"
+          },
+          {
+            "number": "24",
+            "name": "金眠泰"
+          },
+          {
+            "number": "5",
+            "name": "迪沙域"
+          },
+          {
+            "number": "1",
+            "name": "谷晃生"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+            "label": "J.League・11月11日正式名單／官方陣式",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           }
         ]
       }
@@ -6212,6 +7478,22 @@
   },
   "quote_events": [
     {
+      "title": "11月10日・史基比盃賽前瞻",
+      "entries": [
+        {
+          "team_slug": "kobe",
+          "speaker": "米高・史基比",
+          "role": "監督",
+          "category": "upcoming",
+          "published_at": "2026-11-10",
+          "context": "pre_match",
+          "outlet": "Sponichi（livedoor刊載）",
+          "url": "https://news.livedoor.com/article/detail/32780377/",
+          "paraphrase_zh": "希望首回合在主場取得有利結果，再赴町田。指出雙方連戰、傷情及代表徵召令組軍有別於數周前；這是整體背景，未逐人確認輪休原因。"
+        }
+      ]
+    },
+    {
       "title": "11月8日賽後至盃賽首回合・近期聲音",
       "entries": [
         {
@@ -6336,26 +7618,21 @@
         ]
       },
       {
-        "text": "兩軍同為中2日；町田三名前線國腳徵召，神戶岩本與濱崎亦有青年代表行程。沒有正式名單，不能確認輪換幅度。",
+        "text": "兩軍同為中2日，今日神戶換10名正選、町田換6人；神戶正選上仗合計116分鐘，町田458分鐘。這是比賽負荷總量，不是疲勞評分。",
         "kind": "fact",
-        "as_of": "2026-11-10",
+        "as_of": "2026-11-11",
         "sources": [
           {
             "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
-            "label": "J.League・八強首回合及小野慶太前瞻（11月10日覆核）",
-            "accessed_at": "2026-11-10"
+            "label": "J.League・11月11日正式名單／官方陣式",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           },
           {
-            "url": "https://www.vissel-kobe.co.jp/news/article/27177.html",
-            "label": "神戶官方・岩本U21遠征",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-06"
-          },
-          {
-            "url": "https://www.vissel-kobe.co.jp/news/article/27176.html",
-            "label": "神戶官方・濱崎U19遠征",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-06"
+            "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+            "label": "神戶官方・11月11日雙方正式名單及六名球證",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           }
         ]
       },
@@ -6402,20 +7679,64 @@
             ]
           },
           {
-            "text": "町田代表離隊令進攻組合有變；不能假定繼續用相馬與小川的原有接應模式。觀察西村、杜克及後上的中場如何填補接球點，等正式名單後再落實對位。",
+            "text": "町田杜克配白崎、仙頭正選，西村後備；神戶以小松中鋒、川端及真・柏德歷兩側開局。推論：町田可利用杜克第一點，白崎／仙頭爭第二點；神戶須防翼衛與前線拉開單防，不能沿用相馬／小川在場的對位。",
             "kind": "analysis",
-            "as_of": "2026-11-10",
+            "as_of": "2026-11-11",
             "sources": [
               {
                 "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
-                "label": "J.League・八強首回合及小野慶太前瞻（11月10日覆核）",
-                "accessed_at": "2026-11-10"
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
               },
               {
-                "url": "https://www.zelvia.co.jp/match/game/353002/?report=true",
-                "label": "町田官方・11月8日黑田／昌子賽後訪問及比賽記錄",
-                "accessed_at": "2026-11-10",
-                "published_at": "2026-11-08"
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "正式名單後：兩邊後備深度不同",
+        "paragraphs": [
+          {
+            "text": "神戶後備有大迫、武藤、佐佐木及艾歷斯等進攻選擇；町田7後備中2名門將，只有5名外場球員。推論：中後段神戶改變前場組合的選項較多，但後備主力上仗負荷亦高，不等於可無限維持逼搶。",
+            "kind": "analysis",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              }
+            ]
+          },
+          {
+            "text": "神戶鍬先單防中對上白崎／仙頭的中路接應；鄉家與渡邊前壓時，觀察鍬先兩側空間。町田中村對神戶永戶、明本對飯野，翼衛身後是川端及真・柏德歷可嘗試的通道。以上為按官方站位推導的觀察，不是教練已確認部署。",
+            "kind": "analysis",
+            "as_of": "2026-11-11",
+            "sources": [
+              {
+                "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+                "label": "J.League・11月11日正式名單／官方陣式",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
+              },
+              {
+                "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+                "label": "神戶官方・11月11日雙方正式名單及六名球證",
+                "accessed_at": "2026-11-11",
+                "published_at": "2026-11-11"
               }
             ]
           }
@@ -6424,11 +7745,12 @@
     ]
   },
   "coverage_gaps": [
-    "本場正式正選及後備未公布；沒有確認輪換人數或休息主力。",
-    "六名球證及主球證傾向待官方委任；球場實測、草地／尺寸最新設備文件未取得。",
-    "岡村、菊池、松尾及神戶三名缺陣資訊球員的本場醫療可用性未確認；德村退出代表原因未公布。",
+    "權田修一（11/14正選）及岡村大八（11/14正選）今日未入選，個別原因未有可靠確認，不當作已證實輪休。",
+    "六名球證已核實，但福島今季同範圍逐場黃牌／十二碼傾向未完整對帳；球場實測及最新草地／尺寸文件仍缺。",
+    "個別最新醫療原因、德村退出代表原因未公布；不由未入選推斷傷停或休息。",
     "完整同口徑全季入失球時段、門將撲救率、全員助攻／xA未取得；保留空白而非0。",
-    "14場J1 Football LAB的0.64失球／場與官方町田10失球口徑不同；兩值分開，不擅自歸因。"
+    "14場J1 Football LAB的0.64失球／場與官方町田10失球口徑不同；兩值分開，不擅自歸因。",
+    "川端彪英今日正選；本場官方日文資料已列，永久卡及用戶核准中文名仍缺。"
   ],
   "head_to_head_results": [
     {
@@ -6572,21 +7894,21 @@
     {
       "topic": "死球及界外球",
       "home": {
-        "text": "迪亞高長界外球剛帶來追和入球，若入選仍須觀察落點及禁區外保護。",
+        "text": "迪亞高今日後備；長界外球威脅須待其入替才適用。正選先觀察永戶死球輸送及岩波、圖拿、小松爭頂。",
         "kind": "analysis",
-        "as_of": "2026-11-10",
+        "as_of": "2026-11-11",
         "sources": [
           {
-            "url": "https://www.jleague.jp/match/j1/2026/110802/",
-            "label": "J.League・11月8日神戶2–2浦和",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-08"
+            "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+            "label": "J.League・11月11日正式名單／官方陣式",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           },
           {
-            "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261108&type=comment",
-            "label": "神戶官方・11月8日史基比／武藤／山川賽後訪問",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-08"
+            "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+            "label": "神戶官方・11月11日雙方正式名單及六名球證",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           }
         ]
       },
@@ -6613,64 +7935,40 @@
     {
       "topic": "後備與體力調配",
       "home": {
-        "text": "3日亞洲賽作大幅輪換，8日又換回主力；不要只憑間隔日數便判定每名球員同樣疲累。",
+        "text": "神戶換10正選，但唯一留任的圖拿上仗90分鐘；今日後備多名上仗主力。輪換與個別恢復須分開看。",
         "kind": "analysis",
-        "as_of": "2026-11-10",
+        "as_of": "2026-11-11",
         "sources": [
           {
-            "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261103&type=detail",
-            "label": "神戶官方・11月3日ACLE正選及換人",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-03"
+            "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+            "label": "J.League・11月11日正式名單／官方陣式",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           },
           {
-            "url": "https://www.jleague.jp/match/j1/2026/110802/",
-            "label": "J.League・11月8日神戶2–2浦和",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-08"
-          },
-          {
-            "url": "https://www.zelvia.co.jp/match/game/356829/",
-            "label": "町田官方・11月5日ACL Two比賽記錄",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-05"
-          },
-          {
-            "url": "https://www.jleague.jp/match/j1/2026/110803/",
-            "label": "J.League・11月8日町田0–0廣島",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-08"
+            "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+            "label": "神戶官方・11月11日雙方正式名單及六名球證",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           }
         ]
       },
       "away": {
-        "text": "5日亞洲賽至8日換7名正選，但明日有代表缺席，能否延續輪換深度須等正式名單。",
+        "text": "町田換6人，谷及中村卻分別近兩場180／174分鐘；7後備只有5名外場球員，後段調整空間須逐位置看。",
         "kind": "analysis",
-        "as_of": "2026-11-10",
+        "as_of": "2026-11-11",
         "sources": [
           {
-            "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261103&type=detail",
-            "label": "神戶官方・11月3日ACLE正選及換人",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-03"
+            "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+            "label": "J.League・11月11日正式名單／官方陣式",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           },
           {
-            "url": "https://www.jleague.jp/match/j1/2026/110802/",
-            "label": "J.League・11月8日神戶2–2浦和",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-08"
-          },
-          {
-            "url": "https://www.zelvia.co.jp/match/game/356829/",
-            "label": "町田官方・11月5日ACL Two比賽記錄",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-05"
-          },
-          {
-            "url": "https://www.jleague.jp/match/j1/2026/110803/",
-            "label": "J.League・11月8日町田0–0廣島",
-            "accessed_at": "2026-11-10",
-            "published_at": "2026-11-08"
+            "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+            "label": "神戶官方・11月11日雙方正式名單及六名球證",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
           }
         ]
       }
@@ -6678,52 +7976,59 @@
   ],
   "opening_checks": [
     {
-      "text": "先確認實際名單及代表缺席，再觀察神戶是否仍以前場三人帶動第一層壓迫；不預設明日陣式。",
+      "text": "川端／真・柏德歷能否在町田翼衛身後接球，小松能否把第一點交到鄉家／渡邊。",
       "kind": "analysis",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "sources": [
         {
-          "url": "https://www.jleague.jp/match/j1/2026/110802/",
-          "label": "J.League・11月8日神戶2–2浦和",
-          "accessed_at": "2026-11-10",
-          "published_at": "2026-11-08"
+          "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+          "label": "J.League・11月11日正式名單／官方陣式",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
         },
         {
-          "url": "https://www.vissel-kobe.co.jp/news/article/27177.html",
-          "label": "神戶官方・岩本U21遠征",
-          "accessed_at": "2026-11-10",
-          "published_at": "2026-11-06"
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+          "label": "神戶官方・11月11日雙方正式名單及六名球證",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
         }
       ]
     },
     {
-      "text": "町田能否透過防中完成左右轉移，並由較近底線或禁區的位置創造射門，而非只從遠端傳中。",
+      "text": "杜克第一點後，白崎／仙頭能否在鍬先兩側接第二點，避免只在遠處傳中。",
       "kind": "analysis",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "sources": [
         {
-          "url": "https://www.zelvia.co.jp/match/game/353002/?report=true",
-          "label": "町田官方・11月8日黑田／昌子賽後訪問及比賽記錄",
-          "accessed_at": "2026-11-10",
-          "published_at": "2026-11-08"
+          "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+          "label": "J.League・11月11日正式名單／官方陣式",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
+        },
+        {
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+          "label": "神戶官方・11月11日雙方正式名單及六名球證",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
         }
       ]
     },
     {
-      "text": "首15分鐘看長界外球及傳中後的第二落點歸屬；首回合仍有次回合，不因暫時0–0便寫成必須全線壓上。",
+      "text": "圖拿是神戶唯一連續兩場正選者；町田谷、中村近兩場負荷最高，觀察連戰人員的回追與處理球，但不先作疲勞診斷。",
       "kind": "analysis",
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "sources": [
         {
-          "url": "https://www.vissel-kobe.co.jp/match/game/?gid=20261108&type=comment",
-          "label": "神戶官方・11月8日史基比／武藤／山川賽後訪問",
-          "accessed_at": "2026-11-10",
-          "published_at": "2026-11-08"
+          "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+          "label": "J.League・11月11日正式名單／官方陣式",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
         },
         {
-          "url": "https://www.jleague.jp/outline/leaguecup/",
-          "label": "J.League・2026/27聯賽盃賽制",
-          "accessed_at": "2026-11-10"
+          "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+          "label": "神戶官方・11月11日雙方正式名單及六名球證",
+          "accessed_at": "2026-11-11",
+          "published_at": "2026-11-11"
         }
       ]
     }
@@ -6768,6 +8073,25 @@
             "published_at": "2026-10-29"
           }
         ]
+      },
+      {
+        "text": "神戶落後可從大迫、武藤、佐佐木、艾歷斯尋求前場變化；町田則可用西村改變杜克身後接應，或以奧華查、拉維調整輸送。只是名單提供的選項，不預定換人。",
+        "kind": "analysis",
+        "as_of": "2026-11-11",
+        "sources": [
+          {
+            "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+            "label": "J.League・11月11日正式名單／官方陣式",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
+          },
+          {
+            "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+            "label": "神戶官方・11月11日雙方正式名單及六名球證",
+            "accessed_at": "2026-11-11",
+            "published_at": "2026-11-11"
+          }
+        ]
       }
     ],
     "level": [
@@ -6792,9 +8116,9 @@
     ]
   },
   "research_sweep": {
-    "as_of": "2026-11-10",
-    "scope": "僅2026-11-11神戶–町田賽前研究；不含明日名單掃描／其他場次／球員傳記批次",
-    "interview_entries": 9,
+    "as_of": "2026-11-11",
+    "scope": "僅11月11日神戶–町田正式名單後掃描；不含其他場次或永久球員卡批次",
+    "interview_entries": 10,
     "sources_checked": [
       {
         "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
@@ -6980,17 +8304,47 @@
         "label": "J.League規律委員會・2026/27停賽細則，3(1)／例11–15",
         "published_at": "2026-07-31",
         "accessed_at": "2026-11-10"
+      },
+      {
+        "url": "https://www.jleague.jp/match/leaguecup/2026/111101/",
+        "label": "J.League・11月11日正式名單／官方陣式",
+        "accessed_at": "2026-11-11",
+        "published_at": "2026-11-11"
+      },
+      {
+        "url": "https://www.vissel-kobe.co.jp/match/game/?mode=parts&gid=20261111&type=detail",
+        "label": "神戶官方・11月11日雙方正式名單及六名球證",
+        "accessed_at": "2026-11-11",
+        "published_at": "2026-11-11"
+      },
+      {
+        "url": "https://www.zelvia.co.jp/news/news-366448/",
+        "label": "町田官方・代表三將缺席及八強前瞻",
+        "accessed_at": "2026-11-11",
+        "published_at": "2026-11-10"
+      },
+      {
+        "url": "https://news.livedoor.com/article/detail/32780377/",
+        "label": "Sponichi／livedoor・史基比談兩回合與連戰",
+        "accessed_at": "2026-11-11",
+        "published_at": "2026-11-10"
+      },
+      {
+        "url": "https://weather.yahoo.co.jp/weather/28/6310/28105.html",
+        "label": "Yahoo天氣・兵庫區11月11日16:00 JST預報",
+        "accessed_at": "2026-11-11",
+        "published_at": "2026-11-11"
       }
     ],
     "section_status": {
-      "01": "部分：賽事／球場／活動／城市天氣已補；球證及實測待定",
-      "02": "已更新：9則11月8日賽後近期訪問摘要，原始URL保留",
+      "01": "部分：正式名單、六名球證、16時區域預報完成；球證完整傾向／實測未核",
+      "02": "已更新：10則11月8–10日近期訪問摘要",
       "03": "已更新：近5場／未來5場／主客紀錄／最近5次J1及獨立盃賽背景",
-      "04": "部分：代表、最新停賽公告、復出及Prime Round每人0黃／2黃門檻已核；本場最新個別醫療未完",
+      "04": "部分：實際入選／未入選及代表缺席、盃賽紀律已核；個別醫療原因未公開",
       "05": "部分：14場J1基本及進階、CBP／風格／死球；完整時段／撲救率缺口",
-      "06": "已更新兩場分鐘各990；本場入選及缺席／輪休待名單",
-      "07": "已更新本場焦點與14場J1樣本；全員助攻／xA未完",
-      "08": "已更新：來源事實與天書推論分開，情境非預測名單",
+      "06": "已更新：38名實際入選者分組；10／6名輪換、缺席常規主力、兩場各990分鐘、官方陣式",
+      "07": "已更新：本場正選／後備焦點、川端日文本場資料；永久卡及完整xA仍缺",
+      "08": "已更新：按正式4-1-2-3／3-4-2-1重寫對位、開局與後備情境",
       "09": "已更新：14輪20隊同截點榜、兩隊38輪及已知盃賽，未賽留空",
       "10": "保留完整籤表及52場舊賽果；兩回合安排、未賽及賽制重核"
     },
