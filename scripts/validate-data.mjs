@@ -52,6 +52,17 @@ for (const listed of selectedTeams) {
   if (!(data.players || []).length) warnings.push(`${listed.slug}: roster has not been added.`);
 
   const numbers = new Set();
+  const registrationIds = new Set();
+  for (const player of data.registered_youth || []) {
+    const ref = `${listed.slug} registration ${player.official_player_id || '?'}`;
+    if (!player.id || !player.official_player_id || !player.name_ja || !player.position) errors.push(`${ref}: missing registered identity.`);
+    if (player.number !== null) errors.push(`${ref}: unnumbered registrant must not invent a shirt number.`);
+    if (registrationIds.has(String(player.official_player_id))) errors.push(`${ref}: duplicate official registration ID.`);
+    registrationIds.add(String(player.official_player_id));
+    if (!player.sources?.some(s=>s.url?.startsWith('https://www.jleague.jp/')) || !player.sources?.some(s=>s.url?.startsWith('https://data.j-league.or.jp/'))) errors.push(`${ref}: missing official registry cross-check.`);
+    if (player.verification_status !== 'verified' && !player.research_gaps?.length) errors.push(`${ref}: unfinished card must disclose research gaps.`);
+    if (!Array.isArray(player.career)) errors.push(`${ref}: career must be an array.`);
+  }
   for (const player of data.players || []) {
     const ref = `${listed.slug} #${player.number || '?'}`;
     if (!player.id || !player.number || !player.name_zh || !player.position) errors.push(`${ref}: missing core identity field.`);

@@ -1,4 +1,4 @@
-import { matchPages, MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js?v=20261110-sweep2';
+import { matchPages, MATCH_PAGES, matchRoute, parseMatchRoute, renderMatchPage } from './match.js?v=20261112-sweep';
 const SEASON_START = '2026-08-07';
 const state = { manifest: null, slot: 'home', clubs: new Map(), activeSlug: null, activeItem: null, mode: 'match', matchPage: 'info', renderId: 0 };
 
@@ -17,6 +17,7 @@ function ageOn(dateOfBirth, onDate = SEASON_START) {
 
 function routeFor(slug, item) {
   if (!item || item.type === 'team_info') return `#/club/${encodeURIComponent(slug)}`;
+  if (item.number == null && item.official_player_id) return `#/club/${encodeURIComponent(slug)}/registration/${encodeURIComponent(item.official_player_id)}`;
   const token = item.number === 'HC' || item.position === 'MANAGER' ? 'manager' : `player/${encodeURIComponent(item.number)}`;
   return `#/club/${encodeURIComponent(slug)}/${token}`;
 }
@@ -89,7 +90,7 @@ function statusBadges(item) {
 
 function rosterItems(data) {
   const players = [...(data.players || [])].sort((a,b) => Number(a.number) - Number(b.number));
-  return [data.team, data.manager, ...players].filter(Boolean);
+  return [data.team, data.manager, ...players, ...(data.registered_youth || [])].filter(Boolean);
 }
 
 function renderSidebar(data, activeItem) {
@@ -98,7 +99,7 @@ function renderSidebar(data, activeItem) {
   const players = all.filter(item => item.type !== 'team_info' && item !== data.manager)
     .filter(item => !search || `${item.number} ${item.name_zh} ${item.name_ja || ''} ${item.name_en || ''}`.toLowerCase().includes(search));
 
-  $('#shirt-grid').innerHTML = players.map(item => `<button class="shirt-button ${activeItem?.id === item.id ? 'active' : ''}" data-id="${esc(item.id)}" title="${esc(item.name_zh || item.name_en)}">${esc(item.number)}</button>`).join('');
+  $('#shirt-grid').innerHTML = players.filter(item=>item.number!=null).map(item => `<button class="shirt-button ${activeItem?.id === item.id ? 'active' : ''}" data-id="${esc(item.id)}" title="${esc(item.name_zh || item.name_ja || item.name_en)}">${esc(item.number)}</button>`).join('');
 
   let html = `<button class="roster-item ${activeItem?.type === 'team_info' ? 'active' : ''}" data-id="${esc(data.team.id)}"><span class="roster-number">球會</span><span class="roster-name">${esc(data.team.name_zh)}</span><span class="roster-position">INFO</span></button>`;
   if (data.manager) html += `<button class="roster-item ${activeItem?.id === data.manager.id ? 'active' : ''}" data-id="${esc(data.manager.id)}"><span class="roster-number">HC</span><span class="roster-name">${esc(data.manager.name_zh || data.manager.name_en)}</span><span class="roster-position">領隊</span></button>`;
@@ -106,7 +107,7 @@ function renderSidebar(data, activeItem) {
     const group = players.filter(p => p.position === position);
     if (!group.length) continue;
     html += `<div class="roster-heading">${position}</div>`;
-    html += group.map(p => `<button class="roster-item ${activeItem?.id === p.id ? 'active' : ''}" data-id="${esc(p.id)}"><span class="roster-number">#${esc(p.number)}</span><span class="roster-name">${esc(p.name_zh || p.name_en)}</span><span class="roster-position">${position}</span></button>`).join('');
+    html += group.map(p => `<button class="roster-item ${activeItem?.id === p.id ? 'active' : ''}" data-id="${esc(p.id)}"><span class="roster-number">${p.number==null?'二種':'#'+esc(p.number)}</span><span class="roster-name">${esc(p.name_zh || p.name_ja || p.name_en)}</span><span class="roster-position">${position}</span></button>`).join('');
   }
   if (!players.length && search) html += '<div class="empty-panel">沒有符合的球員</div>';
   $('#roster-list').innerHTML = html;
@@ -237,7 +238,7 @@ function renderPerson(data, item) {
         <div class="vital"><label>代表隊</label><strong>${valueOrBlank(item.national_team_detail)}</strong></div>
       </div>`;
   return `<article class="panel">
-    <header class="hero"><div class="hero-main">${item.player_image ? `<img class="player-photo" src="${esc(item.player_image)}" alt="${esc(item.name_zh || item.name_en)}" onerror="this.hidden=true">` : ''}<div><div class="hero-number">${isManager ? 'HEAD COACH' : `#${esc(item.number)} · ${esc(item.position)}`}</div><h2>${esc(item.name_zh || item.name_en)}</h2><div class="english">${esc(item.name_ja || '')}${item.name_ja && item.name_en ? ' · ' : ''}${esc(item.name_en || '')}</div><div class="badges">${statusBadges(item)}${item.verification_status !== 'verified' ? '<span class="badge audit-badge">待逐項核實</span>' : ''}</div></div></div>${team.logo_url ? `<img class="team-logo" src="${esc(team.logo_url)}" alt="${esc(team.name_zh)}會徽">` : ''}</header>
+    <header class="hero"><div class="hero-main">${item.player_image ? `<img class="player-photo" src="${esc(item.player_image)}" alt="${esc(item.name_zh || item.name_ja || item.name_en)}" onerror="this.hidden=true">` : ''}<div><div class="hero-number">${isManager ? 'HEAD COACH' : `${item.number==null?'一隊背號未公布':'#'+esc(item.number)} · ${esc(item.position)}`}</div><h2>${esc(item.name_zh || item.name_ja || item.name_en)}</h2><div class="english">${esc(item.name_ja || '')}${item.name_ja && item.name_en ? ' · ' : ''}${esc(item.name_en || '')}</div><div class="badges">${statusBadges(item)}${item.verification_status !== 'verified' ? '<span class="badge audit-badge">待逐項核實</span>' : ''}</div></div></div>${team.logo_url ? `<img class="team-logo" src="${esc(team.logo_url)}" alt="${esc(team.name_zh)}會徽">` : ''}</header>
     <div class="content">
       ${item.verification_status !== 'verified' ? `<div class="notice">此卡尚未完成逐項核實；現有生涯資料只供研究參考，空白代表未能可靠核實。${item.research_gaps?.length ? `<strong>待補：</strong>${item.research_gaps.map(esc).join('；')}。` : ''}</div>` : ''}
       ${vitalsHtml}
@@ -259,6 +260,7 @@ function renderPerson(data, item) {
 
 function findRouteItem(data, route) {
   if (route.kind === 'manager') return data.manager || data.team;
+  if (route.kind === 'registration') return (data.registered_youth || []).find(p=>String(p.official_player_id)===String(route.token)) || data.team;
   if (route.kind === 'player') return (data.players || []).find(p => String(p.number) === String(route.token) || p.id === route.token) || data.team;
   return data.team;
 }

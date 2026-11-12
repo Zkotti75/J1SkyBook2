@@ -116,7 +116,7 @@ function players(ctx) {
   return '<p class="match-description">本場焦點由來源支持的研究選定；不會自動把名氣、國籍或年齡當作影響比賽的證據。</p>' + groups.map(([key,label]) => pair(ctx,...[ctx.home,ctx.away].map(c => {
     const rows = ctx.dossier?.teams?.[c.team.slug]?.players_to_watch?.[key];
     return rows?.length ? rows.map(r=>focusPlayer(c,r)).join('') : blank('尚未收錄本場焦點球員');
-  }),label)).join('') + catalogue;
+  }),label)).join('') + catalogue + registrationCoverage(ctx);
 }
 function gameLog(rows, date) {
   if (!rows?.length) return blank('全季逐場記錄尚未收錄');
@@ -183,6 +183,9 @@ function threeYellowPlayers(team) {
   (x.yellow_cards===3 && x.verification_status==='verified' && x.active_accumulation===true) ||
   (/有效累積\s*3\s*張/.test(x.text||'') && x.kind==='fact' && x.sources?.length)
  );
+}
+function registrationCoverage(ctx) {
+ return sides(ctx,(t,c)=>{const a=t.registration_audit;if(!a)return '';return `<p>${e(a.summary)}</p><details><summary>完整登錄逐人核對・${e(a.players.length)}人</summary><div class="table-wrap"><table class="match-table"><thead><tr><th>號碼／姓名</th><th>登錄標示</th><th>卡片研究狀態</th></tr></thead><tbody>${a.players.map(r=>`<tr><td><a href="#/club/${e(c.team.slug)}/${r.number==null?'registration/'+e(r.official_id):'player/'+e(r.number)}">${r.number==null?'未編一隊背號':'#'+e(r.number)} ${e(r.name)}</a></td><td>${e(r.registration)}</td><td>${r.card_status==='existing'?'已有永久卡':'已核實身份；人物研究未完成'}</td></tr>`).join('')}</tbody></table></div><p>登錄並不等於本場入選或已確認本場盃賽資格。未編一隊背號者沿用日文官方姓名，中文名待確認。</p></details>`;},'完整註冊覆核・登錄與選拔分開');
 }
 function availability(ctx) {
  const cup=ctx.dossier?.competition==='leaguecup';
@@ -254,5 +257,5 @@ function cupTournament(ctx) {
  const bracket=`<div class="cup-bracket"><section><h4>八強 · 兩回合</h4>${c.quarter_finals.map(q=>`<div class="cup-tie"><h5>${e(q.title)}｜${q.teams.map(e).join('／')}</h5>${q.legs.map(leg).join('')}<small>晉級：待定</small></div>`).join('')}</section><section><h4>四強 · 兩回合</h4>${c.semi_finals.map(q=>`<div class="cup-tie"><h5>${e(q.id==='SF1'?'四強1':'四強2')}</h5><p>${e(q.label)}</p><small>${q.dates.map(e).join('、')}</small></div>`).join('')}</section><section><h4>決賽 · 單場</h4><div class="cup-tie"><h5>${e(c.final.date)}</h5><p>${e(c.final.label)}</p><p>${e(c.final.stadium)}</p><small>開球時間待公布</small></div></section></div>`;
  const routes=sides(ctx,(t,club)=>{const r=c.routes[club.team.slug];return `<p>${e(r.entry)}</p>${r.matches.length?r.matches.map(m=>`<div class="cup-tie"><small>${e(m.date)} · ${e(m.round)}</small><p>${e(m.team_a)} <strong>${score(m)}</strong> ${e(m.team_b)}</p><small>已晉級下一輪</small></div>`).join(''):'<p>種子直接入八強，沒有此前賽果。</p>'}`},'兩隊如何晉級');
  const results=`<details class="cup-results"><summary>首階段全部 ${c.results.length} 場賽果</summary><p>${e(c.result_order_note)}</p><div class="table-wrap"><table class="match-table"><thead><tr><th>日期</th><th>輪次</th><th>隊伍A</th><th>比分</th><th>隊伍B</th></tr></thead><tbody>${c.results.map(r=>`<tr><td>${e(r.date)}</td><td>${e(r.round)}</td><td>${e(r.team_a)}</td><td>${score(r)}</td><td>${e(r.team_b)}</td></tr>`).join('')}</tbody></table></div></details>`;
- return card(c.name,`<p>截至 ${e(c.as_of)}；八強未開賽，總比分及晉級球隊待定。</p>${c.rules.map(r=>`<p>${e(r)}</p>`).join('')}`)+card('淘汰賽完整籤表',bracket)+routes+card('已完成比賽',results);
+ return card(c.name,`<p>截至 ${e(c.as_of)}；${e(c.context_note || '八強未開賽，總比分及晉級球隊待定。')}</p>${c.rules.map(r=>`<p>${e(r)}</p>`).join('')}`)+card('淘汰賽完整籤表',bracket)+routes+card('已完成比賽',results);
 }
