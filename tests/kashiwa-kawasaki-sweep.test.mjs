@@ -8,7 +8,7 @@ const audit=read('data/registration-audits/2026-11-12-kashiwa-kawasaki.json');
 const home=read('data/clubs/kashiwa.json'),away=read('data/clubs/kawasaki.json');
 test('Sunday refresh preserves ten sections, complete league schedule and honest pre-lineup state',()=>{
  assert.equal(d.as_of,'2026-11-12');assert.equal(d.match_info.lineups_as_of,null);
- assert.equal(d.match_info.commentary.partner,'冼（全名待確認）');
+ assert.equal(d.match_info.commentary.partner,'冼家裕');
  assert.equal(matchPages(d).length,10);assert.equal(new Set(d.standings.rows.map(r=>r.slug)).size,20);
  for(const slug of ['kashiwa','kawasaki']){
   const t=d.teams[slug];assert.deepEqual(t.lineup.starters,[]);assert.deepEqual(t.lineup.bench,[]);assert.equal(t.workload_absences.pending,true);
