@@ -3,15 +3,15 @@
   "home": "kashiwa",
   "away": "kawasaki",
   "date": "2026-11-15",
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-15",
   "competition": "leaguecup",
   "interview_layout": "team_columns",
-  "coverage_note": "11月12日完整賽前掃描：首回合11月11日、聯賽首14輪及完整註冊名單覆核；保留01–10、38輪聯賽賽程及盃賽籤表。登錄不等於星期日入選；正式名單仍待公布。",
+  "coverage_note": "11月15日正式名單掃描：雙方各11名正選及9名後備，全部40人均對上永久球員卡；球證組已確認。聯賽及人物研究保留各自資料截點及未解項目。",
   "match_info": {
-    "kickoff_hkt": "16:00（日本17:00；播出15:55 HKT）",
+    "kickoff_hkt": "16:00原定（柏官方比賽頁列16:03／日本17:03；播出15:55 HKT）",
     "stadium": "三協Frontier柏體育場",
-    "lineups_as_of": null,
-    "selection_note": "星期日正式正選、後備及球證委任尚待官方公布。登錄、代表隊徵召、上仗入選與本場選拔分開處理。",
+    "lineups_as_of": "2026-11-15 14:49 HKT 核對（官方已公布）",
+    "selection_note": "雙方正式20人名單及球證組已公布；40名入選球員全部有永久卡。官方名單列位置不等同確定陣式；未入選不推定受傷、停賽或輪休。",
     "commentary": {
       "host": "史葛・楊子滔",
       "partner": "冼家裕",
@@ -45,27 +45,56 @@
         "url": "https://www.reysol.co.jp/game/results/202627/1111.php",
         "accessed_at": "2026-11-12",
         "published_at": "2026-11-11"
+      },
+      {
+        "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+        "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+        "accessed_at": "2026-11-15",
+        "published_at": "2026-11-15"
       }
     ],
     "officials": {
-      "status": "pending",
-      "roles": [],
-      "note": "本場委任待官方公布。",
+      "status": "confirmed",
+      "checked_at_display": "2026-11-15 14:49 HKT",
+      "note": "柏官方本場比賽頁已公布六名球證。",
       "sources": [
         {
-          "label": "J.League官方・2026/27聯賽盃完整籤表及52場賽果",
-          "url": "https://www.jleague.jp/leaguecup/standings/",
-          "accessed_at": "2026-11-08"
+          "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+          "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+          "accessed_at": "2026-11-15",
+          "published_at": "2026-11-15"
+        }
+      ],
+      "roles": [
+        {
+          "id": "referee",
+          "name_ja": "上村 篤史",
+          "status": "confirmed"
         },
         {
-          "label": "J.League官方・10月29日Prime Round抽籤及賽制",
-          "url": "https://www.jleague.jp/news/article/35239/?navicode=leaguecup",
-          "accessed_at": "2026-11-08"
+          "id": "assistant_1",
+          "name_ja": "安藤 康平",
+          "status": "confirmed"
         },
         {
-          "label": "J.League官方・決賽公告",
-          "url": "https://www.jleague.jp/news/article/35230/?navicode=leaguecup",
-          "accessed_at": "2026-11-08"
+          "id": "assistant_2",
+          "name_ja": "若宮 健治",
+          "status": "confirmed"
+        },
+        {
+          "id": "fourth_official",
+          "name_ja": "山下 良美",
+          "status": "confirmed"
+        },
+        {
+          "id": "var",
+          "name_ja": "福島 孝一郎",
+          "status": "confirmed"
+        },
+        {
+          "id": "avar",
+          "name_ja": "大川 直也",
+          "status": "confirmed"
         }
       ]
     },
@@ -759,9 +788,364 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
+        "starters": [
+          {
+            "text": "#29 永井堅梧",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "29",
+            "player_id": "jleague_kashiwa_29",
+            "has_card": true,
+            "name_ja": "永井 堅梧"
+          },
+          {
+            "text": "#24 久保藤次郎",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "24",
+            "player_id": "jleague_kashiwa_24",
+            "has_card": true,
+            "name_ja": "久保 藤次郎"
+          },
+          {
+            "text": "#42 原田亘",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "42",
+            "player_id": "jleague_kashiwa_42",
+            "has_card": true,
+            "name_ja": "原田 亘"
+          },
+          {
+            "text": "#4 古賀太陽",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "4",
+            "player_id": "jleague_kashiwa_4",
+            "has_card": true,
+            "name_ja": "古賀 太陽"
+          },
+          {
+            "text": "#26 杉岡大暉",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "26",
+            "player_id": "jleague_kashiwa_26",
+            "has_card": true,
+            "name_ja": "杉岡 大暉"
+          },
+          {
+            "text": "#39 中川敦瑛",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "39",
+            "player_id": "jleague_kashiwa_39",
+            "has_card": true,
+            "name_ja": "中川 敦瑛"
+          },
+          {
+            "text": "#40 原川力",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "40",
+            "player_id": "jleague_kashiwa_40",
+            "has_card": true,
+            "name_ja": "原川 力"
+          },
+          {
+            "text": "#8 小泉佳穗",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "8",
+            "player_id": "jleague_kashiwa_8",
+            "has_card": true,
+            "name_ja": "小泉 佳穂"
+          },
+          {
+            "text": "#5 遠藤溪太",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "5",
+            "player_id": "jleague_kashiwa_5",
+            "has_card": true,
+            "name_ja": "遠藤 渓太"
+          },
+          {
+            "text": "#87 山內日向汰",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "87",
+            "player_id": "jleague_kashiwa_87",
+            "has_card": true,
+            "name_ja": "山内 日向汰"
+          },
+          {
+            "text": "#15 藤尾翔太",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "15",
+            "player_id": "jleague_kashiwa_15",
+            "has_card": true,
+            "name_ja": "藤尾 翔太"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 猿田遙己",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "1",
+            "player_id": "jleague_kashiwa_1",
+            "has_card": true,
+            "name_ja": "猿田 遥己"
+          },
+          {
+            "text": "#2 三丸擴",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "2",
+            "player_id": "jleague_kashiwa_2",
+            "has_card": true,
+            "name_ja": "三丸 拡"
+          },
+          {
+            "text": "#32 山之內佑成",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "32",
+            "player_id": "jleague_kashiwa_32",
+            "has_card": true,
+            "name_ja": "山之内 佑成"
+          },
+          {
+            "text": "#28 戶嶋祥郎",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "28",
+            "player_id": "jleague_kashiwa_28",
+            "has_card": true,
+            "name_ja": "戸嶋 祥郎"
+          },
+          {
+            "text": "#44 弓場堅真",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "44",
+            "player_id": "jleague_kashiwa_44",
+            "has_card": true,
+            "name_ja": "弓場 堅真"
+          },
+          {
+            "text": "#51 滿田誠",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "51",
+            "player_id": "jleague_kashiwa_51",
+            "has_card": true,
+            "name_ja": "満田 誠"
+          },
+          {
+            "text": "#11 渡井理己",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "11",
+            "player_id": "jleague_kashiwa_11",
+            "has_card": true,
+            "name_ja": "渡井 理己"
+          },
+          {
+            "text": "#20 瀨川祐輔",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "20",
+            "player_id": "jleague_kashiwa_20",
+            "has_card": true,
+            "name_ja": "瀬川 祐輔"
+          },
+          {
+            "text": "#9 細谷真大",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "9",
+            "player_id": "jleague_kashiwa_9",
+            "has_card": true,
+            "name_ja": "細谷 真大"
+          }
+        ],
         "cues": [
+          {
+            "text": "今日正選11人、後備9人已官方確認；較11月11日首回合更換6名正選。全部20人已對上永久球員卡。未入選原因不可由名單推定。",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ]
+          },
           {
             "text": "首回合柏換5名正選；山田雄士、滿田誠、山之內佑成首回合正選，而11月7日沒有上陣；三丸首回合90分鐘、前仗未上陣。久保首回合90分鐘，前仗18分鐘。以上屬上兩場紀錄，不代表星期日入選。",
             "kind": "fact",
@@ -781,7 +1165,8 @@
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 6
       },
       "analytics": [
         {
@@ -1253,7 +1638,7 @@
       },
       "research_baseline": {
         "as_of": "2026-11-12",
-        "note": "本次完整掃描；聯賽統計首14輪，逐人分鐘11月11日及7日；本場名單待公布。"
+        "note": "11月15日正式名單及球證組已覆核；聯賽統計維持首14輪截點，逐人分鐘為11月11日及7日。"
       },
       "milestones": [
         {
@@ -2980,6 +3365,19 @@
               "published_at": "2026-11-11"
             }
           ]
+        },
+        {
+          "text": "今日正選門將為 #29 永井堅梧，後備 #1 猿田遙己。",
+          "kind": "fact",
+          "as_of": "2026-11-15",
+          "sources": [
+            {
+              "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+              "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+              "accessed_at": "2026-11-15",
+              "published_at": "2026-11-15"
+            }
+          ]
         }
       ],
       "international_duty": [
@@ -3084,9 +3482,364 @@
         }
       ],
       "lineup": {
-        "starters": [],
-        "bench": [],
+        "starters": [
+          {
+            "text": "#1 山口瑠伊",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "1",
+            "player_id": "kawasaki_1",
+            "has_card": true,
+            "name_ja": "山口 瑠伊"
+          },
+          {
+            "text": "#5 佐佐木旭",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "5",
+            "player_id": "kawasaki_5",
+            "has_card": true,
+            "name_ja": "佐々木 旭"
+          },
+          {
+            "text": "#4 柏度・羅曼奴",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "4",
+            "player_id": "kawasaki_4",
+            "has_card": true,
+            "name_ja": "ペドロ ホマーノ"
+          },
+          {
+            "text": "#3 谷口榮斗",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "3",
+            "player_id": "kawasaki_3",
+            "has_card": true,
+            "name_ja": "谷口 栄斗"
+          },
+          {
+            "text": "#29 山原怜音",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "29",
+            "player_id": "kawasaki_29",
+            "has_card": true,
+            "name_ja": "山原 怜音"
+          },
+          {
+            "text": "#8 橘田健人",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "8",
+            "player_id": "kawasaki_8",
+            "has_card": true,
+            "name_ja": "橘田 健人"
+          },
+          {
+            "text": "#6 山本悠樹",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "6",
+            "player_id": "kawasaki_6",
+            "has_card": true,
+            "name_ja": "山本 悠樹"
+          },
+          {
+            "text": "#17 伊藤達哉",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "17",
+            "player_id": "kawasaki_17",
+            "has_card": true,
+            "name_ja": "伊藤 達哉"
+          },
+          {
+            "text": "#14 脇坂泰斗",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "14",
+            "player_id": "kawasaki_14",
+            "has_card": true,
+            "name_ja": "脇坂 泰斗"
+          },
+          {
+            "text": "#23 馬仙奴",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "23",
+            "player_id": "kawasaki_23",
+            "has_card": true,
+            "name_ja": "マルシーニョ"
+          },
+          {
+            "text": "#97 拉斯達",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "97",
+            "player_id": "kawasaki_97",
+            "has_card": true,
+            "name_ja": "デリキ ラセルダ"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#21 早坂勇希",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "21",
+            "player_id": "kawasaki_21",
+            "has_card": true,
+            "name_ja": "早坂 勇希"
+          },
+          {
+            "text": "#2 松長根悠仁",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "2",
+            "player_id": "kawasaki_2",
+            "has_card": true,
+            "name_ja": "松長根 悠仁"
+          },
+          {
+            "text": "#13 三浦颯太",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "13",
+            "player_id": "kawasaki_13",
+            "has_card": true,
+            "name_ja": "三浦 颯太"
+          },
+          {
+            "text": "#22 菲利普・烏雷莫維奇",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "22",
+            "player_id": "kawasaki_22",
+            "has_card": true,
+            "name_ja": "フィリップ ウレモヴィッチ"
+          },
+          {
+            "text": "#28 丸山祐市",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "28",
+            "player_id": "kawasaki_28",
+            "has_card": true,
+            "name_ja": "丸山 祐市"
+          },
+          {
+            "text": "#19 河原創",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "19",
+            "player_id": "kawasaki_19",
+            "has_card": true,
+            "name_ja": "河原 創"
+          },
+          {
+            "text": "#25 山市秀翔",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "25",
+            "player_id": "kawasaki_25",
+            "has_card": true,
+            "name_ja": "山市 秀翔"
+          },
+          {
+            "text": "#93 卡基・基羅斯",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "93",
+            "player_id": "kawasaki_93",
+            "has_card": true,
+            "name_ja": "カイキ ケイロス"
+          },
+          {
+            "text": "#11 小林悠",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ],
+            "number": "11",
+            "player_id": "kawasaki_11",
+            "has_card": true,
+            "name_ja": "小林 悠"
+          }
+        ],
         "cues": [
+          {
+            "text": "今日正選11人、後備9人已官方確認；較11月11日首回合更換4名正選。全部20人已對上永久球員卡。未入選原因不可由名單推定。",
+            "kind": "fact",
+            "as_of": "2026-11-15",
+            "sources": [
+              {
+                "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+                "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+                "accessed_at": "2026-11-15",
+                "published_at": "2026-11-15"
+              }
+            ]
+          },
           {
             "text": "首回合川崎換7名正選；山口、谷口、小林首回合正選而前仗沒有上陣。山原、佐佐木、伊藤連續兩場正選；脇坂兩場共171分鐘。這是上兩場紀錄，不是星期日預測。",
             "kind": "fact",
@@ -3106,7 +3859,8 @@
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 4
       },
       "style": [
         {
@@ -4647,7 +5401,7 @@
       },
       "goalkeeper_analysis": [
         {
-          "text": "首回合改用1號山口瑠伊，49號布羅德森後備。長谷部表示把門將納入組織不是只針對山口個人的部署；星期日人選待名單。",
+          "text": "首回合改用1號山口瑠伊，49號布羅德森後備。長谷部表示把門將納入組織不是只針對山口個人的部署；今日門將人選見正式名單。",
           "kind": "fact",
           "as_of": "2026-11-12",
           "sources": [
@@ -4662,6 +5416,19 @@
               "url": "https://www.frontale.co.jp/goto_game/2026-27/levain_cup/04.html",
               "accessed_at": "2026-11-12",
               "published_at": "2026-11-11"
+            }
+          ]
+        },
+        {
+          "text": "今日正選門將為 #1 山口瑠伊，後備 #21 早坂勇希。",
+          "kind": "fact",
+          "as_of": "2026-11-15",
+          "sources": [
+            {
+              "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+              "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+              "accessed_at": "2026-11-15",
+              "published_at": "2026-11-15"
             }
           ]
         }
@@ -4701,7 +5468,7 @@
       ],
       "research_baseline": {
         "as_of": "2026-11-12",
-        "note": "本次完整掃描；聯賽統計首14輪，逐人分鐘11月11日及7日；本場名單待公布。"
+        "note": "11月15日正式名單及球證組已覆核；聯賽統計維持首14輪截點，逐人分鐘為11月11日及7日。"
       },
       "registration_audit": {
         "as_of": "2026-11-12",
@@ -7195,7 +7962,6 @@
     ]
   },
   "coverage_gaps": [
-    "星期日正式正選、後備、球證委任未公布；未預測名單。",
     "伊藤達哉首回合退下後診斷、柏大久保／若原及川崎野田／林／羅曼尼治本週醫療現況未確認。",
     "停賽公告最新可取得為11月9日，早於首回合；次回合前仍須核對新公告。",
     "20名無一隊背號二種球員已補永久登錄資料卡，但慣用腳、個人戰術、獨立人物研究及青年年份未齊，不標作完整已驗證卡；中文名待Scott確認。",
@@ -7205,14 +7971,15 @@
   ],
   "quick_read": [
     {
-      "text": "11月15日（日）17:00日本／16:00香港開球；15:55香港播出。三協Frontier柏體育場，聯賽盃八強次回合。",
+      "text": "原定16:00香港／17:00日本開球；柏官方比賽頁另列17:03日本。15:55香港播出；三協Frontier柏體育場，聯賽盃八強次回合。",
       "kind": "fact",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-15",
       "sources": [
         {
-          "label": "柏官方・11月15日比賽資訊",
-          "url": "https://www.reysol.co.jp/game/results/202627/1115i.php",
-          "accessed_at": "2026-11-12"
+          "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+          "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+          "accessed_at": "2026-11-15",
+          "published_at": "2026-11-15"
         }
       ]
     },
@@ -7264,15 +8031,15 @@
       ]
     },
     {
-      "text": "連續第三場柏對川崎；兩隊距首回合均中3日。谷口已復出；伊藤首回合要求被換走，傷情及星期日可用性待確認。",
+      "text": "連續第三場柏對川崎；兩隊距首回合均中3日。谷口及伊藤今日均正選；柏換6名正選，川崎換4名正選，40名入選球員全部有永久卡。",
       "kind": "fact",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-15",
       "sources": [
         {
-          "label": "川崎官方・11月11日首回合戰報及賽後訪問",
-          "url": "https://www.frontale.co.jp/goto_game/2026-27/levain_cup/04.html",
-          "accessed_at": "2026-11-12",
-          "published_at": "2026-11-11"
+          "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+          "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+          "accessed_at": "2026-11-15",
+          "published_at": "2026-11-15"
         }
       ]
     }
@@ -7348,14 +8115,15 @@
       ]
     },
     {
-      "text": "代表隊徵召與伊藤傷情須等官方名單；任何青年球員入選先核對官方姓名及一隊號碼。",
+      "text": "雙方正選及後備共40人均已核對永久卡；伊藤達哉今日正選。未入選者原因仍須分辨代表隊、傷病與選拔，不推定輪休。",
       "kind": "fact",
-      "as_of": "2026-11-12",
+      "as_of": "2026-11-15",
       "sources": [
         {
-          "label": "柏官方・11月15日比賽資訊",
-          "url": "https://www.reysol.co.jp/game/results/202627/1115i.php",
-          "accessed_at": "2026-11-12"
+          "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
+          "label": "柏官方・11月15日雙方正式正選／後備及球證組",
+          "accessed_at": "2026-11-15",
+          "published_at": "2026-11-15"
         }
       ]
     }
@@ -7603,12 +8371,12 @@
     }
   ],
   "research_sweep": {
-    "checked_at": "2026-11-12",
-    "status": "published_content_ready_with_declared_gaps",
+    "checked_at": "2026-11-15",
+    "status": "official_lineups_and_cards_verified_with_declared_research_gaps",
     "registration_count": 100,
     "numbered_permanent_cards": 80,
     "supplementary_identity_cards": 20,
-    "lineups_confirmed": false,
+    "lineups_confirmed": true,
     "assignment_checked": "2026-11-11 revised roster",
     "source_cutoffs": {
       "match_reports": "2026-11-11",
@@ -7616,6 +8384,64 @@
       "football_lab": "2026-11-09",
       "registration_datasite": "2026-11-10",
       "weather": "2026-11-12"
+    },
+    "lineup_card_audit": {
+      "kashiwa": {
+        "starters": 11,
+        "bench": 9,
+        "matched_permanent_cards": 20,
+        "missing_cards": [],
+        "player_ids": [
+          "jleague_kashiwa_29",
+          "jleague_kashiwa_24",
+          "jleague_kashiwa_42",
+          "jleague_kashiwa_4",
+          "jleague_kashiwa_26",
+          "jleague_kashiwa_39",
+          "jleague_kashiwa_40",
+          "jleague_kashiwa_8",
+          "jleague_kashiwa_5",
+          "jleague_kashiwa_87",
+          "jleague_kashiwa_15",
+          "jleague_kashiwa_1",
+          "jleague_kashiwa_2",
+          "jleague_kashiwa_32",
+          "jleague_kashiwa_28",
+          "jleague_kashiwa_44",
+          "jleague_kashiwa_51",
+          "jleague_kashiwa_11",
+          "jleague_kashiwa_20",
+          "jleague_kashiwa_9"
+        ]
+      },
+      "kawasaki": {
+        "starters": 11,
+        "bench": 9,
+        "matched_permanent_cards": 20,
+        "missing_cards": [],
+        "player_ids": [
+          "kawasaki_1",
+          "kawasaki_5",
+          "kawasaki_4",
+          "kawasaki_3",
+          "kawasaki_29",
+          "kawasaki_8",
+          "kawasaki_6",
+          "kawasaki_17",
+          "kawasaki_14",
+          "kawasaki_23",
+          "kawasaki_97",
+          "kawasaki_21",
+          "kawasaki_2",
+          "kawasaki_13",
+          "kawasaki_22",
+          "kawasaki_28",
+          "kawasaki_19",
+          "kawasaki_25",
+          "kawasaki_93",
+          "kawasaki_11"
+        ]
+      }
     }
   }
 }

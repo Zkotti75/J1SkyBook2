@@ -6,12 +6,12 @@ const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const d=read('data/matches/2026-11-15-kashiwa-kawasaki.json');
 const audit=read('data/registration-audits/2026-11-12-kashiwa-kawasaki.json');
 const home=read('data/clubs/kashiwa.json'),away=read('data/clubs/kawasaki.json');
-test('Sunday refresh preserves ten sections, complete league schedule and honest pre-lineup state',()=>{
- assert.equal(d.as_of,'2026-11-12');assert.equal(d.match_info.lineups_as_of,null);
+test('Sunday refresh preserves ten sections, complete league schedule and official lineups and full card coverage',()=>{
+ assert.equal(d.as_of,'2026-11-15');assert.ok(d.match_info.lineups_as_of);assert.equal(d.match_info.officials.status,'confirmed');
  assert.equal(d.match_info.commentary.partner,'冼家裕');
  assert.equal(matchPages(d).length,10);assert.equal(new Set(d.standings.rows.map(r=>r.slug)).size,20);
  for(const slug of ['kashiwa','kawasaki']){
-  const t=d.teams[slug];assert.deepEqual(t.lineup.starters,[]);assert.deepEqual(t.lineup.bench,[]);assert.equal(t.workload_absences.pending,true);
+  const t=d.teams[slug];assert.equal(t.lineup.starters.length,11);assert.equal(t.lineup.bench.length,9);const club=slug==='kashiwa'?home:away;for(const selected of [...t.lineup.starters,...t.lineup.bench]){const card=club.players.find(p=>p.number===selected.number);assert.ok(card);assert.equal(card.id,selected.player_id);assert.equal(selected.has_card,true);}assert.equal(t.workload_absences.pending,true);
   const league=t.game_log.filter(g=>g.competition.startsWith('J1'));assert.equal(league.length,38);assert.equal(league.filter(g=>g.score).length,14);
   assert.ok(t.game_log.filter(g=>(g.date||g.sort_date)>'2026-11-12').every(g=>g.score===null));
   for(const key of ['minutes','prior_minutes'])assert.equal(t.workload.minutes.reduce((s,p)=>s+p[key],0),990);
