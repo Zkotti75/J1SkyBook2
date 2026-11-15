@@ -102,3 +102,10 @@ test('unnumbered official registrants have distinct permanent deep links without
  location.hash='#/club/kawasaki/registration/1657712';await settled();
  assert.ok(element('#detail').innerHTML.includes('青木 馨'));
 });
+
+test('league assignments retain the separate cup tab and allow its deep link',async()=>{
+ location.hash=route('cup');await settled();
+ assert.equal(hash,route('cup'));
+ assert.ok(element('#match-nav').innerHTML.includes('盃賽專區'));
+ assert.ok(element('#detail').innerHTML.includes('全部 52 場'));
+});
