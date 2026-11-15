@@ -225,7 +225,9 @@ function workloadContext(t,date) {
  const w=t.workload;if(!w)return '<p>近期逐人分鐘尚未核對。</p>';
  const describe=d=>{const g=t.game_log?.find(g=>g.date===d);return e(d)+(g?'・'+e(g.competition)+'・'+e(g.venue)+'對'+e(g.opponent):'');};
  const rest=validDate(w.match_date)&&validDate(date)?Math.round((Date.parse(date)-Date.parse(w.match_date))/86400000)-1:null;
- return `<p><strong>上仗：${describe(w.match_date)}</strong>${rest!=null?'｜中'+rest+'日':''}</p><p>前仗：${describe(w.baseline_match_date)}</p><p class="section-meta">${e(w.minutes_note||'分鐘不含補時。')} 0名義分鐘不代表已證實體能充足；補時入替另有標示。</p>`;
+ const intervening=(t.game_log||[]).filter(g=>validDate(g.date)&&g.date>w.match_date&&g.date<date&&g.score==null);
+ const interval=rest==null?'':intervening.length?'｜距已記錄上仗'+(rest+1)+'日；期間另有未賽賽事，非連續休息日':'｜中'+rest+'日';
+ return `<p><strong>上仗：${describe(w.match_date)}</strong>${e(interval)}</p>${intervening.length?'<p>本場之前尚有：'+intervening.map(g=>describe(g.date)).join('、')+'。完場後須刷新分鐘及恢復間隔。</p>':''}<p>前仗：${describe(w.baseline_match_date)}</p><p class="section-meta">${e(w.minutes_note||'分鐘不含補時。')} 0名義分鐘不代表已證實體能充足；補時入替另有標示。</p>`;
 }
 function absentRegulars(t) {
  const a=t.workload_absences;

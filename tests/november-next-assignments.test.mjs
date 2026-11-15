@@ -9,5 +9,5 @@ test('November 21 and 25 assignments preserve all sections, full schedules and h
   for(const page of matchPages(d)){const h=renderMatchPage({home,away,dossier:d,date:d.date,page:page.id});assert.ok(!/undefined|NaN/.test(h));}
   const cup=renderMatchPage({home,away,dossier:d,date:d.date,page:'cup'});assert.ok(cup.includes('全部 52 場'));assert.ok(cup.includes('晉級：浦和紅鑽'));assert.ok(cup.includes('晉級：柏太陽王'));assert.ok(!cup.includes('晉級：待定'));
  }
- const d=read('data/matches/2026-11-25-nagasaki-kawasaki.json');assert.equal(d.teams.kawasaki.game_log.find(g=>g.date==='2026-11-15').score,'4–5');assert.ok(d.coverage_gaps.some(g=>g.includes('11月21日')));assert.equal(d.teams.nagasaki.game_log.find(g=>g.date==='2026-09-29').venue,'客');
+ const d=read('data/matches/2026-11-25-nagasaki-kawasaki.json');assert.equal(d.teams.kawasaki.game_log.find(g=>g.date==='2026-11-15').score,'4–5');assert.ok(d.coverage_gaps.some(g=>g.includes('11月21日')));assert.equal(d.teams.nagasaki.game_log.find(g=>g.date==='2026-09-29').venue,'客');const rotation=renderMatchPage({home:read('data/clubs/nagasaki.json'),away:read('data/clubs/kawasaki.json'),dossier:d,date:d.date,page:'rotation'});assert.ok(rotation.includes('期間另有未賽賽事'));assert.ok(!rotation.includes('｜中17日'));assert.ok(rotation.includes('2026-11-21'));
 });
