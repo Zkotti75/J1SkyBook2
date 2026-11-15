@@ -1,17 +1,24 @@
 {
   "schema_version": 1,
   "featured": {
-    "home": "kashiwa",
-    "away": "kawasaki",
-    "date": "2026-11-15"
+    "home": "hiroshima",
+    "away": "yokohama-fm",
+    "date": "2026-11-21"
   },
   "fixtures": [
     {
-      "home": "kashiwa",
+      "home": "hiroshima",
+      "away": "yokohama-fm",
+      "date": "2026-11-21",
+      "file": "2026-11-21-hiroshima-yokohama-fm.json",
+      "competition": "j1"
+    },
+    {
+      "home": "nagasaki",
       "away": "kawasaki",
-      "date": "2026-11-15",
-      "file": "2026-11-15-kashiwa-kawasaki.json",
-      "competition": "leaguecup"
+      "date": "2026-11-25",
+      "file": "2026-11-25-nagasaki-kawasaki.json",
+      "competition": "j1"
     }
   ]
 }
