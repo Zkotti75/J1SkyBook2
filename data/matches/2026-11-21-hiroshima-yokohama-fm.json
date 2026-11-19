@@ -3,10 +3,10 @@
   "home": "hiroshima",
   "away": "yokohama-fm",
   "date": "2026-11-21",
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-19",
   "competition": "j1",
   "interview_layout": "team_columns",
-  "coverage_note": "下一場評述初次準備（11月15日）：日期／時間及最新Gmail編排已確認；完整聯賽榜、38輪賽程、盃賽專區與首14輪數據已載入，近期負荷另列日期。這不是正式名單後最終掃描；醫療、紀律、訪問及中途賽事仍須跟進。",
+  "coverage_note": "11月19日定點傷停／紀律更新：山根陸左膝診斷及15日19分鐘退下已互核；諏訪間幸成、宮市亮21日停賽已確認。角田可能缺陣屬預告，金周成恢復狀態屬本人自述。本場正選、全部後備及球證仍待官方公布；球季數據及分鐘保留各自舊截點。",
   "match_info": {
     "competition_zh": "2026/27日本J1聯賽・第15節",
     "kickoff_hkt": "13:00（日本14:00；播出12:55 HKT）",
@@ -1714,15 +1714,28 @@
           ]
         },
         {
-          "text": "本頁為初次準備，尚未完成比賽日前醫療／復操覆核；沒有列出不代表全員健康。",
-          "kind": "fact",
-          "as_of": "2026-11-15",
+          "text": "金周成：J.League賽前預告引述本人稱經過這兩星期恢復，狀態已接近十足。此為球員對自身狀態的說法，並非獨立醫療判定，亦不等於已確認本場正選。",
+          "kind": "reported",
+          "as_of": "2026-11-19",
           "sources": [
             {
-              "label": "Football LAB・11月9日更新，J1首14輪",
-              "url": "https://www.football-lab.jp/hiro/",
-              "accessed_at": "2026-11-15",
-              "published_at": "2026-11-09"
+              "label": "J.League官方賽前預告・寺田弘幸",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+              "accessed_at": "2026-11-19"
+            }
+          ],
+          "number": "37",
+          "availability_status": "player_reported_near_full_fitness"
+        },
+        {
+          "text": "其餘球員的最新醫療、復操及代表隊歸隊狀態仍需比賽日前再核對；未列出不代表全員健康。",
+          "kind": "fact",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "label": "J.League官方賽前預告・寺田弘幸",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+              "accessed_at": "2026-11-19"
             }
           ]
         }
@@ -1798,9 +1811,35 @@
               "published_at": "2026-11-08"
             }
           ]
+        },
+        {
+          "text": "J.League預告引述主教練指代表賽期重點是讓球員恢復身心，並由少人數訓練逐步增加；留隊球員與海外代表回歸者的負荷不能一概而論。",
+          "kind": "reported",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "label": "J.League官方賽前預告・寺田弘幸",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+              "accessed_at": "2026-11-19"
+            }
+          ]
         }
       ],
-      "milestones": []
+      "milestones": [],
+      "international_duty": [
+        {
+          "text": "官方預告列中野就斗、Kusini Yengi、中島洋太朗及小林志紋參與海外代表隊活動；回程、時差與歸隊狀態仍有不確定。此處不填未逐場核實的代表上陣分鐘，也不把徵召等同本場缺陣。",
+          "kind": "reported",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "label": "J.League官方賽前預告・寺田弘幸",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+              "accessed_at": "2026-11-19"
+            }
+          ]
+        }
+      ]
     },
     "yokohama-fm": {
       "game_log": [
@@ -3435,31 +3474,107 @@
           ]
         },
         {
-          "text": "本頁為初次準備，尚未完成比賽日前醫療／復操覆核；沒有列出不代表全員健康。",
+          "text": "山根陸：11月19日球會公布左膝內側副韌帶損傷，受傷場次為11月15日聯賽盃作客鹿島。官方比賽紀錄確認19分鐘由田中雄大入替。球會表示復出時間須按康復進度審慎判斷，未公布日期；不自行估計休戰週數。",
           "kind": "fact",
-          "as_of": "2026-11-15",
+          "as_of": "2026-11-19",
           "sources": [
             {
-              "label": "Football LAB・11月9日更新，J1首14輪",
-              "url": "https://www.football-lab.jp/y-fm/",
-              "accessed_at": "2026-11-15",
-              "published_at": "2026-11-09"
+              "label": "橫濱官方・11月19日山根陸傷患公告",
+              "url": "https://www.f-marinos.com/news/team/10930",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-19"
+            },
+            {
+              "label": "J.League・山根陸診斷公告",
+              "url": "https://www.jleague.jp/news/article/35392/?navicode=j1",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-19"
+            },
+            {
+              "label": "橫濱官方・11月15日鹿島戰完整換人紀錄",
+              "url": "https://www.f-marinos.com/matches/20261115/matchdata/",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-15"
+            }
+          ],
+          "player_id": "yokohama_28",
+          "number": "28",
+          "availability_status": "injury_confirmed_return_unknown"
+        },
+        {
+          "text": "角田涼太朗：官方比賽紀錄確認15日半場退下；J.League賽前預告指今場大有可能缺陣，屬預告判斷，並非球會已確認本場缺陣或正式名單。傷患診斷及最終可用性仍待核實。",
+          "kind": "reported",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "label": "J.League官方賽前預告・寺田弘幸",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+              "accessed_at": "2026-11-19"
+            },
+            {
+              "label": "橫濱官方・11月15日鹿島戰完整換人紀錄",
+              "url": "https://www.f-marinos.com/matches/20261115/matchdata/",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-15"
+            }
+          ],
+          "number": "22",
+          "availability_status": "reported_likely_absent"
+        },
+        {
+          "text": "其餘球員的本場醫療／復操仍待較近開球的公告；歷史傷患不直接當作今場確定缺陣。",
+          "kind": "fact",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "label": "橫濱官方・11月19日山根陸傷患公告",
+              "url": "https://www.f-marinos.com/news/team/10930",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-19"
+            },
+            {
+              "label": "J.League・山根陸診斷公告",
+              "url": "https://www.jleague.jp/news/article/35392/?navicode=j1",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-19"
             }
           ]
         }
       ],
       "suspensions": [
         {
-          "text": "本頁J1有效黃牌累積及停賽仍待最新官方公告逐人核對；不把聯賽盃紅黃牌直接帶入J1。",
+          "text": "諏訪間幸成：J.League 11月16日官方公告確認，11月21日J1第15節停賽一場（J1(a)）；不能列入本場可用球員或當作輪休。",
           "kind": "fact",
-          "as_of": "2026-11-15",
+          "as_of": "2026-11-19",
           "sources": [
             {
-              "label": "J.League Data Site・停賽公告",
-              "url": "https://data.j-league.or.jp/SFIN03/",
-              "accessed_at": "2026-11-15"
+              "label": "J.League・11月16日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35370/?navicode=j1",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-16"
             }
-          ]
+          ],
+          "number": "33",
+          "availability_status": "suspended",
+          "competition": "J1",
+          "match_date": "2026-11-21"
+        },
+        {
+          "text": "宮市亮：同一官方公告確認11月21日J1第15節停賽，標示「※」，即其他賽事停賽處分影響本場參賽；不寫成J1累積四黃。",
+          "kind": "fact",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "label": "J.League・11月16日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35370/?navicode=j1",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-16"
+            }
+          ],
+          "number": "23",
+          "availability_status": "suspended",
+          "competition": "J1",
+          "match_date": "2026-11-21"
         }
       ],
       "yellow_risk": [],
@@ -3517,6 +3632,36 @@
               "url": "https://www.jleague.jp/match/leaguecup/2026/111503/",
               "accessed_at": "2026-11-15",
               "published_at": "2026-11-15"
+            }
+          ]
+        },
+        {
+          "text": "橫濱已確認諏訪間幸成及宮市亮停賽，山根陸左膝內側副韌帶受傷而未有復出日期；角田涼太朗只是預告指大有可能缺陣。防線及中場配置要待21日正式名單，不能預填四後衛或三後衛。",
+          "kind": "fact",
+          "as_of": "2026-11-19",
+          "sources": [
+            {
+              "label": "J.League・11月16日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35370/?navicode=j1",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-16"
+            },
+            {
+              "label": "橫濱官方・11月19日山根陸傷患公告",
+              "url": "https://www.f-marinos.com/news/team/10930",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-19"
+            },
+            {
+              "label": "J.League・山根陸診斷公告",
+              "url": "https://www.jleague.jp/news/article/35392/?navicode=j1",
+              "accessed_at": "2026-11-19",
+              "published_at": "2026-11-19"
+            },
+            {
+              "label": "J.League官方賽前預告・寺田弘幸",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+              "accessed_at": "2026-11-19"
             }
           ]
         }
@@ -4746,16 +4891,37 @@
     },
     "context_note": "11月15日八強兩回合全部結束；浦和、柏、鹿島、町田晉級。以下屬聯賽盃獨立資料，不與本頁J1聯賽積分混算。"
   },
-  "quote_events": [],
+  "quote_events": [
+    {
+      "date": "2026-11-19",
+      "title": "J.League官方預告・恢復狀態",
+      "entries": [
+        {
+          "team_slug": "hiroshima",
+          "speaker": "金周成",
+          "role": "球員",
+          "category": "team",
+          "published_at": "2026-11-19",
+          "date_basis": "accessed",
+          "date_note": "官方預告未明列訪問日期；19日覆核，非聲稱19日受訪。",
+          "outlet": "J.League官方預告／寺田弘幸",
+          "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+          "paraphrase_zh": "11月19日覆核官方預告（採訪日未列）：官方預告引述本人稱兩星期後痛楚改善，狀態接近十足；這是自述，並非本場正選確認。",
+          "quote_ja": null,
+          "quote_zh": null
+        }
+      ]
+    }
+  ],
   "quote_status": {
-    "text": "新賽事頁已建立；尚未完成上仗賽後至本場的逐則訪問研究，不把其他賽事的預告或較早訪問冒充本場發言。",
+    "text": "已補官方預告的有歸屬狀態摘要；未明列採訪日者以19日覆核日標記。其他最新訪問及正式名單前消息仍待補。",
     "kind": "fact",
-    "as_of": "2026-11-15",
+    "as_of": "2026-11-19",
     "sources": [
       {
-        "label": "J.League官方・本場日期／開球／場地",
-        "url": "https://www.jleague.jp/match/j1/2026/112103/",
-        "accessed_at": "2026-11-15"
+        "label": "J.League官方賽前預告・寺田弘幸",
+        "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+        "accessed_at": "2026-11-19"
       }
     ]
   },
@@ -4786,6 +4952,85 @@
             "published_at": "2026-11-15"
           }
         ]
+      },
+      {
+        "text": "橫濱已確認諏訪間幸成及宮市亮停賽，山根陸左膝內側副韌帶受傷而未有復出日期；角田涼太朗只是預告指大有可能缺陣。防線及中場配置要待21日正式名單，不能預填四後衛或三後衛。",
+        "kind": "fact",
+        "as_of": "2026-11-19",
+        "sources": [
+          {
+            "label": "J.League・11月16日停賽公告",
+            "url": "https://www.jleague.jp/news/article/35370/?navicode=j1",
+            "accessed_at": "2026-11-19",
+            "published_at": "2026-11-16"
+          },
+          {
+            "label": "橫濱官方・11月19日山根陸傷患公告",
+            "url": "https://www.f-marinos.com/news/team/10930",
+            "accessed_at": "2026-11-19",
+            "published_at": "2026-11-19"
+          },
+          {
+            "label": "J.League・山根陸診斷公告",
+            "url": "https://www.jleague.jp/news/article/35392/?navicode=j1",
+            "accessed_at": "2026-11-19",
+            "published_at": "2026-11-19"
+          },
+          {
+            "label": "J.League官方賽前預告・寺田弘幸",
+            "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+            "accessed_at": "2026-11-19"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "防線人腳與轉守・11月19日更新",
+        "paragraphs": [
+          {
+            "text": "諏訪間停賽、角田可能缺陣，橫濱的中堅組合及三／四後衛選擇成為觀察點；山根受傷亦增加中場接應與保護防線的變數。這是根據已核實缺口的天書分析，沒有預測正選或指定替補。",
+            "kind": "analysis",
+            "as_of": "2026-11-19",
+            "sources": [
+              {
+                "label": "J.League・11月16日停賽公告",
+                "url": "https://www.jleague.jp/news/article/35370/?navicode=j1",
+                "accessed_at": "2026-11-19",
+                "published_at": "2026-11-16"
+              },
+              {
+                "label": "橫濱官方・11月19日山根陸傷患公告",
+                "url": "https://www.f-marinos.com/news/team/10930",
+                "accessed_at": "2026-11-19",
+                "published_at": "2026-11-19"
+              },
+              {
+                "label": "J.League・山根陸診斷公告",
+                "url": "https://www.jleague.jp/news/article/35392/?navicode=j1",
+                "accessed_at": "2026-11-19",
+                "published_at": "2026-11-19"
+              },
+              {
+                "label": "J.League官方賽前預告・寺田弘幸",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+                "accessed_at": "2026-11-19"
+              }
+            ]
+          },
+          {
+            "text": "廣島可觀察金周成與荒木、中野的協作，但金周成接近十足狀態屬本人自述；中野等代表隊回歸者的恢復情況要與留隊球員分開，實際組合仍待正式名單。",
+            "kind": "analysis",
+            "as_of": "2026-11-19",
+            "sources": [
+              {
+                "label": "J.League官方賽前預告・寺田弘幸",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+                "accessed_at": "2026-11-19"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4799,6 +5044,18 @@
           "label": "J.League官方・本場日期／開球／場地",
           "url": "https://www.jleague.jp/match/j1/2026/112103/",
           "accessed_at": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "text": "21日正式名單及全部後備公布後，逐人對永久卡與完整登錄，尤其青年及臨時徵召；未有名單前不使用預測人腳。角田可用性、代表隊歸隊、球證及天氣另核。",
+      "kind": "fact",
+      "as_of": "2026-11-19",
+      "sources": [
+        {
+          "label": "J.League官方賽前預告・寺田弘幸",
+          "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
+          "accessed_at": "2026-11-19"
         }
       ]
     }
@@ -4849,21 +5106,27 @@
   },
   "coverage_gaps": [
     "本場正式正選、後備、球證、比賽日天氣尚未核實。",
-    "本場最新傷停／復操、J1有效黃牌及代表隊歸隊需再掃描；歷史醫療公告不能等同本場缺陣。",
-    "最新訪問、完整近五次交鋒、同截點助攻／xA、時段及門將數據仍待核實。",
+    "山根診斷、諏訪間／宮市停賽已核實；角田最終可用性、其餘醫療／復操、J1有效黃牌及代表隊歸隊狀態仍需再核。歷史醫療公告不等於本場缺陣。",
+    "其餘最新訪問、完整近五次交鋒、同截點助攻／xA、時段及門將數據仍待核實。",
     "完整註冊及永久青年球員卡未在本次初次準備重新做全隊批次；本場入選後須對照正式名單。",
     "廣島官方聯賽榜與Football LAB入失球口徑有差異，05已分開標示。"
   ],
   "section_status": {
     "info": "部分：編排／日期／場地完成；天氣及球證待核",
-    "quotes": "待本場訪問研究",
+    "quotes": "部分：官方預告金周成狀態摘要；覆核日與採訪日分開，其餘訪問待補",
     "comparison": "首14輪及近期逐場紀錄完成；完整五次對賽待核",
-    "availability": "歷史公告有日期保留；本場醫療及紀律未確認",
+    "availability": "部分：山根診斷及兩人停賽已確認；角田可能缺陣／金周成自述有歸屬；其餘醫療及有效黃牌待核",
     "analytics": "首14輪Football LAB更新；缺項明示",
     "rotation": "截至11月15日最近兩場參考；本場選拔待公布",
     "players": "已有永久卡及有來源使用量焦點；未做新人物批次",
-    "preview": "初步賽程及盃賽背景；臨場部署待名單",
+    "preview": "已補傷停及防線選擇分析；不預測人腳，名單公布後再核",
     "logs": "20隊官方榜、每隊38輪及已知盃賽",
     "cup": "52場首階段、八強兩回合、晉級及兩隊路線"
+  },
+  "research_sweep": {
+    "as_of": "2026-11-19",
+    "scope": "targeted_availability_and_preview_refresh",
+    "lineups_status": "pending",
+    "note": "本次只更新指定傷停／紀律及官方預告；沒有宣稱完成所有章節或國際賽逐場分鐘核對。"
   }
 }
