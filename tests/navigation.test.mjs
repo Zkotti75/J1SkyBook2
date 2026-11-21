@@ -77,7 +77,7 @@ test('identical team selection is corrected and browser back restores menu', asy
 test('upcoming assignments switch while completed links return to the current fixture',async()=>{
  location.hash='#/match/machida/hiroshima/2026-11-08/preview';await settled();
  assert.equal(hash,route('preview'));
- assert.ok(element('#detail').innerHTML.includes('廣島三箭'));
+ assert.ok(element('#detail').innerHTML.includes('長崎成功丸'));
  location.hash='#/match/fc-tokyo/kashima/2026-11-07/quotes';await settled();
  assert.equal(hash,route('quotes'));
  assert.ok(element('#detail').innerHTML.includes('主教練訪問'));
