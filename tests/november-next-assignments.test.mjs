@@ -21,7 +21,7 @@ test('November 21 and 25 assignments preserve all sections, full schedules and h
  });
 
 test('November 21 actual full squads reconcile all 40 permanent cards including yesterday youth registration',()=>{
-const d=read('data/matches/2026-11-21-hiroshima-yokohama-fm.json');assert.equal(d.selection_audit.selected_count,40);assert.equal(d.match_info.officials.roles.length,6);
+const d=read('data/matches/2026-11-21-hiroshima-yokohama-fm.json');assert.equal(d.selection_audit.selected_count,40);assert.equal(d.match_info.officials.roles.length,6);assert.deepEqual(d.match_info.officials.roles.map(r=>r.id),['referee','assistant_1','assistant_2','fourth_official','var','avar']);assert.ok(d.match_info.officials.roles.every(r=>r.name_ja&&r.status==='confirmed'));
 for(const slug of [d.home,d.away]){const c=read('data/clubs/'+slug+'.json');for(const p of [...d.teams[slug].lineup.starters,...d.teams[slug].lineup.bench]){assert.equal(p.has_card,true);assert.ok(c.players.find(q=>q.number===p.number&&q.id===p.player_id));}}
 const c=read('data/clubs/yokohama-fm.json'),p=c.players.find(p=>p.number==='56');assert.equal(p.verification_status,'research_incomplete');assert.equal(p.official_player_id,'1659407');assert.ok(d.teams['yokohama-fm'].lineup.bench.some(p=>p.number==='56'));assert.ok(d.teams['yokohama-fm'].lineup.starters.some(p=>p.number==='54'));assert.ok(d.teams['yokohama-fm'].lineup.bench.some(p=>p.number==='55'));
 assert.equal(d.standings.rows.find(r=>r.slug==='kashiwa').played,15);assert.equal(d.standings.rows.find(r=>r.slug==='kashiwa').goal_difference,10);
