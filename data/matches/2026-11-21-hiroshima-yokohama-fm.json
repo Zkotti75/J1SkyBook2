@@ -3,16 +3,16 @@
   "home": "hiroshima",
   "away": "yokohama-fm",
   "date": "2026-11-21",
-  "as_of": "2026-11-19",
+  "as_of": "2026-11-21",
   "competition": "j1",
   "interview_layout": "team_columns",
-  "coverage_note": "11月19日定點傷停／紀律更新：山根陸左膝診斷及15日19分鐘退下已互核；諏訪間幸成、宮市亮21日停賽已確認。角田可能缺陣屬預告，金周成恢復狀態屬本人自述。本場正選、全部後備及球證仍待官方公布；球季數據及分鐘保留各自舊截點。",
+  "coverage_note": "21日正式名單：兩隊各11名正選及9名後備，40人全數對上永久卡；草野陸56號身份資料卡已補（人物研究未完成）。六名球證已確認，聯賽榜更新至周五20日21:26 JST。統計及前兩場分鐘保留原有截點。",
   "match_info": {
     "competition_zh": "2026/27日本J1聯賽・第15節",
     "kickoff_hkt": "13:00（日本14:00；播出12:55 HKT）",
     "stadium": "EDION PEACE WING HIROSHIMA",
-    "lineups_as_of": null,
-    "selection_note": "本場正式名單未公布，不使用其他場次名單代填。",
+    "lineups_as_of": "2026-11-21T12:46:57+09:00，兩隊各11正選＋9後備已互核",
+    "selection_note": "40名正式入選者全數有永久卡；56號草野陸為新補身份卡，人物研究未完成。沒有把入選預填作本場上陣。",
     "sources": [
       {
         "label": "J.League官方・本場日期／開球／場地",
@@ -41,14 +41,59 @@
       ]
     },
     "officials": {
-      "status": "pending",
-      "roles": [],
-      "note": "本場球證組尚待官方委任核實。",
+      "status": "confirmed",
+      "as_of": "2026-11-21",
+      "note": "J.League六名球證；球會頁交叉確認前四職。",
+      "roles": [
+        {
+          "role": "主球證",
+          "name": "福島 孝一郎",
+          "status": "confirmed"
+        },
+        {
+          "role": "旁證1",
+          "name": "堀越 雅弘",
+          "status": "confirmed"
+        },
+        {
+          "role": "旁證2",
+          "name": "津野 洋平",
+          "status": "confirmed"
+        },
+        {
+          "role": "第4球證",
+          "name": "大穂 祐太",
+          "status": "confirmed"
+        },
+        {
+          "role": "VAR",
+          "name": "御厨 貴文",
+          "status": "confirmed"
+        },
+        {
+          "role": "AVAR",
+          "name": "塩津 祐介",
+          "status": "confirmed"
+        }
+      ],
       "sources": [
         {
-          "label": "J.League官方・本場日期／開球／場地",
+          "label": "J.League官方・本場完整名單及球證",
           "url": "https://www.jleague.jp/match/j1/2026/112103/",
-          "accessed_at": "2026-11-15"
+          "accessed_at": "2026-11-21",
+          "published_at": "2026-11-21"
+        },
+        {
+          "label": "廣島官方・本場完整名單",
+          "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+          "accessed_at": "2026-11-21",
+          "published_at": "2026-11-21"
+        },
+        {
+          "label": "橫濱官方・本場完整名單",
+          "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+          "accessed_at": "2026-11-21",
+          "published_at": "2026-11-21"
         }
       ]
     },
@@ -592,13 +637,14 @@
         "goal_difference": 22,
         "matches": 14,
         "season": "2026/27",
-        "as_of": "2026-11-08",
+        "as_of": "2026-11-20",
         "competition": "J1首14輪",
         "sources": [
           {
-            "label": "J.League官方・首14輪聯賽榜",
+            "label": "J.League官方榜・11月20日21:26 JST更新",
             "url": "https://www.jleague.jp/j1/standings/",
-            "accessed_at": "2026-11-15"
+            "accessed_at": "2026-11-21",
+            "published_at": "2026-11-21"
           }
         ]
       },
@@ -607,12 +653,715 @@
         "note": "新賽事初次準備；聯賽統計首14輪，最近兩場分鐘另列日期；名單公布後仍須再核。"
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#1 大迫敬介",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "1",
+            "player_id": "hiroshima_1",
+            "has_card": true,
+            "name_ja": "大迫 敬介",
+            "position": "GK",
+            "official_player_id": null
+          },
+          {
+            "text": "#15 中野就斗",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "15",
+            "player_id": "hiroshima_15",
+            "has_card": true,
+            "name_ja": "中野 就斗",
+            "position": "DF",
+            "official_player_id": null
+          },
+          {
+            "text": "#4 荒木隼人",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "4",
+            "player_id": "hiroshima_4",
+            "has_card": true,
+            "name_ja": "荒木 隼人",
+            "position": "DF",
+            "official_player_id": null
+          },
+          {
+            "text": "#37 金周成",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "37",
+            "player_id": "hiroshima_37",
+            "has_card": true,
+            "name_ja": "キム ジュソン",
+            "position": "DF",
+            "official_player_id": null
+          },
+          {
+            "text": "#5 新井直人",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "5",
+            "player_id": "hiroshima_5",
+            "has_card": true,
+            "name_ja": "新井 直人",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#14 松本泰志",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "14",
+            "player_id": "hiroshima_14",
+            "has_card": true,
+            "name_ja": "松本 泰志",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#6 川邊駿",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "6",
+            "player_id": "hiroshima_6",
+            "has_card": true,
+            "name_ja": "川辺 駿",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#7 東俊希",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "7",
+            "player_id": "hiroshima_7",
+            "has_card": true,
+            "name_ja": "東 俊希",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#29 淺野拓磨",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "29",
+            "player_id": "hiroshima_29",
+            "has_card": true,
+            "name_ja": "浅野 拓磨",
+            "position": "FW",
+            "official_player_id": null
+          },
+          {
+            "text": "#10 鈴木章斗",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "10",
+            "player_id": "hiroshima_10",
+            "has_card": true,
+            "name_ja": "鈴木 章斗",
+            "position": "FW",
+            "official_player_id": null
+          },
+          {
+            "text": "#23 鮎川峻",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "23",
+            "player_id": "hiroshima_23",
+            "has_card": true,
+            "name_ja": "鮎川 峻",
+            "position": "FW",
+            "official_player_id": null
+          }
+        ],
+        "bench": [
+          {
+            "text": "#99 大內一生",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "99",
+            "player_id": "hiroshima_99",
+            "has_card": true,
+            "name_ja": "大内 一生",
+            "position": "GK",
+            "official_player_id": null
+          },
+          {
+            "text": "#18 菅大輝",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "18",
+            "player_id": "hiroshima_18",
+            "has_card": true,
+            "name_ja": "菅 大輝",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#32 越道草太",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "32",
+            "player_id": "hiroshima_32",
+            "has_card": true,
+            "name_ja": "越道 草太",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#35 中島洋太朗",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "35",
+            "player_id": "hiroshima_35",
+            "has_card": true,
+            "name_ja": "中島 洋太朗",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#45 小林志紋",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "45",
+            "player_id": "hiroshima_45",
+            "has_card": true,
+            "name_ja": "小林 志紋",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#46 野口蓮斗",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "46",
+            "player_id": "hiroshima_46",
+            "has_card": true,
+            "name_ja": "野口 蓮斗",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#9 Kusini Yengi",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "9",
+            "player_id": "hiroshima_9",
+            "has_card": true,
+            "name_ja": "クシニ イェンギ",
+            "position": "FW",
+            "official_player_id": null
+          },
+          {
+            "text": "#22 賀拿",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "22",
+            "player_id": "hiroshima_22",
+            "has_card": true,
+            "name_ja": "セバスティアン アレー",
+            "position": "FW",
+            "official_player_id": null
+          },
+          {
+            "text": "#41 前田直輝",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "41",
+            "player_id": "hiroshima_41",
+            "has_card": true,
+            "name_ja": "前田 直輝",
+            "position": "FW",
+            "official_player_id": null
+          }
+        ],
+        "cues": [
+          {
+            "text": "官方確認11正選、9後備；全部20人已對上永久卡。比賽尚未開始，沒有預填本場上陣分鐘。",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ]
+          },
+          {
+            "text": "與11月8日對町田正選相比，松本泰志代中島洋太朗，換1人；金周成、中野就斗正選，中島、小林志紋及Yengi在後備。代表隊回歸並不等於輪休。",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": 1
       },
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "criteria": "正式名單已公布；傷患／停賽另在04。沒有公開確認的輪休者，未入選原因不直接推定體力問題。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "完整常規主力缺席篩查尚未完成；不宣稱沒有其他常規球員缺席，亦不把未入選者一概寫成輪休。",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ]
+          }
+        ]
       },
       "players_to_watch": {
         "stars": [
@@ -681,7 +1430,41 @@
           }
         ],
         "foreign": [],
-        "youth": []
+        "youth": [
+          {
+            "number": "46",
+            "player_id": "hiroshima_46",
+            "description": [
+              {
+                "text": "野口蓮斗今日後備；正式名單與人物卡來源分開。",
+                "kind": "fact",
+                "as_of": "2026-11-21",
+                "sources": [
+                  {
+                    "label": "J.League官方・本場完整名單及球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "廣島官方・本場完整名單",
+                    "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "橫濱官方・本場完整名單",
+                    "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [],
+            "analytics": []
+          }
+        ]
       },
       "team_metrics": {
         "basic": [
@@ -1738,6 +2521,31 @@
               "accessed_at": "2026-11-19"
             }
           ]
+        },
+        {
+          "text": "金周成今日官方正選；本場入選已確認，與19日本人恢復狀態自述分開。",
+          "kind": "fact",
+          "as_of": "2026-11-21",
+          "sources": [
+            {
+              "label": "J.League官方・本場完整名單及球證",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/",
+              "accessed_at": "2026-11-21",
+              "published_at": "2026-11-21"
+            },
+            {
+              "label": "廣島官方・本場完整名單",
+              "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+              "accessed_at": "2026-11-21",
+              "published_at": "2026-11-21"
+            },
+            {
+              "label": "橫濱官方・本場完整名單",
+              "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+              "accessed_at": "2026-11-21",
+              "published_at": "2026-11-21"
+            }
+          ]
         }
       ],
       "suspensions": [
@@ -2364,13 +3172,14 @@
         "goal_difference": 6,
         "matches": 14,
         "season": "2026/27",
-        "as_of": "2026-11-08",
+        "as_of": "2026-11-20",
         "competition": "J1首14輪",
         "sources": [
           {
-            "label": "J.League官方・首14輪聯賽榜",
+            "label": "J.League官方榜・11月20日21:26 JST更新",
             "url": "https://www.jleague.jp/j1/standings/",
-            "accessed_at": "2026-11-15"
+            "accessed_at": "2026-11-21",
+            "published_at": "2026-11-21"
           }
         ]
       },
@@ -2379,12 +3188,715 @@
         "note": "新賽事初次準備；聯賽統計首14輪，最近兩場分鐘另列日期；名單公布後仍須再核。"
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": []
+        "starters": [
+          {
+            "text": "#21 飯倉大樹",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "21",
+            "player_id": "yokohama_21",
+            "has_card": true,
+            "name_ja": "飯倉 大樹",
+            "position": "GK",
+            "official_player_id": null
+          },
+          {
+            "text": "#13 井上太聖",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "13",
+            "player_id": "yokohama_13",
+            "has_card": true,
+            "name_ja": "井上 太聖",
+            "position": "DF",
+            "official_player_id": "1637156"
+          },
+          {
+            "text": "#17 昆奴尼斯",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "17",
+            "player_id": "yokohama_17",
+            "has_card": true,
+            "name_ja": "ジェイソン キニョーネス",
+            "position": "DF",
+            "official_player_id": "1650799"
+          },
+          {
+            "text": "#54 藤井翔大",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "54",
+            "player_id": "yokohama_54",
+            "has_card": true,
+            "name_ja": "藤井 翔大",
+            "position": "DF",
+            "official_player_id": null
+          },
+          {
+            "text": "#24 近藤友喜",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "24",
+            "player_id": "yokohama_24",
+            "has_card": true,
+            "name_ja": "近藤 友喜",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#32 田中雄大",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "32",
+            "player_id": "yokohama_32",
+            "has_card": true,
+            "name_ja": "田中 雄大",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#41 松村晃助",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "41",
+            "player_id": "yokohama_41",
+            "has_card": true,
+            "name_ja": "松村 晃助",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#25 鈴木冬一",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "25",
+            "player_id": "yokohama_25",
+            "has_card": true,
+            "name_ja": "鈴木 冬一",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#40 天野純",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "40",
+            "player_id": "yokohama_40",
+            "has_card": true,
+            "name_ja": "天野 純",
+            "position": "FW",
+            "official_player_id": null
+          },
+          {
+            "text": "#9 谷村海那",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "9",
+            "player_id": "yokohama_9",
+            "has_card": true,
+            "name_ja": "谷村 海那",
+            "position": "FW",
+            "official_player_id": "1630058"
+          },
+          {
+            "text": "#7 遠野大彌",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "7",
+            "player_id": "yokohama_7",
+            "has_card": true,
+            "name_ja": "遠野 大弥",
+            "position": "FW",
+            "official_player_id": "1626015"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 朴一圭",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "1",
+            "player_id": "yokohama_1",
+            "has_card": true,
+            "name_ja": "朴 一圭",
+            "position": "GK",
+            "official_player_id": "1400253"
+          },
+          {
+            "text": "#55 平野 遼",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "55",
+            "player_id": "yokohama_55",
+            "has_card": true,
+            "name_ja": "平野 遼",
+            "position": "DF",
+            "official_player_id": null
+          },
+          {
+            "text": "#56 草野陸",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "56",
+            "player_id": "yokohama_56",
+            "has_card": true,
+            "name_ja": "草野 陸",
+            "position": "DF",
+            "official_player_id": "1659407"
+          },
+          {
+            "text": "#8 喜田拓也",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "8",
+            "player_id": "yokohama_8",
+            "has_card": true,
+            "name_ja": "喜田 拓也",
+            "position": "MF",
+            "official_player_id": "1200129"
+          },
+          {
+            "text": "#34 木村卓斗",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "34",
+            "player_id": "yokohama_34",
+            "has_card": true,
+            "name_ja": "木村 卓斗",
+            "position": "MF",
+            "official_player_id": null
+          },
+          {
+            "text": "#18 情滋奧拿爾",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "18",
+            "player_id": "yokohama_18",
+            "has_card": true,
+            "name_ja": "オナイウ 情滋",
+            "position": "FW",
+            "official_player_id": "1637709"
+          },
+          {
+            "text": "#19 泰維斯",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "19",
+            "player_id": "yokohama_19",
+            "has_card": true,
+            "name_ja": "テヴィス",
+            "position": "FW",
+            "official_player_id": "1656001"
+          },
+          {
+            "text": "#43 二田理央",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "43",
+            "player_id": "yokohama_43",
+            "has_card": true,
+            "name_ja": "二田 理央",
+            "position": "FW",
+            "official_player_id": null
+          },
+          {
+            "text": "#47 三井寺眞",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ],
+            "number": "47",
+            "player_id": "yokohama_47",
+            "has_card": true,
+            "name_ja": "三井寺 眞",
+            "position": "FW",
+            "official_player_id": null
+          }
+        ],
+        "cues": [
+          {
+            "text": "官方確認11正選、9後備；全部20人已對上永久卡。比賽尚未開始，沒有預填本場上陣分鐘。",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ]
+          },
+          {
+            "text": "與11月15日鹿島盃賽正選相比換3人：藤井翔大、田中雄大、天野純入正選；諏訪間停賽、山根傷患及角田未入選分開處理。56號草野陸昨日二種登錄、今日後備。",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ]
+          }
+        ],
+        "starting_changes_vs_previous_match": 3
       },
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "criteria": "正式名單已公布；傷患／停賽另在04。沒有公開確認的輪休者，未入選原因不直接推定體力問題。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "完整常規主力缺席篩查尚未完成；不宣稱沒有其他常規球員缺席，亦不把未入選者一概寫成輪休。",
+            "kind": "fact",
+            "as_of": "2026-11-21",
+            "sources": [
+              {
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
+              }
+            ]
+          }
+        ]
       },
       "players_to_watch": {
         "stars": [
@@ -2453,7 +3965,113 @@
           }
         ],
         "foreign": [],
-        "youth": []
+        "youth": [
+          {
+            "number": "54",
+            "player_id": "yokohama_54",
+            "description": [
+              {
+                "text": "藤井翔大今日正選；此前14輪聯賽正選位置由諏訪間把持，不能把青年球員入選當作已累積今日上陣統計。",
+                "kind": "fact",
+                "as_of": "2026-11-21",
+                "sources": [
+                  {
+                    "label": "J.League官方・本場完整名單及球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "廣島官方・本場完整名單",
+                    "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "橫濱官方・本場完整名單",
+                    "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [],
+            "analytics": []
+          },
+          {
+            "number": "55",
+            "player_id": "yokohama_55",
+            "description": [
+              {
+                "text": "平野遼今日後備；二種登錄青年人腳。",
+                "kind": "fact",
+                "as_of": "2026-11-21",
+                "sources": [
+                  {
+                    "label": "J.League官方・本場完整名單及球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "廣島官方・本場完整名單",
+                    "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "橫濱官方・本場完整名單",
+                    "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  }
+                ]
+              }
+            ],
+            "stats": [],
+            "analytics": []
+          },
+          {
+            "number": "56",
+            "player_id": "yokohama_56",
+            "description": [
+              {
+                "text": "草野陸20日二種登錄，今日後備。身份資料卡已補，人物研究及TVB中文名仍未完成。",
+                "kind": "fact",
+                "as_of": "2026-11-21",
+                "sources": [
+                  {
+                    "label": "J.League官方・本場完整名單及球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "廣島官方・本場完整名單",
+                    "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "橫濱官方・本場完整名單",
+                    "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-21"
+                  },
+                  {
+                    "label": "橫濱官方・11月20日草野陸二種登錄",
+                    "url": "https://www.f-marinos.com/news/team/10923",
+                    "accessed_at": "2026-11-21",
+                    "published_at": "2026-11-20"
+                  }
+                ]
+              }
+            ],
+            "stats": [],
+            "analytics": []
+          }
+        ]
       },
       "team_metrics": {
         "basic": [
@@ -3539,6 +5157,31 @@
               "published_at": "2026-11-19"
             }
           ]
+        },
+        {
+          "text": "角田涼太朗今日未列20人正式名單；19日預告判斷保留，未取得獨立診斷，不由未入選自行確定傷勢。",
+          "kind": "fact",
+          "as_of": "2026-11-21",
+          "sources": [
+            {
+              "label": "J.League官方・本場完整名單及球證",
+              "url": "https://www.jleague.jp/match/j1/2026/112103/",
+              "accessed_at": "2026-11-21",
+              "published_at": "2026-11-21"
+            },
+            {
+              "label": "廣島官方・本場完整名單",
+              "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+              "accessed_at": "2026-11-21",
+              "published_at": "2026-11-21"
+            },
+            {
+              "label": "橫濱官方・本場完整名單",
+              "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+              "accessed_at": "2026-11-21",
+              "published_at": "2026-11-21"
+            }
+          ]
         }
       ],
       "suspensions": [
@@ -3670,14 +5313,7 @@
     }
   },
   "standings": {
-    "as_of": "2026-11-08｜首14輪官方完整榜；11月15日重核",
-    "sources": [
-      {
-        "label": "J.League官方・首14輪聯賽榜",
-        "url": "https://www.jleague.jp/j1/standings/",
-        "accessed_at": "2026-11-15"
-      }
-    ],
+    "as_of": "2026-11-20 21:26 JST（周五兩場後）",
     "rows": [
       {
         "rank": 1,
@@ -3697,13 +5333,13 @@
         "slug": "kashiwa",
         "name_zh": "柏太陽王",
         "points": 31,
-        "played": 14,
+        "played": 15,
         "wins": 10,
         "draws": 1,
-        "losses": 3,
+        "losses": 4,
         "goals_for": 31,
-        "goals_against": 20,
-        "goal_difference": 11
+        "goals_against": 21,
+        "goal_difference": 10
       },
       {
         "rank": 3,
@@ -3736,25 +5372,25 @@
         "slug": "kobe",
         "name_zh": "神戶勝利船",
         "points": 27,
-        "played": 14,
+        "played": 15,
         "wins": 8,
         "draws": 3,
-        "losses": 3,
-        "goals_for": 23,
-        "goals_against": 14,
-        "goal_difference": 9
+        "losses": 4,
+        "goals_for": 24,
+        "goals_against": 16,
+        "goal_difference": 8
       },
       {
         "rank": 6,
         "slug": "kashima",
         "name_zh": "鹿島鹿角",
-        "points": 23,
-        "played": 14,
+        "points": 24,
+        "played": 15,
         "wins": 7,
-        "draws": 2,
+        "draws": 3,
         "losses": 5,
-        "goals_for": 29,
-        "goals_against": 24,
+        "goals_for": 30,
+        "goals_against": 25,
         "goal_difference": 5
       },
       {
@@ -3837,6 +5473,32 @@
       },
       {
         "rank": 13,
+        "slug": "chiba",
+        "name_zh": "千葉市原JEF聯",
+        "points": 16,
+        "played": 15,
+        "wins": 4,
+        "draws": 4,
+        "losses": 7,
+        "goals_for": 17,
+        "goals_against": 24,
+        "goal_difference": -7
+      },
+      {
+        "rank": 14,
+        "slug": "shimizu",
+        "name_zh": "清水心跳",
+        "points": 15,
+        "played": 15,
+        "wins": 4,
+        "draws": 3,
+        "losses": 8,
+        "goals_for": 11,
+        "goals_against": 24,
+        "goal_difference": -13
+      },
+      {
+        "rank": 15,
         "slug": "nagoya",
         "name_zh": "名古屋鯨魚",
         "points": 14,
@@ -3849,7 +5511,7 @@
         "goal_difference": -8
       },
       {
-        "rank": 14,
+        "rank": 16,
         "slug": "tokyo-verdy",
         "name_zh": "東京綠茵",
         "points": 14,
@@ -3862,20 +5524,7 @@
         "goal_difference": -10
       },
       {
-        "rank": 15,
-        "slug": "shimizu",
-        "name_zh": "清水心跳",
-        "points": 14,
-        "played": 14,
-        "wins": 4,
-        "draws": 2,
-        "losses": 8,
-        "goals_for": 10,
-        "goals_against": 23,
-        "goal_difference": -13
-      },
-      {
-        "rank": 16,
+        "rank": 17,
         "slug": "nagasaki",
         "name_zh": "長崎成功丸",
         "points": 13,
@@ -3886,19 +5535,6 @@
         "goals_for": 17,
         "goals_against": 22,
         "goal_difference": -5
-      },
-      {
-        "rank": 17,
-        "slug": "chiba",
-        "name_zh": "千葉市原JEF聯",
-        "points": 13,
-        "played": 14,
-        "wins": 3,
-        "draws": 4,
-        "losses": 7,
-        "goals_for": 16,
-        "goals_against": 24,
-        "goal_difference": -8
       },
       {
         "rank": 18,
@@ -3917,14 +5553,14 @@
         "rank": 19,
         "slug": "mito",
         "name_zh": "水戶蜀葵",
-        "points": 9,
-        "played": 14,
-        "wins": 2,
+        "points": 12,
+        "played": 15,
+        "wins": 3,
         "draws": 3,
         "losses": 9,
-        "goals_for": 12,
-        "goals_against": 26,
-        "goal_difference": -14
+        "goals_for": 14,
+        "goals_against": 27,
+        "goal_difference": -13
       },
       {
         "rank": 20,
@@ -3938,6 +5574,14 @@
         "goals_for": 14,
         "goals_against": 25,
         "goal_difference": -11
+      }
+    ],
+    "sources": [
+      {
+        "label": "J.League官方榜・11月20日21:26 JST更新",
+        "url": "https://www.jleague.jp/j1/standings/",
+        "accessed_at": "2026-11-21",
+        "published_at": "2026-11-21"
       }
     ]
   },
@@ -4982,51 +6626,60 @@
             "accessed_at": "2026-11-19"
           }
         ]
+      },
+      {
+        "text": "周五千葉1–0柏後，柏15場31分、得失球差+10；廣島賽前30分、+22。廣島和波即31分、得失球差壓過柏，但町田同輪勝可到32分，不能稱和波必升第二。廣島勝可到33分，追平FC東京賽前分數；同日其他賽果仍會影響名次。",
+        "kind": "analysis",
+        "as_of": "2026-11-21",
+        "sources": [
+          {
+            "label": "J.League官方榜・11月20日21:26 JST更新",
+            "url": "https://www.jleague.jp/j1/standings/",
+            "accessed_at": "2026-11-21",
+            "published_at": "2026-11-21"
+          }
+        ]
       }
     ],
     "sections": [
       {
-        "title": "防線人腳與轉守・11月19日更新",
+        "title": "正式人腳後的對位",
         "paragraphs": [
           {
-            "text": "諏訪間停賽、角田可能缺陣，橫濱的中堅組合及三／四後衛選擇成為觀察點；山根受傷亦增加中場接應與保護防線的變數。這是根據已核實缺口的天書分析，沒有預測正選或指定替補。",
+            "text": "橫濱由藤井翔大正選補入中堅人腳，田中雄大及天野純同場；廣島以松本泰志正選、中島洋太朗留後備。可觀察廣島前場壓逼與邊路傳中，能否考驗橫濱新中堅協作；並觀察橫濱中場能否保護失球後的空間。此為按名單分析，非醫療疲勞診斷。",
             "kind": "analysis",
-            "as_of": "2026-11-19",
+            "as_of": "2026-11-21",
             "sources": [
               {
-                "label": "J.League・11月16日停賽公告",
-                "url": "https://www.jleague.jp/news/article/35370/?navicode=j1",
-                "accessed_at": "2026-11-19",
-                "published_at": "2026-11-16"
+                "label": "J.League官方・本場完整名單及球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112103/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
               },
               {
-                "label": "橫濱官方・11月19日山根陸傷患公告",
-                "url": "https://www.f-marinos.com/news/team/10930",
-                "accessed_at": "2026-11-19",
-                "published_at": "2026-11-19"
+                "label": "廣島官方・本場完整名單",
+                "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
               },
               {
-                "label": "J.League・山根陸診斷公告",
-                "url": "https://www.jleague.jp/news/article/35392/?navicode=j1",
-                "accessed_at": "2026-11-19",
-                "published_at": "2026-11-19"
-              },
-              {
-                "label": "J.League官方賽前預告・寺田弘幸",
-                "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
-                "accessed_at": "2026-11-19"
+                "label": "橫濱官方・本場完整名單",
+                "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
               }
             ]
           },
           {
-            "text": "廣島可觀察金周成與荒木、中野的協作，但金周成接近十足狀態屬本人自述；中野等代表隊回歸者的恢復情況要與留隊球員分開，實際組合仍待正式名單。",
+            "text": "周五千葉1–0柏後，柏15場31分、得失球差+10；廣島賽前30分、+22。廣島和波即31分、得失球差壓過柏，但町田同輪勝可到32分，不能稱和波必升第二。廣島勝可到33分，追平FC東京賽前分數；同日其他賽果仍會影響名次。",
             "kind": "analysis",
-            "as_of": "2026-11-19",
+            "as_of": "2026-11-21",
             "sources": [
               {
-                "label": "J.League官方賽前預告・寺田弘幸",
-                "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
-                "accessed_at": "2026-11-19"
+                "label": "J.League官方榜・11月20日21:26 JST更新",
+                "url": "https://www.jleague.jp/j1/standings/",
+                "accessed_at": "2026-11-21",
+                "published_at": "2026-11-21"
               }
             ]
           }
@@ -5036,26 +6689,27 @@
   },
   "opening_checks": [
     {
-      "text": "先核對正式名單與代表隊歸隊情況，再比較近期負荷；不因榜上登錄便推定可出賽。",
+      "text": "開局留意藤井與基奴尼斯／井上之間協防、廣島中場壓逼及橫濱由守轉攻。後備有草野、平野兩名青年守衛，實際換人看形勢，不預填。",
       "kind": "analysis",
-      "as_of": "2026-11-15",
+      "as_of": "2026-11-21",
       "sources": [
         {
-          "label": "J.League官方・本場日期／開球／場地",
+          "label": "J.League官方・本場完整名單及球證",
           "url": "https://www.jleague.jp/match/j1/2026/112103/",
-          "accessed_at": "2026-11-15"
-        }
-      ]
-    },
-    {
-      "text": "21日正式名單及全部後備公布後，逐人對永久卡與完整登錄，尤其青年及臨時徵召；未有名單前不使用預測人腳。角田可用性、代表隊歸隊、球證及天氣另核。",
-      "kind": "fact",
-      "as_of": "2026-11-19",
-      "sources": [
+          "accessed_at": "2026-11-21",
+          "published_at": "2026-11-21"
+        },
         {
-          "label": "J.League官方賽前預告・寺田弘幸",
-          "url": "https://www.jleague.jp/match/j1/2026/112103/preview/",
-          "accessed_at": "2026-11-19"
+          "label": "廣島官方・本場完整名單",
+          "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+          "accessed_at": "2026-11-21",
+          "published_at": "2026-11-21"
+        },
+        {
+          "label": "橫濱官方・本場完整名單",
+          "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+          "accessed_at": "2026-11-21",
+          "published_at": "2026-11-21"
         }
       ]
     }
@@ -5105,28 +6759,330 @@
     ]
   },
   "coverage_gaps": [
-    "本場正式正選、後備、球證、比賽日天氣尚未核實。",
+    "正式40人名單及六名球證已確認；球場比賽日天氣實測及主球證同口徑傾向仍待核。",
     "山根診斷、諏訪間／宮市停賽已核實；角田最終可用性、其餘醫療／復操、J1有效黃牌及代表隊歸隊狀態仍需再核。歷史醫療公告不等於本場缺陣。",
     "其餘最新訪問、完整近五次交鋒、同截點助攻／xA、時段及門將數據仍待核實。",
-    "完整註冊及永久青年球員卡未在本次初次準備重新做全隊批次；本場入選後須對照正式名單。",
+    "40名入選者全部有永久卡；草野56號為官方身份卡，完整人物研究及TVB中文名未完成。未入選的完整登錄再覆核不宣稱完成。",
     "廣島官方聯賽榜與Football LAB入失球口徑有差異，05已分開標示。"
   ],
   "section_status": {
-    "info": "部分：編排／日期／場地完成；天氣及球證待核",
+    "info": "正式名單及六名球證確認；天氣實測及球證傾向待核",
     "quotes": "部分：官方預告金周成狀態摘要；覆核日與採訪日分開，其餘訪問待補",
     "comparison": "首14輪及近期逐場紀錄完成；完整五次對賽待核",
     "availability": "部分：山根診斷及兩人停賽已確認；角田可能缺陣／金周成自述有歸屬；其餘醫療及有效黃牌待核",
     "analytics": "首14輪Football LAB更新；缺項明示",
-    "rotation": "截至11月15日最近兩場參考；本場選拔待公布",
-    "players": "已有永久卡及有來源使用量焦點；未做新人物批次",
-    "preview": "已補傷停及防線選擇分析；不預測人腳，名單公布後再核",
-    "logs": "20隊官方榜、每隊38輪及已知盃賽",
+    "rotation": "正式正選／後備按上仗分鐘排序；前兩場資料不預填本場分鐘",
+    "players": "40人全部有永久卡；草野56號身份已核實、人物研究未完成",
+    "preview": "按正式名單及周五榜重寫對位及名次情境",
+    "logs": "周五20日21:26 JST完整20隊榜、38輪及已知盃賽",
     "cup": "52場首階段、八強兩回合、晉級及兩隊路線"
   },
   "research_sweep": {
-    "as_of": "2026-11-19",
-    "scope": "targeted_availability_and_preview_refresh",
-    "lineups_status": "pending",
-    "note": "本次只更新指定傷停／紀律及官方預告；沒有宣稱完成所有章節或國際賽逐場分鐘核對。"
+    "as_of": "2026-11-21",
+    "stage": "official_lineup",
+    "selected_players": 40,
+    "permanent_card_coverage": 40,
+    "sources": [
+      {
+        "label": "J.League官方・本場完整名單及球證",
+        "url": "https://www.jleague.jp/match/j1/2026/112103/",
+        "accessed_at": "2026-11-21",
+        "published_at": "2026-11-21"
+      },
+      {
+        "label": "廣島官方・本場完整名單",
+        "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+        "accessed_at": "2026-11-21",
+        "published_at": "2026-11-21"
+      },
+      {
+        "label": "橫濱官方・本場完整名單",
+        "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+        "accessed_at": "2026-11-21",
+        "published_at": "2026-11-21"
+      }
+    ],
+    "remaining": "球場天氣實測、完整常規缺席篩查、同截點進階數據及球證傾向未補齊；不是所有研究層均已完成。"
+  },
+  "selection_audit": {
+    "as_of": "2026-11-21",
+    "checked_at": "2026-11-21T12:46:57+09:00",
+    "match": "2026-11-21-hiroshima-yokohama-fm",
+    "sources": [
+      {
+        "label": "J.League官方・本場完整名單及球證",
+        "url": "https://www.jleague.jp/match/j1/2026/112103/",
+        "accessed_at": "2026-11-21",
+        "published_at": "2026-11-21"
+      },
+      {
+        "label": "廣島官方・本場完整名單",
+        "url": "https://www.sanfrecce.co.jp/matches/20261121/matchdata",
+        "accessed_at": "2026-11-21",
+        "published_at": "2026-11-21"
+      },
+      {
+        "label": "橫濱官方・本場完整名單",
+        "url": "https://www.f-marinos.com/matches/20261121/matchdata/",
+        "accessed_at": "2026-11-21",
+        "published_at": "2026-11-21"
+      }
+    ],
+    "selected_count": 40,
+    "missing_cards": [],
+    "teams": {
+      "hiroshima": {
+        "starters": [
+          {
+            "number": "1",
+            "name_ja": "大迫 敬介",
+            "player_id": "hiroshima_1",
+            "has_card": true
+          },
+          {
+            "number": "15",
+            "name_ja": "中野 就斗",
+            "player_id": "hiroshima_15",
+            "has_card": true
+          },
+          {
+            "number": "4",
+            "name_ja": "荒木 隼人",
+            "player_id": "hiroshima_4",
+            "has_card": true
+          },
+          {
+            "number": "37",
+            "name_ja": "キム ジュソン",
+            "player_id": "hiroshima_37",
+            "has_card": true
+          },
+          {
+            "number": "5",
+            "name_ja": "新井 直人",
+            "player_id": "hiroshima_5",
+            "has_card": true
+          },
+          {
+            "number": "14",
+            "name_ja": "松本 泰志",
+            "player_id": "hiroshima_14",
+            "has_card": true
+          },
+          {
+            "number": "6",
+            "name_ja": "川辺 駿",
+            "player_id": "hiroshima_6",
+            "has_card": true
+          },
+          {
+            "number": "7",
+            "name_ja": "東 俊希",
+            "player_id": "hiroshima_7",
+            "has_card": true
+          },
+          {
+            "number": "29",
+            "name_ja": "浅野 拓磨",
+            "player_id": "hiroshima_29",
+            "has_card": true
+          },
+          {
+            "number": "10",
+            "name_ja": "鈴木 章斗",
+            "player_id": "hiroshima_10",
+            "has_card": true
+          },
+          {
+            "number": "23",
+            "name_ja": "鮎川 峻",
+            "player_id": "hiroshima_23",
+            "has_card": true
+          }
+        ],
+        "bench": [
+          {
+            "number": "99",
+            "name_ja": "大内 一生",
+            "player_id": "hiroshima_99",
+            "has_card": true
+          },
+          {
+            "number": "18",
+            "name_ja": "菅 大輝",
+            "player_id": "hiroshima_18",
+            "has_card": true
+          },
+          {
+            "number": "32",
+            "name_ja": "越道 草太",
+            "player_id": "hiroshima_32",
+            "has_card": true
+          },
+          {
+            "number": "35",
+            "name_ja": "中島 洋太朗",
+            "player_id": "hiroshima_35",
+            "has_card": true
+          },
+          {
+            "number": "45",
+            "name_ja": "小林 志紋",
+            "player_id": "hiroshima_45",
+            "has_card": true
+          },
+          {
+            "number": "46",
+            "name_ja": "野口 蓮斗",
+            "player_id": "hiroshima_46",
+            "has_card": true
+          },
+          {
+            "number": "9",
+            "name_ja": "クシニ イェンギ",
+            "player_id": "hiroshima_9",
+            "has_card": true
+          },
+          {
+            "number": "22",
+            "name_ja": "セバスティアン アレー",
+            "player_id": "hiroshima_22",
+            "has_card": true
+          },
+          {
+            "number": "41",
+            "name_ja": "前田 直輝",
+            "player_id": "hiroshima_41",
+            "has_card": true
+          }
+        ]
+      },
+      "yokohama-fm": {
+        "starters": [
+          {
+            "number": "21",
+            "name_ja": "飯倉 大樹",
+            "player_id": "yokohama_21",
+            "has_card": true
+          },
+          {
+            "number": "13",
+            "name_ja": "井上 太聖",
+            "player_id": "yokohama_13",
+            "has_card": true
+          },
+          {
+            "number": "17",
+            "name_ja": "ジェイソン キニョーネス",
+            "player_id": "yokohama_17",
+            "has_card": true
+          },
+          {
+            "number": "54",
+            "name_ja": "藤井 翔大",
+            "player_id": "yokohama_54",
+            "has_card": true
+          },
+          {
+            "number": "24",
+            "name_ja": "近藤 友喜",
+            "player_id": "yokohama_24",
+            "has_card": true
+          },
+          {
+            "number": "32",
+            "name_ja": "田中 雄大",
+            "player_id": "yokohama_32",
+            "has_card": true
+          },
+          {
+            "number": "41",
+            "name_ja": "松村 晃助",
+            "player_id": "yokohama_41",
+            "has_card": true
+          },
+          {
+            "number": "25",
+            "name_ja": "鈴木 冬一",
+            "player_id": "yokohama_25",
+            "has_card": true
+          },
+          {
+            "number": "40",
+            "name_ja": "天野 純",
+            "player_id": "yokohama_40",
+            "has_card": true
+          },
+          {
+            "number": "9",
+            "name_ja": "谷村 海那",
+            "player_id": "yokohama_9",
+            "has_card": true
+          },
+          {
+            "number": "7",
+            "name_ja": "遠野 大弥",
+            "player_id": "yokohama_7",
+            "has_card": true
+          }
+        ],
+        "bench": [
+          {
+            "number": "1",
+            "name_ja": "朴 一圭",
+            "player_id": "yokohama_1",
+            "has_card": true
+          },
+          {
+            "number": "55",
+            "name_ja": "平野 遼",
+            "player_id": "yokohama_55",
+            "has_card": true
+          },
+          {
+            "number": "56",
+            "name_ja": "草野 陸",
+            "player_id": "yokohama_56",
+            "has_card": true
+          },
+          {
+            "number": "8",
+            "name_ja": "喜田 拓也",
+            "player_id": "yokohama_8",
+            "has_card": true
+          },
+          {
+            "number": "34",
+            "name_ja": "木村 卓斗",
+            "player_id": "yokohama_34",
+            "has_card": true
+          },
+          {
+            "number": "18",
+            "name_ja": "オナイウ 情滋",
+            "player_id": "yokohama_18",
+            "has_card": true
+          },
+          {
+            "number": "19",
+            "name_ja": "テヴィス",
+            "player_id": "yokohama_19",
+            "has_card": true
+          },
+          {
+            "number": "43",
+            "name_ja": "二田 理央",
+            "player_id": "yokohama_43",
+            "has_card": true
+          },
+          {
+            "number": "47",
+            "name_ja": "三井寺 眞",
+            "player_id": "yokohama_47",
+            "has_card": true
+          }
+        ]
+      }
+    }
   }
 }
