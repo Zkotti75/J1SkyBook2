@@ -24,5 +24,18 @@ test('November 21 actual full squads reconcile all 40 permanent cards including 
 const d=read('data/matches/2026-11-21-hiroshima-yokohama-fm.json');assert.equal(d.selection_audit.selected_count,40);assert.equal(d.match_info.officials.roles.length,6);assert.deepEqual(d.match_info.officials.roles.map(r=>r.id),['referee','assistant_1','assistant_2','fourth_official','var','avar']);assert.ok(d.match_info.officials.roles.every(r=>r.name_ja&&r.status==='confirmed'));
 for(const slug of [d.home,d.away]){const c=read('data/clubs/'+slug+'.json');for(const p of [...d.teams[slug].lineup.starters,...d.teams[slug].lineup.bench]){assert.equal(p.has_card,true);assert.ok(c.players.find(q=>q.number===p.number&&q.id===p.player_id));}}
 const c=read('data/clubs/yokohama-fm.json'),p=c.players.find(p=>p.number==='56');assert.equal(p.verification_status,'research_incomplete');assert.equal(p.official_player_id,'1659407');assert.ok(d.teams['yokohama-fm'].lineup.bench.some(p=>p.number==='56'));assert.ok(d.teams['yokohama-fm'].lineup.starters.some(p=>p.number==='54'));assert.ok(d.teams['yokohama-fm'].lineup.bench.some(p=>p.number==='55'));
+const audit=d.selection_audit.card_evidence_audit;assert.equal(audit.players.length,40);assert.equal(audit.linked_cards,40);assert.equal(audit.biography_gate_pass,28);assert.equal(audit.biography_incomplete,12);
+for(const r of audit.players){const card=read('data/clubs/'+r.team+'.json').players.find(p=>p.id===r.player_id);assert.equal(card.verification_status,r.biography_status);if(!r.biography_gate_pass){assert.equal(card.verification_status,'research_incomplete');assert.ok(card.research_gaps.length);}}
+assert.ok(p.national_team_detail.includes('日本U15'));assert.ok(p.milestones.some(m=>m.includes('2024-08-12')));assert.ok(p.sources.some(s=>s.url.includes('jfa.jp')));assert.equal(p.foot,null);
 assert.equal(d.standings.rows.find(r=>r.slug==='kashiwa').played,15);assert.equal(d.standings.rows.find(r=>r.slug==='kashiwa').goal_difference,10);
+});
+
+test('November 21 opening broadcast is the final Info section with larger read-aloud text',()=>{
+ const d=read('data/matches/2026-11-21-hiroshima-yokohama-fm.json');
+ const h=renderMatchPage({home:read('data/clubs/hiroshima.json'),away:read('data/clubs/yokohama-fm.json'),dossier:d,date:d.date,page:'info'});
+ assert.equal(d.match_info.opening_broadcast.paragraphs.length,5);
+ assert.ok(h.lastIndexOf('<h3>開波廣告</h3>')>h.lastIndexOf('<h3>本場故事線</h3>'));
+ assert.ok(!h.slice(h.lastIndexOf('<h3>開波廣告</h3>')+18).includes('<h3>'));
+ assert.ok(h.includes('font-size:1.1em'));assert.ok(h.includes('四十九次機會'));assert.ok(h.includes('中野就斗啱啱隨日本隊海外遠征'));
+ const other=read('data/matches/2026-11-25-nagasaki-kawasaki.json');assert.equal(other.match_info.opening_broadcast,undefined);
 });

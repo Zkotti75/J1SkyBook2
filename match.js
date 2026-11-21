@@ -174,9 +174,14 @@ function commentaryTeam(ctx) {
  if(!c?.partner)return '';
  return card('本場評述拍檔',`<div class="commentary-partner"><strong>${e(c.host || '史葛')} ＋ ${e(c.partner)}</strong><small>評述編排已確認 · ${e(c.confirmed_at || '')}</small></div>${claims(c.bio)}`);
 }
+function openingBroadcast(ctx) {
+ const b=ctx.dossier?.match_info?.opening_broadcast;
+ if(!b?.paragraphs?.length)return '';
+ return card(b.heading||'開波廣告',`<div id="opening-broadcast" class="opening-broadcast-copy" style="font-size:1.1em;line-height:1.8">${b.paragraphs.map(p=>`<p>${e(p)}</p>`).join('')}</div><p class="section-meta">${e(b.note||'')}</p><div class="source-list">${sources(b.sources)}</div>`);
+}
 function matchInfo(ctx) {
  const i=ctx.dossier?.match_info||{};
- return commentaryTeam(ctx)+card('比賽基本資料',`<div class="match-metrics">${[...(i.competition_zh?[['賽事',i.competition_zh]]:[]),['開球（香港時間）',i.kickoff_hkt],['球場',i.stadium],['資料最後核對',ctx.dossier?.research_sweep?.checked_at||ctx.dossier?.as_of]].map(([k,v])=>`<div><small>${k}</small><strong>${field(v)}</strong></div>`).join('')}</div>`)+card('天氣／溫度',i.weather?claim(i.weather):blank('比賽日預報及球場實測待核對'))+card('主場球場・容量／草地／尺寸',claims(i.stadium_facts))+officials(ctx)+card('球證執法傾向',claims(i.referee_tendencies))+card('特別活動／本場意義',claims(i.events))+card('客隊球迷旅程',claims(i.visitor_travel))+sides(ctx,t=>claims(t.milestones)+claims(t.storylines),'倒戈・里程碑・有趣背景')+card('本場故事線',claims(ctx.dossier?.storylines||ctx.dossier?.preview?.cues));
+ return commentaryTeam(ctx)+card('比賽基本資料',`<div class="match-metrics">${[...(i.competition_zh?[['賽事',i.competition_zh]]:[]),['開球（香港時間）',i.kickoff_hkt],['球場',i.stadium],['資料最後核對',ctx.dossier?.research_sweep?.checked_at||ctx.dossier?.as_of]].map(([k,v])=>`<div><small>${k}</small><strong>${field(v)}</strong></div>`).join('')}</div>`)+card('天氣／溫度',i.weather?claim(i.weather):blank('比賽日預報及球場實測待核對'))+card('主場球場・容量／草地／尺寸',claims(i.stadium_facts))+officials(ctx)+card('球證執法傾向',claims(i.referee_tendencies))+card('特別活動／本場意義',claims(i.events))+card('客隊球迷旅程',claims(i.visitor_travel))+sides(ctx,t=>claims(t.milestones)+claims(t.storylines),'倒戈・里程碑・有趣背景')+card('本場故事線',claims(ctx.dossier?.storylines||ctx.dossier?.preview?.cues))+openingBroadcast(ctx);
 }
 function threeYellowPlayers(team) {
  return (team.yellow_risk||[]).filter(x=>
