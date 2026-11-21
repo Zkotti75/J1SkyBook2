@@ -39,3 +39,13 @@ test('November 21 opening broadcast is the final Info section with larger read-a
  assert.ok(h.includes('font-size:1.1em'));assert.ok(h.includes('四十九次機會'));assert.ok(h.includes('中野就斗啱啱隨日本隊海外遠征'));
  const other=read('data/matches/2026-11-25-nagasaki-kawasaki.json');assert.equal(other.match_info.opening_broadcast,undefined);
 });
+
+test('matchday essentials cover forty official records while senior loan rows preserve honest biography state',()=>{
+ const d=read('data/matches/2026-11-21-hiroshima-yokohama-fm.json');assert.equal(d.selection_audit.essentials_refresh.all_40_official_essentials_checked,true);
+ for(const r of d.selection_audit.card_evidence_audit.players){const p=read('data/clubs/'+r.team+'.json').players.find(p=>p.id===r.player_id);assert.equal(p.essentials_verification.status,'verified_essentials_only');assert.ok(p.essentials_verification.sources.some(s=>s.accessed_at==='2026-11-21'));}
+ const y=read('data/clubs/yokohama-fm.json').players;for(const [n,w] of [['24',68],['25',62],['32',72],['34',72],['41',63],['47',65]])assert.equal(y.find(p=>p.number===n).weight,w);
+ const k=y.find(p=>p.number==='34');assert.ok(k.career.some(r=>r.season==='2023'&&r.team==='愛媛FC'&&r.status==='外借'));assert.ok(k.career.some(r=>r.season==='2024'&&r.team==='甲府風林'&&r.status==='外借'));
+ const n=y.find(p=>p.number==='43');assert.ok(n.career.some(r=>r.team==='FC Wacker Innsbruck U23'&&r.appearances===19&&r.goals===21));assert.ok(n.career.some(r=>r.team==='FC Wacker Innsbruck'&&r.appearances===5&&r.goals===1));assert.ok(!n.intro.includes('效力奧地利薩爾斯堡'));
+ assert.equal(y.find(p=>p.number==='41').verification_status,'research_incomplete');assert.ok(y.find(p=>p.number==='41').intro.includes('2027正式加盟內定'));
+ const h=read('data/clubs/hiroshima.json').players;assert.equal(h.find(p=>p.number==='18').height,172);assert.equal(h.find(p=>p.number==='9').weight,93);
+});
