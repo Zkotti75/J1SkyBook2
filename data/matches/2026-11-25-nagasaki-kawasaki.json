@@ -3,10 +3,10 @@
   "home": "nagasaki",
   "away": "kawasaki",
   "date": "2026-11-25",
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-24",
   "competition": "j1",
   "interview_layout": "team_columns",
-  "coverage_note": "11月21日賽後刷新：最新已完賽果、官方20隊榜、最近兩場負荷、四隊各自Football LAB首14場數據已重核。保留全部10節、38輪聯賽及盃賽。下場正選／後備、球證、天氣及最新紀律仍待賽前掃描。",
+  "coverage_note": "11月24日賽前刷新：首15場獨立統計、完整官方榜、最新停賽公告、復出／U21額外負荷、條件式里程碑及本場前瞻。明日正式正選與全後備未公布，仍須獨立掃描。",
   "match_info": {
     "competition_zh": "2026/27日本J1聯賽・第16節",
     "kickoff_hkt": "18:00（日本19:00；播出17:55 HKT）",
@@ -23,6 +23,11 @@
         "label": "長崎官方・11月25日川崎戰19:00日本時間",
         "url": "https://www.v-varen.com/game_information/248317.html",
         "accessed_at": "2026-11-21"
+      },
+      {
+        "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+        "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+        "accessed_at": "2026-11-24"
       }
     ],
     "commentary": {
@@ -563,34 +568,45 @@
         "points": 14,
         "matches": 15,
         "season": "2026/27",
-        "competition": "J1；11月21日官方快照",
-        "as_of": "2026-11-21",
+        "competition": "J1首15場",
+        "as_of": "2026-11-24",
         "sources": [
           {
-            "label": "J.League官方・11月21日擷取完整20隊快照（部分球隊14場，其餘15場）",
+            "label": "J.League官方・11月24日完整20隊榜快照",
             "url": "https://www.jleague.jp/j1/standings/",
-            "accessed_at": "2026-11-21"
+            "accessed_at": "2026-11-24"
           }
         ]
       },
       "research_baseline": {
-        "as_of": "2026-11-21",
-        "note": "11月21日賽後刷新；官方榜15場，Football LAB進階首14場，負荷最近兩場有實際日期，官方本場選拔待公布。"
+        "as_of": "2026-11-24",
+        "note": "11月24日賽前刷新：首15場Football LAB、最新停賽及前瞻；下場正選／全後備未公布。"
       },
       "lineup": {
         "starters": [],
         "bench": [],
         "cues": [
           {
-            "text": "本場官方正選及全後備尚未公布；上仗出場不代表本場入選，預計陣容仍待賽前消息。",
+            "text": "25日官方正選及全後備尚未公布；上仗出場或前瞻所述可上陣，不等於已入選或正選。",
             "kind": "fact",
-            "as_of": "2026-11-21",
+            "as_of": "2026-11-24",
             "sources": [
               {
-                "label": "J.League官方・2026-11-21已完賽",
-                "url": "https://www.jleague.jp/match/j1/2026/112102/",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-21"
+                "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+                "accessed_at": "2026-11-24"
+              }
+            ]
+          },
+          {
+            "text": "22日另有U21磐田2–0長崎。青年及雙重出賽球員的逐人分鐘尚未完成可靠對帳；本表為一隊21日／7日樣本，不能據一隊0分鐘宣稱休足。",
+            "kind": "fact",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "J.League官方・22日U21賽果（已查週程）",
+                "url": "https://www.jleague.jp/j1/match/",
+                "accessed_at": "2026-11-24"
               }
             ]
           }
@@ -606,15 +622,15 @@
             "player_id": "nagasaki_1",
             "description": [
               {
-                "text": "J1首14輪：14次上陣、14次正選、1260分鐘。以實際使用量列作查閱焦點，不代表本場正選。",
+                "text": "J1首15場：15次上陣、15次正選、1350分鐘。以已完成聯賽使用量列作查閱焦點，不代表25日正選。",
                 "kind": "fact",
-                "as_of": "2026-11-09",
+                "as_of": "2026-11-24",
                 "sources": [
                   {
-                    "label": "Football LAB・11月9日更新，J1首14輪",
-                    "url": "https://www.football-lab.jp/ngsk/",
-                    "accessed_at": "2026-11-15",
-                    "published_at": "2026-11-09"
+                    "label": "Football LAB・2026/27首15場，11月22日更新",
+                    "url": "https://www.football-lab.jp/ngsk",
+                    "accessed_at": "2026-11-24",
+                    "published_at": "2026-11-22"
                   }
                 ]
               }
@@ -627,15 +643,15 @@
             "player_id": "nagasaki_41",
             "description": [
               {
-                "text": "J1首14輪：14次上陣、14次正選、1238分鐘。以實際使用量列作查閱焦點，不代表本場正選。",
+                "text": "J1首15場：14次上陣、14次正選、1238分鐘。以已完成聯賽使用量列作查閱焦點，不代表25日正選。",
                 "kind": "fact",
-                "as_of": "2026-11-09",
+                "as_of": "2026-11-24",
                 "sources": [
                   {
-                    "label": "Football LAB・11月9日更新，J1首14輪",
-                    "url": "https://www.football-lab.jp/ngsk/",
-                    "accessed_at": "2026-11-15",
-                    "published_at": "2026-11-09"
+                    "label": "Football LAB・2026/27首15場，11月22日更新",
+                    "url": "https://www.football-lab.jp/ngsk",
+                    "accessed_at": "2026-11-24",
+                    "published_at": "2026-11-22"
                   }
                 ]
               }
@@ -648,15 +664,15 @@
             "player_id": "nagasaki_5",
             "description": [
               {
-                "text": "J1首14輪：14次上陣、14次正選、1173分鐘。以實際使用量列作查閱焦點，不代表本場正選。",
+                "text": "J1首15場：15次上陣、15次正選、1263分鐘。以已完成聯賽使用量列作查閱焦點，不代表25日正選。",
                 "kind": "fact",
-                "as_of": "2026-11-09",
+                "as_of": "2026-11-24",
                 "sources": [
                   {
-                    "label": "Football LAB・11月9日更新，J1首14輪",
-                    "url": "https://www.football-lab.jp/ngsk/",
-                    "accessed_at": "2026-11-15",
-                    "published_at": "2026-11-09"
+                    "label": "Football LAB・2026/27首15場，11月22日更新",
+                    "url": "https://www.football-lab.jp/ngsk",
+                    "accessed_at": "2026-11-24",
+                    "published_at": "2026-11-22"
                   }
                 ]
               }
@@ -672,81 +688,81 @@
         "basic": [
           {
             "label": "進攻次數",
-            "value": "110.6",
+            "value": "110.7",
             "rank": 13,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "射門",
-            "value": "11.3",
-            "rank": 15,
+            "value": "11.1",
+            "rank": 17,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "機會構築率",
-            "value": "10.2%",
-            "rank": 14,
+            "value": "10.1%",
+            "rank": 16,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球",
-            "value": "1.2",
+            "value": "1.1",
             "rank": 11,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "射門轉化率",
-            "value": "10.8%",
+            "value": "10.2%",
             "rank": 10,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -755,14 +771,14 @@
             "value": "3.1",
             "rank": 17,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -771,94 +787,94 @@
             "value": "0.1",
             "rank": 7,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳球",
-            "value": "419.9",
-            "rank": 12,
+            "value": "413.5",
+            "rank": 14,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳中",
             "value": "10.5",
-            "rank": 19,
+            "rank": 18,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "直接自由球",
-            "value": "11.2",
-            "rank": 10,
+            "value": "10.9",
+            "rank": 11,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "間接自由球",
             "value": "1.4",
-            "rank": 16,
+            "rank": 17,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "角球",
-            "value": "3.8",
+            "value": "3.7",
             "rank": 16,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -867,62 +883,62 @@
             "value": "17.4",
             "rank": 17,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "盤扭",
-            "value": "10.4",
+            "value": "10.1",
             "rank": 11,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "攔截",
-            "value": "14.4",
+            "value": "14.6",
             "rank": 19,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "解圍",
-            "value": "30.4",
+            "value": "30.7",
             "rank": 2,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -931,110 +947,110 @@
             "value": "2.1",
             "rank": 4,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "越位",
-            "value": "1.4",
-            "rank": 18,
+            "value": "1.5",
+            "rank": 17,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "黃牌",
-            "value": "1.6",
-            "rank": 7,
+            "value": "1.7",
+            "rank": 6,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "紅牌",
             "value": "0",
-            "rank": 13,
+            "rank": 14,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "進入對方30米區域",
-            "value": "29.4",
+            "value": "29.5",
             "rank": 17,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "進入禁區",
-            "value": "10.3",
+            "value": "10.2",
             "rank": 13,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "控球率",
-            "value": "45.6%",
-            "rank": 14,
+            "value": "45.1%",
+            "rank": 15,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -1042,33 +1058,33 @@
         "attack": [
           {
             "label": "xG",
-            "value": "1.038",
+            "value": "1.026",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球（xG比較口徑）",
-            "value": "1.21",
+            "value": "1.13",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -1076,113 +1092,113 @@
         "defence": [
           {
             "label": "對手進攻次數",
-            "value": "112.9",
-            "rank": 12,
+            "value": "113.9",
+            "rank": 13,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "被射門",
-            "value": "14.1",
+            "value": "14.5",
             "rank": 15,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "對手機會構築率",
-            "value": "12.5%",
-            "rank": 14,
+            "value": "12.7%",
+            "rank": 16,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "失球",
-            "value": "1.6",
+            "value": "1.5",
             "rank": 7,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "對手射門轉化率",
-            "value": "11.1%",
-            "rank": 9,
+            "value": "10.1%",
+            "rank": 7,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "xGA",
-            "value": "1.383",
+            "value": "1.395",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "失球（xG比較口徑）",
-            "value": "1.57",
+            "value": "1.47",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -1190,81 +1206,81 @@
         "build_up": [
           {
             "label": "進攻CBP",
-            "value": "168.80",
+            "value": "179.62",
             "rank": 15,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳球CBP",
-            "value": "136.31",
+            "value": "145.31",
             "rank": 13,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳中CBP",
-            "value": "16.73",
+            "value": "18.24",
             "rank": 19,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "盤扭CBP",
-            "value": "15.75",
-            "rank": 15,
+            "value": "16.06",
+            "rank": 14,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "射門CBP",
-            "value": "83.73",
-            "rank": 16,
+            "value": "86.14",
+            "rank": 17,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1273,94 +1289,94 @@
             "value": "52.47",
             "rank": 13,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "奪回CBP",
-            "value": "1,151.91",
-            "rank": 14,
+            "value": "1,239.16",
+            "rank": 12,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "防守CBP",
-            "value": "235.65",
-            "rank": 2,
+            "value": "257.08",
+            "rank": 1,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "撲救CBP",
-            "value": "4.55",
+            "value": "5.09",
             "rank": 14,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "AGI進攻指數",
-            "value": "43.9",
+            "value": "44.6",
             "rank": 18,
             "unit": "指數",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "KAGI防守指數",
-            "value": "42.1",
+            "value": "41.8",
             "rank": 20,
             "unit": "指數",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -1371,14 +1387,14 @@
             "value": "1 (5.9%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1387,14 +1403,14 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1403,14 +1419,14 @@
             "value": "3 (17.6%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1419,14 +1435,14 @@
             "value": "1 (5.9%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1435,14 +1451,14 @@
             "value": "2 (11.8%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1451,14 +1467,14 @@
             "value": "7 (41.2%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1467,14 +1483,14 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1483,14 +1499,14 @@
             "value": "2 (11.8%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1499,14 +1515,14 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1515,14 +1531,14 @@
             "value": "1 (5.9%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1531,14 +1547,14 @@
             "value": "2 (9.1%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1547,14 +1563,14 @@
             "value": "1 (4.5%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1563,14 +1579,14 @@
             "value": "3 (13.6%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1579,14 +1595,14 @@
             "value": "6 (27.3%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1595,14 +1611,14 @@
             "value": "3 (13.6%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1611,14 +1627,14 @@
             "value": "2 (9.1%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1627,14 +1643,14 @@
             "value": "1 (4.5%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1643,14 +1659,14 @@
             "value": "2 (9.1%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1659,14 +1675,14 @@
             "value": "2 (9.1%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -1675,14 +1691,14 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -1692,15 +1708,15 @@
       },
       "analytics": [
         {
-          "text": "進階數據逐隊重核：Football LAB 11月13日更新、首14場；不包括11月20／21日新賽果。聯賽榜另用11月21日官方完整快照。xG比較排除烏龍，入失球方式表包括烏龍；跑動／衝刺季均值、完整時段及撲救率未核實，留缺。",
+          "text": "Football LAB已更新至11月22日、首15場；兩隊逐項獨立覆核，與官方榜分別保留來源。xG比較排除烏龍；季均跑動／衝刺、完整時段及撲救率仍未核實，不補值。",
           "kind": "fact",
-          "as_of": "2026-11-21",
+          "as_of": "2026-11-24",
           "sources": [
             {
-              "label": "Football LAB・2026/27，11月13日更新／首14場",
+              "label": "Football LAB・2026/27首15場，11月22日更新",
               "url": "https://www.football-lab.jp/ngsk",
-              "accessed_at": "2026-11-21",
-              "published_at": "2026-11-13"
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-22"
             }
           ]
         }
@@ -1926,19 +1942,38 @@
             }
           ],
           "number": "50"
+        },
+        {
+          "text": "大南拓磨21日對町田64分鐘（後半19分）入替江川湧清，名義26分鐘；官方前瞻稱復出後有望應付古會川崎。這是可用性報道，25日是否正選／入選仍待公布。",
+          "kind": "reported",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "label": "J.League官方・21日町田0–0長崎換人紀錄",
+              "url": "https://www.jleague.jp/match/j1/2026/112102/",
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-21"
+            },
+            {
+              "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+              "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+              "accessed_at": "2026-11-24"
+            }
+          ],
+          "number": "25"
         }
       ],
       "suspensions": [
         {
-          "text": "本場停賽及累積黃牌尚待最新J.League紀律公告逐人覆核；沒有把上仗黃牌直接判為本場停賽。",
+          "text": "已查11月23日J.League停賽公告，未列本隊球員；這只代表該公告沒有本隊新增處分，並非逐人有效黃牌已全部核清。25日仍須核對最後公告與正式名單。",
           "kind": "fact",
-          "as_of": "2026-11-21",
+          "as_of": "2026-11-24",
           "sources": [
             {
-              "label": "J.League官方・2026-11-21已完賽",
-              "url": "https://www.jleague.jp/match/j1/2026/112102/",
-              "accessed_at": "2026-11-21",
-              "published_at": "2026-11-21"
+              "label": "J.League官方・11月23日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35431/",
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-23"
             }
           ]
         }
@@ -2000,9 +2035,35 @@
               "accessed_at": "2026-11-21"
             }
           ]
+        },
+        {
+          "text": "大南拓磨赴比利時前兩季效力川崎；若25日獲派上陣，將是加盟長崎後首次倒戈川崎。復出後的默契及防線站位值得留意，不能先寫成官方正選。",
+          "kind": "analysis",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+              "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+              "accessed_at": "2026-11-24"
+            }
+          ]
         }
       ],
-      "milestones": []
+      "milestones": [
+        {
+          "text": "堤亞高・辛坦拿現有48個J1入球；若本場射入兩球才達50球，不是已達標。",
+          "kind": "fact",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "label": "J.League官方・第16節達成在即紀錄",
+              "url": "https://www.jleague.jp/news/article/35423/",
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-23"
+            }
+          ]
+        }
+      ]
     },
     "kawasaki": {
       "game_log": [
@@ -2525,34 +2586,46 @@
         "points": 25,
         "matches": 15,
         "season": "2026/27",
-        "competition": "J1；11月21日官方快照",
-        "as_of": "2026-11-21",
+        "competition": "J1首15場",
+        "as_of": "2026-11-24",
         "sources": [
           {
-            "label": "J.League官方・11月21日擷取完整20隊快照（部分球隊14場，其餘15場）",
+            "label": "J.League官方・11月24日完整20隊榜快照",
             "url": "https://www.jleague.jp/j1/standings/",
-            "accessed_at": "2026-11-21"
+            "accessed_at": "2026-11-24"
           }
         ]
       },
       "research_baseline": {
-        "as_of": "2026-11-21",
-        "note": "11月21日賽後刷新；官方榜15場，Football LAB進階首14場，負荷最近兩場有實際日期，官方本場選拔待公布。"
+        "as_of": "2026-11-24",
+        "note": "11月24日賽前刷新：首15場Football LAB、最新停賽及前瞻；下場正選／全後備未公布。"
       },
       "lineup": {
         "starters": [],
         "bench": [],
         "cues": [
           {
-            "text": "本場官方正選及全後備尚未公布；上仗出場不代表本場入選，預計陣容仍待賽前消息。",
+            "text": "25日官方正選及全後備尚未公布；上仗出場或前瞻所述可上陣，不等於已入選或正選。",
             "kind": "fact",
-            "as_of": "2026-11-21",
+            "as_of": "2026-11-24",
             "sources": [
               {
-                "label": "J.League官方・2026-11-21已完賽",
-                "url": "https://www.jleague.jp/match/j1/2026/112104/",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-21"
+                "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+                "accessed_at": "2026-11-24"
+              }
+            ]
+          },
+          {
+            "text": "22日U21川崎3–0岡山：卡基・基羅斯正選63分鐘並入兩球；野田裕人63分鐘、林駿佑90分鐘、丸山祐市半場換出（名義45分鐘）、持山匡佑90分鐘、長璃喜71分鐘。半場記45，不含補時。U21號碼按官方姓名辨認：#25川村求不是一隊#25山市秀翔；#36廣瀬寧生不是一隊#36本間凜。",
+            "kind": "fact",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "川崎官方・22日U21川崎3–0岡山完整記錄",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/u-21j/07.html",
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -2568,15 +2641,15 @@
             "player_id": "kawasaki_49",
             "description": [
               {
-                "text": "J1首14輪：14次上陣、14次正選、1260分鐘。以實際使用量列作查閱焦點，不代表本場正選。",
+                "text": "J1首15場：15次上陣、15次正選、1350分鐘。以已完成聯賽使用量列作查閱焦點，不代表25日正選。",
                 "kind": "fact",
-                "as_of": "2026-11-09",
+                "as_of": "2026-11-24",
                 "sources": [
                   {
-                    "label": "Football LAB・11月9日更新，J1首14輪",
-                    "url": "https://www.football-lab.jp/ka-f/",
-                    "accessed_at": "2026-11-15",
-                    "published_at": "2026-11-09"
+                    "label": "Football LAB・2026/27首15場，11月22日更新",
+                    "url": "https://www.football-lab.jp/ka-f",
+                    "accessed_at": "2026-11-24",
+                    "published_at": "2026-11-22"
                   }
                 ]
               }
@@ -2589,15 +2662,15 @@
             "player_id": "kawasaki_14",
             "description": [
               {
-                "text": "J1首14輪：14次上陣、13次正選、1185分鐘。以實際使用量列作查閱焦點，不代表本場正選。",
+                "text": "J1首15場：15次上陣、14次正選、1257分鐘。以已完成聯賽使用量列作查閱焦點，不代表25日正選。",
                 "kind": "fact",
-                "as_of": "2026-11-09",
+                "as_of": "2026-11-24",
                 "sources": [
                   {
-                    "label": "Football LAB・11月9日更新，J1首14輪",
-                    "url": "https://www.football-lab.jp/ka-f/",
-                    "accessed_at": "2026-11-15",
-                    "published_at": "2026-11-09"
+                    "label": "Football LAB・2026/27首15場，11月22日更新",
+                    "url": "https://www.football-lab.jp/ka-f",
+                    "accessed_at": "2026-11-24",
+                    "published_at": "2026-11-22"
                   }
                 ]
               }
@@ -2610,15 +2683,15 @@
             "player_id": "kawasaki_8",
             "description": [
               {
-                "text": "J1首14輪：14次上陣、14次正選、1173分鐘。以實際使用量列作查閱焦點，不代表本場正選。",
+                "text": "J1首15場：15次上陣、15次正選、1263分鐘。以已完成聯賽使用量列作查閱焦點，不代表25日正選。",
                 "kind": "fact",
-                "as_of": "2026-11-09",
+                "as_of": "2026-11-24",
                 "sources": [
                   {
-                    "label": "Football LAB・11月9日更新，J1首14輪",
-                    "url": "https://www.football-lab.jp/ka-f/",
-                    "accessed_at": "2026-11-15",
-                    "published_at": "2026-11-09"
+                    "label": "Football LAB・2026/27首15場，11月22日更新",
+                    "url": "https://www.football-lab.jp/ka-f",
+                    "accessed_at": "2026-11-24",
+                    "published_at": "2026-11-22"
                   }
                 ]
               }
@@ -2634,97 +2707,97 @@
         "basic": [
           {
             "label": "進攻次數",
-            "value": "105.9",
+            "value": "105.1",
             "rank": 20,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "射門",
-            "value": "14.9",
-            "rank": 6,
+            "value": "15.1",
+            "rank": 5,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "機會構築率",
-            "value": "14.1%",
+            "value": "14.3%",
             "rank": 3,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球",
-            "value": "2.0",
+            "value": "1.9",
             "rank": 5,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "射門轉化率",
-            "value": "13.4%",
+            "value": "12.8%",
             "rank": 5,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "射正",
-            "value": "5.6",
+            "value": "5.7",
             "rank": 3,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -2733,110 +2806,110 @@
             "value": "0",
             "rank": 12,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳球",
-            "value": "510.0",
+            "value": "513.0",
             "rank": 5,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳中",
-            "value": "14.6",
-            "rank": 11,
+            "value": "15.0",
+            "rank": 9,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "直接自由球",
-            "value": "9.9",
-            "rank": 15,
+            "value": "10.0",
+            "rank": 14,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "間接自由球",
-            "value": "1.5",
-            "rank": 13,
+            "value": "1.6",
+            "rank": 11,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "角球",
-            "value": "4.1",
-            "rank": 15,
+            "value": "4.2",
+            "rank": 13,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "界外球",
-            "value": "16.9",
-            "rank": 19,
+            "value": "16.7",
+            "rank": 20,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -2845,158 +2918,158 @@
             "value": "11.8",
             "rank": 4,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "攔截",
-            "value": "14.4",
-            "rank": 19,
+            "value": "14.7",
+            "rank": 17,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "解圍",
-            "value": "23.6",
-            "rank": 14,
+            "value": "24.3",
+            "rank": 13,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "截傳",
-            "value": "2.3",
-            "rank": 2,
+            "value": "2.1",
+            "rank": 3,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "越位",
-            "value": "2.1",
-            "rank": 6,
+            "value": "2.3",
+            "rank": 3,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "黃牌",
             "value": "1.4",
-            "rank": 12,
+            "rank": 9,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "紅牌",
             "value": "0",
-            "rank": 13,
+            "rank": 14,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "進入對方30米區域",
-            "value": "45.4",
-            "rank": 6,
+            "value": "45.7",
+            "rank": 7,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "進入禁區",
-            "value": "17.8",
-            "rank": 4,
+            "value": "18.0",
+            "rank": 3,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "控球率",
-            "value": "51.6%",
+            "value": "51.8%",
             "rank": 9,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -3004,33 +3077,33 @@
         "attack": [
           {
             "label": "xG",
-            "value": "1.564",
+            "value": "1.557",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球（xG比較口徑）",
-            "value": "2.00",
+            "value": "1.93",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -3038,113 +3111,113 @@
         "defence": [
           {
             "label": "對手進攻次數",
-            "value": "110.4",
+            "value": "109.8",
             "rank": 5,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "被射門",
-            "value": "13.8",
-            "rank": 14,
+            "value": "13.5",
+            "rank": 13,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "對手機會構築率",
-            "value": "12.5%",
+            "value": "12.3%",
             "rank": 13,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "失球",
-            "value": "1.7",
-            "rank": 14,
+            "value": "1.6",
+            "rank": 13,
             "unit": "每場",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "對手射門轉化率",
-            "value": "12.4%",
+            "value": "11.9%",
             "rank": 14,
             "unit": "%",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "xGA",
-            "value": "1.448",
+            "value": "1.431",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "失球（xG比較口徑）",
-            "value": "1.71",
+            "value": "1.60",
             "rank": null,
             "unit": "每場；不含烏龍",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -3152,177 +3225,177 @@
         "build_up": [
           {
             "label": "進攻CBP",
-            "value": "249.34",
+            "value": "268.36",
             "rank": 5,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳球CBP",
-            "value": "199.75",
+            "value": "213.26",
             "rank": 5,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "傳中CBP",
-            "value": "24.34",
-            "rank": 11,
+            "value": "28.00",
+            "rank": 10,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "盤扭CBP",
-            "value": "25.26",
+            "value": "27.10",
             "rank": 2,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "射門CBP",
-            "value": "128.24",
+            "value": "137.24",
             "rank": 5,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球CBP",
-            "value": "85.34",
-            "rank": 5,
+            "value": "89.79",
+            "rank": 4,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "奪回CBP",
-            "value": "1,097.20",
-            "rank": 20,
+            "value": "1,160.99",
+            "rank": 19,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "防守CBP",
-            "value": "172.00",
-            "rank": 18,
+            "value": "185.00",
+            "rank": 17,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "撲救CBP",
-            "value": "6.85",
-            "rank": 7,
+            "value": "7.93",
+            "rank": 4,
             "unit": "累積CBP積分",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "AGI進攻指數",
-            "value": "56.1",
+            "value": "56.4",
             "rank": 4,
             "unit": "指數",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "KAGI防守指數",
-            "value": "52.1",
-            "rank": 6,
+            "value": "51.7",
+            "rank": 7,
             "unit": "指數",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -3333,14 +3406,14 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3349,142 +3422,142 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・間接死球",
-            "value": "4 (14.3%)",
+            "value": "4 (13.8%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・傳中",
-            "value": "5 (17.9%)",
+            "value": "5 (17.2%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・直線球",
-            "value": "2 (7.1%)",
+            "value": "2 (6.9%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・30米以下傳球",
-            "value": "7 (25.0%)",
+            "value": "8 (27.6%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・30米以上傳球",
-            "value": "2 (7.1%)",
+            "value": "2 (6.9%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・盤扭",
-            "value": "2 (7.1%)",
+            "value": "2 (6.9%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・第二點",
-            "value": "5 (17.9%)",
+            "value": "5 (17.2%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
             "label": "入球方式・其他",
-            "value": "1 (3.6%)",
+            "value": "1 (3.4%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3493,14 +3566,14 @@
             "value": "2 (8.3%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3509,14 +3582,14 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3525,14 +3598,14 @@
             "value": "7 (29.2%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3541,14 +3614,14 @@
             "value": "4 (16.7%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3557,14 +3630,14 @@
             "value": "1 (4.2%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3573,14 +3646,14 @@
             "value": "4 (16.7%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3589,14 +3662,14 @@
             "value": "0 (0.0%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3605,14 +3678,14 @@
             "value": "2 (8.3%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3621,14 +3694,14 @@
             "value": "2 (8.3%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -3637,14 +3710,14 @@
             "value": "2 (8.3%)",
             "rank": null,
             "unit": "球季總數／比例；數據商分類（包括烏龍）",
-            "sample": "2026/27 J1首14場；不含11月20／21日",
-            "as_of": "2026-11-13",
+            "sample": "2026/27 J1首15場（至11月21日）",
+            "as_of": "2026-11-22",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           }
@@ -3654,15 +3727,15 @@
       },
       "analytics": [
         {
-          "text": "進階數據逐隊重核：Football LAB 11月13日更新、首14場；不包括11月20／21日新賽果。聯賽榜另用11月21日官方完整快照。xG比較排除烏龍，入失球方式表包括烏龍；跑動／衝刺季均值、完整時段及撲救率未核實，留缺。",
+          "text": "Football LAB已更新至11月22日、首15場；兩隊逐項獨立覆核，與官方榜分別保留來源。xG比較排除烏龍；季均跑動／衝刺、完整時段及撲救率仍未核實，不補值。",
           "kind": "fact",
-          "as_of": "2026-11-21",
+          "as_of": "2026-11-24",
           "sources": [
             {
-              "label": "Football LAB・2026/27，11月13日更新／首14場",
+              "label": "Football LAB・2026/27首15場，11月22日更新",
               "url": "https://www.football-lab.jp/ka-f",
-              "accessed_at": "2026-11-21",
-              "published_at": "2026-11-13"
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-22"
             }
           ]
         }
@@ -3671,7 +3744,7 @@
         "match_date": "2026-11-21",
         "baseline_match_date": "2026-11-15",
         "as_of": "2026-11-21",
-        "minutes_note": "最近兩場已完賽事逐人名義分鐘；本次依J.League官方正選及換人時刻，半場記45、不含補時。每隊每場990分鐘。不是本場入選名單，亦不據此判斷傷患。",
+        "minutes_note": "最近兩場已完賽事逐人名義分鐘；本次依J.League官方正選及換人時刻，半場記45、不含補時。每隊每場990分鐘。不是本場入選名單，亦不據此判斷傷患。 此表仍為一隊21日／15日兩場；22日U21額外負荷另列本場輪換重點，不能將一隊0分鐘當作完全休息。",
         "minutes": [
           {
             "number": "1",
@@ -3893,68 +3966,36 @@
           ]
         },
         {
-          "text": "歷史公告／卡基・基羅斯：球會11月2日公布在10月17日U-21比賽受傷，左腿後肌拉傷；公告未提供復出時間。 此項保留原日期，本場可用性待新公告及名單確認。",
+          "text": "22日U21官方記錄證實卡基・基羅斯、野田裕人及林駿佑實際上陣，過往傷患不能繼續直接當作確定缺陣；這亦不等於25日已入選。紺野和也10月12日右足Lisfranc韌帶傷公告保留，最新復出狀態仍未確認。",
           "kind": "fact",
-          "as_of": "2026-11-12",
+          "as_of": "2026-11-24",
           "sources": [
             {
-              "label": "川崎官方・卡基傷情",
-              "url": "https://www.frontale.co.jp/info/2026/1102_1.html",
-              "accessed_at": "2026-11-12",
-              "published_at": "2026-11-02"
-            }
-          ]
-        },
-        {
-          "text": "歷史公告／野田裕人：10月3日U-21賽受傷，10月18日公布右腓腸肌拉傷。紺野和也：10月12日公布右足Lisfranc韌帶損傷。未有本週可靠復出更新，不能因仍在登錄表便當作可上陣。 此項保留原日期，本場可用性待新公告及名單確認。",
-          "kind": "fact",
-          "as_of": "2026-11-12",
-          "sources": [
-            {
-              "label": "川崎官方・野田傷情",
-              "url": "https://www.frontale.co.jp/info/2026/1018_1.html",
-              "accessed_at": "2026-11-12",
-              "published_at": "2026-10-18"
+              "label": "川崎官方・22日U21川崎3–0岡山完整記錄",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/u-21j/07.html",
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-22"
             },
             {
-              "label": "川崎官方・紺野傷情",
+              "label": "川崎官方・紺野歷史傷情",
               "url": "https://www.frontale.co.jp/info/2026/1012_1.html",
-              "accessed_at": "2026-11-12",
+              "accessed_at": "2026-11-24",
               "published_at": "2026-10-12"
-            }
-          ]
-        },
-        {
-          "text": "歷史公告／拉沙・羅曼尼治：8月29日對千葉受傷，9月7日公布左足底筋膜損傷。林駿佑：10月4日傷情公告另列；25日可用性仍須最新官方名單及醫療更新。 此項保留原日期，本場可用性待新公告及名單確認。",
-          "kind": "fact",
-          "as_of": "2026-11-12",
-          "sources": [
-            {
-              "label": "川崎官方・羅曼尼治傷情",
-              "url": "https://www.frontale.co.jp/info/2026/0907_1.html",
-              "accessed_at": "2026-11-12",
-              "published_at": "2026-09-07"
-            },
-            {
-              "label": "川崎官方・林駿佑傷情",
-              "url": "https://www.frontale.co.jp/info/2026/1004_1.html",
-              "accessed_at": "2026-11-12",
-              "published_at": "2026-10-04"
             }
           ]
         }
       ],
       "suspensions": [
         {
-          "text": "本場停賽及累積黃牌尚待最新J.League紀律公告逐人覆核；沒有把上仗黃牌直接判為本場停賽。",
+          "text": "已查11月23日J.League停賽公告，未列本隊球員；這只代表該公告沒有本隊新增處分，並非逐人有效黃牌已全部核清。25日仍須核對最後公告與正式名單。",
           "kind": "fact",
-          "as_of": "2026-11-21",
+          "as_of": "2026-11-24",
           "sources": [
             {
-              "label": "J.League官方・2026-11-21已完賽",
-              "url": "https://www.jleague.jp/match/j1/2026/112104/",
-              "accessed_at": "2026-11-21",
-              "published_at": "2026-11-21"
+              "label": "J.League官方・11月23日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35431/",
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-23"
             }
           ]
         }
@@ -4023,16 +4064,30 @@
           ]
         }
       ],
-      "milestones": []
+      "milestones": [
+        {
+          "text": "馬仙奴現有149次J1上陣；若本場有上陣才是第150場，列後備未上場不計。",
+          "kind": "fact",
+          "as_of": "2026-11-24",
+          "sources": [
+            {
+              "label": "J.League官方・第16節達成在即紀錄",
+              "url": "https://www.jleague.jp/news/article/35423/",
+              "accessed_at": "2026-11-24",
+              "published_at": "2026-11-23"
+            }
+          ]
+        }
+      ]
     }
   },
   "standings": {
-    "as_of": "2026-11-21",
+    "as_of": "2026-11-24",
     "sources": [
       {
-        "label": "J.League官方・11月21日擷取完整20隊快照（部分球隊14場，其餘15場）",
+        "label": "J.League官方・11月24日完整20隊榜快照",
         "url": "https://www.jleague.jp/j1/standings/",
-        "accessed_at": "2026-11-21"
+        "accessed_at": "2026-11-24"
       }
     ],
     "rows": [
@@ -4155,6 +4210,19 @@
       },
       {
         "rank": 10,
+        "slug": "okayama",
+        "name_zh": "岡山綠雉",
+        "played": 15,
+        "wins": 6,
+        "draws": 2,
+        "losses": 7,
+        "goals_for": 17,
+        "goals_against": 22,
+        "goal_difference": -5,
+        "points": 20
+      },
+      {
+        "rank": 11,
         "slug": "kyoto",
         "name_zh": "京都不死鳥",
         "played": 15,
@@ -4165,19 +4233,6 @@
         "goals_against": 24,
         "goal_difference": -3,
         "points": 19
-      },
-      {
-        "rank": 11,
-        "slug": "okayama",
-        "name_zh": "岡山綠雉",
-        "played": 14,
-        "wins": 5,
-        "draws": 2,
-        "losses": 7,
-        "goals_for": 16,
-        "goals_against": 22,
-        "goal_difference": -6,
-        "points": 17
       },
       {
         "rank": 12,
@@ -4261,13 +4316,13 @@
         "rank": 18,
         "slug": "gamba-osaka",
         "name_zh": "大阪飛腳",
-        "played": 14,
+        "played": 15,
         "wins": 2,
         "draws": 6,
-        "losses": 6,
+        "losses": 7,
         "goals_for": 16,
-        "goals_against": 24,
-        "goal_difference": -8,
+        "goals_against": 25,
+        "goal_difference": -9,
         "points": 12
       },
       {
@@ -4296,8 +4351,7 @@
         "goal_difference": -12,
         "points": 8
       }
-    ],
-    "note": "11月21日擷取完整官方榜；各隊14／15場，並非第15輪全部完成。"
+    ]
   },
   "cup_tournament": {
     "name": "2026/27 日本聯賽盃（Levain Cup）",
@@ -5249,19 +5303,26 @@
     },
     "context_note": "11月15日八強兩回合全部結束；浦和、柏、鹿島、町田晉級。以下屬聯賽盃獨立資料，不與本頁J1聯賽積分混算。"
   },
-  "quote_events": [],
-  "quote_status": {
-    "text": "新賽事頁已建立；尚未完成上仗賽後至本場的逐則訪問研究，不把其他賽事的預告或較早訪問冒充本場發言。",
-    "kind": "fact",
-    "as_of": "2026-11-15",
-    "sources": [
-      {
-        "label": "J.League官方・本場日期／開球／場地",
-        "url": "https://www.jleague.jp/match/j1/2026/112506/",
-        "accessed_at": "2026-11-15"
-      }
-    ]
-  },
+  "quote_events": [
+    {
+      "id": "20261124-jleague-preview",
+      "label": "本場前瞻・查閱日11月24日",
+      "entries": [
+        {
+          "team_slug": "kawasaki",
+          "speaker": "馬仙奴",
+          "role": "球員",
+          "category": "upcoming",
+          "published_at": "2026-11-24",
+          "date_basis": "accessed",
+          "outlet": "J.League官方前瞻（發表日未標；24日查閱）",
+          "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+          "paraphrase_zh": "馬仙奴表示，擊敗福岡後球隊重拾信心，希望連勝並留在前列爭標。他認為長崎同樣渴望向上，會全力應戰。這是賽前意向，不是本場選拔確認。"
+        }
+      ]
+    }
+  ],
+  "quote_status": "川崎馬仙奴本場意向採J.League可讀前瞻；長崎球會前瞻全文本次未能取得可靠正文，不補寫高木或大南原話。",
   "preview": {
     "cues": [
       {
@@ -5299,40 +5360,40 @@
         "title": "粵語評述提示・數據對位（分析）",
         "paragraphs": [
           {
-            "text": "長崎首14場每場11.3次射門、xG 1.038；川崎14.9次、xG 1.564。留意長崎點樣用較少進攻回合製造真正機會，能否將地面接應變成禁區內起腳。",
+            "text": "首15場長崎每場11.1次射門、xG 1.026；川崎15.1次、xG 1.557。留意長崎點樣將地面接應變成禁區內起腳；數據截點是11月22日，唔係本場預測。",
             "kind": "analysis",
-            "as_of": "2026-11-21",
+            "as_of": "2026-11-24",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               },
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
           {
-            "text": "川崎首14場24個失球，有7球喺間接死球攻勢失守；長崎17個入球有7球來自30米以下傳球。留意長崎死球第二點同地面接應，但呢個係舊樣本提示，唔係今場部署已確認。",
+            "text": "川崎首15場24個失球，有7球喺間接死球攻勢失守；長崎17個入球有7球來自30米以下傳球。留意長崎死球第二點同地面接應，但呢個係舊樣本提示，唔係今場部署已確認。",
             "kind": "analysis",
             "as_of": "2026-11-21",
             "sources": [
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ngsk",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               },
               {
-                "label": "Football LAB・2026/27，11月13日更新／首14場",
+                "label": "Football LAB・2026/27首15場，11月22日更新",
                 "url": "https://www.football-lab.jp/ka-f",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-13"
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-22"
               }
             ]
           },
@@ -5355,6 +5416,93 @@
                 "label": "長崎官方・11月25日川崎戰19:00日本時間",
                 "url": "https://www.v-varen.com/game_information/248317.html",
                 "accessed_at": "2026-11-21"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "11月24日賽前新增焦點",
+        "paragraphs": [
+          {
+            "text": "大南拓磨21日對町田64分鐘（後半19分）入替江川湧清，名義26分鐘；官方前瞻稱復出後有望應付古會川崎。這是可用性報道，25日是否正選／入選仍待公布。",
+            "kind": "reported",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "J.League官方・21日町田0–0長崎換人紀錄",
+                "url": "https://www.jleague.jp/match/j1/2026/112102/",
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-21"
+              },
+              {
+                "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+                "accessed_at": "2026-11-24"
+              }
+            ],
+            "number": "25"
+          },
+          {
+            "text": "J.League前瞻指本場是2018年後再次成年一隊聯賽交手；不應寫成所有級別首次交手。",
+            "kind": "fact",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+                "accessed_at": "2026-11-24"
+              }
+            ]
+          },
+          {
+            "text": "另有11月1日同一球場U21長崎0–4U21川崎；屬U21賽事，不能混入成年J1對賽統計。",
+            "kind": "fact",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "川崎官方・11月1日U21長崎戰",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/u-21j/06.html",
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-01"
+              }
+            ]
+          },
+          {
+            "text": "堤亞高・辛坦拿現有48個J1入球；若本場射入兩球才達50球，不是已達標。",
+            "kind": "fact",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "J.League官方・第16節達成在即紀錄",
+                "url": "https://www.jleague.jp/news/article/35423/",
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-23"
+              }
+            ]
+          },
+          {
+            "text": "馬仙奴現有149次J1上陣；若本場有上陣才是第150場，列後備未上場不計。",
+            "kind": "fact",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "J.League官方・第16節達成在即紀錄",
+                "url": "https://www.jleague.jp/news/article/35423/",
+                "accessed_at": "2026-11-24",
+                "published_at": "2026-11-23"
+              }
+            ]
+          },
+          {
+            "text": "長崎已四場聯賽不勝；川崎21日贏福岡，止住各項正式賽四連敗。長崎先睇守到之後能否有更多反擊出口；川崎睇馬仙奴能否延續製造機會。此為根據官方前瞻的觀察，非已公布部署。",
+            "kind": "analysis",
+            "as_of": "2026-11-24",
+            "sources": [
+              {
+                "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+                "accessed_at": "2026-11-24"
               }
             ]
           }
@@ -5423,21 +5571,22 @@
   "coverage_gaps": [
     "本場正式正選、後備、球證、比賽日天氣尚未核實。",
     "本場最新傷停／復操、J1有效黃牌及代表隊歸隊需再掃描；歷史醫療公告不能等同本場缺陣。",
-    "最新訪問、完整近五次交鋒、同截點助攻／xA、時段及門將數據仍待核實。",
     "完整註冊及永久青年球員卡未在本次初次準備重新做全隊批次；本場入選後須對照正式名單。",
     "11月21日刷新不是最終選拔：本場官方正選／全後備、球證、天氣、停賽及累積黃牌仍待賽前逐項覆核。",
-    "Football LAB首14場進階數據與11月21日15場官方榜分開；季均跑動／衝刺、完整入球時段及門將撲救率沒有本次可核對值。",
-    "永久卡維持原驗證狀態；本次僅對最新實際出場者連結，未開新人物批次或宣稱全隊完整傳記已完成。"
+    "永久卡維持原驗證狀態；本次僅對最新實際出場者連結，未開新人物批次或宣稱全隊完整傳記已完成。",
+    "長崎本場官方訪問正文未能可靠取得；川崎採J.League馬仙奴摘要（查閱日明示）。完整近五次成年交手、同截點助攻／xA、入球時段及門將指標仍缺。",
+    "22日長崎U21逐人負荷待核；川崎U21額外實際分鐘已另列，不混為一隊聯賽使用量。",
+    "最新23日停賽公告未列長崎／川崎；逐人有效J1累積黃牌仍未完成，不能宣稱沒有停賽風險。"
   ],
   "section_status": {
     "info": "部分：編排／日期／場地完成；天氣及球證待核",
-    "quotes": "待本場訪問研究",
-    "comparison": "11月21日賽果／完整20隊榜及最近五場更新；近五次交手仍待補",
-    "availability": "進藤21日新傷公告、川崎實際上陣及歷史醫療更新；本場紀律／復操待核",
-    "analytics": "四隊各自來源重建；11月13日／首14場截點明示，未核實跑動等留缺",
-    "rotation": "截至11月21日最近兩場實際990分鐘；本場選拔未知",
+    "quotes": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
+    "comparison": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
+    "availability": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
+    "analytics": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
+    "rotation": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
     "players": "已有永久卡及有來源使用量焦點；未做新人物批次",
-    "preview": "11月21日賽後粵語提示及數據對位；本場名單未公布",
+    "preview": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
     "logs": "完整官方榜快照（14／15場）、兩隊38輪及盃賽保留",
     "cup": "52場首階段、八強兩回合、晉級及兩隊路線"
   },
@@ -5472,5 +5621,44 @@
       }
     },
     "scope": "最近一場實際出場者對永久卡；不是下場完整登錄／官方選拔審核。"
+  },
+  "head_to_head": [
+    {
+      "text": "J.League前瞻指本場是2018年後再次成年一隊聯賽交手；不應寫成所有級別首次交手。",
+      "kind": "fact",
+      "as_of": "2026-11-24",
+      "sources": [
+        {
+          "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
+          "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
+          "accessed_at": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "text": "另有11月1日同一球場U21長崎0–4U21川崎；屬U21賽事，不能混入成年J1對賽統計。",
+      "kind": "fact",
+      "as_of": "2026-11-24",
+      "sources": [
+        {
+          "label": "川崎官方・11月1日U21長崎戰",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/u-21j/06.html",
+          "accessed_at": "2026-11-24",
+          "published_at": "2026-11-01"
+        }
+      ]
+    }
+  ],
+  "refresh_checkpoint": {
+    "as_of": "2026-11-24",
+    "baseline_commit": "891f702133c611772cb65723c2d15f492c871f36",
+    "scope": "只刷新11月25日長崎–川崎；本場官方全名單仍待公布。",
+    "next_sweep": "25日發布正式XI及全後備後，以官方ID與姓名逐一對永久卡；U21號碼不可直接套用一隊。",
+    "remaining": [
+      "長崎U21逐人分鐘",
+      "有效黃牌逐人對帳",
+      "最新醫療／球證／天氣",
+      "正式正選及全後備"
+    ]
   }
 }
