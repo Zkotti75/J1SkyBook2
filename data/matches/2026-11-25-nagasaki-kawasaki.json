@@ -3,16 +3,16 @@
   "home": "nagasaki",
   "away": "kawasaki",
   "date": "2026-11-25",
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "competition": "j1",
   "interview_layout": "team_columns",
-  "coverage_note": "11月24日賽前刷新：首15場獨立統計、完整官方榜、最新停賽公告、復出／U21額外負荷、條件式里程碑及本場前瞻。明日正式正選與全後備未公布，仍須獨立掃描。",
+  "coverage_note": "11月25日正式名單已公布；兩隊40名球員連結、球證六人及判罰、天氣、首15場統計和近期負荷。",
   "match_info": {
     "competition_zh": "2026/27日本J1聯賽・第16節",
     "kickoff_hkt": "18:00（日本19:00；播出17:55 HKT）",
     "stadium": "PEACE STADIUM Connected by SoftBank",
-    "lineups_as_of": null,
-    "selection_note": "本場正式名單未公布，不使用其他場次名單代填。",
+    "lineups_as_of": "2026-11-25｜正式名單公布後",
+    "selection_note": "兩隊正式正選及後備各20人，依J.League及川崎官方名單。",
     "sources": [
       {
         "label": "J.League官方・本場日期／開球／場地",
@@ -28,6 +28,16 @@
         "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
         "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
         "accessed_at": "2026-11-24"
+      },
+      {
+        "label": "J.League官方・正式名單與陣式",
+        "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+        "accessed_at": "2026-11-25"
+      },
+      {
+        "label": "川崎官方・兩隊正式名單及球證",
+        "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+        "accessed_at": "2026-11-25"
       }
     ],
     "commentary": {
@@ -38,14 +48,51 @@
       "bio": []
     },
     "officials": {
-      "status": "pending",
-      "roles": [],
-      "note": "本場球證組尚待官方委任核實。",
+      "status": "confirmed",
+      "checked_at_display": "2026-11-25｜正式名單公布後",
+      "roles": [
+        {
+          "id": "referee",
+          "name_ja": "上田 益也",
+          "status": "confirmed"
+        },
+        {
+          "id": "assistant_1",
+          "name_ja": "梅田 智起",
+          "status": "confirmed"
+        },
+        {
+          "id": "assistant_2",
+          "name_ja": "廣瀬 成昭",
+          "status": "confirmed"
+        },
+        {
+          "id": "fourth_official",
+          "name_ja": "津野 洋平",
+          "status": "confirmed"
+        },
+        {
+          "id": "var",
+          "name_ja": "福島 孝一郎",
+          "status": "confirmed"
+        },
+        {
+          "id": "avar",
+          "name_ja": "堀 善仁",
+          "status": "confirmed"
+        }
+      ],
+      "note": "官方委任六人。",
       "sources": [
         {
-          "label": "J.League官方・本場日期／開球／場地",
-          "url": "https://www.jleague.jp/match/j1/2026/112506/",
-          "accessed_at": "2026-11-15"
+          "label": "J.League官方・正式名單與陣式",
+          "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+          "accessed_at": "2026-11-25"
+        },
+        {
+          "label": "川崎官方・兩隊正式名單及球證",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+          "accessed_at": "2026-11-25"
         }
       ]
     },
@@ -87,7 +134,51 @@
         ]
       }
     ],
-    "kickoff_jst": "19:00"
+    "kickoff_jst": "19:00",
+    "referee": "上田益也",
+    "referee_tendencies": [
+      {
+        "text": "上田益也：本季2026/27 J1主審9場，24次警告（每場2.67）、1次退場、1個十二碼。統計截至11月16日，最近J1主吹11月8日町田0–0廣島（2黃）。另計百年構想聯賽13場28黃、2退場、3個十二碼；不混合賽季。退場包括兩黃一紅及直接紅牌，警告為首次警告，不含職員。",
+        "kind": "fact",
+        "as_of": "2026-11-25",
+        "sources": [
+          {
+            "label": "FOR TWELVE・逐場官方紀錄對照（11月16日截點）",
+            "url": "https://fortwelve.jp/shushin/masuya-ueda/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "Soccer D.B.・2026執法紀錄（11月21日為磐田對大宮，非J1）",
+            "url": "https://soccer-db.net/referee/index/41/2026",
+            "accessed_at": "2026-11-25"
+          }
+        ]
+      },
+      {
+        "text": "1982年11月18日出生，44歲，愛知縣；2014年首次主吹J1，2025年起職業球證。",
+        "kind": "fact",
+        "as_of": "2026-11-25",
+        "sources": [
+          {
+            "label": "JFA・職業球證合約（2025年1月23日）",
+            "url": "https://www.jfa.jp/about_jfa/report/PDF/h20250123_05.pdf",
+            "accessed_at": "2026-11-25"
+          }
+        ]
+      }
+    ],
+    "weather": {
+      "text": "長崎市日本時間19:00預報：晴、9°C、降雨概率20%；13:45更新，非球場實測。",
+      "kind": "fact",
+      "as_of": "2026-11-25",
+      "sources": [
+        {
+          "label": "ジョルダン・長崎19時預報",
+          "url": "https://next.jorudan.co.jp/weather/?la=117872300&lo=467534600&mode=detail&na=%E9%95%B7%E5%B4%8E",
+          "accessed_at": "2026-11-25"
+        }
+      ]
+    }
   },
   "teams": {
     "nagasaki": {
@@ -580,21 +671,428 @@
       },
       "research_baseline": {
         "as_of": "2026-11-24",
-        "note": "11月24日賽前刷新：首15場Football LAB、最新停賽及前瞻；下場正選／全後備未公布。"
+        "note": "11月25日正式名單已公布；首15場統計截至11月22日。"
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "25日官方正選及全後備尚未公布；上仗出場或前瞻所述可上陣，不等於已入選或正選。",
+            "text": "#1 後藤雅明",
             "kind": "fact",
-            "as_of": "2026-11-24",
+            "as_of": "2026-11-25",
             "sources": [
               {
-                "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
-                "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
-                "accessed_at": "2026-11-24"
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "1",
+            "has_card": true,
+            "player_id": "nagasaki_1"
+          },
+          {
+            "text": "#6 江川湧清",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "6",
+            "has_card": true,
+            "player_id": "nagasaki_6"
+          },
+          {
+            "text": "#23 米田隼也",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "23",
+            "has_card": true,
+            "player_id": "nagasaki_23"
+          },
+          {
+            "text": "#31 土肥幹太",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "31",
+            "has_card": true,
+            "player_id": "nagasaki_31"
+          },
+          {
+            "text": "#5 山口螢",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "5",
+            "has_card": true,
+            "player_id": "nagasaki_5"
+          },
+          {
+            "text": "#8 岩崎悠人",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "8",
+            "has_card": true,
+            "player_id": "nagasaki_8"
+          },
+          {
+            "text": "#10 馬菲奧斯・謝薩斯",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "10",
+            "has_card": true,
+            "player_id": "nagasaki_10"
+          },
+          {
+            "text": "#22 翁長聖",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "22",
+            "has_card": true,
+            "player_id": "nagasaki_22"
+          },
+          {
+            "text": "#44 鍋島暖步",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "44",
+            "has_card": true,
+            "player_id": "nagasaki_44"
+          },
+          {
+            "text": "#9 堤亞高・辛坦拿",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "9",
+            "has_card": true,
+            "player_id": "nagasaki_9"
+          },
+          {
+            "text": "#11 諾文・甘保",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "11",
+            "has_card": true,
+            "player_id": "nagasaki_11"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#13 波多野豪",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "13",
+            "has_card": true,
+            "player_id": "nagasaki_13"
+          },
+          {
+            "text": "#25 大南拓磨",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "25",
+            "has_card": true,
+            "player_id": "nagasaki_25"
+          },
+          {
+            "text": "#7 保田堅心",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "7",
+            "has_card": true,
+            "player_id": "nagasaki_7"
+          },
+          {
+            "text": "#19 澤田崇",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "19",
+            "has_card": true,
+            "player_id": "nagasaki_19"
+          },
+          {
+            "text": "#34 松本天夢",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "34",
+            "has_card": true,
+            "player_id": "nagasaki_34"
+          },
+          {
+            "text": "#41 長谷川元希",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "41",
+            "has_card": true,
+            "player_id": "nagasaki_41"
+          },
+          {
+            "text": "#88 增山朝陽",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "88",
+            "has_card": true,
+            "player_id": "nagasaki_88"
+          },
+          {
+            "text": "#18 山崎凌吾",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "18",
+            "has_card": true,
+            "player_id": "nagasaki_18"
+          },
+          {
+            "text": "#99 莊拿芬・祖利亞",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "99",
+            "has_card": true,
+            "player_id": "nagasaki_99"
+          }
+        ],
+        "cues": [
+          {
+            "text": "較11月21日一隊正選更換0人：沒有；本場正選中上仗一隊0分鐘：沒有。",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
               }
             ]
           },
@@ -610,10 +1108,14 @@
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 0
       },
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "criteria": "比較11月21日正選及最近兩場一隊使用量；未公布輪休原因不作確定輪休。",
+        "confirmed_rest": [],
+        "unexplained": []
       },
       "players_to_watch": {
         "stars": [
@@ -1930,7 +2432,7 @@
       "previous_match_date": "2026-11-21",
       "injuries": [
         {
-          "text": "進藤亮佑：球會11月21日公布操練時受傷，診斷為左內側側副韌帶損傷；公告未列受傷實際日期及復出日期。25日能否入選仍待球會新消息及名單，不能自行改寫成韌帶斷裂。",
+          "text": "進藤亮佑：球會11月21日公布操練時受傷，診斷為左內側側副韌帶損傷；公告未列受傷實際日期及復出日期。本場未入選。",
           "kind": "fact",
           "as_of": "2026-11-21",
           "sources": [
@@ -1944,20 +2446,19 @@
           "number": "50"
         },
         {
-          "text": "大南拓磨21日對町田64分鐘（後半19分）入替江川湧清，名義26分鐘；官方前瞻稱復出後有望應付古會川崎。這是可用性報道，25日是否正選／入選仍待公布。",
-          "kind": "reported",
-          "as_of": "2026-11-24",
+          "text": "大南拓磨21日64分鐘入替江川湧清（26分鐘），本場再列後備。",
+          "kind": "fact",
+          "as_of": "2026-11-25",
           "sources": [
             {
-              "label": "J.League官方・21日町田0–0長崎換人紀錄",
-              "url": "https://www.jleague.jp/match/j1/2026/112102/",
-              "accessed_at": "2026-11-24",
-              "published_at": "2026-11-21"
+              "label": "J.League官方・正式名單與陣式",
+              "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+              "accessed_at": "2026-11-25"
             },
             {
-              "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
-              "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
-              "accessed_at": "2026-11-24"
+              "label": "川崎官方・兩隊正式名單及球證",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+              "accessed_at": "2026-11-25"
             }
           ],
           "number": "25"
@@ -1965,15 +2466,24 @@
       ],
       "suspensions": [
         {
-          "text": "已查11月23日J.League停賽公告，未列本隊球員；這只代表該公告沒有本隊新增處分，並非逐人有效黃牌已全部核清。25日仍須核對最後公告與正式名單。",
+          "text": "11月23日J.League停賽公告沒有本隊球員；本場正式名單所列20人已獲選。",
           "kind": "fact",
-          "as_of": "2026-11-24",
+          "as_of": "2026-11-25",
           "sources": [
             {
               "label": "J.League官方・11月23日停賽公告",
               "url": "https://www.jleague.jp/news/article/35431/",
-              "accessed_at": "2026-11-24",
-              "published_at": "2026-11-23"
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "J.League官方・正式名單與陣式",
+              "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "川崎官方・兩隊正式名單及球證",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+              "accessed_at": "2026-11-25"
             }
           ]
         }
@@ -2063,7 +2573,70 @@
             }
           ]
         }
-      ]
+      ],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "J.League官方開賽站位；臨場可調整",
+        "as_of": "2026-11-25",
+        "players": [
+          {
+            "number": "9",
+            "name": "堤亞高・辛坦拿"
+          },
+          {
+            "number": "8",
+            "name": "岩崎悠人"
+          },
+          {
+            "number": "10",
+            "name": "馬菲奧斯・謝薩斯"
+          },
+          {
+            "number": "23",
+            "name": "米田隼也"
+          },
+          {
+            "number": "44",
+            "name": "鍋島暖步"
+          },
+          {
+            "number": "5",
+            "name": "山口螢"
+          },
+          {
+            "number": "11",
+            "name": "諾文・甘保"
+          },
+          {
+            "number": "6",
+            "name": "江川湧清"
+          },
+          {
+            "number": "31",
+            "name": "土肥幹太"
+          },
+          {
+            "number": "22",
+            "name": "翁長聖"
+          },
+          {
+            "number": "1",
+            "name": "後藤雅明"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League官方・正式名單與陣式",
+            "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "川崎官方・兩隊正式名單及球證",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+            "accessed_at": "2026-11-25"
+          }
+        ]
+      }
     },
     "kawasaki": {
       "game_log": [
@@ -2598,21 +3171,428 @@
       },
       "research_baseline": {
         "as_of": "2026-11-24",
-        "note": "11月24日賽前刷新：首15場Football LAB、最新停賽及前瞻；下場正選／全後備未公布。"
+        "note": "11月25日正式名單已公布；首15場統計截至11月22日。"
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "25日官方正選及全後備尚未公布；上仗出場或前瞻所述可上陣，不等於已入選或正選。",
+            "text": "#49 史雲特・布羅德森",
             "kind": "fact",
-            "as_of": "2026-11-24",
+            "as_of": "2026-11-25",
             "sources": [
               {
-                "label": "J.League官方・長崎對川崎賽前前瞻（查閱日期）",
-                "url": "https://www.jleague.jp/match/j1/2026/112506/preview/",
-                "accessed_at": "2026-11-24"
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "49",
+            "has_card": true,
+            "player_id": "kawasaki_49"
+          },
+          {
+            "text": "#29 山原怜音",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "29",
+            "has_card": true,
+            "player_id": "kawasaki_29"
+          },
+          {
+            "text": "#22 菲利普・烏雷莫維奇",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "22",
+            "has_card": true,
+            "player_id": "kawasaki_22"
+          },
+          {
+            "text": "#3 谷口榮斗",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "3",
+            "has_card": true,
+            "player_id": "kawasaki_3"
+          },
+          {
+            "text": "#13 三浦颯太",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "13",
+            "has_card": true,
+            "player_id": "kawasaki_13"
+          },
+          {
+            "text": "#8 橘田健人",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "8",
+            "has_card": true,
+            "player_id": "kawasaki_8"
+          },
+          {
+            "text": "#6 山本悠樹",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "6",
+            "has_card": true,
+            "player_id": "kawasaki_6"
+          },
+          {
+            "text": "#17 伊藤達哉",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "17",
+            "has_card": true,
+            "player_id": "kawasaki_17"
+          },
+          {
+            "text": "#14 脇坂泰斗",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "14",
+            "has_card": true,
+            "player_id": "kawasaki_14"
+          },
+          {
+            "text": "#23 馬仙奴",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "23",
+            "has_card": true,
+            "player_id": "kawasaki_23"
+          },
+          {
+            "text": "#97 拉斯達",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "97",
+            "has_card": true,
+            "player_id": "kawasaki_97"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#1 山口瑠伊",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "1",
+            "has_card": true,
+            "player_id": "kawasaki_1"
+          },
+          {
+            "text": "#2 松長根悠仁",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "2",
+            "has_card": true,
+            "player_id": "kawasaki_2"
+          },
+          {
+            "text": "#28 丸山祐市",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "28",
+            "has_card": true,
+            "player_id": "kawasaki_28"
+          },
+          {
+            "text": "#16 大關友翔",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "16",
+            "has_card": true,
+            "player_id": "kawasaki_16"
+          },
+          {
+            "text": "#19 河原創",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "19",
+            "has_card": true,
+            "player_id": "kawasaki_19"
+          },
+          {
+            "text": "#25 山市秀翔",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "25",
+            "has_card": true,
+            "player_id": "kawasaki_25"
+          },
+          {
+            "text": "#36 本間凜",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "36",
+            "has_card": true,
+            "player_id": "kawasaki_36"
+          },
+          {
+            "text": "#93 卡基・基羅斯",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "93",
+            "has_card": true,
+            "player_id": "kawasaki_93"
+          },
+          {
+            "text": "#11 小林悠",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "11",
+            "has_card": true,
+            "player_id": "kawasaki_11"
+          }
+        ],
+        "cues": [
+          {
+            "text": "較11月21日一隊正選更換1人：菲利普・烏雷莫維奇；本場正選中上仗一隊0分鐘：沒有。",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
               }
             ]
           },
@@ -2629,10 +3609,33 @@
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 1
       },
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "criteria": "比較11月21日正選及最近兩場一隊使用量；未公布輪休原因不作確定輪休。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "柏度・羅曼奴：上仗正選79分鐘，本場未入選；球會未公布輪休安排。",
+            "kind": "fact",
+            "as_of": "2026-11-25",
+            "sources": [
+              {
+                "label": "J.League官方・正式名單與陣式",
+                "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "川崎官方・兩隊正式名單及球證",
+                "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "4"
+          }
+        ]
       },
       "players_to_watch": {
         "stars": [
@@ -3949,24 +4952,24 @@
       "previous_match_date": "2026-11-21",
       "injuries": [
         {
-          "text": "伊藤達哉21日正選、60分鐘入球、72分鐘換出；這是實際上陣紀錄，25日可用性仍需另核。卡基15日後備上陣，先前傷情不能繼續直接寫成確定缺陣。",
+          "text": "伊藤達哉21日正選72分鐘並入球，本場連續正選；卡基・基羅斯本場後備。",
           "kind": "fact",
-          "as_of": "2026-11-21",
+          "as_of": "2026-11-25",
           "sources": [
             {
-              "label": "J.League官方・最新已完賽名單／換人",
-              "url": "https://www.jleague.jp/match/j1/2026/112104/",
-              "accessed_at": "2026-11-21"
+              "label": "J.League官方・正式名單與陣式",
+              "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+              "accessed_at": "2026-11-25"
             },
             {
-              "label": "柏官方・15日盃賽",
-              "url": "https://www.reysol.co.jp/game/results/202627/1115.php",
-              "accessed_at": "2026-11-21"
+              "label": "川崎官方・兩隊正式名單及球證",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+              "accessed_at": "2026-11-25"
             }
           ]
         },
         {
-          "text": "22日U21官方記錄證實卡基・基羅斯、野田裕人及林駿佑實際上陣，過往傷患不能繼續直接當作確定缺陣；這亦不等於25日已入選。紺野和也10月12日右足Lisfranc韌帶傷公告保留，最新復出狀態仍未確認。",
+          "text": "22日U21官方記錄證實卡基・基羅斯、野田裕人及林駿佑實際上陣，過往傷患不能繼續直接當作確定缺陣；卡基本場列後備，野田及林未入選。紺野和也10月12日右足Lisfranc韌帶傷公告保留，最新復出狀態仍未確認。",
           "kind": "fact",
           "as_of": "2026-11-24",
           "sources": [
@@ -3987,15 +4990,24 @@
       ],
       "suspensions": [
         {
-          "text": "已查11月23日J.League停賽公告，未列本隊球員；這只代表該公告沒有本隊新增處分，並非逐人有效黃牌已全部核清。25日仍須核對最後公告與正式名單。",
+          "text": "11月23日J.League停賽公告沒有本隊球員；本場正式名單所列20人已獲選。",
           "kind": "fact",
-          "as_of": "2026-11-24",
+          "as_of": "2026-11-25",
           "sources": [
             {
               "label": "J.League官方・11月23日停賽公告",
               "url": "https://www.jleague.jp/news/article/35431/",
-              "accessed_at": "2026-11-24",
-              "published_at": "2026-11-23"
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "J.League官方・正式名單與陣式",
+              "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "川崎官方・兩隊正式名單及球證",
+              "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+              "accessed_at": "2026-11-25"
             }
           ]
         }
@@ -4078,7 +5090,70 @@
             }
           ]
         }
-      ]
+      ],
+      "formation": {
+        "shape": "4-2-3-1",
+        "label": "J.League官方開賽站位；臨場可調整",
+        "as_of": "2026-11-25",
+        "players": [
+          {
+            "number": "97",
+            "name": "拉斯達"
+          },
+          {
+            "number": "23",
+            "name": "馬仙奴"
+          },
+          {
+            "number": "14",
+            "name": "脇坂泰斗"
+          },
+          {
+            "number": "17",
+            "name": "伊藤達哉"
+          },
+          {
+            "number": "6",
+            "name": "山本悠樹"
+          },
+          {
+            "number": "8",
+            "name": "橘田健人"
+          },
+          {
+            "number": "13",
+            "name": "三浦颯太"
+          },
+          {
+            "number": "3",
+            "name": "谷口榮斗"
+          },
+          {
+            "number": "22",
+            "name": "菲利普・烏雷莫維奇"
+          },
+          {
+            "number": "29",
+            "name": "山原怜音"
+          },
+          {
+            "number": "49",
+            "name": "史雲特・布羅德森"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League官方・正式名單與陣式",
+            "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "川崎官方・兩隊正式名單及球證",
+            "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+            "accessed_at": "2026-11-25"
+          }
+        ]
+      }
     }
   },
   "standings": {
@@ -5425,7 +6500,7 @@
         "title": "11月24日賽前新增焦點",
         "paragraphs": [
           {
-            "text": "大南拓磨21日對町田64分鐘（後半19分）入替江川湧清，名義26分鐘；官方前瞻稱復出後有望應付古會川崎。這是可用性報道，25日是否正選／入選仍待公布。",
+            "text": "大南拓磨21日對町田64分鐘（後半19分）入替江川湧清，名義26分鐘；官方前瞻稱復出後有望應付古會川崎。這是可用性報道，本場列後備。",
             "kind": "reported",
             "as_of": "2026-11-24",
             "sources": [
@@ -5569,58 +6644,53 @@
     ]
   },
   "coverage_gaps": [
-    "本場正式正選、後備、球證、比賽日天氣尚未核實。",
-    "本場最新傷停／復操、J1有效黃牌及代表隊歸隊需再掃描；歷史醫療公告不能等同本場缺陣。",
-    "完整註冊及永久青年球員卡未在本次初次準備重新做全隊批次；本場入選後須對照正式名單。",
-    "11月21日刷新不是最終選拔：本場官方正選／全後備、球證、天氣、停賽及累積黃牌仍待賽前逐項覆核。",
-    "永久卡維持原驗證狀態；本次僅對最新實際出場者連結，未開新人物批次或宣稱全隊完整傳記已完成。",
-    "長崎本場官方訪問正文未能可靠取得；川崎採J.League馬仙奴摘要（查閱日明示）。完整近五次成年交手、同截點助攻／xA、入球時段及門將指標仍缺。",
-    "22日長崎U21逐人負荷待核；川崎U21額外實際分鐘已另列，不混為一隊聯賽使用量。",
-    "最新23日停賽公告未列長崎／川崎；逐人有效J1累積黃牌仍未完成，不能宣稱沒有停賽風險。"
+    "11月21日一隊及11月22日U21負荷分開；長崎U21逐人分鐘、有效黃牌、傷患未公開原因仍須依官方資料，不作推測。",
+    "同截點助攻／xA、入球時段及門將指標未取得完整可比資料；已保留Football LAB首15場數據。",
+    "長崎本場訪問及成年交手完整記錄未取得。"
   ],
   "section_status": {
-    "info": "部分：編排／日期／場地完成；天氣及球證待核",
-    "quotes": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
-    "comparison": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
-    "availability": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
-    "analytics": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
-    "rotation": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
-    "players": "已有永久卡及有來源使用量焦點；未做新人物批次",
-    "preview": "11月24日刷新；各欄來源及截點見正文，正式選拔／逐人有效黃牌及未核項保留待定。",
+    "info": "11月25日正式名單公布後刷新；資料截點見各來源。",
+    "quotes": "11月25日正式名單公布後刷新；資料截點見各來源。",
+    "comparison": "11月25日正式名單公布後刷新；資料截點見各來源。",
+    "availability": "11月25日正式名單公布後刷新；資料截點見各來源。",
+    "analytics": "11月25日正式名單公布後刷新；資料截點見各來源。",
+    "rotation": "11月25日正式名單公布後刷新；資料截點見各來源。",
+    "players": "11月25日正式名單公布後刷新；資料截點見各來源。",
+    "preview": "11月25日正式名單公布後刷新；資料截點見各來源。",
     "logs": "完整官方榜快照（14／15場）、兩隊38輪及盃賽保留",
     "cup": "52場首階段、八強兩回合、晉級及兩隊路線"
   },
   "participant_card_audit": {
-    "as_of": "2026-11-21",
+    "as_of": "2026-11-25",
+    "scope": "本場兩隊正式20人名單對永久卡",
     "teams": {
       "nagasaki": {
         "source": {
-          "label": "J.League官方・最新已完賽名單／換人",
-          "url": "https://www.jleague.jp/match/j1/2026/112102/",
-          "accessed_at": "2026-11-21"
+          "label": "川崎官方・兩隊正式名單及球證",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+          "accessed_at": "2026-11-25"
         },
-        "actual_participants": 15,
-        "linked_cards": 15,
+        "actual_participants": 20,
+        "linked_cards": 20,
         "missing_cards": [],
-        "selection_date": "2026-11-21",
-        "matchday_selection_pending": true,
-        "biography_note": "有永久卡不等於完整人物研究；本次沒有改動球員驗證狀態。"
+        "selection_date": "2026-11-25",
+        "matchday_selection_pending": false,
+        "biography_note": "正式名單20人全部有永久卡。"
       },
       "kawasaki": {
         "source": {
-          "label": "J.League官方・最新已完賽名單／換人",
-          "url": "https://www.jleague.jp/match/j1/2026/112104/",
-          "accessed_at": "2026-11-21"
+          "label": "川崎官方・兩隊正式名單及球證",
+          "url": "https://www.frontale.co.jp/goto_game/2026-27/j_league1/16.html",
+          "accessed_at": "2026-11-25"
         },
-        "actual_participants": 16,
-        "linked_cards": 16,
+        "actual_participants": 20,
+        "linked_cards": 20,
         "missing_cards": [],
-        "selection_date": "2026-11-21",
-        "matchday_selection_pending": true,
-        "biography_note": "有永久卡不等於完整人物研究；本次沒有改動球員驗證狀態。"
+        "selection_date": "2026-11-25",
+        "matchday_selection_pending": false,
+        "biography_note": "正式名單20人全部有永久卡。"
       }
-    },
-    "scope": "最近一場實際出場者對永久卡；不是下場完整登錄／官方選拔審核。"
+    }
   },
   "head_to_head": [
     {
@@ -5650,15 +6720,12 @@
     }
   ],
   "refresh_checkpoint": {
-    "as_of": "2026-11-24",
-    "baseline_commit": "891f702133c611772cb65723c2d15f492c871f36",
-    "scope": "只刷新11月25日長崎–川崎；本場官方全名單仍待公布。",
-    "next_sweep": "25日發布正式XI及全後備後，以官方ID與姓名逐一對永久卡；U21號碼不可直接套用一隊。",
+    "as_of": "2026-11-25",
+    "scope": "11月25日正式名單、球證、天氣、兩隊40個永久卡連結及一隊負荷對帳。",
     "remaining": [
-      "長崎U21逐人分鐘",
-      "有效黃牌逐人對帳",
-      "最新醫療／球證／天氣",
-      "正式正選及全後備"
+      "11月21日一隊及11月22日U21負荷分開；長崎U21逐人分鐘、有效黃牌、傷患未公開原因仍須依官方資料，不作推測。",
+      "同截點助攻／xA、入球時段及門將指標未取得完整可比資料；已保留Football LAB首15場數據。",
+      "長崎本場訪問及成年交手完整記錄未取得。"
     ]
   }
 }

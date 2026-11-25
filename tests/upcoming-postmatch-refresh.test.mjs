@@ -15,21 +15,21 @@ test('four independent Football LAB season samples retain verified values, ranks
 test('fresh results, 63 actual participant cards and timed workload remain separate from unknown next selections',()=>{
  let participants=0;
  for(const d of dossiers){assert.equal(matchPages(d).length,10);assert.equal(d.standings.rows.length,20);for(const [slug,t]of Object.entries(d.teams)){
-  assert.equal(t.stats.played,15);assert.equal(t.game_log.filter(g=>g.competition==='J1'&&g.score).length,15);assert.equal(t.game_log.filter(g=>g.competition==='J1').length,38);assert.ok(t.game_log.filter(g=>g.date>'2026-11-21').every(g=>g.score===null));assert.deepEqual(t.lineup.starters,[]);assert.deepEqual(t.lineup.bench,[]);
+  assert.equal(t.stats.played,15);assert.equal(t.game_log.filter(g=>g.competition==='J1'&&g.score).length,15);assert.equal(t.game_log.filter(g=>g.competition==='J1').length,38);assert.ok(t.game_log.filter(g=>g.date>'2026-11-21').every(g=>g.score===null));assert.equal(t.lineup.starters.length,d.date==='2026-11-25'?11:0);assert.equal(t.lineup.bench.length,d.date==='2026-11-25'?9:0);
   for(const key of ['minutes','prior_minutes'])assert.equal(t.workload.minutes.reduce((s,r)=>s+r[key],0),990);
   const cards=read('data/clubs/'+slug+'.json').players;for(const row of t.workload.minutes)assert.ok(cards.some(p=>p.number===row.number));participants+=d.participant_card_audit.teams[slug].actual_participants;
- }}assert.equal(participants,63);
+ }}assert.equal(participants,72);
  const h=dossiers[1].teams.hiroshima;assert.equal(h.game_log.find(g=>g.date==='2026-11-21').score,'2–2');assert.equal(h.workload.minutes.find(p=>p.number==='29').minutes,32);assert.equal(h.workload.minutes.find(p=>p.number==='22').minutes,58);assert.ok(h.injuries.find(p=>p.number==='29').text.includes('未確認原因'));
  const n=dossiers[0].teams.nagasaki;assert.ok(n.injuries.find(p=>p.number==='50').text.includes('韌帶損傷'));assert.equal(n.game_log.find(g=>g.date==='2026-11-21').score,'0–0');
 });
 
 test('Nov24 pre-match refresh keeps conditional milestones, official selection uncertainty and U21 identities distinct',()=>{
  const d=dossiers[0],n=d.teams.nagasaki,k=d.teams.kawasaki;
- assert.equal(d.as_of,'2026-11-24');assert.equal(d.match_info.lineups_as_of,null);assert.deepEqual(n.lineup.starters,[]);assert.deepEqual(k.lineup.bench,[]);
+ assert.equal(d.as_of,'2026-11-25');assert.ok(d.match_info.lineups_as_of);assert.equal(n.lineup.starters.length,11);assert.equal(k.lineup.bench.length,9);
  assert.ok(n.injuries.find(r=>r.number==='25').text.includes('64分鐘'));assert.equal(n.workload.minutes.find(r=>r.number==='25').minutes,26);
  assert.ok(k.milestones.some(r=>r.text.includes('149')&&r.text.includes('若本場有上陣')));assert.ok(n.milestones.some(r=>r.text.includes('48')&&r.text.includes('若本場射入兩球')));
  const notes=k.lineup.cues.map(r=>r.text).join(' ');assert.ok(notes.includes('#25川村求不是一隊#25山市秀翔'));assert.ok(notes.includes('#36廣瀬寧生不是一隊#36本間凜'));assert.ok(notes.includes('野田裕人63分鐘'));assert.ok(notes.includes('林駿佑90分鐘'));
- assert.ok(n.suspensions[0].sources.some(s=>s.url.endsWith('/35431/')));assert.ok(n.suspensions[0].text.includes('並非逐人有效黃牌已全部核清'));
+ assert.ok(n.suspensions[0].sources.some(s=>s.url.endsWith('/35431/')));assert.ok(n.suspensions[0].text.includes('本場正式名單'));
  assert.ok(d.head_to_head.some(r=>r.text.includes('U21長崎0–4U21川崎')));assert.ok(d.head_to_head.some(r=>r.text.includes('成年一隊聯賽')));
- assert.equal(d.quote_events[0].entries[0].date_basis,'accessed');assert.ok(d.refresh_checkpoint.remaining.includes('長崎U21逐人分鐘'));
+ assert.equal(d.quote_events[0].entries[0].date_basis,'accessed');assert.ok(d.refresh_checkpoint.remaining.some(r=>r.includes('長崎U21逐人分鐘')));
 });
