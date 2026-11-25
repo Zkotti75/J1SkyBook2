@@ -3,10 +3,10 @@
   "home": "kashiwa",
   "away": "hiroshima",
   "date": "2026-11-28",
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-25",
   "competition": "j1",
   "interview_layout": "team_columns",
-  "coverage_note": "11月21日賽後刷新：最新已完賽果、官方20隊榜、最近兩場負荷、四隊各自Football LAB首14場數據已重核。保留全部10節、38輪聯賽及盃賽。下場正選／後備、球證、天氣及最新紀律仍待賽前掃描。",
+  "coverage_note": "11月25日賽前中段刷新：柏24日亞冠精英聯賽賽果、逐人負荷、停賽公告及賽後訪問；廣島25日晚對FC東京尚未完賽，聯賽榜維持11月21日官方截點。28日名單及球證未公布。",
   "match_info": {
     "kickoff_hkt": "15:00（日本16:00；播出14:55 HKT）",
     "kickoff_jst": "16:00",
@@ -19,7 +19,7 @@
       "host": "史葛・楊子滔",
       "partner": "高志超",
       "confirmed_at": "2026-11-17",
-      "assignment_confirmed_by": "11月17日最新每週編排已核對；更改通知搜尋未見本場較後修訂。",
+      "assignment_confirmed_by": "11月25日重查Gmail；Carlos Fung 11月17日27–29/11編排確認高志超＋史葛，未見後續更改。",
       "bio": [
         {
           "text": "前香港代表隊守門員，曾效力傑志，亦曾從事守門員及青年隊訓練工作。",
@@ -45,6 +45,11 @@
         "label": "廣島官方・11月一隊日程",
         "url": "https://www.sanfrecce.co.jp/team/schedule/topteam",
         "accessed_at": "2026-11-17"
+      },
+      {
+        "label": "J.League官方・11月28日賽事",
+        "url": "https://www.jleague.jp/match/j1/2026/112806/",
+        "accessed_at": "2026-11-25"
       }
     ],
     "officials": {
@@ -65,19 +70,14 @@
       ]
     },
     "weather": {
-      "text": "距比賽尚有11天；本場逐時天氣及球場實測未確認，不沿用15日天氣。",
+      "text": "本場逐時預報及球場實測尚未取得；不沿用舊場天氣。",
       "kind": "fact",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-25",
       "sources": [
         {
-          "label": "柏官方・11月28日本場資訊",
-          "url": "https://www.reysol.co.jp/game/results/202627/1128i.php",
-          "accessed_at": "2026-11-17"
-        },
-        {
-          "label": "廣島官方・11月一隊日程",
-          "url": "https://www.sanfrecce.co.jp/team/schedule/topteam",
-          "accessed_at": "2026-11-17"
+          "label": "J.League官方・11月28日賽事",
+          "url": "https://www.jleague.jp/match/j1/2026/112806/",
+          "accessed_at": "2026-11-25"
         }
       ]
     },
@@ -125,6 +125,23 @@
             "published_at": "2026-11-05"
           }
         ]
+      },
+      {
+        "text": "流山市主場日：12:00開場、13:35小學生前座賽、半場城市推廣；另有音樂組合キマグレン特別演出（日本時間）。",
+        "kind": "fact",
+        "as_of": "2026-11-25",
+        "sources": [
+          {
+            "label": "柏官方・11月25日流山市主場日",
+            "url": "https://www.reysol.co.jp/news/event/1128-7.html",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "柏官方・11月23日球場活動",
+            "url": "https://www.reysol.co.jp/news/event/1128-4.html",
+            "accessed_at": "2026-11-25"
+          }
+        ]
       }
     ],
     "visitor_travel": [],
@@ -132,7 +149,7 @@
   },
   "teams": {
     "kashiwa": {
-      "previous_match_date": "2026-11-20",
+      "previous_match_date": "2026-11-24",
       "game_log": [
         {
           "date": "2026-08-08",
@@ -405,8 +422,9 @@
           "competition": "ACLE LS-MD5",
           "venue": "客",
           "opponent": "ニューカッスル･ジェッツ （オーストラリア）",
-          "score": null,
-          "source": "https://www.reysol.co.jp/game/results/202627/1124i.php"
+          "score": "2–1",
+          "source": "https://www.reysol.co.jp/game/results/202627/1124.php",
+          "comment": "山內日向汰7分鐘、弓場堅真70分鐘；作客澳洲高士福。"
         },
         {
           "date": "2026-11-28",
@@ -809,6 +827,28 @@
       ],
       "form": [
         {
+          "text": "24日亞冠精英聯賽作客2–1紐卡素噴射機；射門16–4、中目標6–2、控球62%。東區5場3勝1和1負10分、第3，入10失4（25日11:02榜）。",
+          "kind": "fact",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+              "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "J.League官方・11月24日亞冠精英聯賽",
+              "url": "https://www.jleague.jp/match/acle/2026/112403/",
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "J.League官方・亞冠精英聯賽東區榜11月25日11:02",
+              "url": "https://www.jleague.jp/acle/standings/",
+              "accessed_at": "2026-11-25"
+            }
+          ]
+        },
+        {
           "text": "2026-11-20最新賽果 0–1；最近五場實際賽果及未來五場見成績比較。賽果更新至11月21日，尚未作賽比分留空。",
           "kind": "fact",
           "as_of": "2026-11-21",
@@ -873,17 +913,17 @@
       ],
       "suspensions": [
         {
-          "text": "本場停賽及累積黃牌尚待最新J.League紀律公告逐人覆核；沒有把上仗黃牌直接判為本場停賽。",
+          "text": "42 原田亘：累積黃牌停賽一場，11月28日J1第17節生效；24日亞冠上陣不影響此J1處分。",
           "kind": "fact",
-          "as_of": "2026-11-21",
+          "as_of": "2026-11-25",
           "sources": [
             {
-              "label": "J.League官方・2026-11-20已完賽",
-              "url": "https://www.jleague.jp/match/j1/2026/112001/",
-              "accessed_at": "2026-11-21",
-              "published_at": "2026-11-20"
+              "label": "J.League官方・11月23日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35431/?navicode=j1",
+              "accessed_at": "2026-11-25"
             }
-          ]
+          ],
+          "number": "42"
         }
       ],
       "injuries": [
@@ -967,6 +1007,28 @@
       },
       "storylines": [
         {
+          "text": "山內日向汰先開紀錄兼助攻弓場堅真奠勝；弓場後備56分鐘入替遠藤溪太，70分鐘入球。柏由澳洲返日本，與廣島25日晚作客FC東京相比多一個完整無比賽日，但實際旅程未核。",
+          "kind": "fact",
+          "as_of": "2026-11-25",
+          "sources": [
+            {
+              "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+              "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "J.League官方・11月24日亞冠精英聯賽",
+              "url": "https://www.jleague.jp/match/acle/2026/112403/",
+              "accessed_at": "2026-11-25"
+            },
+            {
+              "label": "廣島官方・11月日程",
+              "url": "https://www.sanfrecce.co.jp/team/schedule/topteam",
+              "accessed_at": "2026-11-25"
+            }
+          ]
+        },
+        {
           "text": "柏20日主場0–1千葉，76分鐘失球。最新榜柏同廣島都31分，廣島得失球差+22、柏+10；呢個係11月21日快照，28日前仲會變。",
           "kind": "fact",
           "as_of": "2026-11-21",
@@ -994,7 +1056,7 @@
       "milestones": [],
       "registration_audit": {
         "as_of": "2026-11-17",
-        "summary": "完整官方登錄42人全有永久卡；身份已核實與完整人物研究分開。本場正選／後備尚未公布。",
+        "summary": "完整官方登錄42人全有永久卡；身份已核實與完整人物研究分開。本場正選／後備尚未公布。 11月25日再對照官方球員頁及永久卡；24日亞冠23名入選均有卡；亞冠資格與J1本場選拔分開。",
         "sources": [
           {
             "label": "J.League官方・完整登錄",
@@ -1005,6 +1067,11 @@
             "label": "J.League Data Site・11月13日更新登錄表",
             "url": "https://data.j-league.or.jp/SFIX02/search?selectValue=1&selectValueTeam=11",
             "accessed_at": "2026-11-17"
+          },
+          {
+            "label": "J.League官方・球員頁（重新對照）",
+            "url": "https://www.jleague.jp/club/kashiwa/player/",
+            "accessed_at": "2026-11-25"
           }
         ],
         "players": [
@@ -1305,119 +1372,11 @@
         ]
       },
       "workload": {
-        "match_date": "2026-11-20",
-        "baseline_match_date": "2026-11-15",
-        "as_of": "2026-11-21",
-        "minutes_note": "最近兩場已完賽事逐人名義分鐘；本次依J.League官方正選及換人時刻，半場記45、不含補時。每隊每場990分鐘。不是本場入選名單，亦不據此判斷傷患。",
+        "match_date": "2026-11-24",
+        "baseline_match_date": "2026-11-20",
+        "as_of": "2026-11-25",
+        "minutes_note": "11月24日亞冠精英聯賽對紐卡素噴射機，依官方正選與換人名義分鐘、不含補時；總990分鐘。11月20日J1為比較基準。28日正選未公布，未分類為本場休息／新鮮正選。",
         "minutes": [
-          {
-            "number": "4",
-            "name": "古賀太陽",
-            "has_card": true,
-            "minutes": 90,
-            "prior_minutes": 90,
-            "started": true,
-            "appearance_last": true
-          },
-          {
-            "number": "5",
-            "name": "遠藤溪太",
-            "has_card": true,
-            "minutes": 45,
-            "prior_minutes": 65,
-            "started": true,
-            "appearance_last": true
-          },
-          {
-            "number": "6",
-            "name": "山田雄士",
-            "has_card": true,
-            "minutes": 45,
-            "prior_minutes": 0,
-            "started": true,
-            "appearance_last": true
-          },
-          {
-            "number": "8",
-            "name": "小泉佳穗",
-            "has_card": true,
-            "minutes": 75,
-            "prior_minutes": 68,
-            "started": true,
-            "appearance_last": true
-          },
-          {
-            "number": "9",
-            "name": "細谷真大",
-            "has_card": true,
-            "minutes": 15,
-            "prior_minutes": 11,
-            "started": false,
-            "appearance_last": true
-          },
-          {
-            "number": "11",
-            "name": "渡井理己",
-            "has_card": true,
-            "minutes": 30,
-            "prior_minutes": 25,
-            "started": false,
-            "appearance_last": true
-          },
-          {
-            "number": "15",
-            "name": "藤尾翔太",
-            "has_card": true,
-            "minutes": 0,
-            "prior_minutes": 79,
-            "started": false,
-            "appearance_last": false
-          },
-          {
-            "number": "18",
-            "name": "垣田裕暉",
-            "has_card": true,
-            "minutes": 45,
-            "prior_minutes": 0,
-            "started": true,
-            "appearance_last": true
-          },
-          {
-            "number": "20",
-            "name": "瀨川祐輔",
-            "has_card": true,
-            "minutes": 45,
-            "prior_minutes": 22,
-            "started": false,
-            "appearance_last": true
-          },
-          {
-            "number": "24",
-            "name": "久保藤次郎",
-            "has_card": true,
-            "minutes": 45,
-            "prior_minutes": 90,
-            "started": false,
-            "appearance_last": true
-          },
-          {
-            "number": "26",
-            "name": "杉岡大暉",
-            "has_card": true,
-            "minutes": 90,
-            "prior_minutes": 90,
-            "started": true,
-            "appearance_last": true
-          },
-          {
-            "number": "28",
-            "name": "戶嶋祥郎",
-            "has_card": true,
-            "minutes": 90,
-            "prior_minutes": 45,
-            "started": true,
-            "appearance_last": true
-          },
           {
             "number": "29",
             "name": "永井堅梧",
@@ -1428,22 +1387,22 @@
             "appearance_last": true
           },
           {
-            "number": "39",
-            "name": "中川敦瑛",
+            "number": "2",
+            "name": "三丸擴",
             "has_card": true,
-            "minutes": 45,
-            "prior_minutes": 90,
-            "started": false,
+            "minutes": 90,
+            "prior_minutes": 0,
+            "started": true,
             "appearance_last": true
           },
           {
-            "number": "40",
-            "name": "原川力",
+            "number": "4",
+            "name": "古賀太陽",
             "has_card": true,
-            "minutes": 0,
-            "prior_minutes": 45,
-            "started": false,
-            "appearance_last": false
+            "minutes": 90,
+            "prior_minutes": 90,
+            "started": true,
+            "appearance_last": true
           },
           {
             "number": "42",
@@ -1455,19 +1414,46 @@
             "appearance_last": true
           },
           {
-            "number": "44",
-            "name": "弓場堅真",
+            "number": "5",
+            "name": "遠藤溪太",
             "has_card": true,
-            "minutes": 90,
-            "prior_minutes": 25,
+            "minutes": 56,
+            "prior_minutes": 45,
             "started": true,
             "appearance_last": true
           },
           {
-            "number": "51",
-            "name": "滿田誠",
+            "number": "8",
+            "name": "小泉佳穗",
             "has_card": true,
-            "minutes": 60,
+            "minutes": 90,
+            "prior_minutes": 75,
+            "started": true,
+            "appearance_last": true
+          },
+          {
+            "number": "24",
+            "name": "久保藤次郎",
+            "has_card": true,
+            "minutes": 90,
+            "prior_minutes": 45,
+            "started": true,
+            "appearance_last": true
+          },
+          {
+            "number": "39",
+            "name": "中川敦瑛",
+            "has_card": true,
+            "minutes": 90,
+            "prior_minutes": 45,
+            "started": true,
+            "appearance_last": true
+          },
+          {
+            "number": "40",
+            "name": "原川力",
+            "has_card": true,
+            "minutes": 90,
             "prior_minutes": 0,
             "started": true,
             "appearance_last": true
@@ -1476,13 +1462,113 @@
             "number": "87",
             "name": "山內日向汰",
             "has_card": true,
+            "minutes": 86,
+            "prior_minutes": 0,
+            "started": true,
+            "appearance_last": true
+          },
+          {
+            "number": "15",
+            "name": "藤尾翔太",
+            "has_card": true,
+            "minutes": 64,
+            "prior_minutes": 0,
+            "started": true,
+            "appearance_last": true
+          },
+          {
+            "number": "9",
+            "name": "細谷真大",
+            "has_card": true,
+            "minutes": 26,
+            "prior_minutes": 15,
+            "started": false,
+            "appearance_last": true
+          },
+          {
+            "number": "11",
+            "name": "渡井理己",
+            "has_card": true,
+            "minutes": 4,
+            "prior_minutes": 30,
+            "started": false,
+            "appearance_last": true
+          },
+          {
+            "number": "44",
+            "name": "弓場堅真",
+            "has_card": true,
+            "minutes": 34,
+            "prior_minutes": 90,
+            "started": false,
+            "appearance_last": true
+          },
+          {
+            "number": "6",
+            "name": "山田雄士",
+            "has_card": true,
             "minutes": 0,
-            "prior_minutes": 65,
+            "prior_minutes": 45,
+            "started": false,
+            "appearance_last": false
+          },
+          {
+            "number": "18",
+            "name": "垣田裕暉",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 45,
+            "started": false,
+            "appearance_last": false
+          },
+          {
+            "number": "20",
+            "name": "瀨川祐輔",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 45,
+            "started": false,
+            "appearance_last": false
+          },
+          {
+            "number": "26",
+            "name": "杉岡大暉",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 90,
+            "started": false,
+            "appearance_last": false
+          },
+          {
+            "number": "28",
+            "name": "戶嶋祥郎",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 90,
+            "started": false,
+            "appearance_last": false
+          },
+          {
+            "number": "51",
+            "name": "滿田誠",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 60,
             "started": false,
             "appearance_last": false
           }
         ],
         "sources": [
+          {
+            "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+            "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・11月24日亞冠精英聯賽",
+            "url": "https://www.jleague.jp/match/acle/2026/112403/",
+            "accessed_at": "2026-11-25"
+          },
           {
             "label": "J.League官方・2026-11-20已完賽",
             "url": "https://www.jleague.jp/match/j1/2026/112001/",
@@ -5059,15 +5145,14 @@
       ],
       "suspensions": [
         {
-          "text": "本場停賽及累積黃牌尚待最新J.League紀律公告逐人覆核；沒有把上仗黃牌直接判為本場停賽。",
+          "text": "11月23日最新官方停賽公告未列廣島球員；25日晚J1後須重新覆核。",
           "kind": "fact",
-          "as_of": "2026-11-21",
+          "as_of": "2026-11-25",
           "sources": [
             {
-              "label": "J.League官方・2026-11-21已完賽",
-              "url": "https://www.jleague.jp/match/j1/2026/112103/",
-              "accessed_at": "2026-11-21",
-              "published_at": "2026-11-21"
+              "label": "J.League官方・11月23日停賽公告",
+              "url": "https://www.jleague.jp/news/article/35431/?navicode=j1",
+              "accessed_at": "2026-11-25"
             }
           ]
         }
@@ -5185,7 +5270,7 @@
       "home_away_record": [],
       "registration_audit": {
         "as_of": "2026-11-17",
-        "summary": "完整官方登錄31人全有永久卡；身份已核實與完整人物研究分開。本場正選／後備尚未公布。",
+        "summary": "完整官方登錄31人全有永久卡；身份已核實與完整人物研究分開。本場正選／後備尚未公布。 11月25日再對照官方球員頁及永久卡；廣島46號已簽職業合約，Type-2登錄標記與合約分開。",
         "sources": [
           {
             "label": "J.League官方・完整登錄",
@@ -5196,6 +5281,11 @@
             "label": "J.League Data Site・11月13日更新登錄表",
             "url": "https://data.j-league.or.jp/SFIX02/search?selectValue=1&selectValueTeam=10",
             "accessed_at": "2026-11-17"
+          },
+          {
+            "label": "J.League官方・球員頁（重新對照）",
+            "url": "https://www.jleague.jp/club/hiroshima/player/",
+            "accessed_at": "2026-11-25"
           }
         ],
         "players": [
@@ -6645,6 +6735,38 @@
   },
   "quote_events": [
     {
+      "date": "2026-11-24",
+      "title": "柏亞冠精英聯賽賽後",
+      "entries": [
+        {
+          "speaker": "列卡度・洛迪古斯",
+          "role": "監督",
+          "published_at": "2026-11-24",
+          "outlet": "柏官方賽後訪問",
+          "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+          "paraphrase_zh": "認為這場勝仗十分重要；球隊早段領先後創造不少機會但未能擴大比分，對方追和後仍能攻入奠勝球。",
+          "quote_ja": null,
+          "quote_zh": null,
+          "team_slug": "kashiwa",
+          "context": "post_match",
+          "category": "last_game"
+        },
+        {
+          "speaker": "弓場堅真",
+          "role": "球員",
+          "published_at": "2026-11-24",
+          "outlet": "柏官方賽後訪問",
+          "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+          "paraphrase_zh": "認為作客艱難取勝能增加信心，連場比賽中不同球員都要做好隨時上陣的準備。",
+          "quote_ja": null,
+          "quote_zh": null,
+          "team_slug": "kashiwa",
+          "context": "post_match",
+          "category": "last_game"
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "title": "柏15日賽後・28日準備的歷史背景",
       "entries": [
@@ -6689,6 +6811,41 @@
   },
   "preview": {
     "cues": [
+      {
+        "text": "山內日向汰先開紀錄兼助攻弓場堅真奠勝；弓場後備56分鐘入替遠藤溪太，70分鐘入球。柏由澳洲返日本，與廣島25日晚作客FC東京相比多一個完整無比賽日，但實際旅程未核。",
+        "kind": "fact",
+        "as_of": "2026-11-25",
+        "sources": [
+          {
+            "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+            "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・11月24日亞冠精英聯賽",
+            "url": "https://www.jleague.jp/match/acle/2026/112403/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "廣島官方・11月日程",
+            "url": "https://www.sanfrecce.co.jp/team/schedule/topteam",
+            "accessed_at": "2026-11-25"
+          }
+        ]
+      },
+      {
+        "text": "42 原田亘：累積黃牌停賽一場，11月28日J1第17節生效；24日亞冠上陣不影響此J1處分。",
+        "kind": "fact",
+        "as_of": "2026-11-25",
+        "sources": [
+          {
+            "label": "J.League官方・11月23日停賽公告",
+            "url": "https://www.jleague.jp/news/article/35431/?navicode=j1",
+            "accessed_at": "2026-11-25"
+          }
+        ],
+        "number": "42"
+      },
       {
         "text": "廣島21日兩度領先仍被橫濱逼和2–2，最後失球係90+3分鐘。鮎川峻29分鐘及菅大輝72分鐘入球。",
         "kind": "fact",
@@ -6878,16 +7035,16 @@
     "11月21日刷新不是最終選拔：本場官方正選／全後備、球證、天氣、停賽及累積黃牌仍待賽前逐項覆核。",
     "Football LAB首14場進階數據與11月21日15場官方榜分開；季均跑動／衝刺、完整入球時段及門將撲救率沒有本次可核對值。",
     "永久卡維持原驗證狀態；本次僅對最新實際出場者連結，未開新人物批次或宣稱全隊完整傳記已完成。",
-    "24日柏ACLE作客、25日FC東京–廣島後，須刷新賽果、榜、訪問、負荷及旅程。",
+    "柏24日亞冠已更新；廣島25日晚FC東京完賽後須刷新賽果、榜、訪問及逐人負荷。",
     "Football LAB xG比較不含烏龍：廣島首14場入31失9；入失球方式表含烏龍入32失10，與當時官方總數相符。不得把不同定義合併。"
   ],
   "section_status": {
     "info": "部分：場次／開球／播出及拍檔完成；球證、天氣及旅程待核",
-    "quotes": "部分：15日柏背景摘要；中途賽事後本場最新訪問待補",
+    "quotes": "已補柏24日亞冠賽後訪問；廣島25日晚賽後待更新。",
     "comparison": "11月21日賽果／完整20隊榜及最近五場更新；近五次交手仍待補",
-    "availability": "馬場／熊坂歷史醫療公告；淺野32分鐘換人原因未確認；本場紀律待核",
+    "availability": "23日官方紀律：柏42原田亘停賽；廣島25日賽後再核。",
     "analytics": "四隊各自來源重建；11月13日／首14場截點明示，未核實跑動等留缺",
-    "rotation": "截至11月21日最近兩場實際990分鐘；本場選拔未知",
+    "rotation": "柏更新至24日亞冠990分鐘；廣島待25日晚完賽，28日正式正選未公布",
     "players": "73名登錄全對永久卡；三張廣島身份卡不等於完整人物研究",
     "preview": "11月21日賽後粵語提示及數據對位；本場名單未公布",
     "logs": "完整官方榜快照（14／15場）、兩隊38輪及盃賽保留",
@@ -6914,25 +7071,25 @@
     }
   ],
   "research_sweep": {
-    "as_of": "2026-11-17",
-    "stage": "initial_preparation",
+    "as_of": "2026-11-25",
+    "stage": "intermediate_preparation",
     "registration_count": 73,
     "selection_status": "pending",
     "intervening_games_refresh_required": true
   },
   "participant_card_audit": {
-    "as_of": "2026-11-21",
+    "as_of": "2026-11-25",
     "teams": {
       "kashiwa": {
         "source": {
-          "label": "J.League官方・最新已完賽名單／換人",
-          "url": "https://www.jleague.jp/match/j1/2026/112001/",
-          "accessed_at": "2026-11-21"
+          "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+          "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+          "accessed_at": "2026-11-25"
         },
-        "actual_participants": 16,
-        "linked_cards": 16,
+        "actual_participants": 14,
+        "linked_cards": 14,
         "missing_cards": [],
-        "selection_date": "2026-11-20",
+        "selection_date": "2026-11-24",
         "matchday_selection_pending": true,
         "biography_note": "有永久卡不等於完整人物研究；本次沒有改動球員驗證狀態。"
       },
