@@ -1,7 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {matchPages,renderMatchPage} from '../match.js';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 test('November 21 and 25 assignments preserve all sections, full schedules and honest preparation states',()=>{
- const index=read('data/matches/index.json');assert.deepEqual(index.fixtures.filter(f=>['2026-11-21','2026-11-25'].includes(f.date)).map(f=>f.date),['2026-11-25']);assert.equal(index.featured.home,'nagasaki');
+ const index=read('data/matches/index.json');assert.deepEqual(index.fixtures.filter(f=>['2026-11-21','2026-11-25'].includes(f.date)).map(f=>f.date),[]);assert.equal(index.featured.home,'kashiwa');
  for(const f of ['2026-11-21-hiroshima-yokohama-fm','2026-11-25-nagasaki-kawasaki'].map(name=>{const d=read('data/matches/'+name+'.json');return {...d,file:name+'.json'};})){assert.equal(matchPages(f).length,10);const d=read('data/matches/'+f.file),home=read('data/clubs/'+f.home+'.json'),away=read('data/clubs/'+f.away+'.json');
   assert.equal(d.as_of,f.date==='2026-11-25'?'2026-11-25':'2026-11-21');assert.ok(d.match_info.lineups_as_of);assert.equal(d.competition,'j1');assert.equal(matchPages(d).length,10);assert.equal(Object.keys(d.section_status).length,10);assert.equal(new Set(d.standings.rows.map(r=>r.slug)).size,20);
   assert.equal(d.match_info.commentary.partner,f.date==='2026-11-21'?'高志超':'黃耀富');
