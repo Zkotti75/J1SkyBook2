@@ -132,24 +132,86 @@
             "accessed_at": "2026-11-15"
           }
         ]
+      },
+      {
+        "text": "今晚正式正選22人、後備18人，40人全部連至永久球員卡；已逐人比對官方姓名、出生日期及現行身高體重，40人相符。現有卡片品質檢查40人通過；歷史生涯敘述未在本輪逐條重審。",
+        "kind": "fact",
+        "as_of": "2026-11-25",
+        "sources": [
+          {
+            "label": "J.League官方・本場40人正式名單",
+            "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・現行球員名冊",
+            "url": "https://www.jleague.jp/club/nagasaki/player/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・現行球員名冊",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-11-25"
+          }
+        ]
       }
     ],
     "kickoff_jst": "19:00",
     "referee": "上田益也",
     "referee_tendencies": [
       {
-        "text": "上田益也：本季2026/27 J1主審9場，24次警告（每場2.67）、1次退場、1個十二碼。統計截至11月16日，最近J1主吹11月8日町田0–0廣島（2黃）。另計百年構想聯賽13場28黃、2退場、3個十二碼；不混合賽季。退場包括兩黃一紅及直接紅牌，警告為首次警告，不含職員。",
+        "text": "上田益也：2026/27 J1主審9場，官方逐場賽事紀錄合共24次球員警告（每場2.67）、1次直接紅牌；截至11月8日最近一次J1主吹町田0–0廣島，該場2次球員警告。職員警告不計。另據FOR TWELVE截至11月16日彙整，本季判1個十二碼；百年構想聯賽另計13場28黃、2退場、3個十二碼，不混合賽季。",
         "kind": "fact",
         "as_of": "2026-11-25",
         "sources": [
           {
-            "label": "FOR TWELVE・逐場官方紀錄對照（11月16日截點）",
-            "url": "https://fortwelve.jp/shushin/masuya-ueda/",
+            "label": "J.League Data Site・本季第1場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34523",
             "accessed_at": "2026-11-25"
           },
           {
-            "label": "Soccer D.B.・2026執法紀錄（11月21日為磐田對大宮，非J1）",
-            "url": "https://soccer-db.net/referee/index/41/2026",
+            "label": "J.League Data Site・本季第2場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34531",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League Data Site・本季第3場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34538",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League Data Site・本季第4場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34559",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League Data Site・本季第5場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34584",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League Data Site・本季第6場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34610",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League Data Site・本季第7場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34624",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League Data Site・本季第8場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34631",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League Data Site・本季第9場官方賽事紀錄",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34652",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "FOR TWELVE・十二碼及特別賽季統計（11月16日截點）",
+            "url": "https://fortwelve.jp/shushin/masuya-ueda/",
             "accessed_at": "2026-11-25"
           }
         ]
@@ -176,6 +238,251 @@
           "label": "ジョルダン・長崎19時預報",
           "url": "https://next.jorudan.co.jp/weather/?la=117872300&lo=467534600&mode=detail&na=%E9%95%B7%E5%B4%8E",
           "accessed_at": "2026-11-25"
+        }
+      ]
+    },
+    "referee_statistics_audit": {
+      "as_of": "2026-11-25",
+      "competition": "2026/27 J1",
+      "last_match": "2026-11-08",
+      "matches": 9,
+      "player_yellow_cards": 24,
+      "player_red_cards": 1,
+      "yellow_per_match": 2.67,
+      "definition": "官方警告及退場欄逐場累計；排除職員警告，特別賽季及J2不計。十二碼數不在本次官方逐場牌數審核範圍。",
+      "source_discrepancy": "Soccer D.B.本季表格警告數為20，與本次九張官方賽事紀錄合計24不同；採官方逐場紀錄，不以次級來源覆蓋。",
+      "games": [
+        {
+          "id": 34652,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34652",
+          "yellow": 2,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "トーマス アウエヤン",
+              "45'+6"
+            ],
+            [
+              "",
+              "",
+              "中島 洋太朗",
+              "45'+5"
+            ]
+          ],
+          "red_rows": []
+        },
+        {
+          "id": 34631,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34631",
+          "yellow": 1,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "マテウス ジェズス",
+              "90'+1"
+            ]
+          ],
+          "red_rows": []
+        },
+        {
+          "id": 34624,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34624",
+          "yellow": 4,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "辻岡 佑真",
+              "28'"
+            ],
+            [
+              "",
+              "",
+              "前田 快",
+              "44'"
+            ],
+            [
+              "",
+              "",
+              "湯澤 聖人",
+              "46'"
+            ],
+            [
+              "",
+              "",
+              "美藤 倫",
+              "88'"
+            ]
+          ],
+          "red_rows": []
+        },
+        {
+          "id": 34610,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34610",
+          "yellow": 4,
+          "red": 1,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "ジャクソン アーバイン",
+              "53'"
+            ],
+            [
+              "",
+              "",
+              "パブロ サバック",
+              "65'"
+            ],
+            [
+              "",
+              "",
+              "ペドロ ホマーノ",
+              "36'"
+            ],
+            [
+              "",
+              "",
+              "山原 怜音",
+              "41'"
+            ]
+          ],
+          "red_rows": [
+            [
+              "",
+              "",
+              "大畑 歩夢",
+              "19'"
+            ]
+          ]
+        },
+        {
+          "id": 34584,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34584",
+          "yellow": 4,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "植木 颯",
+              "80'"
+            ],
+            [
+              "",
+              "",
+              "宮本 英治",
+              "38'"
+            ],
+            [
+              "",
+              "",
+              "ルカオ",
+              "58'"
+            ],
+            [
+              "",
+              "",
+              "本山 遥",
+              "75'"
+            ]
+          ],
+          "red_rows": []
+        },
+        {
+          "id": 34559,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34559",
+          "yellow": 4,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "井上 竜太",
+              "18'"
+            ],
+            [
+              "",
+              "",
+              "福田 湧矢",
+              "36'"
+            ],
+            [
+              "",
+              "",
+              "食野 壮磨",
+              "76'"
+            ],
+            [
+              "",
+              "",
+              "郷家 友太",
+              "39'"
+            ]
+          ],
+          "red_rows": []
+        },
+        {
+          "id": 34538,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34538",
+          "yellow": 1,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "本間 至恩",
+              "34'"
+            ]
+          ],
+          "red_rows": []
+        },
+        {
+          "id": 34531,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34531",
+          "yellow": 1,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "米田 隼也",
+              "74'"
+            ]
+          ],
+          "red_rows": []
+        },
+        {
+          "id": 34523,
+          "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34523",
+          "yellow": 3,
+          "red": 0,
+          "yellow_rows": [
+            [
+              "",
+              "",
+              "重見 柾斗",
+              "34'"
+            ],
+            [
+              "",
+              "",
+              "前嶋 洋太",
+              "52'"
+            ],
+            [
+              "",
+              "",
+              "マテウス トゥーレル",
+              "53'"
+            ]
+          ],
+          "red_rows": []
         }
       ]
     }
@@ -6675,7 +6982,346 @@
         "missing_cards": [],
         "selection_date": "2026-11-25",
         "matchday_selection_pending": false,
-        "biography_note": "正式名單20人全部有永久卡。"
+        "biography_note": "20人姓名、出生日期、身高及體重均與現行J.League官方球員名冊相符；20張卡均有逐季成年履歷並通過現有卡片品質檢查。本次未逐條重新核實所有歷史生涯敘述，不把基本資料對帳當作全傳記重審。",
+        "identity_checked": 20,
+        "vitals_checked": 20,
+        "identity_discrepancies": [],
+        "vitals_discrepancies": [],
+        "checked_at": "2026-11-25T08:52:00Z",
+        "sources": [
+          {
+            "label": "J.League官方・本場40人正式名單",
+            "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・現行球員名冊",
+            "url": "https://www.jleague.jp/club/nagasaki/player/",
+            "accessed_at": "2026-11-25"
+          }
+        ],
+        "players": [
+          {
+            "team": "nagasaki",
+            "number": "1",
+            "player_id": "nagasaki_1",
+            "official_id": "1604772",
+            "name_ja": "後藤 雅明",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 191,
+            "card_weight": 83,
+            "official_height": 191,
+            "official_weight": 83,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 15
+          },
+          {
+            "team": "nagasaki",
+            "number": "6",
+            "player_id": "nagasaki_6",
+            "official_id": "1607375",
+            "name_ja": "江川 湧清",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 175,
+            "card_weight": 67,
+            "official_height": 175,
+            "official_weight": 67,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 13
+          },
+          {
+            "team": "nagasaki",
+            "number": "23",
+            "player_id": "nagasaki_23",
+            "official_id": "1503694",
+            "name_ja": "米田 隼也",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 175,
+            "card_weight": 72,
+            "official_height": 175,
+            "official_weight": 72,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 14
+          },
+          {
+            "team": "nagasaki",
+            "number": "31",
+            "player_id": "nagasaki_31",
+            "official_id": "1636505",
+            "name_ja": "土肥 幹太",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 186,
+            "card_weight": 78,
+            "official_height": 186,
+            "official_weight": 78,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 8
+          },
+          {
+            "team": "nagasaki",
+            "number": "5",
+            "player_id": "nagasaki_5",
+            "official_id": "400761",
+            "name_ja": "山口 蛍",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 173,
+            "card_weight": 72,
+            "official_height": 173,
+            "official_weight": 72,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 23
+          },
+          {
+            "team": "nagasaki",
+            "number": "8",
+            "player_id": "nagasaki_8",
+            "official_id": "1500418",
+            "name_ja": "岩崎 悠人",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 173,
+            "card_weight": 72,
+            "official_height": 173,
+            "official_weight": 72,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 16
+          },
+          {
+            "team": "nagasaki",
+            "number": "10",
+            "player_id": "nagasaki_10",
+            "official_id": "1618765",
+            "name_ja": "マテウス ジェズス",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 187,
+            "card_weight": 80,
+            "official_height": 187,
+            "official_weight": 80,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 21
+          },
+          {
+            "team": "nagasaki",
+            "number": "22",
+            "player_id": "nagasaki_22",
+            "official_id": "1607170",
+            "name_ja": "翁長 聖",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 171,
+            "card_weight": 68,
+            "official_height": 171,
+            "official_weight": 68,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 16
+          },
+          {
+            "team": "nagasaki",
+            "number": "44",
+            "player_id": "nagasaki_44",
+            "official_id": "1641590",
+            "name_ja": "鍋島 暖歩",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 168,
+            "card_weight": 62,
+            "official_height": 168,
+            "official_weight": 62,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 6
+          },
+          {
+            "team": "nagasaki",
+            "number": "9",
+            "player_id": "nagasaki_9",
+            "official_id": "1632264",
+            "name_ja": "チアゴ サンタナ",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 184,
+            "card_weight": 80,
+            "official_height": 184,
+            "official_weight": 80,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 18
+          },
+          {
+            "team": "nagasaki",
+            "number": "11",
+            "player_id": "nagasaki_11",
+            "official_id": "1656010",
+            "name_ja": "ノーマン キャンベル",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 175,
+            "card_weight": 71,
+            "official_height": 175,
+            "official_weight": 71,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 12
+          },
+          {
+            "team": "nagasaki",
+            "number": "13",
+            "player_id": "nagasaki_13",
+            "official_id": "1501611",
+            "name_ja": "波多野 豪",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 198,
+            "card_weight": 100,
+            "official_height": 198,
+            "official_weight": 100,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 19
+          },
+          {
+            "team": "nagasaki",
+            "number": "25",
+            "player_id": "nagasaki_25",
+            "official_id": "1600191",
+            "name_ja": "大南 拓磨",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 183,
+            "card_weight": 80,
+            "official_height": 183,
+            "official_weight": 80,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 15
+          },
+          {
+            "team": "nagasaki",
+            "number": "7",
+            "player_id": "nagasaki_7",
+            "official_id": "1635204",
+            "name_ja": "保田 堅心",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 183,
+            "card_weight": 77,
+            "official_height": 183,
+            "official_weight": 77,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 10
+          },
+          {
+            "team": "nagasaki",
+            "number": "19",
+            "player_id": "nagasaki_19",
+            "official_id": "1400116",
+            "name_ja": "澤田 崇",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 170,
+            "card_weight": 63,
+            "official_height": 170,
+            "official_weight": 63,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 18
+          },
+          {
+            "team": "nagasaki",
+            "number": "34",
+            "player_id": "nagasaki_34",
+            "official_id": "1648378",
+            "name_ja": "松本 天夢",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 169,
+            "card_weight": 59,
+            "official_height": 169,
+            "official_weight": 59,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 8
+          },
+          {
+            "team": "nagasaki",
+            "number": "41",
+            "player_id": "nagasaki_41",
+            "official_id": "1630134",
+            "name_ja": "長谷川 元希",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 177,
+            "card_weight": 70,
+            "official_height": 177,
+            "official_weight": 70,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 12
+          },
+          {
+            "team": "nagasaki",
+            "number": "88",
+            "player_id": "nagasaki_88",
+            "official_id": "1500498",
+            "name_ja": "増山 朝陽",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 173,
+            "card_weight": 72,
+            "official_height": 173,
+            "official_weight": 72,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 19
+          },
+          {
+            "team": "nagasaki",
+            "number": "18",
+            "player_id": "nagasaki_18",
+            "official_id": "1301036",
+            "name_ja": "山﨑 凌吾",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 187,
+            "card_weight": 82,
+            "official_height": 187,
+            "official_weight": 82,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 21
+          },
+          {
+            "team": "nagasaki",
+            "number": "99",
+            "player_id": "nagasaki_99",
+            "official_id": "1658985",
+            "name_ja": "ジョナタン ジュニオール",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 178,
+            "card_weight": 86,
+            "official_height": 178,
+            "official_weight": 86,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 19
+          }
+        ]
       },
       "kawasaki": {
         "source": {
@@ -6688,7 +7334,346 @@
         "missing_cards": [],
         "selection_date": "2026-11-25",
         "matchday_selection_pending": false,
-        "biography_note": "正式名單20人全部有永久卡。"
+        "biography_note": "20人姓名、出生日期、身高及體重均與現行J.League官方球員名冊相符；20張卡均有逐季成年履歷並通過現有卡片品質檢查。本次未逐條重新核實所有歷史生涯敘述，不把基本資料對帳當作全傳記重審。",
+        "identity_checked": 20,
+        "vitals_checked": 20,
+        "identity_discrepancies": [],
+        "vitals_discrepancies": [],
+        "checked_at": "2026-11-25T08:52:00Z",
+        "sources": [
+          {
+            "label": "J.League官方・本場40人正式名單",
+            "url": "https://www.jleague.jp/match/j1/2026/112506/lineup/",
+            "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・現行球員名冊",
+            "url": "https://www.jleague.jp/club/kawasakif/player/",
+            "accessed_at": "2026-11-25"
+          }
+        ],
+        "players": [
+          {
+            "team": "kawasaki",
+            "number": "49",
+            "player_id": "kawasaki_49",
+            "official_id": "1634662",
+            "name_ja": "スベンド ブローダーセン",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 188,
+            "card_weight": 87,
+            "official_height": 188,
+            "official_weight": 87,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 26
+          },
+          {
+            "team": "kawasaki",
+            "number": "29",
+            "player_id": "kawasaki_29",
+            "official_id": "1632749",
+            "name_ja": "山原 怜音",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 165,
+            "card_weight": 68,
+            "official_height": 165,
+            "official_weight": 68,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 16
+          },
+          {
+            "team": "kawasaki",
+            "number": "22",
+            "player_id": "kawasaki_22",
+            "official_id": "1652877",
+            "name_ja": "フィリップ ウレモヴィッチ",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 184,
+            "card_weight": 81,
+            "official_height": 184,
+            "official_weight": 81,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 25
+          },
+          {
+            "team": "kawasaki",
+            "number": "3",
+            "player_id": "kawasaki_3",
+            "official_id": "1634419",
+            "name_ja": "谷口 栄斗",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 181,
+            "card_weight": 80,
+            "official_height": 181,
+            "official_weight": 80,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 17
+          },
+          {
+            "team": "kawasaki",
+            "number": "13",
+            "player_id": "kawasaki_13",
+            "official_id": "1634321",
+            "name_ja": "三浦 颯太",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 178,
+            "card_weight": 74,
+            "official_height": 178,
+            "official_weight": 74,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 18
+          },
+          {
+            "team": "kawasaki",
+            "number": "8",
+            "player_id": "kawasaki_8",
+            "official_id": "1630136",
+            "name_ja": "橘田 健人",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 169,
+            "card_weight": 68,
+            "official_height": 169,
+            "official_weight": 68,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 15
+          },
+          {
+            "team": "kawasaki",
+            "number": "6",
+            "player_id": "kawasaki_6",
+            "official_id": "1627763",
+            "name_ja": "山本 悠樹",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 173,
+            "card_weight": 71,
+            "official_height": 173,
+            "official_weight": 71,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 18
+          },
+          {
+            "team": "kawasaki",
+            "number": "17",
+            "player_id": "kawasaki_17",
+            "official_id": "1614208",
+            "name_ja": "伊藤 達哉",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 167,
+            "card_weight": 65,
+            "official_height": 167,
+            "official_weight": 65,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 24
+          },
+          {
+            "team": "kawasaki",
+            "number": "14",
+            "player_id": "kawasaki_14",
+            "official_id": "1614103",
+            "name_ja": "脇坂 泰斗",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 173,
+            "card_weight": 69,
+            "official_height": 173,
+            "official_weight": 69,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 24
+          },
+          {
+            "team": "kawasaki",
+            "number": "23",
+            "player_id": "kawasaki_23",
+            "official_id": "1635026",
+            "name_ja": "マルシーニョ",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 173,
+            "card_weight": 64,
+            "official_height": 173,
+            "official_weight": 64,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 22
+          },
+          {
+            "team": "kawasaki",
+            "number": "97",
+            "player_id": "kawasaki_97",
+            "official_id": "1657622",
+            "name_ja": "デリキ ラセルダ",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 191,
+            "card_weight": 84,
+            "official_height": 191,
+            "official_weight": 84,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 15
+          },
+          {
+            "team": "kawasaki",
+            "number": "1",
+            "player_id": "kawasaki_1",
+            "official_id": "1602297",
+            "name_ja": "山口 瑠伊",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 187,
+            "card_weight": 80,
+            "official_height": 187,
+            "official_weight": 80,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 25
+          },
+          {
+            "team": "kawasaki",
+            "number": "2",
+            "player_id": "kawasaki_2",
+            "official_id": "1639108",
+            "name_ja": "松長根 悠仁",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 180,
+            "card_weight": 77,
+            "official_height": 180,
+            "official_weight": 77,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 17
+          },
+          {
+            "team": "kawasaki",
+            "number": "28",
+            "player_id": "kawasaki_28",
+            "official_id": "1101476",
+            "name_ja": "丸山 祐市",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 184,
+            "card_weight": 77,
+            "official_height": 184,
+            "official_weight": 77,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 25
+          },
+          {
+            "team": "kawasaki",
+            "number": "16",
+            "player_id": "kawasaki_16",
+            "official_id": "1639107",
+            "name_ja": "大関 友翔",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 178,
+            "card_weight": 67,
+            "official_height": 178,
+            "official_weight": 67,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 15
+          },
+          {
+            "team": "kawasaki",
+            "number": "19",
+            "player_id": "kawasaki_19",
+            "official_id": "1629412",
+            "name_ja": "河原 創",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 169,
+            "card_weight": 65,
+            "official_height": 169,
+            "official_weight": 65,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 17
+          },
+          {
+            "team": "kawasaki",
+            "number": "25",
+            "player_id": "kawasaki_25",
+            "official_id": "1637126",
+            "name_ja": "山市 秀翔",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 170,
+            "card_weight": 69,
+            "official_height": 170,
+            "official_weight": 69,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 11
+          },
+          {
+            "team": "kawasaki",
+            "number": "36",
+            "player_id": "kawasaki_36",
+            "official_id": "1642082",
+            "name_ja": "本間 凜",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 182,
+            "card_weight": 74,
+            "official_height": 182,
+            "official_weight": 74,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 9
+          },
+          {
+            "team": "kawasaki",
+            "number": "93",
+            "player_id": "kawasaki_93",
+            "official_id": "1657459",
+            "name_ja": "カイキ ケイロス",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 179,
+            "card_weight": 81,
+            "official_height": 179,
+            "official_weight": 81,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 13
+          },
+          {
+            "team": "kawasaki",
+            "number": "11",
+            "player_id": "kawasaki_11",
+            "official_id": "801035",
+            "name_ja": "小林 悠",
+            "name_match": true,
+            "dob_match": true,
+            "card_height": 177,
+            "card_weight": 72,
+            "official_height": 177,
+            "official_weight": 72,
+            "vitals_match": true,
+            "biography_status": "verified",
+            "career_rows": 27
+          }
+        ]
       }
     }
   },
@@ -6721,7 +7706,7 @@
   ],
   "refresh_checkpoint": {
     "as_of": "2026-11-25",
-    "scope": "11月25日正式名單、球證、天氣、兩隊40個永久卡連結及一隊負荷對帳。",
+    "scope": "11月25日正式名單、球證、天氣、兩隊40個永久卡連結及一隊負荷對帳。 16:52 HKT補核40人官方身份／量度、辛坦拿聯賽履歷及九場主審官方牌數。",
     "remaining": [
       "11月21日一隊及11月22日U21負荷分開；長崎U21逐人分鐘、有效黃牌、傷患未公開原因仍須依官方資料，不作推測。",
       "同截點助攻／xA、入球時段及門將指標未取得完整可比資料；已保留Football LAB首15場數據。",

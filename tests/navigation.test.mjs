@@ -86,7 +86,7 @@ test('upcoming assignments switch while completed links return to the current fi
 });
 test('header dropdown contains only upcoming assignments and keeps the selected section',async()=>{
  const select=element('#match-selector');
- assert.ok(!select.innerHTML.includes('11-07'));assert.ok(!select.innerHTML.includes('11-11'));assert.ok(!select.innerHTML.includes('11-15'));assert.ok(select.innerHTML.includes('11-21'));assert.ok(select.innerHTML.includes('11-25'));assert.ok(!select.innerHTML.includes('11-08'));
+ assert.ok(!select.innerHTML.includes('11-07'));assert.ok(!select.innerHTML.includes('11-11'));assert.ok(!select.innerHTML.includes('11-15'));assert.ok(!select.innerHTML.includes('11-21'));assert.ok(select.innerHTML.includes('11-25'));assert.ok(select.innerHTML.includes('11-28'));assert.ok(!select.innerHTML.includes('11-08'));
  assert.ok(!select.innerHTML.includes('10-31'));assert.ok(!select.innerHTML.includes('11-01'));
  assert.ok(!element('#match-nav').innerHTML.includes('<a class="match-nav-item"'));
  select.value='#/match/nagasaki/kawasaki/2026-11-25/comparison';select.listeners.change();await settled();
