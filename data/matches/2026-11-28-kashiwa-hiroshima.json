@@ -6,15 +6,15 @@
   "as_of": "2026-11-28",
   "competition": "j1",
   "interview_layout": "team_columns",
-  "coverage_note": "11月28日早上補核：新增27日永井訪問、廣島公開訪問節錄、2023三戰五分及售票狀況；保留27日32號山之內評述背景。正式名單及球證仍待公布；73人登錄不等於入選，既有統計各自截點不變。",
+  "coverage_note": "11月28日正式名單後更新：兩隊各11正選9後備、40張永久卡及六名球證已核；體力頁按今日名單及最近兩場名義分鐘排序。原田停賽另列，未解釋缺席不稱輪休；統計各自截點保留。",
   "match_info": {
     "kickoff_hkt": "15:00（日本16:00；播出14:55 HKT）",
     "kickoff_jst": "16:00",
     "broadcast_hkt": "14:55",
     "stadium": "三協Frontier柏體育場",
     "competition_zh": "2026/27日本J1聯賽・第17節",
-    "lineups_as_of": null,
-    "selection_note": "11月28日正式正選、後備及六名球證待官方公布；登錄、參賽資格及當場選拔分開。",
+    "lineups_as_of": "2026-11-28 13:07 HKT",
+    "selection_note": "已核對官方11+9人各隊完整名單，40張永久卡全部有連結；登錄、參賽資格、官方選拔及實際出場分開。",
     "commentary": {
       "host": "史葛・楊子滔",
       "partner": "高志超",
@@ -50,22 +50,56 @@
         "label": "J.League官方・11月28日賽事",
         "url": "https://www.jleague.jp/match/j1/2026/112806/",
         "accessed_at": "2026-11-25"
+      },
+      {
+        "label": "J.League官方・28日正式正選／全後備／六名球證",
+        "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+        "accessed_at": "2026-11-28",
+        "published_at": "2026-11-28"
       }
     ],
     "officials": {
-      "status": "pending",
-      "roles": [],
-      "note": "本場六名球證待官方委任。",
-      "sources": [
+      "status": "confirmed",
+      "checked_at_display": "2026-11-28 13:07 HKT",
+      "roles": [
         {
-          "label": "柏官方・11月28日本場資訊",
-          "url": "https://www.reysol.co.jp/game/results/202627/1128i.php",
-          "accessed_at": "2026-11-17"
+          "id": "referee",
+          "name_ja": "椎野 大地",
+          "status": "confirmed"
         },
         {
-          "label": "廣島官方・11月一隊日程",
-          "url": "https://www.sanfrecce.co.jp/team/schedule/topteam",
-          "accessed_at": "2026-11-17"
+          "id": "assistant_1",
+          "name_ja": "淺田 武士",
+          "status": "confirmed"
+        },
+        {
+          "id": "assistant_2",
+          "name_ja": "岩﨑 創一",
+          "status": "confirmed"
+        },
+        {
+          "id": "fourth_official",
+          "name_ja": "清水 勇人",
+          "status": "confirmed"
+        },
+        {
+          "id": "var",
+          "name_ja": "高崎 航地",
+          "status": "confirmed"
+        },
+        {
+          "id": "avar",
+          "name_ja": "小林 拓矢",
+          "status": "confirmed"
+        }
+      ],
+      "note": "J.League正式委任六人。",
+      "sources": [
+        {
+          "label": "J.League官方・28日正式正選／全後備／六名球證",
+          "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+          "accessed_at": "2026-11-28",
+          "published_at": "2026-11-28"
         }
       ]
     },
@@ -181,17 +215,47 @@
       }
     ],
     "visitor_travel": [],
-    "referee_tendencies": [],
+    "referee_tendencies": [
+      {
+        "text": "椎野大地：已逐場核對的2026/27 J1主審樣本為8月15日清水0–1橫濱及11月1日橫濱4–2川崎，兩場合共5次球員警告，平均2.50次，沒有直接紅牌或兩黃一紅。樣本截至11月1日；不是今日比賽數字，也不與百年構想聯賽、J2、VAR執法混算。",
+        "kind": "fact",
+        "as_of": "2026-11-28",
+        "sources": [
+          {
+            "label": "J.League官方・8月15日清水0–1橫濱，1次球員警告",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34530",
+            "accessed_at": "2026-11-28"
+          },
+          {
+            "label": "J.League官方・11月1日橫濱4–2川崎，4次球員警告",
+            "url": "https://data.j-league.or.jp/SFMS02/?match_card_id=34639",
+            "accessed_at": "2026-11-28"
+          }
+        ]
+      },
+      {
+        "text": "J.League 11月25日更新的球證名冊列椎野1998年2月18日生、神奈川出身；J1主審生涯累計4場，百年構想J1主審另列9場。名冊的4場是生涯數字，不是本季警告統計的分母。",
+        "kind": "fact",
+        "as_of": "2026-11-28",
+        "sources": [
+          {
+            "label": "J.League Data Site・11月25日球證名冊",
+            "url": "https://data.j-league.or.jp/SFIX08/",
+            "accessed_at": "2026-11-28"
+          }
+        ]
+      }
+    ],
     "opening_broadcast": {
       "heading": "開波廣告",
-      "as_of": "2026-11-26",
+      "as_of": "2026-11-28",
       "paragraphs": [
         "柏雷素爾對廣島三箭，兩隊都想繼續追住前面。廣島上場鮎川峻十五分鐘破門，終結FC東京連續十場聯賽零失球；柏十月喺同一個球場，就只踢成零比零。廣島最後靠Yengi八十九分鐘追和，亦係佢加盟後第一個J1入球。",
-        "柏最先要處理嘅係後防：四十二號原田亘今場累積黃牌停賽。邊個接替佢、由後場點樣出波，要睇正式名單。廣島如果繼續前場壓逼，柏可唔可以用小泉佳穗同中川敦瑛串連，避過第一輪壓力？",
+        "柏最先要處理嘅係後防：四十二號原田亘今場累積黃牌停賽。三十二號山之內佑成今場正選踢右中堅，留意佢由後場點樣出波。廣島如果繼續前場壓逼，柏可唔可以用小泉佳穗同中川敦瑛串連，避過第一輪壓力？",
         "另一條線係後備嘅影響。柏喺澳洲靠弓場堅真後備入嚟奠勝；廣島對FC東京就靠後備Yengi追和。兩隊都連場上陣，今日邊個由後備席帶嚟變化，可能就係分勝負嘅一着。",
         "體力方面，柏多一日完整無比賽日，但有澳洲旅程；廣島三日前先踢完，唔可以一口咬定邊隊一定更攰。名單同實際負荷要逐個睇。"
       ],
-      "note": "11月26日補核準備稿，28日正選及球證未公布；對位屬評述觀察。原田停賽已確認，其他缺席原因不推測；開播前須依正式人腳及最新消息調整。",
+      "note": "28日正式名單公布後修訂：山之內正選、原田停賽；對位及體能屬觀察，不推測缺席原因。",
       "sources": [
         {
           "label": "柏官方・24日亞冠2–1、名單／換人／訪問",
@@ -229,6 +293,12 @@
           "label": "J.League官方・Yengi本人本季逐場出場與入球",
           "url": "https://www.jleague.jp/player/1638769/",
           "accessed_at": "2026-11-26"
+        },
+        {
+          "label": "J.League官方・28日正式正選／全後備／六名球證",
+          "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+          "accessed_at": "2026-11-28",
+          "published_at": "2026-11-28"
         }
       ]
     }
@@ -874,35 +944,424 @@
         ]
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "本場官方正選及全後備尚未公布；上仗出場不代表本場入選，預計陣容仍待賽前消息。",
+            "text": "#29 永井堅梧",
             "kind": "fact",
-            "as_of": "2026-11-25",
+            "as_of": "2026-11-28",
             "sources": [
               {
-                "label": "J.League官方・2026-11-20已完賽",
-                "url": "https://www.jleague.jp/match/j1/2026/112001/",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-20"
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "29",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_29",
+            "official_player_id": "1300058",
+            "name_ja": "永井 堅梧",
+            "position": "GK"
+          },
+          {
+            "text": "#4 古賀太陽",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "4",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_4",
+            "official_player_id": "1603080",
+            "name_ja": "古賀 太陽",
+            "position": "DF"
+          },
+          {
+            "text": "#26 杉岡大暉",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "26",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_26",
+            "official_player_id": "1600029",
+            "name_ja": "杉岡 大暉",
+            "position": "DF"
+          },
+          {
+            "text": "#32 山之內佑成",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "32",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_32",
+            "official_player_id": "1637309",
+            "name_ja": "山之内 佑成",
+            "position": "DF"
+          },
+          {
+            "text": "#44 弓場堅真",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "44",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_44",
+            "official_player_id": "1635506",
+            "name_ja": "弓場 堅真",
+            "position": "DF"
+          },
+          {
+            "text": "#24 久保藤次郎",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "24",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_24",
+            "official_player_id": "1634324",
+            "name_ja": "久保 藤次郎",
+            "position": "MF"
+          },
+          {
+            "text": "#28 戶嶋祥郎",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "28",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_28",
+            "official_player_id": "1611125",
+            "name_ja": "戸嶋 祥郎",
+            "position": "MF"
+          },
+          {
+            "text": "#39 中川敦瑛",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "39",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_39",
+            "official_player_id": "1635453",
+            "name_ja": "中川 敦瑛",
+            "position": "MF"
+          },
+          {
+            "text": "#87 山內日向汰",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "87",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_87",
+            "official_player_id": "1635485",
+            "name_ja": "山内 日向汰",
+            "position": "MF"
+          },
+          {
+            "text": "#8 小泉佳穗",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "8",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_8",
+            "official_player_id": "1500292",
+            "name_ja": "小泉 佳穂",
+            "position": "FW"
+          },
+          {
+            "text": "#15 藤尾翔太",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "15",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_15",
+            "official_player_id": "1618640",
+            "name_ja": "藤尾 翔太",
+            "position": "FW"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#25 小島亨介",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "25",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_25",
+            "official_player_id": "1300961",
+            "name_ja": "小島 亨介",
+            "position": "GK"
+          },
+          {
+            "text": "#2 三丸擴",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "2",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_2",
+            "official_player_id": "1600210",
+            "name_ja": "三丸 拡",
+            "position": "DF"
+          },
+          {
+            "text": "#13 犬飼智也",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "13",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_13",
+            "official_player_id": "1200017",
+            "name_ja": "犬飼 智也",
+            "position": "DF"
+          },
+          {
+            "text": "#5 遠藤溪太",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "5",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_5",
+            "official_player_id": "1600177",
+            "name_ja": "遠藤 渓太",
+            "position": "MF"
+          },
+          {
+            "text": "#6 山田雄士",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "6",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_6",
+            "official_player_id": "1620802",
+            "name_ja": "山田 雄士",
+            "position": "MF"
+          },
+          {
+            "text": "#11 渡井理己",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "11",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_11",
+            "official_player_id": "1617910",
+            "name_ja": "渡井 理己",
+            "position": "MF"
+          },
+          {
+            "text": "#20 瀨川祐輔",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "20",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_20",
+            "official_player_id": "1600146",
+            "name_ja": "瀬川 祐輔",
+            "position": "MF"
+          },
+          {
+            "text": "#40 原川力",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "40",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_40",
+            "official_player_id": "900649",
+            "name_ja": "原川 力",
+            "position": "MF"
+          },
+          {
+            "text": "#9 細谷真大",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "9",
+            "has_card": true,
+            "player_id": "jleague_kashiwa_9",
+            "official_player_id": "1625303",
+            "name_ja": "細谷 真大",
+            "position": "FW"
+          }
+        ],
+        "cues": [
+          {
+            "text": "官方名單已公布：11名正選、9名後備全部連到永久卡；陣式按J.League賽前圖示3-4-2-1。",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
               }
             ]
           },
           {
-            "text": "J.League官方前瞻預測，32號山之內佑成會代替停賽嘅42號原田亘踢右中堅。呢個只係前瞻預測，唔係已公布正選；28日正式正選同全後備仍待官方名單。",
-            "kind": "reported",
-            "as_of": "2026-11-27",
+            "text": "較24日亞冠正選換四人：杉岡大暉、山之內佑成、弓場堅真、戶嶋祥郎入；三丸擴、遠藤溪太、原川力轉後備，原田亘停賽。杉岡、山之內、戶嶋上仗0分鐘；弓場34分鐘。",
+            "kind": "fact",
+            "as_of": "2026-11-28",
             "sources": [
               {
-                "label": "J.League官方前瞻・右中堅人選為預測",
-                "url": "https://www.jleague.jp/match/j1/2026/112806/preview/",
-                "accessed_at": "2026-11-27"
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              },
+              {
+                "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+                "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+                "accessed_at": "2026-11-25"
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 4
       },
       "analytics": [
         {
@@ -1110,14 +1569,20 @@
             "player_id": "jleague_kashiwa_32",
             "description": [
               {
-                "text": "J.League官方前瞻預測，32號山之內佑成會代替停賽嘅42號原田亘踢右中堅。呢個只係前瞻預測，唔係已公布正選；28日正式正選同全後備仍待官方名單。",
-                "kind": "reported",
-                "as_of": "2026-11-27",
+                "text": "27日官方前瞻曾預測32號山之內佑成代停賽42號原田亘；28日正式名單已確認山之內正選，官方陣式圖列右中堅。預測與正式公布分開記錄。",
+                "kind": "fact",
+                "as_of": "2026-11-28",
                 "sources": [
                   {
                     "label": "J.League官方前瞻・右中堅人選為預測",
                     "url": "https://www.jleague.jp/match/j1/2026/112806/preview/",
                     "accessed_at": "2026-11-27"
+                  },
+                  {
+                    "label": "J.League官方・28日正式正選／全後備／六名球證",
+                    "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                    "accessed_at": "2026-11-28",
+                    "published_at": "2026-11-28"
                   }
                 ]
               },
@@ -1176,7 +1641,7 @@
             "player_id": "jleague_kashiwa_29",
             "description": [
               {
-                "text": "永井堅梧喺27日刊出嘅球會訪問話，長傳距離同準確度係自己強項，列卡度亦為佢設計咗不同出球選項。做後備嗰陣佢會讀比賽；平日逐次撲救訂目標，未做到就下一日再試。呢啲係本人自述，唔代表今日已落實正選。",
+                "text": "永井堅梧喺27日刊出嘅球會訪問話，長傳距離同準確度係自己強項，列卡度亦為佢設計咗不同出球選項。做後備嗰陣佢會讀比賽；平日逐次撲救訂目標，未做到就下一日再試。呢啲係本人自述；今日選拔另看正式名單。",
                 "kind": "reported",
                 "as_of": "2026-11-28",
                 "sources": [
@@ -1228,7 +1693,31 @@
         }
       ],
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "as_of": "2026-11-28",
+        "criteria": "常規正選定義：11月22日首15場J1樣本至少8次正選；只列今場未入20人者。停賽及已公布傷患另見04，未有可靠來源確認輪休。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "#18 垣田裕暉：首15場J1有9次正選，今日未入20人；未取得官方缺席原因，不能寫成輪休或受傷。",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              },
+              {
+                "label": "Football LAB・2026/27首15場，11月22日更新",
+                "url": "https://www.football-lab.jp/kasw",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "18"
+          }
+        ]
       },
       "research_baseline": {
         "as_of": "2026-11-25",
@@ -1258,6 +1747,12 @@
             "label": "J.League・本日完整登錄重核",
             "url": "https://www.jleague.jp/club/kashiwa/player/",
             "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・28日正式正選／全後備／六名球證",
+            "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+            "accessed_at": "2026-11-28",
+            "published_at": "2026-11-28"
           }
         ],
         "players": [
@@ -1267,7 +1762,8 @@
             "name": "猿田 遥己",
             "registration": "1 猿田 遥己 SARUTA Haruki ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "25",
@@ -1275,7 +1771,8 @@
             "name": "小島 亨介",
             "registration": "25 小島 亨介 KOJIMA Ryosuke",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "29",
@@ -1283,7 +1780,8 @@
             "name": "永井 堅梧",
             "registration": "29 永井 堅梧 NAGAI Kengo",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "46",
@@ -1291,7 +1789,8 @@
             "name": "松本 健太",
             "registration": "46 松本 健太 MATSUMOTO Kenta ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "63",
@@ -1299,7 +1798,8 @@
             "name": "金子 遙真",
             "registration": "63 金子 遙真 KANEKO Haruma （２種） ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "77",
@@ -1307,7 +1807,8 @@
             "name": "若原 智哉",
             "registration": "77 若原 智哉 WAKAHARA Tomoya",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "2",
@@ -1315,7 +1816,8 @@
             "name": "三丸 拡",
             "registration": "2 三丸 拡 MITSUMARU Hiromu",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "3",
@@ -1323,7 +1825,8 @@
             "name": "麻田 将吾",
             "registration": "3 麻田 将吾 ASADA Shogo",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "4",
@@ -1331,7 +1834,8 @@
             "name": "古賀 太陽",
             "registration": "4 古賀 太陽 KOGA Taiyo ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "13",
@@ -1339,7 +1843,8 @@
             "name": "犬飼 智也",
             "registration": "13 犬飼 智也 INUKAI Tomoya",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "26",
@@ -1347,7 +1852,8 @@
             "name": "杉岡 大暉",
             "registration": "26 杉岡 大暉 SUGIOKA Daiki",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "32",
@@ -1355,7 +1861,8 @@
             "name": "山之内 佑成",
             "registration": "32 山之内 佑成 YAMANOUCHI Yusei",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "42",
@@ -1363,7 +1870,8 @@
             "name": "原田 亘",
             "registration": "42 原田 亘 HARADA Wataru",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "45",
@@ -1371,7 +1879,8 @@
             "name": "佐藤 桜久",
             "registration": "45 佐藤 桜久 SATO Raku （２種） ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "56",
@@ -1379,7 +1888,8 @@
             "name": "常藤 奏",
             "registration": "56 常藤 奏 TSUNETO Kanade",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "88",
@@ -1387,7 +1897,8 @@
             "name": "馬場 晴也",
             "registration": "88 馬場 晴也 BABA Seiya",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "5",
@@ -1395,7 +1906,8 @@
             "name": "遠藤 渓太",
             "registration": "5 遠藤 渓太 ENDO Keita",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "6",
@@ -1403,7 +1915,8 @@
             "name": "山田 雄士",
             "registration": "6 山田 雄士 YAMADA Yuto ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "8",
@@ -1411,7 +1924,8 @@
             "name": "小泉 佳穂",
             "registration": "8 小泉 佳穂 KOIZUMI Yoshio",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "11",
@@ -1419,7 +1933,8 @@
             "name": "渡井 理己",
             "registration": "11 渡井 理己 WATAI Masaki",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "14",
@@ -1427,7 +1942,8 @@
             "name": "大久保 智明",
             "registration": "14 大久保 智明 OKUBO Tomoaki",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "16",
@@ -1435,7 +1951,8 @@
             "name": "汰木 康也",
             "registration": "16 汰木 康也 YURUKI Koya",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "17",
@@ -1443,7 +1960,8 @@
             "name": "手塚 康平",
             "registration": "17 手塚 康平 TEZUKA Kohei ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "19",
@@ -1451,7 +1969,8 @@
             "name": "仲間 隼斗",
             "registration": "19 仲間 隼斗 NAKAMA Hayato ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "20",
@@ -1459,7 +1978,8 @@
             "name": "瀬川 祐輔",
             "registration": "20 瀬川 祐輔 SEGAWA Yusuke",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "21",
@@ -1467,7 +1987,8 @@
             "name": "小西 雄大",
             "registration": "21 小西 雄大 KONISHI Yudai",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "23",
@@ -1475,7 +1996,8 @@
             "name": "長南 開史",
             "registration": "23 長南 開史 CHONAN Kaiji （２種） ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "24",
@@ -1483,7 +2005,8 @@
             "name": "久保 藤次郎",
             "registration": "24 久保 藤次郎 KUBO Tojiro",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "27",
@@ -1491,7 +2014,8 @@
             "name": "熊坂 光希",
             "registration": "27 熊坂 光希 KUMASAKA Koki ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "28",
@@ -1499,7 +2023,8 @@
             "name": "戸嶋 祥郎",
             "registration": "28 戸嶋 祥郎 TOSHIMA Sachiro",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "30",
@@ -1507,7 +2032,8 @@
             "name": "古谷 柊介",
             "registration": "30 古谷 柊介 FURUYA Shusuke",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "33",
@@ -1515,7 +2041,8 @@
             "name": "岩永 創太",
             "registration": "33 岩永 創太 IWANAGA Sota",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "39",
@@ -1523,7 +2050,8 @@
             "name": "中川 敦瑛",
             "registration": "39 中川 敦瑛 NAKAGAWA Nobuteru",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "40",
@@ -1531,7 +2059,8 @@
             "name": "原川 力",
             "registration": "40 原川 力 HARAKAWA Riki",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "43",
@@ -1539,7 +2068,8 @@
             "name": "加茂 結斗",
             "registration": "43 加茂 結斗 KAMO Yuito （２種） ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "44",
@@ -1547,7 +2077,8 @@
             "name": "弓場 堅真",
             "registration": "44 弓場 堅真 YUBA Kenshin",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "64",
@@ -1555,7 +2086,8 @@
             "name": "五十嵐 陵",
             "registration": "64 五十嵐 陵 IGARASHI Ryo （２種） ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "87",
@@ -1563,7 +2095,8 @@
             "name": "山内 日向汰",
             "registration": "87 山内 日向汰 YAMAUCHI Hinata",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "9",
@@ -1571,7 +2104,8 @@
             "name": "細谷 真大",
             "registration": "9 細谷 真大 HOSOYA Mao ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "15",
@@ -1579,7 +2113,8 @@
             "name": "藤尾 翔太",
             "registration": "15 藤尾 翔太 FUJIO Shota",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "18",
@@ -1587,7 +2122,8 @@
             "name": "垣田 裕暉",
             "registration": "18 垣田 裕暉 KAKITA Yuki",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "51",
@@ -1595,7 +2131,8 @@
             "name": "満田 誠",
             "registration": "51 満田 誠 MITSUTA Makoto",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           }
         ],
         "vitals_discrepancies": [
@@ -1649,13 +2186,14 @@
               }
             ]
           }
-        ]
+        ],
+        "selection_checked_at": "2026-11-28 13:07 HKT"
       },
       "workload": {
         "match_date": "2026-11-24",
         "baseline_match_date": "2026-11-20",
-        "as_of": "2026-11-25",
-        "minutes_note": "11月24日亞冠精英聯賽對紐卡素噴射機，依官方正選與換人名義分鐘、不含補時；總990分鐘。11月20日J1為比較基準。28日正選未公布，未分類為本場休息／新鮮正選。",
+        "as_of": "2026-11-28",
+        "minutes_note": "11月24日亞冠精英聯賽對紐卡素噴射機，依官方正選與換人名義分鐘、不含補時；總990分鐘。11月20日J1為比較基準。 今日正式名單已另列；名義分鐘不含補時，0分鐘不等於體能診斷。",
         "minutes": [
           {
             "number": "29",
@@ -1836,6 +2374,36 @@
             "prior_minutes": 60,
             "started": false,
             "appearance_last": false
+          },
+          {
+            "number": "32",
+            "name": "山之內佑成",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 0,
+            "started": false,
+            "appearance_last": false,
+            "note": "兩場完整990分鐘名單均無上陣；不代表確定輪休。"
+          },
+          {
+            "number": "25",
+            "name": "小島亨介",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 0,
+            "started": false,
+            "appearance_last": false,
+            "note": "兩場完整990分鐘名單均無上陣；不代表確定輪休。"
+          },
+          {
+            "number": "13",
+            "name": "犬飼智也",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 0,
+            "started": false,
+            "appearance_last": false,
+            "note": "兩場完整990分鐘名單均無上陣；不代表確定輪休。"
           }
         ],
         "sources": [
@@ -3252,7 +3820,62 @@
       ],
       "goalkeeper_analysis": [],
       "international_duty": [],
-      "home_away_record": []
+      "home_away_record": [],
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "28日J.League官方名單所列3-4-2-1；站位是賽前圖示，實際跑位另觀察。",
+        "as_of": "2026-11-28",
+        "players": [
+          {
+            "number": "15",
+            "name": "藤尾翔太"
+          },
+          {
+            "number": "8",
+            "name": "小泉佳穗"
+          },
+          {
+            "number": "87",
+            "name": "山內日向汰"
+          },
+          {
+            "number": "24",
+            "name": "久保藤次郎"
+          },
+          {
+            "number": "39",
+            "name": "中川敦瑛"
+          },
+          {
+            "number": "28",
+            "name": "戶嶋祥郎"
+          },
+          {
+            "number": "44",
+            "name": "弓場堅真"
+          },
+          {
+            "number": "32",
+            "name": "山之內佑成"
+          },
+          {
+            "number": "4",
+            "name": "古賀太陽"
+          },
+          {
+            "number": "26",
+            "name": "杉岡大暉"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League官方・28日正式正選／全後備／六名球證",
+            "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+            "accessed_at": "2026-11-28",
+            "published_at": "2026-11-28"
+          }
+        ]
+      }
     },
     "hiroshima": {
       "game_log": [
@@ -3801,26 +4424,451 @@
         "note": "最新已完賽負荷、完整登錄及首15場獨立進階統計；28日選拔未公布。"
       },
       "lineup": {
-        "starters": [],
-        "bench": [],
-        "cues": [
+        "starters": [
           {
-            "text": "本場官方正選及全後備尚未公布；上仗出場不代表本場入選，預計陣容仍待賽前消息。",
+            "text": "#1 大迫敬介",
             "kind": "fact",
-            "as_of": "2026-11-25",
+            "as_of": "2026-11-28",
             "sources": [
               {
-                "label": "J.League官方・2026-11-21已完賽",
-                "url": "https://www.jleague.jp/match/j1/2026/112103/",
-                "accessed_at": "2026-11-21",
-                "published_at": "2026-11-21"
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "1",
+            "has_card": true,
+            "player_id": "hiroshima_1",
+            "official_player_id": "1600203",
+            "name_ja": "大迫 敬介",
+            "position": "GK"
+          },
+          {
+            "text": "#4 荒木隼人",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "4",
+            "has_card": true,
+            "player_id": "hiroshima_4",
+            "official_player_id": "1604880",
+            "name_ja": "荒木 隼人",
+            "position": "DF"
+          },
+          {
+            "text": "#15 中野就斗",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "15",
+            "has_card": true,
+            "player_id": "hiroshima_15",
+            "official_player_id": "1635465",
+            "name_ja": "中野 就斗",
+            "position": "DF"
+          },
+          {
+            "text": "#37 金周成",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "37",
+            "has_card": true,
+            "player_id": "hiroshima_37",
+            "official_player_id": "1627198",
+            "name_ja": "キム ジュソン",
+            "position": "DF"
+          },
+          {
+            "text": "#5 新井直人",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "5",
+            "has_card": true,
+            "player_id": "hiroshima_5",
+            "official_player_id": "1624653",
+            "name_ja": "新井 直人",
+            "position": "MF"
+          },
+          {
+            "text": "#14 松本泰志",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "14",
+            "has_card": true,
+            "player_id": "hiroshima_14",
+            "official_player_id": "1607284",
+            "name_ja": "松本 泰志",
+            "position": "MF"
+          },
+          {
+            "text": "#18 菅大輝",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "18",
+            "has_card": true,
+            "player_id": "hiroshima_18",
+            "official_player_id": "1602205",
+            "name_ja": "菅 大輝",
+            "position": "MF"
+          },
+          {
+            "text": "#35 中島洋太朗",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "35",
+            "has_card": true,
+            "player_id": "hiroshima_35",
+            "official_player_id": "1641144",
+            "name_ja": "中島 洋太朗",
+            "position": "MF"
+          },
+          {
+            "text": "#10 鈴木章斗",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "10",
+            "has_card": true,
+            "player_id": "hiroshima_10",
+            "official_player_id": "1636237",
+            "name_ja": "鈴木 章斗",
+            "position": "FW"
+          },
+          {
+            "text": "#22 賀拿",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "22",
+            "has_card": true,
+            "player_id": "hiroshima_22",
+            "official_player_id": "1648186",
+            "name_ja": "セバスティアン アレー",
+            "position": "FW"
+          },
+          {
+            "text": "#23 鮎川峻",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "23",
+            "has_card": true,
+            "player_id": "hiroshima_23",
+            "official_player_id": "1622855",
+            "name_ja": "鮎川 峻",
+            "position": "FW"
+          }
+        ],
+        "bench": [
+          {
+            "text": "#21 田中雄大",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "21",
+            "has_card": true,
+            "player_id": "hiroshima_21",
+            "official_player_id": "1503714",
+            "name_ja": "田中 雄大",
+            "position": "GK"
+          },
+          {
+            "text": "#99 大內一生",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "99",
+            "has_card": true,
+            "player_id": "hiroshima_99",
+            "official_player_id": "1602209",
+            "name_ja": "大内 一生",
+            "position": "GK"
+          },
+          {
+            "text": "#6 川邊駿",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "6",
+            "has_card": true,
+            "player_id": "hiroshima_6",
+            "official_player_id": "1300179",
+            "name_ja": "川辺 駿",
+            "position": "MF"
+          },
+          {
+            "text": "#7 東俊希",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "7",
+            "has_card": true,
+            "player_id": "hiroshima_7",
+            "official_player_id": "1618152",
+            "name_ja": "東 俊希",
+            "position": "MF"
+          },
+          {
+            "text": "#32 越道草太",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "32",
+            "has_card": true,
+            "player_id": "hiroshima_32",
+            "official_player_id": "1632409",
+            "name_ja": "越道 草太",
+            "position": "MF"
+          },
+          {
+            "text": "#45 小林志紋",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "45",
+            "has_card": true,
+            "player_id": "hiroshima_45",
+            "official_player_id": "1650817",
+            "name_ja": "小林 志紋",
+            "position": "MF"
+          },
+          {
+            "text": "#46 野口蓮斗",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "46",
+            "has_card": true,
+            "player_id": "hiroshima_46",
+            "official_player_id": "1650815",
+            "name_ja": "野口 蓮斗",
+            "position": "MF"
+          },
+          {
+            "text": "#9 Kusini Yengi",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "9",
+            "has_card": true,
+            "player_id": "hiroshima_9",
+            "official_player_id": "1638769",
+            "name_ja": "クシニ イェンギ",
+            "position": "FW"
+          },
+          {
+            "text": "#41 前田直輝",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ],
+            "number": "41",
+            "has_card": true,
+            "player_id": "hiroshima_41",
+            "official_player_id": "1200343",
+            "name_ja": "前田 直輝",
+            "position": "FW"
+          }
+        ],
+        "cues": [
+          {
+            "text": "官方名單已公布：11名正選、9名後備全部連到永久卡；陣式按J.League賽前圖示3-4-2-1。",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ]
+          },
+          {
+            "text": "較25日FC東京戰正選換兩人：松本泰志、菅大輝入，川邊駿、東俊希轉後備；松本上仗35分鐘、菅23分鐘。淺野拓磨仍未入20人，原因未確認。",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              },
+              {
+                "label": "J.League官方・25日FC東京2–2廣島及換人",
+                "url": "https://www.jleague.jp/match/j1/2026/112503/",
+                "accessed_at": "2026-11-25"
               }
             ]
           }
-        ]
+        ],
+        "starting_changes_vs_previous_match": 2
       },
       "workload_absences": {
-        "pending": true
+        "pending": false,
+        "as_of": "2026-11-28",
+        "criteria": "常規正選定義：11月22日首15場J1樣本至少8次正選；只列今場未入20人者。停賽及已公布傷患另見04，未有可靠來源確認輪休。",
+        "confirmed_rest": [],
+        "unexplained": [
+          {
+            "text": "#19 佐佐木翔：首15場J1有8次正選，今日未入20人；未取得官方缺席原因，不能寫成輪休或受傷。",
+            "kind": "fact",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              },
+              {
+                "label": "Football LAB・2026/27首15場，11月22日更新",
+                "url": "https://www.football-lab.jp/hiro",
+                "accessed_at": "2026-11-25"
+              }
+            ],
+            "number": "19"
+          }
+        ]
       },
       "players_to_watch": {
         "stars": [
@@ -4955,8 +6003,8 @@
       "workload": {
         "match_date": "2026-11-25",
         "baseline_match_date": "2026-11-21",
-        "as_of": "2026-11-25",
-        "minutes_note": "25日FC東京2–2廣島及21日廣島2–2橫濱；名義分鐘不含補時。55分鐘賀拿換松本，67分鐘鮎川／中島換菅／小林，86分鐘川邊／金周成換Yengi／前田；兩場各990分鐘。不是28日名單。",
+        "as_of": "2026-11-28",
+        "minutes_note": "25日FC東京2–2廣島及21日廣島2–2橫濱；名義分鐘不含補時。55分鐘賀拿換松本，67分鐘鮎川／中島換菅／小林，86分鐘川邊／金周成換Yengi／前田；兩場各990分鐘。 今日正式名單已另列；名義分鐘不含補時，0分鐘不等於體能診斷。",
         "minutes": [
           {
             "number": "1",
@@ -5119,6 +6167,36 @@
             "prior_minutes": 5,
             "started": false,
             "appearance_last": false
+          },
+          {
+            "number": "21",
+            "name": "田中雄大",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 0,
+            "started": false,
+            "appearance_last": false,
+            "note": "兩場完整990分鐘名單均無上陣；不代表確定輪休。"
+          },
+          {
+            "number": "99",
+            "name": "大內一生",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 0,
+            "started": false,
+            "appearance_last": false,
+            "note": "兩場完整990分鐘名單均無上陣；不代表確定輪休。"
+          },
+          {
+            "number": "46",
+            "name": "野口蓮斗",
+            "has_card": true,
+            "minutes": 0,
+            "prior_minutes": 0,
+            "started": false,
+            "appearance_last": false,
+            "note": "兩場完整990分鐘名單均無上陣；不代表確定輪休。"
           }
         ],
         "sources": [
@@ -5183,6 +6261,26 @@
               "published_at": "2026-11-27"
             }
           ]
+        },
+        {
+          "text": "#11 加藤陸次樹今日未入20人。球會11月1日公布他10月24日受傷、診斷右膝內側副韌帶損傷；未取得新的復操／復出日期，不能把舊診斷當成今日醫療報告。",
+          "kind": "fact",
+          "as_of": "2026-11-28",
+          "sources": [
+            {
+              "label": "J.League官方・28日正式正選／全後備／六名球證",
+              "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+              "accessed_at": "2026-11-28",
+              "published_at": "2026-11-28"
+            },
+            {
+              "label": "廣島官方・11月1日加藤右膝內側副韌帶損傷公告",
+              "url": "https://www.sanfrecce.co.jp/news/team/13023",
+              "accessed_at": "2026-11-28",
+              "published_at": "2026-11-01"
+            }
+          ],
+          "number": "11"
         }
       ],
       "suspensions": [
@@ -5384,6 +6482,12 @@
             "label": "J.League・本日完整登錄重核",
             "url": "https://www.jleague.jp/club/hiroshima/player/",
             "accessed_at": "2026-11-25"
+          },
+          {
+            "label": "J.League官方・28日正式正選／全後備／六名球證",
+            "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+            "accessed_at": "2026-11-28",
+            "published_at": "2026-11-28"
           }
         ],
         "players": [
@@ -5393,7 +6497,8 @@
             "name": "大迫 敬介",
             "registration": "1 大迫 敬介 OSAKO Keisuke ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "21",
@@ -5401,7 +6506,8 @@
             "name": "田中 雄大",
             "registration": "21 田中 雄大 TANAKA Yudai",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "43",
@@ -5409,7 +6515,8 @@
             "name": "小川 煌",
             "registration": "43 小川 煌 OGAWA Hikaru ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "99",
@@ -5417,7 +6524,8 @@
             "name": "大内 一生",
             "registration": "99 大内 一生 OUCHI Issei",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "3",
@@ -5425,7 +6533,8 @@
             "name": "山﨑 大地",
             "registration": "3 山﨑 大地 YAMASAKI Taichi ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "4",
@@ -5433,7 +6542,8 @@
             "name": "荒木 隼人",
             "registration": "4 荒木 隼人 ARAKI Hayato ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "5",
@@ -5441,7 +6551,8 @@
             "name": "新井 直人",
             "registration": "5 新井 直人 ARAI Naoto",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "15",
@@ -5449,7 +6560,8 @@
             "name": "中野 就斗",
             "registration": "15 中野 就斗 NAKANO Shuto",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "19",
@@ -5457,7 +6569,8 @@
             "name": "佐々木 翔",
             "registration": "19 佐々木 翔 SASAKI Sho",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "33",
@@ -5465,7 +6578,8 @@
             "name": "塩谷 司",
             "registration": "33 塩谷 司 SHIOTANI Tsukasa",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "37",
@@ -5473,7 +6587,8 @@
             "name": "キム ジュソン",
             "registration": "37 キム ジュソン KIM Jusung",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "48",
@@ -5481,7 +6596,8 @@
             "name": "太田 大翔",
             "registration": "48 太田 大翔 OTA Hiroto （２種）",
             "card_status": "identity_only",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "49",
@@ -5489,7 +6605,8 @@
             "name": "森井 莉人",
             "registration": "49 森井 莉人 MORII Leedo （２種）",
             "card_status": "identity_only",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "6",
@@ -5497,7 +6614,8 @@
             "name": "川辺 駿",
             "registration": "6 川辺 駿 KAWABE Hayao ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "7",
@@ -5505,7 +6623,8 @@
             "name": "東 俊希",
             "registration": "7 東 俊希 HIGASHI Shunki ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "8",
@@ -5513,7 +6632,8 @@
             "name": "川村 拓夢",
             "registration": "8 川村 拓夢 KAWAMURA Takumu ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "14",
@@ -5521,7 +6641,8 @@
             "name": "松本 泰志",
             "registration": "14 松本 泰志 MATSUMOTO Taishi ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "18",
@@ -5529,7 +6650,8 @@
             "name": "菅 大輝",
             "registration": "18 菅 大輝 SUGA Daiki",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "32",
@@ -5537,7 +6659,8 @@
             "name": "越道 草太",
             "registration": "32 越道 草太 KOSHIMICHI Sota ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "35",
@@ -5545,7 +6668,8 @@
             "name": "中島 洋太朗",
             "registration": "35 中島 洋太朗 NAKAJIMA Yotaro ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "45",
@@ -5553,7 +6677,8 @@
             "name": "小林 志紋",
             "registration": "45 小林 志紋 KOBAYASHI Shimon ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "46",
@@ -5561,7 +6686,8 @@
             "name": "野口 蓮斗",
             "registration": "46 野口 蓮斗 NOGUCHI Rento （２種）",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "47",
@@ -5569,7 +6695,8 @@
             "name": "原 湊士",
             "registration": "47 原 湊士 HARA Minato （２種） ホームグロウン",
             "card_status": "identity_only",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "9",
@@ -5577,7 +6704,8 @@
             "name": "クシニ イェンギ",
             "registration": "9 クシニ イェンギ Kusini Boja YENGI(KUSINI YENGI)",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "10",
@@ -5585,7 +6713,8 @@
             "name": "鈴木 章斗",
             "registration": "10 鈴木 章斗 SUZUKI Akito",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "11",
@@ -5593,7 +6722,8 @@
             "name": "加藤 陸次樹",
             "registration": "11 加藤 陸次樹 KATO Mutsuki ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "22",
@@ -5601,7 +6731,8 @@
             "name": "セバスティアン アレー",
             "registration": "22 セバスティアン アレー Sebastien Romain Teddy Haller(SEBASTIEN HALLER)",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "23",
@@ -5609,7 +6740,8 @@
             "name": "鮎川 峻",
             "registration": "23 鮎川 峻 AYUKAWA Shun ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "starter"
           },
           {
             "number": "29",
@@ -5617,7 +6749,8 @@
             "name": "浅野 拓磨",
             "registration": "29 浅野 拓磨 ASANO Takuma ホームグロウン",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           },
           {
             "number": "41",
@@ -5625,7 +6758,8 @@
             "name": "前田 直輝",
             "registration": "41 前田 直輝 MAEDA Naoki",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": true,
+            "confirmed_lineup": "bench"
           },
           {
             "number": "50",
@@ -5633,7 +6767,8 @@
             "name": "髙橋 成海",
             "registration": "50 髙橋 成海 TAKAHASHI Narumi （２種）",
             "card_status": "existing",
-            "selected_for_match": null
+            "selected_for_match": false,
+            "confirmed_lineup": "not_selected"
           }
         ],
         "vitals_discrepancies": [
@@ -5737,7 +6872,8 @@
               }
             ]
           }
-        ]
+        ],
+        "selection_checked_at": "2026-11-28 13:07 HKT"
       },
       "season_usage": [
         {
@@ -6145,6 +7281,61 @@
           }
         ],
         "note": "歷史實際名單；不代填28日正選。"
+      },
+      "formation": {
+        "shape": "3-4-2-1",
+        "label": "28日J.League官方名單所列3-4-2-1；站位是賽前圖示，實際跑位另觀察。",
+        "as_of": "2026-11-28",
+        "players": [
+          {
+            "number": "10",
+            "name": "鈴木章斗"
+          },
+          {
+            "number": "22",
+            "name": "賀拿"
+          },
+          {
+            "number": "23",
+            "name": "鮎川峻"
+          },
+          {
+            "number": "5",
+            "name": "新井直人"
+          },
+          {
+            "number": "35",
+            "name": "中島洋太朗"
+          },
+          {
+            "number": "14",
+            "name": "松本泰志"
+          },
+          {
+            "number": "18",
+            "name": "菅大輝"
+          },
+          {
+            "number": "15",
+            "name": "中野就斗"
+          },
+          {
+            "number": "4",
+            "name": "荒木隼人"
+          },
+          {
+            "number": "37",
+            "name": "金周成"
+          }
+        ],
+        "sources": [
+          {
+            "label": "J.League官方・28日正式正選／全後備／六名球證",
+            "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+            "accessed_at": "2026-11-28",
+            "published_at": "2026-11-28"
+          }
+        ]
       }
     }
   },
@@ -7487,7 +8678,7 @@
           "published_at": "2026-11-27",
           "outlet": "柏官方Vitoria Vol.531・第3頁訪問摘要",
           "url": "https://www.reysol.co.jp/fileg/Vitoria531.pdf",
-          "paraphrase_zh": "永井堅梧喺27日刊出嘅球會訪問話，長傳距離同準確度係自己強項，列卡度亦為佢設計咗不同出球選項。做後備嗰陣佢會讀比賽；平日逐次撲救訂目標，未做到就下一日再試。呢啲係本人自述，唔代表今日已落實正選。"
+          "paraphrase_zh": "永井堅梧喺27日刊出嘅球會訪問話，長傳距離同準確度係自己強項，列卡度亦為佢設計咗不同出球選項。做後備嗰陣佢會讀比賽；平日逐次撲救訂目標，未做到就下一日再試。呢啲係本人自述；今日選拔另看正式名單。"
         },
         {
           "team_slug": "hiroshima",
@@ -7514,7 +8705,7 @@
       ]
     }
   ],
-  "quote_status": "保留柏24日及廣島25日賽後訪問；新增27日永井Vitoria完整訪問摘要、高爾／松本賽前公開節錄，TSS會員全文未讀。發言日期與查閱日期分列，選拔仍待官方公布。",
+  "quote_status": "保留柏24日及廣島25日賽後訪問；新增27日永井Vitoria完整訪問摘要、高爾／松本賽前公開節錄，TSS會員全文未讀。發言日期與查閱日期分列，28日官方選拔已另列06。",
   "preview": {
     "cues": [
       {
@@ -7545,14 +8736,15 @@
         ]
       },
       {
-        "text": "柏原田亘28日聯賽停賽；24日亞冠踢足並不取消處分。留意柏點樣重新安排後防出波，正式替代人選仍待28日名單，唔預填。",
+        "text": "原田亘停賽，山之內佑成已獲確認正選右中堅；柏另一個值得留意嘅變化係弓場堅真正選、遠藤溪太留後備。選拔已確認，實際攻守站位同逼搶方式仍要開賽觀察。",
         "kind": "analysis",
-        "as_of": "2026-11-25",
+        "as_of": "2026-11-28",
         "sources": [
           {
-            "label": "J.League官方・11月23日停賽公告",
-            "url": "https://www.jleague.jp/news/article/35431/?navicode=j1",
-            "accessed_at": "2026-11-25"
+            "label": "J.League官方・28日正式正選／全後備／六名球證",
+            "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+            "accessed_at": "2026-11-28",
+            "published_at": "2026-11-28"
           }
         ]
       },
@@ -7643,14 +8835,20 @@
         ]
       },
       {
-        "text": "J.League官方前瞻預測，32號山之內佑成會代替停賽嘅42號原田亘踢右中堅。呢個只係前瞻預測，唔係已公布正選；28日正式正選同全後備仍待官方名單。",
-        "kind": "reported",
-        "as_of": "2026-11-27",
+        "text": "27日官方前瞻曾預測32號山之內佑成代停賽42號原田亘；28日正式名單已確認山之內正選，官方陣式圖列右中堅。預測與正式公布分開記錄。",
+        "kind": "fact",
+        "as_of": "2026-11-28",
         "sources": [
           {
             "label": "J.League官方前瞻・右中堅人選為預測",
             "url": "https://www.jleague.jp/match/j1/2026/112806/preview/",
             "accessed_at": "2026-11-27"
+          },
+          {
+            "label": "J.League官方・28日正式正選／全後備／六名球證",
+            "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+            "accessed_at": "2026-11-28",
+            "published_at": "2026-11-28"
           }
         ]
       }
@@ -7795,14 +8993,20 @@
         "title": "27日補核・32號山之內佑成，先分清預測與正選",
         "paragraphs": [
           {
-            "text": "J.League官方前瞻預測，32號山之內佑成會代替停賽嘅42號原田亘踢右中堅。呢個只係前瞻預測，唔係已公布正選；28日正式正選同全後備仍待官方名單。",
-            "kind": "reported",
-            "as_of": "2026-11-27",
+            "text": "27日官方前瞻曾預測32號山之內佑成代停賽42號原田亘；28日正式名單已確認山之內正選，官方陣式圖列右中堅。預測與正式公布分開記錄。",
+            "kind": "fact",
+            "as_of": "2026-11-28",
             "sources": [
               {
                 "label": "J.League官方前瞻・右中堅人選為預測",
                 "url": "https://www.jleague.jp/match/j1/2026/112806/preview/",
                 "accessed_at": "2026-11-27"
+              },
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
               }
             ]
           },
@@ -7858,7 +9062,7 @@
         "title": "28日早上補核・門將出球與歷史背景",
         "paragraphs": [
           {
-            "text": "如果永井堅梧今場上陣，留意佢受壓時會點揀長短傳，以及長傳後第二點由邊個接應；呢個係根據本人訪問提出嘅觀察方向，唔係已公布戰術。",
+            "text": "永井堅梧今場已確認正選，留意佢受壓時會點揀長短傳，以及長傳後第二點由邊個接應；呢個係根據本人訪問提出嘅觀察方向，唔係已公布戰術。",
             "kind": "analysis",
             "as_of": "2026-11-28",
             "sources": [
@@ -7883,24 +9087,61 @@
             ]
           }
         ]
+      },
+      {
+        "title": "正式名單後・今日人腳及體力觀察",
+        "paragraphs": [
+          {
+            "text": "原田亘停賽，山之內佑成已獲確認正選右中堅；柏另一個值得留意嘅變化係弓場堅真正選、遠藤溪太留後備。選拔已確認，實際攻守站位同逼搶方式仍要開賽觀察。",
+            "kind": "analysis",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              }
+            ]
+          },
+          {
+            "text": "廣島中場松本泰志同菅大輝上場分別35、23分鐘，今場正選；川邊駿同東俊希留後備。柏杉岡大暉、山之內佑成、戶嶋祥郎上場冇上陣，今場正選。分鐘只反映最近兩場使用量，唔能夠直接判斷體能或教練輪換原因。",
+            "kind": "analysis",
+            "as_of": "2026-11-28",
+            "sources": [
+              {
+                "label": "J.League官方・28日正式正選／全後備／六名球證",
+                "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+                "accessed_at": "2026-11-28",
+                "published_at": "2026-11-28"
+              },
+              {
+                "label": "J.League官方・25日FC東京2–2廣島及換人",
+                "url": "https://www.jleague.jp/match/j1/2026/112503/",
+                "accessed_at": "2026-11-25"
+              },
+              {
+                "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+                "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+                "accessed_at": "2026-11-25"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "opening_checks": [
     {
-      "text": "正式名單公布後，兩隊每一名正選及後備逐一對永久卡及官方ID；若新青年徵召不在本次73人中，先補有來源身份卡，保留人物研究未完成標示。",
+      "text": "官方22名正選及18名後備已全部對上永久卡及官方登錄ID；本場沒有新增卡片，開賽後仍以實際換人紀錄區分入選與上陣。",
       "kind": "fact",
-      "as_of": "2026-11-17",
+      "as_of": "2026-11-28",
       "sources": [
         {
-          "label": "柏官方・11月28日本場資訊",
-          "url": "https://www.reysol.co.jp/game/results/202627/1128i.php",
-          "accessed_at": "2026-11-17"
-        },
-        {
-          "label": "廣島官方・11月一隊日程",
-          "url": "https://www.sanfrecce.co.jp/team/schedule/topteam",
-          "accessed_at": "2026-11-17"
+          "label": "J.League官方・28日正式正選／全後備／六名球證",
+          "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+          "accessed_at": "2026-11-28",
+          "published_at": "2026-11-28"
         }
       ]
     },
@@ -7982,24 +9223,25 @@
     ]
   },
   "coverage_gaps": [
-    "28日正式正選、全後備、六名球證及逐時／球場實測天氣待公布；73人登錄核對不等於入選或參賽資格確認。",
-    "廣島27日高爾及松本訪問公開節錄已補；會員全文未讀，沒有逐人醫療／復操證明；淺野缺席原因及28日名單仍未確認。",
+    "官方22正選18後備及六名球證已核；實際出場須待開賽，球場實測天氣仍未取得。",
+    "廣島27日公開訪問節錄保留；垣田、佐佐木及淺野缺席原因未確認，加藤11月1日舊傷公告不等於最新醫療。",
     "廣島青年47／48／49的獨立人物研究及中文名未完成；卡片狀態保持誠實。",
     "六項球會與聯盟量度差異已對照；長南開史按現行球會頁修正72kg，其餘採現行球會值並保留差異。",
     "進階數據是11月22日首15場；廣島25日第16場另列，不混入xG樣本。完整xA、入失球時段及門將PSxG仍無完整可比來源。",
-    "榜為25日21:59 JST官方20隊快照，15／16場不齊；不是完整第16輪全部完場榜。"
+    "榜為25日21:59 JST官方20隊快照，15／16場不齊；不是完整第16輪全部完場榜。",
+    "椎野警告數採已逐場核對兩場J1樣本，截點11月1日；生涯場次另列，不宣稱已覆蓋其後全部賽事。"
   ],
   "section_status": {
-    "info": "28日加入普通席／視線受阻席售罄，沒有推定入場人數；開波廣告保持最後及1.1em。",
+    "info": "28日正式名單後核對：40人全部有永久卡、六名球證確認；負荷按兩場分鐘列示，缺席原因及資料截點明列。",
     "quotes": "28日早上加入27日永井訪問及高爾／松本公開節錄；會員全文未讀，並非已確認選拔。",
-    "comparison": "25日晚完賽後刷新；來源及截點分列，28日選拔待公布。",
-    "availability": "原田亘本場停賽重核；加入高爾27日沒有新增傷兵的有限節錄，淺野缺席原因仍未知。",
-    "analytics": "25日晚完賽後刷新；來源及截點分列，28日選拔待公布。",
-    "rotation": "25日晚完賽後刷新；來源及截點分列，28日選拔待公布。",
-    "players": "28日新增29號永井本人出球與準備訪問；32號山之內既有故事保留，正式選拔待公布。",
-    "preview": "28日補門將出球觀察及2023三戰五分背景；山之內右中堅仍是官方前瞻預測。",
+    "comparison": "25日晚完賽後刷新；來源及截點分列，28日官方選拔已另列06；本節原有截點保留。",
+    "availability": "28日正式名單後核對：40人全部有永久卡、六名球證確認；負荷按兩場分鐘列示，缺席原因及資料截點明列。",
+    "analytics": "25日晚完賽後刷新；來源及截點分列，28日官方選拔已另列06；本節原有截點保留。",
+    "rotation": "28日正式名單後核對：40人全部有永久卡、六名球證確認；負荷按兩場分鐘列示，缺席原因及資料截點明列。",
+    "players": "28日正式名單後核對：40人全部有永久卡、六名球證確認；負荷按兩場分鐘列示，缺席原因及資料截點明列。",
+    "preview": "28日正式名單後核對：40人全部有永久卡、六名球證確認；負荷按兩場分鐘列示，缺席原因及資料截點明列。",
     "logs": "完整20隊榜更新至25日21:59 JST，保留15／16場差異及全季賽程。",
-    "cup": "25日晚完賽後刷新；來源及截點分列，28日選拔待公布。"
+    "cup": "25日晚完賽後刷新；來源及截點分列，28日官方選拔已另列06；本節原有截點保留。"
   },
   "head_to_head_results": [],
   "head_to_head": [
@@ -8022,13 +9264,13 @@
     }
   ],
   "research_sweep": {
-    "as_of": "2026-11-26",
-    "stage": "intermediate_preparation",
+    "as_of": "2026-11-28",
+    "stage": "official_lineups_verified",
     "registration_count": 73,
-    "selection_status": "pending",
+    "selection_status": "confirmed",
     "intervening_games_refresh_required": false,
-    "checked_at": "2026-11-26 11:28 JST",
-    "scope": "26日增補官方評述事實、賽後訪問及21:59完整榜；28日選拔仍待公布。",
+    "checked_at": "2026-11-28 13:07 HKT",
+    "scope": "官方40人及六名球證、卡片映射、兩場負荷與有限球證警告樣本。",
     "yamanouchi_followup": {
       "checked_at": "2026-11-26T23:07:20.370995+00:00",
       "scope": "只補32號評述背景及明確標示的右中堅預測；不改正式名單、永久球員卡或其他賽事。",
@@ -8115,39 +9357,343 @@
           }
         ]
       }
+    },
+    "lineup_sweep": {
+      "checked_at": "2026-11-28T13:07:56.801850+08:00",
+      "source": {
+        "label": "J.League官方・28日正式正選／全後備／六名球證",
+        "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+        "accessed_at": "2026-11-28",
+        "published_at": "2026-11-28"
+      },
+      "selected_cards": 40,
+      "missing_cards": 0,
+      "permanent_card_changes": 0,
+      "referee_statistics_scope": "本季J1兩場已逐場核對樣本，截至11月1日；11月25日官方生涯4場另列。",
+      "uncertainty": [
+        "垣田裕暉、佐佐木翔及淺野拓磨缺席原因未取得官方說明。",
+        "加藤舊傷公告有日期，未核實新復操／醫療狀況。",
+        "Gmail仍缺工具要求link_id，保留既有確認編排。"
+      ]
     }
   },
   "participant_card_audit": {
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-28",
     "teams": {
       "kashiwa": {
         "source": {
-          "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
-          "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
-          "accessed_at": "2026-11-25"
+          "label": "J.League官方・28日正式正選／全後備／六名球證",
+          "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+          "accessed_at": "2026-11-28",
+          "published_at": "2026-11-28"
         },
-        "actual_participants": 14,
-        "linked_cards": 14,
+        "announced_players": 20,
+        "starters": 11,
+        "bench": 9,
+        "linked_cards": 20,
         "missing_cards": [],
-        "selection_date": "2026-11-24",
-        "matchday_selection_pending": true,
-        "biography_note": "有永久卡不等於完整人物研究；本次沒有改動球員驗證狀態。"
+        "existing_verified_cards": 20,
+        "vitals_and_career_fields_present": 20,
+        "selection_date": "2026-11-28",
+        "matchday_selection_pending": false,
+        "players": [
+          {
+            "number": "29",
+            "player_id": "jleague_kashiwa_29",
+            "official_player_id": "1300058",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "4",
+            "player_id": "jleague_kashiwa_4",
+            "official_player_id": "1603080",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "26",
+            "player_id": "jleague_kashiwa_26",
+            "official_player_id": "1600029",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "32",
+            "player_id": "jleague_kashiwa_32",
+            "official_player_id": "1637309",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "44",
+            "player_id": "jleague_kashiwa_44",
+            "official_player_id": "1635506",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "24",
+            "player_id": "jleague_kashiwa_24",
+            "official_player_id": "1634324",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "28",
+            "player_id": "jleague_kashiwa_28",
+            "official_player_id": "1611125",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "39",
+            "player_id": "jleague_kashiwa_39",
+            "official_player_id": "1635453",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "87",
+            "player_id": "jleague_kashiwa_87",
+            "official_player_id": "1635485",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "8",
+            "player_id": "jleague_kashiwa_8",
+            "official_player_id": "1500292",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "15",
+            "player_id": "jleague_kashiwa_15",
+            "official_player_id": "1618640",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "25",
+            "player_id": "jleague_kashiwa_25",
+            "official_player_id": "1300961",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "2",
+            "player_id": "jleague_kashiwa_2",
+            "official_player_id": "1600210",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "13",
+            "player_id": "jleague_kashiwa_13",
+            "official_player_id": "1200017",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "5",
+            "player_id": "jleague_kashiwa_5",
+            "official_player_id": "1600177",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "6",
+            "player_id": "jleague_kashiwa_6",
+            "official_player_id": "1620802",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "11",
+            "player_id": "jleague_kashiwa_11",
+            "official_player_id": "1617910",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "20",
+            "player_id": "jleague_kashiwa_20",
+            "official_player_id": "1600146",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "40",
+            "player_id": "jleague_kashiwa_40",
+            "official_player_id": "900649",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "9",
+            "player_id": "jleague_kashiwa_9",
+            "official_player_id": "1625303",
+            "existing_card_status": "verified"
+          }
+        ],
+        "biography_note": "本次核對選拔、身份映射、卡片連結及既有欄位；沒有重新逐項認證全部人物史料，也沒有改動永久卡狀態。"
       },
       "hiroshima": {
         "source": {
-          "label": "J.League官方・25日FC東京2–2廣島及換人",
-          "url": "https://www.jleague.jp/match/j1/2026/112503/",
-          "accessed_at": "2026-11-25"
+          "label": "J.League官方・28日正式正選／全後備／六名球證",
+          "url": "https://www.jleague.jp/match/j1/2026/112806/lineup/",
+          "accessed_at": "2026-11-28",
+          "published_at": "2026-11-28"
         },
-        "actual_participants": 16,
-        "linked_cards": 16,
+        "announced_players": 20,
+        "starters": 11,
+        "bench": 9,
+        "linked_cards": 20,
         "missing_cards": [],
-        "selection_date": "2026-11-25",
-        "matchday_selection_pending": true,
-        "biography_note": "有永久卡不等於完整人物研究；本次沒有改動球員驗證狀態。"
+        "existing_verified_cards": 20,
+        "vitals_and_career_fields_present": 20,
+        "selection_date": "2026-11-28",
+        "matchday_selection_pending": false,
+        "players": [
+          {
+            "number": "1",
+            "player_id": "hiroshima_1",
+            "official_player_id": "1600203",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "4",
+            "player_id": "hiroshima_4",
+            "official_player_id": "1604880",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "15",
+            "player_id": "hiroshima_15",
+            "official_player_id": "1635465",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "37",
+            "player_id": "hiroshima_37",
+            "official_player_id": "1627198",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "5",
+            "player_id": "hiroshima_5",
+            "official_player_id": "1624653",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "14",
+            "player_id": "hiroshima_14",
+            "official_player_id": "1607284",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "18",
+            "player_id": "hiroshima_18",
+            "official_player_id": "1602205",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "35",
+            "player_id": "hiroshima_35",
+            "official_player_id": "1641144",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "10",
+            "player_id": "hiroshima_10",
+            "official_player_id": "1636237",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "22",
+            "player_id": "hiroshima_22",
+            "official_player_id": "1648186",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "23",
+            "player_id": "hiroshima_23",
+            "official_player_id": "1622855",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "21",
+            "player_id": "hiroshima_21",
+            "official_player_id": "1503714",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "99",
+            "player_id": "hiroshima_99",
+            "official_player_id": "1602209",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "6",
+            "player_id": "hiroshima_6",
+            "official_player_id": "1300179",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "7",
+            "player_id": "hiroshima_7",
+            "official_player_id": "1618152",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "32",
+            "player_id": "hiroshima_32",
+            "official_player_id": "1632409",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "45",
+            "player_id": "hiroshima_45",
+            "official_player_id": "1650817",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "46",
+            "player_id": "hiroshima_46",
+            "official_player_id": "1650815",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "9",
+            "player_id": "hiroshima_9",
+            "official_player_id": "1638769",
+            "existing_card_status": "verified"
+          },
+          {
+            "number": "41",
+            "player_id": "hiroshima_41",
+            "official_player_id": "1200343",
+            "existing_card_status": "verified"
+          }
+        ],
+        "biography_note": "本次核對選拔、身份映射、卡片連結及既有欄位；沒有重新逐項認證全部人物史料，也沒有改動永久卡狀態。"
       }
     },
-    "scope": "最近一場實際出場者對永久卡；不是下場完整登錄／官方選拔審核。"
+    "scope": "本場官方22名正選及18名後備；不是預測陣容，未開賽不稱實際出場40人。",
+    "previous_match_audit": {
+      "as_of": "2026-11-25",
+      "teams": {
+        "kashiwa": {
+          "source": {
+            "label": "柏官方・11月24日亞冠精英聯賽賽果／名單／換人／訪問",
+            "url": "https://www.reysol.co.jp/game/results/202627/1124.php",
+            "accessed_at": "2026-11-25"
+          },
+          "actual_participants": 14,
+          "linked_cards": 14,
+          "missing_cards": [],
+          "selection_date": "2026-11-24",
+          "matchday_selection_pending": true,
+          "biography_note": "有永久卡不等於完整人物研究；本次沒有改動球員驗證狀態。"
+        },
+        "hiroshima": {
+          "source": {
+            "label": "J.League官方・25日FC東京2–2廣島及換人",
+            "url": "https://www.jleague.jp/match/j1/2026/112503/",
+            "accessed_at": "2026-11-25"
+          },
+          "actual_participants": 16,
+          "linked_cards": 16,
+          "missing_cards": [],
+          "selection_date": "2026-11-25",
+          "matchday_selection_pending": true,
+          "biography_note": "有永久卡不等於完整人物研究；本次沒有改動球員驗證狀態。"
+        }
+      },
+      "scope": "最近一場實際出場者對永久卡；不是下場完整登錄／官方選拔審核。"
+    }
   },
   "scheduled_refresh_20261126": {
     "verified_new_claims": 3,

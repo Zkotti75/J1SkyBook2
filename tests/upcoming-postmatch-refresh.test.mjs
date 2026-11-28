@@ -12,12 +12,12 @@ test('four independent Football LAB season samples retain verified values, ranks
  }
  const n=dossiers[0];const html=renderMatchPage({home:read('data/clubs/nagasaki.json'),away:read('data/clubs/kawasaki.json'),dossier:n,date:n.date,page:'analytics'});assert.ok(!/1\.507|1\.119|16\.4%/.test(html));assert.ok(html.includes('1.026'));assert.ok(html.includes('1.557'));
 });
-test('fresh results, actual participant cards and timed workload remain separate from unknown next selections',()=>{
+test('fresh results, actual participant cards and timed workload remain separate from announced selections',()=>{
  let participants=0;
  for(const d of dossiers){assert.equal(matchPages(d).length,10);assert.equal(d.standings.rows.length,20);for(const [slug,t]of Object.entries(d.teams)){
-  assert.equal(t.stats.played,d.date==='2026-11-28'&&slug==='hiroshima'?16:15);assert.equal(t.game_log.filter(g=>g.competition==='J1'&&g.score).length,t.stats.played);assert.equal(t.game_log.filter(g=>g.competition==='J1').length,38);assert.ok(t.game_log.filter(g=>g.date>d.as_of).every(g=>g.score===null));assert.equal(t.lineup.starters.length,d.date==='2026-11-25'?11:0);assert.equal(t.lineup.bench.length,d.date==='2026-11-25'?9:0);
+  assert.equal(t.stats.played,d.date==='2026-11-28'&&slug==='hiroshima'?16:15);assert.equal(t.game_log.filter(g=>g.competition==='J1'&&g.score).length,t.stats.played);assert.equal(t.game_log.filter(g=>g.competition==='J1').length,38);assert.ok(t.game_log.filter(g=>g.date>d.as_of).every(g=>g.score===null));assert.equal(t.lineup.starters.length,11);assert.equal(t.lineup.bench.length,9);
   for(const key of ['minutes','prior_minutes'])assert.equal(t.workload.minutes.reduce((s,r)=>s+r[key],0),990);
-  const cards=read('data/clubs/'+slug+'.json').players;for(const row of t.workload.minutes)assert.ok(cards.some(p=>p.number===row.number));participants+=d.participant_card_audit.teams[slug].actual_participants;
+  const cards=read('data/clubs/'+slug+'.json').players;for(const row of t.workload.minutes)assert.ok(cards.some(p=>p.number===row.number));participants+=(d.participant_card_audit.previous_match_audit||d.participant_card_audit).teams[slug].actual_participants;
  }}assert.equal(participants,70);assert.equal(dossiers[1].teams.kashiwa.game_log.find(g=>g.date==='2026-11-24').score,'2–1');
  const h=dossiers[1].teams.hiroshima;assert.equal(h.game_log.find(g=>g.date==='2026-11-21').score,'2–2');assert.equal(h.workload.minutes.find(p=>p.number==='29').prior_minutes,32);assert.equal(h.workload.minutes.find(p=>p.number==='22').minutes,55);assert.ok(h.injuries.find(p=>p.number==='29').text.includes('未確認原因'));
  const n=dossiers[0].teams.nagasaki;assert.ok(n.injuries.find(p=>p.number==='50').text.includes('韌帶損傷'));assert.equal(n.game_log.find(g=>g.date==='2026-11-21').score,'0–0');
